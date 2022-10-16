@@ -1,4 +1,4 @@
-## Build Laravel 6 SPA + GraphQL API
+# Build Laravel 6 SPA + GraphQL API
 
 ![Alt Text](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033568489/LKfR-gmG8.gif)
 
