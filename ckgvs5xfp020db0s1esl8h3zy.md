@@ -1,4 +1,4 @@
-## Báo chí nói về sản phẩm của ePlus.DEV
+# Báo chí nói về sản phẩm của ePlus.DEV
 
 Trong thời gian tránh dịch rảnh rỗi, có rất nhiều hot trend được giới trẻ tạo ra, và mới đây nhất không thể không kể đến đó là cách làm một tấm ảnh trang cá nhân Instagram của bạn hoặc bất kì ai trong suốt. Cách làm rất đơn giản, hãy cùng thực hiện theo một vài bước trong bài viết này là được nhé.
 Thật ra bạn có thể làm trên bất kì đâu, chỉ cần một trình duyệt web và không cần tải app nào khác về. Đầu tiên, hãy vào trang Instagram của bạn lựa một tấm hình đẹp nhất và bấm vào dấu ba chấm ở góc phải rồi chọn copy link (sao chép liên kết).
