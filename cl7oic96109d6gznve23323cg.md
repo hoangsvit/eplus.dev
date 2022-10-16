@@ -1,4 +1,4 @@
-## [Packages] Beautiful Log Viewer for Laravel
+# [Packages] Beautiful Log Viewer for Laravel
 
 > Introducing the brand new Log Viewer for Laravel. Open-source with tons of features, fast and beautiful. What more do you need?
 
