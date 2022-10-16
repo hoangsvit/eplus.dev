@@ -1,4 +1,4 @@
-## iHateRegex - a regex cheatsheet for the haters - don't just use; understand.
+# iHateRegex - a regex cheatsheet for the haters - don't just use; understand.
 
 <div align="center">
   
