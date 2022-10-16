@@ -1,4 +1,4 @@
-## How I built Realtime in Laravel + VueJS
+# How I built Realtime in Laravel + VueJS
 
 In this article, I will introduce the simplest integration of Realtime, after many learning and optimization in the most effective way.
 
