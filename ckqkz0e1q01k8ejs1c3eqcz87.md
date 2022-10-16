@@ -1,4 +1,4 @@
-## How did I build a free status page for my website?
+# How did I build a free status page for my website?
 
 In the days of the Covid-19 lockdown in Ho Chi Minh, Vietnam. I have been working from home for the past 2 months. In my free time, I share how to create a status statistics page, although it seems quite new or there are paid packages with great features, but for personal needs I choose free services.
 
