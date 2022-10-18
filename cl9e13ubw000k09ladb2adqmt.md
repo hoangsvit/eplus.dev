@@ -356,11 +356,3 @@ class TerminatingMiddleware
 Look at the `terminate` method, It receives both the request and the response. Once we have defined a terminable middleware, we should add it to the list of routes or global middleware in the `app/Http/Kernel.php` file.
 
 Source: [laravelia](https://www.laravelia.com/post/complete-explanation-with-example-on-laravel-middleware)
-
-
-
-
-
-
-
-
