@@ -1,9 +1,10 @@
 # SHARE SCRIPT Kích Hoạt IDM Cực Sạch Không Lo Virus
 
 ⚠️ Lưu ý 1: Nếu có điều kiện thì bạn nên mua bản quyền ủng hộ tác giả, bạn có thể mua từ đại lý chính thức của IDM tại VN có thông tin tại trang chủ: internetdownloadmanager.com/buy.html
+
 ⚠️ Lưu ý 2: Các tool dạng này mã nguồn mở nên sau này cũng sẽ bị fix sớm, nên hãy xem lại lưu ý 1  ( ͡° ͜ʖ ͡°)
 
-Link tải script: https://j2c.cc/Activate_IDM
+Link tải script: [https://j2c.cc/Activate_IDM](https://j2c.cc/Activate_IDM)
 
 Chỉ cần tải về chạy quyền admin, ấn 1 để kích hoạt IDM là xong 😃
 
