@@ -21,11 +21,9 @@ Don't like the Achievements? [Here](https://docs.github.com/account-and-profile/
 | Pair Extraordinaire | ![Pair Extraordinaire Badge](https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png) | ✔️ | [Coauthored](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/creating-a-commit-with-multiple-authors) in a merged pull request
 | Quickdraw | ![Quickdraw Badge](https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png) | ✔️ | Closed an issue or a pull request within 5 min of opening
 | Starstruck | ![Starstruck Badge](https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png) | ✔️ | Created a repository that has 16 stars
-||| <!-- this empty row is intentional to separate -->
 | Galaxy Brain | ![Galaxy Brain Badge](https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png) | ✔️ | 2 accepted answers
 | Pull Shark | ![Pull Shark Badge](https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png) | ✔️ | 2 pull requests merged
 | YOLO | ![YOLO Badge](https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png) | ✔️ | Merged a pull request without code review
-||| <!-- this empty row is intentional to separate -->
 | Arctic Code Vault Contributor | ![Arctic Code Vault Contributor Achievement Badge](https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png) | ❌ | Contributed code to repositories in the [2020 GitHub Archive Program](https://archiveprogram.github.com/)
 | Public Sponsor | ![GitHub Sponsor Achievement Badge](https://github.githubassets.com/images/modules/profile/achievements/public-sponsor-default.png) | ✔️ | Sponsoring open source work via [GitHub Sponsors](https://github.com/sponsors)
 | Mars 2020 Contributor | ![Mars 2020 Helicopter Contributor Achievement Badge](https://github.githubassets.com/images/modules/profile/achievements/mars-2020-contributor-default.png) | ❌ | Contributed code to repositories used in the [Mars 2020 Helicopter Mission](https://github.com/readme/nasa-ingenuity-helicopter)
@@ -85,17 +83,15 @@ See them live, including the animation some have, for example here:
 
 | Title | Sample |
 | --- | --- |
-Pair Extraordinaire | [Live 100 % unlocked sample by @Rongronggg9](https://github.com/Rongronggg9?achievement=pair-extraordinaire&tab=achievements)
-Quickdraw | [Live 100 % unlocked sample by @Schweinepriester](https://github.com/Schweinepriester?achievement=quickdraw&tab=achievements)
-Starstruck | [Live 100 % unlocked sample by @torvalds](https://github.com/torvalds?achievement=starstruck&tab=achievements)
-||| <!-- this empty row is intentional to separate -->
-Galaxy Brain | [Live 100 % unlocked sample by @ljharb](https://github.com/ljharb?achievement=galaxy-brain&tab=achievements)
-Pull Shark | [Live 100 % unlocked sample by @ljharb](https://github.com/ljharb?achievement=pull-shark&tab=achievements)
-YOLO | [Live 100 % unlocked sample by @Schweinepriester](https://github.com/Schweinepriester?achievement=yolo&tab=achievements)
-||| <!-- this empty row is intentional to separate -->
-Arctic Code Vault Contributor | [Live 100 % unlocked sample by @Schweinepriester](https://github.com/Schweinepriester?tab=achievements&achievement=arctic-code-vault-contributor)
-Public Sponsor | [Live 100 % unlocked sample by @ljharb](https://github.com/ljharb?tab=achievements&achievement=public-sponsor)
-Mars 2020 Contributor | [Live 100 % unlocked sample by @torvalds](https://github.com/torvalds?achievement=mars-2020-contributor&tab=achievements)
+| Pair Extraordinaire | [Live 100 % unlocked sample by @Rongronggg9](https://github.com/Rongronggg9?achievement=pair-extraordinaire&tab=achievements)
+| Quickdraw | [Live 100 % unlocked sample by @Schweinepriester](https://github.com/Schweinepriester?achievement=quickdraw&tab=achievements)
+| Starstruck | [Live 100 % unlocked sample by @torvalds](https://github.com/torvalds?achievement=starstruck&tab=achievements)
+| Galaxy Brain | [Live 100 % unlocked sample by @ljharb](https://github.com/ljharb?achievement=galaxy-brain&tab=achievements)
+| Pull Shark | [Live 100 % unlocked sample by @ljharb](https://github.com/ljharb?achievement=pull-shark&tab=achievements)
+| YOLO | [Live 100 % unlocked sample by @Schweinepriester](https://github.com/Schweinepriester?achievement=yolo&tab=achievements)
+| Arctic Code Vault Contributor | [Live 100 % unlocked sample by @Schweinepriester](https://github.com/Schweinepriester?tab=achievements&achievement=arctic-code-vault-contributor)
+| Public Sponsor | [Live 100 % unlocked sample by @ljharb](https://github.com/ljharb?tab=achievements&achievement=public-sponsor)
+| Mars 2020 Contributor | [Live 100 % unlocked sample by @torvalds](https://github.com/torvalds?achievement=mars-2020-contributor&tab=achievements)
 
 Do you know a user with all Achievements at the same time? Let me know!
 
@@ -124,6 +120,6 @@ Here are the old designs and names:
 
 | Title | Badge |
 | --- | --- |
-Arctic Code Vault Contributor | ![Arctic Code Vault Contributor Achievement Badge](/images/2021-04-19-2022-06-09/badge-arctic-code-vault-small.png)
-GitHub Sponsor | ![GitHub Sponsor Achievement Badge](/images/2021-04-19-2022-06-09/badge-sponsors-small.png)
-Mars 2020 Helicopter Contributor | ![Mars 2020 Helicopter Contributor Achievement Badge](images/2021-04-19-2022-06-09/badge-mars-2020-small.png)
+| Arctic Code Vault Contributor | ![Arctic Code Vault Contributor Achievement Badge](https://github.com/Schweinepriester/github-profile-achievements/raw/main/images/2021-04-19-2022-06-09/badge-arctic-code-vault-small.png)
+| GitHub Sponsor | ![GitHub Sponsor Achievement Badge](https://github.com/Schweinepriester/github-profile-achievements/raw/main/images/2021-04-19-2022-06-09/badge-sponsors-small.png)
+| Mars 2020 Helicopter Contributor | ![Mars 2020 Helicopter Contributor Achievement Badge](https://github.com/Schweinepriester/github-profile-achievements/raw/main/images/2021-04-19-2022-06-09/badge-mars-2020-small.png)
