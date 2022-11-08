@@ -1658,7 +1658,7 @@ Table of Contents
   * [Hook Relay](https://www.hookrelay.dev/) - Add webhook support to your app without the hassles: done-for-you queueing, retries with backoff, and logging. The free plan has 100 deliveries per day, 14-day retention, and 3 hook endpoints.
   * [Format Express](https://www.format-express.dev) - Instant online formatter for JSON / XML / SQL.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#)**
 
 ## Remote Desktop Tools
 
@@ -1667,7 +1667,7 @@ Table of Contents
   * [RemSupp](https://remsupp.com) — On-demand support and permanent access to devices (2 sessions/day for free)
   * [RustDesk](https://rustdesk.com/) - Open source virtual / remote desktop infrastructure for everyone!
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#)**
 
 ## Game Development
 
@@ -1683,7 +1683,7 @@ Table of Contents
   * [3Dassets.one](https://www.3dassets.one/) - Over 8,000 free/paid 3D models, and PBR materials for making textures.
   * [3DModelsCC0](https://www.3dmodelscc0.com/) - Library of public domain 3D models made for game development.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#)**
 
 ## Other Free Resources
 
@@ -1708,4 +1708,4 @@ HTML Themes and UI Kits to create your applications faster!
 
 
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#)**
