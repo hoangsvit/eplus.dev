@@ -1,4 +1,4 @@
-# free-for.dev
+# Free for developers
 
 # free-for.dev
 
