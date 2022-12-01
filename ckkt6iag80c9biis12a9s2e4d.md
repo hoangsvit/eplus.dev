@@ -1,31 +1,34 @@
 # How I built Realtime in Laravel + VueJS
 
-In this article, I will introduce the simplest integration of Realtime, after many learning and optimization in the most effective way.
+In this article, I will introduce the simplest integration of real-time, after much learning and optimization in the most effective way.
 
 Technologies used in the article:
 
-* [Backend Laravel 6x](https://laravel.com/docs/6.x/installation) 
-* [Fronent VueJS 2x](https://laravel.com/docs/6.x/frontend#writing-vue-components)
-* [GraphQL - Lighthouse (A framework for serving GraphQL from Laravel)](https://lighthouse-php.com)
-* [Pusher Channels](https://pusher.com/channels)
+*   [Backend Laravel 6x](https://laravel.com/docs/6.x/installation)
+    
+*   [Frontend VueJS 2x](https://laravel.com/docs/6.x/frontend#writing-vue-components)
+    
+*   [GraphQL - Lighthouse (A framework for serving GraphQL from Laravel)](https://lighthouse-php.com)
+    
+*   [Pusher Channels](https://pusher.com/channels)
+    
 
-I will skip the steps to install **Laravel + VueJS** and to register **Pusher**, you can learn how to set up at the paths I quoted above.
+I will skip the steps to install **Laravel + VueJS** and to register **Pusher**, you can learn how to set up the paths I quoted above.
 
 ### #Fontend VueJS
 
-I will guide the setup on the fontend VueJS side.
-Install the support package from the pusher + laravel echo side provided.
+I will guide the setup on the front end VueJS side. Install the support package from the pusher + Laravel echo side provided.
 
 ```bash
 npm install --save laravel-echo pusher-js
-``` 
+```
 
-Here I install a package named [vue-echo
-](https://www.npmjs.com/package/vue-echo-laravel/).
+Here I install a package named [vue-echo](https://www.npmjs.com/package/vue-echo-laravel/) .
 
 ```bash
 npm install vue-echo-laravel --save
-``` 
+```
+
 Next add the below configs to the **main.js**, **app.js** or **bootstrap.js** file (depending on your file).
 
 ```javascript
@@ -48,11 +51,12 @@ Vue.use(VueEcho, {
   }
 });
 ```
+
 This is the content I added to my project
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612587378336/mN4j0_bLz.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612587378336/mN4j0_bLz.png align="left")
 
-Once vue-echo is registered, every vue instance is able to subscribe to channels and listen to events through the this.$echo property on the connection you specified earlier.
+Once vue-echo is registered, every Vue instance is able to subscribe to channels and listen to events through the this.$echo property on the connection you specified earlier.
 
 ```javascript
 var vm = new Vue({
@@ -64,23 +68,26 @@ var vm = new Vue({
     }
 });
 ```
+
 This is the content I added to my project
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612587299888/xxvYQla9_.png)
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612587299888/xxvYQla9_.png align="left")
 
 ### #Backend Laravel
 
 Terminal
+
 ```bash
 composer require pusher/pusher-php-server
-``` 
+```
 
-At **config/app.php** you need to unhide or add this line 
+At **config/app.php** you need to unhide or add this line
 
 ```php
 App\Providers\BroadcastServiceProvider::class
-``` 
+```
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612587794102/VsG3kVLjr.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612587794102/VsG3kVLjr.png align="left")
 
 Finally, you will need to change your broadcast driver to pusher in your **.env** file:
 
@@ -95,16 +102,18 @@ CACHE_DRIVER=file
 QUEUE_CONNECTION=sync
 SESSION_DRIVER=file
 SESSION_LIFETIME=120
-``` 
+```
 
 #### #Create Event - From Backend
-* [Document Events - Laravel](https://laravel.com/docs/6.x/events)
-* [Document  Pusher Channels Events](https://pusher.com/docs/channels/using_channels/events)
+
+*   [Document Events - Laravel](https://laravel.com/docs/6.x/events)
+    
+*   [Document Pusher Channels Events](https://pusher.com/docs/channels/using_channels/events)
+    
 
 I will quickly create an Events named `NewMessageNotification` at `app\Events`
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612588328179/TqTLB9mkT.png)
-
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612588328179/TqTLB9mkT.png align="left")
 ```php
 <?php
 
@@ -148,28 +157,28 @@ class NewMessageNotification implements ShouldBroadcastNow
 }
 ```
 
-Register channels at `routes/channels.php` with`return Auth::check(); ` . I force the **Client-side** to log in to listen to the event.
-
+Register channels at `routes/channels.php` with`return Auth::check();` . I force the **Client-side** to log in to listen to the event.
 
 ```php
 Broadcast::channel('synchronized', function ($user) {
     return Auth::check();
 });
-``` 
+```
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612588622699/AnXUa1Hoh.png)
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612588622699/AnXUa1Hoh.png align="left")
 
-Check the dashboard in Pusher, if successful connection will be displayed.
+Check the dashboard in Pusher, if a successful connection will be displayed.
 
-![image (1).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612588795065/-hQheAw-j.png)
+![image (1).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612588795065/-hQheAw-j.png align="left")
 
 I'm going to use the Debug console function in Pusher to do the event quick send.
 
-![image (2).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612588827452/ctO8mpZcd.png)
+![image (2).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612588827452/ctO8mpZcd.png align="left")
 
-Or you can also use the Laravel Backend to post events, I will guide you in the following post, or [refer here](https://laravel.com/docs/6.x/events#dispatching-events). 
+Or you can also use the Laravel Backend to post events, I will guide you in the following post, or [refer here](https://laravel.com/docs/6.x/events#dispatching-events).
 
 And this is the result
-![image (3).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612589093926/nBzvBVr0s.png)
+
+![image (3).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1612589093926/nBzvBVr0s.png align="left")
 
 Have any questions, please comment below. Good luck.
