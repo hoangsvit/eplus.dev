@@ -7,102 +7,100 @@ The Instagram Basic Display API allows users of your app to get basic profile in
 The API can be used to access any type of Instagram account but only provides read-access to basic data. If you are building an app that will allow Instagram Businesses or Creators to publish media, moderate comments, identify @mentioned and hashtagged media, or get data about other Instagram users, use the Instagram Graph API instead.
 
 ## **Common Uses**
-Get an [Instagram User Access Token](https://developers.facebook.com/docs/instagram-basic-display-api/overview#instagram-user-access-tokens "Instagram User Access Token") and [permissions](https://developers.facebook.com/docs/instagram-basic-display-api/overview#permissions "permissions") from an Instagram user
-Get an Instagram user's [profile](https://developers.facebook.com/docs/instagram-basic-display-api/reference/user "profile")
-Get an Instagram user's [images, videos, and albums](https://developers.facebook.com/docs/instagram-basic-display-api/reference/media "images, videos, and albums")
 
-#### # Register on Instagram Basic Display API and get an Access Token
+Get an [Instagram User Access Token](https://developers.facebook.com/docs/instagram-basic-display-api/overview#instagram-user-access-tokens) and [permissions](https://developers.facebook.com/docs/instagram-basic-display-api/overview#permissions) from an Instagram user Get an Instagram user's [profile](https://developers.facebook.com/docs/instagram-basic-display-api/reference/user) Get an Instagram user's [images, videos, and albums](https://developers.facebook.com/docs/instagram-basic-display-api/reference/media)
 
-#### - Step 1: Create a Facebook App
-Go to [developers.facebook.com](developers.facebook.com "developers.facebook.com"), click **My Apps**, and create a new app. Once you have created the app and are in the **App Dashboard**, navigate to **Settings** > **Basic**, scroll the bottom of page, and click **Add Platform**.
+#### \# Register on Instagram Basic Display API and get an Access Token
 
-![Create a Facebook App](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033503553/Vxx6s8KXX.png)
+#### \- Step 1: Create a Facebook App
+
+Go to [developers.facebook.com](developers.facebook.com), click **My Apps**, and create a new app. Once you have created the app and are in the **App Dashboard**, navigate to **Settings** &gt; **Basic**, scroll the bottom of page, and click **Add Platform**.
+
+![Create a Facebook App](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033503553/Vxx6s8KXX.png align="left")
 
 Choose **Website**, add your website’s URL, and save your changes. You can change the platform later if you wish, but for this tutorial, use **Website**.
 
-![step-1-2](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033505615/_vXYMxCs6.png)
-
- ![step-1-3](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033507431/BEDvYHuHS.png)
-
- ![step-1-4](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033509405/ELVD4DWqO.png)
+![step-1-2](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033505615/_vXYMxCs6.png align="left")
+![step-1-3](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033507431/BEDvYHuHS.png align="left")
+![step-1-4](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033509405/ELVD4DWqO.png align="left")
 
 Please enter your website address below as an example
-```
+
+```php
 https://fc-share.gitlab.io/fc-template-instagram-document/auth/
 ```
-![step-1-5](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033511215/iAZWLA9zS.png)
- 
-#### - Step 2: Configure Instagram Basic Display
- 
- Click **Products**, locate the **Instagram** product, and click **Set Up** to add it to your app.
- 
- ![step-2-1](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033513182/AhiT1HfnJ.png)
- 
- Click **Basic Display**, scroll to the bottom of the page, then click **Create New App**.
- 
-![step-2-2](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033515181/aSKy69tZk.png)
 
-```
+![step-1-5](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033511215/iAZWLA9zS.png align="left")
+
+#### \- Step 2: Configure Instagram Basic Display
+
+Click **Products**, locate the **Instagram** product, and click **Set Up** to add it to your app.
+
+![step-2-1](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033513182/AhiT1HfnJ.png align="left")
+
+Click **Basic Display**, scroll to the bottom of the page, then click **Create New App**.
+
+![step-2-2](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033515181/aSKy69tZk.png align="left")
+```php
 https://fc-share.gitlab.io/fc-template-instagram-document/auth/
 ```
-#### - Step 3: Add an Instagram Test User
 
-Navigate to **Roles** > **Roles** and scroll down to the **Instagram Testers** section. Click **Add Instagram Testers** and enter your Instagram account’s username and send the invitation.
+#### \- Step 3: Add an Instagram Test User
 
-![step-3-1](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033517425/-Xg7cscYC.png)
- 
-![step-3-2](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033519305/K8zPyfs5k.png)
+Navigate to **Roles** &gt; **Roles** and scroll down to the **Instagram Testers** section. Click **Add Instagram Testers** and enter your Instagram account’s username and send the invitation.
 
-Open a new web browser and go to [www.instagram.com](http://www.instagram.com "www.instagram.com") and sign into your Instagram account that you just invited. **Navigate to (Profile Icon) > Edit Profile > Apps and Websites > Tester Invites** and accept the invitation.
+![step-3-1](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033517425/-Xg7cscYC.png align="left")
+![step-3-2](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033519305/K8zPyfs5k.png align="left")
 
-![step-3-3](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033521183/usJTdnjg-.png)
+Open a new web browser and go to [www.instagram.com](http://www.instagram.com) and sign into your Instagram account that you just invited. **Navigate to (Profile Icon) &gt; Edit Profile &gt; Apps and Websites &gt; Tester Invites** and accept the invitation.
+
+![step-3-3](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033521183/usJTdnjg-.png align="left")
 
 Your Instagram account is now eligible to be accessed by your Facebook app.
 
-#### - Step 4: Authenticate the Test User
+#### \- Step 4: Authenticate the Test User
 
-Access the token generator in the **App Dashboard > Products > Instagram > Basic Display** tab.
+Access the token generator in the **App Dashboard &gt; Products &gt; Instagram &gt; Basic Display** tab.
 
 Click on **Generate Token** button for Instagram Tester user of your app. Please note Tokens can only be generated for public Instagram accounts.
 
-![step-4-1](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033523106/izo1hV7Fx.png)
- 
- Authenticate if requested, follow the instructions, accept permissions and copy the Access Token it appears.
+![step-4-1](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033523106/izo1hV7Fx.png align="left")
 
-![step-4-2](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033524877/a_wUaP3-R.png)
+Authenticate if requested, follow the instructions, accept permissions and copy the Access Token it appears.
 
- ![step-4-3](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033526983/M0b7Xcs7x.png)
+![step-4-2](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033524877/a_wUaP3-R.png align="left")
+![step-4-3](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033526983/M0b7Xcs7x.png align="left")
+![step-for-customer-1](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033530047/17FXd1DM0.gif align="left")
 
- ![step-for-customer-1](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033530047/17FXd1DM0.gif)
- 
 Your Instagram account is now eligible to be accessed by your Facebook app.
 
-Construct the Authorization Window URL below, replacing `{app-id}` with your Instagram app’s ID (from the **App Dashboard > Products > Instagram > Basic Display > Instagram App ID** field) and `{redirect-uri}` with your website URL that you provided in Step 2 ("Valid OAuth Redirect URIs"). The URL must be exactly the same.
+Construct the Authorization Window URL below, replacing `{app-id}` with your Instagram app’s ID (from the **App Dashboard &gt; Products &gt; Instagram &gt; Basic Display &gt; Instagram App ID** field) and `{redirect-uri}` with your website URL that you provided in Step 2 ("Valid OAuth Redirect URIs"). The URL must be exactly the same.
 
-```
+```php
 https://api.instagram.com/oauth/authorize?client_id={app-id}&redirect_uri={redirect-uri}&scope=user_profile,user_media&response_type=code
 ```
 
 For example:
 
-```
+```php
 https://api.instagram.com/oauth/authorize?client_id=3518059988204696&redirect_uri=https://fc-share.gitlab.io/fc-template-instagram-document/auth/&scope=user_profile,user_media&response_type=code
 ```
+
 Open a new browser window and load the Authorization Window URL. It should appear and display your Instagram user’s name, the app’s name, and a description of the permissions your app is requesting.
 
-![step-for-customer-2](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033532970/2V5upj3w4.gif)
+![step-for-customer-2](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033532970/2V5upj3w4.gif align="left")
 
 Authenticate your Instagram test user by signing into the Authorization Window, then click `Authorize` to grant your app access to your profile data. Upon success, the page will redirect you to the redirect URI you included in the previous step and append an Authorization Code.
 
 For example:
 
-```
+```php
 https://fc-share.gitlab.io/fc-template-instagram-document/auth/?code=AQC-WbZmY....GbkbKVfzWPH3k0_p-HDkdyTvnpw#require
 ```
 
 Note that `#_` has been appended to the end of the redirect URI, but it is not part of the code itself. Copy the code (without the `#_` portion) so you can use it in the next step.
 
-```
+```php
 AQC-WbZmY....GbkbKVfzWPH3k0_p-HDkdyTvnpw
 ```
 
@@ -312,9 +310,11 @@ if (typeof Object.create !== "function") {
     accessToken: null,
   };
 })(jQuery, window, document);
-
 ```
-- JS
+
+*   JS
+    
+
 ```javascript
 <!-- BEGIN - FC Instagram - Script -->
     <script src="instagram/shared/js/FCInstagram.js"></script>
@@ -333,7 +333,8 @@ if (typeof Object.create !== "function") {
 <!-- END - FC Instagram - Script -->
 ```
 
-- CSS
+*   CSS
+    
 
 ```css
 /* *
@@ -386,7 +387,8 @@ if (typeof Object.create !== "function") {
 /* END - MEDIUM */
 ```
 
-- HTML
+*   HTML
+    
 
 ```html
 <!-- BEGIN - Show Instagram -->
@@ -394,22 +396,24 @@ if (typeof Object.create !== "function") {
 <!-- END - Show Instagram -->
 ```
 
-|#   | Required  |Default   | Type  | Description  |
-| ------------ | ------------ | ------------ | ------------ | ------------ |
-|accessToken   | Yes  |`null`   | String  | This is your Instagram Application AccessToken.  |
-|max  |No   |`9`   | Number  |  A number between `1` and `25` of photos to show. |
-|autoplay   |No   |`false`   | Boolean  | Video Autoplay `On` / `Off` with setup `true`/`false`.  |
-|complete   |No | ` null `  | Function  | A callback function to execute after the display of the photos.  |
+| # | Required | Default | Type | Description |
+| --- | --- | --- | --- | --- |
+| accessToken | Yes | `null` | String | This is your Instagram Application AccessToken. |
+| max | No | `9` | Number | A number between `1` and `25` of photos to show. |
+| autoplay | No | `false` | Boolean | Video Autoplay `On` / `Off` with setup `true`/`false`. |
+| complete | No | `null` | Function | A callback function to execute after the display of the photos. |
 
 ### Demo
 
-![Metam07rPf](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033535813/Tj0Fknunp.gif)
+![Metam07rPf](https://cdn.hashnode.com/res/hashnode/image/upload/v1604033535813/Tj0Fknunp.gif align="left")
 
-Live demo: [https://fc-share.gitlab.io/fc-template-instagram-document/](https://fc-share.gitlab.io/fc-template-instagram-document/ "https://fc-share.gitlab.io/fc-template-instagram-document/")
+Live demo: [https://fc-share.gitlab.io/fc-template-instagram-document/](https://fc-share.gitlab.io/fc-template-instagram-document/)
 
 ### Documention
 
-- [Register on Instagram Basic Display API and get an Access Token](https://fc-share.gitlab.io/fc-template-instagram-document/auth "Register on Instagram Basic Display API and get an Access Token")
-- [Get an Access Token](https://fc-share.gitlab.io/fc-template-instagram-document/auth/customer.html "Get an Access Token")
+*   [Register on Instagram Basic Display API and get an Access Token](https://fc-share.gitlab.io/fc-template-instagram-document/auth)
+    
+*   [Get an Access Token](https://fc-share.gitlab.io/fc-template-instagram-document/auth/customer.html)
+    
 
-Copyright: [https://eplus.dev](https://eplus.dev "https://eplus.dev")
+Copyright: [https://eplus.dev](https://eplus.dev)
