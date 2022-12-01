@@ -2,7 +2,7 @@
 
 # iHateRegex 😈
 
-[!\[image.png\](https://cdn.hashnode.com/res/hashnode/image/upload/v1660271914145/dY7KpoKZK.png align="center")](https://ihateregex.io)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1660271914145/dY7KpoKZK.png align="center")
 
 **don't just use; understand.**
 
@@ -116,7 +116,6 @@ You can also submit regex via this [google form](https://forms.gle/Cwo3VupujQJze
     | embedHeight | Height in pixels of the regex visualization embed |
     | tags | tags related to the expression (to be used later) |
     
-
 2.  Create a markdown file in `/static/regex/markdown/` named `<regex-id>.md` for longer description and explanation
     
     *&lt;regex-id&gt; is the* ***id*** *from* ***data.json***
