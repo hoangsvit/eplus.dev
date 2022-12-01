@@ -116,6 +116,11 @@ You can also submit regex via this [google form](https://forms.gle/Cwo3VupujQJze
     | embedHeight | Height in pixels of the regex visualization embed |
     | tags | tags related to the expression (to be used later) |
     
+    | Property | Definition |
+    | --- | --- |
+    | id | id |
+    |  |  |
+    
 2.  Create a markdown file in `/static/regex/markdown/` named `<regex-id>.md` for longer description and explanation
     
     *&lt;regex-id&gt; is the* ***id*** *from* ***data.json***
