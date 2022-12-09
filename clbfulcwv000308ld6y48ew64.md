@@ -17,3 +17,7 @@ Running low on battery and don’t have a laptop charger nearby? When you’re b
 ![GIF image of the Chrome browser with a zoom to the notification in the toolbar that says “Energy Saver is on.”](https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Battery-Saver.gif align="left")
 
 You’re always in control of personalizing the performance of Chrome. When these tools roll out to you, you'll be able to turn off either feature or mark your most important websites exempt from Memory Saver. You can find these controls under the three-dot menu in Chrome.
+
+Source:
+
+%[https://blog.google/products/chrome/new-chrome-features-to-save-battery-and-make-browsing-smoother/]
