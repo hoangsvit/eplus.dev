@@ -50,7 +50,7 @@ Types are being added in a way that brings the latest PHP type-hinting features 
 
 Starting in Laravel 10, [**invokable validation rules**](https://laravel.com/docs/9.x/validation#using-rule-objects) are now the default. When you create a new validation rule via artisan, this is what you can expect:
 
-```bash
+```apache
 # Laravel 9 creates a rule class that implements the
 # Illuminate\Contracts\Validation\Rule interface
 artisan make:rule Uppercase 
