@@ -26,6 +26,4 @@ Particular IT positions with a high level of recruiting difficulties such as **G
 
 *Download the detailed report and discover the most recent salaries of 17+ IT positions, and programming languages based on years of experience.*
 
-  
-
-[](https://itviec.com/blog/it-salary-report/#get-the-report)
+[Download file (Tải về)](https://cdn.discordapp.com/attachments/861209151202918460/1059021220198236221/npckt6tqdqclmy1yn-s1vnp59qqw2hj9ncy4jg-itviec_bao_cao_luong_it_2022_2023-vn.pdf)
