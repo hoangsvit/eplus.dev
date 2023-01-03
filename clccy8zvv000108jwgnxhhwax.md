@@ -1,4 +1,4 @@
-# Báo Cáo Lương It 2022-2023 (it Salary Report For 2022-2023)
+# Báo Cáo Lương IT 2022-2023 (IT Salary Report For 2022-2023)
 
 (English below)
 
