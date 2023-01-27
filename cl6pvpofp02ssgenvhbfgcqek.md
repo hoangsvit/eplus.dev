@@ -116,15 +116,21 @@ You can also submit regex via this [google form](https://forms.gle/Cwo3VupujQJze
     | embedHeight | Height in pixels of the regex visualization embed |
     | tags | tags related to the expression (to be used later) |
     
-    | Property | Definition |
-    | --- | --- |
-    | id | this is the slug and also the short name of the regex. cannot contain spaces and only contain url-safe characters |
-    |  |  |
-    
-      
-      
-    
-2. Create a markdown file in `/static/regex/markdown/` named `<regex-id>.md` for longer description and explanation
+
+| Property | Definition |
+| --- | --- |
+| id | this is the slug and also the short name of the regex. cannot contain spaces and only contain url-safe characters |
+| title | Title of the page. |
+| tagline | Tagline |
+| description | First line under the tagline and also the meta description |
+| regex | The actual regex string |
+| flag | regex flags associated with the expression. eg; g |
+| matchText | Array(line by line) of strings to be included in the string matching are |
+| cheatRegex | refer `static/regex/cheatsheet.json` and see what all cheats are relevent to this expression. (you can also add your own cheats into cheatsheet.json and refer to that) |
+| embedHeight | Height in pixels of the regex visualization embed |
+| tags | tags related to the expression (to be used later) |
+
+1. Create a markdown file in `/static/regex/markdown/` named `<regex-id>.md` for longer description and explanation
     
     *&lt;regex-id&gt; is the* ***id*** *from* ***data.json***
     
