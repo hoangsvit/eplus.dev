@@ -10,35 +10,35 @@
 
 ## Features 😎
 
-*   \[x\] Visual representation of regular expressions
+* \[x\] Visual representation of regular expressions
     
-*   \[x\] Matched strings - the Testing area
+* \[x\] Matched strings - the Testing area
     
-*   \[x\] Embed regular expression visualization on your sites
+* \[x\] Embed regular expression visualization on your sites
     
-*   \[x\] Regex code highlighting and validation
+* \[x\] Regex code highlighting and validation
     
-*   \[x\] Regex description with markdown support
+* \[x\] Regex description with markdown support
     
-*   \[ \] [Playground page](https://ihateregex.io/playground) where you can create your own expression and link to it.
+* \[ \] [Playground page](https://ihateregex.io/playground) where you can create your own expression and link to it.
     
-*   \[ \] User login and save the regex
+* \[ \] User login and save the regex
     
 
 ## Setup 🚀
 
-1.  Install [yarn](https://yarnpkg.com/)
+1. Install [yarn](https://yarnpkg.com/)
     
-2.  [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repo
+2. [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repo
     
-3.  Install dependencies ⚙️
+3. Install dependencies ⚙️
     
 
 ```bash
 $ yarn install
 ```
 
-4.  Test on localhost 🛠
+1. Test on localhost 🛠
     
 
 ```bash
@@ -46,7 +46,7 @@ $ yarn install
 $ yarn dev
 ```
 
-5.  Build and Start nuxt server 🚀
+1. Build and Start nuxt server 🚀
     
 
 ```bash
@@ -67,7 +67,7 @@ You can also submit regex via this [google form](https://forms.gle/Cwo3VupujQJze
 
 ### To contribute:
 
-1.  Add your regex to `/static/regex/data.json`
+1. Add your regex to `/static/regex/data.json`
     
     ```json
     {
@@ -116,7 +116,15 @@ You can also submit regex via this [google form](https://forms.gle/Cwo3VupujQJze
     | embedHeight | Height in pixels of the regex visualization embed |
     | tags | tags related to the expression (to be used later) |
     
-2.  Create a markdown file in `/static/regex/markdown/` named `<regex-id>.md` for longer description and explanation
+    | Property | Definition |
+    | --- | --- |
+    | id | this is the slug and also the short name of the regex. cannot contain spaces and only contain url-safe characters |
+    |  |  |
+    
+      
+      
+    
+2. Create a markdown file in `/static/regex/markdown/` named `<regex-id>.md` for longer description and explanation
     
     *&lt;regex-id&gt; is the* ***id*** *from* ***data.json***
     
@@ -127,17 +135,17 @@ That's it 🙌 Go ahead and shoot a new pull request✨✨
 
 There are 2 descriptions for each regex.
 
-*   One is the **description** property inside `/static/regex/data.json`.
+* One is the **description** property inside `/static/regex/data.json`.
     
-    *   This is used for page **meta description** as well.
+    * This is used for page **meta description** as well.
         
-    *   This is the **first description**
+    * This is the **first description**
         
-*   Second is a dedicated **markdown file** in `/static/regex/markdown/<file>.md`
+* Second is a dedicated **markdown file** in `/static/regex/markdown/<file>.md`
     
-    *   This should explain how the expression works in detail.
+    * This should explain how the expression works in detail.
         
-    *   This is the **long description**
+    * This is the **long description**
         
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1660272893736/0siiEuAHF.png align="center")
