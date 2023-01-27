@@ -67,9 +67,9 @@ You can also submit regex via this [google form](https://forms.gle/Cwo3VupujQJze
 
 ### To contribute:
 
-1. Add your regex to `/static/regex/data.json`
+- Add your regex to `/static/regex/data.json`
     
-    ```json
+```json
     {
       "id": "username",
       "title": "username",
@@ -102,6 +102,7 @@ You can also submit regex via this [google form](https://forms.gle/Cwo3VupujQJze
       ]
     }
     ```
+
 | Property | Definition |
 |------|------------|
 |  id|  this is the slug and also the short name of the regex. cannot contain spaces and only contain url-safe characters|
@@ -115,7 +116,7 @@ You can also submit regex via this [google form](https://forms.gle/Cwo3VupujQJze
 |  embedHeight | Height in pixels of the regex visualization embed  |
 | tags  | tags related to the expression (to be used later)  | 
 
-2. Create a markdown file in `/static/regex/markdown/` named `<regex-id>.md` for longer description and explanation
+- Create a markdown file in `/static/regex/markdown/` named `<regex-id>.md` for longer description and explanation
     
     *&lt;regex-id&gt; is the* ***id*** *from* ***data.json***
     
