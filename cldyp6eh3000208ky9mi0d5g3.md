@@ -8,7 +8,7 @@ If you'd like to set this up in your Laravel app, the Laravel Impersonate [**pac
 
 Just like all packages, require it with composer:
 
-```apache
+```php
 composer require lab404/laravel-impersonate
 ```
 
