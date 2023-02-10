@@ -26,3 +26,7 @@ php artisan model:import User path/to/Users.json
 ```
 
 You can learn more about this package, get full installation instructions, and view the [**source code**](https://github.com/vildanbina/laravel-model-json) on GitHub.
+
+Source:
+
+%[https://laravel-news.com/model-json-export-for-laravel]
