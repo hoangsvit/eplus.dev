@@ -1183,6 +1183,8 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
     
 * [ssllabs.com](http://ssllabs.com) — Very deep analysis of the configuration of any SSL web server
     
+* [experte.com](https://www.experte.com/ssl-check) — The SSL Checker provided by EXPERTE.com allows you to assess the security of your SSL certificate and website. By entering your domain, the tool verifies the validity of your SSL certificate, checks the protocols used, scans for known security vulnerabilities, and assesses the HTTP Security Headers on your website.
+    
 * [SOOS](https://soos.io/) - Free, unlimited SCA scans for open source projects. Detect and fix security threats before release. Protect your projects with a simple and effective solution.
     
 * [StackHawk](https://www.stackhawk.com/) Automate application scanning throughout your pipeline to find and fix security bugs before they hit production. Unlimited scans and environments for a single app.
