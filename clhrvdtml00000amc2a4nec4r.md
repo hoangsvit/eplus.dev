@@ -68,7 +68,7 @@ You can read more about how this works [here](https://github.com/rich-harris/dev
 
 ## 🛝 [Interactive server components](https://nuxt.com/blog/v3-5#interactive-server-components)
 
-This feature should be considered highly experimental, but thanks to some great work from @huang-julien we now support interactive content within server components via *slots* ([#20284](https://github.com/nuxt/nuxt/pull/20284)).
+This feature should be considered highly experimental, but thanks to some great work from [@huang-julien](https://github.com/huang-julien) we now support interactive content within server components via *slots* ([#20284](https://github.com/nuxt/nuxt/pull/20284)).
 
 You can follow the server component roadmap at [#19772](https://github.com/nuxt/nuxt/issues/19772).
 
