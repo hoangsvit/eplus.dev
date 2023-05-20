@@ -5,7 +5,7 @@ seoDescription: "Spammers have one goal, to send as much spam as cheaply as poss
 datePublished: Sat May 20 2023 04:05:30 GMT+0000 (Coordinated Universal Time)
 cuid: clhvgva2w000509l867g72ikf
 slug: laravel-smtp-crack-unveiling-the-vulnerability-with-laravel-smtp-checker-by-xcatze
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684553150444/3a832239-3155-4005-80c3-cb23f3814a98.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684555559283/39d6ddc4-6686-4f72-abbb-3110af9735c4.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1684555366111/b1cdb008-d07b-4c5b-ae5d-f3e69efbfcbb.png
 tags: laravel, security, email, smtp, sendgrid
 
@@ -21,7 +21,18 @@ I got the feeling that it works on non-SSL web apps, with just IP or unsecured d
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1684554040171/04628a1b-d4bb-4f39-8640-309163315ba9.png align="center")
 
-> Spammers have one goal, to send as much spam as cheaply as possible with good IPs that are not blocked, and we've been hearing more and more reports of Laravel apps getting their SMTP credentials hacked and then the attackers using those to send junk. This is not related to any vulnerability in Laravel itself. The issue is coming from improper server setups or not turning off debug mode. Hide your .env file Laravel ships with a .env file that holds many configuration variables, including your database information and your mail server details; if this file becomes web-accessible, anyone can get your sensitive data and use those credentials. By default, the directory structure of a default Laravel app has a public folder and that and only that should web-accessible. In most situations, following the documentation in the deployments, section will set this up probably for you. I've seen the majority of issues when developers try to install in a subdirectory and accidentally leave the .env file exposed. So double-check that for one, and I would highly suggest not installing it in a subdirectory unless you understand what you are doing. Instead, maybe consider using a subdomain.
+> Spammers have one goal, to send as much spam as cheaply as possible with good IPs that are not blocked, and we've been hearing more and more reports of Laravel apps getting their SMTP credentials hacked and then the attackers using those to send junk.  
+> This is not related to any vulnerability in Laravel itself. The issue is coming from improper server setups or not turning off debug mode.  
+>   
+> Hide your .env file
+> 
+> Laravel ships with a .env file that holds many configuration variables, including your database information and your mail server details; if this file becomes web-accessible, anyone can get your sensitive data and use those credentials.
+> 
+> By default, the directory structure of a default Laravel app has a public folder and that and only that should web-accessible.
+> 
+> In most situations, following the documentation on deployments section will set this up probably for you.
+> 
+> *Feedback from* ***Laravel***
 
 I'm sorry to hear about the issue you're facing. It seems that you received notifications about your **SMTP** credentials being used to send unauthorized emails, and upon checking the logs, you found that these emails were sent using your SMTP information. You first investigated your application's source code but didn't find any issues, as you manage your source code using Git. After further research, you discovered that this is a new vulnerability in Laravel. You attempted to hide the .env file, but it was not successful, and your SMTP credentials continue to be abused. When you sought assistance from Sendgrid technicians, they informed you that you were being attacked from the IP address: [**xx.xxx.xx**](http://xx.xxx.xx)**/.env**. Although you had previously blocked the **domain/.env**, it appears to be a severe vulnerability.
 
