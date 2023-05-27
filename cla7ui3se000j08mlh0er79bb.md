@@ -177,7 +177,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
     * Full, detailed list - [https://www.ibm.com/cloud/free/](https://www.ibm.com/cloud/free/)
         
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Cloud management solutions
 
@@ -192,7 +192,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [scalr.com](http://scalr.com) - Scalr is a Terraform Automation and COllaboration (TACO) product, used to better collaboration and automation on infrastructure and configurations managed by Terraform. Full support of Terraform CLI, integration with OPA and a hierarchical configuration model. No SSO tax. All features are included. Use up to 50 runs / month for free.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Source Code Repos
 
@@ -255,7 +255,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [savannah.nongnu.org](http://savannah.nongnu.org) - Serves as a collaborative software development management system for free Software projects (for non-GNU projects)
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## APIs, Data and ML
 
@@ -554,7 +554,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Zipcodestack](https://zipcodestack.com/) - Free Zip Code API and Postal Code Validation. 10000 free requests/month.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Artifact Repos
 
@@ -577,7 +577,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [paperspace](https://www.paperspace.com/) — Build & scale AI models, Develop, train, and deploy AI applications, free plan: public projects, 5Gb storage, basic instances.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Tools for Teams and Collaboration
 
@@ -736,7 +736,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Webvizio](https://webvizio.com/) — Website feedback tool, website review software, and bug reporting tool for streamlining web development collaboration on tasks directly on live websites and web apps, images, PDFs, and design files.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## CMS
 
@@ -773,7 +773,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [InstaWP](https://instawp.com/) - Launch a WordPress site in a few seconds. A free tier with: 5 Active Sites, 500 MB Space, 48 hrs Site Expiry.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Code Generation
 
@@ -784,7 +784,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [tabnine.com](http://tabnine.com) — Tabnine helps developers create better software, faster by providing insights learned from all the code in the world. Plugin available.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Code Quality
 
@@ -857,7 +857,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [zoompf.com](http://zoompf.com) — Fix the performance of your web sites, detailed analysis
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Code Search and Browsing
 
@@ -874,7 +874,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [CodeKeep](https://codekeep.io/) - Google Keep for Code Snippets. Organize,Discover and share code snippets, featuring a powerful code screenshot tool with preset templates and linking feature.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## CI and CD
 
@@ -931,7 +931,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [microtica.com](http://microtica.com) - Spin up environments with ready-made infrastructure components, deploy apps on AWS for free and support your production workloads. The free tier includes 1 Environment (on your AWS account), 2 Kubernetes Services, 100 build minutes per month, and 20 deployments per month.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Testing
 
@@ -996,7 +996,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Vaadin](https://vaadin.com/) — Build scalable UIs in Java or TypeScript, and use the integrated tooling, components and design system to iterate faster, design better and simplify the development process. Unlimited Projects with 5 years free maintenance.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Security and PKI
 
@@ -1066,7 +1066,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
     
 * [ssllabs.com](http://ssllabs.com) — Very deep analysis of the configuration of any SSL web server
     
-* [experte.com](https://www.experte.com/ssl-check) — Ensure robust website security with [experte.com](http://experte.com) SSL checker: assess SSL certificate validity, protocols, vulnerabilities, and HTTP security headers.
+* [experte.com](http://experte.com) — Ensure robust website security with [experte.com](http://experte.com) SSL checker: assess SSL certificate validity, protocols, vulnerabilities, and HTTP security headers.
     
 * [SOOS](https://soos.io/) - Free, unlimited SCA scans for open source projects. Detect and fix security threats before release. Protect your projects with a simple and effective solution.
     
@@ -1093,7 +1093,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [FingerprintJS Browser Fingerprinting](https://www.fingerprint.com/) - FingerprintJS is a browser fingerprinting library that queries browser attributes and computes a hashed visitor identifier from them. Unlike cookies and local storage, a fingerprint stays the same in incognito/private mode and even when browser data is purged. Free tier version of Pro has 20,000 Requests per month.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Authentication, Authorization and User Management
 
@@ -1134,7 +1134,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [PropelAuth](https://propelauth.com/) — A Sell to companies of any size immediately with a few lines of code, free up to 200 users and 10k Transactional Emails (with a watermark branding: "Powered by PropelAuth").
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Management System
 
@@ -1153,7 +1153,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [ploi.io](http://ploi.io) - Server management tool to easily manage and deploy your servers & sites. Free for 1 server.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Messaging and Streaming
 
@@ -1188,7 +1188,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Scramjet Cloud Platform Beta](https://www.scramjet.org/#join-beta) - An end-to-end stream processing platform in free beta and offering 15 petabyte-seconds of free compute after the beta ends.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Log Management
 
@@ -1217,7 +1217,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [logzab.com](http://logzab.com) — Audit trail management system. Free 1.000 user activity log per month, 1 month retention, for up-to 5 projects.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Translation Management
 
@@ -1260,7 +1260,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Free PO editor](https://pofile.net/free-po-editor) — Free for everybody
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Monitoring
 
@@ -1377,7 +1377,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Pulsetic](https://pulsetic.com/) - 10 monitors, 6 Months Historical Uptime/Logs, unlimited status pages and custom domains included! For unlimited time and unlimited email alerts for free. No credit card required.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Crash and Exception Handling
 
@@ -1402,7 +1402,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Axiom](https://axiom.co/) — Store up to 0.5 TB of logs with 30 day retention. Includes integrations with platforms like Vercel and advanced data querying with email/Discord notifiers.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Search
 
@@ -1421,7 +1421,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Meilisearch](https://www.meilisearch.com/) - An open-source, lightning-fast, and hyper-relevant search engine that fits effortlessly into your apps, websites, and workflow. Free plan includes 100K documents and 10K searches/month.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Email
 
@@ -1588,7 +1588,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
     * [Analytics](https://zoho.com/analytics)
         
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Font
 
@@ -1617,7 +1617,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [FontsKey](https://www.fontskey.com/) - Provides free fonts for personal use and commercial paid fonts, and can enter text for quick filtering.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Forms
 
@@ -1684,7 +1684,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [SimplePDF.eu](http://SimplePDF.eu) - Embed a PDF editor on your website and turn any PDF into a fillable form. Free plan allows unlimited PDFs with 3 submissions per PDF.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## CDN and Protection
 
@@ -1747,7 +1747,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
     * [DNS Hosting](https://gcorelabs.com/dns/) — Free DNS hosting.
         
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## PaaS
 
@@ -1808,7 +1808,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Doprax Cloud](https://www.doprax.com/) — Cloud hosting for your Apps, Websites and APIs. Free for one app, with 4 \* 256MB ram and 2 GB of disk.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## BaaS
 
@@ -1879,7 +1879,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [LeanCloud](https://leancloud.app/) — Mobile backend. 1GB of data storage, 256MB instance, 3K API requests/day, 10K pushes/day are free. (API is very similar to Parse Platform)
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Low-code Platform
 
@@ -1898,7 +1898,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [outsystems.com](http://outsystems.com) — Enterprise web development PaaS for on-premise or cloud, free "personal environment" offering allows for unlimited code and up to 1 GB database
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Web Hosting
 
@@ -1957,7 +1957,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Patr Cloud](https://patr.cloud/) — An easy-to-use cloud platform, among its paid services it offers hosting 3 static sites for free.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## DNS
 
@@ -2002,7 +2002,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Glauca](https://docs.glauca.digital/hexdns/) – Free DNS hosting for up to 3 domains and DNSSEC support
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Domain
 
@@ -2013,7 +2013,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [pp.ua](http://pp.ua) — Free [pp.ua](http://pp.ua) subdomains.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## IaaS
 
@@ -2032,7 +2032,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [C2 Object Storage](https://c2.synology.com/en-us/pricing/object-storage) - S3 compatibility object storage. 15 GB free storage and 15 GB download per month.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## DBaaS
 
@@ -2105,7 +2105,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [8base.com](http://8base.com) - 8base is a full-stack low-code development platform built for JavaScript developers built on top of MySQL and GraphQL and serverless backend-as-a-service, it allows you to start building web applications quicky using a UI app builder and scale easily, Free tier includes: rows: 2,500, Storage: 500Mb, Serverless computing: 1Gb/h, client app users: 5.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Tunneling, WebRTC, Web Socket Servers and Other Routers
 
@@ -2144,7 +2144,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Traefik-Hub](https://traefik.io/traefik-hub/) - Publish locally running services over a tunnel to a public custom URL and secure them with access control. Free for 5 services in one cluster.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Issue Tracking and Project Management
 
@@ -2289,7 +2289,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Sflow](https://sflow.io/) — [sflow.io](http://sflow.io) is a project management tool that is built for software agile development, marketing, sales, and customer support, especially for outsourcing project and cross-organization collaboration project. Free plan up to 3 projects and 5 members.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Storage and Media Processing
 
@@ -2376,7 +2376,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [degoo.com](http://degoo.com) – AI based cloud storage with free up to 20 Gb, 3 devices, 5 Gb referral bonus (90 days account inactivity).
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Design and UI
 
@@ -2545,7 +2545,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [HyperUI](https://www.hyperui.dev/) -- Free Open Source Tailwind CSS Components.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Design Inspiration
 
@@ -2572,7 +2572,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Refero](https://refero.design/) - \[Web screenshots\] Tagged and searchable collection of design references from great web applications.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Data Visualization on Maps
 
@@ -2623,7 +2623,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Geokeo api](https://geokeo.com/) - Geocoding api with language correction and more. Worldwide coverage. 2,500 free daily queries
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Package Build System
 
@@ -2634,7 +2634,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [help.launchpad.net](http://help.launchpad.net) — Ubuntu and Debian build service.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## IDE and Code Editing
 
@@ -2725,7 +2725,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [PHPSandbox](https://phpsandbox.io/) — Online developement environment for PHP.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Analytics, Events and Statistics
 
@@ -2806,7 +2806,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [GrowthBook](https://growthbook.io/) - Open source feature flag and A/B testing provider with built-in Bayesian statistical analysis engine. Free for up to 3 users, unlimited feature flags and experiments.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Visitor Session Recording
 
@@ -2837,7 +2837,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [UXtweak.com](http://UXtweak.com) — Record and watch how visitors use your web site or app. Free unlimited time for small projects
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## International Mobile Number Verification API and SDK
 
@@ -2848,7 +2848,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [veriphone](https://veriphone.io/) — Global phone number verification in a free, fast, reliable JSON API. 1000 requests/month
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Payment and Billing Integration
 
@@ -2883,7 +2883,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Freecurrencyapi.net](http://Freecurrencyapi.net) — Free currency conversion and exchange rate data API. 10 requests/hour without an API key, 50 000 requests per month when you register for free.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Docker Related
 
@@ -2900,7 +2900,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Platform9](https://platform9.com/) - Managed Kubernetes plane. Free plan offers management capabilities up to 3 clusters & 20 nodes. Note: you must provide cluster infrastructure by yourself.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Vagrant Related
 
@@ -2909,7 +2909,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Vagrantbox.es](http://Vagrantbox.es) — An alternative public box index
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Dev Blogging Sites
 
@@ -2924,7 +2924,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [AyeDot](https://ayedot.com/) — Share your ideas, knowledge and stories with the world for Free, in form of Modern multimedia short-format Miniblogs.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Commenting Platforms
 
@@ -2937,7 +2937,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Disqus](https://disqus.com/) - Disqus is a networked community platform used by hundreds of thousands of sites all over the web.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Screenshot APIs
 
@@ -2960,7 +2960,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Screenshots](https://screenshotson.click/) — Your API for Screenshots. With highly customizable options for capture. Free 100 screenshots/month.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Flutter Related and Building IOS Apps without Mac
 
@@ -2971,7 +2971,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [FlutterFlow](https://flutterflow.io/) - FlutterFlow is a browser-based drag-and-drop interface to build mobile app using flutter.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Browser based hardware emulation written in Javascript
 
@@ -2982,7 +2982,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [v86](https://copy.sh/v86) — a x86 virtual machine capable of running Linux and other OS directly into the browser.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Privacy Management
 
@@ -2997,7 +2997,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Ketch](https://www.ketch.com/) - Consent management and privacy framework tool. Free tier offers most features with a limited visitor count.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Miscellaneous
 
@@ -3086,7 +3086,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [videoinu](https://videoinu.com/) — Create and edit screen recordings and other videos online.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Remote Desktop Tools
 
@@ -3099,7 +3099,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [RustDesk](https://rustdesk.com/) - Open source virtual / remote desktop infrastructure for everyone!
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Game Development
 
@@ -3132,7 +3132,7 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Poliigon](https://www.poliigon.com/) - Free and paid textures (with variable resolution), models, HDRIs, and brushes. Offers free plugins to export to software like Blender.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
 
 ## Other Free Resources
 
@@ -3183,4 +3183,4 @@ This list is the result of Pull Requests, reviews, ideas and work done by 1100+ 
 * [Glob tester](https://globster.xyz/) — A website that allows you to design and test glob patterns. It also provides resources to learn glob patterns.
     
 
-[**⬆️ Back to Top**](https://github.com/ripienaar/free-for-dev/blob/master/README.md#table-of-contents)
+[**⬆️ Back to Top**](https://eplus.dev/free-for-developers#table-of-contents)
