@@ -29,11 +29,6 @@ Select `Docker` for the runtime, and add the following environment variables und
 | --- | --- |
 | `DATABASE_URL` | The **internal database URL** for the database you created above. |
 | `DB_CONNECTION` | `pgsql` |
-
-| KEY | VALUE |
-| --- | --- |
-| `DATABASE_URL` | The **internal database URL** for the database you created above. |
-| `DB_CONNECTION` | `pgsql` |
 | `APP_KEY` | Copy the output of `php artisan key:generate --show` |
 
 That’s it! Your Laravel web app will be live on your Render URL as soon as the build finishes. You can test it out by registering and logging in.
