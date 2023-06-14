@@ -61,7 +61,7 @@ If you haven’t already, make sure to run `php artisan make:auth` to generate a
     }
     ```
     
-2. Configure your repo to deploy Laravel using Docker and NGINX. We’re building on the [nginx-php-fpm](https://gitlab.com/ric_harvey/nginx-php-fpm) Docker image as [shown here](https://github.com/hoangsvit/laravel-10x-docker/blob/main/Dockerfile), and adding [php-fpm configuration for NGINX](https://github.com/hoangsvit/laravel-10x-docker/blob/main/conf/nginx/nginx-site.conf) to tie everything together.
+2. Configure your repo to deploy Laravel using Docker and NGINX. We’re building on the [nginx-php-fpm](https://github.com/richarvey/nginx-php-fpm) Docker image as [shown here](https://github.com/hoangsvit/laravel-10x-docker/blob/main/Dockerfile), and adding [php-fpm configuration for NGINX](https://github.com/hoangsvit/laravel-10x-docker/blob/main/conf/nginx/nginx-site.conf) to tie everything together.
     
     Make sure to add the [.dockerignore](https://github.com/hoangsvit/laravel-10x-docker/blob/main/.dockerignore) file to your repo to avoid adding unnecessary or confidential information to your Docker image.
     
