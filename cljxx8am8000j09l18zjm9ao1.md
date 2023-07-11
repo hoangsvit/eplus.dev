@@ -15,7 +15,7 @@ AnyViewer là giải pháp điều khiển máy tính, hỗ trợ từ xa tươn
 
 Chỉ cần vào link giveaway ở trên ---&gt; Ấn vào nút "**$0 to Get**". Trang web sẽ cho bạn tải về file nén zip chứa file key và file cài đặt, hãy đọc file txt để lấy key bản quyền nhé
 
-**Lưu ý:** Thời điểm mình đăng bài này là chỉ còn 13 ngày nữa để sử dụng key kích hoạt, hãy kích hoạt trước 25/7/2023 nếu không key sẽ không thể kích hoạt được nữa.
+**Lưu ý:** Thời điểm mình đăng bài này là chỉ còn 13 ngày nữa để sử dụng key kích hoạt, hãy kích hoạt trước <mark>25/7/2023</mark> nếu không key sẽ không thể kích hoạt được nữa.
 
 Link:
 
