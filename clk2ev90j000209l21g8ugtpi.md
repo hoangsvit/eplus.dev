@@ -15,9 +15,9 @@ tags: upload, download, google-drive, player
 
 Website **Upload & Download File tốc độ cao và website Google Drive Player** (hổ trợ hơn 48+ nguồn video khác nhau trong đó có: Google Drive, Google Photos, Youtube, Facebook, Tiktok, Amazon,...).
 
-* Link Upload File tốc độ cao: [https://filetocdo.net](https://filetocdo.net)
+* Link Upload File tốc độ cao: [https://filetocdo.net](https://filetocdo.net/?source=https://eplus.dev/upload-download-file-toc-do-cao-va-website-google-drive-player)
     
-* Link Google Drive Player: [https://player.filetocdo.net](https://player.filetocdo.net)
+* Link Google Drive Player: [https://player.filetocdo.net](https://player.filetocdo.net/?source=https://eplus.dev/upload-download-file-toc-do-cao-va-website-google-drive-player)
     
 
 ##### **TÍNH NĂNG NỔI TRỘI:**
