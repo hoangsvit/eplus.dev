@@ -46,7 +46,7 @@ Tiếp tục câu chuyện của tôi, khi tôi làm thẻ tín dụng tại ng�
     
 * **10:00 30/06/2023:** Tôi đã liên hệ HD SAISON qua tổng đài **1900 55 88 54** gặp được tổng đài viên, qua quá trình trao đổi, tôi được cung cấp thông tin là đang có hợp đồng vay mua xe máy tại HD SAISON năm 2021, nhân viên có hỏi tôi một số thông tin đều không trùng khớp, cũng như tôi chưa từng cho ai mượn CMND để đi mua trả góp. Nhân viên có hỏi là tôi có bị mất CMND hay giấy tờ nào khác không, thì tôi mới nhớ ra là tôi từng bị mất CMND & GPLX vào năm 2013. Tôi được nhân viên hướng dẫn làm đơn khiếu nại và gửi về trụ sở chính *Tầng 8, 9, 10, Tòa Nhà Gilimex, 24C Phan Đăng Lưu, P.6, Q.Bình Thạnh, Tp. HCM, Việt Nam.*
     
-    ![](https://b-f9-zpcloud.zdn.vn/5689235703903062499/78d6437ceded3db364fc.jpg align="left")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689324642890/60a945ca-9d3e-4195-a278-dfc9f22b6931.jpeg align="center")
     
 * **13:32 30/06/2023:** Tôi đã viết xong đơn khiếu nại và đính kèm các thông tin tôi có được.
     
@@ -70,7 +70,7 @@ Tiếp tục câu chuyện của tôi, khi tôi làm thẻ tín dụng tại ng�
     
 * 08:51 05/07/2023: Nhận được cuộc gọi từ số 028.730.23689 (HD SAISON) gọi đến người gọi là người tên Chinh trước đó đã gọi đến cho tôi. Anh Chinh đã giải thích quá trình giải quyết hồ sơ của tôi, cũng như cam kết sẽ liên lạc với tôi qua số điện thoại của công ty.
     
-    ![](https://b-f9-zpcloud.zdn.vn/3551885605663066268/a626148eba1f6a41330e.jpg align="left")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689324712731/c2285714-43a6-494e-8cac-b81c9a69eee2.jpeg align="center")
     
 * 10:26 12/07/2023: Nhận được cuộc gọi từ số 028.730.23689 (HD SAISON) thông báo đã tổng hợp đầy đủ hồ sơ và sẽ cho nhân viên xuống làm việc trực tiếp với tôi, cũng như cho tôi xem thông tin về hợp đồng trả góp.
     
