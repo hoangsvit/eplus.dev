@@ -34,7 +34,7 @@ Tiếp tục câu chuyện của tôi, khi tôi làm thẻ tin dụng tại ngâ
 
 ![](https://f10-zpcloud.zdn.vn/6452098273572276272/88261b55cac31a9d43d2.jpg align="left")
 
-* **20:27 29/06/2023:** Tôi đã tìm cách liên lạc với bên HD SAISON qua tổng đài [**1900 55 88 54**](tel:1900 55 88 54) tuy nhiên ngoài giờ làm việc nên không gặp được nhân viên.
+* **20:27 29/06/2023:** Tôi đã tìm cách liên lạc với bên HD SAISON qua tổng đài **1900 55 88 54** tuy nhiên ngoài giờ làm việc nên không gặp được nhân viên.
     
 * **20:43 29/06/2023:** Tôi tìm cách liên lạc qua email [**thongtin@hdsaison.com.vn**](mailto:thongtin@hdsaison.com.vn) gửi nội dung khiếu nại qua email.
     
@@ -44,7 +44,7 @@ Tiếp tục câu chuyện của tôi, khi tôi làm thẻ tin dụng tại ngâ
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689320310294/471be96e-8363-4c0a-a52a-4ae729972294.png align="center")
     
-* **10:00 30/06/2023:** Tôi đã liên hệ HD SAISON qua tổng đài [**1900 55 88 54**](tel:1900 55 88 54) gặp được tổng đài viên, qua quá trình trao đổi, tôi được cung cấp thông tin là đang có hợp đồng vay mua xe máy tại HD SAISON năm 2021, nhân viên có hỏi tôi một số thông tin đều không trùng khớp, cũng như tôi chưa từng cho ai mượn CMND để đi mua trả góp. Nhân viên có hỏi là tôi có bị mất CMND hay giấy tờ nào khác không, thì tôi mới nhớ ra là tôi từng bị mất CMND & GPLX vào năm 2013. Tôi được nhân viên hướng dẫn làm đơn khiếu nại và gửi về trụ sở chính *Tầng 8, 9, 10, Tòa Nhà Gilimex, 24C Phan Đăng Lưu, P.6, Q.Bình Thạnh, Tp. HCM, Việt Nam.*
+* **10:00 30/06/2023:** Tôi đã liên hệ HD SAISON qua tổng đài **1900 55 88 54** gặp được tổng đài viên, qua quá trình trao đổi, tôi được cung cấp thông tin là đang có hợp đồng vay mua xe máy tại HD SAISON năm 2021, nhân viên có hỏi tôi một số thông tin đều không trùng khớp, cũng như tôi chưa từng cho ai mượn CMND để đi mua trả góp. Nhân viên có hỏi là tôi có bị mất CMND hay giấy tờ nào khác không, thì tôi mới nhớ ra là tôi từng bị mất CMND & GPLX vào năm 2013. Tôi được nhân viên hướng dẫn làm đơn khiếu nại và gửi về trụ sở chính *Tầng 8, 9, 10, Tòa Nhà Gilimex, 24C Phan Đăng Lưu, P.6, Q.Bình Thạnh, Tp. HCM, Việt Nam.*
     
     ![](https://b-f9-zpcloud.zdn.vn/5689235703903062499/78d6437ceded3db364fc.jpg align="left")
     
