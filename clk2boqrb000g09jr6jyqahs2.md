@@ -24,7 +24,7 @@ Nợ xấu được hiểu là các khoản nợ khó đòi khi người vay kh�
 
 ---
 
-Tiếp tục câu chuyện của tôi, khi tôi làm thẻ tin dụng tại ngân hàng OCB thì nhận được thông báo, tôi đang bị nợ xấu <mark>nhóm 4</mark> nên không thể mở thẻ tín dụng.
+Tiếp tục câu chuyện của tôi, khi tôi làm thẻ tín dụng tại ngân hàng OCB thì nhận được thông báo, tôi đang bị nợ xấu <mark>nhóm 4</mark> nên không thể mở thẻ tín dụng.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689319306997/941a26b7-1945-4bb9-a942-34dad2ddcbd0.png align="center")
 
