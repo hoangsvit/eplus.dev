@@ -56,7 +56,7 @@ Tiếp tục câu chuyện của tôi, khi tôi làm thẻ tin dụng tại ngâ
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689320907074/8575f842-e258-4031-968d-0180c39b8566.png align="center")
     
-* **14:48 30/06/2023:** Tôi nhận được cuộc gọi từ số điện thoại cá nhân 093x.9x1.xxx tự nhận là nhân viên HD SAISON tên Chinh, tôi trình bày các vấn đề gặp phải, người này nó cần có thời gian tổng hợp hồ sơ và gặp tôi để xác nhận thông tin.
+* **14:48 30/06/2023:** Tôi nhận được cuộc gọi từ số điện thoại cá nhân 093x.9x1.xxx tự nhận là nhân viên HD SAISON tên Chinh, tôi trình bày các vấn đề gặp phải, người này nói cần có thời gian tổng hợp hồ sơ và gặp tôi để xác nhận thông tin.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689323114997/81bc27c7-b662-4916-9951-b5dd7d7cfc7d.png align="center")
     
