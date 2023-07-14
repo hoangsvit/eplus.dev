@@ -76,11 +76,11 @@ Tiếp tục câu chuyện của tôi, khi tôi làm thẻ tín dụng tại ng�
     
     ![](https://b-f9-zpcloud.zdn.vn/7729613045285304/b841e5c25453840ddd42.jpg align="left")
     
-* 10:07 13/07/2023: Nhận được cuộc gọi từ số cá nhân 090.x1x.xxx tự nhân là nhân viên bên HD SAI SON, xin hẹn gặp tôi để giải quyết khiếu nại. Tôi đồng ý gặp và cho địa chỉ nhà riêng của tôi.
+* 10:07 13/07/2023: Nhận được cuộc gọi từ số cá nhân 090.x1x.xxx tự nhân là nhân viên bên HD SAISON, xin hẹn gặp tôi để giải quyết khiếu nại. Tôi đồng ý gặp và cho địa chỉ nhà riêng của tôi.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689323259500/df0a0660-0258-4161-933c-d02285becf7a.png align="center")
     
-    09:00 14/07/2023: Nhân viên HD SAISON đến nhà riêng của tôi. Tôi được nhân viên bên HD SAISON cho xem thông tin về hợp đồng, một số giấy từ bên HD SAISON cung cấp đều là giấy tờ (GPLX - bản giấy & CMND: cấp năm 2009) của tôi đã bị mất vào 2013, tuy nhiên đã bị làm giả bằng cách dán hình người khác vào.  
+    09:00 14/07/2023: Nhân viên HD SAISON đến nhà riêng của tôi. Tôi được cho xem thông tin về hợp đồng và một số giấy tờ mua trả góp. Các giấy tờ (GPLX - bản giấy & CMND: cấp năm 2009) của tôi đã bị mất vào 2013, tuy nhiên đã bị làm giả bằng cách dán hình người khác vào.  
     Vào thời điểm mất giấy tời, tôi đã đi làm lại CMND (cấp năm 2013), còn GPLX (bản giấy) thì tôi đã bỏ đi thi lại bằng lái (mặc dù tôi vẫn còn hồ sơ gốc nhưng vì thủ tục báo mất khá phức tạp, nên tôi đã học lại và lấy bằng mới - chất liệu thẻ PET).
     
 
