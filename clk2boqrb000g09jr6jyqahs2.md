@@ -74,7 +74,7 @@ Tiếp tục câu chuyện của tôi, khi tôi làm thẻ tín dụng tại ng�
     
 * 10:26 12/07/2023: Nhận được cuộc gọi từ số 028.730.23689 (HD SAISON) thông báo đã tổng hợp đầy đủ hồ sơ và sẽ cho nhân viên xuống làm việc trực tiếp với tôi, cũng như cho tôi xem thông tin về hợp đồng trả góp.
     
-    ![](https://b-f9-zpcloud.zdn.vn/7729613045285304/b841e5c25453840ddd42.jpg align="left")
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689324843285/9f729a32-5ce4-4395-ba79-2950ed10efe8.jpeg align="center")
     
 * 10:07 13/07/2023: Nhận được cuộc gọi từ số cá nhân 090.x1x.xxx tự nhân là nhân viên bên HD SAISON, xin hẹn gặp tôi để giải quyết khiếu nại. Tôi đồng ý gặp và cho địa chỉ nhà riêng của tôi.
     
