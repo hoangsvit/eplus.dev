@@ -1,4 +1,14 @@
-# Báo chí nói về sản phẩm của ePlus.DEV
+---
+title: "Báo chí nói về sản phẩm của ePlus.DEV"
+seoTitle: "Báo chí nói về sản phẩm của ePlus.DEV"
+seoDescription: "Trong thời gian tránh dịch rảnh rỗi, có rất nhiều hot trend được giới trẻ tạo ra, và mới đây nhất không thể không kể đến đó là cách làm một tấm ảnh trang cá"
+datePublished: Wed Sep 02 2020 17:12:05 GMT+0000 (Coordinated Universal Time)
+cuid: ckgvs5xfp020db0s1esl8h3zy
+slug: bao-chi-noi-ve-san-pham-cua-eplusdev
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1604033554557/y2OOtkGqj.png
+tags: news
+
+---
 
 Trong thời gian tránh dịch rảnh rỗi, có rất nhiều hot trend được giới trẻ tạo ra, và mới đây nhất không thể không kể đến đó là cách làm một tấm ảnh trang cá nhân Instagram của bạn hoặc bất kì ai trong suốt. Cách làm rất đơn giản, hãy cùng thực hiện theo một vài bước trong bài viết này là được nhé. Thật ra bạn có thể làm trên bất kì đâu, chỉ cần một trình duyệt web và không cần tải app nào khác về. Đầu tiên, hãy vào trang Instagram của bạn lựa một tấm hình đẹp nhất và bấm vào dấu ba chấm ở góc phải rồi chọn copy link (sao chép liên kết).
 
