@@ -1,5 +1,6 @@
 ---
 title: "Apple Pay Bắt Đầu Hỗ Trợ Thẻ VISA Của TPBank và VPBank Ở Việt Nam"
+seoTitle: "Apple Pay Bắt Đầu Hỗ Trợ Thẻ VISA Của TPBank và VPBank Ở Việt Nam"
 seoDescription: "Tính đến thời điểm hiện tại, dịch vụ thanh toán di động Apple Pay vẫn chưa chính thức được ra mắt tại Việt Nam. Tuy nhiên, có thông tin từ một số người dùng"
 datePublished: Fri Jul 21 2023 11:51:45 GMT+0000 (Coordinated Universal Time)
 cuid: clkcitpc7000209lcgrb846bu
