@@ -39,6 +39,8 @@ tags: news, netflix
 
 Theo đó, vào sáng 22/07/2023 khi tôi đăng nhập vào Netflix trên **TV** thì nhận được thông báo cần <mark>xác nhận TV thuộc hộ gia đình</mark>.
 
+Nếu không xem Netflix trên TV hoặc không có TV, thì bạn không cần thiết lập Hộ gia đình Netflix cho tài khoản của mình. 
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690004489980/5de12f47-e18e-42e3-bed3-276db0bfc149.jpeg align="center")
 
 Quy trình xác nhận thiết bị thuộc hộ gia đình khá đơn giản theo 2 hình thức <mark>email</mark> hoặc <mark>SMS</mark>.
@@ -67,15 +69,15 @@ Bạn có thể thiết lập hoặc cập nhật Hộ gia đình Netflix của 
     
 3. Chọn **Xác nhận Hộ gia đình Netflix** hoặc **Cập nhật Hộ gia đình Netflix của tôi**.
     
-4. Chọn **Gửi email** hoặc **Gửi tin nhắn**. Một liên kết xác minh sẽ được gửi đến địa chỉ email hoặc số điện thoại của tài khoản. Liên kết xác minh sẽ hết hạn sau 15 phút. 
+4. Chọn **Gửi email** hoặc **Gửi tin nhắn**. Một liên kết xác minh sẽ được gửi đến địa chỉ email hoặc số điện thoại của tài khoản. Liên kết xác minh sẽ hết hạn sau 15 phút.
     
     **LƯU Ý:**
     
     Nếu chưa thêm số điện thoại hoặc địa chỉ email vào tài khoản của mình, bạn sẽ chỉ nhìn thấy một tùy chọn.
     
-5. Nếu bạn không nhận được liên kết xác minh qua email hoặc tin nhắn, hãy nhấp vào **Gửi lại email** hoặc **Gửi lại tin nhắn**. Hoặc bạn có thể chọn một tùy chọn khác hoặc chọn **Nhắc tôi sau**. 
+5. Nếu bạn không nhận được liên kết xác minh qua email hoặc tin nhắn, hãy nhấp vào **Gửi lại email** hoặc **Gửi lại tin nhắn**. Hoặc bạn có thể chọn một tùy chọn khác hoặc chọn **Nhắc tôi sau**.
     
-6. Chọn **Đúng, đây là tôi** trong email hoặc nhấn vào liên kết trong tin nhắn văn bản, sau đó **Xác nhận Hộ gia đình Netflix** hoặc **Cập nhật Hộ gia đình Netflix** để tiếp tục. 
+6. Chọn **Đúng, đây là tôi** trong email hoặc nhấn vào liên kết trong tin nhắn văn bản, sau đó **Xác nhận Hộ gia đình Netflix** hoặc **Cập nhật Hộ gia đình Netflix** để tiếp tục.
     
 7. Bạn sẽ thấy xác nhận trên màn hình TV và nhận được email xác nhận. Chọn **Tiếp tục đến Netflix** để bắt đầu xem.
     
