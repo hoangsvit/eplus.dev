@@ -6,6 +6,7 @@ datePublished: Wed Sep 02 2020 17:12:05 GMT+0000 (Coordinated Universal Time)
 cuid: ckgvs5xfp020db0s1esl8h3zy
 slug: bao-chi-noi-ve-san-pham-cua-eplusdev
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1604033554557/y2OOtkGqj.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1690006413759/a14c707d-9f9e-44d6-ada6-0699248845f1.png
 tags: news
 
 ---
