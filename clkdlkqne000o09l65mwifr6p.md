@@ -52,3 +52,34 @@ Truy cập đường dẫn và bấm vào **nút xác nhận hộ gia đình**, 
 Màn hình quản lý thiết bị trên Netflix
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690005307368/f1571375-9fad-45bb-aa75-8e7106adaf76.png align="center")
+
+## **Cách thiết lập hoặc cập nhật Hộ gia đình Netflix**
+
+Hộ gia đình Netflix là tập hợp các thiết bị Netflix đang kết nối với internet tại địa điểm chính mà bạn xem Netflix. Có thể thiết lập Hộ gia đình Netflix bằng thiết bị TV. Các thiết bị sử dụng tài khoản Netflix của bạn đang kết nối cùng mạng internet với chiếc TV này sẽ tự động thuộc về Hộ gia đình Netflix của bạn.
+
+### **Thiết lập hoặc cập nhật Hộ gia đình Netflix của bạn**
+
+Bạn có thể thiết lập hoặc cập nhật Hộ gia đình Netflix của mình khi đăng nhập vào Netflix từ một TV đang kết nối với internet tại nhà bạn.
+
+1. Trên màn hình chính của Netflix trên TV, nhấn phím **trái** trên điều khiển từ xa để mở menu.
+    
+2. Chọn **Nhờ giúp đỡ** &gt; **Quản lý Hộ gia đình Netflix**.
+    
+3. Chọn **Xác nhận Hộ gia đình Netflix** hoặc **Cập nhật Hộ gia đình Netflix của tôi**.
+    
+4. Chọn **Gửi email** hoặc **Gửi tin nhắn**. Một liên kết xác minh sẽ được gửi đến địa chỉ email hoặc số điện thoại của tài khoản. Liên kết xác minh sẽ hết hạn sau 15 phút. 
+    
+    **LƯU Ý:**
+    
+    Nếu chưa thêm số điện thoại hoặc địa chỉ email vào tài khoản của mình, bạn sẽ chỉ nhìn thấy một tùy chọn.
+    
+5. Nếu bạn không nhận được liên kết xác minh qua email hoặc tin nhắn, hãy nhấp vào **Gửi lại email** hoặc **Gửi lại tin nhắn**. Hoặc bạn có thể chọn một tùy chọn khác hoặc chọn **Nhắc tôi sau**. 
+    
+6. Chọn **Đúng, đây là tôi** trong email hoặc nhấn vào liên kết trong tin nhắn văn bản, sau đó **Xác nhận Hộ gia đình Netflix** hoặc **Cập nhật Hộ gia đình Netflix** để tiếp tục. 
+    
+7. Bạn sẽ thấy xác nhận trên màn hình TV và nhận được email xác nhận. Chọn **Tiếp tục đến Netflix** để bắt đầu xem.
+    
+
+**LƯU Ý:**
+
+> "Kết nối internet" đề cập đến kết nối internet có dây hoặc không dây mà bạn sử dụng. Nếu bạn có nhiều mạng Wi-Fi, thì chúng tôi chỉ có thể liên kết một mạng với Hộ gia đình Netflix của bạn. Nếu bạn muốn xem Netflix trên các thiết bị đang kết nối với mạng Wi-Fi thông qua tài khoản ISP khác hoặc có địa chỉ IP bên ngoài khác, bạn có thể được yêu cầu xác minh rằng thiết bị đó thuộc Hộ gia đình Netflix. Đảm bảo thiết lập hoặc cập nhật Hộ gia đình Netflix của bạn từ một thiết bị đang kết nối với kết nối internet mà bạn ưu tiên hoặc sử dụng nhiều nhất.
