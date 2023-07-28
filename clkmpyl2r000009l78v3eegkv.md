@@ -15,8 +15,6 @@ tags: android, google, compose-camp, chienbinhandroid
 
 Chương trình #ChienBinhAndroid là một cơ hội tuyệt vời cho các lập trình viên muốn bắt đầu hành trình phát triển ứng dụng Android bằng việc sử dụng Compose. Dành cho cả người mới bắt đầu và những người có kinh nghiệm lập trình, chương trình học này do Google For Developers Vietnam tổ chức và miễn phí tham gia.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690556830402/af21b491-2a75-4d0c-83c6-416820ba8618.jpeg align="center")
-
 Thông tin chương trình:
 
 * Thời gian: Từ ngày <mark>14 tháng 07</mark> đến <mark>12 tháng 08 năm 2023</mark>. Đây là một tháng học tập miễn phí, trong đó bạn sẽ được học về việc phát triển ứng dụng Android sử dụng Compose.
@@ -27,6 +25,8 @@ Thông tin chương trình:
     
 * Phần quà đặc biệt: Học viên tham gia chương trình có thể nhận được các phần quà phiên bản giới hạn đặc biệt từ chương trình, đây sẽ là những phần thưởng và kỷ niệm đáng giá cho hành trình học tập của bạn.
     
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690556830402/af21b491-2a75-4d0c-83c6-416820ba8618.jpeg align="center")
 
 Nếu bạn quan tâm và muốn tham gia chương trình, hãy đăng ký ngay hôm nay để bắt đầu học tập từ ngày 14 tháng 07. Đây là cơ hội tốt để bạn khám phá và phát triển kỹ năng lập trình Android với Compose, một công nghệ đang ngày càng phát triển và trở nên phổ biến trong cộng đồng phát triển ứng dụng di động.
 
