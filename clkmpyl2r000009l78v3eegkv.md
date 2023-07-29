@@ -54,3 +54,43 @@ Link đăng ký: [http://goo.gle/ChienbinhAndroid](http://goo.gle/ChienbinhAndro
 * Tham gia cộng đồng học tập Android tại Việt Nam tại đây:
     
     [**goo.gle/ChienBinhAndroid-chat**](http://goo.gle/ChienBinhAndroid-chat)
+    
+
+---
+
+### Hành trình học tập
+
+#### **Android Basics with Compose**
+
+**Beginner** - new to Android app development. May or may not have prior programming experience. 8 Units, 20 pathways ~ 20 badges
+
+1. [Unit 1: Your first Android app (3 pathways)](https://developer.android.com/courses/android-basics-compose/unit-1)
+    
+2. [Unit 2: Building app UI (3 pathways)](https://developer.android.com/courses/android-basics-compose/unit-2)
+    
+3. [Unit 3: Display lists and use Material Design (3 pathways)](https://developer.android.com/courses/android-basics-compose/unit-3)
+    
+4. [Unit 4: Navigation and app architecture (3 pathways)](https://developer.android.com/courses/android-basics-compose/unit-4)
+    
+5. [Unit 5: Connect to the internet (2 pathways)](https://developer.android.com/courses/android-basics-compose/unit-5)
+    
+6. [Unit 6: Data persistence (3 pathways)](https://developer.android.com/courses/android-basics-compose/unit-6)
+    
+7. [Unit 7: WorkManager (1 pathway)](https://developer.android.com/courses/android-basics-compose/unit-7)
+    
+8. [Unit 8: Views and Compose  (2 pathways)](https://developer.android.com/courses/android-basics-compose/unit-8)
+    
+
+#### **Jetpack Compose for Android Developers**
+
+**Experienced** \- Experienced Android developers (already familiar with Kotlin and the View system) who are new to Compose. 5 pathways ~ 5 badges
+
+1. [Compose Essentials](https://developer.android.com/courses/pathways/jetpack-compose-for-android-developers-1)
+    
+2. [Layouts, theming, and animation](https://developer.android.com/courses/pathways/jetpack-compose-for-android-developers-2)
+    
+3. [Architecture and state](https://developer.android.com/courses/pathways/jetpack-compose-for-android-developers-3)
+    
+4. [Accessibility, testing, and performance](https://developer.android.com/courses/pathways/jetpack-compose-for-android-developers-4)
+    
+5. [Form factors](https://developer.android.com/courses/pathways/jetpack-compose-for-android-developers-5)
