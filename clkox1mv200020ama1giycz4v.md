@@ -67,16 +67,16 @@ tags: workmanager
     
     \[ \] Work type
     
-8. \*\*The Background Task Inspector lets you stop workers during their execution.\*\*  
+8. **The Background Task Inspector lets you stop workers during their execution.**  
     \[ \] True  
     \[x\] False
     
-9. **Which worker builder is recommended to test** `CoroutineWorker`s?  
+9. **Which worker builder is recommended to test** `CoroutineWorker`**s?**  
     \[ \] `OneTimeWorkRequestBuilder`  
     \[ \] `PeriodicWorkRequestBuilder`  
     \[ \] `TestWorkerBuilder`  
     \[x\] `TestListenableWorkerBuilder`
     
-10. **When testing worker implementations, you can call workers directly with** `doWork()` instead of enqueuing the worker.  
+10. **When testing worker implementations, you can call workers directly with** `doWork()` **instead of enqueuing the worker.**  
     \[x\] True  
     \[ \] False
