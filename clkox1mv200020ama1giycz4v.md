@@ -11,37 +11,37 @@ tags: workmanager
 ---
 
 1. **Which tool helps you visualize, monitor, and debug your app's workers?**  
-    [ ] ProfilerBackground  
-    [ ] Task  
-    [ ] InspectorLogcatDevice  
-    [ ] Manager
+    \[ \] Profiler  
+    \[x\] Background Task Inspector  
+    \[ \] LogcatDevice  
+    \[ \] Manager
     
 2. **Which of the following options are valid terminal work states?**
     
     *Choose as many answers as you see fit.*
     
-    a. CANCELLED
+    \[x\] CANCELLED
     
-    b. DELETED
+    \[ \] DELETED
     
-    c. FAILED
+    \[x\] FAILED
     
-    d. SUCCEEDED
+    \[x\] SUCCEEDED
     
 3. **Which of the following options are valid types of work requests?**
     
     *Choose as many answers as you see fit.*
     
-    a. `OneTimeWorkRequest`
+    \[x\] `OneTimeWorkRequest`  
+    \[ \] `SingleWorkRequest`
     
-    b. `SingleWorkRequest`
+    \[ \] `RepeatingWorkRequest`
     
-    c. `RepeatingWorkRequest`
-    
-    d. `PeriodicWorkRequest`
+    \[x\] `PeriodicWorkRequest`
     
 4. **Creating and enqueueing multiple dependent tasks and the order they should run in is called linking.**  
-    True / False
+    \[ \] True  
+    \[x\] False
     
 5. **Work constraints are useful in which of the following situations?**  
     a. Checking that a valid form of payment is saved on the user’s device before the work runs.  
@@ -67,7 +67,7 @@ tags: workmanager
     
     Work type
     
-8. **The Background Task Inspector lets you stop workers during their execution.**TrueFalse
+8. \*\*The Background Task Inspector lets you stop workers during their execution.\*\*TrueFalse
     
 9. **Which worker builder is recommended to test** `CoroutineWorker`s?`OneTimeWorkRequestBuilderPeriodicWorkRequestBuilderTestWorkerBuilderTestListenableWorkerBuilder`
     
