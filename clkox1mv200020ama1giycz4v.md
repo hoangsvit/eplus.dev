@@ -44,31 +44,39 @@ tags: workmanager
     \[x\] False
     
 5. **Work constraints are useful in which of the following situations?**  
-    a. Checking that a valid form of payment is saved on the user’s device before the work runs.  
-    b. Checking what time it is before the work runs.  
-    c. Checking that the device is connected to a wifi network before downloading a large amount of app data.  
-    d. Checking that the app was opened a set number of times before the work runs.
+    \[ \] Checking that a valid form of payment is saved on the user’s device before the work runs.  
+    \[ \] Checking what time it is before the work runs.  
+    \[x\] Checking that the device is connected to a wifi network before downloading a large amount of app dat\[ \]  
+    \[ \] Checking that the app was opened a set number of times before the work runs.
     
 6. **Which of the following options is a way to pass input data to a worker?**  
-    a. Pass the data in as an argument when calling the `doWork()` function.  
-    b. Use a Data object to pass key/value pairs.  
-    c. Pass data as a String, but it must be less than 140 characters.  
-    d. Assign it to the `worker.inputData` variable.
+    \[ \] Pass the data in as an argument when calling the `doWork()` function.  
+    \[x\] Use a Data object to pass key/value pairs.  
+    \[ \] Pass data as a String, but it must be less than 140 characters.  
+    \[ \] Assign it to the `worker.inputData` variable.
     
 7. **After work is enqueued, you can check its status by \_\_\_.**
     
-    Choose as many answers as you see fit.
+    *Choose as many answers as you see fit.*
     
-    Name
+    \[x\] Name
     
-    Id
+    \[x\] Id
     
-    Tag
+    \[x\] Tag
     
-    Work type
+    \[ \] Work type
     
-8. \*\*The Background Task Inspector lets you stop workers during their execution.\*\*TrueFalse
+8. \*\*The Background Task Inspector lets you stop workers during their execution.\*\*  
+    \[ \] True  
+    \[x\] False
     
-9. **Which worker builder is recommended to test** `CoroutineWorker`s?`OneTimeWorkRequestBuilderPeriodicWorkRequestBuilderTestWorkerBuilderTestListenableWorkerBuilder`
+9. **Which worker builder is recommended to test** `CoroutineWorker`s?  
+    \[ \] `OneTimeWorkRequestBuilder`  
+    \[ \] `PeriodicWorkRequestBuilder`  
+    \[ \] `TestWorkerBuilder`  
+    \[x\] `TestListenableWorkerBuilder`
     
-10. **When testing worker implementations, you can call workers directly with** `doWork()` instead of enqueuing the worker.TrueFalse
+10. **When testing worker implementations, you can call workers directly with** `doWork()` instead of enqueuing the worker.  
+    \[x\] True  
+    \[ \] False
