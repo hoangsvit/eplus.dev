@@ -11,6 +11,8 @@ tags: ai, ml, dl
 
 ---
 
+*(English below)*
+
 Dưới đây là bảng so sánh giữa AI, ML và DL:
 
 |  | **AI (Artificial Intelligence)** | **ML (Machine Learning)** | **DL (Deep Learning)** |
