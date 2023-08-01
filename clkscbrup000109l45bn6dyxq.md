@@ -1,10 +1,10 @@
 ---
-title: "Sự khác nhau giữa AI, ML, DL"
+title: "Sự khác nhau giữa AI, ML, DL / Difference between AI, ML, DL"
 seoTitle: "Sự khác nhau giữa AI, ML, DL / Difference between AI, ML, DL"
 seoDescription: "Sự khác nhau giữa AI, ML, DL / Difference between AI, ML, DL"
 datePublished: Tue Aug 01 2023 13:34:10 GMT+0000 (Coordinated Universal Time)
 cuid: clkscbrup000109l45bn6dyxq
-slug: su-khac-nhau-giua-ai-ml-dl
+slug: su-khac-nhau-giua-ai-ml-dl-difference-between-ai-ml-dl
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690896762454/f00404c5-698a-4a07-8f3c-93c9323fe8ae.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1690896773412/79743b84-5f3f-4a4f-b6cb-38c0694c845e.jpeg
 tags: ai, ml, dl
