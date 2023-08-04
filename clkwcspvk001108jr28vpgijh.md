@@ -5,6 +5,7 @@ seoDescription: "Today, we’re introducing Apollo Sandbox – the quickest way 
 datePublished: Fri Aug 04 2023 08:58:25 GMT+0000 (Coordinated Universal Time)
 cuid: clkwcspvk001108jr28vpgijh
 slug: the-graphos-studio-explorer
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691139711673/d0996439-7471-4f91-83c9-b33868f01281.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1691139692558/c286662b-3e54-48ef-a26f-accda1377e2c.png
 tags: graphql
 
