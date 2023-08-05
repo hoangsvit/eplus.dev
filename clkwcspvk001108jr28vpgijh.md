@@ -14,13 +14,12 @@ tags: graphql
 ---
 
 1. One-click query building in Explorer
-    
 
 [![One-click query building in Explorer](https://github.com/hoangsvit/graphql-studio/raw/main/assets/img/1.gif align="left")](https://graphql-studio.eplus.dev/)
 
 Typing out GraphQL queries by hand is time-consuming at best and a frustrating minefield of confusing paths, missed brackets, and incorrect variables at worst. Explorer offers no-code query-building to eliminate syntax errors and help you be more productive. Of course, if you still need to add hand-written code, you can do just that with Explorer’s editor with query linting and autocomplete.
 
-1. ⌘ + K field and path search
+2. ⌘ + K field and path search
     
 
 [![⌘ + K field and path search](https://github.com/hoangsvit/graphql-studio/raw/main/assets/img/2.gif align="left")](https://graphql-studio.eplus.dev/)
@@ -40,5 +39,4 @@ Just because you’re working on your schema locally doesn’t mean that you sho
     
 * [https://graphql-studio.eplus.dev/?endpoint=https://demo.saleor.io/graphql/](https://graphql-studio.eplus.dev/?endpoint=https://demo.saleor.io/graphql/)
     
-
-1. No login required You can use the Schema Reference and Explorer in Sandbox with your GraphQL endpoint just by going to [graphql-studio.eplus.dev](https://graphql-studio.eplus.dev). You’ll never have to create an account or log in, though if you do we can show you your query history and open up some additional customization settings.
+3. No login required You can use the Schema Reference and Explorer in Sandbox with your GraphQL endpoint just by going to [graphql-studio.eplus.dev](https://graphql-studio.eplus.dev). You’ll never have to create an account or log in, though if you do we can show you your query history and open up some additional customization settings.
