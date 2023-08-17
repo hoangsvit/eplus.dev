@@ -185,7 +185,7 @@ This will allow team members to quickly see who else is looking at the same cont
 
 ### **Demo**
 
-![on-this-page-demo.gif](https://ahmedash.dev/images/blog/livewire/real-time-presence/on-this-page-demo.gif align="left")
+![](https://i.imgur.com/ePsSWPj.gif align="center")
 
 ### **Considerations and Implications**
 
