@@ -6,7 +6,8 @@ datePublished: Fri Aug 18 2023 02:03:27 GMT+0000 (Coordinated Universal Time)
 cuid: cllfy4zlu000908l4gx6o4zuj
 slug: quen-mat-khau-linux-tren-wsl-day-la-cach-thiet-lap-lai-no-mot-cach-de-dang
 canonical: https://websetnet.net/vi/forgot-linux-password-on-wsl-heres-how-to-reset-it-easily/
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1692324157007/723985f4-e30b-415a-bd28-2d7db5e57fdf.webp
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692324595245/42271291-adfb-4854-8813-d5ad62b6f546.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1692324608826/e15ee75f-9ff2-4e82-a693-d35a6eeaa444.jpeg
 tags: ubuntu, linux, debian, passwords, wsl
 
 ---
