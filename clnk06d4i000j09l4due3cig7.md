@@ -62,7 +62,7 @@ dumpf();
 
 If there are objects in your project that you would like to customize the `dd()` behavior for, you can register custom casters using the `CustomCaster` class:
 
-```apache
+```php
 use Glhd\LaravelDumper\Casters\CustomCaster;
 
 CustomCaster::for(User::class)
@@ -74,7 +74,7 @@ CustomCaster::for(User::class)
 
 The `reorder` method accepts an array of patterns. For example, the default `Model` caster uses the following ordering rules:
 
-```apache
+```php
 $order = [
   'id',
   '*_id',
