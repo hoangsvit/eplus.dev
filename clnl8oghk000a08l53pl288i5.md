@@ -44,43 +44,43 @@ composer require staudenmeir/eloquent-has-many-deep:"^^^^1.7"
 ## Usage
 
 The package offers two ways of defining deep relationships:  
-You can concatenate [existing relationships](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-concatenating-existing-relationships) or specify the intermediate models, foreign and local keys [manually](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-defining-relationships-manually).
+You can concatenate [existing relationships](#heading-concatenating-existing-relationships) or specify the intermediate models, foreign and local keys [manually](#heading-defining-relationships-manually).
 
-* [Concatenating Existing Relationships](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-concatenating-existing-relationships)
+* [Concatenating Existing Relationships](#heading-concatenating-existing-relationships)
     
-    * [Constraints](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-constraints)
+    * [Constraints](#heading-constraints)
         
-    * [Third-Party Packages](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-third-party-packages)
+    * [Third-Party Packages](#heading-third-party-packages)
         
-* [Defining Relationships Manually](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-defining-relationships-manually)
+* [Defining Relationships Manually](#heading-defining-relationships-manually)
     
-    * [HasMany](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-hasmany)
+    * [HasMany](#heading-hasmany)
         
-    * [ManyToMany](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-manytomany)
+    * [ManyToMany](#heading-manytomany)
         
-    * [MorphMany](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-morphmany)
+    * [MorphMany](#heading-morphmany)
         
-    * [MorphToMany](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-morphtomany)
+    * [MorphToMany](#heading-morphtomany)
         
-    * [MorphedByMany](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-morphedbymany)
+    * [MorphedByMany](#heading-morphedbymany)
         
-    * [BelongsTo](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-belongsto)
+    * [BelongsTo](#heading-belongsto)
         
-    * [HasOneDeep](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-hasonedeep)
+    * [HasOneDeep](#heading-hasonedeep)
         
-    * [Composite Keys](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-composite-keys)
+    * [Composite Keys](#heading-composite-keys)
         
-* [Intermediate and Pivot Data](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-intermediate-and-pivot-data)
+* [Intermediate and Pivot Data](#heading-intermediate-and-pivot-data)
     
-* [Intermediate and Pivot Constraints](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-intermediate-and-pivot-constraints)
+* [Intermediate and Pivot Constraints](#heading-intermediate-and-pivot-constraints)
     
-* [Table Aliases](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-table-aliases)
+* [Table Aliases](#heading-table-aliases)
     
-* [Soft Deleting](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-soft-deleting)
+* [Soft Deleting](#heading-soft-deleting)
     
-* [Reversing Relationships](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-reversing-relationships)
+* [Reversing Relationships](#heading-reversing-relationships)
     
-* [IDE Helper](https://eplus.dev/laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels#heading-ide-helper)
+* [IDE Helper](#heading-ide-helper)
     
 
 ### Concatenating Existing Relationships
