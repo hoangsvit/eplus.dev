@@ -13,7 +13,7 @@ tags: laravel, eloquent, hasmanythrough
 ---
 
 This extended version of `HasManyThrough` allows relationships with unlimited intermediate models.  
-It supports  [many-to-many](#heading-manytomany) and [polymorphic](#heading-morphmany)relationships and all their possible combinations. It also supports some third-party packages.
+It supports [many-to-many](#heading-manytomany) and [polymorphic](#heading-morphmany)relationships and all their possible combinations. It also supports some third-party packages.
 
 Supports Laravel 5.5.29+.
 
@@ -25,7 +25,7 @@ composer require staudenmeir/eloquent-has-many-deep:"^1.7"
 
 Use this command if you are in PowerShell on Windows (e.g. in VS Code):
 
-```php
+```apache
 composer require staudenmeir/eloquent-has-many-deep:"^^^^1.7"
 ```
 
