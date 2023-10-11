@@ -11,13 +11,13 @@ tags: laravel, tips, eloquent
 
 ---
 
-This is a shortlist of the amazing hidden Laravel eloquent 30 tips that make the code go on smoothly.
+This is a short list of the amazing hidden Laravel eloquent 30 tips that make the code go on smoothly.
 
 This is a short list of the amazing hidden Laravel eloquent 30 tips that make the code go on smoothly.
 
 ### 1 – Invisible Database Columns
 
-The invisible column is a new concept in MySQL 8. What it does: when you run a `select *` query it won't retrieve any invisible column. If you need an invisible column's value you have to specify it explicitly in the `select` statement.
+The invisible column is a new concept in MySQL 8. What it does: when you run a `select *` query it won't retrieve any invisible column. If you need an invisible column's value, specify it explicitly in the `select` statement.
 
 And now, Laravel supports these columns:
 
@@ -67,7 +67,7 @@ $order = new Order();
 $order->status = null;
 ```
 
-In this case, the status will be null, because it's not persisted yet. And sometimes it causes annoying null value bugs. But fortunately, you can specify default attribute values in the Model as well:
+In this case, the status will be null, because it's not persisted yet. And sometimes it causes annoying null value bugs. Fortunately, you can specify default attribute values in the Model as well:
 
 ```php
 class Order extends Model
@@ -157,7 +157,7 @@ $users = User::find($ids);
 
 ### 6 – Get Dirty
 
-In Eloquent you can check if a model is "dirty" or not. Dirty means it has some changes that are not persisted yet:
+In Eloquent you can check if a model is "dirty" or not. Dirty means it has some changes that have not persisted yet:
 
 ```php
 $user = User::first();
@@ -188,7 +188,7 @@ In this case, the, save would only save the name column in the employee's table 
 
 ### 8 – Boot Eloquent Traits
 
-We all write traits that are being used by Eloquent models. If you need to initialize something in your trait when an event happened in the model, you can boot your trait.
+We all write traits that are being used by Eloquent models. If you need to initialize something in your trait when an event happens in the model, you can boot your trait.
 
 For example, if you have models with slug, you don't want to rewrite the slug creation logic in every model. Instead, you can define a trait, and use the creating event in the boot method:
 
@@ -257,9 +257,9 @@ private function upsert(UpsertDepartmentRequest $request, Department $department
 }
 ```
 
-As you can see I often extract a method called upsert . This method accepts a Department . In the store method I use an empty Department instance because in this case, I don't have a real one. But in the
+As you can see I often extract a method called upsert. This method accepts a Department. In the store method I use an empty Department instance because in this case, I don't have a real one. But in the
 
-update I pass the currently updated instance.
+update, I pass the currently updated instance.
 
 The $this-&gt;upsertDepartment refers to an Action:
 
@@ -282,13 +282,13 @@ It takes a Department which is the model (an empty one, or the updated one), and
 * A valid ID if it's an updated model.
     
 
-And the second argument is the DTO as an array, so the attributes of the Department.
+The second argument is the DTO is an array, so the attributes of the Department.
 
 ---
 
 ### 10 – upsert
 
-Just for confusion Laravel uses the word upsert for multiple update or create operations. This is how it looks:
+Just for confusion Laravel uses the word upsert for multiple updates or create operations. This is how it looks:
 
 ```php
 Flight::upsert(
@@ -344,7 +344,7 @@ $clients = Client::get()->sortBy('full_name'); // works!
 
 Notice that the function name is different – it’s not orderBy, it’s sortBy.
 
-**Note:** it is important to keep in your mind, if your query `Client::get()` returns a huge rows, `->sortBy()` function would require memory usege. Make sure the server don't go out of memorey.
+**Note:** it is important to keep in mind, that if your query `Client::get()` returns huge rows, `->sortBy()` the function would require memory usage. Make sure the server doesn't go out of memory.
 
 ---
 
