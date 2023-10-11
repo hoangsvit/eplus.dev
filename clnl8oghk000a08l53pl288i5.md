@@ -13,7 +13,7 @@ tags: laravel, eloquent, hasmanythrough
 ---
 
 This extended version of `HasManyThrough` allows relationships with unlimited intermediate models.  
-It supports  [many-to-many](#heading-many-to-many) and [polymorphic](#heading-polymorphic )relationships and all their possible combinations. It also supports some third-party packages.
+It supports  [many-to-many](#heading-manytomany) and [polymorphic](#heading-morphmany)relationships and all their possible combinations. It also supports some third-party packages.
 
 Supports Laravel 5.5.29+.
 
