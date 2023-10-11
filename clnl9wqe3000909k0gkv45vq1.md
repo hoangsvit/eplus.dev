@@ -161,7 +161,7 @@ query {
 }
 ```
 
-#### [Field Types](#heading-field-types)
+#### Field Types
 
 Bakery has the following fields available:
 
@@ -176,31 +176,31 @@ Bakery has the following fields available:
 * [String](#heading-string)
     
 
-##### [Boolean](#heading-boolean)
+##### Boolean
 
 ```apache
 Field::boolean()
 ```
 
-##### [Float](#heading-float)
+##### Float
 
 ```apache
 Field::float()
 ```
 
-##### [ID](#heading-id)
+##### ID
 
 ```apache
 Field::ID()
 ```
 
-##### [Int](#heading-int)
+##### Int
 
 ```apache
 Field::int()
 ```
 
-##### [String](#heading-string)
+##### String
 
 ```apache
 Field::string()
