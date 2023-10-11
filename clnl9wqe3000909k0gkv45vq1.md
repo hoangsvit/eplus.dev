@@ -14,12 +14,13 @@ tags: laravel, graphql, laravel-eloquent
 An on-the-fly GraphQL Schema generator from Eloquent models for Laravel.
 
 * [Installation](#heading-installation)
-
+    
 * [Quickstart](#heading-quickstart)
-
+    
 * [Model schemas](#heading-model-schemas)
+    
 
-## [Installation](#heading-installation)
+## Installation
 
 This package requires PHP 7.2 and Laravel 6 or higher. To get started with Bakery, simply run:
 
@@ -27,7 +28,7 @@ This package requires PHP 7.2 and Laravel 6 or higher. To get started with Baker
 composer require scrnhq/laravel-bakery
 ```
 
-## [Quickstart](#heading-quickstart)
+## Quickstart
 
 After installing Bakery, publish the configuration and asserts using the `bakery:install` Artisan command.
 
@@ -49,7 +50,7 @@ query {
 }
 ```
 
-## [Model schemas](#heading-model-schemas)
+## Model schemas
 
 Model schemas are classes that lets you connect your Eloquent models with the GraphQL API. In there you can define which fields are available, which of them can be mutated and much more.
 
@@ -70,7 +71,7 @@ The `model` property of a model schema defines which Eloquent model it correspon
 protected $model = \App\Post::class;
 ```
 
-### [Registering model schemas](#heading-registering-model-schemas)
+### Registering model schemas
 
 > All model schema's in the `app/Bakery` directory will automatically be registered by Bakery. If you choose to store your model schema's differently, you need to define and register your schema manually.
 
@@ -129,7 +130,7 @@ query {
 
 Just like Laravel, Bakery follows naming conventions. It uses Laravel's pluralization library to transform your model into queries so you can fetch an individual Post with `post` and a collection of Posts with `posts`.
 
-### [Fields](#heading-fields)
+### Fields
 
 Now, each Bakery model schema contains a `fields` that return an array of fields, which extend the `\Bakery\Fields\Field` class. To add a field to model schema, simply add it to `fields` method, where the key of the item must match the name of the model `attribute`.
 
@@ -165,14 +166,15 @@ query {
 Bakery has the following fields available:
 
 * [Boolean](#heading-boolean)
-
+    
 * [Float](#heading-float)
-
+    
 * [ID](#heading-id)
-
+    
 * [Int](#heading-int)
-
+    
 * [String](#heading-string)
+    
 
 ##### [Boolean](#heading-boolean)
 
@@ -204,7 +206,7 @@ Field::int()
 Field::string()
 ```
 
-### [Relations](#heading-relations)
+### Relations
 
 In addition to the fields described above, Bakery supports Eloquent relationships, too. To add a relationship to the model schema, simply add it to the `relations` method, where the key of the item must match the relation name. Let's say a `User` model `hasMany` `Post` models. Then you would define your Bakery model schema's like so:
 
@@ -261,7 +263,7 @@ query {
 }
 ```
 
-### [Mutations](#heading-mutations)
+### Mutations
 
 Another key feature of GraphQL that Bakery fully supports are mutations. Bakery automatically creates the `create`, `update`, and `delete` mutations for each registered model. Bakery also seamlessly uses Laravel's policies to authorize the actions of your users.
 
