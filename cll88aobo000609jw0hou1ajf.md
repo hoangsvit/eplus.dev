@@ -42,6 +42,8 @@ Link mua ủng hộ tác giả ( 39.99$ ) : [https://developedbyed.com/p/the-ful
 
 Link tải Google Drive ( miễn phí ) : [https://drive.google.com/file/d/1JZwwDdOklV\_i6uIBPGGSnYx-tROhYpsp/view?usp=sharing](https://drive.google.com/file/d/1JZwwDdOklV_i6uIBPGGSnYx-tROhYpsp/view?usp=sharing)
 
+Link tải Mega ( miễn phí ) : [https://mega.nz/folder/qs4yzAQI#eAZ5q9lazRpsBQwR07\_x8w](https://mega.nz/folder/qs4yzAQI#eAZ5q9lazRpsBQwR07_x8w)
+
 ---
 
 In this course, we will build a full-stack e-commerce application using cutting-edge technologies such as:
@@ -69,7 +71,7 @@ But don't worry if some of these technologies are new to you - I will guide you 
 
 And the best part? You'll have a stylish full-stack e-commerce application to add to your portfolio, complete with user authentication (including Google Sign-in), secure payments (including Apple and Google Pay), email invoicing, user profiles, history, and more.
 
-**So what are you waiting for?** Purchase the updated Full Stack React Course today and let's create something amazing together!  
+**So what are you waiting for?** Purchase the updated Full Stack React Course today and let's create something amazing together!
 
 Make sure to join our **Discord community** and get support whenever you need it, as well as meet like-minded people. I'm here to help you succeed as a developer and achieve your goals.
 
