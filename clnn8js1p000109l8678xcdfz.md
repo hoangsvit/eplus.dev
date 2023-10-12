@@ -27,18 +27,18 @@ Build a simple Laravel development environment with docker-compose. Compatible w
     
 
 ```apache
-$ make create-project
+make create-project
 
 # or...
 
-$ mkdir -p src
-$ docker compose build
-$ docker compose up -d
-$ docker compose exec app composer create-project --prefer-dist laravel/laravel .
-$ docker compose exec app php artisan key:generate
-$ docker compose exec app php artisan storage:link
-$ docker compose exec app chmod -R 777 storage bootstrap/cache
-$ docker compose exec app php artisan migrate
+mkdir -p src
+docker compose build
+docker compose up -d
+docker compose exec app composer create-project --prefer-dist laravel/laravel .
+docker compose exec app php artisan key:generate
+docker compose exec app php artisan storage:link
+docker compose exec app chmod -R 777 storage bootstrap/cache
+docker compose exec app php artisan migrate
 ```
 
 [http://localhost](http://localhost)
@@ -50,8 +50,8 @@ $ docker compose exec app php artisan migrate
 2. Execute the following command
     
 
-```plaintext
-$ make install
+```apache
+make install
 ```
 
 [http://localhost](http://localhost)
