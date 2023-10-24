@@ -17,7 +17,11 @@ tags: laravel, php, tinkerwell, beyond, beyondcode
 
 1. If you are enrolled in an accredited educational program, you can apply for a free individual license.
     
-2. To access the license, follow these steps: a. Create or log into your account on the Beyond Code website at [beyondcode.com](http://beyondcode.com). b. Go to your profile page on [beyondcode.com/profile](http://beyondcode.com/profile). c. Verify your official educational email address. d. A license will be automatically added to your account.
+2. To access the license, follow these steps:  
+    \- Create or log into your account on the Beyond Code website at [beyondcode.com](http://beyondcode.com).  
+    \- Go to your profile page on [beyondcode.com/profile](http://beyondcode.com/profile).  
+    \- Verify your official educational email address.  
+    \- A license will be automatically added to your account.
     
 3. Keep in mind that you'll need to re-verify your status as a student annually to maintain an active license.
     
