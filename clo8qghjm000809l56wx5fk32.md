@@ -5,6 +5,7 @@ seoDescription: "Viselect - A high-performance and lightweight library to add a 
 datePublished: Fri Oct 27 2023 14:53:10 GMT+0000 (Coordinated Universal Time)
 cuid: clo8qghjm000809l56wx5fk32
 slug: vue-packages-viselect-visual-dom-selection-library
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698418412844/05e59716-0497-41e3-8bb7-b5a2977ba38d.gif
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1698418335733/e94e6cc1-1117-4b43-9651-91463b6c6e1a.png
 tags: library, vuejs, packages, viselect
 
