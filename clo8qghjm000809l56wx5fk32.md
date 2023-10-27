@@ -44,11 +44,11 @@ Check out the documentation for the package you want to use:
     
 * [@viselect/vue](https://github.com/simonwep/selection/blob/master/packages/vue) ([demo](https://codesandbox.io/s/viselectvue-x13g6?file=/src/App.vue)) - [Vue3](https://v3.vuejs.org/) wrapper.
     
-* @viselect/lit - TBA (planned).
+* [@viselect/lit](https://eplus.dev) - TBA (planned).
     
-* @viselect/svelte - TBA (planned).
+* [@viselect/svelte](https://eplus.dev) - TBA (planned).
     
-* @viselect/angular - TBA (planned).
+* [@viselect/angular](https://eplus.dev) - TBA (planned).
     
 
 > Check out [recipes](https://github.com/simonwep/selection/blob/master/packages/vanilla/recipes.md) for commonly asked questions and how to solve them using the standart library! For information about events and more check out the [vanilla readme](https://github.com/simonwep/selection/blob/master/packages/vanilla/README.md)!
