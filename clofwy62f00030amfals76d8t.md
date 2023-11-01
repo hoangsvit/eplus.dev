@@ -14,6 +14,6 @@ I think everything's ready for the Tinkerwell 4 launch on Thursday 🥵 I can't 
 
 %[https://twitter.com/marcelpociot/status/1719480503500247044?s=20] 
 
-After using Tinkerwell 4's new Detail Dive feature you'll never want to use "php artisan tinker" again 🔥
+After using Tinkerwell 4's new Detail Dive feature you'll never want to use 'php artisan tinker' again 🔥
 
 %[https://www.youtube.com/watch?v=9FBBsnwRWJ4]
