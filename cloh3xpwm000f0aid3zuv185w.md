@@ -114,3 +114,7 @@ Selecting a theme is now easier than ever with the new theme selector that comes
 Skip the update process and get the latest version of Tinkerwell automatically. It's by far the most requested feature over the years.
 
 ![](https://tinkerwell.app/images/content/features/background-updates.png align="left")
+
+---
+
+%[https://twitter.com/david_nguyen94/status/1720092490626367760?s=20]
