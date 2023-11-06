@@ -13,4 +13,8 @@ tags: compose-camp, chienbinhandroid
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1699243423770/d6bc68a7-7198-421e-bb9a-a9e2629d2bd5.jpeg align="center")
 
-%[https://youtube.com/shorts/KUZ6SdVFKcw?si=NsQyNAETAHUjAgyR]
+%[https://www.youtube.com/watch?v=Uu8BfE9GJsA&feature=youtu.be] 
+
+%[https://youtube.com/shorts/KUZ6SdVFKcw?si=NsQyNAETAHUjAgyR] 
+
+%[https://eplus.dev/chuong-trinh-chienbinhandroid-hoc-android-mien-phi-voi-compose-camp]
