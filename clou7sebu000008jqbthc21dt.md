@@ -6,7 +6,7 @@ datePublished: Sat Nov 11 2023 15:41:29 GMT+0000 (Coordinated Universal Time)
 cuid: clou7sebu000008jqbthc21dt
 slug: lan-song-sa-thai-hang-loat-danh-up-thi-truong-it-viet-nam
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/Fa9b57hffnM/upload/bb75ebb372ccf5209e0c3df79111b352.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1699717176981/9e0da4dc-ffdd-488c-bdeb-2a0d6d7fa55a.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1699717320434/21d1debe-9e6b-4d10-8799-dc155c25b207.jpeg
 tags: it, layoff, vietnamese
 
 ---
