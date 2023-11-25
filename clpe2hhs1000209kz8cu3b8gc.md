@@ -25,6 +25,24 @@ We hope you enjoy this program and embrace new language-learning experiences wit
 
 Thank you for being part of the Chess.com community. We look forward to exciting learning journeys and tournaments with you!
 
+[Claim Offer](https://www.duolingo.com/redeem?code=DUOPLAYSCHESS) `DUOPLAYSCHESS`
+
 ---
 
-[Claim Offer](https://www.duolingo.com/redeem?code=DUOPLAYSCHESS) `DUOPLAYSCHESS`
+Chào các thành viên yêu quý của [Chess.com](http://Chess.com)!
+
+Chúng tôi vô cùng phấn khích thông báo về đối tác mới giữa [Chess.com](http://Chess.com) và Super Duolingo, mở ra cơ hội học ngôn ngữ một cách thú vị và hiệu quả hơn bao giờ hết! Như một lợi ích đặc biệt, tất cả các thành viên [Chess.com](http://Chess.com) sẽ nhận được 1 tháng học ngôn ngữ Premium miễn phí từ Super Duolingo.
+
+Đây là cơ hội tuyệt vời để mở rộng kiến thức của bạn, không chỉ trong lĩnh vực cờ vua mà còn trong việc học một ngôn ngữ mới. Super Duolingo mang đến một phương pháp học tiên tiến, kết hợp giảng dạy đa dạng và các hoạt động thực hành, giúp bạn tiến bộ mỗi ngày một cách tự tin.
+
+Để sử dụng ưu đãi này, bạn chỉ cần truy cập trang web của chúng tôi và làm theo hướng dẫn để đăng ký. Sau đó, bạn sẽ có quyền truy cập vào nền tảng học ngôn ngữ Premium của Super Duolingo trong vòng một tháng, hoàn toàn miễn phí!
+
+Những ngày tới, bạn có thể học cờ vua và cùng lúc nâng cao kỹ năng ngôn ngữ của mình. Đây không chỉ là một cơ hội để trở nên mạnh mẽ hơn trên bàn cờ mà còn là cơ hội để giao tiếp hiệu quả hơn trong thế giới thực.
+
+Chúng tôi hy vọng rằng bạn sẽ tận hưởng chương trình này và đón nhận những trải nghiệm mới mẻ từ việc học ngôn ngữ cùng Super Duolingo. Hãy bắt đầu hành trình của bạn ngay hôm nay!
+
+Cảm ơn bạn đã là một phần của cộng đồng [Chess.com](http://Chess.com). Chúng tôi mong đợi những hành trình học tập và giải đấu thú vị cùng bạn!
+
+Chúc bạn có những trải nghiệm học tập và giải đấu thú vị trên [Chess.com](http://Chess.com) và Super Duolingo!
+
+[Nhận ưu đãi](https://www.duolingo.com/redeem?code=DUOPLAYSCHESS) `DUOPLAYSCHESS`
