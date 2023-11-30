@@ -12,4 +12,6 @@ tags: ai, chatgpt, gpt-4, perplexityai, perplexity
 
 **Perplexity** was first released almost a year ago on December 7th. Thank you all for being part of this incredible journey! Visit [http://pplx.ai/thanks](https://www.perplexity.ai/pro?referral_code=82C1Z09S&discount_code=THANKS23) or apply promo code [THANKS23](https://www.perplexity.ai/pro?referral_code=82C1Z09S&discount_code=THANKS23) to get <mark>2 months free</mark> of Perplexity Pro.
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701329806131/b75df59d-7b89-4aaf-80a1-ac8f506fb166.png align="center")
+
 %[https://twitter.com/perplexity_ai/status/1726707125689397595]
