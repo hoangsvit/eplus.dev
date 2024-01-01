@@ -1,10 +1,10 @@
 ---
-title: "Bí Kiếp Thi 1 Lần Đậu Bằng Lái B11"
+title: "Bí Kíp Thi 1 Lần Đậu Bằng Lái B11"
 seoTitle: "Bí Kiếp Thi 1 Lần Đậu Bằng Lái B11"
 seoDescription: "Thi rớt 1-2 lần mới có kỉ niệm chớ thi đậu phát 1 là bình thường lắm. GĐ trung tâm đăng ký lái xe chia sẻ"
 datePublished: Fri Dec 29 2023 17:03:58 GMT+0000 (Coordinated Universal Time)
 cuid: clqqvvcot000408l1gfjt5mc4
-slug: bi-kiep-thi-1-lan-dau-bang-lai-b11
+slug: bi-kip-thi-1-lan-dau-bang-lai-b11
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1703869302045/5df87cd7-9ccc-4a13-aaa1-1de6fdbb9616.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1703869404894/777263ce-4644-41dd-bb1c-9ccd826ab0e8.jpeg
 tags: thibanglaixeb, b11
