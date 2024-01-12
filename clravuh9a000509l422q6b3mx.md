@@ -5,6 +5,7 @@ seoDescription: "Microservices Roadmap 2024"
 datePublished: Fri Jan 12 2024 16:58:40 GMT+0000 (Coordinated Universal Time)
 cuid: clravuh9a000509l422q6b3mx
 slug: microservices-roadmap-2024
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/pr5lUMgocTs/upload/1fab76a14d3f52ced8d874e9744f98e9.jpeg
 tags: microservices, databases, devops
 
 ---
