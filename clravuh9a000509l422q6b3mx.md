@@ -6,6 +6,7 @@ datePublished: Fri Jan 12 2024 16:58:40 GMT+0000 (Coordinated Universal Time)
 cuid: clravuh9a000509l422q6b3mx
 slug: microservices-roadmap-2024
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/pr5lUMgocTs/upload/1fab76a14d3f52ced8d874e9744f98e9.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1705227795116/c80ae0f6-8f0d-427d-8e1c-9a6b20eccc15.jpeg
 tags: microservices, databases, devops
 
 ---
