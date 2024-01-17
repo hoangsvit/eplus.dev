@@ -43,4 +43,7 @@ Phần mềm hỗ trợ tải và chuyển đổi video từ hầu hết các si
 
 <mark>Lưu ý:</mark>
 
-* Tài khoản có giá trị trong vòng 1 năm, update các kiểu tẹt ga trong vòng 1 năm. Free thì cứ get về xài xem ngon không rồi tính tiếp
+* Tài khoản có giá trị trong vòng 1 năm, update các kiểu tẹt ga trong vòng 1 năm. Free thì cứ get về xài xem ngon không rồi tính tiếp.
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1705505661592/6181100b-81db-4fac-8339-8295ec6a8499.png align="center")
