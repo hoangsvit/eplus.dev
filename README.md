@@ -7,7 +7,17 @@
  - 😺 [Microservices Roadmap 2024](https://eplus.dev/microservices-roadmap-2024) - 2024-01-12
  - 🗽 [Trang web được tạo thông qua Trang doanh nghiệp trên Google sẽ sớm bị xoá](https://eplus.dev/trang-web-duoc-tao-thong-qua-trang-doanh-nghiep-tren-google-se-som-bi-xoa) - 2024-01-09
  - 🌜 [Website test băng thông quốc tế](https://eplus.dev/website-test-bang-thong-quoc-te) - 2023-12-31
- - 📝 [Bí Kíp Thi 1 Lần Đậu Bằng Lái B11](https://eplus.dev/bi-kip-thi-1-lan-dau-bang-lai-b11) - 2023-12-29<!-- BLOG-POST-LIST:END -->
+ - 📝 [Bí Kíp Thi 1 Lần Đậu Bằng Lái B11](https://eplus.dev/bi-kip-thi-1-lan-dau-bang-lai-b11) - 2023-12-29
+ - 🚀 [Viettel tặng dung lượng 4G miễn phí nhân dịp cuối năm](https://eplus.dev/viettel-tang-dung-luong-4g-mien-phi-nhan-dip-cuoi-nam) - 2023-12-29
+ - 💼 [Báo Cáo Lương IT 2023-2024 &lpar;IT Salary Report For 2023-2024&rpar;](https://eplus.dev/bao-cao-luong-it-2023-2024-it-salary-report-for-2023-2024) - 2023-12-20
+ - 🦣 [Get 2 months free of Perplexity Pro](https://eplus.dev/get-2-months-free-of-perplexity-pro) - 2023-11-30
+ - 👨‍🏫 [Chess.com and Super Duolingo Collaboration: Grab Your 1-Month Free Premium Language Learning!](https://eplus.dev/chesscom-and-super-duolingo-collaboration-grab-your-1-month-free-premium-language-learning) - 2023-11-25
+ - 🔭 [Getting Started with MongoDB Atlas](https://eplus.dev/getting-started-with-mongodb-atlas) - 2023-11-24
+ - 🤡 [Làn sóng sa thải hàng loạt &#39;đánh úp&#39; thị trường IT Việt Nam](https://eplus.dev/lan-song-sa-thai-hang-loat-danh-up-thi-truong-it-viet-nam) - 2023-11-11
+ - 💡 [Discount for student dev](https://eplus.dev/discount-for-student-dev) - 2023-11-06
+ - 🦣 [Swags Unboxing Compose Camp 2023 &lpar;#ChienBinhAndroid&rpar;](https://eplus.dev/swags-unboxing-compose-camp-2023-chienbinhandroid) - 2023-11-06
+ - 💪 [Tinkerwell 4 is out now](https://eplus.dev/tinkerwell-4-is-out-now) - 2023-11-02
+ - 🤡 [How To Release A Mobile App](https://eplus.dev/how-to-release-a-mobile-app) - 2023-11-02<!-- BLOG-POST-LIST:END -->
 
 <div align="right">
   Update by <a target="_blank"
