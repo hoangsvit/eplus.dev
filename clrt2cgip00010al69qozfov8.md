@@ -22,6 +22,8 @@ Viettel đã mở rộng dịch vụ 5G đến 9 tỉnh/thành phố, bao gồm 
 
 **I. DANH SÁCH KHU VỰC PHỦ SÓNG 5G**
 
+%[https://codepen.io/hoangit/pen/abMLjyE] 
+
 |  | **Phạm vi phủ sóng** |
 | --- | --- |
 | **Thành Phố Hà Nội** | \- Khu vực trung tâm Quận Hoàn Kiếm, Quận Ba Đình và Quận Hai Bà Trưng Tòa nhà D26, trụ sở Tập đoàn Viettel - Tòa nhà VTT số 1 Giang Văn MinhKhu đô thị Vinhomes Thăng Long (đại lộ Thăng Long, Hà Nội) - Khu đô thị Trung Hòa - Nhân Chính (Thanh Xuân, Hà Nội) - Đại học Phenikaa: địa chỉ đường Nguyễn Văn Trác, Yên Nghĩa, Hà Đông |
