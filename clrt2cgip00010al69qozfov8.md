@@ -25,8 +25,8 @@ Viettel đã mở rộng dịch vụ 5G đến 9 tỉnh/thành phố, bao gồm 
 |  | **Phạm vi phủ sóng** |
 | --- | --- |
 | **Thành Phố Hà Nội** | Khuvực trung tâm Quận Hoàn Kiếm, Quận Ba Đình và Quận Hai Bà Trưng Tòa nhà D26, trụ sở Tập đoàn ViettelTòa nhà VTT số 1 Giang Văn MinhKhu đô thị Vinhomes Thăng Long (đại lộ Thăng Long, Hà Nội)Khu đô thị Trung Hòa- Nhân Chính (Thanh Xuân, Hà Nội)Đại học Phenikaa: địa chỉ đường Nguyễn Văn Trác, Yên Nghĩa, Hà Đông |
-| **Thành phố HCM** | \- Khuvực phố đi bộ Nguyễn Huệ; một số khu vực thuộc quận 10.  
-\- Thành Phố Thủ Đức: Khu vực UBND Quận 2, Nhà văn hóa Thủ Đức, Nhà văn hóa Quận 9. |
+| **Thành phố HCM** | Khuvực phố đi bộ Nguyễn Huệ; một số khu vực thuộc quận 10. |
+| **Thành Phố Thủ Đức** | Khu vực UBND Quận 2, Nhà văn hóa Thủ Đức, Nhà văn hóa Quận 9. |
 | **Bắc Ninh** | Khucông nghiệp Yên Phong I – Bắc Ninh |
 | **Bình Phước** | Ủy ban nhân dân tỉnh Bỉnh Phước (địa chỉ: 6/1 Tân Phú, Thành Phố Đồng Xoài, Bình Phước). |
 | **Bắc Giang** | UBND Tỉnh Bắc Giang: Số 82 Hùng Vương, Phường Hoàng Văn Thụ, Bắc GiangKhu Công nghiệp Bắc Giang: Hoàng Ninh, Việt Yên, Bắc GiangTrung tâm thành phố Bắc Giang.Xã Tăng Tiến, huyện Việt Yên, Tỉnh Bắc GiangKhu nhà máy Foxconn, xã Quang Châu, huyện Việt Yên, Tỉnh Bắc Giang |
