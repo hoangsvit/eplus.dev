@@ -35,4 +35,4 @@ jobs:
             })
 ```
 
-%[https://www.youtube.com/embed/ruXA4haAPoQ?si=VEBLbWn9yhKowuwC]
+%[https://www.youtube.com/watch?v=ruXA4haAPoQ]
