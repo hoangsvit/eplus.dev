@@ -1,7 +1,7 @@
 ---
 title: "GitHub Actions: Trigger Workflow with actions/github-script"
 seoTitle: "GitHub Actions: Trigger Workflow with actions/github-script"
-seoDescription: "Customers will now be able to use the GITHUB_TOKEN with workflow_dispatch and repository_dispatch events to trigger workflows. Prior to this change, events "
+seoDescription: "Customers will now be able to use the GITHUB_TOKEN with workflow_dispatch and repository_dispatch events to trigger workflows. Prior to this change, events"
 datePublished: Thu Feb 01 2024 06:35:28 GMT+0000 (Coordinated Universal Time)
 cuid: cls2ue2g5000708l0gyekasol
 slug: github-actions-trigger-workflow-with-actionsgithub-script
@@ -34,3 +34,5 @@ jobs:
               ref: 'main',
             })
 ```
+
+%[https://www.youtube.com/embed/ruXA4haAPoQ?si=VEBLbWn9yhKowuwC]
