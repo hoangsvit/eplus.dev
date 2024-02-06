@@ -44,4 +44,14 @@ Herd is a dedicated Laravel and PHP development environment tailored for macOS u
 
 In summary, Herd is a developer-centric environment that prioritizes speed and user convenience. Its focus on providing a swift transition for Laravel developers accustomed to Valet, coupled with features like an intuitive UI and CLI integration, positions Herd as an appealing choice for macOS users seeking a high-performance Laravel development environment.
 
-%[https://twitter.com/taylorotwell/status/1754574643879403856]
+%[https://twitter.com/taylorotwell/status/1754574643879403856] 
+
+## Images leaked from Laracon EU
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707184288692/e70b0ddf-ccdd-40aa-93db-f5aa1917ed58.jpeg align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1707184358438/fabb823f-f876-4718-96f4-c8934a1650b9.jpeg align="center")
+
+%[https://x.com/_stefanzweifel/status/1754573775482339505] 
+
+%[https://twitter.com/ruslansteiger/status/1754556188316864665?s=20]
