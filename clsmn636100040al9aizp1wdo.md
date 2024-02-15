@@ -31,4 +31,6 @@ HƯỚNG DẪN SỬ DỤNG:
 3. Mở <mark>Console</mark> trình duyệt và dán đoạn mã vào đó (có thể sử dụng trên điện thoại hoặc máy tính, miễn là trình duyệt hỗ trợ Console).
     
 
+%[https://www.youtube.com/watch?v=mO9zpKfeHWg&ab_channel=ePlusDEV] 
+
 Nguồn: [J2Team Community](https://www.facebook.com/100011014212800/videos/366824152914236/)
