@@ -5,7 +5,7 @@ seoDescription: "Dưới đây là đoạn mã JS giúp bạn hủy tất cả n
 datePublished: Thu Feb 15 2024 03:08:42 GMT+0000 (Coordinated Universal Time)
 cuid: clsmn636100040al9aizp1wdo
 slug: tu-dong-huy-loi-moi-ket-ban-tren-facebook-voi-script-js
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1707966697827/c33f71c4-3915-471a-a475-2c6c3bdb7cb0.gif
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1707967160952/edef9eed-6d3e-4b4f-89e3-49df6760b870.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1707966494325/1e68bbd3-c11e-47f9-a97d-1fadd70ef1a2.jpeg
 tags: facebook
 
