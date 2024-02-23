@@ -1,5 +1,5 @@
 ---
-title: "Chương Trình Tự Học Google Cloud #QuanQuanGCP: Khám Phá Lab AI/ML và Cơ Hội Nhận Quà Tặng!"
+title: "Google Cloud #QuanQuanGCP Mùa 6: Khám Phá AI/ML và Cơ Hội Nhận Quà Tặng!"
 seoTitle: "Chương Trình Tự Học Google Cloud #QuanQuanGCP: Khám Phá Lab AI/ML"
 seoDescription: "Chương Trình Tự Học Google Cloud #QuanQuanGCP: Khám Phá Lab AI/ML và Cơ Hội Nhận Quà Tặng!"
 datePublished: Fri Feb 23 2024 05:59:48 GMT+0000 (Coordinated Universal Time)
