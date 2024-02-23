@@ -87,7 +87,7 @@ Tham gia sự kiện khởi động với phiên **Code Along** vào Thứ Bảy
     
 * [Applying Machine Learning to your Data with Google Cloud](https://www.cloudskillsboost.google/course_templates/23)
     
-*  [Production Machine Learning Systems](https://www.cloudskillsboost.google/course_templates/17)
+* [Production Machine Learning Systems](https://www.cloudskillsboost.google/course_templates/17)
     
 * [Smart Analytics, Machine Learning, and AI on Google Cloud](https://www.cloudskillsboost.google/course_templates/55)
     
@@ -98,15 +98,15 @@ Tham gia sự kiện khởi động với phiên **Code Along** vào Thứ Bảy
 
 ##### Huy Hiệu Kỹ Năng
 
-* [Create and Manage AlloyDB Data](https://www.cloudskillsboost.google/course_templates/642)[bases](https://www.cloudskillsboost.google/course_templates/642)
+* [Create and Manage AlloyDB Databases](https://www.cloudskillsboost.google/course_templates/642)
     
 * [Manage PostgreSQL Databases on Cloud SQL](https://www.cloudskillsboost.google/course_templates/642)
     
-* [Monitor and Manage Google](https://www.cloudskillsboost.google/course_templates/642) [Clou](https://www.cloudskillsboost.google/course_templates/652)[d Resources](https://www.cloudskillsboost.google/course_templates/642)
+* [Monitor and Manage Google](https://www.cloudskillsboost.google/course_templates/642)[Clou](https://www.cloudskillsboost.google/course_templates/652)[d Resources](https://www.cloudskillsboost.google/course_templates/642)
     
-* [Manage Kubernetes in](https://www.cloudskillsboost.google/course_templates/642) [Google C](https://www.cloudskillsboost.google/course_templates/652)[loud](https://www.cloudskillsboost.google/course_templates/642)
+* [Manage Kubernetes in](https://www.cloudskillsboost.google/course_templates/642)[Google C](https://www.cloudskillsboost.google/course_templates/652)[loud](https://www.cloudskillsboost.google/course_templates/642)
     
-* [Automating Infrastructure o](https://www.cloudskillsboost.google/course_templates/642)[n](https://www.cloudskillsboost.google/course_templates/652) [](https://www.cloudskillsboost.google/course_templates/783)[Goo](https://www.cloudskillsboost.google/course_templates/653)[gle C](https://www.cloudskillsboost.google/course_templates/652)[loud with Terraform](https://www.cloudskillsboost.google/course_templates/642)
+* [Automating Infrastructure o](https://www.cloudskillsboost.google/course_templates/642)[n](https://www.cloudskillsboost.google/course_templates/652)[Goo](https://www.cloudskillsboost.google/course_templates/653)[gle C](https://www.cloudskillsboost.google/course_templates/652)[loud with Terraform](https://www.cloudskillsboost.google/course_templates/642)
     
 
 ##### Huy Hiệu Thường
@@ -117,12 +117,14 @@ Tham gia sự kiện khởi động với phiên **Code Along** vào Thứ Bảy
     
 * [Securing your Network with Cl](https://www.cloudskillsboost.google/course_templates/642)[oud Armor](https://www.cloudskillsboost.google/course_templates/652)
     
-* [Google Cloud Computing Foundatio](https://www.cloudskillsboost.google/course_templates/652)[ns: Networking & Security in Google](https://www.cloudskillsboost.google/course_templates/642) [Clou](https://www.cloudskillsboost.google/course_templates/783)[d](https://www.cloudskillsboost.google/course_templates/652)
+* [Google Cloud Computing Foundatio](https://www.cloudskillsboost.google/course_templates/652)[ns: Networking & Security in Google](https://www.cloudskillsboost.google/course_templates/642)[Clou](https://www.cloudskillsboost.google/course_templates/783)[d](https://www.cloudskillsboost.google/course_templates/652)
     
-* [Mitigating Security Vulnerabilit](https://www.cloudskillsboost.google/course_templates/642)[ies](https://www.cloudskillsboost.google/course_templates/652) [](https://www.cloudskillsboost.google/course_templates/636)[o](https://www.cloudskillsboost.google/course_templates/653)[n Google Cloud](https://www.cloudskillsboost.google/course_templates/652)
+* [Mitigating Security Vulnerabilit](https://www.cloudskillsboost.google/course_templates/642)[ies](https://www.cloudskillsboost.google/course_templates/652)[o](https://www.cloudskillsboost.google/course_templates/653)[n Google Cloud](https://www.cloudskillsboost.google/course_templates/652)
     
 
 Link đăng ký: [https://rsvp.withgoogle.com/events/quan-quan-gcp-s6](https://rsvp.withgoogle.com/events/quan-quan-gcp-s6/home)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1708668109618/1b12985e-9939-4567-b730-7e407312c170.png align="center")
 
 ```plaintext
 Bạn đã đăng ký thành công!
@@ -217,7 +219,7 @@ Have you completed this challenge? Submit your Google Cloud Skills Boost profile
     
 * [Applying Machine Learning to your Data with Google Cloud](https://www.cloudskillsboost.google/course_templates/23)
     
-*  [Production Machine Learning Systems](https://www.cloudskillsboost.google/course_templates/17)
+* [Production Machine Learning Systems](https://www.cloudskillsboost.google/course_templates/17)
     
 * [Smart Analytics, Machine Learning, and AI on Google Cloud](https://www.cloudskillsboost.google/course_templates/55)
     
