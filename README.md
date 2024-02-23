@@ -3,7 +3,7 @@
 ### #Blog posts
 
 <!-- BLOG-POST-LIST:START -->
- - 🧰 [Chương Trình Tự Học Google Cloud #QuanQuanGCP: Khám Phá Lab AI/ML và Cơ Hội Nhận Quà Tặng!](https://eplus.dev/chuong-trinh-tu-hoc-google-cloud-quanquangcp-kham-pha-lab-aiml-va-co-hoi-nhan-qua-tang) - 2024-02-23
+ - 🧰 [Google Cloud #QuanQuanGCP Mùa 6: Khám Phá AI/ML và Cơ Hội Nhận Quà Tặng!](https://eplus.dev/chuong-trinh-tu-hoc-google-cloud-quanquangcp-kham-pha-lab-aiml-va-co-hoi-nhan-qua-tang) - 2024-02-23
  - 😺 [Tự Động Hủy Lời Mời Kết Bạn trên Facebook với Script JS](https://eplus.dev/tu-dong-huy-loi-moi-ket-ban-tren-facebook-voi-script-js) - 2024-02-15
  - 🗽 [Laravel Herd for Windows launches in March &#39;24](https://eplus.dev/laravel-herd-for-windows-launches-in-march-24) - 2024-02-06
  - 🌜 [Apple Ra Mắt Ngôn Ngữ Lập Trình Mới PKL](https://eplus.dev/apple-ra-mat-ngon-ngu-lap-trinh-moi-pkl) - 2024-02-06
