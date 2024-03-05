@@ -13,7 +13,7 @@ tags: websockets, laravel-11, laravel-websocket, laravel-support-policy
 
 Laravel 11 is set to be released in Q1 of 2024 and will include several new features and changes. The directory structure has been streamlined, with a reduction in the number of files on a fresh install. Controllers no longer extend anything by default, and the middleware directory has been removed, with customization options moved to the `App/ServiceProvider`.
 
-%[https://x.com/taylorotwell/status/1764760671311335798?s=20] 
+%[https://twitter.com/taylorotwell/status/1764760671311335798?s=20] 
 
 Model casts are now defined as methods instead of properties, allowing for more flexibility in defining casts. A new `Dumpable` trait has been introduced to streamline the framework's core by consolidating "dd" or "dump" methods.
 
