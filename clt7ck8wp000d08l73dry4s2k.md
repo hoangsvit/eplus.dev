@@ -11,6 +11,14 @@ tags: phan-mem-on-tap-mo-phong, on-tap-mo-phong, on-tap-mo-phong-cac-tinh-huong-
 
 ---
 
+### Dành cho điện thoại:
+
+Android: [Link tải về](https://play.google.com/store/apps/details?id=com.mpgt.traffic_hazard)
+
+IOS: [Link tải về](https://apps.apple.com/app/mo-phong-giao-thong/id1658689120)
+
+![](https://mophonggiaothong.com/wp-content/uploads/2024/01/final_1080_1080.png align="left")
+
 ### Link bộ cài: dung lượng **5.5 GB**
 
 **Bộ cài phiên bản 64-bit (x64):**
@@ -33,7 +41,7 @@ Chạy file **setup.exe** và thực hiện tuần tự từng bước để cà
 
 ### Chi tiết cập nhật
 
-**1.    Điều chỉnh đồ họa các tình huống:** [  
+**1.    Điều chỉnh đồ họa các tình huống:**[  
 ](https://www.mophonggiaothong.com/PMMP/OnTapMoPhong/OnTapMoPhongSetup_v200_x64.rar)\- Đồ họa lại một số tình huống để nâng cao chất lượng hình ảnh, giúp người học dễ quan sát, nhận biết (19 tình huống)  
 \- Đồ họa lại 12 video tình huống thực tế (ảnh mờ, độ phân giải thấp) thành clip 3D để đồng nhất, nâng cao chất lượng video, giúp người học nhận diện tình huống dễ hơn  
 \- Kéo dài mốc thời gian chấm điểm (mốc 5đ, mốc 0đ) để giúp người học dễ nhận biết, dễ xử lý tình huống so với phần mềm trước  
