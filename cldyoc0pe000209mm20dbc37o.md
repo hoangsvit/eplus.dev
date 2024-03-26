@@ -1,4 +1,14 @@
-# Testing JSON:API Endpoints with PestPHP
+---
+title: "Testing JSON:API Endpoints with PestPHP"
+seoDescription: "JSON:API provides many options for filtering, sorting, and including extra data into the requested data using query parameters. Testing this can be frustrat"
+datePublished: Fri Feb 10 2023 15:18:57 GMT+0000 (Coordinated Universal Time)
+cuid: cldyoc0pe000209mm20dbc37o
+slug: testing-jsonapi-endpoints-with-pestphp
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1676043969253/c6d07598-ce19-4583-b1d9-36452dd6ee74.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1676042320831/825d7253-de33-4ac4-919c-ba4a54b43fd3.png
+tags: laravel
+
+---
 
 JSON:API provides many options for filtering, sorting, and including extra data into the requested data using query parameters. Testing this can be frustrating - but in this tutorial, I will walk through how I approach testing these endpoints.
 
