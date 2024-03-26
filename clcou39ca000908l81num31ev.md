@@ -1,4 +1,15 @@
-# cURL Converter - A tool convert cURL commands to Laravel's HTTP Client
+---
+title: "cURL Converter - A tool convert cURL commands to Laravel's HTTP Client"
+seoTitle: "cURL Converter - A tool convert cURL commands to Laravel's HTTP Client"
+seoDescription: "Last week Shift released the cURL Converter. It allows you to quickly convert curl requests to an Http client request. Now all those example API calls you f"
+datePublished: Mon Jan 09 2023 13:22:42 GMT+0000 (Coordinated Universal Time)
+cuid: clcou39ca000908l81num31ev
+slug: curl-converter-a-tool-convert-curl-commands-to-laravels-http-client
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1676044049329/6d165cf7-6f32-48f6-a077-c183e492127c.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1673270542273/b8b3428c-bed0-4995-a74c-bf04b4695a82.jpeg
+tags: laravel
+
+---
 
 Last week Shift released the *cURL Converter*. It allows you to quickly convert `curl` requests to an `Http` client request. Now all those example API calls you find within documentation can actually be used for your Laravel apps.
 
