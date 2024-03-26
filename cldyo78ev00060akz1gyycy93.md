@@ -1,4 +1,15 @@
-# Export Eloquent Models to JSON Files
+---
+title: "Export Eloquent Models to JSON Files"
+seoTitle: "Export Eloquent Models to JSON Files"
+seoDescription: "Model JSON for Laravel is a package that allows you to easily export data from specific models in your Laravel application to JSON format. It is based on th"
+datePublished: Fri Feb 10 2023 15:15:14 GMT+0000 (Coordinated Universal Time)
+cuid: cldyo78ev00060akz1gyycy93
+slug: export-eloquent-models-to-json-files
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1676042007611/350fcc70-282f-49de-a74a-507249eedf40.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1676042103259/c93edda9-fa26-42c1-87ec-109b399d4d37.png
+tags: laravel
+
+---
 
 [**Model JSON**](https://github.com/vildanbina/laravel-model-json) for Laravel is a package that allows you to easily export data from specific models in your Laravel application to JSON format. It is based on the php artisan command and offers various options to customize the export process. This package helps export important data from your models in a convenient format:
 
