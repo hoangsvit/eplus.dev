@@ -1,4 +1,14 @@
-# [Packages] Beautiful Log Viewer for Laravel
+---
+title: "[Packages] Beautiful Log Viewer for Laravel"
+seoTitle: "[Packages] Beautiful Log Viewer for Laravel"
+datePublished: Mon Sep 05 2022 08:35:15 GMT+0000 (Coordinated Universal Time)
+cuid: cl7oic96109d6gznve23323cg
+slug: packages-beautiful-log-viewer-for-laravel
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1662364757610/3sm3lcHbx.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1662366870896/tBZsKoHow.png
+tags: laravel, packages
+
+---
 
 > Introducing the brand new Log Viewer for Laravel. Open-source with tons of features, fast and beautiful. What more do you need?
 
