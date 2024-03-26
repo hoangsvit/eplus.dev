@@ -1,4 +1,15 @@
-# Fonts matter
+---
+title: "Fonts matter"
+seoTitle: "Fonts matter"
+seoDescription: "I like to think of my code as a book. Not just any book, I think of it as a precious, beautifully designed work of art. Something I want to WANT to read."
+datePublished: Mon Jan 30 2023 02:46:19 GMT+0000 (Coordinated Universal Time)
+cuid: cldi7lqv3000108l47djmhs7t
+slug: fonts-matter
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1675046367203/47301240-4bac-4031-b8a3-ca1698138820.webp
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1675046729852/2b0c2d78-104b-46f2-bfd2-8953bb21e681.webp
+tags: tutorial
+
+---
 
 %[https://youtu.be/1UxQX00BZug] 
 
