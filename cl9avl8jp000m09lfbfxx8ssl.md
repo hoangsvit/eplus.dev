@@ -1,4 +1,15 @@
-# Google bắt đầu hỗ trợ passkey cho Android và Chrome
+---
+title: "Google bắt đầu hỗ trợ passkey cho Android và Chrome"
+seoTitle: "Google bắt đầu hỗ trợ passkey cho Android và Chrome"
+seoDescription: "Google bắt đầu đưa passkey lên Android và Chrome, hỗ trợ đăng nhập không cần mật khẩu"
+datePublished: Sun Oct 16 2022 04:56:47 GMT+0000 (Coordinated Universal Time)
+cuid: cl9avl8jp000m09lfbfxx8ssl
+slug: google-bat-dau-ho-tro-passkey-cho-android-va-chrome
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1665895887127/AsK-jWELZ.jpg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1665896161862/Kft4Dxkdm.jpg
+tags: google, passkey, neowin, google-play-services, chrome-canary
+
+---
 
 Google vừa công bố bắt đầu hỗ trợ passkey - tính năng thay thế cho password giúp quá trình đăng nhập nhanh hơn, thuận tiện cũng như an toàn hơn - cho Android và Chrome.
 Theo Neowin, ở giai đoạn đầu tiên này, Google sẽ cung cấp cho các nhà phát triển quyền truy cập vào công nghệ bằng cách sử dụng Google Play Services beta và Chrome Canary. Đồng thời Google cũng cho phép các nhà phát triển thêm hỗ trợ passkey vào các trang web và ứng dụng của họ.
