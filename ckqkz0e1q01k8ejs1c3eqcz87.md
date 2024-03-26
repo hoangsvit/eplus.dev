@@ -1,4 +1,12 @@
-# How did I build a free status page for my website?
+---
+title: "How did I build a free status page for my website?"
+datePublished: Thu Jul 01 2021 13:33:58 GMT+0000 (Coordinated Universal Time)
+cuid: ckqkz0e1q01k8ejs1c3eqcz87
+slug: how-did-i-build-a-free-status-page-for-my-website
+canonical: https://dev.to/hoangit/how-did-i-build-a-free-status-page-for-my-website-1i19
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1625147748932/bb2ravAg8.png
+
+---
 
 In the days of the Covid-19 lockdown in Ho Chi Minh, Vietnam. I have been working from home for the past 2 months. In my free time, I share how to create a status statistics page, although it seems quite new or there are paid packages with great features, but for personal needs I choose free services.
 
