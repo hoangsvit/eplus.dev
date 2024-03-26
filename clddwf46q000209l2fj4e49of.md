@@ -1,4 +1,14 @@
-# Reducing code duplication
+---
+title: "Reducing code duplication"
+seoDescription: "Code duplication is the most painful thing for a lot of developers, you think you have solved the problem, but there are several instances of the same issue"
+datePublished: Fri Jan 27 2023 02:22:09 GMT+0000 (Coordinated Universal Time)
+cuid: clddwf46q000209l2fj4e49of
+slug: reducing-code-duplication
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1674785928137/2cd12ef4-9dd1-4566-bdef-f1068dd4087b.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1674786104819/7e530aeb-757c-4c51-aaca-ff55f35062e7.png
+tags: laravel
+
+---
 
 Code duplication is the most painful thing for a lot of developers, you think you have solved the problem, but there are several instances of the same issue.
 
