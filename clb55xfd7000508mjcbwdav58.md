@@ -1,4 +1,16 @@
-# Creating a Password Generator
+---
+title: "Creating a Password Generator"
+seoTitle: "Creating a Password Generator"
+seoDescription: "Password generation is something we all think about doing at some point, but how can we go about doing it - and making these passwords easy to remember and"
+datePublished: Thu Dec 01 2022 14:19:00 GMT+0000 (Coordinated Universal Time)
+cuid: clb55xfd7000508mjcbwdav58
+slug: creating-a-password-generator
+canonical: https://laravel-news.com/creating-a-password-generator
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1669903936563/jKtWNi0d7.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1669904292206/NPkDr2NMS.png
+tags: laravel
+
+---
 
 Password generation is something we all think about doing at some point, but how can we go about doing it - and making these passwords easy to remember and secure?
 
