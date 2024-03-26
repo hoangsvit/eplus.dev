@@ -156,7 +156,7 @@ Primary Key: **department\_id**
 | manager\_id | integer |
 | location\_id | smallint |
 
-Answer
+<mark>Answer</mark>
 
 ```apache
 CREATE TABLE regions (
