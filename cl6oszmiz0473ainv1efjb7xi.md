@@ -1,4 +1,15 @@
-# Trạng thái cáp quang biển Việt Nam
+---
+title: "Trạng thái cáp quang biển Việt Nam"
+seoTitle: "Trạng thái cáp quang biển Việt Nam"
+seoDescription: "Hiện có 5 tuyến cáp quang biển để kết nối Việt Nam đi quốc tế, bao gồm AAG (châu Á – Mỹ); APG (Châu Á Thái Bình Dương); SMW-3 (Đông Nam Á – Trung Đông – Tây"
+datePublished: Thu Aug 11 2022 08:53:39 GMT+0000 (Coordinated Universal Time)
+cuid: cl6oszmiz0473ainv1efjb7xi
+slug: trang-thai-cap-quang-bien-viet-nam
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1660207086070/pxQGPwfqD.webp
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1660207944795/Y7RaGcgsK.webp
+tags: vietnam, capquangbien, dutcap
+
+---
 
 
 > Hiện có 5 tuyến cáp quang biển để kết nối Việt Nam đi quốc tế, bao gồm AAG (châu Á – Mỹ); APG (Châu Á Thái Bình Dương); SMW-3 (Đông Nam Á – Trung Đông – Tây Âu); IA (Liên Á) và AAE-1 (châu Á – châu Phi – châu Âu). Ngoài ra, còn một tuyến cáp quang với quy mô nhỏ hơn, đó là TVH, có chiều dài chỉ 3.367km, nối Thái Lan, Việt Nam và Hong Kong (Trung Quốc).
