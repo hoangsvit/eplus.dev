@@ -26,4 +26,4 @@ Since it's just been launched today, you might need to check the Laravel Herd we
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1711421247527/030e7191-fbcd-4551-a171-b95c559b3e50.jpeg align="center")
 
-Download: [https://herd.laravel.com/download](https://herd.laravel.com/download)
+Download: [https://herd.laravel.com/download/windows](https://herd.laravel.com/download/windows)
