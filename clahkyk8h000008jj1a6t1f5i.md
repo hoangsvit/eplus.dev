@@ -1,4 +1,15 @@
-# Modern PHP features explained - PHP 8.0 and 8.1
+---
+title: "Modern PHP features explained - PHP 8.0 and 8.1"
+seoDescription: "Since its release in late 2020, PHP 8 has been a game changer. In this tutorial, I will walk through all the latest features with real-world examples of whe"
+datePublished: Tue Nov 15 2022 02:13:19 GMT+0000 (Coordinated Universal Time)
+cuid: clahkyk8h000008jj1a6t1f5i
+slug: modern-php-features-explained-php-80-and-81
+canonical: https://laravel-news.com/modern-php-features-explained
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1668477387124/Mi2LJHlwU.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1668478361007/KCuFPXtaw.png
+tags: php, php8
+
+---
 
 Since its release in late 2020, PHP 8 has been a game changer. In this tutorial, I will walk through all the latest features with real-world examples of when I might choose to use them.
 
