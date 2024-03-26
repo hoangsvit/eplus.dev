@@ -1,4 +1,15 @@
-# Learn how to impersonate users in your Laravel app
+---
+title: "Learn how to impersonate users in your Laravel app"
+seoTitle: "Learn how to impersonate users in your Laravel app"
+seoDescription: "One of the neat features of Laravel Nova is the ability to impersonate users right from the control panel. This is handy for many reasons, but for me, when"
+datePublished: Fri Feb 10 2023 15:42:35 GMT+0000 (Coordinated Universal Time)
+cuid: cldyp6eh3000208ky9mi0d5g3
+slug: learn-how-to-impersonate-users-in-your-laravel-app
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1676043567484/b4bcbf7e-ce64-4d71-8d9b-2d1603f76ee2.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1676043744144/3b6d9c9d-eb96-4357-9c53-bde1516af851.jpeg
+tags: laravel
+
+---
 
 One of the neat features of Laravel Nova is the ability to impersonate users right from the control panel. This is handy for many reasons, but for me, when you get a bug report or an issue and want to see exactly what the user sees, impersonating them saves lots of time because you can see exactly what they see.
 
