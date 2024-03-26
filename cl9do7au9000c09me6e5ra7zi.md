@@ -1,4 +1,15 @@
-# Import Laravel Vapor DNS to Cloudflare
+---
+title: "Import Laravel Vapor DNS to Cloudflare"
+seoTitle: "Import Laravel Vapor DNS to Cloudflare"
+seoDescription: "Orrison/Cumulus is an open-source package that works with Laravel Vapor to allow the user to manage their DNS records better when using Cloudflare for DNS"
+datePublished: Tue Oct 18 2022 03:53:18 GMT+0000 (Coordinated Universal Time)
+cuid: cl9do7au9000c09me6e5ra7zi
+slug: import-laravel-vapor-dns-to-cloudflare
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1666064905784/qi4HK59rK.jpg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1666065162699/f23Mc298T.jpg
+tags: laravel
+
+---
 
 [Orrison/Cumulus](https://github.com/Orrison/cumulus) is an open-source package that works with Laravel Vapor to allow the user to manage their DNS records better when using Cloudflare for DNS. When a custom domain is added in Laravel Vapor, assigned to a project environment, and deployed, Laravel Vapor will automatically set up the proper DNS records in Route 53. Laravel Vapor will then display these records via the UI or Vapor CLI tool, which you would then have to copy manually into Cloudflare.
 
