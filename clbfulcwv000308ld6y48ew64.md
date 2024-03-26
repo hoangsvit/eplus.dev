@@ -1,4 +1,15 @@
-# New Chrome features to save battery and make browsing smoother
+---
+title: "New Chrome features to save battery and make browsing smoother"
+seoTitle: "New Chrome features to save battery and make browsing smoother"
+seoDescription: "From the beginning, we designed Chrome for speed. But performance is more than just delivering a fast browsing experience. Today, we’re announcing Chrome wi"
+datePublished: Fri Dec 09 2022 01:47:09 GMT+0000 (Coordinated Universal Time)
+cuid: clbfulcwv000308ld6y48ew64
+slug: new-chrome-features-to-save-battery-and-make-browsing-smoother
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670550286470/6YRA2uqha.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1670550386766/LfcHuFU-E.png
+tags: chrome, google
+
+---
 
 From the beginning, we designed Chrome for speed. But performance is more than just delivering a [fast browsing experience](https://blog.chromium.org/2022/03/a-new-speed-milestone-for-chrome.html). Today, we’re announcing Chrome will now be optimized for your device’s battery and system memory.
 
