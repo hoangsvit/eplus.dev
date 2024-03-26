@@ -1,4 +1,15 @@
-# Báo Cáo Lương IT 2022-2023 (IT Salary Report For 2022-2023)
+---
+title: "Báo Cáo Lương IT 2022-2023 (IT Salary Report For 2022-2023)"
+seoTitle: "Báo Cáo Lương IT 2022-2023 (IT Salary Report For 2022-2023)"
+seoDescription: "Báo cáo tổng hợp thông tin từ 1,257 chuyên gia IT đang làm việc tại Việt Nam với đa dạng vị trí, ngôn ngữ lập trình và số năm kinh nghiệm. Báo cáo thể hiện"
+datePublished: Sun Jan 01 2023 05:45:54 GMT+0000 (Coordinated Universal Time)
+cuid: clccy8zvv000108jwgnxhhwax
+slug: bao-cao-luong-it-2022-2023-it-salary-report-for-2022-2023
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/214d654bc699921f312f821d4a15e810.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1672560845327/d0c59384-d6c3-48a0-916c-ec34b361c3da.jpeg
+tags: it-salary
+
+---
 
 (English below)
 
