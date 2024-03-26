@@ -1,4 +1,15 @@
-# SHARE SCRIPT Kích Hoạt IDM Cực Sạch Không Lo Virus
+---
+title: "SHARE SCRIPT Kích Hoạt IDM Cực Sạch Không Lo Virus"
+seoTitle: "SHARE SCRIPT Kích Hoạt IDM Cực Sạch Không Lo Virus"
+seoDescription: "SHARE SCRIPT Kích Hoạt IDM Cực Sạch Không Lo Virus"
+datePublished: Thu Oct 27 2022 02:18:39 GMT+0000 (Coordinated Universal Time)
+cuid: cl9qfs8kz000709l5fwzl8sdk
+slug: share-script-kich-hoat-idm-cuc-sach-khong-lo-virus
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1666836742052/cVeLjhEuj.jpg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1666837100003/fGzBmLLlu.jpg
+tags: idm
+
+---
 
 ⚠️ Lưu ý 1: Nếu có điều kiện thì bạn nên mua bản quyền ủng hộ tác giả, bạn có thể mua từ đại lý chính thức của IDM tại VN có thông tin tại trang chủ: internetdownloadmanager.com/buy.html
 
