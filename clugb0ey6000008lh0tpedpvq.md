@@ -1,6 +1,6 @@
 ---
 title: "Free Swags For Developers"
-seoTitle: "FREE SWAGS FOR DEVELOPERS"
+seoTitle: "Free Swags For Developers"
 seoDescription: "Welcome to our collection of open source projects that offer swag 👕🧢 rewards to their contributors! We all love contributing to open source projects, but"
 datePublished: Mon Apr 01 2024 02:01:10 GMT+0000 (Coordinated Universal Time)
 cuid: clugb0ey6000008lh0tpedpvq
