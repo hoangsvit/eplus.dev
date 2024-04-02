@@ -21,7 +21,7 @@ tags: google-cloud-computing, security-in-google-cloud, foundations
     
 2. Which connectivity solution provides a direct connection to Google?  
     a. Direct Peering  
-    b. Dedicated Interconnect  
+    <mark>b. Dedicated Interconnect</mark>  
     c. Partner Interconnect  
     d. Carrier Peering
     
