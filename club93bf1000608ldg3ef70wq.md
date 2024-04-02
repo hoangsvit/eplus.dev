@@ -48,8 +48,8 @@ Your new cluster will appear in the Clusters list. It may take a few minutes to 
 <mark>Answer</mark>
 
 ```apache
-export REGION=us-east4
-export ZONE=us-east4-a
+export REGION=
+export ZONE=
 ```
 
 ```apache
@@ -105,7 +105,7 @@ To see your completed job's output:
 
 1. Click the job ID in the **Jobs** list.
     
-2. Select **LINE WRAP** to `ON` or scroll all the way to the right to see the calculated value of Pi. Your output, with **LINE WRAP** `ON`, should look something like this:
+2. Select **LINE WRAP** to `ON` or scroll all the way to the right to see the calculated value of Pi. Your output, with **LINE WRAP**`ON`, should look something like this:
     
 
 ![Output](https://cdn.qwiklabs.com/DnVGNZW%2F3WiDYaqOqt3ET3nW%2Bp4NZbZYgvi2OL0QjXo%3D align="left")
