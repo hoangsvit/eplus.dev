@@ -19,7 +19,7 @@ Mùa này, chúng tôi rất hứng thú giới thiệu các lab AI/ML chuyên s
 
 Hoàn thành ít nhất bảy chủ đề (bao gồm ít nhất 3 huy hiệu kỹ năng) từ ngày 8 tháng 3 đến ngày 6 tháng 4 năm 2024 để có cơ hội nhận một bộ quà tặng thú vị!
 
-<mark>Thời gian bắt đầu của khóa học là từ 12:00 PM (GMT +7) ngày </mark> **<mark>8 tháng 3 năm 2024</mark>** <mark> và kết thúc vào 11:59 PM (GMT +7) ngày </mark> **<mark>6 tháng 4 năm 2024</mark>**<mark>.</mark>
+<mark>Thời gian bắt đầu của khóa học là từ 12:00 PM (GMT +7) ngày </mark> **<mark>22 tháng 3 năm 2024</mark>** <mark> và kết thúc vào 11:59 PM (GMT +7) ngày </mark> **<mark>20 tháng 4 năm 2024</mark>**<mark>.</mark>
 
 ### Tại sao bạn nên tham gia #QuanQuanGCP?
 
@@ -40,9 +40,9 @@ Tham gia sự kiện khởi động với phiên **Code Along** vào Thứ Bảy
 
 ### Nhận Thưởng Của Bạn!
 
-Đã hoàn thành thách thức này chưa? Gửi hồ sơ **Google Cloud Skills Boost** của bạn trước **thứ Bảy, ngày 6 tháng 4, 23:59 (GMT+7)** để nhận quà tặng dựa trên số lượng chủ đề bạn đã hoàn thành. Liên kết sẽ được cung cấp trong email chào mừng của bạn.
+Đã hoàn thành thách thức này chưa? Gửi hồ sơ **Google Cloud Skills Boost** của bạn trước **thứ Bảy, ngày 20 tháng 4, 23:59 (GMT+7)** để nhận quà tặng dựa trên số lượng chủ đề bạn đã hoàn thành. Liên kết sẽ được cung cấp trong email chào mừng của bạn.
 
-\*Lưu ý: Chỉ có các chủ đề hoàn thành trong khoảng thời gian từ ngày **8 tháng 3** đến ngày **6 tháng 4 năm 2024** (bao gồm cả hai ngày) mới sẽ được tính trong quá trình đổi thưởng."
+\*Lưu ý: Chỉ có các chủ đề hoàn thành trong khoảng thời gian từ ngày **22 tháng 3** đến ngày **20 tháng 4 năm 2024** (bao gồm cả hai ngày) mới sẽ được tính trong quá trình đổi thưởng."
 
 ### Bài học
 
@@ -158,9 +158,9 @@ Hello Developers,
 
 This season, we're thrilled to introduce dedicated AI/ML labs, acknowledging the transformative potential of AI. Gain valuable hands-on experience and network with experts, mentors, and fellow developers as you delve into **AI/ML, Infrastructure & Security** modules with one month of free access to Google Cloud Skills Boost.
 
-Complete at least seven quests (inc. at least 3 skill badges) starting from **March 8 - April 6, 2024** to score a cool swag pack!
+Complete at least seven quests (inc. at least 3 skill badges) starting from **March 22 - April 20, 2024** to score a cool swag pack!
 
-**<mark>March 8 - April 6, 2024 at </mark>** <mark>12:00 PM - </mark> **<mark>April 6, 2024</mark>** <mark> at 11:59 PM GMT+7</mark>
+**<mark>March 22 - April 20, 2024 at </mark>** <mark>12:00 PM - </mark> **<mark>April 20, 2024</mark>** <mark> at 11:59 PM GMT+7</mark>
 
 ### **Registration**
 
@@ -174,7 +174,7 @@ Don't miss out – join our vibrant Slack Community for continued support and co
 
 Have you completed this challenge? Submit your Google Cloud Skills Boost profile before Saturday, April 6, 23:59 (GMT+7) to receive swags based on the number of quests you have completed. The link will be provided in your welcome email.
 
-\*Note: Only quests completed between March 8- April 6, 2024 (dates incl.) will be counted in the redemption process.
+\*Note: Only quests completed between March 22- April 20, 2024 (dates incl.) will be counted in the redemption process.
 
 ### Study
 
