@@ -69,11 +69,6 @@ gcloud compute config-ssh --project "$DEVSHELL_PROJECT_ID" --quiet
 # SSH into the instance and run commands
 gcloud compute ssh lamp-1-vm --project "$DEVSHELL_PROJECT_ID" --zone $ZONE --command "sudo apt-get update && sudo apt-get install -y apache2 php7.0 && sudo service apache2 restart"
 
-
-
-
-
-
 cat > alert_config.json <<EOF
 {
   "displayName": "Inbound Traffic Alert",
