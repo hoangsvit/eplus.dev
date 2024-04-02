@@ -50,74 +50,70 @@ Tham gia sự kiện khởi động với phiên **Code Along** vào Thứ Bảy
 
 ##### Huy Hiệu Kỹ Năng
 
-* [Get Started with TensorFlow on Google Cloud](https://www.cloudskillsboost.google/course_templates/646)
+* [Get Started with TensorFlow on Google Clo](https://www.cloudskillsboost.google/course_templates/646)[ud](https://www.cloudskillsboost.google/course_templates/646)
     
-* [Create Conversational AI Agents with Dialogflow CX](https://www.cloudskillsboost.google/course_templates/706)
+* [Build LookML Objects in Loo](https://www.cloudskillsboost.google/course_templates/646)[ker](https://www.cloudskillsboost.google/course_templates/639)
     
-* [Build LookML Objects in Looker](https://www.cloudskillsboost.google/course_templates/639)
+* [Detect Man](https://www.cloudskillsboost.google/course_templates/639)[ufacturing Defects using Visua](https://www.cloudskillsboost.google/course_templates/646)[l In](https://www.cloudskillsboost.google/course_templates/639)[spection AI](https://www.cloudskillsboost.google/course_templates/646)
     
-* [Detect Manufacturing Defects using Visual Inspection AI](https://www.cloudskillsboost.google/course_templates/644)
+* [Analyze Speech](https://www.cloudskillsboost.google/course_templates/646) [and Language with Google APIs](https://www.cloudskillsboost.google/course_templates/639)
     
-* [Analyze Speech and Language with Google APIs](https://www.cloudskillsboost.google/course_templates/634)
+* [Analyze Images with the Cl](https://www.cloudskillsboost.google/course_templates/646)[oud Vision API](https://www.cloudskillsboost.google/course_templates/639)
     
-* [Analyze Images with the Cloud Vision API](https://www.cloudskillsboost.google/course_templates/633)
+* [Analyze Sentiment with Natural](https://www.cloudskillsboost.google/course_templates/646) [Language API](https://www.cloudskillsboost.google/course_templates/639)
     
-* [Analyze Sentiment with Natural Language API](https://www.cloudskillsboost.google/course_templates/667)
-    
-* [Automate Interactions with Contact Center AI](https://www.cloudskillsboost.google/course_templates/622)
-    
-* [Predict Soccer Match Outcomes with BigQuery ML](https://www.cloudskillsboost.google/course_templates/656)
+* [Predict Soccer Match Outcom](https://www.cloudskillsboost.google/course_templates/646)[es with BigQuery](https://www.cloudskillsboost.google/course_templates/639) [ML](https://www.cloudskillsboost.google/course_templates/646)
     
 
 ##### Huy Hiệu Thường
 
-* [Baseline: Data, ML, AI](https://www.cloudskillsboost.google/course_templates/619)
+* [Baseline: Data, ML,](https://www.cloudskillsboost.google/course_templates/619) [AI](https://www.cloudskillsboost.google/course_templates/619)
     
-* [Intro to ML: Language Processing](https://www.cloudskillsboost.google/course_templates/740)
+* [Intro to ML: Langua](https://www.cloudskillsboost.google/course_templates/619)[ge P](https://www.cloudskillsboost.google/course_templates/740)[rocessing](https://www.cloudskillsboost.google/course_templates/619)
     
-* [Intro to ML: Image Processing](https://www.cloudskillsboost.google/course_templates/739)
+* [Intro to](https://www.cloudskillsboost.google/course_templates/619) [ML: Image Proc](https://www.cloudskillsboost.google/course_templates/740)[essing](https://www.cloudskillsboost.google/course_templates/619)
     
-* [Generative AI Explorer - Vertex AI](https://www.cloudskillsboost.google/course_templates/723)
+* [Generative A](https://www.cloudskillsboost.google/course_templates/619)[I E](https://www.cloudskillsboost.google/course_templates/740)[xplorer](https://www.cloudskillsboost.google/course_templates/739) [](https://www.cloudskillsboost.google/course_templates/740)[\- Vertex AI](https://www.cloudskillsboost.google/course_templates/619)
     
-* [Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud](https://www.cloudskillsboost.google/course_templates/156)
+* [Google](https://www.cloudskillsboost.google/course_templates/619) [Cloud](https://www.cloudskillsboost.google/course_templates/740) [Comp](https://www.cloudskillsboost.google/course_templates/739)[uting](https://www.cloudskillsboost.google/course_templates/740) [Foundations: Data, ML,](https://www.cloudskillsboost.google/course_templates/619) [](https://www.cloudskillsboost.google/course_templates/740)[and AI in](https://www.cloudskillsboost.google/course_templates/739) [Google Cloud](https://www.cloudskillsboost.google/course_templates/740)
     
-* [Managing Machine Learning Projects with Google Cloud](https://www.cloudskillsboost.google/course_templates/157)
+* [Managing Mac](https://www.cloudskillsboost.google/course_templates/740)[hine Learni](https://www.cloudskillsboost.google/course_templates/739)[ng Projects with Googl](https://www.cloudskillsboost.google/course_templates/619)[e](https://www.cloudskillsboost.google/course_templates/156) [Cloud](https://www.cloudskillsboost.google/course_templates/723)
     
-* [Introduction to AI and Machine Learning on Google Cloud - Locales](https://www.cloudskillsboost.google/course_templates/895)
+* [Introduction to AI and](https://www.cloudskillsboost.google/course_templates/740) [Machine Learning on Go](https://www.cloudskillsboost.google/course_templates/619)[ogle Cloud](https://www.cloudskillsboost.google/course_templates/739)
     
-* [Applying Machine Learning to your Data with Google Cloud](https://www.cloudskillsboost.google/course_templates/23)
+* [Applying Machine Learni](https://www.cloudskillsboost.google/course_templates/740)[ng to your Data with G](https://www.cloudskillsboost.google/course_templates/619)[oogle Clo](https://www.cloudskillsboost.google/course_templates/739)[u](https://www.cloudskillsboost.google/course_templates/157)[d](https://www.cloudskillsboost.google/course_templates/740)
     
-* [Production Machine Learning Systems](https://www.cloudskillsboost.google/course_templates/17)
+*  [Production Machine Lea](https://www.cloudskillsboost.google/course_templates/740)[rning Systems](https://www.cloudskillsboost.google/course_templates/619)
     
-* [Smart Analytics, Machine Learning, and AI on Google Cloud](https://www.cloudskillsboost.google/course_templates/55)
+* [Smart](https://www.cloudskillsboost.google/course_templates/619) [Analyti](https://www.cloudskillsboost.google/course_templates/739)[cs](https://www.cloudskillsboost.google/course_templates/156)[, Machin](https://www.cloudskillsboost.google/course_templates/740)[e Learning, and AI on](https://www.cloudskillsboost.google/course_templates/619) [Google Clo](https://www.cloudskillsboost.google/course_templates/739)[ud](https://www.cloudskillsboost.google/course_templates/740)
     
-* [ML Pipelines on Google Cloud](https://www.cloudskillsboost.google/course_templates/191)
+* [ML Pipelines on Google](https://www.cloudskillsboost.google/course_templates/740) [Cloud](https://www.cloudskillsboost.google/course_templates/619)
     
 
 #### **Infrastructure & Security:**
 
 ##### Huy Hiệu Kỹ Năng
 
-* [Create and Manage AlloyDB Databases](https://www.cloudskillsboost.google/course_templates/642)
+* [Crea](https://www.cloudskillsboost.google/course_templates/740)[te and Manage AlloyDB Databas](https://www.cloudskillsboost.google/course_templates/739)[es](https://www.cloudskillsboost.google/course_templates/156)
     
-* [Manage PostgreSQL Databases on Cloud SQL](https://www.cloudskillsboost.google/course_templates/642)
+* [Manage PostgreSQL Databases on Cl](https://www.cloudskillsboost.google/course_templates/723)[oud SQL](https://www.cloudskillsboost.google/course_templates/156)
     
-* [Monitor and Manage Google](https://www.cloudskillsboost.google/course_templates/642)[Clou](https://www.cloudskillsboost.google/course_templates/652)[d Resources](https://www.cloudskillsboost.google/course_templates/642)
+* [Monitor and Ma](https://www.cloudskillsboost.google/course_templates/156)[nage Goog](https://www.cloudskillsboost.google/course_templates/157)[leCloud Resources](https://www.cloudskillsboost.google/course_templates/156)
     
-* [Manage Kubernetes in](https://www.cloudskillsboost.google/course_templates/642)[Google C](https://www.cloudskillsboost.google/course_templates/652)[loud](https://www.cloudskillsboost.google/course_templates/642)
+* [Manage Kubernetes inGoogle Clou](https://www.cloudskillsboost.google/course_templates/156)[d](https://www.cloudskillsboost.google/course_templates/157)
     
-* [Automating Infrastructure o](https://www.cloudskillsboost.google/course_templates/642)[n](https://www.cloudskillsboost.google/course_templates/652)[Goo](https://www.cloudskillsboost.google/course_templates/653)[gle C](https://www.cloudskillsboost.google/course_templates/652)[loud with Terraform](https://www.cloudskillsboost.google/course_templates/642)
+* [Automating Infrastructure onGoogle Cloud with T](https://www.cloudskillsboost.google/course_templates/157)[err](https://www.cloudskillsboost.google/course_templates/23)[aform](https://www.cloudskillsboost.google/course_templates/593)
     
 
 ##### Huy Hiệu Thường
 
-* [Baseline: Infrastructure](https://www.cloudskillsboost.google/course_templates/642)
+* [Baseline: Infrastructure](https://www.cloudskillsboost.google/course_templates/593)
     
-* [Google Cloud Computing Fo](https://www.cloudskillsboost.google/course_templates/652)[undations: Infrastructure in Google Cloud - Locales](https://www.cloudskillsboost.google/course_templates/642)
+* [Google Cloud Computing Foundations: I](https://www.cloudskillsboost.google/course_templates/23)[nfrastructure in Google Cloud - Loca](https://www.cloudskillsboost.google/course_templates/17)[les](https://www.cloudskillsboost.google/course_templates/191)
     
-* [Securing your Network with Cl](https://www.cloudskillsboost.google/course_templates/642)[oud Armor](https://www.cloudskillsboost.google/course_templates/652)
+* [Securing](https://www.cloudskillsboost.google/course_templates/191) [](https://www.cloudskillsboost.google/course_templates/55)[your](https://www.cloudskillsboost.google/course_templates/642) [Network with Cloud Armor](https://www.cloudskillsboost.google/course_templates/55)
     
-* [Google Cloud Computing Foundatio](https://www.cloudskillsboost.google/course_templates/652)[ns: Networking & Security in Google](https://www.cloudskillsboost.google/course_templates/642)[Clou](https://www.cloudskillsboost.google/course_templates/783)[d](https://www.cloudskillsboost.google/course_templates/652)
+* [Google Cloud Computing Foun](https://www.cloudskillsboost.google/course_templates/191)[d](https://www.cloudskillsboost.google/course_templates/55)[atio](https://www.cloudskillsboost.google/course_templates/652)[ns: Networking & Security in Google](https://www.cloudskillsboost.google/course_templates/642)[Clou](https://www.cloudskillsboost.google/course_templates/783)[d](https://www.cloudskillsboost.google/course_templates/652)
     
 * [Mitigating Security Vulnerabilit](https://www.cloudskillsboost.google/course_templates/642)[ies](https://www.cloudskillsboost.google/course_templates/652)[o](https://www.cloudskillsboost.google/course_templates/653)[n Google Cloud](https://www.cloudskillsboost.google/course_templates/652)
     
@@ -182,74 +178,68 @@ Have you completed this challenge? Submit your Google Cloud Skills Boost profile
 
 ##### Skill Badges
 
-* [Get Started with TensorFlow on Google Cloud](https://www.cloudskillsboost.google/course_templates/646)
+* [Get Started with TensorFlow on Google Clo](https://www.cloudskillsboost.google/course_templates/646)[ud](https://www.cloudskillsboost.google/course_templates/646)
     
-* [Create Conversational AI Agents with Dialogflow CX](https://www.cloudskillsboost.google/course_templates/706)
+* [Build LookML Objects in Loo](https://www.cloudskillsboost.google/course_templates/646)[ker](https://www.cloudskillsboost.google/course_templates/639)
     
-* [Build LookML Objects in Looker](https://www.cloudskillsboost.google/course_templates/639)
+* [Detect Man](https://www.cloudskillsboost.google/course_templates/639)[ufacturing Defects using Visua](https://www.cloudskillsboost.google/course_templates/646)[l In](https://www.cloudskillsboost.google/course_templates/639)[spection AI](https://www.cloudskillsboost.google/course_templates/646)
     
-* [Detect Manufacturing Defects using Visual Inspection AI](https://www.cloudskillsboost.google/course_templates/644)
+* [Analyze Speech](https://www.cloudskillsboost.google/course_templates/646) [and Language with Google APIs](https://www.cloudskillsboost.google/course_templates/639)
     
-* [Analyze Speech and Language with Google APIs](https://www.cloudskillsboost.google/course_templates/634)
+* [Analyze Images with the Cl](https://www.cloudskillsboost.google/course_templates/646)[oud Vision API](https://www.cloudskillsboost.google/course_templates/639)
     
-* [Analyze Images with the Cloud Vision API](https://www.cloudskillsboost.google/course_templates/633)
+* [Analyze Sentiment with Natural](https://www.cloudskillsboost.google/course_templates/646) [Language API](https://www.cloudskillsboost.google/course_templates/639)
     
-* [Analyze Sentiment with Natural Language API](https://www.cloudskillsboost.google/course_templates/667)
-    
-* [Automate Interactions with Contact Center AI](https://www.cloudskillsboost.google/course_templates/622)
-    
-* [Predict Soccer Match Outcomes with BigQuery ML](https://www.cloudskillsboost.google/course_templates/656)
+* [Predict Soccer Match Outcom](https://www.cloudskillsboost.google/course_templates/646)[es with BigQuery](https://www.cloudskillsboost.google/course_templates/639) [ML](https://www.cloudskillsboost.google/course_templates/646)
     
 
 ##### Regular Badges
 
-* [Baseline: Data, ML, AI](https://www.cloudskillsboost.google/course_templates/619)
-    
-* [Intro to ML: Language Processing](https://www.cloudskillsboost.google/course_templates/740)
-    
-* [Intro to ML: Image Processing](https://www.cloudskillsboost.google/course_templates/739)
-    
-* [Generative AI Explorer - Vertex AI](https://www.cloudskillsboost.google/course_templates/723)
-    
-* [Google Cloud Computing Foundations: Data, ML, and AI in Google Cloud](https://www.cloudskillsboost.google/course_templates/156)
-    
-* [Managing Machine Learning Projects with Google Cloud](https://www.cloudskillsboost.google/course_templates/157)
-    
-* [Introduction to AI and Machine Learning on Google Cloud - Locales](https://www.cloudskillsboost.google/course_templates/895)
-    
-* [Applying Machine Learning to your Data with Google Cloud](https://www.cloudskillsboost.google/course_templates/23)
-    
-* [Production Machine Learning Systems](https://www.cloudskillsboost.google/course_templates/17)
-    
-* [Smart Analytics, Machine Learning, and AI on Google Cloud](https://www.cloudskillsboost.google/course_templates/55)
-    
-* [ML Pipelines on Google Cloud](https://www.cloudskillsboost.google/course_templates/191)
-    
+#### Baseline: Data, ML, AI
 
-#### **Infrastructure & Security:**
+* [Intro to ML: Langua](https://www.cloudskillsboost.google/course_templates/619)[ge P](https://www.cloudskillsboost.google/course_templates/740)[rocessing](https://www.cloudskillsboost.google/course_templates/619)
+    
+* [Intro to](https://www.cloudskillsboost.google/course_templates/619) [ML: Image Proc](https://www.cloudskillsboost.google/course_templates/740)[essing](https://www.cloudskillsboost.google/course_templates/619)
+    
+* [Generative A](https://www.cloudskillsboost.google/course_templates/619)[I E](https://www.cloudskillsboost.google/course_templates/740)[xplorer](https://www.cloudskillsboost.google/course_templates/739) [](https://www.cloudskillsboost.google/course_templates/740)[\- Vertex AI](https://www.cloudskillsboost.google/course_templates/619)
+    
+* [Google](https://www.cloudskillsboost.google/course_templates/619) [Cloud](https://www.cloudskillsboost.google/course_templates/740) [Comp](https://www.cloudskillsboost.google/course_templates/739)[uting](https://www.cloudskillsboost.google/course_templates/740) [Foundations: Data, ML,](https://www.cloudskillsboost.google/course_templates/619) [](https://www.cloudskillsboost.google/course_templates/740)[and AI in](https://www.cloudskillsboost.google/course_templates/739) [Google Cloud](https://www.cloudskillsboost.google/course_templates/740)
+    
+* [Managing Mac](https://www.cloudskillsboost.google/course_templates/740)[hine Learni](https://www.cloudskillsboost.google/course_templates/739)[ng Projects with Googl](https://www.cloudskillsboost.google/course_templates/619)[e](https://www.cloudskillsboost.google/course_templates/156) [Cloud](https://www.cloudskillsboost.google/course_templates/723)
+    
+* [Introduction to AI and](https://www.cloudskillsboost.google/course_templates/740) [Machine Learning on Go](https://www.cloudskillsboost.google/course_templates/619)[ogle Cloud](https://www.cloudskillsboost.google/course_templates/739)
+    
+* [Applying Machine Learni](https://www.cloudskillsboost.google/course_templates/740)[ng to your Data with G](https://www.cloudskillsboost.google/course_templates/619)[oogle Clo](https://www.cloudskillsboost.google/course_templates/739)[u](https://www.cloudskillsboost.google/course_templates/157)[d](https://www.cloudskillsboost.google/course_templates/740)
+    
+*  [Production Machine Lea](https://www.cloudskillsboost.google/course_templates/740)[rning Systems](https://www.cloudskillsboost.google/course_templates/619)
+    
+* [Smart](https://www.cloudskillsboost.google/course_templates/619) [Analyti](https://www.cloudskillsboost.google/course_templates/739)[cs](https://www.cloudskillsboost.google/course_templates/156)[, Machin](https://www.cloudskillsboost.google/course_templates/740)[e Learning, and AI on](https://www.cloudskillsboost.google/course_templates/619) [Google Clo](https://www.cloudskillsboost.google/course_templates/739)[ud](https://www.cloudskillsboost.google/course_templates/740)
+    
+* [ML Pipelines on Google](https://www.cloudskillsboost.google/course_templates/740) [Cloud**Infrastructure &**](https://www.cloudskillsboost.google/course_templates/619) [**Securit**](https://www.cloudskillsboost.google/course_templates/739)[**y:**](https://www.cloudskillsboost.google/course_templates/156)
+    
 
 ##### Skill Badges
 
-* [Create and Manage AlloyDB Databases](https://www.cloudskillsboost.google/course_templates/642)
+* [Create and](https://www.cloudskillsboost.google/course_templates/740) [Manage AlloyDB Databases](https://www.cloudskillsboost.google/course_templates/739)
     
-* [Manage PostgreSQL Databases on Cloud SQL](https://www.cloudskillsboost.google/course_templates/652)
+* [Manag](https://www.cloudskillsboost.google/course_templates/156)[e PostgreSQL Databases on Cloud SQ](https://www.cloudskillsboost.google/course_templates/723)[L](https://www.cloudskillsboost.google/course_templates/156)
     
-* [Monitor and Manage Google Cloud Resources](https://www.cloudskillsboost.google/course_templates/653)
+* [Monitor and Manage G](https://www.cloudskillsboost.google/course_templates/156)[oogle Clo](https://www.cloudskillsboost.google/course_templates/157)[ud Resources](https://www.cloudskillsboost.google/course_templates/156)
     
-* [Manage Kubernetes in Google Cloud](https://www.cloudskillsboost.google/course_templates/783)
+* [Manage Kubernetes in Google Cloud](https://www.cloudskillsboost.google/course_templates/156)
     
-* [Automating Infrastructure on Google Cloud with Terraform](https://www.cloudskillsboost.google/course_templates/636)
+* [Automating Infrastructure on Google Cloud with Terr](https://www.cloudskillsboost.google/course_templates/157)[afo](https://www.cloudskillsboost.google/course_templates/23)[rm](https://www.cloudskillsboost.google/course_templates/593)
     
 
 ##### Regular Badges
 
-* [Baseline: Infrastructure](https://www.cloudskillsboost.google/course_templates/620)
+* [Baseline: Infrastructure](https://www.cloudskillsboost.google/course_templates/593)
     
-* [Google Cloud Computing Foundations: Infrastructure in Google Cloud - Locales](https://www.cloudskillsboost.google/course_templates/182)
+* [Goo](https://www.cloudskillsboost.google/course_templates/593)[g](https://www.cloudskillsboost.google/course_templates/17)[le Cloud Computing Foundations: Infra](https://www.cloudskillsboost.google/course_templates/23)[structure in Google Cloud - Locales](https://www.cloudskillsboost.google/course_templates/17)
     
-* [Securing your Network with Cloud Armor](https://www.cloudskillsboost.google/course_templates/785)
+* [Securing you](https://www.cloudskillsboost.google/course_templates/191)[r](https://www.cloudskillsboost.google/course_templates/55) [Net](https://www.cloudskillsboost.google/course_templates/785)[work with Cloud Armor](https://www.cloudskillsboost.google/course_templates/55)
     
-* [Google Cloud Computing Foundations: Networking & Security in Google Cloud](https://www.cloudskillsboost.google/course_templates/155)
+* [Goo](https://www.cloudskillsboost.google/course_templates/55)[gle Cloud Computing Foundati](https://www.cloudskillsboost.google/course_templates/191)[o](https://www.cloudskillsboost.google/course_templates/55)[ns: Networking & Security in Google Cloud](https://www.cloudskillsboost.google/course_templates/155)
     
 * [Mitigating Security Vulnerabilities on Google Cloud](https://www.cloudskillsboost.google/course_templates/88)
     
