@@ -17,7 +17,7 @@ Chào các Nhà phát triển,
 
 Mùa này, chúng tôi rất hứng thú giới thiệu các lab AI/ML chuyên sâu, nhận ra tiềm năng biến đổi của trí tuệ nhân tạo. Hãy có được trải nghiệm thực tế quý báu và mạng lưới với các chuyên gia, người hướng dẫn và các nhà phát triển khác khi bạn đào sâu vào các mô-đun AI/ML, Cơ sở hạ tầng & Bảo mật với một tháng truy cập miễn phí vào Google Cloud Skills Boost.
 
-Hoàn thành ít nhất bảy chủ đề (bao gồm ít nhất 3 huy hiệu kỹ năng) từ ngày 8 tháng 3 đến ngày 6 tháng 4 năm 2024 để có cơ hội nhận một bộ quà tặng thú vị!
+Hoàn thành ít nhất bảy chủ đề (bao gồm ít nhất 3 huy hiệu kỹ năng) từ ngày 22 tháng 3 đến ngày 20 tháng 4 năm 2024 để có cơ hội nhận một bộ quà tặng thú vị!
 
 <mark>Thời gian bắt đầu của khóa học là từ 12:00 PM (GMT +7) ngày </mark> **<mark>22 tháng 3 năm 2024</mark>** <mark> và kết thúc vào 11:59 PM (GMT +7) ngày </mark> **<mark>20 tháng 4 năm 2024</mark>**<mark>.</mark>
 
