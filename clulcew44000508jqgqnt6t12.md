@@ -467,3 +467,25 @@ When you complete this course, you can earn the badge displayed here! View all t
 * Hire new employees who already have the skills needed for this project.
     
 * Ask your team to self-research and study the skills needed for the project.
+    
+
+**Question 6: Organizations can use innovation principles to create a culture that organically encourage teams to generate bigger ideas and to think differently about problem solving with the capabilities of machine learning. Which of the following principles will help foster a culture of innovation?**
+
+* By focusing on the product, you can identify the most essential features to build and create more functionality
+    
+* Launch only when the idealized product is complete, this prevents any issues with bugs or poor feedback and performance in a new product.
+    
+* Think iteratively, this principle helps you to make incremental improvements to your product and ensure that it is improving over time.
+    
+* **<mark>By focusing on the user, you can identify the most essential problems to solve and create more value</mark>**
+    
+
+**Question 7: Organizations that are successful with ML, often have a solid strategy around their data. Select the answer that is aligned with a best practice and pillar of a successful data strategy?**
+
+* **<mark>Design systems that will produce more data next year, so that your ML models can improve over time.</mark>**
+    
+* Run your ML models on a reduced set of data, collecting too much data risks having unnecessary storage costs and overheads.
+    
+* Run your ML models on data collected in batches, this ensures the value gained is spread out proportionally over time.
+    
+* Design systems that keep data separate from each other, these siloes avoid contaminating the data.
