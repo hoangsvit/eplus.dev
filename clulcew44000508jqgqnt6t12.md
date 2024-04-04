@@ -1,7 +1,7 @@
 ---
 title: "Managing Machine Learning Projects with Google Cloud - Quiz"
 seoTitle: "Managing Machine Learning Projects with Google Cloud - Quiz"
-seoDescription: "Business professionals in non-technical roles have a unique opportunity to lead or influence machine learning projects. If you have questions about machine "
+seoDescription: "Business professionals in non-technical roles have a unique opportunity to lead or influence machine learning projects. If you have questions about machine"
 datePublished: Thu Apr 04 2024 14:39:15 GMT+0000 (Coordinated Universal Time)
 cuid: clulcew44000508jqgqnt6t12
 slug: managing-machine-learning-projects-with-google-cloud-quiz
@@ -355,7 +355,7 @@ When you complete this course, you can earn the badge displayed here! View all t
 * The survey will provide lackluster responses because only young people read online newspapers.
     
 
-### **Discovering ML use cases in day-to-day business Coursera Quiz/Assessment Answers**
+### **Discovering ML use cases in day-to-day business**
 
 **Question 1: You are the manager of a startup energy provider. You have a variety of unstructured and structured data from your customers that you want to organize, including correspondence emails, customer zip codes, phone numbers, average energy consumption information, and copies of letters sent to customers. How can unstructured data be defined?**
 
