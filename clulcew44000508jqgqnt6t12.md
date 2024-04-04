@@ -412,7 +412,7 @@ When you complete this course, you can earn the badge displayed here! View all t
 * Train a machine learning model that tells traders and employees which item features should be inspected for more accurate evaluations.
     
 
-### **Managing ML projects successfully Coursera Quiz/Assessment Answers**
+### **Managing ML projects successfully**
 
 **Question 1: You work in a company that is using legacy systems for data storage. Your current business processes occur slowly and rely on sharing data. You want to implement data lake modernization and make better use of data warehouses, but first you need to convince your teams and machine learning engineers to support this change. What current problems might teams and machine learning engineers experience while using traditional data storage solutions?**
 
