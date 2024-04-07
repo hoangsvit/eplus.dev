@@ -38,7 +38,7 @@ This lab is recommended for students who have enrolled in the [Get Started with 
 
 1. Navigate to **Vertex AI** &gt; **Workbench** &gt; **User-Managed Notebooks**.
     
-2. Create a Notebook instance. Select **TensorFlow Enterprise 2.11** *Without GPUs.* Name your notebook `cnn-challenge` and leave the default configurations.
+2. Create a Notebook instance. Select **TensorFlow Enterprise 2.11***Without GPUs.* Name your notebook `cnn-challenge` and leave the default configurations.
     
 3. Select region .
     
@@ -47,18 +47,18 @@ This lab is recommended for students who have enrolled in the [Get Started with 
 
 ### Task 2. Download the Challenge Notebook
 
-> *\# TODO: fill in PROJECT\_ID.*
+> *\# TODO: fill in <mark>PROJECT_ID</mark>.*
 
 ```apache
 if not os.getenv("IS_TESTING"):
     # Get your Google Cloud project ID from gcloud
-    PROJECT_ID = "qwiklabs-gcp-01-6ae543337eab"
+    PROJECT_ID = "PROJECT JD"
 ```
 
 > *\# TODO: Create a globally unique Google Cloud Storage bucket name for artifact storage.*
 
 ```apache
-BUCKET_NAME = "gs://qwiklabs-gcp-01-6ae543337eab"
+BUCKET_NAME = "gs://PROJECT ID"
 ```
 
 > *\# TODO: Write the last layer.*
