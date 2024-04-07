@@ -21,6 +21,10 @@ To score 100% you must successfully complete all tasks within the time period!
 
 ---
 
+Link: [https://www.cloudskillsboost.google/course\_templates/667/labs/461611](https://www.cloudskillsboost.google/course_templates/667/labs/461611)
+
+---
+
 ### **Task 1. Create an API key**
 
 * *Navigation Menu* &gt; *APIs and Services* &gt; *Credentials* &gt; Click `+Create Credentials` &gt; Choose `API KEY`.
