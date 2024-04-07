@@ -52,7 +52,7 @@ This lab is recommended for students who have enrolled in the [Get Started with 
 ```apache
 if not os.getenv("IS_TESTING"):
     # Get your Google Cloud project ID from gcloud
-    PROJECT_ID = "PROJECT JD"
+    PROJECT_ID = "PROJECT ID"
 ```
 
 > *\# TODO: Create a globally unique Google Cloud Storage bucket name for artifact storage.*
