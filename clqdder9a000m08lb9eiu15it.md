@@ -48,7 +48,7 @@ Trong số các vị trí lần đầu xuất hiện trong báo cáo năm nay, �
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703051851729/84ce915f-93ce-4c0f-8f25-2f9b4787177e.webp align="center")
 
-[**Download file (Tải về)**](https://cdn.discordapp.com/attachments/1128212231801286686/1186907544157945866/ITviec_IT_Salary_Report_2023_2024-Full-VI_bc54d618.pdf)
+[**Download file (Tải về)**](https://github.com/ePlus-DEV/storage/blob/main/IT%20Salary%20Report/2023-2024/ITviec_IT_Salary_Report_2023_2024-Full-VI_bc54d618.pdf)
 
 ---
 
@@ -85,10 +85,10 @@ The top 3 IT positions in terms of median salary in the 2023-2024 IT Salary Repo
 
 **Tech Leads** rank second, with a median monthly salary of 50 million and a median experience of 3 years. The third position, Project Leaders/Project Managers, receives a median salary of 48 million VND per month. This salary is equally impressive for individuals with a median of 5 years of experience.
 
-Among the new IT positions added in this year’s report, the most notable ones are **Data Engineers**, who earn a median monthly salary of 30 million dong with 2 years of experience, and **DevOps Engineer/DevSecOps Engineers**, who earn 40.5 million dong per month for the same level of experience. **Cloud Engineers** are also included in the top list, earning a median salary of 45 million dong per month for individuals with a median of 4 years of experience.  
-  
+Among the new IT positions added in this year’s report, the most notable ones are **Data Engineers**, who earn a median monthly salary of 30 million dong with 2 years of experience, and **DevOps Engineer/DevSecOps Engineers**, who earn 40.5 million dong per month for the same level of experience. **Cloud Engineers** are also included in the top list, earning a median salary of 45 million dong per month for individuals with a median of 4 years of experience.
+
 *Download the detailed report to update the latest median salary by 25 IT positions, and programming languages with corresponding years of experience.*
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703052239268/6c455656-480d-4eca-8c36-5f893794ad30.webp align="center")
 
-[**Download file (Tải về)**](https://cdn.discordapp.com/attachments/1128212231801286686/1186906318309687368/ITviec_IT_Salary_Report_2023_2024-Full-EN_fcd69abb.pdf)
+[**Download file (Tải về)**](https://github.com/ePlus-DEV/storage/blob/main/IT%20Salary%20Report/2023-2024/ITviec_IT_Salary_Report_2023_2024-Full-VI_bc54d618.pdf)
