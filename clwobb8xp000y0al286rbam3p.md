@@ -36,34 +36,39 @@ Codate helps you quickly create date formats for any programming language. Just 
 
 Example:
 
-```javascript
-
-  function getDateFormat() {
-    const date = new Date();
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    const day = String(date.getDate()).padStart(2, '0');
-    const year = date.getFullYear();
-    return `${month}/${day}/${year}`;
-  }
-  
-  // Result: "05/01/2024"
-```
-
-```python
-  import datetime
-  
-  def get_date_format():
-      date = datetime.datetime.now()
-      return date.strftime("%m/%d/%Y")
-  
-  # Result: "05/01/2024"
-```
-
-```php
-  <?php
-  function getDateFormat() {
-    return date("m/d/Y");
-  }
-  
-  // Result: "05/01/2024"
-```
+* Javascript
+    
+    ```javascript
+      function getDateFormat() {
+        const date = new Date();
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const day = String(date.getDate()).padStart(2, '0');
+        const year = date.getFullYear();
+        return `${month}/${day}/${year}`;
+      }
+      
+      // Result: "05/01/2024"
+    ```
+    
+* Python
+    
+    ```python
+      import datetime
+      
+      def get_date_format():
+          date = datetime.datetime.now()
+          return date.strftime("%m/%d/%Y")
+      
+      # Result: "05/01/2024"
+    ```
+    
+* PHP
+    
+    ```php
+      <?php
+      function getDateFormat() {
+        return date("m/d/Y");
+      }
+      
+      // Result: "05/01/2024"
+    ```
