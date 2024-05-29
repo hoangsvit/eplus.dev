@@ -5,7 +5,7 @@ seoDescription: "Bạn đang phát triển trò chơi hay ứng dụng? Hãy cù
 datePublished: Wed May 29 2024 01:33:36 GMT+0000 (Coordinated Universal Time)
 cuid: clwr5ke0n000809mqf6vgeld7
 slug: google-play-academy-study-jam-chuong-trinh-hoc-truc-tuyen-mien-phi
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716946285905/56c31bad-45a3-476f-b229-510b4ad2d907.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716946580212/2a46b7b9-40d6-4dd5-9906-7391467edcf5.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1716946401037/21b3a106-fbf3-4156-accc-9fe9e57450f8.png
 tags: google-play, academy-study-jam, hoc-truc-tuyen
 
