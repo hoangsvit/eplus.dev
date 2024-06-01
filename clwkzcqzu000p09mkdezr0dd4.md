@@ -18,16 +18,22 @@ Trước đây khi mua Android box BM9, BS10 sẽ được tặng bản quyền 
 \- Cách lấy key Vietmap Live 3 Năm trên Android box BM9 qua ứng dụng VMStore:
 
 1\. Các bác mở Google Chome và gõ link sau vào  
-[vmstore-pro-1.1.0%2B14.apk (32MB)](https://github.com/ePlus-DEV/storage/blob/main/vietmap/vmstore-pro-1.1.0%2B14.apk)[  
-](https://bit.ly/vmstorepro%EF%BF%BC2)2\. Tải về và cài đ[ặ](https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2Fvmstorepro%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2ZICOcZdku79NO3BjWPXUavq9kupDd4UnscCvfgdCPZeuPl00WC2TOGxU_aem_AYSoOTYvpJr2yCvZkfKohlb8cVLuBGURZTVCayMoV30lXeE0Mdjs8_Gq5crvzFkyCtbo1z6xxCh1HIN8ecI0L3rP&h=AT3RwN4gVSQG91ebHhkxhKAGU91yDb2eMeZiqPqst6c21aekDGJXw-UqzvCqwpwO2EsNQNfk7Qfh-LMnwyinISn6xywIL2jtYkJVq64KCK7WWVLkfm9OzIRYYybzJWrGOSGt&__tn__=-UK*F)t như bình thường  
-3\. Mở ra và thấy chữ lấy mã ở dòng Vietmap live là được ạ  
+[vmstore-pro-1.1.0%2B14.apk (32MB)](https://github.com/ePlus-DEV/storage/blob/main/vietmap/vmstore-pro-1.1.0%2B14.apk)
+
+2\. Tải về và cài đ[ặ](https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2Fvmstorepro%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2ZICOcZdku79NO3BjWPXUavq9kupDd4UnscCvfgdCPZeuPl00WC2TOGxU_aem_AYSoOTYvpJr2yCvZkfKohlb8cVLuBGURZTVCayMoV30lXeE0Mdjs8_Gq5crvzFkyCtbo1z6xxCh1HIN8ecI0L3rP&h=AT3RwN4gVSQG91ebHhkxhKAGU91yDb2eMeZiqPqst6c21aekDGJXw-UqzvCqwpwO2EsNQNfk7Qfh-LMnwyinISn6xywIL2jtYkJVq64KCK7WWVLkfm9OzIRYYybzJWrGOSGt&__tn__=-UK*F)t như bình thường
+
+3\. Mở ra và thấy chữ lấy mã ở dòng Vietmap live là được ạ
+
 4\. Lấy được mã rồi thì kích hoạt vào sdt đang sử dụng hoặc cho tặng ai cũng được ạ !!
 
 \- Cách lấy key Vietmap Live 3 Năm trên Android box BS10 qua ứng dụng VMStore:
 
-1\. Mở ứng dụng VMstore  
-2\. Cập nhật lên bản mới nhất  
-3\. Mở ra và bấm vào chữ lấy mã ở dòng Vietmap live  
+1\. Mở ứng dụng VMstore
+
+2\. Cập nhật lên bản mới nhất
+
+3\. Mở ra và bấm vào chữ lấy mã ở dòng Vietmap live
+
 4\. Lấy được mã rồi thì kích hoạt vào sdt đang sử dụng hoặc cho tặng ai cũng được ạ !!
 
 Nhiều bác hỏi : Ủa của anh được tặng Vietmap live trọn đời theo thiết bị rồi, thì mắc gì phải lấy mã 3 năm làm chi nữa hả em ?  
