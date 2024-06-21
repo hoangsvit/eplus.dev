@@ -1,10 +1,11 @@
 ---
 title: "[Knowledge check] Describe the core architectural components of Azure"
 seoTitle: "[Knowledge check] Describe the core architectural components of Azure"
-seoDescription: "This module explains the basic infrastructure components of Microsoft Azure. You'll learn about the physical infrastructure, how resources are managed, and "
+seoDescription: "This module explains the basic infrastructure components of Microsoft Azure. You'll learn about the physical infrastructure, how resources are managed, and"
 datePublished: Fri Jun 21 2024 08:15:23 GMT+0000 (Coordinated Universal Time)
 cuid: clxof1oic000609kyaehp979z
 slug: knowledge-check-describe-the-core-architectural-components-of-azure
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718957755446/5bb4d4db-4bae-410f-8cfc-116fab32d21a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1718957684484/6fb55ddf-c9d6-4acb-970e-46c56f585c55.png
 tags: microsoft-azure, region-pairs, availability-zones, sovereign-regions
 
