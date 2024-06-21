@@ -1,7 +1,7 @@
 ---
 title: "[Knowledge check] Describe cloud computing"
 seoTitle: "[Knowledge check] Describe cloud computing"
-seoDescription: "Choose the best response for each question. Then select Check your answers."
+seoDescription: "This module introduces you to cloud computing. It covers things such as cloud concepts, deployment models, and understanding shared responsibility in the cl"
 datePublished: Fri Jun 21 2024 07:51:25 GMT+0000 (Coordinated Universal Time)
 cuid: clxoe6uip00030al76kxde2cp
 slug: knowledge-check-describe-cloud-computing
