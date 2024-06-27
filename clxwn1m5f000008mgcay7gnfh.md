@@ -18,9 +18,9 @@ Vừa rồi mình có đợt phỏng vấn tại đây, vị trí **Team Leader 
 
 Đầu tiên khi mình research thông tin công ty -&gt; <mark>quá ít thông tin</mark>, hầu như là trên các trên <mark>review không có tên</mark> công ty (chỉ thấy trên **Linkedin** của một số bạn đang hoặc đã từng làm ở đây).
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719455094234/e0864ead-2bf0-464c-b41f-9b9983ccf53e.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719456160754/72ca19f3-1597-4be3-8d28-882ca39fa9d0.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719455101550/5808023a-2139-4165-96b7-64b2a76c0439.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719456089719/82ec0075-abe1-47d3-9053-2ff6a87536a8.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719455211589/c2939828-acdd-4552-b826-8a44a2b1abdf.png align="center")
 
