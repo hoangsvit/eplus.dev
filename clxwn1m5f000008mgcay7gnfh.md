@@ -14,6 +14,48 @@ tags: backend, developer, leader, gonose-international, backend-developer-leader
 
 Vừa rồi mình có đợt phỏng vấn tại đây, vị trí **Team Leader Backend**.
 
+### Thông tin công ty
+
+Đầu tiên khi mình research thông tin công ty -&gt; <mark>quá ít thông tin</mark>, hầu như là trên các trên <mark>review không có tên</mark> công ty (chỉ thấy trên **Linkedin** của một số bạn đang hoặc đã từng làm ở đây).
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719455094234/e0864ead-2bf0-464c-b41f-9b9983ccf53e.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719455101550/5808023a-2139-4165-96b7-64b2a76c0439.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719455211589/c2939828-acdd-4552-b826-8a44a2b1abdf.png align="center")
+
+### Quy trình phỏng vấn
+
+**Người phỏng vấn:** Vietnamese Mgr, BSE, HR, and Mr.Higuchi (được bên HeadHunt thông báo).Thực tế khi phỏng vấn thi không có Mr.Higuchi.
+
+**Bài test:**
+
+Câu 1:
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719455490550/9a346194-e6fa-4407-9803-ca3cd3843278.jpeg align="center")
+
+Câu 2:
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719455505471/ed49e83b-6007-420f-90a8-c0e1ffe4b1df.jpeg align="center")
+
+Câu 3:
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719455519615/fc82e4b6-83c8-453e-b9ac-4fa97b38d49d.jpeg align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719455529316/12269bc5-f473-4e5e-853b-0764e9643f4b.jpeg align="center")
+
+Câu 4:
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719455540810/d79f6c36-63d6-48da-a07f-fd17ee98d809.jpeg align="center")
+
+---
+
+### Kết quả phỏng vấn: <mark>tạch</mark>
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719455658719/bf2355b3-9f4d-41d6-9fa8-d9a88639d178.png align="center")
+
+**Nguyên nhân** có thể do mình <mark>deal cao</mark> quá
+
 ---
 
 ### Job Details:
@@ -45,12 +87,12 @@ frontend systems for our applications.
 \- Ability to work independently and in a team environment.  
 \- English: good at reading and writing
 
-**<mark>Tải JD:</mark>** [<mark>tại đây</mark>](https://github.com/ePlus-DEV/storage/blob/main/job/company/gonosen/Backend%20Developer%20Leader%20-%2024407.pdf)
+**<mark>Tải JD:</mark>**[<mark>tại đây</mark>](https://github.com/ePlus-DEV/storage/blob/main/job/company/gonosen/Backend%20Developer%20Leader%20-%2024407.pdf)
 
 ---
 
 Homepage : [https://gonosen.asia/  
-](https://gonosen.asia/￼■Business)■Business　　 :  
+](https://gonosen.asia/%EF%BF%BC%E2%96%A0Business)■Business　　 :  
 ＜私たちの強み＞　【技術・経験・スピード】  
 GONOSENが最も得意としているところです。  
 Webサイトやアプリを立ち上げたいと思っても、多くのお客様にとっては、どのように運営していけ  
