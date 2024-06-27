@@ -87,7 +87,7 @@ frontend systems for our applications.
 \- Ability to work independently and in a team environment.  
 \- English: good at reading and writing
 
-**<mark>Tải JD:</mark>**[<mark>tại đây</mark>](https://github.com/ePlus-DEV/storage/blob/main/job/company/gonosen/Backend%20Developer%20Leader%20-%2024407.pdf)
+**<mark>Tải JD: </mark>** [<mark>tại đây</mark>](https://github.com/ePlus-DEV/storage/blob/main/job/company/gonosen/Backend%20Developer%20Leader%20-%2024407.pdf)
 
 ---
 
