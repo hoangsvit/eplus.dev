@@ -60,9 +60,11 @@ Câu 4:
 
 ### Job Details:
 
-■Position : Backend Developer Leader  
-■Job ID : 24407  
-■Job Description : &lt;Responsibility&gt;  
+■Position : Backend Developer Leader
+
+■Job Description : &lt;Responsibility&gt;
+
+  
 \- You will be in charge of Leader for Web develomemnt project.  
 &lt;Job detail&gt;  
 \- Take part of the core development team, designing, developing, and maintaining backend and  
@@ -73,8 +75,10 @@ frontend systems for our applications.
 \- Other task will be assinged by manager  
 &lt;Attractive points&gt;  
 \- Every member are friendly and working environment is very nice.  
-\- You can inprove your skill because have good leader for you.  
-■Requirement :  
+\- You can inprove your skill because have good leader for you.
+
+■Requirement :
+
 &lt;Must&gt;  
 \- At least 3 years of professional experience as a Backend Developer.  
 \- Experienced in PHP and Node.js development.  
@@ -91,8 +95,9 @@ frontend systems for our applications.
 
 ---
 
-Homepage : [https://gonosen.asia/  
-](https://gonosen.asia/%EF%BF%BC%E2%96%A0Business)■Business　　 :  
+Homepage : [https://gonosen.asia/](https://gonosen.asia/%EF%BF%BC%E2%96%A0Business)
+
+■Business　　 :  
 ＜私たちの強み＞　【技術・経験・スピード】  
 GONOSENが最も得意としているところです。  
 Webサイトやアプリを立ち上げたいと思っても、多くのお客様にとっては、どのように運営していけ  
@@ -103,6 +108,8 @@ Webサイトやアプリを立ち上げたいと思っても、多くのお客�
 システム構築やアプリ製作と言った技術が求められる依頼に対しても、数多くの制作実績がありま  
 す。  
 ITの専門家だからできる、インターネット上の問題解決を武器に、GONOSENはお客様に満足いただ  
-けるようなサービスを提供していきます。  
-■Established year : 2014  
+けるようなサービスを提供していきます。
+
+■Established year : 2014
+
 ■Employees Number (VN) 　 : 30
