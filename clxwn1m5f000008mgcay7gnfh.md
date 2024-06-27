@@ -5,7 +5,7 @@ seoDescription: "Position: Backend Developer Leader
 - You will be in charge of the Leader for the Web development project."
 datePublished: Thu Jun 27 2024 02:21:27 GMT+0000 (Coordinated Universal Time)
 cuid: clxwn1m5f000008mgcay7gnfh
-slug: review-qua-trinh-phong-van-tai-gonosne-international
+slug: review-qua-trinh-phong-van-tai-gonosen-international
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719454093003/5819b9de-03c8-4ba3-869c-997e377cbfb5.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1719454820203/d381364b-d758-42ba-9806-6dfabbbb2c02.png
 tags: backend, developer, leader, gonose-international, backend-developer-leader
