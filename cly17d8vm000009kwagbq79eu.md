@@ -13,8 +13,8 @@ tags: dns, dns-server, blackmagicc
 
 # Giới thiệu
 
-**BlackMagicc DNS** là dự án **DNS Server** cá nhân. Phục vụ mục đích sử dụng cá nhân và quy mô nhỏ. Với tiêu chí hoạt động ổn định và hiệu quả.  
-  
+**BlackMagicc DNS** là dự án **DNS Server** cá nhân. Phục vụ mục đích sử dụng cá nhân và quy mô nhỏ. Với tiêu chí hoạt động ổn định và hiệu quả.
+
 🚫 **Lưu ý:** Tôi sẽ không chịu bất cứ trách nhiệm nào khi bạn sử dụng DNS Server làm việc trái pháp luật hoặc gây hại tới người khác.
 
 **🎈 MỘT SỐ ƯU ĐIỂM CỦA DNS**
@@ -31,7 +31,7 @@ tags: dns, dns-server, blackmagicc
 
 ## Cấu hình
 
-1. **Hướng dẫn cấu hình DNS trên thiết bị iPhone/ iPad**
+1. ### **Hướng dẫn cấu hình DNS trên thiết bị iPhone/ iPad**
     
     Để cấu hình DNS Server lên thiết bị iPhone và iPad chúng ta có 2 cách đơn giản như sau:
     
@@ -39,11 +39,9 @@ tags: dns, dns-server, blackmagicc
     
     Vào cài đặt wifi mà bạn đang kết nối
     
-      
-    
     ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXc-X-Spb6GBQZ-Q4I6Hd86hdPWJwB9YY8IcM9zPOUu4aZIqn3B8hIur9mn_iYjSy2W40oCjMnmq-vnoOA0VklDnUvVX77Ut4I-3Si9IgzGLE12hPZCKGKkcTODUNNMifg4p1WHg1wtuOayDkUHjAlkElwzB?key=_TS5aKVsKZb09EbXz5Rgqw align="center")
     
-    Kéo xuống dưới chọn cấu hình DNS  
+    Kéo xuống dưới chọn cấu hình DNS
     
     ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXepfEqsBrhoDFY6vnwpVfHaFYEZICAIFaebJtUZ5EcyTsST5CYWx0exzC8URf8DnIlMYIFYS4SXxHhuZiHqzGXWR-Slzq4f6T5ghM-47GJxn16s6a_wBhpGosDmNFby17FSQ76XrT5U4SDhwq-CnmyrZWAW?key=_TS5aKVsKZb09EbXz5Rgqw align="center")
     
@@ -53,28 +51,21 @@ tags: dns, dns-server, blackmagicc
     
     Truy cập: [**https://bento.me/blackmagicc**](https://bento.me/blackmagicc) để lấy thông tin DNS Server mới nhất.
     
-      
-      
-    
     ---
-    
-      
     
     **Cách 2: Sử dụng DNSecure để cấu hình DNS (nên dùng cách này vì với cách này bạn đổi wifi, đổi 4G thoải mái DNS vẫn hoạt động luôn, không cần phải cấu hình thủ công lại nữa.)**
     
-    **Cài đặt DNSecure trên Appstore:** [https://apps.apple.com/th/app/dnsecure/id1533413232?platform=iphone](https://apps.apple.com/th/app/dnsecure/id1533413232?platform=iphone)
+    **Cài đặt DNSecure trên Appstore:**[https://apps.apple.com/th/app/dnsecure/id1533413232?platform=iphone](https://apps.apple.com/th/app/dnsecure/id1533413232?platform=iphone)
     
     Sau khi cài đặt xong các bạn mở App lên chọn thêm Server
     
     ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfzDJn-vadhNWHQ3GIlLV_3CxuBchKIaDQ4H67td0jpka2KCtWgbIZZvJoISTGfjfLKMvMyRGaRZCZU2_7_yq5e-n89hU8pPeHnpsu8D4MnzUeDDoccldSFwScah-LmOfOzzhsQpzQMdKQxD5VAeUyGCQjw?key=_TS5aKVsKZb09EbXz5Rgqw align="center")
     
-    Chọn kiểu **DNS over HTTPS**  
+    Chọn kiểu **DNS over HTTPS**
     
     ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXf1QRom6U7_C0HdxpGctNpGgtCCBUzsUt8S76h_cM1kv-8FKVWHp_5mY533KV1baWGYEBMaONZwU3yK8qfu1PLmnvrF88dQ7BjI-rOklG1Wjf62gz-BrSXkMYqWmuKKj11eQ3xdIBPYfYZT3CxqZdiErjl2?key=_TS5aKVsKZb09EbXz5Rgqw align="center")
     
     ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXfnUfAR9NbmBmns42PSl8UbsH3VxFmV6-aHhWPPkgbEushTnpXOL_jcwmW4WD-bjWLt-xl8Um8jZIexVE0rMrFR9Goxj8O-_WMQ0zpkdBgOM3I2bzbeyutEIgbcIpgofPsGM5yehwUP3R8Zl4PMBk6UP7MM?key=_TS5aKVsKZb09EbXz5Rgqw align="center")
-    
-      
     
     **Name:** Bạn đặt là gì cũng được
     
