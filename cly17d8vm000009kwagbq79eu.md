@@ -134,3 +134,41 @@ tags: dns, dns-server, blackmagicc
     ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcp596O14zBsFFuLAwpUlbOT7oP-ztcUEScHl_QPBaKHGNgnF1ELLfROGybL_UPYCH3oY5Z30eVYCabbrKav2HtcOtCzqVHi5vmbjlG4XRmGv2ubZ1mZsb0OX3oZyFv0cKSdZmBJOylRUUHEDWwmwRYxtb6?key=rTrchOeR73D1ttrH4mvKiw align="center")
     
     Nhấn Bắt đầu để kết nối.
+    
+3. ### **Hướng dẫn cấu hình DNS cho Window 11**
+    
+    Đối với Window 11 bạn có thể cấu hình DNS rất dễ dàng. Đầu tiên bạn vào **Setting** -&gt; **Network & Internet** -&gt; **Ethernet**. Chọn mục **DNS server assignment**.
+    
+    ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXc9vNEgaMKYO9qd6JPThYUke3q0_ba8GT87BAShT7QPQNFBUTyEuqtPwF1_UQPr4BtEau6A8nvD3h_xYKwhqPqg5FyDV9kDTIrS6wj9U_aZHQuo4OnMlI61zgMKfoC-ZdXJzarXWTQ1Q_6D1rWeWxwN2q4?key=D2YANUaaqXqv8GFLLleiGQ align="left")
+    
+    Bấm vào phần **Edit**
+    
+    Chọn chế độ **Manual**
+    
+    **IPV4: ON**
+    
+    **Preferred DNS:** Điền IPV4 của DNS
+    
+    **DNS over HTTPS:** Chọn ON (manual template)
+    
+    **DNS over HTTPS template:** Điền URL giao thức HTTPS của DNS
+    
+    **IPV6: ON**
+    
+    **Preferred DNS:** Điền IPV6 của DNS
+    
+    **DNS over HTTPS:** Chọn ON (manual template)
+    
+    **DNS over HTTPS template:** Điền URL giao thức HTTPS của DNS
+    
+    Sau đó bạn nhấn **SAVE** lại là xong.
+    
+    ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXc_od3RJmXnycueSfVdGZPnaEgcxpSeA41KDQveXMGkksZe75SRHB5RkCiu9bnh3aGhnkiW_ATHiQ0nZHTIwp-AxD0Wa4wIxvM9XftVZOtvoN3WVfrQipzfMQB2SmIxOO_NMBnrgo7w94hV40Qa2A7sv7De?key=D2YANUaaqXqv8GFLLleiGQ align="center")
+    
+4. ### **Hướng dẫn cấu hình DNS cho Window 10**
+    
+    %[https://youtu.be/fUMLTgJxEIw?si=3MbsgIorNOW4ByTK] 
+    
+5. ### **Hướng dẫn cấu hình DNS trên Server riêng**
+    
+    %[https://youtu.be/Xstz7j7vzlU?si=WXax99KHMvtUd9Z4]
