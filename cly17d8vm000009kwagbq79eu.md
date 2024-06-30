@@ -49,8 +49,6 @@ tags: dns, dns-server, blackmagicc
     
     Chuyển DNS sang thủ công và Add IPV4 & IPV6 của DNS Server vào và lưu lại.
     
-    Truy cập: [**https://bento.me/blackmagicc**](https://bento.me/blackmagicc) để lấy thông tin DNS Server mới nhất.
-    
     ---
     
     **Cách 2: Sử dụng DNSecure để cấu hình DNS (nên dùng cách này vì với cách này bạn đổi wifi, đổi 4G thoải mái DNS vẫn hoạt động luôn, không cần phải cấu hình thủ công lại nữa.)**
@@ -86,3 +84,53 @@ tags: dns, dns-server, blackmagicc
     ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXduTHv7bkC5oB9wqtL_Y8OMKttnzKkHKgvcaEr_AcVopP1v5p7ZW8mP_pmjJ5wMz58gSlpOB8sKyqnNDVQm0g_VOgkvcGvrkXk3gZ_GP3oeDqeMNU4tNCviOKp1HRKGJl2LeomQcJroTC4p68IvAprN7Y-K?key=_TS5aKVsKZb09EbXz5Rgqw align="center")
     
     Như vậy là DNS sẽ hoạt động ổn định, dù bạn dùng wifi và 4G ở bất cứ đâu.
+    
+2. ### **Hướng dẫn cấu hình DNS trên thiết bị Android**
+    
+    Để có thể cấu hình DNS trên Android các bạn có thể làm theo 2 cách sau đây:
+    
+    **Cách 1: Cấu hình DNS trong phần cài đặt của Wifi**
+    
+    ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXeXVVFYxzIl4PtqD6vKAluysgQ33BsF7ELZHm53EoEx6Rl8-NmqJr3neH-3uSpa5o7nHP-BobMrkpkTw0WkaZf80QcdwZqA0SqrGOJrvjScaeCMJoozEcCV0Y2KtDmfT_0WjthLmk4qukM7UHEf7I62iBo?key=rTrchOeR73D1ttrH4mvKiw align="center")
+    
+    Chọn cài đặt Nâng cao
+    
+    ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXeqvJ2XEgBw9uq666RRgF_4mj8cGOsEt6nZ-4e5uvVAF1sqRM6BcuJMxlLBy8F5b0eMPlrjoDHhyzh_Zmx2FM0kgxwPRDSiiyPEpY9Dk-MuwN8Lgf0vVFH1qDifa3ie9J8QUmC-BjvNN5C3z5uXia2iaR4?key=rTrchOeR73D1ttrH4mvKiw align="center")
+    
+    Phần cài đặt IP chuyển về định dạng “Tĩnh”
+    
+    ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXe8PDDvG1ZHLzlpKoy49s1DgI_8XIcjNXyDA4o9CN11L9rhHe03IpV5BMeVX3hblasHh--KgpqbLiOBmsdg1nwsjAo60wHY2UJcRZ0lWjYvsk9KG7jjMckLyEUBmhp0n-46psVALy9U-RQc5GOJCjUsyxk?key=rTrchOeR73D1ttrH4mvKiw align="center")
+    
+    Phần DNS 1 bạn đổi sang IPV4 của DNS server là được.
+    
+    ---
+    
+    **Cách 2: Cấu hình DNS bằng DNS Changer (nên dùng cách này để bạn đỡ phải cấu hình thủ công nhiều, đổi wifi hay 4G đều có thể dùng DNS luôn mà không cần cấu hình thủ công lại trong wifi)**
+    
+    **Link DNS Changer trên Google Play:** [https://play.google.com/store/apps/details?id=com.appplanex.dnschanger&hl=vi](https://play.google.com/store/apps/details?id=com.appplanex.dnschanger&hl=vi)
+    
+    Sau khi cài đặt app xong bạn mở lên chọn phần máy chủ:
+    
+    ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXdCmeEBEMuae_4pG5u66c0AXuXBU5JvqrQYFWrspcVm7SsiPpatNrbr0WB-Lx2CwjVgXaZ4oybtodVTHYr5t0-QOaghMRVuQkvfo8ZBNXoLoyOThgNkVmb0_QRlhOxQXLHknNw7R7yGzyEBYgXzES_ao2_x?key=rTrchOeR73D1ttrH4mvKiw align="center")
+    
+    Chọn vào Thêm máy chủ:
+    
+    ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXelLHcmwFhO7FlPwBKKYR46tLtzFIO2VZb4o2uAKOn9l4vT54LswYKbDYy_X-N9U1APG0KxUe_DzPd4Mt9cJtK1CM5tncMhE7B4vqWlXqaQBLsblG10s_YtG2xbxeAWNkl32CSQKYL0py1pHOzwleuEhy6V?key=rTrchOeR73D1ttrH4mvKiw align="center")
+    
+    ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXc4UaF0VW_rIFGUd52IOtRBjQFPCoBnXgSHYcqek-EL_PbRllIALHynfmWSYEOFpSsYBTp8dG8tn9NJMKWDb71S3AbIE_haBpDF2teo3dQh0YvHq5_O_t6tE05ngDoakCQETZ-opT_k6eSL6mx8NYzUGfk?key=rTrchOeR73D1ttrH4mvKiw align="center")
+    
+    **Tên:** Bạn điền tên gì cũng được
+    
+    **DNS 1:** Bạn điền IPV4 của DNS Server
+    
+    **DNS 1 V6:** Bạn điền IPV6 của DNS Server
+    
+    Sau đó bạn chọn ấn Thêm máy chủ.
+    
+    ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcd62PrU1ki9INGMyKm849_TDR8QINhn9pDXF3aBF-yOrr5CaREF2kyF73667cPtjZElASUZObkqi3aqJHLB6pcHGyUppp2dW21ce3qYZ-BpOSJJVO4Sqx6kJmKC4wz8-FN-Mr6SWtVlf7mE1FdXiQ5yoo?key=rTrchOeR73D1ttrH4mvKiw align="center")
+    
+    Nhấn chọn máy chủ
+    
+    ![](https://lh7-us.googleusercontent.com/docsz/AD_4nXcp596O14zBsFFuLAwpUlbOT7oP-ztcUEScHl_QPBaKHGNgnF1ELLfROGybL_UPYCH3oY5Z30eVYCabbrKav2HtcOtCzqVHi5vmbjlG4XRmGv2ubZ1mZsb0OX3oZyFv0cKSdZmBJOylRUUHEDWwmwRYxtb6?key=rTrchOeR73D1ttrH4mvKiw align="center")
+    
+    Nhấn Bắt đầu để kết nối.
