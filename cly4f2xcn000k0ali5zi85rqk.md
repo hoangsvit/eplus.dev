@@ -187,7 +187,7 @@ In this unit, you will learn about the aggregation pipeline, which is one of Mon
 
 ### Lesson 04: Using `$project`, `$count`, and `$set` Stages in a MongoDB Aggregation Pipeline
 
-1. **What is the main difference between** `$set` and `$project`? (Select one.)
+1. **What is the main difference between**`$set` and `$project`? (Select one.)
     
     **A.** $set changes the values of fields. $project can show and hide fields, but it can't set values of fields.
     
@@ -197,7 +197,7 @@ In this unit, you will learn about the aggregation pipeline, which is one of Mon
     
     **<mark>D.</mark>** <mark> $set is used to create or change values of new or existing fields. $project can be used to create or change the value of fields, but it can also be used to specify which fields to show in the documents in the aggregation pipeline.</mark>
     
-2. **What does the** `$count` stage return? (Select one.)
+2. **What does the**`$count` stage return? (Select one.)
     
     **<mark>A.</mark>** <mark> A single document with one field that contains the value set to the number of documents at this stage in the aggregation pipeline.</mark>
     
@@ -210,7 +210,7 @@ In this unit, you will learn about the aggregation pipeline, which is one of Mon
 
 ### Lesson 05: Using `$out` Stage in a MongoDB Aggregation Pipeline
 
-1. **What does the** `$out` stage do? (Select one). 
+1. **What does the**`$out` stage do? (Select one).
     
     **A.** Removes documents from the aggregation pipeline.
     
@@ -219,3 +219,13 @@ In this unit, you will learn about the aggregation pipeline, which is one of Mon
     **<mark>C.</mark>** <mark> Creates a new collection that contains the documents in this stage of the aggregation pipeline.</mark>
     
     **D.** Removes the current user who is running the aggregation pipeline from the database.
+    
+2. **What happens if you set the** `$out` **stage to output to a collection that already exists? (Select one.)**
+    
+    * **A.** The existing collection is erased and replaced with the outputted documents.
+        
+    * **B.** A second collection with "\_1" appended to the name is created.
+        
+    * **<mark>C.</mark>** <mark> A new database with the specified name of the collection is created.</mark>
+        
+    * **D.** An error is returned, and the existing collection is not modified.
