@@ -1,6 +1,6 @@
 ---
 title: "Review quá trình phỏng vấn tại Gonosen International"
-seoTitle: "Review quá trình phỏng vấn tại Gonose International"
+seoTitle: "Review quá trình phỏng vấn tại Gonosen International"
 seoDescription: "Position: Backend Developer Leader
 - You will be in charge of the Leader for the Web development project."
 datePublished: Thu Jun 27 2024 02:21:27 GMT+0000 (Coordinated Universal Time)
