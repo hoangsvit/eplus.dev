@@ -27,7 +27,7 @@ In this exercise you will you will practice applying CSS rules to HTML elements.
 >     
 > * Drag your assessment code files over to the second column.
 >     
-> * Great work! You can now see instructions and code at the same time.  
+> * Great work! You can now see instructions and code at the same time.
 >     
 
 ## Task 1: Style an HTML page using CSS..
@@ -102,8 +102,8 @@ h2 {
     display: block;
 }
 
-h2 span {
-    color: #FA9F42;
+h2 > span {
+    color: #fa9f42;
     font-size: 0.75em;
 }
 
