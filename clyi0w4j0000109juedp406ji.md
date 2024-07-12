@@ -11,13 +11,13 @@ tags: ai, google, coursera, nhan-tai-so, google-ai-essentials
 
 ---
 
-CHÍNH THỨC RA MẮT KHÓA HỌC GOOGLE AI ESSENTIALS & MỞ 5,000 SUẤT HỌC BỔNG
+CHÍNH THỨC RA MẮT KHÓA HỌC **GOOGLE AI ESSENTIALS** & MỞ <mark>5,000</mark> SUẤT HỌC BỔNG
 
-Đăng ký học bổng Google và khóa học **Google AI Essentials** tại đây: [https://nhantaiso.nic.gov.vn/](https://l.facebook.com/l.php?u=https%3A%2F%2Fnhantaiso.nic.gov.vn%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR23qdDo6AhWjrBDHaCnMCxsHwSMOIH4EjahUhpaMZfF4Pr16Y-JQnV7yjA_aem_HeQ6cVRRyPFses1_DleUTA&h=AT0_P3wWmZHupeVkuX2FETDuQVY-PXQbnw4f3G2yFqOoiJFzo3AjVsiNp9GYacXiPAipBMnHr8EcJYcgVQoP6hXzqE21rmB-suGWhzCYGBYGJKvycX5uBu1aI9-J6-nA_gDq&__tn__=-UK-R&c[0]=AT0QEI6yFVW6kb1RxnWK8ZiLZs604DbcOXtOm8KdGsrMTrxz9KPxAEL6MdACOH4XnvaAvnXN920sRqYITGegEVianBkE5BOuBDEcs5hinfkU1GdbuqiAWyBAp9FCgSZMqfWHKmuV4hNTfQiR47A_xxj8gkbh-Gef1Oa9B-q6Qd6Y-rukhcma_eTyZxj-Tq8hCld3ltUCLA)
+Đăng ký học bổng Google và khóa học **Google AI Essentials** tại đây: [https://nhantaiso.nic.gov.vn/dang-ky](https://nhantaiso.nic.gov.vn/dang-ky)
 
 Khóa học Google AI Essentials ra mắt mang đến cho bạn cơ hội trở thành chuyên gia trong bất kỳ lĩnh vực nào với AI
 
-Bạn sẽ học được gì trong khóa học:
+**Bạn sẽ học được gì trong khóa học:**
 
 1\. Giới thiệu về AI
 
@@ -29,6 +29,6 @@ Bạn sẽ học được gì trong khóa học:
 
 5\. Dẫn đầu xu hướng AI
 
-Hãy tham gia khóa học Google AI Essentials ngay hôm nay để bắt đầu hành trình chinh phục AI của bạn!
+Hãy tham gia khóa học **Google AI Essentials** ngay hôm nay để bắt đầu hành trình chinh phục AI của bạn!
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1720747909301/3b5e9094-1c65-4296-89eb-ec0f8418d986.jpeg align="center")
