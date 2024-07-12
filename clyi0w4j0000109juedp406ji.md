@@ -32,3 +32,5 @@ Khóa học Google AI Essentials ra mắt mang đến cho bạn cơ hội trở 
 Hãy tham gia khóa học **Google AI Essentials** ngay hôm nay để bắt đầu hành trình chinh phục AI của bạn!
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1720747909301/3b5e9094-1c65-4296-89eb-ec0f8418d986.jpeg align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1720748177910/50a39e13-f7af-4874-9e60-5a2427f6a5fa.jpeg align="center")
