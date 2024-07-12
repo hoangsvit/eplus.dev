@@ -1,6 +1,6 @@
 ---
-title: "Google Tặng 5,000 Suất Học Bổng Từ Chương Trình Nhân Tài Số"
-seoTitle: "Google Tặng 5,000 Suất Học Bổng Từ Chương Trình Nhân Tài Số"
+title: "Google tặng 5,000 suất học bổng từ chương trình Nhân Tài Số"
+seoTitle: "Google tặng 5,000 suất học bổng từ chương trình Nhân Tài Số"
 seoDescription: "CHÍNH THỨC RA MẮT KHÓA HỌC GOOGLE AI ESSENTIALS & MỞ 5,000 SUẤT HỌC BỔNG"
 datePublished: Fri Jul 12 2024 01:32:15 GMT+0000 (Coordinated Universal Time)
 cuid: clyi0w4j0000109juedp406ji
