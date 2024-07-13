@@ -30,7 +30,7 @@ Tải phím tắt: [https://is.gd/GaYzJM](https://is.gd/GaYzJM)
 
 1. Nếu thấy thông báo lỗi có chứa: ...SSL .... kém an toàn... tức là máy chủ của CSGT đang quá tải hoặc bảo trì. Vui lòng thử lại sau tại thời gian khác.
     
-2. 2\. Nếu thấy thông báo mã xác thực sai. Hãy chờ 5-10s sau đó bấm OK hoặc thoát phím tắt rồi thử lại.
+2. Nếu thấy thông báo mã xác thực sai. Hãy chờ 5-10s sau đó bấm OK hoặc thoát phím tắt rồi thử lại.
     
 3. Nếu đang chạy dịch vụ tải, cơ giới. Có thể thông tin tra cứu ko tìm thấy. AE nên lên trang của cục đăng kiểm tra để có thông tin chính xác hơn. Các app, các web tra cứu hiện đang có, mình nhận thấy hầu như không có ai làm. Ngoại trừ app iNguoi (có trên ios và android).
     
@@ -54,4 +54,4 @@ Mình sẽ cố gắn hoàn thiện bổ sung thêm các tra cứu trong thời 
 
 Cảm ơn AE đã tải và trải nghiệm. Chúc AE vững vô-lăng không ngại đêm ngày vi vu qua từng Km.
 
-Nguồn: [J2Team](https://www.facebook.com/groups/364997627165697/?multi_permalinks=2239300113068763&hoisted_section_header_type=recently_seen&__cft__[0]=AZVg_myKzwnJWzGBT3-We2NYS11__ZBXzt3qBA53FEWfBTbvQyo1xcl7Zrq_N55nD07Bs9JCUCCZ2ghLnX39syCIvL9jtJ_pBN2QcJtPG9KEr7RiFHZ8GzQD-vYmeXFWsLOXyWw045Q5yz7mb_tf7tHw_gHMHhJ1v3-bWgT39biWPhaRM6a3xvjyUKKFBl-BTVA&__cft__[1]=AZVg_myKzwnJWzGBT3-We2NYS11__ZBXzt3qBA53FEWfBTbvQyo1xcl7Zrq_N55nD07Bs9JCUCCZ2ghLnX39syCIvL9jtJ_pBN2QcJtPG9KEr7RiFHZ8GzQD-vYmeXFWsLOXyWw045Q5yz7mb_tf7tHw_gHMHhJ1v3-bWgT39biWPhaRM6a3xvjyUKKFBl-BTVA&__tn__=%2CO%2CP-R]-R)
+Nguồn: [J2Team](https://www.facebook.com/groups/364997627165697/?multi_permalinks=2239300113068763&hoisted_section_header_type=recently_seen&__cft__%5B0%5D=AZVg_myKzwnJWzGBT3-We2NYS11__ZBXzt3qBA53FEWfBTbvQyo1xcl7Zrq_N55nD07Bs9JCUCCZ2ghLnX39syCIvL9jtJ_pBN2QcJtPG9KEr7RiFHZ8GzQD-vYmeXFWsLOXyWw045Q5yz7mb_tf7tHw_gHMHhJ1v3-bWgT39biWPhaRM6a3xvjyUKKFBl-BTVA&__cft__%5B1%5D=AZVg_myKzwnJWzGBT3-We2NYS11__ZBXzt3qBA53FEWfBTbvQyo1xcl7Zrq_N55nD07Bs9JCUCCZ2ghLnX39syCIvL9jtJ_pBN2QcJtPG9KEr7RiFHZ8GzQD-vYmeXFWsLOXyWw045Q5yz7mb_tf7tHw_gHMHhJ1v3-bWgT39biWPhaRM6a3xvjyUKKFBl-BTVA&__tn__=%2CO%2CP-R%5D-R)
