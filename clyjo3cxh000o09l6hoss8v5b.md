@@ -1,7 +1,7 @@
 ---
 title: "Đạt chứng chỉ "JavaScript Algorithms and Data Structures" trên freeCodeCamp trong 5 ngày"
 seoTitle: "Đạt chứng chỉ "JavaScript Algorithms and Data Structures" trên freeCod"
-seoDescription: "Mình thấy khóa này có rất nhiều điểm hay, đặc biệt là rất phù hợp với những bạn mới học, hoặc những bạn chuẩn bị đi thực tập, apply vị trí Fresher Web. Nếu "
+seoDescription: "Mình thấy khóa này có rất nhiều điểm hay, đặc biệt là rất phù hợp với những bạn mới học, hoặc những bạn chuẩn bị đi thực tập, apply vị trí Fresher Web. Nếu"
 datePublished: Sat Jul 13 2024 05:09:30 GMT+0000 (Coordinated Universal Time)
 cuid: clyjo3cxh000o09l6hoss8v5b
 slug: dat-chung-chi-javascript-algorithms-and-data-structures-tren-freecodecamp-trong-5-ngay
