@@ -11,11 +11,11 @@ tags: vietmap
 
 ---
 
-Thân gửi đến các bác đang sử dụng Android box của Vietmap  
-Trước đây khi mua Android box BM9, BS10 sẽ được tặng bản quyền 2 phần mềm dẫn đường và cảnh giao giao thông trong đó có Vietmap S2 ( 3 năm ) và Vietmap Live trọn đời thiết bị ( nhiều bác đăng nhập vào VML trên BM9, BS10 bảo có trọn đời đâu ? anh thấy hạn đến 2025..2027 mà nhưng các anh yên tâm đến ngày đó sẽ lại được gia hạn tiếp, chỉ cần cái Box còn thì Vietmap Live còn sử dụng được)  
-\- Ngày 22/4 Vietmap Thông báo dừng cập nhật Vietmap S2 để tập chung vào 1 ứng dụng Vietmap Live và sẽ tri ân khách hàng đang sử dụng Vietmap S2 "bản quyền" 3 năm sử dụng và cập nhật data cảnh báo Vietmap Live trong đó có lượng khách hàng đang sử dụng Android box BM9, BS10
+Thân gửi đến các bác đang sử dụng **Android box** của Vietmap  
+Trước đây khi mua **Android box BM9, BS10** sẽ được tặng bản quyền 2 phần mềm dẫn đường và cảnh giao giao thông trong đó có **Vietmap S2** ( <mark>3 năm</mark> ) và Vietmap Live trọn đời thiết bị ( nhiều bác đăng nhập vào **VML** trên BM9, BS10 bảo có trọn đời đâu ? anh thấy hạn đến 2025..2027 mà nhưng các anh yên tâm đến ngày đó sẽ lại được gia hạn tiếp, chỉ cần cái Box còn thì Vietmap Live còn sử dụng được)  
+\- Ngày 22/4 Vietmap Thông báo dừng cập nhật **Vietmap S2** để tập chung vào 1 ứng dụng **Vietmap Live** và sẽ tri ân khách hàng đang sử dụng **Vietmap S2** <mark>"bản quyền" 3 năm</mark> sử dụng và cập nhật data cảnh báo **Vietmap Live** trong đó có lượng khách hàng đang sử dụng **Android box BM9, BS10**
 
-\- Cách lấy key Vietmap Live 3 Năm trên Android box BM9 qua ứng dụng VMStore:
+\- **Cách lấy key <mark>Vietmap Live 3 Năm</mark> trên Android box BM9 qua ứng dụng VMStore:**
 
 1\. Các bác mở Google Chome và gõ link sau vào  
 [vmstore-pro-1.1.0%2B14.apk (32MB)](https://github.com/ePlus-DEV/storage/blob/main/vietmap/vmstore-pro-1.1.0%2B14.apk)
@@ -26,7 +26,7 @@ Trước đây khi mua Android box BM9, BS10 sẽ được tặng bản quyền 
 
 4\. Lấy được mã rồi thì kích hoạt vào sdt đang sử dụng hoặc cho tặng ai cũng được ạ !!
 
-\- Cách lấy key Vietmap Live 3 Năm trên Android box BS10 qua ứng dụng VMStore:
+\- **Cách lấy key <mark>Vietmap Live 3 Năm</mark> trên Android box BS10 qua ứng dụng VMStore:**
 
 1\. Mở ứng dụng VMstore
 
@@ -36,11 +36,11 @@ Trước đây khi mua Android box BM9, BS10 sẽ được tặng bản quyền 
 
 4\. Lấy được mã rồi thì kích hoạt vào sdt đang sử dụng hoặc cho tặng ai cũng được ạ !!
 
-Nhiều bác hỏi : Ủa của anh được tặng Vietmap live trọn đời theo thiết bị rồi, thì mắc gì phải lấy mã 3 năm làm chi nữa hả em ?  
-\- Đúng là anh được tặng trọn đời nhưng chỉ đăng nhập tài khoản Vietmap Live trên thiết bị Android box BM9, BS10 mới sử dụng được Full tính năng thôi còn anh lấy tài khoản đó đăng nhập trên điện thoại hoặc màn Android khác thì sẽ không sử dụng được nữa.  
-( kiểu nay anh đi xe người khác muốn sử dụng VML để cảnh báo nhưng không sử dụng được )  
-\- Anh đừng lo bây giờ thì anh sẽ được tri ân key Vietmap Live 3 năm, key này anh có thể kích vào tài khoản anh đang sử dụng để đi đâu anh cũng có thể sử dụng Vietmap live bản quyền mà không phải dựa vào Android box nữa ạ...  
+Nhiều bác hỏi : Ủa của anh được tặng **Vietmap live trọn đời theo thiết bị** rồi, thì mắc gì phải lấy mã 3 năm làm chi nữa hả em ?  
+\- Đúng là anh được tặng trọn đời nhưng chỉ đăng nhập tài khoản Vietmap Live trên thiết bị **Android box BM9, BS10** mới sử dụng được Full tính năng thôi còn anh lấy tài khoản đó đăng nhập trên điện thoại hoặc màn Android khác thì sẽ không sử dụng được nữa.  
+( kiểu nay anh đi xe người khác muốn sử dụng **VML** để cảnh báo nhưng không sử dụng được )  
+\- Anh đừng lo bây giờ thì anh sẽ được tri ân key **Vietmap Live 3 năm**, key này anh có thể kích vào tài khoản anh đang sử dụng để đi đâu anh cũng có thể sử dụng Vietmap live bản quyền mà không phải dựa vào **Android box** nữa ạ...  
 Key này anh lấy có thể cho, tặng người khác nếu anh không có nhu cầu sử dụng!  
 \_\_\_\_  
 Nhiều bác hỏi : Anh làm theo em rồi kích mã báo thành công nhưng vẫn không được mở tính năng để sử dụng :  
-\- Ở bản VML 2.8.1 khi kích hoạt mã xong thì các anh lên đăng xuất tài khoản ra và đăng nhập lại là sẽ được ạ
+\- Ở bản **VML 2.8.1** khi kích hoạt mã xong thì các anh lên đăng xuất tài khoản ra và đăng nhập lại là sẽ được ạ.
