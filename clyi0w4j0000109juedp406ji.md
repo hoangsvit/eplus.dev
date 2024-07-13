@@ -1,7 +1,7 @@
 ---
-title: "Google tặng 5,000 suất học bổng từ chương trình Nhân Tài Số"
-seoTitle: "Google tặng 5,000 suất học bổng từ chương trình Nhân Tài Số"
-seoDescription: "CHÍNH THỨC RA MẮT KHÓA HỌC GOOGLE AI ESSENTIALS & MỞ 5,000 SUẤT HỌC BỔNG"
+title: "Google tặng 5.000 suất học bổng từ chương trình Nhân Tài Số"
+seoTitle: "Google tặng 5.000 suất học bổng từ chương trình Nhân Tài Số"
+seoDescription: "CHÍNH THỨC RA MẮT KHÓA HỌC GOOGLE AI ESSENTIALS & MỞ 5.000 SUẤT HỌC BỔNG"
 datePublished: Fri Jul 12 2024 01:32:15 GMT+0000 (Coordinated Universal Time)
 cuid: clyi0w4j0000109juedp406ji
 slug: google-tang-5000-suat-hoc-bong-tu-chuong-trinh-nhan-tai-so
@@ -11,7 +11,7 @@ tags: ai, google, coursera, nhan-tai-so, google-ai-essentials
 
 ---
 
-CHÍNH THỨC RA MẮT KHÓA HỌC **GOOGLE AI ESSENTIALS** & MỞ <mark>5,000</mark> SUẤT HỌC BỔNG
+CHÍNH THỨC RA MẮT KHÓA HỌC **GOOGLE AI ESSENTIALS** & MỞ <mark>5.000</mark> SUẤT HỌC BỔNG
 
 Đăng ký học bổng Google và khóa học **Google AI Essentials** tại đây: [https://nhantaiso.nic.gov.vn/dang-ky](https://nhantaiso.nic.gov.vn/dang-ky)
 
