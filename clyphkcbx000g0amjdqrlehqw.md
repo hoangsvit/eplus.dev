@@ -83,13 +83,13 @@ tags: javascript
     }
     ```
     
-    * <mark>2</mark>
+    * 2
         
     * 3
         
     * 4
         
-    * 6
+    * <mark>6</mark>
         
 6. **Based on the following code, what will print out when the variable i has the value 7 ?**
     
