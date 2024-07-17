@@ -8,6 +8,8 @@ C. Học vấn và kinh nghiệm"
 datePublished: Wed Jul 17 2024 09:58:45 GMT+0000 (Coordinated Universal Time)
 cuid: clypo6qu7001b09l04uuo9m86
 slug: nhung-cau-hoi-phong-van-thuong-gap-va-goi-y-cau-tra-loi
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/LQ1t-8Ms5PY/upload/f5c122adb4c54db52a64dd831c842d14.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721210503672/f84ec0c2-5b77-484f-a7d8-df3c57078b30.avif
 tags: interview, interview-questions, phong-van, cau-hoi-phong-van
 
 ---
