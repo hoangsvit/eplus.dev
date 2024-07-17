@@ -25,7 +25,7 @@ tags: javascript
         
     * Goodbye
         
-2. <mark>Based on the following code, what will print out when the variable i has the value 1 ?</mark>
+2. **Based on the following code, what will print out when the variable i has the value 1 ?**
     
     ```javascript
       if(i == 0 && i == 1) {
@@ -91,7 +91,7 @@ tags: javascript
         
     * 6
         
-6. <mark>Based on the following code, what will print out when the variable i has the value 7 ?</mark>
+6. **Based on the following code, what will print out when the variable i has the value 7 ?**
     
     ```javascript
       if(i <= 5) {
@@ -109,7 +109,7 @@ tags: javascript
         
     * Goodbye
         
-7. <mark>Based on the following code, what will print out when the variable i has the value 3 ?</mark>
+7. **Based on the following code, what will print out when the variable i has the value 3 ?**
     
     ```javascript
       switch(i) {
@@ -131,7 +131,7 @@ tags: javascript
         
     * <mark>Goodbye</mark>
         
-8. <mark>Based on the following code, what will print out when the variable i has the value 3 ?</mark>
+8. **Based on the following code, what will print out when the variable i has the value 3 ?**
     
     ```javascript
       if(i == 2 || i == 3) {
