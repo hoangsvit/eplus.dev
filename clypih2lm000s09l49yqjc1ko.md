@@ -20,23 +20,23 @@ tags: javascript
 2. **Which of the following are valid comments in JavaScript? Select all that apply.**
     
     * ```plaintext
-        \ Comment 1
+          \ Comment 1
         ```
         
     * ```plaintext
-        // Comment 2
+          // Comment 2
         ```
         
     * ```plaintext
-        ##
-        ## Comment 3
-        ##
+          ##
+          ## Comment 3
+          ##
         ```
         
     * ```plaintext
-        /*
-        * Comment 4
-        */
+          /*
+          * Comment 4
+          */
         ```
         
         ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721200485349/e7399ef4-cbc9-42cf-ba68-eac05f32696a.png align="center")
@@ -54,19 +54,19 @@ tags: javascript
 4. Which of the following is the logical AND operator in JavaScript?
     
     * ```plaintext
-        &
+          &
         ```
         
     * ```plaintext
-        &&
+          &&
         ```
         
     * ```plaintext
-        ||
+          ||
         ```
         
     * ```plaintext
-        |\
+          |\
         ```
         
         ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721200494649/3c4ac47e-d988-4f4a-b012-c772eee54ee3.png align="center")
@@ -74,15 +74,15 @@ tags: javascript
 5. **Which of the following is the assignment operator in JavaScript?**
     
     * ```plaintext
-        =
+          =
         ```
         
     * ```plaintext
-        ==
+          ==
         ```
         
     * ```plaintext
-        ===
+          ===
         ```
         
         ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721200474206/ffe454fe-06eb-470b-a079-9f6829900b8b.png align="center")
@@ -139,13 +139,13 @@ tags: javascript
         
     * Nothing
         
-9. The result of `!false` is:
+9. **The result of** `!false` **is:**
     
     * <mark>true</mark>
         
     * undefined
         
-10. What does the operator symbol || represent in JavaScript?
+10. **What does the operator symbol || represent in JavaScript?**
     
     * <mark>The logical OR operator</mark>
         
