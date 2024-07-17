@@ -14,11 +14,11 @@ tags: javascript
 1. **Based on the following code, what will print out when the variable i has the value 3 ?**
     
     ```javascript
-      if(i < 5) {
-        console.log("Hello");
-      } else {
-        console.log("Goodbye");
-      }
+    if(i < 5) {
+      console.log("Hello");
+    } else {
+      console.log("Goodbye");
+    }
     ```
     
     * <mark>Hello</mark>
@@ -28,11 +28,11 @@ tags: javascript
 2. **Based on the following code, what will print out when the variable i has the value 1 ?**
     
     ```javascript
-      if(i == 0 && i == 1) {
-        console.log("Hello");
-      } else {
-        console.log("Goodbye");
-      }
+    if(i == 0 && i == 1) {
+      console.log("Hello");
+    } else {
+      console.log("Goodbye");
+    }
     ```
     
     * Hello
@@ -42,9 +42,9 @@ tags: javascript
 3. **How many times will the following code print the word 'Hello'?**
     
     ```javascript
-      for (i = 0; i < 2; i++) {
-          console.log("Hello");
-      }
+    for (i = 0; i < 2; i++) {
+        console.log("Hello");
+    }
     ```
     
     * 1
@@ -58,11 +58,11 @@ tags: javascript
 4. **How many times will the following code print the word 'Hello'?**
     
     ```javascript
-      var i = 0;
-      while(i < 3) {
-        console.log("Hello");
-        i++;
-      }
+    var i = 0;
+    while(i < 3) {
+      console.log("Hello");
+      i++;
+    }
     ```
     
     * 1
@@ -76,11 +76,11 @@ tags: javascript
 5. **How many times will the following code print the word 'Hello'?**
     
     ```javascript
-      for (i = 0; i < 2; i++) {
-          for (var j = 0; j < 3; j++) {
-              console.log("Hello");
-          }
-      }
+    for (i = 0; i < 2; i++) {
+        for (var j = 0; j < 3; j++) {
+            console.log("Hello");
+        }
+    }
     ```
     
     * <mark>2</mark>
@@ -94,13 +94,13 @@ tags: javascript
 6. **Based on the following code, what will print out when the variable i has the value 7 ?**
     
     ```javascript
-      if(i <= 5) {
+    if(i <= 5) {
         console.log("Hello");
       } else if(i <= 10) {
         console.log("Goodnight");
       } else {
         console.log("Goodbye");
-      }
+    }
     ```
     
     * Hello
@@ -112,7 +112,7 @@ tags: javascript
 7. **Based on the following code, what will print out when the variable i has the value 3 ?**
     
     ```javascript
-      switch(i) {
+    switch(i) {
         case 1:
           console.log("Hello");
           break;
@@ -122,7 +122,7 @@ tags: javascript
         case 3:
           console.log("Goodbye");
           break;
-      }
+    }
     ```
     
     * Hello
@@ -134,11 +134,11 @@ tags: javascript
 8. **Based on the following code, what will print out when the variable i has the value 3 ?**
     
     ```javascript
-      if(i == 2 || i == 3) {
-        console.log("Hello");
-      } else {
-        console.log("Goodbye");
-      }
+    if(i == 2 || i == 3) {
+      console.log("Hello");
+    } else {
+      console.log("Goodbye");
+    }
     ```
     
     * <mark>Hello</mark>
