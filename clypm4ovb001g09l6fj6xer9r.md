@@ -111,7 +111,7 @@ tags: javascript
         
     * <mark>No</mark>
         
-8. What will be printed when the following code runs?
+8. **What will be printed when the following code runs?**
     
     ```javascript
     var result;
@@ -124,7 +124,7 @@ tags: javascript
         
     * 0
         
-9. What will be the output of the following code?
+9. **What will be the output of the following code?**
     
     ```javascript
     var str = "Hello";
@@ -137,7 +137,7 @@ tags: javascript
         
     * empty string
         
-10. What will be the output of the following code?
+10. **What will be the output of the following code?**
     
     ```javascript
     try {
