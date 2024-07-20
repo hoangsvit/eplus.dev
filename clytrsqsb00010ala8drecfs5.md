@@ -71,3 +71,47 @@ Code a test call with the following arguments:
 ## Task 5: Run the first test
 
 With the terminal pointed at the `jest-testing` directory, run the test script using npm.
+
+---
+
+* **timesTwo.test.js**
+    
+    ```javascript
+    const timesTwo = require('./timesTwo');
+    
+    // Write the first test
+    test('returns the number times 2', () => {
+        expect(timesTwo(10)).toBe(20);
+    });
+    ```
+    
+* **package.json**
+    
+    ```json
+    {
+      "name": "jest-testing",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "jest"
+      },
+      "author": "",
+      "license": "ISC",
+      "devDependencies": {
+        "jest": "^28.1.3"
+      }
+    }
+    ```
+    
+* **timesTwo.js**
+    
+    ```javascript
+    // Task 1: Code the timesTwo function declaration
+    function timesTwo(num){
+        return num * 2;
+    }
+    
+    // Task 2: Export the timesTwo function as a module
+    module.exports = timesTwo;
+    ```
