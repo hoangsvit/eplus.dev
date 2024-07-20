@@ -13,7 +13,7 @@ tags: javascript
 
 1. **In the following code, the type attribute can be omitted.**
     
-    ```javascript
+    ```xml
     <script type="text/javascript">
         //Comment
     </script>
