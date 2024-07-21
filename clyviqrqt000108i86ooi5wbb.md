@@ -11,7 +11,7 @@ tags: html, html5, metadata, html-tags
 
 ---
 
-1. **What are some of the main characteristics of meta tags? Select all that apply.** 
+1. **What are some of the main characteristics of meta tags? Select all that apply.**
     
     * <mark>They are very important for SEO</mark>
         
@@ -21,13 +21,13 @@ tags: html, html5, metadata, html-tags
         
     * <mark>They don’t have a visual representation in your pages</mark>
         
-2. **What are some of the most important Meta tags you should use for good SEO? Select all that apply.** 
+2. **What are some of the most important Meta tags you should use for good SEO? Select all that apply.**
     
     * <mark>Description</mark>
         
-    * <mark>Keywords</mark> 
+    * Keywords
         
-    * Image alt attributes 
+    * Image alt attributes
         
     * <mark>Title</mark>
         
@@ -44,40 +44,40 @@ tags: html, html5, metadata, html-tags
 4. **Which meta tag and properties do you need to set to make your pages responsive in desktop and mobile viewports?**
     
     * ```xml
-        <meta name=”viewport” content =” width = device-width, initial-scale = 0”  />
+          <meta name=”viewport” content =” width = device-width, initial-scale = 0”  />
         ```
         
     * ```xml
-        <meta name=”viewport” content=”width=window-width, initial-scale=1”  />
+          <meta name=”viewport” content=”width=window-width, initial-scale=1”  />
         ```
         
     * ```xml
-        <meta name=”viewport” content=”width=device-width, initial-scale=1”  />
+          <meta name=”viewport” content=”width=device-width, initial-scale=1”  />
         ```
         
     * ```xml
-        <meta name=”viewport” content=”height=device-height, initial-scale=1”  />
+          <meta name=”viewport” content=”height=device-height, initial-scale=1”  />
         ```
         
     * ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721563770303/9327754f-bf21-4761-ad70-86bf06d1e9e5.png align="center")
         
-5. **How do you tell Google you don’t want to provide an automatic translation for your page if the user uses a different language?** 
+5. **How do you tell Google you don’t want to provide an automatic translation for your page if the user uses a different language?**
     
     * ```xml
-        <meta name=”googlebot” content=”notranslate”  />
+          <meta name=”googlebot” content=”notranslate”  />
         ```
         
     * ```xml
-        <meta name=”language” content=”english”  /> 
+          <meta name=”language” content=”english”  />
         ```
         
     * ```xml
-        <meta name=”googlebot” content=”english”  />
+          <meta name=”googlebot” content=”english”  />
         ```
         
     * ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721563865963/41a67dc4-a0d4-47d2-8b79-47ecfdccc347.png align="center")
         
-6. **Which of the following statements are true about HTTP-equiv tags? Select all that apply.** 
+6. **Which of the following statements are true about HTTP-equiv tags? Select all that apply.**
     
     * They are the recommended way to set HTTP response headers
         
