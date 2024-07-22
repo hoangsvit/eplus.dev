@@ -7,7 +7,6 @@ cuid: cl6oszmiz0473ainv1efjb7xi
 slug: trang-thai-cap-quang-bien-viet-nam
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1660207086070/pxQGPwfqD.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1660207944795/Y7RaGcgsK.webp
-tags: vietnam, capquangbien, dutcap
 
 ---
 
