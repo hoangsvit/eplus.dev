@@ -40,6 +40,8 @@ To take part in the program and to complete labs on Google Cloud Skills Boost pl
 8. To check for the subscription you have received, please visit this link [*cloudskillsboost.google/my\_account/credits*](https://cloudskillsboost.google/my_account/credits). *(*[*See in video*](https://youtu.be/WVdUW1wJwyI?si=eY9M1kXG9B6p7VOz&t=152)*)*
     
 
+%[https://youtu.be/uxRLjKBJgnk?si=U5xPJwEHlyDXsguj] 
+
 **Didn't get the credits pass?**
 
 Do not worry! Sometimes, it takes a few minutes for you to get the pass:
