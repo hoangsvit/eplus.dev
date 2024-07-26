@@ -7,6 +7,7 @@ cuid: clyz6qqbq00010al7crq2bncq
 slug: google-cloud-arcade-facilitator-24-syllabus-for-the-program
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721785523288/49d5aa52-7055-49ab-8742-e252c8156a61.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721785570661/e0fa65ca-b4e2-442e-b3b3-818d1e97e9cf.png
+tags: how-to-become-a-google-cloud-arcade-facilitator, google-cloud-arcade-facilitator-24, google-cloud-arcade-facilitator
 
 ---
 
