@@ -15,16 +15,16 @@ tags: how-to-become-a-google-cloud-arcade-facilitator, google-cloud-arcade-facil
 
 > This syllabus outlines the program for earning "Arcade Points" through various activities on the Google Cloud Arcade platform. Participants can complete monthly Arcade Games and weekly Trivia Games, earning badges and points. The program recommends completing skill badges in July before the games start in August. The list of skill badges is categorized into Beginner, Intermediate, and Advanced levels, covering a wide range of Google Cloud skills from basic introductions to advanced topics like Cloud Architecture and CI/CD Pipelines. The content is regularly updated with new games and badges.
 
-While you can find all the active games and trivia quests on the [Google Cloud Arcade websit](https://go.cloudskillsboost.google/arcade?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)[e](https://go.cloudskillsboost.google/arcade?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24) directly, we are maintaining a copy of the same here so that it becomes easier for you to find badges and complete them so that you can earn **"Arcade Points"**. *(See* [*points syste*](https://rsvp.withgoogle.com/events/arcade-facilitator/points-system)[*m*](https://rsvp.withgoogle.com/events/arcade-facilitator/points-system) *for more details)*
+While you can find all the active games and trivia quests on the [Google Cloud Arcade website](https://go.cloudskillsboost.google/arcade?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24) directly, we are maintaining a copy of the same here so that it becomes easier for you to find badges and complete them so that you can earn **"Arcade Points"**. *(See*[*points system*](https://rsvp.withgoogle.com/events/arcade-facilitator/points-system)*for more details)*
 
-**Recommended** - Its better to complete the games and trivia first since they have a deadline in a given month. Complete as many skill badges as you can later to earn more "Arcade Points".  
-  
+**Recommended** - Its better to complete the games and trivia first since they have a deadline in a given month. Complete as many skill badges as you can later to earn more "Arcade Points".
+
 **\*\*Important Note:**\*\* - The Arcade and Trivia Games are going to start in August. Hence, its recommended that you complete as many skill badges as possible in July and **wait for games to be released in August**.
 
 ### Arcade Games
 
-**Every month we release 4 new Arcade games** that you can complete to earn "Arcade Points". Hence, in a single cohort of 2 months under the Facilitator Program, you can earn a total of 8 game badges. See the currently active games for this month below. We will update these as and when new games will be released in the following months. Note: Games have limited seats, so enrol and complete them ASAP.  
-  
+**Every month we release 4 new Arcade games** that you can complete to earn "Arcade Points". Hence, in a single cohort of 2 months under the Facilitator Program, you can earn a total of 8 game badges. See the currently active games for this month below. We will update these as and when new games will be released in the following months. Note: Games have limited seats, so enrol and complete them ASAP.
+
 **Note:** While there are a total of 4 games that are released every month and you can complete 8 games in total in the 2 months of the facilitator program, any 6 game completions will be counted towards the ultimate milestone.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721785031268/7843f674-e21d-4e23-b3de-f50027cef332.png align="center")
@@ -39,7 +39,7 @@ While you can find all the active games and trivia quests on the [Google Cloud A
 
 ### Google Cloud Skill Badges
 
-**You can complete any of the skill badges** **that are part of** [**our catalog here**](https://www.cloudskillsboost.google/catalog?keywords=&locale=&skill-badge%5B%5D=skill-badge&format%5B%5D=any&language%5B%5D=any) to earn "Arcade Points". To help you easily navigate this list, we have added a few skill badges for you below that you can choose from based on what **level of difficulty** you are looking for.
+**You can complete any of the skill badgesthat are part of**[**our catalog here**](https://www.cloudskillsboost.google/catalog?keywords=&locale=&skill-badge%5B%5D=skill-badge&format%5B%5D=any&language%5B%5D=any) to earn "Arcade Points". To help you easily navigate this list, we have added a few skill badges for you below that you can choose from based on what **level of difficulty** you are looking for.
 
 We will keep updating this list with new skill badges for you to explore.
 
@@ -51,7 +51,7 @@ We will keep updating this list with new skill badges for you to explore.
         
     * [Get Started with Cloud Storage](https://www.cloudskillsboost.google/course_templates/725?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
-    * [Get Started with Pub/Sub](https://www.cloudskillsboost.google/course_templates/728?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+    * [Get Started with Pub/Sub](https://www.cloudskillsboost.google/course_templates/728?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24) ✅
         
     * [Get Started with API Gateway](https://www.cloudskillsboost.google/course_templates/662?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
