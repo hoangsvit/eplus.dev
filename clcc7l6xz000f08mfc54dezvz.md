@@ -10,6 +10,7 @@ slug: tu-kich-hoat-windows-1011-cuc-sach-nam-2023
 canonical: https://www.facebook.com/groups/j2team.community/posts/2033442980321145/
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1672507001894/4b8fec7b-2d7f-4cbe-9cca-84b1ec381743.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1672507127611/430d4b69-f785-4a48-b7ff-161ef377c6c9.jpeg
+tags: windows, kich-hoat-windows
 
 ---
 
