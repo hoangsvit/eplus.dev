@@ -1,7 +1,7 @@
 ---
 title: "Creating a Virtual Machine - GSP001"
 seoTitle: "Creating a Virtual Machine - GSP001"
-seoDescription: "Compute Engine allows you to create virtual machines (VMs) that run different operating systems, including multiple flavors of Linux (Debian, Ubuntu, Suse, "
+seoDescription: "Compute Engine allows you to create virtual machines (VMs) that run different operating systems, including multiple flavors of Linux (Debian, Ubuntu, Suse,"
 datePublished: Fri Jul 26 2024 08:10:11 GMT+0000 (Coordinated Universal Time)
 cuid: clz2f9sm6000h09k1dh1i12cw
 slug: creating-a-virtual-machine-gsp001
@@ -53,7 +53,7 @@ In this section, you create new predefined machine types with Compute Engine fro
 | **Zone** | `europe-west4-a` | **Note:** Remember the zone that you selected to use later. For more information about zones, see the Compute Engine guide, [Regions and Zones](https://cloud.google.com/compute/docs/zones). |
 | **Series** | **E2** | Name of the series |
 | **Machine Type** | **2 vCPU** | This is an (e2-medium), 2-CPU, 4GB RAM instance. Several machine types are available, ranging from micro instance types to 32-core/208GB RAM instance types. For more information, see the Compute Engine guide, [About machine families](https://cloud.google.com/compute/docs/machine-types). **Note:** A new project has a default [resource quota](https://cloud.google.com/compute/docs/resource-quotas), which may limit the number of CPU cores. You can request more when you work on projects outside this lab. |
-| **Boot Disk** | **New 10 GB balanced persistent disk** **OS Image: Debian GNU/Linux 11 (bullseye)** | Several images are available, including Debian, Ubuntu, CoreOS, and premium images such as Red Hat Enterprise Linux and Windows Server. For more information, see Operating System documentation. |
+| **Boot Disk** | **New 10 GB balanced persistent diskOS Image: Debian GNU/Linux 11 (bullseye)** | Several images are available, including Debian, Ubuntu, CoreOS, and premium images such as Red Hat Enterprise Linux and Windows Server. For more information, see Operating System documentation. |
 | **Firewall** | **Allow HTTP traffic** | Select this option in order to access a web server that you install later. **Note:** This automatically creates a firewall rule to allow HTTP traffic on port 80. |
 
 4. Click **Create**.
@@ -171,7 +171,7 @@ Instead of using the Cloud console to create a VM instance, use the command line
     
     * The latest [Debian 11 (bullseye)](https://cloud.google.com/compute/docs/images#debian) image.
         
-    * The `e2-medium` [machine type](https://cloud.google.com/compute/docs/machine-types).
+    * The `e2-medium`[machine type](https://cloud.google.com/compute/docs/machine-types).
         
     * A root persistent disk with the same name as the instance; the disk is automatically attached to the instance.
         
@@ -235,6 +235,8 @@ Question: **Through which of the following ways can you create a VM instance in 
     
 
 ---
+
+## Answers of Lab
 
 %[https://www.youtube.com/watch?v=wxVQJEm2MMo&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
