@@ -43,7 +43,7 @@ Once the Cloud Function is deployed, configure an API Gateway to proxy requests 
 
 Use the following `openapispec.yaml` file to reference the Cloud Function deployed in Task 1.
 
-Deploy the API Gateway with the [following prop](https://cloud.google.com/functions/docs/console-quickstart)erties:
+Deploy the API Gateway with the following properties:
 
 | **Name** | **Value** |
 | --- | --- |
