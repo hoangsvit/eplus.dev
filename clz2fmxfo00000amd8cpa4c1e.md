@@ -322,6 +322,8 @@ This lab does not cover local SSDs.
 
 ---
 
+## Answers of Lab
+
 %[https://www.youtube.com/watch?v=LF2rqZTeaF4&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721981893961/cb6d010f-25b7-48d6-918a-b611f96031d5.png align="center")
