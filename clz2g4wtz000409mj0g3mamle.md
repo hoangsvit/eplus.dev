@@ -47,26 +47,26 @@ At the end of the lab, you will have instances inside managed instance groups to
 gcloud services enable compute.googleapis.com
 ```
 
-## **Task 2.** [**Create Cloud Storage bu**](https://cloud.google.com/compute/docs/instance-groups/)**cket**
+## **Task 2.**[**Create Cloud Storage bu**](https://cloud.google.com/compute/docs/instance-groups/)**cket**
 
 You will use a Cloud St[orage bucket to house your bu](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)[ilt cod](https://cloud.google.com/load-balancing/)[e as well as your startup scripts.](https://cloud.google.com/compute/docs/instances/)
 
-* [From](https://cloud.google.com/compute/docs/instances/) [C](https://cloud.google.com/load-balancing/docs/health-checks)[loud She](https://cloud.google.com/compute/docs/instance-templates/)[ll, execute the followin](https://cloud.google.com/compute/docs/instances/)[g](https://cloud.google.com/cdn/) [to create](https://cloud.google.com/compute/docs/instance-templates/) [a new Cloud Storage buc](https://cloud.google.com/compute/docs/instances/)[k](https://cloud.google.com/compute/docs/instance-groups/)[et:](https://cloud.google.com/compute/docs/instance-templates/)
+* [From](https://cloud.google.com/compute/docs/instances/)[C](https://cloud.google.com/load-balancing/docs/health-checks)[loud She](https://cloud.google.com/compute/docs/instance-templates/)[ll, execute the followin](https://cloud.google.com/compute/docs/instances/)[g](https://cloud.google.com/cdn/)[to create](https://cloud.google.com/compute/docs/instance-templates/)[a new Cloud Storage buc](https://cloud.google.com/compute/docs/instances/)[k](https://cloud.google.com/compute/docs/instance-groups/)[et:](https://cloud.google.com/compute/docs/instance-templates/)
     
 
 ```powershell
 gsutil mb gs://fancy-store-$DEVSHELL_PROJECT_ID
 ```
 
-[**Note**](https://cloud.google.com/compute/docs/instance-templates/)[**:** Use of the `$DEVSHELL_P`](https://cloud.google.com/compute/docs/instances/)[`R`](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)[`OJECT_ID` environme](https://cloud.google.com/compute/docs/instance-templates/)[nt variable w](https://cloud.google.com/compute/docs/instance-groups/)[ithin Cloud Shell is to](https://cloud.google.com/compute/docs/instances/) [h](https://cloud.google.com/compute/docs/instance-groups/)[elp ensu](https://cloud.google.com/compute/docs/instance-templates/)[re the names of objects](https://cloud.google.com/compute/docs/instances/) [a](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)[re unique. Si](https://cloud.google.com/compute/docs/instance-templates/)[nce all Project IDs with](https://cloud.google.com/compute/docs/instances/)[i](https://cloud.google.com/compute/docs/instance-groups/)[n Google Cloud mus](https://cloud.google.com/compute/docs/instance-templates/)[t be uniq](https://cloud.google.com/compute/docs/instance-groups/)[ue, appending the Projec](https://cloud.google.com/compute/docs/instances/)[t](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs) [ID should make ot](https://cloud.google.com/compute/docs/instance-templates/)[her n](https://cloud.google.com/compute/docs/instance-groups/)[ames unique as well.](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)
+[**Note**](https://cloud.google.com/compute/docs/instance-templates/)[**:** Use of the `$DEVSHELL_P`](https://cloud.google.com/compute/docs/instances/)[`R`](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)[`OJECT_ID` environme](https://cloud.google.com/compute/docs/instance-templates/)[nt variable w](https://cloud.google.com/compute/docs/instance-groups/)[ithin Cloud Shell is to](https://cloud.google.com/compute/docs/instances/)[h](https://cloud.google.com/compute/docs/instance-groups/)[elp ensu](https://cloud.google.com/compute/docs/instance-templates/)[re the names of objects](https://cloud.google.com/compute/docs/instances/)[a](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)[re unique. Si](https://cloud.google.com/compute/docs/instance-templates/)[nce all Project IDs with](https://cloud.google.com/compute/docs/instances/)[i](https://cloud.google.com/compute/docs/instance-groups/)[n Google Cloud mus](https://cloud.google.com/compute/docs/instance-templates/)[t be uniq](https://cloud.google.com/compute/docs/instance-groups/)[ue, appending the Projec](https://cloud.google.com/compute/docs/instances/)[t](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)[ID should make ot](https://cloud.google.com/compute/docs/instance-templates/)[her n](https://cloud.google.com/compute/docs/instance-groups/)[ames unique as well.](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)
 
 [Click **C**](https://cloud.google.com/load-balancing/)[**heck my progress** to ver](https://cloud.google.com/compute/docs/instance-groups/)[ify th](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)[e objective.](https://cloud.google.com/load-balancing/)
 
 [Create Cl](https://cloud.google.com/load-balancing/docs/health-checks)[oud Storage bucket](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)
 
-[**Check my**](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs) [**progress**](https://cloud.google.com/load-balancing/)
+[**Check my**](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)[**progress**](https://cloud.google.com/load-balancing/)
 
-## [**Task**](https://cloud.google.com/load-balancing/) **3.** [**Clone source rep**](https://cloud.google.com/cdn/)[**ository**](https://cloud.google.com/load-balancing/docs/health-checks)
+## [**Task**](https://cloud.google.com/load-balancing/)**3.**[**Clone source rep**](https://cloud.google.com/cdn/)[**ository**](https://cloud.google.com/load-balancing/docs/health-checks)
 
 [Use the existing F](https://cloud.google.com/load-balancing/docs/health-checks)ancy Stor[e ecommerce website based on t](https://cloud.google.com/cdn/)he `monolith-to-microservices` repository as the basis for your website.
 
@@ -850,8 +850,8 @@ healthStatus:
   kind: compute#backendServiceGroupHealth
 ```
 
-**Note:** If one instance encounters an issue and is UNHEALTHY it should automatically be repaired. Wait for this to happen.  
-  
+**Note:** If one instance encounters an issue and is UNHEALTHY it should automatically be repaired. Wait for this to happen.
+
 If neither instance enters a HEALTHY state after waiting a little while, something is wrong with the setup of the frontend instances that accessing them on port 8080 doesn't work. Test this by browsing to the instances directly on port 8080.
 
 3. Once both items appear as HEALTHY on the list, exit the `watch` command by pressing CTRL+C.
@@ -1191,6 +1191,8 @@ The managed instance group recreated the instance to repair it.
     
 
 ---
+
+## Answers of Lab
 
 %[https://www.youtube.com/watch?v=dkLTeZuNul4&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
