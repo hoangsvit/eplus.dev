@@ -67,9 +67,9 @@ We will keep updating this list with new skill badges for you to explore.
         
     * [App Engine: 3 Ways](https://www.cloudskillsboost.google/course_templates/671?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
-    * [Cloud Speech API: 3 Ways](https://www.cloudskillsboost.google/course_templates/700?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
+    * [Cloud Speech API: 3 Ways](https://www.cloudskillsboost.google/course_templates/700?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
-    * [Monitoring in Google Cloud](https://www.cloudskillsboost.google/course_templates/747?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+    * [Monitoring in Google Cloud](https://www.cloudskillsboost.google/course_templates/747?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
         
     * [Networking Fundamentals on Google Cloud](https://www.cloudskillsboost.google/course_templates/748?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
