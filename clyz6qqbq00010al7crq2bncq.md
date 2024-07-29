@@ -61,9 +61,9 @@ We will keep updating this list with new skill badges for you to explore.
         
     * [Get Started with Eventarc](https://www.cloudskillsboost.google/course_templates/727?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
-    * [Get Started with Google Workspace Tools](https://www.cloudskillsboost.google/course_templates/676?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
+    * [Get Started with Google Workspace Tools](https://www.cloudskillsboost.google/course_templates/676?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
-    * [Cloud Functions: 3 Ways](https://www.cloudskillsboost.google/course_templates/696?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+    * [Cloud Functions: 3 Ways](https://www.cloudskillsboost.google/course_templates/696?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
         
     * [App Engine: 3 Ways](https://www.cloudskillsboost.google/course_templates/671?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
