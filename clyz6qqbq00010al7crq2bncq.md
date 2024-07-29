@@ -15,7 +15,7 @@ tags: how-to-become-a-google-cloud-arcade-facilitator, google-cloud-arcade-facil
 
 > This syllabus outlines the program for earning "Arcade Points" through various activities on the Google Cloud Arcade platform. Participants can complete monthly Arcade Games and weekly Trivia Games, earning badges and points. The program recommends completing skill badges in July before the games start in August. The list of skill badges is categorized into Beginner, Intermediate, and Advanced levels, covering a wide range of Google Cloud skills from basic introductions to advanced topics like Cloud Architecture and CI/CD Pipelines. The content is regularly updated with new games and badges.
 
-While you can find all the active games and trivia quests on the [Google Cloud Arcade website](https://go.cloudskillsboost.google/arcade?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24) directly, we are maintaining a copy of the same here so that it becomes easier for you to find badges and complete them so that you can earn **"Arcade Points"**. *(See* [*points system*](https://rsvp.withgoogle.com/events/arcade-facilitator/points-system) *for more details)*
+While you can find all the active games and trivia quests on the [Google Cloud Arcade website](https://go.cloudskillsboost.google/arcade?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24) directly, we are maintaining a copy of the same here so that it becomes easier for you to find badges and complete them so that you can earn **"Arcade Points"**. *(See*[*points system*](https://rsvp.withgoogle.com/events/arcade-facilitator/points-system)*for more details)*
 
 **Recommended** - Its better to complete the games and trivia first since they have a deadline in a given month. Complete as many skill badges as you can later to earn more "Arcade Points".
 
@@ -65,9 +65,9 @@ We will keep updating this list with new skill badges for you to explore.
         
     * [Cloud Functions: 3 Ways](https://www.cloudskillsboost.google/course_templates/696?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
-    * [App Engine: 3 Ways](https://www.cloudskillsboost.google/course_templates/671?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
+    * [App Engine: 3 Ways](https://www.cloudskillsboost.google/course_templates/671?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
-    * [Cloud Speech API: 3 Ways](https://www.cloudskillsboost.google/course_templates/700?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+    * [Cloud Speech API: 3 Ways](https://www.cloudskillsboost.google/course_templates/700?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
         
     * [Monitoring in Google Cloud](https://www.cloudskillsboost.google/course_templates/747?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
