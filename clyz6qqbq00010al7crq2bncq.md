@@ -71,9 +71,9 @@ We will keep updating this list with new skill badges for you to explore.
         
     * [Monitoring in Google Cloud](https://www.cloudskillsboost.google/course_templates/747?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
-    * [Networking Fundamentals on Google Cloud](https://www.cloudskillsboost.google/course_templates/748?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
+    * [Networking Fundamentals on Google Cloud](https://www.cloudskillsboost.google/course_templates/748?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
-    * [Analyze Images with the Cloud Vision API](https://www.cloudskillsboost.google/course_templates/633)
+    * [Analyze Images with the Cloud Vision API](https://www.cloudskillsboost.google/course_templates/633)✅
         
     * [Prompt Design in Vertex AI](https://www.cloudskillsboost.google/course_templates/976?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
