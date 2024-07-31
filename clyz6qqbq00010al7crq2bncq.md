@@ -39,7 +39,7 @@ While you can find all the active games and trivia quests on the [Google Cloud A
 
 ### Google Cloud Skill Badges
 
-**You can complete any of the skill badges that are part of** [**our catalog here**](https://www.cloudskillsboost.google/catalog?keywords=&locale=&skill-badge%5B%5D=skill-badge&format%5B%5D=any&language%5B%5D=any) to earn "Arcade Points". To help you easily navigate this list, we have added a few skill badges for you below that you can choose from based on what **level of difficulty** you are looking for.
+**You can complete any of the skill badges that are part of**[**our catalog here**](https://www.cloudskillsboost.google/catalog?keywords=&locale=&skill-badge%5B%5D=skill-badge&format%5B%5D=any&language%5B%5D=any) to earn "Arcade Points". To help you easily navigate this list, we have added a few skill badges for you below that you can choose from based on what **level of difficulty** you are looking for.
 
 We will keep updating this list with new skill badges for you to explore.
 
@@ -73,9 +73,9 @@ We will keep updating this list with new skill badges for you to explore.
         
     * [Networking Fundamentals on Google Cloud](https://www.cloudskillsboost.google/course_templates/748?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
-    * [Analyze Images with the Cloud Vision API](https://www.cloudskillsboost.google/course_templates/633)✅
+    * [Analyze Images with the Cloud Vision API](https://www.cloudskillsboost.google/course_templates/633)
         
-    * [Prompt Design in Vertex AI](https://www.cloudskillsboost.google/course_templates/976?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+    * [Prompt Design in Vertex AI](https://www.cloudskillsboost.google/course_templates/976?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
         
 2. **Intermediate: Dive Deeper into Google Cloud**
     
