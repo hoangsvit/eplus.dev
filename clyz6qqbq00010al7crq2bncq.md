@@ -11,7 +11,7 @@ tags: how-to-become-a-google-cloud-arcade-facilitator, google-cloud-arcade-facil
 
 ---
 
-### **Syllabus for the program**
+### **ASyllabus for the program**
 
 > This syllabus outlines the program for earning "Arcade Points" through various activities on the Google Cloud Arcade platform. Participants can complete monthly Arcade Games and weekly Trivia Games, earning badges and points. The program recommends completing skill badges in July before the games start in August. The list of skill badges is categorized into Beginner, Intermediate, and Advanced levels, covering a wide range of Google Cloud skills from basic introductions to advanced topics like Cloud Architecture and CI/CD Pipelines. The content is regularly updated with new games and badges.
 
@@ -79,11 +79,11 @@ We will keep updating this list with new skill badges for you to explore.
         
 2. **Intermediate: Dive Deeper into Google Cloud**
     
-    * [Develop your Google Cloud Network](https://www.cloudskillsboost.google/course_templates/625?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
+    * [Develop your Google Cloud Network](https://www.cloudskillsboost.google/course_templates/625?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
     * [Prepare Data for ML APIs on Google Cloud](https://www.cloudskillsboost.google/course_templates/631?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
-    * [Derive Insights from BigQuery Data](https://www.cloudskillsboost.google/course_templates/623?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+    * [Derive Insights from BigQuery Data](https://www.cloudskillsboost.google/course_templates/623?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
         
     * [Build a Secure Google Cloud Network](https://www.cloudskillsboost.google/course_templates/654?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
