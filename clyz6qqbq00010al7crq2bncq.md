@@ -75,11 +75,11 @@ We will keep updating this list with new skill badges for you to explore.
         
     * [Analyze Images with the Cloud Vision API](https://www.cloudskillsboost.google/course_templates/633)
         
-    * [Prompt Design in Vertex AI](https://www.cloudskillsboost.google/course_templates/976?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
+    * [Prompt Design in Vertex AI](https://www.cloudskillsboost.google/course_templates/976?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
 2. **Intermediate: Dive Deeper into Google Cloud**
     
-    * [Develop your Google Cloud Network](https://www.cloudskillsboost.google/course_templates/625?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+    * [Develop your Google Cloud Network](https://www.cloudskillsboost.google/course_templates/625?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
         
     * [Prepare Data for ML APIs on Google Cloud](https://www.cloudskillsboost.google/course_templates/631?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
