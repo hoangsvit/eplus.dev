@@ -83,11 +83,11 @@ We will keep updating this list with new skill badges for you to explore.
         
     * [Prepare Data for ML APIs on Google Cloud](https://www.cloudskillsboost.google/course_templates/631?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
-    * [Derive Insights from BigQuery Data](https://www.cloudskillsboost.google/course_templates/623?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
+    * [Derive Insights from BigQuery Data](https://www.cloudskillsboost.google/course_templates/623?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
     * [Build a Secure Google Cloud Network](https://www.cloudskillsboost.google/course_templates/654?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
-    * [Implement Load Balancing on Compute Engine](https://www.cloudskillsboost.google/course_templates/648?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+    * [Implement Load Balancing on Compute Engine](https://www.cloudskillsboost.google/course_templates/648?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
         
     * [Set Up an App Dev Environment on Google Cloud](https://www.cloudskillsboost.google/course_templates/637?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
