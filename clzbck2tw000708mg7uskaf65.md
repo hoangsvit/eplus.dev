@@ -11,6 +11,20 @@ tags: cloud-digital-leader-learning-path, solution-cloud-digital-leader-learning
 
 ---
 
+> Hi all,
+> 
+> It is August 1st today, which means it is the day for a new Arcade challenge! 🎉🎊
+> 
+> Well, you will see a different Arcade challenge than usual this time around. While we cook up some exciting new games for you, here's a chance for you earn certification journey with the Arcade Cloud Digital Leader Challenge ([https://go.cloudskillsboost.google/arcade](https://go.cloudskillsboost.google/arcade)). 📈
+> 
+> A Cloud Digital Leader can articulate the capabilities of core cloud products and services and understand how they benefit organizations. This course guides users through a curated collection of on demand learning content which provide you with real-world, hands-on experience using Google Cloud technologies essential to the Cloud Digital Leader role.
+> 
+> This challenge will run through <mark>1st August to 5th August</mark>. 🗓️
+> 
+> Thank you for all your patience and understanding! More details to follow.
+> 
+> P.S. - Oh, forgot to mention the important part. On completion of the Google Cloud Digital Learning path from <mark>1st - 5th August</mark>, you are eligible to get **5 Arcade points** as a bonus.!!
+
 This no cost learning path guides you through a curated collection of on-demand courses, labs, and skill badges that provide you with real-world, hands-on experience using Google Cloud technologies essential to the Cloud Digital Leader role.
 
 A Cloud Digital Leader can articulate the capabilities of core cloud products and services and understand how they benefit organizations. This no cost learning path guides you through a curated collection of on-demand courses, labs, and skill badges that provide you with real-world, hands-on experience using Google Cloud technologies essential to the Cloud Digital Leader role. Once you complete the path, check out the Google Cloud Digital Leader certification ( [https://cloud.google.com/certification/cloud-digital-leader](https://cloud.google.com/certification/cloud-digital-leader)) to take the next steps on your professional journey.
