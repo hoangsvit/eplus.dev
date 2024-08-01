@@ -15,6 +15,8 @@ This no cost learning path guides you through a curated collection of on-demand 
 
 A Cloud Digital Leader can articulate the capabilities of core cloud products and services and understand how they benefit organizations. This no cost learning path guides you through a curated collection of on-demand courses, labs, and skill badges that provide you with real-world, hands-on experience using Google Cloud technologies essential to the Cloud Digital Leader role. Once you complete the path, check out the Google Cloud Digital Leader certification ( [https://cloud.google.com/certification/cloud-digital-leader](https://cloud.google.com/certification/cloud-digital-leader)) to take the next steps on your professional journey.
 
+### Solution - Cloud Digital Leader Learning Path
+
 1. [**Solution - Digital Transformation with Google Cloud**](https://eplus.dev/digital-transformation-with-google-cloud)
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722520655624/4c3cc0b1-c7ce-4b1c-872a-07ec5d7c37d5.png align="center")
@@ -33,7 +35,7 @@ A Cloud Digital Leader can articulate the capabilities of core cloud products an
     
     Artificial intelligence (AI) and machine learning (ML) represent an important evolution in information technologies that are quickly transforming a wide range of industries. “Innovating with Google Cloud Artificial Intelligence” explores how organizations can use AI and ML to transform their..
     
-4. **Solution -** [**Modernize Infrastructure and Applications with Google Cloud**](https://eplus.dev/modernize-infrastructure-and-applications-with-google-cloud)
+4. **Solution -**[**Modernize Infrastructure and Applications with Google Cloud**](https://eplus.dev/modernize-infrastructure-and-applications-with-google-cloud)
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722520804229/62b1e223-a49b-49f1-b3da-e041035a83c2.png align="center")
     
@@ -49,7 +51,4 @@ A Cloud Digital Leader can articulate the capabilities of core cloud products an
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722520975459/111f731f-9c0c-44f7-91aa-054dfd32830a.png align="center")
     
-    Organizations of all sizes are embracing the power and flexibility of the cloud to transform how they operate. However, managing and scaling cloud resources effectively can be a complex task. Scaling with Google Cloud Operations explores the fundamental concepts of...  
-    
-      
-    [](https://eplus.dev/exploring-data-transformation-with-google-cloud)
+    Organizations of all sizes are embracing the power and flexibility of the cloud to transform how they operate. However, managing and scaling cloud resources effectively can be a complex task. Scaling with Google Cloud Operations explores the fundamental concepts of...
