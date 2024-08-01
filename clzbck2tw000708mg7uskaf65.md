@@ -25,6 +25,10 @@ tags: cloud-digital-leader-learning-path, solution-cloud-digital-leader-learning
 > 
 > P.S. - Oh, forgot to mention the important part. On completion of the Google Cloud Digital Learning path from <mark>1st - 5th August</mark>, you are eligible to get **5 Arcade points** as a bonus.!!
 
+---
+
+## Introduce
+
 This no cost learning path guides you through a curated collection of on-demand courses, labs, and skill badges that provide you with real-world, hands-on experience using Google Cloud technologies essential to the Cloud Digital Leader role.
 
 A Cloud Digital Leader can articulate the capabilities of core cloud products and services and understand how they benefit organizations. This no cost learning path guides you through a curated collection of on-demand courses, labs, and skill badges that provide you with real-world, hands-on experience using Google Cloud technologies essential to the Cloud Digital Leader role. Once you complete the path, check out the Google Cloud Digital Leader certification ( [https://cloud.google.com/certification/cloud-digital-leader](https://cloud.google.com/certification/cloud-digital-leader)) to take the next steps on your professional journey.
