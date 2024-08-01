@@ -13,6 +13,8 @@ tags: digital-transformation-with-google-cloud, cloud-digital-leader-learning-pa
 
 ---
 
+## Introduce
+
 There's much excitement about cloud technology and digital transformation, but often many unanswered questions.
 
 For example: What is cloud technology? What does digital transformation mean? How can cloud technology help your organization? Where do you even begin?
@@ -112,3 +114,56 @@ When you complete this course, you can earn the badge displayed here! View all t
     * <mark>Data cloud provides a unified solution to manage data across the entire data lifecycle.</mark>
         
     * Sustainable cloud ensures the costs of cloud resources are controlled to prevent budget overrun.
+        
+
+### **Fundamental Cloud Concepts**
+
+1. **Which network performance metric describes the amount of data a network can transfer in a given amount of time?**
+    
+    * <mark>Bandwidth</mark>
+        
+    * Fiber optics
+        
+    * Latency
+        
+    * Domain Name System (DNS)
+        
+2. **An organization wants to innovate using the latest technologies, but also has compliance needs that specify data must be stored in specific locations. Which cloud approach would best suit their needs?**
+    
+    * On-premises infrastructure
+        
+    * <mark>Hybrid Cloud</mark>
+        
+    * Multicloud
+        
+    * Public Cloud
+        
+3. **An organization wants to ensure they have redundancy of their resources so their application remains available in the event of a disaster. How can they ensure this happens?**
+    
+    * By putting resources in the Domain Name System (DNS).
+        
+    * Using the edge network to cache the whole application image in a backup.
+        
+    * By assigning a different IP address to each resource.
+        
+    * <mark>By putting resources in different zones.</mark>
+        
+4. **An organization has shifted from a CapEx to OpEx based spending model. Which of these statements is true?**
+    
+    * They will only pay for what they forecast.
+        
+    * Budgeting will only happen on an annual basis.
+        
+    * Hardware procurement is done by a centralized team.
+        
+    * <mark>They will only pay for what they use.</mark>
+        
+5. **A financial services organization has bank branches in a number of countries, and has built an application that needs to run in different configurations based on the local regulations of each country. How can cloud infrastructure help achieve this goal?**
+    
+    * <mark>Flexibility of infrastructure configuration.</mark>
+        
+    * Reliability of the infrastructure availability.
+        
+    * Scalability of infrastructure to needs.
+        
+    * Total cost of ownership of the infrastructure.
