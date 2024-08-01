@@ -27,7 +27,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * Control
         
-    * Compliance
+    * <mark>Compliance</mark>
         
     * Integrity
         
@@ -39,11 +39,11 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * A software program that encrypts data to make it unreadable to unauthorized users
         
-    * A network security device that monitors and controls incoming and outgoing network traffic based on predefined security rules
+    * <mark>A network security device that monitors and controls incoming and outgoing network traffic based on predefined security rules</mark>
         
 3. **Which cloud security principle relates to keeping data accurate and trustworthy?**
     
-    * Integrity
+    * <mark>Integrity</mark>
         
     * Control
         
@@ -57,13 +57,13 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * Trojan
         
-    * Ransomware
+    * <mark>Ransomware</mark>
         
     * Virus
         
 5. **Which cybersecurity threat occurs when errors arise during the setup of resources, inadvertently exposing sensitive data and systems to unauthorized access?**
     
-    * Configuration mishaps
+    * <mark>Configuration mishaps</mark>
         
     * Virus
         
@@ -75,7 +75,7 @@ When you complete this course, you can earn the badge displayed here! View all t
     
     * Privileged access
         
-    * Least privilege
+    * <mark>Least privilege</mark>
         
     * Zero-trust architecture
         
@@ -83,7 +83,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
 7. **Which is the responsibility of the cloud provider in a cloud security model?**
     
-    * Maintaining the customer's infrastructure.
+    * <mark>Maintaining the customer's infrastructure.</mark>
         
     * Configuring the customer's applications.
         
@@ -99,7 +99,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * Certificates, intelligence, and authentication
         
-    * Confidentiality, integrity, and availability
+    * <mark>Confidentiality, integrity, and availability</mark>
         
 9. **What common cybersecurity threat involves tricking users into revealing sensitive information or performing actions that compromise security?**
     
@@ -113,7 +113,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
 10. **Which is a benefit of cloud security over traditional on-premises security?**
     
-    * Increased scalability.
+    * <mark>Increased scalability.</mark>
         
     * Having physical access to hardware.
         
