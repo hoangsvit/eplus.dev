@@ -128,7 +128,7 @@ When you complete this course, you can earn the badge displayed here! View all t
     
     * Firewall as a service (FaaS)
         
-    * Two-step verification (2SV)
+    * <mark>Two-step verification (2SV)</mark>
         
     * Data loss prevention (DLP)
         
@@ -142,13 +142,13 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * Data Center Infrastructure Efficiency (DCiE)
         
-    * Power Usage Effectiveness (PUE)
+    * <mark>Power Usage Effectiveness (PUE)</mark>
         
 3. **Google Cloud encrypts data at various states. Which state refers to when data is being actively processed by a computer?**
     
     * Data lake
         
-    * Data in use
+    * <mark>Data in use</mark>
         
     * Data at rest
         
@@ -160,13 +160,13 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * Zero trust security
         
-    * Security operations (SecOps)
+    * <mark>Security operations (SecOps)</mark>
         
     * Site reliability engineering (SRE)
         
 5. **Which is a powerful encryption algorithm trusted by governments and businesses worldwide?**
     
-    * Advanced Encryption Standard (AES)
+    * <mark>Advanced Encryption Standard (AES)</mark>
         
     * Post-quantum cryptography (PQC)
         
@@ -176,7 +176,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
 6. **Select the correct statement about Identity and Access Management (IAM).**
     
-    * IAM provides granular control over who has access to Google Cloud resources and what they can do with those resources.
+    * <mark>IAM provides granular control over who has access to Google Cloud resources and what they can do with those resources.</mark>
         
     * IAM is a cloud service that encrypts cloud-based data at rest and in transit.
         
@@ -186,7 +186,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
 7. **What Google Cloud product provides robust protection from harmful distributed denial-of-service (DDoS) attacks?**
     
-    * Google Cloud Armor
+    * <mark>Google Cloud Armor</mark>
         
     * Cloud Monitoring
         
@@ -200,7 +200,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * Auditing
         
-    * Authentication
+    * <mark>Authentication</mark>
         
     * Accounting
         
