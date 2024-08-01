@@ -31,11 +31,11 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * Cost forecasting
         
-    * Cloud billing reports
+    * <mark>Cloud billing reports</mark>
         
 2. **Which feature lets you set limits on the amount of resources that can be used by a project or user?**
     
-    * Quota policies
+    * <mark>Quota policies</mark>
         
     * Committed use discounts
         
@@ -47,7 +47,7 @@ When you complete this course, you can earn the badge displayed here! View all t
     
     * Cost forecasting
         
-    * Budget threshold rules
+    * <mark>Budget threshold rules</mark>
         
     * Cost optimization recommendations
         
@@ -55,7 +55,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
 4. **Which represents the lowest level in the Google Cloud resource hierarchy?**
     
-    * Resources
+    * <mark>Resources</mark>
         
     * Organization node
         
@@ -69,7 +69,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * Inheritance in the hierarchy reduces the overall cost of cloud computing.
         
-    * Permissions set at higher levels of the resource hierarchy are automatically inherited by lower-level resources.
+    * <mark>Permissions set at higher levels of the resource hierarchy are automatically inherited by lower-level resources.</mark>
         
     * Resources at lower levels can improve the performance of cloud applications.
         
@@ -77,7 +77,7 @@ When you complete this course, you can earn the badge displayed here! View all t
     
     * Cloud Monitoring
         
-    * Google Cloud Pricing Calculator
+    * <mark>Google Cloud Pricing Calculator</mark>
         
     * Cloud Trace
         
@@ -85,7 +85,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
 7. **Which term describes a centralized hub within an organization composed of a partnership across finance, technology, and business functions?**
     
-    * Center of excellence
+    * <mark>Center of excellence</mark>
         
     * Hub center
         
