@@ -120,3 +120,86 @@ When you complete this course, you can earn the badge displayed here! View all t
     * Video transcription
         
     * Clickbait detection
+        
+
+### Google Cloud’s AI and ML Solutions
+
+1. **Which Google Cloud AI solution is designed to help businesses automate document processing?**
+    
+    * <mark>Document AI</mark>
+        
+    * Contact Center AI
+        
+    * Cloud Talent Solution
+        
+    * Discovery AI for Retail
+        
+2. **Which feature of Vertex AI lets users build and train end-to-end machine learning models by using a GUI (graphical user interface), without writing a line of code.**
+    
+    * <mark>AutoML</mark>
+        
+    * Managed ML environment
+        
+    * Custom training
+        
+    * MLOps
+        
+3. **Which Google Cloud AI solution is designed to help businesses improve their customer service?**
+    
+    * Discovery AI for Retail
+        
+    * Cloud Talent Solution
+        
+    * <mark>Contact Center AI</mark>
+        
+    * Document AI
+        
+4. **An online retailer wants to help users find specific products faster on their website. One idea is to allow shoppers to upload an image of the product they’re looking to purchase. Which of Google’s pre-trained APIs could the retailer use to expand this functionality?**
+    
+    * Speech-to-Text API
+        
+    * <mark>Vision API</mark>
+        
+    * Video Intelligence API
+        
+    * Natural Language API
+        
+5. **What’s the name of Google’s application-specific integrated circuit (ASIC) that is used to accelerate machine learning workloads?**
+    
+    * Vertex Processing Unit (VPU)
+        
+    * <mark>Tensor Processing Unit (TPU)</mark>
+        
+    * Central Processing Unit (CPU)
+        
+    * Graphic Processing Unit (GPU)
+        
+6. **Google Cloud offers four options for building machine learning models. Which is best when a business wants to code their own machine learning environment, the training, and the deployment?**
+    
+    * <mark>Custom training</mark>
+        
+    * AutoML
+        
+    * BigQuery ML
+        
+    * Pre-trained APIs
+        
+7. **BigQuery ML is a machine learning service that lets users:**
+    
+    * Seamlessly connect with a data science team to create an ML model.
+        
+    * <mark>Build and evaluate machine learning models in BigQuery by using SQL.</mark>
+        
+    * Export small amounts of data to spreadsheets or other applications.
+        
+    * Build and evaluate machine learning models in BigQuery by using Python and Java.
+        
+8. **A large media company wants to improve how they moderate online content. Currently, they have a team of human moderators that review content for appropriateness, but are looking to leverage artificial intelligence to improve efficiency. Which of Google’s pre-trained APIs could they use to identify and remove inappropriate content from the media company's website and social media platforms.**
+    
+    * Video Intelligence API
+        
+    * Vision API
+        
+    * <mark>Natural Language API</mark>
+        
+    * Speech-to-Text API
