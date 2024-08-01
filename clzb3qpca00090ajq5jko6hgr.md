@@ -215,11 +215,11 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * Districts
         
-    * Regions
+    * <mark>Regions</mark>
         
 2. **Which is one of Google Cloud’s seven trust principles?**
     
-    * All customer data is encrypted by default.
+    * <mark>All customer data is encrypted by default.</mark>
         
     * Google Cloud uses customer data for advertising.
         
@@ -235,13 +235,13 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * Billing reports
         
-    * Transparency reports
+    * <mark>Transparency reports</mark>
         
 4. **Which term describes the concept that data is subject to the laws and regulations of the country where it resides?**
     
     * Data consistency
         
-    * Data sovereignty
+    * <mark>Data sovereignty</mark>
         
     * Data redundancy
         
@@ -251,7 +251,7 @@ When you complete this course, you can earn the badge displayed here! View all t
     
     * Google Cloud console
         
-    * Compliance resource center
+    * <mark>Compliance resource center</mark>
         
     * Cloud Storage client libraries
         
