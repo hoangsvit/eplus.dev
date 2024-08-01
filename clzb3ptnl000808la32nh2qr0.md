@@ -100,7 +100,7 @@ When you complete this course, you can earn the badge displayed here! View all t
     
     * Basic Support
         
-    * Premium Support
+    * <mark>Premium Support</mark>
         
     * Standard Support
         
@@ -113,13 +113,13 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * Cloud security engineer
         
-    * Site reliability engineer
+    * <mark>Site reliability engineer</mark>
         
     * DevOps engineer
         
 3. **How does replication help the design of resilient and fault-tolerant infrastructure and processes in a cloud environment?**
     
-    * It creates multiple copies of data or services and distributes them across different servers or locations.
+    * <mark>It creates multiple copies of data or services and distributes them across different servers or locations.</mark>
         
     * It scales infrastructure to handle varying workloads and accommodate increased demand.
         
@@ -135,7 +135,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * Service level objectives
         
-    * Service level indicators
+    * <mark>Service level indicators</mark>
         
 5. **What does the Cloud Profiler tool do?**
     
@@ -145,7 +145,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * It collects and stores all application and infrastructure logs.
         
-    * It identifies how much CPU power, memory, and other resources an application uses.
+    * <mark>It identifies how much CPU power, memory, and other resources an application uses.</mark>
         
 6. **Google Cloud Observability provides a comprehensive set of monitoring, logging, and diagnostics tools. Which tool collects latency data from applications and provides insights into how they’re performing?**
     
