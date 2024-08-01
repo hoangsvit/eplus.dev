@@ -21,98 +21,238 @@ When you complete this course, you can earn the badge displayed here! View all t
 
 ### Trust and Security in the Cloud
 
-1.
-
-Which cloud security principle ensures that security practices and measures align with established standards and guidelines?ConfidentialityControlComplianceIntegrity
-
-2.
-
-Which definition best describes a firewall?A security model that assumes no user or device can be trusted by defaultA set of security measures designed to protect a computer system or network from cyber attacksA software program that encrypts data to make it unreadable to unauthorized usersA network security device that monitors and controls incoming and outgoing network traffic based on predefined security rules
-
-3.
-
-Which cloud security principle relates to keeping data accurate and trustworthy?IntegrityControlComplianceConfidentiality
-
-4.
-
-Which cybersecurity threat demands a ransom payment from a victim to regain access to their files and systems.SpywareTrojanRansomwareVirus
-
-5.
-
-Which cybersecurity threat occurs when errors arise during the setup of resources, inadvertently exposing sensitive data and systems to unauthorized access?Configuration mishapsVirusPhishingMalware
-
-6.
-
-Which security principle advocates granting users only the access they need to perform their job responsibilities?Privileged accessLeast privilegeZero-trust architectureSecurity by default
-
-7.
-
-Which is the responsibility of the cloud provider in a cloud security model?Maintaining the customer's infrastructure.Configuring the customer's applications.Managing the customer's user access.Securing the customer's data.
-
-8.
-
-Which three essential aspects of cloud security form the foundation of the CIA triad?Compliance, identity, and access managementContainers, infrastructure, and architectureCertificates, intelligence, and authenticationConfidentiality, integrity, and availability
-
-9.
-
-What common cybersecurity threat involves tricking users into revealing sensitive information or performing actions that compromise security?RansomwareMalwareConfiguration mishapPhishing
-
-10.
-
-Which is a benefit of cloud security over traditional on-premises security?Increased scalability.Having physical access to hardware.Only having to install security updates on a weekly basis.Large upfront capital investment.
+1. **Which cloud security principle ensures that security practices and measures align with established standards and guidelines?**
+    
+    * Confidentiality
+        
+    * Control
+        
+    * Compliance
+        
+    * Integrity
+        
+2. **Which definition best describes a firewall?**
+    
+    * A security model that assumes no user or device can be trusted by default
+        
+    * A set of security measures designed to protect a computer system or network from cyber attacks
+        
+    * A software program that encrypts data to make it unreadable to unauthorized users
+        
+    * A network security device that monitors and controls incoming and outgoing network traffic based on predefined security rules
+        
+3. **Which cloud security principle relates to keeping data accurate and trustworthy?**
+    
+    * Integrity
+        
+    * Control
+        
+    * Compliance
+        
+    * Confidentiality
+        
+4. **Which cybersecurity threat demands a ransom payment from a victim to regain access to their files and systems.**
+    
+    * Spyware
+        
+    * Trojan
+        
+    * Ransomware
+        
+    * Virus
+        
+5. **Which cybersecurity threat occurs when errors arise during the setup of resources, inadvertently exposing sensitive data and systems to unauthorized access?**
+    
+    * Configuration mishaps
+        
+    * Virus
+        
+    * Phishing
+        
+    * Malware
+        
+6. **Which security principle advocates granting users only the access they need to perform their job responsibilities?**
+    
+    * Privileged access
+        
+    * Least privilege
+        
+    * Zero-trust architecture
+        
+    * Security by default
+        
+7. **Which is the responsibility of the cloud provider in a cloud security model?**
+    
+    * Maintaining the customer's infrastructure.
+        
+    * Configuring the customer's applications.
+        
+    * Managing the customer's user access.
+        
+    * Securing the customer's data.
+        
+8. **Which three essential aspects of cloud security form the foundation of the CIA triad?**
+    
+    * Compliance, identity, and access management
+        
+    * Containers, infrastructure, and architecture
+        
+    * Certificates, intelligence, and authentication
+        
+    * Confidentiality, integrity, and availability
+        
+9. **What common cybersecurity threat involves tricking users into revealing sensitive information or performing actions that compromise security?**
+    
+    * Ransomware
+        
+    * Malware
+        
+    * Configuration mishap
+        
+    * Phishing
+        
+10. **Which is a benefit of cloud security over traditional on-premises security?**
+    
+    * Increased scalability.
+        
+    * Having physical access to hardware.
+        
+    * Only having to install security updates on a weekly basis.
+        
+    * Large upfront capital investment.
+        
 
 ### Google’s Trusted Infrastructure
 
-1.
-
-What security feature adds an extra layer of protection to cloud-based systems?Firewall as a service (FaaS)Two-step verification (2SV)Data loss prevention (DLP)Security information and event management (SIEM)
-
-2.
-
-What metric does Google Cloud use to measure the efficiency of its data centers to achieve cost savings and a reduced carbon footprint?Energy Efficiency Ratio (EER)Total cost of ownership (TCO)Data Center Infrastructure Efficiency (DCiE)Power Usage Effectiveness (PUE)
-
-3.
-
-Google Cloud encrypts data at various states. Which state refers to when data is being actively processed by a computer?Data lakeData in useData at restData in transit
-
-4.
-
-Which practice involves a combination of processes and technologies that help reduce the risk of data breaches, system outages, and other security incidents in the cloud?Cloud security posture management (CSPM)Zero trust securitySecurity operations (SecOps)Site reliability engineering (SRE)
-
-5.
-
-Which is a powerful encryption algorithm trusted by governments and businesses worldwide?Advanced Encryption Standard (AES)Post-quantum cryptography (PQC)Isomorphic encryption (IE)Lattice-Based Cryptography (LBC)
-
-6.
-
-Select the correct statement about Identity and Access Management (IAM).IAM provides granular control over who has access to Google Cloud resources and what they can do with those resources.IAM is a cloud service that encrypts cloud-based data at rest and in transit.IAM is a system that detects and prevents malicious traffic from entering a cloud network.IAM is a cloud security information and event management solution that collects and analyzes log data from cloud security devices and applications.
-
-7.
-
-What Google Cloud product provides robust protection from harmful distributed denial-of-service (DDoS) attacks?Google Cloud ArmorCloud MonitoringCloud Load BalancingIAM
-
-8.
-
-Which aspect of cloud identity management verifies the identity of users or systems?AuthorizationAuditingAuthenticationAccounting
+1. **What security feature adds an extra layer of protection to cloud-based systems?**
+    
+    * Firewall as a service (FaaS)
+        
+    * Two-step verification (2SV)
+        
+    * Data loss prevention (DLP)
+        
+    * Security information and event management (SIEM)
+        
+2. **What metric does Google Cloud use to measure the efficiency of its data centers to achieve cost savings and a reduced carbon footprint?**
+    
+    * Energy Efficiency Ratio (EER)
+        
+    * Total cost of ownership (TCO)
+        
+    * Data Center Infrastructure Efficiency (DCiE)
+        
+    * Power Usage Effectiveness (PUE)
+        
+3. **Google Cloud encrypts data at various states. Which state refers to when data is being actively processed by a computer?**
+    
+    * Data lake
+        
+    * Data in use
+        
+    * Data at rest
+        
+    * Data in transit
+        
+4. **Which practice involves a combination of processes and technologies that help reduce the risk of data breaches, system outages, and other security incidents in the cloud?**
+    
+    * Cloud security posture management (CSPM)
+        
+    * Zero trust security
+        
+    * Security operations (SecOps)
+        
+    * Site reliability engineering (SRE)
+        
+5. **Which is a powerful encryption algorithm trusted by governments and businesses worldwide?**
+    
+    * Advanced Encryption Standard (AES)
+        
+    * Post-quantum cryptography (PQC)
+        
+    * Isomorphic encryption (IE)
+        
+    * Lattice-Based Cryptography (LBC)
+        
+6. **Select the correct statement about Identity and Access Management (IAM).**
+    
+    * IAM provides granular control over who has access to Google Cloud resources and what they can do with those resources.
+        
+    * IAM is a cloud service that encrypts cloud-based data at rest and in transit.
+        
+    * IAM is a system that detects and prevents malicious traffic from entering a cloud network.
+        
+    * IAM is a cloud security information and event management solution that collects and analyzes log data from cloud security devices and applications.
+        
+7. **What Google Cloud product provides robust protection from harmful distributed denial-of-service (DDoS) attacks?**
+    
+    * Google Cloud Armor
+        
+    * Cloud Monitoring
+        
+    * Cloud Load Balancing
+        
+    * IAM
+        
+8. **Which aspect of cloud identity management verifies the identity of users or systems?**
+    
+    * Authorization
+        
+    * Auditing
+        
+    * Authentication
+        
+    * Accounting
+        
 
 ### Google Cloud’s Trust Principles and Compliance
 
-1.
-
-Which Google Cloud feature allows users to control their data's physical location?AreasPlacesDistrictsRegions
-
-2.
-
-Which is one of Google Cloud’s seven trust principles?All customer data is encrypted by [default.Google](http://default.Google) Cloud uses customer data for [advertising.Google](http://advertising.Google) sells customer data to third parties.We give "backdoor" access to government entities when requested.
-
-3.
-
-Which report provides a way for Google Cloud to share data about how the policies and actions of governments and corporations affect privacy, security, and access to information?Compliance reportsSecurity reportsBilling reportsTransparency reports
-
-4.
-
-Which term describes the concept that data is subject to the laws and regulations of the country where it resides?Data consistencyData sovereigntyData redundancyData residency
-
-5.
-
-Where can you find details about certifications and compliance standards met by Google Cloud?Google Cloud consoleCompliance resource centerCloud Storage client librariesMarketplace
+1. **Which Google Cloud feature allows users to control their data's physical location?**
+    
+    * Areas
+        
+    * Places
+        
+    * Districts
+        
+    * Regions
+        
+2. **Which is one of Google Cloud’s seven trust principles?**
+    
+    * All customer data is encrypted by default.
+        
+    * Google Cloud uses customer data for advertising.
+        
+    * Google sells customer data to third parties.
+        
+    * We give "backdoor" access to government entities when requested.
+        
+3. **Which report provides a way for Google Cloud to share data about how the policies and actions of governments and corporations affect privacy, security, and access to information?**
+    
+    * Compliance reports
+        
+    * Security reports
+        
+    * Billing reports
+        
+    * Transparency reports
+        
+4. **Which term describes the concept that data is subject to the laws and regulations of the country where it resides?**
+    
+    * Data consistency
+        
+    * Data sovereignty
+        
+    * Data redundancy
+        
+    * Data residency
+        
+5. **Where can you find details about certifications and compliance standards met by Google Cloud?**
+    
+    * Google Cloud console
+        
+    * Compliance resource center
+        
+    * Cloud Storage client libraries
+        
+    * Marketplace
