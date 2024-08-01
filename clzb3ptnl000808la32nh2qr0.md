@@ -153,7 +153,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * Cloud Logging
         
-    * Cloud Trace
+    * <mark>Cloud Trace</mark>
         
     * Cloud Monitoring
         
@@ -163,7 +163,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * It may reduce the number of available virtual machines.
         
-    * It may disrupt the workflow of the Customer Care team and lead to delays in other cases.
+    * <mark>It may disrupt the workflow of the Customer Care team and lead to delays in other cases.</mark>
         
     * It can result in increased power consumption, impacting carbon neutrality.
         
@@ -173,7 +173,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * System failures or other issues.
         
-    * How long it takes for a particular part of a system to return a result.
+    * <mark>How long it takes for a particular part of a system to return a result.</mark>
         
     * How close to capacity a system is.
         
@@ -183,7 +183,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * Log files
         
-    * Backups
+    * <mark>Backups</mark>
         
     * Inventory data
         
