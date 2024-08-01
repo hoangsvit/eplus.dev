@@ -196,7 +196,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * To be the first major company to achieve 100% renewable energy.
         
-    * To be the first major company to operate completely carbon free.
+    * <mark>To be the first major company to operate completely carbon free.</mark>
         
     * To be the first major company to run its own wind farm.
         
@@ -204,7 +204,7 @@ When you complete this course, you can earn the badge displayed here! View all t
     
     * It uses BigQuery and Looker Studio to containerize workloads.
         
-    * It uses BigQuery and Looker Studio to create dashboards that provide granular operational insights.
+    * <mark>It uses BigQuery and Looker Studio to create dashboards that provide granular operational insights.</mark>
         
     * It uses BigQuery and Looker Studio to comply with government regulations.
         
@@ -212,7 +212,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
 3. **Google's data centers were the first to achieve ISO 14001 certification. What is this standard’s purpose?**
     
-    * It’s a framework for an organization to enhance its environmental performance through improving resource efficiency and reducing waste.
+    * <mark>It’s a framework for an organization to enhance its environmental performance through improving resource efficiency and reducing waste.</mark>
         
     * It’s a framework for identifying, predicting, and evaluating the environmental impacts of a proposed project.
         
