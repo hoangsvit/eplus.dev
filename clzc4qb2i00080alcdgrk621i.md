@@ -21,7 +21,7 @@ tags: css-selectors, css, html, html5, knowledge-check-css-selectors
         
     * <mark>Visited</mark>
         
-2. **For a given** `<div>` **tag and** `<p>` **tag, which of the following will be the correct syntax for use of adjacent sibling combinator?**
+2. **For a given**`<div>`**tag and**`<p>`**tag, which of the following will be the correct syntax for use of adjacent sibling combinator?**
     
     * div &gt; p
         
@@ -34,7 +34,7 @@ tags: css-selectors, css, html, html5, knowledge-check-css-selectors
 3. **Calculate the specificity of the following selector:**
     
     ```css
-    ul#alpha li.visited ```
+    ul#alpha li.visited
     ```
     
     * 22
@@ -45,7 +45,7 @@ tags: css-selectors, css, html, html5, knowledge-check-css-selectors
         
     * <mark>112</mark>
         
-4. `nth-last-of-type` **is a pseudo element that matches the last sibling from a list of siblings of specific type inside a parent.**
+4. `nth-last-of-type`**is a pseudo element that matches the last sibling from a list of siblings of specific type inside a parent.**
     
     * <mark>TRUE</mark>
         
