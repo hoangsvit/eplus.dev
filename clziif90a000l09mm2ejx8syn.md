@@ -1,7 +1,7 @@
 ---
 title: "Speech-to-Text API: Qwik Start - GSP119"
 seoTitle: "Speech-to-Text API: Qwik Start - GSP119"
-seoDescription: "The Speech-to-Text API enables easy integration of Google speech recognition technologies into developer applications. The Speech-to-Text API allows you to "
+seoDescription: "The Speech-to-Text API enables easy integration of Google speech recognition technologies into developer applications. The Speech-to-Text API allows you to"
 datePublished: Tue Aug 06 2024 14:22:43 GMT+0000 (Coordinated Universal Time)
 cuid: clziif90a000l09mm2ejx8syn
 slug: speech-to-text-api-qwik-start-gsp119
@@ -26,7 +26,7 @@ In this lab, you learn how to:
 * Call the Speech-to-Text API
     
 
-## **Task 1. Create an API key**
+### **Task 1. Create an API key**
 
 Since you'll be using `curl` to send a request to the Speech-to-Text API, you need to generate an API key to pass in our request URL.
 
@@ -62,7 +62,7 @@ export API_KEY=<YOUR_API_KEY>
 
 You remain in this SSH session for the rest of the lab.
 
-## **Task 2. Create your Speech-to-Text API request**
+### **Task 2. Create your Speech-to-Text API request**
 
 **Note:** You will use a pre-recorded file that's available on Cloud Storage: `gs://cloud-samples-tests/speech/brooklyn.flac`. [Listen to the audio file before sending it to the Speech-to-Text API](https://storage.cloud.google.com/cloud-samples-tests/speech/brooklyn.flac).
 
@@ -120,7 +120,7 @@ Create your Speech-to-Text API request
 
 Now you're ready to call the Speech-to-Text API!
 
-## **Task 3. Call the Speech-to-Text API**
+### **Task 3. Call the Speech-to-Text API**
 
 1. Pass your request body, along with the API key environment variable, to the Speech-to-Text API with the following `curl` command (all in one single command line):
     
