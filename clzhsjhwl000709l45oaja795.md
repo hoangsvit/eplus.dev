@@ -1,5 +1,5 @@
 ---
-title: "Autoscaling an Instance Group with Custom Cloud Monitoring Metrics - GSP087\"
+title: "Autoscaling an Instance Group with Custom Cloud Monitoring Metrics - GSP087"
 seoTitle: "Autoscaling an Instance Group with Custom Cloud Monitoring Metrics - G"
 seoDescription: "In this lab you will create a Compute Engine managed instance group that autoscales based on the value of a custom Cloud Monitoring metric."
 datePublished: Tue Aug 06 2024 02:18:11 GMT+0000 (Coordinated Universal Time)
