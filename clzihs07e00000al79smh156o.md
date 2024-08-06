@@ -5,6 +5,7 @@ seoDescription: "The Web Security Scanner, one of Security Command Center's buil
 datePublished: Tue Aug 06 2024 14:04:39 GMT+0000 (Coordinated Universal Time)
 cuid: clzihs07e00000al79smh156o
 slug: web-security-scanner-qwik-start-gsp112
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722953100623/62a51a04-763e-47f4-8218-665e375a3e67.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722953054717/b6b14557-172c-4fbd-ae94-fcc1f7302cbe.png
 tags: web-security-scanner-qwik-start-gsp112, gsp112
 
@@ -12,9 +13,9 @@ tags: web-security-scanner-qwik-start-gsp112, gsp112
 
 ## **Overview**
 
-The Web Security Scanner, one of [Security Command Center's built-in services, identifies sec](https://cloud.google.com/security-command-center)urity vulnerabilities in your Google App Engine, Google Kubernetes Engine (GKE), and Compute Engine web applications. It crawls your application, following all links within the scope of your starting URLs, and attempts to exercise as many user inputs and event handlers as possible.
+The Web Security Scanner, one of [Security Command Center's](https://cloud.google.com/security-command-center) built-in services, identifies security vulnerabilities in your Google App Engine, Google Kubernetes Engine (GKE), and Compute Engine web applications. It crawls your application, following all links within the scope of your starting URLs, and attempts to exercise as many user inputs and event handlers as possible.
 
-The scanner is designed to complement your existing secure design a[nd development processes.](https://cloud.google.com/security-command-center) To avoid distracting developers with false positives, the scanner errs on the side of under reporting and will not display low confidence alerts. It does not replace a manual security review, and it does not guarantee that your application is free from security flaws.
+The scanner is designed to complement your existing secure design and development processes. To avoid distracting developers with false positives, the scanner errs on the side of under reporting and will not display low confidence alerts. It does not replace a manual security review, and it does not guarantee that your application is free from security flaws.
 
 ### **Task 1. Before you begin, you need an app to scan**
 
