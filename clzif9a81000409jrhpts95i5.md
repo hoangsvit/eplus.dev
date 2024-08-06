@@ -15,7 +15,7 @@ tags: the-arcade-base-camp-august-2024, the-arcade-2024
 
 Welcome to **Base Camp**, where you’ll develop key **Google Cloud** skills (available in Spanish and Portuguese too!) and earn an exclusive credential that will open doors to the cloud for you. No prior experience is required!
 
-Link: [https://www.cloudskillsboost.google/games/5383?utm\_source=qwiklabs&utm\_medium=lp&utm\_campaign=health-tech-may-arcade24](https://www.cloudskillsboost.google/games/5383?utm_source=qwiklabs&utm_medium=lp&utm_campaign=health-tech-may-arcade24)
+Link: [Google Cloud Skills Boost - Games 5383](https://www.cloudskillsboost.google/games/5383?utm_source=qwiklabs&utm_medium=lp&utm_campaign=health-tech-may-arcade24)
 
 Code: <mark>1q-basecamp-0871</mark>
 
@@ -23,10 +23,10 @@ Code: <mark>1q-basecamp-0871</mark>
 
 | **Level** | **Link** | **Code** |
 | --- | --- | --- |
-| **Level 1:** Application Development and Deployment | [https://www.cloudskillsboost.google/games/5379?utm\_source=qwiklabs&utm\_medium=lp&utm\_campaign=level1-august-arcade24](https://www.cloudskillsboost.google/games/5379?utm_source=qwiklabs&utm_medium=lp&utm_campaign=level1-august-arcade24) | <mark>1q-appdev-0868</mark> |
-| Level 2: Machine Learning and AI Skills | [https://www.cloudskillsboost.google/games/5381?utm\_source=qwiklabs&utm\_medium=lp&utm\_campaign=level2-august-arcade24](https://www.cloudskillsboost.google/games/5381?utm_source=qwiklabs&utm_medium=lp&utm_campaign=level2-august-arcade24) | <mark>1q-mlskills-0869</mark> |
-| **Level 3**: Level up your Cloud Functions skills | [https://www.cloudskillsboost.google/games/5382?utm\_source=qwiklabs&utm\_medium=lp&utm\_campaign=level3-august-arcade24](https://www.cloudskillsboost.google/games/5382?utm_source=qwiklabs&utm_medium=lp&utm_campaign=level3-august-arcade24) | <mark>1q-functions-0870</mark> |
-| The Arcade Trivia August 2024 **Week 1** | [https://www.cloudskillsboost.google/games/5384?utm\_source=qwiklabs&utm\_medium=lp&utm\_campaign=arcade24-august-trivia](https://www.cloudskillsboost.google/games/5384?utm_source=qwiklabs&utm_medium=lp&utm_campaign=arcade24-august-trivia) | <mark>1q-trivia-08017</mark> |
+| **Level 1:** Application Development and Deployment | [Google Cloud Skills Boost - Games 5379](https://www.cloudskillsboost.google/games/5379?utm_source=qwiklabs&utm_medium=lp&utm_campaign=level1-august-arcade24) | <mark>1q-appdev-0868</mark> |
+| **Level 2:** Machine Learning and AI Skills | [Google Cloud Skills Boost - Games 5381](https://www.cloudskillsboost.google/games/5381?utm_source=qwiklabs&utm_medium=lp&utm_campaign=level2-august-arcade24) | <mark>1q-mlskills-0869</mark> |
+| **Level 3:** Level up your Cloud Functions skills | [Google Cloud Skills Boost - Games 5382](https://www.cloudskillsboost.google/games/5382?utm_source=qwiklabs&utm_medium=lp&utm_campaign=level3-august-arcade24) | <mark>1q-functions-0870</mark> |
+| The Arcade Trivia August 2024 **Week 1** | [Google Cloud Skills Boost - Games 5384](https://www.cloudskillsboost.google/games/5384?utm_source=qwiklabs&utm_medium=lp&utm_campaign=arcade24-august-trivia) | <mark>1q-trivia-08017</mark> |
 
 **Important Points**
 
