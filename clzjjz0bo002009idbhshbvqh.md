@@ -90,17 +90,30 @@ Firebase includes support for a number of different language runtimes including:
 
 Answer the following multiple choice questions to reinforce your understanding of the concepts covered so far.
 
-An organizing entity for anything you build with FirebasePasswordFirebase projectUsernameCloud Storage bucket
+An organizing entity for anything you build with Firebase
 
-**Submit**
+* Password
+    
+* Firebase project
+    
+* Username
+    
+* Cloud Storage bucket
+    
 
-The Firebase Blaze plan includes a Google Cloud project.TrueFalse
+The Firebase Blaze plan includes a Google Cloud project.
 
-**Submit**
+* True
+    
+* False
+    
 
-The Firebase Spark plan includes a Google Cloud project.FalseTrue
+The Firebase Spark plan includes a Google Cloud project.
 
-**Submit**
+* False
+    
+* True
+    
 
 #### **Navigation menu and services**
 
@@ -110,7 +123,7 @@ The Firebase Spark plan includes a Google Cloud project.FalseTrue
 
 Clicking the *Navigation menu* icons provides quick access to Firebase's core services.
 
-1. If only menu icons are visible, click the **&gt;** icon.
+1. If only menu icons are visible, click the **\&gt;** icon.
     
 2. Click **All products**, then scroll through the tool and service categories.
     
@@ -123,13 +136,23 @@ Clicking the *Navigation menu* icons provides quick access to Firebase's core se
 
 Answer the following multiple choice questions to reinforce your understanding of the concepts covered so far.
 
-Which of the following is NOT a supported authentication provider for Firebase Authentication?FacebookTikTokEmail and passwordGoogle
+Which of the following is NOT a supported authentication provider for Firebase Authentication?
 
-**Submit**
+* Facebook
+    
+* TikTok
+    
+* Email and password
+    
+* Google
+    
 
-Firebase only supports Google Cloud AuthenticationTrueFalse
+Firebase only supports Google Cloud Authentication
 
-**Submit**
+* True
+    
+* False
+    
 
 ### **Task 4. Hosting**
 
@@ -141,13 +164,23 @@ Firebase Hosting can be used to deploy static and dynamic web content. It provid
 
 Answer the following multiple choice questions to reinforce your understanding of the concepts covered so far.
 
-Which of the following is NOT a benefit of using Firebase Hosting?Global CDN distributionAutomatic SSL certificatesCustom domain supportKubernetes
+Which of the following is NOT a benefit of using Firebase Hosting?
 
-**Submit**
+* Global CDN distribution
+    
+* Automatic SSL certificates
+    
+* Custom domain support
+    
+* Kubernetes
+    
 
-Firebase Hosting can be used to deploy static and dynamic web content.TrueFalse
+Firebase Hosting can be used to deploy static and dynamic web content.
 
-**Submit**
+* True
+    
+* False
+    
 
 ### **Task 5. Storage**
 
@@ -159,13 +192,23 @@ Firebase Storage is a scalable, durable, and highly available object storage ser
 
 Answer the following multiple choice questions to reinforce your understanding of the concepts covered so far.
 
-Which of the following is NOT a supported file type for Firebase Storage?JPEGPNGMOVGIF
+Which of the following is NOT a supported file type for Firebase Storage?
 
-**Submit**
+* JPEG
+    
+* PNG
+    
+* MOV
+    
+* GIF
+    
 
-Firebase Storage is a scalable, durable, and highly available object storage service for storing user-generated content.TrueFalse
+Firebase Storage is a scalable, durable, and highly available object storage service for storing user-generated content.
 
-**Submit**
+* True
+    
+* False
+    
 
 ### **Task 6. Cloud Firestore**
 
@@ -177,13 +220,23 @@ Firebase Cloud Firestore provides eventual consistency by default. This means th
 
 Answer the following multiple choice questions to reinforce your understanding of the concepts covered so far.
 
-Which of the following is NOT a benefit of using Firebase Cloud Firestore?Strong consistencyScalabilityDurabilityReal-time updates
+Which of the following is NOT a benefit of using Firebase Cloud Firestore?
 
-**Submit**
+* Strong consistency
+    
+* Scalability
+    
+* Durability
+    
+* Real-time updates
+    
 
-Firebase Cloud Firestore is a NoSQL document database.TrueFalse
+Firebase Cloud Firestore is a NoSQL document database.
 
-**Submit**
+* True
+    
+* False
+    
 
 ### **Task 7. Emulator Suite**
 
@@ -199,13 +252,23 @@ For example, you could connect your app to the Cloud Firestore emulator to safel
 
 Answer the following multiple choice questions to reinforce your understanding of the concepts covered so far.
 
-Which of the following is NOT a service that can be emulated with the Firebase emulator suite?Cloud StorageAuthenticationVertex AICloud Firestore
+Which of the following is NOT a service that can be emulated with the Firebase emulator suite?
 
-**Submit**
+* Cloud Storage
+    
+* Authentication
+    
+* Vertex AI
+    
+* Cloud Firestore
+    
 
-Firebase only supports Google Cloud AuthenticationTrueFalse
+Firebase only supports Google Cloud Authentication
 
-**Submit**
+* True
+    
+* False
+    
 
 **End your lab**
 
