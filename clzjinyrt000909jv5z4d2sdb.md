@@ -96,4 +96,10 @@ P.S. You don't need the GCP Console for this, but you do need to keep this quiz 
 
 ---
 
+**Youtube**
+
+%[https://www.youtube.com/watch?v=2rFiv2CGBEk] 
+
+**Image**
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723014801803/7128acc0-b0b8-4e80-a256-5bfcd370baca.png align="center")
