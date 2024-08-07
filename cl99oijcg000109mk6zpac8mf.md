@@ -132,7 +132,7 @@ What is the name of default database in Postgres Cloud SQL instance?
 
 ### Solution of Lab
 
-%[https://youtu.be/MyqqjtnO5w0] 
+%[https://www.youtube.com/watch?v=MyqqjtnO5w0&feature=youtu.be] 
 
 ```apache
 export REGION=
