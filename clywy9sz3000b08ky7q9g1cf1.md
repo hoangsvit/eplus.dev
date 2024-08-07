@@ -32,7 +32,7 @@ There are a lot of things in store for you. We want to make sure that by the end
 
 ---
 
-[Enrol in the program here](https://forms.gle/JwdZcrERxTuzpU118)
+[Enrol in the program here](https://forms.gle/JwdZcrERxTuzpU118) (❌ Registration is closed)
 
 Arcade Referral Code: <mark>GCAF24-IN-7C6-ZHH</mark>
 
