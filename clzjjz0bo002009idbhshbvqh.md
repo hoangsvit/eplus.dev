@@ -1,7 +1,7 @@
 ---
 title: "A Tour of Firebase - GSP1132 (Solution)"
 seoTitle: "A Tour of Firebase - GSP1132"
-seoDescription: "If you are new to cloud computing or looking for an overview of Google Cloud and Firebase, you are in the right place. Read on to learn about the specifics "
+seoDescription: "If you are new to cloud computing or looking for an overview of Google Cloud and Firebase, you are in the right place. Read on to learn about the specifics"
 datePublished: Wed Aug 07 2024 07:53:51 GMT+0000 (Coordinated Universal Time)
 cuid: clzjjz0bo002009idbhshbvqh
 slug: a-tour-of-firebase-gsp1132-solution
@@ -110,7 +110,7 @@ The Firebase Spark plan includes a Google Cloud project.FalseTrue
 
 Clicking the *Navigation menu* icons provides quick access to Firebase's core services.
 
-1. If only menu icons are visible, click the **\&gt;** icon.
+1. If only menu icons are visible, click the **&gt;** icon.
     
 2. Click **All products**, then scroll through the tool and service categories.
     
@@ -149,7 +149,7 @@ Firebase Hosting can be used to deploy static and dynamic web content.TrueFalse
 
 **Submit**
 
-## **Task 5. Storage**
+### **Task 5. Storage**
 
 [Cloud Storage](https://firebase.google.com/docs/storage) for Firebase is a powerful, simple, and cost-effective object storage service built for Google scale. The Firebase SDKs for Cloud Storage add Google security to file uploads and downloads for your Firebase apps, regardless of network quality.
 
