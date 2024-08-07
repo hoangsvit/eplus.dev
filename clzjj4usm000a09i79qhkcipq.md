@@ -1,7 +1,7 @@
 ---
 title: "Design Pattern trong thực tế"
 seoTitle: "Design Pattern trong thực tế"
-seoDescription: "Để học một cái gì đó mình cần phải trả lời được lý do vì sao bạn cần phải học nó. Nếu không thì rất dễ rơi vào tình trạng học vẹt, vì mình không hiểu lý do "
+seoDescription: "Để học một cái gì đó mình cần phải trả lời được lý do vì sao bạn cần phải học nó. Nếu không thì rất dễ rơi vào tình trạng học vẹt, vì mình không hiểu lý do"
 datePublished: Wed Aug 07 2024 07:30:24 GMT+0000 (Coordinated Universal Time)
 cuid: clzjj4usm000a09i79qhkcipq
 slug: design-pattern-trong-thuc-te
@@ -42,4 +42,11 @@ TL; DR Vì sao các framework web hiện đại đặt Dependency Injection và 
 
 Cám ơn các bạn đã đọc bài, cám ơn admin đã duyệt bài ạ. Hy vọng sẽ có thêm nhiều cơ hội để chia sẻ thêm về cách "đánh hơi" áp dụng Design Pattern trong thực tế đến với ae
 
-**Nguồn:** [Nguyễn Thế Huy - J2TEAM Community](https://www.facebook.com/groups/j2team.community/posts/2438916643107108)
+---
+
+Tài liệu:
+
+* [https://refactoring.guru/design-patterns/structural-patterns](https://refactoring.guru/design-patterns/structural-patterns)
+    
+
+**Nguồn:**[Nguyễn Thế Huy - J2TEAM Community](https://www.facebook.com/groups/j2team.community/posts/2438916643107108)
