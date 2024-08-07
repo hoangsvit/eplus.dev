@@ -19,7 +19,7 @@ The Arcade Facilitator Program is an always-on, no-cost gaming campaign where te
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text"><strong>New End Date of the Program:</strong> 27th September 2024</div>
+<div data-node-type="callout-text"><strong>New End Date of the Program:</strong> <strong>September 28, 2024 at 1:29 AM GMT+7</strong></div>
 </div>
 
 #### **Why should I enrol in the program?**
