@@ -68,7 +68,7 @@ docker images
 
 ```apache
 REPOSITORY                             TAG                    IMAGE ID    
-mcr.microsoft.com/windows/servercore   ltsc2019               29a2c2cb7e4d      
+mcr.microsoft.com/windows/servercore   ltsc2019               29a2c2cb7e4d
 ```
 
 **Copy and paste with the RDP client**
@@ -249,6 +249,8 @@ When you are done with experimenting with Windows containers, it is a good idea 
 ---
 
 ### Solution of Lab
+
+%[https://www.youtube.com/watch?v=58Rp8yDkkg0&feature=youtu.be] 
 
 ```apache
 curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Running%20Windows%20Containers%20on%20Compute%20Engine/techcps153.bat
