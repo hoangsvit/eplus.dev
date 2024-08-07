@@ -15,7 +15,12 @@ The Arcade Facilitator Program is an always-on, no-cost gaming campaign where te
 
 **Enrolments are now OPEN! Enrol using the button below.**
 
-**<mark>July 22, 2024 at 6:30 PM -&nbsp;September 23, 2024 at 1:29 AM GMT+7</mark>**
+**<s>July 22, 2024 at 6:30 PM -&nbsp;September 23, 2024 at 1:29 AM GMT+7</s>**
+
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text"><strong>New End Date of the Program:</strong> 27th September 2024</div>
+</div>
 
 #### **Why should I enrol in the program?**
 
