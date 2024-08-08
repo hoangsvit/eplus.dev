@@ -72,4 +72,10 @@ Leave the other attributes blank.
 
 ---
 
-Solution of Lab
+### Solution of Lab
+
+%[https://www.youtube.com/watch?v=b82vVY2rjZA] 
+
+**Download file:** [companies.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/ARC105/companies.xlsx)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723084310707/a9d94931-3dea-4c78-9e38-b8d5dee6dbf2.png align="center")
