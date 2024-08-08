@@ -3,21 +3,21 @@
 ### #Blog posts
 
 <!-- BLOG-POST-LIST:START -->
- - 🧰 [A Tour of Firebase - GSP1132 &lpar;Solution&rpar;](https://eplus.dev/a-tour-of-firebase-gsp1132-solution) - 2024-08-07
- - 😺 [Design Pattern trong thực tế](https://eplus.dev/design-pattern-trong-thuc-te) - 2024-08-07
- - 🗽 [The Arcade Trivia August 2024 Week 1 - Quiz](https://eplus.dev/the-arcade-trivia-august-2024-week-1-quiz) - 2024-08-07
- - 🌜 [Deploy Microsoft SQL Server to Compute Engine - GSP031](https://eplus.dev/deploy-microsoft-sql-server-to-compute-engine-gsp031) - 2024-08-07
- - 📝 [Running Windows Containers on Compute Engine - GSP153](https://eplus.dev/running-windows-containers-on-compute-engine-gsp153) - 2024-08-07
- - 🚀 [Understanding and Analyzing Your Costs with Google Cloud Billing Reports - GSP614](https://eplus.dev/understanding-and-analyzing-your-costs-with-google-cloud-billing-reports-gsp614) - 2024-08-07
- - 💼 [Using Custom Fields in Looker Explores - GSP983](https://eplus.dev/using-custom-fields-in-looker-explores-gsp983) - 2024-08-07
- - 🦣 [Cloud SQL for MySQL: Qwik Start - GSP151](https://eplus.dev/cloud-sql-for-mysql-qwik-start-gsp151) - 2024-08-07
- - 👨‍🏫 [Cloud SQL for PostgreSQL: Qwik Start - GSP152](https://eplus.dev/cloud-sql-for-postgresql-qwik-start-gsp152) - 2024-08-06
- - 🔭 [Cloud Source Repositories: Qwik Start - GSP121](https://eplus.dev/cloud-source-repositories-qwik-start-gsp121) - 2024-08-06
- - 🤡 [Speech-to-Text API: Qwik Start - GSP119](https://eplus.dev/speech-to-text-api-qwik-start-gsp119) - 2024-08-06
- - 💡 [Web Security Scanner: Qwik Start - GSP112](https://eplus.dev/web-security-scanner-qwik-start-gsp112) - 2024-08-06
- - 🦣 [Troubleshooting and Solving Data Join Pitfalls - GSP412](https://eplus.dev/troubleshooting-and-solving-data-join-pitfalls-gsp412) - 2024-08-06
- - 💪 [Running a MongoDB Database in Kubernetes with StatefulSets - GSP022](https://eplus.dev/running-a-mongodb-database-in-kubernetes-with-statefulsets-gsp022) - 2024-08-06
- - 🤡 [The Arcade Base Camp August 2024](https://eplus.dev/the-arcade-base-camp-august-2024) - 2024-08-06<!-- BLOG-POST-LIST:END -->
+ - 🧰 [App Building with AppSheet: Challenge Lab - ARC105](https://eplus.dev/app-building-with-appsheet-challenge-lab-arc105) - 2024-08-08
+ - 😺 [A Tour of Firebase - GSP1132 &lpar;Solution&rpar;](https://eplus.dev/a-tour-of-firebase-gsp1132-solution) - 2024-08-07
+ - 🗽 [Design Pattern trong thực tế](https://eplus.dev/design-pattern-trong-thuc-te) - 2024-08-07
+ - 🌜 [The Arcade Trivia August 2024 Week 1 - Quiz](https://eplus.dev/the-arcade-trivia-august-2024-week-1-quiz) - 2024-08-07
+ - 📝 [Deploy Microsoft SQL Server to Compute Engine - GSP031](https://eplus.dev/deploy-microsoft-sql-server-to-compute-engine-gsp031) - 2024-08-07
+ - 🚀 [Running Windows Containers on Compute Engine - GSP153](https://eplus.dev/running-windows-containers-on-compute-engine-gsp153) - 2024-08-07
+ - 💼 [Understanding and Analyzing Your Costs with Google Cloud Billing Reports - GSP614](https://eplus.dev/understanding-and-analyzing-your-costs-with-google-cloud-billing-reports-gsp614) - 2024-08-07
+ - 🦣 [Using Custom Fields in Looker Explores - GSP983](https://eplus.dev/using-custom-fields-in-looker-explores-gsp983) - 2024-08-07
+ - 👨‍🏫 [Cloud SQL for MySQL: Qwik Start - GSP151](https://eplus.dev/cloud-sql-for-mysql-qwik-start-gsp151) - 2024-08-07
+ - 🔭 [Cloud SQL for PostgreSQL: Qwik Start - GSP152](https://eplus.dev/cloud-sql-for-postgresql-qwik-start-gsp152) - 2024-08-06
+ - 🤡 [Cloud Source Repositories: Qwik Start - GSP121](https://eplus.dev/cloud-source-repositories-qwik-start-gsp121) - 2024-08-06
+ - 💡 [Speech-to-Text API: Qwik Start - GSP119](https://eplus.dev/speech-to-text-api-qwik-start-gsp119) - 2024-08-06
+ - 🦣 [Web Security Scanner: Qwik Start - GSP112](https://eplus.dev/web-security-scanner-qwik-start-gsp112) - 2024-08-06
+ - 💪 [Troubleshooting and Solving Data Join Pitfalls - GSP412](https://eplus.dev/troubleshooting-and-solving-data-join-pitfalls-gsp412) - 2024-08-06
+ - 🤡 [Running a MongoDB Database in Kubernetes with StatefulSets - GSP022](https://eplus.dev/running-a-mongodb-database-in-kubernetes-with-statefulsets-gsp022) - 2024-08-06<!-- BLOG-POST-LIST:END -->
 
 <div align="right">
   Update by <a target="_blank"
