@@ -470,3 +470,5 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/App%20Dev%20
 sudo chmod +x quicklabgsp184.sh
 ./quicklabgsp184.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723093944852/8a45b504-89a2-4d5b-aac7-b5fffde892c4.png align="center")
