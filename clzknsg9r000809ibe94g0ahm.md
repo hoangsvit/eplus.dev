@@ -76,8 +76,8 @@ Leave the other attributes blank.
 
 %[https://www.youtube.com/watch?v=b82vVY2rjZA] 
 
-**Step 1:** Create a new AppSheet app named **Company Details** using the [companies](https://docs.google.com/spreadsheets/d/1fsusJTqRwsURG9GpduXVZE8XXfv9vzq5XXI9jBlcq9M/copy) sheet.
+**Step 1:** Copy this file to **Google Drive** with the name [companies](https://docs.google.com/spreadsheets/d/1fsusJTqRwsURG9GpduXVZE8XXfv9vzq5XXI9jBlcq9M/copy) sheet.
 
-**Step 2:** <mark>Download file</mark> **:**[companies.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/ARC105/companies.xlsx) (*Then import and replace the copied file in step 1*).
+**Step 2:**<mark>Download file</mark>**:** [companies.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/ARC105/companies.xlsx) (*Then import and replace the copied file in step 1*).
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723084310707/a9d94931-3dea-4c78-9e38-b8d5dee6dbf2.png align="center")
