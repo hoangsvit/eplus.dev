@@ -256,3 +256,7 @@ When you are done with experimenting with Windows containers, it is a good idea 
 curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Running%20Windows%20Containers%20on%20Compute%20Engine/techcps153.bat
 techcps153.bat
 ```
+
+**Note:** <mark>Run CMD as </mark> **<mark>Administrator</mark>**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723086195135/7fbd9194-b8b4-49de-ab8f-7f5f5e448529.jpeg align="center")
