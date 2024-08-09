@@ -153,7 +153,7 @@ It is a good practice to include a short description of your app.
     
     Click **More info** to get more details on the issues reported that include the likely cause and resolution steps.
     
-2. To fix the *App description* warning, navigate to the **Settings**, and then click on **Information** under *settings* in the AppSheet UI.
+2. To fix the *App description* warning, navigate to the **Settings**, and then click on **Information** under *settings* in the **AppSheet UI**.
     
 3. Click **App Properties**.
     
