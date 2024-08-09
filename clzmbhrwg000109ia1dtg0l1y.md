@@ -1,7 +1,7 @@
 ---
 title: "Connect and Configure Data for your AppSheet App - GSP910"
 seoTitle: "Connect and Configure Data for your AppSheet App - GSP910"
-seoDescription: "In this lab, you use AppSheet to enhance a basic application with additional functionality using data from a second data source. Using the AppSheet editor, "
+seoDescription: "In this lab, you use AppSheet to enhance a basic application with additional functionality using data from a second data source. Using the AppSheet editor,"
 datePublished: Fri Aug 09 2024 06:19:48 GMT+0000 (Coordinated Universal Time)
 cuid: clzmbhrwg000109ia1dtg0l1y
 slug: connect-and-configure-data-for-your-appsheet-app-gsp910
@@ -336,4 +336,8 @@ Create relationships between tables
 
 ### Solution of Lab
 
-%[https://www.youtube.com/watch?v=Y-PTwmPO_is]
+%[https://www.youtube.com/watch?v=Y-PTwmPO_is] 
+
+Download file: [quicklab.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP910/quicklab.xlsx)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723184531498/af9a8984-ad13-4bb3-aeee-4b3cb8a29661.png align="center")
