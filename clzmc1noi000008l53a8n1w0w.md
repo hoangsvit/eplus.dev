@@ -311,6 +311,6 @@ Solution of Lab
 
 %[https://www.youtube.com/watch?v=x0iZ1hVFtTA] 
 
-Download File: [GSP1030.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1030.xlsx)
+Download File: [GSP1030.xlsx](https://github.com/ePlus-DEV/storage/tree/main/labs/GSP1030)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723185410351/6b3ee508-d980-48ca-a02a-602a9da01b87.png align="center")
