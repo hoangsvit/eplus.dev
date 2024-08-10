@@ -333,7 +333,7 @@ from google.cloud import documentai_v1beta3 as documentai
 from google.cloud import storage
 from prettytable import PrettyTable
 
-parser = argparse.ArgumentParser() parser.add_argument("-P", "--project_id", help="Google Cloud Project ID") parser.add_argument("-D", "--processor_id", help="Document AI Processor ID") parser.add_argument("-F", "--file_name", help="Input file name", default="form.pdf") parser.add_argument("-L", "--location", help="Processor Location", default="us") args = parser.parse_args() 
+parser = argparse.ArgumentParser() parser.add_argument("-P", "--project_id", help="Google Cloud Project ID") parser.add_argument("-D", "--processor_id", help="Document AI Processor ID") parser.add_argument("-F", "--file_name", help="Input file name", default="form.pdf") parser.add_argument("-L", "--location", help="Processor Location", default="us") args = parser.parse_args()
 ```
 
 2. The `process_document` function is used to make a synchronous call to a Document AI processor. The function creates a Document AI API client object.
@@ -452,7 +452,7 @@ python3 synchronous_doc_ai.py \
 You will see the following block of text output:
 
 ```plaintext
- FakeDoc M.D. HEALTH INTAKE FORM Please fill out the questionnaire carefully. The information you provide will be used to complete your health profile and will be kept confidential. Date: Sally Walker Name: 9/14/19 ... 
+ FakeDoc M.D. HEALTH INTAKE FORM Please fill out the questionnaire carefully. The information you provide will be used to complete your health profile and will be kept confidential. Date: Sally Walker Name: 9/14/19 ...
 ```
 
 The first block of text is a single text element containing all of the text in the document. This block of text does not include any awareness of form based data so some items, such as the `Date` and `Name` entries, are mixed together in this raw text value.
@@ -462,7 +462,7 @@ The code then outputs a more structured view of the data using the form data tha
 ```apache
 Form data detected:
 
-Page Number:1 Phone #: (906) 917-3486 (Confidence Scores: (Name) 1.0, (Value) 1.0) ... Date: 9/14/19 (Confidence Scores: (Name) 0.9999, (Value) 0.9999) ... Name: Sally Walker (Confidence Scores: (Name) 0.9973, (Value) 0.9973) ... 
+Page Number:1 Phone #: (906) 917-3486 (Confidence Scores: (Name) 1.0, (Value) 1.0) ... Date: 9/14/19 (Confidence Scores: (Name) 0.9999, (Value) 0.9999) ... Name: Sally Walker (Confidence Scores: (Name) 0.9973, (Value) 0.9973) ...
 ```
 
 Click **Check my progress** to verify the objectives.
@@ -477,7 +477,7 @@ Click **Check my progress** to verify the objectives.
 export PROCESSOR_ID=
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723287501419/30b8f812-17c0-487d-9dd1-fc00273cc9a4.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723288626895/ac542242-b23a-4a81-8c38-b36256701811.png align="center")
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Create%20and%20Test%20a%20Document%20AI%20Processor/quicklabgsp924.sh
