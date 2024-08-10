@@ -550,3 +550,5 @@ When you build an agent for one project, you can export it to use in a different
 %[https://www.youtube.com/watch?v=fgp8l0QSH-Y] 
 
 Download file: [exported\_agent\_skillbadge\_lab3\_start-baseimport.blob](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP967/exported_agent_skillbadge_lab3_start-baseimport.blob)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723261471164/26864640-6e69-4b6b-b969-72eed673eddf.png align="center")
