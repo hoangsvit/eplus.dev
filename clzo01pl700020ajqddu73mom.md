@@ -1,7 +1,7 @@
 ---
 title: "Create and Test a Document AI Processor - GSP924"
 seoTitle: "Create and Test a Document AI Processor - GSP924"
-seoDescription: "Log-based metrics are Cloud Monitoring metrics that are based on the content of log entries. These metrics can help you identify trends, extract numeric val"
+seoDescription: "The Document AI API is a document understanding solution that takes unstructured data, such as documents and emails, and makes the data easier to understand"
 datePublished: Sat Aug 10 2024 10:34:55 GMT+0000 (Coordinated Universal Time)
 cuid: clzo01pl700020ajqddu73mom
 slug: create-and-test-a-document-ai-processor-gsp-924
