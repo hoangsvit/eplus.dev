@@ -4,7 +4,7 @@ seoTitle: "Dialogflow CX: Enable IVR Features for your Voice Agent - GSP967"
 seoDescription: "Dialogflow CX provides a simple, visual bot building approach to virtual agent design. For a full voice experience, your Dialogflow CX Agent can be integrat"
 datePublished: Sat Aug 10 2024 03:03:26 GMT+0000 (Coordinated Universal Time)
 cuid: clznjx3e6000109kza6lv7io9
-slug: dialogflow-cx-bot-building-basics-gsp928-1
+slug: dialogflow-cx-enable-ivr-features-for-your-voice-agent-gsp-967
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723260544980/d76ffad9-1594-41e6-b60a-624ff22f9a65.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723261330072/96f35592-e601-46c5-8827-f842fd4aa53c.png
 tags: dialogflow-cx-enable-ivr-features-for-your-voice-agent-gsp967, gsp967
