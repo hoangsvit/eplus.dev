@@ -494,4 +494,6 @@ When you build an agent for one project, you can export it to use in a different
 
 ### Solution of Lab
 
-%[https://www.youtube.com/watch?v=G6L_hTCahgc]
+%[https://www.youtube.com/watch?v=G6L_hTCahgc] 
+
+Download file: [gsp928.blob](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP928/gsp928.blob)
