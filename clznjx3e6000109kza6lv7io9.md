@@ -1,499 +1,552 @@
 ---
-title: "Dialogflow CX: Bot Building Basics - GSP928"
-seoTitle: "Dialogflow CX: Bot Building Basics - GSP928"
-seoDescription: "Dialogflow CX provides a simple, visual bot building approach to virtual agent design. Bot designers now have a much clearer picture of the overall bot buil"
+title: "Dialogflow CX: Enable IVR Features for your Voice Agent - GSP967"
+seoTitle: "Dialogflow CX: Enable IVR Features for your Voice Agent - GSP967"
+seoDescription: "Dialogflow CX provides a simple, visual bot building approach to virtual agent design. For a full voice experience, your Dialogflow CX Agent can be integrat"
 datePublished: Sat Aug 10 2024 03:03:26 GMT+0000 (Coordinated Universal Time)
 cuid: clznjx3e6000109kza6lv7io9
 slug: dialogflow-cx-bot-building-basics-gsp928-1
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723258299814/ea3bbaee-b850-4251-897b-7ab501e63443.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723258971970/c3c1e0ef-0483-4a18-9f09-f63ac9598a35.png
-tags: dialogflow-cx-bot-building-basics-gsp928, gsp928
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723260544980/d76ffad9-1594-41e6-b60a-624ff22f9a65.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723261330072/96f35592-e601-46c5-8827-f842fd4aa53c.png
+tags: dialogflow-cx-enable-ivr-features-for-your-voice-agent-gsp967, gsp967
 
 ---
 
 ## **Overview**
 
-Dialogflow CX provides a simple, visual bot building approach to virtual agent design. Bot designers now have a much clearer picture of the overall bot building process and multiple designers are able to easily collaborate on the same agent build. Dialogflow CX supports [many languages](https://cloud.google.com/dialogflow/cx/docs/reference/language) for your agent to use and understand, but this lab will be using only English.
+Dialogflow CX provides a simple, visual bot building approach to virtual agent design. For a full voice experience, your Dialogflow CX Agent can be integrated with various conversational platforms, including telephony providers. In this lab, you'll explore these Interactive Voice Response (IVR) features as well as two additional features - *conversation repair* and *Speech Synthesis Markup Language (SSML)* - that help end users feel as though they're having a natural, interactive, and cooperative conversation.
 
-In this lab you will build a conversational agent using Dialogflow CX.
+This lab will show you how to enable various IVR features, but you will only be able to test some of them with the Dialogflow CX Phone Gateway. Features like DTMF (Dual-Tone Multi-Frequency) and Barge-in (where the user can interrupt the bot) are not supported in Dialogflow Telephony and can only be tested with your telephony provider.
+
+In this lab you will continue building a conversational agent, exploring and adding the IVR features that Dialogflow CX provides.
+
+Voice and telephony features such as DTMF, Barge-in, and End of speech sensitivity (so the bot can accommodate for pauses in a phrase, such as a number or ID) can all be configured in Dialogflow CX.
+
+*Conversation repair* is the practice of fixing misunderstandings, mishearings, and misarticulations to resume a conversation. Repairing a conversation can help build a user's trust by showing that the voice agent is listening to their request. Situations where conversations might fail are handled in a more graceful manner, such as when a voice agent cannot find an intent using the NoMatch event, or when the agent detects no verbal response using the NoInput event feature. You'll configure these events to rephrase a prompt up to a maximum of 3 times and then escalate to a live agent to avoid trapping users in a loop of handling errors.
+
+*SSML - Speech Synthesis Markup Language* helps make the Text-to-Speech voice interaction sound more natural.
+
+To do this work efficiently you'll restore a provided agent. This agent will have 2 new pages and an additional intent that will jumpstart your exploration of the new conversational features.
+
+In this lab you will do the following
+
+* Enable and configure IVR features
+    
+* Add in NoMatch and NoInput handling scenarios to escalate to an Agent
+    
+* Add in rich voice responses with SSML
+    
 
 ---
 
-### **Task 1. Create your agent**
+### **Task 1. Create your Dialogflow CX agent**
 
-1. Visit the [Dialogflow CX console](https://dialogflow.cloud.google.com/cx/projects), then select your Cloud Project name. Your Cloud Project name should match your Project ID for your lab like: ***qwiklabs-gcp-xx-xxxxxxxxxxx***
+1. Navigate to the [Dialogflow CX console](https://dialogflow.cloud.google.com/cx/projects), then select your Cloud Project name. Your Cloud Project name should match your Project ID for your lab like: ***qwiklabs-gcp-xx-xxxxxxxxxxx***.
     
-
-![Dialogflow CX console with project name highlighted](https://cdn.qwiklabs.com/8Sfq0FGxRdMCrLG%2FBV0vbPpqvy1kjPNDxuo2XoTVV%2Fc%3D align="left")
+2. Select **Create agent**. If you do not see this page, refresh your browser.
+    
+3. When prompted, Get started with Dialogflow CX, click **Build your own**.
+    
+4. Call your agent "Flight Booker". Create your agent in the Global region. Google Dialogflow CX Phone Gateway currently only supports agents created in the Global region.
+    
+5. After creating the agent, navigate to **Agent Settings &gt; General &gt; Logging settings** and check the boxes next to **Enable Cloud Logging** option. It will generate logs for this agent.
+    
+6. Click **Save**.
+    
 
 Click *Check my progress* to verify the objective.
 
-Enable API
+Create the agent
 
 **Check my progress**
 
-2. Click **Create agent &gt; Build your own** If you do not see this page, refresh your browser.
+### **Task 2. Restore the base Flight booker agent**
+
+1. Download the sample virtual agent, [gsp967-start-agent](https://storage.googleapis.com/spls/DialogflowCX_agents/exported_agent_skillbadge_lab3_start-baseimport.blob), to your local hard drive.
+    
+2. Select **View all agents** in the **Agent** dropdown menu at the top of the Dialogflow CX UI.
+    
+3. Click the context menu (three vertical dots) to the right of your virtual agent.
+    
+4. Select **Restore** from the expanded menu options.
     
 
-![Agents page with Create agents button highlighted](https://cdn.qwiklabs.com/IKmtRUM5cYGrdyV9mxuen02E4reTtmqQKTXCSyBRVuA%3D align="left")
+![Expanded menu](https://cdn.qwiklabs.com/AwyhojSAv7lNBU9k4Lf%2B7Jl7QPz445VpvZPkwP009gc%3D align="left")
 
-3. Name your agent `Flight booker`.
+5. Select the **Upload** radio button.
     
-4. Pick **global** from the Location drop-down.
-    
-5. Click **Create**.
+6. Click on **select file** and select the file we downloaded earlier then, click **Restore**.
     
 
-![Create agent window, with display name and location fields completed](https://cdn.qwiklabs.com/jQwCTvg7P1sq8Gsmx1sh67fyuw0NyvOx3vC%2BTz6Z4aI%3D align="left")
+Your agent should now look like this:
 
-6. After creating the agent, navigate to **Agent Settings** &gt; **General** &gt; **Logging settings** and check the boxes next to **Enable Cloud Logging** and **Enable Conversation History** option. It will generate logs for this agent.
-    
-7. Click **Save**.
-    
+![Agent flow diagram](https://cdn.qwiklabs.com/GZJYLsffV2YQH3y2tm0C6pdYUs42rmyHqPTmMfZOb1I%3D align="left")
 
-![Agent Settings General tabbed page with Enable stackdriver logging option selected](https://cdn.qwiklabs.com/e%2Fe5l7ixl3Ia4gikhgyOp8EkcH2Gx%2Fnznkih4SRjPBg%3D align="left")
+Click *Check my progress* to verify the objective.
 
-Click **Check my progress** to verify the objective.
-
-Create an Agent
+Restore the agent
 
 **Check my progress**
 
-**Knowledge check**
+### **Task 3. Review the base Agent**
 
-You must enable the Dialogflow API for your project to be able to access the Dialogflow CX console.TrueFalse
+The base Agent you restored has a few items to jumpstart your IVR exploration. Take a quick review of what the agent can do before enabling IVR and other features.
 
-### **Task 2. Intents**
+**Look up Flight intent**
 
-Intents are the reasons an end-user has for interacting with the agent, for example, ordering something. You can create an [intent](https://cloud.google.com/dialogflow/cx/docs/concept/intent) for every topic they may want to navigate.
+An intent called `main.look_up_flight` will be used to check for an existing reservation.
 
-Intents can be reused across Pages and Flows. Each intent is defined by training phrases end-users typically ask. These can be annotated or "labeled" to collect specific parameters, such as arrival city or departure date.
-
-Dialogflow CX will suggest annotations as you include training phrases for the intent; they can also be manually annotated to collect the parameter values you want to extract from the end-user's interaction with your agent.
-
-**Recommended:** in order to reuse intents as well as make maintenance easier, name your intents with clear and explicit names.
-
-Format of intent: `category.some_description`
-
-Example of formatting:
-
-* Core Intents: `main.book_a_flight`
-    
-* Common intent but not core: `supplemental.flight_emissions`
-    
-* Reusable intents: `confirmation.yes`, `confirmation_no`, `redirect.live_agent`.
+* To view this Intent, select the **Manage** tab, then the Intents list on the left menu. This Intent has a few training phrases to indicate that the user wants to look up existing Flight information.
     
 
-**Create your first intent**
+![Intent page](https://cdn.qwiklabs.com/LuXJbI2oF1BoZlYqa4SFYl4kgM9Cc9g0eX90BBGeAFE%3D align="left")
 
-1. Click **Manage** &gt; **Intents** &gt; **\+ Create** :
-    
+This Intent will direct to the **Find paid ticket** page.
 
-![Intents tab with Create button highlighted](https://cdn.qwiklabs.com/1XNo8T2IWshePmq%2B2NGlegvZzBonE8%2BKbk54LL7Y3VA%3D align="left")
+**Find paid ticket page**
 
-2. Display Name: `main.book_a_flight`
+1. Navigate to the **Build** tab. The Visual Builder shows the **Start page** connected to the **Find paid ticket** page.
     
-3. Under the **Training Phrases** header, add each of the following phrases into Dialogflow, click **Enter** after each phrase:
-    
-
-* Book a flight
-    
-* Can you book my flight to San Francisco next month
-    
-* I want to use my reward points to book a flight from Milan in October
-    
-* My family is visiting next week and we need to book 6 round trip tickets
-    
-* Four business class tickets from Taiwan to Dubai for June 2nd to 30th
-    
-* I need a flight Saturday from LAX to San Jose
-    
-* Book SFO to MIA on August 10th one way
-    
-* Help me book a ticket from 4/10 to 4/15 from Mexico City to Medellin Colombia please
-    
-* I am booking a surprise trip for my mom, can you help arrange that for May 10th to May 25th to Costa Rica
-    
-* Do you have any cheap flights to NYC for this weekend
-    
-* I want to fly in my cousin from Montreal on August 8th
-    
-* I want to find two seats to Panama City on July 4th
-    
-* For my wedding anniversary we want to go to Seattle for Christmas
+2. Select the **Start page** to see that a new Route has been added using the `main.look_up_flight` Intent.
     
 
-**Note:** For higher model accuracy, using 20-50 training phrases with short and long response options is recommended.
+![Start page](https://cdn.qwiklabs.com/Enx7pYMaDxCh57nKaEBHbUMn6NRVRIFmVYHnMmMQzBo%3D align="left")
+
+3. Select the Route **main.look\_up\_flight** to see that this Intent routes to Find paid ticket page in the Transition section.
+    
+
+![Route page](https://cdn.qwiklabs.com/uxMzjFbIDR%2FLTMczVPi6GzuZg5z2P%2B5OuQrao7aNWYM%3D align="left")
+
+4. Explore the configuration of the **Find paid ticket** page - it will look up a confirmation number by collecting a required confirmation number and then provide a mock response of the flight details.
+    
+
+To do this, a parameter has been added, as well as a route, to validate that all the parameters have been captured.
+
+**Confirmation Number Parameter**
+
+1. Select the **Find paid ticket** page and notice that the base agent already has a parameter named **confirmation\_number**.
+    
+
+![Find paid ticket page](https://cdn.qwiklabs.com/4nI5nmgWQhnIpVBal3sA5UEbB7B0kPqN7dRhskZ7z%2B0%3D align="left")
+
+2. Select the **confirmation\_number** parameter to see that its configuration has the following:
+    
+    * **Display name:** confirmation\_number
+        
+    * **Entity type:** @sys.number
+        
+    * The **Required** checkbox checked
+        
+    * In the Fulfillment section, the Agent asks `What is your flight confirmation number?`
+        
+
+![Parameter page](https://cdn.qwiklabs.com/KwfWdbZeuUVRxi2ooFC5jteT3XpJfSI56aWM9%2Fn6T8o%3D align="left")
+
+3. Now look how the parameter is handled once it's been gathered - the response with a mock reservation number.
+    
+
+**Route on collected parameter**
+
+1. From the **Find paid ticket** page, select the new route named `$page.params.status = "FINAL"`
+    
+
+![Find paid ticket page](https://cdn.qwiklabs.com/bom1a67uW7SwsSnvZ0ADnKeBK1NfR%2FMXoD9N4wX9334%3D align="left")
+
+2. In the Condition section:
+    
+
+* Match **At Least One** rule option is selected.
+    
+
+![Condition section](https://cdn.qwiklabs.com/Pq3q9sX%2FIgm3qq0uU4GpB34XuUlgxJ3e1xtrQXt5RXE%3D align="left")
+
+For this lab, in the Fulfillment section of this Route, the Agent says will only have two responses to be returned.
+
+First, a response that thanks the user for the confirmation number. Second, a mock response of the result of a flight information lookup.
+
+In a production scenario where there is an existing datasource of flights, you'd configure a Webhook in Dialogflow CX to connect to that backend system which stores flight information to retrieve the appropriate data. Creating a webhook and configuring it for this Page is outside the scope of this lab.
+
+![Agent responses text](https://cdn.qwiklabs.com/13NBpFQ9yWJu3sm7h%2B1gYGyZcrbBVCRLw%2FaPbn%2B3b9s%3D align="left")
+
+Now, test this agent to see what the user should expect so far.
+
+3. Open the Simulator by selecting the **Test Agent** button at the upper right of the Dialgoflow console.
+    
+4. Enter a phrase like `I'd like to look up my flight` and then a number, such as `12345`.
+    
+
+You should receive two sentences, a thank you and the mock flight lookup.
+
+![Simulator](https://cdn.qwiklabs.com/mNw%2BO%2BbrQPIx7pDr2HFbZf9vHgx72njxIH9qSmtzQgU%3D align="left")
+
+**Note:** If you typed "lookup", you will not see the correct flow! To properly train your agent, you'll need to anticipate how users will interact with it. Bookmark [this link to Training phrases](https://cloud.google.com/dialogflow/cx/docs/concept/intent?hl=en#tp) to learn more.
+
+Great! Now you're all set to configure IVR and other features!
+
+### **Task 4. Enable IVR features**
+
+The Speech and IVR Settings in Dialogflow can be enabled at three different levels: Agent level, Flow level and Page level.
+
+To enable the settings at different levels, the Agent level settings have to be enabled first. You'll do this in the next section.
+
+The Agent level settings have three features to point out for Speech and IVR:
+
+* **End of speech sensitivity**: helps determine how sensitive the speech endpointing should be when the caller finishes speaking, and it uses Google Cloud Speech.
+    
+* **Barge-in**: allows a speaker to interrupt the agent. This is helpful so that the caller doesn't have to wait to hear the full response from the agent in order to speak. Another way to understand this is, if Barge-in is disabled, the agent will only begin to listen to the user once the agent itself has finished playing its response.
+    
+* **Google Cloud Storage URI**: enables you to reference a path to access pre-recorded audio for playback.
+    
+
+After enabling IVR settings at the Agent level, you can customize IVR settings on a per Flow level and at the Page level. Enabling settings at the Flow level overrides the default Agent level IVR settings. This is important if you want to have different settings per Flow in a multi-flow Agent.
+
+How you use Flow and Page level IVR settings depends on your use case. For example, if the user is dictating a number, the user will benefit from extending the timeout period so they're not cut off by the Agent at the Page level where this input occurs. If the user stays silent, because they may be searching for their flight number, this will allow the agent to help the user further by prompting on where to get that account number.
+
+Agent level Speech and IVR settings are from Agent Settings.
+
+![Agent Settings, Speech and IVR tabbed page](https://cdn.qwiklabs.com/Cf%2BL3HIGyTuV5JvTGp0xRYZub1ECWqpEsQU%2Bdk2LVZo%3D align="left")
+
+Flow level IVR settings are available from the Flows list and the three dots that show a context menu.
+
+![Flow settings page](https://cdn.qwiklabs.com/MtAjV8sMqxz2M6auPM%2BDAXL7k78qVcactFEuAbetl9w%3D align="left")
+
+Page level IVR settings are available from the Pages list on the left of the console, also via the Page name's context menu.
+
+![Page settings page](https://cdn.qwiklabs.com/NHrXqGZM7vKvhH9CWXkOtgB0PzJDW%2F%2BOenSfzuAzg%2Bk%3D align="left")
+
+Start with enabling the Agent level Speech and IVR settings first in the Agent Settings.
+
+**Enable Agent Settings**
+
+1. Click on **Agent Settings** in the upper right.
+    
+2. Click the **Speech and IVR** tab.
+    
+3. Check the box to enable each of the following:
+    
+    * Enable auto speech adaptation
+        
+    * Enable advanced speech settings
+        
+    * Enable barge-in
+        
+
+![Agent Settings, Speech and IVR tabbed page](https://cdn.qwiklabs.com/sMdXy8o7MN1uPfjZp1xp%2BVYKxrcLSGmJde1C4PEXiqU%3D align="left")
 
 4. Click **Save**.
     
 
-![Intents tab with Save button highlighted](https://cdn.qwiklabs.com/jrlhynYAuvLjHaSQSFzu6LkthSmSckr1%2FsN1sTN9eFQ%3D align="left")
+**Enable DTMF**
 
-5. Some words are highlighted because Dialogflow has automatically labeled the entities, such as a date, place, or number.
+**Dual-Tone Multi-Frequency (DTMF)** allows users to use the keypad on their phone to provide a response instead of using their voice. There are two types of DTMF implementations: **Single-digit DTMF** and **Multi-digit DTMF**. The Single-digit DTMF collects only one digit from a user response, while Multi-digit collects multiple digits in a response. In this lab, you will learn how to implement a multi-digit DTMF for collecting flight confirmation numbers.
+
+1. Go to **Find paid ticket** Page and click on the Parameter **confirmation\_number**.
+    
+    ![Find paid ticket page](https://cdn.qwiklabs.com/eHvIdP%2BgX1NEvraEw%2BZaJHj%2BP5cJMzZiqIK0KouRq6o%3D align="left")
+    
+2. Scroll down to the **DTMF settings** and check the box to **Enable DTMF**. For now, assume the confirmation number is usually a 5 digit number such as "12345".
+    
+    Set the Max digits to **5**. You will not set a finish digit for this lab, but you should consider setting a finish digit for a production virtual agent as a sign that the user has finished entering digits - silence does not always mean that the user has finished typing. Also, a webhook is usually implemented to validate the numbers to make sure the user input matches the expected value in the customer database.
+    
+    ![Advanced speech settings page](https://cdn.qwiklabs.com/SvBhJnFLRshjP5O0%2B9gCbs5BQsIuabUIeYynYhFQwHY%3D align="left")
+    
+3. Click **Save**.
+    
+4. **Close** the Find paid ticket page.
     
 
-![Intents page displaying highlighted dates, places, and numbers](https://cdn.qwiklabs.com/zJ4LuQQM0x33Q%2BjVHzkR%2Fa8D%2BG2cWIBQNScH32ZXn9Q%3D align="left")
+> You will not be able to test this feature in the simulator.
 
-**Note:** You can also add training phrases in bulk by creating a training phrase CSV file and uploading it to Dialogflow.
+What is DTMF?DTMF is used to help users escalate to a live agent fasterDTMF is used to collect feedback from callersDTMF can be used for situations where users are allowed to provide a response to a given agent question by entering a number in the keypadDTMF is used to generate dual-tone multi-frequency responses
 
-### **Task 3. Flows and pages**
+**Enable/disable Barge-in**
 
-[Flows](https://cloud.google.com/dialogflow/cx/docs/concept/flow) are used to define topics and the associated conversational paths. Every agent has one flow called the Default Start Flow. This single flow may be all you need for a simple agent.
+Barge-in allows users to interrupt an agent in the middle of a response. This helps the user to move along the flow faster, if they are not interested in the content that the agent is providing.
 
-More complicated agents may require additional flows, and different development team members can be responsible for building and maintaining these flows.
+Barge-in can be enabled through the **Advanced Settings** on the agent level settings, flow level settings and page level settings. Since you already enabled Barge-in at the agent level, you do not need to enable barge-in everywhere else in the agent. You can **disable** barge-in on the pages where you do not want users to skip for certain important information. For this lab, you'll disable the barge-in on the Confirm trip page.
 
-![Default Start Flow diagram](https://cdn.qwiklabs.com/d7XD2Pwy%2F8vwGLM47ZtSJeQM75y8i%2BzSpU2SjYIhUus%3D align="left")
-
-Every flow starts with a [Page](https://cloud.google.com/dialogflow/cx/docs/concept/page), and is made of one or multiple different pages thereafter to handle the conversation within a particular flow. The current page an end-user is on is considered the "active page". Each page can be configured to collect any required information from the end-user.
-
-**Build from your Default Start Flow**
-
-The page your agent starts from is called the *Default Start Flow.* Pages store routing logic, responses (known as *Fulfillment*), specific actions to take if an intent cannot be matched (known as *no-match*) or receives *no-input* (which is when the agent does not receive a response in time).
-
-1. Click **Build**.
-    
-2. Click **Start** to open the page.
+1. Click on the **Confirm trip** page, then click on the entry fulfillment.
     
 
-![Default Start Flow pagewith Build and Start button highlighted](https://cdn.qwiklabs.com/xUY%2FkhhER9yr0MLLKWA885K0QfuZnrwsfMg3Ew1Rm%2BY%3D align="left")
+![Confirm trip page](https://cdn.qwiklabs.com/xvtq9QfUQh35RABK%2Fp6VAlHJ9%2BEOwKMxCcs01L99v%2Bk%3D align="left")
 
-3. From the expanded options on the Start page, select the **+** icon next to **Routes**.
+2. On the Fulfillment page, scroll down to **Advanced settings** and find Barge-in. Since this fulfillment provides the key information for the passenger who books the flight ticket, you do not want users to exit the flow in the middle of this response. Deselect the **Enable barge-in** option here by clicking **Customize**, which overrides the flow level barge-in setting.
+    
+    ![Fulfillment page and Advanced speech settings highlighted](https://cdn.qwiklabs.com/QPwX%2ByLyHZXihf%2BWKPrco6LWtvWnJwhDC8UF91ILWYw%3D align="left")
+    
+3. Click **Save**.
+    
+4. **Close** the Confirm trip page.
     
 
-![Routes and plus icon highlighted](https://cdn.qwiklabs.com/0l53fY%2FDvU%2FtmRMMUth5pq8SylarTRKi4C04HQS1jNY%3D align="left")
+**Knowledge Check**
 
-4. Select the intent **main.book\_a\_flight** from the drop-down, then click **Save**.
-    
-
-![Route window with main.book_a_flight intent selected and Save button highlighted](https://cdn.qwiklabs.com/9nVIMdFvY7yrrKyWbia%2Fb4onKN8tAovD%2BiAlSWlVrTc%3D align="left")
-
-5. Next, in the Routes section, click the **main.book\_a\_flight** route.
-    
-6. Scroll down to **Transition** and choose **\+ new Page** from the drop-down.
-    
-7. Name the page `Ticket information` and click **Save**.
-    
-
-![Highlighted Page name field populated with Ticket information](https://cdn.qwiklabs.com/p7W8gbTRuIsw8CDW5QU9%2BpdWYwSVITY5X9NY%2F6dH%2BPI%3D align="left")
-
-8. Exit out of the windows to return to the main display of flows to see your new **Ticket information** page connected to the **Start** page.
-    
-
-![Main display with flow diagram](https://cdn.qwiklabs.com/hx2do5qJPo8ouN8BrFJF6sFMIyxpPRGWNKrnbI5Xd90%3D align="left")
-
-The beginning of the flow now includes a greeting, and will then proceed to the *Ticket information* page when the `main.book_a_flight` intent is matched. On the Ticket Information page you will collect parameters from the end-user so they can book their flight.
-
-### **Task 4. Entities and parameters**
-
-* [Entities](https://cloud.google.com/dialogflow/cx/docs/concept/entity) define the type of information you wish to extract from an end-user, ex: city you want to fly to. Use Dialogflow's built-in " [system entities](https://cloud.google.com/dialogflow/cx/docs/reference/system-entities)'' for matching dates, times, colors, email addresses, and so on.
-    
-* System entities can also be “extended” to include values that are not part of the default system values. If you need to create a fully customized entity, you can do so by creating a [Custom Entity](https://cloud.google.com/dialogflow/cx/docs/concept/entity-custom) type for matching data that is custom to your business and not found as a system entity.
-    
-* [Parameters](https://cloud.google.com/dialogflow/cx/docs/concept/parameter) are information supplied by the end-user during a session, such as date, time, and destination city. Each parameter has a *name* and an *entity type*. They are written in snake\_case (lowercase with underscores between words)
-    
-
-**Create your first set of parameters**
-
-Next you will use an entity to extract a required parameter from the end-user.
-
-1. Click on the page **Ticket Information**, then the **+** by **Parameters** to collect flight data.
-    
-2. Enter `departure_city` in the **Display name** field.
-    
-3. Choose `@sys.geo-city` from the **Entity type** drop-down.
-    
-4. Scroll down to **Initial prompt fulfillment &gt; Agent responses &gt; Agent Says** and add `What city would you like the flight to depart from?`
-    
-5. Click **Save**.
-    
-
-![Initial prompt fulfillment section with Agent says field populated](https://cdn.qwiklabs.com/bnMqg2xeuR4wMFIsFkZXwSf5%2BveU6us8teNywR%2BqjTE%3D align="left")
-
-6. Exit out of this window to make another parameter.
-    
-7. Click the **+** by **Parameters** again to create 4 additional parameters one by one with the following name, entity type, and how the agent will prompt the end-user.
-    
-
-| **Display name** | **Entity type** | **Agent says** |
-| --- | --- | --- |
-| departure\_date | @sys.date | What is the month and day of the departure? |
-| destination\_city | @sys.geo-city | What is your destination city? |
-| return\_date | @sys.date | What is the month and day for the returning flight? |
-| passenger\_name | @sys.any | What is the passenger's name? |
-
-When finished they are listed like this:
-
-![Parameters page displaying the list of added parameters](https://cdn.qwiklabs.com/QSVShx7XAKQByaf7pZaaR4QZ6HXco0tatM0ulrOd%2Fpw%3D align="left")
-
-**Note:** The **order** in which the parameters are listed affects the order in which the flight booking agent will ask for each. You can easily change the order by dragging parameters up or down.
-
-**Knowledge check**
-
-The primary reason that an end-user is interacting with your agent is captured by which resource type?IntentsEntitiesPagesFlowsParameters
+What can you do to allow callers to interrupt a voice agent and ask questions?Add more pagesAdd NoInput event handlerMake parameters requiredAllow barge-inAdjust end of speech sensitivity
 
 **Submit**
 
-### **Task 5. Conditions**
+### **Task 5. Handling error scenarios**
 
-Once the agent has collected the necessary 5 flight booking parameters, you want to route the end user to another page using a routing [*condition*](https://cloud.google.com/dialogflow/cx/docs/reference/condition), which you will create next.
+To improve the user experience for callers with a voice agent, it's important to have a graceful way to handle conditions where the agent may have misunderstood, misheard, or is unable to collect the expected information - this is called *conversation repair*. Repairing a conversation can help build trust with the user by showing that the voice agent is listening to the request and attempting to understand.
 
-1. Exit out of the parameter window to return to the **Ticket information** page again.
+Common conversation failures include inability to detect a verbal response from the user and the inability to match the intent of the user. In these cases, you'll implement the built-in events NoInput and NoMatch, respectively, to handle these, as well as make sure you're not stuck in an error loop by escalating to an Agent Handoff page after 3 errors.
+
+Dialogflow CX has built-in events for NoInput and NoMatch that are available at the flow, page, and parameter levels. Additionally, there are up to 6 numerically ordered events, such as `sys.no-match-1`, `sys.no-match-2`, etc., where you will be able to decide on the number of attempts that users can make for each type of event and create customized agent responses.
+
+* **Flow-level** event handlers apply to a whole Flow and are useful in the case where there are broad event requirements that need to be fulfilled when using a Flow, such as transitioning from one Flow to another.
     
-2. Scroll down to locate **Routes** and click the **+** sign next to it.
+* **Page-level** event handlers apply when there are unexpected end-user inputs or other errors in transitioning between Pages.
     
-3. Scroll down to **Condition** &gt; **Condition rules** &gt; select "Match **AT LEAST ONE** rule (OR)"
-    
-4. In the **Parameter** field enter `$page.params.status`.
-    
-5. Choose the `=` sign in the **Operand** drop-down.
-    
-6. In the **Value** field enter: `"FINAL"` (ensure you include the double quotes).
-    
-7. Click **Save**.
+* **Parameter-level** event handlers are useful within a Page when capturing a single or a series of parameters that are needed.
     
 
-![Condition section with Parameter field highlighted](https://cdn.qwiklabs.com/yQ2ra9mlOCBSnNUv4%2FP5dRH3iIM%2B3OZLPVPT6QpTn%2Fs%3D align="left")
+This lab will focus on Parameter-level events around capturing the ticket confirmation number.
 
-**Knowledge check**
+**Handling silence/noise with NoInput**
 
-What’s the correct way to check if all parameters on a Page are filled?$session.params.status = “FINAL”$session.params.status = FINAL$page.params.status = “FINAL”#context.params.status = FINAL$page.params.status = FINAL#context.params.status = “FINAL”
+Sometimes, especially in a voice scenario, the end user might not say a confirmation number quickly enough, or there is a long silence. Also, background noise or static that is not recognized as any text is considered as no-input instead of no-match.
+
+When the Agent registers this as a NoInput event, the built-in feature of Dialogflow can gracefully handle this and keep the user engaged and move along the flow.
+
+State Handler events, such as NoInput and NoMatch can be added at a variety of levels, at the Flow, on the Page itself, and also on specific Parameters.
+
+For this exercise, you'll add the No-Input and No-Match events to the ticket confirmation number parameter.
+
+1. Open the Find paid ticket page and open the Parameter **confirmation\_number**.
+    
+2. Scroll to the **Reprompt Event handlers** section of the Parameter and click the **Add event handler** link.
+    
+3. In the Event dropdown menu, select **No-input 1**.
+    
+4. In the Fulfillment section, in the Agent response, add the text `Sorry, I didn't get that. Please enter or say your ticket confirmation number.`
+    
+    ![Event handler page with Event handler and Fulfillment options highlighted ](https://cdn.qwiklabs.com/V3bEAi8kLC2lU7cUB5oiQwCXe91VxGTOyyBPHStLw2E%3D align="left")
+    
+5. Click **Save** to save this Event.
+    
+6. Repeat above steps with the following to set up two more events.
+    
+    | **Event** | **Fulfillment** | **Transition** |
+    | --- | --- | --- |
+    | No-input 2 | In order to look up your flight information, we would need your ticket confirmation number. Please say or enter the confirmation number. |  |
+    | No-input 3 | You have not provided a confirmation number yet. Let me transfer you to a live agent to further assist you. | Agent handoff |
+    
+7. On the third, No-input 3, scroll down to the Transition section and configure the Transition to a new Page called **Agent handoff**.
+    
+    ![Transition section](https://cdn.qwiklabs.com/MkL3jYrkx04OUPat5Dwpro8ciopynzucBblrsJNunUg%3D align="left")
+    
+8. Click **Save**. Close the Event handler and Find paid ticket pages.
+    
+    Your agent should now look like this
+    
+    ![Agent flow diagram](https://cdn.qwiklabs.com/DkBwFpbwxa%2B%2FGuzfx8tAya%2BbJDQp00WyF7cdDFTxnAk%3D align="left")
+    
+9. Test this by opening up the simulator via the **Test Agent** button, located at the upper right of the Dialogflow CX console.
+    
+
+![Test Agent button](https://cdn.qwiklabs.com/5RBxUkHokal6hJYh6GYrEaGxCB7N0IBHqQnrAG%2B412c%3D align="left")
+
+10. Type in a request for flight information, such as "I'd like to look up my flight information". When the agent asks for a confirmation number, instead of entering anything, press **Enter** a few times to simulate no input by the user.
+    
+    You'll see that the Agent has transitioned to the **Agent handoff** page after three no inputs:
+    
+    ![Simulator](https://cdn.qwiklabs.com/LybH7wRgs5C8fWjVl8cQE4fRn0UII9MktcMvL9ACsLQ%3D align="left")
+    
+
+**Knowledge Check**
+
+How do you keep users engaged when they remain silent for too long? Select all that apply.Enable NoMatch events and create engaging promptsEnable barge-inRoute them to an operatorEnable NoInput events and create engaging promptsTrain intents more to improve NLU accuracyEnable IVR-control custom payload and configure no speech timeout
 
 **Submit**
 
-### **Task 6. Fulfillment**
+Select if the following statement is true or false:
 
-Now add a response to say to the end-user when all 5 of their booking parameters are collected. These responses are called *Fulfillment*.
+Since the No-Input Default is on the Start page of a flow, it can be triggered anywhere in the flowTrueFalse
 
-1. From the condition you just made, scroll down a bit and locate the section called **Fulfillment**.
+**Handling unrecognized input with No-Match**
+
+Add NoMatch events in the case that there's input received, but the agent is unable to match the `confirmation_number` parameter.
+
+1. From the Find paid ticket's Page, in the Parameter **confirmation\_number**'s panel, add 3 new events, with the third No-match 3 transitioning to the **Agent handoff** page.
     
-2. Under **Agent responses** type the following for **Agent says**: `Thank you for that information. Let me check on the availability of your ticket`.
+    | **Event** | **Fulfillment** | **Transition** |
+    | --- | --- | --- |
+    | No-match 1 | Sorry, I didn't get that. Can you rephrase that? |  |
+    | No-match 2 | I'm still having trouble. Can you try again? |  |
+    | No-match 3 | Let me transfer you to someone else who can help. | Agent handoff |
     
-3. Click **Save.**
+    Your screen should look like this:
     
-
-(Now stay on this page while you read on to the next step of confirming information.)
-
-![Fulfillment section with highlighted populated Agent says field](https://cdn.qwiklabs.com/pXppHlviKTcdwp%2FteAXJ0lTPhFCkvAEMHcPsZeJ6Pao%3D align="left")
-
-### **Task 7. Confirming information**
-
-After offering a response (or *fulfillment*), you need to create a transition to a new page that will repeat back to the end-user if the travel information collected (*parameters*) are correct.
-
-1. Continue to scroll down (past the fulfillment you just created) until you reach **Transition**.
+    ![Event handlers section displaying list of events](https://cdn.qwiklabs.com/8FcPq2bQc0s8zAvHkQsAPGtimLNpqSN%2BrWLk9RSa0og%3D align="left")
     
-2. On the **Page field**, select the drop down to choose **\+ new Page**.
+2. Test this by opening the simulator (**Test Agent** button) and asking the Agent to look up flight information. Since you defined the flight number as a `@sys.number`, the Agent will be expecting all numbers. If you respond to the Agent with letters, that'll be registered as a NoMatch. After three attempts, you'll see the NoMatch handler transition to the Agent handoff page.
     
-3. Type `Confirm trip` in the field called **Page name**.
-    
-
-![Transition section with populated Page name field highlighted](https://cdn.qwiklabs.com/eLRI2GAJSDPyQHGrKMl6EXE%2Bdv1qvqpoDhoec8nZjes%3D align="left")
-
-4. Click **Save**.
-    
-5. Exit out of the window.
-    
-6. Take a look at the flow of your 3 pages.
+    ![Simulator page with Agent handoff page highlighted](https://cdn.qwiklabs.com/HAQT7GqwaaXYXiOjKDzUG1aXNdcGm0IsnHozMFDZB8I%3D align="left")
     
 
-![Main display with flow diagram. Flow points include Start, Ticket information, and Confirm Trip](https://cdn.qwiklabs.com/OL9OG2ZeSmaHeK8YE1zgABoUc1mm%2FsR5mXm1Q5hDPHM%3D align="left")
+**Knowledge Check**
 
-**Repeating back the parameters collected from end-users**
+Select if the following statement is true or false:
 
-[Session Parameters](https://cloud.google.com/dialogflow/cx/docs/concept/parameter#session) store information *previously collected* from the end-user and are active throughout the session. They also help you repeat information back to the end-user.
+Agent says prompts for sys.no-match-default and sys.no-input-default cannot be customized.TrueFalse
 
-For example, we can have the agent repeat back a passenger's name: "*Thanks for providing that information, $session.params.passenger\_name.*" *This displays to the end-user as "Thanks for providing information, John Day*."
+**A note on Agent Handoff**
 
-They are formatted as follows:
+For this example we've added a page called **Agent handoff** which is used as the destination for the expected transfer to a live agent in the case this virtual agent is unable to detect a response or determine the correct confirmation number.
 
-* *Prefix*: **$session.params.**
+For this lab, while there is no target destination for a live agent, you can see where this would be configured. Dialgoflow CX provides a Fulfillment type that can be used to signal to the telephony or chat client to perform the required transfer.
+
+1. To see where this is located, open the **Agent handoff** page and select the **Entry** fulfillment.
     
-* *Entity Name:* **passenger\_name**
+2. Select **Live agent handoff** from the **Add dialogue option** dropdown.
+    
+    ![Add dialogue option dropdown menu](https://cdn.qwiklabs.com/IpB96UR0M6rNuZeXtJf1REMEmC1tq2XuXzRgT1vdm58%3D align="left")
     
 
-So referencing the departure city would look like: $session.params.departure\_city
+This will result in an area to provide a custom JSON message.
 
-1. Starting from the Build view, click on the **Confirm Trip** page &gt; **Entry fulfillment** &gt; **Edit fulfillment** field.
+![Live agent handoff text field](https://cdn.qwiklabs.com/8p7xOCZuTNwya%2BjpfiQNzDkej58ItR6wqv9zi%2FUelrM%3D align="left")
+
+Every target live agent system is different. Refer to the system's documentation as to what message format will be necessary to add to provide the proper communication parameters.
+
+As an example, if you're using [Business Messages](https://developers.google.com/business-communications/business-messages), the format that you'd enter here would look something like this:
+
+```json
+{
+   "userStatus": {
+
+    "requestedLiveAgent": true
+
+}
+}
+```
+
+Please check the Business Messages documentation for the precise JSON message.
+
+For more information on Business Messages live agent handoff formats, see [Handoff from bot to live agent](https://developers.google.com/business-communications/business-messages/guides/how-to/message/conversations/bot-live-agent-handoff?hl=en).
+
+### **Task 6. Add SSML support to your agent**
+
+Speech Synthesis Markup Language (SSML) enables you to customize your audio responses by providing details on pauses, audio formatting for numbers, dates, or text. This allows for your agent to have a more natural conversation.
+
+`<speak>`is the root element of SSML response. Without this element, your text cannot talk. Implement them on the **Find paid ticket** page.
+
+1. From the **Find paid ticket** page, click on the **$page.params.status="FINAL"** route and scroll down to the fulfillment.
+    
+2. Add the `<speak>` element to the entire text of the second fulfillment. Remember to close the text with `</speak>`.
+    
+    ![Second fulfillment field](https://cdn.qwiklabs.com/E0STSK0plwPMK05W%2F1SqVA%2FxaylnFUT59uvMqc6S35g%3D align="left")
+    
+    Now, increase the pause after "Here is the flight information". You can use the empty element `<break time>` to control the pausing between words or sentences. The length of the break time can be either seconds or milliseconds.
+    
+3. Add a pause after "Here is the flight information" with the following:
     
 
-![Confirm trip window with Edit fulfillment field highlighted](https://cdn.qwiklabs.com/vdYhvpEdo9kIZMa5LiLLsmnCVVYv%2Fpwmzv1XfU6jm%2Fk%3D align="left")
+```xml
+<break time = "1s"/>
+```
 
-2. Since you used 5 parameters, you can repeat them back to the user via the following session parameters. Paste the following text within the **Agent says** section:
+This is what it will look like after you add the break time.
+
+![Second fulfillment field](https://cdn.qwiklabs.com/tfyPr905iT1Y0a4hIXCP4z8iPzaj5PDQbAAlexF8jMA%3D align="left")
+
+4. You can also adjust the speed of the response by using the `<prosody>` element.
+    
+5. Add the following before "Here is the flight information" so that this response will be rendered at a slower speech rate to allow users to take notes of their flight details:
     
 
 ```apache
-This is to confirm that $session.params.passenger_name will fly
-From: $session.params.departure_city
-To: $session.params.destination_city
-Leaving on: $session.params.departure_date
-Returning on: $session.params.return_date
-
-Is this correct?
+<prosody rate="slow">
 ```
 
-Copied!content\_copy
+When you finish adding the above mentioned SSML, this is what your fulfillment will look like.
 
-![Fullfillment window with Agent says field populated](https://cdn.qwiklabs.com/X3TKPGbbLtbtOAcv1yTQHq2O2g87NRPd4DfTXwbq6eA%3D align="left")
+![Second fulfillment field](https://cdn.qwiklabs.com/OWcFvU9B3X419Ua73SN6amFr2mVUi4i19t9MwyRgW5Y%3D align="left")
 
-3. Then click **Save.**
+In the next section you'll have an opportunity to test some of the settings you've created for your Agent. If you're running out of time, go as far as you can. The next section will not be part of your lab's score.
+
+### **Task 7. Optional: Testing the agent with Dialogflow CX phone gateway**
+
+Dialogflow CX can be integrated with various conversation and telephony providers either directly through the 1-click Integrations in the Dialogflow Console or via the Dialogflow CX API.
+
+Dialogflow CX includes a preview feature called the Dialogflow CX Phone Gateway that provides a telephone interface to your agent. For this lab, you'll use the Dialogflow CX Phone Gateway.
+
+Please note that this feature has limited functionality. Current limitations are as follows:
+
+* Agents must be in the global region
     
-4. This is what it will look like to the end-user when the virtual agent repeats back the collected session parameters:
+* Only US phone numbers are supported
     
-
-![Virtual agent displaying the collected session parameters](https://cdn.qwiklabs.com/ws%2FUXP9uoxUf3i9%2F8pUH7%2BFuMW4W2rhyQsvuR%2B435T4%3D align="left")
-
-**Positive confirmation route**
-
-1. Exit out of the window to return to your **Confirm Trip** page. Click **+** next to **Routes.**
-    
-
-![Confirm trip page with plus button highlighted](https://cdn.qwiklabs.com/65RNySvyeOId7QQmkEwo2HBpdLcquMqF8NhIbbHGWwQ%3D align="left")
-
-2. Click the **Intents** drop-down , then click **\+ new Intent.**
-    
-
-![Intent drop-down menu with + new intent option highlighted](https://cdn.qwiklabs.com/CkYRejhy7UQpzS2Shnit6gS4FVzVmWZBeG6xbLLGR18%3D align="left")
-
-3. In Display name type `confirmation.yes`.
-    
-4. In Training phrases enter `yes` then **Enter** (you can add more phrases like "correct", "yup", etc., to improve the NLU matching for this intent).
+* Features NOT supported relevant to this lab are: DTMF
     
 
-![Training phrases section with yes and correct populated in the text field](https://cdn.qwiklabs.com/VnFID7hdHg75QIoicxTbh36JNTi6tojY2ZoGeT6Ghnk%3D align="left")
+### **Task 8. Set up a phone gateway**
 
-5. Click **Save**.
+1. From the **Manage** tab in the Dialogflow CX console, select **Integrations**.
     
-6. After saving, scroll down to the **Fulfillment** section and under **Agent responses** enter `Great, your flight is booked!` for **Agent says**.
-    
-
-![Highlighted Agent says field displaying the message: Great, your flight is booked!](https://cdn.qwiklabs.com/vlUvH7NWH8UPrsdmc2SRV%2B2mVmQqrvyhtae0C1ibu9A%3D align="left")
-
-7. Then click **Save**.
-    
-8. Click the back arrow, next to **Route**.
+2. In the big **CX Phone Gateway** screen, click the **Manage** button.
     
 
-![Back arrow highlighted](https://cdn.qwiklabs.com/U5hS2FWYKWC2YjQaPjbtTgOG08NbEgUCw2Q02vCMQAU%3D align="left")
+![CX Phone Gateway screen](https://cdn.qwiklabs.com/K53RPqyHydk%2BcDYFHd6q0Kj%2BodhMVyEQVaBVgE14siI%3D align="left")
 
-**Negative confirmation route**
-
-Now add logic to route an end-user to recollect their flight parameters if they say the information is incorrect.
-
-1. Still on the Routes section select **Add route**.
+3. Click **Create new**.
     
 
-![Add route button highlighted](https://cdn.qwiklabs.com/kbEpP1cU%2BT%2BOzT8O5Pfndh3u9li%2FlxHB%2FcIEt7SNmUU%3D align="left")
+![Create new button](https://cdn.qwiklabs.com/ZT2sWV1mZxiYU7OqgDFWjL%2BxhgkWyJ2qYHPPpGpwVXw%3D align="left")
 
-2. From the Intents drop-down choose **\+ new Intent**.
+4. In Country Code, choose **United States**.
     
-3. Name the intent `confirmation.no` in the Display name field.
+5. Enter an **Area code** of your choice, or leave it blank.
     
-
-![Highlighted Display name field with confirmation.no entered](https://cdn.qwiklabs.com/shgQSeupOiYQRDgxjHv%2Fc0m%2FUltQRGh5NtroQWncUiY%3D align="left")
-
-4. Scroll down to the Training phrases section type `no` then click **Enter**.
+6. Then click **Request**.
     
 
-![Training phrases section with no highlighted](https://cdn.qwiklabs.com/RndBK84cqz%2Bwx9WOWBlbuqrilnyme2gbwaXQvKjpHcM%3D align="left")
+![Request button](https://cdn.qwiklabs.com/TQrH5ZLD0W%2BLAS2RzdA6wIFoloHlAZT0ZduR%2BhSowfI%3D align="left")
 
-5. Click **Save**.
+7. Select a phone number option, then add a display name.
     
-6. Next, scroll down to the section called **Transition** &gt; **Page**, then choose **Ticket information** from the drop-down.
-    
-
-![Transition section with Ticket information selected i the Page dropdown menu](https://cdn.qwiklabs.com/uwTzIU7cgTtvTdNJpLBzYQTt5cKqqvE7RWE%2F0%2FKvndo%3D align="left")
-
-**Note:** This is to prompt the user again for their flight information.
-
-7. Scroll up to **Parameter presets** and click **Add parameter** . Enter the following *5* values and assign their value to **null** *without* the quotation marks.
+8. Press **Save**.
     
 
-**Note:** You will need to delete the quotation marks in the value column and type **null**. This is to delete the parameters collected from the end-user.
+You've reserved a number!
 
-| **Parameter** | **Value** |
-| --- | --- |
-| `departure_city` | null |
-| `destination_city` | null |
-| `departure_date` | null |
-| `return_date` | null |
-| `passenger_name` | null |
-
-![Parameter presets section with null value for each of the five parameters](https://cdn.qwiklabs.com/j%2B%2BQiMSwDGsFDnzkYKZ48X5fDbAAN%2F5%2Bf2IH%2BNB%2BImc%3D align="left")
-
-The purpose of this is to remove the value that was previously collected from the end user to allow them to submit a new value. If this step is missed, it might result in an infinite loop scenario in your bot!
-
-8. Click **Save**.
-    
-9. Exit out of the window to return to the Build view, you will now see how all 3 pages flow. Note that the last page has two arrows between the Confirm trip and Ticket information page because the `confirmation.no` intent is linked back.
-    
-
-![Build view displaying the flow diagram](https://cdn.qwiklabs.com/QOPWL1LQZXYiLCyzq91bQBA6XfeSAUw4ANC4qK%2BqvB4%3D align="left")
-
-**Knowledge check**
-
-Select the agent response that’s best for casually confirming that tickets are booked.You’re all set! Look for the tickets in your email later today! Now, are there any other events you’re interested in?The transaction you requested has been completed. You will receive an electronic copy of your tickets within the next 6 hours. Now, would you like to continue browsing upcoming events?
-
-**Submit**
-
-### **Task 8. Testing**
-
-1. To test that your agent works as intended, click on **Test Agent** in the upper right corner of the screen.
-    
-2. Interact with the agent as if you were the end-user. As you move through the main flow, notice the pages, intents, and transitions you created.
-    
-
-Depending on how you arranged your parameter collection, you can try typing in the following sample dialogue:
-
-* I'd like to book a flight
-    
-* Austin
-    
-* Tomorrow
-    
-* Boston
-    
-* Next Friday
-    
-* Mickey Mouse
-    
-* Yes
-    
-
-This should result in a successful transaction through your agent, commonly known as the “happy path”.
-
-Here is an example of the above agent testing in the Test Agent console:
-
-![Test Agent console with simulator flow example](https://cdn.qwiklabs.com/LIP9dwj3V2o6IYPaNdoH%2BfhfxK2%2B6NElFTrTscAOOeE%3D align="left")
+![Phone numbers page with the new number listed](https://cdn.qwiklabs.com/WdmEz0jTI627MimJMsc3Uq7FUp6GL5Dk6OQew1WMdTs%3D align="left")
 
 Click *Check my progress* to verify the objective.
 
-Test the agent
+Set up a phone number for agent
 
 **Check my progress**
 
-### **Task 9. Exporting your agent**
+**Test your agent**
 
-When you build an agent for one project, you can export it to use in a different project. You can export your agent and save it to use in future labs or to continue building in your own personal project!
+* On your personal phone, call in to the phone number you created and follow the voice prompts. Try out the no-match, no-input, and barge-in features you enabled during this lab. (DTMF is not currently supported by the CX Gateway.)
+    
+
+If the agent reaches the end session state, the call ends.
+
+### **Task 9. (Optional) Exporting your agent**
+
+When you build an agent for one project, you can export it to use in a different project. You can export your agent to continue building upon it in your own personal project!
 
 1. In the **Agent** drop down at the top of the Dialogflow CX console, click **View all agents**.
     
 
-![Expanded Agent dropdown with View all agents button highlighted](https://cdn.qwiklabs.com/UGdtXF8vOtRq5x%2BwsNIJSLP3er4ltgv2c8tmtbsLQqw%3D align="left")
+![Agent drop down menu](https://cdn.qwiklabs.com/Hlt5hyDBmrAFkIOJDuNPs9sjF7O81CnAmCFzv7MP2wk%3D align="left")
 
-2. On the Agent list screen, click the context menu next to your agent and then click **Export**.
+2. On the **Agent list** screen, click the context menu next to your agent and then click **Export**.
     
 
-![Expanded context menu with Export button highlighted](https://cdn.qwiklabs.com/aOM2Di5MA10kESriBhumgrBYpQp06MVVpZ9wVl1agAk%3D align="left")
+![Context menu](https://cdn.qwiklabs.com/CHi8XdAigfNGdUu7dLc4i2XGKvBpm6GnuGtlSeeJ3r8%3D align="left")
 
 3. On the Export Agent screen, choose **Download** to local file, then click **Export**.
     
 
-![Export Agent page with Download option selected and highlighted](https://cdn.qwiklabs.com/X3sbOk38m%2BDMkPxxIMKjhW57JKHTFo7VOOhKWNfgAkw%3D align="left")
+![Export Agent screen](https://cdn.qwiklabs.com/q8jJMY2f8ffmMBlME1x8Qx3LEIwurQo%2B%2BuGePediwts%3D align="left")
 
 ---
 
 ### Solution of Lab
 
-%[https://www.youtube.com/watch?v=G6L_hTCahgc] 
+%[https://www.youtube.com/watch?v=fgp8l0QSH-Y] 
 
-Download file: [gsp928.blob](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP928/gsp928.blob)
+Download file: [exported\_agent\_skillbadge\_lab3\_start-baseimport.blob](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP967/exported_agent_skillbadge_lab3_start-baseimport.blob)
