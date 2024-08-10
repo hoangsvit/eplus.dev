@@ -301,6 +301,6 @@ Now that you’ve successfully tested your app, you can delete it, marking the c
 
 ---
 
-### Solution of Lab
+## Solution of Lab
 
 %[https://www.youtube.com/watch?v=bibIUK5Yfmo]
