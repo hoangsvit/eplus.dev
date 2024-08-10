@@ -250,3 +250,21 @@ timeout 120 bash -c -- 'while true; do curl $(kubectl get services -n gmp-test -
 **Note:** The log-based metric alert will eventually resolve itself. If you need more time to investigate, run the errors script again and wait for the alert to be triggered again.
 
 Click **Check my progress** to verify the objective.
+
+---
+
+### Solution of Lab
+
+%[https://www.youtube.com/watch?v=JOraHiLLpWQ] 
+
+```apache
+export ZONE=
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723286185886/1cc3e605-b475-438d-968c-eb7c10f71f1d.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Creating%20and%20Alerting%20on%20Logs%20based%20Metrics/quicklabgsp091.sh
+sudo chmod +x quicklabgsp091.sh
+./quicklabgsp091.sh
+```
