@@ -51,7 +51,7 @@ The lab mimics a kanban application scenario. Select an active ticket to view th
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=IfDzGdNTZOI] 
+%[https://www.youtube.com/watch?v=1mQ6i2UAc2M&feature=youtu.be] 
 
 ```apache
 export REGION=
