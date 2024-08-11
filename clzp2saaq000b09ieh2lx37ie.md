@@ -286,7 +286,7 @@ You will see messages indicating that the theme has been cloned, as shown below.
 
 ```apache
 sudo rm -r themes/ananke/.git
-sudo rm themes/ananke/.gitignore 
+sudo rm themes/ananke/.gitignore
 ```
 
 **Note:** The git files should be removed so that Cloud Source Repository will add the theme files to version control.
@@ -588,20 +588,36 @@ Cloud Build has been successfully initiated
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=vkFHrIF9k0c] 
+%[https://www.youtube.com/watch?v=MJ8KxPyFggQ] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723350984634/5d468510-15e1-4e65-a3e6-e57629f1e950.png align="center")
 
 ```apache
-curl -LO https://raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/quicklabtask1.sh
-source quicklabtask1.sh
+curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/techcps1.sh
+sudo chmod +x techcps1.sh
+./techcps1.sh
 ```
 
 ***Now Check the score for Task 2 & then go ahead with next Commands.***
 
 ```apache
-curl -LO https://raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/quicklabtask2.sh
-source quicklabtask2.sh
+curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/techcps2.sh
+sudo chmod +x techcps2.sh
+./techcps2.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723351052415/7efa46b6-994b-4dc5-8bd6-f0662df1ea3c.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723353580971/63b16537-f142-4665-b861-4fc1cb89160b.png align="center")
+
+**Use Up and <mark>Down key</mark> and press <mark>Spacebar key</mark> to select the below image checkpoint option**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723353632297/48ef8813-d81c-4440-a72c-ebd8aea9e638.png align="center")
+
+**Now select the use an existing project and press <mark>enter key</mark>**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723353587660/0e43ed47-b7bb-438d-9e43-aa3c9a255cd1.png align="center")
+
+**Now select the currect project and press <mark>enter key</mark>**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723353597276/271108a6-caaf-4767-ae5a-2497e6820184.png align="center")
+
+**Now press the <mark>enter key three times</mark>**
