@@ -37,13 +37,13 @@ Over the course of this lab the following elements are required:
 
 Open the [`https://arcade-hero-twaiid5hiq-ue.a.run.app`](https://arcade-hero-twaiid5hiq-ue.a.run.app) to gain access to the lab chat application.
 
-**Note:**The application link works in both a normal browser tab and an incognito window. An initial loading screen will appear while the lab data is being prepared.
+\*\*Note:\*\*The application link works in both a normal browser tab and an incognito window. An initial loading screen will appear while the lab data is being prepared.
 
 From here you will be able to interact with the application interface during the course of this lab.
 
 ![Kanban Board](https://cdn.qwiklabs.com/uZJfMPekM2GiJE0uVm2PlkT4sz9bu2Xb6mhvt0gfYW4%3D align="left")
 
-**Note:**The above image is the main kanban screen. The screen includes the available tickets reflecting different knowledge domains. The number of tickets displayed will be dependent on the level and persona selected.
+\*\*Note:\*\*The above image is the main kanban screen. The screen includes the available tickets reflecting different knowledge domains. The number of tickets displayed will be dependent on the level and persona selected.
 
 The lab mimics a kanban application scenario. Select an active ticket to view the lab specific task. To complete the lab successfully ensure the ticket task is fulfilled per instructions given.
 
@@ -66,3 +66,7 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Arcade%20Her
 sudo chmod +x quicklabarc230.sh
 ./quicklabarc230.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723354826650/c96f36a6-62d5-4e88-85b8-5c55a9c0d6ab.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723354858760/40c4dc3e-d23b-4af4-b8b8-461c252bd43f.png align="center")
