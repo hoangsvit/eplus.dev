@@ -67,6 +67,8 @@ sudo chmod +x quicklabarc230.sh
 ./quicklabarc230.sh
 ```
 
+**Manual**
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723354826650/c96f36a6-62d5-4e88-85b8-5c55a9c0d6ab.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723354858760/40c4dc3e-d23b-4af4-b8b8-461c252bd43f.png align="center")
