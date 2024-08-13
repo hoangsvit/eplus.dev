@@ -134,3 +134,8 @@ We will keep updating this list with new skill badges for you to explore.
     * [Use Functions, Formulas, and Charts in Google Sheets](https://www.cloudskillsboost.google/course_templates/776?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
     * [Implement CI/CD Pipelines on Google Cloud](https://www.cloudskillsboost.google/course_templates/691?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+        
+
+---
+
+%[https://eplus.dev/the-arcade-base-camp-august-2024]
