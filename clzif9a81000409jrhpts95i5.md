@@ -26,6 +26,7 @@ Code: <mark>1q-basecamp-0871</mark>
 | **Level 2:** Machine Learning and AI Skills | [Google Cloud Skills Boost - Games 5381](https://www.cloudskillsboost.google/games/5381?utm_source=qwiklabs&utm_medium=lp&utm_campaign=level2-august-arcade24) | <mark>1q-mlskills-0869</mark> |
 | **Level 3:** Level up your Cloud Functions skills | [Google Cloud Skills Boost - Games 5382](https://www.cloudskillsboost.google/games/5382?utm_source=qwiklabs&utm_medium=lp&utm_campaign=level3-august-arcade24) | <mark>1q-functions-0870</mark> |
 | The Arcade Trivia August 2024 **Week 1** | [Google Cloud Skills Boost - Games 5384](https://www.cloudskillsboost.google/games/5384?utm_source=qwiklabs&utm_medium=lp&utm_campaign=arcade24-august-trivia) | <mark>1q-trivia-08017</mark> |
+| The Arcade Trivia August 2024 **Week 2** | [Google Cloud Skills Boost - Games 5396](https://www.cloudskillsboost.google/games/5396?utm_source=qwiklabs&utm_medium=lp&utm_campaign=arcade24-august-trivia) | <mark>1q-trivia-08018</mark> |
 
 **Important Points**
 
@@ -39,3 +40,7 @@ Code: <mark>1q-basecamp-0871</mark>
 **Even though you plan to do it tomorrow or later, Make sure to at least enrol by today. High chances the slots will get filled.**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722948877806/9cf62142-3980-4393-b839-7ce096fccb0b.png align="center")
+
+---
+
+%[https://eplus.dev/google-cloud-arcade-facilitator-24-syllabus-for-the-program]
