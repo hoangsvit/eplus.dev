@@ -1016,7 +1016,7 @@ Trigger a service to delete image files and metadata
 %[https://www.youtube.com/watch?v=AgmZJZRpeQ0] 
 
 ```apache
-export REGION=us-west1
+export REGION=
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723603570151/0172ede0-92f3-4758-802f-d442ea7acc4d.png align="center")
