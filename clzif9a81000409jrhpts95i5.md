@@ -7,7 +7,7 @@ cuid: clzif9a81000409jrhpts95i5
 slug: the-arcade-base-camp-august-2024
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722948809227/e8a0d78f-149d-4bbc-8f8e-32ee7cbaad19.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722948830911/955dd73d-191d-4f59-855d-9c440aa297c6.png
-tags: the-arcade-base-camp-august-2024, the-arcade-trivia-august-2024-week-1, the-arcade-trivia-august-2024-week-2, level-2-machine-learning-and-ai-skills, level-1-application-development-and-deployment, level-3-level-up-your-cloud-functions-skills
+tags: the-arcade-base-camp-august-2024, the-arcade-trivia-august-2024-week-1, the-arcade-trivia-august-2024-week-2, level-2-machine-learning-and-ai-skills, level-1-application-development-and-deployment, level-3-level-up-your-cloud-functions-skills, the-arcade-certification-zone-august-2024
 
 ---
 
@@ -28,6 +28,7 @@ Code: <mark>1q-basecamp-0871</mark>
 | **Level 3:** Level up your Cloud Functions skills | [Google Cloud Skills Boost - Games 5382](https://www.cloudskillsboost.google/games/5382?utm_source=qwiklabs&utm_medium=lp&utm_campaign=level3-august-arcade24) | <mark>1q-functions-0870</mark> |
 | The Arcade Trivia August 2024 **Week 1** | [Google Cloud Skills Boost - Games 5384](https://www.cloudskillsboost.google/games/5384?utm_source=qwiklabs&utm_medium=lp&utm_campaign=arcade24-august-trivia) | <mark>1q-trivia-08017</mark> |
 | The Arcade Trivia August 2024 **Week 2** | [Google Cloud Skills Boost - Games 5396](https://www.cloudskillsboost.google/games/5396?utm_source=qwiklabs&utm_medium=lp&utm_campaign=arcade24-august-trivia) | <mark>1q-trivia-08018</mark> |
+| The Arcade **Certification Zone August 2024** | [Google Cloud Skills Boost - Games 5395](https://www.cloudskillsboost.google/games/5395?utm_source=qwiklabs&utm_medium=lp&utm_campaign=cert-zone-august-arcade24) | <mark>1q-cert-0877</mark> |
 
 **Important Points**
 
