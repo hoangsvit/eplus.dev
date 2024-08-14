@@ -151,7 +151,7 @@ gcloud config list project
 
 ```apache
 [core]
-project = 
+project =
 ```
 
 **Example output:**
@@ -1011,7 +1011,7 @@ Trigger a service to delete image files and metadata
 
 ---
 
-Solution of Lab
+## Solution of Lab
 
 %[https://www.youtube.com/watch?v=AgmZJZRpeQ0] 
 
