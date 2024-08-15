@@ -1,7 +1,6 @@
 ---
 title: "Connecting Cloud Functions"
-seoTitle: "Connecting Cloud Functions
-"
+seoTitle: "Connecting Cloud Functions"
 seoDescription: "Cloud Functions let you connect directly to your VPC network enabling your functions to access Compute Engine VM instances, Memorystore instances, and other"
 datePublished: Thu Aug 15 2024 04:09:59 GMT+0000 (Coordinated Universal Time)
 cuid: clzurhxn8000c09la19d5a8v4
@@ -111,7 +110,7 @@ gcloud config list project
 
 ```apache
 [core]
-project = 
+project =
 ```
 
 **Example output:**
@@ -684,7 +683,7 @@ Click **Check my progress** to verify the objective.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=81WdGTslfU8] 
+%[https://www.youtube.com/watch?v=VXGVC7t1rr4] 
 
 ```apache
 export ZONE=
@@ -693,7 +692,7 @@ export ZONE=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723694941024/807fe1c8-c98f-4d11-85b1-61d5d97eac07.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Connecting%20Cloud%20Functions/techcps.sh
-sudo chmod +x techcps.sh
-./techcps.sh
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Connecting%20Cloud%20Functions/quicklab.sh
+sudo chmod +x quicklab.sh
+./quicklab.sh
 ```
