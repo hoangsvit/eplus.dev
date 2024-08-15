@@ -104,7 +104,7 @@ gcloud config list project
 
 ```apache
 [core]
-project = 
+project =
 ```
 
 **Example output:**
@@ -366,3 +366,17 @@ Click **Check my progress** to verify the objective.
 ---
 
 ## Solution of Lab
+
+%[https://www.youtube.com/watch?v=mL8JQqb2fIk] 
+
+```apache
+export REGION=
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723706791636/526d21e7-72aa-4104-8cbc-28f6f19c37c0.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Creating%20a%20Containerized%20Application%20with%20Buildpacks/techcps.sh
+sudo chmod +x techcps.sh
+./techcps.sh
+```
