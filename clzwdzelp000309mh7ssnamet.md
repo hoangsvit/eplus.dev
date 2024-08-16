@@ -169,8 +169,6 @@ view: location {
 }
 ```
 
-Copied!content\_copy
-
 This view file contains the definitions for dimensions that you want to reuse in other views: **city**, **country**, **latitude**, **longitude**, **state**, and **zip**.
 
 Notice line 2 (`extension: required`), which means that this view *cannot be joined to other views*, and thus will not be visible to users. To use this view, you must integrate it into another view using the `extends` parameter, which you do in the next section.
@@ -194,16 +192,12 @@ Also notice that, unlike with other views, you do not need to include the parame
 include: location.view
 ```
 
-Copied!content\_copy
-
 3. On line 3 above `sql_table_name`, add the following code:
     
 
 ```apache
 extends: [location]
 ```
-
-Copied!content\_copy
 
 **Note:** Because the extends are added, the `sql_table_name` parameter identifies which table to use as the data source for both the existing objects in the file and the objects that are added from geography via the extend.
 
@@ -220,16 +214,12 @@ Copied!content\_copy
 include: location.view
 ```
 
-Copied!content\_copy
-
 8. On line 3 above `sql_table_name`, add the following code:
     
 
 ```apache
 extends: [location]
 ```
-
-Copied!content\_copy
 
 9. As you did with the users view, remove the existing dimension definitions for: `city`, `country`, `latitude`, `longitude`, `state`, and `zip`.
     
@@ -309,8 +299,6 @@ explore: base_events {
 }
 ```
 
-Copied!content\_copy
-
 Notice again the line for `extension: required`, which means that this Explore is not visible to users. Your file should resemble the following:
 
 ![The open training.ecommerce.model file with the added lines of base_events explore code highlighted](https://cdn.qwiklabs.com/9U9%2Be%2FY1RLgAeByvSaYixpXxR%2BgaUtgGXtd11LaNhN8%3D align="left")
@@ -334,8 +322,6 @@ from: events
   view_name: events
   extends: [base_events]
 ```
-
-Copied!content\_copy
 
 **Note:** The new lines provide a description for the Explore info button, identify which fields from which view file to include (all fields), and specify which Explore is being used to extend the **events** Explore.
 
@@ -362,8 +348,6 @@ explore: conversions {
   }
 }
 ```
-
-Copied!content\_copy
 
 Lines 2-6 here provide a description for the Explore info button, identify which fields from which view file to include (all fields except the `total_revenue_from_completed_orders` measure in the order items view), and specify which Explore is being used to extend this Explore (i.e., the same **base\_events** Explore that was used to extend the **events** Explore).
 
