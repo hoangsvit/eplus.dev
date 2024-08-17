@@ -237,3 +237,8 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Use%20Machin
 sudo chmod +x quicklabgsp329.sh
 ./quicklabgsp329.sh
 ```
+
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text">I got the <mark>Japanese</mark> language but it's not working. The change of language task is not working</div>
+</div>
