@@ -78,8 +78,6 @@ To complete this lab, you need:
     student-04-bfede1434629@qwiklabs.net
     ```
     
-    Copied!content\_copy
-    
     You can also find the **Username** in the **Lab Details** panel.
     
 4. Click **Next**.
@@ -89,8 +87,6 @@ To complete this lab, you need:
     ```apache
     EA654l3afWkG
     ```
-    
-    Copied!content\_copy
     
     You can also find the **Password** in the **Lab Details** panel.
     
@@ -141,8 +137,6 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-01-0543c0e8f6
 gcloud auth list
 ```
 
-Copied!content\_copy
-
 3. Click **Authorize**.
     
 
@@ -162,8 +156,6 @@ To set the active account, run:
 ```apache
 gcloud config list project
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -189,8 +181,6 @@ gcloud services enable \
   artifactregistry.googleapis.com \
   container.googleapis.com
 ```
-
-Copied!content\_copy
 
 This will allow access to running model training, deployment, and explanation jobs with Vertex AI.
 
@@ -237,8 +227,6 @@ Create the vertex AI notebook instance
 ```apache
 git clone https://github.com/GoogleCloudPlatform/training-data-analyst
 ```
-
-Copied!content\_copy
 
 Click *Check my progress* to verify the objective.
 
@@ -324,6 +312,8 @@ Deploy the model
 
 ## Solution of Lab
 
+### Manual
+
 ```apache
 gcloud services enable \
   compute.googleapis.com \
@@ -335,13 +325,13 @@ gcloud services enable \
   container.googleapis.com
 ```
 
-### **Task 1. Create a Vertex Notebooks instance**
+**Task 1. Create a Vertex Notebooks instance**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723876761907/aef4133a-1f37-4b03-a8ae-36d8c4390cdf.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723876841826/4475d93f-99bd-4b4b-b593-747fcd74bdfd.png align="center")
 
-### **Task 2. Download the Challenge Notebook**
+**Task 2. Download the Challenge Notebook**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723876948334/8e04959f-99c6-462b-b885-dcacbbfa97da.png align="center")
 
@@ -386,9 +376,11 @@ model = job.run(
 )
 ```
 
-%[https://www.youtube.com/watch?v=bbKUgdaADIs] 
+---
 
 ### Run the following Commands in CloudShell
+
+%[https://www.youtube.com/watch?v=bbKUgdaADIs] 
 
 ```apache
 export ZONE=
