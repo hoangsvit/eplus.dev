@@ -97,9 +97,9 @@ We will keep updating this list with new skill badges for you to explore.
         
     * [Manage Data Models in Looker](https://www.cloudskillsboost.google/course_templates/651?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
-    * [Manage Kubernetes in Google Cloud](https://www.cloudskillsboost.google/course_templates/783?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
+    * [Manage Kubernetes in Google Cloud](https://www.cloudskillsboost.google/course_templates/783?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
-    * [Classify Images with TensorFlow on Google Cloud](https://www.cloudskillsboost.google/course_templates/646?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+    * [Classify Images with TensorFlow on Google Cloud](https://www.cloudskillsboost.google/course_templates/646?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
         
     * [Analyze Speech and Language with Google APIs](https://www.cloudskillsboost.google/course_templates/634?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
         
