@@ -105,9 +105,9 @@ We will keep updating this list with new skill badges for you to explore.
 
 \* [Use Machine Learning APIs on Google Cloud](https://www.cloudskillsboost.google/course_templates/630?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
 
-\* [Deploy Kubernetes Applications on Google Cloud](https://www.cloudskillsboost.google/course_templates/663?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
+\* [Deploy Kubernetes Applications on Google Cloud](https://www.cloudskillsboost.google/course_templates/663?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
 
-\* [Implement Cloud Security Fundamentals on Google Cloud](https://www.cloudskillsboost.google/course_templates/645?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+\* [Implement Cloud Security Fundamentals on Google Cloud](https://www.cloudskillsboost.google/course_templates/645?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
 
 ### **Advanced: Take your Google Cloud Skills to Next Level**
 
