@@ -550,6 +550,8 @@ sudo chmod +x techcps1.sh
 ./techcps1.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723972387376/c6062ad4-04c5-4fbb-844d-c3d276732f8a.png align="center")
+
 ```apache
 curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Service%20Accounts%20and%20Roles%3A%20Fundamentals/techcps2.sh
 sudo chmod +x techcps2.sh
