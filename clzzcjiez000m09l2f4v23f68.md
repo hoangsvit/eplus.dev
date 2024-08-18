@@ -557,3 +557,5 @@ curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Service%20Acco
 sudo chmod +x techcps2.sh
 ./techcps2.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723972558745/37555c50-08cb-455d-8072-3a183ced19a1.png align="center")
