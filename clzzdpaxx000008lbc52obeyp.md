@@ -93,8 +93,6 @@ To complete this lab, you need:
     student-04-bf64ebf7597e@qwiklabs.net
     ```
     
-    Copied!content\_copy
-    
     You can also find the **Username** in the **Lab Details** panel.
     
 4. Click **Next**.
@@ -104,8 +102,6 @@ To complete this lab, you need:
     ```apache
     0zPhiy2zyr1y
     ```
-    
-    Copied!content\_copy
     
     You can also find the **Password** in the **Lab Details** panel.
     
@@ -156,8 +152,6 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-04-19dedccfdb
 gcloud auth list
 ```
 
-Copied!content\_copy
-
 3. Click **Authorize**.
     
 
@@ -178,8 +172,6 @@ To set the active account, run:
 gcloud config list project
 ```
 
-Copied!content\_copy
-
 **Output:**
 
 ```apache
@@ -199,19 +191,13 @@ Download the code from a public storage bucket and then change to the code folde
 gsutil cp gs://spls/gsp499/user-authentication-with-iap.zip .
 ```
 
-Copied!content\_copy
-
 ```apache
 unzip user-authentication-with-iap.zip
 ```
 
-Copied!content\_copy
-
 ```apache
 cd user-authentication-with-iap
 ```
-
-Copied!content\_copy
 
 This folder contains one subfolder for each step of this lab. You will change to the correct folder to perform each step.
 
@@ -228,8 +214,6 @@ This is an App Engine Standard application written in Python that simply display
 cd 1-HelloWorld
 ```
 
-Copied!content\_copy
-
 The application code is in the `main.py` file. It uses the [Flask](http://flask.pocoo.org/) web framework to respond to web requests with the contents of a template. That template file is in `templates/index.html`, and for this step contains only plain HTML. A second template file contains a skeletal example privacy policy in `templates/privacy.html`.
 
 There are two other files: `requirements.txt` lists all the non-default Python libraries the application uses, and `app.yaml` tells Google Cloud that this is a Python App Engine application.
@@ -239,8 +223,6 @@ You can list each file in the shell using the cat command, as in:
 ```apache
 cat main.py
 ```
-
-Copied!content\_copy
 
 Or you can launch the Cloud Shell code editor by clicking the Pencil icon at the top right-hand side of the Cloud Shell window, and examine the code that way.
 
@@ -255,16 +237,12 @@ You do not need to change any files for this step.
 sed -i 's/python37/python39/g' app.yaml
 ```
 
-Copied!content\_copy
-
 2. Deploy the app to the App Engine Standard environment for Python.
     
 
 ```apache
 gcloud app deploy
 ```
-
-Copied!content\_copy
 
 3. Select a region `us-west1`.
     
@@ -281,8 +259,6 @@ In a few minutes the deployment completes. You will see a message that you can v
 ```apache
 gcloud app browse
 ```
-
-Copied!content\_copy
 
 6. Click the displayed link to open it in a new tab, or copy it to a manually opened new tab if necessary. Since this is the first time this app is run, it will take a few seconds to appear while a cloud instance is started, and you should see the following window.
     
@@ -336,8 +312,6 @@ You might be prompted to create credentials. You do not need to create credentia
 ```apache
 gcloud services disable appengineflex.googleapis.com
 ```
-
-Copied!content\_copy
 
 **Note:** App Engine has its standard and flexible environments which are optimized for different application architectures. Currently, when enabling IAP for App Engine, if the Flex API is enabled, Google Cloud will look for a Flex Service Account. Your lab project comes with a multitude of APIs already enabled for the purpose of convenience. However, this creates a unique situation where the Flex API is enabled without a Service Account created.
 
@@ -413,8 +387,6 @@ Once an app is protected with IAP, it can use the identity information that IAP 
 cd ~/user-authentication-with-iap/2-HelloUser
 ```
 
-Copied!content\_copy
-
 ### Deploy to App Engine
 
 1. Update python runtime to `python39`.
@@ -424,16 +396,12 @@ Copied!content\_copy
 sed -i 's/python37/python39/g' app.yaml
 ```
 
-Copied!content\_copy
-
 2. Since deployment takes a few minutes, start by deploying the app to the App Engine Standard environment for Python:
     
 
 ```apache
 gcloud app deploy
 ```
-
-Copied!content\_copy
 
 3. When you are asked if you want to continue, enter **Y** for yes.
     
@@ -482,8 +450,6 @@ Going back to the deployment, when it is ready, you will see a message that you 
 gcloud app browse
 ```
 
-Copied!content\_copy
-
 2. If a new tab does not open on your browser, copy the displayed link and open it in a new tab normally. You should see a page similar to the following:
     
 
@@ -513,11 +479,9 @@ Since the application is now unprotected, a user could send a web request that a
 curl -X GET <your-url-here> -H "X-Goog-Authenticated-User-Email: totally fake email"
 ```
 
-Copied!content\_copy
-
 The web page will be displayed on the command line, and look like the following:
 
-```apache
+```xml
 <!doctype html>
 <html>
 <head>
@@ -555,8 +519,6 @@ Digital signature verification requires several extra steps, such as retrieving 
 cd ~/user-authentication-with-iap/3-HelloVerifiedUser
 ```
 
-Copied!content\_copy
-
 ### Deploy to App Engine
 
 1. Update python runtime to `python39`.
@@ -566,16 +528,12 @@ Copied!content\_copy
 sed -i 's/python37/python39/g' app.yaml
 ```
 
-Copied!content\_copy
-
 2. Deploy the app to the App Engine Standard environment for Python:
     
 
 ```apache
 gcloud app deploy
 ```
-
-Copied!content\_copy
 
 3. When you are asked if you want to continue, enter **Y** for yes.
     
@@ -611,8 +569,6 @@ def user():
     return info['email'], info['sub']
 ```
 
-Copied!content\_copy
-
 The `assertion` is the cryptographically signed data provided in the specified request header. The code uses a library to validate and decode that data. Validation uses the public keys that Google provides for checking data it signs, and knowing the audience that the data was prepared for (essentially, the Google Cloud project that is being protected). Helper functions `keys()` and `audience()` gather and return those values.
 
 The signed object has two pieces of data we need: the verified email address, and the unique ID value (provided in the `sub`, for subscriber, standard field).
@@ -629,8 +585,6 @@ When the deployment is ready you will see a message that you can view your appli
 ```apache
 gcloud app browse
 ```
-
-Copied!content\_copy
 
 If a new tab does not open on your browser, copy the displayed link and open it in a new tab normally.
 
@@ -684,5 +638,27 @@ sudo chmod +x techcps499.sh
     
 * "Test that IAP is turned on" perform using lab instructions
     
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723974308833/75ee69d6-f54a-4d25-ad4e-50ea82f013ef.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723974421710/d9dd3e27-1cd7-414b-ad23-b783f7c4a056.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723974478018/55936335-96c7-4c77-bce5-041bbaf3712d.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723974782966/ded7ba07-857a-4cb4-8d6e-b5e35b5d0075.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723974731688/e6194bbc-1d87-4e3a-b039-0474abf62bb3.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723974922243/1d76d873-5a27-4237-b3ec-61af07d8a72c.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723975031812/9ef71d49-2295-4bfa-81bf-f893d3bb412c.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723975006500/58f7e93d-b748-485f-973d-3c79292a965e.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723975112788/8d3e1d50-aa33-491f-9f0a-a8b27ecae495.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723975129429/28a10120-f4dd-4360-a312-c59a24f50ae0.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723975165017/a7fb5e42-b3f9-4aed-a419-f7ca04055afa.png align="center")
 
 **Congratulations, you're all done with the lab 😄**
