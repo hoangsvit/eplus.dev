@@ -115,11 +115,11 @@ We will keep updating this list with new skill badges for you to explore.
 
 \* [Build a Data Warehouse with BigQuery](https://www.cloudskillsboost.google/course_templates/624?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
 
-\* [Implement DevOps Workflows in Google Cloud](https://www.cloudskillsboost.google/course_templates/716?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
+\* [Implement DevOps Workflows in Google Cloud](https://www.cloudskillsboost.google/course_templates/716?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
 
 \* [Develop Serverless Applications on Cloud Run](https://www.cloudskillsboost.google/course_templates/741?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
 
-\* [Develop Serverless Apps with Firebase](https://www.cloudskillsboost.google/course_templates/649?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+\* [Develop Serverless Apps with Firebase](https://www.cloudskillsboost.google/course_templates/649?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
 
 \* [Optimize Costs for Google Kubernetes Engine](https://www.cloudskillsboost.google/course_templates/655?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
 
