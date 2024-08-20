@@ -145,7 +145,6 @@ On startup, your lab generated a **Hello Demo Cluster** with two E2 medium (2vCP
 
 1. Once your lab has finished provisioning, in the **Cloud Console**, click on your **Navigation Menu** and then click on **Kubernetes Engine**.
     
-
 2. In the **Kubernetes Clusters** window, select your **hello-demo-cluster**.
     
 3. In the following window, select the **Nodes** tab:
@@ -541,7 +540,7 @@ You will see both pods returned with a `Running` status and internal IPs.
 ```apache
 NAME READY STATUS RESTARTS AGE IP NODE NOMINATED NODE READINESS GATES
 pod-1 1/1 Running 0 4m40s 10.60.0.7 gke-regional-demo-default-pool-abb297f1-tz3b  
-pod-2 1/1 Running 0 4m31s 10.60.2.3 gke-regional-demo-default-pool-28b6c708-qn7q  
+pod-2 1/1 Running 0 4m31s 10.60.2.3 gke-regional-demo-default-pool-28b6c708-qn7q
 ```
 
 Take note of the IP address of `pod-2`. You will use it in the following command.
@@ -570,7 +569,6 @@ With `pod-1` pinging `pod-2`, you can enable flow logs on the subnet of the VPC 
 
 1. In the **Cloud Console**, open the **Navigation Menu** and select **VPC Network** in the **Networking** section.
     
-
 2. Locate the `default` subnet in the `us-west1` region and click on it.
     
 
@@ -620,7 +618,6 @@ Everything else can be left as-is.
     
 2. Now, inspect your newly created dataset. In the **Cloud Console**, from the **Navigation Menu** in the **Analytics** section, click **BigQuery**.
     
-
 3. Click **Done**.
     
 4. Select your project name, and then select the **us\_flow\_logs** to see the newly created table. If no table is there, you may need to refresh until it has been created.
@@ -752,3 +749,23 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Exploring%20
 sudo chmod +x quicklabgsp767.sh
 ./quicklabgsp767.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724160521796/fdfc9d85-7aea-4a9d-90ce-5d970b155431.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724160533094/3a0d625e-de2b-4510-a2ad-2bd43964759c.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724160537667/761177da-60ed-4503-861d-2440821324ad.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724160543109/e4f97223-ad59-432d-8c2e-3a41fd58ebb6.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724160599815/fb008757-42b5-4593-9cfc-847e75ca4c6d.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724160561396/6531b5d3-7b0c-4cb9-98ff-0b60a7913af3.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724160580887/4998fa2b-5e55-4417-b668-654494456b0e.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724160585514/afbef05c-dde0-4571-8f33-f751f7f8b324.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724160591676/1fe05db5-d97d-47e9-9086-bcb518affffc.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724160662415/29f6b9e1-7994-4f8c-87f3-53951f65facc.png align="center")
