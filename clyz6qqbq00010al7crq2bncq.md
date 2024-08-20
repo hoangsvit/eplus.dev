@@ -121,9 +121,9 @@ We will keep updating this list with new skill badges for you to explore.
 
 \* [Develop Serverless Apps with Firebase](https://www.cloudskillsboost.google/course_templates/649?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
 
-\* [Optimize Costs for Google Kubernetes Engine](https://www.cloudskillsboost.google/course_templates/655?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
+\* [Optimize Costs for Google Kubernetes Engine](https://www.cloudskillsboost.google/course_templates/655?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
 
-\* [Perform Predictive Data Analysis in BigQuery](https://www.cloudskillsboost.google/course_templates/656?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+\* [Perform Predictive Data Analysis in BigQuery](https://www.cloudskillsboost.google/course_templates/656?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
 
 \* [Engineer Data for Predictive Modeling with BigQuery ML](https://www.cloudskillsboost.google/course_templates/627?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
 
