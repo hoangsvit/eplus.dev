@@ -147,7 +147,7 @@ In this section, you will run some queries that use JOINs with BigQuery's [array
 2. Copy and paste the following query into the query **Editor**:
     
 
-```apache
+```sql
 SELECT
  Events.playerId,
  (Players.firstName || ' ' || Players.lastName) AS playerName,
@@ -210,7 +210,7 @@ From the data you can note that passes have 2 attributes (x, y) pairs representi
 2. Add the following query into the query **Editor**:
     
 
-```apache
+```sql
 WITH
 Passes AS
 (
@@ -308,7 +308,7 @@ To answer this question use a process similar to the previous section. For shots
 2. Copy and paste the following query into the query **Editor**:
     
 
-```apache
+```sql
 WITH
 Shots AS
 (
@@ -409,7 +409,7 @@ Larger angles arise from being close to the goal and in the center, so this is s
 2. Add the following query into the query **Editor**:
     
 
-```apache
+```sql
 WITH
 Shots AS
 (
@@ -511,7 +511,7 @@ In the next section test your understanding of what you have learned in this lab
 
 Test your understanding of BigQuery by completing the short quiz on the topics covered in this lab.
 
-How many club teams have an average pass distance less than 20 meters?
+**How many club teams have an average pass distance less than 20 meters?**
 
 * 18
     
@@ -520,9 +520,7 @@ How many club teams have an average pass distance less than 20 meters?
 * 10
     
 
-**Submit**
-
-How does the distance of a shot affect its likelihood of becoming a goal?
+**How does the distance of a shot affect its likelihood of becoming a goal?**
 
 * Shot distance seems to be generally positively correlated with goal success rate.
     
@@ -531,9 +529,7 @@ How does the distance of a shot affect its likelihood of becoming a goal?
 * There is not any correlation between shot distance and goal success rate.
     
 
-**Submit**
-
-In this data set, at what angle (rounded to the nearest degree) have the most shots been taken?
+**In this data set, at what angle (rounded to the nearest degree) have the most shots been taken?**
 
 * 15°
     
