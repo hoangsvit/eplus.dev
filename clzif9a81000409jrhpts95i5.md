@@ -28,6 +28,7 @@ Code: <mark>1q-basecamp-0871</mark>
 | **Level 3:** Level up your Cloud Functions skills | [Google Cloud Skills Boost - Games 5382](https://www.cloudskillsboost.google/games/5382?utm_source=qwiklabs&utm_medium=lp&utm_campaign=level3-august-arcade24) | <mark>1q-functions-0870</mark> |
 | The Arcade Trivia August 2024 **Week 1** | [Google Cloud Skills Boost - Games 5384](https://www.cloudskillsboost.google/games/5384?utm_source=qwiklabs&utm_medium=lp&utm_campaign=arcade24-august-trivia) | <mark>1q-trivia-08017</mark> |
 | The Arcade Trivia August 2024 **Week 2** | [Google Cloud Skills Boost - Games 5396](https://www.cloudskillsboost.google/games/5396?utm_source=qwiklabs&utm_medium=lp&utm_campaign=arcade24-august-trivia) | <mark>1q-trivia-08018</mark> |
+| The Arcade Trivia August 2024 **Week 3** | [Google Cloud Skills Boost - Games 5407](https://www.cloudskillsboost.google/games/5407?utm_source=qwiklabs&utm_medium=lp&utm_campaign=arcade24-august-trivia) | <mark>1q-trivia-08019</mark> |
 | The Arcade **Certification Zone August 2024** | [Google Cloud Skills Boost - Games 5395](https://www.cloudskillsboost.google/games/5395?utm_source=qwiklabs&utm_medium=lp&utm_campaign=cert-zone-august-arcade24) | <mark>1q-cert-0877</mark> |
 
 **Important Points**
