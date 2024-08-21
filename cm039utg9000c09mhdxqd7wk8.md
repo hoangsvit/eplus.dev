@@ -620,6 +620,6 @@ Verify if the Cloud Dataprep jobs output the data to BigQuery
 
 %[https://www.youtube.com/watch?v=hPGakjDDxwg] 
 
-Download file: flow\_Ecommerce\_Analytics\_[Pipeline.zip](http://Pipeline.zip)
+Download file: [flow\_Ecommerce\_Analytics\_Pipeline.zip](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP430/flow_Ecommerce_Analytics_Pipeline.zip)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724209522262/7ca0f9ec-0859-484c-80cd-f89c8b4bb8dc.png align="center")
