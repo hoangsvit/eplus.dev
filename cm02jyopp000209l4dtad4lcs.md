@@ -311,7 +311,7 @@ Now that you've loaded data into your tables, you can run queries against it. Ne
 2. Copy and paste the following query into the query Editor:
     
 
-```apache
+```sql
 SELECT
   (firstName || ' ' || lastName) AS player,
   birthArea.name AS birthArea,
@@ -347,7 +347,7 @@ Create a query to retrieve counts of all event types that are found in the **eve
 1. Copy and paste the following query into the query Editor:
     
 
-```apache
+```sql
 SELECT
   eventId,
   eventName,
@@ -383,9 +383,18 @@ How many domestic leagues appear in the **competitions** table?275
 
 **Submit**
 
-How many rows are in the **events** table?4,598,6933,251,2941,941
+How many rows are in the **events** table?
 
-**Submit**
+* 4,59
+    
+* 8,693
+    
+* 3,25
+    
+* 1,294
+    
+* 1,941
+    
 
 Which table contains tags (numerical IDs) that can be matched to text labels and descriptions in the **tags2name** table?eventsplayerscompetitions
 
