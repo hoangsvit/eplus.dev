@@ -361,3 +361,21 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Predict%20So
 sudo chmod +x quicklabgsp374.sh
 ./quicklabgsp374.sh
 ```
+
+### Task 4:
+
+**Calculate shot distance from (x,y) coordinates**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724207296795/faa6203a-df20-47ea-8ba2-9a72d94aca0b.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724207271390/52d9ad04-28d7-40d0-8245-620b4db41042.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724207485795/905b4941-0121-42d2-8d59-c4538bf10114.png align="center")
+
+**Calculate shot angle from (x,y) coordinates**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724207410772/4401c9c4-befa-4d5a-9ee0-95cf0a871c8a.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724207402619/6241de7d-9aaa-4aa6-936b-91d0a171c5e0.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724207457949/fbff244e-2a80-4ebb-b97f-263874048453.png align="center")
