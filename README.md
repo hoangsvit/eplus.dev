@@ -3,21 +3,21 @@
 ### #Blog posts
 
 <!-- BLOG-POST-LIST:START -->
- - 🧰 [Perform Predictive Data Analysis in BigQuery: Challenge Lab - GSP374](https://eplus.dev/perform-predictive-data-analysis-in-bigquery-challenge-lab-gsp374) - 2024-08-21
- - 😺 [BigQuery Machine Learning using Soccer Data - GSP851](https://eplus.dev/bigquery-machine-learning-using-soccer-data-gsp851) - 2024-08-21
- - 🗽 [BigQuery Soccer Data Analytical Insight - GSP850](https://eplus.dev/bigquery-soccer-data-analytical-insight-gsp850) - 2024-08-21
- - 🌜 [BigQuery Soccer Data Analysis - GSP849](https://eplus.dev/bigquery-soccer-data-analysis-gsp849) - 2024-08-21
- - 📝 [BigQuery Soccer Data Ingestion - GSP848](https://eplus.dev/bigquery-soccer-data-ingestion-gsp848) - 2024-08-20
- - 🚀 [Optimize Costs for Google Kubernetes Engine: Challenge Lab - GSP343](https://eplus.dev/optimize-costs-for-google-kubernetes-engine-challenge-lab-gsp343) - 2024-08-20
- - 💼 [GKE Workload Optimization - GSP769](https://eplus.dev/gke-workload-optimization-gsp769) - 2024-08-20
- - 🦣 [Understanding and Combining GKE Autoscaling Strategies - GSP768](https://eplus.dev/understanding-and-combining-gke-autoscaling-strategies-gsp768) - 2024-08-20
- - 👨‍🏫 [Exploring Cost-optimization for GKE Virtual Machines - GSP767](https://eplus.dev/exploring-cost-optimization-for-gke-virtual-machines-gsp767) - 2024-08-20
- - 🔭 [Avoid target=&#39;_blank&#39; attribute without rel=&#39;noopener noreferrer&#39;](https://eplus.dev/avoid-targetblank-attribute-without-relnoopener-noreferrer) - 2024-08-20
- - 🤡 [Managing a GKE Multi-tenant Cluster with Namespaces - GSP766](https://eplus.dev/managing-a-gke-multi-tenant-cluster-with-namespaces-gsp766) - 2024-08-20
- - 💡 [Build a Serverless Web App with Firebase - GSP643](https://eplus.dev/build-a-serverless-web-app-with-firebase-gsp643) - 2024-08-20
- - 🦣 [Importing Data to a Firestore Database - GSP642](https://eplus.dev/importing-data-to-a-firestore-database-gsp642) - 2024-08-20
- - 💪 [Develop Serverless Applications on Cloud Run: Challenge Lab - GSP328](https://eplus.dev/develop-serverless-applications-on-cloud-run-challenge-lab-gsp328) - 2024-08-19
- - 🤡 [Creating PDFs with Go and Cloud Run - GSP762](https://eplus.dev/creating-pdfs-with-go-and-cloud-run-gsp762) - 2024-08-19<!-- BLOG-POST-LIST:END -->
+ - 🧰 [Creating a Data Transformation Pipeline with Cloud Dataprep - GSP430](https://eplus.dev/creating-a-data-transformation-pipeline-with-cloud-dataprep-gsp430) - 2024-08-21
+ - 😺 [Perform Predictive Data Analysis in BigQuery: Challenge Lab - GSP374](https://eplus.dev/perform-predictive-data-analysis-in-bigquery-challenge-lab-gsp374) - 2024-08-21
+ - 🗽 [BigQuery Machine Learning using Soccer Data - GSP851](https://eplus.dev/bigquery-machine-learning-using-soccer-data-gsp851) - 2024-08-21
+ - 🌜 [BigQuery Soccer Data Analytical Insight - GSP850](https://eplus.dev/bigquery-soccer-data-analytical-insight-gsp850) - 2024-08-21
+ - 📝 [BigQuery Soccer Data Analysis - GSP849](https://eplus.dev/bigquery-soccer-data-analysis-gsp849) - 2024-08-21
+ - 🚀 [BigQuery Soccer Data Ingestion - GSP848](https://eplus.dev/bigquery-soccer-data-ingestion-gsp848) - 2024-08-20
+ - 💼 [Optimize Costs for Google Kubernetes Engine: Challenge Lab - GSP343](https://eplus.dev/optimize-costs-for-google-kubernetes-engine-challenge-lab-gsp343) - 2024-08-20
+ - 🦣 [GKE Workload Optimization - GSP769](https://eplus.dev/gke-workload-optimization-gsp769) - 2024-08-20
+ - 👨‍🏫 [Understanding and Combining GKE Autoscaling Strategies - GSP768](https://eplus.dev/understanding-and-combining-gke-autoscaling-strategies-gsp768) - 2024-08-20
+ - 🔭 [Exploring Cost-optimization for GKE Virtual Machines - GSP767](https://eplus.dev/exploring-cost-optimization-for-gke-virtual-machines-gsp767) - 2024-08-20
+ - 🤡 [Avoid target=&#39;_blank&#39; attribute without rel=&#39;noopener noreferrer&#39;](https://eplus.dev/avoid-targetblank-attribute-without-relnoopener-noreferrer) - 2024-08-20
+ - 💡 [Managing a GKE Multi-tenant Cluster with Namespaces - GSP766](https://eplus.dev/managing-a-gke-multi-tenant-cluster-with-namespaces-gsp766) - 2024-08-20
+ - 🦣 [Build a Serverless Web App with Firebase - GSP643](https://eplus.dev/build-a-serverless-web-app-with-firebase-gsp643) - 2024-08-20
+ - 💪 [Importing Data to a Firestore Database - GSP642](https://eplus.dev/importing-data-to-a-firestore-database-gsp642) - 2024-08-20
+ - 🤡 [Develop Serverless Applications on Cloud Run: Challenge Lab - GSP328](https://eplus.dev/develop-serverless-applications-on-cloud-run-challenge-lab-gsp328) - 2024-08-19<!-- BLOG-POST-LIST:END -->
 
 <div align="right">
   Update by <a target="_blank"
