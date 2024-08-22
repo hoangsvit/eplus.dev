@@ -414,3 +414,5 @@ Be sure to select the cell(s) before creating the filter view.
 ---
 
 Task 3:
+
+Download file: [quicklab1062.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1062/quicklab1062.xlsx)
