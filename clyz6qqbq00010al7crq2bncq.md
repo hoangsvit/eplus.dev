@@ -104,7 +104,6 @@ We will keep updating this list with new skill badges for you to explore.
     
 * [Analyze Speech and Language with Google APIs](https://www.cloudskillsboost.google/course_templates/634?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
     
-
 * [Use Machine Learning APIs on Google Cloud](https://www.cloudskillsboost.google/course_templates/630?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
     
 * [Deploy Kubernetes Applications on Google Cloud](https://www.cloudskillsboost.google/course_templates/663?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
@@ -128,9 +127,9 @@ We will keep updating this list with new skill badges for you to explore.
     
 * [Perform Predictive Data Analysis in BigQuery](https://www.cloudskillsboost.google/course_templates/656?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
     
-* [Engineer Data for Predictive Modeling with BigQuery ML](https://www.cloudskillsboost.google/course_templates/627?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
+* [Engineer Data for Predictive Modeling with BigQuery ML](https://www.cloudskillsboost.google/course_templates/627?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
     
-* [Mitigate Threats and Vulnerabilities with Security Command Center](https://www.cloudskillsboost.google/course_templates/759?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+* [Mitigate Threats and Vulnerabilities with Security Command Center](https://www.cloudskillsboost.google/course_templates/759?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
     
 * [Develop GenAI Apps with Gemini and Streamlit](https://www.cloudskillsboost.google/course_templates/978?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
     
