@@ -131,9 +131,9 @@ We will keep updating this list with new skill badges for you to explore.
     
 * [Mitigate Threats and Vulnerabilities with Security Command Center](https://www.cloudskillsboost.google/course_templates/759?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
     
-* [Develop GenAI Apps with Gemini and Streamlit](https://www.cloudskillsboost.google/course_templates/978?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
+* [Develop GenAI Apps with Gemini and Streamlit](https://www.cloudskillsboost.google/course_templates/978?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
     
-* [Use Functions, Formulas, and Charts in Google Sheets](https://www.cloudskillsboost.google/course_templates/776?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+* [Use Functions, Formulas, and Charts in Google Sheets](https://www.cloudskillsboost.google/course_templates/776?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)✅
     
 * [Implement CI/CD Pipelines on Google Cloud](https://www.cloudskillsboost.google/course_templates/691?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
     
