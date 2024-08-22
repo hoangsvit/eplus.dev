@@ -434,7 +434,7 @@ sudo chmod +x shell-1.sh
 
 * Go to `Cloud Web Security Scanner` from [here](https://console.cloud.google.com/security/web-scanner/scanConfigs?)
     
-* #### NOTE : Check All Score Upto `Task 2`
+* NOTE : Check All Score Upto `Task 2`
     
 
 **Run a**[**g**](https://console.cloud.google.com/security/web-scanner/scanConfigs?)**ain the following Commands in CloudShell**
@@ -447,8 +447,8 @@ sudo chmod +x shell-2.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724302110289/2e1c9d0a-a903-4e48-bb2e-335068ddd7dc.png align="center")
 
-Congratulations 🎉 for completing the Lab !
+**Congratulations 🎉 for completing the Lab !**
 
-##### You Have Successfully Demonstrated Your Skills And Determination.
+You Have Successfully Demonstrated Your Skills And Determination.
 
-#### Well done!
+**Well done!**
