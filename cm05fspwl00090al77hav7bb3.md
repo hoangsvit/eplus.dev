@@ -371,6 +371,11 @@ Clean Data
 
 %[https://www.youtube.com/watch?v=wxCLm9jOe-0] 
 
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text">This lab may <strong>not be completed</strong> because <strong>Google Cloud Skills Boost</strong> does <strong>not score</strong>, I do not know the reason, have made pigs the right requirements.</div>
+</div>
+
 <mark>Download file:</mark> [Copy of On The Rise Bakery Customers and Items.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1062/Copy%20of%20On%20The%20Rise%20Bakery%20Customers%20and%20Items.xlsx)
 
 The support file is the steps of **Task 1** and **Task 2** (Create a filter)
