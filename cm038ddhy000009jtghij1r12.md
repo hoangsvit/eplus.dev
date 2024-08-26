@@ -356,6 +356,8 @@ export MODEL_NAME=
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724207002013/fd71e795-7c16-4685-8253-42f691258aa0.png align="center")
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724651568860/6b4ce1f4-6414-4619-bec8-e5f091a78ff1.png align="center")
+
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Predict%20Soccer%20Match%20Outcomes%20with%20BigQuery%20ML%20Challenge%20Lab/quicklabgsp374.sh
 sudo chmod +x quicklabgsp374.sh
