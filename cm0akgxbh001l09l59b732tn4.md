@@ -15,6 +15,11 @@ tags: predict-visitor-purchases-with-a-classification-model-in-bigquery-ml-gsp22
 
 Sports are captivating, intense, and fast-paced—and with the latest technology, they’re better than ever. Start your run in the Arcade-athon and earn an exclusive Google Cloud Credential by gaining hands-on experience with Google Cloud's powerful tools and techniques that are transforming your favorite sports!
 
+### Redeem code
+
+* [https://www.cloudskillsboost.google/games/5414](https://www.cloudskillsboost.google/games/5414) (<mark>1q-arcdthon-0875</mark>)
+    
+
 ---
 
 ### Start Here (don't skip this!)
