@@ -33,3 +33,7 @@ Sports are captivating, intense, and fast-paced—and with the latest technology
 | 6 | [Data Catalog: Qwik Start](https://www.cloudskillsboost.google/games/5414/labs/35101) | [Data Catalog: Qwik Start - GSP729](https://eplus.dev/data-catalog-qwik-start-gsp729) |
 | 7 | [ETL Processing on Google Cloud Using Dataflow and BigQuery (Python)](https://www.cloudskillsboost.google/games/5414/labs/35102) | [ETL Processing on Google Cloud Using Dataflow and BigQuery (Python) - GSP290](https://eplus.dev/etl-processing-on-google-cloud-using-dataflow-and-bigquery-python-gsp290) |
 | 8 | [Perform Predictive Data Analysis in BigQuery: Challenge Lab](https://www.cloudskillsboost.google/games/5414/labs/35103) | [Perform Predictive Data Analysis in BigQuery: Challenge Lab - GSP374](https://eplus.dev/perform-predictive-data-analysis-in-bigquery-challenge-lab-gsp374) |
+
+---
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724652033045/8fc6325e-93c3-499a-b6d9-1a4d4d5c6c2a.png align="center")
