@@ -42,3 +42,5 @@ Sports are captivating, intense, and fast-paced—and with the latest technology
 ---
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724652033045/8fc6325e-93c3-499a-b6d9-1a4d4d5c6c2a.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724652301068/15754c77-7a31-443a-9c6f-feed6516dd71.png align="center")
