@@ -652,4 +652,10 @@ Test your understanding of BigQuery by completing the short quiz on the topics c
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=PuxTvzGQyIo]
+%[https://www.youtube.com/watch?v=PuxTvzGQyIo] 
+
+```apache
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/BigQuery%20Machine%20Learning%20using%20Soccer%20Data/quicklabgsp851.sh
+sudo chmod +x quicklabgsp851.sh
+./quicklabgsp851.sh
+```
