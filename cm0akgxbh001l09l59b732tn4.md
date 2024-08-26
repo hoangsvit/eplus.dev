@@ -17,6 +17,12 @@ Sports are captivating, intense, and fast-paced—and with the latest technology
 
 ---
 
+### Start Here (don't skip this!)
+
+<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Lab</strong></p></td><td colspan="1" rowspan="1"><p><strong>Solution</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.cloudskillsboost.google/games/5414/labs/35095" style="pointer-events: none">Start Here (don't skip this!)</a></p></td><td colspan="1" rowspan="1"><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://eplus.dev/start-here-dont-skip-this-arcade-lab" style="pointer-events: none">Start Here (don't skip this!) - Arcade Lab</a></p></td></tr></tbody></table>
+
+### Starting Line
+
 | Number | Lab | Solution |
 | --- | --- | --- |
 | 1 | [BigQuery Soccer Data Ingestion](https://www.cloudskillsboost.google/games/5414/labs/35096) | [BigQuery Soccer Data Ingestion - GSP848](https://eplus.dev/bigquery-soccer-data-ingestion-gsp848) |
