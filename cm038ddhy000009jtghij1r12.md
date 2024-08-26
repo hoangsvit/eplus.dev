@@ -366,6 +366,8 @@ sudo chmod +x quicklabgsp374.sh
 
 ### Task 4:
 
+Open [https://console.cloud.google.com/bigquery](https://console.cloud.google.com/bigquery)
+
 **Calculate shot distance from (x,y) coordinates**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724207296795/faa6203a-df20-47ea-8ba2-9a72d94aca0b.png align="center")
