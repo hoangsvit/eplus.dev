@@ -359,6 +359,7 @@ git clone https://github.com/GoogleCloudPlatform/terraform-google-lb-http.git
 cd ~/terraform-google-lb-http/examples/multi-backend-multi-mig-bucket-https-lb
 rm -rf main.tf
 wget https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/HTTPS%20Content-Based%20Load%20Balancer%20with%20Terraform/main.tf
+cd ~/.
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724725977945/122c439e-b919-44ee-8616-95ccb76712ba.png align="center")
@@ -368,6 +369,7 @@ wget https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/ma
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724726065407/c0f65fef-62dd-45fa-aeac-a63bd23347a3.png align="center")
 
 ```apache
+cd ~/terraform-google-lb-http/examples/multi-backend-multi-mig-bucket-https-lb
 terraform init
 terraform plan -out=tfplan -var project=$DEVSHELL_PROJECT_ID
 terraform apply tfplan
