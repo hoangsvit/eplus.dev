@@ -275,7 +275,7 @@ Apply complete! Resources: 42 added, 0 changed, 0 destroyed.
 ...
 Outputs:
 
-asset-url = https://34.96.112.153/assets/gcp-logo.svg group1_region = us-west1 group2_region = us-central1 group3_region = us-east1 load-balancer-ip = 34.96.112.153 
+asset-url = https://34.96.112.153/assets/gcp-logo.svg group1_region = us-west1 group2_region = us-central1 group3_region = us-east1 load-balancer-ip = 34.96.112.153
 ```
 
 Verify the resources created by Terraform:
@@ -341,12 +341,12 @@ Your final URLs should look like (make sure to replace `EXTERNAL_IP` with your l
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=_8HsePy4JVw] 
+%[https://www.youtube.com/watch?v=5G4kxzNuwwk] 
 
 ```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/HTTPS%20Content-Based%20Load%20Balancer%20with%20Terraform/quicklabgsp206.sh
-sudo chmod +x quicklabgsp206.sh
-./quicklabgsp206.sh
+curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/HTTPS%20Content-Based%20Load%20Balancer%20with%20Terraform/techcps206.sh
+sudo chmod +x techcps206.sh
+./techcps206.sh
 ```
 
 ---
