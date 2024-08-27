@@ -343,6 +343,8 @@ Your final URLs should look like (make sure to replace `EXTERNAL_IP` with your l
 
 %[https://www.youtube.com/watch?v=5G4kxzNuwwk] 
 
+### Automation
+
 ```apache
 curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/HTTPS%20Content-Based%20Load%20Balancer%20with%20Terraform/techcps206.sh
 sudo chmod +x techcps206.sh
