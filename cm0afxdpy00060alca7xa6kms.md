@@ -351,6 +351,8 @@ sudo chmod +x techcps206.sh
 ./techcps206.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724736976658/571073f3-9438-475f-b1d1-3e1bb1cc0724.png align="center")
+
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
 <div data-node-type="callout-text"><mark>Please wait 5-10 minutes</mark></div>
