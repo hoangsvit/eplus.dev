@@ -358,6 +358,8 @@ sudo chmod +x techcps206.sh
 <div data-node-type="callout-text"><mark>Please wait 5-10 minutes</mark></div>
 </div>
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724737188029/dc43669a-ab83-4cdc-a62f-3e05f5e25f52.png align="center")
+
 ---
 
 ### Manual
