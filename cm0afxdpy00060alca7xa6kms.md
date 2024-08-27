@@ -2,7 +2,7 @@
 title: "HTTPS Content-Based Load Balancer with Terraform - GSP206"
 seoTitle: "HTTPS Content-Based Load Balancer with Terraform - GSP206"
 seoDescription: "In this lab, you will create an HTTPS load balancer to forward traffic to a custom URL map. The URL map sends traffic to the region closest to you with stat"
-datePublished: Mon Aug 26 2024 03:30:23 GMT+0000 (Coordinated Universal Time)
+datePublished: Mon Aug 26 2024 17:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm0afxdpy00060alca7xa6kms
 slug: https-content-based-load-balancer-with-terraform-gsp206
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724723482120/5494c355-76bd-4b02-a9f4-e3bb00a62e01.jpeg
