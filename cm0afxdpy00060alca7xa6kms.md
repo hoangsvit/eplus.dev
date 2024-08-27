@@ -348,3 +348,27 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/HTTPS%20Cont
 sudo chmod +x quicklabgsp206.sh
 ./quicklabgsp206.sh
 ```
+
+---
+
+### Manual
+
+```apache
+gcloud auth list
+git clone https://github.com/GoogleCloudPlatform/terraform-google-lb-http.git
+cd ~/terraform-google-lb-http/examples/multi-backend-multi-mig-bucket-https-lb
+rm -rf main.tf
+wget https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/HTTPS%20Content-Based%20Load%20Balancer%20with%20Terraform/main.tf
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724725977945/122c439e-b919-44ee-8616-95ccb76712ba.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724726024718/bdb9f19a-c176-42a0-89ea-31f742e26f74.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724726065407/c0f65fef-62dd-45fa-aeac-a63bd23347a3.png align="center")
+
+```apache
+terraform init
+terraform plan -out=tfplan -var project=$DEVSHELL_PROJECT_ID
+terraform apply tfplan
+```
