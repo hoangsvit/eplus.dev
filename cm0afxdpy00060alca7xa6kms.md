@@ -1,13 +1,13 @@
 ---
-title: "BigQuery Soccer Data Ingestion - GSP848"
-seoTitle: "BigQuery Soccer Data Ingestion - GSP848"
+title: "HTTPS Content-Based Load Balancer with Terraform - GSP206"
+seoTitle: "HTTPS Content-Based Load Balancer with Terraform - GSP206"
 seoDescription: "Information access uses multiple formats, and BigQuery makes working with multiple data sources simple. In this lab you will get started with sports data sc"
 datePublished: Mon Aug 26 2024 03:30:23 GMT+0000 (Coordinated Universal Time)
 cuid: cm0afxdpy00060alca7xa6kms
-slug: bigquery-soccer-data-ingestion-gsp848-1
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724642764001/a1c1fcb4-4c92-4af5-9d7d-7e06486ef722.png
+slug: https-content-based-load-balancer-with-terraform-gsp206
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724723482120/5494c355-76bd-4b02-a9f4-e3bb00a62e01.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724643009532/9fbb3b4b-956a-4d15-a797-e8572b590c21.png
-tags: bigquery-soccer-data-ingestion-gsp848, gsp848
+tags: https-content-based-load-balancer-with-terraform-gsp206, gsp206
 
 ---
 
