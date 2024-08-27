@@ -360,6 +360,8 @@ sudo chmod +x techcps206.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724737188029/dc43669a-ab83-4cdc-a62f-3e05f5e25f52.png align="center")
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724737260513/b2256232-5994-4fb2-8777-3ce27ba62080.png align="center")
+
 ---
 
 ### Manual
