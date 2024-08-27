@@ -351,6 +351,11 @@ sudo chmod +x techcps206.sh
 ./techcps206.sh
 ```
 
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text"><mark>Please wait 5-10 minutes</mark></div>
+</div>
+
 ---
 
 ### Manual
