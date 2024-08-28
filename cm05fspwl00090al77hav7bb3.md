@@ -418,6 +418,10 @@ Be sure to select the cell(s) before creating the filter view.
 
 ---
 
-Task 3:
+Task 6:
 
-Download file: [quicklab1062.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1062/quicklab1062.xlsx)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724809645367/dbe40a3b-b063-4b7f-80c8-bcffad16816f.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724809649287/08e97e5c-1209-4f2f-a117-3ad54276cf77.png align="center")
+
+Download file: [quicklab1062.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1062/quicklab1062.xlsx) (final lab)
