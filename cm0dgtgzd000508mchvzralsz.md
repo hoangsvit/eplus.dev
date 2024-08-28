@@ -281,6 +281,8 @@ Use IFERROR and ISERROR.
 
 <mark>Download file:</mark> [GSP1063xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1063/techcpsgsp1063.xlsx)
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724826338713/43f4798e-12db-442e-8720-d7a1de75aaa8.png align="center")
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724825626663/9c58d681-152f-4b15-8532-2cf150501f17.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724825631424/6a2ff08e-7864-4005-b56c-3cfaeb847141.png align="center")
