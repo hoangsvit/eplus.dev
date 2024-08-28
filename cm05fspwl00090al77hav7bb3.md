@@ -373,7 +373,7 @@ Clean Data
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text">This lab may <strong>not be completed</strong> because <strong>Google Cloud Skills Boost</strong> does <strong>not score</strong>, I do not know the reason, have made pigs the right requirements.</div>
+<div data-node-type="callout-text">This laboratory may <strong>not be completed</strong> so do it by hand in the video to be graded.</div>
 </div>
 
 <mark>Download file:</mark> [Copy of On The Rise Bakery Customers and Items.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1062/Copy%20of%20On%20The%20Rise%20Bakery%20Customers%20and%20Items.xlsx)
