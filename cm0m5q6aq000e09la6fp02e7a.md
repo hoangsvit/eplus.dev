@@ -561,4 +561,21 @@ After run the query, you should see the output like the following:
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=tYHqogxrZNc]
+%[https://www.youtube.com/watch?v=tYHqogxrZNc] 
+
+### Task 1 & 2:
+
+```apache
+export ZONE=
+export REGION=
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725353403172/2a7c3396-a2c9-4b04-96a1-8a32ebb1b3ab.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725353484916/5cd8ffa2-7492-4f67-970b-1a42f6cec062.png align="center")
+
+```apache
+curl -LO https://raw.githubusercontent.com/ePlus-DEV/storage/main/labs/GSP1088/task-1-n-2.sh
+sudo chmod +x task-1-n-2.sh
+./task-1-n-2.sh
+```
