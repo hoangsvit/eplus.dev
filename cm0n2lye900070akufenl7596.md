@@ -1,12 +1,12 @@
 ---
 title: "Free Perplexity Pro for Students"
-seoTitle: "Perplexity Pro For Student"
+seoTitle: "Free Perplexity Pro for Students"
 seoDescription: "Students! Get a free month of Perplexity Pro. Just sign up with your .edu email, now through September 15: www.perplexity.ai/backtoschool"
 datePublished: Tue Sep 03 2024 23:38:35 GMT+0000 (Coordinated Universal Time)
 cuid: cm0n2lye900070akufenl7596
 slug: free-perplexity-pro-for-students
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/hWSNT_Pp4x4/upload/700da68b7351afb177a6014ce3cdd50d.jpeg
-tags: perplexityai, perplexity-pro
+tags: perplexityai, perplexity-pro, free-perplexity-pro-for-students
 
 ---
 
