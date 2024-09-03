@@ -341,3 +341,13 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/T
 sudo chmod +x gsp1145.sh
 ./gsp1145.sh
 ```
+
+### Task 3. Apply a tag template to Dataplex assets
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725370974586/2b6ee256-8580-436b-b432-7331b13e4544.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725370981153/6cbeef10-869e-46a8-8694-5489c3c3b3bb.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725370985192/873bec28-3914-4f7b-80d6-85841f4b0603.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725370990407/ab3c9373-5f8b-4870-a93c-6a590692f60d.png align="center")
