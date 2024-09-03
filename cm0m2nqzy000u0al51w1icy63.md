@@ -644,4 +644,10 @@ You are now going to configure an event in your app that will trigger the proces
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725346594888/e7087e16-01b3-4dd0-97d7-120eba4892dd.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725346776302/01a83c61-94ce-4fdf-8305-3cd19ff2575f.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725347697962/682404ab-ccac-442e-b8a4-1d1143304cee.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725347706363/d45cd188-4c2f-431a-9f07-0cabe46ba18d.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725347712025/dd4cb8bc-e3c7-4449-be06-d68204c08b03.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725347716265/e3c1143e-ac85-4f9b-ac50-b35eb0adec69.png align="center")
