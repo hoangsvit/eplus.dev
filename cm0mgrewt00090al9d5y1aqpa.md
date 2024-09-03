@@ -7,7 +7,7 @@ cuid: cm0mgrewt00090al9d5y1aqpa
 slug: tagging-dataplex-assets-gsp1145
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725369034293/edff317f-32d5-4d32-907f-d1c861d3db0d.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725370009798/6f6a8002-631d-46ee-bc5b-5da1ff6bb879.jpeg
-tags: tagging-dataplex-assets-gsp1145
+tags: tagging-dataplex-assets-gsp1145, gsp1145
 
 ---
 
