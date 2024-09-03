@@ -1,9 +1,13 @@
 ---
 title: "AppSheet to Google Chat using Webhooks from Automation Bots - GSP756"
+seoTitle: "AppSheet to Google Chat using Webhooks from Automation Bots - GSP756"
+seoDescription: "In this lab, you create a webhook and add the ability for your AppSheet app to connect to a Google Chat space. Connecting the two apps allows them to share"
 datePublished: Tue Sep 03 2024 06:52:13 GMT+0000 (Coordinated Universal Time)
 cuid: cm0m2nqzy000u0al51w1icy63
 slug: appsheet-to-google-chat-using-webhooks-from-automation-bots-gsp756
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725343658110/a18896a9-02fc-4326-9c57-df69beda6042.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725349861914/4bb1458d-b016-454e-9785-3ccb07cb457c.jpeg
+tags: appsheet-to-google-chat-using-webhooks-from-automation-bots-gsp756, gsp756
 
 ---
 
