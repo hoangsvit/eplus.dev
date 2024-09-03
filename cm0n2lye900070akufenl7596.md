@@ -15,3 +15,11 @@ Students! Get a free month of Perplexity Pro. Just sign up with your .edu email,
 You ask, Perplexity provides comprehensive, conversational answers—accurate up to the minute (with citations, of course) 🎓
 
 Perplexity can explain that confusing physics lecture. Or calculate your football team’s odds at the next home game. Or even meal plan based on what’s in your fridge. Satisfy your curiosity, and find answers faster and more reliably than ever.
+
+---
+
+Oh, we almost forgot.
+
+If your campus hits 500 signups, your whole school gets 1 year of Perplexity Pro free. Better than a pizza party, yeah? 😏 You’ve only got till Sept 15, so tell your friends!
+
+Full leaderboard here: [https://www.perplexity.ai/backtoschool](https://www.perplexity.ai/backtoschool)
