@@ -260,8 +260,6 @@ You are now going to configure an event in your app that will trigger the proces
     [Current Inventory]<[Minimum Acceptable Inventory]
     ```
     
-    Copied!content\_copy
-    
     The event will be triggered whenever a row in the Products table is updated whose current inventory is less than the minimum acceptable inventory.
     
 8. In the Expression Assistant, click **Save**.
