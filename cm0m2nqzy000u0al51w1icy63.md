@@ -639,3 +639,9 @@ You are now going to configure an event in your app that will trigger the proces
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725345896913/4a50a78e-5119-4b0e-a047-a416de6e14d7.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725346081282/6ff62c1d-0002-4b4a-b9a2-5c7e6dddb9a2.png align="center")
+
+**Create an automation task to send a message to a Google Chat space**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725346594888/e7087e16-01b3-4dd0-97d7-120eba4892dd.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725346776302/01a83c61-94ce-4fdf-8305-3cd19ff2575f.png align="center")
