@@ -19,6 +19,6 @@ Perplexity delivers precise, up-to-date answers to all your questions—with ref
 
 But wait, there’s more!
 
-If your campus reaches 500 signups, everyone at your school gets a free year of Perplexity Pro. Sounds better than a pizza party, right? 😏 The deadline is September 15th, so spread the word!
+If your campus reaches <mark>500 signups</mark>, everyone at your school gets <mark>a free year of Perplexity Pro</mark>. Sounds better than a pizza party, right? 😏 The deadline is September 15th, so spread the word!
 
 Check the full leaderboard here: [https://www.perplexity.ai/backtoschool](https://www.perplexity.ai/backtoschool).
