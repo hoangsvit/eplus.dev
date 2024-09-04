@@ -5,21 +5,20 @@ seoDescription: "Students! Get a free month of Perplexity Pro. Just sign up with
 datePublished: Tue Sep 03 2024 23:38:35 GMT+0000 (Coordinated Universal Time)
 cuid: cm0n2lye900070akufenl7596
 slug: free-perplexity-pro-for-students
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/hWSNT_Pp4x4/upload/700da68b7351afb177a6014ce3cdd50d.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725414591270/2581174b-f9c1-4e47-b975-bc2b3ce66ff5.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725415418420/1c732bdb-77b3-4898-b7e4-5b33c3993f22.jpeg
 tags: perplexityai, perplexity-pro, free-perplexity-pro-for-students
 
 ---
 
-Students! Get a free month of Perplexity Pro. Just sign up with your .edu email, now through September 15: [www.perplexity.ai/backtoschool](http://www.perplexity.ai/backtoschool)
+**Attention Students!** 🎓 Grab <mark>a free month of Perplexity Pro</mark> by signing up with your **.edu** email before <mark>September 15th</mark>: [www.perplexity.ai/backtoschool](www.perplexity.ai/backtoschool).
 
-You ask, Perplexity provides comprehensive, conversational answers—accurate up to the minute (with citations, of course) 🎓
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725415410875/c1047a82-47ea-4135-974c-38e7a7e54c44.avif align="center")
 
-Perplexity can explain that confusing physics lecture. Or calculate your football team’s odds at the next home game. Or even meal plan based on what’s in your fridge. Satisfy your curiosity, and find answers faster and more reliably than ever.
+Perplexity delivers precise, up-to-date answers to all your questions—with references included. Whether you need help deciphering a tricky physics lecture, calculating your football team’s chances at the next home game, or planning meals based on what's in your fridge, Perplexity has you covered.
 
----
+But wait, there’s more!
 
-Oh, we almost forgot.
+If your campus reaches 500 signups, everyone at your school gets a free year of Perplexity Pro. Sounds better than a pizza party, right? 😏 The deadline is September 15th, so spread the word!
 
-If your campus hits 500 signups, your whole school gets 1 year of Perplexity Pro free. Better than a pizza party, yeah? 😏 You’ve only got till Sept 15, so tell your friends!
-
-Full leaderboard here: [https://www.perplexity.ai/backtoschool](https://www.perplexity.ai/backtoschool)
+Check the full leaderboard here: [https://www.perplexity.ai/backtoschool](https://www.perplexity.ai/backtoschool).
