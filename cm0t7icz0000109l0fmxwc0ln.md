@@ -401,3 +401,7 @@ Click *Check my progress* to verify the objective.
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725777694025/ad0d9b6c-3e3b-4644-ab7a-504d5c0fa03c.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725777621675/c73ec1af-27dc-4b30-9b49-b354698360ed.png align="center")
+
+Download file: [quicklab1065.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1065/quicklab1065.xlsx)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725778766962/445e412b-7969-463d-8750-935fbe078872.png align="center")
