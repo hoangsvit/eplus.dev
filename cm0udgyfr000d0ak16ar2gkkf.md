@@ -680,6 +680,12 @@ sudo chmod +x gsp1076-1.sh
 ./gsp1076-1.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725853114298/01353989-4505-42c9-a8a8-c3d98ec99dad.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725853119057/6101a9cd-c406-4eb7-b36c-525e86a4c703.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725853122651/ad98798f-e2e5-4d84-9f72-81f644d8b894.png align="center")
+
 ---
 
 * *NOW FOLLOW VIDEO'S INSTRUCTIONS*
