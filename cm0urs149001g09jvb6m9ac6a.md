@@ -87,9 +87,9 @@ Verify Task
 | **ID** | Leave the default value. |
 | Region | Region from the Lab Details panel which is located at the left side of the lab instructions |
     
-4. Add a zone to your lake:**Customer-Lake**. Use the information below:
+3. Add a zone to your lake:**Customer-Lake**. Use the information below:
     
-5. | Display Name | Value |
+4. | Display Name | Value |
     | --- | --- |
     | **Display Name** | Public-Zone |
     | **ID** | Leave the default value. |
@@ -97,7 +97,7 @@ Verify Task
     | **Data locations** | Regional |
     | **Discovery settings** | Enable metadata discovery |
     
-6. For the **Lables** set key\_1 as: <mark>domain_type</mark> and value\_1 as: <mark>source_data</mark>
+5. For the **Lables** set key\_1 as: <mark>domain_type</mark> and value\_1 as: <mark>source_data</mark>
     
 
 Click **Check my progress** to verify the objective.
@@ -112,13 +112,12 @@ Verify Task
     
 2. Use the below configuration for the environment creation
     
-3. | Property | Value |
-    | --- | --- |
-    | Display Name | Dataplex-lake-env |
-    | Configure Compute | Number of nodes= 3 |
-    | **Enable** auto shut-down |  |
-    | Software Package | Leave the default value |
-    
+| Property | Value |
+| --- | --- |
+| Display Name | Dataplex-lake-env |
+| Configure Compute | Number of nodes= 3 |
+| **Enable** auto shut-down |  |
+| Software Package | Leave the default value | 
 
 This will create the environment which we would be using while exploring the data.
 
