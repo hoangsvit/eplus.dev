@@ -81,14 +81,16 @@ Verify Task
     
 2. Create a lake in Dataplex using the below information:
     
+
 | Property | Value |
 | --- | --- |
 | **Display Name** | Customer-Lake |
 | **ID** | Leave the default value. |
 | Region | Region from the Lab Details panel which is located at the left side of the lab instructions |
-    
+
 3. Add a zone to your lake:**Customer-Lake**. Use the information below:
     
+
 | Display Name | Value |
 | --- | --- |
 | **Display Name** | Public-Zone |
@@ -96,7 +98,7 @@ Verify Task
 | **Type** | Raw zone |
 | **Data locations** | Regional |
 | **Discovery settings** | Enable metadata discovery |
-    
+
 4. For the **Lables** set key\_1 as: <mark>domain_type</mark> and value\_1 as: <mark>source_data</mark>
     
 
@@ -112,12 +114,13 @@ Verify Task
     
 2. Use the below configuration for the environment creation
     
+
 | Property | Value |
 | --- | --- |
 | Display Name | Dataplex-lake-env |
 | Configure Compute | Number of nodes= 3 |
 | **Enable** auto shut-down |  |
-| Software Package | Leave the default value | 
+| Software Package | Leave the default value |
 
 This will create the environment which we would be using while exploring the data.
 
@@ -129,9 +132,7 @@ Verify Task
 
 **Check my progress**
 
-## **Task 4**
-
-## Create a tag template
+## **Task 4:** Create a tag template
 
 To begin tagging data, an asset must be added to the zone . A tag template is a reusable structure that can be used to swiftly create new tags. You are required to structure the tags by topic using tag templates. Therefore, in this task you must create a tag template and attach a tag template to an asset and related fields as detailed in the following table.
 
