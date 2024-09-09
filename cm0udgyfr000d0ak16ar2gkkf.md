@@ -1,7 +1,7 @@
 ---
 title: "Working with Artifact Registry - GSP1076"
 seoTitle: "Working with Artifact Registry - GSP1076"
-seoDescription: "As the evolution of Container Registry, Artifact Registry is a single place for your organization to manage container images and language packages (such as "
+seoDescription: "As the evolution of Container Registry, Artifact Registry is a single place for your organization to manage container images and language packages (such as"
 datePublished: Mon Sep 09 2024 02:17:01 GMT+0000 (Coordinated Universal Time)
 cuid: cm0udgyfr000d0ak16ar2gkkf
 slug: working-with-artifact-registry-gsp1076
@@ -666,7 +666,7 @@ In the Cloud console go to **Artifact Registry &gt; Repositories** and click int
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=C2JF3r-RHGw] 
+%[https://www.youtube.com/watch?v=HRBOkeXYQWI] 
 
 ```apache
 export ZONE=
@@ -675,7 +675,18 @@ export ZONE=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725848024462/9a8e9025-e307-4734-a0ae-704098d77652.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Working%20with%20Artifact%20Registry/quicklabgsp1076.sh
-sudo chmod +x quicklabgsp1076.sh
-./quicklabgsp1076.sh
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Working%20with%20Artifact%20Registry/gsp1076-1.sh
+sudo chmod +x gsp1076-1.sh
+./gsp1076-1.sh
+```
+
+---
+
+* *NOW FOLLOW VIDEO'S INSTRUCTIONS*
+    
+
+```apache
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Working%20with%20Artifact%20Registry/gsp1076-2.sh
+sudo chmod +x gsp1076-2.sh
+./gsp1076-2.sh
 ```
