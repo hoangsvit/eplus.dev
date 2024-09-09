@@ -81,14 +81,17 @@ Verify Task
     
 2. Create a lake in Dataplex using the below information:
     
-
-| Property | Value | | --- | --- | | **Display Name** | Customer-Lake | | **ID** | Leave the default value. | | Region | Region from the Lab Details panel which is located at the left side of the lab instructions |
-
+3.   
+    
+    | Property | Value |
+    | --- | --- |
+    | **Display Name** | Customer-Lake |
+    | **ID** | Leave the default value. |
+    | Region | Region from the Lab Details panel which is located at the left side of the lab instructions |
+    
 4. Add a zone to your lake:**Customer-Lake**. Use the information below:
     
-5.   
-    
-    | Display Name | Value |
+5. | Display Name | Value |
     | --- | --- |
     | **Display Name** | Public-Zone |
     | **ID** | Leave the default value. |
