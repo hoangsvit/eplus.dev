@@ -89,15 +89,15 @@ Verify Task
     
 3. Add a zone to your lake:**Customer-Lake**. Use the information below:
     
-4. | Display Name | Value |
-    | --- | --- |
-    | **Display Name** | Public-Zone |
-    | **ID** | Leave the default value. |
-    | **Type** | Raw zone |
-    | **Data locations** | Regional |
-    | **Discovery settings** | Enable metadata discovery |
+| Display Name | Value |
+| --- | --- |
+| **Display Name** | Public-Zone |
+| **ID** | Leave the default value. |
+| **Type** | Raw zone |
+| **Data locations** | Regional |
+| **Discovery settings** | Enable metadata discovery |
     
-5. For the **Lables** set key\_1 as: <mark>domain_type</mark> and value\_1 as: <mark>source_data</mark>
+4. For the **Lables** set key\_1 as: <mark>domain_type</mark> and value\_1 as: <mark>source_data</mark>
     
 
 Click **Check my progress** to verify the objective.
