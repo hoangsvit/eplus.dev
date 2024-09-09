@@ -188,10 +188,10 @@ gcloud container clusters get-credentials <your cluster name> --internal-ip --pr
 %[https://www.youtube.com/watch?v=ygA338iL8Mg&ab_channel=Techcps] 
 
 ```apache
-export CUSTOM_SECURIY_ROLE=orca_storage_editor_543
-export SERVICE_ACCOUNT=orca-private-cluster-634-sa
-export CLUSTER_NAME=orca-cluster-894
-export ZONE=us-east4-c
+export CUSTOM_SECURIY_ROLE=
+export SERVICE_ACCOUNT=
+export CLUSTER_NAME=
+export ZONE=
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725869997125/874e0f7b-74f8-48c9-bcaa-720a288fcb70.png align="center")
