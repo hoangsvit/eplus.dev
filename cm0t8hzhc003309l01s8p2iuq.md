@@ -170,5 +170,3 @@ Click *Check my progress* to verify the objective.
 %[https://www.youtube.com/watch?v=BGh9Bmi6uHU] 
 
 Download file: [On the Rise Bakery Business Challenge.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP379/On%20the%20Rise%20Bakery%20Business%20Challenge.xlsx) & [Staff Roles.pptx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP379/Staff%20Roles.pptx)
-
-![]( align="center")
