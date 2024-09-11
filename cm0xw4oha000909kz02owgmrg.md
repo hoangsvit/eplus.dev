@@ -413,3 +413,6 @@ To discuss your spreadsheet with team members, open Google Meet directly from Sh
 * 🚀 **Exported Data File** [**Click here!**](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP469/exported-data.csv)
     
 * 🚀 **Important Data** [**Click here!**](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP469/important-data.xlsx)
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726061051625/b9d64c37-0307-41f1-93f1-75453e217235.png align="center")
