@@ -398,7 +398,7 @@ Click *Check my progress* to verify the objective.
 
 %[https://www.youtube.com/watch?v=D_t-jjvlO5g] 
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725777694025/ad0d9b6c-3e3b-4644-ab7a-504d5c0fa03c.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726122314880/e0ca5a62-59e4-4daf-99f3-1ea7f7155ba2.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725777621675/c73ec1af-27dc-4b30-9b49-b354698360ed.png align="center")
 
