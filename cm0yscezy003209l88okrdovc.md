@@ -124,7 +124,7 @@ Calculate columns in Connected Sheets
 
 %[https://www.youtube.com/watch?v=IVshKiTX04M&ab_channel=Techcps] 
 
-### Task 2:
+### Task 2
 
 ```apache
 =COUNTIF(tlc_yellow_trips_2022!airport_fee, "1")
@@ -132,15 +132,15 @@ Calculate columns in Connected Sheets
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726114874780/c526af30-ff32-465e-a880-021c84ed4741.png align="center")
 
-### Task 3:
+### Task 3
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726114895167/80dda453-8d2e-4393-8fa8-202e46ca13da.png align="center")
 
-### Task 4:
+### Task 4
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726114911682/7e571171-f258-4b0a-97b7-ea89a29a35dd.png align="center")
 
-### Task 5:
+### Task 5
 
 ```apache
 =IF(fare_amount>0,tip_amount/fare_amount*100,0)
