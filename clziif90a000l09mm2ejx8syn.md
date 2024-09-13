@@ -177,6 +177,8 @@ export API_KEY=
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722953997099/827e42b4-3c1d-4be7-8069-b92b3b042245.png align="center")
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726211119264/1240ef9a-c470-4f33-a9cf-eb05b221714c.png align="center")
+
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Google%20Cloud%20Speech%20to%20Text%20API%20Qwik%20Start/quicklabgsp119.sh
 sudo chmod +x quicklabgsp119.sh
