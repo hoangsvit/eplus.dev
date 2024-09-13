@@ -11,7 +11,7 @@ tags: tong-hop-cach-tra-sao-ke-tu-mttq
 
 ---
 
-Mới đây Mặt trận Tổ quốc Việt Nam (MTTQ) đã tung sao kê dài 12.028 trang từ số tài khoản **Vietcombank 0011001932418** từ ngày **1/9/2024** đến ngày **10/9/2024**.
+Mới đây Mặt trận Tổ quốc Việt Nam (MTTQ) đã tung sao kê dài 12.028 trang từ số tài khoản **Vietcombank** [**0011001932418**](tel:0011001932418) từ ngày **1/9/2024** đến ngày **10/9/2024**.
 
 Link gốc: [Google Drive](https://drive.google.com/file/d/18dIWiReYtJkyuQ_8vSBJWweGaD71rBpu/view?google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D3e0c7490bdf6574d:TM%3D1726203182:C%3Dr:IP%3D2402:800:63b7:ff4f:893b:3e85:cfbd:f7c6-:S%3DjpFNM_3e1j9uAUkksfTh-J8%3B+path%3D/%3B+domain%3Dgoogle.com%3B+expires%3DFri,+13-Sep-2024+07:53:02+GMT) nguồn [Fanpage Mặt trận Tổ quốc Việt Nam](https://www.facebook.com/share/p/7f9pXRQPprLdqTYi/)
 
@@ -27,6 +27,8 @@ Tra cứu online:
 * [https://yagi.nguyen.moe/](https://yagi.nguyen.moe/)
     
 * [https://var.j2team.dev/](https://var.j2team.dev/)
+    
+* [https://lookerstudio.google.com/reporting/1ab38730-f30c-445b-95a6-56eb36893a7c/page/p\_6pmcy7b1kd](https://lookerstudio.google.com/reporting/1ab38730-f30c-445b-95a6-56eb36893a7c/page/p_6pmcy7b1kd)
     
 
 Bot tra cứu:
@@ -48,7 +50,7 @@ Tên Tài khoản: Văn phòng Uỷ ban Trung ương Mặt trận Tổ quốc Vi
 
 Số Tài khoản: 3713.0.1058784.00000
 
-Mã đơn vị quan hệ ngân sách: 1058784
+Mã đơn vị quan hệ ngân sách: [1058784](tel:1058784)
 
 Tại Sở giao dịch Kho bạc Nhà nước
 
@@ -68,7 +70,7 @@ Tại Ngân hàng TMCP Công thương Việt Nam – Chi nhánh TP Hà Nội
 
 Tên tài khoản: Ban Vận động cứu trợ Trung ương
 
-Số tài khoản: 110630051111
+Số tài khoản: [110630051111](tel:110630051111)
 
 Tại Ngân hàng TMCP Công thương Việt Nam – Chi nhánh TP Hà Nội
 
@@ -98,7 +100,7 @@ SW Code: BFTVVNVX
 
 Tên Tài khoản: Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam
 
-Số Tài khoản: 1200979797
+Số Tài khoản: [1200979797](tel:1200979797)
 
 Tại Chi nhánh Sở giao dịch 1 - Ngân hàng Thương mại cổ phần Đầu tư và Phát triển Việt Nam.
 
