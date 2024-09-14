@@ -881,8 +881,8 @@ user2
 **Assign Veriables**
 
 ```apache
-export USER2=
-export PROJECT2=
+export USER2=student-00-78d3e845b0f0@qwiklabs.net
+export PROJECT2=qwiklabs-gcp-00-abbdb15cae8c
 ```
 
 ```apache
