@@ -841,52 +841,43 @@ Because the service account has permissions, you can see the instances listed.
 **Assign Veriables**
 
 ```apache
-export PROJECT_2=
 export ZONE=
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726292797064/fa6585ed-eb6d-4e10-8889-9af85a9007c9.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Configuring%20IAM%20Permissions%20with%20gcloud/gsp647-1.sh
-sudo chmod +x gsp647-1.sh
-./gsp647-1.sh
+gcloud compute ssh centos-clean --zone=$ZONE --quiet
 ```
 
 ---
 
-### **Run again the following Commands in CloudShell**
+## Change your current zone for another zone in the same region
 
-**Assign Veriables**
+> For example, if your current zone is us-central1-a, you could select us-central1-b or "c" or "d"
 
 ```apache
-export ZONE=
+gcloud config set compute/zone $ZONE
 ```
 
 ```apache
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Configuring%20IAM%20Permissions%20with%20gcloud/gsp647-2.sh
-sudo chmod +x gsp647-2.sh
-./gsp647-2.sh
+gcloud init --no-launch-browser
 ```
 
-* Now Check Your Progress for `TASK 1` & `TASK 2` and then Follow [Video's](https://youtu.be/_6phqXHz-9I) Instructions.
-    
+> Set USERNAME 2
 
 ```apache
-user2
+export USER2=
 ```
 
-### Run again the following Commands in CloudShell
-
-**Assign Veriables**
+> Set PROJECT ID 2
 
 ```apache
-export USER2=student-00-78d3e845b0f0@qwiklabs.net
-export PROJECT2=qwiklabs-gcp-00-abbdb15cae8c
+export PROJECT_ID2=
 ```
 
 ```apache
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Configuring%20IAM%20Permissions%20with%20gcloud/gsp647-3.sh
-sudo chmod +x gsp647-3.sh
-./gsp647-3.sh
+curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Configuring%20IAM%20Permissions%20with%20gcloud/techcps.sh
+sudo chmod +x techcps.sh
+./techcps.sh
 ```
