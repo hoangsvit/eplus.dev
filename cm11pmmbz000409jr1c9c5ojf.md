@@ -832,52 +832,61 @@ Because the service account has permissions, you can see the instances listed.
 
 ---
 
-## Solution of lab  
+## Solution of lab
 
 %[https://www.youtube.com/watch?v=vSbn050BPGI&ab_channel=Techcps] 
 
+### Run the following Commands in CloudShell
+
+**Assign Veriables**
+
 ```apache
-gcloud auth login
+export PROJECT_2=
+export ZONE=
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726292797064/fa6585ed-eb6d-4e10-8889-9af85a9007c9.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Configuring%20IAM%20Permissions%20with%20gcloud/gsp647-1.sh
+sudo chmod +x gsp647-1.sh
+./gsp647-1.sh
+```
+
+---
+
+### **Run again the following Commands in CloudShell**
+
+**Assign Veriables**
 
 ```apache
 export ZONE=
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726290825658/85c7a436-7deb-4f8a-ae3b-87625f1da9a0.png align="center")
-
 ```apache
-gcloud compute ssh centos-clean --zone=$ZONE --quiet
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Configuring%20IAM%20Permissions%20with%20gcloud/gsp647-2.sh
+sudo chmod +x gsp647-2.sh
+./gsp647-2.sh
 ```
 
----
-
-**Change your current zone for another zone in the same region**
-
-> For example, if your current zone is us-central1-a, you could select us-central1-b or "c" or "d"
+* Now Check Your Progress for `TASK 1` & `TASK 2` and then Follow [Video's](https://youtu.be/_6phqXHz-9I) Instructions.
+    
 
 ```apache
-gcloud config set compute/zone $ZONE
+user2
 ```
 
-```apache
-gcloud init --no-launch-browser
-```
+### Run again the following Commands in CloudShell
 
-> Set USERNAME 2
+**Assign Veriables**
 
 ```apache
 export USER2=
-```
-
-> Set PROJECT ID 2
-
-```apache
-export PROJECT_ID2=
+export PROJECT2=
 ```
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Configuring%20IAM%20Permissions%20with%20gcloud/techcps.sh
-sudo chmod +x techcps.sh
-./techcps.sh
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Configuring%20IAM%20Permissions%20with%20gcloud/gsp647-3.sh
+sudo chmod +x gsp647-3.sh
+./gsp647-3.sh
 ```
