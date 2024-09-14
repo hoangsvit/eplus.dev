@@ -836,7 +836,7 @@ Because the service account has permissions, you can see the instances listed.
 
 %[https://www.youtube.com/watch?v=vSbn050BPGI&ab_channel=Techcps] 
 
-### Run the following Commands in CloudShell
+### Step 1: Run the following Commands in CloudShell
 
 **Assign Veriables**
 
@@ -855,7 +855,7 @@ sudo chmod +x gsp647-1.sh
 
 ---
 
-### **Run again the following Commands in CloudShell**
+### **Step 2: Run again the following Commands in CloudShell**
 
 **Assign Veriables**
 
@@ -876,7 +876,7 @@ sudo chmod +x gsp647-2.sh
 user2
 ```
 
-### Run again the following Commands in CloudShell
+### Step 3: Run again the following Commands in CloudShell
 
 **Assign Veriables**
 
