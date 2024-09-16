@@ -67,7 +67,7 @@ tags: advanced-react, module-quiz-react-hooks-and-custom-hooks-advanced-react
     
     * the `useReducer` hook cannot be used to track the state at all.
         
-    * <mark>the </mark> `useReducer` <mark> hook gets a reducer function in addition to the initial state.</mark>
+    * <mark>the </mark> `useReducer` <mark>hook gets a reducer function in addition to the initial state.</mark>
         
     * the `userReducer` hook must be used when the initial state is an object.
         
@@ -134,11 +134,19 @@ tags: advanced-react, module-quiz-react-hooks-and-custom-hooks-advanced-react
         
     * `onClick={updateRestaurantName}`
         
-    * <mark>The code inside the </mark> `updateRestaurantName()` <mark> function definition should not invoke </mark> `useRestaurantName("Little Lemon")`
+    * <mark>The code inside the </mark> `updateRestaurantName()` <mark>function definition should not invoke </mark> `useRestaurantName("Little Lemon")`
         
     * The state-setting function's variable name in the array destructuring should not be `setRestaurantName`.
         
 
 ---
 
-![]( align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726471728018/e4a57e5c-4041-4351-8e6b-d036f69be63c.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726471751467/b371e8a1-aca1-477b-a830-ef0c25c73550.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726471763481/9504c09a-e092-4bd7-8f58-3b0ebe02ccf5.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726471777397/2af82cfe-3bc4-4334-8227-161d17a7d51c.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726471791664/a337efb5-3687-4d96-b6ef-9b45bd1aaaef.png align="center")
