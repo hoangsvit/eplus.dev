@@ -23,11 +23,11 @@ tags: advanced-react, module-quiz-components-advanced-react
     
     `<li>Ice cream - 200 cal</li>`**, where the name and the number of calories are coming as dynamic data. Select all the options that would correctly render the desired output:**
     
-    * &lt;li&gt;{Ice cream - 200 {[item.cal](http://item.cal)}}&lt;/li&gt;
+    * &lt;li&gt;{Ice cream - 200 {item.cal}}&lt;/li&gt;
         
-    * <mark>&lt;li&gt;{</mark>[<mark>item.name</mark>](http://item.name)<mark>} - {</mark>[<mark>item.cal</mark>](http://item.cal)<mark>} cal&lt;/li&gt;</mark>
+    * <mark>&lt;li&gt;{item.name} - {item.ca</mark>[<mark>l</mark>](http://item.cal)<mark>} cal&lt;/li&gt;</mark>
         
-    * <mark>&lt;li&gt;{${&lt;/mark&gt;[&lt;mark&gt;item.name&lt;/mark&gt;](http://item.name)&lt;mark&gt;} - ${&lt;/mark&gt;[&lt;mark&gt;item.cal&lt;/mark&gt;](http://item.cal)&lt;mark&gt;} cal}&lt;/li&gt;</mark>
+    * <mark>&lt;li&gt;{${&lt;/mark&gt;&lt;mark&gt;item.name&lt;/mark&gt;&lt;mark&gt;} - ${&lt;/mark&gt;&lt;mark&gt;item.cal&lt;/mark&gt;&lt;mark&gt;} cal}&lt;/li&gt;</mark>
         
 3. **Let’s suppose you have a list of two items and a new item is added to the list. From the point of view of the React diffing algorithm, what’s the most optimal position for the new element added?** Select all that apply
     
