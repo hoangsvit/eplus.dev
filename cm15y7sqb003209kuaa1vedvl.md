@@ -77,9 +77,9 @@ tags: ux, ui, module-quiz-design-and-test-uiux
         
 9. **A grid is the intersection of rows and columns that create units of space. Each design element (text, images or buttons) fits into modules.**
     
-    * <mark>True</mark>
+    * True
         
-    * False
+    * <mark>False</mark>
         
 10. **Which of these elements are included in typography terminology? Select all that apply.**
     
