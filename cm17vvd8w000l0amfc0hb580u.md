@@ -1,10 +1,10 @@
 ---
-title: "Apple Intelligence & Siri sẽ hỗ trợ Tiếng Việt vào năm 2025"
-seoTitle: "Apple Intelligence & Siri sẽ hỗ trợ Tiếng Việt vào năm 2025"
+title: "Apple Intelligence & Siri sẽ được hỗ trợ Tiếng Việt vào năm 2025"
+seoTitle: "Apple Intelligence & Siri sẽ được hỗ trợ Tiếng Việt vào năm 2025"
 seoDescription: "Apple hôm nay đã công bố thêm nhiều ngôn ngữ sẽ được Apple Intelligence hỗ trợ trong năm tới. Các tính năng đầu tiên của Apple Intelligence sẽ ra mắt độc qu"
 datePublished: Wed Sep 18 2024 13:13:07 GMT+0000 (Coordinated Universal Time)
 cuid: cm17vvd8w000l0amfc0hb580u
-slug: apple-intelligence-siri-se-ho-tro-tieng-viet-vao-nam-2025
+slug: apple-intelligence-siri-se-duoc-ho-tro-tieng-viet-vao-nam-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/uSooyF1X0s8/upload/3fcfa4c432d3ba23d194b9250d172d1d.jpeg
 tags: siri, apple-intelligence
 
