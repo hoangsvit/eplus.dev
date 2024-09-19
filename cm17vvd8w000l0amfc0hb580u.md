@@ -5,8 +5,8 @@ seoDescription: "Apple hôm nay đã công bố thêm nhiều ngôn ngữ sẽ �
 datePublished: Wed Sep 18 2024 13:13:07 GMT+0000 (Coordinated Universal Time)
 cuid: cm17vvd8w000l0amfc0hb580u
 slug: apple-intelligence-siri-se-duoc-ho-tro-tieng-viet-vao-nam-2025
-cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/uSooyF1X0s8/upload/3fcfa4c432d3ba23d194b9250d172d1d.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726711706264/f4f4d12c-af57-4c43-931d-927d10e1321d.avif
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726711841874/72cfb6b0-9959-4c64-99a5-6dd63775fac6.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726711855282/5ed652bb-363e-4832-b9c9-3412d98d0c1e.png
 tags: siri, apple-intelligence
 
 ---
