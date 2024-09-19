@@ -6,6 +6,7 @@ datePublished: Wed Sep 18 2024 13:13:07 GMT+0000 (Coordinated Universal Time)
 cuid: cm17vvd8w000l0amfc0hb580u
 slug: apple-intelligence-siri-se-duoc-ho-tro-tieng-viet-vao-nam-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/uSooyF1X0s8/upload/3fcfa4c432d3ba23d194b9250d172d1d.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726711706264/f4f4d12c-af57-4c43-931d-927d10e1321d.avif
 tags: siri, apple-intelligence
 
 ---
