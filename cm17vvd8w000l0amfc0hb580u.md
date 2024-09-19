@@ -19,6 +19,8 @@ Khi ra mắt, Apple Intelligence yêu cầu thiết bị của bạn được đ
 
 Đây là cách hỗ trợ ngôn ngữ sẽ mở rộng: Đầu tiên, vào tháng 12 năm nay, Apple sẽ hỗ trợ các biến thể bản địa hóa của tiếng Anh, ngoài tiếng Anh Mỹ. Vào tháng 12 năm 2024, tiếng Anh Anh sẽ được hỗ trợ cùng với các bản địa hóa tiếng Anh cho Úc, Canada, New Zealand và Nam Phi. (Hỗ trợ này có thể sẽ đi kèm với phiên bản phần mềm iOS 18.2, mà cũng được đồn đại sẽ bao gồm các tính năng như Genmoji, Image Playgrounds và tích hợp hệ thống ChatGPT.)
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726730533963/81c0f1ea-8e8d-4a67-9c17-d707012ab073.jpeg align="center")
+
 Sau đó, vào năm 2025, Apple sẽ triển khai hỗ trợ ban đầu cho các ngôn ngữ không phải tiếng Anh. Các ngôn ngữ đã được công bố cho năm 2025 bao gồm:
 
 * Tiếng Trung
