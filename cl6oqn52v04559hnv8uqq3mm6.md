@@ -7,7 +7,6 @@ cuid: cl6oqn52v04559hnv8uqq3mm6
 slug: cloud-source-repositories-qwik-start-gsp121
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723010799037/899c89d3-fb94-4647-94f5-842325e2e58a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723011236181/b85276c5-adfd-4975-95ee-00fc32c9b555.png
-tags: cloud-source-repositories-qwik-start-gsp121, gsp121
 
 ---
 
