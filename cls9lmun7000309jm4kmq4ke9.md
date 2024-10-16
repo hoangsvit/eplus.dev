@@ -7,7 +7,6 @@ cuid: cls9lmun7000309jm4kmq4ke9
 slug: apple-ra-mat-ngon-ngu-lap-trinh-moi-pkl
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1707184939184/30f78136-9dbb-4ba9-9880-ba2747f5f3f0.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1707184948925/3cbf73fb-09ef-4512-b6d3-e194b37732db.png
-tags: apple
 
 ---
 
