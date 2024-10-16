@@ -7,7 +7,6 @@ cuid: clyf8cdnw000308jm4066fogb
 slug: module-quiz-introduction-to-html-and-css
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720578739117/53bd860f-3874-4243-9bfa-bb37740ee00f.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1720579037056/a48f03e5-e367-4fc9-8d52-71fa1ed02403.png
-tags: css, html
 
 ---
 
