@@ -7,7 +7,6 @@ cuid: cm0nmbkud000f0bk3405e0fjh
 slug: the-arcade-base-camp-september-2024-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725438584119/7f05b010-a02b-411a-8694-e0a63ab2227f.avif
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725439810183/aa73c349-2044-40e4-9fc7-557521ccfc2b.avif
-tags: the-arcade-base-camp-september-2024, the-arcade-base-camp-september-2024-solution
 
 ---
 
