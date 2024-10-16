@@ -7,7 +7,6 @@ cuid: clyuwtp8v00000ajp3d476ahk
 slug: self-review-make-and-change-directories-and-files
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721527132066/c2701b6e-6bea-45a6-82ee-e531a52bdad0.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721527153950/5f03d50c-63ff-493f-98c3-aae84d0b9964.png
-tags: github, git-version-control
 
 ---
 
