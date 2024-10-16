@@ -7,7 +7,6 @@ cuid: cm10900tz000y0ak04vrn8ghq
 slug: tong-hop-cach-tra-sao-ke-tu-mttq
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726203009262/8fc40b16-3b28-4bf6-a3f6-403fed223114.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726203485972/3c1863c8-ab83-414c-af82-1c65c2a33d6b.jpeg
-tags: tong-hop-cach-tra-sao-ke-tu-mttq
 
 ---
 
