@@ -7,7 +7,6 @@ cuid: cly72f7de000209lb0tywaw32
 slug: mongodb-database-administrator-tools
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720083991961/d0df0811-4270-4d1e-bc51-da30a97e8fdc.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1720085360423/66d3631c-a373-4a4b-ad4a-498a655cde3d.png
-tags: mongodb-database-administrator-tools, mongodb-database, mongodb-database-administrator, mongodb-tool
 
 ---
 
