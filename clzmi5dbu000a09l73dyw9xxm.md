@@ -7,7 +7,6 @@ cuid: clzmi5dbu000a09l73dyw9xxm
 slug: google-kubernetes-engine-qwik-start-gsp100
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723195169062/fd64d21a-a298-463f-a41f-4c7bcc5ee728.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723195556829/6f545a1c-d698-409b-8caa-fab538a50e78.png
-tags: google-kubernetes-engine-qwik-start-gsp100, gsp100
 
 ---
 
