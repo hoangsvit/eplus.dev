@@ -9,7 +9,6 @@ cuid: cm0ahmn3t000a0albcbw3ab0d
 slug: data-catalog-qwik-start-gsp729
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724645675670/cc23199b-b866-4b73-a881-95abe7c1904d.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724645866199/3739a445-0446-4587-8a59-2cf7cae37b37.jpeg
-tags: data-catalog-qwik-start-gsp729, gsp729
 
 ---
 
