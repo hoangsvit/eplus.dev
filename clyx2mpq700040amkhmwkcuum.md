@@ -7,7 +7,6 @@ cuid: clyx2mpq700040amkhmwkcuum
 slug: self-review-create-a-grid-layout
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721657765507/fbb56fda-2134-4ad0-b62f-a1c3310a30c7.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721657839217/f2d93977-f469-47b3-99cb-19329a16f392.png
-tags: flexbox, css3, css, html, html5, flex-vs-grid
 
 ---
 
