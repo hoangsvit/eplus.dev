@@ -4,10 +4,9 @@ seoTitle: "Google tặng 5.000 suất học bổng từ chương trình Nhân T�
 seoDescription: "CHÍNH THỨC RA MẮT KHÓA HỌC GOOGLE AI ESSENTIALS & MỞ 5.000 SUẤT HỌC BỔNG"
 datePublished: Fri Jul 12 2024 01:32:15 GMT+0000 (Coordinated Universal Time)
 cuid: clyi0w4j0000109juedp406ji
-slug: google-tang-5000-suat-hoc-bong-tu-chuong-trinh-nhan-tai-so
+slug: google-tang-5-000-suat-hoc-bong-tu-chuong-trinh-nhan-tai-so
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720747851890/a5b714e7-b179-41b9-90e9-51ff550e589f.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1720747896646/d1e8fba5-bb09-4ab4-b5c7-a614a58b8623.jpeg
-tags: ai, google, coursera, nhan-tai-so, google-ai-essentials
 
 ---
 
