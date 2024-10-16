@@ -7,7 +7,6 @@ cuid: cm0um9vwn004409l94ge3gq9o
 slug: creating-dynamic-secrets-for-google-cloud-with-vault-gsp1007
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725862708625/115d1834-a3a8-4d88-bdce-2832299d5383.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725862990159/ef4a5ed2-7727-4ee2-9717-8ab833de66b8.jpeg
-tags: creating-dynamic-secrets-for-google-cloud-with-vault-gsp1007, gsp1007
 
 ---
 
