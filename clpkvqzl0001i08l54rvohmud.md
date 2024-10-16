@@ -6,7 +6,6 @@ cuid: clpkvqzl0001i08l54rvohmud
 slug: get-2-months-free-of-perplexity-pro
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1701329568622/5d1d89cd-4095-4140-92f4-c74fb644d415.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1701329616044/e9336fe7-d221-4caf-8e64-4d93f9928191.png
-tags: ai, chatgpt, gpt-4, perplexityai, perplexity
 
 ---
 
