@@ -7,7 +7,6 @@ cuid: clr5pdoev000109l4ctphe4iv
 slug: trang-web-duoc-tao-thong-qua-trang-doanh-nghiep-tren-google-se-som-bi-xoa
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704765371828/df8c09f4-c056-41b0-90d0-afaa3001dffd.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1704765513057/1de981a7-0e6f-4c11-8b23-7970081bb06c.png
-tags: google, google-business-profile, goole-business
 
 ---
 
