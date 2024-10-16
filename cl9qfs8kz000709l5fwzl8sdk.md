@@ -7,7 +7,6 @@ cuid: cl9qfs8kz000709l5fwzl8sdk
 slug: share-script-kich-hoat-idm-cuc-sach-khong-lo-virus
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1666836742052/cVeLjhEuj.jpg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1666837100003/fGzBmLLlu.jpg
-tags: idm
 
 ---
 
