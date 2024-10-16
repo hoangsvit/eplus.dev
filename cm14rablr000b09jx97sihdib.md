@@ -7,7 +7,6 @@ cuid: cm14rablr000b09jx97sihdib
 slug: self-review-writing-more-test-scenarios-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726476059524/1ba98bbc-377d-4a51-afe7-0423fc62df59.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726476078902/4d2f1d8a-baae-461f-8290-f235964d8a18.jpeg
-tags: advanced-react, self-review-writing-more-test-scenarios-advanced-react
 
 ---
 
