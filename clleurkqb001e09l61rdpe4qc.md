@@ -8,7 +8,6 @@ slug: livewire-real-time-presence
 canonical: https://ahmedash.dev/blog/livewire/real-time-presence/?utm_source=eplus.dev
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692257887549/90067cff-f66f-4ccd-bf38-e70771a1b00d.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1692258046712/c5b56ecb-4fd5-4907-8605-7e16917b1ebb.webp
-tags: laravel, real-time, livewire, livewire-real-time, laravel-real-time
 
 ---
 
