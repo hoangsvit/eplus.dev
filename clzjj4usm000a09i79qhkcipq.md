@@ -7,7 +7,6 @@ cuid: clzjj4usm000a09i79qhkcipq
 slug: design-pattern-trong-thuc-te
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723015664515/cdff27c0-f10a-4280-bc9b-87805319aaf3.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723015801919/6328b105-b1f4-4346-aafd-04cc2c2923e5.jpeg
-tags: design-patterns, design-patterns-in-javascript, design-pattern-trong-thuc-te
 
 ---
 
