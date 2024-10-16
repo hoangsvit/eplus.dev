@@ -7,7 +7,6 @@ cuid: clomdxk6r000d09jy008e7c7m
 slug: swags-unboxing-compose-camp-2023-chienbinhandroid
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1699242711969/a3b347ed-3f6b-4b68-b9f4-d04ff2c51cd5.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1699243845336/0beacad0-6895-443f-b6be-2b302ce740d1.jpeg
-tags: compose-camp, chienbinhandroid
 
 ---
 
