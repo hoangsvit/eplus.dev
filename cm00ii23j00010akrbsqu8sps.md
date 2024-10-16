@@ -7,7 +7,6 @@ cuid: cm00ii23j00010akrbsqu8sps
 slug: self-review-song-selection-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724042626882/86a3ff18-651d-4ef8-a5ef-cbfe4b7969d8.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724042675345/114ce7b4-e57b-4b1e-b965-5c8baa1acf85.png
-tags: react-basic, self-review-song-selection-react-basic
 
 ---
 
