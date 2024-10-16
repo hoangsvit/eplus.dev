@@ -7,7 +7,6 @@ cuid: cm0z30cgv001w0aku6gg6aqkq
 slug: self-review-create-a-registration-form-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726132843989/3e7a4003-2170-4ffa-b6f6-49df94c09309.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726132968162/9c482781-b2c7-436f-a866-d4162894a025.jpeg
-tags: advanced-react, self-review-create-a-registration-form-advanced-react
 
 ---
 
