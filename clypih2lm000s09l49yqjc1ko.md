@@ -7,7 +7,6 @@ cuid: clypih2lm000s09l49yqjc1ko
 slug: module-quiz-introduction-to-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721199605041/511729a2-9536-43c3-af23-7a67946b1860.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721200685393/66d78a7a-b0f8-4c42-a3e8-26a1fbc8eb94.png
-tags: javascript
 
 ---
 
