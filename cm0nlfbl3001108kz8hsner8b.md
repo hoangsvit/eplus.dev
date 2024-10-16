@@ -7,7 +7,6 @@ cuid: cm0nlfbl3001108kz8hsner8b
 slug: build-a-bi-dashboard-using-looker-studio-and-bigquery-gsp403
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725438276897/1fe8b19f-728f-41b8-9c16-1d8923525062.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725438305104/5c30f244-ec5f-4d30-a97d-c742570f6b79.jpeg
-tags: build-a-bi-dashboard-using-looker-studio-and-bigquery-gsp403, gsp403
 
 ---
 
