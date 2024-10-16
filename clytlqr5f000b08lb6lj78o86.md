@@ -7,7 +7,6 @@ cuid: clytlqr5f000b08lb6lj78o86
 slug: knowledge-check-javascript-in-the-browser
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721448036398/8c182644-9516-47e7-85ef-86bb3c459b74.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721448052230/4f40a685-8686-42e3-a08a-664b2d21bc9a.png
-tags: javascript
 
 ---
 
