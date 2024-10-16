@@ -7,7 +7,6 @@ cuid: cluawrcur000808l00w1sgs8h
 slug: analyze-speech-language-with-google-apis-challenge-lab
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711610540070/ae8b1174-9372-469c-8c6f-c1b9b5682699.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1711610550253/226c6806-7612-4dfa-86ed-0478740b1a04.png
-tags: analyze-speech-language, google-apis, natural-language-api
 
 ---
 
