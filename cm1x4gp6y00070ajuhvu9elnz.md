@@ -4,10 +4,9 @@ seoTitle: "UI/UX - Final Graded Quiz"
 seoDescription: "UI/UX - Final Graded Quiz"
 datePublished: Sun Oct 06 2024 05:07:53 GMT+0000 (Coordinated Universal Time)
 cuid: cm1x4gp6y00070ajuhvu9elnz
-slug: uiux-final-graded-quiz
+slug: ui-ux-final-graded-quiz
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728191188709/fce609b4-79d4-44ed-b4a1-c8bc1b9bdde3.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728191260053/7ebb019e-00b0-4163-893f-3564ebf34fd7.png
-tags: uiux-final-graded-quiz
 
 ---
 
