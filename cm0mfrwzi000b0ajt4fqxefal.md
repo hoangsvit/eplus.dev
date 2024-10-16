@@ -7,7 +7,6 @@ cuid: cm0mfrwzi000b0ajt4fqxefal
 slug: networking-101-gsp016
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725367621687/cb566197-a9bc-4294-82fa-2269380a8001.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725368276714/5f24fff4-25eb-4142-a323-75a93bad26c8.jpeg
-tags: networking-101-gsp016, gsp016
 
 ---
 
