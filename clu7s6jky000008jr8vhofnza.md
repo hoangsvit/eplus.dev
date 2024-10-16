@@ -7,7 +7,6 @@ cuid: clu7s6jky000008jr8vhofnza
 slug: laravel-herd-on-windows-is-now-available
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711421104050/d9ac8a95-d671-48ee-a6d3-c90abf828838.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1711421472774/60a0e7aa-0f3e-4d10-95ce-485bbf00a93d.jpeg
-tags: windows, macos, laravel-herd, laravel-herd-on-windows
 
 ---
 
