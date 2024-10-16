@@ -7,7 +7,6 @@ cuid: clpc4ayo5000308ib52ne3vpl
 slug: getting-started-with-mongodb-atlas
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1700799661870/04427262-d140-4f38-b631-c1342cc4a96e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1700799785679/9270bb89-9bf5-46c8-8262-10b0d00263d8.png
-tags: mongodb, mongodb-atlas, multicloud
 
 ---
 
