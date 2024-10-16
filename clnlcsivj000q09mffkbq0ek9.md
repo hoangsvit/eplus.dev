@@ -7,7 +7,6 @@ cuid: clnlcsivj000q09mffkbq0ek9
 slug: laravel-approved-new-model-data-before-it-persisted
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1697004490104/a8625b04-94b8-4470-9f70-f3fdba8dcb2e.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1697004691754/2a6ac7b4-daba-4920-a332-f92d7ffd6c17.jpeg
-tags: laravel, model
 
 ---
 
