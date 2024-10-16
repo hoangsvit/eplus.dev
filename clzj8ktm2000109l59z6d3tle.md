@@ -7,7 +7,6 @@ cuid: clzj8ktm2000109l59z6d3tle
 slug: understanding-and-analyzing-your-costs-with-google-cloud-billing-reports-gsp614
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722997527895/b8a5936a-ac16-4e22-a27a-78f3d5305595.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722998070459/6980c12a-e9e5-49ea-9fe0-5df424c31554.png
-tags: understanding-and-analyzing-your-costs-with-google-cloud-billing-reports-gsp614, gsp614
 
 ---
 
