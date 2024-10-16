@@ -7,7 +7,6 @@ cuid: clcsgkky1000008l07trf70je
 slug: the-difference-between-self-static-and-parent-in-php
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1673489439535/de9ebb2d-8de2-47f3-9954-2bb92794afb0.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1673489476600/2d22a16f-8f93-4759-8572-9d2c1a8c5a92.png
-tags: php
 
 ---
 
