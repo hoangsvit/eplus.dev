@@ -7,7 +7,6 @@ cuid: cltdq7tzj000009js5yooa99e
 slug: laravel-11-scheduled-for-release-on-tuesday-march-12th-2024
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1709604119936/930a9a83-ea4b-4ae1-9ecb-036e8ca38d1d.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1709604202475/f11c853e-55f8-46d8-9ae0-023590ef1783.webp
-tags: websockets, laravel-11, laravel-websocket, laravel-support-policy
 
 ---
 
