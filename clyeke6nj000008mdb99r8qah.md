@@ -7,7 +7,6 @@ cuid: clyeke6nj000008mdb99r8qah
 slug: programming-assignment-styling-a-page
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720537838104/9d411ed5-698c-4aba-a43a-17c9efc092c6.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1720538813563/37392971-dbbd-44ed-9040-d40ff7624f81.png
-tags: css
 
 ---
 
