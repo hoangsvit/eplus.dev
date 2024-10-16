@@ -7,7 +7,6 @@ cuid: cla7u7hq2000c08mlgu99c1ul
 slug: search-engine-optimization-concepts
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1667883205316/By1lukfpv.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1667889249458/WVwG5PLRd.png
-tags: seo, search-engine-optimization
 
 ---
 
