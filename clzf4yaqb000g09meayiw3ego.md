@@ -7,7 +7,6 @@ cuid: clzf4yaqb000g09meayiw3ego
 slug: self-review-dynamic-events-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722749996004/6e9f4f7a-c932-4e6d-8d0f-448c1948e11b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722750129449/ef947884-910f-4366-a1ef-5db5f5ccd870.png
-tags: react-basic, self-review-dynamic-events-react-basic
 
 ---
 
