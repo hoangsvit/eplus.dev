@@ -7,7 +7,6 @@ cuid: cm14r1gyw001h08l899ilhwh4
 slug: knowledge-check-reusing-behavior-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726475626719/af67e24f-455d-4d8a-9170-d5199ddbb945.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726475666966/0b92dd2f-720f-4fb6-8566-f334dc20d54a.jpeg
-tags: advanced-react, knowledge-check-reusing-behavior-advanced-react
 
 ---
 
