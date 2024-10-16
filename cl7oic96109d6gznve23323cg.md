@@ -6,7 +6,6 @@ cuid: cl7oic96109d6gznve23323cg
 slug: packages-beautiful-log-viewer-for-laravel
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1662364757610/3sm3lcHbx.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1662366870896/tBZsKoHow.png
-tags: laravel, packages
 
 ---
 
