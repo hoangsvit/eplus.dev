@@ -7,7 +7,6 @@ cuid: cl99oijcg000109mk6zpac8mf
 slug: cloud-sql-for-postgresql-qwik-start-gsp152
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722995096635/3b9809e4-41ef-459d-a4da-2b97653d8e38.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722995180091/4fb0bec6-8998-4e98-97c1-fa89c04c039c.png
-tags: cloud-sql-for-postgresql-qwik-start-gsp152, gsp152
 
 ---
 
