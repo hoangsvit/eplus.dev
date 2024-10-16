@@ -7,7 +7,6 @@ cuid: cm14onur4000v0ajs4rmb17an
 slug: module-quiz-react-hooks-and-custom-hooks-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726471640843/82284a21-3b9e-4ab2-a071-fea55c7f4471.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726471671456/8ec0fdf4-27b2-4e8c-83e3-4080ffa5dc5a.jpeg
-tags: advanced-react, module-quiz-react-hooks-and-custom-hooks-advanced-react
 
 ---
 
