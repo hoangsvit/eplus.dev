@@ -6,7 +6,6 @@ cuid: clqqgkzvw000608kzft1chnth
 slug: viettel-tang-dung-luong-4g-mien-phi-nhan-dip-cuoi-nam
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1703843573740/bf9141e4-4034-4076-9604-ad5bd9c312c6.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1703843703068/e42d5bf8-9563-4e90-a2bd-a968a7701e1d.jpeg
-tags: vietteltelecom, goicuocviettel, viettel
 
 ---
 
