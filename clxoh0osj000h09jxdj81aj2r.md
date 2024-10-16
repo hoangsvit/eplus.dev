@@ -7,7 +7,6 @@ cuid: clxoh0osj000h09jxdj81aj2r
 slug: knowledge-check-describe-cost-management-in-azure
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718960968833/a134cbb4-cce5-4181-b70f-d440cac3fe3b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1718960978880/7513cba3-e84e-4400-95ab-44ae11af7830.png
-tags: azure, microsoft-cost-management
 
 ---
 
