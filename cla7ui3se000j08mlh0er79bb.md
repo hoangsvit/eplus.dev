@@ -6,7 +6,6 @@ cuid: cla7ui3se000j08mlh0er79bb
 slug: free-for-developers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1667889678693/xXP1AH-yg.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1667889703019/wzdx-FOWF.png
-tags: paas, saas, devops, iaas
 
 ---
 
