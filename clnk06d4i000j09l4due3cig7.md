@@ -7,7 +7,6 @@ cuid: clnk06d4i000j09l4due3cig7
 slug: improve-debugging-output-with-laravel-dumper
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696922487382/38126a53-7d64-44a3-a552-e6a5852518bc.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1696923033960/69032e87-1841-41df-b779-f15d40167281.webp
-tags: laravel, debugging
 
 ---
 
