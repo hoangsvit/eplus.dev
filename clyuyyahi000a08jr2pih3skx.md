@@ -7,7 +7,6 @@ cuid: clyuyyahi000a08jr2pih3skx
 slug: self-review-managing-a-project-in-github
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721530707252/8bfcd304-c823-4a5d-91f6-c6f0c2734b0b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721530728352/a32b8cf6-79c6-424c-ba4d-7d1cbce7f12e.png
-tags: github, git, git-version-control
 
 ---
 
