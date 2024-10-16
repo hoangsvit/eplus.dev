@@ -7,7 +7,6 @@ cuid: cldyo78ev00060akz1gyycy93
 slug: export-eloquent-models-to-json-files
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1676042007611/350fcc70-282f-49de-a74a-507249eedf40.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1676042103259/c93edda9-fa26-42c1-87ec-109b399d4d37.png
-tags: laravel
 
 ---
 
