@@ -7,7 +7,6 @@ cuid: clzjjz0bo002009idbhshbvqh
 slug: a-tour-of-firebase-gsp1132-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723016519724/e0876279-f4e4-489c-b0b6-4b62dff7a96c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723017216708/9f128d8c-d546-4fc3-9fce-64692f4be9b9.png
-tags: a-tour-of-firebase-gsp1132, gsp1132
 
 ---
 
