@@ -7,7 +7,6 @@ cuid: clkdlkqne000o09l65mwifr6p
 slug: netflix-viet-nam-chinh-thuc-tien-hanh-xac-minh-thiet-bi-thuoc-ho-gia-dinh
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690004322056/40430f34-d241-4a85-af9d-ef839d8c9639.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1690005348814/51e252b9-084c-479b-aa51-41073786d4af.png
-tags: news, netflix
 
 ---
 
