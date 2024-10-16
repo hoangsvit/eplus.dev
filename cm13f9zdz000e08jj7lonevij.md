@@ -7,7 +7,6 @@ cuid: cm13f9zdz000e08jj7lonevij
 slug: chronicle-siem-multi-event-rules-gsp1099
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726395118062/18408dda-dda5-4ca5-8f28-15648cd8440c.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726395423134/a4efa5ce-46c4-489d-a2ae-78100ca0eedd.jpeg
-tags: chronicle-siem-multi-event-rules-gsp1099, gsp1099
 
 ---
 
