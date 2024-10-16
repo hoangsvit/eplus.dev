@@ -7,7 +7,6 @@ cuid: clyux84vm000009mg0ethhhpd
 slug: knowledge-check-unix-commands
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721527807371/1e54ed73-5c6a-4a77-9972-bba39c459037.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721527828548/f1957b41-2c33-46ba-8271-373edf49873a.png
-tags: git, git-version-control
 
 ---
 
