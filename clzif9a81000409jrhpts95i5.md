@@ -7,7 +7,6 @@ cuid: clzif9a81000409jrhpts95i5
 slug: the-arcade-base-camp-august-2024
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722948809227/e8a0d78f-149d-4bbc-8f8e-32ee7cbaad19.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722948830911/955dd73d-191d-4f59-855d-9c440aa297c6.png
-tags: the-arcade-base-camp-august-2024, the-arcade-trivia-august-2024-week-1, the-arcade-trivia-august-2024-week-2, level-2-machine-learning-and-ai-skills, level-1-application-development-and-deployment, level-3-level-up-your-cloud-functions-skills, the-arcade-certification-zone-august-2024, the-arcade-athon
 
 ---
 
