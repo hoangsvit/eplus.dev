@@ -7,7 +7,6 @@ cuid: cm0n2lye900070akufenl7596
 slug: free-perplexity-pro-for-students
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725414591270/2581174b-f9c1-4e47-b975-bc2b3ce66ff5.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725415418420/1c732bdb-77b3-4898-b7e4-5b33c3993f22.jpeg
-tags: perplexityai, perplexity-pro, free-perplexity-pro-for-students
 
 ---
 
