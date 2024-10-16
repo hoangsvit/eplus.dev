@@ -7,7 +7,6 @@ cuid: clyvmrads000109jnh57c4i9p
 slug: self-review-rate-the-media
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721570637489/fb8cd39d-c3fc-4557-8a27-362156f80062.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721570703749/2c4eaa7e-8c3f-44dc-b108-d75e71dee412.png
-tags: html, html5, media, html-tags, html-media
 
 ---
 
