@@ -6,7 +6,6 @@ cuid: cllaha9ci000u08l436of419x
 slug: workshop-build-your-ai-powered-applications-with-mongodb-and-aws
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691993344328/6cc22669-a638-4a33-b5f8-4d78f1c24295.avif
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1691993502515/58ef5d0e-0ff6-4c11-9ad1-c87865dee666.avif
-tags: ai, aws, mongodb, ai-powered, solutions-architect
 
 ---
 
