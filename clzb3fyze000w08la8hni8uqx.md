@@ -7,7 +7,6 @@ cuid: clzb3fyze000w08la8hni8uqx
 slug: modernize-infrastructure-and-applications-with-google-cloud
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722505034039/cd927fe6-e667-4f95-9e2b-f89b5f083532.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722505719329/2f59be16-c003-42b9-84ef-c535b9f61eab.png
-tags: cloud-digital-leader-learning-path, modernize-infrastructure-and-applications-with-google-cloud
 
 ---
 
