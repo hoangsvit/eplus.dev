@@ -7,7 +7,6 @@ cuid: clyu72s9c000709jmci1r8amq
 slug: final-graded-quiz-programming-with-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721483885163/2ca349f3-db00-48f1-a231-c09fe4fc2a6c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721483900664/baefd656-9991-4b56-bf2c-2ca0965a79ea.png
-tags: javascript
 
 ---
 
