@@ -5,8 +5,8 @@ seoDescription: "Chúng tôi xin trân trọng thông báo rằng trang web củ
 datePublished: Wed Oct 16 2024 15:13:10 GMT+0000 (Coordinated Universal Time)
 cuid: cm2c0hlpg000009l8beo57b6u
 slug: trang-web-da-hoat-dong-tro-lai-website-is-now-back-online
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729091549842/b5477d7f-19f0-4fda-8951-b3e740664d57.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1729091564486/4a8291f4-b2ee-44a4-8c89-66248aaea111.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729092058269/b1cfb492-1f23-4571-a13a-78a374f749aa.avif
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1729092079968/e0b6f03e-8c72-49ce-8ca5-f116e6c8b050.avif
 tags: web-development
 
 ---
