@@ -7,7 +7,6 @@ cuid: clzcfbsxc00040amahdjsfkvc
 slug: module-quiz-interactive-css
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722585555014/579c1ff1-7b6f-4ce4-9f6a-0d2e0ee81ab6.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722586157882/1a58c9e7-5f7b-45b0-ae57-9b19c493c9f6.png
-tags: css3, css, css-animation, cssselector, module-quiz-interactive-css, interactive-css
 
 ---
 
