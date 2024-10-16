@@ -7,7 +7,6 @@ cuid: clzb3ptnl000808la32nh2qr0
 slug: scaling-with-google-cloud-operations
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722506005332/347e40e3-adcb-490d-8895-e2945755ada8.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722506182161/dc244b52-4290-4cd4-854e-131515f1d215.png
-tags: cloud-digital-leader-learning-path, scaling-with-google-cloud-operations
 
 ---
 
