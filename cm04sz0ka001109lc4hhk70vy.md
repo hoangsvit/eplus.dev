@@ -7,7 +7,6 @@ cuid: cm04sz0ka001109lc4hhk70vy
 slug: identify-application-vulnerabilities-with-security-command-center
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724301450181/4531e5a8-dac0-4b90-94d8-180738ec2f1b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724302126657/d115c579-91c6-445c-8e22-66f5aaaa06b9.png
-tags: identify-application-vulnerabilities-with-security-command-center
 
 ---
 
