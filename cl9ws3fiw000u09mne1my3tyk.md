@@ -7,7 +7,6 @@ cuid: cl9ws3fiw000u09mne1my3tyk
 slug: github-profile-achievements
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1667219691569/0KMsfsxuK.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1667220553409/q33zu0RH2.png
-tags: github, github-profile-achievements
 
 ---
 
