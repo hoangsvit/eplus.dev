@@ -7,7 +7,6 @@ cuid: cluox6qo1000a08lc9k1r58xl
 slug: cloud-natural-language-api-qwik-start-gsp097
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712457787670/099309f0-018f-4efa-bc9d-79ed618d20c0.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1712457801338/43556b8c-8ec2-41ca-93d9-ab1a1ca18e95.png
-tags: rest-api, nlp, natural-language, sentiment-analysis, cloud-natural-language-api
 
 ---
 
