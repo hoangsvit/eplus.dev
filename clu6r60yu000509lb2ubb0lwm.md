@@ -7,7 +7,6 @@ cuid: clu6r60yu000509lb2ubb0lwm
 slug: create-and-manage-alloydb-databases-challenge-lab
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711359257610/afa28aa6-0190-46c7-b4df-4e6fd5a9f7fd.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1711359307411/5b7218a3-05a9-497f-a121-52ea9a026dce.png
-tags: databases, alloydb, alloydb-databases, cloud-console
 
 ---
 
