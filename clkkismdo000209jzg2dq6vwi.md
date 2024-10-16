@@ -7,7 +7,6 @@ cuid: clkkismdo000209jzg2dq6vwi
 slug: gmail-email-address-trick-for-multiple-accounts
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690423561214/ad06fdef-8dac-4e35-8cca-b1ff0759b91c.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1690423578483/fac40f05-d5b4-4ef2-bd5c-f6449962ed1c.jpeg
-tags: gmail
 
 ---
 
