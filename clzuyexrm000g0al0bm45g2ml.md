@@ -7,7 +7,6 @@ cuid: clzuyexrm000g0al0bm45g2ml
 slug: implementing-least-privilege-iam-policy-bindings-in-cloud-run-apprun
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723706267985/b6d898c5-76e3-4f89-ad80-0101eabbb007.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723706601833/94454c57-758d-412e-a934-ba016781934f.png
-tags: the-arcade-base-camp-august-2024, implementing-least-privilege-iam-policy-bindings-in-cloud-run-apprun
 
 ---
 
