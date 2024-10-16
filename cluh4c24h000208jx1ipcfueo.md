@@ -7,7 +7,6 @@ cuid: cluh4c24h000208jx1ipcfueo
 slug: http-load-balancer-with-cloud-armor
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711986063431/ff046929-0b3f-4126-8da6-f3eb9fc98cb9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1711986075148/6b6cd179-40b1-4570-9d29-47e1e4a072e0.png
-tags: http, https, load-balancer, virtual-private-cloud, cloud-armor
 
 ---
 
