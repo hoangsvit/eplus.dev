@@ -7,7 +7,6 @@ cuid: clkmpyl2r000009l78v3eegkv
 slug: chuong-trinh-chienbinhandroid-hoc-android-mien-phi-voi-compose-camp
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690556631235/e97121c2-a2a6-4809-8e91-c7ff33095a30.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1690556900249/303e0005-aad3-4899-893f-d39543e3ae1f.png
-tags: android, google, compose-camp, chienbinhandroid
 
 ---
 
