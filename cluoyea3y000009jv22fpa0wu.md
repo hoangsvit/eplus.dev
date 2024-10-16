@@ -7,7 +7,6 @@ cuid: cluoyea3y000009jv22fpa0wu
 slug: analyze-sentiment-with-natural-language-api-challenge-lab-arc130
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712459493423/6f44ac23-d7ec-4f94-899a-7b279d7d1813.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1712459499415/b385939c-9cfa-4c99-b28e-b3689c377c42.png
-tags: google-cloud, natural-language-api, cloud-natural-language-api, analyze-sentiment
 
 ---
 
