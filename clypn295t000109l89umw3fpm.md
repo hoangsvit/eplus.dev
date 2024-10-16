@@ -7,7 +7,6 @@ cuid: clypn295t000109l89umw3fpm
 slug: knowledge-check-introduction-to-functional-programming-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721208389049/3c7b0025-e75a-4b8a-be08-ca4eb42e7e9f.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721208416053/f1abd2a7-d502-4529-9231-8fb86210ace5.png
-tags: javascript
 
 ---
 
