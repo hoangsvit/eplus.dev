@@ -7,7 +7,6 @@ cuid: clzp09wek000408l60jptdy45
 slug: building-virtual-agent-fulfillment-gsp792
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723288991930/41be19fe-12ff-4592-957a-93bb710a1bbf.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723346929700/7dec03a2-72f0-44f5-8e48-afb1309a7eb5.png
-tags: building-virtual-agent-fulfillment-gsp792, gsp792
 
 ---
 
