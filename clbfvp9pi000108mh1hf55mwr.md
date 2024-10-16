@@ -27,7 +27,6 @@ cuid: clbfvp9pi000108mh1hf55mwr
 slug: google-xu-huong-tim-kiem-noi-bat-trong-nam-2022-tai-viet-nam
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670552561188/cc_QdxWTJ.jpg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1670552268329/j5Rrc2Qi7.jpg
-tags: google, google-search
 
 ---
 
