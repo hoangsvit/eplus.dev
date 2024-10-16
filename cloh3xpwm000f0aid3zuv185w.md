@@ -7,7 +7,6 @@ cuid: cloh3xpwm000f0aid3zuv185w
 slug: tinkerwell-4-is-out-now
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698928642146/2e537515-4126-4f5d-8b77-d6bd9f0d53b4.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1698928744127/e384f146-c249-4a50-a221-193f85a739e3.webp
-tags: laravel, tinkerwell
 
 ---
 
