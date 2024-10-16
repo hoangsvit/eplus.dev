@@ -7,7 +7,6 @@ cuid: clxohfqkz001d09l98dxd8nz2
 slug: knowledge-check-describe-features-and-tools-for-managing-and-deploying-azure-resources
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718961696802/adbf83bb-aa11-42f0-87c6-c9081244cd67.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1718961711543/c887976f-8216-4bb7-af9a-49108dcbb46c.png
-tags: azure, azure-resource-manager, azure-cloud-shell
 
 ---
 
