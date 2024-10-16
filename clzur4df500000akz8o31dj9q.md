@@ -7,7 +7,6 @@ cuid: clzur4df500000akz8o31dj9q
 slug: deploying-a-containerized-application-on-cloud-run
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723693993665/ad5f726e-f020-4e8b-8874-6c9bf2c6a24f.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723694335136/36cffab3-848e-40b6-997e-845088a63e6a.png
-tags: the-arcade-base-camp-august-2024, deploying-a-containerized-application-on-cloud-run
 
 ---
 
