@@ -4,10 +4,9 @@ seoTitle: "Implement CI/CD Pipelines on Google Cloud: Challenge Lab - GSP393"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
 datePublished: Mon Sep 09 2024 04:38:21 GMT+0000 (Coordinated Universal Time)
 cuid: cm0uiipro000208l69cav3m6e
-slug: implement-cicd-pipelines-on-google-cloud-challenge-lab-gsp393
+slug: implement-ci-cd-pipelines-on-google-cloud-challenge-lab-gsp393
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725856043036/b395586f-d771-4f5a-81fd-d6b5bf61dee3.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725856679812/4ffc8b20-a3a1-429e-ab44-9e2c226133a2.jpeg
-tags: implement-cicd-pipelines-on-google-cloud-challenge-lab-gsp393, gsp393
 
 ---
 
