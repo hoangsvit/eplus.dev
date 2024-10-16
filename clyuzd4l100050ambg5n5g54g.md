@@ -7,7 +7,6 @@ cuid: clyuzd4l100050ambg5n5g54g
 slug: end-of-course-graded-assessment-git
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721531390233/415f3203-588e-404c-bdce-f494cc0503cb.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721531420655/381c757a-e69e-4907-bbc4-3da3bf5a9aed.png
-tags: github, git, git-version-control
 
 ---
 
