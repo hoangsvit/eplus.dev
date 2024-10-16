@@ -7,7 +7,6 @@ cuid: clxofarnj00010al6hx0k1obb
 slug: knowledge-check-describe-azure-compute-and-networking-services
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718958119167/1c4c70ea-4b07-4cf5-880d-8a11975a3bfd.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1718958101277/5983c615-e73c-448e-a60e-01e261ee7994.png
-tags: azure, virtual-desktop-infrastructure, computer-services
 
 ---
 
