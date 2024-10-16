@@ -8,7 +8,6 @@ slug: working-with-markdown-in-php
 canonical: https://ashallendesign.co.uk/blog/working-with-markdown-in-php
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691254445101/863155b7-4afe-497e-bf80-e17a1111b588.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1691254484964/8d50643e-5314-4f3d-bf4f-6be4d2b2100b.png
-tags: laravel, php, markdown
 
 ---
 
