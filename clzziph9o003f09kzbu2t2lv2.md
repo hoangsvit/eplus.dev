@@ -7,7 +7,6 @@ cuid: clzziph9o003f09kzbu2t2lv2
 slug: setting-up-a-private-kubernetes-cluster-gsp178
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723982087473/5b60ba16-715a-4e74-98d0-173efcb6e937.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723982552852/cd1639a9-050b-4007-b21c-824016606334.png
-tags: setting-up-a-private-kubernetes-cluster-gsp178, gsp178
 
 ---
 
