@@ -7,7 +7,6 @@ cuid: clyvj5str00020ammce031680
 slug: knowledge-check-open-graph-protocol
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721564595341/24482018-5d57-4a69-9801-9b16486441cf.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721564661690/1818db21-c051-44e3-9baa-043f6c86b0d0.png
-tags: web-development, html, html5, open-graph-protocol, ogp
 
 ---
 
