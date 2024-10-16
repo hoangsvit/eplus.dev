@@ -7,7 +7,6 @@ cuid: cm0udgyfr000d0ak16ar2gkkf
 slug: working-with-artifact-registry-gsp1076
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725847059886/158bc106-a4a6-4c48-a31a-cb13dd81c271.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725848205462/969a6133-bd15-40a9-b667-c127ad8f4f15.jpeg
-tags: gsp1076, working-with-artifact-registry-gsp1076
 
 ---
 
