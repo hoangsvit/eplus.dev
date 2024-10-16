@@ -7,7 +7,6 @@ cuid: clukkehls000508l2cyinhmpo
 slug: build-and-execute-mysql-postgresql-and-sqlserver-to-data-catalog-connectors-gsp814
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712194384180/65961220-e33d-4f89-aff1-7a786318501f.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1712194395113/a36b67ab-81a8-462c-bdfd-63207410c962.png
-tags: sql-server, postgresql, mysql, data-catalog-connectors
 
 ---
 
