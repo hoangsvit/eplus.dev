@@ -4,7 +4,7 @@ seoTitle: "Foundations of Project Management - Module 1 Challenge"
 seoDescription: "Foundations of Project Management - Module 1 Challenge"
 datePublished: Sat Oct 12 2024 02:56:08 GMT+0000 (Coordinated Universal Time)
 cuid: cm25ked02000709jm9pjyag9e
-slug: foundations-of-project-management-module-1-challenge-1
+slug: foundations-of-project-management-module-1-challenge
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728701711559/6230de5d-b0db-425f-9940-52c5a5da81bf.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728701750013/86434baf-e4fa-45dd-8e45-bf79bcf0f1af.png
 
