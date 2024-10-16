@@ -7,7 +7,6 @@ cuid: clyejdeob000408k14rm101rw
 slug: programming-assignment-creating-an-html-document
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720536965694/f7aa4567-e61a-496f-a32e-f96f031c1f1c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1720537069641/273d3415-1b2d-492f-a70a-22bdb83cdcb2.png
-tags: html
 
 ---
 
