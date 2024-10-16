@@ -7,7 +7,6 @@ cuid: clypmhmor000z0alfdnx4ahal
 slug: programming-assignment-building-a-functional-program-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721207276416/15bbac01-f3cf-4c35-8e43-77800301e3ae.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721207457217/9e70ef92-23d8-4092-9e5c-068a5bca79bf.png
-tags: javascript
 
 ---
 
