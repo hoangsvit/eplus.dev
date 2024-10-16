@@ -7,7 +7,6 @@ cuid: cm02jyopp000209l4dtad4lcs
 slug: bigquery-soccer-data-ingestion-gsp848
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724165920495/5decc0e0-e94e-4a52-b940-65159c13693c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724166059696/c159465f-4b44-462b-9782-b33ee921401b.png
-tags: bigquery-soccer-data-ingestion-gsp848, gsp848
 
 ---
 
