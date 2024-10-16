@@ -7,7 +7,6 @@ cuid: cm14q5h3e000s0al74iocdtep
 slug: knowledge-check-jsx-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726474058716/e4994f6a-2777-4366-a4d3-e7e6f30e82ea.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726474127419/7f53ccab-aee3-4cf6-aa04-1fa2dbff79bd.jpeg
-tags: advanced-react, knowledge-check-jsx-advanced-react
 
 ---
 
