@@ -7,7 +7,6 @@ cuid: cly5uyena000609ifc6c9d268
 slug: mongodb-indexes-ii
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720010615727/388f8c27-9ae8-4182-8e4d-65197c38a889.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1720012342594/1164a21c-1aff-4732-8c2a-9eb2b0b11506.png
-tags: mongodb, mongodb-indexes
 
 ---
 
