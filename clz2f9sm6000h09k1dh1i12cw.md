@@ -7,7 +7,6 @@ cuid: clz2f9sm6000h09k1dh1i12cw
 slug: creating-a-virtual-machine-gsp001
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721981346070/b7cce2df-720e-42b0-8c9f-89e145f5fada.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721981365755/7e5d5050-15c2-48ea-9704-06a2c4b52918.png
-tags: creating-a-virtual-machine-gsp001, creating-a-virtual-machine
 
 ---
 
