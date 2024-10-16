@@ -7,7 +7,6 @@ cuid: cljdnqrwv000009l6fym64msu
 slug: 30-great-python-projects-to-help-you-master-it-in-2023
 canonical: https://www.udemy.com/course/great-python-projects
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1687832215807/7e1d8d5b-e879-4c80-87bd-78686911b6c3.jpeg
-tags: python
 
 ---
 
