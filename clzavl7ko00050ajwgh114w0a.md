@@ -7,7 +7,6 @@ cuid: clzavl7ko00050ajwgh114w0a
 slug: innovating-with-google-cloud-artificial-intelligence
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722491790149/4a02c372-961a-4660-a67b-9ca7ea53dc42.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722492510436/f8d20e3e-56aa-4b0e-86db-2de264c00d68.png
-tags: cloud-digital-leader-learning-path, innovating-with-google-cloud-artificial-intelligence
 
 ---
 
