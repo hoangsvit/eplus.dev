@@ -7,7 +7,6 @@ cuid: cm0t7icz0000109l0fmxwc0ln
 slug: pivot-tables-in-google-sheets-gsp1065
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725776695016/543e4a05-0f76-4226-85ba-a57882e26b6b.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725777726191/ad2c1968-4f59-4d3a-8345-2509b0c738c0.jpeg
-tags: pivot-tables-in-google-sheets-gsp1065, gsp1065
 
 ---
 
