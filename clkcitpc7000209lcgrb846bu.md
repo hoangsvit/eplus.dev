@@ -7,7 +7,6 @@ cuid: clkcitpc7000209lcgrb846bu
 slug: apple-pay-bat-dau-ho-tro-the-visa-cua-tpbank-va-vpbank-o-viet-nam
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689939778767/9c429091-2454-4e37-b32e-5c1c6ddb32ed.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1689940260554/6d6b0ffb-b700-4ef6-be3a-5688fc9da967.webp
-tags: apple, payment
 
 ---
 
