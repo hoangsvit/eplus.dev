@@ -18,7 +18,7 @@ When you take a challenge lab, you will not be taught new Google Cloud concepts.
 
 To score 100% you must successfully complete all tasks within the time period!
 
-This lab is recommended for students who have enrolled in the [Manage Kubernetes in Google Cloud quest and have previously completed the](https://google.qwiklabs.com/quests/116) introductory [Deploy to Kubernetes in Google Cloud quest. Are you ready for the challenge?](https://google.qwiklabs.com/quests/116)
+This lab is recommended for students who have enrolled in the Manage Kubernetes in Google Cloud quest and have previously completed the introductory Deploy to Kubernetes in Google Cloud quest. Are you ready for the challenge?
 
 [***1***](https://google.qwiklabs.com/quests/116)***. Go to log base metric***
 
@@ -37,7 +37,7 @@ severity=WARNING
 
 ***5\. Click Create Metric.***
 
-Make s[ure to use online notepad which I wa](https://google.qwiklabs.com/quests/116)s using
+Make sure to use online notepad which I was using
 
 %[https://www.youtube.com/watch?v=vsaqpdaXhfg&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
