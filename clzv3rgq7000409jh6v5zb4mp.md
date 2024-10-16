@@ -7,7 +7,6 @@ cuid: clzv3rgq7000409jh6v5zb4mp
 slug: predict-visitor-purchases-with-a-classification-model-in-bigquery-ml-gsp229
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723715246709/10f09498-3ca4-4cea-a647-6c2abc2c668a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723715581758/b3141f24-5984-450f-b460-053f97a71d14.png
-tags: predict-visitor-purchases-with-a-classification-model-in-bigquery-ml-gsp229, gsp229
 
 ---
 
