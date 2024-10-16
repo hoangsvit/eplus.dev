@@ -7,7 +7,6 @@ cuid: cluk0991i000308l8beohhm9z
 slug: creating-measures-and-dimensions-using-lookml-gsp890
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712160707862/b09444f5-371b-4891-88b9-10f5c0dfbc27.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1712160637930/33815f5b-a25a-45cf-922a-6c5d4db27fff.png
-tags: google-cloud, lookml
 
 ---
 
