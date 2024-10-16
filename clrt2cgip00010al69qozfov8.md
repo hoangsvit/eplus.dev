@@ -8,7 +8,6 @@ cuid: clrt2cgip00010al69qozfov8
 slug: viettel-mien-phi-1-thang-data-5g
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1706177272405/ef523cb8-d783-4f0f-a5c8-3f877d21b2af.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1706177656217/3b1696a6-17cc-442f-82e8-b0ef314e1de3.png
-tags: vietteltelecom, viettel
 
 ---
 
