@@ -8,7 +8,6 @@ cuid: clofwy62f00030amfals76d8t
 slug: tinkerwell-v4-launch-on-thursday
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698854765277/0801a741-4cd9-4da5-9a5c-bc5e42974143.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1698854777173/e389e12e-95ae-4b68-9a8d-0b5d4799b1b3.jpeg
-tags: tinkerwell
 
 ---
 
