@@ -7,7 +7,6 @@ cuid: clyx26pjf000209l79ekg6b2i
 slug: create-a-grid-layout
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721656909016/08f212ff-c073-42c5-b1fc-1739d680424a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721657071953/ec9f230c-7d7f-4d77-9f85-c76bf1965ad8.png
-tags: flexbox, css3, css, flex-css
 
 ---
 
