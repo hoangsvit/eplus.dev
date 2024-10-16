@@ -7,7 +7,6 @@ cuid: clhfx2mqh00000aljdga2hazo
 slug: small-but-powerful-cli-apps-with-minicli
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683615075700/855e124c-0db5-43cc-abee-662f474b491a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1683615261761/40d6aca3-f786-4a4e-be9f-f5b17d3249ed.png
-tags: laravel, cli
 
 ---
 
