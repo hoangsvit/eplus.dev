@@ -7,7 +7,6 @@ cuid: cm00siz2x000e09md2sy5d8zp
 slug: knowledge-check-rendering-lists-in-react-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724059494675/6dc625ea-f55b-4122-b2aa-ce5c03697c9d.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724059513321/3f74293c-1e6f-4fc1-8e5f-8a8ba78c7eb1.png
-tags: advanced-react, knowledge-check-rendering-lists-in-react-advanced-react
 
 ---
 
