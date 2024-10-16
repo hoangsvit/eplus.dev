@@ -7,7 +7,6 @@ cuid: clzkprnik001209kx2szzhaq2
 slug: app-dev-setting-up-a-development-environment-python-gsp183
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723087345630/2bfe9756-1bb7-42a1-95b2-8b48773fd5e8.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723087417140/5d259d95-041f-45c3-bda7-584f0870064a.png
-tags: app-dev-setting-up-a-development-environment-python-gsp183, gsp183
 
 ---
 
