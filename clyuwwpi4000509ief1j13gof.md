@@ -7,7 +7,6 @@ cuid: clyuwwpi4000509ief1j13gof
 slug: make-and-change-directories-and-files
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721527215788/00502333-6480-476f-a958-7ee4020408f9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721527290637/fa790732-ba1e-4eac-b899-b0ff9e1a0c8f.png
-tags: git, git-version-control
 
 ---
 
