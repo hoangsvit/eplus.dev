@@ -7,7 +7,6 @@ cuid: clzp2saaq000b09ieh2lx37ie
 slug: deploy-a-hugo-website-with-cloud-build-and-firebase-pipeline-gsp747
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723350722033/592d9caf-921e-4a36-9b89-0c5cc4b79694.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723351143749/ea3bebb0-c27f-4e25-98fb-f37017ba5c39.png
-tags: deploy-a-hugo-website-with-cloud-build-and-firebase-pipeline-gsp747, gsp747
 
 ---
 
