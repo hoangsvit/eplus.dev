@@ -7,7 +7,6 @@ cuid: clk2ev90j000209l21g8ugtpi
 slug: upload-download-file-toc-do-cao-va-website-google-drive-player
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689328920294/34719231-adab-4e6a-b66c-c551607067b6.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1689328967652/3460802e-60db-4466-9579-a401968cedb0.png
-tags: upload, download, google-drive, player
 
 ---
 
