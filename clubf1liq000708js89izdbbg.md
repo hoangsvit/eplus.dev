@@ -7,7 +7,6 @@ cuid: clubf1liq000708js89izdbbg
 slug: manage-kubernetes-in-google-cloud-challenge-lab
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711641229187/783021c6-b204-437c-acbc-71cbe0df9412.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1711641237567/c238d83d-801c-46c5-9b13-8d9ed41efe99.png
-tags: google-cloud, kubernetes, google-cloud-platform, query, google-cloud-apis
 
 ---
 
