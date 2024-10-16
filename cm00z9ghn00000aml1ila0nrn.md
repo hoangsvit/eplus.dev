@@ -7,7 +7,6 @@ cuid: cm00z9ghn00000aml1ila0nrn
 slug: implement-devops-workflows-in-google-cloud-challenge-lab-gsp330
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724070581364/7f50ea3a-248d-4230-b7cb-4ce196bb5959.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724070828000/0b92a200-cec4-43c6-bcba-9bde1484d48a.png
-tags: implement-devops-workflows-in-google-cloud-challenge-lab-gsp330, gsp330
 
 ---
 
