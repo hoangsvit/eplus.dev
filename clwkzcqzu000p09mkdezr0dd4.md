@@ -7,7 +7,6 @@ cuid: clwkzcqzu000p09mkdezr0dd4
 slug: huong-dan-nhan-key-vietmap-live-3-nam-mien-phi-tren-bm9-bs10
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716572958708/2db61336-3edb-4137-82c4-796fc7b1ff24.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1716573167375/c763726f-f783-48ba-a4e4-6fcbd4e9e9e3.jpeg
-tags: vietmap
 
 ---
 
