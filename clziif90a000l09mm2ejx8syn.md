@@ -7,7 +7,6 @@ cuid: clziif90a000l09mm2ejx8syn
 slug: speech-to-text-api-qwik-start-gsp119
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722953353434/1a6a0571-5e47-446b-af26-49e858e445d7.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722954155655/6f660fc8-fdae-4660-9352-b7f4ce335848.png
-tags: speech-to-text-api-qwik-start-gsp119, gsp119
 
 ---
 
