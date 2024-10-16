@@ -7,7 +7,6 @@ cuid: cm1vxerm3000w08l4b1jpe5fk
 slug: knowledge-check-improving-the-experience
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728118897100/f1ee757b-8c9c-4ac6-885c-219a4127d5a9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728118951989/82a0dc59-2701-466c-9720-74296cea4c0e.png
-tags: knowledge-check-improving-the-experience
 
 ---
 
