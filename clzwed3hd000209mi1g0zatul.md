@@ -7,7 +7,6 @@ cuid: clzwed3hd000209mi1g0zatul
 slug: troubleshooting-data-models-in-looker-gsp1019
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723793372572/619b494d-d826-4902-9f9f-f5c239cfed3f.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723793857034/d25e69b1-add9-4234-8364-85dbfa17cc64.png
-tags: troubleshooting-data-models-in-looker-gsp1019, gsp1019
 
 ---
 
