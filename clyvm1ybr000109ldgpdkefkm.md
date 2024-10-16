@@ -7,7 +7,6 @@ cuid: clyvm1ybr000109ldgpdkefkm
 slug: self-review-create-a-complex-form
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721569481371/0d182681-51f6-49f9-981c-93a58d3d528c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721569515077/5cff6dea-6037-4a19-8cdd-5e3facb5fe0f.png
-tags: forms, html, html5, form-validation, html-tags
 
 ---
 
