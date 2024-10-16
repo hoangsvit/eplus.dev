@@ -7,7 +7,6 @@ cuid: cl6q5sp8303s4fdnv71js4krz
 slug: 8-website-download-mockup-danh-cho-ui-design-co-the-ban-chua-biet
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1660289510979/rlu12CebH.jpg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1660289961654/a_cpYDXMh.jpg
-tags: ui-kit, uikit, mockup
 
 ---
 
