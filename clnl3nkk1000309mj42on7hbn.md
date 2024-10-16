@@ -7,7 +7,6 @@ cuid: clnl3nkk1000309mj42on7hbn
 slug: laravel-eloquent-tips
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696989215288/8835f219-8091-4094-8f97-47f2e5b9f856.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1696989335282/7ccdb584-55ec-4546-9bf1-3609e8092d9b.png
-tags: laravel, tips, eloquent
 
 ---
 
