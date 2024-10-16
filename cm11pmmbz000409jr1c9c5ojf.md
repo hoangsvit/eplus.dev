@@ -9,7 +9,6 @@ cuid: cm11pmmbz000409jr1c9c5ojf
 slug: configuring-iam-permissions-with-gcloud-gsp647
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726290268569/59e72015-2394-4a8d-b882-7d31ec8207fa.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726291874949/f5b571df-230e-4794-962f-941bf8493af5.jpeg
-tags: configuring-iam-permissions-with-gcloud-gsp647, gsp647
 
 ---
 
