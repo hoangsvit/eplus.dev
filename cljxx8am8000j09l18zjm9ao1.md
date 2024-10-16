@@ -7,7 +7,6 @@ cuid: cljxx8am8000j09l18zjm9ao1
 slug: chia-se-ban-quyen-anyviewer-professional
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689056948399/27eedef5-963a-4d89-9538-02f88e9f6b16.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1689057469304/497a6240-817f-4cb1-b377-3c2ca42e57c2.png
-tags: anyviewer-professional, anyviewer
 
 ---
 
