@@ -7,7 +7,6 @@ cuid: clzc6lfpi000008mebmc331yf
 slug: self-review-transforming-and-transitioning-elements
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722568767163/3eab5bf7-cdb8-41bc-a611-32c3fa8f4abd.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722571452306/e37f99e0-28ae-4a50-9d0f-2a2edf8e409b.png
-tags: html5, html-tags, self-review-transforming-and-transitioning-elements
 
 ---
 
