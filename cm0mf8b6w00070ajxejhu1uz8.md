@@ -7,7 +7,6 @@ cuid: cm0mf8b6w00070ajxejhu1uz8
 slug: network-tiers-optimizing-network-spend-gsp219
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725367164294/95b8678b-66b7-4c60-b811-b2773e06b79d.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725367438030/e3edc3c2-f386-4850-8555-f10195f07aab.jpeg
-tags: network-tiers-optimizing-network-spend-gsp219, gsp219
 
 ---
 
