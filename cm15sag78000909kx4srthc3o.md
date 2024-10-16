@@ -7,7 +7,6 @@ cuid: cm15sag78000909kx4srthc3o
 slug: knowledge-check-what-is-ux
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726538174148/4bdb5f91-96f6-4d23-b1ad-96c6c950c694.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726538227653/5f38bf2e-bf18-4be2-b811-83f18c9a9326.jpeg
-tags: uiux, knowledge-check-what-is-ux
 
 ---
 
