@@ -7,7 +7,6 @@ cuid: cm1vttpvx000v09ld0yeea0t8
 slug: knowledge-check-adding-components
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728112265946/aca413ad-74c5-4370-a801-e6b3bf52aebc.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728112926105/7c6c63a8-df93-49fc-9ee0-efe6ef615a36.png
-tags: knowledge-check-adding-components
 
 ---
 
