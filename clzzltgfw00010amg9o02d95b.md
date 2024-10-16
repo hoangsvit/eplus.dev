@@ -7,7 +7,6 @@ cuid: clzzltgfw00010amg9o02d95b
 slug: configure-secure-rdp-using-a-windows-bastion-host-challenge-lab-gsp303
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723984743027/1069af7c-71f0-4b98-9410-d94f8d1c9c5a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723987776505/7863a6fa-aac1-4472-9eb2-b25e516da660.png
-tags: configure-secure-rdp-using-a-windows-bastion-host-challenge-lab-gsp303, gsp303
 
 ---
 
