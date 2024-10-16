@@ -7,7 +7,6 @@ cuid: clcq8ga5t000208jqf9fwfwde
 slug: laravel-10-bug-hunt
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1673355090743/7588672e-d0d9-41fa-a31e-e8f401ecae9f.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1673355111821/84967475-2576-4c87-b01c-2dbd61be9dfa.jpeg
-tags: laravel
 
 ---
 
