@@ -7,7 +7,6 @@ cuid: cm11mqnvo00030amf891oa1o2
 slug: automating-response-to-phishing-with-cortex-xsoar-gsp951
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726286890370/323398e6-7934-404c-ad4f-8a5d2d29ae71.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726286942493/6fad86a0-e40d-41f1-be6d-729fd6ece68b.jpeg
-tags: automating-response-to-phishing-with-cortex-xsoar-gsp951, gsp951
 
 ---
 
