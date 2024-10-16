@@ -9,7 +9,6 @@ cuid: clzp6gkl700030alc7418akhj
 slug: arcade-hero-enter-the-cloud-function-php-arc233
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723357300967/798ba806-8837-4625-9553-05dbc6332e74.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723357314259/183b8a1e-aedc-4900-bb97-af43849cd128.png
-tags: arcade-hero-enter-the-cloud-function-php-arc233, arc233
 
 ---
 
