@@ -7,7 +7,6 @@ cuid: cm0z3xfc7000d09l961johnof
 slug: self-review-create-a-light-dark-theme-switcher-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726134481256/826f6535-9e36-4b36-8aac-6a1f449d0537.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726134502767/3d521b63-5aca-49a3-80c8-2438237cd0de.jpeg
-tags: advanced-react, self-review-create-a-light-dark-theme-switcher-advanced-react
 
 ---
 
