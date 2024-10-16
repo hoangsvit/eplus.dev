@@ -7,7 +7,6 @@ cuid: clulaibkc000h08i1d8omev8y
 slug: filtering-explores-with-lookml-gsp892
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712238261372/52eacb0e-2754-4977-8bf5-cc5a52280861.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1712238322937/edb475a6-9f03-45b3-94bc-b7338b87651b.png
-tags: google-cloud, lookml
 
 ---
 
