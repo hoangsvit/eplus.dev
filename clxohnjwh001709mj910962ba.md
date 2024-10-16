@@ -7,7 +7,6 @@ cuid: clxohnjwh001709mj910962ba
 slug: knowledge-check-describe-monitoring-tools-in-azure
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718961999356/12a180bc-73b8-4be2-a769-eb1e4f7fc2b4.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1718962013380/00ae8d88-7bfa-4b3d-b9f5-ae9ef0dd9935.png
-tags: azure, virtual-machines, azure-log-analytics, azure-advisor, azure-service-health
 
 ---
 
