@@ -7,7 +7,6 @@ cuid: cluh3u7g6000208l90wnbhtcr
 slug: vpc-networks-controlling-access
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711985233804/d247b28d-e6c3-4d77-932b-3929c696122e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1711985270645/1343bab3-0ee0-42b2-a58b-e8c9e8811e3e.png
-tags: vpc-networks, controlling-access
 
 ---
 
