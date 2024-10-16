@@ -7,7 +7,6 @@ cuid: clyvkpvmy000009l0f1165gt3
 slug: knowledge-check-declaring-form-elements
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721567256251/de61aa2a-d20b-4496-912d-abc070635471.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721567285545/4a4b2fde-ce60-45b4-9af0-d6155242e603.png
-tags: forms, html, html5, form-validation
 
 ---
 
