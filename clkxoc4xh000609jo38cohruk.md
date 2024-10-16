@@ -7,7 +7,6 @@ cuid: clkxoc4xh000609jo38cohruk
 slug: webinar-generative-ai-with-vertex-ai-on-google-cloud
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691219130378/d18656a8-7b78-4dbf-a9a8-4607517c8fcb.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1691219279031/f693a6bc-792d-48fc-ad2d-69225844c0c4.webp
-tags: google, vertex-ai, google-developer-student-clubs, google-developer-student-clubs-vietnam, google-developer
 
 ---
 
