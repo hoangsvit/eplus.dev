@@ -7,7 +7,6 @@ cuid: cm14p1xql002b09k12zyc59vv
 slug: self-review-build-a-radio-group-component-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726472306885/0ab1759d-48c4-4299-ae98-d62f8377330c.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726472329039/619d44f4-29aa-49c8-9f24-d08e9a35af22.jpeg
-tags: advanced-react, self-review-build-a-radio-group-component-advanced-react
 
 ---
 
