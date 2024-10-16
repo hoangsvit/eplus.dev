@@ -4,10 +4,9 @@ seoTitle: "Nuxt 3.5.0: Introducing Vue 3.3, New Defaults, Interactive Server Com
 seoDescription: "Nuxt 3.5.0 is a significant release that brings several new features and enhancements. It includes Vue 3.3, which introduces exciting features and improved"
 datePublished: Wed May 17 2023 15:40:45 GMT+0000 (Coordinated Universal Time)
 cuid: clhrvdtml00000amc2a4nec4r
-slug: nuxt-350-introducing-vue-33-new-defaults-interactive-server-components-typed-pages-and-more
+slug: nuxt-3-5-0-introducing-vue-3-3-new-defaults-interactive-server-components-typed-pages-and-more
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684337586584/25195fb5-9e88-432c-b036-1d1de8aaaafa.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1684337981737/21abac56-e423-41aa-8601-e9dfdc28d230.webp
-tags: vuejs, typescript, vue, nuxt, nuxtjs
 
 ---
 
