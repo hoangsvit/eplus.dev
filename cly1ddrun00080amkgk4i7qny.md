@@ -7,7 +7,6 @@ cuid: cly1ddrun00080amkgk4i7qny
 slug: mongodb-crud-operations-in-php
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719740928794/e81ca711-cc12-41b0-aebe-69c44611575d.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1719740947914/1569039c-6205-4706-8913-91e37b09b06e.png
-tags: mongodb, php, mongodb-crud
 
 ---
 
