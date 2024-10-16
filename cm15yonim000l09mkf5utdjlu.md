@@ -4,10 +4,9 @@ seoTitle: "Knowledge check: Design Systems - UI/UX"
 seoDescription: "Knowledge check: Design Systems - UI/UX"
 datePublished: Tue Sep 17 2024 04:56:20 GMT+0000 (Coordinated Universal Time)
 cuid: cm15yonim000l09mkf5utdjlu
-slug: knowledge-check-design-systems-uiux
+slug: knowledge-check-design-systems-ui-ux
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726548959219/5ce36620-6620-46f0-89e3-1afecc047f0b.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726548971840/f35a72a7-beca-499b-8637-4c7a0c0b2a06.jpeg
-tags: ux, ui, knowledge-check-design-systems-uiux
 
 ---
 
