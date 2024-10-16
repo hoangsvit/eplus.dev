@@ -7,7 +7,6 @@ cuid: clwamo9gl000e0amhfidr9fd7
 slug: review-qua-trinh-hoc-b2-tai-truong-day-lai-xe-dai-phuc
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1715943355548/8cd3345e-8753-4f65-a881-9acedac24fd6.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1715943528294/a03fddc4-1d6e-41a3-b2b2-68f975b37306.jpeg
-tags: truong-day-lai-xe-dai-phuc, day-lai-xe-ky-phuoc
 
 ---
 
