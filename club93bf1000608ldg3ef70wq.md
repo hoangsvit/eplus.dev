@@ -6,7 +6,6 @@ cuid: club93bf1000608ldg3ef70wq
 slug: dataproc-qwik-start-console
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711631274494/522e57f1-10e4-4eae-b461-d3dde8ded100.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1711631288838/fe60dcef-037b-4df2-8b19-33d43a3394e2.png
-tags: google-cloud, dataproc
 
 ---
 
