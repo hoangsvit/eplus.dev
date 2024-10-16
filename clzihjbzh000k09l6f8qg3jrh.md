@@ -7,7 +7,6 @@ cuid: clzihjbzh000k09l6f8qg3jrh
 slug: troubleshooting-and-solving-data-join-pitfalls-gsp412
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722951825582/ec3664bd-4b0e-41fd-ad34-ea9785578d2e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722952658185/b485f49c-003a-44ba-a46b-8ce462644431.png
-tags: troubleshooting-and-solving-data-join-pitfalls-gsp412, gsp412
 
 ---
 
