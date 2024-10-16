@@ -7,7 +7,6 @@ cuid: cm02f2v2g001n09mr9bqk5j7n
 slug: exploring-cost-optimization-for-gke-virtual-machines-gsp767
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724157580686/03cde41a-567a-4e22-a16d-c315bb3a51c0.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724157857514/e9f53a9c-44fa-4eb2-beb5-d8deb3d5c412.png
-tags: exploring-cost-optimization-for-gke-virtual-machines-gsp767, gsp767
 
 ---
 
