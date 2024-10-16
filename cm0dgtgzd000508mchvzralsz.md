@@ -7,7 +7,6 @@ cuid: cm0dgtgzd000508mchvzralsz
 slug: finding-data-in-google-sheets-gsp1063
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724824082769/fcb4c2fe-f1d1-4f3b-8c6d-974e99e769a6.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724825900101/82969e5e-187d-48dc-aef3-7ea7ea1bdd36.jpeg
-tags: finding-data-in-google-sheets-gsp1063, gsp1063
 
 ---
 
