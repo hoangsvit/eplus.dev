@@ -7,7 +7,6 @@ cuid: clxodpku5000108jrgzdp50sg
 slug: get-free-salesforce-swags-builtwitheinstein
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718955421496/b0f23041-2f7d-493b-8267-e113b04516c0.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1718955460825/3cb721ae-0cad-45c9-b9a5-e4ad58e0ad7c.png
-tags: salesforce, copilot, builtwitheinstein, dreamforce
 
 ---
 
