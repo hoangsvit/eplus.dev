@@ -7,7 +7,6 @@ cuid: clxogi9ip000009lb3gbhd0kc
 slug: knowledge-check-describe-azure-storage-services
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718960137410/a905c187-b2fd-4642-9c1e-a65abc9176cf.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1718960164287/4b52f1ca-746e-4e33-bc6d-39dc3a2b84ba.png
-tags: azure, azure-storage-services, azure-migrate
 
 ---
 
