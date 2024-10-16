@@ -7,7 +7,6 @@ cuid: clxof1oic000609kyaehp979z
 slug: knowledge-check-describe-the-core-architectural-components-of-azure
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718957755446/5bb4d4db-4bae-410f-8cfc-116fab32d21a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1718957684484/6fb55ddf-c9d6-4acb-970e-46c56f585c55.png
-tags: microsoft-azure, region-pairs, availability-zones, sovereign-regions
 
 ---
 
