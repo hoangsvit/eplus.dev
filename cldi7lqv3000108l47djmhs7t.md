@@ -7,7 +7,6 @@ cuid: cldi7lqv3000108l47djmhs7t
 slug: fonts-matter
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1675046367203/47301240-4bac-4031-b8a3-ca1698138820.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1675046729852/2b0c2d78-104b-46f2-bfd2-8953bb21e681.webp
-tags: tutorial
 
 ---
 
