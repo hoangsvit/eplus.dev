@@ -7,7 +7,6 @@ cuid: clo4itklw000009l05w9e3vyr
 slug: how-to-obtain-tinkerwell-educational-licenses-free
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698163009508/dfd8d931-c688-4781-8346-2c86bbd9b731.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1698163683407/7abb7d9c-1bc7-4697-9f57-419180032de8.jpeg
-tags: laravel, php, tinkerwell, beyond, beyondcode
 
 ---
 
