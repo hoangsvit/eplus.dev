@@ -7,7 +7,6 @@ cuid: clyvjr6h5000309l39czy5xiz
 slug: knowledge-check-semantic-and-meta-tags
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721565920250/291d3695-1827-470b-ae8e-bfb5eb12b4cd.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721565933620/ba59aec7-d9f1-4362-a56e-1f1473cb7828.png
-tags: html, html5, search-engines, html-tags, semantic-search
 
 ---
 
