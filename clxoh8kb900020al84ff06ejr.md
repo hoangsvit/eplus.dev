@@ -7,7 +7,6 @@ cuid: clxoh8kb900020al84ff06ejr
 slug: knowledge-check-describe-features-and-tools-in-azure-for-governance-and-compliance
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718961338934/d3d946d3-47f9-4f86-bfda-db9e6876bbb9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1718961380273/94b0778c-d8e3-4e21-a543-a971a782c1f5.png
-tags: azure, azure-policy, microsoft-purview, azure-resource-monitor
 
 ---
 
