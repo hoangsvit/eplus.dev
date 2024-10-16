@@ -7,7 +7,6 @@ cuid: clzrujwbc000009ldhmp5c1h1
 slug: the-arcade-trivia-august-2024-week-2
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723518658406/15ed7ccf-5514-46b1-b490-fa10d8dc0d2d.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723518716319/e7ee7ec7-5f44-4dac-98c3-07822aabad30.png
-tags: the-arcade-trivia-august-2024-week-2
 
 ---
 
