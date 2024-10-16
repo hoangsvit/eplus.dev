@@ -7,7 +7,6 @@ cuid: clzy4fcax001909mja2u203gj
 slug: use-machine-learning-apis-on-google-cloud-challenge-lab-gsp329
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723897606221/3fb80e3e-bd77-4e72-ac85-63197295e88d.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723898090584/6e209de9-28df-4c13-9626-d1e49d6262bf.png
-tags: use-machine-learning-apis-on-google-cloud-challenge-lab-gsp329, gsp329
 
 ---
 
