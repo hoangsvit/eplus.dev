@@ -7,7 +7,6 @@ cuid: clz2re9hg00070amd5zx841ed
 slug: api-gateway-qwik-start-gsp872
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722001508455/718483f6-b24d-4f8e-b246-4a1f64a7cdd9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722001752473/0b81f8a7-d800-41fc-b0fa-7d2f9d4ced6b.png
-tags: api-gateway-qwik-start-gsp872, gsp872
 
 ---
 
