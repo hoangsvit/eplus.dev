@@ -7,7 +7,6 @@ cuid: clzuv43nv00170aji44wzcht5
 slug: integrating-cloud-functions-with-firestore
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723700780180/e772be5d-6510-485d-8f3a-b94a796246c9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723700991721/2b6a2498-771e-436c-9e6b-5679fbd28495.png
-tags: the-arcade-base-camp-august-2024, integrating-cloud-functions-with-firestore
 
 ---
 
