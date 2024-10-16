@@ -4,10 +4,9 @@ seoTitle: "Phần mềm Ôn Tập Mô Phỏng các tình huống giao thông v2.
 seoDescription: "Từ ngày 5/1/2024, Cục Đường bộ Việt Nam đãcập nhật phần mềm mô phỏng tình huống giao thông. Các cơ sở đào tạo dự kiến sẽ cập nhật phần mềm mới từ 1/2/2024."
 datePublished: Thu Feb 29 2024 14:54:57 GMT+0000 (Coordinated Universal Time)
 cuid: clt7ck8wp000d08l73dry4s2k
-slug: phan-mem-on-tap-mo-phong-cac-tinh-huong-giao-thong-v200
+slug: phan-mem-on-tap-mo-phong-cac-tinh-huong-giao-thong-v2-0-0
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1709218353519/a4228f91-03d0-46ec-8ae3-37cfa760bc3c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1709218425130/6d2e49e0-bfb5-4388-9577-8fc13a4ee6d2.png
-tags: phan-mem-on-tap-mo-phong, on-tap-mo-phong, on-tap-mo-phong-cac-tinh-huong-giao-thong, on-tap-mo-phong-v200
 
 ---
 
