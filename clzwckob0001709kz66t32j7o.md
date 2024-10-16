@@ -7,7 +7,6 @@ cuid: clzwckob0001709kz66t32j7o
 slug: bracketology-with-google-machine-learning-gsp461
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723788397612/19c78b9a-5ae2-4c9a-af78-fba44ca01e52.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723790849910/f0fb9c5c-9a51-4a1d-8161-70e3c43d781d.png
-tags: bracketology-with-google-machine-learning-gsp461, gsp461
 
 ---
 
