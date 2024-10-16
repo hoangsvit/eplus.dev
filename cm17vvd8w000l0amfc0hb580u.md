@@ -7,7 +7,6 @@ cuid: cm17vvd8w000l0amfc0hb580u
 slug: apple-intelligence-siri-se-duoc-ho-tro-tieng-viet-vao-nam-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726711841874/72cfb6b0-9959-4c64-99a5-6dd63775fac6.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726711855282/5ed652bb-363e-4832-b9c9-3412d98d0c1e.png
-tags: siri, apple-intelligence
 
 ---
 
