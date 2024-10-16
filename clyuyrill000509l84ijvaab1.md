@@ -7,7 +7,6 @@ cuid: clyuyrill000509l84ijvaab1
 slug: module-quiz-working-with-git
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721530382877/c0177fb5-fff3-4e47-aa75-a472a3313512.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721530410725/8d1c17e4-98c1-4f66-9f2f-cc9bf8ca629e.png
-tags: github, git, git-version-control
 
 ---
 
