@@ -7,7 +7,6 @@ cuid: clzf0r2rj000609l72cfpaytp
 slug: self-review-multiple-components-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722742941890/12f7fad4-238a-41a2-a7ea-dd8df7213e97.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722743071721/a9c79559-414f-4f42-932f-eac24342b681.png
-tags: react-basic, self-review-multiple-components-react-basic
 
 ---
 
