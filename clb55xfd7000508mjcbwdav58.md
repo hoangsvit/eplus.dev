@@ -8,7 +8,6 @@ slug: creating-a-password-generator
 canonical: https://laravel-news.com/creating-a-password-generator
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1669903936563/jKtWNi0d7.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1669904292206/NPkDr2NMS.png
-tags: laravel
 
 ---
 
