@@ -7,7 +7,6 @@ cuid: clwuadsms000e0al45avpbfw0
 slug: thong-bao-tu-moca-ve-viec-ngung-dich-vu-vi-dien-tu-moca-update-from-moca-about-discontinuing-moca-e-wallet
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1717135828332/5330f2bd-74f3-4ccc-932a-f77a39699979.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1717135864474/b1095bfe-b3f8-44dc-b90b-ad2964d615db.jpeg
-tags: grab, e-wallet, moca
 
 ---
 
