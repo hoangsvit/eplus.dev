@@ -7,7 +7,6 @@ cuid: clyphkcbx000g0amjdqrlehqw
 slug: knowledge-check-conditionals-and-loops-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721199194949/a190d0a2-c5d6-4697-ab30-26a70c220c9b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721199186757/977bee73-ff59-42d9-b995-5ad25cfe8a05.png
-tags: javascript
 
 ---
 
