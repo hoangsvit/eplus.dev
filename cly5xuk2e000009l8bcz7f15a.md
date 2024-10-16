@@ -7,7 +7,6 @@ cuid: cly5xuk2e000009l8bcz7f15a
 slug: 50-000-suat-hoc-coursera-mien-phi-danh-cho-cong-dong
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720017011004/b5e9df07-2f8c-4401-8b75-b8203c5aa0eb.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1720017109037/13f70d68-afaf-4435-b8bd-119759584199.jpeg
-tags: cloud-computing, coursera, free-courses, business-intelligence
 
 ---
 
