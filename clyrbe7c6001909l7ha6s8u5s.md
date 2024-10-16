@@ -7,7 +7,6 @@ cuid: clyrbe7c6001909l7ha6s8u5s
 slug: knowledge-check-introduction-to-object-oriented-programming-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721309718338/85b3bdbd-6bb8-4adb-b30d-4e0dee725a5b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721309743518/51408e4d-cb49-4a3e-8762-b04caba41014.png
-tags: javascript
 
 ---
 
