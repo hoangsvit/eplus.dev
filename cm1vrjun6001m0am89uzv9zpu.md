@@ -7,7 +7,6 @@ cuid: cm1vrjun6001m0am89uzv9zpu
 slug: module-quiz-starting-the-project
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728109075317/56fed27b-c7ca-4c87-b710-17e3df9b7a35.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728109109345/d5b98b65-eabd-41b5-8073-fb35c93074cf.png
-tags: module-quiz-starting-the-project
 
 ---
 
