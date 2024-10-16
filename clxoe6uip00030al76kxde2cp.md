@@ -7,7 +7,6 @@ cuid: clxoe6uip00030al76kxde2cp
 slug: knowledge-check-describe-cloud-computing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718956239562/1e04d193-d936-436b-9f10-8c1ab11db5a8.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1718956249463/6991e101-8771-43c4-a3c4-301553908959.png
-tags: iaas, hybrid-cloud, computing
 
 ---
 
