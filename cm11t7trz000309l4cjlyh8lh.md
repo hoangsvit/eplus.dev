@@ -7,7 +7,6 @@ cuid: cm11t7trz000309l4cjlyh8lh
 slug: chronicle-siem-introduction-single-event-rules-gsp1098
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726297669793/f7bf011c-f8ef-4927-a369-85dccf18c044.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726297919587/6886b287-6a2b-4dd7-b198-d1fa57e2552b.jpeg
-tags: chronicle-siem-introduction-single-event-rules-gsp1098, gsp1098
 
 ---
 
