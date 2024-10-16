@@ -7,7 +7,6 @@ cuid: clulcew44000508jqgqnt6t12
 slug: managing-machine-learning-projects-with-google-cloud-quiz
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712241440637/21403414-d2d7-4daf-a27b-741c4890db43.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1712241537457/e0e6a982-f523-40f1-b5f4-371544bf8f32.png
-tags: machine-learning, google-cloud, machine-learning-projects, business-professionals
 
 ---
 
