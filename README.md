@@ -17,7 +17,7 @@
  - 💡 [Redacting Sensitive Data with the DLP API &lpar;Solution&rpar;](https://eplus.dev/redacting-sensitive-data-with-the-dlp-api-solution) - 2024-10-05
  - 🦣 [Continuous Delivery with Jenkins in Kubernetes Engine - GSP051](https://eplus.dev/continuous-delivery-with-jenkins-in-kubernetes-engine-gsp051) - 2024-10-05
  - 💪 [Module Quiz: Project Functionality](https://eplus.dev/module-quiz-project-functionality) - 2024-10-05
- - 🤡 [Knowledge check: Improving the experience](https://eplus.dev/knowledge-check-improving-the-e) - 2024-10-05<!-- BLOG-POST-LIST:END -->
+ - 🤡 [Knowledge check: Improving the experience](https://eplus.dev/knowledge-check-improving-the-experience) - 2024-10-05<!-- BLOG-POST-LIST:END -->
 
 <div align="right">
   Update by <a target="_blank"
