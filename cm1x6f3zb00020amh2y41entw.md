@@ -7,7 +7,6 @@ cuid: cm1x6f3zb00020amh2y41entw
 slug: module-quiz-introduction-to-the-coding-interview
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728194538129/50db8794-c782-48dc-9fdf-835633e775ad.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728194548084/8cc4f6db-8738-40ed-9109-e1e09c606a61.png
-tags: module-quiz-introduction-to-the-coding-interview
 
 ---
 
