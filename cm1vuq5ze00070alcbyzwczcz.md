@@ -7,7 +7,6 @@ cuid: cm1vuq5ze00070alcbyzwczcz
 slug: module-quiz-project-foundations
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728114420708/d51fc6c6-a855-4534-a26d-405b5809b742.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728114435187/21720fa3-4e8b-4d0f-9f4b-94a82a55ad99.png
-tags: module-quiz-project-foundations
 
 ---
 
