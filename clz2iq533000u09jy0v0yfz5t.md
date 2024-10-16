@@ -7,7 +7,6 @@ cuid: clz2iq533000u09jy0v0yfz5t
 slug: get-started-with-cloud-storage-challenge-lab-arc111
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721986811181/1f7c152f-1edd-4f53-9cad-4c00d1eadc58.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721987196703/96493bbf-30ea-4501-aa85-d54f8ae00b0d.png
-tags: get-started-with-cloud-storage-challenge-lab-arc111, arc111
 
 ---
 
