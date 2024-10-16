@@ -7,7 +7,6 @@ cuid: clnqvlsdm000109mg9xwzgbe5
 slug: langcountry-laravel-localization-made-effortless
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1697338286646/58b454a9-8c24-458f-999c-6dcb84888993.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1697338626363/2ab715f3-9dd7-46ea-8e83-baf2cbd52d0b.png
-tags: laravel, localization, laravel-packages, langcountry
 
 ---
 
