@@ -7,7 +7,6 @@ cuid: cly17d8vm000009kwagbq79eu
 slug: su-dung-blackmagicc-dns-mua-dut-cap
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719730827131/84ad0b71-9fa8-4b8d-b804-01070c87cc8c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1719730811407/cdb28d5b-3633-4b38-b3d5-2687ed2df5bc.png
-tags: dns, dns-server, blackmagicc
 
 ---
 
