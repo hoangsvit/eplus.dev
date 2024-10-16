@@ -7,7 +7,6 @@ cuid: clzuy55wx000309ldagdn8wmk
 slug: creating-a-containerized-application-with-buildpacks
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723701833961/8aed6a04-dd52-4e9e-88a8-16ed9a6dd7f8.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723706199117/df7ea468-7973-4623-be8e-4d47bccfbfba.png
-tags: the-arcade-base-camp-august-2024, creating-a-containerized-application-with-buildpacks
 
 ---
 
