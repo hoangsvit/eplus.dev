@@ -7,7 +7,6 @@ cuid: clugb0ey6000008lh0tpedpvq
 slug: free-swags-for-developers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711936955634/2d92e94b-4d27-4e44-acf1-6f42fb7d05ca.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1711936987922/f448a994-a728-47f5-93c7-f36b9a64cc36.jpeg
-tags: opensource, swags
 
 ---
 
