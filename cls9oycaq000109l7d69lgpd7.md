@@ -7,7 +7,6 @@ cuid: cls9oycaq000109l7d69lgpd7
 slug: laravel-herd-for-windows-launches-in-march-24
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1707183213231/1198e238-a5f2-4510-b03d-a375ecef6100.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1707184006324/591512e5-4989-49df-af89-242a810bb232.png
-tags: laravel, laravel-herd, herd
 
 ---
 
