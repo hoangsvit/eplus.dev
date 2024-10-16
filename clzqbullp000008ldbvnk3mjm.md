@@ -9,7 +9,6 @@ cuid: clzqbullp000008ldbvnk3mjm
 slug: arcade-hero-enter-the-cloud-function-ruby-arc234
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723426536924/be893aca-b414-496e-b6e7-539a7a9c0936.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723426764602/f1272641-c831-493d-a761-b77b7b546513.png
-tags: arcade-hero-enter-the-cloud-function-ruby-arc234, arc234
 
 ---
 
