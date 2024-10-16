@@ -7,7 +7,6 @@ cuid: clyvlnutu000309jo845p504o
 slug: create-a-complex-form
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721568791471/c2e84f05-86e1-4757-8eaf-2f5ca04405e4.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721568868466/b4281482-fee8-4d9a-9a8b-2b68d3084fdb.png
-tags: forms, html, html5, form-validation, html-tags
 
 ---
 
