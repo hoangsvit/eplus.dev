@@ -7,7 +7,6 @@ cuid: cll3x7tse000909iegghuc37e
 slug: open-server-panel-6-beta
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691596959698/da8f6ec8-c813-4615-a262-e10b799e6d93.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1691597046905/d34a78d9-8a63-4080-b8fa-7d61a16c3af8.png
-tags: open-server-panel, wamp
 
 ---
 
