@@ -4,10 +4,9 @@ seoTitle: "Pub/Sub: Qwik Start - Python - GSP094"
 seoDescription: "The Pub/Sub service allows applications to exchange messages reliably, quickly, and asynchronously. To accomplish this, a data producer publishes messages t"
 datePublished: Fri Aug 09 2024 05:52:07 GMT+0000 (Coordinated Universal Time)
 cuid: clzmai61w000a0ala9fdwagl8
-slug: pubsub-qwik-start-python-gsp094
+slug: pub-sub-qwik-start-python-gsp094
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723182295783/afc0e6d0-0a8e-4dbc-9b60-dbc36008ba94.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723182713635/f344e205-e996-4cd9-94f5-fca0e55ef111.png
-tags: pubsub-qwik-start-python-gsp094, gsp094
 
 ---
 
