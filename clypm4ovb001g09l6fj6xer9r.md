@@ -7,7 +7,6 @@ cuid: clypm4ovb001g09l6fj6xer9r
 slug: module-quiz-the-building-blocks-of-a-program-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721205578173/c296498d-5cea-41d1-ad99-8d10b67b0c99.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721206855367/4d4f214f-7c60-484c-8c4c-a8a49be29b2e.png
-tags: javascript
 
 ---
 
