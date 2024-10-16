@@ -7,7 +7,6 @@ cuid: clzf04qx1000409leesg261eq
 slug: self-review-passing-props-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722739961363/96e7e3fc-ded8-406d-b616-2c37b8a887a4.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722741991460/eaef8c97-f7a4-406f-96e3-2776e7857d5b.png
-tags: react-basic, self-review-passing-props-react-basic
 
 ---
 
