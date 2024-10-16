@@ -7,7 +7,6 @@ cuid: clyu8lwff000709l8efrmdp69
 slug: module-quiz-software-collaboration
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721486421808/7c9c3c50-ff7c-41a6-aa69-8ec8b1336a37.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721486477747/6a70eb08-dc65-4c3b-afb1-dde4e26bde02.png
-tags: git, git-version-control
 
 ---
 
