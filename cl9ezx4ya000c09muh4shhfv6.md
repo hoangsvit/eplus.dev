@@ -7,7 +7,6 @@ cuid: cl9ezx4ya000c09muh4shhfv6
 slug: laravel-comments-package-spatie
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1666144869270/p9S2iBrcp.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1666145326007/lKr0jiz-1.png
-tags: laravel, package
 
 ---
 
