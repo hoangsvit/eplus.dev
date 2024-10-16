@@ -7,7 +7,6 @@ cuid: clyu6fz7s000009mmccqf36i6
 slug: programming-assignment-little-lemon-receipt-maker
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721482818183/1a61271b-4659-4e06-9caa-d7ee8330c36a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721482836805/254dce77-82b9-4754-86de-eb8a4f45873e.png
-tags: javascript
 
 ---
 
