@@ -7,7 +7,6 @@ cuid: clytrsqsb00010ala8drecfs5
 slug: programming-assignment-writing-a-unit-test
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721458194761/1dc1aa2b-157a-4c39-8f39-3ade28c7bf87.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721458236454/60a48c78-d4be-4521-9684-420278b6a61e.png
-tags: nodejs, jest
 
 ---
 
