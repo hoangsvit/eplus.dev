@@ -7,7 +7,6 @@ cuid: cli0dlcdo00040al8bbs96zqa
 slug: laravel-love-expressing-emotions-in-your-application
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684851524512/430f8b7c-bafb-4da5-a048-f823c933c5fa.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1684852296712/675ad7c4-1fcd-4f20-862b-324621e30dbd.jpeg
-tags: laravel, composer, laravel-packages
 
 ---
 
