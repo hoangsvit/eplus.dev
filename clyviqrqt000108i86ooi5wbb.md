@@ -7,7 +7,6 @@ cuid: clyviqrqt000108i86ooi5wbb
 slug: knowledge-check-metadata
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721563400159/f8617694-461d-4521-9e76-e5318b5b236c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721563966308/bc7660fc-39a7-48be-a80e-4845baa73fcd.png
-tags: html, html5, metadata, html-tags
 
 ---
 
