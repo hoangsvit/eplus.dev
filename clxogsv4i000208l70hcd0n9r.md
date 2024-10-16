@@ -7,7 +7,6 @@ cuid: clxogsv4i000208l70hcd0n9r
 slug: knowledge-check-describe-azure-identity-access-and-security
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718960620634/8d323ca3-eaff-4009-89d2-49f8f1d424aa.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1718960641589/c4df83c5-5e7b-453c-ac59-165050422943.png
-tags: azure, passwordless, mfa
 
 ---
 
