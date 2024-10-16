@@ -7,7 +7,6 @@ cuid: clyu3ykpg000009l0hkjj3smg
 slug: knowledge-check-introduction-to-testing-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721478624291/ab73d9ed-4728-4f4a-bfa9-900aa36372bb.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721478662880/4519a226-1c8d-4c00-8fae-e24827d0f753.png
-tags: javascript, testing
 
 ---
 
