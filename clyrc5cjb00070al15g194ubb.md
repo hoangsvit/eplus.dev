@@ -7,7 +7,6 @@ cuid: clyrc5cjb00070al15g194ubb
 slug: programming-assignment-array-and-object-iteration-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721310651478/ad8711cd-4423-4118-a172-f27f7c40460b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721311016169/9df809db-72e7-4358-9c70-d8413947ab74.png
-tags: javascript
 
 ---
 
