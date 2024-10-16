@@ -7,7 +7,6 @@ cuid: cly4ie5jf000409l7a5vmbjt7
 slug: mongodb-aggregation-in-php
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719930722101/d5c5e869-412b-49cb-a0fc-c752c177cb89.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1719930740799/490b6bbd-804f-400c-a3b4-4fee101eed16.png
-tags: mongodb, php, mongodb-aggregation-pipeline, mongodb-aggregation
 
 ---
 
