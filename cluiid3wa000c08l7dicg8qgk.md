@@ -7,7 +7,6 @@ cuid: cluiid3wa000c08l7dicg8qgk
 slug: cloud-monitoring-qwik-start-gsp089
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712069951337/15302f94-544e-4809-a727-35ab8077ee71.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1712070115546/8f0b1ee1-e254-4ac7-b8e7-e4928a66b617.png
-tags: google-cloud, google-cloud-platform, cloud-monitoring
 
 ---
 
