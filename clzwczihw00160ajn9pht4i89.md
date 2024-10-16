@@ -7,7 +7,6 @@ cuid: clzwczihw00160ajn9pht4i89
 slug: create-ml-models-with-bigquery-ml-challenge-lab-gsp341
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723790933613/dd73ea7e-0e33-4cf7-aaad-c234742e7033.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723791540383/1a0d523e-8065-425c-bccf-02a62cd40337.png
-tags: create-ml-models-with-bigquery-ml-challenge-lab-gsp341, gsp341
 
 ---
 
