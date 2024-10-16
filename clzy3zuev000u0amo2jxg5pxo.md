@@ -7,7 +7,6 @@ cuid: clzy3zuev000u0amo2jxg5pxo
 slug: awwvision-cloud-vision-api-from-a-kubernetes-cluster-gsp066
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723897042721/1d8c7274-be94-4fb1-ab27-6f1a19ed0265.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723897374362/85eafc01-8679-4a26-b1c4-ca9e67befd16.png
-tags: awwvision-cloud-vision-api-from-a-kubernetes-cluster-gsp066, gsp066
 
 ---
 
