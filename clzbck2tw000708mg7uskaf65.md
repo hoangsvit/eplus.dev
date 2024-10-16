@@ -7,7 +7,6 @@ cuid: clzbck2tw000708mg7uskaf65
 slug: solution-cloud-digital-leader-learning-path
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722520500147/97580066-e85e-47c6-a7ca-a74198914978.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722521030814/fd1e2404-bcf8-4b6c-bcd5-62401943c1eb.png
-tags: cloud-digital-leader-learning-path, solution-cloud-digital-leader-learning-path
 
 ---
 
