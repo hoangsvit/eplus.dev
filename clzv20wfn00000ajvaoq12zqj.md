@@ -7,7 +7,6 @@ cuid: clzv20wfn00000ajvaoq12zqj
 slug: build-infrastructure-with-terraform-on-google-cloud-challenge-lab-gsp345
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723712071609/4b2360ca-9c1e-4570-9aa1-f4a706b533a8.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723712667176/342948a7-581a-4b48-8424-50c929b19098.png
-tags: build-infrastructure-with-terraform-on-google-cloud-challenge-lab-gsp345, gsp345
 
 ---
 
