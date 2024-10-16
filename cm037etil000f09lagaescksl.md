@@ -7,7 +7,6 @@ cuid: cm037etil000f09lagaescksl
 slug: bigquery-soccer-data-analytical-insight-gsp850
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724205276505/4061e23e-f84d-4757-a249-0a40e4500a02.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724205408400/f65ef93e-6c31-46c3-b735-7dcf64fe38c5.png
-tags: bigquery-soccer-data-analytical-insight-gsp850, gsp850
 
 ---
 
