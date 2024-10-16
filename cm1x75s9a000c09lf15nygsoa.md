@@ -7,7 +7,6 @@ cuid: cm1x75s9a000c09lf15nygsoa
 slug: module-quiz-introduction-to-data-structures
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728195785537/630c58cc-b387-471c-8b23-28c33e6c4d32.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728195795241/f3b7e00a-b4ab-4ad9-b102-e8c611fc16a6.png
-tags: module-quiz-introduction-to-data-structures
 
 ---
 
