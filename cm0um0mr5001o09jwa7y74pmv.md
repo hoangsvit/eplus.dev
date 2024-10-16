@@ -7,7 +7,6 @@ cuid: cm0um0mr5001o09jwa7y74pmv
 slug: authentication-authorization-and-identity-with-vault-gsp1005
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725862229675/cfdc4f90-eafd-4111-b2de-7fd40b343a04.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725862557567/be196c24-ada3-487b-a2bf-75489ed922b6.jpeg
-tags: authentication-authorization-and-identity-with-vault-gsp1005, gsp1005
 
 ---
 
