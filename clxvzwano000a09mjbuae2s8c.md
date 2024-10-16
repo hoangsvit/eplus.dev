@@ -7,7 +7,6 @@ cuid: clxvzwano000a09mjbuae2s8c
 slug: review-bo-phat-wifi-roosee-m600
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719415272772/bf6968b0-a033-4490-9aa5-6ba387729e22.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1719415970841/f0079784-40d8-4ebb-b316-646a31db6c79.png
-tags: mobifone, vietteltelecom, m600, roosee, roosee-m600, vinaphone
 
 ---
 
