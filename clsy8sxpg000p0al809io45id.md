@@ -4,10 +4,9 @@ seoTitle: "Chương Trình Tự Học Google Cloud #QuanQuanGCP: Khám Phá Lab 
 seoDescription: "Chương Trình Tự Học Google Cloud #QuanQuanGCP: Khám Phá Lab AI/ML và Cơ Hội Nhận Quà Tặng!"
 datePublished: Fri Feb 23 2024 05:59:48 GMT+0000 (Coordinated Universal Time)
 cuid: clsy8sxpg000p0al809io45id
-slug: chuong-trinh-tu-hoc-google-cloud-quanquangcp-kham-pha-lab-aiml-va-co-hoi-nhan-qua-tang
+slug: google-cloud-quanquangcp-mua-6-kham-pha-ai-ml-va-co-hoi-nhan-qua-tang
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1708667797906/eefdfac1-d109-4d88-916b-a7b000fd03d3.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1708667961127/0358f074-75dd-4354-a7fd-e3007ddf2630.png
-tags: tensorflow, google-cloud, aiml, quanquangcp, google-cloud-skills-boost
 
 ---
 
