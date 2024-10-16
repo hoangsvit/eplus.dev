@@ -7,7 +7,6 @@ cuid: cl9e13ubw000k09ladb2adqmt
 slug: complete-explanation-with-example-on-laravel-middleware
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1666085736453/vFkjP7liC.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1666086853777/HM0p0X-P_.png
-tags: tutorial, laravel, middleware
 
 ---
 
