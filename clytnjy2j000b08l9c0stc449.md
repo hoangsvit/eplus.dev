@@ -7,7 +7,6 @@ cuid: clytnjy2j000b08l9c0stc449
 slug: module-quiz-programming-paradigms-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721451089669/450af7af-31cd-4fb1-8a80-38ea1ebfa095.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721451109509/f732c1e1-aac8-45ab-8376-e45729840b50.png
-tags: javascript
 
 ---
 
