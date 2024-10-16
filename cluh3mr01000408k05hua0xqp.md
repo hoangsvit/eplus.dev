@@ -7,7 +7,6 @@ cuid: cluh3mr01000408k05hua0xqp
 slug: multiple-vpc-networks
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711984866185/d57d95b9-c6f5-4ff0-893c-48864e7fb532.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1711984879662/12698188-a3a4-4259-949c-6f55ed3fef1c.png
-tags: virtual-private-cloud
 
 ---
 
