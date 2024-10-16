@@ -7,7 +7,6 @@ cuid: clzkrcrm3000009mg2il186s6
 slug: app-dev-storing-application-data-in-cloud-datastore-python-gsp184
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723088197916/4b7f94bb-f826-492c-95ca-c1a9e15e6f62.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723090081993/ad2b5df9-d1b7-42b7-ac81-dcacfd6d7438.png
-tags: app-dev-storing-application-data-in-cloud-datastore-python-gsp184, gsp184
 
 ---
 
