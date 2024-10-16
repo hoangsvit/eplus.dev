@@ -7,7 +7,6 @@ cuid: clzy7bjkt000008l37fgm7p2u
 slug: introduction-to-docker-gsp055
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723902401822/fcaf58ab-0a89-4a12-a9a0-5b08f0706fc7.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723902945426/aa89e500-f157-4df3-bf81-05fb8a0cfebc.png
-tags: introduction-to-docker-gsp055, gsp055
 
 ---
 
