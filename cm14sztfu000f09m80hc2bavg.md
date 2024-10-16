@@ -7,7 +7,6 @@ cuid: cm14sztfu000f09m80hc2bavg
 slug: final-graded-quiz-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726478938854/290b4fc1-eb43-4dbc-8fde-7034dc0effce.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726478948954/1b74cb95-eb9a-4ee8-9ede-fd299cdd7a71.jpeg
-tags: advanced-react, final-graded-quiz-advanced-react
 
 ---
 
