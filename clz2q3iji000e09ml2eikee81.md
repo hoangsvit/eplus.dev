@@ -4,10 +4,9 @@ seoTitle: "Pub/Sub Lite: Qwik Start - GSP832"
 seoDescription: "Complementing Pub/Sub, Pub/Sub Lite is a zonal service for messaging systems with predictable traffic patterns. If you publish 1 MiB-1 GiB of messages per s"
 datePublished: Fri Jul 26 2024 13:13:14 GMT+0000 (Coordinated Universal Time)
 cuid: clz2q3iji000e09ml2eikee81
-slug: pubsub-lite-qwik-start-gsp832
+slug: pub-sub-lite-qwik-start-gsp832
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721999212085/3e6240c1-6b42-4a81-bb83-c1e64e0f718b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721999569970/7a147b94-7090-4992-8fdb-aacf05f8de42.png
-tags: pubsub-lite-qwik-start-gsp832, gsp832
 
 ---
 
