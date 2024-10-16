@@ -7,7 +7,6 @@ cuid: cly4jnzz7000m0amj6mta9mxn
 slug: mongodb-atlas-search
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719932926588/44e4d584-a66e-4530-9c66-5fe1e34adaea.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1719932893231/59b83078-b719-40cd-86d1-422293aff39e.png
-tags: mongodb, mongodb-atlas-search
 
 ---
 
