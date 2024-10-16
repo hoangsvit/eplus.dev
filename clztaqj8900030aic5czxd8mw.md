@@ -7,7 +7,6 @@ cuid: clztaqj8900030aic5czxd8mw
 slug: developing-and-deploying-cloud-functions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723605958529/cf486c3d-98a3-4c4d-a0d1-6dbd8738f6d9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723606356603/594b4f58-e2bd-4b73-832e-a6f5691d78f9.png
-tags: google-cloud-functions, cloudrun, eventarc, developing-and-deploying-cloud-functions, qwiklabs
 
 ---
 
