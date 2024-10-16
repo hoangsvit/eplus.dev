@@ -7,7 +7,6 @@ cuid: clyraqqnf000009k26yet27zl
 slug: lab-instructions-object-oriented-programming-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721308555517/48bc5d22-ee85-4457-b978-42461dd0c80e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721308650608/de1cc3d9-b2d3-4908-9ab2-d665e9f39f51.png
-tags: javascript
 
 ---
 
