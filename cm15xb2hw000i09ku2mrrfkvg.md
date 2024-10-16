@@ -4,10 +4,9 @@ seoTitle: "Module quiz: Evaluating interactive design - UI/UX"
 seoDescription: "Module quiz: Evaluating interactive design - UI/UX"
 datePublished: Tue Sep 17 2024 04:17:47 GMT+0000 (Coordinated Universal Time)
 cuid: cm15xb2hw000i09ku2mrrfkvg
-slug: module-quiz-evaluating-interactive-design-uiux
+slug: module-quiz-evaluating-interactive-design-ui-ux
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726546598258/48a06ecd-2096-4630-8c4c-6fe63cf17d4c.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726546658841/c6f7c2cf-1069-4fac-b323-e3d75966d232.jpeg
-tags: module-quiz-evaluating-interactive-design-uiux
 
 ---
 
