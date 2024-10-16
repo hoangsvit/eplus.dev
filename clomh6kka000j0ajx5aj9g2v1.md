@@ -7,7 +7,6 @@ cuid: clomh6kka000j0ajx5aj9g2v1
 slug: discount-for-student-dev
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/XkKCui44iM0/upload/8f2bdbc38a8f87640a5e0a9296ddb2b2.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1699249457901/0d9658d9-24b2-477a-8373-f187ed702024.jpeg
-tags: dev, devops, student, discount
 
 ---
 
