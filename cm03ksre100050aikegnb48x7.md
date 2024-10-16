@@ -7,7 +7,6 @@ cuid: cm03ksre100050aikegnb48x7
 slug: deploy-kubernetes-load-balancer-service-with-terraform-gsp233
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724227230402/7508995d-129a-49e7-86e4-c9cc064af219.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724227930110/b8ebd463-7af5-4700-8b08-4400496862cb.png
-tags: deploy-kubernetes-load-balancer-service-with-terraform-gsp233, gsp233
 
 ---
 
