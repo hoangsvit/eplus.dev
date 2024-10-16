@@ -7,7 +7,6 @@ cuid: cly4f2xcn000k0ali5zi85rqk
 slug: mongodb-aggregation
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719925132941/85846a27-2c8a-4a24-b22c-6f16f311ed6d.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1719925220682/15919b59-b739-433c-9ae4-845f9e57d4ed.png
-tags: mongodb, mongodb-aggregation-pipeline, mongodb-aggregation
 
 ---
 
