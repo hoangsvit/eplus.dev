@@ -4,10 +4,9 @@ seoTitle: "A Look at What's Coming to Laravel 10"
 seoDescription: "Laravel v10 is the next major version of Laravel, planned for release on February 7th, 2023. In this post, we wanted to outline all the new features and cha"
 datePublished: Sat Dec 31 2022 16:36:06 GMT+0000 (Coordinated Universal Time)
 cuid: clcc61ahl000708mf51cw1hoo
-slug: a-look-at-whats-coming-to-laravel-10
+slug: a-look-at-what-s-coming-to-laravel-10
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1672504477346/2ebb5562-de61-415b-80b2-faae7ee6f562.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1672504547781/d638b064-4d08-4785-8c33-116f040841d2.png
-tags: laravel-10
 
 ---
 
