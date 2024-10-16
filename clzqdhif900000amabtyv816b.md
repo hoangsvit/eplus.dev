@@ -6,10 +6,9 @@ seoDescription: "In this lab you will learn the fundamentals of Cloud Functions 
 If you are new to Cloud Functions or looking for an overview of how to g"
 datePublished: Mon Aug 12 2024 02:26:40 GMT+0000 (Coordinated Universal Time)
 cuid: clzqdhif900000amabtyv816b
-slug: arcade-hero-enter-the-cloud-function-pub-sub-arc-237
+slug: arcade-hero-enter-the-cloud-function-pub-sub-arc237
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723430467127/a987e796-308a-4e28-a693-849128a187a1.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723430456556/ff0c0db0-08db-4427-873a-0c61032823ae.png
-tags: arcade-hero-enter-the-cloud-function-pubsub-arc237, arc237
 
 ---
 
