@@ -7,7 +7,6 @@ cuid: clyuyfeyj00000ak4e7c1e615
 slug: self-review-create-a-repository-with-forking
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721529813224/89044cdf-e16b-4dbd-b78d-290869a224df.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721529844361/8809e47f-44e6-4665-b8b2-02afe45ff62d.png
-tags: github, git, fork, git-version-control
 
 ---
 
