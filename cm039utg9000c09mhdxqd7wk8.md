@@ -7,7 +7,6 @@ cuid: cm039utg9000c09mhdxqd7wk8
 slug: creating-a-data-transformation-pipeline-with-cloud-dataprep-gsp430
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724209246831/67888bec-5f43-4dee-b095-89e5ce7d0969.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724209550777/9a926996-d09e-4dde-b0cc-06bf0853143b.png
-tags: creating-a-data-transformation-pipeline-with-cloud-dataprep-gsp430, gsp430
 
 ---
 
