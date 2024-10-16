@@ -7,7 +7,6 @@ cuid: clhfx652w001v0akz52be9t92
 slug: postgresql-full-text-search-for-laravel-scout
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683615377223/411d4569-13f7-458b-bd8e-4975d555bd8a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1683615439713/e8e28377-f44a-47f1-b5b4-ebd8531e0efb.png
-tags: laravel, laravel-scout
 
 ---
 
