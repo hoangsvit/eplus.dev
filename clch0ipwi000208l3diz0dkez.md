@@ -7,7 +7,6 @@ cuid: clch0ipwi000208l3diz0dkez
 slug: opnform-is-an-open-source-form-builder-made-with-laravel
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1672797381827/1dbebe21-e7b3-46e9-b1af-4b924d92dcf0.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1672797438644/7628d282-cb3f-440e-af79-59650378f452.png
-tags: laravel, laravel-packages
 
 ---
 
