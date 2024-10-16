@@ -7,7 +7,6 @@ cuid: clyvnhqbk000009jpa4t77n52
 slug: module-quiz-html-deep-dive
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721571901330/c754694f-598b-4832-b0b1-e06aa04b77e5.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721571932996/fd7fad43-2c0a-48f4-9072-69407fc17fd6.png
-tags: html, form, html5, form-validation, html-tags
 
 ---
 
