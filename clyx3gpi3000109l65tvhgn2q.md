@@ -7,7 +7,6 @@ cuid: clyx3gpi3000109l65tvhgn2q
 slug: self-review-targeted-css
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721659204218/9972de80-d48c-4c7c-9aed-1a2469b47848.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721659238641/1a45d12d-01c2-472f-83d0-22998aedcd44.png
-tags: css3, css, html, html5, targeted-css
 
 ---
 
