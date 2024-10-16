@@ -7,7 +7,6 @@ cuid: clxoeqon0000209k2e44h31vb
 slug: knowledge-check-describe-cloud-service-types
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718957105142/812af57a-06fd-430d-ba89-5367a2c1ff01.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1718957150155/f2aba2a5-30fc-4272-82d1-e35f3f428ba3.png
-tags: paas, saas, iaas, finance
 
 ---
 
