@@ -7,7 +7,6 @@ cuid: clzqn138u001e08l23iqabksa
 slug: self-review-creating-a-route-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723445498765/c5d7fa12-4201-4af3-9758-73cf3cec5dca.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723445619998/f98c3e64-701e-474c-b265-bc70587db2c1.png
-tags: react-basic, self-review-creating-a-route-react-basic
 
 ---
 
