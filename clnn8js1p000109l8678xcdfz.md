@@ -7,7 +7,6 @@ cuid: clnn8js1p000109l8678xcdfz
 slug: build-a-simple-laravel-development-environment-with-docker-compose
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1697118372902/29cbdedb-01d2-485b-a059-95d70c75c139.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1697118501721/513f9fc9-cc2a-45cd-b681-4d5e0518cd31.png
-tags: laravel, docker
 
 ---
 
