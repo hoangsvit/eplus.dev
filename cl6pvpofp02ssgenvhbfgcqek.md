@@ -4,10 +4,9 @@ seoTitle: "iHateRegex - a regex cheatsheet for the haters - don't just use; unde
 seoDescription: "Visual representation of regular expressions - Matched strings - the Testing area -  Embed regular expression visualization on your sites - Regex code high"
 datePublished: Fri Aug 12 2022 02:57:40 GMT+0000 (Coordinated Universal Time)
 cuid: cl6pvpofp02ssgenvhbfgcqek
-slug: ihateregex-a-regex-cheatsheet-for-the-haters-dont-just-use-understand
+slug: ihateregex-a-regex-cheatsheet-for-the-haters-don-t-just-use-understand
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1660272137543/zIuB4ynVR.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1660272957129/dhIdTpWz0.png
-tags: regex, ihateregex
 
 ---
 
