@@ -7,7 +7,6 @@ cuid: clyuxldad000109l879ra4q4v
 slug: module-quiz-command-line
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721528184214/4794c187-41e9-4d46-904b-0cabb12bf7e3.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721528445268/8bf8013c-182c-4670-a2dd-2f2590fe0e5d.png
-tags: git, git-version-control
 
 ---
 
