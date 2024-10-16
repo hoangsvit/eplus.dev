@@ -7,7 +7,6 @@ cuid: clyjo3cxh000o09l6hoss8v5b
 slug: dat-chung-chi-javascript-algorithms-and-data-structures-tren-freecodecamp-trong-5-ngay
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720847194930/51c5d30b-1e36-454d-b7d2-62e9b2c704e9.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1720847340992/9b792932-f3f5-4c22-9caf-39af606b8eb6.jpeg
-tags: javascript, data-structures, freecodecamp, fresher, pascalcase, javascript-algorithms
 
 ---
 
