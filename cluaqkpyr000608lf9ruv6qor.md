@@ -7,7 +7,6 @@ cuid: cluaqkpyr000608lf9ruv6qor
 slug: get-started-with-tensorflow-on-google-cloud-challenge-lab
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711600139295/c5aeb2fb-02a5-4330-bfda-cab678dd1870.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1711600177708/213cc316-2ecc-44be-85bf-c7d71c8fdfc1.png
-tags: tensorflow, google-cloud, jupyterlab, vertex-ai, challenge-notebook
 
 ---
 
