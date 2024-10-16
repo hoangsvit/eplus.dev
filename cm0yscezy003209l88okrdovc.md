@@ -7,7 +7,6 @@ cuid: cm0yscezy003209l88okrdovc
 slug: analyze-bigquery-data-in-connected-sheets-challenge-lab-arc103
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726114127568/d32412c6-957d-4c46-b0c3-c6f1741cdcab.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726114958743/2c183df3-e21d-48c4-a4be-b9e7305ad87d.jpeg
-tags: analyze-bigquery-data-in-connected-sheets-challenge-lab-arc103, arc103
 
 ---
 
