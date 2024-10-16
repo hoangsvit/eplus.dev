@@ -19,7 +19,7 @@ Chúng tôi xin trân trọng thông báo rằng trang web của chúng tôi hi�
 
 Hiện tại, chúng tôi đang tích cực làm việc để khôi phục toàn bộ nội dung và chức năng của trang web. Bạn có thể tiếp tục truy cập và thưởng thức các bài viết như bình thường, tuy nhiên một số nội dung có thể cần thêm thời gian để hoàn tất khôi phục. Chúng tôi cam kết rằng tất cả các nội dung và dịch vụ sẽ sớm trở lại hoạt động đầy đủ và ổn định.
 
-Nếu bạn gặp bất kỳ vấn đề nào hoặc có câu hỏi liên quan đến việc truy cập trang web, xin vui lòng liên hệ với chúng tôi qua \[địa chỉ email hoặc số điện thoại hỗ trợ\]. Chúng tôi luôn sẵn sàng hỗ trợ bạn một cách nhanh chóng và hiệu quả nhất.
+Nếu bạn gặp bất kỳ vấn đề nào hoặc có câu hỏi liên quan đến việc truy cập trang web, xin vui lòng liên hệ với chúng tôi qua [contact@eplus.dev](mailto:contact@eplus.dev) . Chúng tôi luôn sẵn sàng hỗ trợ bạn một cách nhanh chóng và hiệu quả nhất.
 
 Chúng tôi xin chân thành cảm ơn bạn vì sự kiên nhẫn và thấu hiểu trong suốt thời gian gián đoạn vừa qua. Hy vọng rằng bạn sẽ tiếp tục ủng hộ và theo dõi những nội dung mới trên blog của chúng tôi.
 
@@ -31,11 +31,11 @@ David Nguyen
 
 Dear Readers,
 
-We are pleased to inform you that our website is now back online after the downtime from 18:00 on 15/10/2024 to 22:00 on 16/10/2024. During this period of maintenance and technical resolution, some content may have been temporarily unavailable, and we apologize for any inconvenience caused.
+We are pleased to inform you that our website is now back online after the downtime from **18:00 on 15/10/2024** to **22:00 on 16/10/2024**. During this period of maintenance and technical resolution, some content may have been temporarily unavailable, and we apologize for any inconvenience caused.
 
 We are actively working to restore all content and functionalities of the website. You can now continue to access and enjoy our blog posts as usual, though some content may take additional time to be fully restored. We are committed to ensuring that all services will be fully operational and stable soon.
 
-If you experience any issues or have questions, please feel free to contact us via \[support email or phone number\]. We are here to assist you promptly and effectively.
+If you experience any issues or have questions, please feel free to contact us via [contact@eplus.dev](mailto:contact@eplus.dev). We are here to assist you promptly and effectively.
 
 Thank you very much for your patience during the downtime. We hope you continue to support us and enjoy our upcoming content.
 
