@@ -7,7 +7,6 @@ cuid: clyplbph3000009joe6f1buy9
 slug: knowledge-check-error-handling-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721204940955/684c266b-1c55-41cd-843c-7446cb19d74e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721205492530/68f90057-48da-4edb-b986-3fa82d6a043d.png
-tags: javascript
 
 ---
 
