@@ -7,7 +7,6 @@ cuid: clrj9y4dx000109l44kjybn0w
 slug: top-platforms-for-remote-job-opportunities
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/pHPzdEHN6Os/upload/e32f2fce420fd63f5340d6617191a85d.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1705586182439/30890838-0ca8-4185-b2b2-23b6c94df4d7.jpeg
-tags: platforms, remote-job
 
 ---
 
