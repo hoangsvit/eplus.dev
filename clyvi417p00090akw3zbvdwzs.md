@@ -7,7 +7,6 @@ cuid: clyvi417p00090akw3zbvdwzs
 slug: knowledge-check-practice-using-semantic-tags
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721562861113/49c4dbf7-cb9f-4be4-ab11-d309798bebb4.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721562906010/90e420b7-b57d-421c-870e-154612a4d483.png
-tags: html, html5, html-tags
 
 ---
 
