@@ -7,7 +7,6 @@ cuid: clu74fjnk000408jwhv41brsj
 slug: accelerating-analytical-queries-using-the-alloydb-columnar-engine
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711381541177/2af0ccd9-b854-4590-8af4-c96fefac9e97.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1711381607778/3d96cb2c-99b3-4b44-9039-2b914469300d.png
-tags: postgresql, alloydb, accelerating-analytical
 
 ---
 
