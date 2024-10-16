@@ -7,7 +7,6 @@ cuid: clui5xcsl000108jqb1zfhpr4
 slug: google-cloud-computing-foundations-networking-security-in-google-cloud-quiz
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712049212887/b6c9b00c-6a20-4f90-aee2-2b47fdd5979f.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1712049219232/c3e6e9e4-d3e5-41fe-8f5c-04f4df21ede7.png
-tags: google-cloud-computing, security-in-google-cloud, foundations
 
 ---
 
