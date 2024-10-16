@@ -7,7 +7,6 @@ cuid: clzf57xx5000809jo8krp3uxd
 slug: knowledge-check-dynamic-events-and-how-to-handle-them-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722750327145/eca33899-64d1-4566-8bf9-ef811f376539.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722750579573/4219f304-b2fb-43da-9287-e42aecdcb594.png
-tags: react-basic, knowledge-check-dynamic-events-and-how-to-handle-them-react-basic
 
 ---
 
