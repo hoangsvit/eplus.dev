@@ -7,7 +7,6 @@ cuid: clrx5mzf2000408l3eq0ocrj0
 slug: share-typeface-tet-v2-designed-by-mac-hoa-ky
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1706424377038/f645de9e-b1fb-4b24-aa33-f7ae605b0afb.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1706425398900/667ddca5-3ecf-4955-b5ab-9f30b1e9668c.jpeg
-tags: typeface
 
 ---
 
