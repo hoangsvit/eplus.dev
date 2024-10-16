@@ -7,7 +7,6 @@ cuid: clyuy6oo000000ambe0gn19k2
 slug: knowledge-check-git-and-github
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721529240539/3f069075-eb10-4d78-8328-e43930f000ff.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721529440549/3e098a50-3edc-4fe6-863f-48e909c068d3.png
-tags: github, git, git-version-control
 
 ---
 
