@@ -7,7 +7,6 @@ cuid: ckkt6iag80c9biis12a9s2e4d
 slug: how-i-built-realtime-in-laravel-vuejs
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1612583476499/UcVyEsxZE.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1612583492395/j6Bal8wYQ.png
-tags: laravel, realtime, vuejs, graphql, push-notifications
 
 ---
 
