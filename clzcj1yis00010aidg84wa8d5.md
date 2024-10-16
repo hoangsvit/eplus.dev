@@ -8,7 +8,6 @@ cuid: clzcj1yis00010aidg84wa8d5
 slug: knowledge-check-react-components-and-where-they-live
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722592180672/ddc13386-538e-42c5-9516-eceef3f8cdbd.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722592404129/acc6574c-adf1-48ab-8c87-014b1f674161.png
-tags: react-components-and-where-they-live, knowledge-check-react-components-and-where-they-live
 
 ---
 
