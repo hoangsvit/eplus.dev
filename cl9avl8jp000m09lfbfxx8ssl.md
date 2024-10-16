@@ -7,7 +7,6 @@ cuid: cl9avl8jp000m09lfbfxx8ssl
 slug: google-bat-dau-ho-tro-passkey-cho-android-va-chrome
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1665895887127/AsK-jWELZ.jpg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1665896161862/Kft4Dxkdm.jpg
-tags: google, passkey, neowin, google-play-services, chrome-canary
 
 ---
 
