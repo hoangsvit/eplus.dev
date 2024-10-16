@@ -4,10 +4,9 @@ seoTitle: "Get Started with Pub/Sub: Challenge Lab - ARC113"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
 datePublished: Fri Jul 26 2024 13:29:31 GMT+0000 (Coordinated Universal Time)
 cuid: clz2qogju000209l269lp4kt0
-slug: get-started-with-pubsub-challenge-lab-arc113
+slug: get-started-with-pub-sub-challenge-lab-arc113
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722000521196/d4e91078-0a5b-4b4d-8970-31acff692a3f.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722000547023/0204a2ae-84ba-40fb-901a-1e94b28b49bf.png
-tags: get-started-with-pubsub-challenge-lab-arc113, arc113
 
 ---
 
