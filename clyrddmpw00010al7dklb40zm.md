@@ -7,7 +7,6 @@ cuid: clyrddmpw00010al7dklb40zm
 slug: knowledge-check-advanced-javascript-features
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721313048362/9a1dc376-99b5-4da3-aa42-5d1e8df3ec05.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721313064817/28cad413-a84b-4d0a-8054-873d769184b8.png
-tags: javascript
 
 ---
 
