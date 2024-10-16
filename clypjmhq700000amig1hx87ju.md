@@ -7,7 +7,6 @@ cuid: clypjmhq700000amig1hx87ju
 slug: knowledge-check-arrays-objects-and-functions-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721201058782/d00543b6-ac6c-408c-b3ec-e9fc4e2ad1b9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721202637376/bae6f53d-4be1-4cb1-8f2f-6e04a16b0656.png
-tags: javascript
 
 ---
 
