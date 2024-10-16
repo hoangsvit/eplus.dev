@@ -7,7 +7,6 @@ cuid: clywy9sz3000b08ky7q9g1cf1
 slug: google-cloud-arcade-facilitator-24
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721655944034/61fc2baf-b503-42d2-ab7b-8ced6d6de570.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721656020946/c6a61f1e-bf52-49ac-b3fc-ee02b34c4d33.png
-tags: google-cloud-arcade-facilitator-24, google-cloud-arcade-facilitator
 
 ---
 
