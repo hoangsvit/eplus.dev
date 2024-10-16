@@ -7,7 +7,6 @@ cuid: clyvkeqt7000009lb2nd31le0
 slug: self-review-create-and-test-a-form
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721566735733/0092eff5-8cd9-4c9f-90cc-9e65ba4a899e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721566765151/60d2be9d-c672-4940-941b-3858f97c0aa0.png
-tags: forms, html, html5, form-validation
 
 ---
 
