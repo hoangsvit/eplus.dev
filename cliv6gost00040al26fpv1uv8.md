@@ -8,7 +8,6 @@ slug: deploy-a-php-web-app-with-laravel-and-docker
 canonical: https://render.com/docs/deploy-php-laravel-docker
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1686714750518/d13167e4-e6de-402e-b43f-eec68f1fc97a.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1686714775632/ecb00cf1-767a-406b-8081-7cbbe8fe33df.webp
-tags: laravel, docker, laravelframework
 
 ---
 
