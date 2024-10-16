@@ -7,7 +7,6 @@ cuid: clzt9ag80000309me2cxq8y8g
 slug: building-event-driven-orchestration-on-google-cloud
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723603863951/364af9a8-9759-4423-b0d7-b7c217671038.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723603924691/79aa66d3-2afe-4315-8ffa-14c67c61016e.png
-tags: cloud-functions, cloud-build, serverless-computing, workflows, eventarc, building-event-driven-orchestration-on-google-cloud, service-integration, cloud-vision-api
 
 ---
 
