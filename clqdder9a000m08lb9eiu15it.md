@@ -7,7 +7,6 @@ cuid: clqdder9a000m08lb9eiu15it
 slug: bao-cao-luong-it-2023-2024-it-salary-report-for-2023-2024
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/wtS7ijvnMpU/upload/71975a9c72f9568e50d664094888a2db.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1703052352990/1021c39a-d46b-4fb2-b038-8422e492a82d.avif
-tags: salary, it, vietnam, vietnamese
 
 ---
 
