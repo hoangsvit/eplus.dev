@@ -7,7 +7,6 @@ cuid: clzzjxi0b000q09jz9nsn4fo4
 slug: deploy-a-compute-instance-with-a-remote-startup-script-challenge-lab-gsp301
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723984416603/060961ee-1723-447b-adf1-b1a9be91db8b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723984601139/4c330eac-8698-4760-9d03-10c0b73dbca4.png
-tags: deploy-a-compute-instance-with-a-remote-startup-script-challenge-lab-gsp301, gsp301
 
 ---
 
