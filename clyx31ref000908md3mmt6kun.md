@@ -7,7 +7,6 @@ cuid: clyx31ref000908md3mmt6kun
 slug: knowledge-check-creating-layouts
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721658493503/8ab4e425-9269-439a-8e7b-4bd385bb36a9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721658505395/83ede2ae-44ff-42ef-a8b8-8bd3d3ed780a.png
-tags: flexbox, css3, css, html, html5, flex-css
 
 ---
 
