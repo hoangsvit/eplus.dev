@@ -7,7 +7,6 @@ cuid: clznzqmve00110amf8q9xeyk0
 slug: detect-manufacturing-defects-using-visual-inspection-ai-challenge-lab-gsp366
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723285433932/353c5524-2665-4a8f-a8ea-7868afaf8867.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723285530928/c5828ce3-a966-4096-8435-82ad71f96779.png
-tags: detect-manufacturing-defects-using-visual-inspection-ai-challenge-lab-gsp366, gsp366
 
 ---
 
