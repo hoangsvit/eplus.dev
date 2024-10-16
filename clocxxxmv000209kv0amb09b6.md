@@ -8,7 +8,6 @@ cuid: clocxxxmv000209kv0amb09b6
 slug: tip-tao-phim-tat-tra-cuu-phat-nguoi-tren-iphone
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698672755454/8a60e116-00ad-4ee8-8c89-ff31433819c1.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1698672792124/12a13564-dae5-4c90-97c7-42abf09d8d1c.png
-tags: iphone
 
 ---
 
