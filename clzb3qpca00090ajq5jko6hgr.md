@@ -7,7 +7,6 @@ cuid: clzb3qpca00090ajq5jko6hgr
 slug: trust-and-security-with-google-cloud
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722505789872/fc75792e-41c8-4693-a51b-011fff098c87.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722505798422/8595720c-819d-4de6-90be-069ffd59d5e4.png
-tags: cloud-digital-leader-learning-path, trust-and-security-with-google-cloud
 
 ---
 
