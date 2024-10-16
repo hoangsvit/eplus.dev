@@ -7,7 +7,6 @@ cuid: clnl9wqe3000909k0gkv45vq1
 slug: laravel-bakery-is-an-on-the-fly-graphql-schema-generator-from-eloquent-models
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696999619835/dc568de0-9318-4920-a174-1e06c22ee3c7.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1696999836420/96fabea8-d381-4a78-8b32-d39cce4023c4.png
-tags: laravel, graphql, laravel-eloquent
 
 ---
 
