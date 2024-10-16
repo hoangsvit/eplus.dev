@@ -7,7 +7,6 @@ cuid: clhrvtiev000009le0k590kq0
 slug: laravel-security-middleware
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684338551764/6d8dcecf-e94a-450c-8a48-d919c23773da.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1684338750733/de84b229-ec66-4f39-8bff-4c470e16548e.png
-tags: laravel, security, middleware, laraveldevelopment
 
 ---
 
