@@ -7,7 +7,6 @@ cuid: clzzm2jqn000509l97pc199kk
 slug: build-and-deploy-a-docker-image-to-a-kubernetes-cluster-challenge-lab-gsp304
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723987961970/53661cb3-f904-4b75-9bc3-b95a427dc363.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723988191653/451db203-618f-4620-a7de-d2ee38642abe.png
-tags: build-and-deploy-a-docker-image-to-a-kubernetes-cluster-challenge-lab-gsp304, gsp304
 
 ---
 
