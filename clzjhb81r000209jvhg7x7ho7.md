@@ -7,7 +7,6 @@ cuid: clzjhb81r000209jvhg7x7ho7
 slug: running-windows-containers-on-compute-engine-gsp153
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723011573689/490b3cce-0588-4df3-a3e9-384788f60d7d.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723012734733/6f01f2c1-7a50-40e1-9926-f1b296db918f.png
-tags: running-windows-containers-on-compute-engine-gsp153, gsp153
 
 ---
 
