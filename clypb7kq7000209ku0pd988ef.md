@@ -7,7 +7,6 @@ cuid: clypb7kq7000209ku0pd988ef
 slug: knowledge-check-welcome-to-programming-with-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721188435666/59b15241-b705-4ee5-a573-e46e8692695b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721188513490/a67130ca-e9dc-427c-88c5-6f3ac6f5fbf2.png
-tags: javascript
 
 ---
 
