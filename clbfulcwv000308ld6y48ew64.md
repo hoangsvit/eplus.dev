@@ -7,7 +7,6 @@ cuid: clbfulcwv000308ld6y48ew64
 slug: new-chrome-features-to-save-battery-and-make-browsing-smoother
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670550286470/6YRA2uqha.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1670550386766/LfcHuFU-E.png
-tags: chrome, google
 
 ---
 
