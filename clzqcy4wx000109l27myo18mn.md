@@ -9,7 +9,6 @@ cuid: clzqcy4wx000109l27myo18mn
 slug: arcade-hero-enter-the-cloud-function-storage-arc236
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723428642182/3c7ca947-5297-4bb8-9f32-6c66e9a7d88e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723428661285/0efc8978-b657-49f4-9091-3a370d04c9fe.png
-tags: arcade-hero-enter-the-cloud-function-storage-arc236, arc236
 
 ---
 
