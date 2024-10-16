@@ -7,7 +7,6 @@ cuid: cm0z4b4mm000e0al1awrdcksl
 slug: knowledge-check-react-context-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726135065268/940641d5-122c-42cc-9edd-81c0b3d9d219.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726135150171/935f2946-308b-4e06-863a-de659836e32a.jpeg
-tags: advanced-react, knowledge-check-react-context-advanced-react
 
 ---
 
