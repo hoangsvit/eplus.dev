@@ -7,7 +7,6 @@ cuid: clyvl4zx9000009joaffo5w6l
 slug: knowledge-check-form-submission
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721567559515/63944cbe-48a5-4cec-9ee5-31ad76747bf1.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721567985242/3ec5f290-2234-4a52-ba89-9b975ebf35ba.png
-tags: forms, html, html5
 
 ---
 
