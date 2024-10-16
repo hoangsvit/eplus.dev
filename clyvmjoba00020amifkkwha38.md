@@ -7,7 +7,6 @@ cuid: clyvmjoba00020amifkkwha38
 slug: knowledge-check-user-input-and-forms
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721570079863/1ed3bcb8-49f7-4477-9383-3746e0ebbad9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721570333464/bcf76fc0-2a34-4ef7-aaa2-892d5be426a8.png
-tags: forms, html, html5, form-validation, html-tags
 
 ---
 
