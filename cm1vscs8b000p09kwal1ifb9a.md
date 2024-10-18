@@ -7,7 +7,7 @@ cuid: cm1vscs8b000p09kwal1ifb9a
 slug: knowledge-check-semantic-structure
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728109979207/e88ba74e-a244-4d9e-80ff-34cbbe845923.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728110461066/54c0e505-901c-4b92-91bc-ce89ebe3937d.png
-tags: ui, knowledge-check-semantic-structure
+tags: ui, knowledge-check-semantic-structure, werewrsfserfewfwsfwefs
 
 ---
 
