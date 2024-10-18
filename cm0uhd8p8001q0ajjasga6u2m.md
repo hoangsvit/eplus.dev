@@ -7,6 +7,7 @@ cuid: cm0uhd8p8001q0ajjasga6u2m
 slug: continuous-delivery-with-google-cloud-deploy-gsp1079
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725854299532/0978f1c6-9b58-47d1-9e06-78e380e64412.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725854753077/220b8de1-4e5c-4776-9de5-0ea9b491569f.jpeg
+tags: continuous-delivery-with-google-cloud-deploy-gsp1079
 
 ---
 
