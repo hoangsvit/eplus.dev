@@ -7,6 +7,7 @@ cuid: cm052mzrv000b08l4aetc6u2m
 slug: getting-started-with-the-vertex-ai-gemini-api-with-curl-gsp1228
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724317519347/5cb6e6ec-763d-4d8a-a36e-9c2721b9faed.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724318361120/71bc3d1a-ee29-4bd9-b650-b2bcf06c81df.jpeg
+tags: getting-started-with-the-vertex-ai-gemini-api-with-curl-gsp1228
 
 ---
 
