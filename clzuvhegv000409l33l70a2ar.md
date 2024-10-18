@@ -7,6 +7,7 @@ cuid: clzuvhegv000409l33l70a2ar
 slug: apply-rfm-method-to-segment-customer-data
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723701476458/e524df7b-cb73-4d3c-913d-9bba2a5e78fb.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723701682603/380de087-a834-41b3-bb78-bfdc4916eaa0.png
+tags: apply-rfm-method-to-segment-customer-data
 
 ---
 
