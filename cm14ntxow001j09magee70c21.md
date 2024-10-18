@@ -7,6 +7,7 @@ cuid: cm14ntxow001j09magee70c21
 slug: knowledge-check-advanced-hooks-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726470227738/92aec963-667a-426d-9b6a-0dbda41634f7.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726470275469/87d2fec6-a836-408b-a24d-180d2c489e8c.jpeg
+tags: knowledge-check-getting-started-with-hooks-advanced-react
 
 ---
 
