@@ -7,6 +7,7 @@ cuid: clz2igcb1001009l6anoy1epp
 slug: google-cloud-storage-bucket-lock-gsp297
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721986458901/c0e9db6e-2e87-4cd8-a0be-668badc38deb.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721986703486/3172a4d6-bc41-45a1-a5a6-9aed1c5f8fb7.png
+tags: google-cloud-storage-bucket-lock-gsp297
 
 ---
 
