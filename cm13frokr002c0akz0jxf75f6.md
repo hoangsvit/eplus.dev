@@ -7,6 +7,7 @@ cuid: cm13frokr002c0akz0jxf75f6
 slug: check-point-next-gen-data-center-security-cloudguard-for-google-cloud-gsp818
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726395988838/e1e8b8ed-8b70-4e75-8659-ffef7cc9da8b.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726396263923/89da30cd-cd72-44c9-8784-bf78d35f8dc2.jpeg
+tags: check-point-next-gen-data-center-security-cloudguard-for-google-cloud-gsp818
 
 ---
 
