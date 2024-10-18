@@ -7,6 +7,7 @@ cuid: clzz0tjhy00010al9acmzg5io
 slug: deploy-kubernetes-applications-on-google-cloud-challenge-lab-gsp318
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723952217042/64ca0bf3-cd21-4c7f-8d78-4749cd0330c1.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723952510888/7f151333-5255-4520-a509-9358523b1664.png
+tags: deploy-kubernetes-applications-on-google-cloud-challenge-lab-gsp318
 
 ---
 
