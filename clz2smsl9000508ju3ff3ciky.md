@@ -7,6 +7,7 @@ cuid: clz2smsl9000508ju3ff3ciky
 slug: cloud-functions-qwik-start-console-gsp081
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722003605792/4aaaf6b5-7caa-4f3a-bcf0-756ad07f7acb.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722003829326/7d82c9ca-f078-450a-89d8-b60299f6feb8.png
+tags: cloud-functions-qwik-start-console-gsp081
 
 ---
 
