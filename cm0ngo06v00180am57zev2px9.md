@@ -7,6 +7,7 @@ cuid: cm0ngo06v00180am57zev2px9
 slug: using-bigquery-and-cloud-logging-to-analyze-bigquery-usage-gsp617
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725430053747/59478ab7-5d29-4e5b-beb9-9630ce2b817a.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725430312463/dff7c9d9-bef2-43d3-916d-0f67d31031fb.jpeg
+tags: using-bigquery-and-cloud-logging-to-analyze-bigquery-usage-gsp617
 
 ---
 
