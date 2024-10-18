@@ -7,6 +7,7 @@ cuid: clzs96u8t00040aleh8iv57k5
 slug: crippling-facebook
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723543232986/2b5b78ca-e543-46cf-864c-353afe6c7fd6.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723543304195/de0f915c-38d1-44a7-b306-4456764113f4.png
+tags: crippling-facebook
 
 ---
 
