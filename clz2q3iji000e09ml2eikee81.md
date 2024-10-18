@@ -7,6 +7,7 @@ cuid: clz2q3iji000e09ml2eikee81
 slug: pub-sub-lite-qwik-start-gsp832
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721999212085/3e6240c1-6b42-4a81-bb83-c1e64e0f718b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721999569970/7a147b94-7090-4992-8fdb-aacf05f8de42.png
+tags: pubsub-lite-qwik-start-gsp832
 
 ---
 
