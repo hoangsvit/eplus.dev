@@ -7,6 +7,7 @@ cuid: cm0mg3fsq00070ala17xqa9jr
 slug: setting-up-cost-control-with-quota-gsp651
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725368470124/02e980b8-a96f-4d0c-81c4-d27725c77f2a.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725368888701/31131d5f-3daf-45d6-a55e-6647ef34a2e0.jpeg
+tags: setting-up-cost-control-with-quota-gsp651
 
 ---
 
