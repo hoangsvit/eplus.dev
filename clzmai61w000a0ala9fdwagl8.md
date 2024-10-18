@@ -7,6 +7,7 @@ cuid: clzmai61w000a0ala9fdwagl8
 slug: pub-sub-qwik-start-python-gsp094
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723182295783/afc0e6d0-0a8e-4dbc-9b60-dbc36008ba94.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723182713635/f344e205-e996-4cd9-94f5-fca0e55ef111.png
+tags: pubsub-qwik-start-python-gsp094
 
 ---
 
