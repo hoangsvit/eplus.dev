@@ -7,6 +7,7 @@ cuid: clzm881fm000n09la399ofuzq
 slug: develop-serverless-apps-with-firebase-challenge-lab-gsp344
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723178642270/9ad53c30-6867-4c84-8b9b-ec2037444810.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723178880389/9d63eaa6-3c78-4c70-a2fd-4deaf1ef0d68.png
+tags: develop-serverless-apps-with-firebase-challenge-lab-gsp344
 
 ---
 
