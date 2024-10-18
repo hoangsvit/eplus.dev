@@ -7,6 +7,7 @@ cuid: cm00h01b7000i0amh65znci4a
 slug: creating-date-partitioned-tables-in-bigquery-gsp414
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724039956965/fabf5af0-e3cb-4f70-904b-d0fc4e5f6b27.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724040153604/5df776ed-64f3-4644-ace0-5a5a1e78c89f.png
+tags: creating-date-partitioned-tables-in-bigquery-gsp414
 
 ---
 
