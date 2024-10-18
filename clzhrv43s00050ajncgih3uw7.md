@@ -7,6 +7,7 @@ cuid: clzhrv43s00050ajncgih3uw7
 slug: working-with-json-arrays-and-structs-in-bigquery-gsp416
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722909511755/657ac802-cdf6-4c48-af8e-64b3bafffb26.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722909536132/c6e5aff5-b017-4ef9-b61d-9496fed2f3eb.png
+tags: working-with-json-arrays-and-structs-in-bigquery-gsp416
 
 ---
 
