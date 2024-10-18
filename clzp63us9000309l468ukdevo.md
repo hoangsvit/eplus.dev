@@ -9,6 +9,7 @@ cuid: clzp63us9000309l468ukdevo
 slug: arcade-hero-enter-the-cloud-function-net-arc232
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723356528331/47dc42a8-f454-4806-9a0a-e104f7e07328.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723356726230/561e5a17-5175-4e9d-817a-45f9e5e71834.png
+tags: arcade-hero-enter-the-cloud-function-net-arc232
 
 ---
 
