@@ -7,6 +7,7 @@ cuid: clz2j2amc000l09l755aefshv
 slug: pub-sub-qwik-start-console-gsp096
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721987741851/7192ec8a-ccc2-408d-910b-90b80c0d1696.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721987767246/2227fccd-4246-4adf-950c-20ee0409ce9f.png
+tags: pubsub-qwik-start-console-gsp096
 
 ---
 
