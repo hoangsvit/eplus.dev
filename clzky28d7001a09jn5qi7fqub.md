@@ -7,6 +7,7 @@ cuid: clzky28d7001a09jn5qi7fqub
 slug: knowledge-check-state-or-stateless-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723101334970/337f74fd-a731-4fa2-8fa5-5e73606e080e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723101345043/95b12af4-6766-4d23-a5d6-97c19cdface6.png
+tags: knowledge-check-state-or-stateless-react-basic
 
 ---
 
