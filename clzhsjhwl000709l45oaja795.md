@@ -7,6 +7,7 @@ cuid: clzhsjhwl000709l45oaja795
 slug: autoscaling-an-instance-group-with-custom-cloud-monitoring-metrics-gsp087
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722910633359/53a2aa3f-90f4-485c-8d37-816af8c254c8.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722910665804/77422592-5310-4373-84a0-75401ad2e083.png
+tags: autoscaling-an-instance-group-with-custom-cloud-monitoring-metrics-gsp087
 
 ---
 
