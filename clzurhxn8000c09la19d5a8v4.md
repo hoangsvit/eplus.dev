@@ -7,6 +7,7 @@ cuid: clzurhxn8000c09la19d5a8v4
 slug: connecting-cloud-functions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723694619380/65ec499b-2256-4844-85cd-7d3a963452aa.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723694973819/e65aa3f1-5f74-4507-ad7e-5553b54a04e2.png
+tags: connecting-cloud-functions
 
 ---
 
