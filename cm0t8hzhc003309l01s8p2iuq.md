@@ -6,6 +6,7 @@ datePublished: Sun Sep 08 2024 07:10:05 GMT+0000 (Coordinated Universal Time)
 cuid: cm0t8hzhc003309l01s8p2iuq
 slug: use-functions-formulas-and-charts-in-google-sheets-challenge-lab-gsp379
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725778862459/f9d047a2-a095-49b8-9333-5238ae15b502.jpeg
+tags: use-functions-formulas-and-charts-in-google-sheets-challenge-lab-gsp379
 
 ---
 
