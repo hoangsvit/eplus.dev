@@ -7,6 +7,7 @@ cuid: cm169kjhr003a09jsbu4rgw67
 slug: knowledge-check-setting-up-the-project
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726567240775/ed4b3738-d3ba-493e-b0ce-e9c7d0db953a.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726567250666/5f076b14-fdd9-4f77-8d37-b9a1870c694b.jpeg
+tags: knowledge-check-setting-up-the-project
 
 ---
 
