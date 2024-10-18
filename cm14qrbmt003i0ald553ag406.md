@@ -7,6 +7,7 @@ cuid: cm14qrbmt003i0ald553ag406
 slug: self-review-implementing-scroller-position-with-render-props-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726475173918/cdacbdee-6987-44a5-a11c-b31b098e5e56.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726475190213/99cb52ea-ab0b-4e7d-8528-493e3073c34e.jpeg
+tags: self-review-implementing-scroller-position-with-render-props-advanced-react
 
 ---
 
