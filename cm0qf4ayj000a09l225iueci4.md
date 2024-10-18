@@ -7,6 +7,7 @@ cuid: cm0qf4ayj000a09l225iueci4
 slug: looker-functions-and-operators-gsp857
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725606594002/524bc9d7-56bf-49ba-8b2b-9272dd4ac274.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725609107126/56e0f4d5-6814-44de-8b17-bea86c9747a3.jpeg
+tags: looker-functions-and-operators-gsp857
 
 ---
 
