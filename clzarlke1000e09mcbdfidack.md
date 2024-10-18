@@ -9,6 +9,7 @@ cuid: clzarlke1000e09mcbdfidack
 slug: digital-transformation-with-google-cloud
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722485772907/98a339f2-205e-4ba5-9128-79d159a724c4.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722485816009/f09ca09d-1ad1-4790-96e6-8df2d300e8fa.png
+tags: digital-transformation-with-google-cloud
 
 ---
 
