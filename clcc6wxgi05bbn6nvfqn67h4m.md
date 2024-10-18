@@ -5,6 +5,7 @@ cuid: clcc6wxgi05bbn6nvfqn67h4m
 slug: happy-new-year-2023
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1672503957816/680396c0-6080-4529-9103-068fc66a1d18.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1672504140857/8c0c54ae-926f-4c20-9434-c7acc9da087b.png
+tags: happy-new-year-2024
 
 ---
 
