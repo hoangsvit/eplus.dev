@@ -7,6 +7,7 @@ cuid: clzknsg9r000809ibe94g0ahm
 slug: app-building-with-appsheet-challenge-lab-arc105
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723081987045/7872e94a-f48a-4d64-8c74-ee44bf41f411.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723084095606/bbb05489-f177-4ad0-9e43-a3f793e83683.png
+tags: app-building-with-appsheet-challenge-lab-arc105
 
 ---
 
