@@ -7,6 +7,7 @@ cuid: clzkomisd00050akx6rp1g26j
 slug: set-up-an-app-dev-environment-on-google-cloud-challenge-lab-gsp315
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723084936665/00d60367-fe53-49a9-bc0b-7dc88ac24ab4.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723085500309/8bca7bd9-3f56-4edf-8b31-fec861f747b8.png
+tags: set-up-an-app-dev-environment-on-google-cloud-challenge-lab-gsp315
 
 ---
 
