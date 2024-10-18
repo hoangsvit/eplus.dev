@@ -7,6 +7,7 @@ cuid: clzma5hhd000409jy4qxu7kyr
 slug: cloud-storage-qwik-start-cloud-console-gsp073
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723182088145/aca2d6ce-024b-4f5d-bc39-7b55d4f924a7.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723182121329/c5170192-c9bb-4c59-8c4f-6a2fd9ae3646.png
+tags: cloud-storage-qwik-start-cloud-console-gsp073
 
 ---
 
