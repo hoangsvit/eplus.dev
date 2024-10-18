@@ -7,6 +7,7 @@ cuid: clzj7s97d000p09lb4eqq897g
 slug: using-custom-fields-in-looker-explores-gsp983
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722996602228/1ff8856f-18bd-4b5e-b764-fbe094746f8f.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722996704342/a65ca858-d877-43ba-9307-1ae30fdb4aea.png
+tags: using-custom-fields-in-looker-explores-gsp983
 
 ---
 
