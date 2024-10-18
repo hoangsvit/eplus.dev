@@ -9,6 +9,7 @@ cuid: clzp4s7k100000amab9i5ecis
 slug: arcade-hero-enter-the-cloud-function-golang-arc230
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723354406220/380cf310-3934-4cf7-b1d6-b1c6e45dc677.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723354497117/30672f9a-03e2-4d13-8eb2-2d6ec836eb2b.png
+tags: arcade-hero-enter-the-cloud-function-golang-arc230
 
 ---
 
