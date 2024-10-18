@@ -7,6 +7,7 @@ cuid: cm00gtdjk000009jzbtio0vgw
 slug: creating-a-data-warehouse-through-joins-and-unions-gsp413
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724039530040/ad72784a-06e8-448e-b74d-45c34f677b7e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724039843633/f7b12f3c-27e5-40c8-b055-cccac3b35431.png
+tags: creating-a-data-warehouse-through-joins-and-unions-gsp413
 
 ---
 
