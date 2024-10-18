@@ -7,6 +7,7 @@ cuid: cm14fobb400080amh688saeb4
 slug: module-quiz-components-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726455537679/4621e901-fd83-4476-976c-79799bf01720.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726456575407/3f5a915d-0d6e-4291-9823-84385fdd8dcf.jpeg
+tags: module-quiz-components-advanced-react
 
 ---
 
