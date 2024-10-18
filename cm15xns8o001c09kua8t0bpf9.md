@@ -7,6 +7,7 @@ cuid: cm15xns8o001c09kua8t0bpf9
 slug: knowledge-check-type-and-text-design-ui-ux
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726547237333/cb3917fa-31e0-4864-be65-26f53fe120ad.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726547249448/d9c9b4ed-f6ed-43b0-b3ec-7c9b94cb4a8a.jpeg
+tags: knowledge-check-type-and-text-design-uiux
 
 ---
 
