@@ -7,6 +7,7 @@ cuid: clz2g4wtz000409mj0g3mamle
 slug: hosting-a-web-app-on-google-cloud-using-compute-engine-gsp662
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721982666336/ddd976ad-6898-4f76-9027-a2fb276ef2e4.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721982845494/58c9d551-8722-4c94-9b3a-75655e1c298e.png
+tags: hosting-a-web-app-on-google-cloud-using-compute-engine-gsp662
 
 ---
 
