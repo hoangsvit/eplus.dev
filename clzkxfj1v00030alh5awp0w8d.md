@@ -7,6 +7,7 @@ cuid: clzkxfj1v00030alh5awp0w8d
 slug: knowledge-check-state-the-concept-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723100284365/647655cd-09b7-402a-971a-a98acc73114e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723100296574/22b4a02c-d52a-40ad-8011-1af7b4ad1296.png
+tags: knowledge-check-state-the-concept-react-basic
 
 ---
 
