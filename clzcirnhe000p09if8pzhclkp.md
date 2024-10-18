@@ -8,6 +8,7 @@ cuid: clzcirnhe000p09if8pzhclkp
 slug: self-review-creating-and-importing-components-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722591816229/f7381a0f-0ead-4612-bb15-570811810f5a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722591925984/1f431661-605e-4df1-ba95-9f15ac682691.png
+tags: self-review-creating-and-importing-components-react-basic
 
 ---
 
