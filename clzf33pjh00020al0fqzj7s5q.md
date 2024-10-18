@@ -7,6 +7,7 @@ cuid: clzf33pjh00020al0fqzj7s5q
 slug: module-quiz-component-use-and-styling-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722746584098/0660afb8-90e2-4d74-973a-43939a78a75d.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722747012289/1e390279-1664-4753-8e00-e3af8710648e.png
+tags: module-quiz-component-use-and-styling-react-basic
 
 ---
 
