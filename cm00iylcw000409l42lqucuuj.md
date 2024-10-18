@@ -7,6 +7,7 @@ cuid: cm00iylcw000409l42lqucuuj
 slug: module-quiz-navigation-updating-and-assets-in-react-js
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724043167523/a96268f9-14a7-4621-be35-89e6d643659b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724043439497/b56b435d-b5b6-4fe8-9eb0-9047be39249f.png
+tags: module-quiz-navigation-updating-and-assets-in-reactjs
 
 ---
 
