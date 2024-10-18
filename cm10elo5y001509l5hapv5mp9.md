@@ -7,6 +7,7 @@ cuid: cm10elo5y001509l5hapv5mp9
 slug: the-arcade-trivia-september-2024-week-4
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726211444800/4fcb6e46-da0d-47d6-833e-81307afc15d1.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726212641174/d3d44cbc-2a06-4c40-97c5-99a880028bf1.jpeg
+tags: the-arcade-trivia-september-2024-week-4
 
 ---
 
