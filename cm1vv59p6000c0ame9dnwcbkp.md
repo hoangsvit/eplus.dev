@@ -7,6 +7,7 @@ cuid: cm1vv59p6000c0ame9dnwcbkp
 slug: knowledge-check-table-booking-system
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728115138278/68b6dd8a-4a22-47da-bb97-24fbeaf64789.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728115148987/9549f543-2237-49e2-b913-7f971222ca97.png
+tags: knowledge-check-table-booking-system
 
 ---
 
