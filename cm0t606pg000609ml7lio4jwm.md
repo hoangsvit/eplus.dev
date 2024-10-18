@@ -7,6 +7,7 @@ cuid: cm0t606pg000609ml7lio4jwm
 slug: the-arcade-trivia-september-2024-week-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725774859410/2bec650b-044a-4600-8ecd-c37b534df308.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725775203115/6603dfc1-2f78-4379-a1a8-844971a4db7e.jpeg
+tags: the-arcade-trivia-september-2024-week-1
 
 ---
 
