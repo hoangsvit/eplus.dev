@@ -7,6 +7,7 @@ cuid: clzvauuly000308la6af43jmz
 slug: knowledge-check-navigation-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723727359808/c2e5fa5c-a459-4765-9464-329ef31b9137.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723727503639/181c9801-ab29-43eb-a2f0-0dc92b2ea109.png
+tags: knowledge-check-navigation-react-basic
 
 ---
 
