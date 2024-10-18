@@ -7,6 +7,7 @@ cuid: clzwipfk600040ammezcjahuf
 slug: employing-best-practices-for-improving-the-usability-of-lookml-projects-gsp1020
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723800560443/15bfd126-63da-4a69-af89-449fcfe5491c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723801155088/b142dcbc-f9ad-437c-9520-2467b663173a.png
+tags: employing-best-practices-for-improving-the-usability-of-lookml-projects-gsp1020
 
 ---
 
