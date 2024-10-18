@@ -7,6 +7,7 @@ cuid: clzktdz0g000c09jrc4kn5avj
 slug: app-dev-storing-image-and-video-files-in-cloud-storage-python-gsp185
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723092777074/aa849ebd-9307-4c59-8292-cc3c3e58a8ae.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723093489907/ca360209-73e6-4598-aca2-2880e4295e3f.png
+tags: app-dev-storing-image-and-video-files-in-cloud-storage-python-gsp185
 
 ---
 
