@@ -7,6 +7,7 @@ cuid: cm1vsqrfy000806l53ajh0nhe
 slug: knowledge-check-styling-and-responsiveness
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728111053568/f1d9cae4-41a0-4090-b136-de255adcd7ec.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728111108004/a9a8a4d5-b989-4575-96d8-9811162730cc.png
+tags: knowledge-check-styling-and-responsiveness
 
 ---
 
