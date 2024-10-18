@@ -7,6 +7,7 @@ cuid: cm14mryzo000b08jt2a1ugd76
 slug: self-review-can-you-fetch-data-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726468455540/fd58bc22-9055-4673-8980-43e5e07398e2.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726468485060/b4781cb0-dfc0-4163-a4d7-23ebb58168d4.jpeg
+tags: self-review-can-you-fetch-data-advanced-react
 
 ---
 
