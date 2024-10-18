@@ -7,6 +7,7 @@ cuid: cm0noe82x00020al4hbgo3zh6
 slug: creating-a-looker-modeled-query-and-working-with-quick-start-gsp984
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725442789110/10aa88bc-c60b-40e1-b4ce-725a2608421e.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725443285597/e11cf081-b90e-4406-ad2e-527d5a469f89.jpeg
+tags: creating-a-looker-modeled-query-and-working-with-quick-start-gsp984
 
 ---
 
