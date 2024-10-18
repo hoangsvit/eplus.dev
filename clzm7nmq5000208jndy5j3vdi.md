@@ -7,6 +7,7 @@ cuid: clzm7nmq5000208jndy5j3vdi
 slug: deploy-go-apps-on-google-cloud-serverless-platforms-gsp702
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723177101236/b82d6426-caca-46c0-8bdc-18f74f03429c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723177916694/bc56203f-e6d6-4c27-9417-88ace89b937f.png
+tags: deploy-go-apps-on-google-cloud-serverless-platforms-gsp702
 
 ---
 
