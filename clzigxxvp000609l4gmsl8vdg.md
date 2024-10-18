@@ -7,6 +7,7 @@ cuid: clzigxxvp000609l4gmsl8vdg
 slug: running-a-mongodb-database-in-kubernetes-with-statefulsets-gsp022
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722949568612/c8c77d6e-2c47-459e-af8a-7769afd1f1f8.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722951654116/2b3e46a9-e927-48cf-ad56-f2dd2aa0f6a7.png
+tags: running-a-mongodb-database-in-kubernetes-with-statefulsets-gsp022
 
 ---
 
