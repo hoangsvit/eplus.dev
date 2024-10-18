@@ -7,6 +7,7 @@ cuid: cm11th8qt000908l814saekei
 slug: cach-minh-kiem-dollar-dau-tien-bang-lemon-squeezy
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726298337790/86e53937-2e67-4cc9-9eeb-4d0aa5c3ad03.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726298358909/02bace72-21d1-41fc-8b13-8f29c1442799.jpeg
+tags: cach-minh-kiem-dollar-dau-tien-bang-lemon-squeezy
 
 ---
 
