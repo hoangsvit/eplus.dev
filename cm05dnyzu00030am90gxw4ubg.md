@@ -7,6 +7,7 @@ cuid: cm05dnyzu00030am90gxw4ubg
 slug: 2024-use-charts-in-google-sheets-gsp1061
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724335661715/53499256-3573-4951-ab94-44e826d5c80d.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724336879695/517f5b2a-5b22-4967-8d39-91e8ae6f583a.jpeg
+tags: 2024-use-charts-in-google-sheets-gsp1061
 
 ---
 
