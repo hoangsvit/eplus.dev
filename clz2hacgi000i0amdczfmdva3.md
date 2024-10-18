@@ -7,6 +7,7 @@ cuid: clz2hacgi000i0amdczfmdva3
 slug: the-basics-of-google-cloud-compute-challenge-lab-arc120
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721983696774/b4ab8e2b-773b-4318-92ba-5a9a802250c0.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721984357651/e6e7f6a6-ec2e-4c86-a64c-5b598f981fc6.png
+tags: the-basics-of-google-cloud-compute-challenge-lab-arc120
 
 ---
 
