@@ -7,6 +7,7 @@ cuid: clzasu2ru000809mq5smn6es2
 slug: exploring-data-transformation-with-google-cloud
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722486828347/8a06a8a7-a1c8-4d1c-abc5-ccf0898740fd.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722487892903/2ffa71fd-4b23-4a54-9bbf-3ec7c2732cf7.png
+tags: exploring-data-transformation-with-google-cloud
 
 ---
 
