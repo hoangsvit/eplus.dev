@@ -7,6 +7,7 @@ cuid: clzkxofvx001y0amafg4ydinf
 slug: knowledge-check-passing-state-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723100697939/4f7a0ed7-5080-4917-aa6f-d7093bca754e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723100711994/8136bd79-51a2-4db2-b284-1dee666458bb.png
+tags: knowledge-check-passing-state-react-basic
 
 ---
 
