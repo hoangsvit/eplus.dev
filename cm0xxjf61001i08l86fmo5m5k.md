@@ -7,6 +7,7 @@ cuid: cm0xxjf61001i08l86fmo5m5k
 slug: connected-sheets-qwik-start-gsp870
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726061591012/b45d6c16-2891-45f4-aa3c-a46d770c9310.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726063314721/11460807-de47-4b99-a6c8-8578279b696b.jpeg
+tags: connected-sheets-qwik-start-gsp870
 
 ---
 
