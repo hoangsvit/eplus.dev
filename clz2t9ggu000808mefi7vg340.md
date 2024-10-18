@@ -7,6 +7,7 @@ cuid: clz2t9ggu000808mefi7vg340
 slug: getting-started-with-api-gateway-challenge-lab-arc109
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722004130020/ff237f86-e78c-4ad9-8b20-d27607615b60.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722004890035/1e88f22b-9114-42eb-a9cf-ebf644d1c665.png
+tags: getting-started-with-api-gateway-challenge-lab-arc109
 
 ---
 
