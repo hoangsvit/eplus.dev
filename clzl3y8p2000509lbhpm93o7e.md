@@ -7,6 +7,7 @@ cuid: clzl3y8p2000509lbhpm93o7e
 slug: build-a-website-on-google-cloud-challenge-lab-gsp319
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723110281154/17a56171-b252-4784-b7ea-33e66a4cb4f0.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723111234001/004ce568-0a97-4944-b0bf-48b25ce13df9.png
+tags: build-a-website-on-google-cloud-challenge-lab-gsp319
 
 ---
 
