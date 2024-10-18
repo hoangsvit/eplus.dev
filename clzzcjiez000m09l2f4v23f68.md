@@ -7,6 +7,7 @@ cuid: clzzcjiez000m09l2f4v23f68
 slug: service-accounts-and-roles-fundamentals-gsp199
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723971706746/ac529544-f4c3-45c8-a2c8-aa5aab79ce61.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723972196854/c69b6e52-4584-4e35-86a1-128282c6c4bb.png
+tags: service-accounts-and-roles-fundamentals-gsp199
 
 ---
 
