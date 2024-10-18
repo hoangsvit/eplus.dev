@@ -7,6 +7,7 @@ cuid: cm0urs149001g09jvb6m9ac6a
 slug: create-a-secure-data-lake-on-cloud-storage-challenge-lab-arc119
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725871493688/2a89a068-7fc7-45ac-8054-0127dd6c33cc.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725872240652/3fb8c17e-2d79-4151-81f9-06556fe6334a.jpeg
+tags: create-a-secure-data-lake-on-cloud-storage-challenge-lab-arc119
 
 ---
 
