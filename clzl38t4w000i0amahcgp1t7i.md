@@ -7,6 +7,7 @@ cuid: clzl38t4w000i0amahcgp1t7i
 slug: build-a-chat-application-using-the-palm-2-api-on-cloud-run-gsp1201
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723109918328/7a0069a9-d9b6-4ee9-b9b3-e354098b0f37.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723110053159/d23bbce1-7695-4685-bd22-f384d900c17e.png
+tags: build-a-chat-application-using-the-palm-2-api-on-cloud-run-gsp1201
 
 ---
 
