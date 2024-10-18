@@ -9,6 +9,7 @@ cuid: clzzid01y001j0ajqgs6k001p
 slug: getting-started-with-cloud-kms-gsp079
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723981947031/cffd4a91-d92b-4902-b041-53baf94077ac.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723981957680/1f35fd9e-4e0f-40ec-8979-d0cc6de1d847.png
+tags: getting-started-with-cloud-kms-gsp079
 
 ---
 
