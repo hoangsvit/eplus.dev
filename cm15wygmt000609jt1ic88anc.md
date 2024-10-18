@@ -7,6 +7,7 @@ cuid: cm15wygmt000609jt1ic88anc
 slug: knowledge-check-navigation-and-form-design-ui-ux
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726546054046/e40d3c7b-23da-4029-9769-7077e8853a58.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726546070583/1d40aaf8-f4e0-4c74-97a3-b12432843c36.jpeg
+tags: knowledge-check-navigation-and-form-design-uiux
 
 ---
 
