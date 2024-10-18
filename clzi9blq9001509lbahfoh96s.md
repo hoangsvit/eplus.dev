@@ -7,6 +7,7 @@ cuid: clzi9blq9001509lbahfoh96s
 slug: creating-and-alerting-on-logs-based-metrics-gsp091
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722938846873/6b7042aa-1257-4aea-af0d-66af71cb9863.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722938862085/3d7f0b51-89fe-4b59-9929-1e380a2f012a.png
+tags: creating-and-alerting-on-logs-based-metrics-gsp091
 
 ---
 
