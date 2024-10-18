@@ -7,6 +7,7 @@ cuid: clzzc6uxg000009jzavoh5y01
 slug: iam-custom-roles-gsp190
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723971178111/0c17026a-d5ae-46fa-a741-2d711d939528.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723971597281/1481757c-e401-4fe7-8f84-2db0b6e10f70.png
+tags: iam-custom-roles-gsp190
 
 ---
 
