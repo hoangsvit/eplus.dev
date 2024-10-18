@@ -7,6 +7,7 @@ cuid: clzmiwmre000308jrf9sldxl5
 slug: create-a-component-anomaly-detection-model-using-visual-inspection-ai-gsp895
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723196270669/daf28450-6bee-4514-b494-8332576a81f5.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723196822384/3d227321-3ff3-4726-8d49-3f669dc77eed.png
+tags: create-a-component-anomaly-detection-model-using-visual-inspection-ai-gsp895
 
 ---
 
