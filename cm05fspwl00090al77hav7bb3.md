@@ -6,6 +6,7 @@ cuid: cm05fspwl00090al77hav7bb3
 slug: validate-data-in-google-sheets-gsp1062
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724337137126/9b1c47ad-19ed-4ef6-a2a2-5c23c2810d3f.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724340463772/d6df64cd-132c-4b90-a2eb-0936c7dbcb01.jpeg
+tags: validate-data-in-google-sheets-gsp1062
 
 ---
 
