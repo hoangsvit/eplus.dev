@@ -7,6 +7,7 @@ cuid: clzihs07e00000al79smh156o
 slug: web-security-scanner-qwik-start-gsp112
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722953100623/62a51a04-763e-47f4-8218-665e375a3e67.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722953054717/b6b14557-172c-4fbd-ae94-fcc1f7302cbe.png
+tags: web-security-scanner-qwik-start-gsp112
 
 ---
 
