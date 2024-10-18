@@ -7,6 +7,7 @@ cuid: clzj7mto400070ak01dok67ar
 slug: cloud-sql-for-mysql-qwik-start-gsp151
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722996404023/76e4986e-c315-4fc0-a378-bcff16cba366.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722996492427/d41f2cb6-2a69-4665-afca-64b9feb1c529.png
+tags: cloud-sql-for-mysql-qwik-start-gsp151
 
 ---
 
