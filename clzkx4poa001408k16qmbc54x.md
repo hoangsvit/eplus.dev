@@ -7,6 +7,7 @@ cuid: clzkx4poa001408k16qmbc54x
 slug: knowledge-check-data-flow-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723099772894/ef152495-b5c6-44b8-a606-5e6c5723ef41.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723099791251/b2e1c974-9c35-4214-b2ae-106886342c8b.png
+tags: knowledge-check-data-flow-react-basic
 
 ---
 
