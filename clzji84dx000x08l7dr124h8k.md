@@ -7,6 +7,7 @@ cuid: clzji84dx000x08l7dr124h8k
 slug: deploy-microsoft-sql-server-to-compute-engine-gsp031
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723014248937/3d35e012-f052-4577-bc79-9f65e5ae8075.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723014278928/f741df19-aa4f-4506-9847-2e50c5f4c2f8.png
+tags: deploy-microsoft-sql-server-to-compute-engine-gsp031
 
 ---
 
