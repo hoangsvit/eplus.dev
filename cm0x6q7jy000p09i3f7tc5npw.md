@@ -7,6 +7,7 @@ cuid: cm0x6q7jy000p09i3f7tc5npw
 slug: localxpose-securely-access-your-localhost-from-anywhere
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726017829702/4110da70-39d3-450a-b384-de06ba1f2159.avif
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726018262192/df720629-669c-4f18-ab50-4248865c000c.avif
+tags: localxpose-securely-access-your-localhost-from-anywhere
 
 ---
 
