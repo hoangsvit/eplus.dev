@@ -7,6 +7,7 @@ cuid: cm03imag4001f08l9gwsf34r6
 slug: etl-processing-on-google-cloud-using-dataflow-and-bigquery-python-gsp290
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724223870892/b98c0da0-5eb0-4ed6-937e-58646f8d3b19.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724224247853/fc787136-076e-4365-a2bd-0c767e5c8749.png
+tags: etl-processing-on-google-cloud-using-dataflow-and-bigquery-python-gsp290
 
 ---
 
