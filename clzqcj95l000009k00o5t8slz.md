@@ -9,6 +9,7 @@ cuid: clzqcj95l000009k00o5t8slz
 slug: arcade-hero-enter-the-cloud-function-python-arc235
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723427539674/8098cee7-a785-4939-b20e-6e66c9c266e5.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723427986878/ef705059-a35c-4074-8e8c-a0fa6de6207c.png
+tags: arcade-hero-enter-the-cloud-function-python-arc235
 
 ---
 
