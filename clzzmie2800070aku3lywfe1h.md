@@ -7,6 +7,7 @@ cuid: clzzmie2800070aku3lywfe1h
 slug: scale-out-and-update-a-containerized-application-on-a-kubernetes-cluster-challenge-lab-gsp305
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723988733786/5d646594-df07-4ba3-90b8-f6c6af9398aa.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723988940719/a7d9a402-e47d-4e94-b0a2-f22a7655df2b.png
+tags: scale-out-and-update-a-containerized-application-on-a-kubernetes-cluster-challenge-lab-gsp305
 
 ---
 
