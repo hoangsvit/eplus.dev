@@ -7,6 +7,7 @@ cuid: cly5vn4q700040ajr9m7x1pj4
 slug: mongodb-logging-basics
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720013481971/0961ecc1-0259-4993-9fa2-335436fadccc.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1720013511305/8c6208a6-5d63-4f29-ad19-a1e8217d59e2.png
+tags: mongodb-logging-basics
 
 ---
 
