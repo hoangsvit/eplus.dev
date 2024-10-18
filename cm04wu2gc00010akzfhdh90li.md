@@ -7,6 +7,7 @@ cuid: cm04wu2gc00010akzfhdh90li
 slug: detect-and-investigate-threats-with-security-command-center-gsp1125
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724305707432/3ccd3427-b831-45bf-84f2-5bb77f7acae9.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724308610718/b28cf349-af4d-4bc8-ac29-19fa146b1df4.jpeg
+tags: detect-and-investigate-threats-with-security-command-center-gsp1125
 
 ---
 
