@@ -7,6 +7,7 @@ cuid: clzceight000208jr39h34hcd
 slug: knowledge-check-debugging
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722584445651/562cadb9-8f15-4337-b894-8a6f5d21ec52.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722584725088/c37ff95f-9895-4798-bf9a-b4ea60974d25.png
+tags: knowledge-check-debugging
 
 ---
 
