@@ -7,6 +7,7 @@ cuid: clzhr203p000708mnfqktfopn
 slug: start-here-don-t-skip-this-arcade-lab
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722907622571/2db37919-84c0-426b-9de2-cb7b68ced437.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722908152791/20366ffb-b90e-491b-b5f1-612854fa498d.png
+tags: start-here-dont-skip-this-arcade-lab
 
 ---
 
