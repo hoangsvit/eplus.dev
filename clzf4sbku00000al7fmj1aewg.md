@@ -7,6 +7,7 @@ cuid: clzf4sbku00000al7fmj1aewg
 slug: knowledge-check-events-and-errors-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722749627203/9b445c8a-768b-4ca1-aa04-24f0fb1db35d.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722749847518/3772dcbd-077f-473a-88ca-845fee9bf089.png
+tags: knowledge-check-events-and-errors-react-basic
 
 ---
 
