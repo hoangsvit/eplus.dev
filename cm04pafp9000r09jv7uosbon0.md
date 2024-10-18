@@ -9,6 +9,7 @@ cuid: cm04pafp9000r09jv7uosbon0
 slug: analyzing-findings-with-security-command-center-gsp1164
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724295367032/bff95315-2872-435a-835a-b0c2fa2af284.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724295929917/5e45de68-1d6b-4ec9-8aeb-89919e093735.png
+tags: analyzing-findings-with-security-command-center-gsp1164
 
 ---
 
