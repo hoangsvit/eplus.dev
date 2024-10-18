@@ -7,6 +7,7 @@ cuid: clzkyems2001j09jn1g419fhs
 slug: module-quiz-data-and-state-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723101875425/9f1198d2-3406-4d4d-9c90-12c75c578de2.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723101886904/1dc02c02-8f4b-40c4-921a-beef93889e13.png
+tags: module-quiz-data-and-state-react-basic
 
 ---
 
