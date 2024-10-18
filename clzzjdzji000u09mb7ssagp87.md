@@ -4,9 +4,10 @@ seoTitle: "Implement Cloud Security Fundamentals on Google Cloud: Challenge Lab"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
 datePublished: Sun Aug 18 2024 12:21:49 GMT+0000 (Coordinated Universal Time)
 cuid: clzzjdzji000u09mb7ssagp87
-slug: implement-cloud-security-fundamentals-on-google-cloud-challenge-lab-gsp342-1
+slug: implement-cloud-security-fundamentals-on-google-cloud-challenge-lab-gsp342-1-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723983362489/559a7405-a09b-459d-94f0-241fba2cca4b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723983692318/eefff81f-2c1c-4f97-91bf-0d37ceca9a5c.png
+tags: implement-cloud-security-fundamentals-on-google-cloud-challenge-lab-gsp342
 
 ---
 
