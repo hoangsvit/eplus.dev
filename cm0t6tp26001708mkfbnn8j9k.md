@@ -7,6 +7,7 @@ cuid: cm0t6tp26001708mkfbnn8j9k
 slug: use-google-forms-with-google-sheets-gsp1064
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725775752662/2f246730-0d6a-400b-8e74-0986b17700d6.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725776580905/cd5669c2-1e2c-47b2-af3a-c83e0c5e42c9.png
+tags: use-google-forms-with-google-sheets-gsp1064
 
 ---
 
