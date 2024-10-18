@@ -9,6 +9,7 @@ cuid: cm1vznf72000209l8c3kzbfx6
 slug: redacting-sensitive-data-with-the-dlp-api-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728122646864/aef3b343-47cb-41ec-826c-1f2d615607be.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728122705544/cc3068ea-d9e9-4ba3-ad5e-9672c9d76ee4.png
+tags: redacting-sensitive-data-with-the-dlp-api-solution
 
 ---
 
