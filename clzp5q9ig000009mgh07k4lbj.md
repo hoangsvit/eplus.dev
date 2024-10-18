@@ -9,6 +9,7 @@ cuid: clzp5q9ig000009mgh07k4lbj
 slug: arcade-hero-enter-the-cloud-function-node-js-arc231
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723355817749/fdbdd7d2-90ba-4376-9e16-5665c7c0a487.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723356090486/f0b5b7e3-81f4-411e-b213-7793a3b9633f.png
+tags: arcade-hero-enter-the-cloud-function-nodejs-arc231
 
 ---
 
