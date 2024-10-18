@@ -7,6 +7,7 @@ cuid: clzvaapd6001109lc8sec5o31
 slug: predict-taxi-fare-with-a-bigquery-ml-forecasting-model-gsp246
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723726208154/a4f01581-599d-4631-bb83-213987f021ce.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723726548929/914428db-1753-4e7a-a201-71be86967736.png
+tags: predict-taxi-fare-with-a-bigquery-ml-forecasting-model-gsp246
 
 ---
 
