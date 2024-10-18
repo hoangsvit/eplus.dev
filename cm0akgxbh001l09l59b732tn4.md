@@ -7,6 +7,7 @@ cuid: cm0akgxbh001l09l59b732tn4
 slug: the-arcade-special-edition-arcade-athon-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724646733337/d10f8334-c9d1-4358-ae74-0f1304830386.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724650620587/0c061ce4-d789-4f9a-ad3f-bad8c3270c92.jpeg
+tags: the-arcade-special-edition-arcade-athon-solution
 
 ---
 
