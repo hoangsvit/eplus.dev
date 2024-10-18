@@ -7,6 +7,7 @@ cuid: cm0uqhhla00020ak583jqedl6
 slug: implement-cloud-security-fundamentals-on-google-cloud-challenge-lab-gsp342
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725869857665/f5a5dfd3-3af5-43a2-bb21-91160a9e6edb.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725870063857/fe636e4d-15ee-4188-88c8-22df191036a5.jpeg
+tags: implement-cloud-security-fundamentals-on-google-cloud-challenge-lab-gsp342
 
 ---
 
