@@ -7,6 +7,7 @@ cuid: cly57sey4000208l7ghkd4y8f
 slug: the-mongodb-shell
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719972610300/73809e78-fd0e-4757-b301-ad606413b86c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1719973439388/9abba8e7-c599-4d9f-b20e-ad74a259b35a.png
+tags: the-mongodb-shell
 
 ---
 
