@@ -7,6 +7,7 @@ cuid: clzzdcups000009jodyy6a9pd
 slug: vpc-network-peering-gsp193
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723972691768/8807a231-fda2-4242-910e-102a48ab560b.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723973564621/5f0c9af1-2fbe-4ef0-afc7-0736fe776e9d.png
+tags: vpc-network-peering-gsp193
 
 ---
 
