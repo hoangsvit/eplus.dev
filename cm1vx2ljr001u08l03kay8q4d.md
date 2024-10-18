@@ -7,6 +7,7 @@ cuid: cm1vx2ljr001u08l03kay8q4d
 slug: knowledge-check-interacting-with-the-api
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728118327745/0f7cb404-64c9-4e9f-833e-23f034377239.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1728118381773/4cb2d9b6-2b36-4337-a43a-80ecdd9ec9eb.png
+tags: knowledge-check-interacting-with-the-api
 
 ---
 
