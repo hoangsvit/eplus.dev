@@ -7,6 +7,7 @@ cuid: cm037lpyv000009kv7oll2w4t
 slug: bigquery-machine-learning-using-soccer-data-gsp851
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724205582190/655496aa-af84-4ce1-b0e6-d90fff7be0c9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724205764603/6ee9825d-876d-4a80-9954-42a1d91cf26a.png
+tags: bigquery-machine-learning-using-soccer-data-gsp851
 
 ---
 
