@@ -7,6 +7,7 @@ cuid: cm0z3hkko00350akucngx1s9e
 slug: knowledge-check-forms-in-react-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726133740481/a506f761-a084-4e25-b958-86852085c268.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726133768936/c4694542-2485-4457-aca7-09c1acc8500e.jpeg
+tags: knowledge-check-forms-in-react-advanced-react
 
 ---
 
