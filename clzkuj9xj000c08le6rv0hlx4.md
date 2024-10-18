@@ -7,6 +7,7 @@ cuid: clzkuj9xj000c08le6rv0hlx4
 slug: app-engine-3-ways-challenge-lab-arc112
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723095395104/23f0c692-3dfe-415e-9424-98ccf41be325.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723095417775/95ab8fb5-1515-4c78-b983-c613e3ca1e73.png
+tags: app-engine-3-ways-challenge-lab-arc112
 
 ---
 
