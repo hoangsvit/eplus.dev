@@ -7,6 +7,7 @@ cuid: clzc4qb2i00080alcdgrk621i
 slug: knowledge-check-css-selectors
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722568360012/c4f4663d-fa6c-46d1-ac76-55b97e4a9885.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722568311166/b50706fd-3137-40f3-9e1e-74e929a205b5.png
+tags: knowledge-check-css-selectors
 
 ---
 
