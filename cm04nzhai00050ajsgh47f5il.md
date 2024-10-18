@@ -7,6 +7,7 @@ cuid: cm04nzhai00050ajsgh47f5il
 slug: engineer-data-for-predictive-modeling-with-bigquery-ml-challenge-lab-gsp327
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724293523236/9d3e53b0-b1ab-4dc6-8382-4d2a529199e9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724293751374/72a82283-be3d-42b2-adc6-3ec7769a6fbe.png
+tags: engineer-data-for-predictive-modeling-with-bigquery-ml-challenge-lab-gsp327
 
 ---
 
