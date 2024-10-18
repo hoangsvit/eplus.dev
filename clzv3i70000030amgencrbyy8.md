@@ -7,6 +7,7 @@ cuid: clzv3i70000030amgencrbyy8
 slug: getting-started-with-bigquery-ml-gsp247
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723714812172/1993c6c3-a731-4e36-a79c-7f4273ef9f10.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723715085920/d7bbe682-bc0a-4965-be4d-950b2fdb0273.png
+tags: getting-started-with-bigquery-ml-gsp247
 
 ---
 
