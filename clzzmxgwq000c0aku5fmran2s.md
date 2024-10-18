@@ -7,6 +7,7 @@ cuid: clzzmxgwq000c0aku5fmran2s
 slug: migrate-a-mysql-database-to-google-cloud-sql-challenge-lab-gsp306
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723989109379/ba45a49c-a2da-4e5b-8357-ab57b6bb5c15.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723989636504/c2aa24d6-2b54-4c7c-a7a7-614e5ba6f107.png
+tags: migrate-a-mysql-database-to-google-cloud-sql-challenge-lab-gsp306
 
 ---
 
