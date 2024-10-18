@@ -7,6 +7,7 @@ cuid: cm0c0beji00010al7e6aqbttk
 slug: collect-metrics-from-exporters-using-the-managed-service-for-prometheus-gsp1026
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724737370200/1eeecfd1-88b6-4116-9792-26782b56d933.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724737713558/8d1c123b-9dd0-453d-8f01-046a729c4a9d.jpeg
+tags: collect-metrics-from-exporters-using-the-managed-service-for-prometheus-gsp1026
 
 ---
 
