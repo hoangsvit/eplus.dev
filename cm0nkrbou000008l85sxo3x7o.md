@@ -7,6 +7,7 @@ cuid: cm0nkrbou000008l85sxo3x7o
 slug: loading-data-into-cloud-sql-gsp196
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725436429589/436c9031-124a-4999-bb99-eca0fc415a53.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725437175816/0c3dd039-213f-420f-ab62-585d0e1ac426.jpeg
+tags: loading-data-into-cloud-sql-gsp196
 
 ---
 
