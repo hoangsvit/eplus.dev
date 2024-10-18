@@ -7,6 +7,7 @@ cuid: cm0afxdpy00060alca7xa6kms
 slug: https-content-based-load-balancer-with-terraform-gsp206
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724723482120/5494c355-76bd-4b02-a9f4-e3bb00a62e01.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724643009532/9fbb3b4b-956a-4d15-a797-e8572b590c21.png
+tags: https-content-based-load-balancer-with-terraform-gsp206
 
 ---
 
