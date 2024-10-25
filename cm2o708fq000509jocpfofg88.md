@@ -62,7 +62,7 @@ Bạn có thể sử dụng Quản lý DMARC của Cloudflare để thiết lậ
 **Ví dụ Bản ghi TXT:**
 
 ```plaintext
-Copy codev=DMARC1; p=none; rua=mailto:<email-báo-cáo-của-bạn>
+v=DMARC1; p=none; rua=mailto:<email-báo-cáo-của-bạn>
 ```
 
 **Hoàn thành!**  
