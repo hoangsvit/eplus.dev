@@ -17,7 +17,7 @@ tags: project-management, capstone-applying-project-management-in-the-real-world
         
     * Emails are programmed to be sent on the correct dates.
         
-    * Marketing emails are sent on scheduled dates.
+    * <mark>Marketing emails are sent on scheduled dates.</mark>
         
     * Marketing materials are drafted.
         
