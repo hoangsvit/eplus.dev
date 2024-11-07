@@ -135,7 +135,7 @@ Run a Dataflow pipeline to stream data from a Pub/Sub topic to Cloud Storage
 
 ## **Solution of Lab**
 
-%[https://www.youtube.com/watch?v=xRJuLBFXTyc] 
+%[https://youtu.be/tdMIj1aOunM] 
 
 ```apache
 export TOPIC_ID=topic1
