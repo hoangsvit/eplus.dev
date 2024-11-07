@@ -13,7 +13,7 @@ tags: diwali-in-the-arcade-november-2024, the-arcade-base-camp-november-2024, th
 
 Welcome to **Base Camp November 2024**, where you’ll develop key **Google Cloud** skills and earn an exclusive credential that will open doors to the cloud for you. No prior experience is required!
 
-Link: [Google Cloud Skills Boost - Games 5425](https://www.cloudskillsboost.google/games/5425) - **(**[**Solution**](https://eplus.dev/the-arcade-base-camp-september-2024-solution)**)**
+Link: [Google Cloud Skills Boost - Games 5630](https://www.cloudskillsboost.google/games/5630/labs/36113) - **(**[**Solution**](https://eplus.dev/the-arcade-base-camp-september-2024-solution)**)**
 
 ---
 
