@@ -19,7 +19,7 @@ Link: [Google Cloud Skills Boost - Games 5630](https://www.cloudskillsboost.goog
 
 | **Level** | **Link** | **Code** |
 | --- | --- | --- |
-| **The Arcade Base Camp November** | [Google Cloud Skills Boost - Games 5630](https://www.cloudskillsboost.google/games/5630?utm_source=qwiklabs&utm_medium=lp&utm_campaign=basecamp-november-arcade24) | <mark>1q-basecamp-4281</mark> |
+| **The Arcade Base Camp November 2024** | [Google Cloud Skills Boost - Games 5630](https://www.cloudskillsboost.google/games/5630?utm_source=qwiklabs&utm_medium=lp&utm_campaign=basecamp-november-arcade24) | <mark>1q-basecamp-4281</mark> |
 | **Diwali In The Arcade November 2024** | [Google Cloud Skills Boost - Games 5628](https://www.cloudskillsboost.google/games/5628?utm_source=qwiklabs&utm_medium=lp&utm_campaign=arcade-explorer-november-arcade24) | <mark>1q-diwali-1111</mark> |
 | The Arcade Trivia November 2024 **Week 1** | [Google Cloud Skills Boost - Games 5631](https://www.cloudskillsboost.google/games/5631?utm_source=qwiklabs&utm_medium=lp&utm_campaign=arcade24-november-trivia) | <mark>1q-trivia-81112</mark> |
 | The Arcade Trivia November 2024 **Week 2** | [Google Cloud Skills Boost - Games 5632](https://www.cloudskillsboost.google/games/5632?utm_source=qwiklabs&utm_medium=lp&utm_campaign=arcade24-november-trivia) | <mark>1q-trivia-81135</mark> |
