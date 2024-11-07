@@ -5,8 +5,8 @@ seoDescription: "Get ready to embark on a thrilling journey of learning and disc
 datePublished: Tue Aug 06 2024 01:36:35 GMT+0000 (Coordinated Universal Time)
 cuid: clzhr203p000708mnfqktfopn
 slug: start-here-dont-skip-this-arcade-lab
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722907622571/2db37919-84c0-426b-9de2-cb7b68ced437.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722908152791/20366ffb-b90e-491b-b5f1-612854fa498d.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730957843392/7b35a783-2525-48de-bc95-d30eb2c2a4e9.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1730957856946/0677721a-5aae-4d95-a1de-880f2be8ce7e.png
 tags: start-here-dont-skip-this-arcade-lab
 
 ---
