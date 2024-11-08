@@ -39,8 +39,6 @@ Verify Task
     
     <table><tbody><tr><td colspan="1" rowspan="1"><p>This is an example of editing the file content for cloud storage object</p></td></tr></tbody></table>
     
-      
-    
 * For '<mark>Bucket2</mark>' refer the bucket2 name provided at the left side of the lab instructions.
     
 * Make sure that the updated file should be the same as previous file name.
@@ -69,7 +67,7 @@ Click **Check my progress** to verify the objective.
 
 ## Answer of Lab
 
-%[https://www.youtube.com/watch?v=yJ-6DHV10P8&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
+%[https://www.youtube.com/watch?v=o1vJi2mRAh4] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721987092380/b5cb2c32-a337-4395-b1fe-3ab7ecd71fe5.png align="center")
 
