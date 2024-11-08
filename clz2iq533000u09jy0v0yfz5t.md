@@ -76,3 +76,5 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Get%20Starte
 sudo chmod +x quicklabarc111.sh
 ./quicklabarc111.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731047229202/f02c0814-d0dc-4475-b472-04b08e220a44.png align="center")
