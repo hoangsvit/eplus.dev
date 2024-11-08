@@ -3,21 +3,21 @@
 ### #Blog posts
 
 <!-- BLOG-POST-LIST:START -->
- - 🧰 [Programming Assignment: Write a test - Module 4](https://eplus.dev/programming-assignment-write-a-test-module-4) - 2024-11-08
- - 😺 [Programming Assignment: Import and Scope - Module 4](https://eplus.dev/programming-assignment-import-and-scope-module-4) - 2024-11-08
- - 🗽 [Module quiz: Programming Paradigms](https://eplus.dev/module-quiz-programming-paradigms) - 2024-11-08
- - 🌜 [Programming Assignment: Abstract Classes and Methods - Module 3](https://eplus.dev/programming-assignment-abstract-classes-and-methods-module-3) - 2024-11-08
- - 📝 [Programming Assignment: Mapping key-values to Dictionary data structures - Module 3](https://eplus.dev/programming-assignment-mapping-key-values-to-dictionary-data-structures-module-3) - 2024-11-08
- - 🚀 [Module quiz: Basic Programming with Python - Module 2](https://eplus.dev/module-quiz-basic-programming-with-python-module-2) - 2024-11-08
- - 💼 [Programming Assignment: Read in data, store, manipulate and output new data to a file](https://eplus.dev/programming-assignment-read-in-data-store-manipulate-and-output-new-data-to-a-file) - 2024-11-08
- - 🦣 [Programming Assignment: Functions, loops and data structures](https://eplus.dev/programming-assignment-functions-loops-and-data-structures) - 2024-11-08
- - 👨‍🏫 [Module quiz: Getting started with Python - Module 1](https://eplus.dev/module-quiz-getting-started-with-python-module-1) - 2024-11-08
- - 🔭 [Creating Cross-region Load Balancing - GSP157](https://eplus.dev/creating-cross-region-load-balancing-gsp157) - 2024-11-08
- - 🤡 [Distributed Load Testing Using Kubernetes - GSP182](https://eplus.dev/distributed-load-testing-using-kubernetes-gsp182) - 2024-11-08
- - 💡 [Dataproc: Qwik Start - Console - GSP103 &lpar;Solution 2024&rpar;](https://eplus.dev/dataproc-qwik-start-console-gsp103-solution-2024) - 2024-11-07
- - 🦣 [Datastream: PostgreSQL Replication to BigQuery - GSP1052](https://eplus.dev/datastream-postgresql-replication-to-bigquery-gsp1052) - 2024-11-07
- - 💪 [Dataflow: Qwik Start - Python - GSP207](https://eplus.dev/dataflow-qwik-start-python-gsp207) - 2024-11-07
- - 🤡 [Create a Streaming Data Lake on Cloud Storage: Challenge Lab - ARC110](https://eplus.dev/create-a-streaming-data-lake-on-cloud-storage-challenge-lab-arc110) - 2024-11-07<!-- BLOG-POST-LIST:END -->
+ - 🧰 [Module quiz: Modules, packages, libraries and tools](https://eplus.dev/module-quiz-modules-packages-libraries-and-tools) - 2024-11-08
+ - 😺 [Programming Assignment: Write a test - Module 4](https://eplus.dev/programming-assignment-write-a-test-module-4) - 2024-11-08
+ - 🗽 [Programming Assignment: Import and Scope - Module 4](https://eplus.dev/programming-assignment-import-and-scope-module-4) - 2024-11-08
+ - 🌜 [Module quiz: Programming Paradigms](https://eplus.dev/module-quiz-programming-paradigms) - 2024-11-08
+ - 📝 [Programming Assignment: Abstract Classes and Methods - Module 3](https://eplus.dev/programming-assignment-abstract-classes-and-methods-module-3) - 2024-11-08
+ - 🚀 [Programming Assignment: Mapping key-values to Dictionary data structures - Module 3](https://eplus.dev/programming-assignment-mapping-key-values-to-dictionary-data-structures-module-3) - 2024-11-08
+ - 💼 [Module quiz: Basic Programming with Python - Module 2](https://eplus.dev/module-quiz-basic-programming-with-python-module-2) - 2024-11-08
+ - 🦣 [Programming Assignment: Read in data, store, manipulate and output new data to a file](https://eplus.dev/programming-assignment-read-in-data-store-manipulate-and-output-new-data-to-a-file) - 2024-11-08
+ - 👨‍🏫 [Programming Assignment: Functions, loops and data structures](https://eplus.dev/programming-assignment-functions-loops-and-data-structures) - 2024-11-08
+ - 🔭 [Module quiz: Getting started with Python - Module 1](https://eplus.dev/module-quiz-getting-started-with-python-module-1) - 2024-11-08
+ - 🤡 [Creating Cross-region Load Balancing - GSP157](https://eplus.dev/creating-cross-region-load-balancing-gsp157) - 2024-11-08
+ - 💡 [Distributed Load Testing Using Kubernetes - GSP182](https://eplus.dev/distributed-load-testing-using-kubernetes-gsp182) - 2024-11-08
+ - 🦣 [Dataproc: Qwik Start - Console - GSP103 &lpar;Solution 2024&rpar;](https://eplus.dev/dataproc-qwik-start-console-gsp103-solution-2024) - 2024-11-07
+ - 💪 [Datastream: PostgreSQL Replication to BigQuery - GSP1052](https://eplus.dev/datastream-postgresql-replication-to-bigquery-gsp1052) - 2024-11-07
+ - 🤡 [Dataflow: Qwik Start - Python - GSP207](https://eplus.dev/dataflow-qwik-start-python-gsp207) - 2024-11-07<!-- BLOG-POST-LIST:END -->
 
 <div align="right">
   Update by <a target="_blank"
