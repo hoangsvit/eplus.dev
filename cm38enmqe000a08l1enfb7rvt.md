@@ -44,6 +44,8 @@ In this lab you will be presented with a menu ordering system which will allow u
 
 ---
 
+## Solution
+
 ```python
 menu = {
     1: {"name": 'espresso',
