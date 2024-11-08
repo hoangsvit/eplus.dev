@@ -3,21 +3,21 @@
 ### #Blog posts
 
 <!-- BLOG-POST-LIST:START -->
- - 🧰 [Dataproc: Qwik Start - Console - GSP103 &lpar;Solution 2024&rpar;](https://eplus.dev/dataproc-qwik-start-console-gsp103-solution-2024) - 2024-11-07
- - 😺 [Datastream: PostgreSQL Replication to BigQuery - GSP1052](https://eplus.dev/datastream-postgresql-replication-to-bigquery-gsp1052) - 2024-11-07
- - 🗽 [Dataflow: Qwik Start - Python - GSP207](https://eplus.dev/dataflow-qwik-start-python-gsp207) - 2024-11-07
- - 🌜 [Create a Streaming Data Lake on Cloud Storage: Challenge Lab - ARC110](https://eplus.dev/create-a-streaming-data-lake-on-cloud-storage-challenge-lab-arc110) - 2024-11-07
- - 📝 [BigLake: Qwik Start - GSP1040](https://eplus.dev/biglake-qwik-start-gsp1040) - 2024-11-07
- - 🚀 [The Arcade Base Camp November 2024](https://eplus.dev/the-arcade-base-camp-november-2024) - 2024-11-07
- - 💼 [Capstone: Applying Project Management in the Real World - Module 4 Challenge](https://eplus.dev/capstone-applying-project-management-in-the-real-world-module-4-challenge) - 2024-10-28
- - 🦣 [Capstone: Applying Project Management in the Real World - Module 3 Challenge](https://eplus.dev/capstone-applying-project-management-in-the-real-world-module-3-challenge) - 2024-10-28
- - 👨‍🏫 [Capstone: Applying Project Management in the Real World - Module 2 Challenge](https://eplus.dev/capstone-applying-project-management-in-the-real-world-module-2-challenge) - 2024-10-28
- - 🔭 [Capstone: Applying Project Management in the Real World - Module 1 Challenge](https://eplus.dev/capstone-applying-project-management-in-the-real-world-module-1-challenge) - 2024-10-28
- - 🤡 [Cách Sử Dụng Gmail SMTP với Cloudflare Email Routing: Hướng Dẫn Từng Bước](https://eplus.dev/cach-su-dung-gmail-smtp-voi-cloudflare-email-routing-huong-dan-tung-buoc) - 2024-10-25
- - 💡 [Project Execution: Running the Project - Module 2 Challenge](https://eplus.dev/project-execution-running-the-project-module-2-challenge) - 2024-10-24
- - 🦣 [Project Execution: Running the Project - Module 1 Challenge](https://eplus.dev/project-execution-running-the-project-module-1-challenge) - 2024-10-23
- - 💪 [Project Planning: Putting It All Together - Module 5 Challenge](https://eplus.dev/project-planning-putting-it-all-together-module-5-challenge) - 2024-10-23
- - 🤡 [Project Planning: Putting It All Together - Module 4 Challenge](https://eplus.dev/project-planning-putting-it-all-together-module-4-challenge) - 2024-10-23<!-- BLOG-POST-LIST:END -->
+ - 🧰 [Distributed Load Testing Using Kubernetes - GSP182](https://eplus.dev/distributed-load-testing-using-kubernetes-gsp182) - 2024-11-08
+ - 😺 [Dataproc: Qwik Start - Console - GSP103 &lpar;Solution 2024&rpar;](https://eplus.dev/dataproc-qwik-start-console-gsp103-solution-2024) - 2024-11-07
+ - 🗽 [Datastream: PostgreSQL Replication to BigQuery - GSP1052](https://eplus.dev/datastream-postgresql-replication-to-bigquery-gsp1052) - 2024-11-07
+ - 🌜 [Dataflow: Qwik Start - Python - GSP207](https://eplus.dev/dataflow-qwik-start-python-gsp207) - 2024-11-07
+ - 📝 [Create a Streaming Data Lake on Cloud Storage: Challenge Lab - ARC110](https://eplus.dev/create-a-streaming-data-lake-on-cloud-storage-challenge-lab-arc110) - 2024-11-07
+ - 🚀 [BigLake: Qwik Start - GSP1040](https://eplus.dev/biglake-qwik-start-gsp1040) - 2024-11-07
+ - 💼 [The Arcade Base Camp November 2024](https://eplus.dev/the-arcade-base-camp-november-2024) - 2024-11-07
+ - 🦣 [Capstone: Applying Project Management in the Real World - Module 4 Challenge](https://eplus.dev/capstone-applying-project-management-in-the-real-world-module-4-challenge) - 2024-10-28
+ - 👨‍🏫 [Capstone: Applying Project Management in the Real World - Module 3 Challenge](https://eplus.dev/capstone-applying-project-management-in-the-real-world-module-3-challenge) - 2024-10-28
+ - 🔭 [Capstone: Applying Project Management in the Real World - Module 2 Challenge](https://eplus.dev/capstone-applying-project-management-in-the-real-world-module-2-challenge) - 2024-10-28
+ - 🤡 [Capstone: Applying Project Management in the Real World - Module 1 Challenge](https://eplus.dev/capstone-applying-project-management-in-the-real-world-module-1-challenge) - 2024-10-28
+ - 💡 [Cách Sử Dụng Gmail SMTP với Cloudflare Email Routing: Hướng Dẫn Từng Bước](https://eplus.dev/cach-su-dung-gmail-smtp-voi-cloudflare-email-routing-huong-dan-tung-buoc) - 2024-10-25
+ - 🦣 [Project Execution: Running the Project - Module 2 Challenge](https://eplus.dev/project-execution-running-the-project-module-2-challenge) - 2024-10-24
+ - 💪 [Project Execution: Running the Project - Module 1 Challenge](https://eplus.dev/project-execution-running-the-project-module-1-challenge) - 2024-10-23
+ - 🤡 [Project Planning: Putting It All Together - Module 5 Challenge](https://eplus.dev/project-planning-putting-it-all-together-module-5-challenge) - 2024-10-23<!-- BLOG-POST-LIST:END -->
 
 <div align="right">
   Update by <a target="_blank"
