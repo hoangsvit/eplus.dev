@@ -13,7 +13,7 @@ tags: programming-assignment-read-in-data-store-manipulate-and-output-new-data-t
 
 ### Inroduction
 
-In this lab you must read the contents of a file and then write the contents to another file. You must also store the contents of a file into a list so that it can be accessed in different ways. 
+In this lab you must read the contents of a file and then write the contents to another file. You must also store the contents of a file into a list so that it can be accessed in different ways.
 
 ### Goal
 
@@ -33,17 +33,19 @@ In this lab you must read the contents of a file and then write the contents to 
 
 ![Open the terminal to run the script.](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Yf39zrzQSYu9_c680EmLsA_f466ffec75fc4c8cbf3d9db6b314d6a1_Screenshot-2022-05-30-145117.png?expiry=1731196800000&hmac=PWffSENMJpI5Dj99oRLUWAfUvRCY914eso2_dU0dE6c align="left")
 
-**Step 2:** Complete the **read\_file()** function to read in the sampletext.txt file using the **open** function and return the entire contents of the file. 
+**Step 2:** Complete the **read\_file()** function to read in the sampletext.txt file using the **open** function and return the entire contents of the file.
 
 **Step 3:** Complete the **read\_file\_into\_line()** function so that it returns a data structure of all the contents of the file in a line-by-line sequential order.
 
 **Step 4:** Fill in the **write\_first\_line\_to\_file()** that accepts two arguments: the contents of a file to be written and the name of an output file, and writes only the first line of the file contents into the given output file.
 
-**Step 5:** Complete the **read\_even\_numbered\_lines()** to return a list of the even-numbered lines of a file (2, 4, 6, etc.) 
+**Step 5:** Complete the **read\_even\_numbered\_lines()** to return a list of the even-numbered lines of a file (2, 4, 6, etc.)
 
-**Step 6:** Fill in the **read\_file\_in\_reverse()** function to return a list of the lines of a file in reverse order. 
+**Step 6:** Fill in the **read\_file\_in\_reverse()** function to return a list of the lines of a file in reverse order.
 
 ---
+
+## Solution
 
 ```python
 def read_file(file_name):
