@@ -130,6 +130,7 @@ Here is an example of an *incorrectly formatted* SQL statement in which there is
     | 2 | Adam |
     | 3 | Anas |
     
+
     ```sql
     SELECT playerID,
            CASE 
