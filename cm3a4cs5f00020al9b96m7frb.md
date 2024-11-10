@@ -124,12 +124,7 @@ Here is an example of an *incorrectly formatted* SQL statement in which there is
     
     **Hint:** Assume X is a number. If the remainder of X divided by 2 is 0, then X is an even number otherwise X is an odd number. Remember to use the “%” symbol to get the remainder.
     
-    | **PlayerID** | **Name** |
-    | --- | --- |
-    | 1 | Karl |
-    | 2 | Adam |
-    | 3 | Anas |
-    
+   <table><thead><tr><th><strong>PlayerID</strong><th><strong>Name</strong><tbody><tr><td>1<td>Karl<tr><td>2<td>Adam<tr><td>3<td>Anas</table>
 
     ```sql
     SELECT playerID,
