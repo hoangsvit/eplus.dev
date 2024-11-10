@@ -15,11 +15,11 @@ tags: module-quiz-introduction-to-django
     
     * There is no difference between django-admin and [manage.py](http://manage.py).
         
-    * <mark>django-admin is a command-line utility and </mark> [<mark>manage.py</mark>](http://manage.py) <mark> is a Python script.</mark>
+    * <mark>django-admin is a command-line utility and </mark> [<mark>manage.py</mark>](http://manage.py) <mark>is a Python script.</mark>
         
     * [manage.py](http://manage.py) is more convenient to use than django-admin.
         
-    * <mark>django-admin is installed in the Python environment when you install Django with PIP utility. The </mark> [<mark>manage.py</mark>](http://manage.py) <mark> file is created inside each Django project folder.</mark>
+    * <mark>django-admin is installed in the Python environment when you install Django with PIP utility. The </mark> [<mark>manage.py</mark>](http://manage.py) <mark>file is created inside each Django project folder.</mark>
         
 2. **The** [`urls.py`](http://urls.py) **file is present in the project package and the app package.**
     
@@ -102,4 +102,4 @@ tags: module-quiz-introduction-to-django
 
 ---
 
-![]( align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731204237008/b448fbc0-1ed6-4fa2-8543-5d2c0773a8a5.png align="center")
