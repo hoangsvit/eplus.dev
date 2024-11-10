@@ -1,7 +1,7 @@
 ---
 title: "Final graded quiz: Intro to databases"
 seoTitle: "Final graded quiz: Intro to databases"
-seoDescription: "The questions in this assessment relate to a sports club that needs to build a digital database to maintain data about the players joining the club. "
+seoDescription: "The questions in this assessment relate to a sports club that needs to build a digital database to maintain data about the players joining the club."
 datePublished: Sat Nov 09 2024 12:05:33 GMT+0000 (Coordinated Universal Time)
 cuid: cm3a4cs5f00020al9b96m7frb
 slug: final-graded-quiz-intro-to-databases
@@ -11,7 +11,7 @@ tags: final-graded-quiz-intro-to-databases
 
 ---
 
-**This assessment consists of two parts: ode block and a quiz.** 
+**This assessment consists of two parts: ode block and a quiz.**
 
 **Part 1: Code Blocks**
 
@@ -19,7 +19,7 @@ To complete this part of the assessment, you can use MySQL database management s
 
 **Instructions**
 
-The questions in this assessment relate to a sports club that needs to build a digital database to maintain data about the players joining the club. 
+The questions in this assessment relate to a sports club that needs to build a digital database to maintain data about the players joining the club.
 
 Run each complete SQL statement you write in this part to develop the database for the sports club.
 
@@ -128,7 +128,7 @@ Here is an example of an *incorrectly formatted* SQL statement in which there is
     | --- | --- |
     | 1 | Karl |
     | 2 | Adam |
-    | 3 | Anas |
+    | 3 |  |
     
     ```sql
     SELECT playerID, 
@@ -207,7 +207,7 @@ Here is an example of an *incorrectly formatted* SQL statement in which there is
 15. **The output result of the following SQL statement is the data of all customers from Italy.**
     
     ```sql
-    SELECT * FROM customers WHERE Country = "Italy"; 
+    SELECT * FROM customers WHERE Country = "Italy";
     ```
     
     * <mark>True</mark>
@@ -217,12 +217,12 @@ Here is an example of an *incorrectly formatted* SQL statement in which there is
 16. **The output result of the following SQL statement returns the records of all customers from India in Alphabetical order from A to Z.**
     
     ```sql
-    SELECT * FROM students WHERE country = "India" ORDER BY FirstName DESC; 
+    SELECT * FROM students WHERE country = "India" ORDER BY FirstName DESC;
     ```
     
     * <mark>False</mark>
         
-    * True  
+    * True
         
 17. **What does the following SQL statement do?**
     
