@@ -1,13 +1,13 @@
 ---
-title: "Module Quiz: Introduction to Django"
+title: "Django Web Framework - Module Quiz: Introduction to Django"
 seoTitle: "Module Quiz: Introduction to Django"
 seoDescription: "Module Quiz: Introduction to Django"
 datePublished: Sun Nov 10 2024 02:03:19 GMT+0000 (Coordinated Universal Time)
 cuid: cm3aya5ob000509kx1sy3gdbk
-slug: module-quiz-introduction-to-django
+slug: django-web-framework-module-quiz-introduction-to-django
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731204180157/302330c5-bea2-4519-beb1-2045d3c040e5.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1731204191146/1c1d2ca5-f2c8-4ffa-9756-aebdd6cd47f0.png
-tags: module-quiz-introduction-to-django
+tags: module-quiz-introduction-to-django, django-web-framework-module-quiz-introduction-to-django, django-web-framework
 
 ---
 
