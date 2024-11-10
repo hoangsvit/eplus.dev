@@ -263,4 +263,4 @@ Here is an example of an *incorrectly formatted* SQL statement in which there is
 
 ---
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731153877249/240eda72-b9f7-4e0d-a77e-c93703fea329.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731202806206/dffb3134-1c27-48fe-b7b7-ceed8a80a255.png align="center")
