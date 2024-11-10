@@ -137,11 +137,7 @@ Here is an example of an *incorrectly formatted* SQL statement in which there is
     
 9. Write an SQL statement that outputs all names of the players in the following "Players" table who are older than 25 years of age.
     
-    | **Age** | **Name** |
-    | --- | --- |
-    | 38 | Karl |
-    | 25 | Adam |
-    | 22 | Anas |
+    <table><thead><tr><th><strong>Age</strong><th><strong>Name</strong><tbody><tr><td>38<td>Karl<tr><td>25<td>Adam<tr><td>22<td>Anas</table>
     
     ```sql
     SELECT Name FROM Players WHERE Age > 25;
