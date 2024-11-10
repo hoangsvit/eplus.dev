@@ -128,10 +128,10 @@ Here is an example of an *incorrectly formatted* SQL statement in which there is
     | --- | --- |
     | 1 | Karl |
     | 2 | Adam |
-    | 3 |  |
+    | 3 | Anas |
     
     ```sql
-    SELECT playerID, 
+    SELECT playerID,
            CASE 
                WHEN playerID % 2 = 0 THEN 'Even' 
                ELSE 'Odd' 
