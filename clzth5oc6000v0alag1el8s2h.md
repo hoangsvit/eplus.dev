@@ -7,6 +7,7 @@ cuid: clzth5oc6000v0alag1el8s2h
 slug: spotube-ung-dung-nghe-nhac-spotify-youtube-pipedvideo-va-jiosaavn-mien-phi
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723616985078/c6bf35f5-8749-4b59-a373-490e3d974f91.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723617148182/2065cdcc-5a80-4fda-b0c1-3783bade998d.jpeg
+tags: youtube, spotify, spotube, pipedvideo, jiosaavn
 
 ---
 
