@@ -1,7 +1,7 @@
 ---
 title: "Django Web Framework - Module Quiz: Introduction to Django"
-seoTitle: "Module Quiz: Introduction to Django"
-seoDescription: "Module Quiz: Introduction to Django"
+seoTitle: "Django Web Framework - Module Quiz: Introduction to Django"
+seoDescription: "Django Web Framework - Module Quiz: Introduction to Django"
 datePublished: Sun Nov 10 2024 02:03:19 GMT+0000 (Coordinated Universal Time)
 cuid: cm3aya5ob000509kx1sy3gdbk
 slug: django-web-framework-module-quiz-introduction-to-django
