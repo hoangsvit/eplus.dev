@@ -124,8 +124,12 @@ Here is an example of an *incorrectly formatted* SQL statement in which there is
     
     **Hint:** Assume X is a number. If the remainder of X divided by 2 is 0, then X is an even number otherwise X is an odd number. Remember to use the “%” symbol to get the remainder.
     
-   <table><thead><tr><th><strong>PlayerID</strong><th><strong>Name</strong><tbody><tr><td>1<td>Karl<tr><td>2<td>Adam<tr><td>3<td>Anas</table>
-
+    | **PlayerID** | **Name** |
+    | --- | --- |
+    | 1 | Karl |
+    | 2 | Adam |
+    | 3 | Anas |
+    
     ```sql
     SELECT playerID,
            CASE 
@@ -137,7 +141,11 @@ Here is an example of an *incorrectly formatted* SQL statement in which there is
     
 9. Write an SQL statement that outputs all names of the players in the following "Players" table who are older than 25 years of age.
     
-    <table><thead><tr><th><strong>Age</strong><th><strong>Name</strong><tbody><tr><td>38<td>Karl<tr><td>25<td>Adam<tr><td>22<td>Anas</table>
+    | **Age** | **Name** |
+    | --- | --- |
+    | 38 | Karl |
+    | 25 | Adam |
+    | 22 | Anas |
     
     ```sql
     SELECT Name FROM Players WHERE Age > 25;
@@ -180,7 +188,7 @@ Here is an example of an *incorrectly formatted* SQL statement in which there is
         
     * The Full name column data type is CHAR.
         
-    * The Player number column data type is INT.
+    * <mark>The Player number column data type is INT.</mark>
         
     * <mark>The Full name column data type is VARCHAR.</mark>
         
