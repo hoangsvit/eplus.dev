@@ -100,7 +100,7 @@ tags: module-quiz-front-end-technologies
         console.log("Hello");
     } else { 
         console.log("Goodbye"); 
-    } 
+    }
     ```
     
     * Goodbye
@@ -117,9 +117,11 @@ tags: module-quiz-front-end-technologies
         
     * innerHTML()
         
-    * setAttribute()
+    * <mark>setAttribute()</mark>
         
     * appendChild()
         
 
 ---
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731482312369/386926d1-5ad8-460b-b1a3-42d8dfc95fc4.png align="center")
