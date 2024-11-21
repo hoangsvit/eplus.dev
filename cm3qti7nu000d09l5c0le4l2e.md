@@ -78,8 +78,8 @@ To solve this problem, we need to compare the temperature of each day with the t
 
 ### SQL Query:
 
-```javascript
-sqlCopy codeSELECT 
+```sql
+SELECT 
     w1.id
 FROM 
     Weather w1
