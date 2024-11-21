@@ -3,21 +3,21 @@
 ### #Blog posts
 
 <!-- BLOG-POST-LIST:START -->
- - 🧰 [The Arcade Lessons &lpar;2024&rpar;](https://eplus.dev/the-arcade-lessons-2024) - 2024-11-21
- - 😺 [[SQL] 570. Managers with at Least 5 Direct Reports](https://eplus.dev/sql-570-managers-with-at-least-5-direct-reports) - 2024-11-21
- - 🗽 [[SQL] 1280. Students and Examinations](https://eplus.dev/sql-1280-students-and-examinations) - 2024-11-21
- - 🌜 [[SQL] 197. Rising Temperature](https://eplus.dev/sql-197-rising-temperature) - 2024-11-21
- - 📝 [Graded Quiz: The Software Development Lifecycle](https://eplus.dev/graded-quiz-the-software-development-lifecycle) - 2024-11-20
- - 🚀 [Back-End Developer Capstone - Final Graded Assessment](https://eplus.dev/back-end-developer-capstone-final-graded-assessment) - 2024-11-19
- - 💼 [Back-End Developer Capstone - Security and Testing](https://eplus.dev/back-end-developer-capstone-security-and-testing) - 2024-11-18
- - 🦣 [Back-End Developer Capstone - Project Functionality](https://eplus.dev/back-end-developer-capstone-project-functionality) - 2024-11-18
- - 👨‍🏫 [Back-End Developer Capstone - Starting the Project](https://eplus.dev/back-end-developer-capstone-starting-the-project) - 2024-11-18
- - 🔭 [Final Graded Quiz: The Full Stack](https://eplus.dev/final-graded-quiz-the-full-stack) - 2024-11-13
- - 🤡 [Module Quiz: Production Environments](https://eplus.dev/module-quiz-production-environments) - 2024-11-13
- - 💡 [Module Quiz: The Full Stack Using Django](https://eplus.dev/module-quiz-the-full-stack-using-django) - 2024-11-13
- - 🦣 [Module Quiz: Front-End Technologies](https://eplus.dev/module-quiz-front-end-technologies) - 2024-11-13
- - 💪 [Module Quiz: Introduction to the Full Stack](https://eplus.dev/module-quiz-introduction-to-the-full-stack) - 2024-11-13
- - 🤡 [Django Web Framework - Final graded quiz: APIs](https://eplus.dev/django-web-framework-final-graded-quiz-apis) - 2024-11-12<!-- BLOG-POST-LIST:END -->
+ - 🧰 [[SQL] 620. Not Boring Movies](https://eplus.dev/sql-620-not-boring-movies) - 2024-11-21
+ - 😺 [The Arcade Lessons &lpar;2024&rpar;](https://eplus.dev/the-arcade-lessons-2024) - 2024-11-21
+ - 🗽 [[SQL] 570. Managers with at Least 5 Direct Reports](https://eplus.dev/sql-570-managers-with-at-least-5-direct-reports) - 2024-11-21
+ - 🌜 [[SQL] 1280. Students and Examinations](https://eplus.dev/sql-1280-students-and-examinations) - 2024-11-21
+ - 📝 [[SQL] 197. Rising Temperature](https://eplus.dev/sql-197-rising-temperature) - 2024-11-21
+ - 🚀 [Graded Quiz: The Software Development Lifecycle](https://eplus.dev/graded-quiz-the-software-development-lifecycle) - 2024-11-20
+ - 💼 [Back-End Developer Capstone - Final Graded Assessment](https://eplus.dev/back-end-developer-capstone-final-graded-assessment) - 2024-11-19
+ - 🦣 [Back-End Developer Capstone - Security and Testing](https://eplus.dev/back-end-developer-capstone-security-and-testing) - 2024-11-18
+ - 👨‍🏫 [Back-End Developer Capstone - Project Functionality](https://eplus.dev/back-end-developer-capstone-project-functionality) - 2024-11-18
+ - 🔭 [Back-End Developer Capstone - Starting the Project](https://eplus.dev/back-end-developer-capstone-starting-the-project) - 2024-11-18
+ - 🤡 [Final Graded Quiz: The Full Stack](https://eplus.dev/final-graded-quiz-the-full-stack) - 2024-11-13
+ - 💡 [Module Quiz: Production Environments](https://eplus.dev/module-quiz-production-environments) - 2024-11-13
+ - 🦣 [Module Quiz: The Full Stack Using Django](https://eplus.dev/module-quiz-the-full-stack-using-django) - 2024-11-13
+ - 💪 [Module Quiz: Front-End Technologies](https://eplus.dev/module-quiz-front-end-technologies) - 2024-11-13
+ - 🤡 [Module Quiz: Introduction to the Full Stack](https://eplus.dev/module-quiz-introduction-to-the-full-stack) - 2024-11-13<!-- BLOG-POST-LIST:END -->
 
 <div align="right">
   Update by <a target="_blank"
