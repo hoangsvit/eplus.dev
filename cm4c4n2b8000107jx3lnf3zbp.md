@@ -13,7 +13,7 @@ tags: the-arcade-base-camp-december-2024, the-arcade-base-camp
 
 Welcome to **Base Camp December 2024**, where you’ll develop key **Google Cloud** skills and earn an exclusive credential that will open doors to the cloud for you. No prior experience is required!
 
-Link: [**Google Cloud Skills Boost - Games 5630**](https://www.cloudskillsboost.google/games/5630/labs/36113) - **(**[**Solution**](https://eplus.dev/start-here-dont-skip-this-arcade-lab)**)**
+Link: [Google Cloud Skills Boost - Games 5703](https://www.cloudskillsboost.google/games/5703/labs/36448) - **(**[**Solution**](https://eplus.dev/start-here-dont-skip-this-arcade-lab)**)**
 
 ---
 
