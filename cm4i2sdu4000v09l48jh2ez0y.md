@@ -222,7 +222,7 @@ As shown in the next page (**Summary**), the **OAuth Consent Screen** is now cre
 
 1. In the Apps Script editor, get the Head Deployment ID for the test deployment by clicking on **Deploy &gt; Test Deployments** (top-right of the screen), and then clicking **Copy** next to Head Deployment ID.
     
-2. In the Google Cloud console, navigate to **Navigation Menu** () **\&gt; APIs & Services &gt; Library**.
+2. In the Google Cloud console, navigate to **Navigation Menu** () **&gt; APIs & Services &gt; Library**.
     
 3. In the Library, search for `Google Chat API`. Select the API from the list of results.
     
@@ -547,7 +547,7 @@ function blockOutCalendar(reason) {
 
 Make sure that the Gmail Advanced Service is enabled in this project. To check the Gmail API status, do the following:
 
-1. In the Google Cloud console, navigate to **Navigation Menu** () and select **\&gt;** **APIs & Services &gt; Library**.
+1. In the Google Cloud console, navigate to **Navigation Menu** () and select **&gt;** **APIs & Services &gt; Library**.
     
 2. In the Library, search for `Gmail API`. Select the API from the list of results.
     
@@ -739,7 +739,7 @@ function onRemoveFromSpace(event) {
 
 ---
 
-## 💡 **Testing the Attendance Bot**
+### 💡 **Testing the Attendance Bot**
 
 You can test your **Attendance Bot** [here](https://mail.google.com/chat/u/0/#chat/home).
 
