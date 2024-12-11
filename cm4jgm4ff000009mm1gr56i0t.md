@@ -287,4 +287,6 @@ Check my progress
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=mR14oMoLQMM]
+%[https://www.youtube.com/watch?v=mR14oMoLQMM] 
+
+**Download file:** [<mark>File CSV</mark>](https://hoangsvit.gumroad.com/l/bfppr)
