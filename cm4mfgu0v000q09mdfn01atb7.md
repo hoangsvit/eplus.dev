@@ -11,6 +11,8 @@ tags: big-data, graded-assignment-understand-by-doing-mapreduce
 
 ---
 
+## Instructions
+
 MapReduce is the core programming model for the Hadoop Ecosystem. We’ve found it’s really helpful to walk through the steps of MapReduce for yourself in order to internalize how it really works. In video lecture, we walked through the steps of MapReduce to count words -- our keys were words. In this exercise, we’ll have you count shapes -- the keys will be shapes.
 
 Note: This assignment can be done in PPT and printed to PDF or on paper and submitted as a picture. Template in PPT, template in JPG.
@@ -41,4 +43,6 @@ Showing that two instances of the word “my” would get mapped to two key-valu
 
 ---
 
-**Solution of course**
+## **Solution of course**
+
+Download file: [<mark>Map Reduce.pdf</mark>](https://github.com/ePlus-DEV/storage/blob/main/big-data/graded-assignment-understand-by-doing-map-reduce/map%20reduce.pdf)
