@@ -136,4 +136,4 @@ tags: big-data, intro-to-hadoop-big-data
 
 ---
 
-![]( align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1734073806243/7fa7401b-0aa4-48f9-811b-a24b160176ab.png align="center")
