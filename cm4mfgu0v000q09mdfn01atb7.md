@@ -1,10 +1,10 @@
 ---
-title: "Graded Assignment: Understand by Doing: MapReduce"
+title: "Graded Assignment: Understand by Doing: MapReduce - Big Data"
 seoTitle: "Graded Assignment: Understand by Doing: MapReduce"
 seoDescription: "MapReduce is the core programming model for the Hadoop Ecosystem. We’ve found it’s really helpful to walk through the steps of MapReduce for yourself in ord"
 datePublished: Fri Dec 13 2024 07:29:34 GMT+0000 (Coordinated Universal Time)
 cuid: cm4mfgu0v000q09mdfn01atb7
-slug: graded-assignment-understand-by-doing-mapreduce
+slug: graded-assignment-understand-by-doing-mapreduce-big-data
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734074948891/6f38098a-3811-47da-981c-ffb72941f033.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1734074959726/e9153a2a-48ff-4c08-a09d-7a620600b03a.png
 tags: big-data, graded-assignment-understand-by-doing-mapreduce
