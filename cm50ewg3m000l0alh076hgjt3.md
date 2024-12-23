@@ -110,7 +110,7 @@ gcloud config list project
 
 ```apache
 [core]
-project = 
+project =
 ```
 
 **Example output:**
@@ -296,7 +296,6 @@ After you click this:
     
 6. Note that the logs panel reverts to its previous state.
     
-
 7. Turn on streaming logs by clicking **Stream logs** (top-right corner, next to the "Run query" button).
     
 8. You should see new log entries showing up every 1-2 seconds as the background activity is generating unauthorized requests against your Web servers.
@@ -590,3 +589,9 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/h
 sudo chmod +x shell.sh
 ./shell.sh
 ```
+
+### **Task 3: Manual**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1734920804210/9b5d731a-e394-4d88-88d1-4c33f5db6b35.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1734920858325/92ac3d73-8a47-4202-984b-387e82984660.png align="center")
