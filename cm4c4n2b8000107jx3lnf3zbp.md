@@ -20,6 +20,7 @@ Link: [Google Cloud Skills Boost - Games 5703](https://www.cloudskillsboost.goog
 | **Level** | **Link** | **Code** |
 | --- | --- | --- |
 | **The Arcade Base Camp December 2024** | [Google Cloud Skills Boost - Games 5703](https://www.cloudskillsboost.google/games/5703?utm_source=qwiklabs&utm_medium=lp&utm_campaign=basecamp-december-arcade24) | <mark>1q-basecamp-2140</mark> |
+| **The Arcade SnowDown December** | [Google Cloud Skills Boost - Games 5735](https://www.cloudskillsboost.google/games/5735?utm_source=qwiklabs&utm_medium=lp&utm_campaign=snowdown-december-arcade24) | <mark>1q-snow-25255</mark> |
 | **Level up your Google Cloud skills** | [Google Cloud Skills Boost - Games 5706](https://www.cloudskillsboost.google/games/5706?utm_source=qwiklabs&utm_medium=lp&utm_campaign=level3-december-arcade24) | <mark>1q-bqfirebase-0177</mark> |
 | **The Arcade Base Camp December 2024 - LEVEL 1** | [Google Cloud Skills Boost - Games 5706](https://www.cloudskillsboost.google/games/5704?utm_source=qwiklabs&utm_medium=lp&utm_campaign=level1-december-arcade24) | <mark>1q-infrstrdta-3071</mark> |
 | **The Arcade Base Camp December 2024 - LEVEL 2** | [Google Cloud Skills Boost - Games 5705](https://www.cloudskillsboost.google/games/5705?utm_source=qwiklabs&utm_medium=lp&utm_campaign=level2-december-arcade24) | <mark>1q-monitor-4121</mark> |
