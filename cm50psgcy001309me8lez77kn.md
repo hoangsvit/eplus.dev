@@ -563,7 +563,7 @@ After run the query, you should see the output like the following:
 
 %[https://www.youtube.com/watch?v=l7UOU56TWzk] 
 
-### Run the following Commands in CloudShell
+Run the following Commands in **CloudShell**
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Log%20Analytics%20on%20Google%20Cloud/gsp1088.sh
