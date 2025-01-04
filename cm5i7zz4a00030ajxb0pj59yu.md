@@ -57,13 +57,13 @@ tags: ask-questions-to-make-data-driven-decisions, ask-questions-to-make-data-dr
     
     <table><tbody><tr><td colspan="1" rowspan="1"><p><em><sup>(n/a)</sup></em></p></td><td colspan="1" rowspan="1"><p><strong>A</strong></p></td><td colspan="1" rowspan="1"><p><strong>B</strong></p></td><td colspan="1" rowspan="1"><p><strong>C</strong></p></td><td colspan="1" rowspan="1"><p><strong>D</strong></p></td><td colspan="1" rowspan="1"><p><strong>E</strong></p></td><td colspan="1" rowspan="1"><p><strong>F</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>1</strong></p></td><td colspan="1" rowspan="1"><p>43</p></td><td colspan="1" rowspan="1"><p>68</p></td><td colspan="1" rowspan="1"><p>225</p></td><td colspan="1" rowspan="1"><p>79</p></td><td colspan="1" rowspan="1"><p>34</p></td><td colspan="1" rowspan="1"><p>15</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>2</strong></p></td><td colspan="1" rowspan="1"><p>23</p></td><td colspan="1" rowspan="1"><p>54</p></td><td colspan="1" rowspan="1"><p>342</p></td><td colspan="1" rowspan="1"><p>89</p></td><td colspan="1" rowspan="1"><p>467</p></td><td colspan="1" rowspan="1"><p>856</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>3</strong></p></td><td colspan="1" rowspan="1"><p>67</p></td><td colspan="1" rowspan="1"><p>89</p></td><td colspan="1" rowspan="1"><p>24</p></td><td colspan="1" rowspan="1"><p>787</p></td><td colspan="1" rowspan="1"><p>20</p></td><td colspan="1" rowspan="1"><p>90</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>4</strong></p></td><td colspan="1" rowspan="1"><p>23</p></td><td colspan="1" rowspan="1"><p>43</p></td><td colspan="1" rowspan="1"><p>375</p></td><td colspan="1" rowspan="1"><p>129</p></td><td colspan="1" rowspan="1"><p>706</p></td><td colspan="1" rowspan="1"><p>43</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>5</strong></p></td><td colspan="1" rowspan="1"><p>34</p></td><td colspan="1" rowspan="1"><p>967</p></td><td colspan="1" rowspan="1"><p>596</p></td><td colspan="1" rowspan="1"><p>136</p></td><td colspan="1" rowspan="1"><p>67</p></td><td colspan="1" rowspan="1"><p>56</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>6</strong></p></td><td colspan="1" rowspan="1"><p>23</p></td><td colspan="1" rowspan="1"><p>440</p></td><td colspan="1" rowspan="1"><p>3254</p></td><td colspan="1" rowspan="1"><p>644</p></td><td colspan="1" rowspan="1"><p>94</p></td><td colspan="1" rowspan="1"><p>35</p></td></tr></tbody></table>
     
-    * **<mark>=SUM(C1:E6)</mark>**
+    * <mark>=SUM(C1:E6)</mark>
         
-    * **\=SUM(C1,E6)**
+    * \=SUM(C1,E6)
         
-    * **\=SUM(C1-E6)**
+    * \=SUM(C1-E6)
         
-    * **\=SUM,C1+E6**
+    * \=SUM,C1+E6
         
 6. **Which of the following statements accurately describe structured thinking and the problem domain?** Select all that apply.
     
