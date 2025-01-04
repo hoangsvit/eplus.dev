@@ -7,7 +7,6 @@ cuid: cm57rwcaj000009mb0zrl9wn4
 slug: bao-cao-luong-it-2024-2025-it-salary-report-for-2024-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735365568598/86b4869f-6a03-4ff7-a730-fa73b7cc482d.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1735365585998/d01b7851-fb35-4d9e-bda7-5f763caa5719.png
-tags: bao-cao-luong-it-2024-2025-it-salary-report-for-2024-2025, bao-cao-luong-it-2024-2025, it-salary-report-for-2024-2025
 
 ---
 
