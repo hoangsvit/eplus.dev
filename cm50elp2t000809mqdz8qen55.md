@@ -5,6 +5,7 @@ seoDescription: "In this lab, you will set up the Cloud Data Loss Prevention API
 datePublished: Mon Dec 23 2024 02:14:08 GMT+0000 (Coordinated Universal Time)
 cuid: cm50elp2t000809mqdz8qen55
 slug: redacting-sensitive-data-with-the-dlp-api-solution-1
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735999702044/b7f60ce9-03bf-442d-a6aa-f7b2f3cec12a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1734920036717/177c46b4-3cc1-4006-87df-69097ab34548.png
 tags: redacting-sensitive-data-with-the-dlp-api-solution
 
