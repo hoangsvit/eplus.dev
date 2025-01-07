@@ -1,13 +1,13 @@
 ---
-title: "Practical Quiz for Week 2 Hands-On Lectures"
+title: "Quiz 1 - Practical Quiz for Week 2 Hands-On Lectures"
 seoTitle: "Practical Quiz for Week 2 Hands-On Lectures"
 seoDescription: "Practical Quiz for Week 2 Hands-On Lectures"
 datePublished: Tue Jan 07 2025 09:18:40 GMT+0000 (Coordinated Universal Time)
 cuid: cm5m9dfms000s09l36dsdbzss
-slug: practical-quiz-for-week-2-hands-on-lectures
+slug: quiz-1-practical-quiz-for-week-2-hands-on-lectures
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736241496992/9c7f83a3-9e2e-433f-be95-cbadc1f1389a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1736241505143/d38cb19c-9a9b-45ec-997e-873a7f3d714e.png
-tags: practical-quiz-for-week-2-hands-on-lectures
+tags: practical-quiz-for-week-2-hands-on-lectures, quiz-1-practical-quiz-for-week-2-hands-on-lectures
 
 ---
 
