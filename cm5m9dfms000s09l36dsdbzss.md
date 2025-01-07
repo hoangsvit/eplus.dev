@@ -1,7 +1,7 @@
 ---
 title: "Quiz 1 - Practical Quiz for Week 2 Hands-On Lectures"
-seoTitle: "Practical Quiz for Week 2 Hands-On Lectures"
-seoDescription: "Practical Quiz for Week 2 Hands-On Lectures"
+seoTitle: "Quiz 1 - Practical Quiz for Week 2 Hands-On Lectures"
+seoDescription: "Quiz 1 - Practical Quiz for Week 2 Hands-On Lectures"
 datePublished: Tue Jan 07 2025 09:18:40 GMT+0000 (Coordinated Universal Time)
 cuid: cm5m9dfms000s09l36dsdbzss
 slug: quiz-1-practical-quiz-for-week-2-hands-on-lectures
