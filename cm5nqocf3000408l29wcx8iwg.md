@@ -21,8 +21,8 @@ Take a moment to enjoy this accomplishment—you’ve earned it!
 
 ---
 
-**Also, it is now time to celebrate your hard work and commitment!**  
-  
+**Also, it is now time to celebrate your hard work and commitment!**
+
 **To ensure a seamless prize redemption process, kindly review the following important details:**
 
 1. **Accurate Shipping Information:** Please ensure you provide accurate and up-to-date shipping details to facilitate the swift delivery of your reward.
@@ -37,4 +37,4 @@ Take a moment to enjoy this accomplishment—you’ve earned it!
     
 
 **To redeem your rewards, click on the unique link by 26th January, 2025:  
-https://whitesquarein.com and use code: ar2k6kgfecct (if required) during checkout!**
+https://whitesquarein.com and during checkout!**
