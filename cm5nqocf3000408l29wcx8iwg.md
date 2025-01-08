@@ -25,16 +25,16 @@ Take a moment to enjoy this accomplishment—you’ve earned it!
 
 **To ensure a seamless prize redemption process, kindly review the following important details:**
 
-1. **Accurate Shipping Information:** Please ensure you provide accurate and up-to-date shipping details to facilitate the swift delivery of your reward.
+1. **Accurate Shipping Information:** Please provide accurate and up-to-date shipping details to facilitate the swift delivery of your reward.
     
 2. **Final Order Confirmation:** Regrettably, changes or substitutions to your chosen reward cannot be accommodated after your selection is confirmed.
     
 3. **Unclaimed Items:** Kindly note that unclaimed rewards will be released. Extensions or exceptions cannot be granted.
     
-4. **Forfeiture of Unused Points:** Please be advised that any unused Arcade Points will be forfeited upon the deadline. We encourage you to redeem them for exciting rewards before **26th January, 2025.**
+4. **Forfeiture of Unused Points:** Please be advised that any unused Arcade Points will be forfeited upon the deadline. We encourage you to redeem them for exciting rewards before **26th January 2025.**
     
-5. **Claiming Prizes is Optional:** If you do not wish to claim the prizes, no further action is necessary on your part.
+5. **Claiming Prizes is Optional:** No further action is necessary if you do not wish to claim the prizes.
     
 
-**To redeem your rewards, click on the unique link by 26th January, 2025:  
+**To redeem your rewards, click on the unique link by 26th January 2025:  
 https://whitesquarein.com and during checkout!**
