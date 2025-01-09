@@ -272,7 +272,7 @@ Click **Check my progress** to verify the objective.
 export ZONE=
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722938819590/e8f9974c-3d28-494e-87b0-86ccab4e31f7.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1736418741820/b2212c93-6fc5-4bc6-9fb4-d6834f94dd0c.png align="center")
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Creating%20and%20Alerting%20on%20Logs%20based%20Metrics/quicklabgsp091.sh
