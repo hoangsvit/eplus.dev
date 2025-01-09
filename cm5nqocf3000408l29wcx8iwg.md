@@ -41,6 +41,29 @@ https://whitesquarein.com and during checkout!**
 
 ---
 
+## CHAMPIONS MILESTONE (PACKAGE)
+
+Experience the ultimate blend of functionality and style with the Google Cloud Arcade Champions Package. This exclusive bundle includes a vibrant pen set, a stylish grey zipper hoodie, an 8 in 1 device cleaner kit and spray, a highly functional laptop sleeve, a fun emoji alarm clock, a versatile self stirring mug and a stylish premium backpack.
+
+**Note:** The color of the The Arcade Champions Backpack in the image is just for representation purposes. The final color of the bag may be a different shade of grey.
+
+Elevate your everyday experience with the Google Cloud Arcade Champions Package, a curated collection of high-quality, functional items designed to meet your needs at home, in the office, or on the go. This exclusive bundle includes:
+
+* [**The Arcade Color Palette Pen Set**](https://whitesquarein.com/googlecloudarcade/product/the-arcade-color-pen-set/): Add a splash of creativity to your notes and drawings with this vibrant pen set, perfect for any artistic endeavor.
+    
+* [**The Arcade Emoji Alarm Clock**](https://whitesquarein.com/googlecloudarcade/product/the-arcade-emoji-alarm-clock/): Start your day with a smile using this fun emoji alarm clock, designed to wake you up with a cheerful face.
+    
+* [**The Arcade Grey Zipper Hoodie**](https://whitesquarein.com/googlecloudarcade/product/the-arcade-grey-zipper-hoodie/): Stay warm and represent your love for cloud with this custom-made, high-quality grey Arcade hoodie. Crafted from premium fabric, this hoodie offers exceptional comfort and durability.
+    
+* [**The Arcade 8 in 1 Cleaner Kit with Refill**](https://whitesquarein.com/googlecloudarcade/product/the-arcade-8in1-cleaner-with-refill/): This all-in-one kit is your comprehensive solution for maintaining laptops, smartphones, tablets, keyboards, and more.
+    
+* [**The Arcade Champions Backpack**](https://whitesquarein.com/googlecloudarcade/product/the-arcade-champions-backpack/): Carry your essentials in style and comfort with the Google Cloud Champions backpack. Crafted from high-quality materials, this durable backpack features a spacious design with multiple compartments to keep you organized on the go.
+    
+* [**The Arcade Laptop Sleeve**](https://whitesquarein.com/googlecloudarcade/product/the-arcade-laptop-sleeve/): Crafted from high-grade PVC artificial leather, this sleeve is scratch-resistant and waterproof, keeping your laptop safe from everyday wear and tear and making it easy to carry anywhere you want.
+    
+* [**The Arcade Self-Stirring Mug**](https://whitesquarein.com/googlecloudarcade/product/the-arcade-self-stirring-mug/): This innovative mug features a magnetically attachable rotating chip that effortlessly mixes your beverages with the touch of a button.
+    
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1736413276818/bee93fc5-fc76-437e-9d55-7c0a825d9627.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1736413287346/534c0518-14db-4274-9230-dac32242a278.jpeg align="center")
