@@ -528,4 +528,16 @@ gcloud container clusters delete "hello-world"
 
 ### Solution of Lab
 
-%[https://www.youtube.com/watch?v=u8aFop9_I34]
+%[https://youtu.be/BgDhGANEdp4] 
+
+```apache
+export ZONE=
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1736493719396/675bb960-c2d1-4bdd-b926-35a569b52346.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Running%20a%20MongoDB%20Database%20in%20Kubernetes%20with%20StatefulSets/gsp022.sh
+sudo chmod +x gsp022.sh
+./gsp022.sh
+```
