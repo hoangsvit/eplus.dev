@@ -9,6 +9,7 @@ cuid: cm5w2lafb000d09laaz7yd13y
 slug: arcade-hero-enter-the-artifact-registry-python-arc153
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736834464330/788ab198-33fc-4e5b-b4fd-49eaabccd25a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1736834681333/59d7a3c5-99b1-4192-b80e-917482a21e8c.png
+tags: arcade-hero-enter-the-artifact-registry-python-arc153, arcade-hero-enter-the-artifact-registry-python, arc153
 
 ---
 
