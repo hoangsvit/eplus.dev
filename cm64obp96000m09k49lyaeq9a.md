@@ -521,14 +521,10 @@ See if you can create some of these visualizations from the data:
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=pOwX3u2jkgI&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
+%[https://www.youtube.com/watch?v=CfxDobxmTYI&ab_channel=Techcps] 
 
 ```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Offloading%20Financial%20Mainframe%20Data%20into%20BigQuery%20and%20Elastic%20Search/quicklabgsp1153.sh
-sudo chmod +x quicklabgsp1153.sh
-./quicklabgsp1153.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Offloading%20Financial%20Mainframe%20Data%20into%20BigQuery%20and%20Elastic%20Search/techcps1153.sh
+sudo chmod +x techcps1153.sh
+./techcps1153.sh
 ```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1737354773900/8438dfed-1153-470e-889f-1fe74b7b227e.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1737354778233/d90d36dc-42af-40ec-929a-9bef72accdbf.png align="center")
