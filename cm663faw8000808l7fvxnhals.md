@@ -239,7 +239,7 @@ Use the Cloud Natural Language API
 
 ---
 
-Solution of Lab
+## Solution of Lab
 
 %[https://www.youtube.com/watch?v=kK0ADQ6eEAE] 
 
