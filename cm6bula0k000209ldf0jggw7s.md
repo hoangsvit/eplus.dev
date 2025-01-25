@@ -90,8 +90,6 @@ To complete this lab, you need:
     student-04-fbfba79b1f35@qwiklabs.net
     ```
     
-    Copied!content\_copy
-    
     You can also find the Username in the Lab Details pane.
     
 4. Click **Next**.
@@ -264,7 +262,7 @@ While the sample collects in the background, you can take a brief look at your d
 
 The standard BigQuery datetime format is `yyyy-MM-ddTHH:mm:ss`. Since the end goal is to publish this data to BigQuery, it is best to adhere to that format. Dataprep allows for easy manipulation of datetime columns.
 
-1. Click the dropdown next to the **Date** column and select **Format** **\&gt;** **Change datetime format** **\&gt;** **Date**.
+1. Click the dropdown next to the **Date** column and select **Format** **&gt;** **Change datetime format** **&gt;** **Date**.
     
 2. This will bring up the Date Format transform builder. Under output format, select the format, in this case, `yyyy-MM-dd`. Check the preview and then click **Add**.
     
@@ -282,7 +280,6 @@ To analyze how the weather affects the summit success rate, the weather data nee
     
 3. Click **Import datasets** on the bottom left of the dialog.
     
-
 4. Browse back to the same folder on Cloud Storage and add the `rainier_weather.csv` dataset.
     
     * Click **Import & Add to Flow**.
@@ -330,7 +327,7 @@ Note the format of the dates in this dataset: `2/22/06`.
 
 Looking across all of the columns, you can see that Dataprep tried to infer data types based on the most popular values in the columns. However, some of the inferred data types are not what is expected. For example, the majority of values in `Snowfall_inches` are integers, so the tool inferred the column type as integer, and marked any decimals as mismatched. With dirty data, often you will have to do additional exploration to truly understand what data type is appropriate for each column.
 
-1. For the following columns, change the data type to **decimal**. Use the dropdown menu next to the column and select **Change type** **\&gt;** **Decimal**.
+1. For the following columns, change the data type to **decimal**. Use the dropdown menu next to the column and select **Change type** **&gt;** **Decimal**.
     
     * `Multiday_precipitation_total`
         
