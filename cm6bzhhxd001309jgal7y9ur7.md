@@ -5,8 +5,8 @@ seoDescription: "In this lab you learn how to extract keywords and assess custom
 datePublished: Sat Jan 25 2025 09:23:55 GMT+0000 (Coordinated Universal Time)
 cuid: cm6bzhhxd001309jgal7y9ur7
 slug: analyze-customer-reviews-with-gemini-using-python-notebooks-gsp1249
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737797001844/d36febd7-501d-459e-802a-2ba79ac6e734.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1737797013691/36092a39-62a5-42ba-9a22-1048be1c6b70.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737797479301/476fcb54-38ed-4bf9-9eb4-91f90e5681c0.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1737797486913/5269d8cc-b22e-40bf-9bc2-e5ab38bb6e42.png
 tags: analyze-customer-reviews-with-gemini-using-python-notebooks, gsp1249
 
 ---
