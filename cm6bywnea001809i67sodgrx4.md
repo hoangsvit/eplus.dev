@@ -86,8 +86,6 @@ To complete this lab, you need:
     student-03-4ebb0cbad7a3@qwiklabs.net
     ```
     
-    Copied!content\_copy
-    
     You can also find the Username in the Lab Details pane.
     
 4. Click **Next**.
@@ -97,8 +95,6 @@ To complete this lab, you need:
     ```apache
     NQer5ByqYlqI
     ```
-    
-    Copied!content\_copy
     
     You can also find the Password in the Lab Details pane.
     
@@ -253,15 +249,13 @@ To create the customer reviews table you will use a SQL query.
     
 2. In the query editor, paste the query below.
     
-    ```apache
+    ```sql
     LOAD DATA OVERWRITE gemini_demo.customer_reviews
     (customer_review_id INT64, customer_id INT64, location_id INT64, review_datetime DATETIME, review_text STRING, social_media_source STRING, social_media_handle STRING)
     FROM FILES (
       format = 'CSV',
       uris = ['gs://qwiklabs-gcp-02-5ba3d0e453bf-bucket/gsp1246/customer_reviews.csv']);
     ```
-    
-    Copied!content\_copy
     
     This query uses the [LOAD DATA statement](https://cloud.google.com/bigquery/docs/loading-data-cloud-storage-csv#loading_csv_data_into_a_table) to load the `customer_reviews.csv` file from Cloud Storage to a BigQuery table with the given column names and data types.
     
@@ -280,7 +274,7 @@ To create the object table you will use a SQL Query.
     
 2. In the query editor, paste the query below.
     
-    ```apache
+    ```sql
     CREATE OR REPLACE EXTERNAL TABLE
       `gemini_demo.review_images`
     WITH CONNECTION `us.gemini_conn`
@@ -289,8 +283,6 @@ To create the object table you will use a SQL Query.
       uris = ['gs://qwiklabs-gcp-02-5ba3d0e453bf-bucket/gsp1246/images/*']
       );
     ```
-    
-    Copied!content\_copy
     
 3. Run the Query.
     
@@ -315,13 +307,11 @@ Now that the tables are created, you can begin to work with them. In this task, 
     
 2. In the query editor, paste the query below and run it.
     
-    ```apache
+    ```sql
     CREATE OR REPLACE MODEL `gemini_demo.gemini_pro`
     REMOTE WITH CONNECTION `us.gemini_conn`
     OPTIONS (endpoint = 'gemini-pro')
     ```
-    
-    Copied!content\_copy
     
     The result is the `gemini_pro` model is created and you see it added to the `gemini_demo` dataset, in the models section.
     
@@ -334,13 +324,11 @@ Now that the tables are created, you can begin to work with them. In this task, 
     
 2. In the query editor, paste the query below and run it.
     
-    ```apache
+    ```sql
     CREATE OR REPLACE MODEL `gemini_demo.gemini_pro_vision`
     REMOTE WITH CONNECTION `us.gemini_conn`
     OPTIONS (endpoint = 'gemini-pro-vision')
     ```
-    
-    Copied!content\_copy
     
     The result is the `gemini_pro_vision` model is created and you see it added to the `gemini_demo` dataset, in the models section.
     
@@ -363,7 +351,7 @@ In this task, you will use Gemini Pro model to analyze each customer review for 
     
 2. In the query editor, paste the query below, and run it.
     
-    ```apache
+    ```sql
     CREATE OR REPLACE TABLE
     `gemini_demo.customer_reviews_keywords` AS (
     SELECT ml_generate_text_llm_result, social_media_source, review_text, customer_id, location_id, review_datetime
@@ -380,8 +368,6 @@ In this task, you will use Gemini Pro model to analyze each customer review for 
        0.2 AS temperature, TRUE AS flatten_json_output)));
     ```
     
-    Copied!content\_copy
-    
     This query takes customer reviews from the `customer_reviews` table, constructs prompts for the `gemini_pro` model to identify keywords within each review. The results are then stored in a new table `customer_reviews_keywords`.
     
     Plese wait. The model takes approximately 30 seconds to process the customer review records.
@@ -394,11 +380,9 @@ In this task, you will use Gemini Pro model to analyze each customer review for 
     
 5. In the query editor, paste and run the query below.
     
-    ```apache
+    ```sql
     SELECT * FROM `gemini_demo.customer_reviews_keywords`
     ```
-    
-    Copied!content\_copy
     
     The result is rows are displayed from the `customer_reviews_keywords` table with the `ml_generate_text_llm_result` column containing the keywords analysis, `social_media_source`, `review_text`, `customer_id`, `location_id` and `review_datetime` columns included.
     
@@ -409,7 +393,7 @@ In this task, you will use Gemini Pro model to analyze each customer review for 
     
 2. In the query editor, paste the query below, and run it.
     
-    ```apache
+    ```sql
     CREATE OR REPLACE TABLE
     `gemini_demo.customer_reviews_analysis` AS (
     SELECT ml_generate_text_llm_result, social_media_source, review_text, customer_id, location_id, review_datetime
@@ -426,8 +410,6 @@ In this task, you will use Gemini Pro model to analyze each customer review for 
        0.2 AS temperature, TRUE AS flatten_json_output)));
     ```
     
-    Copied!content\_copy
-    
     This query takes customer reviews from the `customer_reviews` table, constructs prompts for the `gemini_pro` model to classify the sentiment of each review. The results are then stored in a new table `customer_reviews_analysis`, so that you may use it later for further analysis.
     
     Plese wait. The model takes approximately 20 seconds to process the customer review records.
@@ -440,12 +422,10 @@ In this task, you will use Gemini Pro model to analyze each customer review for 
     
 5. In the query editor, paste and run the query below.
     
-    ```apache
+    ```sql
     SELECT * FROM `gemini_demo.customer_reviews_analysis`
     ORDER BY review_datetime
     ```
-    
-    Copied!content\_copy
     
     The result is rows `customer_reviews_analysis` table with the `ml_generate_text_llm_result` column containing the sentiment analysis, with the `social_media_source`, `review_text`, `customer_id`, `location_id` and `review_datetime` columns included.
     
@@ -458,7 +438,7 @@ In this task, you will use Gemini Pro model to analyze each customer review for 
     
 2. In the query editor, paste and run the query below.
     
-    ```apache
+    ```sql
     CREATE OR REPLACE VIEW gemini_demo.cleaned_data_view AS
     SELECT REPLACE(REPLACE(LOWER(ml_generate_text_llm_result), '.', ''), ' ', '') AS sentiment, 
     REGEXP_REPLACE(
@@ -472,18 +452,14 @@ In this task, you will use Gemini Pro model to analyze each customer review for 
     FROM `gemini_demo.customer_reviews_analysis`;
     ```
     
-    Copied!content\_copy
-    
     The query creates the view, `cleaned_data_view` and includes the sentiment results, the review text, the customer id and the location id. It then takes the sentiment result (positive or negative) and ensures that all letters are made lower case, and extreanous charaters like extra spaces or periods are removed. The resulting view will make it easier to do further analysis in later steps within this lab.
     
 3. You can query the view with the query below, to see the rows created.
     
-    ```apache
+    ```sql
     SELECT * FROM `gemini_demo.cleaned_data_view`
     ORDER BY review_datetime
     ```
-    
-    Copied!content\_copy
     
     This query is designed to fetch all data from the `cleaned_data_view` view and then arrange it in ascending order based on the date and time of the reviews.
     
@@ -492,14 +468,12 @@ In this task, you will use Gemini Pro model to analyze each customer review for 
 
 1. You can use BigQuery to create a bar chart report of the counts of positive and negative reviews. Start with the query below.
     
-    ```apache
+    ```sql
     SELECT sentiment, COUNT(*) AS count
     FROM `gemini_demo.cleaned_data_view`
     WHERE sentiment IN ('positive', 'negative')
-    GROUP BY sentiment; 
+    GROUP BY sentiment;
     ```
-    
-    Copied!content\_copy
     
     The result is counts for positive and negatve reviews are displayed.
     
@@ -510,15 +484,13 @@ In this task, you will use Gemini Pro model to analyze each customer review for 
 
 1. You can use BigQuery to list the count of positive and negative reviews per social media source using the query below.
     
-    ```apache
+    ```sql
     SELECT sentiment, social_media_source, COUNT(*) AS count
     FROM `gemini_demo.cleaned_data_view`
     WHERE sentiment IN ('positive') OR sentiment IN ('negative')
     GROUP BY sentiment, social_media_source
-    ORDER BY sentiment, count;    
+    ORDER BY sentiment, count;
     ```
-    
-    Copied!content\_copy
     
 
 Click **Check my progress** to verify the objective.
@@ -543,7 +515,7 @@ This is clearly a positive review, how can you use Gemini Pro to respond to this
 
 1. You can use Gemini Pro with these queries to accomplish this. In the query editor, paste the query below and run it.
     
-    ```apache
+    ```sql
     CREATE OR REPLACE TABLE
     `gemini_demo.customer_reviews_marketing` AS (
     SELECT ml_generate_text_llm_result, social_media_source, review_text, customer_id, location_id, review_datetime
@@ -560,23 +532,19 @@ This is clearly a positive review, how can you use Gemini Pro to respond to this
        0.2 AS temperature, TRUE AS flatten_json_output)));
     ```
     
-    Copied!content\_copy
-    
     This query is designed to analyze customer reviews from the `customer_reviews` table, specifically those from customer ID 5576. When you run the query, it uses Gemini Pro to generate marketing suggestions based on the review text and then stores the results in a new table called `customer_reviews_marketing.` This table will contain the original review data along with the generated marketing suggestions, allowing you to easily analyze and act upon them.
     
 2. You can view the details of the `customer_reviews_marketing` table by running the SQL query below.
     
-    ```apache
+    ```sql
     SELECT * FROM `gemini_demo.customer_reviews_marketing`
     ```
-    
-    Copied!content\_copy
     
     Notice that the `ml_generate_text_llm_result` column contains the response.
     
 3. You can make this easier to read, and take action on the response by using the SQL query below:
     
-    ```apache
+    ```sql
     CREATE OR REPLACE TABLE
     `gemini_demo.customer_reviews_marketing_formatted` AS (
     SELECT
@@ -587,15 +555,11 @@ This is clearly a positive review, how can you use Gemini Pro to respond to this
        `gemini_demo.customer_reviews_marketing` results )
     ```
     
-    Copied!content\_copy
-    
 4. You can view the details of the table by running the SQL query below.
     
-    ```apache
+    ```sql
     SELECT * FROM `gemini_demo.customer_reviews_marketing_formatted`
     ```
-    
-    Copied!content\_copy
     
     Notice the `marketing` column. An appliction can be written to take the response in the `marketing` column and attach the 10 percent off coupon file as a notifcation for the customer's account in the data beans app or an email can be generated with these to the customer as well.
     
@@ -610,7 +574,7 @@ This is clearly a negative review, how can you use Gemini Pro to respond to this
 
 1. You can use Gemini Pro with these queries to accomplish this. In the query editor, paste the query below and run it.
     
-    ```apache
+    ```sql
     CREATE OR REPLACE TABLE
     `gemini_demo.customer_reviews_cs_response` AS (
     SELECT ml_generate_text_llm_result, social_media_source, review_text, customer_id, location_id, review_datetime
@@ -627,23 +591,19 @@ This is clearly a negative review, how can you use Gemini Pro to respond to this
        0.2 AS temperature, TRUE AS flatten_json_output)));
     ```
     
-    Copied!content\_copy
-    
     This query is designed to automate customer service responses by using Gemini Pro to analyze customer reviews and generate appropriate responses and action plans. It's a powerful example of how Google Cloud can be used to enhance customer service and improve business operations. When the query is run, the result is the `customer_reviews_cs_response` table is created.
     
 2. You can view the details of the table by running the SQL query below.
     
-    ```apache
+    ```sql
     SELECT * FROM `gemini_demo.customer_reviews_cs_response`
     ```
-    
-    Copied!content\_copy
     
     Notice that the `ml_generate_text_llm_result` column contains the response and the actions as two keys.
     
 3. You can make this easier to read, by using the SQL query below two separate the response and the actions into two columns in a new table called `customer_reviews_cs_response_formatted`:
     
-    ```apache
+    ```sql
     CREATE OR REPLACE TABLE
     `gemini_demo.customer_reviews_cs_response_formatted` AS (
     SELECT
@@ -655,15 +615,11 @@ This is clearly a negative review, how can you use Gemini Pro to respond to this
        `gemini_demo.customer_reviews_cs_response` results )
     ```
     
-    Copied!content\_copy
-    
 4. You can view the details of the table by running the SQL query below.
     
-    ```apache
+    ```sql
     SELECT * FROM `gemini_demo.customer_reviews_cs_response_formatted`
     ```
-    
-    Copied!content\_copy
     
     Notice the response and actions fields are now created. You can build separate applications to respond to the customer, and to the location so that it can take actions to improve and the customer will be notified their feedback was received.
     
@@ -684,7 +640,7 @@ In this task, you will use Gemini (the Gemini Pro and Vision models you created)
     
 2. In the query editor, paste the query below, and run it.
     
-    ```apache
+    ```sql
     CREATE OR REPLACE TABLE
     `gemini_demo.review_images_results` AS (
     SELECT
@@ -698,8 +654,6 @@ In this task, you will use Gemini (the Gemini Pro and Vision models you created)
             TRUE AS FLATTEN_JSON_OUTPUT)));
     ```
     
-    Copied!content\_copy
-    
     Please wait. The model takes approximately 1 minute to complete.
     
     When the model has finished processing the image, the result is the `review_images_results` table is created.
@@ -710,11 +664,9 @@ In this task, you will use Gemini (the Gemini Pro and Vision models you created)
     
 5. In the query editor, paste and run the query below.
     
-    ```apache
+    ```sql
     SELECT * FROM `gemini_demo.review_images_results`
     ```
-    
-    Copied!content\_copy
     
     The result is rows for each review image are displayed with the uri (the CloudStorage location of the review image) and a JSON result including the summary and keywords the Gemini Pro Vision model.
     
@@ -724,7 +676,7 @@ In this task, you will use Gemini (the Gemini Pro and Vision models you created)
     
 7. In the query editor, paste and run the query below.
     
-    ```apache
+    ```sql
     CREATE OR REPLACE TABLE
       `gemini_demo.review_images_results_formatted` AS (
       SELECT
@@ -735,17 +687,13 @@ In this task, you will use Gemini (the Gemini Pro and Vision models you created)
         `gemini_demo.review_images_results` results )
     ```
     
-    Copied!content\_copy
-    
     The result is the `review_images_results_formatted` table is created.
     
 8. You can query the table with the query below, to see the rows created.
     
-    ```apache
+    ```sql
     SELECT * FROM `gemini_demo.review_images_results_formatted`
     ```
-    
-    Copied!content\_copy
     
     Notice how the uri column results remain the same, but the JSON is now converted to the summary and keywords columns for each row.
     
