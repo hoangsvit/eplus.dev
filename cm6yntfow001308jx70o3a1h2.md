@@ -1,7 +1,7 @@
 ---
 title: "Provision Services with Google Cloud Marketplace - GSP003"
 seoTitle: "Provision Services with Google Cloud Marketplace - GSP003"
-seoDescription: "Google Cloud Marketplace provides a way to launch common software packages and stacks on Compute Engine with just a few clicks. Many common web frameworks, "
+seoDescription: "Google Cloud Marketplace provides a way to launch common software packages and stacks on Compute Engine with just a few clicks. Many common web frameworks,"
 datePublished: Mon Feb 10 2025 06:15:58 GMT+0000 (Coordinated Universal Time)
 cuid: cm6yntfow001308jx70o3a1h2
 slug: provision-services-with-google-cloud-marketplace-gsp003
@@ -226,6 +226,8 @@ Does Google Cloud Marketplace allow you to deploy a software package now, and sc
 ## Solution of Lab
 
 %[https://www.youtube.com/watch?v=4slr9p3D6DA&ab_channel=QUICKGCPLAB] 
+
+---
 
 ### Step 1: Go to `Bitnami package for NGINX Open Source` from [here](https://console.cloud.google.com/marketplace/product/bitnami-launchpad/nginxstack?)
 
