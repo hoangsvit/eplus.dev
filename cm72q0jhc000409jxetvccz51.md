@@ -26,7 +26,7 @@ In this lab, you do the following:
 * Manage device settings
     
 
-**Note:** You can also use Google Meet from your mobile device using the [Meet mobile app](https://play.google.com/store/apps/details?id=com.google.android.apps.meetings&hl=en_US:\) on Android® and Apple® iOS® devices.
+**Note:** You can also use Google Meet from your mobile device using the \[Meet mobile app\](https://play.google.com/store/apps/details?id=com.google.android.apps.meetings&hl=en\_US:) on Android® and Apple® iOS® devices.
 
 ## **Setup and requirements**
 
@@ -359,4 +359,8 @@ Remember to check your Google [Drive](https://drive.google.com/drive/my-drive) t
 
 %[https://www.youtube.com/watch?v=wdvIb2y5b9I&ab_channel=QUICKGCPLAB] 
 
-<mark>Download file:</mark> [https://drive.google.com/drive/folders/1SdN3q55rZLY2H3sT-Y24dGWOtWMcEoY9](https://drive.google.com/drive/folders/1SdN3q55rZLY2H3sT-Y24dGWOtWMcEoY9)
+<mark>Download file:</mark>
+
+* [Link Google Drive](https://drive.google.com/drive/folders/1SdN3q55rZLY2H3sT-Y24dGWOtWMcEoY9)
+    
+* [Link Github](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP467)
