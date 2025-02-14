@@ -73,14 +73,50 @@ tags: prepare-data-for-exploration-module-1-challenge, prepare-data-for-explorat
         
 7. What type of data is contained in the following spreadsheet?
     
-    | **Customer** | **Year** | **Spend** |
-    | --- | --- | --- |
-    | 10048 | 2023 | $593 |
-    | 10048 | 2022 | $719 |
-    | 10048 | 2021 | $488 |
-    | 29901 | 2023 | $1,045 |
-    | 29901 | 2022 | $992 |
-    | 29901 | 2021 | $1,180 |
+   <table>
+    <tr>
+        <td>**Customer**</td>
+        <td>**Year**</td>
+        <td>**Spend**</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>10048</td>
+        <td>2023</td>
+        <td>$593</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>10048</td>
+        <td>2022</td>
+        <td>$719</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>10048</td>
+        <td>2021</td>
+        <td>$488</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>29901</td>
+        <td>2023</td>
+        <td>$1,045</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>29901</td>
+        <td>2022</td>
+        <td>$992</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>29901</td>
+        <td>2021</td>
+        <td>$1,180</td>
+    </tr>
+</table>
     
     * Unstructured
         
