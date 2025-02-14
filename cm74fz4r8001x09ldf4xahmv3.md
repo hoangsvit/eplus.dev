@@ -574,10 +574,19 @@ Create a public facing web server
 
 ## Solution of Lab
 
-%[https://youtu.be/Ep1zgy8SvOs] 
+%[https://youtu.be/refjyguVMYQ] 
 
 ```apache
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Create%20an%20Internal%20Load%20Balancer/gsp216.sh
-sudo chmod +x *.sh
-./*.sh
+export ZONE=
+export STATIC_IP=
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1739517996279/8fd1a42d-e748-4fb5-bc95-c37513eb349a.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1739518002695/eafec326-5ef1-43f2-a084-705db3b630f7.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Internal%20Load%20Balancer/gsp041.sh
+sudo chmod +x gsp041.sh
+./gsp041.sh
 ```
