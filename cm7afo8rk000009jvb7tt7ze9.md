@@ -13,8 +13,6 @@ tags: filtering-and-sorting-data-in-looker-gsp855, filtering-and-sorting-data-in
 
 ## **Overview**
 
-c
-
 In this lab, you learn how to use Looker to query sorted and filtered data, create Looks, and add them to a Dashboard. For this lab, an Explore of the Federal Aviation Administration's (FAA) Airport data has been created for you. This dataset contains information on different attributes of airports such as city, date of commission, facility type, etc.
 
 You can learn more about creating Explores from the [Exploring data in Looker documentation](https://docs.looker.com/exploring-data/exploring-data).
