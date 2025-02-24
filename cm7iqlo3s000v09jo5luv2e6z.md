@@ -26,3 +26,7 @@ Nhân sự kiện này, mình xin gửi đến anh em mã giảm giá 20% (giả
 Bên mình tốn khá nhiều thời gian từ đàm phán với bank, rồi dev tích hợp, rồi golive... kết quả cho thấy VPBank đồng bộ giao dịch siêu nhanh, rất ổn định. Anh em dùng thử cho đánh giá nhé!
 
 Happy coding!
+
+---
+
+Link tạo tài khoản nếu chưa có: [https://sepay.vn](https://sepay.vn?utm_source=INV&utm_medium=RFTRA&utm_campaign=51CA87DB)
