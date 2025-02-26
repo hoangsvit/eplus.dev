@@ -139,7 +139,7 @@ tags: retrieving-big-data-quiz-big-data-integration-and-processing, retrieving-b
     
     *What would be the most likely statement that we would need to grab email info for user indexes greater than 24?*
     
-    * [<mark>db.email</mark>](http://db.email)<mark>.find({userIndex:{$gt:24}}, {email:1, _id:0})</mark>
+    * <mark>db.email.find({userIndex:{$gt:24}}, {email:1, _id:0})</mark>
         
     * db.userIndex.find({email:{$gt:24}}, {\_id:0})
         
