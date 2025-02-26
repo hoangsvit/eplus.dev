@@ -77,7 +77,7 @@ Create a view and store the query
 ---
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP196/lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/mini%20lab%20%3A%20BigQuery%20%3A%203/lab.sh
 sudo chmod +x lab.sh
 ./lab.sh
 ```
