@@ -67,6 +67,8 @@ Create a view and store the query
 
 ## Solution of Lab
 
+%[https://youtu.be/2XDfy0s7kzw] 
+
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
 <div data-node-type="callout-text"><strong>Error in mini lab : BigQuery : 3</strong></div>
