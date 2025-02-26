@@ -77,6 +77,7 @@ Create a view and store the query
 ---
 
 ```apache
-export PROJECT_ID=$(gcloud config get-value project)
-bq query --use_legacy_sql=false "SELECT DISTINCT p.product_name, p.price FROM \`$PROJECT_ID.Inventory.products\` AS p INNER JOIN \`$PROJECT_ID.Inventory.category\` AS c ON p.category_id = c.category_id WHERE p.category_id = 1;"
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP196/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
 ```
