@@ -73,3 +73,10 @@ Create a view and store the query
 <div data-node-type="callout-emoji">💡</div>
 <div data-node-type="callout-text"><strong>Error in mini lab : BigQuery : 3</strong></div>
 </div>
+
+---
+
+```apache
+export PROJECT_ID=$(gcloud config get-value project)
+bq query --use_legacy_sql=false "SELECT DISTINCT p.product_name, p.price FROM \`$PROJECT_ID.Inventory.products\` AS p INNER JOIN \`$PROJECT_ID.Inventory.category\` AS c ON p.category_id = c.category_id WHERE p.category_id = 1;"
+```
