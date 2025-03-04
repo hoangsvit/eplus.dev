@@ -23,7 +23,7 @@ This lab is recommended for students enrolled in the [Migrate MySQL Data to Clou
 
 ## **Setup and requirements**
 
-### Before you click the Start Lab button
+**Before you click the Start Lab button**
 
 Read these instructions. Labs are timed and you cannot pause them. The timer, which starts when you click **Start Lab**, shows how long Google Cloud resources are made available to you.
 
@@ -41,7 +41,7 @@ To complete this lab, you need:
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
-### Set your region and zone
+**Set your region and zone**
 
 Certain Compute Engine resources live in regions and zones. A region is a specific geographical location where you can run your resources. Each region has one or more zones.
 
@@ -57,7 +57,7 @@ gcloud config set compute/region "us-west1"
 export REGION=$(gcloud config get compute/region)
 ```
 
-## **Challenge scenario**
+**Challenge scenario**
 
 Your employer has existing MySQL databases running on a Compute Engine instance. They want to migrate this database to two new Cloud SQL instances using two different migration strategies. For the initial migration you must perform a one-time migration using the external IP address of the compute instance to gain access to the source database. For the second migration you have been instructed to use VPC Peering for access to the source database to remove the dependency on the external ip-address.
 
@@ -65,7 +65,7 @@ Before you cut over to the newly migrated database, you must carry out a test to
 
 **Note:** For the purposes of this lab, all of your resources should be created in the following region: `us-west1` and zone: `us-west1-a`.
 
-## **Task 1. Configure a Database Migration Service connection profile for a stand-alone MySQL database**
+### **Task 1. Configure a Database Migration Service connection profile for a stand-alone MySQL database**
 
 * To complete this task you must configure a connection profile for the migration of the MySQL source instance, running on a compute instance named `dev-mkt-bpb`, to Cloud SQL using a Database Migration Service one-time migration and the external IP address of the source instance.
     
@@ -83,7 +83,7 @@ Configure a Database Migration Service connection profile for a stand-alone MySQ
 
 Check my progress
 
-## **Task 2. Perform a one-time migration of a stand-alone MySQL database to Cloud SQL**
+### **Task 2. Perform a one-time migration of a stand-alone MySQL database to Cloud SQL**
 
 1. You must migrate this compute instance based MySQL database to a Cloud SQL instance configured with the following properties:
     
@@ -112,7 +112,7 @@ Perform a one-time migration of a stand-alone MySQL database to Cloud SQL.
 
 Check my progress
 
-## **Task 3. Create a continuous Database Migration Service migration job to migrate a stand-alone MySQL database to Cloud SQL**
+### **Task 3. Create a continuous Database Migration Service migration job to migrate a stand-alone MySQL database to Cloud SQL**
 
 1. To complete this task you must create a continuous Database Migration Service migration job to migrate a stand-alone MySQL database to a second Cloud SQL instance using VPC peering.
     
@@ -140,7 +140,7 @@ Migrate the stand-alone MySQL database to Cloud SQL using continuous migration.
 
 Check my progress
 
-## **Task 4. Test that the continuous Database Migration Service job replicates updated source data**
+### **Task 4. Test that the continuous Database Migration Service job replicates updated source data**
 
 1. To complete this task you must connect to the source stand-alone MySQL instance and modify the database with the following query:
     
@@ -157,7 +157,7 @@ Check that the updated source data in the stand-alone MySQL database has been mi
 
 Check my progress
 
-## **Task 5. Promote the destination Cloud SQL for MySQL database to a stand-alone database**
+### **Task 5. Promote the destination Cloud SQL for MySQL database to a stand-alone database**
 
 * In this task you must promote the Cloud SQL for MySQL instance to a stand-alone database for reading and writing data.
     
