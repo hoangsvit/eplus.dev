@@ -1,7 +1,7 @@
 ---
 title: "Create a Custom Network and Apply Firewall Rules - GSP159"
 seoTitle: "Create a Custom Network and Apply Firewall Rules - GSP159"
-seoDescription: "In this hands-on lab you'll learn how to design and implement a secure network architecture. You'll use Cloud Shell and the command line language gcloud to "
+seoDescription: "In this hands-on lab you'll learn how to design and implement a secure network architecture. You'll use Cloud Shell and the command line language gcloud to"
 datePublished: Tue Mar 04 2025 06:03:42 GMT+0000 (Coordinated Universal Time)
 cuid: cm7u32eoc000c08l71r9nhbmi
 slug: create-a-custom-network-and-apply-firewall-rules-gsp159
@@ -132,8 +132,6 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-04-29264891f4
 ```apache
 gcloud auth list
 ```
-
-Copied!content\_copy
 
 4. Click **Authorize**.
     
