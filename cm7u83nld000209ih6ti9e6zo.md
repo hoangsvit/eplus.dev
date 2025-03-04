@@ -65,7 +65,7 @@ Before you cut over to the newly migrated database, you must carry out a test to
 
 **Note:** For the purposes of this lab, all of your resources should be created in the following region: `us-west1` and zone: `us-west1-a`.
 
-### **Task 1. Configure a Database Migration Service connection profile for a stand-alone MySQL database**
+## **Task 1. Configure a Database Migration Service connection profile for a stand-alone MySQL database**
 
 * To complete this task you must configure a connection profile for the migration of the MySQL source instance, running on a compute instance named `dev-mkt-bpb`, to Cloud SQL using a Database Migration Service one-time migration and the external IP address of the source instance.
     
@@ -83,7 +83,7 @@ Configure a Database Migration Service connection profile for a stand-alone MySQ
 
 Check my progress
 
-### **Task 2. Perform a one-time migration of a stand-alone MySQL database to Cloud SQL**
+## **Task 2. Perform a one-time migration of a stand-alone MySQL database to Cloud SQL**
 
 1. You must migrate this compute instance based MySQL database to a Cloud SQL instance configured with the following properties:
     
@@ -112,7 +112,7 @@ Perform a one-time migration of a stand-alone MySQL database to Cloud SQL.
 
 Check my progress
 
-### **Task 3. Create a continuous Database Migration Service migration job to migrate a stand-alone MySQL database to Cloud SQL**
+## **Task 3. Create a continuous Database Migration Service migration job to migrate a stand-alone MySQL database to Cloud SQL**
 
 1. To complete this task you must create a continuous Database Migration Service migration job to migrate a stand-alone MySQL database to a second Cloud SQL instance using VPC peering.
     
@@ -140,7 +140,7 @@ Migrate the stand-alone MySQL database to Cloud SQL using continuous migration.
 
 Check my progress
 
-### **Task 4. Test that the continuous Database Migration Service job replicates updated source data**
+## **Task 4. Test that the continuous Database Migration Service job replicates updated source data**
 
 1. To complete this task you must connect to the source stand-alone MySQL instance and modify the database with the following query:
     
@@ -157,7 +157,7 @@ Check that the updated source data in the stand-alone MySQL database has been mi
 
 Check my progress
 
-### **Task 5. Promote the destination Cloud SQL for MySQL database to a stand-alone database**
+## **Task 5. Promote the destination Cloud SQL for MySQL database to a stand-alone database**
 
 * In this task you must promote the Cloud SQL for MySQL instance to a stand-alone database for reading and writing data.
     
