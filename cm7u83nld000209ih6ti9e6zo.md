@@ -172,7 +172,7 @@ Check my progress
 
 %[https://www.youtube.com/watch?v=mc8TMhxS9Ws&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
-## **Task 1: Enable APIs**
+### **Task 1: Enable APIs**
 
 Enable the following APIs in your Google Cloud project:
 
@@ -185,7 +185,7 @@ Use the Google Cloud Console or the `gcloud` command-line tool to enable these A
 
 ---
 
-## **Task 4.1: Connect to the MySQL Interactive Console**
+### **Task 4.1: Connect to the MySQL Interactive Console**
 
 To connect to the MySQL interactive console, follow these steps:
 
@@ -204,7 +204,7 @@ To connect to the MySQL interactive console, follow these steps:
 
 ---
 
-## **Task 4.2: Update Records in the Database**
+### **Task 4.2: Update Records in the Database**
 
 Once connected to the MySQL console:
 
