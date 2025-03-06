@@ -256,13 +256,14 @@ sudo chmod +x quicklabgcc040.sh
     
 * SSH into the `cloud-vm` VM instance
     
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1741248896515/83039a9b-df52-469c-be23-8fde7cb6aa7f.png align="center")
+    
 
 ```apache
 psql -h REPLACE_IP -U postgres -d postgres
 ```
 
 ```sql
-
 CREATE TABLE patients (
     patient_id INT PRIMARY KEY,
     first_name VARCHAR(50),
@@ -295,85 +296,4 @@ INSERT INTO clinical_trials (trial_id, trial_name, start_date, end_date, lead_re
 VALUES 
     (1, 'Trial A', '2025-01-01', '2025-12-31', 'Dr. John Doe', 200, 'Ongoing'),
     (2, 'Trial B', '2025-02-01', '2025-11-30', 'Dr. Jane Smith', 150, 'Completed');
-```
-
-### [Task 1:](https://console.cloud.google.com/home/dashboard?project=&pli=1&cloudshell=true)
-
-```powershell
-gcloud compute addresses create psa-range \
-  --global \
-  --purpose=VPC_PEERING \
-  --prefix-length=24 \
-  --network=cloud-vpc \
-  --addresses=10.8.12.0 \
-  --description="Private Service Access range for AlloyDB"
-
-gcloud services vpc-peerings connect \
-  --service=servicenetworking.googleapis.com \
-  --network=cloud-vpc \
-  --ranges=psa-range
-
-gcloud compute networks peerings update servicenetworking-googleapis-com \
-  --network=cloud-vpc \
-  --import-custom-routes \
-  --export-custom-routes
-
-gcloud compute networks peerings list --network=cloud-vpc
-```
-
-### Task 2:
-
-```apache
-export REGION=
-export PASSWORD=
-export CLUSTER_NAME=
-export CLUSTER_NAME_INSTANCE=
-```
-
-```powershell
-gcloud alloydb clusters create $CLUSTER_NAME \
-  --password=$PASSWORD \
-  --region=$REGION \
-  --network=cloud-vpc \
-  --allocated-ip-range-name=psa-range
-```
-
-```apache
-gcloud alloydb instances create $CLUSTER_NAME_INSTANCE \
-  --instance-type=PRIMARY \
-  --cluster=$CLUSTER_NAME \
-  --region=$REGION \
-  --cpu-count=2
-```
-
-### Task 3:
-
-```apache
-export HOST_IP=
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1741071924997/5a0ffa44-22d4-4c86-bc79-64311f8a7991.png align="center")
-
-```apache
-psql "host=$HOST_IP user=postgres password=$PASSWORD dbname=postgres"
-```
-
-```apache
-CREATE TABLE patients (
-    patient_id INT PRIMARY KEY,
-    first_name VARCHAR(50),
-    last_name VARCHAR(50),
-    date_of_birth DATE,
-    medical_record_number VARCHAR(100) UNIQUE,
-    last_visit_date DATE,
-    primary_physician VARCHAR(100)
-);
-```
-
-### Task 3:
-
-```apache
-gcloud compute vpn-gateways create cloud-vpn-gateway \
-  --network=cloud-vpc \
-  --region=$REGION
 ```
