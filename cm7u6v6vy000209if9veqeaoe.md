@@ -252,6 +252,8 @@ sudo chmod +x quicklabgcc040.sh
 
 * This runs the script to set up your environment for the lab. It will provision resources and configure them as needed.
     
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1741247899347/c95419ca-8ab1-496f-bbd8-f26d8612d9a0.png align="center")
+    
 * SSH into the `cloud-vm` VM instance
     
 
