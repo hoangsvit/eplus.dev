@@ -295,7 +295,7 @@ The Open Health Imaging Foundation (OHIF) Viewer is an open source, web-based, m
 
 The following steps will walk through setting up **OHIF Viewer** to view your dataset:
 
-1. First, select **APIs & Services** **\&gt;** **OAuth Consent Screen** from the Navigation menu to create an OAuth Consent screen.
+1. First, select **APIs & Services** **&gt;** **OAuth Consent Screen** from the Navigation menu to create an OAuth Consent screen.
     
 2. On the **Google Auth Platform** page, select **Branding**.
     
@@ -562,7 +562,12 @@ To support healthcare research, Cloud Healthcare API offers de-identification ca
 %[https://www.youtube.com/watch?v=d4EGSgQ2MR4] 
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/De-identifying%20DICOM%20Data%20with%20the%20Healthcare%20API/techcps626.sh
-sudo chmod +x techcps626.sh
-./techcps626.sh
+export REGION=
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1741333101270/17553f63-583d-4f7e-8921-b52231af620a.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/De-identifying%20DICOM%20Data%20with%20the%20Healthcare%20API/gsp626.shsudo chmod +x gsp626.sh
+./gsp626.sh
 ```
