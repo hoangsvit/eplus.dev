@@ -295,7 +295,7 @@ The Open Health Imaging Foundation (OHIF) Viewer is an open source, web-based, m
 
 The following steps will walk through setting up **OHIF Viewer** to view your dataset:
 
-1. First, select **APIs & Services** **&gt;** **OAuth Consent Screen** from the Navigation menu to create an OAuth Consent screen.
+1. First, select **APIs & Services** **\&gt;** **OAuth Consent Screen** from the Navigation menu to create an OAuth Consent screen.
     
 2. On the **Google Auth Platform** page, select **Branding**.
     
@@ -536,30 +536,11 @@ Click *Check my progress* to verify the objective.
 
 Converting DICOM Images
 
-Check my progress
-
-## **Lab review**
-
-Cloud Healthcare API provides a comprehensive facility for ingesting, storing, managing, and securely exposing healthcare data in FHIR, DICOM, and HL7 v2 formats. Using Cloud Healthcare API, you can ingest and store data from electronic health records systems (EHRs), radiological information systems (RISs), and custom healthcare applications. You can then immediately make that data available to applications for analysis, machine learning prediction and inference, and consumer access.
-
-Cloud Healthcare API enables application access to healthcare data via widely-accepted, standards-based interfaces such as FHIR STU3 and DICOMweb. These APIs allow data ingestion into modality-specific data stores, which support data retrieval, update, search and other functions using familiar standards-based interfaces.
-
-Further, the API integrates with other capabilities in Google Cloud through two primary mechanisms:
-
-* *Pub/Sub*, which provides near-real-time updates when data is ingested into a Cloud Healthcare API data store, and
-    
-* *Import/export APIs*, which allow you to integrate Cloud Healthcare API into both Cloud Storage and BigQuery.
-    
-
-Using Pub/Sub with Cloud Run functions enables you to invoke machine learning models on healthcare data, storing the resulting predictions back in Cloud Healthcare API data store. A similar integration with Cloud Dataflow supports transformation and cleansing of healthcare data prior to use by applications.
-
-To support healthcare research, Cloud Healthcare API offers de-identification capabilities for FHIR and DICOM. This feature allows customers to share data with researchers working on new cutting-edge diagnostics and medicines.
-
 ---
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=d4EGSgQ2MR4] 
+%[https://youtu.be/lIBzejSxSsM] 
 
 ```apache
 export REGION=
