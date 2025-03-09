@@ -7,7 +7,7 @@ cuid: cm3du382f000d09mcbvs30cnp
 slug: securing-google-cloud-with-cft-scorecard-gsp698
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731378524570/cf43a8c3-60fd-435b-b55b-3789b5813c18.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1731378537635/afe914d7-dc85-48ee-ba95-5000392113f6.png
-tags: securing-google-cloud-with-cft-scorecard-gsp698, gsp698
+tags: securing-google-cloud-with-cft-scorecard-gsp698, gsp698, securing-google-cloud-with-cft-scorecard
 
 ---
 
@@ -441,4 +441,10 @@ You should now see an editor who is not in your organization. Time to talk to Al
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=U1_ttLBwWIs&ab_channel=AbhiArcadeSolution]
+%[https://youtu.be/f_FUtZvF0bo] 
+
+```apache
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Securing%20Google%20Cloud%20with%20CFT%20Scorecard/techcps698.sh
+sudo chmod +x techcps698.sh
+./techcps698.sh
+```
