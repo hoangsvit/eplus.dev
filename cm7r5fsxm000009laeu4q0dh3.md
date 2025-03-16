@@ -21,10 +21,11 @@ Link: [Google Cloud Skills Boost - Games 5703](https://www.cloudskillsboost.goog
 | --- | --- | --- |
 | **The Arcade Base Camp March 2025** | [Google Cloud Skills Boost - Games 5961](https://www.cloudskillsboost.google/games/5961) | <mark>1q-basecamp-0319</mark> |
 | **Build, Deploy, and Optimize!** | [Google Cloud Skills Boost - Games 5964](https://www.cloudskillsboost.google/games/5964) | <mark>1q-acedev-10201</mark> |
+| **Color Your Skills** | [Google Cloud Skills Boost - Games 5976](https://www.cloudskillsboost.google/games/5976) | <mark>1q-skillsplash-5202</mark> |
 | **The Arcade Base Camp March 2025 - LEVEL 1** | [Google Cloud Skills Boost - Games 5962](https://www.cloudskillsboost.google/games/5962) | <mark>1q-securedata-9012</mark> |
 | **The Arcade Base Camp March 2025 - LEVEL 2** | [Google Cloud Skills Boost - Games 5963](https://www.cloudskillsboost.google/games/5963) | <mark>1q-monitor-0321</mark> |
 | The Arcade Trivia March 2025 - **Week 1** | [Google Cloud Skills Boost - Games 5960](https://www.cloudskillsboost.google/games/5960) | <mark>1q-trivia-02164</mark> |
-| The Arcade Trivia March 2025 - **Week 2** | Coming Soon | Coming Soon |
+| The Arcade Trivia March 2025 - **Week 2** | [Google Cloud Skills Boost - Games 5970](https://www.cloudskillsboost.google/games/5970) | <mark>1q-trivia-02158</mark> |
 | The Arcade Trivia March 2025 - **Week 3** | Coming Soon | Coming Soon |
 | The Arcade Trivia March 2025 - **Week 4** | Coming Soon | Coming Soon |
 
