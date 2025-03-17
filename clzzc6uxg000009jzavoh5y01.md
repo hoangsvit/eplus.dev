@@ -712,3 +712,11 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/IAM%20Custom
 sudo chmod  +x quicklabgsp190.sh
 ./quicklabgsp190.sh
 ```
+
+**Solution Alternatives**
+
+```apache
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/IAM%20Custom%20Roles/gsp190.sh
+sudo chmod +x gsp190.sh
+./gsp190.sh
+```
