@@ -139,7 +139,7 @@ In this task, you'll locate the Developer Student’s folder and create a new da
 6. Click **Edit Dashboard** to start adding charts and visualizations to the new dashboard.
     
 
-***Note:*** *In Looker Enterprise, tiles are used to display data in a variety of ways, such as tables, charts, and maps. To add a new visualization to the dashboard click* ***Add Tile****.*
+***Note:*** *In Looker Enterprise, tiles are used to display data in a variety of ways, such as tables, charts, and maps. To add a new visualization to the dashboard click* ***Add Tile***\*.\*
 
 Click **Check my progress** to verify that you have completed this task correctly.
 
@@ -458,6 +458,51 @@ You are well on your way to understanding how to use Looker to build dashboards 
 %[https://youtu.be/Mw7IYav0iao] 
 
 ---
+
+**First, click the toggle button to turn on the Development mode.**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742365328502/f7e22d65-e8b6-4a8c-8183-d38afb1e8b6f.png align="center")
+
+**Go to Develop &gt; fintech &gt; fintech.model file**
+
+```apache
+# Place in `fintech` model
+explore: +loan_details {
+    query: techcps_2 {
+      measures: [loan.outstanding_loans_amount]
+    }
+}
+
+# Place in `fintech` model
+explore: +loan_details {
+    query: techcps_3 {
+      dimensions: [loan.loan_status]
+      measures: [loan.outstanding_loans_amount]
+    }
+}
+
+# Place in `fintech` model
+explore: +loan_details {
+    query: techcps_4 {
+      dimensions: [loan.state]
+      measures: [loan.outstanding_count]
+    }
+}
+
+# Place in `fintech` model
+explore: +loan_details {
+    query: techcps_5 {
+      dimensions: [
+        customer.address_state,
+        customer.annual_income,
+        customer.customer_id,
+        customer.home_ownership,
+        loan.interest_rate,
+        loan.loan_status
+      ]
+    }
+}
+```
 
 ### Task 2 🚀
 
