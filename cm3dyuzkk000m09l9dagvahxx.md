@@ -5,8 +5,8 @@ seoDescription: "Looker is a modern data platform in Google Cloud that lets you 
 datePublished: Tue Nov 12 2024 04:42:50 GMT+0000 (Coordinated Universal Time)
 cuid: cm3dyuzkk000m09l9dagvahxx
 slug: looker-data-explorer-qwik-start-gsp718
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731386543798/c6da5047-d116-4a1f-85b9-3f7709c1d361.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1731386559433/d463b63e-3593-4394-85c0-67225acc4b17.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742374885913/ec691e38-40f1-4a23-899b-9c7c50cdbcbf.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1742375231150/47d251a2-5907-4885-af57-cb6a8e00d889.png
 tags: looker-data-explorer-qwik-start-gsp718, gsp718
 
 ---
