@@ -461,7 +461,7 @@ You are well on your way to understanding how to use Looker to build dashboards 
 
 **First, click the toggle button to turn on the Development mode.**
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742365328502/f7e22d65-e8b6-4a8c-8183-d38afb1e8b6f.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742365490842/34c04448-61e6-4012-b5e5-ff51cad8f50c.png align="center")
 
 **Go to Develop &gt; fintech &gt; fintech.model file**
 
