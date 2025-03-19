@@ -414,6 +414,47 @@ Create a line chart of the number of flights scheduled to depart each week by di
 
 %[https://youtu.be/kdn_X0k72WY] 
 
+**First, click the toggle button to turn on the Development mode.**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742365490842/34c04448-61e6-4012-b5e5-ff51cad8f50c.png?auto=compress,format&format=webp align="left")
+
+**Go to Develop &gt; qwiklabs-flights &gt; faa.model file**
+
+```apache
+# Place in `faa` model
+explore: +airports { 
+    query: techcps_1 {
+      measures: [average_elevation]
+    }
+  }
+
+# Place in `faa` model
+explore: +airports {
+    query: techcps_2 {
+      dimensions: [facility_type]
+      measures: [average_elevation, count]
+  }
+}
+
+# Place in `faa` model
+explore: +flights {
+    query: techcps_3 {
+      dimensions: [depart_week]
+      measures: [cancelled_count]
+      filters: [flights.depart_date: "2004"]
+  }
+}
+
+# Place in `faa` model
+explore: +flights {
+    query: techcps_4 {
+      dimensions: [depart_week, distance_tiered]
+      measures: [count]
+      filters: [flights.depart_date: "2003"]
+  }
+}
+```
+
 ### Task 1 🚀
 
 * **Visualization Type**: Single Value
