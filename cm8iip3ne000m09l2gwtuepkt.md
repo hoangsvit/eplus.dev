@@ -122,7 +122,7 @@ Check my progress
 
 In this task, you obtain the application code and introduce a vulnerability for Web Security Scanner to detect. This is in the form of an application, which is a simple form that receives a user's input and outputs it without any changes.
 
-1. In the Cloud console, on the **Navigation menu** (), click **Compute Engine** **\&gt;** **VM Instances**.
+1. In the Cloud console, on the **Navigation menu** (), click **Compute Engine** **&gt;** **VM Instances**.
     
     This may take a minute to initialize for the first time.
     
@@ -211,7 +211,7 @@ Now that the vulnerable application is launched, it's time to demonstrate Web Se
 
 1. Switch back to the Cloud console browser tab.
     
-2. From the **Navigation menu** (), select **APIs & Services** **\&gt;** **Library**.
+2. From the **Navigation menu** (), select **APIs & Services** **&gt;** **Library**.
     
 3. In the Search for APIs and services field, type `Web Security Scanner` and press **Enter**.
     
@@ -230,7 +230,7 @@ Check my progress
 
 In this task, you configure and set up a scan of the application to check if it finds security vulnerabilities.
 
-1. Open the **Navigation menu** (), and select **Security** **\&gt;** **Web Security Scanner**.
+1. Open the **Navigation menu** (), and select **Security** **&gt;** **Web Security Scanner**.
     
 2. Click **\+ New Scan**.
     
@@ -450,7 +450,7 @@ sudo chmod +x qwiklab_explorers_gsp1262_task-1.sh
 
 * Go to `Cloud Web Security Scanner` from [here](https://console.cloud.google.com/security/web-scanner/scanConfigs?)
     
-* #### [C](https://console.cloud.google.com/security/web-scanner/scanConfigs?)heck All Task's Score Upto `Task 4` then Run [the](https://console.cloud.google.com/security/web-scanner/scanConfigs?) below commands only
+* **Check All Task's Score Upto** `Task 4` **then Run the below commands only**
     
 
 ```apache
