@@ -1186,7 +1186,7 @@ gcloud compute networks subnets update default \
 
 ---
 
-### Go to attacker-instance vm and click on ssh button
+*Go to attacker-instance vm and click on ssh button*
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724306773432/4507782e-4e53-48af-8676-0173db93936c.png align="center")
 
