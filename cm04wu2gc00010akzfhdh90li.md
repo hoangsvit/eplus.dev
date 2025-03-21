@@ -1096,6 +1096,20 @@ Exploit a web server and detect issues with Container Threat Detection
 
 ## Solution of Lab
 
+### Quick Guide
+
+%[https://youtu.be/JE2qJiPoWtg] 
+
+```apache
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Detect%20and%20Investigate%20Threats%20with%20Security%20Command%20Center/gsp1125.sh
+sudo chmod +x *.sh
+./*.sh
+```
+
+---
+
+### Manual Instructions
+
 %[https://www.youtube.com/watch?v=PaNMosjxQJw] 
 
 To enable "**Admin Read**" logs for the **Cloud Resource Manager API**, you might need to access the **Google Cloud Console** directly. Here are the steps to do this:
