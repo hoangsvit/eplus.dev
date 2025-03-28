@@ -405,7 +405,7 @@ Check my progress
 
 In this task, you will use Gemini Pro model to analyze each customer review for sentiment, either positive or negative.
 
-### Analyze the customer reviews for positive and negative sentiment
+**Analyze the customer reviews for positive and negative sentiment**
 
 1. Create a new code cell with the code below:
     
@@ -454,7 +454,7 @@ In this task, you will use Gemini Pro model to analyze each customer review for 
     Take a look at some of the records. You may notice some of the results for positive and negative may not be formatted correctly, with extraneous characters like periods, or extra space. You can santize the records by using the view below.
     
 
-### Create a view to sanitize the records
+**Create a view to sanitize the records**
 
 1. Create a new code cell with the code below:
     
@@ -492,7 +492,7 @@ In this task, you will use Gemini Pro model to analyze each customer review for 
     Notice that the `sentiment` column now has clean values for positive and negative reviews. You will be able to use this view in later steps to build a report.
     
 
-### Create a report of positive and negative review counts
+**Create a report of positive and negative review counts**
 
 You can use Python and the Matplotlib library to create a bar chart report of the counts of positive and negative reviews.
 
@@ -565,8 +565,6 @@ You can use Python and the Matplotlib library to create a bar chart report of th
 Click **Check my progress** to verify the objective.
 
 Prompt Gemini to analyze customer reviews for keywords and sentiment
-
-Check my progress
 
 ## **Task 7. Respond to customer reviews**
 
