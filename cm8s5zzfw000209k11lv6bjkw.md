@@ -189,4 +189,6 @@ Generating Data.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=y11C0Fsuwdw]
+%[https://www.youtube.com/watch?v=y11C0Fsuwdw] 
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743129133586/f6b5b136-fc3d-4572-ad36-9124e26f4c7c.png align="center")
