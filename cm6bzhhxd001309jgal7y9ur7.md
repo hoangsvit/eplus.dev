@@ -572,7 +572,7 @@ Data beans wants to experiment with customer reviews using images and audio reco
 
 You will do this both at scale and then later with one image and audio file, so that you may learn how to create a Proof of Concept application for customer service representatives. This enables a "human-in-the-loop" strategy for the customer feedback process, where customer service representatives can take action with both the customer and individual coffee houses.
 
-### Processing audio files at scale with JSON responses
+**Processing audio files at scale with JSON responses**
 
 1. Create a new cell to conduct sentiment analysis on audio files and respond to the customer.
     
@@ -644,7 +644,7 @@ You will do this both at scale and then later with one image and audio file, so 
     The result is all 5 of the audio files are analysed and the output of the analysis is provided as a JSON response. The JSON response could be parsed accordingly and routed to the appropriate applications to respond to the customer or the location with actions for improvement.
     
 
-### Creating an application for customer service representatives
+**Creating an application for customer service representatives**
 
 In this section of the lab, you will learn how to create a customer service application based upon a negative review analysis. You will:
 
