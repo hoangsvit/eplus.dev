@@ -713,7 +713,7 @@ In this section of the lab, you will learn how to create a customer service appl
     
 3. Create an HTML based table from the selected values and load the audio file containing the negative review into the player.
     
-    ```apache
+    ```bash
     # Create an HTML table (including the image) from the selected values.
     
     html_string = f"""
