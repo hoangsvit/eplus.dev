@@ -538,23 +538,23 @@ You can use Python and the Matplotlib library to create a bar chart report of th
     
 7. Alternatively you can build a simple, color-coded report of the counts of negative and positive sentiment using the code below:
     
-    ```bash
+    ```plaintext
     # Create an HTML table for the counts of negative and positive sentiment and color codes the results.
     html_counts = f"""
-    <table style="border-collapse:collapse;width:25%;padding:10px;">
-    
-    <tbody><tr style="background-color:#f2f2f2;">
-    <th style="padding:10px;text-align:left;">Negative</th>
-    <th style="padding:10px;text-align:left;">Positive</th>
+    <table style="border-collapse: collapse; width: 25%; padding: 10px;">
+    <thead>
+    <tr style="background-color: #f2f2f2;">
+    <th style="padding: 10px; text-align: left;">Negative</th>
+    <th style="padding: 10px; text-align: left;">Positive</th>
     </tr>
-    
-    
-    <tr style="padding:10px;">
-    <td style="padding:10px;color:red;">{count[0]}</td>
-    <td style="padding:10px;color:green;">{count[1]}</td>
+    </thead>
+    <tbody>
+    <tr style="padding: 10px;">
+    <td style="padding: 10px; color: red">{count[0]}</td>
+    <td style="padding: 10px; color: green">{count[1]}</td>
     </tr>
-    
-    </tbody></table>
+    </tbody>
+    </table>
     """
     
     # Display the HTML tables
