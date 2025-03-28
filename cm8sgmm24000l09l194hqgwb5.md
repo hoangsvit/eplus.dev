@@ -80,11 +80,9 @@ To complete this lab, you need:
     
 3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
-    ```plaintext
+    ```apache
     student-04-8ee99f86a41c@qwiklabs.net
     ```
-    
-    Copied!content\_copy
     
     You can also find the Username in the Lab Details pane.
     
@@ -92,11 +90,9 @@ To complete this lab, you need:
     
 5. Copy the **Password** below and paste it into the **Welcome** dialog.
     
-    ```plaintext
+    ```apache
     SVOoS1XZ1Ovm
     ```
-    
-    Copied!content\_copy
     
     You can also find the Password in the Lab Details pane.
     
@@ -171,14 +167,12 @@ For example: `bqcx-1054723899402-whbp@gcp-sa-bigquery-condel.iam.gserviceaccount
 3. Copy and paste the following query to create a BigQuery ML model, and click **Run**.
     
 
-```plaintext
+```apache
 # Create a BigQuery ML remote model named gemini_2_0_flash
 CREATE MODEL `qwiklabs-gcp-03-3a3edcbccf3f.continuous_queries.gemini_2_0_flash`
 REMOTE WITH CONNECTION `us-east1.continuous-queries-connection`
 OPTIONS(endpoint = 'gemini-2.0-flash-001');
 ```
-
-Copied!content\_copy
 
 **Note:** If you receive an error related to the service account permissions (which you assigned in the previous section), wait a few minutes, and then run the query again.
 
@@ -279,11 +273,9 @@ In this task, you create and configure an Application Integration trigger that r
 8. In the trigger details pane, for **Trigger Input** &gt; **Pub/Sub topic**, add the path to the pre-created Pub/Sub topic:
     
 
-```plaintext
+```apache
 projects/qwiklabs-gcp-03-3a3edcbccf3f/topics/recapture_customer
 ```
-
-Copied!content\_copy
 
 9. For **Service account**, select the custom service account ID: **bq-continuous-query-sa@**`qwiklabs-gcp-03-3a3edcbccf3f`.iam.gserviceaccount.com
     
@@ -470,7 +462,7 @@ You can expand the arrow next to the reservation named **bq-continuous-queries-r
 3. Copy and paste the following query to create a continuous query, but **do not click run** yet.
     
 
-```plaintext
+```apache
 EXPORT DATA
  OPTIONS (format = CLOUD_PUBSUB,
  uri = "https://pubsub.googleapis.com/projects/qwiklabs-gcp-03-3a3edcbccf3f/topics/recapture_customer")
@@ -495,8 +487,6 @@ AS (SELECT
      1 AS candidate_count, 
      TRUE AS flatten_json_output)))
 ```
-
-Copied!content\_copy
 
 4. Above the query window, click **More actions** (three vertical dots) &gt; **More** (gear icon), and select **Continuous query** under **Choose query mode**.
     
@@ -535,13 +525,11 @@ If desired, you can replace **Name** with your name. You can also replace `stude
 
 If you use the lab username (`student-04-8ee99f86a41c@qwiklabs.net`) as included in the query below, you will not be able to access the generated email.
 
-```plaintext
+```apache
 # Insert details for an abandoned shopping cart to the table 
 INSERT INTO `continuous_queries.abandoned_carts`(customer_name, customer_email,products)
 VALUES ("Name","student-04-8ee99f86a41c@qwiklabs.net","Violin Strings, Tiny Saxophone, Guitar Strap")
 ```
-
-Copied!content\_copy
 
 When you see the message *This statement added 1 row to abandoned\_carts* in the **Results**, you have completed this task.
 
@@ -560,6 +548,14 @@ Add data to the abandoned carts table to test the continuous query.
 ## Solution of Lab
 
 %[https://www.youtube.com/watch?v=gY5O6-fs90Q] 
+
+### Task 1:
+
+```apache
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Generate%20Personalized%20Email%20Content%20with%20BigQuery%20Continuous%20Queries%20and%20Gemini/techcps1284.sh
+sudo chmod +x techcps1284.sh
+./techcps1284.sh
+```
 
 ### Task 2:
 
