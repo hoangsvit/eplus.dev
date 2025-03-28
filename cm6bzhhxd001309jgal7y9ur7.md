@@ -848,4 +848,4 @@ sudo chmod +x *.sh
 ./*.sh
 ```
 
-* **Download required** [**file**](https://drive.google.com/uc?export=download&id=1QM02LFTLjKeM_Y8aMVSONDP1VJIlpl7u)
+* **Download required** [**<mark>file</mark>**](https://drive.google.com/uc?export=download&id=1QM02LFTLjKeM_Y8aMVSONDP1VJIlpl7u)
