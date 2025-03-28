@@ -708,10 +708,14 @@ Check my progress
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=XfNvYKWEIZg] 
+%[https://youtu.be/EQzDmTIo0_E] 
 
 ```apache
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Analyze%20Customer%20Reviews%20with%20Gemini%20Using%20SQL/gsp1246.sh
-sudo chmod +x *.sh
-./*.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Analyze%20Customer%20Reviews%20with%20Gemini%20Using%20SQL/techcps1246.sh
+sudo chmod +x techcps1246.sh
+./techcps1246.sh
 ```
+
+---
+
+%[]
