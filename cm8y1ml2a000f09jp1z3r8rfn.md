@@ -69,3 +69,5 @@ If you prefer manual installation, follow these steps:
 💡 Visualize information to better manage and optimize your learning strategy.
 
 Try it today and conquer Google Cloud Skills Boost challenges smarter! 🌟
+
+<a href="https://www.producthunt.com/posts/google-cloud-skills-boost-helper?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-google&#0045;cloud&#0045;skills&#0045;boost&#0045;helper" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=947339&theme=light&t=1743484624274" alt="Google&#0032;Cloud&#0032;Skills&#0032;Boost&#0032;&#0045;&#0032;Helper - Google&#0032;cloud&#0032;skills&#0032;boost | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
