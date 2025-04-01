@@ -34,13 +34,13 @@ We are excited to introduce **Google Cloud Skills Boost - Helper**, a browser ex
 
 The extension is now available on:
 
-* [Chrome Web Store](https://chatgpt.com/c/67eb750b-7cec-800b-b909-2587127782cd#)
+* [Chrome Web Store](https://chromewebstore.google.com/detail/lmbhjioadhcoebhgapaidogodllonbgg?utm_source=eplus)
     
-* [Firefox Add-ons](https://chatgpt.com/c/67eb750b-7cec-800b-b909-2587127782cd#)
+* [Firefox Add-ons](https://addons.mozilla.org/addon/cloud-skills-boost-helper?utm_source=eplus)
     
-* [Microsoft Edge Add-ons](https://chatgpt.com/c/67eb750b-7cec-800b-b909-2587127782cd#)
+* [Microsoft Edge Add-ons](https://github.com/ePlus-DEV/google-cloud-skills-boost-helper/releases/?utm_source=eplus)
     
-* [Opera Add-ons](https://chatgpt.com/c/67eb750b-7cec-800b-b909-2587127782cd#)
+* [Opera Add-ons](https://github.com/ePlus-DEV/google-cloud-skills-boost-helper/releases/?utm_source=eplus)
     
 
 ### 2\. Manual Installation (for Chromium-based browsers)
