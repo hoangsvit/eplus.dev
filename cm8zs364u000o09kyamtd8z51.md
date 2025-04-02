@@ -58,8 +58,6 @@ Xem chi tiết order và chụp lại toàn bộ thông tin order (khuyến khí
     
 * Tên hàng điền theo nội dung bên dưới: (*tên hàng có thể chỉnh lại theo tên quà tặng mà bạn nhận được*)
     
-* Bấm gửi nếu thấy các thông tin bạn điền đều chính xác
-    
     ```plaintext
     1. Tên hàng: Bộ quà tặng Arcade nhà vô địch 
     - Số lượng 1 
@@ -69,6 +67,8 @@ Xem chi tiết order và chụp lại toàn bộ thông tin order (khuyến khí
     4. Xuất xứ: Ấn Độ
     5. Hàng mới 100%
     ```
+    
+* Bấm gửi nếu thấy các thông tin bạn điền đều chính xác
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743586337161/d41d4a3d-7276-4a5f-95ab-92a7470e0586.png align="center")
