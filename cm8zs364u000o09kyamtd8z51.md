@@ -87,11 +87,7 @@ Truy cập vào đường link [https://mydhl.express.dhl/vn/vi/tracking.html#/t
 
 ### Bước 6: Hoàn thành tiếp yêu cầu từ hải quan (nếu có)
 
-Hiệp tại thì mình chưa nhận thêm yêu cầu nào phía hải quan.
-
----
-
-Chúc bạn cập nhật thông tin thành công và chờ hàng về tay!!!
+Hiệp tại thì mình chưa nhận thêm yêu cầu nào phía hải quan. Chúc bạn cập nhật thông tin thành công và chờ hàng về tay!!!
 
 ## Quảng cáo: Extension hỗ trợ làm **Google Cloud Arcade**
 
