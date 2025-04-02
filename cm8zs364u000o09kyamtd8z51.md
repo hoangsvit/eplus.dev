@@ -56,7 +56,7 @@ Xem chi tiết order và chụp lại toàn bộ thông tin order (khuyến khí
 
 * Upload file chụp màn hình vào mục **Bằng chứng thanh toán**
     
-* Tên hàng điền theo nội dung bên dưới: (*tên hàng có thể chỉnh lại theo tên quà tặng mà bạn nhận được*)
+* Tên hàng điền theo nội dung bên dưới: (*tên hàng và công dụng có thể chỉnh lại theo tên quà tặng mà bạn nhận được*)
     
     ```plaintext
     1. Tên hàng: Bộ quà tặng Arcade nhà vô địch 
