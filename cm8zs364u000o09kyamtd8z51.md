@@ -137,7 +137,7 @@ Liệt kê thêm thông tin và đính kèm thêm link cho chắc nhé.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743655427968/b46a9713-2788-460d-8f1a-08c06bb3747b.png align="center")
 
-**<mark>16:09 - 03/04/2025</mark> - vẫn đang xử lý thông quan**
+**<mark>16:09 - 03/04/2025</mark> - DHL cung cấp thêm thông tin về quy trình thông quan**
 
 Yêu cầu xử lý thông quan mậu dịch và **DHL** sẽ tiến hành nộp tờ khai thông quan mậu dịch.
 
