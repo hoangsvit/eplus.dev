@@ -137,6 +137,12 @@ Liệt kê thêm thông tin và đính kèm thêm link cho chắc nhé.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743655427968/b46a9713-2788-460d-8f1a-08c06bb3747b.png align="center")
 
+**<mark>16:09 - 03/04/2025</mark> - vẫn đang xử lý thông quan**
+
+Yêu cầu xử lý thông quan mậu dịch và **DHL** sẽ tiến hành nộp tờ khai thông quan mậu dịch.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743671332768/10d036fe-77f4-4d71-b17d-dedd31345678.png align="center")
+
 Minh vẫn đang tiếp tục cập nhật….
 
 ## Quảng cáo: Extension hỗ trợ làm **Google Cloud Arcade**
