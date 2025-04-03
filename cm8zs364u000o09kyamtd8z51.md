@@ -87,7 +87,7 @@ Truy cập vào đường link [https://mydhl.express.dhl/vn/vi/tracking.html#/t
 
 ### Bước 6: Hoàn thành tiếp yêu cầu từ hải quan (nếu có)
 
-**7h30 DHL yêu cầu cập nhật thêm thông tin về sản phẩm**
+**<mark>07:30 - 03/04/2025</mark> - DHL yêu cầu cập nhật thêm thông tin về sản phẩm**
 
 Bạn liệt kệ những sản phẩm có trong gói hàng bằng **Tiếng Việt** nhé. (mở trang đổi quà hoặc xem trong Invoice từ người gửi để dịch)
 
@@ -111,11 +111,14 @@ Tất cả đều mang nhãn hiệu: Whitesquare International
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743654928124/ae36d0c7-c6a3-4bfe-beb6-cc0f640e8f14.jpeg align="center")
 
-**8h27 DHL yêu cầu thêm thông tin về 2 sản phẩm**
+**<mark>08:27 - 03/04/2025</mark> - DHL yêu cầu thêm thông tin về 2 sản phẩm**
 
 Liệt kê thêm thông tin và đính kèm thêm link cho chắc nhé.
 
-Lý do tại sao mình không đính kèm link ở lần yêu cầu đầu tiên, do là ô nhập chỉ nhập được 500 kí tự.
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text"><strong>Lý do</strong> tại sao mình không đính kèm link ở lần yêu cầu đầu tiên, do là ô nhập chỉ nhập được 500 kí tự.</div>
+</div>
 
 ```plaintext
 1. Bộ dụng cụ làm sạch 8 trong 1 có nạp lại: Gồm 1 cọ 8 chức năng, để vệ sinh laptop, điện thoại, .v.v. 
@@ -126,11 +129,11 @@ Lý do tại sao mình không đính kèm link ở lần yêu cầu đầu tiên
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743655116880/bd67b271-9441-444e-8bca-329015552bc9.jpeg align="center")
 
-**8h48 đơn hàng cập kho HCM - Việt Nam**
+**<mark>08:48 - 03/04/2025</mark> - đơn hàng cập kho HCM - Việt Nam**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743655326423/947463c9-5524-4481-8402-e5b550a6991e.jpeg align="center")
 
-**Update đến 11:41 vẫn đang xử lý thông quan**
+**<mark>11:41 - 03/04/2025</mark> - vẫn đang xử lý thông quan**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743655427968/b46a9713-2788-460d-8f1a-08c06bb3747b.png align="center")
 
