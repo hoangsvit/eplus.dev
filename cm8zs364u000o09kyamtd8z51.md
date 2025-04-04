@@ -143,6 +143,12 @@ Yêu cầu xử lý thông quan mậu dịch và **DHL** sẽ tiến hành nộp
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743671332768/10d036fe-77f4-4d71-b17d-dedd31345678.png align="center")
 
+**<mark>14:29 - 04/04/2025</mark> - DHL cung cấp thêm thông tin về quy trình thông quan**
+
+Yêu cầu thông quan khác với hình thức thông quan tiêu chuẩn cho lô hàng này.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743751936850/49efd156-02d7-4162-b681-cefc6e8ec064.png align="center")
+
 Minh vẫn đang tiếp tục cập nhật….
 
 ## Quảng cáo: Extension hỗ trợ làm **Google Cloud Arcade**
