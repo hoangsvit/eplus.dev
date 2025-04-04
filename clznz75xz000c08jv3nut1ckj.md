@@ -303,4 +303,6 @@ Now that you’ve successfully tested your app, you can delete it, marking the c
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=bibIUK5Yfmo]
+%[https://www.youtube.com/watch?v=bibIUK5Yfmo] 
+
+**Download file:** [<mark>quicklabs.xlsx</mark>](https://github.com/quiccklabs/Labs_solutions/blob/a4771b05c7e1149eac66b30b4b741c563bc2481c/Develop%20No-Code%20Chat%20Apps%20with%20AppSheet/quicklabs.xlsx)
