@@ -149,6 +149,20 @@ Yêu cầu thông quan khác với hình thức thông quan tiêu chuẩn cho l�
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743751936850/49efd156-02d7-4162-b681-cefc6e8ec064.png align="center")
 
+<mark>11:34 05/04/2025:</mark> Gặp trục trặc về thông quan, bên Hải Quan không đồng ý với mức giá mà bên **Whitesquare Internal** khi trên tời khai hải quan, nên phía Hải quan đòi tính thuế trên giá mà bên hải quan tìm được ([xem tại đây](https://github.com/ePlus-DEV/storage/blob/main/swags/google/csg-0129.pdf)).
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744084218251/ee8c9acc-1bee-4f01-a4f8-a73f42ef78c0.png align="center")
+
+Mình không đồng ý là đã liên lạc với bên **Whitesquare Internal** và bên đó có phản hồi như sau.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744084986851/4370c6e6-8a81-4c57-9e99-6d43fb5a575c.png align="center")
+
+Sau đó mình có chuyển tiếp email này cho bên DHL.
+
+<mark>10:06 08/2025:</mark> bên phía DHL có phản hồi sau kỳ nghỉ lễ, và mình đồng ý thanh toán khoản tiền thuế 18k VNĐ
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744085077018/47ed5203-9378-46b5-8119-11096380e9aa.png align="center")
+
 Minh vẫn đang tiếp tục cập nhật….
 
 ## Quảng cáo: Extension hỗ trợ làm **Google Cloud Arcade**
