@@ -156,6 +156,20 @@ Click **Check my progress** to verify the objective.
 
 ## Solution of Lab
 
+%[https://youtu.be/_eIKXbrgye4] 
+
+---
+
+```apache
+curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/%5BForm%204%5D%20Secure%20Data%20Lake%20on%20Cloud%20Storage%20-%20Challenge%20Lab/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
+```
+
+---
+
+### Solution alternative
+
 %[https://www.youtube.com/watch?v=PbIfliCwHQw&ab_channel=Techcps] 
 
 ```apache
