@@ -171,6 +171,8 @@ Sau đó mình có chuyển tiếp email này cho bên DHL.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744361058857/2fe1657b-267d-4a6b-8c22-7930ce3f2411.png align="center")
 
+### Bước 7: Nhận hàng
+
 <mark>14:42 - 11/04/2025</mark> - Nhận được đơn hàng và không phải tốn bất cứ chi phí nào
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744361226759/c1a01fb3-b195-44a5-8230-6eb2adb5802a.png align="center")
