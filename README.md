@@ -3,21 +3,21 @@
 ### #Blog posts
 
 <!-- BLOG-POST-LIST:START -->
- - 🧰 [SePay x VPBank: Chính thức hợp tác](https://eplus.dev/sepay-x-vpbank-chinh-thuc-hop-tac) - 2025-02-24
- - 😺 [Introduction to BigQuery SQL translation &lpar;Solution&rpar;](https://eplus.dev/introduction-to-bigquery-sql-translation-solution) - 2025-02-24
- - 🗽 [Implement Load Balancing on Compute Engine: Challenge Lab - GSP313](https://eplus.dev/implement-load-balancing-on-compute-engine-challenge-lab-gsp313) - 2025-02-24
- - 🌜 [Reinforcement Learning: Qwik Start - GSP691](https://eplus.dev/reinforcement-learning-qwik-start-gsp691) - 2025-02-23
- - 📝 [&lpar;2025&rpar; Cloud Natural Language API: Qwik Start - GSP097](https://eplus.dev/2025-cloud-natural-language-api-qwik-start-gsp097) - 2025-02-23
- - 🚀 [Build Apps with Gemini Code Assist &lpar;Solution&rpar;](https://eplus.dev/build-apps-with-gemini-code-assist-solution) - 2025-02-23
- - 💼 [Reduce Costs for the Managed Service for Prometheus - GSP1027](https://eplus.dev/reduce-costs-for-the-managed-service-for-prometheus-gsp1027) - 2025-02-23
- - 🦣 [Deploy and query Google Agentspace &lpar;Solution&rpar;](https://eplus.dev/deploy-and-query-google-agentspace-solution) - 2025-02-23
- - 👨‍🏫 [Securing Container Builds - GSP1185](https://eplus.dev/securing-container-builds-gsp1185) - 2025-02-22
- - 🔭 [Load Balancing and Auto scaling - Challenge Lab &lpar;Solution&rpar;](https://eplus.dev/load-balancing-and-auto-scaling-challenge-lab-solution) - 2025-02-22
- - 🤡 [Gating Deployments with Binary Authorization - GSP1183](https://eplus.dev/gating-deployments-with-binary-authorization-gsp1183) - 2025-02-22
- - 💡 [Running Databases in GKE &lpar;Solution&rpar;](https://eplus.dev/running-databases-in-gke-solution) - 2025-02-22
- - 🦣 [Deploying GKE Autopilot Clusters from Cloud Shell &lpar;Solution&rpar;](https://eplus.dev/deploying-gke-autopilot-clusters-from-cloud-shell-solution) - 2025-02-22
- - 💪 [Deploying GKE Autopilot Clusters &lpar;Solution&rpar;](https://eplus.dev/deploying-gke-autopilot-clusters-solution) - 2025-02-22
- - 🤡 [Secure Builds with Cloud Build - GSP1184](https://eplus.dev/secure-builds-with-cloud-build-gsp1184) - 2025-02-22<!-- BLOG-POST-LIST:END -->
+ - 🧰 [[2025] Cloud Monitoring: Qwik Start - GSP089](https://eplus.dev/2025-cloud-monitoring-qwik-start-gsp089) - 2025-04-10
+ - 😺 [Optimizing Cost with Google Cloud Storage - GSP649](https://eplus.dev/optimizing-cost-with-google-cloud-storage-gsp649) - 2025-04-10
+ - 🗽 [Ingesting HL7v2 Data with the Healthcare API - GSP628](https://eplus.dev/ingesting-hl7v2-data-with-the-healthcare-api-gsp628) - 2025-04-10
+ - 🌜 [Ingesting FHIR Data with the Healthcare API - GSP457](https://eplus.dev/ingesting-fhir-data-with-the-healthcare-api-gsp457) - 2025-04-10
+ - 📝 [Skills Boost Arcade Trivia April 2025 Week 2 &lpar;Solution&rpar;](https://eplus.dev/skills-boost-arcade-trivia-april-2025-week-2-solution) - 2025-04-09
+ - 🚀 [Cloud Spanner - Database Fundamentals - GSP1048](https://eplus.dev/cloud-spanner-database-fundamentals-gsp1048) - 2025-04-09
+ - 💼 [Weather Data in BigQuery - GSP009](https://eplus.dev/weather-data-in-bigquery-gsp009) - 2025-04-04
+ - 🦣 [Managing Google Classroom - GSP981](https://eplus.dev/managing-google-classroom-gsp981) - 2025-04-04
+ - 👨‍🏫 [Measuring and Improving Speech Accuracy - GSP758](https://eplus.dev/measuring-and-improving-speech-accuracy-gsp758) - 2025-04-04
+ - 🔭 [[2025] Create a Virtual Machine - GSP001](https://eplus.dev/2025-create-a-virtual-machine-gsp001) - 2025-04-04
+ - 🤡 [Use APIs to Work with Cloud Storage: Challenge Lab - ARC125](https://eplus.dev/use-apis-to-work-with-cloud-storage-challenge-lab-arc125) - 2025-04-03
+ - 💡 [Cloud Speech API 3 Ways: Challenge Lab - ARC132](https://eplus.dev/cloud-speech-api-3-ways-challenge-lab-arc132) - 2025-04-03
+ - 🦣 [A Tour of Google Cloud Hands-on Labs - GSP282](https://eplus.dev/a-tour-of-google-cloud-hands-on-labs-gsp282) - 2025-04-03
+ - 💪 [Congratulations, you&#39;re now enrolled in the Google Cloud Arcade Facilitator Program 2025](https://eplus.dev/congratulations-youre-now-enrolled-in-the-google-cloud-arcade-facilitator-program-2025) - 2025-04-03
+ - 🤡 [Hướng dẫn khai hải quan hàng quà tặng từ Google Cloud Arcade](https://eplus.dev/huong-dan-khai-hai-quan-hang-qua-tang-tu-google-cloud-arcade) - 2025-04-02<!-- BLOG-POST-LIST:END -->
 
 <div align="right">
   Update by <a target="_blank"
