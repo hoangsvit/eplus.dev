@@ -177,6 +177,8 @@ Sau đó mình có chuyển tiếp email này cho bên DHL.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744361226759/c1a01fb3-b195-44a5-8230-6eb2adb5802a.png align="center")
 
+%[https://youtu.be/7oXFJLFuXqU] 
+
 ## Quảng cáo: Extension hỗ trợ làm **Google Cloud Arcade**
 
 Hỗ trợ Chrome, Firefox, Edge, Opera, .v.v
