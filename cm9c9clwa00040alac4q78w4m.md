@@ -51,7 +51,7 @@ P.S. You don't need the GCP Console for this, but you do need to keep this quiz 
     
     * Storage Object Admin
         
-    * Storage Object Viewer
+    * <mark>Storage Object Viewer</mark>
         
     * Storage Object Writer
         
