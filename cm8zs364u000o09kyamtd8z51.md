@@ -163,7 +163,17 @@ Sau đó mình có chuyển tiếp email này cho bên DHL.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744085077018/47ed5203-9378-46b5-8119-11096380e9aa.png align="center")
 
-Minh vẫn đang tiếp tục cập nhật….
+<mark>11:28 - 11/04/2025</mark> - Đơn hàng hoàn tất thông quan
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744361008055/3e2f76c5-d126-4acc-b583-e648b3747523.png align="center")
+
+<mark>13:41 - 11/04/2025</mark> - Đơn hàng đang được giao
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744361058857/2fe1657b-267d-4a6b-8c22-7930ce3f2411.png align="center")
+
+<mark>14:42 - 11/04/2025</mark> - Nhận được đơn hàng và không phải tốn bất cứ chi phí nào
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744361226759/c1a01fb3-b195-44a5-8230-6eb2adb5802a.png align="center")
 
 ## Quảng cáo: Extension hỗ trợ làm **Google Cloud Arcade**
 
