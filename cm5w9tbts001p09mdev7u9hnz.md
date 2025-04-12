@@ -310,7 +310,7 @@ Which of the following runtimes for GO are supported in App Engine standard envi
 %[https://www.youtube.com/watch?v=3cVxYis4Hj8&ab_channel=QUICKGCPLAB] 
 
 ```apache
-export REGION=us-east4
+export REGION=
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1736846546069/4a12025e-c513-49a1-8c8c-aee34fbf70ba.png align="center")
