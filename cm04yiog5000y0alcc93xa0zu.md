@@ -56,9 +56,6 @@ To complete this lab, you need:
 
 ![5ce916afc496a60c.jpeg](https://cdn.qwiklabs.com/vD5d2kq0fYY215r0BLo9RmTh4zTLR4MhcoSR6uueqtU%3D align="left")
 
-  
-  
-
 Cymbal Bank is an American retail bank with over 2,000 branches in all 50 states. It offers comprehensive debit and credit services that are built on top of a robust payments platform. Cymbal Bank is a digitally transforming legacy financial services institution.
 
 Cymbal Bank was founded in 1920 under the name Troxler. Cymbal Group acquired the company in 1975 after it had been investing heavily in Cymbal Group's proprietary ATMs. As the bank grew into a national leader, they put strategic emphasis on modernizing the customer experience both in-person at their branches and digitally through an app they released in 2014. Cymbal Bank employs 42,000 people nationwide and, in 2019, reported $24 billion in revenue.
@@ -151,9 +148,6 @@ A Cymbal Bank corporate banking portal with a web form should appear.
 
 ![Cymbal Bank web page](https://cdn.qwiklabs.com/9vSrMXfQfNu9itYc0eLgXa0NoEm4KPQlDlmZUWJco4k%3D align="left")
 
-  
-  
-
 For this task, run a Web Security scan against this application's URL (with port 8080).
 
 Click **Check my progress** to verify the objective.
@@ -189,6 +183,14 @@ Export Cymbal Bank Findings to Google Cloud Storage
 ---
 
 ## Solution of Lab
+
+### Quick
+
+%[https://eplus.dev/2025-mitigate-threats-and-vulnerabilities-with-security-command-center-challenge-lab-gsp382#heading-solution-of-lab] 
+
+---
+
+### Manual
 
 %[https://www.youtube.com/watch?v=xcSscQiJOps] 
 
