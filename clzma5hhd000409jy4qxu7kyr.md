@@ -5,9 +5,9 @@ seoDescription: "Cloud Storage allows world-wide storage and retrieval of any am
 datePublished: Fri Aug 09 2024 05:42:15 GMT+0000 (Coordinated Universal Time)
 cuid: clzma5hhd000409jy4qxu7kyr
 slug: cloud-storage-qwik-start-cloud-console-gsp073
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723182088145/aca2d6ce-024b-4f5d-bc39-7b55d4f924a7.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723182121329/c5170192-c9bb-4c59-8c4f-6a2fd9ae3646.png
-tags: cloud-storage-qwik-start-cloud-console-gsp073
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744620711031/d7f5c6b9-8cc2-4ca8-9dcb-47c6c2e7eed0.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744620718612/42399f96-1421-4211-9980-f33282318191.png
+tags: cloud-storage-qwik-start-cloud-console, cloud-storage-qwik-start-cloud-console-gsp073, gsp073
 
 ---
 
