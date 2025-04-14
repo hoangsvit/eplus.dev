@@ -6,7 +6,7 @@ datePublished: Tue Aug 06 2024 14:22:43 GMT+0000 (Coordinated Universal Time)
 cuid: clziif90a000l09mm2ejx8syn
 slug: speech-to-text-api-qwik-start-gsp119
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744618332193/716134d7-046a-4032-9af4-d8c5b73ea968.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722954155655/6f660fc8-fdae-4660-9352-b7f4ce335848.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744618797150/d8863459-c116-4093-9120-1bc33b044dd1.png
 tags: speech-to-text-api-qwik-start-gsp119
 
 ---
