@@ -53,9 +53,9 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [Get Started with Cloud Storage](https://www.cloudskillsboost.google/course_templates/725?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
-* [<mark>Use APIs to Work with Cloud Storage</mark>](https://www.cloudskillsboost.google/course_templates/755?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 4 credits)</mark>
+* [Use APIs to Work with Cloud Storage](https://www.cloudskillsboost.google/course_templates/755?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
-* [Create a Streaming Data Lake on Cloud Storage](https://www.cloudskillsboost.google/course_templates/705?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 3 credits)
+* [<mark>Create a Streaming Data Lake on Cloud Storage</mark>](https://www.cloudskillsboost.google/course_templates/705?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 3 credits)</mark>
     
 * [App Engine: 3 Ways](https://www.cloudskillsboost.google/course_templates/671?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
