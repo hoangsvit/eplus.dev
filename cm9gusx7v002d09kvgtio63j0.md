@@ -228,7 +228,7 @@ Verify the thumbnail was successfully created by the Cloud Run function
 
 ## Solution of Lab
 
-%[https://youtu.be/Fq8TYvpkJ4Q] 
+%[https://youtu.be/rvWq6ay9yjc] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Store%2C%20Process%2C%20and%20Manage%20Data%20on%20Google%20Cloud%20Challenge%20Lab/arcadecrew.sh
