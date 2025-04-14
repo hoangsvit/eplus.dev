@@ -55,7 +55,7 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [Use APIs to Work with Cloud Storage](https://www.cloudskillsboost.google/course_templates/755?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
-* [<mark>Create a Streaming Data Lake on Cloud Storage</mark>](https://www.cloudskillsboost.google/course_templates/705?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 3 credits)</mark>
+* [Create a Streaming Data Lake on Cloud Storage](https://www.cloudskillsboost.google/course_templates/705?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 3 credits)
     
 * [App Engine: 3 Ways](https://www.cloudskillsboost.google/course_templates/671?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
@@ -63,7 +63,7 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [Cloud Speech API: 3 Ways](https://www.cloudskillsboost.google/course_templates/700?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
-* [Using the Google Cloud Speech API](https://www.cloudskillsboost.google/course_templates/756?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
+* [<mark>Using the Google Cloud Speech API</mark>](https://www.cloudskillsboost.google/course_templates/756?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 4 credits)</mark>
     
 * [Analyze Speech and Language with Google APIs](https://www.cloudskillsboost.google/course_templates/634?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 1 credits)
     
