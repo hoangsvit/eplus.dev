@@ -35,7 +35,7 @@ Hence, in a single cohort of 2 months under the Facilitator Program, you can ear
 
 **You can complete any of the skill badges** **that are part of** [**our catalog here**](https://www.cloudskillsboost.google/catalog?keywords=&locale=&skill-badge%5B%5D=skill-badge&format%5B%5D=any&language%5B%5D=any) to earn "Arcade Points". To help you easily navigate this list, we have added a few skill badges for you below that you can choose from based on what **level of difficulty** you are looking for.
 
-Also, we understand that with the **new DAILY lab-limit** your learning journey might hit a pause. Thus we are **introducing** **"Lab-free Courses"** for the first time in the Arcade Facilitator program for you to explore until your daily limit replenishes. You will find these badges in each of the difficulty levels below and completing these will contribute to your milestones. 🎉 
+Also, we understand that with the **new DAILY lab-limit** your learning journey might hit a pause. Thus we are **introducing** **"Lab-free Courses"** for the first time in the Arcade Facilitator program for you to explore until your daily limit replenishes. You will find these badges in each of the difficulty levels below and completing these will contribute to your milestones. 🎉
 
 We will keep updating this list with new skill badges/lab-free courses for you to explore.
 
@@ -53,7 +53,7 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [Get Started with Cloud Storage](https://www.cloudskillsboost.google/course_templates/725?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
-* [Use APIs to Work with Cloud Storage](https://www.cloudskillsboost.google/course_templates/755?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
+* [<mark>Use APIs to Work with Cloud Storage</mark>](https://www.cloudskillsboost.google/course_templates/755?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 4 credits)</mark>
     
 * [Create a Streaming Data Lake on Cloud Storage](https://www.cloudskillsboost.google/course_templates/705?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 3 credits)
     
