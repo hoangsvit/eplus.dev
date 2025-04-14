@@ -63,7 +63,7 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [Cloud Speech API: 3 Ways](https://www.cloudskillsboost.google/course_templates/700?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
-* [<mark>Using the Google Cloud Speech API</mark>](https://www.cloudskillsboost.google/course_templates/756?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 4 credits)</mark>
+* [Using the Google Cloud Speech API](https://www.cloudskillsboost.google/course_templates/756?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
 * [Analyze Speech and Language with Google APIs](https://www.cloudskillsboost.google/course_templates/634?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 1 credits)
     
@@ -86,7 +86,7 @@ We will keep updating this list with new skill badges/lab-free courses for you t
 
 ## Intermediate: Dive Deeper into Google Cloud (15 Skill Badges & 6 Lab-free Courses)
 
-* [Build Real World AI Applications with Gemini and Imagen](https://www.cloudskillsboost.google/course_templates/1076?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 0 credits)
+* [<mark>Build Real World AI Applications with Gemini and Imagen</mark>](https://www.cloudskillsboost.google/course_templates/1076?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 0 credits)</mark>
     
 * [Get Started with Google Workspace Tools](https://www.cloudskillsboost.google/course_templates/676?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (7 labs & 0 credits)
     
