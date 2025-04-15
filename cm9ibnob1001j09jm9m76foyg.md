@@ -433,3 +433,9 @@ export REGION_3=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744710579431/05dce8ef-c2d4-48ea-8a02-10873659291e.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744710544089/882d8e78-cf39-4aba-9268-2f205ddadc31.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Networking%20101/spequicklabgsp016.sh
+sudo chmod +x spequicklabgsp016.sh
+./spequicklabgsp016.sh
+```
