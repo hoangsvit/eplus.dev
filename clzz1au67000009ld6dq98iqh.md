@@ -5,9 +5,9 @@ seoDescription: "Google Cloud's Identity and Access Management (IAM) service let
 datePublished: Sun Aug 18 2024 03:55:29 GMT+0000 (Coordinated Universal Time)
 cuid: clzz1au67000009ld6dq98iqh
 slug: cloud-iam-qwik-start-gsp064
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723953172195/a7bc77d3-35bf-486f-a8f6-f237b8b3976b.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744698374418/fba4d869-1adf-4509-a8db-df42e83920e5.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723953310254/088ee4c2-c3a1-4cb1-8e89-34f2674803ee.png
-tags: cloud-iam-qwik-start-gsp064
+tags: cloud-iam-qwik-start-gsp064, gsp064, cloud-iam-qwik-start
 
 ---
 
