@@ -188,7 +188,7 @@ Create and publish an Apps Script chat bot
 
 %[https://youtu.be/XZ5zNQ2Fk88] 
 
-## **📝 Task 1: Create and customize an AppSheet app**
+### **📝 Task 1: Create and customize an AppSheet app**
 
 1. **Login** to **AppSheet**.
     
@@ -209,7 +209,7 @@ Create and publish an Apps Script chat bot
 
 ---
 
-## **⚙️ Task 2: Add an automation to an AppSheet app**
+### **⚙️ Task 2: Add an automation to an AppSheet app**
 
 1. Open **My Drive** from [**this link**](https://drive.google.com/drive/my-drive).
     
@@ -218,7 +218,7 @@ Create and publish an Apps Script chat bot
 
 ---
 
-## **🤖 Task 3: Creating and Publishing a Google Chat Bot with Apps Script**
+### **🤖 Task 3: Creating and Publishing a Google Chat Bot with Apps Script**
 
 1. Start a new **Apps Script Chat App** project from [**this link**](https://script.google.com/home/projects/create?template=hangoutsChat).
     
@@ -283,7 +283,7 @@ function onRemoveFromSpace(event) {
 
 ---
 
-## **🔧 Configuring OAuth Consent Screen**
+### **🔧 Configuring OAuth Consent Screen**
 
 1. Navigate to the **OAuth consent screen** using [**this link**](https://console.cloud.google.com/apis/credentials/consent).
     
@@ -300,7 +300,7 @@ function onRemoveFromSpace(event) {
 
 ---
 
-## **🛠️ Setting Up Google Chat API**
+### **🛠️ Setting Up Google Chat API**
 
 1. Visit the **Google Chat API Configuration** page [**here**](https://console.cloud.google.com/apis/api/chat.googleapis.com/hangouts-chat).
     
@@ -319,6 +319,6 @@ function onRemoveFromSpace(event) {
 
 ---
 
-## **🧪 Testing Your Helper Bot**
+### **🧪 Testing Your Helper Bot**
 
 You can test your newly created bot directly in Google Chat [**here**](https://mail.google.com/chat/u/0/#chat/home).
