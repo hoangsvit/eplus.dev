@@ -102,11 +102,11 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [Create a Secure Data Lake on Cloud Storage](https://www.cloudskillsboost.google/course_templates/704?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
-* [<mark>Secure BigLake Data</mark>](https://www.cloudskillsboost.google/course_templates/751?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 4 credits)</mark>
+* [Secure BigLake Data](https://www.cloudskillsboost.google/course_templates/751?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
 * [Tag and Discover BigLake Data](https://www.cloudskillsboost.google/course_templates/753?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 3 credits)
     
-* [Monitor and Manage Google Cloud Resources](https://www.cloudskillsboost.google/course_templates/653?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
+* [<mark>Monitor and Manage Google Cloud Resources</mark>](https://www.cloudskillsboost.google/course_templates/653?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 4 credits)</mark>
     
 * [Monitoring in Google Cloud](https://www.cloudskillsboost.google/course_templates/747?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
