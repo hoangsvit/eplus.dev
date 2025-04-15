@@ -86,13 +86,13 @@ We will keep updating this list with new skill badges/lab-free courses for you t
 
 ## Intermediate: Dive Deeper into Google Cloud (15 Skill Badges & 6 Lab-free Courses)
 
-* [<mark>Build Real World AI Applications with Gemini and Imagen</mark>](https://www.cloudskillsboost.google/course_templates/1076?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 0 credits)</mark>
+* [Build Real World AI Applications with Gemini and Imagen](https://www.cloudskillsboost.google/course_templates/1076?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 0 credits)
     
 * [Get Started with Google Workspace Tools](https://www.cloudskillsboost.google/course_templates/676?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (7 labs & 0 credits)
     
 * [App Building with AppSheet](https://www.cloudskillsboost.google/course_templates/635?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 0 credits)
     
-* [Develop with Apps Script and AppSheet](https://www.cloudskillsboost.google/course_templates/715?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 7 credits)
+* [<mark>Develop with Apps Script and AppSheet</mark>](https://www.cloudskillsboost.google/course_templates/715?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 7 credits)</mark>
     
 * [Analyze BigQuery Data in Connected Sheets](https://www.cloudskillsboost.google/course_templates/632?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 0 credits)
     
