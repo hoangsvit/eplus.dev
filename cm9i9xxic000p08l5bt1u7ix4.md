@@ -191,3 +191,10 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/h
 sudo chmod +x gsp338.sh
 ./gsp338.sh
 ```
+
+* Type or paste **input\_queue\_size**
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744709018694/a17cd6d5-0fac-4392-a2bc-ec8459802840.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744709271773/c331878f-3a99-4084-bc99-044acb494ba5.png align="center")
