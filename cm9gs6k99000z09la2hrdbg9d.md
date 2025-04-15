@@ -110,11 +110,11 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [Monitoring in Google Cloud](https://www.cloudskillsboost.google/course_templates/747?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
-* [<mark>Monitor and Log with Google Cloud Observability</mark>](https://www.cloudskillsboost.google/course_templates/749?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (5 labs &amp; 9 credits)</mark>
+* [Monitor and Log with Google Cloud Observability](https://www.cloudskillsboost.google/course_templates/749?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (5 labs & 9 credits)
     
 * [Networking Fundamentals on Google Cloud](https://www.cloudskillsboost.google/course_templates/748?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
-* [Set Up a Google Cloud Network](https://www.cloudskillsboost.google/course_templates/641?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 8 credits)
+* [<mark>Set Up a Google Cloud Network</mark>](https://www.cloudskillsboost.google/course_templates/641?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 8 credits)</mark>
     
 * **\[Lab-free\]** [Google Drive](https://www.cloudskillsboost.google/course_templates/199?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
     
