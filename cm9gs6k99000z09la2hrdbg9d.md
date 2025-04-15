@@ -153,7 +153,7 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [Manage Data Models in Looker](https://www.cloudskillsboost.google/course_templates/651?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (6 labs & 0 credits)
     
-* [Prepare Data for Looker Dashboards and Reports](https://www.cloudskillsboost.google/course_templates/628?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (5 labs & 0 credits)
+* [<mark>Prepare Data for Looker Dashboards and Reports</mark>](https://www.cloudskillsboost.google/course_templates/628?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (5 labs &amp; 0 credits)</mark>
     
 * [Develop Serverless Apps with Firebase](https://www.cloudskillsboost.google/course_templates/649?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 16 credits)
     
