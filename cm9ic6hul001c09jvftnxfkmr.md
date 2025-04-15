@@ -260,7 +260,7 @@ ping -c 3 <us-test-02-external-ip-address>
 
 You can locate the external IP of your virtual machines in the Compute Engine browser tab under the External IP field.
 
-**Note:**Your IP addresses will differ from the picture.
+\*\*Note:\*\*Your IP addresses will differ from the picture.
 
 4. Run this command to use an ICMP echo against `us-test-03`, adding the external IP address for the VM in-line:
     
@@ -508,3 +508,5 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/h
 sudo chmod +x *.sh
 ./*.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744711804908/b450b720-4c9d-4f80-b007-030aa70c9c93.png align="center")
