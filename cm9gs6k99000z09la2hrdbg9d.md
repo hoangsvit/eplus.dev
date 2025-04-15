@@ -118,11 +118,11 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * **\[Lab-free\]** [Google Drive](https://www.cloudskillsboost.google/course_templates/199?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
     
-* **<mark>[Lab-free]</mark>** [<mark>Google Docs</mark>](https://www.cloudskillsboost.google/course_templates/195?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (0 labs &amp; 0 credits)</mark>
+* **\[Lab-free\]** [Google Docs](https://www.cloudskillsboost.google/course_templates/195?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
     
 * **\[Lab-free\]** [Google Slides](https://www.cloudskillsboost.google/course_templates/197?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
     
-* **\[Lab-free\]** [Google Meet](https://www.cloudskillsboost.google/course_templates/198?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
+* **<mark>[Lab-free]</mark>** [<mark>Google Meet</mark>](https://www.cloudskillsboost.google/course_templates/198?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (0 labs &amp; 0 credits)</mark>
     
 * **\[Lab-free\]** [Google Sheets](https://www.cloudskillsboost.google/course_templates/196?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
     
