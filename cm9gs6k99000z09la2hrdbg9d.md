@@ -92,9 +92,9 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [App Building with AppSheet](https://www.cloudskillsboost.google/course_templates/635?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 0 credits)
     
-* [<mark>Develop with Apps Script and AppSheet</mark>](https://www.cloudskillsboost.google/course_templates/715?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 7 credits)</mark>
+* [Develop with Apps Script and AppSheet](https://www.cloudskillsboost.google/course_templates/715?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 7 credits)
     
-* [Analyze BigQuery Data in Connected Sheets](https://www.cloudskillsboost.google/course_templates/632?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 0 credits)
+* [<mark>Analyze BigQuery Data in Connected Sheets</mark>](https://www.cloudskillsboost.google/course_templates/632?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 0 credits)</mark>
     
 * [Use Functions, Formulas, and Charts in Google Sheets](https://www.cloudskillsboost.google/course_templates/776?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (6 labs & 0 credits)
     
