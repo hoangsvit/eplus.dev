@@ -98,11 +98,11 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [Use Functions, Formulas, and Charts in Google Sheets](https://www.cloudskillsboost.google/course_templates/776?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (6 labs & 0 credits)
     
-* [<mark>Streaming Analytics into BigQuery</mark>](https://www.cloudskillsboost.google/course_templates/752?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 2 credits)</mark>
+* [Streaming Analytics into BigQuery](https://www.cloudskillsboost.google/course_templates/752?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 2 credits)
     
 * [Create a Secure Data Lake on Cloud Storage](https://www.cloudskillsboost.google/course_templates/704?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
-* [Secure BigLake Data](https://www.cloudskillsboost.google/course_templates/751?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
+* [<mark>Secure BigLake Data</mark>](https://www.cloudskillsboost.google/course_templates/751?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 4 credits)</mark>
     
 * [Tag and Discover BigLake Data](https://www.cloudskillsboost.google/course_templates/753?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 3 credits)
     
