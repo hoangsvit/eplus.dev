@@ -106,11 +106,11 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [Tag and Discover BigLake Data](https://www.cloudskillsboost.google/course_templates/753?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 3 credits)
     
-* [<mark>Monitor and Manage Google Cloud Resources</mark>](https://www.cloudskillsboost.google/course_templates/653?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (4 labs &amp; 4 credits)</mark>
+* [Monitor and Manage Google Cloud Resources](https://www.cloudskillsboost.google/course_templates/653?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
 * [Monitoring in Google Cloud](https://www.cloudskillsboost.google/course_templates/747?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
-* [Monitor and Log with Google Cloud Observability](https://www.cloudskillsboost.google/course_templates/749?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (5 labs & 9 credits)
+* [<mark>Monitor and Log with Google Cloud Observability</mark>](https://www.cloudskillsboost.google/course_templates/749?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (5 labs &amp; 9 credits)</mark>
     
 * [Networking Fundamentals on Google Cloud](https://www.cloudskillsboost.google/course_templates/748?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
