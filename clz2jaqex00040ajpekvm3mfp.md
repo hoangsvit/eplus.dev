@@ -6,8 +6,8 @@ datePublished: Fri Jul 26 2024 10:02:53 GMT+0000 (Coordinated Universal Time)
 cuid: clz2jaqex00040ajpekvm3mfp
 slug: cloud-scheduler-qwik-start-gsp401
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721987969983/7469370e-56b6-4fdb-9579-d7cb5242bda8.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721988155883/560b6537-d81f-4d52-80a8-62e080789f94.png
-tags: cloud-scheduler-qwik-start-gsp401
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744776394872/33ce2b30-caed-48b6-b343-be8a81696f67.png
+tags: cloud-scheduler-qwik-start-gsp401, gsp401, cloud-scheduler-qwik-start
 
 ---
 
@@ -151,7 +151,7 @@ You can trigger an App Engine app, send a message via Cloud Pub/Sub, or hit an a
 %[https://www.youtube.com/watch?v=amb3jDRlYZs&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
 ```powershell
-cloud services enable cloudscheduler.googleapis.com
-gcloud pubsub topics create cron-topic
-gcloud pubsub subscriptions create cron-sub --topic cron-topic
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP401/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
 ```
