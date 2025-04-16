@@ -191,4 +191,21 @@ Visualize Dimensions and Measures
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=_mxceD2TSMQ&ab_channel=TechVine]
+%[https://youtu.be/gAN_Y4qsQUQ] 
+
+### **faa.model file**
+
+```apache
+explore: +airports {
+    query: ArcadeCrew1 {
+      measures: [average_elevation]
+    }
+  }
+  
+  explore: +airports {
+    query: ArcadeCrew2 {
+      dimensions: [facility_type]
+      measures: [average_elevation, count]
+    }
+  }
+```
