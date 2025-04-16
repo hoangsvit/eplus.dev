@@ -5,7 +5,7 @@ seoDescription: "Cloud Scheduler lets you set up scheduled units of work to be e
 datePublished: Fri Jul 26 2024 10:02:53 GMT+0000 (Coordinated Universal Time)
 cuid: clz2jaqex00040ajpekvm3mfp
 slug: cloud-scheduler-qwik-start-gsp401
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721987969983/7469370e-56b6-4fdb-9579-d7cb5242bda8.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744776418676/4135121e-da44-405e-8eca-122a6dd471da.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744776394872/33ce2b30-caed-48b6-b343-be8a81696f67.png
 tags: cloud-scheduler-qwik-start-gsp401, gsp401, cloud-scheduler-qwik-start
 
