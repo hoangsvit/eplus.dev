@@ -122,7 +122,7 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * **\[Lab-free\]** [Google Slides](https://www.cloudskillsboost.google/course_templates/197?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
     
-* **<mark>[Lab-free]</mark>** [<mark>Google Meet</mark>](https://www.cloudskillsboost.google/course_templates/198?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (0 labs &amp; 0 credits)</mark>
+* **<mark>[Lab-free]</mark>** [<mark>Google Meet</mark>](https://www.cloudskillsboost.google/course_templates/198?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark>(0 labs &amp; 0 credits)</mark>
     
 * **\[Lab-free\]** [Google Sheets](https://www.cloudskillsboost.google/course_templates/196?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
     
@@ -153,7 +153,7 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [Manage Data Models in Looker](https://www.cloudskillsboost.google/course_templates/651?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (6 labs & 0 credits)
     
-* [<mark>Prepare Data for Looker Dashboards and Reports</mark>](https://www.cloudskillsboost.google/course_templates/628?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (5 labs &amp; 0 credits)</mark>
+* [Prepare Data for Looker Dashboards and Reports](https://www.cloudskillsboost.google/course_templates/628?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (5 labs & 0 credits)
     
 * [Develop Serverless Apps with Firebase](https://www.cloudskillsboost.google/course_templates/649?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 16 credits)
     
@@ -161,7 +161,7 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [Develop GenAI Apps with Gemini and Streamlit](https://www.cloudskillsboost.google/course_templates/978?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (5 labs & 20 credits)
     
-* **\[Lab-free\]** [Responsible AI: Applying AI Principles with Google Cloud](https://www.cloudskillsboost.google/course_templates/388?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
+* **<mark>[Lab-free]</mark>** [<mark>Responsible AI: Applying AI Principles with Google Cloud</mark>](https://www.cloudskillsboost.google/course_templates/388?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (0 labs &amp; 0 credits)</mark>
     
 * **\[Lab-free\]** [Responsible AI for Digital Leaders with Google Cloud](https://www.cloudskillsboost.google/course_templates/1069?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
     
