@@ -7,7 +7,7 @@ cuid: cm3dyuzkk000m09l9dagvahxx
 slug: looker-data-explorer-qwik-start-gsp718
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742374885913/ec691e38-40f1-4a23-899b-9c7c50cdbcbf.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1742375231150/47d251a2-5907-4885-af57-cb6a8e00d889.png
-tags: looker-data-explorer-qwik-start-gsp718, gsp718
+tags: looker-data-explorer-qwik-start-gsp718, gsp718, looker-data-explorer, looker-data-explorer-qwik-start
 
 ---
 
