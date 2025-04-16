@@ -148,13 +148,36 @@ Cloud Filestore defines 1 gigabyte (`GB`) as 1024^3 bytes, also known as a GiB. 
     
     Select the following values:
     
-    | **Property** | **Value (type value or select option as specified)** |
-    | --- | --- |
-    | **Name** | `nfs-client` |
-    | **Region** | `us-west1` |
-    | **Zone** | `us-west1-a` |
-    | **Series** | `E2` |
-    | **Machine Type** | `e2-medium` |
+  <table>
+
+<tbody><tr>
+<th>Property</th>
+<th>Value (type value or select option as specified)</th>
+</tr>
+
+
+<tr>
+<td><strong>Name</strong></td>
+<td><code>nfs-client</code></td>
+</tr>
+<tr>
+<td><strong>Region</strong></td>
+<td><ql-variable key="project_0.default_region" placeholder="<REGION>"></ql-variable></td>
+</tr>
+<tr>
+<td><strong>Zone</strong></td>
+<td><ql-variable key="project_0.default_zone" placeholder="<ZONE>"></ql-variable></td>
+</tr>
+<tr>
+<td><strong>Series</strong></td>
+<td><code>E2</code></td>
+</tr>
+<tr>
+<td><strong>Machine Type</strong></td>
+<td><code>e2-medium</code></td>
+</tr>
+
+</tbody></table>
     
 4. Click **OS and storage**.
     
