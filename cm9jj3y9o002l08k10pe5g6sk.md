@@ -13,8 +13,6 @@ tags: the-skills-boost-arcade-2025-tiers-official, the-skills-boost-arcade-2025-
 
 You’ve been skilling up, racking up points, crushing challenges, and maybe even losing track of time doing all of this (happens to the best of us). Now it’s finally time to see where all that effort is taking you.
 
-![skill badge stop update (1).gif](https://www.googlecloudcommunity.com/gc/image/serverpage/image-id/144006iE25F7753FFD30CF5/image-size/large?v=v2&px=999 align="left")
-
 Introducing the **Official Skills Boost Arcade 2025 Tiers**— your roadmap to brag-worthy titles:
 
 **Arcade Novice (20 Points)**  
