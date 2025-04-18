@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: Fri Jul 26 2024 09:06:36 GMT+0000 (Coordinated Universal Time)
 cuid: clz2hacgi000i0amdczfmdva3
 slug: the-basics-of-google-cloud-compute-challenge-lab-arc120
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744949378145/f141a309-5d1e-4cb2-934d-17f7633a9806.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744949386036/b66e11c8-48cf-485e-8041-c1fc7529e489.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721983696774/b4ab8e2b-773b-4318-92ba-5a9a802250c0.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721984357651/e6e7f6a6-ec2e-4c86-a64c-5b598f981fc6.png
 tags: the-basics-of-google-cloud-compute-challenge-lab-arc120
 
 ---
@@ -78,25 +78,19 @@ A default web page should open with the message "Welcome to nginx!".
 
 ---
 
-## Answers of Lab
+## Solution of Lab
 
 %[https://www.youtube.com/watch?v=GPes-qyoAhk&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
-### Task 1:
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721984092823/60873427-c7ec-4c19-a3b6-e7be42a59731.png align="center")
 
-```apache
-sutil mb -l US gs://$DEVSHELL_PROJECT_ID-bucket
+```powershell
+export ZONE=
 ```
 
 ### Task 2:
 
-```apache
-export ZONE=
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721984092823/60873427-c7ec-4c19-a3b6-e7be42a59731.png align="center")
-
-```apache
+```powershell
 gcloud compute instances create my-instance --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --machine-type=e2-medium --network-interface=network-tier=PREMIUM,stack-type=IPV4_ONLY,subnet=default --metadata=enable-oslogin=true --maintenance-policy=MIGRATE --provisioning-model=STANDARD --tags=http-server --create-disk=auto-delete=yes,boot=yes,device-name=my-instance,image=projects/debian-cloud/global/images/debian-11-bullseye-v20230509,mode=rw,size=10,type=projects/$DEVSHELL_PROJECT_ID/zones/$ZONE/diskTypes/pd-balanced --no-shielded-secure-boot --shielded-vtpm --shielded-integrity-monitoring --labels=goog-ec-src=vm_add-gcloud --reservation-affinity=any
 gcloud compute disks create mydisk --size=200GB \
 --zone=$ZONE
@@ -105,7 +99,7 @@ gcloud compute instances attach-disk my-instance --disk mydisk --zone=$ZONE
 
 ### Task 3:
 
-```apache
+```powershell
 gcloud compute ssh my-instance --zone=$ZONE
 sudo apt-get update
 sudo apt-get install -y nginx
