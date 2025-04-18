@@ -80,26 +80,42 @@ A default web page should open with the message "Welcome to nginx!".
 
 ## Solution of Lab
 
+### Quick
+
+%[https://youtu.be/V5urFDpiWNk] 
+
+```apache
+curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/The%20Basics%20of%20Google%20Cloud%20Compute%20Challenge%20Lab/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744955337860/9c84bd3b-efbb-4b4c-87e3-777683f8ff4d.png align="center")
+
+---
+
+### Manual
+
 %[https://www.youtube.com/watch?v=GPes-qyoAhk&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
+
+**Task 2:**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721984092823/60873427-c7ec-4c19-a3b6-e7be42a59731.png align="center")
 
-```powershell
+```apache
 export ZONE=
 ```
 
-### Task 2:
-
-```powershell
+```apache
 gcloud compute instances create my-instance --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --machine-type=e2-medium --network-interface=network-tier=PREMIUM,stack-type=IPV4_ONLY,subnet=default --metadata=enable-oslogin=true --maintenance-policy=MIGRATE --provisioning-model=STANDARD --tags=http-server --create-disk=auto-delete=yes,boot=yes,device-name=my-instance,image=projects/debian-cloud/global/images/debian-11-bullseye-v20230509,mode=rw,size=10,type=projects/$DEVSHELL_PROJECT_ID/zones/$ZONE/diskTypes/pd-balanced --no-shielded-secure-boot --shielded-vtpm --shielded-integrity-monitoring --labels=goog-ec-src=vm_add-gcloud --reservation-affinity=any
 gcloud compute disks create mydisk --size=200GB \
 --zone=$ZONE
 gcloud compute instances attach-disk my-instance --disk mydisk --zone=$ZONE
 ```
 
-### Task 3:
+**Task 3:**
 
-```powershell
+```apache
 gcloud compute ssh my-instance --zone=$ZONE
 sudo apt-get update
 sudo apt-get install -y nginx
