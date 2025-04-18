@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: Fri Jul 26 2024 09:06:36 GMT+0000 (Coordinated Universal Time)
 cuid: clz2hacgi000i0amdczfmdva3
 slug: the-basics-of-google-cloud-compute-challenge-lab-arc120
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721983696774/b4ab8e2b-773b-4318-92ba-5a9a802250c0.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721984357651/e6e7f6a6-ec2e-4c86-a64c-5b598f981fc6.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744955449986/5c562214-f9d2-4f7e-9085-14bc33581da4.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744955465934/8e4ab206-29c0-4625-b3cc-dae904d2513a.png
 tags: the-basics-of-google-cloud-compute-challenge-lab-arc120, arc120, the-basics-of-google-cloud-compute-challenge-lab
 
 ---
