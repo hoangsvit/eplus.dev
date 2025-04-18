@@ -5,9 +5,9 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: Sun Aug 18 2024 12:36:59 GMT+0000 (Coordinated Universal Time)
 cuid: clzzjxi0b000q09jz9nsn4fo4
 slug: deploy-a-compute-instance-with-a-remote-startup-script-challenge-lab-gsp301
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723984416603/060961ee-1723-447b-adf1-b1a9be91db8b.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723984601139/4c330eac-8698-4760-9d03-10c0b73dbca4.png
-tags: deploy-a-compute-instance-with-a-remote-startup-script-challenge-lab-gsp301
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744947119922/7d612a41-dfab-42a1-94a9-86ffa8ca05c3.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744947144059/819e95e3-b4ba-4019-8ded-f6d2711ed6c7.png
+tags: deploy-a-compute-instance-with-a-remote-startup-script-challenge-lab-gsp301, gsp301, deploy-a-compute-instance-with-a-remote-startup-script-challenge-lab
 
 ---
 
@@ -74,10 +74,16 @@ Test that the VM is serving web content
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=pwXL4DzbQgU] 
+%[https://www.youtube.com/watch?v=qvZpI3hw2g8] 
 
 ```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Deploy%20a%20Compute%20Instance%20with%20a%20Remote%20Startup%20Script%20Challenge%20Lab/quicklabgsp301.sh
-sudo chmod +x quicklabgsp301.sh
-./quicklabgsp301.sh
+export ZONE=
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744947083138/f3e5e8a8-5b38-42c6-a004-891a26d81a37.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Deploy%20a%20Compute%20Instance%20with%20a%20Remote%20Startup%20Script%3A%20Challenge%20Lab/techcps301.sh
+sudo chmod +x techcps301.sh
+./techcps301.sh
 ```
