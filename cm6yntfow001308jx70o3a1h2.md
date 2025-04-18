@@ -235,7 +235,7 @@ Does Google Cloud Marketplace allow you to deploy a software package now, and sc
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744946009166/ddf9ba60-1333-402d-9b88-4e80c84029d4.png align="center")
 
-### Step2: Run the following Commands in CloudShell
+### Step 2: Run the following Commands in CloudShell
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Provision%20Services%20with%20Google%20Cloud%20Marketplace/gsp003.sh
