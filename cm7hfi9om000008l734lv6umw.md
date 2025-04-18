@@ -331,6 +331,10 @@ You've sent your first request to the Cloud Natural Language API.
 
 %[https://www.youtube.com/watch?v=cnmag49ro24&ab_channel=QUICKGCPLAB] 
 
+**Open link:** [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744955980181/3f93e2b9-c966-48b0-8ac8-59ee929dcc45.png align="center")
+
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Cloud%20Natural%20Language%20API%20Qwik%20Start/gsp097.sh
 sudo chmod +x gsp097.sh
