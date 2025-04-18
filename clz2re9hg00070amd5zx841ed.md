@@ -5,9 +5,9 @@ seoDescription: "API Gateway enables you to provide secure access to your servic
 datePublished: Fri Jul 26 2024 13:49:35 GMT+0000 (Coordinated Universal Time)
 cuid: clz2re9hg00070amd5zx841ed
 slug: api-gateway-qwik-start-gsp872
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722001508455/718483f6-b24d-4f8e-b246-4a1f64a7cdd9.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722001752473/0b81f8a7-d800-41fc-b0fa-7d2f9d4ced6b.png
-tags: api-gateway-qwik-start-gsp872
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744951587043/33045b82-f8a4-4c0a-a818-7666cfcc18d9.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744951608343/ea9fabc2-0cb9-4e6a-9d4c-f86fdc056d37.png
+tags: api-gateway-qwik-start-gsp872, gsp872, api-gateway-qwik-start
 
 ---
 
