@@ -231,6 +231,10 @@ Does Google Cloud Marketplace allow you to deploy a software package now, and sc
 
 ### Step 1: Go to `Bitnami package for NGINX Open Source` from [here](https://console.cloud.google.com/marketplace/product/bitnami-launchpad/nginxstack?)
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744946002148/a6b925b2-b855-4c73-906c-d4368f9ee947.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744946009166/ddf9ba60-1333-402d-9b88-4e80c84029d4.png align="center")
+
 ### Step2: Run the following Commands in CloudShell
 
 ```apache
