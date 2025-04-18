@@ -430,7 +430,7 @@ Click **Check my progress** to verify the objective.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=6M_v3x-L4bA&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
+%[https://youtu.be/5Ae2ftnjJfM] 
 
 ```apache
 export REGION=
@@ -439,7 +439,7 @@ export REGION=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722001608892/0f2bea3b-afc6-4c3b-ac6f-7e9b89b38278.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/API%20Gateway%20Qwik%20Start/quicklabgsp872.sh
-sudo chmod +x quicklabgsp872.sh
-./quicklabgsp872.sh
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/API%20Gateway%20Qwik%20Start/gsp872.sh
+sudo chmod +x gsp872.sh
+./gsp872.sh
 ```
