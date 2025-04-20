@@ -161,13 +161,13 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [Develop GenAI Apps with Gemini and Streamlit](https://www.cloudskillsboost.google/course_templates/978?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (5 labs & 20 credits)
     
-* **<mark>[Lab-free]</mark>** [<mark>Responsible AI: Applying AI Principles with Google Cloud</mark>](https://www.cloudskillsboost.google/course_templates/388?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (0 labs &amp; 0 credits)</mark>
+* **\[Lab-free\]** [Responsible AI: Applying AI Principles with Google Cloud](https://www.cloudskillsboost.google/course_templates/388?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
     
 * **\[Lab-free\]** [Responsible AI for Digital Leaders with Google Cloud](https://www.cloudskillsboost.google/course_templates/1069?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
     
 * **\[Lab-free\]** [Customer Experience with Google AI Architecture](https://www.cloudskillsboost.google/course_templates/1002?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
     
-* **\[Lab-free\]** [Machine Learning Operations (MLOps) with Vertex AI: Model Evaluation](https://www.cloudskillsboost.google/course_templates/1080?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
+* **<mark>[Lab-free]</mark>** [<mark>Machine Learning Operations (MLOps) with Vertex AI: Model Evaluation</mark>](https://www.cloudskillsboost.google/course_templates/1080?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) <mark> (0 labs &amp; 0 credits)</mark>
     
 * **\[Lab-free\]** [Conversational AI on Vertex AI and Dialogflow CX](https://www.cloudskillsboost.google/course_templates/892?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
     
