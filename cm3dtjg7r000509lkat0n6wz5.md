@@ -5,9 +5,9 @@ seoDescription: "In this lab you'll explore the power of machine learning by usi
 datePublished: Tue Nov 12 2024 02:13:53 GMT+0000 (Coordinated Universal Time)
 cuid: cm3dtjg7r000509lkat0n6wz5
 slug: extract-analyze-and-translate-text-from-images-with-the-cloud-ml-apis-gsp075
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731375211781/596dcde9-31dc-473e-9be2-4dc9d30380f1.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1731377598585/c1132880-af04-4f8c-9c51-5beeb248e556.png
-tags: extract-analyze-and-translate-text-from-images-with-the-cloud-ml-apis-gsp075, gsp075
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745302649414/545b1088-cf3a-4772-bed9-ba8a8285c05f.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1745302667155/c899e696-895a-4489-a15a-7cbe54604358.png
+tags: extract-analyze-and-translate-text-from-images-with-the-cloud-ml-apis-gsp075, gsp075, extract-analyze-and-translate-text-from-images-with-the-cloud-ml-apis
 
 ---
 
