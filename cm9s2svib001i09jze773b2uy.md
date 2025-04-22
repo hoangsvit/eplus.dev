@@ -664,7 +664,7 @@ The result should look like this:
 
 ![SPNAggPlan.png](https://cdn.qwiklabs.com/f8d2DO9yHhj0jF8yEkJRAFCIT%2Fc%2FZYL2csAwCfH0C2o%3D align="left")
 
-**Tip:**To get more details for each step in the query plan, click on any of the operators and the right side of the screen will change accordingly.
+\*\*Tip:\*\*To get more details for each step in the query plan, click on any of the operators and the right side of the screen will change accordingly.
 
 ![SPNPlanDetail.png](https://cdn.qwiklabs.com/giUUMqlkQGb94XLe8YpNI8pGYEJVDm70fy%2F4sYb4Oyg%3D align="left")
 
@@ -694,7 +694,7 @@ The subplans contain a cross apply. Each cross apply performs a table scan on ta
 
 ## Solution of Lab
 
-%[https://youtu.be/OBMGgjSIiGo] 
+%[https://www.youtube.com/watch?v=OBMGgjSIiGo] 
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Cloud%20Spanner%20-%20Defining%20Schemas%20and%20Understanding%20Query%20Plans/gsp1050.sh
