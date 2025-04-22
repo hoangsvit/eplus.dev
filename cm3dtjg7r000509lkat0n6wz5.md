@@ -589,16 +589,10 @@ Looking at this image it's relatively easy to pick out the important entities, b
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=5s4SWDj2jpA&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
+%[https://youtu.be/kkWNyq0fr9o] 
 
 ```apache
-export API_KEY=
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723896695862/785f9a8a-80ba-4ad0-9fbc-3b2e15da8b51.png?auto=compress,format&format=webp align="left")
-
-```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Detect%20Labels%20Faces%20and%20Landmarks%20in%20Images%20with%20the%20Cloud%20Vision%20API/quicklabgsp037.sh
-sudo chmod +x quicklabgsp037.sh
-./quicklabgsp037.sh
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Extract%2C%20Analyze%2C%20and%20Translate%20Text%20from%20Images%20with%20the%20Cloud%20ML%20APIs/gsp075.sh
+sudo chmod +x gsp075.sh
+./gsp075.sh
 ```
