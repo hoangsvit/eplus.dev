@@ -49,8 +49,6 @@ Set the project region for this lab:
 gcloud config set compute/region us-central1
 ```
 
-Copied!content\_copy
-
 ## Challenge scenario
 
 You are just starting your junior cloud architect role. So far you have been helping teams create and manage Cloud Storage buckets.
