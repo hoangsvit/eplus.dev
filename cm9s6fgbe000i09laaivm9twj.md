@@ -385,3 +385,5 @@ curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/
 sudo chmod +x arcadecrew.sh
 ./arcadecrew.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1745306565376/a2f7e005-ec94-4e68-a999-d1c40ffef45e.png align="center")
