@@ -5,9 +5,9 @@ seoDescription: "AutoML helps developers with limited ML expertise train high qu
 datePublished: Mon Nov 11 2024 03:04:07 GMT+0000 (Coordinated Universal Time)
 cuid: cm3cfw7ah000809l5bpf3c17s
 slug: classify-images-of-clouds-in-the-cloud-with-automl-images-gsp223
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731294220521/d7e411d2-d3a5-4e61-af96-a5b25a5f1b3e.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1731294233640/5ea0538b-0c26-48bf-9066-b10461852797.png
-tags: classify-images-of-clouds-in-the-cloud-with-automl-images-gsp223, gsp223
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745291478560/021f3d80-5326-43e1-ac75-3bf7b121b280.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1745291696796/cf6f42d2-57b5-49d0-9b4d-3016e8640ce0.png
+tags: classify-images-of-clouds-in-the-cloud-with-automl-images-gsp223, gsp223, classify-images-of-clouds-in-the-cloud-with-automl-images
 
 ---
 
@@ -410,10 +410,12 @@ curl -X POST -H "Content-Type: application/json" $ENDPOINT/v1 -d "@${INPUT_DATA_
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=D3wmozgin6s&ab_channel=TechVine] 
+%[https://youtu.be/oVRkruz0t28] 
 
 ```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Classify%20Images%20of%20Clouds%20in%20the%20Cloud%20with%20AutoML%20Images/quicklabgsp223.sh
-sudo chmod +x quicklabgsp223.sh
-./quicklabgsp223.sh
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Classify%20Images%20of%20Clouds%20in%20the%20Cloud%20with%20AutoML%20Images/gsp223.sh
+sudo chmod +x gsp223.sh
+./gsp223.sh
 ```
+
+* Type **clouds** for the Dataset name.
