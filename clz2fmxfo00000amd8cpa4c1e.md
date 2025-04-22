@@ -5,9 +5,9 @@ seoDescription: "Compute Engine lets you create and run virtual machines on Goog
 datePublished: Fri Jul 26 2024 08:20:24 GMT+0000 (Coordinated Universal Time)
 cuid: clz2fmxfo00000amd8cpa4c1e
 slug: creating-a-persistent-disk-gsp004
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721981994942/501ec859-8cc9-4760-b59b-361fc86b2666.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745299890017/38cf74db-ab51-4cfd-9d69-3a11eea36ae3.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721982011330/714ca584-dee0-4799-a4d8-820cbbd86ef3.png
-tags: creating-a-persistent-disk-gsp004
+tags: creating-a-persistent-disk-gsp004, creating-a-persistent-disk, gsp004
 
 ---
 
@@ -322,16 +322,14 @@ This lab does not cover local SSDs.
 
 ---
 
-## Answers of Lab
+## Solution of Lab
 
-%[https://www.youtube.com/watch?v=LF2rqZTeaF4&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
+%[https://youtu.be/HYGq8n2rL8Q] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721981893961/cb6d010f-25b7-48d6-918a-b611f96031d5.png align="center")
 
-```powershell
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Creating%20a%20Persistent%20Disk/quicklabgsp004.sh
-
-sudo chmod +x quicklabgsp004.sh
-
-./quicklabgsp004.sh
+```apache
+curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Creating%20a%20Persistent%20Disk/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
 ```
