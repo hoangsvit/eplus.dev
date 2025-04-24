@@ -1,13 +1,13 @@
 ---
 title: "Cloud Functions: Qwik Start - Console - GSP081"
 seoTitle: "Cloud Functions: Qwik Start - Console - GSP081"
-seoDescription: "A cloud function is a piece of code that runs in response to an event, such as an HTTP request, a message from a messaging service, or a file upload. Cloud "
+seoDescription: "A cloud function is a piece of code that runs in response to an event, such as an HTTP request, a message from a messaging service, or a file upload. Cloud"
 datePublished: Fri Jul 26 2024 14:24:12 GMT+0000 (Coordinated Universal Time)
 cuid: clz2smsl9000508ju3ff3ciky
 slug: cloud-functions-qwik-start-console-gsp081
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722003605792/4aaaf6b5-7caa-4f3a-bcf0-756ad07f7acb.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722003829326/7d82c9ca-f078-450a-89d8-b60299f6feb8.png
-tags: cloud-functions-qwik-start-console-gsp081
+tags: cloud-functions-qwik-start-console-gsp081, gsp081, cloud-functions-qwik-start-console
 
 ---
 
@@ -73,7 +73,7 @@ You deploy the function in the next section.
 3. After you click **Deploy**, the console redirects to the **Cloud Functions Overview** page.
     
 
-**Note:**While the function is being deployed, the icon next to it is a small spinner. When it's deployed, the spinner is a green check mark.
+\*\*Note:\*\*While the function is being deployed, the icon next to it is a small spinner. When it's deployed, the spinner is a green check mark.
 
 ### Test completed task
 
@@ -155,18 +155,12 @@ Below are multiple-choice questions to reinforce your understanding of this lab'
 
 ---
 
-Answer of Lab
+Solution of Lab
 
-%[https://www.youtube.com/watch?v=URAbi1yqwNE&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722003641407/fc3195c6-bdb5-41df-8ac0-a8fa78419e98.png align="center")
+%[https://youtu.be/TgVXEErkwig] 
 
 ```apache
-export REGION=
-```
-
-```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20Functions%20Qwik%20Start%20%20Console/quicklabsgsp081.sh
-sudo chmod +x quicklabsgsp081.sh
-./quicklabsgsp081.sh
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Cloud%20Run%20Functions%20Qwik%20Start%20Console/newquicklabgsp081.sh
+sudo chmod +x newquicklabgsp081.sh
+./newquicklabgsp081.sh
 ```
