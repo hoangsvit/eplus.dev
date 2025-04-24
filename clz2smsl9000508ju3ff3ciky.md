@@ -5,8 +5,8 @@ seoDescription: "A cloud function is a piece of code that runs in response to an
 datePublished: Fri Jul 26 2024 14:24:12 GMT+0000 (Coordinated Universal Time)
 cuid: clz2smsl9000508ju3ff3ciky
 slug: cloud-functions-qwik-start-console-gsp081
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722003605792/4aaaf6b5-7caa-4f3a-bcf0-756ad07f7acb.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722003829326/7d82c9ca-f078-450a-89d8-b60299f6feb8.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745482591797/84b428af-1793-4e29-bb16-5570a927ed9c.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1745482599692/e792eb84-c168-47b5-9e11-208f66d74e7c.png
 tags: cloud-functions-qwik-start-console-gsp081, gsp081, cloud-functions-qwik-start-console
 
 ---
