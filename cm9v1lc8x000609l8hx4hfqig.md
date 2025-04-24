@@ -85,8 +85,6 @@ To complete this lab, you need:
     student-04-be435475f50c@qwiklabs.net
     ```
     
-    Copied!content\_copy
-    
     You can also find the Username in the Lab Details pane.
     
 4. Click **Next**.
@@ -96,8 +94,6 @@ To complete this lab, you need:
     ```apache
     80gD8rwMIpq3
     ```
-    
-    Copied!content\_copy
     
     You can also find the Password in the Lab Details pane.
     
@@ -184,8 +180,6 @@ git clone https://github.com/mlochbihler/singlestore-gcp-looker-devday-01
 cd singlestore-gcp-looker-devday-01/section_b
 ```
 
-Copied!content\_copy
-
 4. Go back to the SingleStore Portal. Once your workspace is initialized, click the dropdown arrow next to Connect and select **CLI Client**.
     
 
@@ -225,8 +219,6 @@ source create_nyctaxi_tables.ddl;
 use nyc_taxi; show tables;
 ```
 
-Copied!content\_copy
-
 You should see similar results:
 
 ```apache
@@ -258,8 +250,6 @@ You have created the Schema and the Database tables are listed.
 ```apache
 select * from avgcost limit 5;
 ```
-
-Copied!content\_copy
 
 The output of this query is "**Empty set" or "0"**, this is because you have only created the Schema and the Table is empty.
 
@@ -302,8 +292,6 @@ gcloud storage cp -r gs://configuring-singlestore-on-gcp/trips gs://$GOOGLE_CLOU
 
 gcloud storage cp gs://configuring-singlestore-on-gcp/neighborhoods.csv gs://$GOOGLE_CLOUD_PROJECT
 ```
-
-Copied!content\_copy
 
 If prompted, click **Authorize**.
 
@@ -411,7 +399,6 @@ Now you will ingest data into SingleStore with Pipelines and start a stored proc
 
 3. Navigate back to the Cloud Shell tab with the SingleStore Terminal open.
     
-
 4. To create Initial SingleStore Pipelines:
     
 
@@ -444,7 +431,6 @@ Your file should resemble the following:
 
 6. Click **Save** and go back to the Terminal.
     
-
 7. From the Cloud Shell Terminal, connect to SingleStore using the MySQL command you used earlier. You can use the same command you used earlier to connect to SingleStore.
     
 8. At the MySQL prompt, run the following command to create the pipelines:
@@ -454,8 +440,6 @@ Your file should resemble the following:
 source create_nyctaxi_pipelines.dml;
 show pipelines;
 ```
-
-Copied!content\_copy
 
 The output should look like:
 
@@ -474,8 +458,6 @@ The output should look like:
 source start_nyctaxi_pipelines.dml;
 show pipelines;
 ```
-
-Copied!content\_copy
 
 Output:
 
@@ -499,8 +481,6 @@ select * from drivers limit 5;
 select * from neighborhoods limit 5;
 ```
 
-Copied!content\_copy
-
 ![The command output](https://cdn.qwiklabs.com/sAW0nWZvs3YPQWR3SGJzZZBukfqm1df9Flwykqaa6Fg%3D align="left")
 
 Report 1: Total number of trips for each neighborhood.
@@ -512,8 +492,6 @@ Report 1: Total number of trips for each neighborhood.
 source total_trips.sql;
 ```
 
-Copied!content\_copy
-
 Report 2: The average amount of time between someone requesting a ride and that person being picked up.
 
 3. Next. run:
@@ -522,8 +500,6 @@ Report 2: The average amount of time between someone requesting a ride and that 
 ```apache
 source average_wait.sql;
 ```
-
-Copied!content\_copy
 
 Report 3: The average distance of a trip.
 
@@ -534,8 +510,6 @@ Report 3: The average distance of a trip.
 source average_distance.sql;
 ```
 
-Copied!content\_copy
-
 Report 4: The average amount of time between someone being picked up and that person being dropped off.
 
 5. Run:
@@ -544,8 +518,6 @@ Report 4: The average amount of time between someone being picked up and that pe
 ```apache
 source average_ride_time.sql;
 ```
-
-Copied!content\_copy
 
 Report 5: The average cost of a trip.
 
@@ -556,8 +528,6 @@ Report 5: The average cost of a trip.
 source average_cost.sql;
 ```
 
-Copied!content\_copy
-
 Report 6: The average amount of time it takes from the time a driver accepts a ride to the time they pick up the passenger.
 
 7. Run:
@@ -566,8 +536,6 @@ Report 6: The average amount of time it takes from the time a driver accepts a r
 ```apache
 source average_wait2.sql;
 ```
-
-Copied!content\_copy
 
 Report 7: The average number of riders per trip.
 
@@ -603,3 +571,8 @@ sudo chmod +x arcadecrew.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1745479671638/1744559d-9714-4bc4-841a-f42b96f55c2c.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1745479690609/9faa85c3-9f65-446c-badd-31bbd06970b0.png align="center")
+
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text"><strong>WARNING:</strong> The new trigger may take up to <mark>2 minutes</mark> to become active.</div>
+</div>
