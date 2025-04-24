@@ -5,9 +5,9 @@ seoDescription: "For as long as business intelligence (BI) has been around, visu
 datePublished: Wed Sep 04 2024 08:25:18 GMT+0000 (Coordinated Universal Time)
 cuid: cm0nlfbl3001108kz8hsner8b
 slug: build-a-bi-dashboard-using-looker-studio-and-bigquery-gsp403
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725438276897/1fe8b19f-728f-41b8-9c16-1d8923525062.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725438305104/5c30f244-ec5f-4d30-a97d-c742570f6b79.jpeg
-tags: build-a-bi-dashboard-using-looker-studio-and-bigquery-gsp403
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745477838784/1eefc061-9caf-48b5-b0ef-dc19f4345424.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1745477854936/75f8195e-7e5e-44cd-8571-599812e034e8.png
+tags: build-a-bi-dashboard-using-looker-studio-and-bigquery-gsp403, gsp403, build-a-bi-dashboard-using-looker-studio-and-bigquery
 
 ---
 
