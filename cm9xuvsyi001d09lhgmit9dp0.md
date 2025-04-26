@@ -59,23 +59,23 @@ tags: process-data-from-dirty-to-clean, process-data-from-dirty-to-clean-module-
     
     <table><tbody><tr><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p><strong>A</strong></p></td><td colspan="1" rowspan="1"><p><strong>B</strong></p></td><td colspan="1" rowspan="1"><p><strong>C</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>1</strong></p></td><td colspan="1" rowspan="1"><p><strong>Product name</strong></p></td><td colspan="1" rowspan="1"><p><strong>Version number</strong></p></td><td colspan="1" rowspan="1"><p><strong>ID</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>2</strong></p></td><td colspan="1" rowspan="1"><p>Raft</p></td><td colspan="1" rowspan="1"><p>05</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>3</strong></p></td><td colspan="1" rowspan="1"><p>Oar</p></td><td colspan="1" rowspan="1"><p>01</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>4</strong></p></td><td colspan="1" rowspan="1"><p>Life_vest</p></td><td colspan="1" rowspan="1"><p>04</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>5</strong></p></td><td colspan="1" rowspan="1"><p>Tether_rope</p></td><td colspan="1" rowspan="1"><p>02</p></td><td colspan="1" rowspan="1"><p></p></td></tr></tbody></table>
     
-    * \=CONCATENATE(A5+B5)
+    * =CONCATENATE(A5+B5)
         
     * <mark>=CONCATENATE(A5,B5)</mark>
         
-    * \=CONCATENATE(B5, A5)
+    * =CONCATENATE(B5, A5)
         
-    * \=CONCATENATE(A5\*B5)
+    * =CONCATENATE(A5\*B5)
         
 6. **A data analyst wants to know how many cells from A2 through A50 contain numbers below 100. Which of the following COUNTIF statements should they use?**
     
-    * \=COUNTIF(A2:A50, &gt;100)
+    * =COUNTIF(A2:A50, &gt;100)
         
     * <mark>=COUNTIF(A2:A50,"&lt;100")</mark>
         
-    * \=COUNTIF(A2:A50,"&gt;=100")
+    * =COUNTIF(A2:A50,"&gt;=100")
         
-    * \=COUNTIF(A2:A50, &lt;=100)
+    * =COUNTIF(A2:A50, &lt;=100)
         
 7. **A data analyst uses a spreadsheet’s Split tool to place each grain and dairy product into new, separate cells. What is the semicolon’s function in this scenario?**
     
