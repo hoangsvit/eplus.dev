@@ -38,11 +38,11 @@ tags: process-data-from-dirty-to-clean, process-data-from-dirty-to-clean-module-
 
 * <mark>=RIGHT(C4,4)</mark>
     
-* \=LEFT(4,C4)
+* =LEFT(4,C4)
     
-* \=LEFT(C4,4)
+* =LEFT(C4,4)
     
-* \=RIGHT(4,C4)
+* =RIGHT(4,C4)
     
 
 4. **Fill in the blank: In a VLOOKUP function, the value of the third argument tells VLOOKUP to return the value in the \_\_\_\_\_ row from the specified column.**
