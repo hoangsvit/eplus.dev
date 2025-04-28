@@ -23,7 +23,7 @@ npm install motion clsx tailwind-merge
 
 Must add it in the `utils.ts`:
 
-```apache
+```javascript
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 
