@@ -4,7 +4,7 @@ seoTitle: "Open Source UI-TOOLS for Designer/Developer"
 seoDescription: "UI Tools is an open-source ui-tools for design engineers and developers. It's a creative toolbox featuring shadow, SVG, gradient, background pattern generat"
 datePublished: Mon Apr 28 2025 04:13:10 GMT+0000 (Coordinated Universal Time)
 cuid: cma0kc43u000009la9g6nfg1v
-slug: open-source-ui-tools-for-designerdeveloper
+slug: open-source-ui-tools-for-designer-developer
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745813255866/df17aa0e-86c1-4634-9592-c34e4dc79193.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1745813566117/2b02af80-011e-4549-9764-59b6c0128591.jpeg
 tags: opensource, designer, developer, open-source-ui-tools-for-designerdeveloper
