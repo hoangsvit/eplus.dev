@@ -9,9 +9,9 @@ In this lab, you learn how to perfor"
 datePublished: Fri Aug 09 2024 06:35:16 GMT+0000 (Coordinated Universal Time)
 cuid: clzmc1noi000008l53a8n1w0w
 slug: publish-your-appsheet-app-gsp1030
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723184663042/91bdea1a-3f55-4f62-9a51-71f1d43f74c9.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723185300607/db9c2fe4-d740-4f0e-96c8-311e39c823b1.png
-tags: publish-your-appsheet-app-gsp1030
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746622653348/95b2c003-d616-40cb-813f-2a9184cf5974.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1746622672834/bc868f20-2269-4bd1-a298-1cf0c30ca54e.png
+tags: publish-your-appsheet-app-gsp1030, gsp1030, publish-your-appsheet-app
 
 ---
 
