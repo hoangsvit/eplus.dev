@@ -307,7 +307,7 @@ The first step in sharing your app with users is to add them as users of your ap
 
 ---
 
-Solution of Lab
+## Solution of Lab
 
 %[https://www.youtube.com/watch?v=x0iZ1hVFtTA] 
 
