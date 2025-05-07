@@ -5,9 +5,9 @@ seoDescription: "In this lab, you use AppSheet to enhance a basic application wi
 datePublished: Fri Aug 09 2024 06:19:48 GMT+0000 (Coordinated Universal Time)
 cuid: clzmbhrwg000109ia1dtg0l1y
 slug: connect-and-configure-data-for-your-appsheet-app-gsp910
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723183682414/67a32004-70a1-4a15-8673-461d3a37dd1c.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723184370602/5033b350-9688-4819-8bbf-163f3f543223.png
-tags: connect-and-configure-data-for-your-appsheet-app-gsp910
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746622257288/6c05b472-5701-4f8c-9edc-6b1f8bd15c8e.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1746622275557/33f9f61c-2a32-4b84-9826-961d88d11e61.png
+tags: connect-and-configure-data-for-your-appsheet-app-gsp910, gsp910, connect-and-configure-data-for-your-appsheet-app
 
 ---
 
