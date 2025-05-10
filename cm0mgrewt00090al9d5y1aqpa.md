@@ -5,9 +5,9 @@ seoDescription: "Dataplex is an intelligent data fabric that enables organizatio
 datePublished: Tue Sep 03 2024 13:26:58 GMT+0000 (Coordinated Universal Time)
 cuid: cm0mgrewt00090al9d5y1aqpa
 slug: tagging-dataplex-assets-gsp1145
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725369034293/edff317f-32d5-4d32-907f-d1c861d3db0d.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725370009798/6f6a8002-631d-46ee-bc5b-5da1ff6bb879.jpeg
-tags: tagging-dataplex-assets-gsp1145
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746860049123/7f3d3490-801c-4ed5-8a7d-aee992b03520.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1746860064226/78692f81-902d-4598-b024-660d055acf34.png
+tags: tagging-dataplex-assets-gsp1145, gsp1145, tagging-dataplex-assets
 
 ---
 
