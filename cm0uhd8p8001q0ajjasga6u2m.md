@@ -5,9 +5,9 @@ seoDescription: "Google Cloud Deploy is a managed service that automates deliver
 datePublished: Mon Sep 09 2024 04:06:06 GMT+0000 (Coordinated Universal Time)
 cuid: cm0uhd8p8001q0ajjasga6u2m
 slug: continuous-delivery-with-google-cloud-deploy-gsp1079
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725854299532/0978f1c6-9b58-47d1-9e06-78e380e64412.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725854753077/220b8de1-4e5c-4776-9de5-0ea9b491569f.jpeg
-tags: continuous-delivery-with-google-cloud-deploy-gsp1079
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746865159679/cd5a53e5-d63f-42bf-93aa-5865195d5e99.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1746865176881/b3a12a32-143c-458d-bc64-8adc5a273810.png
+tags: continuous-delivery-with-google-cloud-deploy-gsp1079, gsp1079, continuous-delivery-with-google-cloud-deploy
 
 ---
 
@@ -804,16 +804,10 @@ Click **Check my progress** to verify the objective.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=nZXcaPFSip8] 
+%[https://youtu.be/8MDDNDwF2u4] 
 
 ```apache
-export ZONE=
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725854544116/0cb89401-f7ee-4f23-a5d8-4b4080a37771.png align="center")
-
-```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Continuous%20Delivery%20with%20Google%20Cloud%20Deploy/techcps1079.sh
-sudo chmod +x techcps1079.sh
-./techcps1079.sh
+curl -LO https://raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Continuous%20Delivery%20with%20Google%20Cloud%20Deploy/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
 ```
