@@ -5,9 +5,9 @@ seoDescription: "Looker is a modern data platform in Google Cloud that lets you 
 datePublished: Fri Sep 06 2024 07:52:05 GMT+0000 (Coordinated Universal Time)
 cuid: cm0qf4ayj000a09l225iueci4
 slug: looker-functions-and-operators-gsp857
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725606594002/524bc9d7-56bf-49ba-8b2b-9272dd4ac274.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725609107126/56e0f4d5-6814-44de-8b17-bea86c9747a3.jpeg
-tags: looker-functions-and-operators-gsp857
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746874598752/7b79ebe2-f63b-48ae-9b5b-cf3bcbe13ce8.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1746874589881/fde59ba4-2ac0-48bb-a74c-a6968c10ab16.png
+tags: looker-functions-and-operators-gsp857, gsp857, looker-functions-and-operators
 
 ---
 
@@ -433,11 +433,13 @@ Click *Check my progress* to verify the objective.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=J3X4-V6IpU0] 
+%[https://youtu.be/wyBVUyvXGdk] 
 
 ---
 
-### Task 1
+### **🎯 Task 1: Pivot dimensions**
+
+> 👇 Copy the following code and paste it into the `faa` model in Looker.
 
 ```apache
 # Place in `faa` model
@@ -450,7 +452,20 @@ explore: +flights {
   }
 ```
 
-### Task 2
+> 💡 **Important:** After pasting the code, carefully follow the subsequent steps for Task 1 to ensure correct implementation.
+
+* **Title the Look**
+    
+
+```apache
+Flight Count by Departure Week and Distance Tier
+```
+
+---
+
+### **🎯 Task 2: Reorder columns and remove fields**
+
+> 👇 Copy the following code and paste it into the `faa` model in Looker.
 
 ```apache
 # Place in `faa` model
@@ -463,7 +478,20 @@ explore: +flights {
   }
 ```
 
-### Task 3
+> 💡 **Important:** After pasting the code, carefully follow the subsequent steps for Task 2 to ensure correct implementation.
+
+* **Title the Look**
+    
+
+```apache
+Percent of Flights Cancelled by State in 2000
+```
+
+---
+
+### **🎯 Task 3: Use table calculations to calculate simple percentages**
+
+> 👇 Copy the following code and paste it into the `faa` model in Looker.
 
 ```apache
 # Place in `faa` model
@@ -476,7 +504,27 @@ explore: +flights {
 }
 ```
 
-### Task 4
+> 💡 **Important:** After pasting the code, carefully follow the subsequent steps for Task 3 to ensure correct implementation.
+
+* In the **Expression field**, add the following Table Calculation:
+    
+
+```apache
+${flights.cancelled_count}/${flights.count}
+```
+
+* **Title the Look**
+    
+
+```apache
+Percent of Flights Cancelled by Aircraft Origin 2004
+```
+
+---
+
+### **🎯 Task 4: Use table calculations to calculate percentages of a total**
+
+> 👇 Copy the following code and paste it into the `faa` model in Looker.
 
 ```apache
 # Place in `faa` model
@@ -488,7 +536,27 @@ explore: +flights {
 }
 ```
 
-### Task 5
+> 💡 **Important:** After pasting the code, carefully follow the subsequent steps for Task 4 to ensure correct implementation.
+
+* Add the following in **Expression field**:
+    
+
+```apache
+${flights.total_distance}/${flights.total_distance:total}
+```
+
+* **Title the Look:**
+    
+
+```apache
+Percent of Total Distance Flown by Carrier
+```
+
+---
+
+### **🎯 Task 5: Use functions in table calculations**
+
+> 👇 Copy the following code and paste it into the `faa` model in Looker.
 
 ```apache
 # Place in `faa` model
@@ -499,4 +567,20 @@ explore: +flights {
       filters: [flights.depart_date: "after 2000/01/01"]
     }
 }
+```
+
+> 💡 **Important:** After pasting the code, carefully follow the subsequent steps for Task 5 to ensure correct implementation.
+
+* Add the following **Table Calculation**, making use of the `pivot_offset` function:
+    
+
+```apache
+(${flights.count}-pivot_offset(${flights.count}, -1))/pivot_offset(${flights.count}, -1)
+```
+
+* Title the Look:
+    
+
+```apache
+YoY Percent Change in Flights flown by Distance, 2000-Present
 ```
