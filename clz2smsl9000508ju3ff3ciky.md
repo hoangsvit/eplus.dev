@@ -157,10 +157,8 @@ Below are multiple-choice questions to reinforce your understanding of this lab'
 
 ## Solution of Lab
 
-%[https://youtu.be/TgVXEErkwig] 
+%[https://youtu.be/ogXzPaNH8ww] 
 
-```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Cloud%20Run%20Functions%20Qwik%20Start%20Console/newquicklabgsp081.sh
-sudo chmod +x newquicklabgsp081.sh
-./newquicklabgsp081.sh
-```
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746867316433/855fbeec-a4ca-40b4-b886-ad918412f4d0.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746867321867/0680db8a-1817-4862-844d-a8f3b003de85.png align="center")
