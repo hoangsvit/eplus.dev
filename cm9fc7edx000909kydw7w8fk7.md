@@ -593,16 +593,16 @@ If you have any incognito windows open from previous lab activity, close them.
 
 ---
 
-## **🚀 Project A: Configuration**
+### **🚀 Project A: Configuration**
 
-### **1\. 💻 Access Project A**
+**1\. 💻 Access Project A**
 
 * Log in to the Google Cloud Console using the credentials provided for **Project A**.
     
 * Open a new **Cloud Shell** session within Project A.
     
 
-### **2\. 🛠️ Create View in Project A**
+**2\. 🛠️ Create View in Project A**
 
 In the Project A Cloud Shell, first set an environment variable for your **Main Lab Project ID** (the one you copied in step 1.2):
 
@@ -612,7 +612,7 @@ sudo chmod +x arcadecrew1.sh
 ./arcadecrew1.sh
 ```
 
-### **3\. 📊 Connect Looker Studio (for Project A)**
+**3\. 📊 Connect Looker Studio (for Project A)**
 
 1. Open a **new Incognito window**.
     
@@ -643,22 +643,22 @@ sudo chmod +x arcadecrew1.sh
 10. Click **ADD** (bottom right), then confirm by clicking **ADD TO REPORT**.
     
 
-### **4\. 🚪 Close Incognito Window**
+**4\. 🚪 Close Incognito Window**
 
 Close the Incognito window used for Project A's Looker Studio.
 
 ---
 
-## **🚀 Project B: Configuration**
+### **🚀 Project B: Configuration**
 
-### **1\. 💻 Access Project B**
+**1\. 💻 Access Project B**
 
 * Log in to the Google Cloud Console using the credentials provided for **Project B**.
     
 * Open a new **Cloud Shell** session within Project B.
     
 
-### **2\. 🛠️ Create View in Project B**
+**2\. 🛠️ Create View in Project B**
 
 In the Project B Cloud Shell, set the environment variable for your **Main Lab Project ID** again:
 
@@ -668,7 +668,7 @@ sudo chmod +x arcadecrew2.sh
 ./arcadecrew2.sh
 ```
 
-### **3\. 📊 Connect Looker Studio (for Project B)**
+**3\. 📊 Connect Looker Studio (for Project B)**
 
 1. Open a **new Incognito window**.
     
