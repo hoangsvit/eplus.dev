@@ -5,9 +5,9 @@ seoDescription: "Pub/Sub is a messaging service for exchanging event data among 
 datePublished: Fri Jul 26 2024 09:56:19 GMT+0000 (Coordinated Universal Time)
 cuid: clz2j2amc000l09l755aefshv
 slug: pub-sub-qwik-start-console-gsp096
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721987741851/7192ec8a-ccc2-408d-910b-90b80c0d1696.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721987767246/2227fccd-4246-4adf-950c-20ee0409ce9f.png
-tags: pubsub-qwik-start-console-gsp096
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746861292676/b5d1a14b-9e69-4280-8bed-85d82e4e9ee1.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1746861316778/be0c8284-8791-43ef-929b-04c435730de6.png
+tags: console, pubsub-qwik-start-console-gsp096, gsp096, pubsub-qwik-start-console
 
 ---
 
