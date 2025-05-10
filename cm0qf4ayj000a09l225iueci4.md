@@ -457,7 +457,7 @@ explore: +flights {
 * **Title the Look**
     
 
-```apache
+```plaintext
 Flight Count by Departure Week and Distance Tier
 ```
 
@@ -483,7 +483,7 @@ explore: +flights {
 * **Title the Look**
     
 
-```apache
+```plaintext
 Percent of Flights Cancelled by State in 2000
 ```
 
@@ -516,7 +516,7 @@ ${flights.cancelled_count}/${flights.count}
 * **Title the Look**
     
 
-```apache
+```plaintext
 Percent of Flights Cancelled by Aircraft Origin 2004
 ```
 
@@ -548,7 +548,7 @@ ${flights.total_distance}/${flights.total_distance:total}
 * **Title the Look:**
     
 
-```apache
+```plaintext
 Percent of Total Distance Flown by Carrier
 ```
 
@@ -581,6 +581,6 @@ explore: +flights {
 * Title the Look:
     
 
-```apache
+```plaintext
 YoY Percent Change in Flights flown by Distance, 2000-Present
 ```
