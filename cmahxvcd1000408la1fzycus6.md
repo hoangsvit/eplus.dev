@@ -449,3 +449,7 @@ sudo chmod +x *.sh
 ```apache
 dbadmin
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746864315079/a7e4be54-2f66-4a95-a325-092db21e2e61.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746864343026/ab5d88c8-53e4-4966-80c9-55e6586880d4.png align="center")
