@@ -5,9 +5,9 @@ seoDescription: "For this lab you read through a fictitious business scenario. B
 datePublished: Sun Sep 08 2024 06:23:12 GMT+0000 (Coordinated Universal Time)
 cuid: cm0t6tp26001708mkfbnn8j9k
 slug: use-google-forms-with-google-sheets-gsp1064
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725775752662/2f246730-0d6a-400b-8e74-0986b17700d6.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725776580905/cd5669c2-1e2c-47b2-af3a-c83e0c5e42c9.png
-tags: use-google-forms-with-google-sheets-gsp1064
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747207889161/f7164ea7-234d-4c13-8086-968de19105d8.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747208091298/77ab86b7-b6a8-4f0e-bf7a-a2236b1c754f.png
+tags: use-google-forms-with-google-sheets-gsp1064, gsp1064
 
 ---
 
@@ -503,7 +503,20 @@ The *IF* function evaluates a logical expression. You can use *IF* to display a 
 
 ## Solution of Lab
 
+### Quick
+
+---
+
+### Manual
+
 %[https://www.youtube.com/watch?v=wOgPmnzzOdU] 
+
+* **NOTE: Watch the Full Video to get Full Scores on Check My Progress.**
+    
+* Change **Form Name** to `On the Rise Bakery Survey`
+    
+* Download File from [HERE](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1064/On%20the%20Rise%20Bakery%20Survey%20\(Responses\).xlsx)
+    
 
 ---
 
