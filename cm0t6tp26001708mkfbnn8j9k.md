@@ -513,7 +513,7 @@ The *IF* function evaluates a logical expression. You can use *IF* to display a 
     
 * Change **Form Name** to `On the Rise Bakery Survey`
     
-* Download File from [H](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1064/On%20the%20Rise%20Bakery%20Survey%20\(Responses\).xlsx)[ERE](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1064/On%20the%20Rise%20Bakery%20Survey%20\(Responses\).xlsx)
+* Download File from [H](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1064/On-the-rise-bakery-survey-responses.xlsx)[ERE](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1064/On-the-rise-bakery-survey-responses.xlsx)
     
 
 ---
