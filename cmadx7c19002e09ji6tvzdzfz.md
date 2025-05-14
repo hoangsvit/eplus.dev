@@ -21,12 +21,13 @@ Link: [Google Cloud Skills Boost - Games 5703](https://www.cloudskillsboost.goog
 | --- | --- | --- |
 | **The Arcade Base Camp May 2025** | [Google Cloud Skills Boost - Games 6151](https://www.cloudskillsboost.google/games/6151) | <mark>1q-basecamp-5591</mark> |
 | **Building Blocks!** | [Google Cloud Skills Boost - Games 6154](https://www.cloudskillsboost.google/games/6154) | <mark>1q-build-19221</mark> |
+| **NetworSkills** | [Google Cloud Skills Boost - Games 6167](https://www.cloudskillsboost.google/games/6167) | <mark>1q-networskill-05192</mark> |
 | **The Arcade Base Camp May 2025 - LEVEL 1** | [Google Cloud Skills Boost - Games 6152](https://www.cloudskillsboost.google/games/6152) | <mark>1q-reporting-1292</mark> |
 | **The Arcade Base Camp May 2025 - LEVEL 2** | [Google Cloud Skills Boost - Games 6153](https://www.cloudskillsboost.google/games/6153) | <mark>1q-integrate-3522</mark> |
 | The Arcade Trivia May 2025 - **Week 1** | [Google Cloud Skills Boost - Games 6155](https://www.cloudskillsboost.google/games/6155) | <mark>1q-trivia-01202</mark> |
-| The Arcade Trivia May 2025 - **Week 2** | Coming Soon | Coming Soon |
-| The Arcade Trivia May 2025 - **Week 3** | Coming Soon | Coming Soon |
-| The Arcade Trivia May 2025 - **Week 4** | Coming Soon | Coming Soon |
+| The Arcade Trivia May 2025 - **Week 2** | [Google Cloud Skills Boost - Games 6164](https://www.cloudskillsboost.google/games/6164) | <mark>1q-trivia-30172</mark> |
+| The Arcade Trivia May 2025 - **Week 3** | [Google Cloud Skills Boost - Games 6165](https://www.cloudskillsboost.google/games/6165) | <mark>1q-trivia-73310</mark> |
+| The Arcade Trivia May 2025 - **Week 4** | [Google Cloud Skills Boost - Games 6168](https://www.cloudskillsboost.google/games/6168) | <mark>1q-trivia-09604</mark> |
 
 ---
 
