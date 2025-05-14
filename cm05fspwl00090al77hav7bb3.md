@@ -6,7 +6,7 @@ datePublished: Thu Aug 22 2024 15:27:55 GMT+0000 (Coordinated Universal Time)
 cuid: cm05fspwl00090al77hav7bb3
 slug: validate-data-in-google-sheets-gsp1062
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747207383137/42552cfe-00c6-4106-a1b1-d5ff3eb4e623.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724340463772/d6df64cd-132c-4b90-a2eb-0936c7dbcb01.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747207413346/edd5978b-2df2-4bc2-973d-dcc038291d76.png
 tags: validate-data-in-google-sheets-gsp1062, gsp1262, validate-data-in-google-sheets
 
 ---
