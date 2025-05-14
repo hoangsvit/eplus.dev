@@ -505,22 +505,33 @@ The *IF* function evaluates a logical expression. You can use *IF* to display a 
 
 ### Quick
 
+%[https://youtu.be/F65L1wv9T_k] 
+
+---
+
+* **NOTE: Watch the Full Video for Full Scores on Check My Progress.**
+    
+* Change **Form Name** to `On the Rise Bakery Survey`
+    
+* Download File from [H](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1064/On%20the%20Rise%20Bakery%20Survey%20\(Responses\).xlsx)[ERE](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1064/On%20the%20Rise%20Bakery%20Survey%20\(Responses\).xlsx)
+    
+
 ---
 
 ### Manual
 
 %[https://www.youtube.com/watch?v=wOgPmnzzOdU] 
 
-* **NOTE: Watch the Full Video to get Full Scores on Check My Progress.**
+* **NOTE: Watch the Full Video to get Full Scores** [**on**](https://drive.google.com/drive/folders/13x1P8_XB1pPVZzLs2jGPnjpPYWDZFw-A?usp=sharing) **Check My Progress.**
     
-* Change **Form Name** to `On the Rise Bakery Survey`
+* Change **Form Name** to `On` [`the`](https://drive.google.com/drive/folders/13x1P8_XB1pPVZzLs2jGPnjpPYWDZFw-A?usp=sharing) `Rise Bakery Survey`
     
 * Download File from [HERE](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1064/On%20the%20Rise%20Bakery%20Survey%20\(Responses\).xlsx)
     
 
 ---
 
-### **Task 1. Create a survey using Google Forms**
+**Task 1. Create a survey using Google Forms**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725776198981/fdc84465-675e-406b-8fa3-3207f801e044.png align="center")
 
