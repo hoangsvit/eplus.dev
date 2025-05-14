@@ -1,12 +1,13 @@
 ---
 title: "Validate Data in Google Sheets - GSP1062"
+seoTitle: "Validate Data in Google Sheets - GSP1062"
 seoDescription: "For this lab you read through a fictitious business scenario. By completing the various lab activities, you assist the characters with their Google Sheets u"
 datePublished: Thu Aug 22 2024 15:27:55 GMT+0000 (Coordinated Universal Time)
 cuid: cm05fspwl00090al77hav7bb3
 slug: validate-data-in-google-sheets-gsp1062
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724337137126/9b1c47ad-19ed-4ef6-a2a2-5c23c2810d3f.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747207383137/42552cfe-00c6-4106-a1b1-d5ff3eb4e623.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724340463772/d6df64cd-132c-4b90-a2eb-0936c7dbcb01.jpeg
-tags: validate-data-in-google-sheets-gsp1062
+tags: validate-data-in-google-sheets-gsp1062, gsp1262, validate-data-in-google-sheets
 
 ---
 
@@ -369,26 +370,20 @@ Clean Data
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=wxCLm9jOe-0] 
+%[https://youtu.be/iRm03F4b28U] 
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
 <div data-node-type="callout-text">This laboratory may <strong>not be completed</strong> so do it by hand in the video to be graded.</div>
 </div>
 
-<mark>Download file:</mark> [Copy of On The Rise Bakery Customers and Items.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1062/Copy%20of%20On%20The%20Rise%20Bakery%20Customers%20and%20Items.xlsx)
-
-The support file is the steps of **Task 1** and **Task 2** (Create a filter)
-
-Continue to follow the instructions of the lab from the **Create a Filter View**
-
-or Download file: [Copy of On The Rise Bakery Customers and Items (Task 2).xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1062/Copy%20of%20On%20The%20Rise%20Bakery%20Customers%20and%20Items%20(Task%202).xlsx) (import)
+<mark>Download file:</mark> [GSP1062.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1062/GSP1062.xlsx) *(Support task 3 → 5)*
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724338915156/4740f919-611e-4ab8-b398-7eeec543a5f6.png align="center")
 
 ---
 
-Manual
+### Manual
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724338189304/7958c0cb-fab0-40a0-bbfd-859397b458ad.png align="center")
 
