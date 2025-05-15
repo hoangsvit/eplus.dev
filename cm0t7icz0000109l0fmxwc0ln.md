@@ -5,9 +5,9 @@ seoDescription: "For this lab you read through a fictitious business scenario. B
 datePublished: Sun Sep 08 2024 06:42:23 GMT+0000 (Coordinated Universal Time)
 cuid: cm0t7icz0000109l0fmxwc0ln
 slug: pivot-tables-in-google-sheets-gsp1065
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725776695016/543e4a05-0f76-4226-85ba-a57882e26b6b.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725777726191/ad2c1968-4f59-4d3a-8345-2509b0c738c0.jpeg
-tags: pivot-tables-in-google-sheets-gsp1065
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747277879294/33bdf805-fddd-49de-8b31-e9820478a411.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747278160156/14cd0605-3cbb-4732-ad9f-5ab5785661a9.png
+tags: pivot-tables-in-google-sheets-gsp1065, gsp1065, pivot-tables-in-google-sheets
 
 ---
 
@@ -395,6 +395,16 @@ Click *Check my progress* to verify the objective.
 ---
 
 ## Solution of Lab
+
+### Quick
+
+%[https://youtu.be/t-e7U97lm68] 
+
+**Download file:** [On the Rise Bakery Web Traffic.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1065/On%20the%20Rise%20Bakery%20Web%20Traffic.xlsx)
+
+---
+
+### Manual
 
 %[https://www.youtube.com/watch?v=D_t-jjvlO5g] 
 
