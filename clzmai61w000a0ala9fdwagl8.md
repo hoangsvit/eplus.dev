@@ -5,9 +5,9 @@ seoDescription: "The Pub/Sub service allows applications to exchange messages re
 datePublished: Fri Aug 09 2024 05:52:07 GMT+0000 (Coordinated Universal Time)
 cuid: clzmai61w000a0ala9fdwagl8
 slug: pub-sub-qwik-start-python-gsp094
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723182295783/afc0e6d0-0a8e-4dbc-9b60-dbc36008ba94.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723182713635/f344e205-e996-4cd9-94f5-fca0e55ef111.png
-tags: pubsub-qwik-start-python-gsp094
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747464471465/10de32e8-50cd-4297-9fea-a4084038c714.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747464498760/aeb24ac9-52e1-4460-a41e-58b913558f04.png
+tags: python, pubsub-qwik-start-python-gsp094, gsp094, pubsub-qwik-start-python, pubsub-qwik-start
 
 ---
 
@@ -369,10 +369,10 @@ A \_\_\_\_\_ is a shared string that allows applications to connect with one ano
 
 ### Solution of Lab
 
-%[https://www.youtube.com/watch?v=8fZVa7b6mLA] 
+%[https://youtu.be/DS1UeycUdO8] 
 
 ```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/PubSub%20Qwik%20Start%20Python/quicklabgsp094.sh
-sudo chmod +x quicklabgsp094.sh
-./quicklabgsp094.sh
+curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/PubSub%20Qwik%20Start%20Python/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
 ```
