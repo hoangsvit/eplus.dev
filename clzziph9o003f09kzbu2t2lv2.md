@@ -5,9 +5,9 @@ seoDescription: "In Kubernetes Engine, a private cluster is a cluster that makes
 datePublished: Sun Aug 18 2024 12:02:45 GMT+0000 (Coordinated Universal Time)
 cuid: clzziph9o003f09kzbu2t2lv2
 slug: setting-up-a-private-kubernetes-cluster-gsp178
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723982087473/5b60ba16-715a-4e74-98d0-173efcb6e937.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723982552852/cd1639a9-050b-4007-b21c-824016606334.png
-tags: setting-up-a-private-kubernetes-cluster-gsp178
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747462914915/8873791c-a037-427f-a324-8c36972252ca.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747462928080/0d3b01d4-c4a3-43f4-b011-3e9949c72bbb.png
+tags: setting-up-a-private-kubernetes-cluster-gsp178, gsp178, setting-up-a-private-kubernetes-cluster
 
 ---
 
@@ -533,45 +533,14 @@ At this point, the only IP addresses that have access to the master are the addr
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=QKp_Hpxf5IQ] 
+%[https://youtu.be/YiTqnD5aSjY] 
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747462817646/9b6c0038-e6ae-40cd-9530-2d4b1c0344bd.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747462785455/94fea337-cc0f-4a32-a636-f375d605d80c.png align="center")
 
 ```apache
-export ZONE=
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723982506750/15f84447-5423-4254-8594-04d98f4ed973.png align="center")
-
-```apache
-gcloud config set compute/zone $ZONE
-export REGION=${ZONE%-*}
-gcloud beta container clusters create private-cluster \
-    --enable-private-nodes \
-    --master-ipv4-cidr 172.16.0.16/28 \
-    --enable-ip-alias \
-    --create-subnetwork ""
-gcloud compute instances create source-instance --zone=$ZONE --scopes 'https://www.googleapis.com/auth/cloud-platform'
-NAT_IAP_CLOUDHUSTLER=$(gcloud compute instances describe source-instance --zone=$ZONE | grep natIP | awk '{print $2}')
-gcloud container clusters update private-cluster \
-    --enable-master-authorized-networks \
-    --master-authorized-networks $NAT_IAP_CLOUDHUSTLER/32
-gcloud container clusters delete private-cluster --zone=$ZONE --quiet
-gcloud compute networks subnets create my-subnet \
-    --network default \
-    --range 10.0.4.0/22 \
-    --enable-private-ip-google-access \
-    --region=$REGION \
-    --secondary-range my-svc-range=10.0.32.0/20,my-pod-range=10.4.0.0/14
-gcloud beta container clusters create private-cluster2 \
-    --enable-private-nodes \
-    --enable-ip-alias \
-    --master-ipv4-cidr 172.16.0.32/28 \
-    --subnetwork my-subnet \
-    --services-secondary-range-name my-svc-range \
-    --cluster-secondary-range-name my-pod-range \
-    --zone=$ZONE
-NAT_IAP_Cloud=$(gcloud compute instances describe source-instance --zone=$ZONE | grep natIP | awk '{print $2}')
-gcloud container clusters update private-cluster2 \
-    --enable-master-authorized-networks \
-    --zone=$ZONE \
-    --master-authorized-networks $NAT_IAP_Cloud/32
+curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Setting%20up%20a%20Private%20Kubernetes%20Cluster/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
 ```
