@@ -5,8 +5,8 @@ seoDescription: "In this lab, you will explore using the Managed Service for Pro
 datePublished: Tue Aug 27 2024 05:48:56 GMT+0000 (Coordinated Universal Time)
 cuid: cm0c0beji00010al7e6aqbttk
 slug: collect-metrics-from-exporters-using-the-managed-service-for-prometheus-gsp1026
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724737370200/1eeecfd1-88b6-4116-9792-26782b56d933.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747470787115/a74b4123-00f3-4061-8a14-56b2c6d0e938.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747471162219/bb55105b-4dbb-4a01-aed8-fc1265d12727.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747471171209/bc5dd9b0-b285-4b0d-9262-2ee5f6bd838c.png
 tags: collect-metrics-from-exporters-using-the-managed-service-for-prometheus-gsp1026, gsp1262, collect-metrics-from-exporters-using-the-managed-service-for-prometheus
 
 ---
