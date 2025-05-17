@@ -6,8 +6,8 @@ datePublished: Tue Aug 27 2024 05:48:56 GMT+0000 (Coordinated Universal Time)
 cuid: cm0c0beji00010al7e6aqbttk
 slug: collect-metrics-from-exporters-using-the-managed-service-for-prometheus-gsp1026
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724737370200/1eeecfd1-88b6-4116-9792-26782b56d933.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724737713558/8d1c123b-9dd0-453d-8f01-046a729c4a9d.jpeg
-tags: collect-metrics-from-exporters-using-the-managed-service-for-prometheus-gsp1026
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747470787115/a74b4123-00f3-4061-8a14-56b2c6d0e938.png
+tags: collect-metrics-from-exporters-using-the-managed-service-for-prometheus-gsp1026, gsp1262, collect-metrics-from-exporters-using-the-managed-service-for-prometheus
 
 ---
 
@@ -283,7 +283,7 @@ export ZONE=us-east4-c
 
 ```apache
 ./prometheus \
-  --config.file=documentation/examples/prometheus.yml --export.label.project-id=$PROJECT_ID --export.label.location=$ZONE 
+  --config.file=documentation/examples/prometheus.yml --export.label.project-id=$PROJECT_ID --export.label.location=$ZONE
 ```
 
 After the prometheus binary begins you should be able to go to managed prometheus in the Console UI and run a PromQL query “up” to see the prometheus binary is available (will show localhost running one as the instance name).
@@ -390,16 +390,14 @@ Try selecting other metrics that appear to view the data exported.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=6CVYD4g0nC0] 
+%[https://youtu.be/ZUqQWv4bB1Q] 
 
 ```apache
-export ZONE=
+curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/Collect%20Metrics%20from%20Exporters%20using%20the%20Managed%20Service%20for%20Prometheus/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724737561419/6faef699-534a-4301-9919-05ff4020ca59.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747470718223/bd4f9e00-0a28-4a6f-9dc3-afe695925d3e.png align="center")
 
-```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/2024%20Collect%20Metrics%20from%20Exporters%20using%20the%20Managed%20Service%20for%20Prometheus/quicklabgsp1026.sh
-sudo chmod +x quicklabgsp1026.sh
-./quicklabgsp1026.sh
-```
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747470917928/b1fd9ad5-084e-45d2-bc62-f09ec52c5549.png align="center")
