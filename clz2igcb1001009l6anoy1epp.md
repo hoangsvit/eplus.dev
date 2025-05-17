@@ -5,9 +5,9 @@ seoDescription: "In this lab, you learn how to use Cloud Storage Bucket Lock fea
 datePublished: Fri Jul 26 2024 09:39:15 GMT+0000 (Coordinated Universal Time)
 cuid: clz2igcb1001009l6anoy1epp
 slug: google-cloud-storage-bucket-lock-gsp297
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721986458901/c0e9db6e-2e87-4cd8-a0be-668badc38deb.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721986703486/3172a4d6-bc41-45a1-a5a6-9aed1c5f8fb7.png
-tags: google-cloud-storage-bucket-lock-gsp297
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747473479410/97293601-a2d0-4abb-be67-26a7a996a8d2.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747473492011/e74ae8c1-a4da-4c82-b4ad-5fe1e15f6d7a.png
+tags: google-cloud-storage, google-cloud-storage-bucket-lock-gsp297, gsp297, google-cloud-storage-bucket-lock, bucket-lock
 
 ---
 
@@ -300,11 +300,11 @@ gsutil rb "gs://$BUCKET/"
 
 ---
 
-### Answer of Lab
+### Solution of Lab
 
 %[https://www.youtube.com/watch?v=s-psIayBLg8&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
-```powershell
+```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Google%20Cloud%20Storage%20Bucket%20Lock/quicklabgsp297.sh
 sudo chmod +x quicklabgsp297.sh
 ./quicklabgsp297.sh
