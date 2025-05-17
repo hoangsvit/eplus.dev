@@ -637,7 +637,7 @@ sudo chmod +x techcps499.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723973850661/d9a2a36a-2cde-44f8-804e-addf2bf793fe.png align="center")
 
-### Numeric choice value - Go to Task 1:
+**Numeric choice value - Go to Task 1:**
 
 * Point No.2 and Select a **region** value using lab instructions
     
@@ -646,7 +646,7 @@ sudo chmod +x techcps499.sh
 
 **Provide your confirmation type:** `Y` **and** `Enter` **(follow same process <mark>3 times</mark>)**
 
-### Under: Task 1
+**Under: Task 1**
 
 * "Restrict access with IAP" perform using lab instructions
     
