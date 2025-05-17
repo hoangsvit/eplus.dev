@@ -5,9 +5,9 @@ seoDescription: "In this lab, you build a minimal web application with Google Ap
 datePublished: Sun Aug 18 2024 09:42:39 GMT+0000 (Coordinated Universal Time)
 cuid: clzzdpaxx000008lbc52obeyp
 slug: user-authentication-identity-aware-proxy-gsp499
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723973708686/e66f2679-955a-481f-8625-c303e43b714e.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723974146085/ef9b37e2-e67d-4c48-b569-da2d020138d3.png
-tags: user-authentication-identity-aware-proxy-gsp499
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747467501163/1dd722a3-3427-4100-8e8c-374f4b1e4b4b.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747467641433/a312b401-fc86-48ae-8611-21cd6ccee684.png
+tags: user-authentication-identity-aware-proxy-gsp499, gsp499, user-authentication-identity-aware-proxy
 
 ---
 
@@ -612,6 +612,20 @@ If IAP is turned off or bypassed, the verified data would either be missing, or 
 ---
 
 ## Solution of Lab
+
+### Quick
+
+%[https://youtu.be/m3lgM8YXHPA] 
+
+```apache
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/User%20Authentication%20Identity-Aware%20Proxy/gsp499.sh
+sudo chmod +x *.sh
+./*.sh
+```
+
+---
+
+### Manual
 
 %[https://www.youtube.com/watch?v=BMKPS7EeD0A] 
 
