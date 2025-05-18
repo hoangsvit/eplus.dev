@@ -277,7 +277,7 @@ Use IFERROR and ISERROR.
 
 %[https://www.youtube.com/watch?v=Eqj1mlLsa7c] 
 
----
+### Quick
 
 <mark>Download file:</mark> [GSP1063xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1063/techcpsgsp1063.xlsx)
 
@@ -293,7 +293,9 @@ Use IFERROR and ISERROR.
 
 ---
 
-### Task 1. Manipulate data
+### Manual
+
+**Task 1. Manipulate data**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724824324657/6ddc5b90-b5f0-45a0-834d-f9a7194d7619.png align="center")
 
@@ -307,7 +309,7 @@ Use IFERROR and ISERROR.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724824841634/e442e902-637b-4099-a305-fd5812474bd4.png align="center")
 
-### Task 2: Find and replace data
+**Task 2: Find and replace data**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724824962222/9f063e8d-e488-4d62-b4f1-bc25a40cec85.png align="center")
 
@@ -319,4 +321,4 @@ Use IFERROR and ISERROR.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724825264978/f2a5fdf9-a5d7-4347-a5c9-ace9cdbeee86.png align="center")
 
-### **Task 3. Retrieve data using VLOOKUP and QUERY**
+Task 3. Retrieve data using VLOOKUP and QUERY
