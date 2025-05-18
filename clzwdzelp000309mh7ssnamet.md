@@ -5,9 +5,9 @@ seoDescription: "Looker is a modern data platform in Google Cloud that you can u
 datePublished: Fri Aug 16 2024 07:27:12 GMT+0000 (Coordinated Universal Time)
 cuid: clzwdzelp000309mh7ssnamet
 slug: modularizing-lookml-code-with-extends-gsp936
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723793406778/ff78e309-f43b-4236-805f-6fa2751f68c9.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723793413390/0a63d99f-d09d-46a4-ae93-22ca9a9ad6b9.png
-tags: modularizing-lookml-code-with-extends-gsp936
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747552208220/2afc3e70-c3a7-41d1-b5d2-d4f5778c4a5f.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747552523530/0e7325c2-6eb0-46d6-be2d-e395358aaaf5.png
+tags: modularizing-lookml-code-with-extends-gsp936, gsp936, modularizing-lookml-code-with-extends
 
 ---
 
@@ -393,7 +393,7 @@ Click *Check my progress* to verify the objective.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=3Cc1sEEF0vY] 
+%[https://youtu.be/Y-e4rvEWrKY] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723792222422/479ae2be-99ef-4fad-8a07-e52cc0ff64ef.png align="center")
 
@@ -762,3 +762,5 @@ explore: conversions {
   }
 }
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747552488158/f8ed4713-00d2-49d0-80f6-1e86df0d12f0.png align="center")
