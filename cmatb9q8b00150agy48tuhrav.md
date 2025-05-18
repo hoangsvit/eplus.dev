@@ -360,39 +360,6 @@ View logs to confirm that there are log messages with that execution ID.
     
     The Cloud Run function will output information similar to below:
     
-    ```plaintext
-    LEVEL: 
-    NAME: nodejs-pubsub-function
-    EXECUTION_ID: h4v6akxf4sxt
-    TIME_UTC: 2024-08-05 15:15:25.723
-    LOG: Hello, Cloud Function Gen2!
-    
-    
-    LEVEL: I
-    NAME: nodejs-pubsub-function
-    EXECUTION_ID: 
-    TIME_UTC: 2024-08-05 15:15:25.711
-    LOG: 
-    
-    LEVEL: 
-    NAME: nodejs-pubsub-function
-    EXECUTION_ID: h4oxfjn7zlyu
-    TIME_UTC: 2024-08-05 15:10:34.303
-    LOG: Hello, Friend!
-    
-    
-    LEVEL: I
-    NAME: nodejs-pubsub-function
-    EXECUTION_ID: 
-    TIME_UTC: 2024-08-05 15:10:34.291
-    LOG: 
-    
-    LEVEL: 
-    NAME: nodejs-pubsub-function
-    EXECUTION_ID: h4fjhyfxua3k
-    TIME_UTC: 2024-08-05 15:03:16.342
-    LOG: Hello, SGVsbG8gZnJvbSB0aGUgY29tbWFuZCBsaW5l!
-    ```
 
 Your application is deployed, tested, and you can view the logs.
 
