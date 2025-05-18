@@ -5,9 +5,9 @@ seoDescription: "For this lab you read through a fictitious business scenario. B
 datePublished: Thu Aug 22 2024 14:28:14 GMT+0000 (Coordinated Universal Time)
 cuid: cm05dnyzu00030am90gxw4ubg
 slug: 2024-use-charts-in-google-sheets-gsp1061
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724335661715/53499256-3573-4951-ab94-44e826d5c80d.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724336879695/517f5b2a-5b22-4967-8d39-91e8ae6f583a.jpeg
-tags: 2024-use-charts-in-google-sheets-gsp1061
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747554085275/069edcf1-99a7-4799-b7b5-de462e36455c.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747554105259/6c57355a-1307-44ec-b9ed-81552d0f6461.png
+tags: 2024-use-charts-in-google-sheets-gsp1061, use-charts-in-google-sheets-gsp1061, gsp1061, use-charts-in-google-sheets
 
 ---
 
@@ -305,7 +305,7 @@ Share a spreadsheet.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=4PuVtiLyZ84] 
+%[https://youtu.be/ufbaEd8GesU] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724336015079/d182ec48-7216-45de-980b-e19417c3b323.png align="center")
 
@@ -313,7 +313,7 @@ Share a spreadsheet.
 
 ---
 
-<mark>Download file:</mark>
+**<mark>Download file:</mark>**
 
 * [On the Rise Bakery Sales and Locations.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1061/On%20the%20Rise%20Bakery%20Sales%20and%20Locations.xlsx)
     
