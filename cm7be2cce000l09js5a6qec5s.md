@@ -155,4 +155,4 @@ At this point, you would click the **Save** button to save your new customized a
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=RSzDvRADRlU&ab_channel=QuickLab%E2%98%81%EF%B8%8F]
+%[https://youtu.be/fT3TF7ltdVg]
