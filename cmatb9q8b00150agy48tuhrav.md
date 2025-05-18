@@ -294,7 +294,7 @@ Cloud Run functions are event driven, meaning a trigger type must be specified. 
     
     ```apache
     gcloud functions describe nodejs-pubsub-function \
-      --region=us-central1 
+      --region=us-central1
     ```
     
     An ACTIVE status indicates that the function has been deployed.
@@ -352,7 +352,7 @@ View logs to confirm that there are log messages with that execution ID.
     
     ```apache
     gcloud functions logs read nodejs-pubsub-function \
-      --region=us-central1 
+      --region=us-central1
     ```
     
     **Note:**  
@@ -360,7 +360,7 @@ View logs to confirm that there are log messages with that execution ID.
     
     The Cloud Run function will output information similar to below:
     
-    ```apache
+    ```plaintext
     LEVEL: 
     NAME: nodejs-pubsub-function
     EXECUTION_ID: h4v6akxf4sxt
