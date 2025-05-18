@@ -5,9 +5,9 @@ seoDescription: "Looker is a modern data platform in Google Cloud that you can u
 datePublished: Sat Aug 17 2024 02:51:15 GMT+0000 (Coordinated Universal Time)
 cuid: clzxjke38000c09ju8zs5855z
 slug: caching-and-datagroups-with-lookml-gsp893
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723861658777/1df34127-6f5b-4849-b630-77eb28c77a91.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723863062482/ab657a0e-76eb-4cf4-acda-a2678854b6bb.png
-tags: caching-and-datagroups-with-lookml-gsp893
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747552934898/6b8bc77a-dfa9-42da-af74-07b883785e34.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747553005815/25aae782-9da6-4cc7-aa51-642d60541585.png
+tags: caching-and-datagroups-with-lookml-gsp893, gsp893, caching-and-datagroups-with-lookml
 
 ---
 
@@ -202,7 +202,7 @@ Click *Check my progress* to verify the objective.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=lFGWISl7FvY] 
+%[https://youtu.be/ZFn5Sa2Q4Ss] 
 
 **Toggle Development mode button &gt; Develop &gt; qwiklabs-ecommerce**
 
@@ -268,3 +268,8 @@ explore: events {
   }
 }
 ```
+
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text">Just wait a little bit</div>
+</div>
