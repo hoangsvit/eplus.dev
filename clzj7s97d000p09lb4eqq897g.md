@@ -1,13 +1,13 @@
 ---
 title: "Using Custom Fields in Looker Explores - GSP983"
 seoTitle: "Using Custom Fields in Looker Explores - GSP983"
-seoDescription: "Looker provides the ability for non-developer users to create and utilize ad hoc fields for richer data analysis. This is done by creating custom measures, "
+seoDescription: "Looker provides the ability for non-developer users to create and utilize ad hoc fields for richer data analysis. This is done by creating custom measures,"
 datePublished: Wed Aug 07 2024 02:12:40 GMT+0000 (Coordinated Universal Time)
 cuid: clzj7s97d000p09lb4eqq897g
 slug: using-custom-fields-in-looker-explores-gsp983
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722996602228/1ff8856f-18bd-4b5e-b764-fbe094746f8f.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722996704342/a65ca858-d877-43ba-9307-1ae30fdb4aea.png
-tags: using-custom-fields-in-looker-explores-gsp983
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747549885593/67e08a9b-689b-400c-be0a-bd433708fed7.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747549898058/d8ef54e4-5b99-4250-bb4a-b605c285fffb.png
+tags: using-custom-fields-in-looker-explores-gsp983, gsp983, using-custom-fields-in-looker-explores
 
 ---
 
@@ -165,4 +165,92 @@ Click *Check my progress* to verify the objective.
 
 ### Solution of Lab
 
-%[https://www.youtube.com/watch?v=yitMGeEgUIs]
+%[https://youtu.be/1VKyZkXk6Gc] 
+
+### **🚀 Task 1: Create a custom measure**
+
+1. Toggle on **Development Mode** (find it at the bottom-left corner).
+    
+2. Navigate to **Explore &gt; E-Commerce Training &gt; Order Items**.
+    
+3. Expand the **Inventory Items** section.
+    
+4. Click the **More options (⋮)** icon next to the **Cost** field.
+    
+5. Choose **Aggregate &gt; Average**.
+    
+6. Expand **Custom Fields** to see your newly created measure.
+    
+7. Alternatively, you can create it manually:
+    
+
+* In **Custom Fields**, click **\+ Add &gt; Custom Measure**.
+    
+* **Field to measure**: `Inventory Items > Cost`
+    
+* **Measure type**: `Average`
+    
+* **Name**: `Average of Cost`
+    
+* **Format**: `U.S. Dollars`
+    
+* **Decimals**: `2`
+    
+* Click **Save**.
+    
+
+---
+
+### **📊 Task 2: Create a custom grouping**
+
+1. In the **Custom Fields** section, select your **Average of Cost** measure (the one at the bottom if there are duplicates) to add it to your query.
+    
+2. Add **Product Name** (from Inventory Items) to the query.
+    
+3. Add **Country** (from Users), then click the filter icon:
+    
+
+* Set the filter to **is equal to** &gt; **USA**.
+    
+
+4. Click the **More options (⋮)** icon next to **State** (from Users) and select **Group**.
+    
+5. Configure the **Group By State** settings:
+    
+
+* **Group name**: `Pacific Northwest`
+    
+* Add these values: **Oregon**, **Idaho**, **Washington**.
+    
+* Ensure **Group remaining values** is checked.
+    
+* Click **Save**.
+    
+
+6. Select the newly created **State Groups** field to add it to your view.
+    
+7. Click **Run**.
+    
+
+---
+
+### **🔍 Task 3: Adding a filter to a custom measure**
+
+1. In **Custom Fields**, find your **Average of Cost** measure (again, the bottom one if duplicated) and click its **Filter by field** icon.
+    
+2. Set the filter condition to **is greater than** &gt; **200**.
+    
+3. Click **Run**.
+    
+
+---
+
+### **🧮 Task 4: Using table calculations**
+
+1. Add **Order Count** (from Order Items) to your query.
+    
+2. Click the **Settings (⚙️)** icon on the **Order Count** column in your results table.
+    
+3. Select **Calculations &gt; % of column**.
+    
+4. Click **Run**.
