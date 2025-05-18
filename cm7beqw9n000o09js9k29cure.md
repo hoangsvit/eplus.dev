@@ -5,8 +5,8 @@ seoDescription: "Looker is a modern data platform in Google Cloud that lets you 
 datePublished: Wed Feb 19 2025 04:23:03 GMT+0000 (Coordinated Universal Time)
 cuid: cm7beqw9n000o09js9k29cure
 slug: creating-tile-based-dashboard-alerts-in-looker-gsp1160
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739938956960/bf142782-cb11-427c-b5ba-8e51ef523e9c.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1739938972015/834de80a-09d0-433c-af2c-fdfcea171c59.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747551303329/946024e6-fca3-4063-a955-911387f981ed.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747551310270/18ca226e-03d0-4bbf-a888-5233d484ac05.png
 tags: creating-tile-based-dashboard-alerts-in-looker-gsp1160, creating-tile-based-dashboard-alerts-in-looker, gsp1160
 
 ---
@@ -207,4 +207,6 @@ In this task, modify an existing tile-based dashboard alert.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=YWMktpCSCKY&ab_channel=QuickLab%E2%98%81%EF%B8%8F]
+%[https://www.youtube.com/watch?v=YWMktpCSCKY&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747551290539/65854309-32f5-4210-b449-7b78a5bb0301.png align="center")
