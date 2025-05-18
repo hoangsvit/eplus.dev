@@ -5,9 +5,9 @@ seoDescription: "Looker is a modern data platform in Google Cloud that you can u
 datePublished: Sat Aug 17 2024 03:29:49 GMT+0000 (Coordinated Universal Time)
 cuid: clzxkxzcd00020ajw1qay1v90
 slug: optimizing-performance-of-lookml-queries-gsp985
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723863475669/79eb0b92-13b5-41ce-ac5c-c31a0e6ac74f.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723865376400/e2193ac4-771d-461e-b740-9bc87e861fa6.png
-tags: optimizing-performance-of-lookml-queries-gsp985
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747553460480/e96c7fb7-3c96-4167-8045-55a46db91a90.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747553561872/180bc559-2732-474c-997c-6dc6480cd7ae.png
+tags: optimizing-performance-of-lookml-queries-gsp985, gsp985, optimizing-performance-of-lookml-queries
 
 ---
 
