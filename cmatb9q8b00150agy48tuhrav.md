@@ -391,9 +391,8 @@ View logs to confirm that there are log messages with that execution ID.
     NAME: nodejs-pubsub-function
     EXECUTION_ID: h4fjhyfxua3k
     TIME_UTC: 2024-08-05 15:03:16.342
-    LOG: Hello, "SGVsbG8gZnJvbSB0aGUgY29tbWFuZCBsaW5l"!
+    LOG: Hello, SGVsbG8gZnJvbSB0aGUgY29tbWFuZCBsaW5l!
     ```
-    
 
 Your application is deployed, tested, and you can view the logs.
 
