@@ -5,9 +5,9 @@ seoDescription: "Looker is a modern data platform in Google Cloud that you can u
 datePublished: Fri Aug 16 2024 09:39:25 GMT+0000 (Coordinated Universal Time)
 cuid: clzwipfk600040ammezcjahuf
 slug: employing-best-practices-for-improving-the-usability-of-lookml-projects-gsp1020
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723800560443/15bfd126-63da-4a69-af89-449fcfe5491c.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723801155088/b142dcbc-f9ad-437c-9520-2467b663173a.png
-tags: employing-best-practices-for-improving-the-usability-of-lookml-projects-gsp1020
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747724967921/b732599f-dfb3-4a62-80e1-76a38ed4e9b7.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747725114821/72dd7e2a-bf4b-4072-b4da-58137f3ece36.png
+tags: employing-best-practices-for-improving-the-usability-of-lookml-projects-gsp1020, gsp1020, employing-best-practices-for-improving-the-usability-of-lookml-projects
 
 ---
 
