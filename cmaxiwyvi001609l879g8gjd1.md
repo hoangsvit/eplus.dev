@@ -562,4 +562,4 @@ sudo chmod +x gsp1051.sh
 ./gsp1051.sh
 ```
 
-### **C**
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747806692201/2d4fec2e-81a3-409a-8d88-20c7b9e3303f.png align="center")
