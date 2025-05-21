@@ -751,12 +751,12 @@ Notice that the `configuredAction` is to **DENY** with the name **rate-limit-sie
 
 ## Solution of Lab
 
-%[https://youtu.be/hFBdUHeK70Q] 
+%[https://youtu.be/a0DUvaed4Zw] 
 
 ```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Rate%20Limiting%20with%20Cloud%20Armor%20new/quicklabgsp975.sh
-sudo chmod +x quicklabgsp975.sh
-./quicklabgsp975.sh
+curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/GSP975.sh
+sudo chmod +x GSP975.sh
+./GSP975.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747794267754/6d38288c-f272-4136-bd74-06e69bbb76fe.png align="center")
