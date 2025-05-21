@@ -21,7 +21,7 @@ Link: [Google Cloud Skills Boost - Games 5703](https://www.cloudskillsboost.goog
 | --- | --- | --- |
 | **The Arcade Base Camp May 2025** | [Google Cloud Skills Boost - Games 6151](https://www.cloudskillsboost.google/games/6151) | <mark>1q-basecamp-5591</mark> |
 | **Ready, Set, Skill!** | [Google Cloud Skills Boost - Games 6188](https://www.cloudskillsboost.google/games/6188) | <mark>1q-worknplay-0529</mark> |
-|  |  | <mark>1q-cert-05610</mark> |
+| **The Arcade Certification Zone May 2025** | [Google Cloud Skills Boost - Games 6189](https://www.cloudskillsboost.google/games/6189) | <mark>1q-cert-05610</mark> |
 | **Building Blocks!** | [Google Cloud Skills Boost - Games 6154](https://www.cloudskillsboost.google/games/6154) | <mark>1q-build-19221</mark> |
 | **NetworSkills** | [Google Cloud Skills Boost - Games 6167](https://www.cloudskillsboost.google/games/6167) | <mark>1q-networskill-05192</mark> |
 | **The Arcade Base Camp May 2025 - LEVEL 1** | [Google Cloud Skills Boost - Games 6152](https://www.cloudskillsboost.google/games/6152) | <mark>1q-reporting-1292</mark> |
