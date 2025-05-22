@@ -7,7 +7,7 @@ cuid: cmaxiwyvi001609l879g8gjd1
 slug: deploy-a-modern-web-app-connected-to-a-cloud-spanner-instance-gsp1051
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747805868329/acf048c2-ee01-4dbf-a02b-2e45f418f862.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747806560157/7897038e-e9b0-483d-bec8-dbee5f7aa156.png
-tags: deploy-a-modern-web-app-connected-to-a-cloud-spanner-instance, gsp1051
+tags: deploy-a-modern-web-app-connected-to-a-cloud-spanner-instance, gsp1051, cloud-spanner-instance
 
 ---
 
