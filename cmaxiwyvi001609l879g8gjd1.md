@@ -542,24 +542,18 @@ WHERE
 
 ## Solution of Lab
 
-%[https://youtu.be/cldaRCybxKg] 
+%[https://youtu.be/vVt4btQvkqo] 
 
 ### **Run the following Commands in CloudShell**
-
-```apache
-export REGION=
-```
 
 ```apache
 nvm install 22.6
 ```
 
 ```apache
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Deploy%20a%20Modern%20Web%20App%20connected%20to%20a%20Cloud%20Spanner%20Instance/gsp1051.sh
-
-sudo chmod +x gsp1051.sh
-
-./gsp1051.sh
+curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/Deploy%20a%20Modern%20Web%20App%20connected%20to%20a%20Cloud%20Spanner%20Instance/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747806692201/2d4fec2e-81a3-409a-8d88-20c7b9e3303f.png align="center")
