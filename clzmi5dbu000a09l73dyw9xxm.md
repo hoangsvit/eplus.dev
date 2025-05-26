@@ -5,9 +5,9 @@ seoDescription: "Google Kubernetes Engine (GKE) provides a managed environment f
 datePublished: Fri Aug 09 2024 09:26:07 GMT+0000 (Coordinated Universal Time)
 cuid: clzmi5dbu000a09l73dyw9xxm
 slug: google-kubernetes-engine-qwik-start-gsp100
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723195169062/fd64d21a-a298-463f-a41f-4c7bcc5ee728.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723195556829/6f545a1c-d698-409b-8caa-fab538a50e78.png
-tags: google-kubernetes-engine-qwik-start-gsp100
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748232788436/01a746a6-ac0a-4b33-90e9-66b21a94694c.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1748232809388/40518e3b-76ba-483b-a95f-cecc59869acb.png
+tags: google-kubernetes-engine-qwik-start-gsp100, gsp100, google-kubernetes-engine-qwik-start
 
 ---
 
