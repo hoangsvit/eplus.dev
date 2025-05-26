@@ -1,13 +1,13 @@
 ---
 title: "Introduction to Docker - GSP055"
 seoTitle: "Introduction to Docker - GSP055"
-seoDescription: "Docker is an open platform for developing, shipping, and running applications. With Docker, you can separate your applications from your infrastructure and "
+seoDescription: "Docker is an open platform for developing, shipping, and running applications. With Docker, you can separate your applications from your infrastructure and"
 datePublished: Sat Aug 17 2024 13:56:13 GMT+0000 (Coordinated Universal Time)
 cuid: clzy7bjkt000008l37fgm7p2u
 slug: introduction-to-docker-gsp055
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723902401822/fcaf58ab-0a89-4a12-a9a0-5b08f0706fc7.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723902945426/aa89e500-f157-4df3-bf81-05fb8a0cfebc.png
-tags: introduction-to-docker-gsp055
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748239659070/5040cb24-f757-4206-bc38-b720489409dc.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1748239682269/fe7a815b-f68f-4a79-aa14-5fe89b568592.png
+tags: docker, introduction-to-docker, introduction-to-docker-gsp055, gsp055
 
 ---
 
