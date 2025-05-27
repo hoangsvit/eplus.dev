@@ -207,7 +207,7 @@ project = qwiklabs-gcp-04-04055b00f784
 Run the following command to set the region for your project:
 
 ```apache
-gcloud config set compute/region us-east1 
+gcloud config set compute/region us-east1
 ```
 
 ## **How do APIs work?**
@@ -536,6 +536,22 @@ Click **Check my progress** to verify your performed task. The assessment score 
 ---
 
 ## Solution of Lab
+
+### Manual
+
+%[https://youtu.be/3PLjodC9ghQ] 
+
+```apache
+curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Introduction%20to%20APIs%20in%20Google%20Cloud/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1748324843746/0e9383b4-6e0c-4700-b6c0-a7366098c92f.png align="center")
+
+---
+
+### Quick
 
 %[https://www.youtube.com/watch?v=SLw7bAmBlW0] 
 
