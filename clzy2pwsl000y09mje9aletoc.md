@@ -5,9 +5,9 @@ seoDescription: "APIs (Application Programming Interfaces) are software programs
 datePublished: Sat Aug 17 2024 11:47:25 GMT+0000 (Coordinated Universal Time)
 cuid: clzy2pwsl000y09mje9aletoc
 slug: introduction-to-apis-in-google-cloud-gsp294
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723894889817/4ea9ca1e-2e38-4831-bf4a-d59789b3c0f7.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723895230102/c8664f56-29c8-408e-b22b-5d866a68b093.png
-tags: introduction-to-apis-in-google-cloud-gsp294
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748324129428/b3e6577e-87a6-4ef7-9f23-751d758843e8.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1748324146340/16886ac5-a39a-4fea-8ca3-acb218a7e754.png
+tags: introduction-to-apis-in-google-cloud-gsp294, gsp294, introduction-to-apis-in-google-cloud
 
 ---
 
