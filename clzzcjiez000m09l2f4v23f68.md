@@ -5,9 +5,9 @@ seoDescription: "Service accounts are a special type of Google account that gran
 datePublished: Sun Aug 18 2024 09:10:09 GMT+0000 (Coordinated Universal Time)
 cuid: clzzcjiez000m09l2f4v23f68
 slug: service-accounts-and-roles-fundamentals-gsp199
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723971706746/ac529544-f4c3-45c8-a2c8-aa5aab79ce61.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723972196854/c69b6e52-4584-4e35-86a1-128282c6c4bb.png
-tags: service-accounts-and-roles-fundamentals-gsp199
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748317472992/2d947910-7749-481c-a68d-e4b4198d6321.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1748317509279/86e14373-0c5b-4a14-b46f-25203b1c8add.png
+tags: service-accounts-and-roles-fundamentals-gsp199, gsp199, service-accounts-and-roles-fundamentals
 
 ---
 
