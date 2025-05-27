@@ -7,9 +7,9 @@ Setting up a secure Cloud Storage bucket"
 datePublished: Sun Aug 18 2024 11:53:03 GMT+0000 (Coordinated Universal Time)
 cuid: clzzid01y001j0ajqgs6k001p
 slug: getting-started-with-cloud-kms-gsp079
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723981947031/cffd4a91-d92b-4902-b041-53baf94077ac.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723981957680/1f35fd9e-4e0f-40ec-8979-d0cc6de1d847.png
-tags: getting-started-with-cloud-kms-gsp079
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748319155067/0a2f3d94-6557-4422-9e29-edb540368f56.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1748319182876/b6d98f40-4a88-4ade-864e-0b82cbf63f42.png
+tags: getting-started-with-cloud-kms-gsp079, gsp079, getting-started-with-cloud-kms, cloud-kms-gsp079, cloud-kms
 
 ---
 
