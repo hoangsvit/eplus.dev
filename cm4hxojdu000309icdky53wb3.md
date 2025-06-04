@@ -7,8 +7,8 @@ Browse quickly through availa"
 datePublished: Tue Dec 10 2024 04:00:36 GMT+0000 (Coordinated Universal Time)
 cuid: cm4hxojdu000309icdky53wb3
 slug: apis-explorer-create-and-update-a-cluster-gsp288
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733803219983/b5e31264-e4f2-4dee-bf39-313908377b42.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1733803199896/5ab953cd-3a2c-41c4-8283-bf25cd1639e5.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749025474156/124b1ac1-d095-4220-a189-08ce957ef24f.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1749025483335/70455570-cc11-4e3c-b52b-8c0d6a210b01.png
 tags: apis-explorer-create-and-update-a-cluster-gsp288, gsp288
 
 ---
