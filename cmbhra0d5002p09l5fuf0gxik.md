@@ -1,6 +1,6 @@
 ---
 title: "🕵️‍♂️ Fake My History – Tạo lịch sử duyệt web "đẹp đẽ" chỉ trong một nốt nhạc"
-seoTitle: "🕵️‍♂️ Fake My History – Tạo lịch sử duyệt web "đẹp đẽ" chỉ trong một "
+seoTitle: "🕵️‍♂️ Fake My History – Tạo lịch sử duyệt web "đẹp đẽ" chỉ trong một"
 seoDescription: "Dạo này em có nghịch một chút và viết ra một extension nhỏ cho trình duyệt có tên là Fake My History.
 Ý tưởng bắt nguồn từ một tính năng khá thú vị trên Ope"
 datePublished: Wed Jun 04 2025 09:39:17 GMT+0000 (Coordinated Universal Time)
@@ -54,7 +54,7 @@ Hiện tại extension chỉ có thể **cài thủ công** qua chế độ Deve
 ## 🛠 Cấu trúc source code (dành cho anh em thích vọc)
 
 ```plaintext
-cssCopyEdit├── manifest.json     # Cấu hình chính của extension
+├── manifest.json     # Cấu hình chính của extension
 ├── background.js     # Script xử lý logic xóa & ghi lịch sử
 ├── popup.html        # Giao diện popup người dùng
 ├── popup.js          # Xử lý nút bấm và sự kiện
