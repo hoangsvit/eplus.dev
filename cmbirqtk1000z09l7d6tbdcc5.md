@@ -100,7 +100,6 @@ In this task, you will create a SQL derived table called `user_facts` that is fl
 
 1. First, on the bottom left of the Looker User Interface, click the toggle button to enter **Development mode**.
     
-
 2. Click the **Develop** tab, and then click **SQL Runner**.
     
 3. In the **SQL Query** window, add the following query:
@@ -494,7 +493,7 @@ Update a SQL derived table to generate dynamic values using templated filters
 
 > 💡 **Pro Tip:** Follow along with the complete video tutorial to ensure you achieve full scores on all "Check My Progress" validation steps!
 
-**📊 Step 1: Create the** `user_facts` View
+### **📊 Step 1: Create the** `user_facts` View
 
 Create a new view called `user_facts` with the following configuration:
 
