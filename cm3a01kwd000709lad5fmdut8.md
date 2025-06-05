@@ -5,8 +5,8 @@ seoDescription: "Looker is a modern data platform in Google Cloud that lets you 
 datePublished: Sat Nov 09 2024 10:04:52 GMT+0000 (Coordinated Universal Time)
 cuid: cm3a01kwd000709lad5fmdut8
 slug: enhancing-user-interactivity-in-looker-with-liquid-gsp934
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731146661450/185886d0-ddfd-4920-9c63-6a62bfabe2fa.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1731146674785/51903de6-c83e-4000-a348-314af1a1493b.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749092207336/644b89ad-f39a-4090-af2d-727793a770a2.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1749092234382/ac36a538-1f76-4a4e-b9d2-cb87e3658ee7.png
 tags: enhancing-user-interactivity-in-looker-with-liquid-gsp934, gsp934
 
 ---
