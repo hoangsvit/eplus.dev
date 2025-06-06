@@ -388,7 +388,7 @@ Your method should resemble the following:
 
 This firewall rule rejects all requests to your hello world application.
 
-6. To see it in action, **Refresh** your hello world page in your browser. You should now see that access is now forbidden:  
+6. To see it in action, **Refresh** your hello world page in your browser. You should now see that access is now forbidden:
     
 7. Return to the APIs Explorer page for the next step.
     
@@ -649,4 +649,10 @@ Create and deploy a new version of your app
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=IvZf-JShcvI&ab_channel=TechVine]
+%[https://youtu.be/xngtRB8faI8] 
+
+```apache
+curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/APIs%20Explorer%20App%20Engine/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
+```
