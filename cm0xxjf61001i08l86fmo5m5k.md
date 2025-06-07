@@ -5,9 +5,9 @@ seoDescription: "Connected Sheets brings you the power and scale of a BigQuery d
 datePublished: Wed Sep 11 2024 14:02:07 GMT+0000 (Coordinated Universal Time)
 cuid: cm0xxjf61001i08l86fmo5m5k
 slug: connected-sheets-qwik-start-gsp870
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726061591012/b45d6c16-2891-45f4-aa3c-a46d770c9310.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726063314721/11460807-de47-4b99-a6c8-8578279b696b.jpeg
-tags: connected-sheets-qwik-start-gsp870
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749282947111/f1dd8290-fa0e-4099-944a-aea34150ef30.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1749282965660/72b607bf-272a-4c84-9254-24309faa4f39.png
+tags: connected-sheets-qwik-start-gsp870, gsp870, connected-sheets-qwik-start
 
 ---
 
