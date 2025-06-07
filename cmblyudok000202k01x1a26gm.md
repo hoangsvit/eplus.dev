@@ -82,8 +82,6 @@ To complete this lab, you need:
     "Username"
     ```
     
-    Copied!content\_copy
-    
     You can also find the Username in the Lab Details pane.
     
 4. Click **Next**.
@@ -93,8 +91,6 @@ To complete this lab, you need:
     ```apache
     "Password"
     ```
-    
-    Copied!content\_copy
     
     You can also find the Password in the Lab Details pane.
     
@@ -147,8 +143,6 @@ Your Cloud Platform project in this session is set to "PROJECT_ID"
 gcloud auth list
 ```
 
-Copied!content\_copy
-
 4. Click **Authorize**.
     
 
@@ -168,8 +162,6 @@ To set the active account, run:
 ```apache
 gcloud config list project
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -192,8 +184,6 @@ Run the following to set a region and zone for your lab (you can use the region/
 gcloud config set compute/region REGION
 gcloud config set compute/zone ZONE
 ```
-
-Copied!content\_copy
 
 ## Task 1. Verify the cluster
 
@@ -234,8 +224,6 @@ Three service accounts have been created to act as Test Users:
 gcloud iam service-accounts list
 ```
 
-Copied!content\_copy
-
 Three test hosts have been provisioned by the Terraform script. Each node has `kubectl` and `gcloud` installed and configured to simulate a different user persona.
 
 * **gke-tutorial-admin**: kubectl and gcloud are authenticated as a cluster administrator.
@@ -251,8 +239,6 @@ Three test hosts have been provisioned by the Terraform script. Each node has `k
 ```apache
 gcloud compute instances list
 ```
-
-Copied!content\_copy
 
 Output:
 
@@ -277,8 +263,6 @@ Create the Namespaces, Roles, and RoleBindings by logging into the admin instanc
 gcloud compute ssh gke-tutorial-admin
 ```
 
-Copied!content\_copy
-
 **Note:** Ignore the error which relates to gcp auth plugin.
 
 Existing versions of kubectl and custom Kubernetes clients contain provider-specific code to manage authentication between the client and Google Kubernetes Engine. Starting with v1.26, this code will no longer be included as part of the OSS kubectl. GKE users will need to download and use a separate authentication plugin to generate GKE-specific tokens. This new binary, `gke-gcloud-auth-plugin`, uses the [Kubernetes Client-go Credential Plugin](https://kubernetes.io/docs/reference/access-authn-authz/authentication/#client-go-credential-plugins) mechanism to extend kubectl’s authentication to support GKE. For more information, you can check out the following [documentation](https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke).
@@ -292,16 +276,12 @@ To have kubectl use the new binary plugin for authentication instead of using th
 sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
 ```
 
-Copied!content\_copy
-
 3. Set `export USE_GKE_GCLOUD_AUTH_PLUGIN=True` in `~/.bashrc`:
     
 
 ```apache
 echo "export USE_GKE_GCLOUD_AUTH_PLUGIN=True" >> ~/.bashrc
 ```
-
-Copied!content\_copy
 
 4. Run the following command:
     
@@ -310,16 +290,12 @@ Copied!content\_copy
 source ~/.bashrc
 ```
 
-Copied!content\_copy
-
 5. Run the following command to force the config for this cluster to be updated to the Client-go Credential Plugin configuration.
     
 
 ```apache
 gcloud container clusters get-credentials rbac-demo-cluster --zone ZONE
 ```
-
-Copied!content\_copy
 
 On success, you should see this message pop up:
 
@@ -335,8 +311,6 @@ The newly-created cluster will now be available for the standard `kubectl` comma
 ```apache
 kubectl apply -f ./manifests/rbac.yaml
 ```
-
-Copied!content\_copy
 
 Output:
 
@@ -370,8 +344,6 @@ You will now SSH into the owner instance and create a simple deployment in each 
 gcloud compute ssh gke-tutorial-owner
 ```
 
-Copied!content\_copy
-
 **Note:** Ignore the error which relates to gcp auth plugin.
 
 3. When prompted about the zone, enter `n`, so the default zone is used.
@@ -386,16 +358,12 @@ source ~/.bashrc
 gcloud container clusters get-credentials rbac-demo-cluster --zone ZONE
 ```
 
-Copied!content\_copy
-
 5. Create a server in each namespace, first `dev`:
     
 
 ```apache
 kubectl create -n dev -f ./manifests/hello-server.yaml
 ```
-
-Copied!content\_copy
 
 Output:
 
@@ -411,8 +379,6 @@ deployment.apps/hello-server created
 kubectl create -n prod -f ./manifests/hello-server.yaml
 ```
 
-Copied!content\_copy
-
 Output:
 
 ```apache
@@ -426,8 +392,6 @@ deployment.apps/hello-server created
 ```apache
 kubectl create -n test -f ./manifests/hello-server.yaml
 ```
-
-Copied!content\_copy
 
 Output:
 
@@ -451,8 +415,6 @@ As the owner, you will also be able to view all pods.
 kubectl get pods -l app=hello-server --all-namespaces
 ```
 
-Copied!content\_copy
-
 Output:
 
 ```apache
@@ -475,8 +437,6 @@ Now you will open a new terminal, SSH into the auditor instance, and try to view
 gcloud compute ssh gke-tutorial-auditor
 ```
 
-Copied!content\_copy
-
 **Note:** Ignore the error which relates to gcp auth plugin.
 
 3. When prompted about the zone, enter `n`, so the default zone is used.
@@ -491,16 +451,12 @@ source ~/.bashrc
 gcloud container clusters get-credentials rbac-demo-cluster --zone ZONE
 ```
 
-Copied!content\_copy
-
 5. On the "auditor" instance, list all `hello-server` pods in all namespaces with the following:
     
 
 ```apache
 kubectl get pods -l app=hello-server --all-namespaces
 ```
-
-Copied!content\_copy
 
 You should see an error like the following:
 
@@ -519,8 +475,6 @@ Now attempt to view pods in the dev namespace.
 kubectl get pods -l app=hello-server --namespace=dev
 ```
 
-Copied!content\_copy
-
 Output:
 
 ```apache
@@ -535,8 +489,6 @@ hello-server-6c6fd59cc9-h6zg9   1/1       Running   0          13m
 kubectl get pods -l app=hello-server --namespace=test
 ```
 
-Copied!content\_copy
-
 Output:
 
 ```apache
@@ -549,8 +501,6 @@ Error from server (Forbidden): pods is forbidden: User "gke-tutorial-auditor@myp
 ```apache
 kubectl get pods -l app=hello-server --namespace=prod
 ```
-
-Copied!content\_copy
 
 Output:
 
@@ -567,8 +517,6 @@ Finally, verify that the auditor has read-only access by trying to create and de
 kubectl create -n dev -f manifests/hello-server.yaml
 ```
 
-Copied!content\_copy
-
 Output:
 
 ```apache
@@ -582,8 +530,6 @@ Error from server (Forbidden): error when creating "manifests/hello-server.yaml"
 ```apache
 kubectl delete deployment -n dev -l app=hello-server
 ```
-
-Copied!content\_copy
 
 Output:
 
@@ -605,8 +551,6 @@ The sample application will run as a single pod that periodically retrieves all 
 ```apache
 kubectl apply -f manifests/pod-labeler.yaml
 ```
-
-Copied!content\_copy
 
 Output:
 
@@ -634,8 +578,6 @@ Now check the status of the pod. Once the container has finished creating, you'l
 kubectl get pods -l app=pod-labeler
 ```
 
-Copied!content\_copy
-
 Output:
 
 ```apache
@@ -649,8 +591,6 @@ pod-labeler-6d9757c488-tk6sp   0/1       Error     1          1m
 ```apache
 kubectl describe pod -l app=pod-labeler | tail -n 20
 ```
-
-Copied!content\_copy
 
 You should see:
 
@@ -673,8 +613,6 @@ Events:
 ```apache
 kubectl logs -l app=pod-labeler
 ```
-
-Copied!content\_copy
 
 Output:
 
@@ -713,8 +651,6 @@ By inspecting the pod's configuration, you can see it is using the default Servi
 kubectl get pod -oyaml -l app=pod-labeler
 ```
 
-Copied!content\_copy
-
 Output:
 
 ```apache
@@ -743,8 +679,6 @@ Next you'll apply the fix and view the resulting change.
 kubectl apply -f manifests/pod-labeler-fix-1.yaml
 ```
 
-Copied!content\_copy
-
 Output:
 
 ```apache
@@ -760,8 +694,6 @@ deployment.apps/pod-labeler configured
 ```apache
 kubectl get deployment pod-labeler -oyaml
 ```
-
-Copied!content\_copy
 
 Changes in the output:
 
@@ -791,8 +723,6 @@ Once again, check the status of your pod and you'll notice it is still erring ou
 kubectl get pods -l app=pod-labeler
 ```
 
-Copied!content\_copy
-
 Output:
 
 ```apache
@@ -808,8 +738,6 @@ You may need to run the previous command again to see this output.
 ```apache
 kubectl logs -l app=pod-labeler
 ```
-
-Copied!content\_copy
 
 Output:
 
@@ -835,8 +763,6 @@ Since this is failing on a PATCH operation, you can also see the error in Stackd
 protoPayload.methodName="io.k8s.core.v1.pods.patch"
 ```
 
-Copied!content\_copy
-
 5. Click on a down arrow next to a log record and explore the details.
     
 
@@ -850,8 +776,6 @@ Use the ClusterRoleBinding to find the ServiceAccount's role and permissions.
 ```apache
 kubectl get rolebinding pod-labeler -oyaml
 ```
-
-Copied!content\_copy
 
 Output:
 
@@ -885,8 +809,6 @@ The `RoleBinding` shows you need to inspect the `pod-labeler` role in the defaul
 ```apache
 kubectl get role pod-labeler -oyaml
 ```
-
-Copied!content\_copy
 
 Output:
 
@@ -932,8 +854,6 @@ Apply the fix and view the resulting configuration.
 kubectl apply -f manifests/pod-labeler-fix-2.yaml
 ```
 
-Copied!content\_copy
-
 Output:
 
 ```apache
@@ -955,8 +875,6 @@ Identifying the application's role and permissions
 ```apache
 kubectl get role pod-labeler -oyaml
 ```
-
-Copied!content\_copy
 
 Output:
 
@@ -992,8 +910,6 @@ Because the `pod-labeler` may be in a back-off loop, the quickest way to test th
 kubectl delete pod -l app=pod-labeler
 ```
 
-Copied!content\_copy
-
 Output:
 
 ```apache
@@ -1011,8 +927,6 @@ Finally, verify the new `pod-labeler` is running and check that the "updated" la
 kubectl get pods --show-labels
 ```
 
-Copied!content\_copy
-
 Output:
 
 ```apache
@@ -1026,8 +940,6 @@ pod-labeler-659c8c99d5-5qsmw   1/1     Running   0          31s   app=pod-labele
 ```apache
 kubectl logs -l app=pod-labeler
 ```
-
-Copied!content\_copy
 
 Output:
 
