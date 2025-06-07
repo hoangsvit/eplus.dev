@@ -736,6 +736,20 @@ When you moved the pods into the same zone, the pinging became free of charge.
 
 ## Solution of Lab
 
+### Quick
+
+%[https://youtu.be/VO-5xc_uZaw] 
+
+```apache
+curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/Exploring%20Cost-optimization%20for%20GKE%20Virtual%20Machines/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
+```
+
+---
+
+### Manual
+
 %[https://www.youtube.com/watch?v=PJNR_A3x0OM] 
 
 ```apache
