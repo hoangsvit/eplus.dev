@@ -5,9 +5,9 @@ seoDescription: "The underlying infrastructure of a Google Kubernetes Engine clu
 datePublished: Tue Aug 20 2024 12:44:30 GMT+0000 (Coordinated Universal Time)
 cuid: cm02f2v2g001n09mr9bqk5j7n
 slug: exploring-cost-optimization-for-gke-virtual-machines-gsp767
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724157580686/03cde41a-567a-4e22-a16d-c315bb3a51c0.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724157857514/e9f53a9c-44fa-4eb2-beb5-d8deb3d5c412.png
-tags: exploring-cost-optimization-for-gke-virtual-machines-gsp767
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749273944876/010a6d9b-6cfd-4edd-9547-69a5ead44460.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1749273962664/d30c487c-248e-4310-af82-642beb297ddf.png
+tags: exploring-cost-optimization-for-gke-virtual-machines-gsp767, gsp767, exploring-cost-optimization-for-gke-virtual-machines
 
 ---
 
