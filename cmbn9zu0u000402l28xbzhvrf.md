@@ -25,8 +25,6 @@ Application developers often use Redis hashes to represent their domain objects.
 HSET movie:001 title "Star Wars: Episode IV - A New Hope" director "George Lucas" plot "The galaxy is in a period of civil war...."
 ```
 
-Copied!content\_copy
-
 This command stores a hash at the key "movie:001". The hash contains three fields: `title`, `director`, and `plot`.
 
 Now, if you want to access this data, you need to know the name of the key at which it's stored. To retrieve this hash, you can run the HGETALL command:
@@ -34,8 +32,6 @@ Now, if you want to access this data, you need to know the name of the key at wh
 ```apache
 HGETALL movie:001
 ```
-
-Copied!content\_copy
 
 This will return all of the movie data for *Star Wars*.
 
@@ -110,8 +106,6 @@ To complete this lab, you need:
     student-00-65acbc9db4a6@qwiklabs.net
     ```
     
-    Copied!content\_copy
-    
     You can also find the Username in the Lab Details pane.
     
 4. Click **Next**.
@@ -121,8 +115,6 @@ To complete this lab, you need:
     ```apache
     8JRDr8uwu2pW
     ```
-    
-    Copied!content\_copy
     
     You can also find the Password in the Lab Details pane.
     
@@ -175,8 +167,6 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-03-5ff1962cda
 gcloud auth list
 ```
 
-Copied!content\_copy
-
 4. Click **Authorize**.
     
 
@@ -197,8 +187,6 @@ To set the active account, run:
 gcloud config list project
 ```
 
-Copied!content\_copy
-
 **Output:**
 
 ```apache
@@ -217,8 +205,6 @@ project = qwiklabs-gcp-03-5ff1962cda82
 gcloud config set account <YOUR-USER-ACCOUNT>
 ```
 
-Copied!content\_copy
-
 2. Now, modify the system configuration:
     
 
@@ -227,9 +213,7 @@ export username=$(gcloud config get-value account | cut -d'@' -f1)
 sudo usermod -aG docker $username
 ```
 
-Copied!content\_copy
-
-**Note:**Please restart your SSH session before proceeding to further steps.
+\*\*Note:\*\*Please restart your SSH session before proceeding to further steps.
 
 3. To start, you'll need to get a Redis database with RediSearch enabled. For simplicity, this lab will use pre-built Docker images. After restarting the SSH session, run the following command to start your Redis instance with Docker:
     
@@ -238,9 +222,7 @@ Copied!content\_copy
 docker run  -it --rm --name redis-stack-server -p 6379:6379 redis/redis-stack-server:6.2.6-v10
 ```
 
-Copied!content\_copy
-
-**Note:**Do not close this SSH session, leave it as it is.
+\*\*Note:\*\*Do not close this SSH session, leave it as it is.
 
 4. Go back to your VM instance page, and click **SSH** again to open a **second SSH session**, clone the [Getting Started with RediSearch](https://github.com/RediSearch/redisearch-getting-started) repository (used later for importing datasets in the lab), and install the `redis-cli`, which is a simple program that allows you to send commands to Redis, and read the replies sent by the server, directly from the terminal:
     
@@ -249,8 +231,6 @@ Copied!content\_copy
 git clone https://github.com/RediSearch/redisearch-getting-started
 sudo apt-get install redis-tools
 ```
-
-Copied!content\_copy
 
 **Note:** If prompted Do you want to continue? \[Y/n\], press `Y` and enter.
 
@@ -302,8 +282,6 @@ It's now time to add some data into your database.
 docker exec -it redis-stack-server redis-cli
 ```
 
-Copied!content\_copy
-
 2. You're now ready to insert some data. This example uses movie data stored as Redis hashes, so start by inserting a few movies (note that you can copy these commands rather than manually typing them in):
     
 
@@ -311,25 +289,17 @@ Copied!content\_copy
 HSET movie:11002 title "Star Wars: Episode V - The Empire Strikes Back" plot "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader and a bounty hunter named Boba Fett all over the galaxy." release_year 1980 genre "Action" rating 8.7 votes 1127635 imdb_id tt0080684
 ```
 
-Copied!content\_copy
-
 ```apache
 HSET movie:11003 title "The Godfather" plot "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son." release_year 1972 genre "Drama" rating 9.2 votes 1563839 imdb_id tt0068646
 ```
-
-Copied!content\_copy
 
 ```apache
 HSET movie:11004 title "Heat" plot "A group of professional bank robbers start to feel the heat from police when they unknowingly leave a clue at their latest heist." release_year 1995 genre "Thriller" rating 8.2 votes 559490 imdb_id tt0113277
 ```
 
-Copied!content\_copy
-
 ```apache
 HSET "movie:11005" title "Star Wars: Episode VI - Return of the Jedi" genre "Action" votes 906260 rating 8.3 release_year 1983  plot "The Rebels dispatch to Endor to destroy the second Empire's Death Star." ibmdb_id "tt0086190"
 ```
-
-Copied!content\_copy
 
 3. Now you can retrieve this data using the movie ID. Run the following command to get the title and rating:
     
@@ -337,8 +307,6 @@ Copied!content\_copy
 ```apache
 HMGET movie:11002 title rating
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -353,8 +321,6 @@ Copied!content\_copy
 ```apache
 HINCRBYFLOAT movie:11002 rating 0.1
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -397,8 +363,6 @@ When creating an index you define:
 FT.CREATE idx:movie ON hash PREFIX 1 "movie:" SCHEMA title TEXT SORTABLE release_year NUMERIC SORTABLE rating NUMERIC SORTABLE genre TAG SORTABLE
 ```
 
-Copied!content\_copy
-
 Before any running queries, take a closer look at the `FT.CREATE` command.
 
 | **Parameter** | **Description** |
@@ -416,8 +380,6 @@ The RediSearch engine will scan the database using the PREFIX values, and update
 ```apache
 FT.INFO idx:movie
 ```
-
-Copied!content\_copy
 
 You're ready to use the index and query the database.
 
@@ -455,8 +417,6 @@ In this section, you'll learn how to query data using the `FT.SEARCH` command.
 FT.SEARCH idx:movie "war"
 ```
 
-Copied!content\_copy
-
 **Output:**
 
 ```apache
@@ -485,8 +445,6 @@ As you can see, the movie *Star Wars: Episode V - The Empire Strikes Back* is fo
 FT.SEARCH idx:movie "war" RETURN 2 title release_year
 ```
 
-Copied!content\_copy
-
 **Output:**
 
 ```apache
@@ -512,16 +470,12 @@ This query does not specify a field, so the word “war” (and related words) i
 FT.SEARCH idx:movie "@title:war" RETURN 2 title release_year
 ```
 
-Copied!content\_copy
-
 4. Now try a more complex query. Suppose you want all movies containing the string *war* but NOT the string `jedi`. Adding the string `-jedi` (minus) will tell the query engine to exclude fields containing the word `jedi`.
     
 
 ```apache
 FT.SEARCH idx:movie "war -jedi" RETURN 2 title release_year
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -540,8 +494,6 @@ Copied!content\_copy
 ```apache
 FT.SEARCH idx:movie " %gdfather% " RETURN 2 title release_year
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -563,8 +515,6 @@ As you can see, even though the word "godfather" is incorrectly spelled, this qu
 FT.SEARCH idx:movie "@genre:{Thriller}" RETURN 2 title release_year
 ```
 
-Copied!content\_copy
-
 **Output:**
 
 ```apache
@@ -582,8 +532,6 @@ Copied!content\_copy
 ```apache
 FT.SEARCH idx:movie "@genre:{Thriller|Action}" RETURN 2 title release_year
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -615,8 +563,6 @@ To learn more, refer to [Tag filters in the Query syntax reference](https://redi
 FT.SEARCH idx:movie "@genre:{Thriller|Action} @title:-jedi" RETURN 2 title release_year
 ```
 
-Copied!content\_copy
-
 **Output:**
 
 ```apache
@@ -647,16 +593,12 @@ Next, query all the movies released between 1970 and 1980 (inclusive). For this,
 FT.SEARCH idx:movie * FILTER release_year 1970 1980 RETURN 2 title release_year
 ```
 
-Copied!content\_copy
-
 10. Now use the `@field` parameter:
     
 
 ```apache
 FT.SEARCH idx:movie "@release_year:[1970 1980]" RETURN 2 title release_year
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -680,8 +622,6 @@ Copied!content\_copy
 ```apache
 FT.SEARCH idx:movie "@release_year:[1970 (1980]" RETURN 2 title release_year
 ```
-
-Copied!content\_copy
 
 ### Summary
 
@@ -731,8 +671,6 @@ When creating the index, using the `idx:movie ON hash PREFIX 1 "movie:"` paramet
 FT.SEARCH idx:movie "*" LIMIT 0 0
 ```
 
-Copied!content\_copy
-
 **Output:**
 
 ```apache
@@ -746,16 +684,12 @@ Copied!content\_copy
 HSET movie:11033 title "Tomorrow Never Dies" plot "James Bond sets out to stop a media mogul's plan to induce war between China and the U.K in order to obtain exclusive global media coverage." release_year 1997 genre "Action" rating 6.5 votes 177732 imdb_id tt0120347
 ```
 
-Copied!content\_copy
-
 3. Count them again:
     
 
 ```apache
 FT.SEARCH idx:movie "*" LIMIT 0 0
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -771,8 +705,6 @@ As you can see, the new movie has been indexed.
 ```apache
 FT.SEARCH idx:movie "never" RETURN 2 title release_year
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -792,16 +724,12 @@ Copied!content\_copy
 HSET movie:11033 title "Tomorrow Never Dies - 007"
 ```
 
-Copied!content\_copy
-
 6. And search for `007`:
     
 
 ```apache
 FT.SEARCH idx:movie "007" RETURN 2 title release_year
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -829,16 +757,12 @@ When you *delete* the hash, the index is also updated, and the same happens if t
 EXPIRE "movie:11033" 20
 ```
 
-Copied!content\_copy
-
 8. You can run the following query and see that after 20 seconds, the document does not exist anymore:
     
 
 ```apache
 FT.SEARCH idx:movie "007" RETURN 2 title release_year
 ```
-
-Copied!content\_copy
 
 The search query will not return any result, showing that the index has been updated:
 
@@ -861,8 +785,6 @@ In this section, you will learn how to list, inspect, and update your indexes.
 FT._LIST
 ```
 
-Copied!content\_copy
-
 **Output:**
 
 ```apache
@@ -875,8 +797,6 @@ Copied!content\_copy
 ```apache
 FT.INFO "idx:movie"
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -904,8 +824,6 @@ As you are building your application and adding more information to the database
 FT.ALTER idx:movie SCHEMA ADD plot TEXT WEIGHT 0.5
 ```
 
-Copied!content\_copy
-
 The `WEIGHT` parameter declares the importance of this field when calculating results. This is a multiplication factor (default is 1); so in this example the plot is less important than the title.
 
 2. Now, run a query with the new indexed field:
@@ -915,8 +833,6 @@ The `WEIGHT` parameter declares the importance of this field when calculating re
 FT.SEARCH idx:movie "empire @genre:{Action}" RETURN 2 title plot
 ```
 
-Copied!content\_copy
-
 3. You can now drop the index using the `FT.DROPINDEX` command:
     
 
@@ -924,16 +840,12 @@ Copied!content\_copy
 FT.DROPINDEX idx:movie
 ```
 
-Copied!content\_copy
-
 4. Dropping the index does **not** impact the indexed hashes; this means that the movies are still inside the database. Check this by running the following query:
     
 
 ```apache
 SCAN 0 MATCH movie:*
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -1032,8 +944,6 @@ The **user** hashes contain the following fields:
 FLUSHALL
 ```
 
-Copied!content\_copy
-
 2. The easiest way to import the files is to use `redis-cli`. Go back to your **VM instance** page, and click **SSH** again to open a **new SSH** session and run the following commands:
     
 
@@ -1044,16 +954,12 @@ redis-cli -h localhost -p 6379 < ./sample-app/redisearch-docker/dataset/import_t
 redis-cli -h localhost -p 6379 < ./sample-app/redisearch-docker/dataset/import_users.redis
 ```
 
-Copied!content\_copy
-
 3. Return to the previous **SSH** session, with the `redis-cli` prompt open, and run the following to take a look at the dataset:
     
 
 ```apache
 HMGET "movie:343" title release_year genre
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -1070,8 +976,6 @@ Copied!content\_copy
 HMGET "theater:20" name location
 ```
 
-Copied!content\_copy
-
 **Output:**
 
 ```apache
@@ -1085,8 +989,6 @@ Copied!content\_copy
 ```apache
 HMGET "user:343" first_name last_name last_login
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -1107,16 +1009,12 @@ You can also use the `DBSIZE` command to see how many keys you have in your data
 FT.CREATE idx:movie ON hash PREFIX 1 "movie:" SCHEMA title TEXT SORTABLE plot TEXT WEIGHT 0.5 release_year NUMERIC SORTABLE rating NUMERIC SORTABLE votes NUMERIC SORTABLE genre TAG SORTABLE
 ```
 
-Copied!content\_copy
-
 2. The movies have now been indexed. Run the following command and look at the `num_docs` returned value. The value should be 922.
     
 
 ```apache
 FT.INFO "idx:movie"
 ```
-
-Copied!content\_copy
 
 3. Create the `idx:theater` index. This index will mostly be used to show the geospatial capabilities of RediSearch. In the previous examples you created indexes with fields having three different types:
     
@@ -1135,8 +1033,6 @@ Copied!content\_copy
 FT.CREATE idx:theater ON hash PREFIX 1 "theater:" SCHEMA name TEXT SORTABLE location GEO
 ```
 
-Copied!content\_copy
-
 5. The theaters have now been indexed. Run the following command and look at the `num_docs` returned value. The value should be 117.
     
 
@@ -1144,16 +1040,12 @@ Copied!content\_copy
 FT.INFO "idx:theater"
 ```
 
-Copied!content\_copy
-
 6. Lastly, create the `idx:user` index:
     
 
 ```apache
 FT.CREATE idx:user ON hash PREFIX 1 "user:" SCHEMA gender TAG country TAG SORTABLE last_login NUMERIC SORTABLE location GEO
 ```
-
-Copied!content\_copy
 
 Click **Check my progress** to verify the objective.
 
@@ -1175,8 +1067,6 @@ The best way to start to work with RediSearch's query capabilities is to look at
 ```apache
 FT.SEARCH "idx:movie" "heat" RETURN 2 title plot
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -1222,8 +1112,6 @@ This query is a "fieldless" condition, meaning that the query engine has:
 FT.SEARCH "idx:movie" "@title:heat" RETURN 2 title plot
 ```
 
-Copied!content\_copy
-
 **Output:**
 
 ```apache
@@ -1250,8 +1138,6 @@ A common use case when querying data is to sort the data on a specific field, an
 ```apache
 FT.SEARCH "idx:movie" "@genre:{Action}"  SORTBY release_year DESC RETURN 2 title release_year
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -1282,8 +1168,6 @@ The `FT.SEARCH` command, by default, returns the first ten documents. You will s
 ```apache
 FT.SEARCH "idx:movie" "@genre:{Action}" LIMIT 0 100  SORTBY release_year ASC RETURN 2 title release_year
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -1318,8 +1202,6 @@ The result is very similar to the previous query:
 FT.SEARCH "idx:movie" "@genre:{Action}" LIMIT 100 200  SORTBY release_year ASC RETURN 2 title release_year
 ```
 
-Copied!content\_copy
-
 ### Count
 
 * Count the number of `Action` movies. Based on the sample queries you've already seen, if you put the `LIMIT 0 0`, RediSearch will return the number of documents that match the query condition:
@@ -1328,8 +1210,6 @@ Copied!content\_copy
 ```apache
 FT.SEARCH "idx:movie" "@genre:{Action}" LIMIT 0 0
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -1347,8 +1227,6 @@ Suppose you're at MOMA, located at "11 W 53rd St, New York", and you want to fin
 ```apache
 FT.SEARCH "idx:theater" "@location:[-73.9798156 40.7614367 400 m]" RETURN 2 name address
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -1380,8 +1258,6 @@ A common need for an application, in addition to retrieving information as a doc
 FT.AGGREGATE "idx:movie" "*" GROUPBY 1 @release_year REDUCE COUNT 0 AS nb_of_movies
 ```
 
-Copied!content\_copy
-
 **Output:**
 
 ```apache
@@ -1403,8 +1279,6 @@ Copied!content\_copy
 ```apache
 FT.AGGREGATE "idx:movie" "*" GROUPBY 1 @release_year REDUCE COUNT 0 AS nb_of_movies SORTBY 2 @release_year DESC
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -1434,8 +1308,6 @@ For this example, you can use a [date/time](https://redis.io/docs/stack/search/r
 FT.AGGREGATE idx:user * APPLY year(@last_login) AS year APPLY "monthofyear(@last_login) + 1" AS month GROUPBY 2 @year @month REDUCE count 0 AS num_login SORTBY 4 @year ASC @month ASC
 ```
 
-Copied!content\_copy
-
 **Output:**
 
 ```apache
@@ -1461,8 +1333,6 @@ Copied!content\_copy
 ```apache
 FT.AGGREGATE idx:user * APPLY year(@last_login) AS year APPLY "monthofyear(@last_login) + 1" AS month GROUPBY 2 @year @month REDUCE count 0 AS num_login  FILTER "@year==2020" SORTBY 2 @month ASC
 ```
-
-Copied!content\_copy
 
 **Output:**
 
@@ -1508,8 +1378,6 @@ The `FILTER` expression uses the [aggregation filter syntax](https://redis.io/do
 FILTER "@genre=='Drama' && @release_year>=1990 && @release_year<2000"
 ```
 
-Copied!content\_copy
-
 1. Here's how to create a drama movie index using this `FILTER` expression:
     
 
@@ -1517,16 +1385,12 @@ Copied!content\_copy
 FT.CREATE idx:drama ON Hash PREFIX 1 "movie:" FILTER "@genre=='Drama' && @release_year>=1990 && @release_year<2000" SCHEMA title TEXT SORTABLE release_year NUMERIC SORTABLE
 ```
 
-Copied!content\_copy
-
 2. Run the `FT.INFO idx:drama` command to look at the index definitions and statistics:
     
 
 ```apache
 FT.INFO idx:drama
 ```
-
-Copied!content\_copy
 
 Notes:
 
@@ -1544,8 +1408,6 @@ Finally, you can check that the index has been correctly initialized by running 
 FT.SEARCH idx:drama "  @release_year:[1990 (2000]" LIMIT 0 0
 ```
 
-Copied!content\_copy
-
 **Output:**
 
 ```apache
@@ -1558,8 +1420,6 @@ Copied!content\_copy
 ```apache
 FT.SEARCH idx:movie "@genre:{Drama}  @release_year:[1990 (2000]" LIMIT 0 0
 ```
-
-Copied!content\_copy
 
 **Output:**
 
