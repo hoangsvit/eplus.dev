@@ -351,6 +351,8 @@ sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1749613176080/85e82ff2-a43c-47d7-b240-f54b2c3ef41b.png align="center")
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724736976658/571073f3-9438-475f-b1d1-3e1bb1cc0724.png align="center")
 
 <div data-node-type="callout">
