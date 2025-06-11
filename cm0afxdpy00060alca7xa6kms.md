@@ -5,9 +5,9 @@ seoDescription: "In this lab, you will create an HTTPS load balancer to forward 
 datePublished: Mon Aug 26 2024 17:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm0afxdpy00060alca7xa6kms
 slug: https-content-based-load-balancer-with-terraform-gsp206
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724723482120/5494c355-76bd-4b02-a9f4-e3bb00a62e01.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724643009532/9fbb3b4b-956a-4d15-a797-e8572b590c21.png
-tags: https-content-based-load-balancer-with-terraform-gsp206
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749611789081/3cf29251-a87c-4551-a71f-1d40139fd8a0.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1749611805543/e6c7ab1f-20c9-4c4a-982e-098fc95fdee9.png
+tags: https-content-based-load-balancer-with-terraform-gsp206, gsp206, https-content-based-load-balancer-with-terraform
 
 ---
 
