@@ -341,14 +341,14 @@ Your final URLs should look like (make sure to replace `EXTERNAL_IP` with your l
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=5G4kxzNuwwk] 
+%[https://youtu.be/CvUrKIhvSJs] 
 
 ### Automation
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/HTTPS%20Content-Based%20Load%20Balancer%20with%20Terraform/techcps206.sh
-sudo chmod +x techcps206.sh
-./techcps206.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/HTTPS%20Content-Based%20Load%20Balancer%20with%20Terraform/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724736976658/571073f3-9438-475f-b1d1-3e1bb1cc0724.png align="center")
