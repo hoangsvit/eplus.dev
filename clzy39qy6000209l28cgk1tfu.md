@@ -5,9 +5,9 @@ seoDescription: "The Cloud Natural Language API lets you extract entities from t
 datePublished: Sat Aug 17 2024 12:02:51 GMT+0000 (Coordinated Universal Time)
 cuid: clzy39qy6000209l28cgk1tfu
 slug: classify-text-into-categories-with-the-natural-language-api-gsp063
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723895397753/380897d2-bafa-4f79-8fb6-c58cb6e3de5f.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723896158958/355b2b04-b256-456b-9b12-dbed38153b68.png
-tags: classify-text-into-categories-with-the-natural-language-api-gsp063
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749614161543/93a7e865-6263-4b05-b781-48e5e88a7fd1.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1749614173450/528b94cb-205b-4512-acce-c429673ae839.png
+tags: classify-text-into-categories-with-the-natural-language-api-gsp063, gsp063, classify-text-into-categories-with-the-natural-language-api
 
 ---
 
