@@ -5,9 +5,9 @@ seoDescription: "As you manage your infrastructure with Terraform, increasingly 
 datePublished: Tue Aug 13 2024 03:00:15 GMT+0000 (Coordinated Universal Time)
 cuid: clzru4jse000209mp0p5a0hzd
 slug: interact-with-terraform-modules-gsp751
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723516975945/f37c8a97-558c-4f5b-b58c-0fb185c48d0c.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723518000094/e6abba0c-9ecf-4cee-9471-43d65cd8785c.png
-tags: interact-with-terraform-modules-gsp751
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749806183105/65ad3c8c-f0ef-411b-8ec3-70bb1d4ef842.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1749806203789/b5880811-3c78-4828-af8c-935079f8f3ef.png
+tags: terraform, interact-with-terraform-modules-gsp751, gsp751, interact-with-terraform-modules
 
 ---
 
