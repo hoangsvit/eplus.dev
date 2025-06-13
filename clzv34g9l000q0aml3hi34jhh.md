@@ -5,9 +5,9 @@ seoDescription: "Terraform must store the state about your managed infrastructur
 datePublished: Thu Aug 15 2024 09:35:25 GMT+0000 (Coordinated Universal Time)
 cuid: clzv34g9l000q0aml3hi34jhh
 slug: managing-terraform-state-gsp752
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723713822487/00979667-a1c4-41af-a743-07b81fc4cc5f.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723714514891/b7a1b8af-6806-4ed0-8d63-75ab1fd04c04.png
-tags: managing-terraform-state-gsp752
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749806524792/0563e6a3-9384-4e00-bb04-181eade74e85.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1749806569713/82dbad97-56b0-4b5f-8a98-101588496d14.png
+tags: terraform, terraform-state, managing-terraform-state-gsp752, gsp752, managing-terraform-state
 
 ---
 
