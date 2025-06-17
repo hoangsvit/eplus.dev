@@ -571,6 +571,8 @@ sudo chmod +x arcadecrew.sh
 ./arcadecrew.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750132892351/dc91cfe0-2b97-473f-add8-0fe0f89db1cf.png align="center")
+
 ---
 
 ### Old Solution
