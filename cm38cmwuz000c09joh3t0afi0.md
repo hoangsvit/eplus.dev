@@ -5,9 +5,9 @@ seoDescription: "This lab demonstrates how to create an HTTP(S) load balancer th
 datePublished: Fri Nov 08 2024 06:21:50 GMT+0000 (Coordinated Universal Time)
 cuid: cm38cmwuz000c09joh3t0afi0
 slug: creating-cross-region-load-balancing-gsp157
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731046882927/375b939a-01c8-4ffa-bd79-447770d3032e.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1731046895703/92938f9e-8140-462b-a046-37cfb7268618.png
-tags: creating-cross-region-load-balancing-gsp157, gsp157
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750131044273/530d53f6-8805-4ef1-ad57-2fdbae5c9044.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1750131066007/e69f7340-c0ee-40ab-8942-4297d91e2ee3.png
+tags: creating-cross-region-load-balancing-gsp157, gsp157, creating-cross-region-load-balancing
 
 ---
 
