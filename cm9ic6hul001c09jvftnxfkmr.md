@@ -501,6 +501,20 @@ Tools like [bbcp](https://github.com/eeertekin/bbcp) can help to copy files as f
 
 ## Solution of Lab
 
+### New Solution
+
+%[https://youtu.be/R0z7Fe6ZgOk] 
+
+```apache
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Test%20Network%20Latency%20Between%20VMs/techcps161.sh
+sudo chmod +x techcps161.sh
+./techcps161.sh
+```
+
+---
+
+### Old Solution
+
 %[https://youtu.be/Cr5MoJBQWxU] 
 
 ```apache
