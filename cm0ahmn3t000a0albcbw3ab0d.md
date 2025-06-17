@@ -7,9 +7,9 @@ It offers a simple and easy-to-use search interface for data discove"
 datePublished: Mon Aug 26 2024 04:18:01 GMT+0000 (Coordinated Universal Time)
 cuid: cm0ahmn3t000a0albcbw3ab0d
 slug: data-catalog-qwik-start-gsp729
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724645675670/cc23199b-b866-4b73-a881-95abe7c1904d.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724645866199/3739a445-0446-4587-8a59-2cf7cae37b37.jpeg
-tags: data-catalog-qwik-start-gsp729
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750130414917/b8cedf17-d3d2-4587-ac83-eb5c1089885f.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1750130470543/f85ec5cd-3e75-4b9c-8095-837fb6378439.png
+tags: data-catalog-qwik-start-gsp729, gsp729, data-catalog-qwik-start
 
 ---
 
