@@ -561,6 +561,20 @@ gcloud compute instances delete-access-config NAME
 
 ## **Solution of Lab**
 
+### New Solution
+
+%[https://youtu.be/lNecEVnufWo] 
+
+```apache
+curl -LO https://raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Creating%20Cross-region%20Load%20Balancing/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
+```
+
+---
+
+### Old Solution
+
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Creating%20Cross%20region%20Load%20Balancing/quicklabgsp157.sh
 sudo chmod +x quicklabgsp157.sh
