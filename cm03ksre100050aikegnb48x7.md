@@ -5,9 +5,9 @@ seoDescription: "In Terraform, a Provider is the logical abstraction of an upstr
 datePublished: Wed Aug 21 2024 08:12:22 GMT+0000 (Coordinated Universal Time)
 cuid: cm03ksre100050aikegnb48x7
 slug: deploy-kubernetes-load-balancer-service-with-terraform-gsp233
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724227230402/7508995d-129a-49e7-86e4-c9cc064af219.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724227930110/b8ebd463-7af5-4700-8b08-4400496862cb.png
-tags: deploy-kubernetes-load-balancer-service-with-terraform-gsp233
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750232721494/5b82cccd-4d60-4cae-a186-da9296f975b9.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1750232838662/3969642d-d8f1-4a0f-8bb5-75660834c44d.png
+tags: deploy-kubernetes-load-balancer-service-with-terraform-gsp233, gsp233, deploy-kubernetes-load-balancer-service-with-terraform
 
 ---
 
