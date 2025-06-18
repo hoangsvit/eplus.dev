@@ -5,9 +5,9 @@ seoDescription: "The Awwvision lab uses Kubernetes and Cloud Vision API to demon
 datePublished: Sat Aug 17 2024 12:23:08 GMT+0000 (Coordinated Universal Time)
 cuid: clzy3zuev000u0amo2jxg5pxo
 slug: awwvision-cloud-vision-api-from-a-kubernetes-cluster-gsp066
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723897042721/1d8c7274-be94-4fb1-ab27-6f1a19ed0265.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723897374362/85eafc01-8679-4a26-b1c4-ca9e67befd16.png
-tags: awwvision-cloud-vision-api-from-a-kubernetes-cluster-gsp066
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750219746249/549f58d5-7a32-4788-9900-bdc75d8c6380.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1750219926985/36a4ac82-7090-4be5-b182-cb83488fcd7e.png
+tags: awwvision-cloud-vision-api-from-a-kubernetes-cluster-gsp066, gsp066, awwvision-cloud-vision-api-from-a-kubernetes-cluster
 
 ---
 
