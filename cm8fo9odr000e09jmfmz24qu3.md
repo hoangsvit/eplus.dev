@@ -277,3 +277,6 @@ sudo chmod +x quicklabgsp866.sh
 **Visualize the query results in Geo Viz**
 
 * Open the [Geo Viz web](https://bigquerygeoviz.appspot.com/) tool in a new tab (Normal window) on your browser.
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750216845761/548df57c-11bd-467b-8fba-3edcb5caad62.png align="center")
