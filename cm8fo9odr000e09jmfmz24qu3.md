@@ -268,3 +268,12 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/G
 sudo chmod +x quicklabgsp866.sh
 ./quicklabgsp866.sh
 ```
+
+* This runs the script to set up your environment for the lab. It will provision resources and configure them as needed.
+    
+
+---
+
+**Visualize the query results in Geo Viz**
+
+* Open the [Geo Viz web](https://bigquerygeoviz.appspot.com/) tool in a new tab (Normal window) on your browser.
