@@ -5,7 +5,7 @@ seoDescription: "In this lab you will create a pipeline for deploying websites b
 datePublished: Sun Aug 11 2024 04:39:21 GMT+0000 (Coordinated Universal Time)
 cuid: clzp2saaq000b09ieh2lx37ie
 slug: deploy-a-hugo-website-with-cloud-build-and-firebase-pipeline-gsp747
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723350722033/592d9caf-921e-4a36-9b89-0c5cc4b79694.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750301173815/0343011f-f05e-452f-9223-337daf4be807.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723351143749/ea3bebb0-c27f-4e25-98fb-f37017ba5c39.png
 tags: deploy-a-hugo-website-with-cloud-build-and-firebase-pipeline-gsp747
 
@@ -587,6 +587,39 @@ Cloud Build has been successfully initiated
 ---
 
 ## Solution of Lab
+
+### New solution
+
+%[https://youtu.be/ky90Rr4AdBA] 
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750301599500/529dea4f-cb1a-4b22-860f-38333a05a974.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/task1.sh
+source task1.sh
+```
+
+***Now Check the score for Task 2 & then go ahead with next Commands.***
+
+```apache
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/task2.sh
+
+source task2.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750301647586/244bcc76-8112-4bf1-88ff-612eda154d96.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/task3.sh
+
+source task3.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750306103608/2701b370-1527-40df-bb8b-18ee94757ae3.png align="center")
+
+---
+
+### Old solution
 
 %[https://www.youtube.com/watch?v=MJ8KxPyFggQ] 
 
