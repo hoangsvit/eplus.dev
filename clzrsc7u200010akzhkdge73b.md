@@ -206,7 +206,7 @@ The available commands for execution are listed below. The most common, useful c
 
 Common commands: apply Builds or changes infrastructure console Interactive console for Terraform interpolations destroy Destroy Terraform-managed infrastructure env Workspace management fmt Rewrites config files to canonical format get Download and install modules for the configuration graph Create a visual graph of Terraform resources import Import existing infrastructure into Terraform init Initialize a Terraform working directory output Read an output from a state file plan Generate and show an execution plan providers Prints a tree of the providers used in the configuration push Upload this Terraform module to Atlas to run refresh Update local state file against real resources show Inspect Terraform state or plan taint Manually mark a resource for recreation untaint Manually unmark a resource as tainted validate Validates the Terraform files version Prints the Terraform version workspace Workspace management
 
-All other commands: debug Debug output management (experimental) force-unlock Manually unlock the terraform state state Advanced state management 
+All other commands: debug Debug output management (experimental) force-unlock Manually unlock the terraform state state Advanced state management
 ```
 
 ## **Task 2. Build infrastructure**
@@ -387,7 +387,7 @@ Plan: 1 to add, 0 to change, 0 to destroy.
 
 Do you want to perform these actions? Terraform will perform the actions described above. Only 'yes' will be accepted to approve.
 
-Enter a value: 
+Enter a value:
 ```
 
 If the plan was created successfully, Terraform will now pause and wait for approval before proceeding. In a production environment, if anything in the Execution Plan seems incorrect or dangerous, it's safe to cancel here. No changes have been made to your infrastructure.
@@ -443,7 +443,7 @@ resource "google_compute_instance" "default" {
         device_name = "persistent-disk-0"
         source      = "https://www.googleapis.com/compute/v1/projects/qwiklabs-gcp-42390cc9da8a4c4b/zones/{{{project_0.default_zone}}}/disks/terraform"
 
-.... 
+....
 ```
 
 You can see that by creating this resource, you've also gathered a lot of information about it. These values can be referenced to configure additional resources or outputs.
@@ -478,7 +478,7 @@ With Terraform, you can create your own custom provider plugins.
 export ZONE=
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723514782306/5fda3ef3-db53-4c12-a233-3aa39a7d57fc.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750297182223/905a6f39-be2d-4c4c-b70a-5ca8028710f6.png align="center")
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Terraform%20Fundamentals/quicklabgsp156.sh
