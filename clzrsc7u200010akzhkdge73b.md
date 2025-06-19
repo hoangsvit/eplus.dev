@@ -5,9 +5,9 @@ seoDescription: "Terraform enables you to safely and predictably create, change,
 datePublished: Tue Aug 13 2024 02:10:13 GMT+0000 (Coordinated Universal Time)
 cuid: clzrsc7u200010akzhkdge73b
 slug: terraform-fundamentals-gsp156
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723514201102/e5c4bcfc-24a9-4c44-9727-381c224fbc82.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723515002621/fe6f8428-43e4-4d65-ba03-fa188effbabf.png
-tags: terraform-fundamentals-gsp156
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750297116144/a3653cda-e00d-48d3-a05f-fe83722c36f4.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1750297134822/3a252783-80ed-4403-9256-be6b406717ed.png
+tags: terraform, terraform-fundamentals, terraform-fundamentals-gsp156, gsp1262
 
 ---
 
