@@ -359,8 +359,11 @@ Remember to check your Google [Drive](https://drive.google.com/drive/my-drive) t
 
 %[https://www.youtube.com/watch?v=wdvIb2y5b9I&ab_channel=QUICKGCPLAB] 
 
-<mark>Download file:</mark>
+**<mark>Download file:</mark>**
 
 * [Link Google Drive](https://drive.google.com/drive/folders/1SdN3q55rZLY2H3sT-Y24dGWOtWMcEoY9)
     
 * [Link Github](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP467)
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750307798201/4d8dab6b-d96c-4552-9465-4f94fc3b6da6.png align="center")
