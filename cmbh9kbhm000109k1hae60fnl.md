@@ -7,7 +7,7 @@ cuid: cmbh9kbhm000109k1hae60fnl
 slug: the-arcade-base-camp-june-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749000167100/782441d9-c7e0-479c-818b-167430c46c62.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1749000176055/b52756a0-4cb5-48ea-ad9e-af06c930b645.png
-tags: ai-readiness, the-arcade-base-camp-june-2025, arcade-learn-a-thon, the-arcade-trivia-june-2025, code-to-closing
+tags: ai-readiness, the-arcade-base-camp-june-2025, arcade-learn-a-thon, the-arcade-trivia-june-2025, code-to-closing, the-arcade-certification-zone-june-2025
 
 ---
 
@@ -20,6 +20,7 @@ Link: [Google Cloud Skills Boost - Games 5703](https://www.cloudskillsboost.goog
 | **Level** | **Link** | **Code** |
 | --- | --- | --- |
 | **The Arcade Base Camp June 2025** | [Google Cloud Skills Boost - Games 6215](https://www.cloudskillsboost.google/games/6215) | <mark>1q-basecamp-06112</mark> |
+| **The Arcade Certification Zone June 2025** | [Google Cloud Skills Boost - Games 6276](https://www.cloudskillsboost.google/games/6276) | <mark>1q-cert-60102</mark> |
 | **Code to Closing** | [Google Cloud Skills Boost - Games 6277](https://www.cloudskillsboost.google/games/6277) | <mark>1q-worknplay-7325</mark> |
 | **Arcade Learn-a-Thon** | [Google Cloud Skills Boost - Games 6242](https://www.cloudskillsboost.google/games/6242) | <mark>1q-learnathon-2719</mark> |
 | **AI Readiness!** | [Google Cloud Skills Boost - Games 6223](https://www.cloudskillsboost.google/games/6223) | <mark>1q-chatbot-19263</mark> |
