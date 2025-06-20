@@ -290,6 +290,14 @@ Test your knowledge about Google Cloud Platform by taking this quiz. (Select mul
 
 ### Solution of Lab
 
+### New solution
+
+%[https://youtu.be/EeCbMPxqaBo] 
+
+---
+
+### Old solution
+
 %[https://www.youtube.com/watch?v=xqRj36QQhOs] 
 
 ```apache
