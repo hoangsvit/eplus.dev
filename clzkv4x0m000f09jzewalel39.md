@@ -5,9 +5,9 @@ seoDescription: "App Engine allows developers to focus on doing what they do bes
 datePublished: Thu Aug 08 2024 05:54:08 GMT+0000 (Coordinated Universal Time)
 cuid: clzkv4x0m000f09jzewalel39
 slug: app-engine-qwik-start-python-gsp067
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723095790555/60c5b7e4-d28d-4753-9c01-0938d3627d35.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723096434787/486680c0-8461-42c7-b904-3a9c874f999b.png
-tags: app-engine-qwik-start-python-gsp067
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750395030234/a998e196-41b7-4741-8068-722ed309e210.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1750395048422/98f40a29-9d12-4e02-8b53-609d49baf206.png
+tags: python, app-engine-qwik-start-python-gsp067, gsp067, app-engine-qwik-start-python
 
 ---
 
@@ -167,7 +167,6 @@ gcloud app deploy
 
 2. Enter the number that represents your region: `us-east4`
     
-
 3. The App Engine application will then be created.
     
 
@@ -297,7 +296,7 @@ Test your knowledge about Google Cloud Platform by taking this quiz. (Select mul
 export REGION=
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723096196613/2d7577d8-b82c-4eea-b902-d4c4cfa48700.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750395019209/2c92461f-6d37-4eed-9569-65cb830e676b.png align="center")
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/App%20Engine%20Qwik%20Start%20Python/quicklabgsp067.sh
