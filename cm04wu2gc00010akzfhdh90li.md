@@ -5,8 +5,8 @@ seoDescription: "Event Threat Detection is an integrated service of Security Com
 datePublished: Thu Aug 22 2024 06:37:05 GMT+0000 (Coordinated Universal Time)
 cuid: cm04wu2gc00010akzfhdh90li
 slug: detect-and-investigate-threats-with-security-command-center-gsp1125
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724305707432/3ccd3427-b831-45bf-84f2-5bb77f7acae9.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724308610718/b28cf349-af4d-4bc8-ac29-19fa146b1df4.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750403713332/e3bcf8ae-5fbd-4a43-9b3e-25afffde54d9.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1750403723538/9bdbac17-5d1a-4627-853a-95000d05c27a.png
 tags: detect-and-investigate-threats-with-security-command-center-gsp1125
 
 ---
