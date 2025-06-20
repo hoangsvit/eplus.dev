@@ -332,6 +332,6 @@ sudo chmod +x arcadecrew.sh
 ./arcadecrew.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750394775370/cfa22ea3-510d-45d5-9a11-ccc03d8ae35d.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750394854813/5854505f-48ba-40a7-b7a1-1fecee18617c.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750394783734/b181218e-4622-4ebf-b801-3e2a74414169.png align="center")
