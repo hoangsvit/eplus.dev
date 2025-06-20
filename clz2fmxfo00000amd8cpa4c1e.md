@@ -6,7 +6,7 @@ datePublished: Fri Jul 26 2024 08:20:24 GMT+0000 (Coordinated Universal Time)
 cuid: clz2fmxfo00000amd8cpa4c1e
 slug: creating-a-persistent-disk-gsp004
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745299890017/38cf74db-ab51-4cfd-9d69-3a11eea36ae3.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721982011330/714ca584-dee0-4799-a4d8-820cbbd86ef3.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1750394760112/42fb1f0c-2c20-4637-aff6-b2fe268a43a7.png
 tags: creating-a-persistent-disk-gsp004, creating-a-persistent-disk, gsp004
 
 ---
@@ -326,10 +326,12 @@ This lab does not cover local SSDs.
 
 %[https://youtu.be/HYGq8n2rL8Q] 
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721981893961/cb6d010f-25b7-48d6-918a-b611f96031d5.png align="center")
-
 ```apache
 curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Creating%20a%20Persistent%20Disk/arcadecrew.sh
 sudo chmod +x arcadecrew.sh
 ./arcadecrew.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750394775370/cfa22ea3-510d-45d5-9a11-ccc03d8ae35d.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750394783734/b181218e-4622-4ebf-b801-3e2a74414169.png align="center")
