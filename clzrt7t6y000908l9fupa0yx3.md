@@ -5,9 +5,9 @@ seoDescription: "Terraform is the infrastructure as code offering from HashiCorp
 datePublished: Tue Aug 13 2024 02:34:47 GMT+0000 (Coordinated Universal Time)
 cuid: clzrt7t6y000908l9fupa0yx3
 slug: infrastructure-as-code-with-terraform-gsp750
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723516100182/25a1424b-3ce7-49bd-801a-5b5bc40439fa.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723516475838/fdc45b84-3ea6-45ed-934b-d2b53108f468.png
-tags: infrastructure-as-code-with-terraform-gsp750
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750401399070/be36f307-430f-41f4-a53d-5596a9449d29.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1750401415485/dd70ccd1-4207-4c80-ad6d-0ed00ce62a84.png
+tags: terraform, infrastructure-as-code-with-terraform-gsp750, gsp250, infrastructure-as-code-with-terraform
 
 ---
 
