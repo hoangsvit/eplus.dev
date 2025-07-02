@@ -23,29 +23,29 @@ To help you gear up, I thought it’d be a great idea to gather all the swag dro
       a) [The Arcade Mug](https://www.googlecloudcommunity.com/gc/Learning-Forums/Back-in-the-Game-The-Arcade-Mug-And-The-Arcade-Laptop-Stand/td-p/904978)   
       b) [The Arcade Laptop Stand](https://www.googlecloudcommunity.com/gc/Learning-Forums/Back-in-the-Game-The-Arcade-Mug-And-The-Arcade-Laptop-Stand/td-p/904978)   
       c) [The Arcade Novice T-shirt](https://www.googlecloudcommunity.com/gc/Learning-Forums/The-Arcade-Novice-T-shirt/td-p/914590) [  
-](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Backpacks/td-p/753907)      d) [The Google Cloud Pin Badges](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Pin-Badges-and-The-Arcade-Sticker/td-p/922418)   
+](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Backpacks/td-p/753907)      d) [The Google Cloud Pin Badges](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Pin-Badges-and-The-Arcade-Sticker/td-p/922418)
 
-**2) Arcade Trooper (40-64 Arcade Points):  
-**      a) [Arcade Trooper T-shirt](https://www.googlecloudcommunity.com/gc/Learning-Forums/Arcade-Trooper-T-shirt/td-p/912325)   
+**2) Arcade Trooper (40-64 Arcade Points):**  
+      a) [Arcade Trooper T-shirt](https://www.googlecloudcommunity.com/gc/Learning-Forums/Arcade-Trooper-T-shirt/td-p/912325)   
       b) [The Arcade Fold & Glow Lamp](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Fold-amp-Glow-Lamp/td-p/918690)   
       c) [The Google Cloud Pin Badges](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Pin-Badges-and-The-Arcade-Sticker/td-p/922418) [  
 ](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Backpacks/td-p/753907)      d) [The Arcade Sticker](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Pin-Badges-and-The-Arcade-Sticker/td-p/922418)   
-      e) [The Arcade Backpacks!](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Backpacks/td-p/829331) 
+      e) [The Arcade Backpacks!](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Backpacks/td-p/829331)
 
-**3) Arcade Ranger (65-74 Arcade Points):  
-**      a) [The Arcade Screen Cleaner](https://www.googlecloudcommunity.com/gc/Learning-Forums/Back-in-the-Game-The-Arcade-Screen-Cleaner-and-The-Arcade-Pen/td-p/907511)   
+**3) Arcade Ranger (65-74 Arcade Points):**  
+a) [The Arcade Screen Cleaner](https://www.googlecloudcommunity.com/gc/Learning-Forums/Back-in-the-Game-The-Arcade-Screen-Cleaner-and-The-Arcade-Pen/td-p/907511)   
       b) [The Arcade Pen Set](https://www.googlecloudcommunity.com/gc/Learning-Forums/Back-in-the-Game-The-Arcade-Screen-Cleaner-and-The-Arcade-Pen/td-p/907511)   
       c) [Arcade Polo T-shirts](https://www.googlecloudcommunity.com/gc/Learning-Forums/Arcade-Polo-T-shirts/td-p/909307) [  
 ](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Backpacks/td-p/753907)      d) [The Ranger, Champion, and Legend Vacuum Cleaners](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Ranger-Champion-and-Legend-Vacuum-Cleaners/td-p/920502)   
-      e) [The Arcade Backpacks!](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Backpacks/td-p/922793) 
+      e) [The Arcade Backpacks!](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Backpacks/td-p/922793)
 
-**4) Arcade Champion (75-84 Arcade Points):  
-**      a) [Arcade Polo T-shirts](https://www.googlecloudcommunity.com/gc/Learning-Forums/Arcade-Polo-T-shirts/td-p/909307)   
+**4) Arcade Champion (75-84 Arcade Points):**  
+      a) [Arcade Polo T-shirts](https://www.googlecloudcommunity.com/gc/Learning-Forums/Arcade-Polo-T-shirts/td-p/909307)   
       b) [The Arcade USB Hub!](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-Elevate-Your-Connectivity-The-Arcade-USB-Hub/td-p/916925)   
       c) [The Ranger, Champion, and Legend Vacuum Cleaners](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Ranger-Champion-and-Legend-Vacuum-Cleaners/td-p/920502) [  
 ](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Backpacks/td-p/753907)      d) [The Arcade Pen Duo](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Pen-Duo-and-The-Arcade-Lego-Diary/td-p/921876)   
       e) [The Arcade Lego® Diary](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Pen-Duo-and-The-Arcade-Lego-Diary/td-p/921876)   
-      f) [The Arcade Backpacks!](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Backpacks/td-p/922793) 
+      f) [The Arcade Backpacks!](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Backpacks/td-p/922793)
 
 **5) Arcade Legend (85+ Arcade Points):**  
       a) [Arcade Polo T-shirts](https://www.googlecloudcommunity.com/gc/Learning-Forums/Arcade-Polo-T-shirts/td-p/909307)   
@@ -54,13 +54,13 @@ To help you gear up, I thought it’d be a great idea to gather all the swag dro
 ](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Backpacks/td-p/753907)      d) [The Ranger, Champion, and Legend Vacuum Cleaners](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Ranger-Champion-and-Legend-Vacuum-Cleaners/td-p/920502) [  
 ](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Backpacks/td-p/753907)      e) [The Arcade Lumin](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Lumin/td-p/921093) [  
 ](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Backpacks/td-p/753907)      f) [The Arcade Pen Duo](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Pen-Duo-and-The-Arcade-Lego-Diary/td-p/921876) [  
-](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Backpacks/td-p/753907)      g) [The Arcade Backpacks!](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Backpacks/td-p/922793) 
+](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Backpacks/td-p/753907)      g) [The Arcade Backpacks!](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Backpacks/td-p/922793)
 
 ---
 
 This season has been an incredible journey—packed with challenges, skill-building, and moments of growth. We’re proud of everything you’ve achieved and hope these accomplishments take your cloud skills to the next level in your career.
 
-If you’ve earned **20 or more Arcade Points**, congratulations—you’ve unlocked access to the **Arcade Prize Counter**! 
+If you’ve earned **20 or more Arcade Points**, congratulations—you’ve unlocked access to the **Arcade Prize Counter**!
 
 ---
 
