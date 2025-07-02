@@ -39,13 +39,20 @@ a) [The Arcade Screen Cleaner](https://www.googlecloudcommunity.com/gc/Learning
 ](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Backpacks/td-p/753907)      d) [The Ranger, Champion, and Legend Vacuum Cleaners](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Ranger-Champion-and-Legend-Vacuum-Cleaners/td-p/920502)   
       e) [The Arcade Backpacks!](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Backpacks/td-p/922793)
 
-**4) Arcade Champion (75-84 Arcade Points):**  
-      a) [Arcade Polo T-shirts](https://www.googlecloudcommunity.com/gc/Learning-Forums/Arcade-Polo-T-shirts/td-p/909307)   
-      b) [The Arcade USB Hub!](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-Elevate-Your-Connectivity-The-Arcade-USB-Hub/td-p/916925)   
-      c) [The Ranger, Champion, and Legend Vacuum Cleaners](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Ranger-Champion-and-Legend-Vacuum-Cleaners/td-p/920502) [  
-](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Google-Cloud-Backpacks/td-p/753907)      d) [The Arcade Pen Duo](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Pen-Duo-and-The-Arcade-Lego-Diary/td-p/921876)   
-      e) [The Arcade Lego® Diary](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Pen-Duo-and-The-Arcade-Lego-Diary/td-p/921876)   
-      f) [The Arcade Backpacks!](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Backpacks/td-p/922793)
+**4) Arcade Champion (75-84 Arcade Points):**
+
+* a) [Arcade Polo T-shirts](https://www.googlecloudcommunity.com/gc/Learning-Forums/Arcade-Polo-T-shirts/td-p/909307) 
+    
+* b) [The Arcade USB Hub!](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-Elevate-Your-Connectivity-The-Arcade-USB-Hub/td-p/916925) 
+    
+* c) [The Ranger, Champion, and Legend Vacuum Cleaners](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Ranger-Champion-and-Legend-Vacuum-Cleaners/td-p/920502) 
+    
+* d) [The Arcade Pen Duo](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Pen-Duo-and-The-Arcade-Lego-Diary/td-p/921876) 
+    
+* e) [The Arcade Lego® Diary](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Pen-Duo-and-The-Arcade-Lego-Diary/td-p/921876) 
+    
+* f) [The Arcade Backpacks!](https://www.googlecloudcommunity.com/gc/Learning-Forums/Swag-Drop-The-Arcade-Backpacks/td-p/922793)
+    
 
 **5) Arcade Legend (85+ Arcade Points):**  
       a) [Arcade Polo T-shirts](https://www.googlecloudcommunity.com/gc/Learning-Forums/Arcade-Polo-T-shirts/td-p/909307)   
