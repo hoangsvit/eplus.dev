@@ -7,7 +7,6 @@ cuid: cmclsycf6001e02le3l3qcjry
 slug: google-cloud-arcade-prize-counter-get-ready-for-redemption
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751451078577/35abe448-f049-43b1-9a7a-9af3bb36c535.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1751451169818/5af3c328-2b44-46b5-b94f-9ab257ee8d10.png
-tags: google-cloud-arcade-prize-counter-get-ready-for-redemption, google-cloud-arcade-prize-counter, google-cloud-arcade-prize
 
 ---
 
