@@ -13,7 +13,7 @@ tags: google-cloud-arcade, google-cloud-arcade-facilitator, google-cloud-arcade-
 
 ## **Introduce**
 
-The Arcade Facilitator Program is an always-on, no-cost gaming campaign where technical practitioners of all levels can learn new cloud skills like computing, application development, big data & AI/ML and earn digital badges & points to use towards **claiming swag prizes and Google Cloud goodies**. 
+The Arcade Facilitator Program is an always-on, no-cost gaming campaign where technical practitioners of all levels can learn new cloud skills like computing, application development, big data & AI/ML and earn digital badges & points to use towards **claiming swag prizes and Google Cloud goodies**.
 
 **Cohort 2 is coming soon!**
 
@@ -67,7 +67,7 @@ Once you fill the form, **you will receive an email within 24-48 hours** with th
 
 **NOTE: The points system for cohort 2 is coming soon! This points system is not yet finalised and still shows the cohort 1 points system.**
 
-For the badges and milestones that you complete in the Facilitator program, you will earn several **"Arcade  + Bonus Points"** that you can **REDEEM** **for prizes and Google Cloud goodies** at the Skills Boost Arcade prize counter. 
+For the badges and milestones that you complete in the Facilitator program, you will earn several **"Arcade  + Bonus Points"** that you can **REDEEM** **for prizes and Google Cloud goodies** at the Skills Boost Arcade prize counter.
 
 See what's the criteria of earning these points below. You can also checkout the official [Skills Boost Arcade website here](https://go.cloudskillsboost.google/arcade?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) for more details on the points system.
 
@@ -75,13 +75,13 @@ See what's the criteria of earning these points below. You can also checkout the
 
 Here's what you need to know about the points system:
 
-* For each **"Game"** badge you complete, you will be awarded with **1 Arcade point**. Eg: If you complete 2 game badges, you will receive 2 points & so on. *(Note: You get 2 points for completing the monthly special Arcade game.)*  
+* For each **"Game"** badge you complete, you will be awarded with **1 Arcade point**. Eg: If you complete 2 game badges, you will receive 2 points & so on. *(Note: You get 2 points for completing the monthly special Arcade game.)*
     
-* For each **"Trivia"** badge you complete, you will be awarded with **1 Arcade Point**. Eg: If you complete 2 trivia badges, you will receive 2 points & so on.  
+* For each **"Trivia"** badge you complete, you will be awarded with **1 Arcade Point**. Eg: If you complete 2 trivia badges, you will receive 2 points & so on.
     
-* For every **2 "Skill Badge"** completions, you will be awarded with **1 Arcade Point.** Eg: If you complete 4 skill badges, you will receive 2 points & so on.  
+* For every **2 "Skill Badge"** completions, you will be awarded with **1 Arcade Point.** Eg: If you complete 4 skill badges, you will receive 2 points & so on.
     
-* On completion of any of the **milestones *(including lab-free courses)* mentioned below**, you will receive the mentioned **Bonus Arcade Points**. *(****Note:*** *You will only receive points for the milestone that you earn and not for the ones before that.)*
+* On completion of any of the **milestones *(including lab-free courses)* mentioned below**, you will receive the mentioned **Bonus Arcade Points**. \*(\****Note:*** *You will only receive points for the milestone that you earn and not for the ones before that.)*
     
 
 Refer to the image on the right for a representation of these points.
@@ -90,4 +90,4 @@ Refer to the image on the right for a representation of these points.
 
 Earning any of the milestones below does **NOT** make you eligible for any swags/prizes. Note that, in the facilitator program, you are mainly just earning "Bonus" points that you can accumulate and add to your "Arcade" points to reach the actual Skills Boost Arcade Player achievements and thus become eligible for swags/prizes.
 
-## See the milestones of the program below!
+### See the milestones of the program below!
