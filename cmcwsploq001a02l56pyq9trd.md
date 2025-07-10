@@ -7,7 +7,6 @@ cuid: cmcwsploq001a02l56pyq9trd
 slug: reconciling-account-data-with-cloud-spanner-change-streams-gsp1097
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752115856648/0f1961ad-1f74-4cbd-ba65-90ab126f31a2.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1752115860484/ccf75899-d785-4200-8d6b-7c2c9bf79c9b.png
-tags: cloud-spanner, reconciling-account-data-with-cloud-spanner-change-streams-gsp1097, reconciling-account-data-with-cloud-spanner-change-streams, gsp1097, cloud-spanner-change-streams
 
 ---
 
