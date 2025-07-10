@@ -7,6 +7,7 @@ cuid: cmcwsploq001a02l56pyq9trd
 slug: reconciling-account-data-with-cloud-spanner-change-streams-gsp1097
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752115856648/0f1961ad-1f74-4cbd-ba65-90ab126f31a2.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1752115860484/ccf75899-d785-4200-8d6b-7c2c9bf79c9b.png
+tags: cloud-spanner, reconciling-account-data-with-cloud-spanner-change-streams-gsp1097, reconciling-account-data-with-cloud-spanner-change-streams, gsp1097, cloud-spanner-change-streams
 
 ---
 
@@ -357,3 +358,9 @@ curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/Rec
 chmod +x arcadecrew.sh
 ./arcadecrew.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752117595115/96f2d1fa-cb18-4676-aa21-2ee6f9a11670.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752117645787/ef0769f2-98d1-4833-a0c2-d03365a1ddbf.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752117635349/7dffa50a-8afc-4699-bde3-ab1a1600df96.png align="center")
