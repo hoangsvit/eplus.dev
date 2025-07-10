@@ -7,7 +7,6 @@ cuid: cmcwpl7uh000k02gt5knqgn5n
 slug: the-arcade-base-camp-july-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752110687750/6dbe7c47-04d4-4baa-90e1-a564a9e98aad.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1752110833963/7854bb55-505d-4c85-9b90-9af7053f9c41.png
-tags: the-arcade-base-camp-june-2025, the-arcade-base-camp-june, the-arcade-base, step-into-the-skillverse, the-arcade-base-camp-july-2025-level-1, the-arcade-base-camp-july-2025-level-2, the-arcade-base-camp-july-2025-level-3, the-arcade-trivia-july-2025
 
 ---
 
