@@ -5,9 +5,9 @@ seoDescription: "In this lab you will learn the basic ‘Hello World' of machine
 datePublished: Sat Aug 17 2024 06:25:43 GMT+0000 (Coordinated Universal Time)
 cuid: clzxr86ps000408mi4ub11div
 slug: tensorflow-qwik-start-gsp637
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723875681937/0ad65a8d-141d-4b4c-a81f-ab494e50bae6.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723875926977/de5605cf-08fa-4234-8d53-6be2a16f6fb1.png
-tags: tensorflow-qwik-start-gsp637
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752478373375/57e80729-1d69-4607-a9ea-071e9180b1e3.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1752478400979/3cade5b4-5d2f-4655-aa5f-862bb6a89852.png
+tags: tensorflow-qwik-start-gsp637, gsp637, tensorflow-qwik-start
 
 ---
 
@@ -450,6 +450,8 @@ Click *Check my progress* to verify the objective.
 ## Solution of Lab
 
 %[https://www.youtube.com/watch?v=Tr6A6Nt2yrg] 
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752478341096/7fe2daf8-23fe-4cde-a34f-1bf4eff5e8d7.png align="center")
 
 ```apache
 pip install google-cloud-logging
