@@ -5,9 +5,9 @@ seoDescription: "Log-based metrics are Cloud Monitoring metrics that are based o
 datePublished: Tue Aug 06 2024 10:07:56 GMT+0000 (Coordinated Universal Time)
 cuid: clzi9blq9001509lbahfoh96s
 slug: creating-and-alerting-on-logs-based-metrics-gsp091
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722938846873/6b7042aa-1257-4aea-af0d-66af71cb9863.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722938862085/3d7f0b51-89fe-4b59-9929-1e380a2f012a.png
-tags: creating-and-alerting-on-logs-based-metrics-gsp091
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752475284279/441457e3-bb08-4584-93a6-df925f2f0202.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1752475302475/8a8db8c4-05ba-4fa5-8139-5c7aab4054eb.png
+tags: creating-and-alerting-on-logs-based-metrics-gsp091, gsp091, creating-and-alerting-on-logs-based-metrics
 
 ---
 
