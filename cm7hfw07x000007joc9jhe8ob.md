@@ -220,7 +220,7 @@ Your new tab should look similar to the following:
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=SvCEF-vamWU&ab_channel=QUICKGCPLAB] 
+%[https://youtu.be/paArY0j56Oo] 
 
 ```apache
 export ZONE=
