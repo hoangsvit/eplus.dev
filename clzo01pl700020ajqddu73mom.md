@@ -7,7 +7,7 @@ cuid: clzo01pl700020ajqddu73mom
 slug: create-and-test-a-document-ai-processor-gsp924
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752485873900/32702f06-8201-454b-be90-cab3d91aaf45.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1752485934339/70692640-f69a-4e02-87c8-5309b3cf920e.png
-tags: create-and-test-a-document-ai-processor-gsp924
+tags: create-and-test-a-document-ai-processor-gsp924, gsp924, create-and-test-a-document-ai-processor
 
 ---
 
