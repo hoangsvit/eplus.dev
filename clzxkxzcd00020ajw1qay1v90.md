@@ -935,6 +935,6 @@ explore: aggregated_orders {
 }
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752480223293/fa520945-780b-4586-8f61-49f79468fb7b.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752480406499/5ed71e03-049a-4b37-9a03-d980c047d11c.png align="center")
 
-![]( align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752480223293/fa520945-780b-4586-8f61-49f79468fb7b.png align="center")
