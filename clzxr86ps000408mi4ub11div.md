@@ -449,7 +449,7 @@ Click *Check my progress* to verify the objective.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=Tr6A6Nt2yrg] 
+%[https://youtu.be/r1c3aM9dEjo] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752478341096/7fe2daf8-23fe-4cde-a34f-1bf4eff5e8d7.png align="center")
 
