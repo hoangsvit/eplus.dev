@@ -5,8 +5,8 @@ seoDescription: "The Document AI API is a document understanding solution that t
 datePublished: Sat Aug 10 2024 10:34:55 GMT+0000 (Coordinated Universal Time)
 cuid: clzo01pl700020ajqddu73mom
 slug: create-and-test-a-document-ai-processor-gsp924
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723286690922/c87992af-e0a3-4f82-a8f4-c51d5873f438.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723286755237/95cba378-f93c-4051-acbe-72c6e1b96453.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752485873900/32702f06-8201-454b-be90-cab3d91aaf45.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1752485934339/70692640-f69a-4e02-87c8-5309b3cf920e.png
 tags: create-and-test-a-document-ai-processor-gsp924
 
 ---
@@ -470,6 +470,37 @@ Click **Check my progress** to verify the objectives.
 ---
 
 ## Solution of Lab
+
+### New solution
+
+%[https://youtu.be/5MldC3vo284] 
+
+### **Step 1** `Run in Cloud Shell`
+
+```apache
+gcloud services enable documentai.googleapis.com
+export ZONE=$(gcloud compute instances list document-ai-dev --format 'csv[no-heading](zone)')
+gcloud compute ssh document-ai-dev --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
+```
+
+* Open `Document AI` from [HER](https://console.cloud.google.com/ai/document-ai?)[E](https://console.cloud.google.com/ai/document-ai?)
+    
+* Processor Name: `form-parser`
+    
+* Download [for](https://storage.googleapis.com/cloud-training/document-ai/generic/form.pdf)[m.pdf](https://storage.googleapis.com/cloud-training/document-ai/generic/form.pdf)
+    
+
+### **Step 2** `order_items`
+
+```apache
+curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Create%20and%20Test%20a%20Document%20AI%20Processor/arcadecrew.sh
+sudo chmod +x arcadecrew.sh
+./arcadecrew.sh
+```
+
+---
+
+### Old solution
 
 %[https://www.youtube.com/watch?v=9_WV8xiz1Q8] 
 
