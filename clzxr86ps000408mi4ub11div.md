@@ -469,6 +469,10 @@ pip install -r requirements.txt
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP637/model.ipynb
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752479922706/129288ad-15f3-4495-b24d-dc6e7bda9af1.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752479917887/64c71ef1-c9aa-450f-8022-32b64f9d932f.png align="center")
+
 ### Manual
 
 ```apache
