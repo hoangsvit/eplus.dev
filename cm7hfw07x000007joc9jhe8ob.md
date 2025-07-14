@@ -233,3 +233,5 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/R
 sudo chmod +x gsp691.sh
 ./gsp691.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752477591588/20b19219-4c47-4f37-90ad-49a31a942797.png align="center")
