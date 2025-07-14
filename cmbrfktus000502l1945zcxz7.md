@@ -568,7 +568,7 @@ The wikipedia URLs even point to the Japanese Wikipedia pages - so cool!
 
 ## Solution of Lab
 
-%[https://youtu.be/t4zprxScLbE] 
+%[https://youtu.be/-el4MpSBpMQ] 
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Entity%20and%20Sentiment%20Analysis%20with%20the%20Natural%20Language%20API/gsp038.sh
