@@ -235,3 +235,9 @@ sudo chmod +x gsp691.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752477591588/20b19219-4c47-4f37-90ad-49a31a942797.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752477774498/faf1b4c2-1999-4790-a914-f2fe3854259e.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752477810075/58369cff-64d5-46ba-baf4-c4dbb735683b.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752477720689/e3a6bbf5-27c8-4261-bb71-8dbac1224028.png align="center")
