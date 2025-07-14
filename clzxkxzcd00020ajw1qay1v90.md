@@ -936,3 +936,5 @@ explore: aggregated_orders {
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752480223293/fa520945-780b-4586-8f61-49f79468fb7b.png align="center")
+
+![]( align="center")
