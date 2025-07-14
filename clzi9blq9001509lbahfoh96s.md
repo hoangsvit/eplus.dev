@@ -266,6 +266,20 @@ Click **Check my progress** to verify the objective.
 
 ### Solution of Lab
 
+### New solution
+
+%[https://youtu.be/X4OMbwDZMQ0] 
+
+```apache
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Creating%20and%20Alerting%20on%20Logs%20based%20Metrics/techcps091.sh
+sudo chmod +x techcps091.sh
+./techcps091.sh
+```
+
+---
+
+### Old solution
+
 %[https://www.youtube.com/watch?v=JOraHiLLpWQ] 
 
 ```apache
