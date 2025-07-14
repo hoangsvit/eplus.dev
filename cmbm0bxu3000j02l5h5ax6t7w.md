@@ -489,11 +489,13 @@ Now that you have seen the `bind_all_filters` in action, play around with a coup
 
 ## Solution of Lab
 
-%[https://youtu.be/5o8cNhew2AA] 
+%[https://youtu.be/Ka0Rg1JT9B8] 
 
 ### **🛠️ Looker Configuration Guide 🚀**
 
 > 💡 **Pro Tip:** Follow along with the complete video tutorial to ensure you achieve full scores on all "Check My Progress" validation steps!
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752481775857/5f1a6618-a2cc-469d-b809-c30fec276bf8.png align="center")
 
 ### **📊 Step 1: Create the** `brand_order_facts` View
 
