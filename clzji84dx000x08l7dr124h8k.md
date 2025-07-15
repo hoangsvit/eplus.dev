@@ -5,9 +5,9 @@ seoDescription: "Compute Engine lets you create and run virtual machines on Goog
 datePublished: Wed Aug 07 2024 07:04:57 GMT+0000 (Coordinated Universal Time)
 cuid: clzji84dx000x08l7dr124h8k
 slug: deploy-microsoft-sql-server-to-compute-engine-gsp031
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723014248937/3d35e012-f052-4577-bc79-9f65e5ae8075.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723014278928/f741df19-aa4f-4506-9847-2e50c5f4c2f8.png
-tags: deploy-microsoft-sql-server-to-compute-engine-gsp031
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752548872003/c96e239b-5dd3-42a3-af37-0c267a72c20b.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1752548904631/adb961c9-3c66-4f18-8fba-65ebd9494ba9.png
+tags: compute-engine, microsoft-sql-server, deploy-microsoft-sql-server-to-compute-engine, deploy-microsoft-sql-server-to-compute-engine-gsp031, gsp031
 
 ---
 
