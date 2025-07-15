@@ -5,9 +5,9 @@ seoDescription: "The Web Security Scanner, one of Security Command Center's buil
 datePublished: Tue Aug 06 2024 14:04:39 GMT+0000 (Coordinated Universal Time)
 cuid: clzihs07e00000al79smh156o
 slug: web-security-scanner-qwik-start-gsp112
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722953100623/62a51a04-763e-47f4-8218-665e375a3e67.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722953054717/b6b14557-172c-4fbd-ae94-fcc1f7302cbe.png
-tags: web-security-scanner-qwik-start-gsp112
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752567752151/a99e6650-52e2-4c43-9ed0-7cf463501c6b.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1752567794616/e832d54a-75a1-4141-8050-ff8683c6c1ed.png
+tags: web-security-scanner-qwik-start-gsp112, gsp112, web-security-scanner-qwik-start, add-subtitle-web-security-scanner-qwik-start-gsp112
 
 ---
 
@@ -177,7 +177,7 @@ Web Security Scanner scans for common vulnerabilities in Google App Engine appli
 export REGION=
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722953007400/ab32b5fa-97a8-42cf-a811-2bdb9bf0b821.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752567687796/c8a6d799-89b2-4b12-a8ba-3dbf9998cca3.png align="center")
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Web%20Security%20Scanner%20Qwik%20Start/quicklabgsp112.sh
