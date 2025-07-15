@@ -179,7 +179,7 @@ vendor_id       : GenuineIntel
 cpu family      : 6
 model           : 63
 model name      : Intel(R) Xeon(R) CPU @ 2.30GHz
-....              
+....
 ```
 
 ## Task 3. Install software
@@ -407,3 +407,8 @@ curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Rent
 sudo chmod +x techcps008.sh
 ./techcps008.sh
 ```
+
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text"><strong>If it fails rerun the script and it should work.</strong></div>
+</div>
