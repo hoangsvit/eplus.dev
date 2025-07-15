@@ -35,7 +35,7 @@ In this lab, you will learn how to create a virtual machine with Microsoft SQL S
 
 ---
 
-### **Task 1. Deploy Microsoft SQL Server**
+## **Task 1. Deploy Microsoft SQL Server**
 
 Create a new Compute Engine virtual machine instance running Microsoft SQL Server from the Cloud Console.
 
@@ -86,7 +86,7 @@ Deploy Microsoft SQL Server
 
 **Check my progress**
 
-### **Task 2. Create a Windows user and password**
+## **Task 2. Create a Windows user and password**
 
 To RDP into the Windows instance, you must create a Windows user and password.
 
@@ -119,7 +119,7 @@ Create a Windows user and password
 
 **Check my progress**
 
-### **Task 3. Remote desktop (RDP) into the Windows Server**
+## **Task 3. Remote desktop (RDP) into the Windows Server**
 
 It's time to RDP into the Windows Server. There are two different ways to do this, depending on whether or not you are on Windows. Let's go through them both.
 
@@ -141,7 +141,7 @@ It's time to RDP into the Windows Server. There are two different ways to do thi
 2. Double click the RDP file and log in using the Windows user and password.
     
 
-### **Task 4. Run Microsoft SQL Server Management Studio**
+## **Task 4. Run Microsoft SQL Server Management Studio**
 
 1. Inside your remote desktop window, click the Start menu, and type **Microsoft SQL**.
     
@@ -161,7 +161,15 @@ Microsoft SQL Server Management Studio launches, showing you a **Connect to Serv
 
 ---
 
-### Solution of Lab
+## Solution of Lab
+
+### New solution
+
+%[https://youtu.be/T44HLwxqDSA] 
+
+---
+
+### Old solution
 
 %[https://www.youtube.com/watch?v=ycLDsZCDZq4] 
 
