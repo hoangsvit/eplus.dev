@@ -167,6 +167,12 @@ Microsoft SQL Server Management Studio launches, showing you a **Connect to Serv
 
 %[https://youtu.be/T44HLwxqDSA] 
 
+```apache
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Deploy%20Microsoft%20SQL%20Server%20to%20Compute%20Engine/techcps031.sh
+sudo chmod +x techcps031.sh
+./techcps031.sh
+```
+
 ---
 
 ### Old solution
