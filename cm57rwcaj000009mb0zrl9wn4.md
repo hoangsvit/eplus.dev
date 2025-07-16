@@ -15,7 +15,7 @@ tags: bao-cao-luong-it-2024-2025-it-salary-report-for-2024-2025, it-salary-repor
 
 Khảo sát được thực hiện trực tuyến từ ngày 10/09/2024 đến ngày 10/10/2024, với trung bình mỗi người tham gia dành khoảng 15-20 phút để hoàn thành. Những điểm cập nhật dưới đây sẽ được tiết lộ trong báo cáo năm nay.
 
-### **Góc nhìn mới về tổng quan thị trường IT**
+## **Góc nhìn mới về tổng quan thị trường IT**
 
 Từ dự báo về giá trị thị trường IT toàn cầu đến khu vực và tổng quan ngành IT tại Việt Nam, khám phá thứ hạng cụ thể, tốc độ tăng trưởng, các lĩnh vực trọng tâm và cách các chuyên gia IT được so sánh trong khu vực về Chỉ số Đổi mới Sáng tạo.
 
