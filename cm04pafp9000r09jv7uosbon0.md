@@ -7,7 +7,7 @@ Discover security-related misconfigurations of Google Cloud resources."
 datePublished: Thu Aug 22 2024 03:05:52 GMT+0000 (Coordinated Universal Time)
 cuid: cm04pafp9000r09jv7uosbon0
 slug: analyzing-findings-with-security-command-center-gsp1164
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1746862108590/78aee7fb-6c55-4d7c-a785-9809d676f0bd.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752724997136/3dbb3c99-8ba0-4295-8747-02b012f75c6b.png
 tags: analyzing-findings-with-security-command-center-gsp1164, gsp1164, analyzing-findings-with-security-command-center
 
 ---
@@ -89,7 +89,7 @@ To complete this lab, you need:
     
 3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
-    ```
+    ```apache
     student-04-0c66ccfc4382@qwiklabs.net
     ```
     
@@ -99,7 +99,7 @@ To complete this lab, you need:
     
 5. Copy the **Password** below and paste it into the **Welcome** dialog.
     
-    ```
+    ```apache
     bxsiqeFNhD2b
     ```
     
@@ -141,7 +141,7 @@ Cloud Shell is a virtual machine that is loaded with development tools. It offer
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-01-f2f70ae70a7d`. The output contains a line that declares the **Project\_ID** for this session:
 
-```
+```apache
 Your Cloud Platform project in this session is set to qwiklabs-gcp-01-f2f70ae70a7d
 ```
 
@@ -150,7 +150,7 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-01-f2f70ae70a
 3. (Optional) You can list the active account name with this command:
     
 
-```
+```apache
 gcloud auth list
 ```
 
@@ -159,7 +159,7 @@ gcloud auth list
 
 **Output:**
 
-```
+```apache
 ACTIVE: *
 ACCOUNT: student-04-0c66ccfc4382@qwiklabs.net
 
@@ -170,13 +170,13 @@ To set the active account, run:
 5. (Optional) You can list the project ID with this command:
     
 
-```
+```apache
 gcloud config list project
 ```
 
 **Output:**
 
-```
+```apache
 [core]
 project = qwiklabs-gcp-01-f2f70ae70a7d
 ```
@@ -186,10 +186,6 @@ project = qwiklabs-gcp-01-f2f70ae70a7d
 ## Scenario
 
 ![5ce916afc496a60c.jpeg](https://cdn.qwiklabs.com/qO2i8mve9e0jOrBbEsDzPFfEkM1ea6S0a7mXdN%2FNS%2BA%3D align="left")
-
-  
-  
-  
 
 Cymbal Bank is an American retail bank with over 2,000 branches in all 50 states. It offers comprehensive debit and credit services that are built on top of a robust payments platform. Cymbal Bank is a digitally transforming legacy financial services institution.
 
@@ -545,9 +541,6 @@ Copied!content\_copy
 
 ![BigQuery table values](https://cdn.qwiklabs.com/2k1HiII2HAmDhjRNaHLEFxrpUNBMLDxKbnWM%2FbyXufc%3D align="left")
 
-  
-  
-
 Click **Check my progress** to verify the objective.
 
 Export findings to a Cloud Storage bucket and create a BigQuery table
@@ -556,7 +549,7 @@ Export findings to a Cloud Storage bucket and create a BigQuery table
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=LgxoIdzin1o] 
+%[https://youtu.be/KeI_tZzxhCQ] 
 
 ```apache
 curl -LO https://raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Analyze%20Findings%20with%20Security%20Command%20Center/arcadecrew.sh
