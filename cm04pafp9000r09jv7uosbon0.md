@@ -8,6 +8,7 @@ datePublished: Thu Aug 22 2024 03:05:52 GMT+0000 (Coordinated Universal Time)
 cuid: cm04pafp9000r09jv7uosbon0
 slug: analyzing-findings-with-security-command-center-gsp1164
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752724997136/3dbb3c99-8ba0-4295-8747-02b012f75c6b.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1752725740878/8df4106f-a16f-4e0c-9a70-4434481abf25.png
 tags: analyzing-findings-with-security-command-center-gsp1164, gsp1164, analyzing-findings-with-security-command-center
 
 ---
