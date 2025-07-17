@@ -559,7 +559,7 @@ Redact strings and images
 
 ## Solution of Lab
 
-%[https://youtu.be/uCU12_itV4U] 
+%[https://youtu.be/wMdejkvRek8] 
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Redacting%20Sensitive%20Data%20with%20Cloud%20Data%20Loss%20Prevention/gsp864.sh
