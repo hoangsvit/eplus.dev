@@ -5,9 +5,8 @@ seoDescription: "In this lab you will learn about the features and tools provide
 datePublished: Tue Sep 03 2024 08:18:05 GMT+0000 (Coordinated Universal Time)
 cuid: cm0m5q6aq000e09la6fp02e7a
 slug: log-analytics-on-google-cloud-gsp1088
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725351162610/4fb0e166-beb8-4167-92c2-d9ef29345d95.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725351444544/9e24f66b-b17d-4ab7-82fc-dd0de8a92254.jpeg
-tags: log-analytics-on-google-cloud-gsp1088
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752723201170/59663c4a-682e-4a80-92ae-de215464786c.png
+tags: google-cloud, log-analytics, log-analytics-on-google-cloud-gsp1088, gsp1088, log-analytics-on-google-cloud
 
 ---
 
