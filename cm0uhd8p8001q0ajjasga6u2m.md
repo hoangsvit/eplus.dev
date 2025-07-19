@@ -804,10 +804,10 @@ Click **Check my progress** to verify the objective.
 
 ## Solution of Lab
 
-%[https://youtu.be/8MDDNDwF2u4] 
+%[https://youtu.be/ZR0c3wmDayk] 
 
 ```apache
-curl -LO https://raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Continuous%20Delivery%20with%20Google%20Cloud%20Deploy/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Continuous%20Delivery%20with%20Google%20Cloud%20Deploy/quicklabgsp1079.sh
+sudo chmod +x quicklabgsp1079.sh
+./quicklabgsp1079.sh
 ```
