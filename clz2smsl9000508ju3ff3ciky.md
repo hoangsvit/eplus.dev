@@ -157,7 +157,7 @@ Below are multiple-choice questions to reinforce your understanding of this lab'
 
 ## Solution of Lab
 
-%[https://youtu.be/ogXzPaNH8ww] 
+%[https://youtu.be/eJEuMEsthXQ] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746867316433/855fbeec-a4ca-40b4-b886-ad918412f4d0.png align="center")
 
