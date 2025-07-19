@@ -146,7 +146,7 @@ Before you can deploy an application, you need a container for that application.
 3. Set the region for the deployment
     
     ```apache
-    gcloud config set compute/region us-east1  
+    gcloud config set compute/region us-east1
     ```
     
 4. Use skaffold to deploy the source application
@@ -282,3 +282,11 @@ source techcps957.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752898516944/4251c19a-792f-4ebe-9ed8-6a089c5ab01f.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752898507230/fc02bb47-8dbf-47e3-ad1c-95b9c2650e90.png align="center")
+
+Terminate your application by pressing `CTRL-C` in the terminal running the application.
+
+```apache
+skaffold delete
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752899316199/f0379e83-1da8-440d-9331-143e1fdb4c12.png align="center")
