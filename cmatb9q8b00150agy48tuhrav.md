@@ -374,12 +374,12 @@ Your application is deployed, tested, and you can view the logs.
 
 ## Solution of Lab
 
-%[https://youtu.be/7ZcwDmOu5zI] 
+%[https://youtu.be/j56NWOm8cmM] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Cloud%20Functions%20Qwik%20Start%20-%20Command%20Line/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Cloud%20Run%20Functions%3A%20Qwik%20Start%20-%20Command%20Line/techcps080.sh
+sudo chmod +x techcps080.sh
+./techcps080.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747551743325/b826bee2-91fc-458c-befc-b14ef1f2a63f.png align="center")
