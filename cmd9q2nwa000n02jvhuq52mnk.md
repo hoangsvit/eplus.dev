@@ -423,7 +423,7 @@ entity = datastore.Entity(key) entity['blob_name'] = blob.name entity['image_pub
 
 # Save the new entity to Datastore.
 
-datastore_client.put(entity) 
+datastore_client.put(entity)
 ```
 
 The Storage and Vision client libraries can be accessed programmatically in a similar manner to Datastore. You can open the *main.py* file yourself using *vim*, *emacs*, or *nano* to explore all of the sample code.
@@ -556,3 +556,7 @@ curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Depl
 sudo chmod +x techcps023.sh
 ./techcps023.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752898095055/b874ce04-3c7a-4bfa-8b1e-62771278cb2b.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752898101340/6509912d-7cea-464b-b1ac-9417d17e43eb.png align="center")
