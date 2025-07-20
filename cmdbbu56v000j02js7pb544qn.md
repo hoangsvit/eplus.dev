@@ -41,7 +41,7 @@ P.S. You don't need the GCP Console for this, but you do need to keep this quiz 
         
     * Announcement group
         
-    * Restricted group
+    * <mark>Restricted group</mark>
         
     * Private group
         
@@ -55,22 +55,44 @@ P.S. You don't need the GCP Console for this, but you do need to keep this quiz 
         
     * Start button
         
-    * Hand rasing
+    * <mark>Hand rasing</mark>
         
-4. Which Google Meet feature allows you to join meetings created by others?
+4. **Which Google Meet feature allows you to join meetings created by others?**
     
-
-Select ONE answer that would be relevantGet MeetingJoin Breakout RoomsSchedule MeetingsJoin Meet Meetings
-
-5. Which no-code app development platform does Google Cloud provide that enables you to swiftly create mobile and desktop applications using your existing data?
+    *Select ONE answer that would be relevant*
     
-
-Select ONE answer that would be relevantCloud SQLAppscriptWeb AutomateAppsheet
-
-6. What information does AppSheet retrieve from your data source, specifically spreadsheets, to define the column structure of your application?
+    * Get Meeting
+        
+    * Join Breakout Rooms
+        
+    * Schedule Meetings
+        
+    * <mark>Join Meet Meetings</mark>
+        
+5. **Which no-code app development platform does Google Cloud provide that enables you to swiftly create mobile and desktop applications using your existing data?**
     
-
-Select ONE answer that would be relevantColumn headersOther informationRow headersData source
+    *Select ONE answer that would be relevant*
+    
+    * Cloud SQL
+        
+    * Appscript
+        
+    * Web Automate
+        
+    * <mark>Appsheet</mark>
+        
+6. **What information does AppSheet retrieve from your data source, specifically spreadsheets, to define the column structure of your application?**
+    
+    *Select ONE answer that would be relevant*
+    
+    * <mark>Column headers</mark>
+        
+    * Other information
+        
+    * Row headers
+        
+    * Data source
+        
 
 ---
 
