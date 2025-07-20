@@ -1,9 +1,12 @@
 ---
 title: "Create a Go Artifact Registry and Upload Code - gem-artifact-registry-go"
+seoTitle: "Create a Go Artifact Registry and Upload Code - gem-artifact-registry-"
+seoDescription: "Learn to create and configure a Go Artifact Registry on Google Cloud and upload Go modules seamlessly with step-by-step guidance"
 datePublished: Sun Jul 20 2025 04:57:49 GMT+0000 (Coordinated Universal Time)
 cuid: cmdb7h8et000002l6d1zzfjc6
 slug: create-a-go-artifact-registry-and-upload-code-gem-artifact-registry-go
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752980767677/c9af9e66-66a0-43ca-baa9-89994a667c50.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1752987512367/b2e5d58a-7d6b-4004-aa3b-b4e4b0c112da.png
 tags: create-a-go-artifact-registry-and-upload-code-gem-artifact-registry-go, create-a-go-artifact-registry-and-upload-code, gem-artifact-registry-go
 
 ---
