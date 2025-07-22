@@ -13,11 +13,13 @@ tags: vietcombank, canh-bao-lua-dao-mao-danh-vietcombank-sms-spoofing, sms-spoof
 
 Vợ mình vừa nhận tin nhắn giả mạo Vietcombank, nhưng lại chui vào đúng luồng SMS chính thức của ngân hàng (nơi nhận OTP trước đây). Đây là chiêu SMS Spoofing – giả mạo tên người gửi.
 
-Vietcombank đã đưa ra cảnh báo: [**https://www.vietcombank.com.vn/.../07/18/canh-bao-lua-dao**](https://www.vietcombank.com.vn/vi-VN/KHCN/Truy-cap-nhanh/Tin-noi-bat/Articles/2025/07/18/canh-bao-lua-dao?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExbXRsckxybzZhbW5NR2xvegEeXS1sn6icpivAsEbzUdRDxkziePFKYz01hb7dUIMAhlAU0Us9kTQ2r00VSiQ_aem_u0rcDFa_kGtMqiH-k01yeg)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1753173835076/b56192f8-59a1-4891-bcf9-fbbb3d8e1eb3.jpeg align="center")
+
+**Vietcombank** đã đưa ra cảnh báo: [**https://www.vietcombank.com.vn/.../07/18/canh-bao-lua-dao**](https://www.vietcombank.com.vn/vi-VN/KHCN/Truy-cap-nhanh/Tin-noi-bat/Articles/2025/07/18/canh-bao-lua-dao?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExbXRsckxybzZhbW5NR2xvegEeXS1sn6icpivAsEbzUdRDxkziePFKYz01hb7dUIMAhlAU0Us9kTQ2r00VSiQ_aem_u0rcDFa_kGtMqiH-k01yeg)
 
 ### 📌 Dấu hiệu nhận biết:
 
-• Gửi từ “Vietcombank” thật
+• Gửi từ “**Vietcombank**” thật
 
 • Dụ người dùng bấm vào link lạ để “xác minh” hoặc “khóa tài khoản”
 
