@@ -39,4 +39,50 @@ Nhận được tin nhắn nghi ngờ → chụp màn hình → gửi ngân hàn
 
 ### Mô tả Kỹ thuật SMS Spoofing
 
-%[https://www.youtube.com/watch?v=umPqpgbCSHY]
+%[https://www.youtube.com/watch?v=umPqpgbCSHY] 
+
+**SMS Spoofing** là một kỹ thuật giả mạo tin nhắn SMS, cho phép kẻ tấn công **giả mạo tên người gửi (Sender ID)** để khiến nạn nhân tin rằng tin nhắn đến từ một nguồn đáng tin cậy, như ngân hàng, cơ quan nhà nước, hay công ty lớn.
+
+---
+
+### 🔍 **Cách hoạt động của SMS Spoofing:**
+
+* Thay vì dùng số điện thoại thực để gửi SMS, kẻ tấn công **giả mạo tên người gửi**, ví dụ: "Vietcombank", "Apple", "MoMo".
+    
+* Nội dung tin nhắn thường chứa:
+    
+    * **Liên kết lừa đảo** (phishing links)
+        
+    * **Mã độc**
+        
+    * **Thông báo giả** về giao dịch, khuyến mãi, khóa tài khoản…
+        
+
+---
+
+### ⚠️ **Tại sao nguy hiểm?**
+
+* Người dùng dễ bị **lừa đảo**, vì tin nhắn có vẻ như đến từ tổ chức thật.
+    
+* Tin nhắn **có thể chèn vào luồng tin nhắn cũ**, nếu người gửi giả mạo trùng tên với luồng tin trước đó trên điện thoại.
+    
+* Dẫn đến:
+    
+    * Mất tiền (chuyển nhầm, bị đánh cắp OTP)
+        
+    * Lộ thông tin cá nhân hoặc tài khoản
+        
+
+---
+
+### 🔐 **Phòng tránh:**
+
+1. **Không bấm vào link lạ** trong tin nhắn, kể cả từ tên người gửi quen thuộc.
+    
+2. **Luôn kiểm tra đường link** (ví dụ: [vietcombank.com.vn](http://vietcombank.com.vn) chứ không phải [vietcombvn-bank.xyz](http://vietcombvn-bank.xyz)).
+    
+3. **Liên hệ tổng đài chính thức** nếu nghi ngờ.
+    
+4. **Cài đặt phần mềm bảo mật** cho điện thoại.
+    
+5. **Cảnh giác với các yêu cầu OTP**, mã xác thực.
