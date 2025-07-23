@@ -558,3 +558,11 @@ curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Fund
 sudo chmod +x techcps610.sh
 ./techcps610.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1753253599259/0f2a4d4e-3a0f-4db1-97da-d309094f755d.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1753253630205/a306be61-526a-430f-8c99-aa59a94d83ec.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1753253689300/1ec5d426-adeb-4b95-9897-901d57d988cd.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1753253774589/9a9a672c-7ee7-41e5-bde8-bff0deff390a.png align="center")
