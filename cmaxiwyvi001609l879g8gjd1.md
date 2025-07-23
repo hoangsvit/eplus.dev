@@ -542,9 +542,9 @@ WHERE
 
 ## Solution of Lab
 
-%[https://youtu.be/vVt4btQvkqo] 
+%[https://youtu.be/ggHQ8EC8V2Y] 
 
-### **Run the following Commands in CloudShell**
+**Run the following Commands in CloudShell**
 
 ```apache
 nvm install 22.6
