@@ -542,7 +542,9 @@ WHERE
 
 ## Solution of Lab
 
-%[https://youtu.be/ggHQ8EC8V2Y] 
+### Quick
+
+%[https://youtu.be/MyjJ6Y0Rez0] 
 
 **Run the following Commands in CloudShell**
 
@@ -551,9 +553,15 @@ nvm install 22.6
 ```
 
 ```apache
-curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/Deploy%20a%20Modern%20Web%20App%20connected%20to%20a%20Cloud%20Spanner%20Instance/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1051/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747806692201/2d4fec2e-81a3-409a-8d88-20c7b9e3303f.png align="center")
+
+---
+
+### Manual
+
+%[https://youtu.be/MyjJ6Y0Rez0]
