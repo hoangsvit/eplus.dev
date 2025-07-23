@@ -544,7 +544,7 @@ WHERE
 
 ### Quick
 
-%[https://youtu.be/MyjJ6Y0Rez0] 
+%[https://youtu.be/7C3VhZaXTrM] 
 
 **Run the following Commands in CloudShell**
 
