@@ -313,7 +313,7 @@ Check my progress
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=yDQfs8fNBgM&ab_channel=QUICKGCPLAB] 
+%[https://youtu.be/j36mTrGFyq0] 
 
 ```apache
 export REGION=
@@ -322,7 +322,7 @@ export REGION=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1739950941658/48daafdf-1eba-461a-9efd-57fb7e396c16.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Dataplex%20Qwik%20Start%20-%20Console/gsp1143.sh
-sudo chmod +x gsp1143.sh
-./gsp1143.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Dataplex%3A%20Qwik%20Start%20-%20Console/techcps1143.sh
+sudo chmod +x techcps1143.sh
+./techcps1143.sh
 ```
