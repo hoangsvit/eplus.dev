@@ -1,7 +1,7 @@
 ---
 title: "The Arcade Base Camp July 2025"
 seoTitle: "The Arcade Base Camp June 2025"
-seoDescription: "Welcome to Base Camp July 2025, where you’ll develop key Google Cloud skills and earn an exclusive credential that will open doors to the cloud for you. No "
+seoDescription: "Welcome to Base Camp July 2025, where you’ll develop key Google Cloud skills and earn an exclusive credential that will open doors to the cloud for you. No"
 datePublished: Thu Jul 10 2025 01:28:16 GMT+0000 (Coordinated Universal Time)
 cuid: cmcwpl7uh000k02gt5knqgn5n
 slug: the-arcade-base-camp-july-2025
@@ -19,6 +19,8 @@ Link: [Google Cloud Skills Boost - Games 5703](https://www.cloudskillsboost.goog
 | **Level** | **Link** | **Code** |
 | --- | --- | --- |
 | **The Arcade Base Camp July 2025** | [Google Cloud Skills Boost - Games 6313](https://www.cloudskillsboost.google/games/6313) | <mark>1q-basecamp-07190</mark> |
+| **The Arcade Certification Zone July 2025** | [Google Cloud Skills Boost - Games 6375](https://www.cloudskillsboost.google/games/6375) | <mark>1q-cert-19910</mark> |
+| **Transactions Rewired** | [Google Cloud Skills Boost - Games 6374](https://www.cloudskillsboost.google/games/6374) | <mark>1q-worknplay-0720</mark> |
 | **Step into The Skillverse!** | [Google Cloud Skills Boost - Games 6325](https://www.cloudskillsboost.google/games/6325) | <mark>1q-container-0704</mark> |
 | **Run Ready!** | [Google Cloud Skills Boost - Games 6312](https://www.cloudskillsboost.google/games/6312) | <mark>1q-advanced-1000</mark> |
 | **The Arcade Base Camp July 2025 - LEVEL 1** | [Google Cloud Skills Boost - Games 6310](https://www.cloudskillsboost.google/games/6310) | <mark>1q-security-10292</mark> |
