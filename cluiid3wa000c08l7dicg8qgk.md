@@ -475,6 +475,8 @@ To best see how Cloud Monitoring and Cloud Logging reflect VM instance changes, 
 
 ## Solution of Lab
 
+%[https://youtu.be/5XkXekawOfo] 
+
 ```apache
 curl -LO raw.githubusercontent.com/cloudgoodies/Arcade/refs/heads/main/Cloud%20Monitoring%3A%20Qwik%20Start/GSP089.sh
 sudo chmod +x GSP089.sh
