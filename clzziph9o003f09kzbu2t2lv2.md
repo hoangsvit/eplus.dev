@@ -533,14 +533,14 @@ At this point, the only IP addresses that have access to the master are the addr
 
 ## Solution of Lab
 
-%[https://youtu.be/YiTqnD5aSjY] 
+%[https://youtu.be/UqzEviTysSw] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747462817646/9b6c0038-e6ae-40cd-9530-2d4b1c0344bd.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747462785455/94fea337-cc0f-4a32-a636-f375d605d80c.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Setting%20up%20a%20Private%20Kubernetes%20Cluster/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Setting%20up%20a%20Private%20Kubernetes%20Cluster/techcps178.sh
+sudo chmod +x techcps178.sh
+./techcps178.sh
 ```
