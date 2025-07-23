@@ -535,7 +535,7 @@ At this point, the only IP addresses that have access to the master are the addr
 
 %[https://youtu.be/UqzEviTysSw] 
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747462817646/9b6c0038-e6ae-40cd-9530-2d4b1c0344bd.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1753256425656/b6bf47a8-e990-45e6-8714-0c28cd487066.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747462785455/94fea337-cc0f-4a32-a636-f375d605d80c.png align="center")
 
