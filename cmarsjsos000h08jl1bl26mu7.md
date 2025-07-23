@@ -551,10 +551,10 @@ Exporting logs
 
 ## Solution of Lab
 
-%[https://youtu.be/OXzR8eQDlEA] 
+%[https://youtu.be/FeA_bq6CTgA] 
 
 ```apache
-curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/Fundamentals%20of%20Cloud%20Logging/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Fundamentals%20of%20Cloud%20Logging/techcps610.sh
+sudo chmod +x techcps610.sh
+./techcps610.sh
 ```
