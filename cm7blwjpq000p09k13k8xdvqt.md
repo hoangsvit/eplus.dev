@@ -316,12 +316,6 @@ Check my progress
 %[https://youtu.be/j36mTrGFyq0] 
 
 ```apache
-export REGION=
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1739950941658/48daafdf-1eba-461a-9efd-57fb7e396c16.png align="center")
-
-```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Dataplex%3A%20Qwik%20Start%20-%20Console/techcps1143.sh
 sudo chmod +x techcps1143.sh
 ./techcps1143.sh
