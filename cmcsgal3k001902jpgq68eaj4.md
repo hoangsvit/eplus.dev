@@ -15,8 +15,6 @@ tags: google-cloud-arcade, google-cloud-arcade-facilitator, google-cloud-arcade-
 
 The Arcade Facilitator Program is an always-on, no-cost gaming campaign where technical practitioners of all levels can learn new cloud skills like computing, application development, big data & AI/ML and earn digital badges & points to use towards **claiming swag prizes and Google Cloud goodies**.
 
-**Cohort 2 is coming soon!**
-
 **August 4, 2025 at 6:30 PM - October 7, 2025 at 1:29 AM**
 
 Registration opens on <mark>August 4, 2025 at 6:30 PM GMT+7</mark>
@@ -42,13 +40,13 @@ There are a lot of things in store for you. We want to make sure that by the end
 4. **Complete Games & Trivia FIRST** - It is recommended that you complete the games and trivia first once they open in each month as they have **LIMITED SEATS** which can fill up fast and **they are renewed every month thus expiring the old ones**.
     
 
-[![](https://services.google.com/fh/files/misc/gcaf_site_enrol_btn.png align="center")](https://forms.gle/FGVyCSoaGJTffD5a9)
-
-### Facilitator Referral Code:
+### **Facilitator Referral Code:**
 
 ```plaintext
 GCAF25C2-IN-PKV-WTU
 ```
+
+[![](https://services.google.com/fh/files/misc/gcaf_site_enrol_btn.png align="center")](https://forms.gle/FGVyCSoaGJTffD5a9)
 
 Program Timeline: **4th Aug 2025 05:00 PM - 6th Oct 2025 11:59 PM**
 
