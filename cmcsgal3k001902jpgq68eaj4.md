@@ -42,7 +42,7 @@ There are a lot of things in store for you. We want to make sure that by the end
 4. **Complete Games & Trivia FIRST** - It is recommended that you complete the games and trivia first once they open in each month as they have **LIMITED SEATS** which can fill up fast and **they are renewed every month thus expiring the old ones**.
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1751852746482/4feae65f-cbea-4b94-865e-2c1922ee32ba.png align="center")
+[![](https://services.google.com/fh/files/misc/gcaf_site_enrol_btn.png align="center")](https://forms.gle/FGVyCSoaGJTffD5a9)
 
 ### Facilitator Referral Code:
 
