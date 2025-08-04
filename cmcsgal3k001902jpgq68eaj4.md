@@ -7,6 +7,7 @@ cuid: cmcsgal3k001902jpgq68eaj4
 slug: google-cloud-arcade-facilitator-25-cohort-2
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751853276863/ef528e5e-417c-499e-a5f1-5978473448d6.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1751853270437/278a3a61-7b1e-4ff6-b04c-88790f6ba4c0.png
+tags: google-cloud-arcade, google-cloud-arcade-facilitator, google-cloud-arcade-facilitator-25, google-cloud-arcade-facilitator-25-cohort-2, facilitator-25-cohort-2
 
 ---
 
@@ -42,6 +43,12 @@ There are a lot of things in store for you. We want to make sure that by the end
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1751852746482/4feae65f-cbea-4b94-865e-2c1922ee32ba.png align="center")
+
+### Facilitator Referral Code:
+
+```plaintext
+GCAF25C2-IN-PKV-WTU
+```
 
 Program Timeline: **4th Aug 2025 05:00 PM - 6th Oct 2025 11:59 PM**
 
