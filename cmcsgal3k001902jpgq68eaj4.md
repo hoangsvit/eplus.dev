@@ -46,7 +46,7 @@ There are a lot of things in store for you. We want to make sure that by the end
 GCAF25C2-IN-PKV-WTU
 ```
 
-### **<mark>👉</mark>**[**<mark>Enrol in the program here</mark>**](https://forms.gle/FGVyCSoaGJTffD5a9)
+%[https://forms.gle/FGVyCSoaGJTffD5a9] 
 
 Program Timeline: **4th Aug 2025 05:00 PM - 6th Oct 2025 11:59 PM**
 
