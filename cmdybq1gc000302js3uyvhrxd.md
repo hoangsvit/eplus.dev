@@ -22,8 +22,8 @@ Link: [Google Cloud Skills Boost - Games 5703](https://www.cloudskillsboost.goog
 | **The Arcade Base Camp August 2025** | [Google Cloud Skills Boost - Games 6393](https://www.cloudskillsboost.google/games/6393) | <mark>1q-basecamp-2930</mark> |
 | **Terraform your way to: “Yeah, I code my cloud.”** | [Google Cloud Skills Boost - Games 6396](https://www.cloudskillsboost.google/games/6396) | <mark>1q-terraform-0480</mark> |
 | **The Arcade Base Camp August 2025 - LEVEL 1** | [Google Cloud Skills Boost - Games 6394](https://www.cloudskillsboost.google/games/6394) | <mark>1q-appdesign-0245</mark> |
-| **The Arcade Base Camp August 2025 - LEVEL 2** | [Google Cloud Skills Boost - Games 6395](https://www.cloudskillsboost.google/games/6395) | <mark>1q-trivia-2050</mark> |
-| The Arcade Trivia August 2025 - **Week 1** | [Google Cloud Skills Boost - Games 6397](https://www.cloudskillsboost.google/games/6397) | <mark>1q-trivia-19029</mark> |
+| **The Arcade Base Camp August 2025 - LEVEL 2** | [Google Cloud Skills Boost - Games 6395](https://www.cloudskillsboost.google/games/6395) | <mark>1q-cloudtool-3109</mark> |
+| The Arcade Trivia August 2025 - **Week 1** | [Google Cloud Skills Boost - Games 6397](https://www.cloudskillsboost.google/games/6397) | <mark>1q-trivia-2050</mark> |
 | The Arcade Trivia August 2025 - **Week 2** | [Google Cloud Skills Boost - Games 6398](https://www.cloudskillsboost.google/games/6398) | <mark>1q-trivia-7310</mark> |
 | The Arcade Trivia August 2025 - **Week 3** | [Google Cloud Skills Boost - Games 6399](https://www.cloudskillsboost.google/games/6399) | <mark>1q-trivia-2290</mark> |
 | The Arcade Trivia August 2025 - **Week 4** | [Google Cloud Skills Boost - Games 6400](https://www.cloudskillsboost.google/games/6400) | <mark>1q-trivia-5131</mark> |
