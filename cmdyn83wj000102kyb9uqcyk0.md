@@ -706,3 +706,11 @@ sudo chmod +x techcps911.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1754404547265/f1dffe04-e8c8-497e-a1a8-2c604aa2cbeb.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1754404553123/6556b699-3785-4eae-8531-6305d8cd845d.png align="center")
+
+---
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1754405215300/450dacca-aeb4-4273-b143-24b7c3391ec4.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1754405222174/624bcb1c-eb4c-4591-b8d7-c15af506dfee.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1754405225853/687aff15-2e9b-4e2d-a7cc-ee264e798f91.png align="center")
