@@ -1,0 +1,77 @@
+---
+title: "Congratulations, you're now enrolled in the Google Cloud Arcade Facilitator Program 2025 Cohort 2"
+seoTitle: "Google Cloud Arcade Facilitator Program 2025 Cohort 2"
+seoDescription: "Join the Google Cloud Arcade Facilitator Program and enhance your cloud skills with 600 free credits. Earn badges, points, and exciting prizes!"
+datePublished: Tue Aug 05 2025 13:05:47 GMT+0000 (Coordinated Universal Time)
+cuid: cmdyjydoh000002lc0y1f2ybf
+slug: congratulations-youre-now-enrolled-in-the-google-cloud-arcade-facilitator-program-2025-cohort-2
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754398980876/9eeb33ff-fffa-4afe-8147-4ca6b1588305.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1754399060243/1811199d-4c7d-4790-90e4-1c565085db71.png
+tags: google-cloud-arcade-facilitator-25, google-cloud-arcade-facilitator-program, google-cloud-arcade-facilitator-program-2025, congratulations-youre-now-enrolled-in-the-google-cloud-arcade-facilitator-program-2025-cohort-2, gogle-cloud-arcade-facilitator-program-2025-cohort-2
+
+---
+
+Thank you so much for enroling in the Google Cloud Arcade Facilitator program ([**bit.ly/arcade-facilitator**](http://bit.ly/arcade-facilitator)). We are so excited to have you onboard and can't wait for you to start your journey in cloud and get hands on practice on Google Cloud - the tool that powers apps like Google Search, Gmail and YouTube.
+
+**Get 600 FREE credits pass on Google Cloud Skills Boost platform to take skill badges**
+
+**ProTip:** Don't feel like reading so many steps? Just watch our [2-minute video here](https://www.youtube.com/watch?v=WVdUW1wJwyI) to see how you can easily get your 600 credits pass.
+
+To take part in the program and to complete labs on Google Cloud Skills Boost platform, you need credits. Use the instructions given below to get your 600 FREE credits pass and start working on the program's syllabus below.
+
+1. **\[Very Imp\]** Open incognito window on your browser. *(CTRL/CMD+SHIFT+N)*.
+    
+2. Go to [**https://cloudskillsboost.google/catalog?keywords=GSP282&event=**Your](https://cloudskillsboost.google/catalog?keywords=GSP282&event=Your) and put this unique access code: **xxxx** in the popup asking for access code. *(*[***See in video***](https://notifications.google.com/g/p/ANiao5o8i1jbZzCY0TS3tXmgRJGvKIdq3LD5pxq5mDnIQqCYW1WuMVEFreUj8SOn1yd3A6L1SIgMR2ylR46Zxp1ba7Bk3ywwX194n2ATo3SAormATYgFSRoqUZbwfkEryj1Ps0cnm9JTacvIZsw-wUc8Ewv0_g)*)*
+    
+3. Caution:
+    
+    * Only the above link will lead to the steps mentioned below, searching for this lab in the catalog will not work.
+        
+    * This code is only for you and can be used only once, and not transferable to others.
+        
+4. Now, sign in to your Google Cloud Skills Boost account.
+    
+5. Now, if you click the profile icon on the top right corner, you can see now that you have **9 credits** to get started. *(*[***See in video***](https://youtu.be/WVdUW1wJwyI?si=gCLN49AnAv3akZyC&t=57)*, refresh the web-page to check for the 9 credits, if not received logout and perform the above steps again.)*
+    
+6. Once you have the 9 credits, click on the **"A Tour of Google Cloud Hands-on Labs"** and then click on the green *"Start Lab"*.
+    
+7. Now follow the steps given in the lab & complete it. *(Spend atleast 6 minutes and get a score of 100 in the lab)* Once you finish this lab, click on the **"End Lab"** button, you will automatically get a 2 months free pass credited to your account.
+    
+8. To check for the subscription you have received, please visit this link [***cloudskillsboost.google/my\_account/credits***](http://cloudskillsboost.google/my_account/credits). *(*[***See in video***](https://youtu.be/WVdUW1wJwyI?si=eY9M1kXG9B6p7VOz&t=152)*)*
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743669158481/a32e911c-4cc7-44b5-b458-a9dac1e89b49.png align="center")
+
+%[https://eplus.dev/google-cloud-arcade-facilitator-25-cohort-2] 
+
+%[https://youtu.be/uxRLjKBJgnk] 
+
+%[https://youtu.be/5qDvS0yLTds] 
+
+**Didn't get the credits pass?**
+
+Do not worry! Sometimes, it takes a few minutes for you to get the pass:
+
+1. After completing the lab, wait for a few minutes and refresh your browser to see the credits.
+    
+2. It might take 20-30 minutes after you complete the lab for the credits to be provisioned.
+    
+3. If you face any issues or are not getting the credits (after 30 minutes), then just reach out to your "Facilitators" or the support team at [**arcade-facilitator@google.com**](mailto:arcade-facilitator@google.com) and they will help you.
+    
+
+**Syllabus for the program**
+
+We have a lot of things you could learn from. As part of the program you will learn concepts like computing, application development, big data & machine learning, security and AI using cloud. All of them are structured in exciting games, trivia and skill badges that you can complete. You can find the complete program syllabus on our website here - [**bit.ly/gcaf-syllabus**](http://bit.ly/gcaf-syllabus).
+
+**How to earn Arcade points & prizes?**
+
+For the badges and milestones that you complete in the Facilitator program, you will earn several **"Arcade + Bonus Points"** that you can **REDEEM for prizes and Google Cloud goodies** at the Arcade prize counter in December. The cohort deadline is **2nd June 2025 11:59 PM IST** to complete all the milestones. Just go to our website here - [**bit.ly/gcaf-points-system**](http://bit.ly/gcaf-points-system) to see how you can earn these "points" and redeem them for prizes.
+
+Once again congratulations on your enrolment and all the best. For any questions or queries you can just check out the FAQs section [***(***](https://notifications.google.com/g/p/ANiao5qOkPZkJJQ4ammFvcAuHSYnJF29zKLI__jC5vmCeTKyVUusYddTbz-zy1VvzFWgivPPaJNWSyX_CS0Psjk140xJTAOCZ9Z2MxmCHfqMh7kjXqAKEWsFXzH_EB5ZCd9ydVI9jaEYB-ZGiTBPqGzBkviIP_KMNmj4VgTv9JbwXRwJ_dpBoPLpS137wK1VEFya0p2x7ZTiXC6XQ04Rw21CbWtZ8EY--zG3tPThAxG__P2ABxPLHN8E)[***bit.ly/gcaf-faqs***](http://bit.ly/gcaf-faqs)*)* of our website or just reach out to your "Facilitators".
+
+See you in the cloud,  
+**The Google Cloud Arcade Facilitator Team**
+
+---
+
+%[https://eplus.dev/google-cloud-arcade-facilitator-25-cohort-2]
