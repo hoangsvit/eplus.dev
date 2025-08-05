@@ -46,7 +46,7 @@ There are a lot of things in store for you. We want to make sure that by the end
 GCAF25C2-IN-PKV-WTU
 ```
 
-[![](https://services.google.com/fh/files/misc/gcaf_site_enrol_btn.png align="center")](https://forms.gle/FGVyCSoaGJTffD5a9)
+### **<mark>👉</mark>**[**<mark>Enrol in the program here</mark>**](https://forms.gle/FGVyCSoaGJTffD5a9)
 
 Program Timeline: **4th Aug 2025 05:00 PM - 6th Oct 2025 11:59 PM**
 
@@ -67,7 +67,7 @@ Once you fill the form, **you will receive an email within 24-48 hours** with th
 
 **NOTE:** If you provide a wrong Google Cloud Skills Boost profile URL above, then you won't receive this email! In case of any queries, just reach out to your "Facilitators" and they will help you!
 
-## **Points System (coming soon)**
+## **Points System**
 
 **NOTE: The points system for cohort 2 is coming soon! This points system is not yet finalised and still shows the cohort 1 points system.**
 
