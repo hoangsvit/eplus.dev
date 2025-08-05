@@ -21,7 +21,7 @@ To take part in the program and to complete labs on Google Cloud Skills Boost pl
 
 1. **\[Very Imp\]** Open incognito window on your browser. *(CTRL/CMD+SHIFT+N)*.
     
-2. Go to [**https://cloudskillsboost.google/catalog?keywords=GSP282&event=**Your](https://cloudskillsboost.google/catalog?keywords=GSP282&event=Your) and put this unique access code: **xxxx** in the popup asking for access code. *(*[***See in video***](https://notifications.google.com/g/p/ANiao5o8i1jbZzCY0TS3tXmgRJGvKIdq3LD5pxq5mDnIQqCYW1WuMVEFreUj8SOn1yd3A6L1SIgMR2ylR46Zxp1ba7Bk3ywwX194n2ATo3SAormATYgFSRoqUZbwfkEryj1Ps0cnm9JTacvIZsw-wUc8Ewv0_g)*)*
+2. Go to [\*\*https://cloudskillsboost.google/catalog?keywords=GSP282&event=\*\*Your](https://cloudskillsboost.google/catalog?keywords=GSP282&event=Your) and put this unique access code: **xxxx** in the popup asking for access code. *(*[***See in video***](https://notifications.google.com/g/p/ANiao5o8i1jbZzCY0TS3tXmgRJGvKIdq3LD5pxq5mDnIQqCYW1WuMVEFreUj8SOn1yd3A6L1SIgMR2ylR46Zxp1ba7Bk3ywwX194n2ATo3SAormATYgFSRoqUZbwfkEryj1Ps0cnm9JTacvIZsw-wUc8Ewv0_g)*)*
     
 3. Caution:
     
@@ -65,7 +65,7 @@ We have a lot of things you could learn from. As part of the program you will le
 
 **How to earn Arcade points & prizes?**
 
-For the badges and milestones that you complete in the Facilitator program, you will earn several **"Arcade + Bonus Points"** that you can **REDEEM for prizes and Google Cloud goodies** at the Arcade prize counter in December. The cohort deadline is **2nd June 2025 11:59 PM IST** to complete all the milestones. Just go to our website here - [**bit.ly/gcaf-points-system**](http://bit.ly/gcaf-points-system) to see how you can earn these "points" and redeem them for prizes.
+For the badges and milestones that you complete in the Facilitator program, you will earn several **"Arcade + Bonus Points"** that you can **REDEEM for prizes and Google Cloud goodies** at the Arcade prize counter in December. The cohort deadline is **6th October 2025 11:59 PM IST** to complete all the milestones. Just go to our website here - [**bit.ly/gcaf-points-system**](http://bit.ly/gcaf-points-system) to see how you can earn these "points" and redeem them for prizes.
 
 Once again congratulations on your enrolment and all the best. For any questions or queries you can just check out the FAQs section [***(***](https://notifications.google.com/g/p/ANiao5qOkPZkJJQ4ammFvcAuHSYnJF29zKLI__jC5vmCeTKyVUusYddTbz-zy1VvzFWgivPPaJNWSyX_CS0Psjk140xJTAOCZ9Z2MxmCHfqMh7kjXqAKEWsFXzH_EB5ZCd9ydVI9jaEYB-ZGiTBPqGzBkviIP_KMNmj4VgTv9JbwXRwJ_dpBoPLpS137wK1VEFya0p2x7ZTiXC6XQ04Rw21CbWtZ8EY--zG3tPThAxG__P2ABxPLHN8E)[***bit.ly/gcaf-faqs***](http://bit.ly/gcaf-faqs)*)* of our website or just reach out to your "Facilitators".
 
