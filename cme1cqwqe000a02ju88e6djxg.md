@@ -86,11 +86,9 @@ To complete this lab, you need:
     
 3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
-    ```
+    ```apache
     student-03-63e83aa85b87@qwiklabs.net
     ```
-    
-    Copied!
     
     You can also find the Username in the Lab Details pane.
     
@@ -98,11 +96,9 @@ To complete this lab, you need:
     
 5. Copy the **Password** below and paste it into the **Welcome** dialog.
     
-    ```
+    ```apache
     SjrnbJpQdP69
     ```
-    
-    Copied!
     
     You can also find the Password in the Lab Details pane.
     
@@ -352,64 +348,52 @@ To give the processes extra RAM, you'll create a swap file. This is to increase 
 1. To create a 40GB swap file, execute the following command:
     
 
-```
+```apache
 sudo dd if=/dev/zero of=/swapfile bs=1MiB count=40KiB
 ```
-
-Copied!
 
 Note that the first command will take a little time to execute.
 
 2. Update the permissions on the swap file:
     
 
-```
+```apache
 sudo chmod 0600 /swapfile
 ```
-
-Copied!
 
 3. Designate the file to be used as a swap partition:
     
 
-```
+```apache
 sudo mkswap /swapfile
 ```
-
-Copied!
 
 4. Add the swap file configuration to /etc/fstab, which allows the mounted drive to be recognized upon reboot:
     
 
-```
+```apache
 echo "/swapfile swap swap defaults 0 0" | sudo tee -a /etc/fstab
 ```
-
-Copied!
 
 5. Enable the swap file:
     
 
-```
+```apache
 sudo swapon -a
 ```
-
-Copied!
 
 6. Confirm the swap has been recognized:
     
 
-```
+```apache
 free -g
 ```
-
-Copied!
 
 You should see a message with a line similar to this:
 
 **Output:**
 
-```
+```apache
            total  used   free  shared  buff/cache   available
 Mem:          15     0      0     0            15          15
 Swap:         24     0     24
@@ -422,81 +406,67 @@ During the VM setup, you created an attached disk. The VM will not automatically
 1. View the attached disk. You should see an entry for **sdb** with the size as 200GB:
     
 
-```
+```apache
 sudo lsblk
 ```
-
-Copied!
 
 2. Format the attached disk:
     
 
-```
+```apache
 sudo mkfs.ext4 -m 0 -E lazy_itable_init=0,lazy_journal_init=0,discard /dev/sdb
 ```
-
-Copied!
 
 3. Create the folder and mount the attached disk:
     
 
-```
+```apache
 sudo mkdir -p /mnt/disks/chaindata-disk
 sudo mount -o discard,defaults /dev/sdb /mnt/disks/chaindata-disk
 ```
 
-Copied!
-
 4. Update the permissions for the folder so processes can read/write to it:
     
 
-```
+```apache
 sudo chmod a+w /mnt/disks/chaindata-disk
 ```
-
-Copied!
 
 5. Retrieve the disk ID of the mounted drive to confirm that the drive was mounted:
     
 
-```
+```apache
 sudo blkid /dev/sdb
 ```
-
-Copied!
 
 You should see a message similar to the one displayed in the output box below:
 
 **Output:**
 
-```
+```apache
 /dev/sdb: UUID="7fa9c421-0054-4555-b0ca-b470a97a3d84" TYPE="ext4"
 ```
 
 6. Retrieve the disk ID of the mounted disk and append it to the /etc/fstab file. This file ensures that the drive will still be mounted if the VM restarts.
     
 
-```
+```apache
 export DISK_UUID=$(findmnt -n -o UUID /dev/sdb)
 echo "UUID=$DISK_UUID /mnt/disks/chaindata-disk ext4 discard,defaults,nofail 0 2" | sudo tee -a /etc/fstab
 ```
 
-Copied!
-
 7. Run the df command to confirm that the disk has been mounted, formatted and the correct size has been allocated:
     
 
-```
+```apache
 df -h
 ```
-
-Copied!
 
 You should see a message with a line similar to this, which shows the new mounted volume and the size:
 
 **Output:**
 
-```
+```apache
 /dev/sdb        196G   28K  196G   1% /mnt/disks/chaindata-disk
 ```
 
@@ -513,85 +483,69 @@ Create a user to run the processes under.
 1. To create a user named ethereum, execute the following commands:
     
 
-```
+```apache
 sudo useradd -m ethereum
 sudo usermod -aG sudo ethereum
 sudo usermod -aG google-sudoers ethereum
 ```
 
-Copied!
-
 2. Switch to the ethereum user:
     
 
-```
+```apache
 sudo su ethereum
 ```
-
-Copied!
 
 3. Start the bash command line:
     
 
-```
+```apache
 bash
 ```
-
-Copied!
 
 4. Change to the ethereum user's home folder:
     
 
-```
+```apache
 cd ~
 ```
-
-Copied!
 
 ### Install the Ethereum software
 
 1. Update the Operating System:
     
 
-```
+```apache
 sudo apt update -y
 sudo apt-get update -y
 ```
 
-Copied!
-
 2. Install common software:
     
 
-```
+```apache
 sudo apt install -y dstat jq
 ```
-
-Copied!
 
 3. Install the Google Cloud Ops Agent:
     
 
-```
+```apache
 curl -sSO https://dl.google.com/cloudagents/add-google-cloud-ops-agent-repo.sh
 sudo bash add-google-cloud-ops-agent-repo.sh --also-install
 ```
 
-Copied!
-
 4. Remove the script file that was downloaded:
     
 
-```
+```apache
 rm add-google-cloud-ops-agent-repo.sh
 ```
-
-Copied!
 
 5. Create folders for the logs and chaindata for the Geth and Lighthouse clients:
     
 
-```
+```apache
 mkdir /mnt/disks/chaindata-disk/ethereum/
 mkdir /mnt/disks/chaindata-disk/ethereum/geth
 mkdir /mnt/disks/chaindata-disk/ethereum/geth/chaindata
@@ -601,32 +555,26 @@ mkdir /mnt/disks/chaindata-disk/ethereum/lighthouse/chaindata
 mkdir /mnt/disks/chaindata-disk/ethereum/lighthouse/logs
 ```
 
-Copied!
-
 6. Install Geth from the package manager:
     
 
-```
+```apache
 sudo add-apt-repository -y ppa:ethereum/ethereum
 sudo apt-get -y install ethereum
 ```
 
-Copied!
-
 7. Confirm that Geth is available and is the latest version:
     
 
-```
+```apache
 geth version
 ```
-
-Copied!
 
 You should see a message with a line similar to this:
 
 **Output:**
 
-```
+```apache
 Geth
 Version: 1.14.11-stable
 Git Commit: ea9e62ca3db5c33aa7438ebf39c189afd53c6bf8
@@ -640,7 +588,7 @@ GOROOT=
 8. Download the Lighthouse client. This script will download the latest release from GitHub.
     
 
-```
+```apache
 # Fetch the latest release information from GitHub API
 RELEASE_URL="https://api.github.com/repos/sigp/lighthouse/releases/latest"
 LATEST_VERSION=$(curl -s $RELEASE_URL | jq -r '.tag_name')
@@ -651,12 +599,10 @@ DOWNLOAD_URL=$(curl -s $RELEASE_URL | jq -r '.assets[] | select(.name | endswith
 curl -L "$DOWNLOAD_URL" -o "lighthouse-${LATEST_VERSION}-x86_64-unknown-linux-gnu.tar.gz"
 ```
 
-Copied!
-
 9. Extract the lighthouse tar file and remove:
     
 
-```
+```apache
 # Extract the tar file
 tar -xvf "lighthouse-${LATEST_VERSION}-x86_64-unknown-linux-gnu.tar.gz"
 
@@ -664,31 +610,25 @@ tar -xvf "lighthouse-${LATEST_VERSION}-x86_64-unknown-linux-gnu.tar.gz"
 rm "lighthouse-${LATEST_VERSION}-x86_64-unknown-linux-gnu.tar.gz"
 ```
 
-Copied!
-
 10. Move the lighthouse binary to the /usr/bin folder and update the permissions:
     
 
-```
+```apache
 sudo mv lighthouse /usr/bin
 ```
-
-Copied!
 
 11. Confirm that lighthouse is available and is the latest version:
     
 
-```
+```apache
 lighthouse --version
 ```
-
-Copied!
 
 You should see a message with a line similar to this, note that the version number might be different:
 
 **Output:**
 
-```
+```apache
 Lighthouse v5.3.0-d6ba8c3
 BLS library: blst-portable
 BLS hardware acceleration: true
@@ -701,14 +641,12 @@ Specs: mainnet (true), minimal (false), gnosis (true)
 12. Create the shared JWT secret. This JWT secret is used as a security mechanism that restricts who can call the execution client's RPC endpoint.
     
 
-```
+```apache
 cd ~
 mkdir ~/.secret
 openssl rand -hex 32 > ~/.secret/jwtsecret
 chmod 440 ~/.secret/jwtsecret
 ```
-
-Copied!
 
 Click **Check my progress** to verify the objective.
 
@@ -727,11 +665,9 @@ The following starts the Geth execution client.
 1. First, authenticate in gcloud. Inside the SSH session, run:
     
 
-```
+```apache
 gcloud auth login
 ```
-
-Copied!
 
 Press ENTER when you see the prompt Do you want to continue (Y/n)?
 
@@ -744,19 +680,17 @@ Press ENTER when you see the prompt Do you want to continue (Y/n)?
 5. Set the external IP address environment variable:
     
 
-```
+```apache
 export CHAIN=eth
 export NETWORK=mainnet
 export EXT_IP_ADDRESS_NAME=$CHAIN-$NETWORK-rpc-ip
 export EXT_IP_ADDRESS=$(gcloud compute addresses list --filter=$EXT_IP_ADDRESS_NAME --format="value(address_range())")
 ```
 
-Copied!
-
 6. Run the following command to start Geth as a background process. In this lab, you use the "snap" sync mode, which is a light node. To sync as a full node, use "full" as the sync mode. You can run this at the command line or save this to a .sh file first and then run it. You can also configure it to run as a service with systemd.
     
 
-```
+```apache
 nohup geth --datadir "/mnt/disks/chaindata-disk/ethereum/geth/chaindata" \
 --http.corsdomain "*" \
 --http \
@@ -782,8 +716,6 @@ nohup geth --datadir "/mnt/disks/chaindata-disk/ethereum/geth/chaindata" \
 &> "/mnt/disks/chaindata-disk/ethereum/geth/logs/geth.log" &
 ```
 
-Copied!
-
 Click **Check my progress** to verify the objective.
 
 Start Geth as a background process and use the snap sync mode
@@ -791,26 +723,22 @@ Start Geth as a background process and use the snap sync mode
 7. To see the process id, run this command:
     
 
-```
+```apache
 ps -A | grep geth
 ```
-
-Copied!
 
 8. Check the logs to see if the process started correctly:
     
 
-```
+```apache
 tail -f /mnt/disks/chaindata-disk/ethereum/geth/logs/geth.log
 ```
-
-Copied!
 
 You should see a message similar to the one displayed in the output box below. The Geth client won't continue until it pairs with a consensus client.
 
 **Output:**
 
-```
+```apache
 Looking for peers                        peercount=1 tried=27 static=0
 Post-merge network, but no beacon client seen. Please launch one to follow the chain!
 ```
@@ -825,7 +753,7 @@ Now, you'll start the lighthouse consensus client.
 1. Run the following command to launch lighthouse as a background process. You can run this at the command line or save this to a .sh file first and then run it. You can also configure it to run as a service with systemd.
     
 
-```
+```apache
 nohup lighthouse bn \
 --network mainnet \
 --http \
@@ -838,31 +766,25 @@ nohup lighthouse bn \
 &> "/mnt/disks/chaindata-disk/ethereum/lighthouse/logs/lighthouse.log" &
 ```
 
-Copied!
-
 2. To see the process id, run the following command:
     
 
-```
+```apache
 ps -A | grep lighthouse
 ```
-
-Copied!
 
 3. Check the log file to see if the process started correctly. This may take a few minutes to show up:
     
 
-```
+```apache
 tail -f /mnt/disks/chaindata-disk/ethereum/lighthouse/logs/lighthouse.log
 ```
-
-Copied!
 
 You should see a message similar to the following:
 
 **Output:**
 
-```
+```apache
 INFO Syncing
 INFO Synced
 INFO New block received
@@ -873,17 +795,15 @@ INFO New block received
 5. Check the Geth log again to confirm that the logs are being generated correctly.
     
 
-```
+```apache
 tail -f /mnt/disks/chaindata-disk/ethereum/geth/logs/geth.log
 ```
-
-Copied!
 
 You should see a message similar to the one displayed in the output box below.
 
 **Output:**
 
-```
+```apache
 Syncing beacon headers
 ```
 
@@ -894,26 +814,22 @@ Determine if the node is still syncing. It will take some time for the node to s
 1. Run the following Geth command to check if the node is still syncing. Output of "false" means that it is synced with the network.
     
 
-```
+```apache
 geth attach /mnt/disks/chaindata-disk/ethereum/geth/chaindata/geth.ipc
 ```
-
-Copied!
 
 2. At the Geth console execute:
     
 
-```
+```apache
 eth.syncing
 ```
-
-Copied!
 
 You should see something similar to the following:
 
 **Output:**
 
-```
+```apache
 #If not synced:
 
 {
@@ -944,15 +860,13 @@ false
 4. Run the following curl command to check if the node is still syncing. The command line tool ‘jq' will format the json output of the curl command. Output of "false" means that it is synced with the network.
     
 
-```
+```apache
 curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","method":"eth_syncing","id":67}' http://localhost:8545 | jq
 ```
 
-Copied!
-
 **Output:**
 
-```
+```json
 #If not synced:
 {
   "jsonrpc": "2.0",
@@ -983,15 +897,13 @@ Copied!
 5. Run the following curl command to check if the node is accessible through the external IP address:
     
 
-```
+```apache
 curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","method":"eth_syncing","id":67}' http://$EXT_IP_ADDRESS:8545 | jq
 ```
 
-Copied!
-
 **Output:**
 
-```
+```json
 #If not synced:
 {
   "jsonrpc": "2.0",
@@ -1030,16 +942,14 @@ By default, Geth and Lighthouse will be logging to their declared log file. You'
 1. Update permissions of the Cloud Ops config file so you can update it:
     
 
-```
+```apache
 sudo chmod 666 /etc/google-cloud-ops-agent/config.yaml
 ```
-
-Copied!
 
 2. Configure Cloud Ops agent to send log data to Cloud Logging. Update the file "/etc/google-cloud-ops-agent/config.yaml" to include this [Ops Agent configuration](https://cloud.google.com/stackdriver/docs/solutions/agents/ops-agent/configuration#logging-config). This config file defines the Geth and Lighthouse log files for import into Cloud Logging:
     
 
-```
+```apache
 sudo cat << EOF >> /etc/google-cloud-ops-agent/config.yaml
 logging:
   receivers:
@@ -1073,29 +983,23 @@ logging:
 EOF
 ```
 
-Copied!
-
 3. After saving, run these commands to restart the agent and pick up the changes:
     
 
-```
+```apache
 sudo systemctl stop google-cloud-ops-agent
 sudo systemctl start google-cloud-ops-agent
 sudo systemctl status google-cloud-ops-agent
 ```
-
-Copied!
 
 4. Enter **Ctrl+C** to exit out of the status screen.
     
 5. If there is an error in the status, use this command to see more details:
     
 
-```
+```apache
 sudo journalctl -xe | grep "google_cloud_ops_agent_engine"
 ```
-
-Copied!
 
 6. Check Cloud logging to confirm that log messages are appearing in the console. From the Navigation Menu, under the **Logging** section, click **Logs Explorer**. You should see messages similar to these:
     
@@ -1109,15 +1013,13 @@ Since we started the `geth` and `lighthouse` clients with the `--metrics` flag, 
 1. On the command line of the VM, confirm the Geth metrics endpoint is active.
     
 
-```
+```apache
 curl http://localhost:6060/debug/metrics/prometheus
 ```
 
-Copied!
-
 **Output:**
 
-```
+```apache
 ......
 # TYPE vflux_server_clientEvent_deactivated gauge
 vflux_server_clientEvent_deactivated 0
@@ -1134,15 +1036,13 @@ vflux_server_inactive_count 0
 2. On the command line of the VM, confirm the Lighthouse metrics endpoint is active.
     
 
-```
+```apache
 curl http://localhost:5054/metrics
 ```
 
-Copied!
-
 **Output:**
 
-```
+```apache
 ......
 gossipsub_heartbeat_duration_bucket{le="300.0"} 5679573
 gossipsub_heartbeat_duration_bucket{le="350.0"} 5679573
@@ -1155,7 +1055,7 @@ gossipsub_heartbeat_duration_bucket{le="+Inf"} 5679573
 3. Configure Cloud Ops agent to send the metrics data to Managed Prometheus. Update the file "/etc/google-cloud-ops-agent/config.yaml" to include this [Ops Agent configuration](https://cloud.google.com/stackdriver/docs/solutions/agents/ops-agent/configuration#metrics-config). This config file defines the Geth and Lighthouse metrics endpoint for import into Managed Prometheus:
     
 
-```
+```apache
 sudo cat << EOF >> /etc/google-cloud-ops-agent/config.yaml
 metrics:
   receivers:
@@ -1182,29 +1082,23 @@ metrics:
 EOF
 ```
 
-Copied!
-
 4. After saving, run these commands to restart the agent and pick up the changes:
     
 
-```
+```apache
 sudo systemctl stop google-cloud-ops-agent
 sudo systemctl start google-cloud-ops-agent
 sudo systemctl status google-cloud-ops-agent
 ```
-
-Copied!
 
 5. Enter **Ctrl+C** to exit out of the status screen.
     
 6. If there is an error in the status, use this command to see more details:
     
 
-```
+```apache
 sudo journalctl -xe | grep "google_cloud_ops_agent_engine"
 ```
-
-Copied!
 
 7. Check Cloud logging to confirm that the metrics are appearing in the console. From the Navigation Menu, under the **Monitoring** section, click **Metrics Explorer**. Select the **&lt;&gt; PromQL** option. In the query box, enter a lighthouse metric `gossipsub_heartbeat_duration_bucket`. Click **RUN QUERY**. You should see results similar to this:
     
@@ -1276,15 +1170,8 @@ Configure alerts based on VM metrics:
 8. Click **NEXT,** select the following values:
     
 
-| **Property** | **Value  
-**(type or select) |
-| --- | --- |
-| Use notification channel | select |
-| Notification Channels | Select notification channel created previously |
-| Notify on incident closure | check |
-| Incident autoclose duration | 2 days |
-| Documentation | Check the disk space of the VM |
-| Name | VM - Disk space alert - 90% utilization |
+| **Property** | \*\*Value  
+\*\*(type or select) | | --- | --- | | Use notification channel | select | | Notification Channels | Select notification channel created previously | | Notify on incident closure | check | | Incident autoclose duration | 2 days | | Documentation | Check the disk space of the VM | | Name | VM - Disk space alert - 90% utilization |
 
 ![The Configure notifications and finalize alert page, which includes the aforementioned fields.](https://cdn.qwiklabs.com/EJzsQyNLzvhTRVspTp8dp%2BGIeHaDmfoUYELlX7AEIco%3D align="left")
 
@@ -1306,20 +1193,8 @@ Configure uptime checks for the HTTP endpoint:
 3. Configure the uptime check with the following values:
     
 
-| **Property** | **Value  
-**(type or select) |
-| --- | --- |
-| Protocol | HTTP |
-| Resource Type | Instance |
-| Applies to single: Instance | eth-mainnet-rpc-node |
-| Path | / |
-| Expand More target options |  |
-| Request Method | GET |
-| Port | 8545 |
-| Click Continue | accept defaults |
-| Click Continue | accept defaults |
-| Choose notification channel | Select notification channel created previously |
-| Title | eth-mainnet-rpc-node-uptime-check |
+| **Property** | \*\*Value  
+\*\*(type or select) | | --- | --- | | Protocol | HTTP | | Resource Type | Instance | | Applies to single: Instance | eth-mainnet-rpc-node | | Path | / | | Expand More target options | | | Request Method | GET | | Port | 8545 | | Click Continue | accept defaults | | Click Continue | accept defaults | | Choose notification channel | Select notification channel created previously | | Title | eth-mainnet-rpc-node-uptime-check |
 
 4. Click **TEST** (should show success of 200 OK).
     
