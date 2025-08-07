@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with Liquid to Customize the Looker User Experience - GSP933"
-seoTitle: "Getting Started with Liquid to Customize the Looker User Experience - "
+seoTitle: "Getting Started with Liquid to Customize the Looker User Experience -"
 seoDescription: "Looker is a modern data platform in Google Cloud that lets you analyze and visualize your data interactively. You can use Looker to do in-depth data analysi"
 datePublished: Thu Jun 05 2025 02:50:49 GMT+0000 (Coordinated Universal Time)
 cuid: cmbis4kg9000009lahln99mkb
@@ -497,7 +497,7 @@ Advanced Linking with Liquid
 
 ## Solution of Lab
 
-%[https://youtu.be/xv_BSJ-5MNk] 
+%[https://youtu.be/JCNkB1Rp0Y4] 
 
 ### **🛠️ Looker Configuration Guide 🚀**
 
