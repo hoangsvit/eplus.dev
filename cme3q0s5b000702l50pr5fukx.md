@@ -849,6 +849,11 @@ Create the MPC Operator Confidential Space Instance
 
 ### Solution of Lab
 
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text"><strong>As of now, the lab can only be completed in the <mark>East</mark> zone.</strong></div>
+</div>
+
 ### Quick
 
 %[https://youtu.be/8-_bqoG5MYc] 
