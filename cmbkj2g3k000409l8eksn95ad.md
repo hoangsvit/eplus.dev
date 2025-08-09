@@ -456,7 +456,7 @@ Before you sign out, you can to export your virtual agent if you want. Recall th
 
 💡 **Pro Tip:** *Watch the full video walkthrough to get full points on all "Check My Progress" sections!*
 
-🔗 **Download Blob File**: [Click here](https://drive.google.com/file/d/17Nbx7lQg0F-nmMvjPAnckDhaZ9AUM3KQ/view?usp=sharing)
+🔗 **Download Blob File**: [Click here](https://storage.googleapis.com/spls/DialogflowCX_agents/gsp929-start-agent.blob)
 
 ### **Step 1: Create Versions**
 
