@@ -450,7 +450,7 @@ Before you sign out, you can to export your virtual agent if you want. Recall th
 
 ## Solution of Lab
 
-%[https://youtu.be/dsYOYRVDRKM] 
+%[https://youtu.be/4pZZMBaSR-0] 
 
 ### **🛠️ Configuration Steps**
 
