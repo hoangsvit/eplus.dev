@@ -1236,4 +1236,10 @@ gcloud compute instances stop eth-mainnet-rpc-node --project=$DEVSHELL_PROJECT_I
 
 ### Manual
 
-%[https://youtu.be/ys-tg37bfvg]
+**Option 1**
+
+%[https://youtu.be/ys-tg37bfvg] 
+
+**Option 2**
+
+%[https://youtu.be/iPj3lNxkOFw]
