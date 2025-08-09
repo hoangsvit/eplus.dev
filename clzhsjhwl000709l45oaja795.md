@@ -13,7 +13,7 @@ tags: autoscaling-an-instance-group-with-custom-cloud-monitoring-metrics-gsp087,
 
 ## **Overview**
 
-In this lab you will create a [Compute Engin](https://cloud.google.com/compute/docs/)[e](https://cloud.google.com/compute/docs/) managed instance group that autoscales based on the value of a custom [Cloud Monitorin](https://cloud.google.com/monitoring/docs/)[g](https://cloud.google.com/monitoring/docs/) metric.
+In this lab you will create a [Compute Engine](https://cloud.google.com/compute/docs/) managed instance group that autoscales based on the value of a custom [Cloud Monitoring](https://cloud.google.com/monitoring/docs/) metric.
 
 ### Application architecture
 
@@ -314,7 +314,7 @@ The script starts by generating high values for approximately 15 minutes in orde
 export ZONE=
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722910464986/6f726282-d3ac-43be-8600-381be3c72425.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1754726747323/89db6205-218d-406f-89c4-168e861ad9d8.png align="center")
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Autoscaling%20an%20Instance%20Group%20with%20Custom%20Cloud%20Monitoring%20Metrics/quicklabgsp087.sh
