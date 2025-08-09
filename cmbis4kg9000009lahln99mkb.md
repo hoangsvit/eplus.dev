@@ -503,6 +503,8 @@ Advanced Linking with Liquid
 
 > 💡 **Pro Tip:** Follow along with the complete video tutorial to ensure you achieve full scores on all "Check My Progress" validation steps!
 
+**Go to Develop &gt; qwiklabs-ecommerce LookML project.**
+
 ### **📊 Step 1: Update the** `user` View
 
 Modify the `user` view with the following configuration:
