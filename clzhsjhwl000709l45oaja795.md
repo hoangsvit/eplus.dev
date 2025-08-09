@@ -5,9 +5,9 @@ seoDescription: "In this lab you will create a Compute Engine managed instance g
 datePublished: Tue Aug 06 2024 02:18:11 GMT+0000 (Coordinated Universal Time)
 cuid: clzhsjhwl000709l45oaja795
 slug: autoscaling-an-instance-group-with-custom-cloud-monitoring-metrics-gsp087
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722910633359/53a2aa3f-90f4-485c-8d37-816af8c254c8.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722910665804/77422592-5310-4373-84a0-75401ad2e083.png
-tags: autoscaling-an-instance-group-with-custom-cloud-monitoring-metrics-gsp087
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754726625293/d31e9c27-e8b8-4ec1-8461-885f156f8041.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1754726652129/1aab69e9-5934-4728-9157-53ed4bbdf45a.png
+tags: autoscaling-an-instance-group-with-custom-cloud-monitoring-metrics-gsp087, gsp089, autoscaling-an-instance-group-with-custom-cloud-monitoring-metrics
 
 ---
 
