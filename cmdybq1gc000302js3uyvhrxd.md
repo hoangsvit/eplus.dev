@@ -19,6 +19,7 @@ Link: [Google Cloud Skills Boost - Games 5703](https://www.cloudskillsboost.goog
 | **Level** | **Link** | **Code** |
 | --- | --- | --- |
 | **The Arcade Base Camp August 2025** | [Google Cloud Skills Boost - Games 6393](https://www.cloudskillsboost.google/games/6393) | <mark>1q-basecamp-2930</mark> |
+| **Future Ready Skills** | [Google Cloud Skills Boost - Games 6415](https://www.cloudskillsboost.google/games/6415) | <mark>1q-futureready-0229</mark> |
 | **Terraform Essentials** | [Google Cloud Skills Boost - Games 6396](https://www.cloudskillsboost.google/games/6396) | <mark>1q-terraform-0480</mark> |
 | **The Arcade Base Camp August 2025 - LEVEL 1** | [Google Cloud Skills Boost - Games 6394](https://www.cloudskillsboost.google/games/6394) | <mark>1q-appdesign-0245</mark> |
 | **The Arcade Base Camp August 2025 - LEVEL 2** | [Google Cloud Skills Boost - Games 6395](https://www.cloudskillsboost.google/games/6395) | <mark>1q-cloudtool-3109</mark> |
