@@ -7,7 +7,6 @@ cuid: cmdybq1gc000302js3uyvhrxd
 slug: the-arcade-base-camp-august-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754385268379/48c9d625-69b6-4f5a-8804-97a215fc48a6.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1754385294302/71e628b7-df42-41fd-bd5f-b8b691885677.png
-tags: the-arcade-base-camp-august-2025, the-arcade-base-camp-august
 
 ---
 
