@@ -847,7 +847,7 @@ Create the MPC Operator Confidential Space Instance
 
 ---
 
-### Solution of Lab
+## Solution of Lab
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
