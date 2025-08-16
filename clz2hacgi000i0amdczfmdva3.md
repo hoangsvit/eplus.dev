@@ -119,6 +119,8 @@ gcloud compute instances attach-disk my-instance --disk mydisk --zone=$ZONE
 
 **Task 3:**
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755330954079/a667fe72-d55f-410e-a6a9-c20b0018a822.png align="center")
+
 ```apache
 gcloud compute ssh my-instance --zone=$ZONE
 sudo apt-get update
