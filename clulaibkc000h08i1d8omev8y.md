@@ -182,7 +182,7 @@ filters: [order_items.status: "Complete", users.country: "USA"]
 
 ![The filter results: Order Items Order Count is equal to 151, 200.](https://cdn.qwiklabs.com/BvdCLCc4o8CuKiSQ8k7hQyUpKMKKSo116PO8B7HG4hk%3D align="left")
 
-11. Change [the filters. For the **Status** filte](https://docs.looker.com/reference/filter-expressions)r, change it to `Pr`[`ocessing`. For the **Country** filter,](https://docs.looker.com/reference/filter-expressions) change it to the `UK`.
+11. Change the filters. For the **Status** filter, change it to `Processing`. For the **Country** filter, change it to the `UK`.
     
 
 ![The filter results: Order Items Order Count: 134.](https://cdn.qwiklabs.com/XFFxfYo50%2BGfWDoDj6kXx88jVprVXSvEeqiBaavcXIQ%3D align="left")
@@ -251,7 +251,7 @@ sql_always_where: ${created_date} >= '2021-01-01' ;;
 11. Navigate back to the `training_ecommerce.model` file.
     
 
-### Commit changes and deploy to production
+**Commit changes and deploy to production**
 
 1. Click **Validate LookML** and then click **Commit Changes & Push**.
     
@@ -291,7 +291,7 @@ sql_always_having: ${order_item_count} = 1 ;;
 
 **Note:** Again, notice that you don't see any filters. A `sql_always_having` condition condition is not displayed to the user, unless they look at the underlying SQL of any queries that they create.
 
-7. Under **Order Items**, click [**Order ID**.](https://docs.looker.com/reference/filter-expressions)
+7. Under **Order Items**, click **Order ID**.
     
 8. Under **Order Items &gt;** **Measures**, click **Average Sale Price** and **Order Item Count**.
     
@@ -303,7 +303,7 @@ sql_always_having: ${order_item_count} = 1 ;;
 10. Navigate back to the `training_ecommerce.model` file.
     
 
-### Commit changes and deploy to production
+**Commit changes and deploy to production**
 
 1. Click **Validate LookML** and then click **Commit Changes & Push**.
     
@@ -341,58 +341,58 @@ unless: [users.id, users.state]
 
 ![The filters used within the training_ecommerce model: 'filters: [created_date: "3 years"]' and 'unless: [users.id, users.state]'](https://cdn.qwiklabs.com/gTNGS7dsBq4oQBtYePLYTcE%2BRBBJymK2%2BbPvhdgIvKE%3D align="left")
 
-5. Cl[ick **Save Changes**.](https://docs.looker.com/reference/filter-expressions)
+5. Click **Save Changes**.
     
-6. [Click the car](https://docs.looker.com/reference/filter-expressions)et next to the file t[itle at the top of the IDE and the](https://docs.looker.com/reference/filter-expressions)n select **Explo**[**re Order Items**.](https://docs.looker.com/reference/filter-expressions)
+6. Click the caret next to the file title at the top of the IDE and then select **Explore Order Items**.
     
-7. [Click on the ar](https://docs.looker.com/reference/filter-expressions)row next to **Filter**[**s** to expand the window and see the](https://docs.looker.com/reference/filter-expressions) conditional filter you created. Success!
+7. Click on the arrow next to **Filters** to expand the window and see the conditional filter you created. Success!
     
 
 ![The conditional filter set to 'is in the past 3 years'.](https://cdn.qwiklabs.com/iT0z9LY%2FZwoQtNXOO35%2BBjAQhfD1p8rkHTfVsdKuGJc%3D align="left")
 
 8. Next, under **Order Items**, click **Order ID**.
     
-9. Under **Order Items &gt; Created D**[**ate**, click **Year**.](https://docs.looker.com/reference/filter-expressions)
+9. Under **Order Items &gt; Created Date**, click **Year**.
     
-10. [Under **Order It**](https://docs.looker.com/reference/filter-expressions)**ems &gt;** **Measures**, click **Average Sale Price**.
+10. Under **Order Items &gt;** **Measures**, click **Average Sale Price**.
     
 11. Click **Run**.
     
 
-You can now see your creat[ed date is filtered in the past ye](https://docs.looker.com/reference/filter-expressions)ar in your Explore.
+You can now see your created date is filtered in the past year in your Explore.
 
 ![The filter results, which list the orders created in the past year.](https://cdn.qwiklabs.com/LudgD6zgO3QaQ%2B1Bn7imsytGZ8sjIDCACxCbd9hoNA8%3D align="left")
 
-12. You will now test the [conditionality of the filter. Und](https://docs.looker.com/reference/filter-expressions)er **Users**, hover over [**State** and click the filter button.](https://docs.looker.com/reference/filter-expressions)
+12. You will now test the conditionality of the filter. Under **Users**, hover over **State** and click the filter button.
     
 
 ![The filter button highlighted within the State category.](https://cdn.qwiklabs.com/nJ%2BHx2dgaMrzxQUAFcVDtXaFNuk%2FHyZVKOz82P8oSvU%3D align="left")
 
-13. In [the filter window, set the **State**](https://docs.looker.com/reference/filter-expressions) filter to: `California`.
+13. In the filter window, set the **State** filter to: `California`.
     
-14. Cli[ck the **X** next to the other filter](https://docs.looker.com/reference/filter-expressions) to delet[e it.](https://docs.looker.com/reference/filter-expressions)
+14. Click the **X** next to the other filter to delete it.
     
 
 ![The Delete button highlighted within the filter, 'Created date = is in the past 3 years'.](https://cdn.qwiklabs.com/IqlrTVt%2F2W8TKKPkppJjgdsjW%2B2v%2FOjWtY8jSJzHVRs%3D align="left")
 
-15. [Click **Run** again.](https://docs.looker.com/reference/filter-expressions)
+15. Click **Run** again.
     
 
 ![The orders listed within three cetegories; Order ID, Created Year, and Average Sale Price.](https://cdn.qwiklabs.com/ob6u%2F43Dq0ZuXTc3Nrgdjnqs%2FTMzEw4Zit34UBlfuW8%3D align="left")
 
-16. Last[ly, remove the **State** filter by cli](https://docs.looker.com/reference/filter-expressions)cking [the **X** next to it to delete it. Yo](https://docs.looker.com/reference/filter-expressions)u will see the **Created Date** filter automatically appears again.
+16. Lastly, remove the **State** filter by clicking the **X** next to it to delete it. You will see the **Created Date** filter automatically appears again.
     
 
 ![The Create Date filter, which is currently set to 'is in the past 3 years'.](https://cdn.qwiklabs.com/iT0z9LY%2FZwoQtNXOO35%2BBjAQhfD1p8rkHTfVsdKuGJc%3D align="left")
 
-Great! You just explored how conditional filters work. While you can change the default value that you set, you **cannot completely remove the filter** unless you apply at least one of the [filters you specified in the `unle`](https://docs.looker.com/reference/filter-expressions)`ss` sub-parameter.
+Great! You just explored how conditional filters work. While you can change the default value that you set, you **cannot completely remove the filter** unless you apply at least one of the filters you specified in the `unless` sub-parameter.
 
-17. Navigate back to the `training_eco`[`mmerce.model` file.](https://docs.looker.com/reference/filter-expressions)
+17. Navigate back to the `training_ecommerce.model` file.
     
 
-### Commit changes and deploy to production
+**Commit changes and deploy to production**
 
-1. [Click **Validate LookML** and t](https://docs.looker.com/reference/filter-expressions)hen click **Commit Changes & Push**.
+1. Click **Validate LookML** and then click **Commit Changes & Push**.
     
 2. Add a commit message and click **Commit**.
     
@@ -405,13 +405,15 @@ Click *Check my progress* to verify the objective.
 
 ## Solution of Lab
 
+### Manual
+
 %[https://youtu.be/QUc2aEoJjms] 
 
-### Manual
+### Quick
 
 **Task 2. Add an always\_filter**
 
-`training_ec`[`ommerce.model`](https://docs.looker.com/reference/filter-expressions)
+`training_ecommerce.model`
 
 ```apache
 connection: "bigquery_public_data_looker"
@@ -478,9 +480,9 @@ explore: events {
 }
 ```
 
-**Task 3.** [**Add a sql\_always\_where filter**](https://docs.looker.com/reference/filter-expressions)
+**Task 3. Add a sql\_always\_where filter**
 
-[`training_ecom`](https://docs.looker.com/reference/filter-expressions)`merce.model`
+`training_ecommerce.model`
 
 ```apache
 connection: "bigquery_public_data_looker"
@@ -548,7 +550,7 @@ explore: events {
 
 **Task 4. Add a sql\_always\_having filte**[**r**](https://docs.looker.com/reference/filter-expressions)
 
-[`training_ecommerce.model`](https://docs.looker.com/reference/filter-expressions)
+`training_ecommerce.model`
 
 ```apache
 connection: "bigquery_public_data_looker"
