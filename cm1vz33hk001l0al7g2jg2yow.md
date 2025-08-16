@@ -991,6 +991,8 @@ Awesome job, you have successfully deployed your application to production!
 
 ## Solution of Lab
 
+### Quick
+
 %[https://www.youtube.com/watch?v=Z97ASiJkgt4&ab_channel=Techcps] 
 
 ```apache
@@ -1004,3 +1006,9 @@ curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Cont
 sudo chmod +x techcps051.sh
 ./techcps051.sh
 ```
+
+---
+
+### Manual
+
+%[https://youtu.be/A0vBOSVwAQw]
