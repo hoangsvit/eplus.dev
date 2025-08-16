@@ -102,6 +102,12 @@ sudo chmod +x techcps120.sh
 
 %[https://www.youtube.com/watch?v=GPes-qyoAhk&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
+**Task 1:**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755334342189/98b7fe4d-2dcf-4f7c-ac89-8fc06e4bf304.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755334283054/5f90bbb1-7b10-4b98-ace3-f8864fd833cf.png align="center")
+
 **Task 2:**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721984092823/60873427-c7ec-4c19-a3b6-e7be42a59731.png align="center")
