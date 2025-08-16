@@ -5,9 +5,9 @@ seoDescription: "Compute Engine allows you to create virtual machines (VMs) that
 datePublished: Fri Jul 26 2024 08:10:11 GMT+0000 (Coordinated Universal Time)
 cuid: clz2f9sm6000h09k1dh1i12cw
 slug: creating-a-virtual-machine-gsp001
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721981346070/b7cce2df-720e-42b0-8c9f-89e145f5fada.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755325660795/3ae249d5-a192-4d5c-8cb4-9d99ee3dd353.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721981365755/7e5d5050-15c2-48ea-9704-06a2c4b52918.png
-tags: creating-a-virtual-machine-gsp001
+tags: creating-a-virtual-machine-gsp001, creating-a-virtual-machine, gsp001
 
 ---
 
@@ -108,7 +108,7 @@ Now you install an NGINX web server, one of the most popular web servers in the 
     
 3. Confirm that NGINX is running:
     
-    ```powershell
+    ```apache
     ps auwx | grep nginx
     ```
     
@@ -116,7 +116,7 @@ Now you install an NGINX web server, one of the most popular web servers in the 
     
     **Expected output:**
     
-    ```powershell
+    ```apache
      root      2330  0.0  0.0 159532  1628 ?        Ss   14:06   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
      www-data  2331  0.0  0.0 159864  3204 ?        S    14:06   0:00 nginx: worker process
      www-data  2332  0.0  0.0 159864  3204 ?        S    14:06   0:00 nginx: worker process
@@ -144,13 +144,13 @@ Instead of using the Cloud console to create a VM instance, use the command line
 
 1. In the Cloud Shell, use `gcloud` to create a new VM instance from the command line:
     
-    ```powershell
+    ```apache
     gcloud compute instances create gcelab2 --machine-type e2-medium --zone=$ZONE
     ```
     
     **Expected output:**
     
-    ```bash
+    ```apache
          Created [...gcelab2].
          NAME: gcelab2
          ZONE:  europe-west4-a
@@ -242,13 +242,12 @@ Question: **Through which of the following ways can you create a VM instance in 
 
 NOTE :- Make sure to export the "REGION & ZONE" as shown in video
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721981238397/c99cb9f2-df25-4b63-9fc0-63d6ba272148.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755326656607/19df9b02-48a0-40d0-ab80-00fc06687c8c.png align="center")
 
 **COPY ALL THE COMMAND AND PASTE**
 
-```powershell
+```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/d51b46a30325298b314a3c2f90624909dfcd5014/Creating%20a%20Virtual%20Machine/quicklabgsp001.sh
-
 sudo chmod +x quicklabgsp001.sh
 ./quicklabgsp001.sh
 ```
