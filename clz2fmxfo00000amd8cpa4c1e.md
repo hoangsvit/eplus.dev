@@ -324,12 +324,12 @@ This lab does not cover local SSDs.
 
 ## Solution of Lab
 
-%[https://youtu.be/HYGq8n2rL8Q] 
+%[https://youtu.be/IvcbZdYgPVg] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Creating%20a%20Persistent%20Disk/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Creating%20a%20Persistent%20Disk/techcps004.sh
+sudo chmod +x techcps004.sh
+./techcps004.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750394854813/5854505f-48ba-40a7-b7a1-1fecee18617c.png align="center")
