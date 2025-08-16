@@ -7,7 +7,7 @@ cuid: cm1vz33hk001l0al7g2jg2yow
 slug: continuous-delivery-with-jenkins-in-kubernetes-engine-gsp051
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755336615950/41932aef-dce7-4793-96f2-0ee5fc9d5114.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1755336544035/2c385fbf-ad5d-496c-90cb-2494afd5e8a4.png
-tags: kubernetes, continuous-delivery-with-jenkins-in-kubernetes-engine-gsp051, gsp051, continuous-delivery-with-jenkins-in-kubernetes-engine
+tags: kubernetes, jenkins, continuous-delivery-with-jenkins-in-kubernetes-engine-gsp051, gsp051, kubernetes-engine, continuous-delivery-with-jenkins-in-kubernetes-engine
 
 ---
 
