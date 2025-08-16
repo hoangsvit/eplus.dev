@@ -209,7 +209,7 @@ In this section, you will add a `sql_always_where` filter to the Order Items Exp
     
 2. **Remove** the filter you created in the previous section.
     
-3. Under the first [line to define the **Order Items** Explore, add a new li](https://docs.looker.com/reference/filter-expressions)ne and type `sql_always_where` followed by a colon (`:`):
+3. Under the first [line to define the **Order Items** Explore, add a new](https://docs.looker.com/reference/filter-expressions) line and type `sql_always_where` followed by a colon (`:`):
     
 
 ```apache
@@ -238,7 +238,7 @@ sql_always_where: ${created_date} >= '2021-01-01' ;;
     
 8. Under **Order Items &gt;** **Measures**, click **Order Count**.
     
-9. Click **Run**. Notice that there are o[rder items only from the date `2021`](https://docs.looker.com/reference/filter-expressions)`-01-01` and later!
+9. Click **Run**. Notice that there are o[rder items only from the date](https://docs.looker.com/reference/filter-expressions) `2021-01-01` and later!
     
 
 ![The order items listed within two categories; the Created Date, and Order Count.](https://cdn.qwiklabs.com/WcLLME2WS7VS%2BPOGCmz%2Fwub5AD0VIOMd5knl91HM0vY%3D align="left")
@@ -403,17 +403,15 @@ Great! You just explored how conditional filters work. While you can change the 
 
 Add the conditionally\_filter filter to the Order Items Explore
 
-## Cong
-
 ---
 
-## [Solution of Lab](https://docs.looker.com/reference/filter-expressions)
+## Solution of Lab
 
 %[https://youtu.be/QUc2aEoJjms] 
 
-### [Manual](https://docs.looker.com/reference/filter-expressions)
+### Manual
 
-[**Task**](https://docs.looker.com/reference/filter-expressions) **2\. Add an always\_filter**
+**Task 2. Add an always\_filter**
 
 `training_ecommerce.model`
 
@@ -550,9 +548,9 @@ explore: events {
 }
 ```
 
-[**Task 4. Ad**](https://docs.looker.com/reference/filter-expressions)**d a sql\_always\_having filter**
+**Task 4. Add a sql\_always\_having filter**
 
-`train`[`ing_ecommerce.model`](https://docs.looker.com/reference/filter-expressions)
+`training_ecommerce.model`
 
 ```apache
 connection: "bigquery_public_data_looker"
@@ -618,9 +616,9 @@ explore: events {
 }
 ```
 
-**Task 5.** [**Add a conditionality\_filter**](https://docs.looker.com/reference/filter-expressions)
+**Task 5. Add a conditionality\_filter**
 
-[`trai`](https://docs.looker.com/reference/filter-expressions)`ning_ecommerce.model`
+`training_ecommerce.model`
 
 ```apache
 connection: "bigquery_public_data_looker"
