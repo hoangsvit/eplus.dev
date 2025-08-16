@@ -110,62 +110,62 @@ The `always_filter` enables you to require users to include a certain set of fil
 
 The `always_filter` has a sub-parameter to define the specific filters using the same Looker filter expressions that are used to filter dimensions and measures. The dimensions provided in the filters sub-parameter identify the dimensions that users must provide values for, such as a value for order status or user country.
 
-The specific values provided for in the filters sub-parameter are the default values which can be changed by the business user. For example, while the default order status is “Complete”, business users can change this value t[o say orders with a different status like “R](https://docs.looker.com/reference/filter-expressions)eturned”. For additional information, review the [Looker filter expressions document](https://docs.looker.com/reference/filter-expressions).
+The specific values provided for in the filters sub-parameter are the default values which can be changed by the business user. For example, while the default order status is “Complete”, business users can change this value to say orders with a different status like “Returned”. For additional information, review the Looker filter expressions document.
 
 ### The conditionally\_filter
 
-Similar to the `always_filter`, the `conditionally_filter` adds a filter to the Explore frontend that is accessible by business users. The `condit`[`ionally_filter` parameter enables y](https://docs.looker.com/reference/filter-expressions)ou to define a set of default filters that users can override *if* they apply at least one filter from a second list that you define.
+Similar to the `always_filter`, the `conditionally_filter` adds a filter to the Explore frontend that is accessible by business users. The `conditionally_filter` parameter enables you to define a set of default filters that users can override *if* they apply at least one filter from a second list that you define.
 
-Although users can indeed change the filter o[perator and values, they cannot remove the filter itself unless they put a filter on](https://docs.looker.com/reference/filter-expressions) a specific alternative [field. This is helpful when you want to limit the amount of data that an business user requests, but you also want](https://docs.looker.com/reference/filter-expressions) to gi[ve them a list of alternative dime](https://docs.looker.com/reference/filter-expressions)nsions that they can use to filter the data.
+Although users can indeed change the filter operator and values, they cannot remove the filter itself unless they put a filter on a specific alternative field. This is helpful when you want to limit the amount of data that an business user requests, but you also want to give them a list of alternative dimensions that they can use to filter the data.
 
-`Conditionally_filter` has a sub-parameter to define the specific filters as well as a sub-parameter to d[efine the alternative dimensions t](https://docs.looker.com/reference/filter-expressions)hat can be used to filter the data. For example, `conditionally_filter` can be used to create a filter that only returns data for the past 1 year, unless a filter is applied to a user ID or state dimension. This is typically u[sed to prevent users from accident](https://docs.looker.com/reference/filter-expressions)a[lly creating very large queries th](https://docs.looker.com/reference/filter-expressions)at may be too expensive to run on you[r database.](https://docs.looker.com/reference/filter-expressions)
+`Conditionally_filter` has a sub-parameter to define the specific filters as well as a sub-parameter to define the alternative dimensions that can be used to filter the data. For example, `conditionally_filter` can be used to create a filter that only returns data for the past 1 year, unless a filter is applied to a user ID or state dimension. This is typically used to prevent users from accidentally creating very large queries that may be too expensive to run on your database.
 
-## [Task 1. Add an always](https://docs.looker.com/reference/filter-expressions)\_filter
+## Task 1. Add an always\_filter
 
 In this section, you will add an `always_filter` to the Order Items Explore to require filtering on order status and user country, which are two key dimensions in the e-com[merce dataset.](https://docs.looker.com/reference/filter-expressions)
 
-1. [First, on the bo](https://docs.looker.com/reference/filter-expressions)ttom left of the Looker User Interface, clic[k the toggle button to enter **Devel**](https://docs.looker.com/reference/filter-expressions)**opment mode**.
+1. First, on the bottom left of the Looker User Interface, clic[k the toggle button to enter **Devel**](https://docs.looker.com/reference/filter-expressions)**opment mode**.
     
 
 ![The Development Mode toggle switched to on.](https://cdn.qwiklabs.com/uUCbNuedSCOYQmL%2BIubjqvusmGAeS7Wjj3f6xByL174%3D align="left")
 
 2. Next, click the **Develop** tab and then select the `qwiklabs-ecommerce` LookML project.
     
-3. [Navigate to the `training_ecommerc`](https://docs.looker.com/reference/filter-expressions)`e.model` file [in the `qwiklab_ecommerce` project. Notice that the Order Items Ex](https://docs.looker.com/reference/filter-expressions)plore does not currently have any filters.
+3. Navigate to the `training_ecommerce.model` file in the `qwiklab_ecommerce` project. Notice that the Order Items Explore does not currently have any filters.
     
 
 ![The training_ecommerce model opened, displaying several rows of data.](https://cdn.qwiklabs.com/U5MHehy74kDM%2BqDbHz2SOeZ%2FS%2BOJJ2h4Pto38gbgGVo%3D align="left")
 
-4. Under the [first line to define the **Order Ite**](https://docs.looker.com/reference/filter-expressions)**ms** Explore, add a new line and type `always_filter` fol[lowed by a colon (`:`) and curly bra](https://docs.looker.com/reference/filter-expressions)ces (`{}`):
+4. Under the first line to define the **Order Items** Explore, add a new line and type `always_filter` followed by a colon (`:`) and curly braces (`{}`):
     
 
 ```apache
 always_filter: {}
 ```
 
-You will add code within these curly bra[ces to define the filter.](https://docs.looker.com/reference/filter-expressions)
+You will add code within these curly braces to define the filter.
 
 ![The training_ecommerce.model data, with the addition of the line: 'always_filter: {}'.](https://cdn.qwiklabs.com/Q%2F01ciGVdzCBZaZ5HgSd1BAIgmkxlqGgOcUFMzCCsx8%3D align="left")
 
-5. [Usin](https://docs.looker.com/reference/filter-expressions)g the filters sub-parameter, define the fil[ters to use **status** from the `order_items` table with a def](https://docs.looker.com/reference/filter-expressions)ault value of “Complete” and **country** from [the `users` table with a default val](https://docs.looker.com/reference/filter-expressions)ue of “U[SA” using:](https://docs.looker.com/reference/filter-expressions)
+5. Using the filters sub-parameter, define the filters to use **status** from the `order_items` table with a default value of “Complete” and **country** from the `users` table with a default value of “USA” using:
     
 
 ```apache
 filters: [order_items.status: "Complete", users.country: "USA"]
 ```
 
-[**Note:** Recall that whi](https://docs.looker.com/reference/filter-expressions)le the a value for the filter is required, business users will be able to provide different values for these dimensions.
+**Note:** Recall that while the a value for the filter is required, business users will be able to provide different values for these dimensions.
 
 ![The training_ecommerce.model data, with the addition of the line: 'filters: [order_items.status:"complete", users.country: "USA"]'](https://cdn.qwiklabs.com/PB53HjZzFZylHTjFWYrL2TMRY98zM9%2BC0iUVEwTj3uo%3D align="left")
 
 6. Click **Save Changes**.
     
-7. Click the caret next to [the file title at the top of the IDE and then se](https://docs.looker.com/reference/filter-expressions)lect **Explore Order Items**.
+7. Click the caret next to the file title at the top of the IDE and then select **Explore Order Items**.
     
 
 ![The option 'Explore Order Items' highlighted within the training_ecommerce.model file's drop-down menu.](https://cdn.qwiklabs.com/Td1Gx74N3D0CrVT9IiT2Tm743DzCH2abjNcmzaBZzDE%3D align="left")
 
-8. Click [on the arrow next to **Filters** to expand the window and see t](https://docs.looker.com/reference/filter-expressions)he two new filters with the default values:
+8. Click on the arrow next to **Filters** to expand the window and see the two new filters with the default values:
     
 
 * Order Items Status with a default value of `Complete`
@@ -175,9 +175,9 @@ filters: [order_items.status: "Complete", users.country: "USA"]
 
 ![Two filters listed; Order Items Status is equal to Complete, and Users Country is equal to USA.](https://cdn.qwiklabs.com/jH%2BTZR%2FVfWVL7GkU2rrn8KMRzCqJdOluLV3HWwOUkRE%3D align="left")
 
-9. [Under **Order Items &gt;** **Measures**, cli](https://docs.looker.com/reference/filter-expressions)ck **Order Count**.
+9. Under **Order Items &gt;** **Measures**, click **Order Count**.
     
-10. Click **Run**. You should now see the number [of completed order items within the USA. Notice how you cannot delete the](https://docs.looker.com/reference/filter-expressions) filters, but you can modify them.
+10. Click **Run**. You should now see the number of completed order items within the USA. Notice how you cannot delete the filters, but you can modify them.
     
 
 ![The filter results: Order Items Order Count is equal to 151, 200.](https://cdn.qwiklabs.com/BvdCLCc4o8CuKiSQ8k7hQyUpKMKKSo116PO8B7HG4hk%3D align="left")
@@ -192,9 +192,9 @@ filters: [order_items.status: "Complete", users.country: "USA"]
 13. Navigate back to the `training_ecommerce.model` file.
     
 
-### Commit changes an[d deploy to production](https://docs.looker.com/reference/filter-expressions)
+**Commit changes and deploy to production**
 
-1. [Click **Va**](https://docs.looker.com/reference/filter-expressions)**lidate LookML** and then click **Commit Changes & Push**.
+1. Click **Validate LookML** and then click **Commit Changes & Push**.
     
 2. Add a commit message and click **Commit**.
     
@@ -203,13 +203,13 @@ filters: [order_items.status: "Complete", users.country: "USA"]
 
 ## Task 2. Add a sql\_always\_where filter
 
-In this section, you will add a `sql_always_where` filter to the Order Items Explore to only include data from the year 2021 and later. This is helpful i[f you have a large database spanni](https://docs.looker.com/reference/filter-expressions)ng many years and only want to perform queries on the data for the current year and future years.
+In this section, you will add a `sql_always_where` filter to the Order Items Explore to only include data from the year 2021 and later. This is helpful if you have a large database spanning many years and only want to perform queries on the data for the current year and future years.
 
 1. Navigate back to the `training_ecommerce.model` file in the `qwiklab_ecommerce` project.
     
 2. **Remove** the filter you created in the previous section.
     
-3. Under the first [line to define the **Order Items** Explore, add a new](https://docs.looker.com/reference/filter-expressions) line and type `sql_always_where` followed by a colon (`:`):
+3. Under the first line to define the **Order Items** Explore, add a new line and type `sql_always_where` followed by a colon (`:`):
     
 
 ```apache
@@ -229,16 +229,16 @@ sql_always_where: ${created_date} >= '2021-01-01' ;;
 
 5. Click **Save Changes**.
     
-6. Click the caret next to the file title at the top of the IDE and then select **Explore Order** [**Items**.](https://docs.looker.com/reference/filter-expressions)
+6. Click the caret next to the file title at the top of the IDE and then select **Explore Order Items**.
     
 
-[**Note:** Note that you don](https://docs.looker.com/reference/filter-expressions)'t see any filters. A `sql_always_where` condition is not displayed to the user, unless they look at the underlying SQL of any queries that they create.
+**Note:** Note that you don't see any filters. A `sql_always_where` condition is not displayed to the user, unless they look at the underlying SQL of any queries that they create.
 
 7. Under **Order Items &gt; Created Date**, click **Date**.
     
 8. Under **Order Items &gt;** **Measures**, click **Order Count**.
     
-9. Click **Run**. Notice that there are o[rder items only from the date](https://docs.looker.com/reference/filter-expressions) `2021-01-01` and later!
+9. Click **Run**. Notice that there are order items only from the date `2021-01-01` and later!
     
 
 ![The order items listed within two categories; the Created Date, and Order Count.](https://cdn.qwiklabs.com/WcLLME2WS7VS%2BPOGCmz%2Fwub5AD0VIOMd5knl91HM0vY%3D align="left")
@@ -255,16 +255,16 @@ sql_always_where: ${created_date} >= '2021-01-01' ;;
 
 1. Click **Validate LookML** and then click **Commit Changes & Push**.
     
-2. Add a commit messa[ge and click **Commit**.](https://docs.looker.com/reference/filter-expressions)
+2. Add a commit message and click **Commit**.
     
-3. [Lastly, click **Deploy to Production**.](https://docs.looker.com/reference/filter-expressions)
+3. Lastly, click **Deploy to Production**.
     
 
 ## Task 3. Add a sql\_always\_having filter
 
 In this section, you will add a `sql_always_having` filter to the Order Items Explore to prevent users from looking at orders with more than one item. This will be used to omit any orders from the Explore that have multiple items in [them.](https://docs.looker.com/reference/filter-expressions)
 
-1. [Navigate back to the `trai`](https://docs.looker.com/reference/filter-expressions)`ning_ecommerce.model` file in the `qwiklab_ecommerce` project.
+1. Navigate back to the `training_ecommerce.model` file in the `qwiklab_ecommerce` project.
     
 2. **Remove** the filter you created in the previous section.
     
@@ -275,7 +275,7 @@ In this section, you will add a `sql_always_having` filter to the Order Items Ex
 sql_always_having:
 ```
 
-4. Next, you will define the filter to only [include the data with 1 order item](https://docs.looker.com/reference/filter-expressions), using the `order_item_count` measure:
+4. Next, you will define the filter to only include the data with 1 order item, using the `order_item_count` measure:
     
 
 ```apache
@@ -293,32 +293,32 @@ sql_always_having: ${order_item_count} = 1 ;;
 
 7. Under **Order Items**, click [**Order ID**.](https://docs.looker.com/reference/filter-expressions)
     
-8. [Under **Order Items &gt;** **Measures**, click **Average Sale Pr**](https://docs.looker.com/reference/filter-expressions)**ice** and **Order Item Count**.
+8. Under **Order Items &gt;** **Measures**, click **Average Sale Price** and **Order Item Count**.
     
-9. Click **Run**. You should see the different orders and their respective average sale prices. As you can see, the items count is a[lways equal to 1!](https://docs.looker.com/reference/filter-expressions)
+9. Click **Run**. You should see the different orders and their respective average sale prices. As you can see, the items count is always equal to 1!
     
 
 ![The order items list, divided into three categories: Order ID, Order Item Count, and Average Sale Price.](https://cdn.qwiklabs.com/EpY3aHV82FsFQ2%2FhFR75NQYAM96mvaT6Qf%2BBxjkKG6w%3D align="left")
 
-10. [Navigate b](https://docs.looker.com/reference/filter-expressions)ack to the `training_ecommerce.model` file.
+10. Navigate back to the `training_ecommerce.model` file.
     
 
-### Commit changes and deploy to produ[ction](https://docs.looker.com/reference/filter-expressions)
+### Commit changes and deploy to production
 
-1. [Click **Validate LookML** and](https://docs.looker.com/reference/filter-expressions) then click **Commit Changes & Push**.
+1. Click **Validate LookML** and then click **Commit Changes & Push**.
     
-2. Add a commit m[essage and click **Commit**.](https://docs.looker.com/reference/filter-expressions)
+2. Add a commit message and click **Commit**.
     
-3. [Lastly](https://docs.looker.com/reference/filter-expressions), click **Deploy to Production**.
+3. Lastly, click **Deploy to Production**.
     
 
 ## Task 4. Add a conditionality\_filter
 
-In this section, you will add a `conditionality_filter` f[ilter to the Order Items Explore t](https://docs.looker.com/reference/filter-expressions)o only return data for the past 3 years, *unless* a filter is applied to a user ID or state dimension.
+In this section, you will add a `conditionality_filter` filter to the Order Items Explore to only return data for the past 3 years, *unless* a filter is applied to a user ID or state dimension.
 
-1. Navigate back to the `trai`[`ning_ecommerce.model` file in the `qwiklab_ec`](https://docs.looker.com/reference/filter-expressions)`ommerce` project.
+1. Navigate back to the `training_ecommerce.model` file in the `qwiklab_ecommerce` project.
     
-2. **Remove** the filte[r you created in the previous sect](https://docs.looker.com/reference/filter-expressions)ion.
+2. **Remove** the filter you created in the previous section.
     
 3. Under the first line to define the **Order Items** Explore, add a new line and type `conditionally_filter` followed by a colon (`:`) and curly braces (`{}`):
     
@@ -327,14 +327,14 @@ In this section, you will add a `conditionality_filter` f[ilter to the Order Ite
 conditionally_filter: {}
 ```
 
-You will add code within these curly b[races to define the filter.](https://docs.looker.com/reference/filter-expressions)
+You will add code within these curly braces to define the filter.
 
-4. [Add the `filt`](https://docs.looker.com/reference/filter-expressions)`ers` sub-parameter to define this filter.
+4. Add the `filters` sub-parameter to define this filter.
     
 
-Here, you want the order created date to be in the past 3 years. You [will also define the `unless` sub-parameter as an alternat](https://docs.looker.com/reference/filter-expressions)ive dimension that can be used as a filter. For this, you will use the [user ID and state dimensions:](https://docs.looker.com/reference/filter-expressions)
+Here, you want the order created date to be in the past 3 years. You will also define the `unless` sub-parameter as an alternative dimension that can be used as a filter. For this, you will use the user ID and state dimensions:
 
-```apache
+```
 filters: [created_date: "3 years"]
 unless: [users.id, users.state]
 ```
@@ -390,18 +390,16 @@ Great! You just explored how conditional filters work. While you can change the 
 17. Navigate back to the `training_eco`[`mmerce.model` file.](https://docs.looker.com/reference/filter-expressions)
     
 
-### [Commit chang](https://docs.looker.com/reference/filter-expressions)es and deploy to product[ion](https://docs.looker.com/reference/filter-expressions)
+### Commit changes and deploy to production
 
 1. [Click **Validate LookML** and t](https://docs.looker.com/reference/filter-expressions)hen click **Commit Changes & Push**.
     
 2. Add a commit message and click **Commit**.
     
-3. Lastly, click **Deploy to Producti**[**on**.](https://docs.looker.com/reference/filter-expressions)
+3. Lastly, click **Deploy to Production**.
     
 
-[Click *Check my progress* to verify th](https://docs.looker.com/reference/filter-expressions)e objective.
-
-Add the conditionally\_filter filter to the Order Items Explore
+Click *Check my progress* to verify the objective.
 
 ---
 
@@ -413,7 +411,7 @@ Add the conditionally\_filter filter to the Order Items Explore
 
 **Task 2. Add an always\_filter**
 
-`training_ecommerce.model`
+`training_ec`[`ommerce.model`](https://docs.looker.com/reference/filter-expressions)
 
 ```apache
 connection: "bigquery_public_data_looker"
@@ -480,9 +478,9 @@ explore: events {
 }
 ```
 
-**Task 3. Add a sql\_always\_where filter**
+**Task 3.** [**Add a sql\_always\_where filter**](https://docs.looker.com/reference/filter-expressions)
 
-`training_ecommerce.model`
+[`training_ecom`](https://docs.looker.com/reference/filter-expressions)`merce.model`
 
 ```apache
 connection: "bigquery_public_data_looker"
@@ -548,9 +546,9 @@ explore: events {
 }
 ```
 
-**Task 4. Add a sql\_always\_having filter**
+**Task 4. Add a sql\_always\_having filte**[**r**](https://docs.looker.com/reference/filter-expressions)
 
-`training_ecommerce.model`
+[`training_ecommerce.model`](https://docs.looker.com/reference/filter-expressions)
 
 ```apache
 connection: "bigquery_public_data_looker"
