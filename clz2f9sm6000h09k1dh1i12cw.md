@@ -236,7 +236,7 @@ Question: **Through which of the following ways can you create a VM instance in 
 
 ---
 
-## Answers of Lab
+## Solution of Lab
 
 %[https://www.youtube.com/watch?v=wxVQJEm2MMo&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
