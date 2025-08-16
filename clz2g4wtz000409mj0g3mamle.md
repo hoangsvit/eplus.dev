@@ -5,7 +5,7 @@ seoDescription: "There are many ways to deploy web sites within Google Cloud. Ea
 datePublished: Fri Jul 26 2024 08:34:23 GMT+0000 (Coordinated Universal Time)
 cuid: clz2g4wtz000409mj0g3mamle
 slug: hosting-a-web-app-on-google-cloud-using-compute-engine-gsp662
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721982666336/ddd976ad-6898-4f76-9027-a2fb276ef2e4.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755327827668/1ea7a6ac-37b7-4c51-98ea-a10897a17a7f.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721982845494/58c9d551-8722-4c94-9b3a-75655e1c298e.png
 tags: hosting-a-web-app-on-google-cloud-using-compute-engine-gsp662
 
@@ -21,19 +21,19 @@ In this lab you will deploy a sample application, the "Fancy Store" ecommerce we
 
 In this lab you learn how to:
 
-* Create [Compute Engine instances](https://cloud.google.com/compute/docs/instances/)
+* Create Compute Engine instances
     
-* [Create instance tem](https://cloud.google.com/compute/docs/instances/)[plates from source](https://cloud.google.com/compute/docs/instance-templates/) instances
+* Create instance templates from source instances
     
-* Create [managed instance groups](https://cloud.google.com/compute/docs/instance-groups/)
+* Create managed instance groups
     
-* [Create and](https://cloud.google.com/compute/docs/instance-groups/) test [managed instance group health checks](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)
+* Create and test managed instance group health checks
     
-* [Create HTTP(](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)[S) Load Balancers](https://cloud.google.com/load-balancing/)
+* Create HTTP(S) Load Balancers
     
-* Cre[ate load balancer health checks](https://cloud.google.com/load-balancing/docs/health-checks)
+* Create load balancer health checks
     
-* [Us](https://cloud.google.com/load-balancing/docs/health-checks)[e a Content Delivery Network (CDN) for](https://cloud.google.com/cdn/) Caching
+* Use a Content Delivery Network (CDN) for Caching
     
 
 At the end of the lab, you will have instances inside managed instance groups to provide autohealing, load balancing, autoscaling, and rolling updates for your website.
@@ -47,26 +47,26 @@ At the end of the lab, you will have instances inside managed instance groups to
 gcloud services enable compute.googleapis.com
 ```
 
-## **Task 2.**[**Create Cloud Storage bu**](https://cloud.google.com/compute/docs/instance-groups/)**cket**
+## **Task 2.Create Cloud Storage bucket**
 
-You will use a Cloud St[orage bucket to house your bu](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)[ilt cod](https://cloud.google.com/load-balancing/)[e as well as your startup scripts.](https://cloud.google.com/compute/docs/instances/)
+You will use a Cloud Storage bucket to house your built code as well as your startup scripts.
 
-* [From](https://cloud.google.com/compute/docs/instances/)[C](https://cloud.google.com/load-balancing/docs/health-checks)[loud She](https://cloud.google.com/compute/docs/instance-templates/)[ll, execute the followin](https://cloud.google.com/compute/docs/instances/)[g](https://cloud.google.com/cdn/)[to create](https://cloud.google.com/compute/docs/instance-templates/)[a new Cloud Storage buc](https://cloud.google.com/compute/docs/instances/)[k](https://cloud.google.com/compute/docs/instance-groups/)[et:](https://cloud.google.com/compute/docs/instance-templates/)
+* FromCloud Shell, execute the followingto createa new Cloud Storage bucket:
     
 
 ```powershell
 gsutil mb gs://fancy-store-$DEVSHELL_PROJECT_ID
 ```
 
-[**Note**](https://cloud.google.com/compute/docs/instance-templates/)[**:** Use of the `$DEVSHELL_P`](https://cloud.google.com/compute/docs/instances/)[`R`](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)[`OJECT_ID` environme](https://cloud.google.com/compute/docs/instance-templates/)[nt variable w](https://cloud.google.com/compute/docs/instance-groups/)[ithin Cloud Shell is to](https://cloud.google.com/compute/docs/instances/)[h](https://cloud.google.com/compute/docs/instance-groups/)[elp ensu](https://cloud.google.com/compute/docs/instance-templates/)[re the names of objects](https://cloud.google.com/compute/docs/instances/)[a](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)[re unique. Si](https://cloud.google.com/compute/docs/instance-templates/)[nce all Project IDs with](https://cloud.google.com/compute/docs/instances/)[i](https://cloud.google.com/compute/docs/instance-groups/)[n Google Cloud mus](https://cloud.google.com/compute/docs/instance-templates/)[t be uniq](https://cloud.google.com/compute/docs/instance-groups/)[ue, appending the Projec](https://cloud.google.com/compute/docs/instances/)[t](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)[ID should make ot](https://cloud.google.com/compute/docs/instance-templates/)[her n](https://cloud.google.com/compute/docs/instance-groups/)[ames unique as well.](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)
+**Note:** Use of the `$DEVSHELL_P`[`R`](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)`OJECT_ID` environment variable within Cloud Shell is to[h](https://cloud.google.com/compute/docs/instance-groups/)elp ensure the names of objects[a](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)re unique. Since all Project IDs with[i](https://cloud.google.com/compute/docs/instance-groups/)n Google Cloud must be unique, appending the Projec[t](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)ID should make other names unique as well.
 
-[Click **C**](https://cloud.google.com/load-balancing/)[**heck my progress** to ver](https://cloud.google.com/compute/docs/instance-groups/)[ify th](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)[e objective.](https://cloud.google.com/load-balancing/)
+Click **Check my progress** to verify the objective.
 
-[Create Cl](https://cloud.google.com/load-balancing/docs/health-checks)[oud Storage bucket](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)
+Create Cloud Storage bucket
 
-[**Check my**](https://cloud.google.com/compute/docs/instance-groups/autohealing-instances-in-migs)[**progress**](https://cloud.google.com/load-balancing/)
+**Check my**[**progress**](https://cloud.google.com/load-balancing/)
 
-## [**Task**](https://cloud.google.com/load-balancing/)**3.**[**Clone source rep**](https://cloud.google.com/cdn/)[**ository**](https://cloud.google.com/load-balancing/docs/health-checks)
+## **Task3.Clone source rep**[**ository**](https://cloud.google.com/load-balancing/docs/health-checks)
 
 [Use the existing F](https://cloud.google.com/load-balancing/docs/health-checks)ancy Stor[e ecommerce website based on t](https://cloud.google.com/cdn/)he `monolith-to-microservices` repository as the basis for your website.
 
@@ -291,7 +291,7 @@ The first instance to be deployed will be the backend instance which will house 
 * Execute the following command to create an `e2-standard-2` instance that is configured to use the startup script. It is tagged as a `backend` instance so you can apply specific firewall rules to it later:
     
 
-```powershell
+```apache
 gcloud compute instances create backend \
     --zone=$ZONE \
     --machine-type=e2-standard-2 \
@@ -558,7 +558,7 @@ An autohealing policy relies on an application-based health check to verify that
 1. Create a health check that repairs the instance if it returns "unhealthy" 3 consecutive times for the `frontend` and `backend`:
     
 
-```powershell
+```apache
 gcloud compute health-checks create http fancy-fe-hc \
     --port 8080 \
     --check-interval 30s \
@@ -567,7 +567,7 @@ gcloud compute health-checks create http fancy-fe-hc \
     --unhealthy-threshold 3
 ```
 
-```powershell
+```apache
 gcloud compute health-checks create http fancy-be-hc \
     --port 8081 \
     --request-path=/api/orders \
@@ -1171,7 +1171,7 @@ exit
 6. Monitor the repair operations:
     
 
-```powershell
+```apache
 watch -n 2 gcloud compute operations list \
 --filter='operationType~compute.instances.repair.*'
 ```
@@ -1180,7 +1180,7 @@ This will take a few minutes to complete.
 
 Look for the following example output:
 
-```powershell
+```apache
 NAME                                                  TYPE                                       TARGET                                 HTTP_STATUS  STATUS  TIMESTAMP
 repair-1568314034627-5925f90ee238d-fe645bf0-7becce15  compute.instances.repair.recreateInstance  us-central1-a/instances/fancy-fe-1vqq  200          DONE    2019-09-12T11:47:14.627-07:00
 ```
@@ -1192,15 +1192,15 @@ The managed instance group recreated the instance to repair it.
 
 ---
 
-## Answers of Lab
+## Solution of Lab
 
 %[https://www.youtube.com/watch?v=dkLTeZuNul4&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
 NOTE ► Make sure you export the **ZONE** form Set your region and zone Task. As Shown in the video.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721982770343/893b6d7b-eb16-44c1-97f8-f4b44fe31d47.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755327983496/47c19442-0897-498b-bbec-43009eef96df.png align="center")
 
-```powershell
+```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Hosting%20a%20Web%20App%20on%20Google%20Cloud%20Using%20Compute%20Engine%20updated/quicklabgsp662/task1.sh
 sudo chmod +x task1.sh
 ./task1.sh
