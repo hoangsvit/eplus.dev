@@ -1000,7 +1000,7 @@ export ZONE=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1728120974306/6d84e092-f8b1-4da5-9a26-ca722d49177f.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/techcps051.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/techcps051.sh
 sudo chmod +x techcps051.sh
 ./techcps051.sh
 ```
