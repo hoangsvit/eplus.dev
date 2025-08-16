@@ -6,7 +6,7 @@ datePublished: Fri Jul 26 2024 08:10:11 GMT+0000 (Coordinated Universal Time)
 cuid: clz2f9sm6000h09k1dh1i12cw
 slug: creating-a-virtual-machine-gsp001
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755325660795/3ae249d5-a192-4d5c-8cb4-9d99ee3dd353.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721981365755/7e5d5050-15c2-48ea-9704-06a2c4b52918.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1755326711333/766ebbcd-4c41-4fd5-97bd-574e54fe26f5.png
 tags: creating-a-virtual-machine-gsp001, creating-a-virtual-machine, gsp001
 
 ---
