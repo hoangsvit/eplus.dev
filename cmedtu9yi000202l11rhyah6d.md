@@ -103,12 +103,10 @@ If presented with a question to enable Google Cloud SDK to access your account, 
 
 ![Enable access for the SDK](https://cdn.qwiklabs.com/SCRRs3N%2FD%2Fn7phBrC%2FzdifjK5BCzwDPpECfhBwx7%2F9k%3D align="left")
 
-   
 Finally, you will be presented with a verification code. Copy the code and enter it in the terminal where you were prompted from the login command.
 
 ![Verification code sample to be copied to terminal](https://cdn.qwiklabs.com/UaQzBMoWubNaszXP9zSS1NzFNWJDgr8LYbDEtFLs0BE%3D align="left")
 
-   
 You should now be logged in with the correct credentials for the lab. Verify using the **auth list** command:
 
 ```apache
@@ -133,7 +131,7 @@ The Functions Framework lets you write lightweight functions that run in many di
 1. Create a app folder.
     
     ```apache
-    mkdir ff-app && cd $_ 
+    mkdir ff-app && cd $_
     ```
     
 2. Create a new node.js app.
@@ -301,7 +299,7 @@ Create a HTTP Cloud function
 5. In the second terminal window, hit the breakpoint by running the following curl command.
     
     ```apache
-    curl -X POST http://localhost:8080 
+    curl -X POST http://localhost:8080
     ```
     
     You will see a yellow highlight appear over line 3. This highlight indicates that this line is the current statement being evaluated by the debugger.
@@ -350,7 +348,7 @@ Create a HTTP Cloud function
 12. Verify that an exception is thrown by running the following command in your second terminal window:
     
     ```apache
-    curl -X POST http://localhost:8080 
+    curl -X POST http://localhost:8080
     ```
     
     You should see the following output returned from your request:
@@ -417,7 +415,7 @@ Now that you've created, tested, and debugged a Cloud Function on your local mac
     ```apache
     API [cloudfunctions.googleapis.com] not enabled on project 
     [1057316433766]. Would you like to enable and retry (this will take a 
-    few minutes)? (y/N)? y 
+    few minutes)? (y/N)? y
     ```
     
     Once deployment is completed, you will see the following in the output:
@@ -459,3 +457,5 @@ Deploy the HTTP function
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Building%20and%20Debugging%20Cloud%20Functions%20for%20Node.js/quicklabgsp880.sh
 source quicklabgsp880.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755323065787/966a9d2c-83a8-48b5-951e-8bfd4c0c59dc.png align="center")
