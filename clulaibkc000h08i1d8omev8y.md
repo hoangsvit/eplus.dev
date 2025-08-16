@@ -5,7 +5,7 @@ seoDescription: "Looker is a modern data platform in Google Cloud that lets you 
 datePublished: Thu Apr 04 2024 13:45:56 GMT+0000 (Coordinated Universal Time)
 cuid: clulaibkc000h08i1d8omev8y
 slug: filtering-explores-with-lookml-gsp892
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712238261372/52eacb0e-2754-4977-8bf5-cc5a52280861.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755317849563/1cb7ca7d-6bd0-4ef1-9eec-ef7dddf46fa8.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1712238322937/edb475a6-9f03-45b3-94bc-b7338b87651b.png
 
 ---
@@ -18,7 +18,13 @@ So far you have created dimensions and measures, explored and joined views, and 
 
 ---
 
-### **Task 2. Add an always\_filter**
+## Solution of Lab
+
+%[https://youtu.be/QUc2aEoJjms] 
+
+### Manual
+
+**Task 2. Add an always\_filter**
 
 `training_ecommerce.model`
 
@@ -87,7 +93,7 @@ explore: events {
 }
 ```
 
-### **Task 3. Add a sql\_always\_where filter**
+**Task 3. Add a sql\_always\_where filter**
 
 `training_ecommerce.model`
 
@@ -155,7 +161,7 @@ explore: events {
 }
 ```
 
-### **Task 4. Add a sql\_always\_having filter**
+**Task 4. Add a sql\_always\_having filter**
 
 `training_ecommerce.model`
 
@@ -223,7 +229,7 @@ explore: events {
 }
 ```
 
-### **Task 5. Add a conditionality\_filter**
+**Task 5. Add a conditionality\_filter**
 
 `training_ecommerce.model`
 
