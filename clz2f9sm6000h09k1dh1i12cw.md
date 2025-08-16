@@ -244,6 +244,8 @@ NOTE :- Make sure to export the "REGION & ZONE" as shown in video
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755326656607/19df9b02-48a0-40d0-ab80-00fc06687c8c.png align="center")
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755326877842/9dc213a6-33ef-4e41-9235-7aa0f86c678b.png align="center")
+
 **COPY ALL THE COMMAND AND PASTE**
 
 ```apache
