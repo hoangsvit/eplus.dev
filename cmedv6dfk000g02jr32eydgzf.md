@@ -281,4 +281,9 @@ Assess my progress
 
 ## Solution of Lab
 
-%[https://youtu.be/MszH378NlJk]
+%[https://youtu.be/MszH378NlJk] 
+
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text">You don't need to perform this lab, spend more than <mark>3 minutes</mark> to complete</div>
+</div>
