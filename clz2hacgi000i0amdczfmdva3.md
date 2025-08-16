@@ -82,15 +82,19 @@ A default web page should open with the message "Welcome to nginx!".
 
 ### Quick
 
-%[https://youtu.be/V5urFDpiWNk] 
+%[https://youtu.be/m6Y23ik0_kI] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/The%20Basics%20of%20Google%20Cloud%20Compute%20Challenge%20Lab/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+export ZONE=
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744955337860/9c84bd3b-efbb-4b4c-87e3-777683f8ff4d.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/Techcps/ARC/master/The%20Basics%20of%20Google%20Cloud%20Compute%3A%20Challenge%20Lab/techcps120.sh
+sudo chmod +x techcps120.sh
+./techcps120.sh
+```
 
 ---
 
