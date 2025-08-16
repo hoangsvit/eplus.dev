@@ -6,8 +6,8 @@ datePublished: Fri Jul 26 2024 08:34:23 GMT+0000 (Coordinated Universal Time)
 cuid: clz2g4wtz000409mj0g3mamle
 slug: hosting-a-web-app-on-google-cloud-using-compute-engine-gsp662
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755327827668/1ea7a6ac-37b7-4c51-98ea-a10897a17a7f.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1721982845494/58c9d551-8722-4c94-9b3a-75655e1c298e.png
-tags: hosting-a-web-app-on-google-cloud-using-compute-engine-gsp662
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1755328044359/19d36a50-13fd-4c9c-a9b8-bee68337b2a3.png
+tags: compute-engine, hosting, web-app, google-cloud, hosting-a-web-app-on-google-cloud-using-compute-engine-gsp662, gsp662, hosting-a-web-app
 
 ---
 
