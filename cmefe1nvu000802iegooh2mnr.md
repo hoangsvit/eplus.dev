@@ -847,24 +847,20 @@ target    world
 6. Create secrets at the `kv/my-secret` path:
     
 
-```java
+```apache
 vault kv put kv/my-secret value="s3c(eT"
 ```
-
-Copied!
 
 7. Read the secrets at `kv/my-secret`:
     
 
-```java
+```apache
 vault kv get kv/my-secret
 ```
 
-Copied!
-
 You should receive the following output:
 
-```java
+```apache
 ==== Data ====
 Key      Value
 ---      -----
@@ -874,43 +870,35 @@ value    s3c(eT
 8. Run the following command to copy the value of the `excited` secret to a text file:
     
 
-```java
+```apache
 vault kv get -format=json kv/my-secret | jq -r .data.value > my-secret.txt
 ```
-
-Copied!
 
 9. Run the following command to copy this file to a pre-created Cloud Storage bucket to track your progress:
     
 
-```java
+```apache
 export PROJECT_ID=$(gcloud config get-value project)
 gsutil cp my-secret.txt gs://$PROJECT_ID
 ```
 
-Copied!
-
 10. Delete the secrets at `kv/my-secret`:
     
 
-```java
+```apache
 vault kv delete kv/my-secret
 ```
-
-Copied!
 
 11. List existing keys at the `kv` path:
     
 
-```java
+```apache
 vault kv list kv/
 ```
 
-Copied!
-
 You should receive the following output:
 
-```java
+```apache
 Keys
 ----
 hello
@@ -927,11 +915,9 @@ When a secrets engine is no longer needed, it can be disabled. When a secrets en
 * Disable the `kv` secrets engine:
     
 
-```java
+```apache
 vault secrets disable kv/
 ```
-
-Copied!
 
 Note that this command takes a **path** to the secrets engine as an argument, not the **type** of the secrets engine.
 
@@ -956,15 +942,13 @@ Token authentication is automatically enabled. When you started the dev server, 
 1. Run the following command to create a new token:
     
 
-```java
+```apache
 vault token create
 ```
 
-Copied!
-
 You should see the following output:
 
-```java
+```apache
 Key                  Value
 ---                  -----
 token                s.iyNUhq8Ov4hIAx6snw5mB2nL
@@ -983,15 +967,13 @@ This token is a child of the *root token*, and by default, it inherits the polic
 2. Run the following command to log in to Vault with the generated token:
     
 
-```java
+```apache
 vault login <your token>
 ```
 
-Copied!
-
 You should see the following output:
 
-```java
+```apache
 Success! You are now authenticated. The token information displayed below is already stored in the token helper. You do NOT need to run "vault login" again. Future Vault requests will automatically use this token.
 
 Key                  Value
@@ -1010,13 +992,11 @@ policies             ["root"]
 3. Create another token:
     
 
-```java
+```apache
 vault token create
 ```
 
-Copied!
-
-```java
+```apache
 Key                  Value
 ---                  -----
 token                s.TsKT5ubouZ7TF26Eg7wNIl3k
@@ -1035,13 +1015,11 @@ When a token is no longer needed it can be **revoked**.
 4. Run the following command to revoke the first token you created:
     
 
-```java
+```apache
 vault token revoke <your token>
 ```
 
-Copied!
-
-```java
+```apache
 Success! Revoked token (if it existed)
 ```
 
@@ -1050,13 +1028,11 @@ The token has been revoked.
 5. An attempt to log in with the revoked token will result in an error. Run the following command to try it out:
     
 
-```java
+```apache
 vault login <your token>
 ```
 
-Copied!
-
-```java
+```apache
 Error authenticating: error looking up token: Error making API request.
 
 URL: GET http://127.0.0.1:8200/v1/auth/token/lookup-self
@@ -1082,11 +1058,9 @@ To learn more about authentication, see the [authentication concepts page](https
 1. Auth methods can be enabled/disabled using the CLI or the API. Start by enabling the `userpass` auth method:
     
 
-```java
+```apache
 vault auth enable userpass
 ```
-
-Copied!
 
 When enabled, auth methods are similar to [secrets engines](https://www.vaultproject.io/docs/secrets): they are mounted within the Vault mount table and can be accessed and configured using the standard read/write API. All auth methods are mounted underneath the `auth/` prefix.
 
