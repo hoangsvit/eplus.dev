@@ -785,42 +785,20 @@ Configure static accounts
 
 ## Solution of Lab
 
-### Quick
-
-%[https://www.youtube.com/watch?v=3Vw1p5itVrA&ab_channel=Techcps] 
+%[https://youtu.be/Saw9Hu4fSmw] 
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Creating%20Dynamic%20Secrets%20for%20Google%20Cloud%20with%20Vault/techcps1007.sh
-sudo chmod +x techcps1007.sh
-./techcps1007.sh
+curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+sudo apt-get update
+sudo apt-get install vault --y
+vault
+touch config.hcl
 ```
 
-**Alternative**
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755422341197/43daf569-2cf4-4f40-bb71-c47c5c11df84.png align="center")
 
 ```apache
-gcloud auth list
-
-export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
-
-export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
-
-export PROJECT_ID=$(gcloud config get-value project)
-
-export PROJECT_ID=$DEVSHELL_PROJECT_ID
-
-curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
-
-#!/bin/bash
-
-sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
-
-sudo apt-get update
-sudo apt-get install vault
-
-vault
-
-
-cat > config.hcl <<EOF_CP
 storage "raft" {
   path    = "./vault/data"
   node_id = "node1"
@@ -828,136 +806,76 @@ storage "raft" {
 
 listener "tcp" {
   address     = "127.0.0.1:8200"
-  tls_disable = "true"
+  tls_disable = true
 }
 
 api_addr = "http://127.0.0.1:8200"
 cluster_addr = "https://127.0.0.1:8201"
 ui = true
-EOF_CP
 
-
-mkdir -p ./vault/data
-
-nohup vault server -config=config.hcl > vault_server.log 2>&1 &
-
-sleep 10
-
-export VAULT_ADDR='http://127.0.0.1:8200'
-
-vault operator init -key-shares=5 -key-threshold=3 > vault_init_output.txt
-
-KEY_1=$(grep 'Unseal Key 1:' vault_init_output.txt | awk '{print $NF}')
-KEY_2=$(grep 'Unseal Key 2:' vault_init_output.txt | awk '{print $NF}')
-KEY_3=$(grep 'Unseal Key 3:' vault_init_output.txt | awk '{print $NF}')
-TOKEN=$(grep 'Initial Root Token:' vault_init_output.txt | awk '{print $NF}')
-
-vault operator unseal $KEY_1
-vault operator unseal $KEY_2
-vault operator unseal $KEY_3
-
-vault login $TOKEN
-
-sleep 10
-
-vault secrets enable gcp
-
-
-SERVICE_ACCOUNT_EMAIL="$DEVSHELL_PROJECT_ID@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com"
-
-gcloud iam service-accounts keys create ~/$DEVSHELL_PROJECT_ID.json \
-  --iam-account $SERVICE_ACCOUNT_EMAIL
-
-gcloud iam service-accounts keys list --iam-account $SERVICE_ACCOUNT_EMAIL
-
-
-export VAULT_ADDR='http://127.0.0.1:8200'
-
-
-vault write gcp/config \
-credentials=@/home/$USER/$DEVSHELL_PROJECT_ID.json \
-ttl=3600 \
-max_ttl=86400
-
-
-cat > bindings.hcl <<EOF_CP
-resource "buckets/$DEVSHELL_PROJECT_ID" {
-  roles = [
-    "roles/storage.objectAdmin",
-    "roles/storage.legacyBucketReader",
-  ]
-}
-EOF_CP
-
-
-vault write gcp/roleset/my-token-roleset \
-    project="$DEVSHELL_PROJECT_ID" \
-    secret_type="access_token"  \
-    token_scopes="https://www.googleapis.com/auth/cloud-platform" \
-    bindings=@bindings.hcl
-
-
-TOKEN=$(vault read -field=token gcp/roleset/my-token-roleset/token)
-
-
-curl "https://storage.googleapis.com/storage/v1/b/$DEVSHELL_PROJECT_ID" \
-  --header "Authorization: Bearer $TOKEN" \
-  --header "Accept: application/json"
-
-
-curl -X GET \
-  -H "Authorization: Bearer $TOKEN" \
-  -o "sample.txt" \
-  "https://storage.googleapis.com/storage/v1/b/$DEVSHELL_PROJECT_ID/o/sample.txt?alt=media"
-
-
-vault write gcp/roleset/my-key-roleset \
-    project="$DEVSHELL_PROJECT_ID" \
-    secret_type="service_account_key"  \
-    bindings=@bindings.hcl
-
-vault read gcp/roleset/my-key-roleset/key
-
-
-vault write gcp/static-account/my-token-account \
-    service_account_email="$SERVICE_ACCOUNT_EMAIL" \
-    secret_type="access_token"  \
-    token_scopes="https://www.googleapis.com/auth/cloud-platform" \
-    bindings=@bindings.hcl
-
-vault write gcp/static-account/my-key-account \
-    service_account_email="$SERVICE_ACCOUNT_EMAIL" \
-    secret_type="service_account_key"  \
-    bindings=@bindings.hcl
-
-export VAULT_ADDR='http://127.0.0.1:8200'
-
-
-vault write gcp/config \
-credentials=@/home/$USER/$DEVSHELL_PROJECT_ID.json \
-ttl=3600 \
-max_ttl=86400
-
-
-cat > bindings.hcl <<EOF_CP
-resource "buckets/$DEVSHELL_PROJECT_ID" {
-  roles = [
-    "roles/storage.objectAdmin",
-    "roles/storage.legacyBucketReader",
-  ]
-}
-EOF_CP
-
-
-vault write gcp/roleset/my-token-roleset \
-    project="$DEVSHELL_PROJECT_ID" \
-    secret_type="access_token"  \
-    token_scopes="https://www.googleapis.com/auth/cloud-platform" \
-    bindings=@bindings.hcl
+disable_mlock = true
 ```
 
----
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755422497952/89c564cf-ab36-45fc-b45f-212c8d8e3c48.png align="center")
 
-### Manual
+**<mark>Ctrl + S</mark>**
 
-%[https://youtu.be/Saw9Hu4fSmw]
+```apache
+mkdir -p ./vault/data
+vault server -config=config.hcl
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755422595053/3b8ae6ca-aa2c-4774-87c8-9320b4d9f10c.png align="center")
+
+```apache
+export VAULT_ADDR='http://127.0.0.1:8200'
+vault operator init
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755422671418/1b26080a-9dc2-4785-91bc-7b93d8a03fee.png align="center")
+
+```apache
+vault operator unseal
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755422917165/74276a29-d441-48be-8220-e465800172f2.png align="center")
+
+```apache
+vault login <Initial_Root_Token>
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755422957939/62901c63-0fc0-4ab8-a389-69b18d876025.png align="center")
+
+```apache
+vault secrets enable gcp
+```
+
+**IAM & Admin** &gt; **Service Accounts (**[https://console.cloud.google.com/iam-admin/serviceaccounts](https://console.cloud.google.com/iam-admin/serviceaccounts))
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755423119064/2c736603-2300-4a72-be35-12dfa9b07b55.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755423163531/f83da021-e847-4ae5-9b2f-9e53b2c1b71f.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755423303234/93c883c8-1340-47e1-9546-176ff09d8fc5.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755423273894/b77acbb6-d306-49ba-a9ef-a37e098b9030.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755423346333/550902f8-5bbb-4e5f-ba06-2dc481d55e3e.png align="center")
+
+```apache
+cd ~
+ls
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755423396746/c152c413-e098-4557-8ad4-53ef3515d1f6.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755423491382/c93a73a5-21de-42b5-bb8d-8b5dd78eeb39.png align="center")
+
+```apache
+vault write gcp/config \
+credentials=@path/to/creds.json \
+ ttl=3600 \
+ max_ttl=86400
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755423593763/d421b5bd-7ac8-41e1-8548-39b654f31b4e.png align="center")
