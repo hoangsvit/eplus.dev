@@ -993,6 +993,42 @@ Awesome job, you have successfully deployed your application to production!
 
 ### Quick
 
+**Solution 1:**
+
+%[https://youtu.be/_ar2V2c13e8] 
+
+🚀Set up Environment using Cloud Shell:
+
+```apache
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/quicklabgsp051.sh
+sudo chmod +x quicklabgsp051.sh
+./quicklabgsp051.sh
+```
+
+*👉 This runs the script to set up your environment. It provisions resources and configures as needed.*
+
+*👉 Now perform* ***Task 2*** *manually as shown in the video.*
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755407892622/7aac7d65-d604-43b0-a896-abd953ccc329.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755407903537/a9232323-832e-456f-8bf4-4a93ec43cdae.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755407909529/fbcb64e0-4f9e-4296-beb6-e64c67264853.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755407915901/e81a0078-bedf-4a5d-810a-c802d527999f.png align="center")
+
+Run the command after setting up Jenkins:
+
+```apache
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/quicklabgsp0512.sh
+sudo chmod +x quicklabgsp0512.sh
+./quicklabgsp0512.sh
+```
+
+---
+
+**Solution 2:**
+
 %[https://www.youtube.com/watch?v=Z97ASiJkgt4&ab_channel=Techcps] 
 
 ```apache
