@@ -1094,20 +1094,16 @@ By default, auth methods are mounted to `auth/<type>`. For example, if you enabl
 
 For example:
 
-```java
+```apache
 vault auth enable -path=my-login userpass
 ```
-
-Copied!
 
 2. Disable the `userpass` auth method:
     
 
-```java
+```apache
 vault auth disable userpass
 ```
-
-Copied!
 
 ### External auth method considerations
 
@@ -1122,20 +1118,16 @@ The `userpass` auth method allows users to authenticate with Vault using a usern
 1. Start by re-enabling the `userpass` auth method:
     
 
-```java
+```apache
 vault auth enable userpass
 ```
-
-Copied!
 
 2. Configure it with a user that is allowed to authenticate:
     
 
-```java
+```apache
 vault write auth/userpass/users/admin password=password! policies=admin
 ```
-
-Copied!
 
 This creates a new user **admin** with the password **password!** that will be associated with the **admins** policy. This is the only configuration necessary.
 
@@ -1144,15 +1136,13 @@ This creates a new user **admin** with the password **password!** that will be a
 3. Now, you can log in to Vault with your newly created username and password:
     
 
-```java
+```apache
 vault login -method=userpass username=admin password=password!
 ```
 
-Copied!
-
 You should see the following output:
 
-```java
+```apache
 Success! You are now authenticated. The token information displayed below is already stored in the token helper. You do NOT need to run "vault login" again. Future Vault requests will automatically use this token.
 
 Key                    Value
@@ -1370,6 +1360,8 @@ You are now logged out of the server.
 The capabilities of this user are limited to the policies assigned to this user's auth method. Since you didn't assign any specific policies, the user has been given the *default* policy. You will learn about Vault policies in the following lab.
 
 ---
+
+## Solution of Lab
 
 %[https://youtu.be/CeLrwTixomo] 
 
