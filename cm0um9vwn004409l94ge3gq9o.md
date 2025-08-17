@@ -1,13 +1,13 @@
 ---
 title: "Creating Dynamic Secrets for Google Cloud with Vault - GSP1007"
 seoTitle: "Creating Dynamic Secrets for Google Cloud with Vault - GSP1007"
-seoDescription: "The Google Cloud Vault secrets engine dynamically generates Google Cloud service account keys and OAuth tokens based on IAM policies. This enables users to "
+seoDescription: "The Google Cloud Vault secrets engine dynamically generates Google Cloud service account keys and OAuth tokens based on IAM policies. This enables users to"
 datePublished: Mon Sep 09 2024 06:23:28 GMT+0000 (Coordinated Universal Time)
 cuid: cm0um9vwn004409l94ge3gq9o
 slug: creating-dynamic-secrets-for-google-cloud-with-vault-gsp1007
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725862708625/115d1834-a3a8-4d88-bdce-2832299d5383.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725862990159/ef4a5ed2-7727-4ee2-9717-8ab833de66b8.jpeg
-tags: creating-dynamic-secrets-for-google-cloud-with-vault-gsp1007
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755421688968/00738cff-f75d-43e4-a1ec-a174c0ecfd33.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1755421711088/ba1c8410-65e2-4bb0-8f8a-99ec2c9942a6.png
+tags: creating-dynamic-secrets-for-google-cloud-with-vault-gsp1007, gsp1007, creating-dynamic-secrets-for-google-cloud-with-vault, google-cloud-with-vault
 
 ---
 
@@ -788,7 +788,7 @@ Configure static accounts
 %[https://www.youtube.com/watch?v=3Vw1p5itVrA&ab_channel=Techcps] 
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Creating%20Dynamic%20Secrets%20for%20Google%20Cloud%20with%20Vault/techcps1007.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Creating%20Dynamic%20Secrets%20for%20Google%20Cloud%20with%20Vault/techcps1007.sh
 sudo chmod +x techcps1007.sh
 ./techcps1007.sh
 ```
