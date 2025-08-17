@@ -74,8 +74,6 @@ To complete this lab, you need:
     student-03-997fcd6e75dd@qwiklabs.net
     ```
     
-    Copied!
-    
     You can also find the Username in the Lab Details pane.
     
 4. Click **Next**.
@@ -85,8 +83,6 @@ To complete this lab, you need:
     ```apache
     c4kiQs468y8N
     ```
-    
-    Copied!
     
     You can also find the Password in the Lab Details pane.
     
