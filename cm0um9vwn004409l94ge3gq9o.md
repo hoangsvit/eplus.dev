@@ -785,6 +785,8 @@ Configure static accounts
 
 ## Solution of Lab
 
+### Quick
+
 %[https://www.youtube.com/watch?v=3Vw1p5itVrA&ab_channel=Techcps] 
 
 ```apache
@@ -792,3 +794,9 @@ curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Crea
 sudo chmod +x techcps1007.sh
 ./techcps1007.sh
 ```
+
+---
+
+### Manual
+
+%[https://youtu.be/Saw9Hu4fSmw]
