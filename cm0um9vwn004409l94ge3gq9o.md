@@ -879,3 +879,104 @@ credentials=@path/to/creds.json \
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755423593763/d421b5bd-7ac8-41e1-8548-39b654f31b4e.png align="center")
+
+```apache
+touch bindings.hcl
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755423663706/810bbd99-ab93-495a-93f0-7ae4f52eb9c7.png align="center")
+
+```apache
+resource "buckets/<my-bucket>" {
+  roles = [
+    "roles/storage.objectAdmin",
+    "roles/storage.legacyBucketReader",
+  ]
+}
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755423841059/cc51dc9a-96f9-484a-bfd9-7c52264b9b64.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755424119992/8de344d8-d9f3-4cea-ba9d-0625b1241612.png align="center")
+
+**<mark>CTRL + S</mark>**
+
+```apache
+vault write gcp/roleset/my-token-roleset \
+    project="<project-id>" \
+    secret_type="access_token"  \
+    token_scopes="https://www.googleapis.com/auth/cloud-platform" \
+    bindings=@bindings.hcl
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755423841059/cc51dc9a-96f9-484a-bfd9-7c52264b9b64.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755424201184/5869593b-1362-4899-83da-3688bbd5d332.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755424232982/c39956c5-afb9-42ca-80c7-fb33648b2b0a.png align="center")
+
+```apache
+vault read gcp/roleset/my-token-roleset/token
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755424310251/16faefae-8f13-48b8-a7c0-6640e1f84fb9.png align="center")
+
+```apache
+curl \
+  'https://storage.googleapis.com/storage/v1/b/<BUCKET_NAME>' \
+  --header 'Authorization: Bearer <OAUTH2_TOKEN>' \
+  --header 'Accept: application/json'
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755424430120/2d23bf27-9852-4dd1-ae57-319232a4ee34.png align="center")
+
+```apache
+curl -X GET \
+  -H "Authorization: Bearer <OAUTH2_TOKEN>" \
+  -o "sample.txt" \
+  "https://storage.googleapis.com/storage/v1/b/<BUCKET_NAME>/o/sample.txt?alt=media"
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755424550539/358c7010-66d2-4d97-8f91-c3c492e2bbc2.png align="center")
+
+```apache
+cat sample.txt
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755424605609/9e3d2a20-0ad4-471c-a0b0-2907bfe8d631.png align="center")
+
+```apache
+vault write gcp/roleset/my-key-roleset \
+    project="<project-id>" \
+    secret_type="service_account_key"  \
+    bindings=@bindings.hcl
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755424666596/38ce4323-1682-410f-b059-a3251b9d0694.png align="center")
+
+```apache
+vault read gcp/roleset/my-key-roleset/key
+```
+
+```apache
+vault write gcp/static-account/my-token-account \
+    service_account_email="<service-account-email>" \
+    secret_type="access_token"  \
+    token_scopes="https://www.googleapis.com/auth/cloud-platform" \
+    bindings=@bindings.hcl
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755425091349/b0032aef-8c55-46ce-9f42-aab39ac85f80.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755425115138/0cdcb90a-9376-4fe3-8f0d-51eb32bb437b.png align="center")
+
+```apache
+vault write gcp/static-account/my-key-account \
+    service_account_email="<service-account-email>" \
+    secret_type="service_account_key"  \
+    bindings=@bindings.hcl
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755425142445/c2b2b0c8-46ec-4e93-b8c8-4a054e08c295.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755425156516/bb7c0318-c888-48c6-874b-3b12ff1126da.png align="center")
