@@ -537,26 +537,10 @@ Click **Check my progress** to verify your performed task. The assessment score 
 
 ## Solution of Lab
 
-### Manual
-
-%[https://youtu.be/3PLjodC9ghQ] 
+%[https://youtu.be/o5xbAR1rnqA] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Introduction%20to%20APIs%20in%20Google%20Cloud/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1748324843746/0e9383b4-6e0c-4700-b6c0-a7366098c92f.png align="center")
-
----
-
-### Quick
-
-%[https://www.youtube.com/watch?v=SLw7bAmBlW0] 
-
-```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Introduction%20to%20APIs%20in%20Google%20Cloud/quicklabgsp294.sh
-sudo chmod +x quicklabgsp294.sh
-./quicklabgsp294.sh
+curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Introduction%20to%20APIs%20in%20Google%20Cloud/techcps294.sh
+sudo chmod +x techcps294.sh
+./techcps294.sh
 ```
