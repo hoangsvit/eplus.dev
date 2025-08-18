@@ -82,7 +82,7 @@ Verify Task
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722000280022/0e5abf11-d475-4635-8e04-5e3ef4c78552.png align="center")
 
 ```apache
-export REGION=us-east1
+export REGION=
 ```
 
 ```apache
