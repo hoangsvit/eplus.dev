@@ -5,13 +5,13 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: Fri Jul 26 2024 14:41:50 GMT+0000 (Coordinated Universal Time)
 cuid: clz2t9ggu000808mefi7vg340
 slug: getting-started-with-api-gateway-challenge-lab-arc109
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722004130020/ff237f86-e78c-4ad9-8b20-d27607615b60.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722004890035/1e88f22b-9114-42eb-a9cf-ebf644d1c665.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755497648414/1e89f9eb-05de-4343-8156-bdc0bd4c6b25.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1755497656675/33c258e4-9091-48f8-8498-22550df550a3.png
 tags: api-gateway, getting-started-with-api-gateway-challenge-lab-arc109, arc109, getting-started-with-api-gateway-challenge-lab
 
 ---
 
-## **Overview**
+## Overview
 
 In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs in the course to figure out how to complete the tasks on your own! An automated scoring system (shown on this page) will provide feedback on whether you have completed your tasks correctly.
 
@@ -19,57 +19,88 @@ When you take a challenge lab, you will not be taught new Google Cloud concepts.
 
 To score 100% you must successfully complete all tasks within the time period!
 
-## **Task 1. Create a Cloud Function**
+## Setup
 
-**Note:** 2nd gen Cloud Functions depend on the Cloud Run Admin APIs. The Cloud Run Admin APIs have been enabled for you at the start of this lab. It may however take a few minutes for all of the enabled services to propogate. If you experience an issue when deploying your 2nd gen Cloud Function, wait a few minutes then try again.
+### Before you click the Start Lab button
 
-Create a new `2nd gen` Cloud Function called `GCFunction` in the `us-east1` and deploy it. For now, have the function return "Hello World!" when invoked. Ensure that you allow the function to be called unauthenticated by running the following in Cloud Shell once the deployment has completed.
+Read these instructions. Labs are timed and you cannot pause them. The timer, which starts when you click **Start Lab**, shows how long Google Cloud resources are made available to you.
 
-```apache
-gcloud functions add-invoker-policy-binding GCFunction \
-    --region="us-east1" \
-    --member="allUsers"
-```
+This hands-on lab lets you do the lab activities in a real cloud environment, not in a simulation or demo environment. It does so by giving you new, temporary credentials you use to sign in and access Google Cloud for the duration of the lab.
 
-Click **Check my progress** to verif[y](https://cloud.google.com/functions/docs/console-quickstart) the objective.
+To complete this lab, you need:
 
-Create a Cloud Function
+* Access to a standard internet browser (Chrome browser recommended).
+    
 
-**Check my progress**
+**Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-## **Task 2. Create an API Gateway**
+* Time to complete the lab—remember, once you start, you cannot pause a lab.
+    
 
-Once the Cloud Function is deployed, configure an API Gateway to proxy requests to the backend.
+**Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
-Use the following `openapispec.yaml` file to reference the Cloud Function deployed in Task 1.
+## Challenge scenario
 
-Deploy the API Gateway with the following properties:
+You are just starting your junior data analyst role. So far you have been helping teams create, manage and access backend data resources.
+
+You are expected to have the skills and knowledge for these tasks.
+
+### Your challenge
+
+You are asked to help a newly formed development team with some of their initial work on a new project around exposing backend services as APIs. You have been asked to assist the team with their efforts using API Gateway, and you receive a request to complete the following tasks:
+
+* Develop the backend system using a Cloud Run function.
+    
+* Deploy and manage an API exposing the backend service with a fully managed gateway.
+    
+* Subscribe to messages published on a Pub/Sub topic to react to events.
+    
+
+Each task is described below, good luck!
+
+## Task 1. Create a Cloud Run function
+
+**Note:** Cloud Run functions (2nd gen) depend on the Cloud Run Admin APIs. The Cloud Run Admin APIs have been enabled for you at the start of this lab. It may however take a few minutes for all of the enabled services to propagate. If you experience an issue when deploying your Cloud Run function, wait a few minutes then try again.
+
+Create a new Cloud Run function (`2nd gen`) called `gcfunction` in the `us-central1` region using `Node.js 22` and allowing unauthenticated invocations. For now, simply have the function return "Hello World!" when invoked.
+
+Click **Check my progress** to verify the objective.
+
+Create a Cloud Run function.
+
+## Task 2. Create an API Gateway
+
+Once the Cloud Run function is deployed, configure an API Gateway to proxy requests to the backend.
+
+Create a file named `openapispec.yaml` (using the code below), which references the Cloud Run function deployed in Task 1.
+
+Use `openapispec.yaml` when deploying the API Gateway with the following properties:
 
 | **Name** | **Value** |
 | --- | --- |
-| Display Name | GCFunction API (wherever requested) |
+| Display Name | gcfunction API (wherever requested) |
 | API ID | gcfunction-api |
-| Se[l](https://cloud.google.com/functions/docs/console-quickstart)ect a service account | Compute Engine default service account |
-| Location | `us-east1` |
+| Select a service account | Compute Engine default service account |
+| Location | `us-central1` |
 | Config Name | gcfunction-api |
 
-```apache
+```yaml
 swagger: '2.0'
 info:
-  title: GCFunction API
-  description: Sample API on API Gateway with a Google Cloud Functions backend
+  title: gcfunction API
+  description: Sample API on API Gateway with a Google Cloud Run functions backend
   version: 1.0.0
 schemes:
-  - https
+- https
 produces:
-  - application/json
+- application/json
+x-google-backend:
+  address: https://gcfunction-968154473557.us-central1.run.app
 paths:
-  /GCFunction:
+  /gcfunction:
     get:
       summary: gcfunction
       operationId: gcfunction
-      x-google-backend:
-        address: https://us-east1-qwiklabs-gcp-01-69ef2d92f9c9.cloudfunctions.net/GCFunction
       responses:
        '200':
           description: A successful response
@@ -77,25 +108,21 @@ paths:
             type: string
 ```
 
-Copied!content\_copy
+**Note: It will take several minutes (~10 minutes) for the Create Gateway operation to complete.** To check the status of the creation and deployment process, you can click the Notifications icon (bell icon) in the top main navigation bar to display a status notification. Please ensure that the icon status for **Creating gateway "gcfunction API"** has a green check next to it before proceeding.
 
-**Note: It will take several minutes (~10 minutes) for the Create Gateway operation to complete.** To check the status of the creation and deployment process, you can click the Notification icon in the main navigation bar to display a status notification, as shown in the image below. Please ensure that the icon status has a green check next to it before proceeding.
+Click **Check my progress** to verify the objective.
 
-Click **Check my progress** to verif[y](https://cloud.google.com/functions/docs/console-quickstart) the objective.
+Create an API Gateway.
 
-Create an API Gateway
-
-**Check my progress**
-
-## **Task 3. Create a Pub/Sub Topic and Publish Messages via API Backend**
+## Task 3. Create a Pub/Sub Topic and Publish Messages via API Backend
 
 The development team would like the API backend to publish messages to a new Pub/Sub topic named `demo-topic`.
 
-Create a new Pub/Sub topic (`demo-topic`) and push messages to it in the Cloud Function deployed earlier. Be sure to keep the option to create a default subscription enabled when creating the topic.
+Create a new Pub/Sub topic (`demo-topic`) and push messages to it in the Cloud Run function deployed earlier. Be sure to keep the option to create a default subscription enabled when creating the topic.
 
-Use the snippet below to update the `package.json` file and `index.js` code in the Cloud Function deployed in Task 1.
+Use the snippet below to update the `package.json` file and `index.js` code in the Cloud Run function deployed in Task 1.
 
-**package.json**
+### package.json
 
 ```json
 {
@@ -106,7 +133,7 @@ Use the snippet below to update the `package.json` file and `index.js` code in t
 }
 ```
 
-**index.js**
+### index.js
 
 ```javascript
 /**
@@ -123,33 +150,29 @@ const functions = require('@google-cloud/functions-framework');
 exports.helloHttp = functions.http('helloHttp', (req, res) => {
 
   // Send a message to the topic
-  topic.publishMessage({data: Buffer.from('Hello from Cloud Functions!')});
+  topic.publishMessage({data: Buffer.from('Hello from Cloud Run functions!')});
   res.status(200).send("Message sent to Topic demo-topic!");
 });
 ```
 
-Redeploy the Cloud Function once the `index.js` and `package.json` files have been updated.
+Redeploy the Cloud Run function once the `index.js` and `package.json` files have been updated.
 
-Next, invoke the Cloud Function via API Gateway. If done correctly, a message will be published to the topic `demo-topic` you've created in this task.
+Next, invoke the Cloud Run function via API Gateway. If done correctly, a message will be published to the topic `demo-topic` you've created in this task.
 
 **Note:** It will take several minutes (~5 minutes) for the messages published to appear in the Messages section of the subscription after invoking the API Gateway endpoint.
 
 Click **Check my progress** to verify the objective.
 
+Create a Pub/Sub Topic and Publish Messages via API Backend.
+
 ---
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=9uTkzIhKQh0&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722004798679/ad647cd3-6907-4994-ac9a-efc06005586b.png align="center")
+%[https://youtu.be/NnskLntSSfA] 
 
 ```apache
-export REGION=
-```
-
-```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Getting%20Started%20with%20API%20Gateway%20Challenge%20Lab/quicklabarc109.sh
-sudo chmod +x quicklabarc109.sh
-./quicklabarc109.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Getting%20Started%20with%20API%20Gateway%20Challenge%20Lab/techcps109.sh
+sudo chmod +x techcps109.sh
+./techcps109.sh
 ```
