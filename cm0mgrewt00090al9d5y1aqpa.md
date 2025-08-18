@@ -346,6 +346,10 @@ sudo chmod +x gsp1145.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725370974586/2b6ee256-8580-436b-b432-7331b13e4544.png align="center")
 
+```apache
+customer_detail
+```
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746860626476/4b5c52f0-ba52-4b90-b1f0-b99f80956772.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725370985192/873bec28-3914-4f7b-80d6-85841f4b0603.png align="center")
