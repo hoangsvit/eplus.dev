@@ -191,3 +191,22 @@ We will keep updating this list with new skill badges/lab-free courses for you t
 **Looking for more Skill Badges?**
 
 Since we only have a list of 45 skill badges here, to earn the ultimate milestone, **you will have to search for 7 more skill badges and complete them from** [**our catalog here**](https://www.cloudskillsboost.google/catalog?skill-badge%5B%5D=skill-badge&format%5B%5D=__any__&level%5B%5D=__any__&language%5B%5D=__any__&keywords=&locale=).
+
+---
+
+[https://docs.google.com/spreadsheets/d/1Qjt1lvDc46XHI0sIp7MyaTxZXN47XY7n/copy](https://docs.google.com/spreadsheets/d/1Qjt1lvDc46XHI0sIp7MyaTxZXN47XY7n/copy)
+
+This file is provided as a **template** for personal use. To keep the original version intact and avoid accidental edits, please make your own copy before using it.
+
+👉 **How to use this file:**
+
+1. Go to the top menu and click **File → Make a copy**.
+    
+2. Save it to your own Google Drive.
+    
+3. You can now edit and customize your private copy freely.
+    
+
+⚠️ Note: Please do not edit this original file directly.
+
+![]( align="center")
