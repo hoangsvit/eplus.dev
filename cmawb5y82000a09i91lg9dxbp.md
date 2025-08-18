@@ -175,7 +175,7 @@ project = qwiklabs-gcp-02-e9ed97dd299e
 
 ```apache
 gcloud services enable \
-  dataplex.googleapis.com 
+  dataplex.googleapis.com
 ```
 
 2. Run the following command to create a variable for project ID:
@@ -282,7 +282,7 @@ In this task, you use the command line to create a BigQuery dataset and then att
     
 
 ```apache
-bq mk --location=$REGION --dataset orders 
+bq mk --location=$REGION --dataset orders
 ```
 
 While this dataset does not contain any tables or data, you can attach it to the zone now, and newly created tables and loaded data will automatically be integrated into the zone.
@@ -306,7 +306,7 @@ gcloud dataplex assets create orders-curated-dataset \
 --display-name="Orders Curated Dataset" \
 --resource-type=BIGQUERY_DATASET \
 --resource-name=projects/$PROJECT_ID/datasets/orders \
---discovery-enabled 
+--discovery-enabled
 ```
 
 It can take up to 2 minutes for the asset to be created.
@@ -333,7 +333,7 @@ In this task, you use the command line to detach the asset from the zone, then d
     
 
 ```apache
-gcloud dataplex assets delete orders-curated-dataset --location=$REGION --zone=orders-curated-zone --lake=ecommerce 
+gcloud dataplex assets delete orders-curated-dataset --location=$REGION --zone=orders-curated-zone --lake=ecommerce
 ```
 
 If prompted to confirm, enter `Y`.
@@ -388,12 +388,16 @@ Delete assets, zone and dataplex lake
 
 ## Solution of Lab
 
-%[https://youtu.be/OX0Z_936fnc] 
+%[https://youtu.be/L_kP9wJBX7M] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Dataplex%20Qwik%20Start%20-%20Command%20Line/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+export REGION=
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747732770453/897cfbe9-d01b-42fe-b498-ef37c1504872.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Dataplex%3A%20Qwik%20Start%20-%20Command%20Line/techcpsgsp1144.sh 
+sudo chmod +x techcpsgsp1144.sh
+./techcpsgsp1144.sh
+```
