@@ -436,7 +436,7 @@ Click **Check my progress** to verify the objective.
 export REGION=
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722001608892/0f2bea3b-afc6-4c3b-ac6f-7e9b89b38278.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755491806714/b51f84dd-a0c6-43c0-9310-7da3a836ba4f.png align="center")
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/API%20Gateway%20Qwik%20Start/gsp872.sh
