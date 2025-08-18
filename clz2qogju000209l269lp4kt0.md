@@ -103,6 +103,10 @@ Click **Check my progress** to verify the objective.
 export REGION=$(gcloud config get-value compute/region)
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755490076694/ab70f62e-b309-4c4d-8d20-f11fc24f45df.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755490116297/4f1d86e8-cddd-4352-b9e0-3bdc752b21be.png align="center")
+
 ### **Form 1:**
 
 ---
