@@ -354,4 +354,17 @@ customer_detail
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725370985192/873bec28-3914-4f7b-80d6-85841f4b0603.png align="center")
 
+```apache
+zip
+state
+last_name
+country
+email
+age
+latitude
+first_name
+city
+longitude
+```
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725370990407/ab3c9373-5f8b-4870-a93c-6a590692f60d.png align="center")
