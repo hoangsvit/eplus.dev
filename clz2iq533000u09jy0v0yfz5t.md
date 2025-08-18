@@ -101,7 +101,7 @@ Verify Task
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=vsKhoTVCgQA] 
+%[https://youtu.be/X6DNbZbzKuA] 
 
 ```apache
 export BUCKET_1=
