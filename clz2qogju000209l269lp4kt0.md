@@ -95,22 +95,10 @@ Click **Check my progress** to verify the objective.
 
 ## Answer of Lab
 
-%[https://www.youtube.com/watch?v=d9NLxIzdh5I&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722000280022/0e5abf11-d475-4635-8e04-5e3ef4c78552.png align="center")
+%[https://youtu.be/3uCEM2GLHjA] 
 
 ```apache
-export REGION=
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Get%20Started%20with%20PubSub%20Challenge%20Lab/form_1.sh
+sudo chmod +x form_1.sh
+./form_1.sh
 ```
-
-```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Get%20Started%20with%20PubSub%20Challenge%20Lab/quicklabarc113.sh
-sudo chmod +x quicklabarc113.sh
-./quicklabarc113.sh
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722000310993/de398d82-5699-401c-8f0d-b4f88dee622f.png align="center")
-
-## **Congratulations!**
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722000451726/48f9242a-40ed-43e4-988f-96744ea9734a.png align="center")
