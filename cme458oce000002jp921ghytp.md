@@ -209,4 +209,6 @@ This file is provided as a **template** for personal use. To keep the original v
 
 ⚠️ Note: Please do not edit this original file directly.
 
-![]( align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755514035559/1389ec51-58ba-4cb8-8ce0-45c3ce5542fc.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755513997098/96b2ae02-459b-4d20-81c1-1c6d6b06a134.png align="center")
