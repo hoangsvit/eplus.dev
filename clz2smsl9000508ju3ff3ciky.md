@@ -157,6 +157,26 @@ Below are multiple-choice questions to reinforce your understanding of this lab'
 
 ## Solution of Lab
 
+### Quick
+
+%[https://youtu.be/79w-L0xb_MI] 
+
+```apache
+export REGION=
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755517931190/4016c7ca-5fbd-42ef-a0ce-08c3a4a8cc25.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Cloud%20Run%20Functions%3A%20Qwik%20Start%20-%20Console/techcps081.sh
+sudo chmod +x techcps081.sh
+./techcps081.sh
+```
+
+---
+
+### Manual
+
 %[https://youtu.be/eJEuMEsthXQ] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746867316433/855fbeec-a4ca-40b4-b886-ad918412f4d0.png align="center")
