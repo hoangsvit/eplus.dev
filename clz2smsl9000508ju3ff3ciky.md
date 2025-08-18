@@ -173,6 +173,8 @@ sudo chmod +x techcps081.sh
 ./techcps081.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755518175739/efe27a63-42ac-420a-a365-01333a6d99bf.png align="center")
+
 ---
 
 ### Manual
