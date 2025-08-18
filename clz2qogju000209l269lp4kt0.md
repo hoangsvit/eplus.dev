@@ -5,7 +5,7 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: Fri Jul 26 2024 13:29:31 GMT+0000 (Coordinated Universal Time)
 cuid: clz2qogju000209l269lp4kt0
 slug: get-started-with-pub-sub-challenge-lab-arc113
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722000521196/d4e91078-0a5b-4b4d-8970-31acff692a3f.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755490310539/0a50a53f-0254-487e-a1d2-6ba0abd2a1e4.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1755490137198/4e96aa3e-9857-4470-9b1f-cf976f9d14de.png
 tags: get-started-with-pubsub-challenge-lab-arc113
 
