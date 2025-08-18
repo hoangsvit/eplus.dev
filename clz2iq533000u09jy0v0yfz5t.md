@@ -103,12 +103,20 @@ Verify Task
 
 %[https://www.youtube.com/watch?v=vsKhoTVCgQA] 
 
-```powershell
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Get%20Started%20with%20Cloud%20Storage%20Challenge%20Lab/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+```apache
+export BUCKET_1=
+export BUCKET_2=
+export BUCKET_3=
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721987092380/b5cb2c32-a337-4395-b1fe-3ab7ecd71fe5.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1745294830497/150c004f-8629-482d-9d93-cb52654b2b92.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Get%20Started%20with%20Cloud%20Storage%20Challenge%20Lab/arc111.sh
+sudo chmod +x arc111.sh
+./arc111.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755510113942/7c980f39-30fb-425d-bdd1-cbff1d5dcebe.png align="center")
