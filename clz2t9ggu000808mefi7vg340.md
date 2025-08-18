@@ -138,7 +138,7 @@ Click **Check my progress** to verify the objective.
 
 ---
 
-### Answer of Lab
+## Solution of Lab
 
 %[https://www.youtube.com/watch?v=9uTkzIhKQh0&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
