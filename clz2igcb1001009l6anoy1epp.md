@@ -300,7 +300,7 @@ gsutil rb "gs://$BUCKET/"
 
 ---
 
-### Solution of Lab
+## Solution of Lab
 
 %[https://www.youtube.com/watch?v=s-psIayBLg8&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
