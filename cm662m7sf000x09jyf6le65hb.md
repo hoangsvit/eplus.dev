@@ -207,9 +207,9 @@ Verify the Cloud Function worked
 %[https://www.youtube.com/watch?v=4bRqwkwBHKQ] 
 
 ```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Store%20Process%20and%20Manage%20Data%20on%20Google%20Cloud%20Command%20Line%20Challenge%20Lab/quicklabarc102.sh
-sudo chmod +x quicklabarc102.sh
-./quicklabarc102.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC102/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1737439336844/f588de7a-d77e-4662-9e9b-385e5ab8bc23.png align="center")
