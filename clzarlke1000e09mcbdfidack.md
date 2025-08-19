@@ -185,11 +185,11 @@ When you complete this course, you can earn the badge displayed here! View all t
     
     * The customer is responsible for security of the operating system, software stack required to run their applications and any hardware, networks, and physical security.
         
-    * The customer is responsible for securing anything that they create within the cloud, such as the configurations, access policies, and user data.
+    * <mark>The customer is responsible for securing anything that they create within the cloud, such as the configurations, access policies, and user data.</mark>
         
     * The customer is responsible for all infrastructure decisions, server configurations and database monitoring.
         
-    * <mark>The customer is not responsible for any of the data in the cloud, as data management is the responsibility of the cloud provider who is hosting the data.</mark>
+    * The customer is not responsible for any of the data in the cloud, as data management is the responsibility of the cloud provider who is hosting the data.
         
 3. **An organization wants to move to cloud-based collaboration software, but due to limited IT staff one of their main drivers is having low maintenance needs. Which cloud computing model would best suit their requirements?**
     
