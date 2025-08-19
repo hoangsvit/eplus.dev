@@ -191,7 +191,7 @@ When you complete this course, you can earn the badge displayed here! View all t
         
     * <mark>The customer is not responsible for any of the data in the cloud, as data management is the responsibility of the cloud provider who is hosting the data.</mark>
         
-3. **An organization wants to move their collaboration software to the cloud, but due to limited IT staff one of their main drivers is having low maintenance needs. Which cloud computing model would best suit their requirements?**
+3. **An organization wants to move to cloud-based collaboration software, but due to limited IT staff one of their main drivers is having low maintenance needs. Which cloud computing model would best suit their requirements?**
     
     * Platform as a Service (PaaS)
         
