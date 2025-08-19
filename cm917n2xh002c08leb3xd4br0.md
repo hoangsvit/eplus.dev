@@ -223,7 +223,7 @@ Detect a language with the Cloud Translation API
 
 ## Solution of Lab
 
-%[https://youtu.be/osak4sFTANA] 
+%[https://youtu.be/eQIWNzs-0NA] 
 
 ```apache
 # Get the zone of your lab VM
