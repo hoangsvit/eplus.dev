@@ -253,7 +253,9 @@ sudo chmod +x lab.sh
 ./lab.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743675293637/79e11431-88c0-4152-a1e3-f0a62228faa1.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755573451287/f9492815-c42c-4d77-a215-1a517e4e808c.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755573470706/f0117341-4b6e-4a74-bcef-96f3257faf70.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743675393405/f1ac1fb5-e453-482c-9320-afe050799917.png align="center")
 
@@ -261,4 +263,4 @@ sudo chmod +x lab.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743675753135/fac49eb8-8c15-4013-a55c-72ef626874bb.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743675850146/07c853e0-cafd-4697-8e49-36ccca6798c2.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755573564771/232a6b89-a253-4050-ad94-5ea5bc5bfd2c.png align="center")
