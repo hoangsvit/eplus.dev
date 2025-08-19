@@ -45,15 +45,15 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [Get Started with Pub/Sub](https://www.cloudskillsboost.google/course_templates/728?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (3 labs & 2 credits)
     
-* [Get Started with API Gateway](https://www.cloudskillsboost.google/course_templates/662?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 3 credits)🧹
+* [Get Started with API Gateway](https://www.cloudskillsboost.google/course_templates/662?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 3 credits)
     
-* [Get Started with Dataplex](https://www.cloudskillsboost.google/course_templates/726?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)🧹
+* [Get Started with Dataplex](https://www.cloudskillsboost.google/course_templates/726?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
 * [Get Started with Looker](https://www.cloudskillsboost.google/course_templates/647?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24) (4 labs & 0 credits)
     
 * [Get Started with Cloud Storage](https://www.cloudskillsboost.google/course_templates/725?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
-* [Use APIs to Work with Cloud Storage](https://www.cloudskillsboost.google/course_templates/755?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)📌
+* [Use APIs to Work with Cloud Storage](https://www.cloudskillsboost.google/course_templates/755?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 4 credits)
     
 * [Create a Streaming Data Lake on Cloud Storage](https://www.cloudskillsboost.google/course_templates/705?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 3 credits)
     
@@ -71,6 +71,9 @@ We will keep updating this list with new skill badges/lab-free courses for you t
     
 * [Store, Process, and Manage Data on Google Cloud - Command Line](https://www.cloudskillsboost.google/course_templates/659?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (4 labs & 3 credits)
     
+
+---
+
 * **\[Lab-free\]** [Digital Transformation with Google Cloud](https://www.cloudskillsboost.google/course_templates/266?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
     
 * **\[Lab-free\]** [Exploring Data Transformation with Google Cloud](https://www.cloudskillsboost.google/course_templates/267?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) (0 labs & 0 credits)
