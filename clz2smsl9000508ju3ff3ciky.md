@@ -159,6 +159,22 @@ Below are multiple-choice questions to reinforce your understanding of this lab'
 
 ### Quick
 
+**Solution 1**
+
+%[https://youtu.be/cBKH7FWARp4] 
+
+```apache
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20Functions%20Qwik%20Start%20%20Console/quicklabsgsp081.sh
+sudo chmod +x quicklabsgsp081.sh
+./quicklabsgsp081.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755517931190/4016c7ca-5fbd-42ef-a0ce-08c3a4a8cc25.png align="center")
+
+---
+
+**Solution 2**
+
 %[https://youtu.be/79w-L0xb_MI] 
 
 ```apache
