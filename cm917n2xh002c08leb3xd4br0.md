@@ -233,15 +233,24 @@ export ZONE=$(gcloud compute instances list lab-vm --format 'csv[no-heading](zon
 gcloud compute ssh lab-vm --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
 ```
 
+* Go to `Credentials` from [he](https://console.cloud.google.com/apis/credentials)[re](https://console.cloud.google.com/apis/credentials)
+    
+    ```apache
+    export API_KEY=
+    export task_2_file_name=""
+    export task_3_request_file=""
+    export task_3_response_file=""
+    export task_4_sentence=""
+    export task_4_file=""
+    export task_5_sentence=""
+    export task_5_file=""
+    ```
+    
+
 ```apache
-# Download the setup script
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Cloud%20Speech%20API%203%20Ways%20Challenge%20Lab/arcadecrew.sh
-
-# Make the script executable
-sudo chmod +x arcadecrew.sh
-
-# Run the script to set up your environment
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC132/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743675293637/79e11431-88c0-4152-a1e3-f0a62228faa1.png align="center")
