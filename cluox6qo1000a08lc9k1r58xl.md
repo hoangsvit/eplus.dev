@@ -5,7 +5,7 @@ seoDescription: "Natural language is the language that humans use to communicate
 datePublished: Sun Apr 07 2024 02:44:06 GMT+0000 (Coordinated Universal Time)
 cuid: cluox6qo1000a08lc9k1r58xl
 slug: cloud-natural-language-api-qwik-start-gsp097
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712457787670/099309f0-018f-4efa-bc9d-79ed618d20c0.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755588706066/61ad9886-40bf-4d74-ae50-343121270fb7.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1755588682357/86437544-9444-40ec-be70-f68d610f4ddf.png
 tags: 2025-cloud-natural-language-api-qwik-start-gsp097, gsp097, cloud-natural-language-api-qwik-start-gsp097, cloud-natural-language-api-qwik-start
 
