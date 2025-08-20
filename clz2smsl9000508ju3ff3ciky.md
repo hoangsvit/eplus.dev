@@ -164,12 +164,14 @@ Below are multiple-choice questions to reinforce your understanding of this lab'
 %[https://youtu.be/cBKH7FWARp4] 
 
 ```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20Functions%20Qwik%20Start%20%20Console/quicklabsgsp081.sh
-sudo chmod +x quicklabsgsp081.sh
-./quicklabsgsp081.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP081/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755517931190/4016c7ca-5fbd-42ef-a0ce-08c3a4a8cc25.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755654938711/22b9a73d-429a-4a5b-a06d-1bceb80d98a8.png align="center")
 
 ---
 
