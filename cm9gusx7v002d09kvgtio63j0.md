@@ -228,12 +228,11 @@ Verify the thumbnail was successfully created by the Cloud Run function
 
 ## Solution of Lab
 
-%[https://youtu.be/rvWq6ay9yjc] 
-
 ```apache
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Store%2C%20Process%2C%20and%20Manage%20Data%20on%20Google%20Cloud%20Challenge%20Lab/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+export BUCKET_NAME=""
+export REGION=""
+export TOPIC_NAME=""
+export FUNCTION_NAME=""
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744621441370/7b06dafe-d823-4d45-bd2e-5e4a493ac4e5.png align="center")
@@ -241,5 +240,11 @@ sudo chmod +x arcadecrew.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744621646218/6282519b-0c43-447d-9ad7-bf88fe35d238.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744621769373/ab64175b-a21a-4527-9949-862deb26fd3d.png align="center")
+
+```apache
+curl -LO https://raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC100/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
+```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744621835600/b63f5b29-fd62-441e-8402-004ac6904515.png align="center")
