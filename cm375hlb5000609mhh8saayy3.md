@@ -138,9 +138,9 @@ Run a Dataflow pipeline to stream data from a Pub/Sub topic to Cloud Storage
 %[https://youtu.be/tdMIj1aOunM] 
 
 ```apache
-export TOPIC_ID=
-export MESSAGE=
-export REGION=
+export TOPIC_ID=""
+export MESSAGE=""
+export REGION=""
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1730974338540/9099da67-ec7a-41ed-b876-8d9d8d00f612.png align="center")
