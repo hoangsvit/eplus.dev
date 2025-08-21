@@ -135,6 +135,22 @@ Run a Dataflow pipeline to stream data from a Pub/Sub topic to Cloud Storage
 
 ## **Solution of Lab**
 
+**Solution 1:**
+
+%[https://youtu.be/fPhVrXNKslg] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC110/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755756610997/52af0e00-61b2-4084-ab55-fe529ceda963.png align="center")
+
+---
+
+**Solution 2:**
+
 %[https://youtu.be/tdMIj1aOunM] 
 
 ```apache
