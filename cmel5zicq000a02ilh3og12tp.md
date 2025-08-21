@@ -98,6 +98,8 @@ Create and apply a tag template to a zone
 
 ## Solution of Lab
 
+### Quick
+
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC117/lab.sh
 sudo chmod +x lab.sh
@@ -107,3 +109,9 @@ sudo chmod +x lab.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755766054237/55a11997-79fd-4f4e-9e66-6d1329f01635.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755766355003/658c93c9-ad4a-4a69-bf3f-fa3bd30c07a3.png align="center")
+
+---
+
+### Manual
+
+%[https://www.youtube.com/watch?v=8EzsX0oUDqw]
