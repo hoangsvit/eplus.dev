@@ -111,7 +111,9 @@ sudo chmod +x lab.sh
 
 ### Manual
 
-Run the below commands in *SSH on the VM Instance* `lab-setup`.
+%[https://youtu.be/GpTpeUGBTsU] 
+
+Run the commands below in *SSH on the VM Instance* `lab-setup`.
 
 **Task 1 - Enable the Google App Engine Admin API**
 
