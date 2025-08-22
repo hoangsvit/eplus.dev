@@ -138,6 +138,10 @@ cd php-docs-samples/appengine/standard/helloworld
 **Task 3 - Deploy your application**
 
 ```apache
+gcloud config set project $DEVSHELL_PROJECT_ID
+export ZONE="$(gcloud compute instances list --project=$DEVSHELL_PROJECT_ID --format='value(ZONE)')"
+export REGION=${ZONE%-*}
+gcloud app create --region=$REGION
 gcloud app deploy
 gcloud app browse
 ```
