@@ -100,6 +100,34 @@ Create and apply a tag template to a zone
 
 ### Quick
 
+**Solution 1:**
+
+%[https://youtu.be/1QDH0aGkL1Y] 
+
+```apache
+export LOCATION=
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755766054237/55a11997-79fd-4f4e-9e66-6d1329f01635.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC117/lab-solution-2.sh
+sudo chmod +x lab-solution-2.sh
+./lab-solution-2.sh
+```
+
+Task 3. Create and apply a tag template to a zone
+
+1. Go to Templates from [h](https://console.cloud.google.com/dataplex/templates/create)[ere](https://console.cloud.google.com/dataplex/templates/create)
+    
+
+* follow video instructions
+    
+
+---
+
+**Solution 2:**
+
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC117/lab.sh
 sudo chmod +x lab.sh
