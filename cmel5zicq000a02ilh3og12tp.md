@@ -121,8 +121,15 @@ Task 3. Create and apply a tag template to a zone
 1. Go to Templates from [h](https://console.cloud.google.com/dataplex/templates/create)[ere](https://console.cloud.google.com/dataplex/templates/create)
     
 
-* follow video instructions
-    
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755830566301/b70077c6-18ae-4df9-9cfb-d3d4f0fe3979.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755830646063/2abf74f5-3175-4df6-be38-df22f949b1b6.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755830668808/53081cac-3738-48fa-871d-ce5bdc55811c.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755830680366/42eae351-508a-44fd-8221-f8737e336b8b.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755830700259/21bd1cb6-fbd5-4158-a278-4e7294b3fd9f.png align="center")
 
 ---
 
