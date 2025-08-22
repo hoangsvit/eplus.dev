@@ -323,4 +323,4 @@ sudo chmod +x gsp070.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755832665888/e6761ea2-aa4f-4443-a751-faff0e7557ff.png align="center")
 
-![]( align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755838738590/7306f2d0-5b6a-460b-90de-a270ecf02c98.png align="center")
