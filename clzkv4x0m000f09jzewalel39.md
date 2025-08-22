@@ -299,6 +299,14 @@ export REGION=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750395019209/2c92461f-6d37-4eed-9569-65cb830e676b.png align="center")
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP067/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/App%20Engine%20Qwik%20Start%20Python/quicklabgsp067.sh
 sudo chmod +x quicklabgsp067.sh
 ./quicklabgsp067.sh
