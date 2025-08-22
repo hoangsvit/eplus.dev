@@ -5,9 +5,9 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: Thu Aug 08 2024 05:37:19 GMT+0000 (Coordinated Universal Time)
 cuid: clzkuj9xj000c08le6rv0hlx4
 slug: app-engine-3-ways-challenge-lab-arc112
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723095395104/23f0c692-3dfe-415e-9424-98ccf41be325.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723095417775/95ab8fb5-1515-4c78-b983-c613e3ca1e73.png
-tags: app-engine-3-ways-challenge-lab-arc112
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755847053625/5d64ac78-5e21-424a-a42a-f63745be1f5a.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1755847041284/07f582b6-07ed-4d9c-bcd5-026cb560a1b3.png
+tags: app-engine-3-ways-challenge-lab-arc112, arc112, app-engine-3-ways-challenge-lab
 
 ---
 
@@ -93,19 +93,14 @@ Deploy updates to your application
 
 ### Solution of Lab
 
-%[https://www.youtube.com/watch?v=z9NN3E97Qns&t=5s] 
+%[https://youtu.be/CmVhpNYquiU] 
 
 ```apache
-export REGION=
-export MESSAGE=""
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC112/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723095177061/f24b4577-3abc-4478-9f0b-eef1bfca334d.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755846980899/051cfdcf-4edf-427b-b10f-0b53cc9b8a3a.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723095242878/b76c0624-0561-4e40-9543-6973b15dda24.png align="center")
-
-```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/App%20Engine%203%20Ways%20Challenge%20Lab/quicklabarc112.sh
-sudo chmod +x quicklabarc112.sh
-./quicklabarc112.sh
-```
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755846991837/4b3e79d6-ae9a-42f2-8879-997fe1da21e0.png align="center")
