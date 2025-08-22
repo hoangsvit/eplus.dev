@@ -154,5 +154,5 @@ gcloud app browse
 
 ```apache
 nano index.php
-gcloud app deploy
+gcloud app deploy --quiet
 ```
