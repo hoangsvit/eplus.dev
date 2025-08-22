@@ -101,6 +101,56 @@ sudo chmod +x lab.sh
 ./lab.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755846980899/051cfdcf-4edf-427b-b10f-0b53cc9b8a3a.png align="center")
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755846991837/4b3e79d6-ae9a-42f2-8879-997fe1da21e0.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755847889619/9df347c5-6359-471b-bb53-f0f264a7ef39.png align="center")
+
+---
+
+### Manual
+
+Run the below commands in *SSH on the VM Instance* `lab-setup`.
+
+**Task 1 - Enable the Google App Engine Admin API**
+
+```apache
+gcloud services enable appengine.googleapis.com
+```
+
+**Task 2 - Download the Hello World app**
+
+*Make sure to download the web application on the VM instance "lab-setup"*
+
+```apache
+git clone https://github.com/GoogleCloudPlatform/php-docs-samples.git
+cd php-docs-samples/appengine/standard/helloworld
+```
+
+* After cloning the above command in the `SSH of VM-Instance`, come back to your `cloud console` and open the `Cloud Shell Terminal`.
+    
+* And again, `recloning the sample file` using the *above commands*.
+    
+
+**Task 3 - Deploy your application**
+
+```apache
+gcloud app deploy
+gcloud app browse
+```
+
+* Choose *Region* in the list which you have given in your lab. --&gt; (This is the most important thing in this step.)
+    
+* If asking "Enter your choice (Y/n)" then --&gt; press y
+    
+
+**Task 4 - Deploy updates to your application**
+
+* Here, in the `index.php`, change the code to *Hello, World!* to `Whatever the message is in the Task 4`.
+    
+* Now, after editing the code, save and exit from the editor by pressing the `Ctrl+X, Y`, and then hit `Enter`.
+    
+
+```apache
+nano index.php
+gcloud app deploy
+```
