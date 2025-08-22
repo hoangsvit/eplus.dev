@@ -91,7 +91,9 @@ Deploy updates to your application
 
 ---
 
-### Solution of Lab
+## Solution of Lab
+
+### Quick
 
 %[https://youtu.be/CmVhpNYquiU] 
 
