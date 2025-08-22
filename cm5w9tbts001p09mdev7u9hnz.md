@@ -320,3 +320,7 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/A
 sudo chmod +x gsp070.sh
 ./gsp070.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755832665888/e6761ea2-aa4f-4443-a751-faff0e7557ff.png align="center")
+
+![]( align="center")
