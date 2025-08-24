@@ -180,7 +180,7 @@ Copied!
     
 
 ```apache
-python -m pip install --upgrade google-cloud-core google-cloud-documentai google-cloud-storage prettytable 
+python -m pip install --upgrade google-cloud-core google-cloud-documentai google-cloud-storage prettytable
 ```
 
 Copied!
@@ -223,13 +223,13 @@ from prettytable import PrettyTable
 project_id = %system gcloud config get-value core/project
 project_id = project_id[0]
 location = 'us'
-file_path = 'form.pdf' 
+file_path = 'form.pdf'
 ```
 
 The **Set your Processor ID** code cell sets the Processor ID that you have to manually set before you can process documents with the notebook.
 
 ```apache
-processor_id = 'PROCESSOR_ID' # TODO: Replace with a valid Processor ID   
+processor_id = 'PROCESSOR_ID' # TODO: Replace with a valid Processor ID
 ```
 
 You will need the Document AI processor ID of the processor you created in Task 1 for this step.
@@ -344,7 +344,7 @@ If you have used the sample health intake form, you will data similar to the fol
 ```apache
 Form data detected:
 
-Page Number:1 Phone #: (906) 917-3486 (Confidence Scores: (Name) 1.0, (Value) 1.0) ... Date: 9/14/19 (Confidence Scores: (Name) 0.9999, (Value) 0.9999) ... Name: Sally Walker (Confidence Scores: (Name) 0.9973, (Value) 0.9973) ... 
+Page Number:1 Phone #: (906) 917-3486 (Confidence Scores: (Name) 1.0, (Value) 1.0) ... Date: 9/14/19 (Confidence Scores: (Name) 0.9999, (Value) 0.9999) ... Name: Sally Walker (Confidence Scores: (Name) 0.9973, (Value) 0.9973) ...
 ```
 
 If you are able to create a specialised processor the final cell will display entity data, otherwise it will show an empty table.
@@ -415,7 +415,7 @@ import simplejson as json
 The **Set your Processor ID** code cell sets the Processor ID that you have to manually set before you can process documents with the notebook.
 
 ```apache
-processor_id = "PROCESSOR_ID"  # TODO: Replace with a valid Processor ID 
+processor_id = "PROCESSOR_ID"  # TODO: Replace with a valid Processor ID
 ```
 
 The **Set your variables** code cell defines the parameters that will be used to make the asynchronous call, including the location of the input and output Cloud Storage buckets that will be used for the source data and output files. You will update the placeholder values in this cell for the `PROJECT_ID` and the `PROCESSOR_ID` in the next section of the lab before you run the code. The other variables contain defaults for the processor location, input Cloud Storage Bucket, and output Cloud Storage bucket that you do not need to change.
@@ -572,7 +572,7 @@ sudo chmod +x jupyter.sh
 
 ### Manual
 
-%[https://youtu.be/jTYhR6FmDFU] 
+%[https://youtu.be/iics0j87WoU] 
 
 Open: [https://console.cloud.google.com/marketplace/product/google/documentai.googleapis.com?q=search&referrer=search](https://console.cloud.google.com/marketplace/product/google/documentai.googleapis.com?q=search&referrer=search&project=qwiklabs-gcp-04-0a7f0a346bf2)
 
