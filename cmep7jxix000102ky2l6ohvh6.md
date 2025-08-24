@@ -440,9 +440,9 @@ Modify the constraint
 %[https://youtu.be/Q8uTic-Hoo0] 
 
 ```apache
-curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/GSP1021_abhi.sh
-sudo chmod +x GSP1021_abhi.sh
-./GSP1021_abhi.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1021/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756010546090/614e6188-1327-46ae-9182-b67dfe147190.png align="center")
