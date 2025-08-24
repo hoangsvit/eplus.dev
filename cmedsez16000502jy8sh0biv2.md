@@ -1485,6 +1485,11 @@ gcloud compute networks delete on-prem
 
 ## Solution of Lab
 
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text">Under the Special Game Badge Module: <strong>Future Ready Skills</strong>, this lab (3rd one) is currently disabled and may soon be marked as Optional. You can complete the remaining 7 labs, and once this lab is officially marked optional, the badge will be automatically credited to your public profile.</div>
+</div>
+
 ### Quick
 
 %[https://youtu.be/LeyM0D8YB8U] 
@@ -1505,9 +1510,4 @@ sudo chmod +x GSP619_abhi.sh
 
 ### Manual
 
-%[https://youtu.be/QX0-P393TIU] 
-
-<div data-node-type="callout">
-<div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text">Under the Special Game Badge Module: <strong>Future Ready Skills</strong>, this lab (3rd one) is currently disabled and may soon be marked as Optional. You can complete the remaining 7 labs, and once this lab is officially marked optional, the badge will be automatically credited to your public profile.</div>
-</div>
+%[https://youtu.be/QX0-P393TIU]
