@@ -195,6 +195,14 @@ Create an Origin.
 %[https://youtu.be/B8COwxjw87k] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1044/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Media%20CDN%20Qwik%20Start/quicklabgsp1044.sh
 sudo chmod +x quicklabgsp1044.sh
 ./quicklabgsp1044.sh
