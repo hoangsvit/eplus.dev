@@ -415,10 +415,26 @@ Check if the dashboard is created.
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/6ITmr6SIogs] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1024/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Using%20Prometheus%20for%20Monitoring%20on%20Google%20Cloud%3A%20Qwik%20Start/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```
+
+---
+
+### Manual
+
+%[https://youtu.be/SxqLEEzOdJ4]
