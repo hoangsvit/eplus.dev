@@ -70,8 +70,6 @@ In this section create a Flutter Web application called first\_app.
 flutter create first_app
 ```
 
-Copied!
-
 4. Move to the first\_app directory:
     
 
@@ -79,16 +77,12 @@ Copied!
 cd first_app
 ```
 
-Copied!
-
 5. Close the terminal window:
     
 
 ```apache
 exit
 ```
-
-Copied!
 
 The `first_app` directory and template code have now been created.
 
@@ -117,8 +111,6 @@ In this section run the Flutter Web application from the command line.
 ```apache
 fwr
 ```
-
-Copied!
 
 4. The running web server should look similar to below:
     
@@ -394,8 +386,6 @@ class MyDetails extends StatelessWidget {
 }
 ```
 
-Copied!
-
 2. Perform a `hot restart` to review the changes to the Flutter user interface.
     
 3. After updating `lib\main.dart` with the boilerplate code, refresh the application.
@@ -445,7 +435,7 @@ Update the TabView setting to reference in the function `MyDetails`.
 1. Find the following line(s) and uncomment the code (i.e. remove the `//` characters):
     
 
-```apache
+```javascript
   // TODO: Add TabBar
   // bottom: const TabBar(
   //   indicatorColor: Colors.black,
@@ -478,11 +468,9 @@ Update the TabView setting to reference in the function `MyDetails`.
   // ),
 ```
 
-Copied!
-
 Your code should now look like this:
 
-```apache
+```javascript
  // TODO: Add TabBar
  bottom: const TabBar(
    indicatorColor: Colors.black,
@@ -515,8 +503,6 @@ Your code should now look like this:
  ),
 ```
 
-Copied!
-
 2. Perform a `hot restart` to review the changes to the Flutter user interface.
     
 
@@ -535,7 +521,7 @@ Update the TabBarView setting referenced in the function `MyDetails`.
 1. Find the following line(s) and uncomment the code (i.e. remove the `//` characters):
     
 
-```apache
+```javascript
  // body: const TabBarView(
  //   children: [
  //     SizedBox(
@@ -562,11 +548,9 @@ Update the TabBarView setting referenced in the function `MyDetails`.
  // ),
 ```
 
-Copied!
-
 Your code should now look like this:
 
-```apache
+```dart
  body: const TabBarView(
    children: [
      SizedBox(
@@ -593,8 +577,6 @@ Your code should now look like this:
  ),
 ```
 
-Copied!
-
 2. Perform a `hot restart` to review the changes to the Flutter user interface.
     
 
@@ -617,11 +599,9 @@ Update the main menu icon to open a custom drawer in `ProductHomeWidget`.
   drawer: const MyDrawerWidget(),
 ```
 
-Copied!
-
 Your code should now look like this:
 
-```apache
+```dart
 class ProductHomeWidget extends StatelessWidget {
   final String title;
 
@@ -650,8 +630,6 @@ class ProductHomeWidget extends StatelessWidget {
 }
 ```
 
-Copied!
-
 2. Perform a `hot restart` to review the changes to the Flutter user interface.
     
 
@@ -668,7 +646,7 @@ Update the custom drawer in `MyDrawerWidget` Route the Home drawer item to `MyAp
 1. Update the `DrawerHeader` and add a ListTile in the MyDrawerWidget build method:
     
 
-```apache
+```dart
   children: [
     const DrawerHeader(
       child: Icon(Icons.flutter_dash, size: 35),
@@ -681,14 +659,12 @@ Update the custom drawer in `MyDrawerWidget` Route the Home drawer item to `MyAp
           MaterialPageRoute(builder: (context) => const MyApp()),
         );
       },
-    ),    
+    ),
 ```
-
-Copied!
 
 Your code should now look like this:
 
-```apache
+```dart
 class MyDrawerWidget extends StatelessWidget {
   const MyDrawerWidget({Key? key}) : super(key: key);
 
@@ -716,8 +692,6 @@ class MyDrawerWidget extends StatelessWidget {
 }
 ```
 
-Copied!
-
 2. Perform a `hot restart` to review the changes to the Flutter user interface.
     
 
@@ -742,11 +716,9 @@ Update the custom drawer in `MyDrawerWidget` and route the other Drawer items to
   },
 ```
 
-Copied!
-
 Your code should now look like this:
 
-```apache
+```dart
 class MyDrawerWidget extends StatelessWidget {
   const MyDrawerWidget({Key? key}) : super(key: key);
 
@@ -782,8 +754,6 @@ class MyDrawerWidget extends StatelessWidget {
   }
 }
 ```
-
-Copied!
 
 2. Perform a `hot restart` to review the changes to the Flutter user interface.
     
