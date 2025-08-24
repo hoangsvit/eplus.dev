@@ -1485,6 +1485,26 @@ gcloud compute networks delete on-prem
 
 ## Solution of Lab
 
+### Quick
+
+%[https://youtu.be/LeyM0D8YB8U] 
+
+```apache
+export ZONE2=
+export ZONE=
+export ZONE1=
+```
+
+```apache
+curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/GSP619_abhi.sh
+sudo chmod +x GSP619_abhi.sh
+./GSP619_abhi.sh
+```
+
+---
+
+### Manual
+
 %[https://youtu.be/QX0-P393TIU] 
 
 <div data-node-type="callout">
