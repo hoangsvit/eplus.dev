@@ -308,28 +308,28 @@ In order to be able to successfully deploy the required “**VPC network(s)**”
     * Structure: &lt;01&gt;&lt;02&gt;**\-vpc--**&lt;03&gt;**\-**&lt;04&gt;
         
 
-                             &lt;01&gt; - company id
+&lt;01&gt; - company id
 
-                             &lt;02&gt; - business entity id
+&lt;02&gt; - business entity id
 
-                             &lt;03&gt; - vpc short description
+&lt;03&gt; - vpc short description
 
-                             &lt;04&gt; - vpc count identifier
+&lt;04&gt; - vpc count identifier
 
 * Description:
     
     * Character limit: unlimited
         
-    * Structure: “&lt;01&gt;**\-**&lt;02&gt; **VPC network =** &lt;03&gt; **-** &lt;04&gt;”
+    * Structure: “&lt;01&gt;**\-**&lt;02&gt; **VPC network =** &lt;03&gt; **\-** &lt;04&gt;”
         
 
-                             &lt;01&gt; - Company
+&lt;01&gt; - Company
 
-                             &lt;02&gt; - Business entity ID
+&lt;02&gt; - Business entity ID
 
-                             &lt;03&gt; - VPC description
+&lt;03&gt; - VPC description
 
-                             &lt;04&gt; - VPC count identifier
+&lt;04&gt; - VPC count identifier
 
 ### Resources to be created (Count = 1):
 
@@ -439,40 +439,40 @@ In order to be able to successfully deploy the required VPC “**subnet(s)**” 
     * Structure: &lt;01&gt;&lt;02&gt;**\-subnet--**&lt;03&gt;**\-**&lt;04&gt;**\-**&lt;05&gt;**\--**&lt;06&gt;**\-**&lt;07&gt;
         
 
-                             &lt;01&gt; - company id
+&lt;01&gt; - company id
 
-                             &lt;02&gt; - business entity id
+&lt;02&gt; - business entity id
 
-                             &lt;03&gt; - workload id
+&lt;03&gt; - workload id
 
-                             &lt;04&gt; - operational area id
+&lt;04&gt; - operational area id
 
-                             &lt;05&gt; - environment id
+&lt;05&gt; - environment id
 
-                             &lt;06&gt; - hosting region id
+&lt;06&gt; - hosting region id
 
-                             &lt;07&gt; - subnet count identifier
+&lt;07&gt; - subnet count identifier
 
 * Description:
     
     * Character limit: unlimited
         
-    * Structure: ”&lt;01&gt;**\-**&lt;02&gt; **subnet =** &lt;03&gt;**\-**&lt;04&gt;**\-**&lt;05&gt; **-** &lt;06&gt; **-** &lt;07&gt;”
+    * Structure: ”&lt;01&gt;**\-**&lt;02&gt; **subnet =** &lt;03&gt;**\-**&lt;04&gt;**\-**&lt;05&gt; **\-** &lt;06&gt; **\-** &lt;07&gt;”
         
 
-                             &lt;01&gt; - Company
+&lt;01&gt; - Company
 
-                             &lt;02&gt; - Business entity ID
+&lt;02&gt; - Business entity ID
 
-                             &lt;03&gt; - Workload ID
+&lt;03&gt; - Workload ID
 
-                             &lt;04&gt; - Operational area ID
+&lt;04&gt; - Operational area ID
 
-                             &lt;05&gt; - Environment ID
+&lt;05&gt; - Environment ID
 
-                             &lt;06&gt; - Hosting region ID
+&lt;06&gt; - Hosting region ID
 
-                             &lt;07&gt; - subnet count identifier
+&lt;07&gt; - subnet count identifier
 
 ### Resources to be created (Count = 1):
 
@@ -580,36 +580,36 @@ In order to be able to successfully deploy the required VPC “**firewall rule(s
     * Structure: &lt;01&gt;**\--**&lt;02&gt;&lt;03&gt;**\-fw--user--**&lt;04&gt;**\--**&lt;05&gt;**\--v**&lt;06&gt;
         
 
-                             &lt;01&gt; - vpc id
+&lt;01&gt; - vpc id
 
-                             &lt;02&gt; - company id
+&lt;02&gt; - company id
 
-                             &lt;03&gt; - business entity id
+&lt;03&gt; - business entity id
 
-                             &lt;04&gt; - firewall action id
+&lt;04&gt; - firewall action id
 
-                             &lt;05&gt; - user access short description
+&lt;05&gt; - user access short description
 
-                             &lt;06&gt; - firewall version no.
+&lt;06&gt; - firewall version no.
 
 * Description:
     
     * Character limit: unlimited
         
-    * Structure: ”&lt;01&gt; **-** &lt;02&gt;**\-**&lt;03&gt; **firewall rule = User access -** &lt;04&gt; &lt;05&gt; **- version** &lt;06&gt;”
+    * Structure: ”&lt;01&gt; **\-** &lt;02&gt;**\-**&lt;03&gt; **firewall rule = User access -** &lt;04&gt; &lt;05&gt; **\- version** &lt;06&gt;”
         
 
-                             &lt;01&gt; - VPC ID
+&lt;01&gt; - VPC ID
 
-                             &lt;02&gt; - Company
+&lt;02&gt; - Company
 
-                             &lt;03&gt; - Business entity ID
+&lt;03&gt; - Business entity ID
 
-                             &lt;04&gt; - Firewall ACTION
+&lt;04&gt; - Firewall ACTION
 
-                             &lt;05&gt; - User access description
+&lt;05&gt; - User access description
 
-                             &lt;06&gt; - firewall version no.
+&lt;06&gt; - firewall version no.
 
 ### Resources to be created (Count = 4):
 
@@ -769,44 +769,44 @@ In order to be able to successfully deploy the required VPC “**firewall rule(s
     * Structure: &lt;01&gt;**\--**&lt;02&gt;&lt;03&gt;**\-fw--**&lt;04&gt;**\-**&lt;05&gt;**\-**&lt;06&gt;**\--**&lt;07&gt;**\-env--v**&lt;08&gt;
         
 
-                             &lt;01&gt; - vpc id
+&lt;01&gt; - vpc id
 
-                             &lt;02&gt; - company id
+&lt;02&gt; - company id
 
-                             &lt;03&gt; - business entity id
+&lt;03&gt; - business entity id
 
-                             &lt;04&gt; - workload id
+&lt;04&gt; - workload id
 
-                             &lt;05&gt; - operational area id
+&lt;05&gt; - operational area id
 
-                             &lt;06&gt; - environment id
+&lt;06&gt; - environment id
 
-                             &lt;07&gt; - firewall action id
+&lt;07&gt; - firewall action id
 
-                             &lt;08&gt; - firewall version no.
+&lt;08&gt; - firewall version no.
 
 * Description:
     
     * Character limit: unlimited
         
-    * Structure: “&lt;01&gt; **-** &lt;02&gt;**\-**&lt;03&gt; **firewall rule =** &lt;04&gt;**\-**&lt;05&gt;**\-**&lt;06&gt; **-** &lt;07&gt; **environment wide access - version** &lt;08&gt;”
+    * Structure: “&lt;01&gt; **\-** &lt;02&gt;**\-**&lt;03&gt; **firewall rule =** &lt;04&gt;**\-**&lt;05&gt;**\-**&lt;06&gt; **\-** &lt;07&gt; **environment wide access - version** &lt;08&gt;”
         
 
-                             &lt;01&gt; - VPC ID
+&lt;01&gt; - VPC ID
 
-                             &lt;02&gt; - Company
+&lt;02&gt; - Company
 
-                             &lt;03&gt; - Business entity ID
+&lt;03&gt; - Business entity ID
 
-                             &lt;04&gt; - Workload ID
+&lt;04&gt; - Workload ID
 
-                             &lt;05&gt; - Operational area ID
+&lt;05&gt; - Operational area ID
 
-                             &lt;06&gt; - Environment ID
+&lt;06&gt; - Environment ID
 
-                             &lt;07&gt; - Firewall ACTION
+&lt;07&gt; - Firewall ACTION
 
-                             &lt;08&gt; - firewall version no.
+&lt;08&gt; - firewall version no.
 
 ### Resources to be created (Count = 1):
 
@@ -921,50 +921,50 @@ In order to be able to successfully deploy the required VPC “**firewall rule(s
     * Structure: &lt;01&gt;**\--**&lt;02&gt;&lt;03&gt;**\-fw--**&lt;04&gt;**\-**&lt;05&gt;**\-**&lt;06&gt;**\--**&lt;07&gt;**\-**&lt;08&gt;**\--v**&lt;09&gt;
         
 
-                             &lt;01&gt; - vpc id
+&lt;01&gt; - vpc id
 
-                             &lt;02&gt; - company id
+&lt;02&gt; - company id
 
-                             &lt;03&gt; - business entity id
+&lt;03&gt; - business entity id
 
-                             &lt;04&gt; - workload id
+&lt;04&gt; - workload id
 
-                             &lt;05&gt; - operational area id
+&lt;05&gt; - operational area id
 
-                             &lt;06&gt; - environment id
+&lt;06&gt; - environment id
 
-                             &lt;07&gt; - firewall action id
+&lt;07&gt; - firewall action id
 
-                             &lt;08&gt; - system id
+&lt;08&gt; - system id
 
-                             &lt;09&gt; - firewall version no.
+&lt;09&gt; - firewall version no.
 
 * Description:
     
     * Character limit: unlimited
         
-    * Structure: “&lt;01&gt; **-** &lt;02&gt;**\-**&lt;03&gt; **firewall rule =** &lt;04&gt;**\-**&lt;05&gt;**\-**&lt;06&gt; **-** &lt;07&gt; &lt;08&gt; **(**&lt;09&gt;**) system wide access - version** &lt;10&gt;”
+    * Structure: “&lt;01&gt; **\-** &lt;02&gt;**\-**&lt;03&gt; **firewall rule =** &lt;04&gt;**\-**&lt;05&gt;**\-**&lt;06&gt; **\-** &lt;07&gt; &lt;08&gt; **(**&lt;09&gt;**) system wide access - version** &lt;10&gt;”
         
 
-                             &lt;01&gt; - VPC ID
+&lt;01&gt; - VPC ID
 
-                             &lt;02&gt; - Company
+&lt;02&gt; - Company
 
-                             &lt;03&gt; - Business entity ID
+&lt;03&gt; - Business entity ID
 
-                             &lt;04&gt; - Workload ID
+&lt;04&gt; - Workload ID
 
-                             &lt;05&gt; - Operational area ID
+&lt;05&gt; - Operational area ID
 
-                             &lt;06&gt; - Environment ID
+&lt;06&gt; - Environment ID
 
-                             &lt;07&gt; - Firewall ACTION
+&lt;07&gt; - Firewall ACTION
 
-                             &lt;08&gt; - Application ID
+&lt;08&gt; - Application ID
 
-                             &lt;09&gt; - System ID
+&lt;09&gt; - System ID
 
-                             &lt;10&gt; - firewall version no.
+&lt;10&gt; - firewall version no.
 
 ### Resources to be created (Count = 1):
 
@@ -1079,40 +1079,40 @@ In order to be able to successfully reserve the required static “**IP address(
     * Structure: &lt;01&gt;&lt;02&gt;**\-ip-address--**&lt;03&gt;**\-**&lt;04&gt;**\-**&lt;05&gt;**\--&lt;06&gt;--&lt;07&gt;**
         
 
-                             &lt;01&gt; - company id
+&lt;01&gt; - company id
 
-                             &lt;02&gt; - business entity id
+&lt;02&gt; - business entity id
 
-                             &lt;03&gt; - workload id
+&lt;03&gt; - workload id
 
-                             &lt;04&gt; - operational area id
+&lt;04&gt; - operational area id
 
-                             &lt;05&gt; - environment id
+&lt;05&gt; - environment id
 
-                             &lt;06&gt; - system id
+&lt;06&gt; - system id
 
-                             &lt;07&gt; - short virtual hostname
+&lt;07&gt; - short virtual hostname
 
 * Description:
     
     * Character limit: unlimited
         
-    * Structure: “&lt;01&gt;**\-**&lt;02&gt; **reserved IP address =** &lt;03&gt;**\-**&lt;04&gt;**\-**&lt;05&gt; **-** &lt;06&gt; (&lt;07&gt;) **-** &lt;08&gt;”                              &lt;01&gt; - Company
+    * Structure: “&lt;01&gt;**\-**&lt;02&gt; **reserved IP address =** &lt;03&gt;**\-**&lt;04&gt;**\-**&lt;05&gt; **\-** &lt;06&gt; (&lt;07&gt;) **\-** &lt;08&gt;”                              &lt;01&gt; - Company
         
 
-                             &lt;02&gt; - Business entity ID
+&lt;02&gt; - Business entity ID
 
-                             &lt;03&gt; - Workload ID
+&lt;03&gt; - Workload ID
 
-                             &lt;04&gt; - Operational area ID
+&lt;04&gt; - Operational area ID
 
-                             &lt;05&gt; - Environment ID
+&lt;05&gt; - Environment ID
 
-                             &lt;06&gt; - Application ID
+&lt;06&gt; - Application ID
 
-                             &lt;07&gt; - System ID
+&lt;07&gt; - System ID
 
-                             &lt;08&gt; - short virtual hostname
+&lt;08&gt; - short virtual hostname
 
 ### Resources to be created (Count = 4):
 
@@ -1246,17 +1246,17 @@ In order to be able to successfully deploy the required “**Cloud NAT service(s
     * Structure: &lt;01&gt;**\--**&lt;02&gt;&lt;03&gt;**\-nat-gw--**&lt;04&gt;**\--**&lt;05&gt;**\-**&lt;06&gt;
         
 
-                             &lt;01&gt; - vpc id
+&lt;01&gt; - vpc id
 
-                             &lt;02&gt; - company id
+&lt;02&gt; - company id
 
-                             &lt;03&gt; - business entity id
+&lt;03&gt; - business entity id
 
-                             &lt;04&gt; - short nat description
+&lt;04&gt; - short nat description
 
-                             &lt;05&gt; - Hosting region ID
+&lt;05&gt; - Hosting region ID
 
-                             &lt;06&gt; - subnet count identifier
+&lt;06&gt; - subnet count identifier
 
 * Router - ID:
     
@@ -1265,36 +1265,36 @@ In order to be able to successfully deploy the required “**Cloud NAT service(s
     * Structure: &lt;01&gt;**\--**&lt;02&gt;&lt;03&gt;**\-router--**&lt;04&gt;**\--**&lt;05&gt;**\-**&lt;06&gt;
         
 
-                             &lt;01&gt; - vpc id
+&lt;01&gt; - vpc id
 
-                             &lt;02&gt; - company id
+&lt;02&gt; - company id
 
-                             &lt;03&gt; - business entity id
+&lt;03&gt; - business entity id
 
-                             &lt;04&gt; - short router description
+&lt;04&gt; - short router description
 
-                             &lt;05&gt; - Hosting region ID
+&lt;05&gt; - Hosting region ID
 
-                             &lt;06&gt; - router count identifier
+&lt;06&gt; - router count identifier
 
 * Router - Description:
     
     * Character limit: unlimited
         
-    * Structure: “&lt;01&gt; **-** &lt;02&gt;**\-**&lt;03&gt; **router =** &lt;04&gt; **-** &lt;05&gt; **-** &lt;06&gt;”
+    * Structure: “&lt;01&gt; **\-** &lt;02&gt;**\-**&lt;03&gt; **router =** &lt;04&gt; **\-** &lt;05&gt; **\-** &lt;06&gt;”
         
 
-                             &lt;01&gt; - vpc id
+&lt;01&gt; - vpc id
 
-                             &lt;02&gt; - Company
+&lt;02&gt; - Company
 
-                             &lt;03&gt; - Business entity ID
+&lt;03&gt; - Business entity ID
 
-                             &lt;04&gt; - Router description
+&lt;04&gt; - Router description
 
-                             &lt;05&gt; - Hosting region ID
+&lt;05&gt; - Hosting region ID
 
-                             &lt;07&gt; - router count identifier
+&lt;07&gt; - router count identifier
 
 ### Resources to be created (Count = 2):
 
@@ -1375,6 +1375,14 @@ Create “Cloud NAT service(s)”
 ## Solution of Lab
 
 %[https://youtu.be/er9MAy2L_bo] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1068/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/SAP%20Landing%20Zone%20Plan%20and%20Deploy%20the%20SAP%20Network/quicklabgsp1068.sh
