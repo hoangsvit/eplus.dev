@@ -59,8 +59,6 @@ To set the active account, run:
 gcloud config list project
 ```
 
-Copied!
-
 **Output:**
 
 ```apache
@@ -91,8 +89,6 @@ Before using Secret Manager, you need to enable the API for your project.
     gcloud services enable secretmanager.googleapis.com --project=qwiklabs-gcp-03-a79ee94ac3e9
     ```
     
-    Copied!
-    
     **Note:**  
     This command enables the Secret Manager API for your project, allowing you to create and manage secrets.
     
@@ -106,8 +102,6 @@ Create a new secret in Secret Manager.
     ```apache
     gcloud secrets create my-secret --project=qwiklabs-gcp-03-a79ee94ac3e9
     ```
-    
-    Copied!
     
     **Note:**  
     This command creates a secret named `my-secret` in your Google Cloud project. Secrets are used to store sensitive information, such as passwords, API keys, and certificates.
@@ -123,8 +117,6 @@ Add a version to the secret with the actual secret value.
     echo -n "super-secret-password" | gcloud secrets versions add my-secret --data-file=- --project=qwiklabs-gcp-03-a79ee94ac3e9
     ```
     
-    Copied!
-    
     **Note:**  
     This command adds a new version to the `my-secret` secret, storing the value "super-secret-password". The `-n` flag in the `echo` command prevents adding a newline character to the secret value. The `--data-file=-` flag specifies that the data is read from standard input.
     
@@ -139,8 +131,6 @@ Retrieve the secret value from Secret Manager.
     echo "$(gcloud secrets versions access latest --secret=my-secret --project=qwiklabs-gcp-03-a79ee94ac3e9)"
     ```
     
-    Copied!
-    
     **Note:**  
     This command retrieves the secret value of the latest version of `my-secret` and prints it to the console. This allows you to verify the stored secret.
     
@@ -150,8 +140,6 @@ Retrieve the secret value from Secret Manager.
     export MY_SECRET=$(gcloud secrets versions access latest --secret=my-secret --project=qwiklabs-gcp-03-a79ee94ac3e9)
     ```
     
-    Copied!
-    
     **Note:**  
     This command retrieves the secret value and stores it in an environment variable named `MY_SECRET`. This allows you to use the secret in subsequent commands or scripts without directly exposing the secret value in your code.
     
@@ -160,8 +148,6 @@ Retrieve the secret value from Secret Manager.
     ```apache
     echo "${MY_SECRET}"
     ```
-    
-    Copied!
     
     **Note:**  
     This command retrieves the environment variable of `my-secret`. This allows you to verify the environment variable secret.
