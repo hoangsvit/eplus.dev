@@ -335,8 +335,20 @@ Access the deployed application and verify that it can successfully retrieve the
 
 ## Solution of Lab
 
+%[https://youtu.be/q5Ia6ADR7WI] 
+
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/gem-secret-manager-cloud-run/lab.sh
 sudo chmod +x lab.sh
-./lab.sh
+./lab.shScript alternative
+```
+
+**Script alternative**
+
+```apache
+curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/Abhi_Secret_Manager.sh
+
+sudo chmod +x Abhi_Secret_Manager.sh
+
+./Abhi_Secret_Manager.sh
 ```
