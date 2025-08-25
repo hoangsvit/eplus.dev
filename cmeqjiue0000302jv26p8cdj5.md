@@ -198,8 +198,6 @@ Now, create the Terraform configuration files to define your custom VPC network.
     }
     ```
     
-    Copied!
-    
     **Note:**  
     This configuration enables firewall policies for the VPC.
     
@@ -219,8 +217,6 @@ Now, create the Terraform configuration files to define your custom VPC network.
     }
     ```
     
-    Copied!
-    
     **Note:**  
     This declares variables. It is good practice.
     
@@ -238,8 +234,6 @@ Now, create the Terraform configuration files to define your custom VPC network.
     }
     ```
     
-    Copied!
-    
     **Note:**  
     This declares output variables. It is good practice.
     
@@ -254,8 +248,6 @@ With the Terraform configuration files created, you can now initialize Terraform
     terraform init
     ```
     
-    Copied!
-    
     **Note:**  
     This command initializes Terraform and downloads the necessary provider plugins.
     
@@ -265,8 +257,6 @@ With the Terraform configuration files created, you can now initialize Terraform
     terraform plan
     ```
     
-    Copied!
-    
     **Note:**  
     This command creates an execution plan, showing the changes that Terraform will make to your infrastructure.
     
@@ -275,8 +265,6 @@ With the Terraform configuration files created, you can now initialize Terraform
     ```apache
     terraform apply --auto-approve
     ```
-    
-    Copied!
     
     **Note:**  
     This command applies the changes defined in the Terraform configuration files to provision the VPC network.
@@ -316,8 +304,6 @@ To avoid incurring unnecessary costs, destroy the resources created in this lab 
     ```apache
     terraform destroy --auto-approve
     ```
-    
-    Copied!
     
     **Note:**  
     This command destroys all the resources managed by Terraform in your Google Cloud project.
