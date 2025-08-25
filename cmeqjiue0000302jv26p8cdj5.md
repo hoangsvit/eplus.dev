@@ -326,3 +326,9 @@ To avoid incurring unnecessary costs, destroy the resources created in this lab 
 ---
 
 ## Solution of Lab
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/gem-terraform-vpc-create/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
+```
