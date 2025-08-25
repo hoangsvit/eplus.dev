@@ -279,4 +279,22 @@ To avoid incurring unwanted charges, destroy the resources created in this lab.
     This command destroys the resources created by Terraform. The `-auto-approve` flag automatically approves the destruction.
     
 
-## Congrat
+---
+
+## Solution of Lab
+
+%[https://youtu.be/dOk7iaPMDTw] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/gem-terraform-sa-create/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
+```
+
+**Script alternative**
+
+```apache
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Terraform%20Essentials%20Service%20Account/quicklab.sh
+sudo chmod +x quicklab.sh
+./quicklab.sh
+```
