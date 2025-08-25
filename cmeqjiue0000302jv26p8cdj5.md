@@ -37,8 +37,6 @@ Your Cloud Platform project in this session is set to YOUR_PROJECT_ID
 gcloud auth list
 ```
 
-Copied!
-
 3. Click **Authorize**.
     
 4. Your output should now look like this:
@@ -60,8 +58,6 @@ To set the active account, run:
 ```apache
 gcloud config list project
 ```
-
-Copied!
 
 **Output:**
 
@@ -93,8 +89,6 @@ Before you begin, configure your environment for Terraform and Google Cloud. Thi
     gcloud config set project qwiklabs-gcp-01-da64924e1c64
     ```
     
-    Copied!
-    
     **Note:**  
     Replace `PROJECT_ID` with your actual Google Cloud project ID.
     
@@ -103,8 +97,6 @@ Before you begin, configure your environment for Terraform and Google Cloud. Thi
     ```apache
     gcloud config set compute/region us-west1
     ```
-    
-    Copied!
     
     **Note:**  
     Replace `REGION` with your desired Google Cloud region (e.g., `us-central1`).
@@ -115,8 +107,6 @@ Before you begin, configure your environment for Terraform and Google Cloud. Thi
     gcloud config set compute/zone us-west1-a
     ```
     
-    Copied!
-    
     **Note:**  
     Replace `ZONE` with your desired Google Cloud zone (e.g., `us-central1-a`).
     
@@ -126,8 +116,6 @@ Before you begin, configure your environment for Terraform and Google Cloud. Thi
     gcloud storage buckets create gs://qwiklabs-gcp-01-da64924e1c64-terraform-state --project=qwiklabs-gcp-01-da64924e1c64 --location=us
     ```
     
-    Copied!
-    
     **Note:**  
     This command creates a Cloud Storage bucket in the `us` location. Consider using a region closer to you.
     
@@ -136,8 +124,6 @@ Before you begin, configure your environment for Terraform and Google Cloud. Thi
     ```apache
     gcloud services enable cloudresourcemanager.googleapis.com --project=qwiklabs-gcp-01-da64924e1c64
     ```
-    
-    Copied!
     
 
 ## Task 2. Creating the Terraform Configuration
