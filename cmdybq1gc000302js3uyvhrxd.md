@@ -7,6 +7,7 @@ cuid: cmdybq1gc000302js3uyvhrxd
 slug: the-arcade-base-camp-august-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754385268379/48c9d625-69b6-4f5a-8804-97a215fc48a6.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1754385294302/71e628b7-df42-41fd-bd5f-b8b691885677.png
+tags: the-arcade-base-camp-august-2025, the-arcade-certification-zone-august-2025
 
 ---
 
@@ -19,6 +20,7 @@ Link: [Google Cloud Skills Boost - Games 5703](https://www.cloudskillsboost.goog
 | **Level** | **Link** | **Code** |
 | --- | --- | --- |
 | **The Arcade Base Camp August 2025** | [Google Cloud Skills Boost - Games 6393](https://www.cloudskillsboost.google/games/6393) | <mark>1q-basecamp-2930</mark> |
+| **The Arcade Certification Zone August 2025** | [Google Cloud Skills Boost - Games 6435](https://www.cloudskillsboost.google/games/6435) | <mark>1q-cert-10811</mark> |
 | **Future Ready Skills** | [Google Cloud Skills Boost - Games 6415](https://www.cloudskillsboost.google/games/6415) | <mark>1q-futureready-0229</mark> |
 | **Terraform Essentials** | [Google Cloud Skills Boost - Games 6396](https://www.cloudskillsboost.google/games/6396) | <mark>1q-terraform-0480</mark> |
 | **The Arcade Base Camp August 2025 - LEVEL 1** | [Google Cloud Skills Boost - Games 6394](https://www.cloudskillsboost.google/games/6394) | <mark>1q-appdesign-0245</mark> |
