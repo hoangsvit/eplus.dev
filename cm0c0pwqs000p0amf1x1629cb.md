@@ -450,7 +450,15 @@ Below are multiple-choice questions to reinforce your understanding of this lab'
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=B_1gzNGnD9M] 
+%[https://youtu.be/M35m46Q3GWM] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP234/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
+```
+
+**Script alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20SQL%20with%20Terraform/quicklabgsp234.sh
