@@ -166,6 +166,11 @@ Create a HTTP function `http-responder`
 
 ### Quick
 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC104/lab.sh
+source lab.sh
+```
+
 ---
 
 ### Manual
