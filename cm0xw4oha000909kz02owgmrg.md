@@ -7,7 +7,7 @@ cuid: cm0xw4oha000909kz02owgmrg
 slug: google-sheets-getting-started-gsp469
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726060128755/46e79a56-9dc6-40ad-b7a9-0e5319456ebb.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726060952262/d342b7d3-57a5-46d8-8809-7cb181812ecf.jpeg
-tags: google-sheets-getting-started-gsp469
+tags: google-sheets, google-sheets-getting-started-gsp469, gsp469
 
 ---
 
