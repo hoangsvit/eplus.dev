@@ -1,6 +1,6 @@
 ---
 title: "Use Charts in Google Sheets - GSP1061"
-seoTitle: "[2024] Use Charts in Google Sheets - GSP1061"
+seoTitle: "Use Charts in Google Sheets - GSP1061"
 seoDescription: "For this lab you read through a fictitious business scenario. By completing the various lab activities, you assist the characters with their Google Sheets u"
 datePublished: Thu Aug 22 2024 14:28:14 GMT+0000 (Coordinated Universal Time)
 cuid: cm05dnyzu00030am90gxw4ubg
