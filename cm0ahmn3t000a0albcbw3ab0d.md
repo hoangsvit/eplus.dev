@@ -291,7 +291,6 @@ The previous command used the `bq command line tool` to copy the public table in
 
 5. Refresh your `BigQuery` browser page.
     
-
 6. Confirm that the **trips** table is listed in your `demo_dataset`.
     
 
@@ -473,6 +472,13 @@ export LOCATION=
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724645820636/658eea66-eb5a-4b17-945a-87dafcf31f5c.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP729/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Data%20Catalog%20Qwik%20Start/gsp729.sh
