@@ -5,9 +5,9 @@ seoDescription: "In this challenge lab, you’re given a scenario and a set of t
 datePublished: Mon Sep 09 2024 08:57:32 GMT+0000 (Coordinated Universal Time)
 cuid: cm0urs149001g09jvb6m9ac6a
 slug: create-a-secure-data-lake-on-cloud-storage-challenge-lab-arc119
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725871493688/2a89a068-7fc7-45ac-8054-0127dd6c33cc.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725872240652/3fb8c17e-2d79-4151-81f9-06556fe6334a.jpeg
-tags: create-a-secure-data-lake-on-cloud-storage-challenge-lab-arc119
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756629319782/0d5452e8-c9ed-4bf9-94ca-a4921cac4c0e.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756629398931/41feca1f-4310-48fd-a563-0167f207442c.png
+tags: data-lake, cloud-storage, create-a-secure-data-lake-on-cloud-storage-challenge-lab-arc119, arc119, create-a-secure-data-lake-on-cloud-storage-challenge-lab
 
 ---
 
@@ -155,20 +155,6 @@ Click **Check my progress** to verify the objective.
 ---
 
 ## Solution of Lab
-
-%[https://youtu.be/_eIKXbrgye4] 
-
----
-
-```apache
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/%5BForm%204%5D%20Secure%20Data%20Lake%20on%20Cloud%20Storage%20-%20Challenge%20Lab/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
-```
-
----
-
-### Solution alternative
 
 %[https://www.youtube.com/watch?v=PbIfliCwHQw&ab_channel=Techcps] 
 
