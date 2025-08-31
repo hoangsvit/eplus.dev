@@ -505,6 +505,20 @@ Tools like [bbcp](https://github.com/eeertekin/bbcp) can help to copy files as f
 
 %[https://youtu.be/R0z7Fe6ZgOk] 
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756627654121/59cd27ac-e8d1-4944-8f7f-f3d71e3554b8.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756627667243/e56f12da-f4bb-495b-aa9f-af351c7ce2b1.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756627674234/782fdebd-25bb-4a1d-a25b-754a86813cfa.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Test%20Network%20Latency%20Between%20VMs/techcps161.sh
+sudo chmod +x techcps161.sh
+./techcps161.sh
+```
+
+**Script Alternative**
+
 ```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Test%20Network%20Latency%20Between%20VMs/techcps161.sh
 sudo chmod +x techcps161.sh
