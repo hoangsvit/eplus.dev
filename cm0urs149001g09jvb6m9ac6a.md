@@ -165,6 +165,13 @@ export ZONE=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725872009346/13a61b99-7568-40f6-a6c1-0387bc9ce914.png align="center")
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC119/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/Techcps/ARC/master/Create%20a%20Secure%20Data%20Lake%20on%20Cloud%20Storage%3A%20Challenge%20Lab/techcps119.sh
 sudo chmod +x techcps119.sh
 ./techcps119.sh
