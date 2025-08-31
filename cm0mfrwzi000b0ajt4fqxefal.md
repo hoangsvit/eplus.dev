@@ -443,9 +443,9 @@ export ZONE_2=
 export ZONE_3=
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725367801237/5bc1659a-1727-4fdd-b37c-eac2014aa02d.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756625507910/75269cd4-735d-4cfb-8dde-30a71eff8dbe.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725368052750/65a7ad70-ed00-40f8-8298-85375aa7acaf.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756625514718/6f784506-4705-4aab-b23e-31c34e756771.png align="center")
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP016/lab.sh
