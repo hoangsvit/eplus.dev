@@ -1,10 +1,10 @@
 ---
-title: "[2024] Use Charts in Google Sheets - GSP1061"
+title: "Use Charts in Google Sheets - GSP1061"
 seoTitle: "[2024] Use Charts in Google Sheets - GSP1061"
 seoDescription: "For this lab you read through a fictitious business scenario. By completing the various lab activities, you assist the characters with their Google Sheets u"
 datePublished: Thu Aug 22 2024 14:28:14 GMT+0000 (Coordinated Universal Time)
 cuid: cm05dnyzu00030am90gxw4ubg
-slug: 2024-use-charts-in-google-sheets-gsp1061
+slug: use-charts-in-google-sheets-gsp1061
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747554085275/069edcf1-99a7-4799-b7b5-de462e36455c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747554105259/6c57355a-1307-44ec-b9ed-81552d0f6461.png
 tags: 2024-use-charts-in-google-sheets-gsp1061, use-charts-in-google-sheets-gsp1061, gsp1061, use-charts-in-google-sheets
@@ -305,7 +305,7 @@ Share a spreadsheet.
 
 ## Solution of Lab
 
-%[https://youtu.be/ufbaEd8GesU] 
+%[https://youtu.be/ts15RxDZlAc] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724336015079/d182ec48-7216-45de-980b-e19417c3b323.png align="center")
 
