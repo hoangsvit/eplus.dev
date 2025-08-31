@@ -437,11 +437,14 @@ Below are multiple choice questions to reinforce your understanding of this lab'
 
 ```apache
 
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Dataflow%20Qwik%20Start%20-%20Templates/gsp192.sh
-sudo chmod +x gsp192.sh
-./gsp192.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP192/lab.sh
+source lab.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1745485047681/86cd326e-c490-405c-8860-e0dbad6055b9.png align="center")
+**Script Alternative**
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1745485051225/cb275c2b-6ff7-4192-898e-62a953161a3e.png align="center")
+```apache
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Dataflow%3A%20Qwik%20Start%20Templates/techcps192.sh
+sudo chmod +x techcps192.sh
+./techcps192.sh
+```
