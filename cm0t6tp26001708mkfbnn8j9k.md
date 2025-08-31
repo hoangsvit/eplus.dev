@@ -511,10 +511,18 @@ The *IF* function evaluates a logical expression. You can use *IF* to display a 
 
 * **NOTE: Watch the Full Video for Full Scores on Check My Progress.**
     
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756622852303/8d299dfb-6782-4e8c-84a2-a5b3b744040f.png align="center")
+
 * Change **Form Name** to `On the Rise Bakery Survey`
     
-* Download File from [HERE](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1064/On-the-rise-bakery-survey-responses.xlsx)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756622861096/5abb6c8d-bab3-4ce1-a10c-ae3c2576c89f.png align="center")
+
+* **<mark>Download File</mark>** from [HERE](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1064/On-the-rise-bakery-survey-responses.xlsx)
     
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756622954758/3c985286-c744-4815-8145-a8bf614ecb00.png align="center")
 
 ---
 
