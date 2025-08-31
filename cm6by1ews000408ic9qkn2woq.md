@@ -1,10 +1,10 @@
 ---
-title: "[2025] Tag and Discover BigLake Data: Challenge Lab - ARC123"
+title: "Tag and Discover BigLake Data: Challenge Lab - ARC123"
 seoTitle: "[2025] Tag and Discover BigLake Data: Challenge Lab - ARC123"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
 datePublished: Sat Jan 25 2025 08:43:24 GMT+0000 (Coordinated Universal Time)
 cuid: cm6by1ews000408ic9qkn2woq
-slug: 2025-tag-and-discover-biglake-data-challenge-lab-arc123
+slug: tag-and-discover-biglake-data-challenge-lab-arc123
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737794572392/44c5bcd3-9d38-4e98-83ce-e80b0010d1fa.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1737794590522/8e0cb6c0-51bf-4788-b0ff-5fd81a1f449a.png
 tags: tag-and-discover-biglake-data-challenge-lab-arc123, tag-and-discover-biglake-data-challenge-lab, arc123
@@ -121,6 +121,13 @@ Create a tag template and attach a tag to the BigLake table
 ## Solution of Lab
 
 %[https://www.youtube.com/watch?v=_c6Zmt9pAgk&ab_channel=QUICKGCPLAB] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC123/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 export REGION=
