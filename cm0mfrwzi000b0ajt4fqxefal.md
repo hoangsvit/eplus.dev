@@ -435,12 +435,12 @@ For feedback, suggestions, or corrections, please use the **Support** tab.
 
 ## Solution of Lab
 
-%[https://youtu.be/3mlyHyQZgJY] 
+%[https://youtu.be/7ND6JrHtFkQ] 
 
 ```apache
-export ZONE_1=
-export ZONE_2=
-export ZONE_3=
+export REGION_1=
+export REGION_2=
+export REGION_3=
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756625507910/75269cd4-735d-4cfb-8dde-30a71eff8dbe.png align="center")
@@ -455,7 +455,7 @@ source lab.sh
 **Script Alternative**
 
 ```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Networking%20101/quicklab016.sh
-sudo chmod +x quicklab016.sh
-./quicklab016.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Networking%20101/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
