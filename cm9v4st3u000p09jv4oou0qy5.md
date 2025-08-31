@@ -433,12 +433,13 @@ Below are multiple choice questions to reinforce your understanding of this lab'
 
 ## Solution of Lab
 
-%[https://youtu.be/VxTs_MBjZLA] 
+%[https://youtu.be/TKEbg5MUZCU] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Dataflow%20Qwik%20Start%20-%20Templates/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Dataflow%20Qwik%20Start%20-%20Templates/gsp192.sh
+sudo chmod +x gsp192.sh
+./gsp192.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1745485047681/86cd326e-c490-405c-8860-e0dbad6055b9.png align="center")
