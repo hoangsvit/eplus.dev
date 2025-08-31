@@ -505,7 +505,7 @@ The *IF* function evaluates a logical expression. You can use *IF* to display a 
 
 ### Quick
 
-%[https://youtu.be/F65L1wv9T_k] 
+%[https://youtu.be/hOLV4EAbiu0] 
 
 ---
 
@@ -513,7 +513,7 @@ The *IF* function evaluates a logical expression. You can use *IF* to display a 
     
 * Change **Form Name** to `On the Rise Bakery Survey`
     
-* Download File from [H](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1064/On-the-rise-bakery-survey-responses.xlsx)[ERE](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1064/On-the-rise-bakery-survey-responses.xlsx)
+* Download File from [HERE](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1064/On-the-rise-bakery-survey-responses.xlsx)
     
 
 ---
