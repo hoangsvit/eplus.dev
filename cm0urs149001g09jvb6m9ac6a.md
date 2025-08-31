@@ -243,10 +243,3 @@ Invalid form number. Please enter 1, 2, 3, or 4: (Let's find the Form Number: Pr
 * **Task 3. Attach an existing BigQuery Dataset to the Lake**
     
 * **Task 4. Create Entities**
-    
-
----
-
-### Manual
-
-%[https://youtu.be/qmMqQiXHUAw]
