@@ -448,6 +448,13 @@ export ZONE_3=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725368052750/65a7ad70-ed00-40f8-8298-85375aa7acaf.png align="center")
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP016/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Networking%20101/quicklab016.sh
 sudo chmod +x quicklab016.sh
 ./quicklab016.sh
