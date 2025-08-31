@@ -385,9 +385,18 @@ When you create VMs in your network, you'll create them with the tag that corres
 %[https://www.youtube.com/watch?v=fF_RJj-nhoQ&ab_channel=Techcps] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP159/lab.sh
+source lab.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1741068084342/5f552469-2352-43a1-b492-458d40d9d469.png align="center")
+
+---
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Create%20a%20Custom%20Network%20and%20Apply%20Firewall%20Rules/techcps159.sh
 sudo chmod +x techcps159.sh
 ./techcps159.sh
 ```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1741068084342/5f552469-2352-43a1-b492-458d40d9d469.png align="center")
