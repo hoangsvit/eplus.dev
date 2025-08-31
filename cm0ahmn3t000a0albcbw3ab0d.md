@@ -465,7 +465,7 @@ Attach the tag to your table
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=V0HMT966VJ0] 
+%[https://youtu.be/NqzKQpTX1rg] 
 
 ```apache
 export LOCATION=
@@ -481,7 +481,7 @@ source lab.sh
 **Script Alternative**
 
 ```apache
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Data%20Catalog%20Qwik%20Start/gsp729.sh
-sudo chmod +x gsp729.sh
-./gsp729.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Data%20Catalog%20Qwik%20Start/techcps729.sh
+sudo chmod +x techcps729.sh
+./techcps729.sh
 ```
