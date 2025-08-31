@@ -501,7 +501,7 @@ Tools like [bbcp](https://github.com/eeertekin/bbcp) can help to copy files as f
 
 ## Solution of Lab
 
-### New Solution
+### Quick
 
 %[https://youtu.be/R0z7Fe6ZgOk] 
 
@@ -527,14 +527,6 @@ sudo chmod +x techcps161.sh
 
 ---
 
-### Old Solution
+### Manual
 
-%[https://youtu.be/Cr5MoJBQWxU] 
-
-```apache
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Test%20Network%20Latency%20Between%20VMs/gsp161.sh
-sudo chmod +x *.sh
-./*.sh
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744711804908/b450b720-4c9d-4f80-b007-030aa70c9c93.png align="center")
+%[https://youtu.be/vIRgtWCsTfM]
