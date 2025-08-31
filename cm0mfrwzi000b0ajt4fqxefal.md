@@ -5,9 +5,9 @@ seoDescription: "In this hands-on lab you will learn how to perform basic networ
 datePublished: Tue Sep 03 2024 12:59:22 GMT+0000 (Coordinated Universal Time)
 cuid: cm0mfrwzi000b0ajt4fqxefal
 slug: networking-101-gsp016
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725367621687/cb566197-a9bc-4294-82fa-2269380a8001.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725368276714/5f24fff4-25eb-4142-a323-75a93bad26c8.jpeg
-tags: networking-101-gsp016
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756626661752/b82e13b8-2c4e-4a53-ade1-03b6b6c31aca.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756626709661/0f8443e9-138e-4286-952d-252db3420d3d.png
+tags: networking-101, networking-101-gsp016, gsp016
 
 ---
 
@@ -437,19 +437,14 @@ For feedback, suggestions, or corrections, please use the **Support** tab.
 
 %[https://youtu.be/7ND6JrHtFkQ] 
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756626579246/351ccde3-2bbc-4800-924e-bc78f70bd83f.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756626585328/3d678c15-25af-447f-817d-a7893b9efc66.png align="center")
+
 ```apache
 export REGION_1=
 export REGION_2=
-export REGION_3=
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756625507910/75269cd4-735d-4cfb-8dde-30a71eff8dbe.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756625514718/6f784506-4705-4aab-b23e-31c34e756771.png align="center")
-
-```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP016/lab.sh
-source lab.sh
+export REGION_3=us-east4
 ```
 
 **Script Alternative**
