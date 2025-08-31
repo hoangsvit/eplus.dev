@@ -382,7 +382,7 @@ When you create VMs in your network, you'll create them with the tag that corres
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=fF_RJj-nhoQ&ab_channel=Techcps] 
+%[https://youtu.be/fF_RJj-nhoQ] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP159/lab.sh
