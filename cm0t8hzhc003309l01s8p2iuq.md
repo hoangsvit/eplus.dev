@@ -5,8 +5,9 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: Sun Sep 08 2024 07:10:05 GMT+0000 (Coordinated Universal Time)
 cuid: cm0t8hzhc003309l01s8p2iuq
 slug: use-functions-formulas-and-charts-in-google-sheets-challenge-lab-gsp379
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725778862459/f9d047a2-a095-49b8-9333-5238ae15b502.jpeg
-tags: use-functions-formulas-and-charts-in-google-sheets-challenge-lab-gsp379
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756623748183/2a72772e-34f5-4ff6-96a6-b33bd162a0be.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756623755999/7511136a-5198-4bd2-a74b-bf3bb251d5ad.png
+tags: google-sheets, use-functions-formulas-and-charts-in-google-sheets-challenge-lab-gsp379, gsp379, use-functions-formulas-and-charts-in-google-sheets-challenge-lab
 
 ---
 
