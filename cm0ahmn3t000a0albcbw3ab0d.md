@@ -468,12 +468,6 @@ Attach the tag to your table
 %[https://youtu.be/NqzKQpTX1rg] 
 
 ```apache
-export LOCATION=
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724645820636/658eea66-eb5a-4b17-945a-87dafcf31f5c.png align="center")
-
-```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP729/lab.sh
 source lab.sh
 ```
