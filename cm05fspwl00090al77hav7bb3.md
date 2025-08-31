@@ -370,11 +370,9 @@ Clean Data
 
 ## Solution of Lab
 
-%[https://youtu.be/iRm03F4b28U] 
-
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text">This laboratory may <strong>not be completed</strong> so do it by hand in the video to be graded.</div>
+<div data-node-type="callout-text">This laboratory may <strong>not be completed</strong>; please complete it by hand in the video to be graded.</div>
 </div>
 
 <mark>Download file:</mark> [GSP1062.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1062/GSP1062.xlsx) *(Support task 3 → 5)*
@@ -384,6 +382,8 @@ Clean Data
 ---
 
 ### Manual
+
+%[https://youtu.be/FY4TpzXxBsY] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724338189304/7958c0cb-fab0-40a0-bbfd-859397b458ad.png align="center")
 
