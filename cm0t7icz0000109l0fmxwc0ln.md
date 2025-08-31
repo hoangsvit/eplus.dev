@@ -402,6 +402,10 @@ Click *Check my progress* to verify the objective.
 
 **Download file:** [On the Rise Bakery Web Traffic.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1065/On%20the%20Rise%20Bakery%20Web%20Traffic.xlsx)
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756623237918/306c998c-c044-4701-afc2-b21d18d9a007.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756623239545/35448095-8cd5-4704-8b7e-fcf9ffd03916.png align="center")
+
 ---
 
 ### Manual
