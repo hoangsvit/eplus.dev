@@ -433,7 +433,7 @@ Below are multiple choice questions to reinforce your understanding of this lab'
 
 ## Solution of Lab
 
-%[https://youtu.be/TKEbg5MUZCU] 
+%[https://youtu.be/s7YEycYQx10] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP192/lab.sh
