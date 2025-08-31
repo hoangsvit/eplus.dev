@@ -5,8 +5,8 @@ seoDescription: "In this hands-on lab you'll learn how to design and implement a
 datePublished: Tue Mar 04 2025 06:03:42 GMT+0000 (Coordinated Universal Time)
 cuid: cm7u32eoc000c08l71r9nhbmi
 slug: create-a-custom-network-and-apply-firewall-rules-gsp159
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741067764497/164b3ddc-b4ca-4054-8e5a-da9826b353f2.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1741068207157/c074d527-9be6-4c9e-b4ad-3a31ae2ce2f7.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756627168256/18f704e1-7678-4057-a4bd-7d17bf9c6aa3.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756627181078/ef4ebe89-2c57-445d-adae-193abd71a474.png
 tags: create-a-custom-network-and-apply-firewall-rules-gsp159, create-a-custom-network-and-apply-firewall-rules, gsp159
 
 ---
