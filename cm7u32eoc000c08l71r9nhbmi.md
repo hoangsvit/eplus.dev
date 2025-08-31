@@ -389,6 +389,8 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP159
 source lab.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756627339167/62219021-1e79-447f-a821-4ce5cf139a22.png align="center")
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1741068084342/5f552469-2352-43a1-b492-458d40d9d469.png align="center")
 
 ---
