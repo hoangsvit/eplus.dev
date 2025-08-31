@@ -5,9 +5,9 @@ seoDescription: "BigLake is a unified storage engine that simplifies data access
 datePublished: Thu Nov 07 2024 09:34:07 GMT+0000 (Coordinated Universal Time)
 cuid: cm3742bsb000009l8gyogdbga
 slug: biglake-qwik-start-gsp1040
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730972016735/879c7d4c-19f0-4c4b-9190-002bb0871c58.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1730972035011/2e6d6e43-66ad-4986-9584-b31e7b060322.png
-tags: biglake-qwik-start-gsp1040, gsp1040
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756631737065/e6003f75-9b8d-4392-addf-84c0fc576c95.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756631751515/77d9b8ff-371b-46ba-ba00-e1d041379e01.png
+tags: biglake-qwik-start-gsp1040, gsp1040, biglake
 
 ---
 
@@ -604,10 +604,17 @@ Great! You successfully upgraded the existing external table to a BigLake table 
 
 ## **Solution of Lab**
 
-%[https://youtu.be/esBuMAdIzJY?si=EAMNZCnwUjj_P1td] 
+%[https://youtu.be/Mysj37ucKCg] 
 
 ```apache
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/BigLake%20Qwik%20Start/gsp1040.sh
-sudo chmod +x gsp1040.sh
-./gsp1040.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1040/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/BigLake%3A%20Qwik%20Start/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
