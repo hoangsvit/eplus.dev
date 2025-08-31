@@ -309,7 +309,7 @@ Share a spreadsheet.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724336015079/d182ec48-7216-45de-980b-e19417c3b323.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724336019072/7476fc55-33cd-4f1e-8245-1c72636ee4d8.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756621357321/c59997e7-214f-4c71-a40a-d06b605e47da.png align="center")
 
 ---
 
