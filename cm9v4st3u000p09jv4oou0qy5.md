@@ -436,7 +436,6 @@ Below are multiple choice questions to reinforce your understanding of this lab'
 %[https://youtu.be/TKEbg5MUZCU] 
 
 ```apache
-
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP192/lab.sh
 source lab.sh
 ```
