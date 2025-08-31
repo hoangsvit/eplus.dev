@@ -153,7 +153,7 @@ Ensure that you are in the **Username 1** Cloud Console.
 
 | **Property** | **Value** |
 | --- | --- |
-| **Name**: | *globally unique name (create it yourself!) and click* ***CONTINUE****.* |
+| **Name**: | *globally unique name (create it yourself!) and click* ***CONTINUE***\*.\* |
 | **Location Type:** | Multi-Region |
 
 Note the bucket name. You will use it in a later step.
@@ -287,6 +287,13 @@ export USERNAME_2=
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723953264765/a95c71c5-0a6e-4c99-b10d-6833d02f49b0.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP064/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20IAM%20Qwik%20Start/quicklabgsp064.sh
