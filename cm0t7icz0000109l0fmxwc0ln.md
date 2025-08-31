@@ -398,7 +398,7 @@ Click *Check my progress* to verify the objective.
 
 ### Quick
 
-%[https://youtu.be/t-e7U97lm68] 
+%[https://youtu.be/N5NEDfXsjyw] 
 
 **Download file:** [On the Rise Bakery Web Traffic.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1065/On%20the%20Rise%20Bakery%20Web%20Traffic.xlsx)
 
