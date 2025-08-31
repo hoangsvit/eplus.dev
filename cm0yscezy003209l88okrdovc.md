@@ -5,9 +5,9 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: Thu Sep 12 2024 04:24:28 GMT+0000 (Coordinated Universal Time)
 cuid: cm0yscezy003209l88okrdovc
 slug: analyze-bigquery-data-in-connected-sheets-challenge-lab-arc103
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726114127568/d32412c6-957d-4c46-b0c3-c6f1741cdcab.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726114958743/2c183df3-e21d-48c4-a4be-b9e7305ad87d.jpeg
-tags: analyze-bigquery-data-in-connected-sheets-challenge-lab-arc103
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756621025502/6f60d923-498e-438e-94f6-d3d09abde654.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756621060512/30e0e9c5-4adc-48ec-b431-54e34684f6df.png
+tags: bigquery, analyze-bigquery-data-in-connected-sheets-challenge-lab-arc103, arc103, analyze-bigquery-data-in-connected-sheets-challenge-lab, connected-sheets
 
 ---
 
