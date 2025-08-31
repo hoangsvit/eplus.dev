@@ -156,3 +156,5 @@ You created a Pub/Sub topic, published to the topic, created a subscription, the
 gcloud pubsub topics create myTopic
 gcloud  pubsub subscriptions create --topic myTopic MySub
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756623940764/59b7337b-e979-4192-9e2a-91acbc046a44.png align="center")
