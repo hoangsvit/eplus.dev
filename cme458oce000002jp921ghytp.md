@@ -7,7 +7,6 @@ cuid: cme458oce000002jp921ghytp
 slug: google-cloud-arcade-facilitator-25-cohort-2-syllabus-for-the-program
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754737174297/01cb3cf2-a08c-4d9d-801c-9d9fe241ebde.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1754737202148/29aa4eb3-8346-4e19-b535-d377a77d03ee.png
-tags: syllabus-for-the-program, google-cloud-arcade-facilitator-25, google-cloud-arcade-facilitator-25-cohort-2, google-cloud-arcade-facilitator-25-cohort-2-syllabus-for-the-program
 
 ---
 
