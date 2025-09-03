@@ -432,7 +432,7 @@ sudo chmod +x gsp223.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756873284762/512f6d5f-c078-4289-b30e-b197f284f9c1.png align="center")
 
-- Choose **Select import files from Cloud Storage** and then click **Browse &gt;** `qwiklabs-gcp-04-4f46de93a142`\-vcm &gt; data.csv. Click **Select**.
+- Choose **Select import files from Cloud Storage** and then click **Browse &gt;** `qwiklabs-gcp-xxxxxx`\-vcm &gt; data.csv. Click **Select**.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756873564181/5b29014b-f2f0-4acb-bd04-83f35d078083.png align="center")
