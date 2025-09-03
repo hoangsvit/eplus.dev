@@ -385,10 +385,6 @@ Logs-based metrics are Cloud Monitoring metrics that are based on the content of
 
 ## Solution of Lab
 
-%[https://youtu.be/CtGeLvtb8Nc] 
+### Manual
 
-```apache
-curl -LO https://raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Monitoring%20and%20Logging%20for%20Cloud%20Run%20Functions/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
-```
+%[https://youtu.be/GuksDlyreW8]
