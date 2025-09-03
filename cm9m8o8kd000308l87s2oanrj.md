@@ -290,10 +290,18 @@ The email notification you receive looks similar to the following:
 
 ## Solution of Lab
 
-%[https://youtu.be/9CJtp89CqRc] 
+%[https://youtu.be/LwfU7ySmphw] 
 
 ```apache
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Monitor%20an%20Apache%20Web%20Server%20using%20Ops%20Agent/gsp1108.sh
-sudo chmod +x gsp1108.sh
-./gsp1108.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1108/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+
+curl -LO https://raw.githubusercontent.com/AnonymousOlix/My-Qwick-Lab-Resources/refs/heads/main/GSP/myqwiklab-gsp1108.sh
+sudo chmod +x myqwiklab-gsp1108.sh
+./myqwiklab-gsp1108.sh
 ```
