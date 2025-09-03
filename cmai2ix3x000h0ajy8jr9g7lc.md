@@ -385,6 +385,18 @@ Logs-based metrics are Cloud Monitoring metrics that are based on the content of
 
 ## Solution of Lab
 
+### Quick
+
+%[https://youtu.be/Fuhwa8tlUC8] 
+
+```apache
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Monitoring%20and%20Logging%20for%20Cloud%20Run%20Functions/techcps092.sh
+sudo chmod +x techcps092.sh
+./techcps092.sh
+```
+
+---
+
 ### Manual
 
 %[https://youtu.be/GuksDlyreW8]
