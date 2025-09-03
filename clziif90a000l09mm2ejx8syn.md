@@ -7,7 +7,7 @@ cuid: clziif90a000l09mm2ejx8syn
 slug: speech-to-text-api-qwik-start-gsp119
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744618332193/716134d7-046a-4032-9af4-d8c5b73ea968.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744618797150/d8863459-c116-4093-9120-1bc33b044dd1.png
-tags: speech-to-text-api-qwik-start-gsp119
+tags: speech-to-text, gsp112, speech-to-text-api-qwik-start-gsp119, speech-to-text-api-qwik-start, speech-to-text-api
 
 ---
 
@@ -178,6 +178,13 @@ export API_KEY=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722953997099/827e42b4-3c1d-4be7-8069-b92b3b042245.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726211119264/1240ef9a-c470-4f33-a9cf-eb05b221714c.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP119/lab.sh
+source lab.sh
+```
+
+Script Alternative
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Google%20Cloud%20Speech%20to%20Text%20API%20Qwik%20Start/quicklabgsp119.sh
