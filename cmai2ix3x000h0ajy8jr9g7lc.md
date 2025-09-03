@@ -389,12 +389,16 @@ Logs-based metrics are Cloud Monitoring metrics that are based on the content of
 
 %[https://youtu.be/Fuhwa8tlUC8] 
 
-```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Monitoring%20and%20Logging%20for%20Cloud%20Run%20Functions/techcps092.sh
-sudo chmod +x techcps092.sh
-./techcps092.sh
-```
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756867217647/30300e65-915c-4b9c-89c1-cfd44814f4e9.png align="center")
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756867231123/c273ce07-62ce-4fa6-9c9e-ecde3d5d896d.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756867371782/d14f14e4-5018-4b45-b608-7013669da553.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP092/lab.sh
+source lab.sh
+```
 ---
 
 ### Manual
