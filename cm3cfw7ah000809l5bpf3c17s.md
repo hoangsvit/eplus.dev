@@ -410,7 +410,14 @@ curl -X POST -H "Content-Type: application/json" $ENDPOINT/v1 -d "@${INPUT_DATA_
 
 ## Solution of Lab
 
-%[https://youtu.be/oVRkruz0t28] 
+%[https://youtu.be/Msuto5MPF6U] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP223/lab.sh
+source lab.sh
+```
+
+Script Alternative
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Classify%20Images%20of%20Clouds%20in%20the%20Cloud%20with%20AutoML%20Images/gsp223.sh
@@ -418,4 +425,9 @@ sudo chmod +x gsp223.sh
 ./gsp223.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756873252474/959ea9dd-26ca-431c-84cc-31ab5dd6262d.png align="center")
+
 * Type **clouds** for the Dataset name.
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756873284762/512f6d5f-c078-4289-b30e-b197f284f9c1.png align="center")
