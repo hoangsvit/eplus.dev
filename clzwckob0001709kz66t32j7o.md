@@ -5,9 +5,9 @@ seoDescription: "BigQuery is Google's fully managed, NoOps, low cost analytics d
 datePublished: Fri Aug 16 2024 06:47:45 GMT+0000 (Coordinated Universal Time)
 cuid: clzwckob0001709kz66t32j7o
 slug: bracketology-with-google-machine-learning-gsp461
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723788397612/19c78b9a-5ae2-4c9a-af78-fba44ca01e52.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723790849910/f0fb9c5c-9a51-4a1d-8161-70e3c43d781d.png
-tags: bracketology-with-google-machine-learning-gsp461
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756957743051/113f71ad-b9b5-4fb3-9308-ed75a582f1c5.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756957767387/6307c3bf-047c-4e77-8341-674ad0d28f65.png
+tags: bracketology-with-google-machine-learning-gsp461, gsp619, bracketology-with-google-machine-learning, google-machine-learning
 
 ---
 
@@ -1277,6 +1277,13 @@ Experiment by changing the school\_ncaa filter above to predict for the matchups
 ## Solution of Lab
 
 %[https://www.youtube.com/watch?v=_uqWQdzvV40] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/export-data-from-big-query-to-cloud-storage/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/2024%20Bracketology%20with%20Google%20Machine%20Learning/quicklabgsp461.sh
