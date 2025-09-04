@@ -271,6 +271,13 @@ Click **Check my progress** to verify the objective.
 %[https://youtu.be/X4OMbwDZMQ0] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP091/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Creating%20and%20Alerting%20on%20Logs%20based%20Metrics/techcps091.sh
 sudo chmod +x techcps091.sh
 ./techcps091.sh
