@@ -53,6 +53,15 @@ Export the 'male\_customers' table to an existing Google Cloud Storage bucket.
 
 %[https://youtu.be/Bb1VoSyCMYc] 
 
+### Quick
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/export-data-from-big-query-to-cloud-storage/lab.sh
+source lab.sh
+```
+
+### Manual
+
 ```apache
 bq load --source_format=CSV --autodetect customer_details.customers customers.csv
 ```
