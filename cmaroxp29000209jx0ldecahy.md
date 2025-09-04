@@ -388,20 +388,39 @@ Upload a file to the Cloud Storage bucket as a Dataplex Data Writer
 
 ## Solution of Lab
 
-%[https://youtu.be/4Aa2XP5fUEk] 
+### New Solution
+
+%[https://youtu.be/57mgLUHy8HQ] 
 
 ```apache
-curl -LO https://raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Implementing%20Security%20in%20Dataplex/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1157/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Implementing%20Security%20in%20Dataplex/techcps1157.sh
+sudo chmod +x techcps1157.sh
+./techcps1157.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747453679738/5e30f313-f80d-44d2-a504-08a414fa5da4.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747453691423/a797ba30-580a-47ef-9569-800d2e048b1a.png align="center")
 
+```plaintext
+Dataplex Data Reader
+```
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747453682826/c52186a1-45ae-47de-bec5-6a55334e0a10.png align="center")
 
+```plaintext
+Dataplex Data Write
+```
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747453700986/890ecf61-71a2-4ace-831e-8ad19ee1d7c4.png align="center")
+
+Open: https://console.cloud.google.com/storage/browser
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747453835774/1dc404b7-f981-4edf-b6ec-239110321abd.png align="center")
