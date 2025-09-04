@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: Mon Feb 24 2025 06:10:38 GMT+0000 (Coordinated Universal Time)
 cuid: cm7inshsx000309ju27u5evyd
 slug: implement-load-balancing-on-compute-engine-challenge-lab-gsp313
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740377179284/ae5d683b-b6f3-4bf7-98b5-1c8d141298ab.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1740377423192/d9c81472-9f4a-4c06-85a6-f4f201298611.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756970930510/8bbb14c5-eebb-458a-9f7f-98f37cd67072.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756970940597/754e40ce-3862-4c86-9503-ed5f7e1d31db.png
 tags: implement-load-balancing-on-compute-engine-challenge-lab-gsp313, implement-load-balancing-on-compute-engine-challenge-lab, gsp313
 
 ---
