@@ -186,7 +186,7 @@ Now add some visuals and interactive filters for your report users.
 
 %[https://www.youtube.com/watch?v=9ypIXZRPq5E&ab_channel=QUICKGCPLAB] 
 
-Open: [https://cloud.google.com/looker-studio/](https://cloud.google.com/looker-studio/)
+Open: [https://lookerstudio.google.com/](https://lookerstudio.google.com/)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756952444196/7281502f-91fd-40ed-8eaa-76460c6aee9b.png align="center")
 
