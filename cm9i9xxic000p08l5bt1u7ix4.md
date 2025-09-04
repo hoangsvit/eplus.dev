@@ -203,9 +203,18 @@ sudo chmod +x gsp338.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756967630696/ce55f5c2-b73e-4a88-ade4-366ae1c21db2.png align="center")
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756968387824/ae1dca7d-c5ea-4129-9a17-bed7b4c2bcec.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756968420747/fa020ed1-17e7-48a4-a39d-6b45249bece2.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756968439336/d33e20bf-0e42-49e7-83ac-53ebf2f6d104.png align="center")
+
 * Type or paste **input\_queue\_size**
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744709018694/a17cd6d5-0fac-4392-a2bc-ec8459802840.png align="center")
+
+* Type or paste **large\_video\_upload\_rate**
+    
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744709271773/c331878f-3a99-4084-bc99-044acb494ba5.png align="center")
