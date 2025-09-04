@@ -197,6 +197,14 @@ Create the website behind the HTTP load balancer
 %[https://www.youtube.com/watch?v=jgraLGokKFo&ab_channel=Techcps] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP313/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+
+```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Implement%20Load%20Balancing%20on%20Compute%20Engine:%20Challenge%20Lab/techcps313.sh
 sudo chmod +x techcps313.sh
 ./techcps313.sh
