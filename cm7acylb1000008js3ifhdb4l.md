@@ -1,7 +1,7 @@
 ---
 title: "Explore and Create Reports with Looker Studio - GSP409"
 seoTitle: "Explore and Create Reports with Looker Studio - GSP409"
-seoDescription: "Looker Studio turns your data into informative dashboards and reports that are easy to read, easy to share, and fully customizable. Dashboarding allows you "
+seoDescription: "Looker Studio turns your data into informative dashboards and reports that are easy to read, easy to share, and fully customizable. Dashboarding allows you"
 datePublished: Tue Feb 18 2025 10:45:17 GMT+0000 (Coordinated Universal Time)
 cuid: cm7acylb1000008js3ifhdb4l
 slug: explore-and-create-reports-with-looker-studio-gsp409
@@ -186,4 +186,6 @@ Now add some visuals and interactive filters for your report users.
 
 %[https://www.youtube.com/watch?v=9ypIXZRPq5E&ab_channel=QUICKGCPLAB] 
 
-##
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756952444196/7281502f-91fd-40ed-8eaa-76460c6aee9b.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756952454797/e0f88ef4-a159-47ab-9cd3-f1ffcff37c1d.png align="center")
