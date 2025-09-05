@@ -554,6 +554,13 @@ nvm install 22.6
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1051/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1051/lab.sh
 sudo chmod +x lab.sh
 ./lab.sh
 ```
