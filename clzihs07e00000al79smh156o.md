@@ -17,7 +17,7 @@ The Web Security Scanner, one of [Security Command Center's](https://cloud.googl
 
 The scanner is designed to complement your existing secure design and development processes. To avoid distracting developers with false positives, the scanner errs on the side of under reporting and will not display low confidence alerts. It does not replace a manual security review, and it does not guarantee that your application is free from security flaws.
 
-### **Task 1. Before you begin, you need an app to scan**
+## **Task 1. Before you begin, you need an app to scan**
 
 In this lab, you will deploy a sample Hello World application to run Security Scanner on.
 
@@ -63,7 +63,7 @@ werkzeug==2.0.1
 
 **Note:** The package `itsdangerous==2.0.1` is added in *requirements.txt* file to safely pass data to untrusted environments and get it back safe.
 
-### **Task 2. Test app**
+## **Task 2. Test app**
 
 1. Installing Prerequisites Python environment.
     
@@ -91,7 +91,7 @@ dev_appserver.py app.yaml
 4. Press **Ctrl+c** to stop the local app and return to the command line.
     
 
-### **Task 3. Deploy app**
+## **Task 3. Deploy app**
 
 In this lab use `us-west4` as the App Engine region.
 
@@ -111,7 +111,7 @@ Deployment of your app will then begin.
 
 **Note:** If you get Timed out error re-run the command.
 
-### **Task 4. View app**
+## **Task 4. View app**
 
 * To launch the app in your browser, run the following command:
     
@@ -130,7 +130,7 @@ Deploy sample App Engine application.
 
 **Check my progress**
 
-### **Task 5. Run the scan**
+## **Task 5. Run the scan**
 
 The scan does not run immediately, but is queued for later execution; it can take hours before the scan executes, depending on current load. For more information about these form settings, refer to [Using Web Security Scanner](https://cloud.google.com/security-command-center/docs/how-to-use-web-security-scanner).
 
@@ -161,7 +161,7 @@ The scan will be queued, and you can watch the status bar progress as it scans. 
 
 Nice job! You just completed a scan using Web Security Scanner. You will see a warning to let you know that only scanning 1 URL isn't ideal. This lab is just to demonstrate a simple example. Your production environment will have plenty of URLs to scan.
 
-### **Task 6. Test your understanding**
+## **Task 6. Test your understanding**
 
 Below is a multiple-choice question to reinforce your understanding of this lab's concepts. Answer it to the best of your abilities.
 
@@ -169,11 +169,23 @@ Web Security Scanner scans for common vulnerabilities in Google App Engine appli
 
 ---
 
-### Solution of Lab
+## Solution of Lab
+
+### New Solution
 
 %[https://youtu.be/id9QxtE-8Yc] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP112/lab.sh
+source lab.sh
+```
+
+---
+
+### Old Solution
+
+```apache
+
 export REGION=
 ```
 
