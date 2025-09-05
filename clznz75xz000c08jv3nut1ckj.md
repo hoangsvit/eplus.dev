@@ -5,8 +5,8 @@ seoDescription: "This lab provides an introduction to creating no-code Chat apps
 datePublished: Sat Aug 10 2024 10:11:10 GMT+0000 (Coordinated Universal Time)
 cuid: clznz75xz000c08jv3nut1ckj
 slug: develop-no-code-chat-apps-with-appsheet-gsp1146
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723283863425/7b89de2d-056c-4dec-9f08-fecffd940e96.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723284659198/83c38223-a02b-41b0-be13-49275579b8cc.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757036634221/dccf984e-c2f1-4832-8b37-2cfe6f903b5b.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757036643829/7311074c-5403-448b-93a1-d78779355236.png
 tags: develop-no-code-chat-apps-with-appsheet-gsp1146, gsp1146, develop-no-code-chat-apps-with-appsheet
 
 ---
@@ -305,4 +305,8 @@ Now that you’ve successfully tested your app, you can delete it, marking the c
 
 %[https://www.youtube.com/watch?v=bibIUK5Yfmo] 
 
-**Download file:** [<mark>quicklabs.xlsx</mark>](https://github.com/quiccklabs/Labs_solutions/blob/a4771b05c7e1149eac66b30b4b741c563bc2481c/Develop%20No-Code%20Chat%20Apps%20with%20AppSheet/quicklabs.xlsx) & open link [https://docs.google.com/spreadsheets](https://docs.google.com/spreadsheets)
+**Download file:** [eplus.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1146/eplus.xlsx) & open link [https://docs.google.com/spreadsheets](https://docs.google.com/spreadsheets)
+
+```plaintext
+ATM Maintenance Tracker
+```
