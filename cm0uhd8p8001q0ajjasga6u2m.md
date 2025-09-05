@@ -807,6 +807,13 @@ Click **Check my progress** to verify the objective.
 %[https://youtu.be/ZR0c3wmDayk] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1079/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Continuous%20Delivery%20with%20Google%20Cloud%20Deploy/quicklabgsp1079.sh
 sudo chmod +x quicklabgsp1079.sh
 ./quicklabgsp1079.sh
