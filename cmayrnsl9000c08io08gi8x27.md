@@ -831,9 +831,8 @@ You did it! You learned about blue-green deployments and how to deploy updates t
 %[https://youtu.be/P5I99wXt7gk] 
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Managing%20Deployments%20Using%20Kubernetes%20Engine/techcps053.sh
-sudo chmod +x techcps053.sh
-./techcps053.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP053/lab.sh
+source lab.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747881524374/a5325356-a902-4d6a-8c8e-93b7b0ec15f6.png align="center")
