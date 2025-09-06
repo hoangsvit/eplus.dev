@@ -443,9 +443,13 @@ source lab.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757140977629/59cc807b-0db1-4cd8-b88e-b6e9543101dd.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757141041674/027028dc-651e-4d1e-ab50-129324f8e23f.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757141442876/8631a3ef-0a97-4567-af27-4f554f7d70f5.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757141219175/b6b08b94-90fa-4739-a951-8c8c7b0875e4.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757141456943/5cf3985f-40fc-47d8-a89c-784a9f4d1d1f.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757141470395/6ab20fb2-0e5f-4b29-935c-3b60f748a2e5.png align="center")
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
