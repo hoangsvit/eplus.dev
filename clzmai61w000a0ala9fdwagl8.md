@@ -32,7 +32,7 @@ In this lab, you'll do the following:
 
 ---
 
-### **Task 1. Create a virtual environment**
+## **Task 1. Create a virtual environment**
 
 Python virtual environments are used to isolate package installation from the system.
 
@@ -57,7 +57,7 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-### **Task 2. Install the client library**
+## **Task 2. Install the client library**
 
 1. Run the following to install the client library:
     
@@ -80,7 +80,7 @@ git clone https://github.com/googleapis/python-pubsub.git
 cd python-pubsub/samples/snippets
 ```
 
-### **Task 3. Pub/Sub - the Basics**
+## **Task 3. Pub/Sub - the Basics**
 
 Pub/Sub is an asynchronous global messaging service. There are three terms in Pub/Sub that appear often: *topics*, *publishing*, and *subscribing*.
 
@@ -94,7 +94,7 @@ In sum, a publisher creates and sends messages to a topic and a subscriber creat
 
 Pub/Sub comes preinstalled in Cloud Shell, so there are no installations or configurations required to get started with this service. In this lab you use Python to create the topic, subscriber, and then view the message. You use a gcloud command to publish the message to the topic.
 
-### **Task 4. Create a topic**
+## **Task 4. Create a topic**
 
 To publish data to Pub/Sub you create a topic and then configure a publisher to the topic.
 
@@ -202,7 +202,7 @@ You can also view the topic you just made in the Cloud Console.
 
 You should see `MyTopic`.
 
-### **Task 5. Create a subscription**
+## **Task 5. Create a subscription**
 
 1. Create a Pub/Sub subscription for topic with [`subscriber.py`](http://subscriber.py) script:
     
@@ -283,7 +283,7 @@ optional arguments:
   -h, --help            show this help message and exit
 ```
 
-### **Task 6. Publish messages**
+## **Task 6. Publish messages**
 
 Now that you've set up `MyTopic` (the topic) and a subscription to `MyTopic` (`MySub`), use `gcloud` commands to publish a message to `MyTopic`.
 
@@ -345,7 +345,7 @@ Received message: Message {
 2. Click **Ctrl**+**c** to stop listening.
     
 
-### **Task 8. Test your understanding**
+## **Task 8. Test your understanding**
 
 Below are multiple-choice questions to reinforce your understanding of this lab's concepts. Answer them to the best of your abilities.
 
@@ -367,7 +367,7 @@ A \_\_\_\_\_ is a shared string that allows applications to connect with one ano
 
 ---
 
-### Solution of Lab
+## Solution of Lab
 
 %[https://youtu.be/fLraRT9x7mE] 
 
