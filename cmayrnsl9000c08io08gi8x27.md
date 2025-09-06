@@ -844,4 +844,12 @@ sudo chmod +x techcps053.sh
 
 ### Manual
 
-%[https://youtu.be/JlHSQLbsAb4]
+**Solution 1**
+
+%[https://youtu.be/JlHSQLbsAb4] 
+
+---
+
+**Solution 2**
+
+%[https://youtu.be/ZlnJZpWIUDg]
