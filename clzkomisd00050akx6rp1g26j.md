@@ -191,19 +191,42 @@ You will see that there are two users defined in the project.
 
 ### Solution of Lab
 
-%[https://www.youtube.com/watch?v=62XOk9utmzE] 
+### New Solution
 
 ```apache
-export USERNAME2=
-export ZONE=
-export TOPIC_NAME=
-export FUNCTION_NAME=
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP315/lab.sh
+source lab.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723085454902/2bc0a157-58b2-495a-a50b-e2e8fb9885ba.png align="center")
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Set%20Up%20an%20App%20Dev%20Environment%20on%20Google%20Cloud%20Challenge%20Lab/quicklabgsp315.sh
 sudo chmod +x quicklabgsp315.sh
 ./quicklabgsp315.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723085454902/2bc0a157-58b2-495a-a50b-e2e8fb9885ba.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757142695494/08beb27d-8841-4f3c-b669-48ea1e33a984.png align="center")
+
+---
+
+### Solution Alternative
+
+%[https://youtu.be/7tQ3ZDzW9nI] 
+
+```apache
+export USER_2=
+export ZONE=
+export TOPIC=
+export FUNCTION=
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723085454902/2bc0a157-58b2-495a-a50b-e2e8fb9885ba.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/chayandeokar/Cloud-Skills-2025/refs/heads/master/Set%20Up%20an%20App%20Dev%20Environment%20on%20Google%20Cloud%20Challenge%20Lab%20/gsp315.sh
+sudo chmod +x gsp315.sh
+./gsp315.sh
 ```
