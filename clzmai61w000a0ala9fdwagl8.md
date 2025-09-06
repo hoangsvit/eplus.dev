@@ -309,7 +309,7 @@ gcloud pubsub topics publish MyTopic --message "Publisher likes to eat <FOOD>"
 gcloud pubsub topics publish MyTopic --message "Publisher thinks Pub/Sub is awesome"
 ```
 
-### **Task 7. View messages**
+## **Task 7. View messages**
 
 Now that you've published messages to MyTopic, pull and view the messages using MySub.
 
