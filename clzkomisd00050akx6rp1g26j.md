@@ -5,9 +5,9 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: Thu Aug 08 2024 02:51:52 GMT+0000 (Coordinated Universal Time)
 cuid: clzkomisd00050akx6rp1g26j
 slug: set-up-an-app-dev-environment-on-google-cloud-challenge-lab-gsp315
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723084936665/00d60367-fe53-49a9-bc0b-7dc88ac24ab4.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723085500309/8bca7bd9-3f56-4edf-8b31-fec861f747b8.png
-tags: set-up-an-app-dev-environment-on-google-cloud-challenge-lab-gsp315
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757142486531/7651272f-2bf6-4c62-a70c-6dabc5248957.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757142497536/b34825f7-efdb-4ca6-857a-b20b0008e6e1.png
+tags: set-up-an-app-dev-environment-on-google-cloud-challenge-lab-gsp315, gsp315, set-up-an-app-dev-environment-on-google-cloud-challenge-lab
 
 ---
 
