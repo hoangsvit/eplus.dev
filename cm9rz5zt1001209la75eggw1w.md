@@ -857,6 +857,13 @@ default via 172.16.0.1 dev eth0
 %[https://youtu.be/Kschgy_06SE] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP211/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Multiple%20VPC%20Networks/techcps211.sh
 sudo chmod +x techcps211.sh
 ./techcps211.sh
