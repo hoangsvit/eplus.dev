@@ -826,6 +826,8 @@ You did it! You learned about blue-green deployments and how to deploy updates t
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/P5I99wXt7gk] 
 
 ```apache
@@ -837,3 +839,9 @@ sudo chmod +x techcps053.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747881524374/a5325356-a902-4d6a-8c8e-93b7b0ec15f6.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747881348131/80563d5b-dd41-4b96-be1e-5449b2d0dcb5.png align="center")
+
+---
+
+### Manual
+
+%[https://youtu.be/JlHSQLbsAb4]
