@@ -445,6 +445,13 @@ source lab.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757141041674/027028dc-651e-4d1e-ab50-129324f8e23f.png align="center")
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757141219175/b6b08b94-90fa-4739-a951-8c8c7b0875e4.png align="center")
+
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text"><strong>Note: </strong>This may take <mark>3 - 5 minutes</mark>. If you do not connect, wait a minute, and then reload the browser.</div>
+</div>
+
 ### **Manual**
 
 %[https://youtu.be/BXspxk9X7Jc]
