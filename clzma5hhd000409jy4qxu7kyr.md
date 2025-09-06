@@ -275,7 +275,18 @@ After the upload completes, you should see the file name and information about t
 
 ---
 
-### Solution of Lab
+## Solution of Lab
+
+### New Solution
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP073/lab.sh
+source lab.sh
+```
+
+---
+
+### Old Solution
 
 %[https://www.youtube.com/watch?v=EdARWrNyA3s] 
 
