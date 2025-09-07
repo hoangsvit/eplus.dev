@@ -731,6 +731,13 @@ Cloud Armor security policies create logs that can be explored to determine when
 %[https://youtu.be/7D0hcw2WE0U] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP215/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Application%20Load%20Balancer%20with%20Cloud%20Armor/techcps215.sh
 sudo chmod +x techcps215.sh
 ./techcps215.sh
