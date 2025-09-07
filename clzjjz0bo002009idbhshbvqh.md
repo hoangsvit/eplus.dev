@@ -5,8 +5,9 @@ seoDescription: "If you are new to cloud computing or looking for an overview of
 datePublished: Wed Aug 07 2024 07:53:51 GMT+0000 (Coordinated Universal Time)
 cuid: clzjjz0bo002009idbhshbvqh
 slug: a-tour-of-firebase-gsp1132-solution
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723016519724/e0876279-f4e4-489c-b0b6-4b62dff7a96c.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723017216708/9f128d8c-d546-4fc3-9fce-64692f4be9b9.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757226357863/65597b46-9e24-421d-b6cc-7117e0758413.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757226386661/41bc33b2-cf6d-4868-80a9-2f9903f2192c.png
+tags: gsp112, a-tour-of-firebase-gsp1132, a-tour-of-firebase
 
 ---
 
@@ -300,8 +301,10 @@ For feedback, suggestions, or corrections, please use the **Support** tab.
 
 Open link in incognito window, [Firebase console](https://console.firebase.google.com/)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723017067083/0faaa3b2-58e5-4d71-a6fc-028212e4f2d8.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757226332380/56e52d9b-9550-48ca-af46-77285841bf2f.png align="center")
 
-Recheck: [https://www.cloudskillsboost.google/games/5379](https://www.cloudskillsboost.google/games/5379)
+<mark>Recheck</mark>
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723017111043/970dfee2-8d75-4845-bdf2-aa5d6811d226.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757226291613/114a1140-2272-4dd0-b203-79cf0da86f82.png align="center")
