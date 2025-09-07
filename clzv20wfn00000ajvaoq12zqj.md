@@ -5,9 +5,9 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: Thu Aug 15 2024 09:04:40 GMT+0000 (Coordinated Universal Time)
 cuid: clzv20wfn00000ajvaoq12zqj
 slug: build-infrastructure-with-terraform-on-google-cloud-challenge-lab-gsp345
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723712071609/4b2360ca-9c1e-4570-9aa1-f4a706b533a8.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723712667176/342948a7-581a-4b48-8424-50c929b19098.png
-tags: build-infrastructure-with-terraform-on-google-cloud-challenge-lab-gsp345, build-infrastructure-with-terraform-on-google-cloud-challenge-lab
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757234058559/658e3836-b85d-4fcc-ad8e-515650741753.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757234308363/db5edcba-0553-4225-9886-af7ab6a705e6.png
+tags: google-cloud, infrastructure, terraform, build-infrastructure-with-terraform-on-google-cloud-challenge-lab-gsp345, gsp345, build-infrastructure-with-terraform-on-google-cloud-challenge-lab
 
 ---
 
@@ -239,7 +239,28 @@ Click *Check my progress* to verify the objective.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=2c8XHiHO6rs] 
+### New Solution
+
+%[https://youtu.be/ngkgfe1cOtQ] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP216/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO raw.githubusercontent.com/Titash-shil/Build-Infrastructure-with-Terraform-on-Google-Cloud-Challenge-Lab-GSP345/refs/heads/main/qwiklab_explorers_gsp345.sh
+sudo chmod +x qwiklab_explorers_gsp345.sh
+./qwiklab_explorers_gsp345.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757234223042/00eb44c8-7096-443e-93d1-7cbc4b96f930.png align="center")
+
+---
+
+### Old Solution
 
 ```apache
 export BUCKET_NAME=
@@ -248,7 +269,7 @@ export VPC_NAME=
 export ZONE=
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723712546708/1fb1e2cf-a1a1-4d28-9030-18a601f947ba.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757234255494/3734cd19-2533-47e0-af65-0baa2d0a7c9c.png align="center")
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Build%20Infrastructure%20with%20Terraform%20on%20Google%20Cloud%20Challenge%20Lab/quicklab345.sh
