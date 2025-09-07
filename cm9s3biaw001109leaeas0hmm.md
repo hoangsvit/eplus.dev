@@ -736,8 +736,6 @@ sudo chmod +x techcps215.sh
 ./techcps215.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1745301078746/9f57b2dc-a37f-41a4-be2b-2919bf3f092e.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1745301171145/f415aa11-1a2d-4770-b5ec-229981db41cb.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757230794460/d93d17fe-e56b-43ba-a6f8-7c442dbc1c81.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1745301166547/a5ea182e-23d5-4b45-800f-fc0eece0d24b.png align="center")
