@@ -942,6 +942,17 @@ After you respond to the prompt with `yes`, Terraform will destroy all of the re
 
 ## Solution of Lab
 
+### New Solution
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP751/lab.sh
+source lab.sh
+```
+
+---
+
+### Old Solution
+
 %[https://www.youtube.com/watch?v=ZBhjweJ74j8] 
 
 ```apache
