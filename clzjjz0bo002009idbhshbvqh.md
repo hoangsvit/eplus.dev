@@ -122,7 +122,7 @@ The Firebase Spark plan includes a Google Cloud project.
 
 Clicking the *Navigation menu* icons provides quick access to Firebase's core services.
 
-1. If only menu icons are visible, click the **\&gt;** icon.
+1. If only menu icons are visible, click the **&gt;** icon.
     
 2. Click **All products**, then scroll through the tool and service categories.
     
@@ -298,7 +298,7 @@ For feedback, suggestions, or corrections, please use the **Support** tab.
 
 %[https://www.youtube.com/watch?v=PdTam1oTM8g&feature=youtu.be] 
 
-Open link in incognito window [Firebase console](https://console.cloud.google.com/billing/01150A-B8F62B-47D999/reports?organizationId=433637338589)
+Open link in incognito window, [Firebase console](https://console.firebase.google.com/)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723017067083/0faaa3b2-58e5-4d71-a6fc-028212e4f2d8.png align="center")
 
