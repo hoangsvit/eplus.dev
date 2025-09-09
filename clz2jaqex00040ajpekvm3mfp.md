@@ -150,8 +150,7 @@ You can trigger an App Engine app, send a message via Cloud Pub/Sub, or hit an a
 
 %[https://www.youtube.com/watch?v=amb3jDRlYZs&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
-```powershell
+```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP401/lab.sh
-sudo chmod +x lab.sh
-./lab.sh
+source lab.sh
 ```
