@@ -556,6 +556,8 @@ Configure Cloud SQL IAM database authentication
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/HXwklj2v9fQ] 
 
 ```apache
@@ -570,3 +572,9 @@ curl -LO https://raw.githubusercontent.com/pspcps/Arcade/refs/heads/main/GSP920.
 sudo chmod +x GSP920.sh
 ./GSP920.sh
 ```
+
+---
+
+### Manual
+
+%[https://youtu.be/8luLqBpdAgw]
