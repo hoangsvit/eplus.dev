@@ -558,7 +558,21 @@ sudo chmod +x techcps1164.sh
 ./techcps1164.sh
 ```
 
-**Paste this schema::**
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757558678779/66d1ac9d-0618-4257-9e85-fe2f16ad608a.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757558689524/c4be0b6d-d143-4031-83f6-8130d37a5e29.png align="center")
+
+Pubsub name
+
+```apache
+export-findings-pubsub-topic
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757559778879/040e1bd4-2cb7-442b-968e-1cd9ac7761d5.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757559783487/569f56f9-03ac-44fe-b812-5d46b6e5d2bc.png align="center")
+
+**Paste this schema:**
 
 ```json
 [   
