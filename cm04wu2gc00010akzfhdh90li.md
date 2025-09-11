@@ -7,7 +7,7 @@ cuid: cm04wu2gc00010akzfhdh90li
 slug: detect-and-investigate-threats-with-security-command-center-gsp1125
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750403713332/e3bcf8ae-5fbd-4a43-9b3e-25afffde54d9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1750403723538/9bdbac17-5d1a-4627-853a-95000d05c27a.png
-tags: detect-and-investigate-threats-with-security-command-center-gsp1125
+tags: detect-and-investigate-threats-with-security-command-center-gsp1125, gsp1125, detect-and-investigate-threats-with-security-command-center
 
 ---
 
@@ -1098,7 +1098,12 @@ Exploit a web server and detect issues with Container Threat Detection
 
 ### Quick Guide
 
-%[https://youtu.be/JE2qJiPoWtg] 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1125/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Detect%20and%20Investigate%20Threats%20with%20Security%20Command%20Center/gsp1125.sh
