@@ -553,9 +553,9 @@ Export findings to a Cloud Storage bucket and create a BigQuery table
 %[https://youtu.be/KeI_tZzxhCQ] 
 
 ```apache
-curl -LO https://raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Analyze%20Findings%20with%20Security%20Command%20Center/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Analyze%20Findings%20with%20Security%20Command%20Center/techcps1164.sh
+sudo chmod +x techcps1164.sh
+./techcps1164.sh
 ```
 
 **Paste this schema::**
