@@ -724,6 +724,13 @@ This lab won't show any destroyed provisioner examples. If you need to use destr
 %[https://www.youtube.com/watch?v=uGnKLGmLMSw] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP750/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 export ZONE=
 ```
 
