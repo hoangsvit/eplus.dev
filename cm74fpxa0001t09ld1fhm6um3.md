@@ -5,8 +5,8 @@ seoDescription: "Now part of Sensitive Data Protection, the Cloud Data Loss Prev
 datePublished: Fri Feb 14 2025 07:15:54 GMT+0000 (Coordinated Universal Time)
 cuid: cm74fpxa0001t09ld1fhm6um3
 slug: cloud-data-loss-prevention-api-qwik-start-gsp107
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739517190568/fec2bd4d-ce52-47b6-bc1f-e8453b1f4253.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1739517299443/b5f171cc-3b14-4bfa-9caa-65143c396a78.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757571039839/d443316c-48be-41ae-8421-f756a245bc59.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757571052521/2cf2a077-366d-4aee-8235-50ee982c9e17.png
 tags: cloud-data-loss-prevention-api-qwik-start-gsp107, cloud-data-loss-prevention-api-qwik-start, gsp107
 
 ---
@@ -372,7 +372,12 @@ Redacting sensitive data from text content
 
 ## Solution of Lab
 
-%[https://youtu.be/NGNYuBVhN6Y] 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP107/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Data%20Loss%20Prevention%20Qwik%20Start%20-%20JSON/gsp107.sh
