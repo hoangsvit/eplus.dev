@@ -212,6 +212,8 @@ Create a Look report using the modeled query
 
 %[https://www.youtube.com/watch?v=JlR8vkfIuMQ] 
 
+**qwiklabs-ecommerce -> training_ecommerce**
+
 ```apache
 connection: "bigquery_public_data_looker"
 
