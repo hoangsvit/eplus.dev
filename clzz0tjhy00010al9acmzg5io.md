@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: Sun Aug 18 2024 03:42:02 GMT+0000 (Coordinated Universal Time)
 cuid: clzz0tjhy00010al9acmzg5io
 slug: deploy-kubernetes-applications-on-google-cloud-challenge-lab-gsp318
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723952217042/64ca0bf3-cd21-4c7f-8d78-4749cd0330c1.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723952510888/7f151333-5255-4520-a509-9358523b1664.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757645185946/659407ab-27d4-4cd7-90d0-e4785009f940.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757645154145/0e19f1c1-9a33-485c-bd48-65576ec0ad58.png
 tags: deploy-kubernetes-applications-on-google-cloud-challenge-lab-gsp318
 
 ---
@@ -175,6 +175,16 @@ Create and expose a deployment in Kubernetes
 ## Solution of Lab
 
 %[https://www.youtube.com/watch?v=F4h6EmSJkFM] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP318/lab.sh
+source lab.sh
+```
+![](<https://cdn.hashnode.com/res/hashnode/image/upload/v1723952464585/0da492af-f53d-4f2c-b9dc-ef408ac2f18f.png> align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757644915798/3adbcaaa-c29c-4187-a68d-191185ea86f3.png align="center")
+
+**Alternative Solution**
 
 ```apache
 export REPO_NAME=
