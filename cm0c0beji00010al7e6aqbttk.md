@@ -390,10 +390,12 @@ Try selecting other metrics that appear to view the data exported.
 
 ## Solution of Lab
 
-%[https://youtu.be/ZUqQWv4bB1Q] 
+%[https://youtu.be/H4iIDnS7TV8] 
 
+```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1026/lab.sh
 source lab.sh
+```
 
 **Script Alternative**
 
