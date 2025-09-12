@@ -392,6 +392,11 @@ Try selecting other metrics that appear to view the data exported.
 
 %[https://youtu.be/ZUqQWv4bB1Q] 
 
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1026/lab.sh
+source lab.sh
+
+**Script Alternative**
+
 ```apache
 curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/Collect%20Metrics%20from%20Exporters%20using%20the%20Managed%20Service%20for%20Prometheus/arcadecrew.sh
 sudo chmod +x arcadecrew.sh
