@@ -812,6 +812,13 @@ Here the portability of containers is showcased. As long as Docker is installed 
 %[https://www.youtube.com/watch?v=PbdUdH-Wv5o] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP055/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 export REGION=
 ```
 
