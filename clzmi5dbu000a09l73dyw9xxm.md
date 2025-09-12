@@ -55,7 +55,7 @@ Now that you have a basic understanding of Kubernetes, you will learn how to dep
 
 ---
 
-### **Task 1. Set a default compute zone**
+## **Task 1. Set a default compute zone**
 
 Your [compute zone](https://cloud.google.com/compute/docs/regions-zones/#available) is an approximate regional location in which your clusters and their resources live. For example, `us-central1-a` is a zone in the `us-central1` region.
 
@@ -86,7 +86,7 @@ In your Cloud Shell session, run the following commands.
     ```
     
 
-### **Task 2. Create a GKE cluster**
+## **Task 2. Create a GKE cluster**
 
 A [cluster](https://cloud.google.com/kubernetes-engine/docs/concepts/cluster-architecture) consists of at least one **cluster master** machine and multiple worker machines called **nodes**. Nodes are [Compute Engine virtual machine (VM) instances](https://cloud.google.com/compute/docs/instances/) that run the Kubernetes processes necessary to make them part of the cluster.
 
@@ -122,7 +122,7 @@ Create a GKE cluster
 
 **Check my progress**
 
-### **Task 3. Get authentication credentials for the cluster**
+## **Task 3. Get authentication credentials for the cluster**
 
 After creating your cluster, you need authentication credentials to interact with it.
 
@@ -140,7 +140,7 @@ After creating your cluster, you need authentication credentials to interact wit
     ```
     
 
-### **Task 4. Deploy an application to the cluster**
+## **Task 4. Deploy an application to the cluster**
 
 You can now deploy a containerized application to the cluster. For this lab, you'll run `hello-app` in your cluster.
 
@@ -216,7 +216,7 @@ GKE uses Kubernetes objects to create and manage your cluster's resources. Kuber
     **Check my progress**
     
 
-### **Task 5. Deleting the cluster**
+## **Task 5. Deleting the cluster**
 
 1. To **delete** the cluster, run the following command:
     
@@ -235,9 +235,16 @@ GKE uses Kubernetes objects to create and manage your cluster's resources. Kuber
 
 ---
 
-### Solution of Lab
+## Solution of Lab
 
 %[https://www.youtube.com/watch?v=RjyPXpcKLrA] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP100/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 export ZONE=
