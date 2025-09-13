@@ -588,6 +588,15 @@ Cloud Build has been successfully initiated
 
 ## Solution of Lab
 
+### Quick
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP747/lab.sh
+source lab.sh
+```
+
+---
+
 ### New solution
 
 %[https://youtu.be/ky90Rr4AdBA] 
@@ -653,6 +662,6 @@ sudo chmod +x techcps2.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723353597276/271108a6-caaf-4767-ae5a-2497e6820184.png align="center")
 
-**Now press the <mark>enter key three times</mark>**
+**Now press the <mark>Enter key three times</mark>**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723353845475/7ca46b66-70a7-40d0-bf63-d229eac9932f.png align="center")
