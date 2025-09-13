@@ -430,3 +430,5 @@ Open link: [**https://console.cloud.google.com/vertex-ai/workbench**](https://co
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757750887366/a5e5637b-834f-4fd8-b9be-c7be850063b2.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757750891943/f1696870-7be7-4842-860c-aee9b34ea2df.png align="center")
+
+press <mark>Shift+Enter</mark>
