@@ -279,19 +279,53 @@ Containerize your code and deploy it onto the cluster
 
 %[https://youtu.be/AJLOK6JCbkE] 
 
+## **Metric type: Counter**
+
+## **Log Metric Name:**
+
+```apache
+pod-image-errors
+```
+
+## **In the built filter box, add the following query:**
+
+```apache
+resource.type="k8s_pod"
+severity=WARNING
+```
+
+## **Tap here to open the** [**Onlin**](https://www.rapidtables.com/tools/notepad.html#)[**e Notepad**](https://www.rapidtables.com/tools/notepad.html#)
+
+### **Make sure to use an online notepad, which I was using**
+
+```apache
+export REPO_NAME=
+export CLUSTER_NAME=
+export ZONE=
+export NAMESPACE=
+export INTERVAL=
+export SERVICE_NAME=
+```
+
+```apache
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/NEW%20Manage%20Kubernetes%20in%20Google%20Cloud%20Challenge%20Lab/quicklabgsp510.sh
+sudo chmod +x quicklabgsp510.sh
+./quicklabgsp510.sh
+```
+
 ---
 
-### Old Solution
+### [Ol](https://www.rapidtables.com/tools/notepad.html#)d Soluti[on](https://www.rapidtables.com/tools/notepad.html#)
 
 %[https://www.youtube.com/watch?v=vsaqpdaXhfg&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
-***1\. Go to the log base metric***
+[***1\. Go to***](https://www.rapidtables.com/tools/notepad.html#) ***the log base metric***
 
-***2 Click Create Metric.***
+***2*** [***Click Create M***](https://www.rapidtables.com/tools/notepad.html#)***etric.***
 
 ***3\. Use the following details to configure your metric:***
 
-***Metric type:*** `Counter` ***Log Metric Name :*** `pod-image-errors`
+***Metric type:*** `Coun`[`ter` ***Log Metric***](https://www.rapidtables.com/tools/notepad.html#) ***Name :*** `pod-image-errors`
 
 ***4\. Enable Show query and in the Query builder box, add the following query:***
 
