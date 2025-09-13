@@ -280,7 +280,7 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP122
 source lab.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757753119161/0331ccef-b9ca-4dda-8e80-ce006d5b4772.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757753149013/d4932bec-8511-47b9-a360-4c527beb56c8.png align="center")
 
 ---
 
