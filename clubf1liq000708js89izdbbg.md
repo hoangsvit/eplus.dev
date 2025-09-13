@@ -315,17 +315,17 @@ sudo chmod +x quicklabgsp510.sh
 
 ---
 
-### [Ol](https://www.rapidtables.com/tools/notepad.html#)d Soluti[on](https://www.rapidtables.com/tools/notepad.html#)
+### Old Solution
 
 %[https://www.youtube.com/watch?v=vsaqpdaXhfg&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
-[***1\. Go to***](https://www.rapidtables.com/tools/notepad.html#) ***the log base metric***
+***1\. Go to the log base metric***
 
-***2*** [***Click Create M***](https://www.rapidtables.com/tools/notepad.html#)***etric.***
+***2 Click Create Metric.***
 
 ***3\. Use the following details to configure your metric:***
 
-***Metric type:*** `Coun`[`ter` ***Log Metric***](https://www.rapidtables.com/tools/notepad.html#) ***Name :*** `pod-image-errors`
+***Metric type:*** `Counter` ***Log Metric Name :*** `pod-image-errors`
 
 ***4\. Enable Show query and in the Query builder box, add the following query:***
 
