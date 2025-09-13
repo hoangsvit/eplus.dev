@@ -324,6 +324,13 @@ Deploy the production frontend
 %[https://youtu.be/RR7M4VWZi1o] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP344/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Develop%20Serverless%20Apps%20with%20Firebase%3A%20Challenge%20Lab/techcps344.sh
 sudo chmod +x techcps344.sh
 ./techcps344.sh
