@@ -5,13 +5,13 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: Fri Aug 09 2024 04:48:15 GMT+0000 (Coordinated Universal Time)
 cuid: clzm881fm000n09la399ofuzq
 slug: develop-serverless-apps-with-firebase-challenge-lab-gsp344
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723178642270/9ad53c30-6867-4c84-8b9b-ec2037444810.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723178880389/9d63eaa6-3c78-4c70-a2fd-4deaf1ef0d68.png
-tags: develop-serverless-apps-with-firebase-challenge-lab-gsp344
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757754420571/06d824b5-c0b7-4ed6-8be0-a44cf4a25331.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757754445225/814a9f5a-2b90-40be-a935-dd2d08877823.png
+tags: serverless, develop-serverless-apps-with-firebase-challenge-lab-gsp344, gsp344, develop-serverless-apps-with-firebase-challenge-lab
 
 ---
 
-## **Overview**
+## Overview
 
 In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs in the course to figure out how to complete the tasks on your own! An automated scoring system (shown on this page) will provide feedback on whether you have completed your tasks correctly.
 
@@ -21,9 +21,55 @@ To score 100% you must successfully complete all tasks within the time period!
 
 This lab is recommended for students who are enrolled in the [Develop Serverless Apps with Firebase](https://www.cloudskillsboost.google/course_templates/649) course. Are you ready for the challenge?
 
----
+## Setup and requirements
 
-### **Task 1. Create a Firestore database**
+### Before you click the Start Lab button
+
+Read these instructions. Labs are timed and you cannot pause them. The timer, which starts when you click **Start Lab**, shows how long Google Cloud resources are made available to you.
+
+This hands-on lab lets you do the lab activities in a real cloud environment, not in a simulation or demo environment. It does so by giving you new, temporary credentials you use to sign in and access Google Cloud for the duration of the lab.
+
+To complete this lab, you need:
+
+* Access to a standard internet browser (Chrome browser recommended).
+    
+
+**Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
+
+* Time to complete the lab—remember, once you start, you cannot pause a lab.
+    
+
+**Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
+
+### Provision the environment
+
+1. Link to the project:
+    
+
+```apache
+  gcloud config set project $(gcloud projects list --format='value(PROJECT_ID)' --filter='qwiklabs-gcp')
+```
+
+Copied!
+
+2. Clone the repo:
+    
+
+```apache
+  git clone https://github.com/rosera/pet-theory.git
+```
+
+Copied!
+
+## Challenge scenario
+
+In this lab you will create a frontend solution using a Rest API and Firestore database. Cloud Firestore is a NoSQL document database that is part of the Firebase platform where you can store, sync, and query data for your mobile and web apps at scale. Lab content is based on resolving a real world scenario through the use of Google Cloud serverless infrastructure.
+
+You will build the following architecture:
+
+![Application architecture diagram](https://cdn.qwiklabs.com/ktslVEb0iXwZo%2BJvv4WSMD3ZogKyLvKuXgU7%2FGwmol0%3D align="left")
+
+## Task 1. Create a Firestore database
 
 In this scenario you create a Firestore Database in Google Cloud. The high level architecture diagram below summarizes the general architecture.
 
@@ -34,9 +80,9 @@ Requirements:
 | **Field** | **Value** |
 | --- | --- |
 | Cloud Firestore | Native Mode |
-| Location | `us-east1` |
+| Location | `europe-west4` |
 
-**Create a Firestore database**
+### Create a Firestore database
 
 To complete this section successfully, you are required to implement the following:
 
@@ -44,16 +90,14 @@ To complete this section successfully, you are required to implement the followi
     
 * Use Firestore Native Mode
     
-* Add location `us-east1`
+* Add location `europe-west4`
     
 
 Click **Check my progress** to verify that you've performed the above task.
 
 Create a Firestore Database
 
-**Check my progress**
-
-### **Task 2. Populate the database**
+## Task 2. Populate the database
 
 In this scenario, populate the database using test data.
 
@@ -61,7 +105,7 @@ A high level architecture diagram below summarizes the general architecture.
 
 ![Firebase Challenge Lab architecture](https://cdn.qwiklabs.com/PKIVCpHcC1AN002C29%2FTGB5m3BLy1nvvVzv9o%2BoJPPw%3D align="left")
 
-**Populate the database**
+### Populate the database
 
 Example Firestore schema:
 
@@ -89,16 +133,20 @@ To complete this section successfully, you are required to implement the followi
 1. Use the sample code from `pet-theory/lab06/firebase-import-csv/solution`:
     
 
-```apache
+```
   npm install
 ```
+
+Copied!
 
 2. To import CSV use the node `pet-theory/lab06/firebase-import-csv/solution/index.js`:
     
 
-```apache
+```
   node index.js netflix_titles_original.csv
 ```
+
+Copied!
 
 **Note:** Verify the Firestore Database has been updated by viewing the data in the Firestore UI.
 
@@ -106,9 +154,7 @@ Click **Check my progress** to verify that you've performed the above task.
 
 Populate the Firestore Database
 
-**Check my progress**
-
-### **Task 3. Create a REST API**
+## Task 3. Create a REST API
 
 In this scenario, create an example REST API.
 
@@ -116,7 +162,7 @@ A high level architecture diagram below summarizes the general architecture.
 
 ![Firebase Challenge Lab architecture diagram](https://cdn.qwiklabs.com/%2FEEXmlifsMsOwCuZUq%2F7KYiuzoIjHgT8%2FqNBHG3WgFA%3D align="left")
 
-**Cloud Run development**
+### Cloud Run development
 
 | **Field** | **Value** |
 | --- | --- |
@@ -147,9 +193,7 @@ Click **Check my progress** to verify that you've performed the above task.
 
 Deploy and test the REST API
 
-**Check my progress**
-
-### **Task 4. Firestore API access**
+## Task 4. Firestore API access
 
 In this scenario, deploy an updated revision of the code to access the Firestore DB.
 
@@ -157,7 +201,7 @@ A high level architecture diagram below summarizes the general architecture.
 
 ![Firebase Challenge Lab architecture diagram](https://cdn.qwiklabs.com/%2FEEXmlifsMsOwCuZUq%2F7KYiuzoIjHgT8%2FqNBHG3WgFA%3D align="left")
 
-**Deploy Cloud Run revision 0.2**
+### Deploy Cloud Run revision 0.2
 
 | **Field** | **Value** |
 | --- | --- |
@@ -190,9 +234,7 @@ Click **Check my progress** to verify that you've performed the above task.
 
 Deploy and test the Rest API
 
-**Check my progress**
-
-### **Task 5. Deploy the Staging Frontend**
+## Task 5. Deploy the Staging Frontend
 
 In this scenario, deploy the Staging Frontend.
 
@@ -200,7 +242,7 @@ A high level architecture diagram below summarizes the general architecture.
 
 ![Firebase Challege Lab architecture diagram](https://cdn.qwiklabs.com/m1BZ32wAOgNFZiGu0CHGt4MxL9CGTybjTY%2BEMcQjo%2Fs%3D align="left")
 
-**Deploy Frontend**
+### Deploy Frontend
 
 | **Field** | **Value** |
 | --- | --- |
@@ -234,9 +276,7 @@ Click **Check my progress** to verify that you've performed the above task.
 
 Deploy the staging frontend
 
-**Check my progress**
-
-### **Task 6. Deploy the Production Frontend**
+## Task 6. Deploy the Production Frontend
 
 In this scenario, update the Staging Frontend to use the Firestore database.
 
@@ -244,7 +284,7 @@ A high level architecture diagram below summarizes the general architecture.
 
 ![Firebase Challege Lab architecture diagram](https://cdn.qwiklabs.com/XS0ycXUPX%2BQgKX8dSq6flsOa0MLze%2FRow%2ByVRyWhT8M%3D align="left")
 
-**Deploy Frontend**
+### Deploy Frontend
 
 | **Field** | **Value** |
 | --- | --- |
@@ -273,11 +313,25 @@ Now that the services have been deployed you will be able to see the contents of
 
 Click **Check my progress** to verify that you've performed the above task.
 
+Deploy the production frontend
+
 ---
 
-### Solution of Lab
+## Solution of Lab
 
-%[https://www.youtube.com/watch?v=EXBErLC703k] 
+### New Solution
+
+%[https://youtu.be/RR7M4VWZi1o] 
+
+```apache
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Develop%20Serverless%20Apps%20with%20Firebase%3A%20Challenge%20Lab/techcps344.sh
+sudo chmod +x techcps344.sh
+./techcps344.sh
+```
+
+---
+
+### Old Solution
 
 ```apache
 export REGION=
