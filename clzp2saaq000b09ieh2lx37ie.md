@@ -6,7 +6,7 @@ datePublished: Sun Aug 11 2024 04:39:21 GMT+0000 (Coordinated Universal Time)
 cuid: clzp2saaq000b09ieh2lx37ie
 slug: deploy-a-hugo-website-with-cloud-build-and-firebase-pipeline-gsp747
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750301173815/0343011f-f05e-452f-9223-337daf4be807.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723351143749/ea3bebb0-c27f-4e25-98fb-f37017ba5c39.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757756242758/ccde2e5c-3b2c-4e7d-8d57-e59ea681cd06.png
 tags: firebase, deploy-a-hugo-website-with-cloud-build-and-firebase-pipeline-gsp747, gsp747, deploy-a-hugo-website-with-cloud-build-and-firebase-pipeline, firebase-pipeline, hugo-website, deploy-a-hugo-website
 
 ---
