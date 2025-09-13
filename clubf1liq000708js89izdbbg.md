@@ -277,6 +277,20 @@ Containerize your code and deploy it onto the cluster
 
 ## Quick
 
+1. Create metric: [https://console.cloud.google.com/logs/metrics/edit](https://console.cloud.google.com/logs/metrics/edit)
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757781532932/c286ae2f-cbf6-4211-a5b4-eb7300f20de7.png align="center")
+    
+    ```apache
+    pod-image-errors
+    ```
+    
+    ```apache
+    resource.type="k8s_pod"
+    severity=WARNING
+    ```
+    
+
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP510/lab.sh
 source lab.sh
