@@ -291,12 +291,16 @@ Containerize your code and deploy it onto the cluster
     ```
     
 
+**Run the following Commands in CloudShell**
+
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP510/lab.sh
 source lab.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757778863011/2eb48906-64b2-4c31-9b38-f9dc77ef3b08.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757782221010/a501f430-28a8-40bf-b89c-9b7e816c47bc.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757778868823/c85a6b3d-169f-4cf4-bccf-14dbbc9d275e.png align="center")
 
