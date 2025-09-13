@@ -275,7 +275,32 @@ Containerize your code and deploy it onto the cluster
 
 ## Solution of Lab
 
+### New Solution
+
+%[https://youtu.be/AJLOK6JCbkE] 
+
+---
+
+### Old Solution
+
 %[https://www.youtube.com/watch?v=vsaqpdaXhfg&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
+
+***1\. Go to the log base metric***
+
+***2 Click Create Metric.***
+
+***3\. Use the following details to configure your metric:***
+
+***Metric type:*** `Counter` ***Log Metric Name :*** `pod-image-errors`
+
+***4\. Enable Show query and in the Query builder box, add the following query:***
+
+```apache
+resource.type="k8s_pod"
+severity=WARNING
+```
+
+***5\. Click Create Metric.***
 
 ```apache
 export REPO_NAME=
@@ -292,7 +317,7 @@ sudo chmod +x quicklabgsp510.sh
 ./quicklabgsp510.sh
 ```
 
-or
+---
 
 ```apache
 gcloud config set compute/zone $ZONE
