@@ -277,26 +277,26 @@ Containerize your code and deploy it onto the cluster
 
 ### New Solution
 
-%[https://youtu.be/AJLOK6JCbkE] 
+%[https://youtu.be/6x0g95874NA] 
 
-## **Metric type: Counter**
+**Metric type: Counter**
 
-## **Log Metric Name:**
+**Log Metric Name:**
 
 ```apache
 pod-image-errors
 ```
 
-## **In the built filter box, add the following query:**
+**In the built filter box, add the following query:**
 
 ```apache
 resource.type="k8s_pod"
 severity=WARNING
 ```
 
-## **Tap here to open the** [**Onlin**](https://www.rapidtables.com/tools/notepad.html#)[**e Notepad**](https://www.rapidtables.com/tools/notepad.html#)
+**Tap here to open the** [**Onlin**](https://www.rapidtables.com/tools/notepad.html#)[**e Notepad**](https://www.rapidtables.com/tools/notepad.html#)
 
-### **Make sure to use an online notepad, which I was using**
+**Make sure to use an online notepad, which I was using**
 
 ```apache
 export REPO_NAME=
@@ -353,7 +353,7 @@ sudo chmod +x quicklabgsp510.sh
 
 ---
 
-```apache
+```powershell
 gcloud config set compute/zone $ZONE
 
 gcloud container clusters create $CLUSTER_NAME \
@@ -571,3 +571,9 @@ EOF_END
 
 gcloud alpha monitoring policies create --policy-from-file="quicklab.json"
 ```
+
+---
+
+### Manual
+
+%[https://youtu.be/6x0g95874NA]
