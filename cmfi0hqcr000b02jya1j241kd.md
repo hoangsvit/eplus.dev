@@ -258,7 +258,7 @@ On successful deployment, you will be provided a URL to the Cloud Run service. Y
 ✓ Deploying new service... Done.
 
 Done.  
-Service [gemini-streamlit-app] revision [gemini-streamlit-app-00001-srg] has been deployed and is serving 100 percent of traffic. Service URL: https://gemini-streamlit-app-hc2gb6hsia-uc.a.run.app 
+Service [gemini-streamlit-app] revision [gemini-streamlit-app-00001-srg] has been deployed and is serving 100 percent of traffic. Service URL: https://gemini-streamlit-app-hc2gb6hsia-uc.a.run.app
 ```
 
 Choose the functionality that you would like to check out and the application will prompt the Gemini API in Vertex AI and display the responses.
@@ -279,6 +279,8 @@ Build and Deploy the Application to Cloud Run
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1229/lab.sh
 source lab.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757753119161/0331ccef-b9ca-4dda-8e80-ce006d5b4772.png align="center")
 
 ---
 
