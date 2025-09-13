@@ -588,9 +588,3 @@ EOF_END
 
 gcloud alpha monitoring policies create --policy-from-file="quicklab.json"
 ```
-
----
-
-### Manual
-
-%[https://youtu.be/6x0g95874NA]
