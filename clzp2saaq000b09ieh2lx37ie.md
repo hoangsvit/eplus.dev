@@ -603,7 +603,6 @@ source task1.sh
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/task2.sh
-
 source task2.sh
 ```
 
@@ -611,7 +610,6 @@ source task2.sh
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/task3.sh
-
 source task3.sh
 ```
 
