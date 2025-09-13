@@ -213,6 +213,15 @@ Generate text from the video file
 
 ## Solution of Lab
 
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text">When I open <strong>JupyterLab</strong>, I can't see any files. What is the problem? You must be on the <strong>Workbench </strong>home page, select the checkbox next to the instance name, click <strong>Reset</strong>, and then the Open <strong>JupyterLab </strong>button is enabled again.</div>
+</div>
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757750538830/d6bf70bf-60cc-4249-bb77-d0ab63f586aa.png align="center")
+
+---
+
 ### Quick
 
 %[https://youtu.be/WDbZVrBoAo4] 
