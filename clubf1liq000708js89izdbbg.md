@@ -275,7 +275,7 @@ Containerize your code and deploy it onto the cluster
 
 ## Solution of Lab
 
-## Quick
+### Quick
 
 1. Create metric: [https://console.cloud.google.com/logs/metrics/edit](https://console.cloud.google.com/logs/metrics/edit)
     
@@ -329,7 +329,7 @@ resource.type="k8s_pod"
 severity=WARNING
 ```
 
-**Tap here to open the** [**Onlin**](https://www.rapidtables.com/tools/notepad.html#)[**e Notepad**](https://www.rapidtables.com/tools/notepad.html#)
+**Tap here to open the** [**Online Notepad**](https://www.rapidtables.com/tools/notepad.html#)
 
 **Make sure to use an online notepad, which I was using**
 
