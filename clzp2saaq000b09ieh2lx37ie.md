@@ -7,7 +7,7 @@ cuid: clzp2saaq000b09ieh2lx37ie
 slug: deploy-a-hugo-website-with-cloud-build-and-firebase-pipeline-gsp747
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750301173815/0343011f-f05e-452f-9223-337daf4be807.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723351143749/ea3bebb0-c27f-4e25-98fb-f37017ba5c39.png
-tags: deploy-a-hugo-website-with-cloud-build-and-firebase-pipeline-gsp747
+tags: firebase, deploy-a-hugo-website-with-cloud-build-and-firebase-pipeline-gsp747, gsp747, deploy-a-hugo-website-with-cloud-build-and-firebase-pipeline, firebase-pipeline, hugo-website, deploy-a-hugo-website
 
 ---
 
@@ -591,6 +591,8 @@ Cloud Build has been successfully initiated
 ### New solution
 
 %[https://youtu.be/ky90Rr4AdBA] 
+
+**Open Link**: [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750301599500/529dea4f-cb1a-4b22-860f-38333a05a974.png align="center")
 
