@@ -601,7 +601,7 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/D
 source task1.sh
 ```
 
-***Now Check the score for Task 2 & then go ahead with next Commands.***
+***Now, check the score for <mark>Task 2</mark> & then go ahead with the next Commands.***
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/task2.sh
