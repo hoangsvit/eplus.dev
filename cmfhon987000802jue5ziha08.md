@@ -227,6 +227,13 @@ Open: [https://console.cloud.google.com/vertex-ai/workbench](https://console.clo
 
 ```apache
 rm intro_gemini_curl-v2.0.0.ipynb
+curl -LO curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1228/intro_gemini_curl-v2.0.0.ipynb
+```
+
+**Script Alternative**
+
+```apache
+rm intro_gemini_curl-v2.0.0.ipynb
 curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Getting%20Started%20with%20the%20Gemini%20API%20in%20Vertex%20AI%20with%20cURL/intro_gemini_curl-v2.0.0.ipynb
 ```
 
