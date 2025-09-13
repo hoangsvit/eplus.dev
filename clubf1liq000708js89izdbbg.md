@@ -275,6 +275,23 @@ Containerize your code and deploy it onto the cluster
 
 ## Solution of Lab
 
+## Quick
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP510/lab.sh
+source lab.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757778863011/2eb48906-64b2-4c31-9b38-f9dc77ef3b08.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757778868823/c85a6b3d-169f-4cf4-bccf-14dbbc9d275e.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757778876855/a8302060-a541-4b54-8928-1dab400d1eaf.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757778880588/3e760984-4ced-4a9b-97a0-a422508576dd.png align="center")
+
+---
+
 ### New Solution
 
 %[https://youtu.be/6x0g95874NA] 
