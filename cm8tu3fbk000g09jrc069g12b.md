@@ -333,11 +333,11 @@ Join view to an explore
 
 %[https://www.youtube.com/watch?v=wNgUf8-XfLM] 
 
-### First, on the bottom left of the Looker User Interface, click the toggle button to enter Development mode.
+First, on the bottom left of the Looker User Interface, click the toggle button to enter Development mode.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743229840810/ce95d953-98aa-4405-a6d3-903a7036b9d0.png align="center")
 
-***Click the Develop tab and then select the qwiklabs-ecommerce LookML project.***
+Click the **Develop** tab and then select the **qwiklabs-ecommerce** LookML project.
 
 ***To create the file at the project’s root level, click the + button at the top of the file browser in the Looker IDE.***
 
@@ -448,7 +448,6 @@ explore: events {
     relationship: many_to_one
   }
 }
-
 ```
 
 ### Commit Changes and Deploy to Production
