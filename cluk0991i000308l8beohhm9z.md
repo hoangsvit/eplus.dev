@@ -640,6 +640,8 @@ Create the advanced measures
 
 ---
 
+## Solution of Lab
+
 %[https://www.youtube.com/watch?v=kSDIBp0vT84] 
 
 **users.view**
