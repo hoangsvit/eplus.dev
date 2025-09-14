@@ -450,7 +450,7 @@ explore: events {
 }
 ```
 
-### Commit Changes and Deploy to Production
+**Commit Changes and Deploy to Production**
 
 1. Click **Validate LookML**.
     
