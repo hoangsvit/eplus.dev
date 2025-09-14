@@ -741,6 +741,13 @@ When you moved the pods into the same zone, the pinging became free of charge.
 %[https://youtu.be/g-9JX1qTwdQ] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP767/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO https://raw.githubusercontent.com/pspcps/Arcade/refs/heads/main/GSP767.sh
 sudo chmod +x GSP767.sh
 ./GSP767.sh
