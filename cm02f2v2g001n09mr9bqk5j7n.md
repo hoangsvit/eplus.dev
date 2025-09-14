@@ -753,6 +753,36 @@ sudo chmod +x GSP767.sh
 ./GSP767.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757829503700/961c1a29-5fb1-4b23-b725-cd96d30df49d.png align="center")
+
+Open link: [VPC networks](https://console.cloud.google.com/networking/networks/list?pageTab=CURRENT_PROJECT_SUBNET)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757829653564/a2363416-3367-49cf-a3b0-f66862f1ce0d.png align="center")
+
+Open link: [Logs Explorer](https://console.cloud.google.com/logs/query)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757829867037/dca3f7eb-d5b2-475d-8369-0c90175b3555.png align="center")
+
+```apache
+FlowLogsSample
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757829985000/2969cb6b-4907-4be2-87b3-5fd5443cf543.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757830043403/552ef997-4164-4541-908e-a7c392b2061e.png align="center")
+
+Open link: [Big Query](https://console.cloud.google.com/bigquery)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757830867463/c45553c1-d7c3-4c89-88ca-dcc7fbe0345e.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757830841374/c6335d4a-7b8b-48ac-a9b7-554d3d44882c.png align="center")
+
+```apache
+jsonPayload.src_instance.zone AS src_zone, jsonPayload.src_instance.vm_name AS src_vm, jsonPayload.dest_instance.zone AS dest_zone, jsonPayload.dest_instance.vm_name
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757830923078/c42d8f69-c79e-4c72-8ff9-620ec9102c60.png align="center")
+
 ---
 
 ### Manual
