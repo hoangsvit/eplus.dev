@@ -738,12 +738,12 @@ When you moved the pods into the same zone, the pinging became free of charge.
 
 ### Quick
 
-%[https://youtu.be/VO-5xc_uZaw] 
+%[https://youtu.be/g-9JX1qTwdQ] 
 
 ```apache
-curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/Exploring%20Cost-optimization%20for%20GKE%20Virtual%20Machines/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO https://raw.githubusercontent.com/pspcps/Arcade/refs/heads/main/GSP767.sh
+sudo chmod +x GSP767.sh
+./GSP767.sh
 ```
 
 ---
