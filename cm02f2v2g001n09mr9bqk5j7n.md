@@ -763,8 +763,16 @@ Open link: [Logs Explorer](https://console.cloud.google.com/logs/query)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757829867037/dca3f7eb-d5b2-475d-8369-0c90175b3555.png align="center")
 
+**Name your sink**
+
 ```apache
 FlowLogsSample
+```
+
+**Dataset ID**
+
+```apache
+us_flow_logs
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757829985000/2969cb6b-4907-4be2-87b3-5fd5443cf543.png align="center")
