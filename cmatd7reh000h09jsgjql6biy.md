@@ -552,7 +552,7 @@ Remove the babynames dataset
 %[https://youtu.be/-FWwZpRz6Ec]
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP407/lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP071/lab.sh
 source lab.sh
 ```
 
