@@ -438,7 +438,15 @@ Write basic SQL on ecommerce data
 
 ## Solution of Lab
 
-%[https://youtu.be/h87rdNKVSBY] 
+%[https://youtu.be/eeYOdvz7BiI] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP407/lab.sh
+source lab.sh
+```
+
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Explore%20an%20Ecommerce%20Dataset%20with%20SQL%20in%20BigQuery/techcps407.sh
