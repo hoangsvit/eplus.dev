@@ -5,6 +5,7 @@ seoDescription: "Learn to create/configure Firebase Firestore with TypeScript, c
 datePublished: Mon Sep 15 2025 07:28:08 GMT+0000 (Coordinated Universal Time)
 cuid: cmfksy3b5000502kz85bh9osj
 slug: firebase-essentials-firestore-database-write-with-typescript-gem-firebase-firestore-write-typescript
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757921354482/3b036b45-7c12-4cb3-9456-66a5a4c23f08.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757921262011/1ab80e98-6eaf-4d1a-b51a-4bf4992211f3.png
 tags: firestore-database, firebase-essentials, firebase-essentials-firestore-database-write-with-typescript-gem-firebase-firestore-write-typescript, firebase-essentials-firestore-database-write-with-typescript, gem-firebase-firestore-write-typescript
 
