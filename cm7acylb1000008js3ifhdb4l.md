@@ -188,6 +188,17 @@ Now add some visuals and interactive filters for your report users.
 
 Open: [https://lookerstudio.google.com/](https://lookerstudio.google.com/)
 
+* Click on **Shared projects** &gt; **your Project ID**, which is found in the **Lab details** panel (begins with *qwiklabs*\-).
+    
+* For **Shared project name** type "data-to-insights".
+    
+* For **Dataset** select **ecommerce**.
+    
+* For **Table** select **sales\_report**.
+    
+* Click **Add** in the bottom right corner and then click **Add to report**.
+    
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756952444196/7281502f-91fd-40ed-8eaa-76460c6aee9b.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756952454797/e0f88ef4-a159-47ab-9cd3-f1ffcff37c1d.png align="center")
