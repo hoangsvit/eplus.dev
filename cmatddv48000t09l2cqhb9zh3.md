@@ -441,7 +441,7 @@ Write basic SQL on ecommerce data
 %[https://youtu.be/h87rdNKVSBY] 
 
 ```apache
-curl -LO https://raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Exploring%20Your%20Ecommerce%20Dataset%20with%20SQL%20in%20Google%20BigQuery/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Explore%20an%20Ecommerce%20Dataset%20with%20SQL%20in%20BigQuery/techcps407.sh
+sudo chmod +x techcps407.sh
+./techcps407.sh
 ```
