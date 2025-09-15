@@ -549,7 +549,7 @@ Remove the babynames dataset
 
 ## Solution of Lab
 
-%[https://youtu.be/-FWwZpRz6Ec]
+%[https://youtu.be/Hz3ASf2GcLM]
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP071/lab.sh
@@ -560,7 +560,7 @@ source lab.sh
 
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/BigQuery%3A%20Qwik%20Start%20-%20Command%20Line/techcps071.sh
-sudo chmod +x techcps071.sh
-./techcps071.sh
+curl -LO raw.githubusercontent.com/Arcade-With-Us/Google-Cloud-Labs/refs/heads/main/BigQuery%3A%20Qwik%20Start%20-%20Command%20Line/GSP071.sh
+sudo chmod +x GSP071.sh
+./GSP071.sh
 ```
