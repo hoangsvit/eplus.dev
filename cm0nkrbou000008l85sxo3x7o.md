@@ -359,12 +359,6 @@ This describes the flight delay use case. For this case you would switch from a 
 %[https://www.youtube.com/watch?v=oHe4B6fTIq8] 
 
 ```apache
-export REGION=
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725436755754/8f6451b4-2661-42d2-b63d-e699fb0e02f9.png align="center")
-
-```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/main/labs/GSP196/lab.sh
 sudo chmod +x lab.sh
 ./lab.sh
