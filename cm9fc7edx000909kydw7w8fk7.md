@@ -508,9 +508,97 @@ Display insights for View B
 
 ## Solution of Lab
 
+### New Solution
+
+%[https://youtu.be/73ItRf5GeNk] 
+
+**Run in CloudShell**
+
+```apache
+bq mk \
+--use_legacy_sql=false \
+--description "DESCRIPTION" \
+--view 'SELECT * FROM `bigquery-public-data.geo_us_boundaries.zip_codes`
+WHERE state_code="TX"
+LIMIT 4000' \
+--project_id $DEVSHELL_PROJECT_ID \
+demo_dataset.authorized_view_a
+bq mk \
+--use_legacy_sql=false \
+--description "DESCRIPTION" \
+--view 'SELECT * FROM `bigquery-public-data.geo_us_boundaries.zip_codes`
+WHERE state_code="CA"
+LIMIT 4000' \
+--project_id $DEVSHELL_PROJECT_ID \
+demo_dataset.authorized_view_b
+echo "PROJECT ID=$DEVSHELL_PROJECT_ID"
+```
+
+**Copy the project id (From last line in terminal) and Store it**
+
+**Bigquery &gt; demo\_dataset**
+
+> sharing &gt; Authorize Views &gt; `demo_dataset` &gt; select a &gt; add authorization
+
+> Then again &gt; `demo_dataset` &gt; select b &gt; add authorization &gt; close
+
+**authorized\_view\_a &gt; Share**
+
+> Add Principal &gt; Paste username A from lab &gt; Role `BigQuery Data Viewer` &gt; save
+
+**authorized\_view\_b &gt; Share**
+
+> Add Principal &gt; Paste username B from lab &gt; Role `BigQuery Data Viewer` &gt; save
+
+**Close the incognito window**
+
+**Login to Project A Console**
+
+```apache
+PROJECT_ID=
+```
+
+```apache
+bq mk --use_legacy_sql=false --view 'SELECT geos.zip_code, geos.city, cust.last_name, cust.first_name
+FROM `'$DEVSHELL_PROJECT_ID'.customer_a_dataset.customer_info` as cust
+JOIN `'$PROJECT_ID'.demo_dataset.authorized_view_a` as geos
+ON geos.zip_code = cust.postal_code;' customer_a_dataset.customer_a_table
+```
+
+> Open in incognito [Looker](https://lookerstudio.google.com/) &gt; Blank report &gt; Country `India` &gt; Company `cloudhustlers`
+
+> Agree and continue &gt; Yes to all &gt; Continue &gt; Bigquery &gt; Authorize
+
+> GCP ID &gt; customer\_a\_dataset &gt; customer\_a\_table &gt; ADD &gt; add to report
+
+> Close the incognito window
+
+Login to Project B Console
+
+```apache
+PROJECT_ID=
+```
+
+```apache
+bq mk --use_legacy_sql=false --view 'SELECT geos.zip_code, geos.city, cust.last_name, cust.first_name
+FROM `'$DEVSHELL_PROJECT_ID'.customer_b_dataset.customer_info` as cust
+JOIN `'$PROJECT_ID'.demo_dataset.authorized_view_b` as geos
+ON geos.zip_code = cust.postal_code;' customer_b_dataset.customer_b_table
+```
+
+> Open in inc[ognito](https://lookerstudio.google.com/) [Looker](https://lookerstudio.google.com/) &gt; Blank report &gt; Country `India` &gt; Company `cloudhustlers`
+
+> Agr[ee and](https://lookerstudio.google.com/) continue &gt; Yes to all &gt; Continue &gt; Bigquery &gt; Authorize
+
+> G[CP ID](https://lookerstudio.google.com/) \&gt; customer\_b\_dataset &gt; [custo](https://lookerstudio.google.com/)mer\_b\_table &gt; ADD &gt; add to report
+
+---
+
+### Old Solution
+
 %[https://youtu.be/uShq4W2L4E8] 
 
-### **1\. ☁️ Initialize Views in Cloud Shell**
+### **1\. ☁**[**️ Init**](https://lookerstudio.google.com/)**ialize Views in Cloud Shell**
 
 ```apache
 curl -LO https://raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Analytics%20as%20a%20Service%20for%20Data%20Sharing%20Partners/arcadecrew.sh
@@ -522,17 +610,17 @@ sudo chmod +x arcadecrew.sh
 
 ### **2\. 🔑 Store Your Main Project ID**
 
-After running the commands above, **copy the** `PROJECT ID` displayed in the last line of your Cloud Shell output (e.g., `PROJECT ID=qwiklabs-gcp-xxxx`). You'll need this ID for subsequent steps.
+After running the commands above, **copy the** `PROJECT ID` displayed in the last line of your Cloud Shell output (e.g., `PROJECT ID=qwiklabs-gcp-xxxx`). You'll need this ID for subsequ[ent st](https://lookerstudio.google.com/)eps.
 
 ### **3\. 👁️ BigQuery: Authorize Views**
 
-Follow these steps in the Google Cloud Console for your Main Lab Project:
+Follow these steps in the Google Clou[d Cons](https://lookerstudio.google.com/)ole for your Main Lab Project:
 
-1. Navigate to **☰ Menu &gt; BigQuery**.
+1. Navigate to **☰ Menu &gt; BigQuery**[.](https://lookerstudio.google.com/)
     
-2. In the Explorer panel, find your project, then expand `demo_dataset`.
+2. [I](https://lookerstudio.google.com/)n the Explorer panel, find your project, then expand `demo_dataset`.
     
-3. Click on **Sharing**, then select **Authorize Views**.
+3. [Cl](https://lookerstudio.google.com/)ick on **Sharing**, then se[lect **A**](https://lookerstudio.google.com/)**uthorize Views**.
     
 4. In the "Authorize views" panel:
     
@@ -555,17 +643,17 @@ Follow these steps in the Google Cloud Console for your Main Lab Project:
 
 ### **4\. 🤝 Share Authorized Views**
 
-Now, share these views with the user accounts specified in the lab:
+Now, share these views with the user accounts specified in the l[ab:](https://lookerstudio.google.com/)
 
-#### **For** `authorized_view_a`:
+#### [**F**](https://lookerstudio.google.com/)**or** `authorized_view_a`:
 
-1. In BigQuery, under `demo_dataset`, find `authorized_view_a`.
+1. In BigQuery, under `demo_dataset`, find `authorized_vie`[`w_a`.](https://lookerstudio.google.com/)
     
-2. Click the three dots (⋮) next to it (or select it) and choose **SHARE**.
+2. Click the three dots (⋮) next to it (or select it) and choose [**SHARE**](https://lookerstudio.google.com/).
     
 3. In the "Share `authorized_view_a`" panel, click **ADD PRINCIPAL**.
     
-4. In the "New principals" field, paste **Username A** (from the lab instructions).
+4. [In](https://lookerstudio.google.com/) the "New principals" field, paste **Username A** (from the lab instructions).
     
 5. Assign the Role: `BigQuery Data Viewer`.
     
