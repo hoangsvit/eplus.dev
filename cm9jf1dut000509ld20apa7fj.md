@@ -327,12 +327,12 @@ This is a test
 
 ## Solution of Lab
 
-%[https://youtu.be/mqLTgB_BYew] 
+%[https://youtu.be/H5VZcKKLC1E] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Cloud%20Filestore%20Qwik%20Start/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Cloud%20Filestore%20Qwik%20Start/gsp244.sh
+sudo chmod +x *.sh
+./*.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744776671496/b1925ac8-1cb5-4f5f-8e5b-b615abcf21e7.png align="center")
