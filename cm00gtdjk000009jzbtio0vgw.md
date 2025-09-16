@@ -5,9 +5,9 @@ seoDescription: "BigQuery is Google's fully managed, NoOps, low cost analytics d
 datePublished: Mon Aug 19 2024 03:57:34 GMT+0000 (Coordinated Universal Time)
 cuid: cm00gtdjk000009jzbtio0vgw
 slug: creating-a-data-warehouse-through-joins-and-unions-gsp413
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724039530040/ad72784a-06e8-448e-b74d-45c34f677b7e.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724039843633/f7b12f3c-27e5-40c8-b055-cccac3b35431.png
-tags: creating-a-data-warehouse-through-joins-and-unions-gsp413
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758004884006/7c1065b1-3feb-45ff-b22d-6176aed6d3f2.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1758004896979/2825d625-f689-428d-bb0d-fb72cb5bcbb6.png
+tags: creating-a-data-warehouse-through-joins-and-unions-gsp413, gsp413, creating-a-data-warehouse-through-joins-and-unions
 
 ---
 
@@ -497,6 +497,13 @@ Append additional records
 ## Solution of Lab
 
 %[https://www.youtube.com/watch?v=H_09BsmZDnQ] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP413/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Creating%20a%20Data%20Warehouse%20Through%20Joins%20and%20Unions/quicklabgsp413.sh
