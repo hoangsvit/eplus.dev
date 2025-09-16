@@ -501,6 +501,13 @@ In this lab, you will use the **Cloud Console** to backup your database.
 %[https://youtu.be/DzjLV6Hs3Mo] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1049/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Cloud%20Spanner%20-%20Loading%20Data%20and%20Performing%20Backups/techcps1049.sh
 sudo chmod +x techcps1049.sh
 ./techcps1049.sh
