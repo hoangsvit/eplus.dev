@@ -20,11 +20,10 @@ Cloud Filestore is a managed file storage service for applications that require 
 In this lab you'll learn how to perform basic operations in Cloud Filestore using the Google Cloud console. You will:
 
 * Create a Cloud Filestore instance.
-    
+
 * Mount the file share from that instance on a client VM instance.
-    
+
 * Create a file on the mounted file share.
-    
 
 ## Setup and requirements
 
@@ -37,73 +36,70 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 To complete this lab, you need:
 
 * Access to a standard internet browser (Chrome browser recommended).
-    
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
 * Time to complete the lab—remember, once you start, you cannot pause a lab.
-    
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
 1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
-    
+
     * The Open Google Cloud console button
-        
+
     * Time remaining
-        
+
     * The temporary credentials that you must use for this lab
-        
+
     * Other information, if needed, to step through this lab
-        
+
 2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
-    
+
     The lab spins up resources, and then opens another tab that shows the Sign in page.
-    
+
     ***Tip:*** Arrange the tabs in separate windows, side-by-side.
-    
+
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
-    
+
 3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
-    
+
     ```apache
     student-04-314c2a052437@qwiklabs.net
     ```
-    
+
     You can also find the Username in the Lab Details pane.
-    
+
 4. Click **Next**.
-    
+
 5. Copy the **Password** below and paste it into the **Welcome** dialog.
-    
+
     ```apache
     oWCE845oVzsG
     ```
-    
+
     You can also find the Password in the Lab Details pane.
-    
+
 6. Click **Next**.
-    
+
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
-    
+
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
-    
+
 7. Click through the subsequent pages:
-    
+
     * Accept the terms and conditions.
-        
+
     * Do not add recovery options or two-factor authentication (because this is a temporary account).
-        
+
     * Do not sign up for free trials.
-        
 
 After a few moments, the Google Cloud console opens in this tab.
 
 **Note:** To access Google Cloud products and services, click the **Navigation menu** or type the service or product name in the **Search** field.
 
-![Navigation menu icon and Search field](https://cdn.qwiklabs.com/9Fk8NYFp3quE9mF%2FilWF6%2FlXY9OUBi3UWtb2Ne4uXNU%3D align="left")
+![Navigation menu icon and Search field](<https://cdn.qwiklabs.com/9Fk8NYFp3quE9mF%2FilWF6%2FlXY9OUBi3UWtb2Ne4uXNU%3D> align="left")
 
 ## Cloud Filestore architecture
 
@@ -116,11 +112,10 @@ A Cloud Filestore instance consists of a single NFS file share with fixed export
 ### Networking
 
 1. You must create a Cloud Filestore instance in the same Google Cloud project and [VPC network](https://cloud.google.com/compute/docs/vpc/) as any clients that connect to it. All [internal IP addresses](https://www.arin.net/knowledge/address_filters.html) in the selected VPC network can connect to the Cloud Filestore instance.
-    
+
 2. If you are using a VPC network other than the default network, you might need to create firewall rules to enable communication with Cloud Filestore instances.
-    
+
 3. You can't use a [legacy network](https://cloud.google.com/compute/docs/vpc/legacy) with Cloud Filestore instances.
-    
 
 ### IP address range
 
@@ -141,20 +136,19 @@ Cloud Filestore defines 1 gigabyte (`GB`) as 1024^3 bytes, also known as a GiB. 
 ## Task 1. Create a Compute Engine instance
 
 1. In the Cloud Console, select **Navigation menu &gt; Compute Engine &gt; VM instances**.
-    
+
 2. To create a new instance, click **Create Instance**.
-    
+
 3. In the **Machine configuration**.
-    
+
     Select the following values:
-    
+
   <table>
 
 <tbody><tr>
 <th>Property</th>
 <th>Value (type value or select option as specified)</th>
 </tr>
-
 
 <tr>
 <td><strong>Name</strong></td>
@@ -178,24 +172,22 @@ Cloud Filestore defines 1 gigabyte (`GB`) as 1024^3 bytes, also known as a GiB. 
 </tr>
 
 </tbody></table>
-    
+
 4. Click **OS and storage**.
-    
+
     Click **Change** to begin configuring your boot disk and select the following values:
-    
+
     * **Operating system**: `Debian`
-        
+
     * **Version**: `Debian GNU/Linux 11 (bullseye)`
-        
-    
+
     Click **Select**.
-    
+
 5. Click **Networking**.
-    
+
     * **Firewall**: `Allow HTTP traffic`
-        
+
 6. Click **Create**.
-    
 
 Click **Check my progress** to verify the objective.
 
@@ -206,18 +198,16 @@ Create a Compute Engine instance, allow HTTP traffic.
 ## Task 2. Create a Cloud Filestore instance
 
 1. In the Cloud console, on the **Navigation menu** (), click **APIs and Services** &gt; **Library**.
-    
+
 2. Search for `Cloud Filestore API` and click **Enable** if it is not already enabled.
-    
+
 3. In the Cloud console, on the **Navigation menu** (), click **View All Products** &gt; **Storage** &gt; **Filestore**.
-    
 
 If you get an error message be sure you navigated to **Filestore** and not **Firestore**.
 
 4. Click **+CREATE INSTANCE** at the top of the page.
-    
+
 5. Create your Cloud Filestore instance with the following information:
-    
 
 | **Configuration** | **Value** |
 | --- | --- |
@@ -232,7 +222,6 @@ If you get an error message be sure you navigated to **Filestore** and not **Fir
 | Access control | Grant access to all clients on the VPC network |
 
 6. Click **Create**.
-    
 
 Click **Check my progress** to verify the objective.
 
@@ -245,13 +234,12 @@ This will take a couple of minutes to create.
 ## Task 3. Mount the Cloud Filestore file share on a Compute Engine VM
 
 1. In the Cloud console, on the **Navigation menu** (), click **Compute Engine** &gt; **VM Instances**.
-    
+
 2. In the list of VM instances, click the **SSH** button for **nfs-client** to open a terminal window connected to that instance.
-    
+
     If prompted, click **Authorize**.
-    
+
 3. In SSH shell install NFS by running the following commands:
-    
 
 ```apache
 sudo apt-get -y update &&
@@ -259,14 +247,12 @@ sudo apt-get -y install nfs-common
 ```
 
 4. Make a mount directory for the Cloud Filestore file share by running the following command:
-    
 
 ```apache
 sudo mkdir /mnt/test
 ```
 
 5. Mount the file share by running the `mount` command and specifying the Cloud Filestore instance IP address and file share name:
-    
 
 ```apache
 sudo mount YOUR_INSTANCE_IP:/vol1 /mnt/test
@@ -275,16 +261,14 @@ sudo mount YOUR_INSTANCE_IP:/vol1 /mnt/test
 If the above command hangs up or returns an "access denied" error that resembles:
 
 * `mount.nfs: access denied by server while mounting 10.0.0.2:/vol1`
-    
+
 * `mount.nfs: mount to NFS server '10.0.0.2:/vol1' failed: RPC Error: Unable to receive try running the command again.`
-    
 
 Most likely it means that your Filestore instance hasn't been created yet. Return to the Cloud Console, and from the **Navigation menu**, select **Filestore**. This will take you to the instances page. When your instance has a green check next to it you can return to your SSH session and try the `sudo mount` command again.
 
-![The instances page displaying the nfs-server instance](https://cdn.qwiklabs.com/qgyyXbewK3hoyvukUifWiwtsnTbb3SvG6TacedYnp9w%3D align="left")
+![The instances page displaying the nfs-server instance](<https://cdn.qwiklabs.com/qgyyXbewK3hoyvukUifWiwtsnTbb3SvG6TacedYnp9w%3D> align="left")
 
 6. Make the file share accessible by changing the permissions:
-    
 
 ```apache
 sudo chmod go+rw /mnt/test
@@ -295,14 +279,12 @@ sudo chmod go+rw /mnt/test
 ## Task 4. Create a file on the file share
 
 1. In the terminal window that is connected to the nfs-client instance, run the following to create a file named testfile:
-    
 
 ```apache
 echo 'This is a test' > /mnt/test/testfile
 ```
 
 2. Confirm the file was created by running the following command:
-    
 
 ```apache
 ls /mnt/test
@@ -311,7 +293,6 @@ ls /mnt/test
 You'll see that `testfile` is in the directory.
 
 3. You can see the content of the file by running the following command:
-    
 
 ```apache
 nano /mnt/test/testfile
@@ -327,7 +308,14 @@ This is a test
 
 ## Solution of Lab
 
-%[https://youtu.be/H5VZcKKLC1E] 
+%[https://youtu.be/H5VZcKKLC1E]
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP244/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Cloud%20Filestore%20Qwik%20Start/gsp244.sh
@@ -335,4 +323,4 @@ sudo chmod +x *.sh
 ./*.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744776671496/b1925ac8-1cb5-4f5f-8e5b-b615abcf21e7.png align="center")
+![](<https://cdn.hashnode.com/res/hashnode/image/upload/v1744776671496/b1925ac8-1cb5-4f5f-8e5b-b615abcf21e7.png> align="center")
