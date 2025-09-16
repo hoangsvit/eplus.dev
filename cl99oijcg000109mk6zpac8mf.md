@@ -5,9 +5,9 @@ seoDescription: "In this lab you'll learn how to create and connect to a Google 
 datePublished: Tue Aug 06 2024 17:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cl99oijcg000109mk6zpac8mf
 slug: cloud-sql-for-postgresql-qwik-start-gsp152
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722995096635/3b9809e4-41ef-459d-a4da-2b97653d8e38.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758002061255/7add00de-ee66-485d-b649-14fddb2f818d.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1758001914118/f70bdc1f-09db-4715-bb54-6a137aa6be9e.png
-tags: cloud-sql-for-postgresql-qwik-start-gsp152
+tags: postgresql, cloud-sql-for-postgresql-qwik-start-gsp152, gsp1262, cloud-sql-for-postgresql-qwik-start, cloud-sql-for-postgresql
 
 ---
 
