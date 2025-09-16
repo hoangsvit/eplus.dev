@@ -5,9 +5,9 @@ seoDescription: "In this lab, you learn how to create and connect to a Cloud SQL
 datePublished: Wed Aug 07 2024 02:08:27 GMT+0000 (Coordinated Universal Time)
 cuid: clzj7mto400070ak01dok67ar
 slug: cloud-sql-for-mysql-qwik-start-gsp151
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722996404023/76e4986e-c315-4fc0-a378-bcff16cba366.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722996492427/d41f2cb6-2a69-4665-afca-64b9feb1c529.png
-tags: cloud-sql-for-mysql-qwik-start-gsp151
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758001678478/22d9c733-31cb-491a-b3c8-658546b6ab5e.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1758001703754/52524eb4-69a7-4c84-8bfe-57f7d36356cf.png
+tags: cloud-sql-for-mysql-qwik-start-gsp151, gsp151, cloud-sql-for-mysql
 
 ---
 
@@ -145,6 +145,15 @@ mysql>
 ---
 
 ### Solution of Lab
+
+### New Solution
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP151/lab.sh
+source lab.sh
+```
+
+### Old Solution
 
 %[https://www.youtube.com/watch?v=bUAZne0NeoA] 
 
