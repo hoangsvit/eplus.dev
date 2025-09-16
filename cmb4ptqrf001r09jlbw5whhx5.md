@@ -388,8 +388,6 @@ In your scenario, you will load data into Spanner banking database from a CSV fi
 | **Cloud Spanner Database Id** | **banking-db** |
 | **Text Import Manifest file** | **cloud-training/OCBL372/manifest.json** |
 
-  
-
 The `manifest.json` file format is explained [in the tutorial for this template](https://cloud.google.com/dataflow/docs/guides/templates/provided-batch#gcstexttocloudspanner) (you can access it by clicking **open tutorial** just above the parameter input fields).
 
 The manifest file must be stored in a Google Cloud Storage bucket that Dataflow can access to and read from. For this lab, this is the content of **manifest.json**:
@@ -487,8 +485,6 @@ In this lab, you will use the **Cloud Console** to backup your database.
 | **Backup Name** | **banking-backup-001** |
 | **Expiration Date** | **1 year** |
 
-  
-
 4. Click **Create**.
     
 5. The backup will take around 15 minutes to complete and will appear in the **Backups** list while being created.
@@ -512,3 +508,12 @@ curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Clou
 sudo chmod +x techcps1049.sh
 ./techcps1049.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757988628190/5c5b7c51-47a3-4a95-acae-dbb724ce4790.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757988632394/4250e827-e2e9-421d-a47e-223169a8fff8.png align="center")
+
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text">in first try, 4th task does not work. In the second try, all tasks were completed.</div>
+</div>
