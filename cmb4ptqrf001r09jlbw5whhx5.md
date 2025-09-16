@@ -505,18 +505,20 @@ source lab.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757992320743/32d62a7a-63db-412f-87d3-538c4a444908.png align="center")
 
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text">Check my progress for Task 4 and come back here and press Y</div>
+</div>
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757988628190/5c5b7c51-47a3-4a95-acae-dbb724ce4790.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757988632394/4250e827-e2e9-421d-a47e-223169a8fff8.png align="center")
+
 ---
 
 ### Old Solution
 
 %[https://youtu.be/DzjLV6Hs3Mo] 
-
-```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1049/lab.sh
-source lab.sh
-```
-
-**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Cloud%20Spanner%20-%20Loading%20Data%20and%20Performing%20Backups/techcps1049.sh
@@ -530,5 +532,5 @@ sudo chmod +x techcps1049.sh
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text">in first try, 4th task does not work. In the second try, all tasks were completed.</div>
+<div data-node-type="callout-text">In first try, 4th task does not work. In the second try, all tasks were completed.</div>
 </div>
