@@ -494,6 +494,21 @@ In this lab, you will use the **Cloud Console** to backup your database.
 
 ## Solution of Lab
 
+### New Solution
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1049/lab.sh
+source lab.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757992315992/1f019483-a035-44a9-a511-9c0616e528f3.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757992320743/32d62a7a-63db-412f-87d3-538c4a444908.png align="center")
+
+---
+
+### Old Solution
+
 %[https://youtu.be/DzjLV6Hs3Mo] 
 
 ```apache
