@@ -256,6 +256,13 @@ Below are multiple-choice questions to reinforce your understanding of this lab'
 %[https://www.youtube.com/watch?v=JZ63ZHBuTms&ab_channel=Techcps] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP123/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Introduction%20to%20Cloud%20Dataproc%3A%20Hadoop%20and%20Spark%20on%20Google%20Cloud/techcps123.sh
 sudo chmod +x techcps123.sh
 ./techcps123.sh
