@@ -5,9 +5,9 @@ seoDescription: "BigQuery is Google's fully managed, NoOps, low cost analytics d
 datePublished: Tue Aug 06 2024 13:57:54 GMT+0000 (Coordinated Universal Time)
 cuid: clzihjbzh000k09l6f8qg3jrh
 slug: troubleshooting-and-solving-data-join-pitfalls-gsp412
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722951825582/ec3664bd-4b0e-41fd-ad34-ea9785578d2e.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722952658185/b485f49c-003a-44ba-a46b-8ce462644431.png
-tags: troubleshooting-and-solving-data-join-pitfalls-gsp412
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758004151604/b32f6c4e-b5b8-472e-b961-438cabc9698d.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1758004117076/20298b8b-82d4-4d28-950d-1365bfe3b2aa.png
+tags: troubleshooting-and-solving-data-join-pitfalls-gsp412, gsp1262, troubleshooting-and-solving-data-join-pitfalls
 
 ---
 
@@ -678,6 +678,13 @@ Click **Check my progress** to verify the objective.
 ### Solution of Lab
 
 %[https://www.youtube.com/watch?v=QtvXdVnelLo] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP412/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/2024%20Troubleshooting%20and%20Solving%20Data%20Join%20Pitfalls/quicklabgsp412.sh
