@@ -444,7 +444,12 @@ For feedback, suggestions, or corrections, please use the **Support** tab.
 ```apache
 export REGION_1=
 export REGION_2=
-export REGION_3=us-east4
+export REGION_3=
+```
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP016/lab.sh
+source lab.sh
 ```
 
 **Script Alternative**
