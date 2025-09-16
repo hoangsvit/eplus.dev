@@ -507,7 +507,7 @@ source lab.sh
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text">Check my progress for Task 4 and come back here and press Y</div>
+<div data-node-type="callout-text">Check my progress for <strong>Task 4 </strong>and come back here and press <strong>Y.</strong></div>
 </div>
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757988628190/5c5b7c51-47a3-4a95-acae-dbb724ce4790.png align="center")
