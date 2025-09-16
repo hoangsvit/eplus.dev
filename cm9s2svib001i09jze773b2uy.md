@@ -694,7 +694,12 @@ The subplans contain a cross apply. Each cross apply performs a table scan on ta
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=OBMGgjSIiGo] 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1050/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Cloud%20Spanner%20-%20Defining%20Schemas%20and%20Understanding%20Query%20Plans/gsp1050.sh
