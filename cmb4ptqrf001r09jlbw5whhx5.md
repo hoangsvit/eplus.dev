@@ -498,10 +498,10 @@ In this lab, you will use the **Cloud Console** to backup your database.
 
 ## Solution of Lab
 
-%[https://youtu.be/BrOP208NIcQ] 
+%[https://youtu.be/DzjLV6Hs3Mo] 
 
 ```apache
-curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/Cloud%20Spanner%20-%20Loading%20Data%20and%20Performing%20Backups/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Cloud%20Spanner%20-%20Loading%20Data%20and%20Performing%20Backups/techcps1049.sh
+sudo chmod +x techcps1049.sh
+./techcps1049.sh
 ```
