@@ -191,9 +191,9 @@ Visualize Dimensions and Measures
 
 ## Solution of Lab
 
-%[https://youtu.be/gAN_Y4qsQUQ] 
+%[https://youtu.be/qxYbMRka_iQ] 
 
-### **faa.model file**
+**faa.model file**
 
 ```apache
 explore: +airports {
