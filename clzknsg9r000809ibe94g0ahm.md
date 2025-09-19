@@ -6,7 +6,7 @@ datePublished: Thu Aug 08 2024 02:28:29 GMT+0000 (Coordinated Universal Time)
 cuid: clzknsg9r000809ibe94g0ahm
 slug: app-building-with-appsheet-challenge-lab-arc105
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758256094173/f10214ff-4f59-4703-a115-a5762204793c.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723084095606/bbb05489-f177-4ad0-9e43-a3f793e83683.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1758256139364/478c3cbf-ee22-46b8-8648-fc95d3bcaa6c.png
 tags: app-building-with-appsheet-challenge-lab-arc105, arc105, app-building-with-appsheet-challenge-lab
 
 ---
