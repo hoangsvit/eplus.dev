@@ -492,4 +492,17 @@ Find the total number of products in each product category
 
 ## Solution of Lab
 
-%[https://youtu.be/4Vs0TX66qNc]
+%[https://youtu.be/1gF3begNpos]
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP718/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Troubleshooting%20Common%20SQL%20Errors%20with%20BigQuery/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
+```
