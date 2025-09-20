@@ -550,12 +550,12 @@ source average_num_riders.sql;
 
 ## Solution of Lab
 
-%[https://youtu.be/GPGMr6lFd5k] 
+%[https://youtu.be/GTvOln2A7s4] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/SingleStore%20on%20Google%20Cloud/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/SingleStore%20on%20Google%20Cloud/gsp1096.sh
+sudo chmod +x *.sh
+./*.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1745479144984/d82cb306-2e95-4b4e-bb59-24213a71e7c3.png align="center")
