@@ -354,6 +354,13 @@ Create changes in Spanner and track them in BigQuery
 %[https://youtu.be/bhxCyaF_bgM] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1097/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Reconciling%20Account%20Data%20with%20Cloud%20Spanner%20Change%20Streams/techcps1097.sh
 sudo chmod +x techcps1097.sh
 ./techcps1097.sh
