@@ -393,7 +393,7 @@ Click *Check my progress* to verify the objective.
 
 ## Solution of Lab
 
-%[https://youtu.be/Y-e4rvEWrKY] 
+%[https://youtu.be/LDgitDqznGU] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723792222422/479ae2be-99ef-4fad-8a07-e52cc0ff64ef.png align="center")
 
