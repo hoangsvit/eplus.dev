@@ -114,7 +114,7 @@ Although the organization and quality of the underlying LookML code might not be
 
 Here are a few ideas for writing sustainable and modular LookML code:
 
-* Use [substitution operators](https://docs.looker.com/data-modeling/learning-lookml/sql-and-referring-to-lookml#substitution_operator_(%24)) throughout your code to minimize hard-coded references to your underlying database.
+* Use [substitution operators](https://docs.looker.com/data-modeling/learning-lookml/sql-and-referring-to-lookml#substitution_operator_\(%24\)) throughout your code to minimize hard-coded references to your underlying database.
     
 * Identify appropriate cases for SQL-derived versus native-derived tables.
     
@@ -146,7 +146,7 @@ For more information about these topics, see [Looker Dos and Don'ts](https://hel
 
 ## **Task 1. Create fields that leverage existing fields and descriptive naming conventions**
 
-When creating new dimensions and measures, always review the existing LookML objects in your model for potential reuse. To facilitate code updates, a best practice is to use [substitution operators](https://docs.looker.com/data-modeling/learning-lookml/sql-and-referring-to-lookml#substitution_operator_(%24)) throughout your code to minimize hard-coded references to objects in your underlying database.
+When creating new dimensions and measures, always review the existing LookML objects in your model for potential reuse. To facilitate code updates, a best practice is to use [substitution operators](https://docs.looker.com/data-modeling/learning-lookml/sql-and-referring-to-lookml#substitution_operator_\(%24\)) throughout your code to minimize hard-coded references to objects in your underlying database.
 
 In addition to leveraging existing objects, also choose descriptive names when creating new objects, which can help developers and business users find fields for their code or analysis. In this task, you create a new **yesno** dimension to identify canceled orders by leveraging the existing status dimension, create new measures that leverage existing objects to calculate the percentage of revenue lost from canceled orders, and apply descriptive naming conventions to new dimensions and measures.
 
@@ -769,6 +769,8 @@ Click *Check my progress* to verify the objective.
 ## Solution of Lab
 
 %[https://www.youtube.com/watch?v=l92DnC5K3dM] 
+
+**Toggle Development mode button &gt; Develop &gt; qwiklabs-ecommerce**
 
 ### order\_items.view
 
