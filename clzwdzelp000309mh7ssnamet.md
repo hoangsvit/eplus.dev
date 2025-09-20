@@ -398,7 +398,7 @@ Click *Check my progress* to verify the objective.
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723792222422/479ae2be-99ef-4fad-8a07-e52cc0ff64ef.png align="center")
 
 ```bash
-FILE NAME:  location
+location
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723792256333/7170bd03-4f1a-4f01-9eec-76d6cf48d7a2.png align="center")
@@ -442,7 +442,7 @@ view: location {
 ---
 
 ```bash
-FILE NAME :  users
+users
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723792394517/38d20f2d-0fa7-4f8d-b107-d914ba09f11f.png align="center")
@@ -545,12 +545,12 @@ view: users {
 ```
 
 ```bash
-FILE NAME :   events
+events
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723792449798/5a9c67d5-4e27-4122-bc93-22dc1752ac6f.png align="center")
 
-```bash
+```apache
 include: location.view
 view: events {
   extends: [location]
@@ -676,7 +676,7 @@ view: events {
 ---
 
 ```bash
-FILE NAME :-  training_ecommerce
+training_ecommerce
 ```
 
 ```apache
