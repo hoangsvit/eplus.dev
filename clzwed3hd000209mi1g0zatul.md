@@ -551,9 +551,7 @@ view: users {
 
 ---
 
-```bash
-FILE NAME : training_ecommerce.model
-```
+### training\_ecommerce.model
 
 ```apache
 connection: "bigquery_public_data_looker"
