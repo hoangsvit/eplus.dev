@@ -550,6 +550,8 @@ source average_num_riders.sql;
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/GTvOln2A7s4] 
 
 ```apache
@@ -557,6 +559,8 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/h
 sudo chmod +x *.sh
 ./*.sh
 ```
+
+### Manual
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1745479144984/d82cb306-2e95-4b4e-bb59-24213a71e7c3.png align="center")
 
