@@ -644,4 +644,14 @@ explore: events {
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747556477971/a7b8cf79-b8ed-4ee1-bcec-85db35e7bce4.png align="center")
 
+* Click **Save &gt; As a Look**.
+    
+
+* Name the Look
+    
+    ```plaintext
+    Top 10 Users With Highest Average Sales.
+    ```
+    
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747556763489/4e86dc9d-8607-47dd-9077-efa0f0f187a2.png align="center")
