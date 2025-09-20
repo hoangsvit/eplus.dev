@@ -202,7 +202,7 @@ Click *Check my progress* to verify the objective.
 
 ## Solution of Lab
 
-%[https://youtu.be/ZFn5Sa2Q4Ss] 
+%[https://youtu.be/3CYc6Lw0U5M] 
 
 **Toggle Development mode button &gt; Develop &gt; qwiklabs-ecommerce**
 
