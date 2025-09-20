@@ -354,9 +354,9 @@ Create changes in Spanner and track them in BigQuery
 %[https://youtu.be/s2Prn-73IMw] 
 
 ```apache
-curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/Reconciling%20Account%20Data%20with%20Cloud%20Spanner%20Change%20Streams/arcadecrew.sh
-chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Reconciling%20Account%20Data%20with%20Cloud%20Spanner%20Change%20Streams/techcps1097.sh
+sudo chmod +x techcps1097.sh
+./techcps1097.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752117595115/96f2d1fa-cb18-4676-aa21-2ee6f9a11670.png align="center")
