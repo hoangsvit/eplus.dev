@@ -393,9 +393,9 @@ Now it's time to test your new Explores. Go to each Explore (**Events** and **Co
 
 %[https://www.youtube.com/watch?v=YfAaHLVQBtI] 
 
-```bash
-FILE NAME : user_order_lifetime
-```
+**Toggle Development mode button &gt; Develop &gt; qwiklabs-ecommerce**
+
+### user\_order\_lifetime.view
 
 ```apache
 view: user_order_lifetime {
@@ -439,9 +439,7 @@ view: user_order_lifetime {
 
 ---
 
-```apache
-FILE NAME :  users.view
-```
+### users.view
 
 ```apache
 view: users {
