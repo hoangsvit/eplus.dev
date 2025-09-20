@@ -541,8 +541,6 @@ view: users {
 ```
 ### events.view
 
-```
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723792449798/5a9c67d5-4e27-4122-bc93-22dc1752ac6f.png align="center")
 
 ```apache
