@@ -555,6 +555,13 @@ source average_num_riders.sql;
 %[https://youtu.be/GTvOln2A7s4] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1096/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/SingleStore%20on%20Google%20Cloud/gsp1096.sh
 sudo chmod +x *.sh
 ./*.sh
