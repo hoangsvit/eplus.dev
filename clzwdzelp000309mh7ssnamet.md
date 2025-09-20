@@ -668,6 +668,8 @@ view: events {
 
 ---
 
+### training_ecommerce.model
+
 ```apache
 connection: "bigquery_public_data_looker"
 
