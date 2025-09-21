@@ -461,6 +461,8 @@ Great! You have now started training your first Custom Document AI Processor. Si
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/WSSh4t5ds8E] 
 
 **Step 1 – Cloud Shell Setup (Run Script)**
@@ -495,7 +497,16 @@ chmod +x docai_master.sh
 
 Add schema fields one by one:
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Name</strong></p></td><td colspan="1" rowspan="1"><p><strong>Data Type</strong></p></td><td colspan="1" rowspan="1"><p><strong>Occurrence</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p>control_number</p></td><td colspan="1" rowspan="1"><p>Number</p></td><td colspan="1" rowspan="1"><p>Optional multiple</p></td></tr><tr><td colspan="1" rowspan="1"><p>employees_social_security_number</p></td><td colspan="1" rowspan="1"><p>Number</p></td><td colspan="1" rowspan="1"><p>Required multiple</p></td></tr><tr><td colspan="1" rowspan="1"><p>employer_identification_number</p></td><td colspan="1" rowspan="1"><p>Number</p></td><td colspan="1" rowspan="1"><p>Required multiple</p></td></tr><tr><td colspan="1" rowspan="1"><p>employers_name_address_and_zip_code</p></td><td colspan="1" rowspan="1"><p>Address</p></td><td colspan="1" rowspan="1"><p>Required multiple</p></td></tr><tr><td colspan="1" rowspan="1"><p>federal_income_tax_withheld</p></td><td colspan="1" rowspan="1"><p>Money</p></td><td colspan="1" rowspan="1"><p>Required multiple</p></td></tr><tr><td colspan="1" rowspan="1"><p>social_security_tax_withheld</p></td><td colspan="1" rowspan="1"><p>Money</p></td><td colspan="1" rowspan="1"><p>Required multiple</p></td></tr><tr><td colspan="1" rowspan="1"><p>social_security_wages</p></td><td colspan="1" rowspan="1"><p>Money</p></td><td colspan="1" rowspan="1"><p>Required multiple</p></td></tr><tr><td colspan="1" rowspan="1"><p>wages_tips_other_compensation</p></td><td colspan="1" rowspan="1"><p>Money</p></td><td colspan="1" rowspan="1"><p>Required multiple</p></td></tr></tbody></table>
+| **Name** | **Data Type** | **Occurrence** |
+| --- | --- | --- |
+| control\_number | Number | Optional multiple |
+| employees\_social\_security\_number | Number | Required multiple |
+| employer\_identification\_number | Number | Required multiple |
+| employers\_name\_address\_and\_zip\_code | Address | Required multiple |
+| federal\_income\_tax\_withheld | Money | Required multiple |
+| social\_security\_tax\_withheld | Money | Required multiple |
+| social\_security\_wages | Money | Required multiple |
+| wages\_tips\_other\_compensation | Money | Required multiple |
 
 **Step 4 – Upload & Label Sample**
 
@@ -566,3 +577,10 @@ Add schema fields one by one:
 4. Click **Start Training** (may take a few hours ⏳)
     
 5. Monitor progress → **Deploy & Use tab**
+    
+
+---
+
+### Manual
+
+%[https://youtu.be/PP3AEeDlU9c]
