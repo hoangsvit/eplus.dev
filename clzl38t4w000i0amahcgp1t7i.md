@@ -201,6 +201,13 @@ The `index.html` file includes inline JavaScript to read the results from the fo
 %[https://www.youtube.com/watch?v=MVI-hStsNpo] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1201/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 export REGION=
 ```
 
