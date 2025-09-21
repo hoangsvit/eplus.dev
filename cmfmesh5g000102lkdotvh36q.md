@@ -355,6 +355,18 @@ sudo chmod +x GSP1145.sh
 ./GSP1145.sh
 ```
 
+**Task 2: Open link** [https://console.cloud.google.com/dataplex/catalog/aspect-types](https://console.cloud.google.com/dataplex/catalog/aspect-types)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758422530750/f384a918-f986-44f5-b562-87de1aa64234.png align="center")
+
+**Task 3:** [Open link](https://console.cloud.google.com/dataplex/dp-search-nl?cloudshell=true&project=qwiklabs-gcp-00-24ebcc23d906&q=customer_details&qSystems=)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758422694862/3e39e84b-f36c-45b9-8a2f-b054b61e7c2a.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758422754652/2e87b7a7-727f-4ff2-8250-bc675944dfdb.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758422961406/2082ab19-5d3a-4679-ac2a-c99427d93fc0.png align="center")
+
 ---
 
 ### Manual
