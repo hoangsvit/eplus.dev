@@ -5,9 +5,9 @@ seoDescription: "This lab demonstrates how to create and deploy an AI-powered ch
 datePublished: Thu Aug 08 2024 09:41:07 GMT+0000 (Coordinated Universal Time)
 cuid: clzl38t4w000i0amahcgp1t7i
 slug: build-a-chat-application-using-the-palm-2-api-on-cloud-run-gsp1201
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723109918328/7a0069a9-d9b6-4ee9-b9b3-e354098b0f37.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723110053159/d23bbce1-7695-4685-bd22-f384d900c17e.png
-tags: build-a-chat-application-using-the-palm-2-api-on-cloud-run-gsp1201
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758435113584/1006344d-2c5a-479b-9942-82031d68acca.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1758436904994/744b7157-2f68-45d7-bb89-b008b1b00c36.png
+tags: chat-application, cloud-run, build-a-chat-application-using-the-palm-2-api-on-cloud-run-gsp1201, gsp1201, build-a-chat-application-using-the-palm-2-api-on-cloud-run, palm-2-api
 
 ---
 
@@ -196,16 +196,30 @@ The `index.html` file includes inline JavaScript to read the results from the fo
 
 ### Solution of Lab
 
+### Quick
+
 %[https://www.youtube.com/watch?v=MVI-hStsNpo] 
 
 ```apache
 export REGION=
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723109878588/3dc2ad21-0fde-49e5-a33b-c4cba26b1472.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758435446534/9ba76e0f-2c5f-44e8-9c33-d088ec411889.png align="center")
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Build%20a%20Chat%20Application%20using%20the%20PaLM%202%20API%20on%20Cloud%20Run/quicklabgsp1201.sh
 sudo chmod +x quicklabgsp1201.sh
 ./quicklabgsp1201.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758437107740/2096640b-38c3-477f-8190-fbf49d1cb881.png align="center")
+
+```apache
+What is Google Cloud Platform?
+```
+
+---
+
+### Manual
+
+%[https://youtu.be/MVI-hStsNpo]
