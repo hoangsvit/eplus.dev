@@ -342,6 +342,8 @@ In this task, you search for the assets that have the Protected Data aspect appl
 
 ### Quick
 
+**Task 1: Run the script in the terminal**
+
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1145/lab.sh
 source lab.sh
@@ -355,11 +357,11 @@ sudo chmod +x GSP1145.sh
 ./GSP1145.sh
 ```
 
-**Task 2: Open link** [https://console.cloud.google.com/dataplex/catalog/aspect-types](https://console.cloud.google.com/dataplex/catalog/aspect-types)
+**Task 2:** [Open the link](https://console.cloud.google.com/dataplex/catalog/aspect-types)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758422530750/f384a918-f986-44f5-b562-87de1aa64234.png align="center")
 
-**Task 3:** [Open link](https://console.cloud.google.com/dataplex/dp-search-nl?cloudshell=true&project=qwiklabs-gcp-00-24ebcc23d906&q=customer_details&qSystems=)
+**Task 3:** [Open the link](https://console.cloud.google.com/dataplex/dp-search-nl?cloudshell=true&project=qwiklabs-gcp-00-24ebcc23d906&q=customer_details&qSystems=)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758422694862/3e39e84b-f36c-45b9-8a2f-b054b61e7c2a.png align="center")
 
