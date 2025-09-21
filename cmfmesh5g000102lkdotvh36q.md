@@ -338,7 +338,7 @@ In this task, you search for the assets that have the Protected Data aspect appl
 
 ### Solution of Lab
 
-%[https://youtu.be/hjoLkCAWqzo]
+### Quick
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1145/lab.sh
@@ -352,3 +352,9 @@ curl -LO https://raw.githubusercontent.com/pspcps/Arcade/master/GSP1145.sh
 sudo chmod +x GSP1145.sh
 ./GSP1145.sh
 ```
+
+---
+
+### Manual
+
+%[https://youtu.be/M7iof7uBxSo]
