@@ -338,6 +338,8 @@ In this task, you search for the assets that have the Protected Data aspect appl
 
 ### Solution of Lab
 
+%[https://youtu.be/QC0EPbs1LVQ] 
+
 ### Quick
 
 ```apache
