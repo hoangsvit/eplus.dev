@@ -583,4 +583,4 @@ Add schema fields one by one:
 
 ### Manual
 
-%[https://youtu.be/PP3AEeDlU9c]
+%[https://youtu.be/j8kMUnS38AM]
