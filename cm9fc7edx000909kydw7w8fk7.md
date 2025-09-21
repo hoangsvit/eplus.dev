@@ -510,7 +510,7 @@ Display insights for View B
 
 ### New Solution
 
-%[https://youtu.be/73ItRf5GeNk] 
+%[https://youtu.be/m3BY-ifc_Vs] 
 
 **Run in CloudShell**
 
@@ -586,11 +586,11 @@ JOIN `'$PROJECT_ID'.demo_dataset.authorized_view_b` as geos
 ON geos.zip_code = cust.postal_code;' customer_b_dataset.customer_b_table
 ```
 
-> Open in inc[ognito](https://lookerstudio.google.com/) [Looker](https://lookerstudio.google.com/) &gt; Blank report &gt; Country `India` &gt; Company `cloudhustlers`
+> Open in incognito [Looker](https://lookerstudio.google.com/) &gt; Blank report &gt; Country `India` &gt; Company `cloudhustlers`
 
-> Agr[ee and](https://lookerstudio.google.com/) continue &gt; Yes to all &gt; Continue &gt; Bigquery &gt; Authorize
+> Agree and continue &gt; Yes to all &gt; Continue &gt; Bigquery &gt; Authorize
 
-> G[CP ID](https://lookerstudio.google.com/) \&gt; customer\_b\_dataset &gt; [custo](https://lookerstudio.google.com/)mer\_b\_table &gt; ADD &gt; add to report
+> GCP ID &gt; customer\_b\_dataset &gt; [c](https://lookerstudio.google.com/)us[to](https://lookerstudio.google.com/)mer\_b\_table &gt; ADD &gt; add to report
 
 ---
 
@@ -598,7 +598,7 @@ ON geos.zip_code = cust.postal_code;' customer_b_dataset.customer_b_table
 
 %[https://youtu.be/uShq4W2L4E8] 
 
-### **1\. ☁**[**️ Init**](https://lookerstudio.google.com/)**ialize Views in Cloud Shell**
+### **1\. ☁️ Initialize Views in Cloud Shell**
 
 ```apache
 curl -LO https://raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Analytics%20as%20a%20Service%20for%20Data%20Sharing%20Partners/arcadecrew.sh
