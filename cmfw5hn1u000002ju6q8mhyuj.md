@@ -197,7 +197,7 @@ Create AppSheet application
 5. Save changes.
     
 
-![]( align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758607895523/cd94bf67-7754-4159-b57e-29f3afa0f58c.png align="center")
 
 ✅ Check progress: *Create your signature*
 
@@ -205,7 +205,7 @@ Create AppSheet application
 
 ### 📅 Task 2. Add Out-of-Office Event
 
-1. Open **Google Calendar**.
+1. Open [**Google Calendar**](https://calendar.google.com/calendar).
     
 2. Click **\+ Create** → choose **Out of office**.
     
@@ -217,6 +217,8 @@ Create AppSheet application
     
 6. Save.
     
+
+![]( align="center")
 
 ✅ Check progress: *Add out-of-office dates*
 
