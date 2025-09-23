@@ -176,4 +176,33 @@ Create AppSheet application
 
 ## Solution of Lab
 
-%[https://youtu.be/GhubnQy9KME]
+%[https://youtu.be/GhubnQy9KME] 
+
+**Task 1 – Gmail Signature**
+
+* Go to Gmail → Settings → General → Signature → Create new with Name, Position, Contact → Save.
+    
+
+**Task 2 – Out of Office**
+
+* Calendar → Create → Out of Office → Title: *OOO Orientation* → Next 3 days → Save.
+    
+
+**Task 3 – Google Drive Folder**
+
+* Drive → New → Folder → Name: *Project Information* → Create.
+    
+
+**Task 4 – Weekly Status Meeting**
+
+* Calendar → Create Event → Title: *Weekly Status Meeting* → Set time → Repeat weekly → Add Colleague 1 + Colleague 2 emails → Save.
+    
+
+**Task 5 – Project Task Sheet**
+
+* Sheets → Blank Spreadsheet → Rename: *Project Task Sheet* → Add headers (Tasks | Owner | Priority | Status | Comments) → Share with Colleague 1 + Colleague 2 (Editor).
+    
+
+**Task 6 – AppSheet Application**
+
+* Go to AppSheet → Sign in with student account → Make new app → Any template → Confirm creation.
