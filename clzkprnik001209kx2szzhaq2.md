@@ -5,9 +5,9 @@ seoDescription: "In this lab, you set up a Python development environment on Goo
 datePublished: Thu Aug 08 2024 03:23:51 GMT+0000 (Coordinated Universal Time)
 cuid: clzkprnik001209kx2szzhaq2
 slug: app-dev-setting-up-a-development-environment-python-gsp183
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723087345630/2bfe9756-1bb7-42a1-95b2-8b48773fd5e8.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723087417140/5d259d95-041f-45c3-bda7-584f0870064a.png
-tags: app-dev-setting-up-a-development-environment-python-gsp183
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758620986621/82c01430-a727-4314-b4da-ac1cf2f0f7fd.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1758620998230/5e5b67ef-ac92-4952-98f6-9d2d52a580a4.png
+tags: app-dev-setting-up-a-development-environment-python-gsp183, gsp103, app-dev-setting-up-a-development-environment-python
 
 ---
 
@@ -267,6 +267,23 @@ Firewall rules can be shared among networks.TrueFalse
 ---
 
 ### Solution of Lab
+
+### New Solution
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP183/lab.sh
+source lab.sh
+```
+
+---
+
+### Manual
+
+%[https://youtu.be/CUyEIpUk-Rw]
+
+---
+
+### Old Solution
 
 %[https://www.youtube.com/watch?v=WHCHU6RQ-2w] 
 
