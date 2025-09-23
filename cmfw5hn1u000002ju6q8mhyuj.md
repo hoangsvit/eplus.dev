@@ -277,6 +277,10 @@ Create AppSheet application
 5. Send.
     
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758608382320/f3195e59-5c45-492a-992e-26918cbe6c8f.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758608810486/4b77e185-b41f-4ac2-a8b1-97728cec1216.png align="center")
+
 ✅ Check progress: *Create and share a task spreadsheet*
 
 ---
