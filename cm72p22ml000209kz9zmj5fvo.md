@@ -526,4 +526,100 @@ In Google Docs, Sheets, Slides, Forms, and Google Sites, individuals can work to
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=rDmB4_RrOXs&ab_channel=QuickLab%E2%98%81%EF%B8%8F]
+%[https://www.youtube.com/watch?v=rDmB4_RrOXs&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
+
+**📤 Task 1. Upload and Store**
+
+1. Open **Google Drive**.
+    
+2. In the left panel → click **New &gt; File upload**.
+    
+    * Choose a file from your computer → click **Open**.
+        
+    * Wait for **Upload complete** message.
+        
+3. Click **New &gt; Folder upload** → pick a folder → upload.
+    
+4. Upload the **same file again** → choose **Replace existing file**.
+    
+5. Right-click that file → **File information &gt; Manage versions** → verify Version 1 is listed.
+    
+
+✅ Check progress: *Upload files to Drive*
+
+---
+
+**📂 Task 2. Access Your Files**
+
+* Drive syncs files across devices automatically.
+    
+* (Note: offline access is not supported in this lab, but in real accounts you’d enable it via **Settings &gt; Offline**).
+    
+
+---
+
+**👀 Task 3. View and Update**
+
+1. Right-click a file → **Open with &gt; Preview**.
+    
+    * Explore options: zoom, scroll, download, print, open with apps.
+        
+2. Double-click a file → it opens for editing (if Docs/Sheets/Slides).
+    
+3. Delete a file: select → **Trash icon**.
+    
+4. Restore deleted file: go to **Trash** → right-click → **Restore**.
+    
+5. Permanently delete: in **Trash** → right-click → **Delete forever**.
+    
+
+---
+
+**🗂️ Task 4. Organize and Search**
+
+1. Create folder:
+    
+    * In **My Drive** → **New &gt; New Folder** → name it **Important Data** → Create.  
+        ✅ Check progress: *Create a new folder*
+        
+2. Move files: drag-and-drop into folder OR right-click → **Move to**.
+    
+3. Star important items: right-click file/folder → **Add to Starred** → view under **Starred** menu.
+    
+4. Search files: use search box → enter keywords.
+    
+    * For advanced filters → click **Search options** (type, owner, location, date modified, etc.).
+        
+
+---
+
+**🤝 Task 5. Share and Collaborate**
+
+1. Share with people:
+    
+    * Right-click file/folder (e.g., **Important Data**) → **Share**.
+        
+    * Add email → assign role (Editor, Commenter, Viewer) → Send.
+        
+    * You’ll get a confirmation email.
+        
+2. Share with link:
+    
+    * Right-click **Important Data** → **Get link**.
+        
+    * Change from **Restricted** → **Qwiklabs**.
+        
+    * Choose role (Viewer, Commenter, Editor).
+        
+    * Copy link → Done.  
+        ✅ Check progress: *Share a link to a folder*
+        
+3. Stop sharing: right-click file → **Share** → remove user or set link to **Restricted**.
+    
+4. View activity/details:
+    
+    * Select item → open right-hand panel → choose **Activity** (see changes) or **Details** (metadata, description).
+        
+5. Collaborate in real time:
+    
+    * Click **New** → create Docs/Sheets/Slides → click **Share** → invite others.
