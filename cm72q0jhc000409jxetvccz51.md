@@ -367,3 +367,136 @@ Remember to check your Google [Drive](https://drive.google.com/drive/my-drive) t
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750307798201/4d8dab6b-d96c-4552-9465-4f94fc3b6da6.png align="center")
+
+**🎥 Task 1. Start a Video Meeting**
+
+1. Open **Google Apps menu (dots)** → click **Meet** (or go to [`meet.google.com`](http://meet.google.com)).
+    
+2. Click **New meeting** → **Start an instant meeting**.
+    
+3. Meeting starts with you as host → a dialog shows:
+    
+    * Meeting link
+        
+    * Dial-in number
+        
+    * PIN
+        
+4. Use bottom bar for controls (mic, camera, captions, hand raise, present, settings, leave).
+    
+
+✅ Check progress: *Start a video meeting*
+
+---
+
+**📅 Task 2. Schedule a Video Meeting in Calendar**
+
+1. Open **Google Calendar** → click **Create &gt; Event**.
+    
+2. Add title: *Weekly status check*.
+    
+3. Add at least **1 guest email** (e.g., your personal email).
+    
+4. Expand **Join with Google Meet** → find the meeting ID → record it.
+    
+5. Click **Save** → **Send** invitations.
+    
+
+✅ Check progress: *Schedule a video meeting in Calendar*
+
+---
+
+**📧 Task 3. Start a Video Meeting from Gmail**
+
+1. In **Gmail** → **Settings &gt; See all settings &gt; Chat and Meet** → confirm **Show Meet section** is enabled.
+    
+2. Bottom left → **Meet &gt; New meeting**.
+    
+3. Click **Join now** to launch.
+    
+4. To invite: choose **Send invite**, **Copy meeting invite**, or **Share via email**.
+    
+5. Add recipient email → **Send**.
+    
+
+---
+
+**🔑 Task 4. Join a Video Meeting from Google Meet**
+
+**Option A – Scheduled event:**
+
+* Open **Meet** → select your scheduled meeting → **Join now**.
+    
+
+**Option B – Meeting code:**
+
+* In **Meet** → enter code you recorded earlier → **Join now**.
+    
+
+---
+
+**📆 Task 5. Join a Meeting from Calendar**
+
+1. Open **Google Calendar** → click your scheduled event.
+    
+2. Click **Join with Google Meet** → **Join now**.
+    
+
+---
+
+**📬 Task 6. Join a Meeting from Gmail**
+
+**Option A – From My Meetings:**
+
+* In Gmail → bottom left **Meet** → select your scheduled meeting → **Join now**.
+    
+
+**Option B – Using code:**
+
+* In Gmail → **Meet &gt; Join a meeting** → enter meeting code → **Join now**.
+    
+* Leave this meeting open for next tasks.
+    
+
+---
+
+**⏺️ Task 7. Record a Video Meeting**
+
+1. In meeting → bottom right → **Activities &gt; Recording**.
+    
+2. Click **Start recording** → confirm.
+    
+3. When done → **Stop recording**.
+    
+4. File will save to **Google Drive** (may take a few minutes).
+    
+
+✅ Check progress: *Record a video meeting*
+
+---
+
+**💬 Task 8. Send Chat Messages**
+
+1. In meeting → bottom right → **Chat icon**.
+    
+2. Type a message → **Send**.
+    
+
+---
+
+**🛠️ Task 9. Handy Tools**
+
+* **Change Layout:** More options → Change Layout.
+    
+* **Apply Visual Effects:** Blur or replace background.
+    
+* **Settings:** Adjust camera, mic, speakers, and video quality.
+    
+
+---
+
+**👥 Task 10. Remove Participants (info only)**
+
+1. Bottom right → **People icon**.
+    
+2. Next to participant → **More actions &gt; Remove from meeting** → confirm.
