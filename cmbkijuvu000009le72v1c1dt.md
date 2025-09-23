@@ -608,4 +608,4 @@ Use the app icons in the right pane to view your schedule, reply to invitations,
 
 ## Solution of Lab
 
-%[https://youtu.be/qD5EPqqPBLs]
+%[https://youtu.be/vmN2sEl3GaM]
