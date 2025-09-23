@@ -287,7 +287,7 @@ Create AppSheet application
 
 ### 📱 Task 6. Create AppSheet Application
 
-1. Open [AppSheet](https://www.appsheet.com/start).
+1. Open [AppSheet](https://www.appsheet.com).
     
 2. Sign in with your **student account**.
     
