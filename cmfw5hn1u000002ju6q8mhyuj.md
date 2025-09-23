@@ -178,31 +178,112 @@ Create AppSheet application
 
 %[https://youtu.be/GhubnQy9KME] 
 
-**Task 1 – Gmail Signature**
+### 📝 Task 1. Create Gmail Signature
 
-* Go to Gmail → Settings → General → Signature → Create new with Name, Position, Contact → Save.
+1. Open **Gmail** → **Settings (⚙️)** → **See all settings**.
+    
+2. Go to **General** tab → scroll down to **Signature**.
+    
+3. Create new and enter:
+    
+    ```plaintext
+    Your Name
+    Position: [your role]
+    Contact: [phone / email]
+    ```
+    
+4. Choose **Automatically insert** when composing/replying emails.
+    
+5. Save changes.
     
 
-**Task 2 – Out of Office**
+✅ Check progress: *Create your signature*
 
-* Calendar → Create → Out of Office → Title: *OOO Orientation* → Next 3 days → Save.
+---
+
+### 📅 Task 2. Add Out-of-Office Event
+
+1. Open **Google Calendar**.
+    
+2. Click **\+ Create** → choose **Out of office**.
+    
+3. Title: **OOO Orientation**.
+    
+4. Select the next **3 consecutive days**.
+    
+5. Check **Automatically decline meetings** if available.
+    
+6. Save.
     
 
-**Task 3 – Google Drive Folder**
+✅ Check progress: *Add out-of-office dates*
 
-* Drive → New → Folder → Name: *Project Information* → Create.
+---
+
+### 📂 Task 3. Create a Folder in Drive
+
+1. Open **Google Drive**.
+    
+2. Click **\+ New** → **Folder**.
+    
+3. Name it (example): **Project Information**.
+    
+4. Create.
     
 
-**Task 4 – Weekly Status Meeting**
+✅ Check progress: *Create a folder*
 
-* Calendar → Create Event → Title: *Weekly Status Meeting* → Set time → Repeat weekly → Add Colleague 1 + Colleague 2 emails → Save.
+---
+
+### 👥 Task 4. Schedule Weekly Status Meeting
+
+1. Open **Google Calendar** → **\+ Create Event**.
+    
+2. Title: **Weekly Status Meeting**.
+    
+3. Select date & time (example: Monday, 10:00–11:00).
+    
+4. Change **Does not repeat** → **Weekly**.
+    
+5. Add Colleague 1 and Colleague 2 emails (from lab info).
+    
+6. Save & send invitations.
     
 
-**Task 5 – Project Task Sheet**
+✅ Check progress: *Schedule weekly status meetings*
 
-* Sheets → Blank Spreadsheet → Rename: *Project Task Sheet* → Add headers (Tasks | Owner | Priority | Status | Comments) → Share with Colleague 1 + Colleague 2 (Editor).
+---
+
+### 📊 Task 5. Create and Share Task Spreadsheet
+
+1. Open **Google Sheets** → **Blank Spreadsheet**.
+    
+2. Rename: **Project Task Sheet**.
+    
+3. Add headers in row 1:
+    
+    * Tasks | Owner | Priority | Status | Comments
+        
+4. Click **Share** (top right) → add Colleague 1 & Colleague 2 emails → give **Editor** access.
+    
+5. Send.
     
 
-**Task 6 – AppSheet Application**
+✅ Check progress: *Create and share a task spreadsheet*
 
-* Go to AppSheet → Sign in with student account → Make new app → Any template → Confirm creation.
+---
+
+### 📱 Task 6. Create AppSheet Application
+
+1. Open AppSheet.
+    
+2. Sign in with your **student account**.
+    
+3. Click **Make a new app** → choose “Start with your own data” or template.
+    
+4. Confirm creation and wait for the initial environment.
+    
+5. No need to add code.
+    
+
+✅ Check progress: *Create AppSheet application*
