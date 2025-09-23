@@ -608,4 +608,155 @@ Use the app icons in the right pane to view your schedule, reply to invitations,
 
 ## Solution of Lab
 
-%[https://youtu.be/vmN2sEl3GaM]
+%[https://youtu.be/vmN2sEl3GaM] 
+
+**📧 Task 1. Gmail Layout**
+
+1. Open **Gmail** with your student credentials.
+    
+2. Top right → **Settings (⚙️)** → choose **Density**: Default, Comfortable, or Compact.
+    
+3. (Optional) Click **Main menu icon** (≡) to close the left panel for more space.
+    
+
+---
+
+**📝 Task 2. Create, Send, and Receive Email**
+
+**Compose & send**
+
+1. Left side → **Compose**.
+    
+2. Add recipient (your personal email), subject, and message.
+    
+3. (Optional) Add attachments, links, images, Drive files, emojis.
+    
+4. Click **Send**.
+    
+
+**Undo send**
+
+1. Send a new email.
+    
+2. Quickly click **Undo** at bottom of screen.
+    
+3. To change time window: **Settings &gt; See all settings &gt; General &gt; Undo Send** → set **30 seconds** → Save.
+    
+
+**Read & manage emails**
+
+* Click **Inbox** → unread messages are **bold**.
+    
+* Turn off conversation view: **Settings &gt; General &gt; Conversation View off** → Save.
+    
+
+**Reply or forward**
+
+* Open email → click **Reply** or **Forward**.
+    
+* To change subject: Reply → dropdown near recipient → **Edit subject**.
+    
+
+**Attachments**
+
+1. Compose → send email to yourself with an attachment (paperclip icon).
+    
+2. Open Inbox → open email → preview, **Download** or **Add to Drive**.
+    
+
+**Vacation responder**
+
+1. **Settings &gt; General &gt; Vacation responder** → turn on.
+    
+2. Add start/end dates and message → Save.
+    
+3. ✅ Check my progress: *Turn your vacation responder on*
+    
+
+---
+
+**📂 Task 3. Organize Your Inbox**
+
+**Labels**
+
+* Create: **Settings &gt; Labels &gt; Create new label** → name = *Gmail Team*.
+    
+* From email: open → **Labels &gt; Create new** → name = *Tips*.
+    
+* Apply labels: select email → **Labels &gt; check Tips**.
+    
+* Add label color: left panel → hover label → **More &gt; Label color**.
+    
+
+**Move emails**
+
+* Select email → **Move to &gt; Gmail Team**.
+    
+
+**Filters**
+
+* In search box → **Show search options**.
+    
+* Example: From = gmail → **Create filter** → check *Skip Inbox (Archive it)* → Create.
+    
+
+**Starred email**
+
+* Click star next to Gmail Team emails.
+    
+* View under **Starred** in left panel.
+    
+
+**Snooze email**
+
+* Hover email → **Snooze** → pick date/time (e.g., 2 minutes).
+    
+* Appears under **Snoozed**, returns to inbox later.
+    
+
+**Archive/Delete**
+
+* Select email → click **Archive** or **Delete**.
+    
+* Find under **All mail** or **Trash**.
+    
+
+✅ Check my progress: *Organize your inbox*
+
+---
+
+**🔍 Task 4. Find Email**
+
+* Search bar: type keyword (e.g., “gmail”).
+    
+* Narrow search: **Show search options** → From = Gmail, Has words = inbox, Date = 1 day → Search.
+    
+
+---
+
+**✒️ Task 5. Create Signatures**
+
+1. **Settings &gt; General &gt; Signature &gt; Create new**.
+    
+2. Add name, title, contact info, or image.
+    
+3. In **Signature defaults**, set for **New Emails Use**.
+    
+4. Save changes.
+    
+5. Compose new email → signature auto-applies.
+    
+
+✅ Check my progress: *Create signatures*
+
+---
+
+**🗓️ Task 6. Access Calendar, Notes, and Tasks**
+
+* Right sidebar in Gmail → icons for:
+    
+    * **Calendar** (check/add events, respond to invites).
+        
+    * **Keep** (take notes).
+        
+    * **Tasks** (to-do lists).
