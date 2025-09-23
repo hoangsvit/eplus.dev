@@ -264,7 +264,7 @@ Create AppSheet application
 
 ### 📊 Task 5. Create and Share Task Spreadsheet
 
-1. Open [**Google Sheets**](https://docs.google.com/spreadsheets) → **Blank Spreadsheet**.
+1. Open [**Google Sheets**](https://docs.google.com/spreadsheets) → **Blank Spreadsheet** or [**Download file**](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP376/Project%20Task%20Sheet.xlsx).
     
 2. Rename: **Project Task Sheet**.
     
