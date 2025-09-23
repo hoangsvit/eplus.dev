@@ -197,6 +197,8 @@ Create AppSheet application
 5. Save changes.
     
 
+![]( align="center")
+
 ✅ Check progress: *Create your signature*
 
 ---
