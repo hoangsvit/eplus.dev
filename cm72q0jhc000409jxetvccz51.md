@@ -359,6 +359,20 @@ Remember to check your Google [Drive](https://drive.google.com/drive/my-drive) t
 
 %[https://www.youtube.com/watch?v=wdvIb2y5b9I&ab_channel=QUICKGCPLAB] 
 
+**📅 Task 2. Schedule a Video Meeting in Calendar**
+
+1. Open **Google Calendar** → click **Create &gt; Event**.
+
+2. Add title: *Weekly status check*.
+
+3. Add at least **1 guest email** (e.g., your personal email).
+
+4. Expand **Join with Google Meet** → find the meeting ID → record it.
+
+5. Click **Save** → **Send** invitations.
+
+**⏺️ Task 7. Record a Video Meeting**
+
 **<mark>Download file:</mark>**
 
 * [Link Google Drive](https://drive.google.com/drive/folders/1SdN3q55rZLY2H3sT-Y24dGWOtWMcEoY9)
