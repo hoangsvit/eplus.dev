@@ -254,6 +254,10 @@ Create AppSheet application
 6. Save & send invitations.
     
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758608382320/f3195e59-5c45-492a-992e-26918cbe6c8f.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758608488489/4eecf1d9-966b-4473-8cc2-c6cc03e3795a.png align="center")
+
 ✅ Check progress: *Schedule weekly status meetings*
 
 ---
