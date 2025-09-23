@@ -218,7 +218,7 @@ Create AppSheet application
 6. Save.
     
 
-![]( align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758608111159/84b1c2b8-b271-438a-b576-2642e318006a.png align="center")
 
 ✅ Check progress: *Add out-of-office dates*
 
@@ -226,7 +226,7 @@ Create AppSheet application
 
 ### 📂 Task 3. Create a Folder in Drive
 
-1. Open **Google Drive**.
+1. Open [**Google Drive**](https://drive.google.com/).
     
 2. Click **\+ New** → **Folder**.
     
