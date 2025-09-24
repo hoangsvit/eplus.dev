@@ -5,9 +5,9 @@ seoDescription: "Google Cloud cost management tools provide greater visibility, 
 datePublished: Wed Aug 07 2024 02:34:53 GMT+0000 (Coordinated Universal Time)
 cuid: clzj8ktm2000109l59z6d3tle
 slug: understanding-and-analyzing-your-costs-with-google-cloud-billing-reports-gsp614
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722997527895/b8a5936a-ac16-4e22-a27a-78f3d5305595.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722998070459/6980c12a-e9e5-49ea-9fe0-5df424c31554.png
-tags: understanding-and-analyzing-your-costs-with-google-cloud-billing-reports-gsp614
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758697542097/b5464407-520f-4546-a345-d9196127cbac.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1758697575285/3def05a7-c5a0-4014-84cb-2558aee02b09.png
+tags: understanding-and-analyzing-your-costs-with-google-cloud-billing-reports-gsp614, gsp1145, understanding-and-analyzing-your-costs-with-google-cloud-billing-reports, google-cloud-billing-reports
 
 ---
 
