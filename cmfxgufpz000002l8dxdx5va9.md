@@ -410,7 +410,7 @@ Delete redis deployment
 
 ## Solution of Lab
 
-%[https://youtu.be/hjoLkCAWqzo]
+%[https://youtu.be/AjbF2m2C35M]
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1177/lab.sh
