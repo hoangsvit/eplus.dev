@@ -769,7 +769,9 @@ Return to the browser tab with the Persistent Derived Tables page, and refresh t
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752480135273/010761c5-4f17-4f54-aef7-a1076eedfe57.png align="center")
 
-### incremental\_pdt
+qwiklabs-ecommerce
+
+**incremental_pdt**
 
 ```apache
 view: incremental_pdt {
@@ -823,7 +825,7 @@ view: incremental_pdt {
 }
 ```
 
-### training\_ecommerce.model.lkml
+**training_ecommerce.model.lkml**
 
 ```apache
 connection: "bigquery_public_data_looker"
