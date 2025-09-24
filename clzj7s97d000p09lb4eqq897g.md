@@ -165,7 +165,7 @@ Click *Check my progress* to verify the objective.
 
 ## Solution of Lab
 
-%[https://youtu.be/1VKyZkXk6Gc] 
+%[https://youtu.be/o7APJUVTBk4] 
 
 ### **🚀 Task 1: Create a custom measure**
 
