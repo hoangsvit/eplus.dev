@@ -439,6 +439,13 @@ You cannot reuse an instance name for up to a week after you have deleted an ins
 %[https://youtu.be/0E7hYP8-I_0] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP449/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/chayandeokar/Cloud-Skills-2025/refs/heads/master/Connect%20to%20Cloud%20SQL%20from%20an%20Application%20in%20Google%20Kubernetes%20Engine/GSP449.sh
 sudo chmod +x *.sh
 ./*.sh
