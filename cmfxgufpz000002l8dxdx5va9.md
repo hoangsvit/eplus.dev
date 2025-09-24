@@ -5,6 +5,7 @@ seoDescription: "Learn how to migrate a microservices e-Commerce app to Redis En
 datePublished: Wed Sep 24 2025 04:10:22 GMT+0000 (Coordinated Universal Time)
 cuid: cmfxgufpz000002l8dxdx5va9
 slug: scaling-microservices-applications-migration-to-redis-enterprise-on-google-cloud-gsp1177
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758687150432/ba75f734-9c5e-4185-8907-f96f62db1edb.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1758680026892/91ba328d-d069-4e65-86fa-35d0d4b36d0f.png
 tags: redis, scaling-microservices-applications-migration-to-redis-enterprise-on-google-cloud-gsp1177, scaling-microservices-applications-migration-to-redis-enterprise-on-google-cloud, gsp1177, scaling-microservices-applications, migration-to-redis-enterprise-on-google-cloud, redis-enterprise
 
