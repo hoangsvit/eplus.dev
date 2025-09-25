@@ -769,4 +769,4 @@ Welcome to the world of generative AI on Google Cloud
     🔁 Backup: [Raw Link](https://raw.githubusercontent.com/Techcps/GSP-Short-Trick/main/Get%20Started%20with%20Vertex%20AI%20Studio/techcps4.json)
     
 
-**Click this link to open Vertex Ai** [**Click Here**](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)
+**Click this link to open Vertex AI.** [**Click Here**](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)
