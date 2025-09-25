@@ -341,3 +341,135 @@ Create relationships between tables
 Download file: [quicklab.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP910/quicklab.xlsx)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723184531498/af9a8984-ad13-4bb3-aeee-4b3cb8a29661.png align="center")
+
+---
+
+## Manual
+
+**✅ Task 1: Copy the Sample App**
+
+1. Click **Open AppSheet** → sign in with the provided student account.
+    
+2. Close the “Tell us about you” popup if it appears.
+    
+3. Open the “**Customer Contacts app**” link → click **Copy app**.
+    
+4. Set the **App name** to `Customer Contacts` → click **Copy app**.
+    
+5. The app should now appear in your **My apps** page.
+    
+
+---
+
+**✅ Task 2: Add a Second Data Source (`companies`)**
+
+1. Open the “**A copy of companies**” link → click **Make a copy**.
+    
+2. Rename the copied sheet to `companies` → verify it’s in **My Drive**.
+    
+3. In AppSheet, go to **Data &gt; Contacts** → click **\+ Add new data**.
+    
+4. Choose **Google Sheets** → select the `companies` sheet.
+    
+5. In the **Create a new table** form → click **Add 1 table**.
+    
+
+✅ The `companies` table is now added as a second data source.
+
+---
+
+**✅ Task 3: Configure Data Structure**
+
+🧩 Update `contacts` table
+
+* **First Name** → enable `Require?` ✅
+    
+* **Phone** → change `Type` to `Phone`
+    
+
+👉 Click **SAVE**
+
+---
+
+🧩 Update `companies` table
+
+* **Phone** → change `Type` to `Phone`
+    
+* **Business Address** → change `Type` to `Address`
+    
+* **Shipping Information** → change `Type` to `LongText`
+    
+
+🔁 **Industry** → change `Type` to `Enum` and add the following values:
+
+```apache
+Accounting
+Finance
+Healthcare
+Retail
+Travel and Hospitality
+```
+
+👉 Click **SAVE**
+
+---
+
+🧩 Create a View for `companies` table
+
+1. Go to **App &gt; Views** → click `+`.
+    
+2. **View name:** `companies`
+    
+3. **For this data:** `companies`
+    
+4. Click **Save** → preview the company data view and try editing a record.
+    
+
+---
+
+**✅ Task 4: Regenerate Schema After Adding a New Column**
+
+➕ Add a new column to `contacts`
+
+1. Open the `contacts` sheet in Google Drive.
+    
+2. Add a new column header: **Last Contacted** (column F).
+    
+3. Go back to AppSheet → **Data &gt; Contacts** → **More (...) &gt; Regenerate Schema**.
+    
+4. Set `Type` of `Last Contacted` to **DateTime**.
+    
+5. Make sure `Require?` ❌ is unchecked.
+    
+
+👉 Click **SAVE**
+
+📱 In the app preview → edit a contact → select a date for **Last Contacted** → **Save**.  
+Verify the new column updates in the sheet.
+
+---
+
+**✅ Task 5: Create a Relationship Between Tables**
+
+🧩 Add `Company ID` column
+
+1. In the `contacts` sheet, add a new column: **Company ID** (column G).
+    
+2. Go back to AppSheet → **Data &gt; Contacts** → **Regenerate Schema**.
+    
+
+⚙️ Configure Reference (Ref) column
+
+1. Click ✏️ next to `Company ID`.
+    
+2. Change `Type` → **Ref**.
+    
+3. Set **Source table** → `companies`.
+    
+4. In the **Display Name** section → enter `Company`.
+    
+
+👉 Click **Save**.
+
+📱 In the live preview → edit a contact → choose a company from the dropdown → **Save**.  
+Verify the contact’s row now stores the company ID in the sheet.
