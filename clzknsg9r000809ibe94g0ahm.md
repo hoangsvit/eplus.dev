@@ -74,7 +74,7 @@ Leave the other attributes blank.
 
 ### Solution of Lab
 
-%[https://www.youtube.com/watch?v=b82vVY2rjZA] 
+%[https://youtu.be/dDk2luM4EzI] 
 
 **Step 1:** Copy this file to **Google Drive** with the name [companies](https://docs.google.com/spreadsheets/d/1fsusJTqRwsURG9GpduXVZE8XXfv9vzq5XXI9jBlcq9M/copy) sheet.
 
