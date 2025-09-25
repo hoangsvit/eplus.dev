@@ -742,6 +742,14 @@ Welcome to the world of generative AI on Google Cloud
 
 ## Solution of Lab
 
+### New Solution
+
+%[https://youtu.be/L-zzNnKriu4] 
+
+---
+
+### Old Solution
+
 %[https://youtu.be/x-BZX5gDRaw] 
 
 **Enable Vertex AI API** [**Click Here**](https://console.cloud.google.com/marketplace/product/google/aiplatform.googleapis.com?q=search&referrer=search&project=)
@@ -749,16 +757,16 @@ Welcome to the world of generative AI on Google Cloud
 **💡 Download the 4 files below:**
 
 * File 1: [Click Here](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1154/techcps1.json)  
-  🔁 Backup: [Raw Link](https://raw.githubusercontent.com/Techcps/GSP-Short-Trick/main/Get%20Started%20with%20Vertex%20AI%20Studio/techcps1.json)
-
+    🔁 Backup: [Raw Link](https://raw.githubusercontent.com/Techcps/GSP-Short-Trick/main/Get%20Started%20with%20Vertex%20AI%20Studio/techcps1.json)
+    
 * File 2: [Click Here](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1154/techcps2.json)  
-  🔁 Backup: [Raw Link](https://raw.githubusercontent.com/Techcps/GSP-Short-Trick/main/Get%20Started%20with%20Vertex%20AI%20Studio/techcps2.json)
-
+    🔁 Backup: [Raw Link](https://raw.githubusercontent.com/Techcps/GSP-Short-Trick/main/Get%20Started%20with%20Vertex%20AI%20Studio/techcps2.json)
+    
 * File 3: [Click Here](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1154/techcps3.json)  
-  🔁 Backup: [Raw Link](https://raw.githubusercontent.com/Techcps/GSP-Short-Trick/main/Get%20Started%20with%20Vertex%20AI%20Studio/techcps3.json)
-
+    🔁 Backup: [Raw Link](https://raw.githubusercontent.com/Techcps/GSP-Short-Trick/main/Get%20Started%20with%20Vertex%20AI%20Studio/techcps3.json)
+    
 * File 4: [Click Here](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1154/techcps4.json)  
-  🔁 Backup: [Raw Link](https://raw.githubusercontent.com/Techcps/GSP-Short-Trick/main/Get%20Started%20with%20Vertex%20AI%20Studio/techcps4.json)
+    🔁 Backup: [Raw Link](https://raw.githubusercontent.com/Techcps/GSP-Short-Trick/main/Get%20Started%20with%20Vertex%20AI%20Studio/techcps4.json)
     
 
 **Click this link to open Vertex Ai** [**Click Here**](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)
