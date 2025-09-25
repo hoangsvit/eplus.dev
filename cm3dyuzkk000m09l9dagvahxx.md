@@ -255,3 +255,124 @@ explore: +airports {
   }
 }
 ```
+
+---
+
+### Manual
+
+**✈️ Task 1: Create a Dashboard and Visualize a Measure**
+
+🔍 Step 1: Explore and Add a Measure
+
+1. From the left navigation, go to **Explore**.
+    
+2. Under **FAA**, click **Airports**.
+    
+3. In the **Data panel**, expand **Airports &gt; Measures** and select **Average elevation**.
+    
+4. Click **Run** to execute the query.
+    
+
+---
+
+📊 Step 2: Create a Single Value Visualization
+
+1. Click the arrow next to **Visualization** to expand the window.
+    
+2. Select the **Single Value** icon.
+    
+3. Click the **⚙️ settings gear** in the Visualization section:
+    
+    * Go to `Edit > Style`
+        
+    * Set a **Value color**.
+        
+    * Enable **Show title** and enter a title (e.g., `Average Elevation`).
+        
+4. Close the settings panel.
+    
+
+---
+
+💾 Step 3: Save to a New Dashboard
+
+1. Click the **⚙️ settings gear** next to **Run** → choose **Save &gt; To an existing dashboard**.
+    
+2. Enter the following:
+    
+    * **Title for visualization:** `Average elevation`
+        
+    * **New Dashboard name:** `Airports/Flights`
+        
+3. Click **OK** → **Save to Dashboard**.
+    
+
+✅ Now, you’ve successfully created a new dashboard named **Airports/Flights** with a single-value visualization.
+
+---
+
+**📈 Task 2: Visualize Dimensions and Measures with a Bar Chart**
+
+🔍 Step 1: Select Dimensions and Measures
+
+1. Go back to **Explore &gt; Airports**.
+    
+2. In the **Data panel**:
+    
+    * Under **Dimensions**, select `Facility type`.
+        
+    * Under **Measures**, select `Average elevation` and `Count`.
+        
+3. In the **Data** tab, change the **Row limit** to `5`.
+    
+4. Click **Run**.
+    
+
+---
+
+📊 Step 2: Create a Bar Chart Visualization
+
+1. Expand the **Visualization** window.
+    
+2. Choose the **Bar chart** icon.
+    
+3. Click the **⚙️ settings gear** to customize:
+    
+    * Under **Values**, enable **Value labels**.
+        
+    * Under **Y**, drag `Airports` to **Top Axes**.
+        
+    * Keep `Average elevation` under **Bottom Axes**.
+        
+    * Under **Configure axes &gt; Bottom 1**, rename the axis to **Count**.
+        
+4. Close the settings panel.
+    
+
+---
+
+💾 Step 3: Save to Existing Dashboard
+
+1. Click the **⚙️ settings gear** next to **Run** → **Save &gt; To an existing dashboard**.
+    
+2. Enter the visualization title: `Average elevation by facility type`.
+    
+3. Choose the previously created dashboard: **Airports/Flights**.
+    
+4. Click **Save to Dashboard**.
+    
+
+✅ Your **Airports/Flights** dashboard now contains:
+
+* A **Single Value visualization** showing the average elevation.
+    
+* A **Bar Chart visualization** showing the top 5 facility types by average elevation and total count.
+    
+
+---
+
+**✅ Final Check**
+
+* Go back to the lab page and click **Check my progress**.
+    
+* You should see both objectives marked as **Completed** 🎉
