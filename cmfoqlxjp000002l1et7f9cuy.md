@@ -115,7 +115,7 @@ Create a new dashboard in Looker
 
 ## Solution of Lab
 
-%[https://youtu.be/RelWwc5WAUs] 
+%[https://youtu.be/D7PLn86zU6Y] 
 
 **Create a new view named** `users_region` **and Paste the following:**
 
@@ -214,3 +214,212 @@ explore: events {
   }
 }
 ```
+
+---
+
+## Manual
+
+**🧠 Task 1: Create a New Report in Looker Studio**
+
+🎯 Goal
+
+Create a report named **Online Sales** and visualize order data from BigQuery.
+
+---
+
+**1\. Create a new Looker Studio report**
+
+* Go to Looker Studio.
+    
+* Click **“+ Blank Report”**.
+    
+* Name it **Online Sales**.
+    
+
+**2\. Connect to BigQuery public dataset**
+
+* Click **“Add data” → BigQuery**.
+    
+* Navigate to:
+    
+    ```plaintext
+    Public datasets > qwiklabs-gcp-01-15e3b0e540a4 > thelook_ecommerce > orders
+    ```
+    
+* Click **Connect → Add to Report**.
+    
+
+**3\. Add a Time Series chart**
+
+* Click **“Add a chart” → “Time series”**.
+    
+* Set:
+    
+    * **Dimension:** `created_at` (or `date`)
+        
+    * **Metric:** `total_amount` or `order_count`
+        
+* Customize the title and theme (any style you like).
+    
+* Click **Save**.
+    
+
+✅ **Result:** A report named **Online Sales** with a time series chart from BigQuery.
+
+---
+
+**🧠 Task 2: Create a New View in Looker**
+
+🎯 Goal
+
+Create a new view `users_region` and join it with the existing `events` Explore.
+
+---
+
+**1\. Create a new view file**
+
+* In Looker **Develop** mode, go to the `views/` folder.
+    
+* Create a new file named: `users_region.view.lkml`.
+    
+
+📄 Paste this LookML:
+
+```apache
+view: users_region {
+  sql_table_name: cloud-training-demos.looker_ecomm.users ;;
+
+  dimension: id {
+    primary_key: yes
+    type: number
+    sql: ${TABLE}.id ;;
+  }
+
+  dimension: state {
+    type: string
+    sql: ${TABLE}.state ;;
+  }
+
+  dimension: country {
+    type: string
+    sql: ${TABLE}.country ;;
+  }
+
+  measure: count {
+    type: count
+    drill_fields: [id, state, country]
+  }
+}
+```
+
+---
+
+**2\. Join the view to** `events` Explore
+
+* Open `events.explore.lkml`.
+    
+* Add the following join:
+    
+
+```apache
+explore: events {
+  join: users_region {
+    type: left_outer
+    sql_on: ${events.user_id} = ${users_region.id} ;;
+    relationship: many_to_one
+  }
+}
+```
+
+---
+
+**3\. Deploy to production**
+
+* Click **Validate LookML** → fix any errors if shown.
+    
+* Click **Deploy to Production** to publish the changes.
+    
+
+✅ **Result:** New view `users_region` is created and successfully joined with `events`.
+
+---
+
+**🧠 Task 3: Create a New Dashboard in Looker**
+
+🎯 Goal
+
+Create a dashboard **User Events** with a bar chart showing the **top 3 event types** with the **highest number of users**.
+
+---
+
+**1\. Go to Explore**
+
+* In Looker, click **Explore**.
+    
+* Select the Explore that includes the `users_region` join (usually `events`).
+    
+
+---
+
+**2\. Build the query**
+
+* Under **Dimensions**, select:
+    
+    * `events.event_type`
+        
+* Under **Measures**, select:
+    
+    * `users_region.count` (number of users per event type)
+        
+* **Sort**: by `users_region.count` **descending**.
+    
+* **Limit**: set **3 rows** (top 3 event types).
+    
+
+---
+
+**3\. Create the visualization**
+
+* Click the **Visualization** tab.
+    
+* Choose **Bar Chart**.
+    
+* Customize:
+    
+    * **Title:** “Top 3 Event Types by User Count”
+        
+    * **X-Axis:** Event Type
+        
+    * **Y-Axis:** Number of Users
+        
+    * Pick any color scheme.
+        
+    * Enable data labels.
+        
+
+---
+
+**4\. Save to a new dashboard**
+
+* Click **Save → Save as a Look**.
+    
+    * Name it: `Top 3 Event Types`
+        
+* Then click **Save to Dashboard → Create New Dashboard**.
+    
+    * Name the dashboard: **User Events**
+        
+* Click **Save**.
+    
+
+✅ **Result:** A new dashboard **User Events** containing a bar chart showing the top 3 event types with the highest number of users.
+
+---
+
+**📋 Final Verification Checklist**
+
+| Task | What to Check | Status |
+| --- | --- | --- |
+| 1 | Report `Online Sales` created in Looker Studio with a time series chart | ✅ |
+| 2 | View `users_region` created, joined to `events`, and deployed | ✅ |
+| 3 | Dashboard `User Events` created with bar chart (Top 3 event types by users) | ✅ |
