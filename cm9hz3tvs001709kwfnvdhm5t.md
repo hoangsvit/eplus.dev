@@ -186,11 +186,11 @@ Create and publish an Apps Script chat bot
 
 ## Solution of Lab
 
-%[https://youtu.be/XZ5zNQ2Fk88] 
+%[https://youtu.be/0VQFSGyKC2U] 
 
 ### **📝 Task 1: Create and customize an AppSheet app**
 
-1. **Login** to **AppSheet**.
+1. **Log in** to **AppSheet**.
     
 2. Access the [**ATM Maintenance App**](https://www.appsheet.com/template/AppDef?appName=ATMMaintenance-925818016) in **Incognito Mode**.
     
@@ -204,7 +204,7 @@ Create and publish an Apps Script chat bot
     
     *Leave other settings as they are.*
     
-5. Click **Copy app** to proceed.
+5. Click the **Copy app** to proceed.
     
 
 ---
