@@ -541,7 +541,9 @@ explore: +flights {
 
 > 💡 **Important:** After pasting the code, carefully follow the subsequent steps for Task 4 to ensure correct implementation.
 
-* Add the following in **Expression field**:
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758902318060/46927180-cb56-4c76-9d02-31b88450d523.png align="center")
+
+* Add the following in the **Expression field**:
     
 
 ```apache
