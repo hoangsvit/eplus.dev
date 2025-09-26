@@ -222,9 +222,12 @@ Create and publish an Apps Script chat bot
 
 1. Start a new **Apps Script Chat App** project from [**this link**](https://script.google.com/home/projects/create?template=hangoutsChat).
     
-    | **Property** | **Value** |
-    | --- | --- |
-    | Project name | Helper Bot |
+<table>
+    <tr>
+        <td>Project name</td>
+        <td>Helper Bot</td>
+    </tr>
+</table>
     
 2. Replace the content in `Code.gs` with the following script:
     
