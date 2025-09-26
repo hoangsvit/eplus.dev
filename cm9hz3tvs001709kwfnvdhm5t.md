@@ -190,7 +190,7 @@ Create and publish an Apps Script chat bot
 
 ### **📝 Task 1: Create and customize an AppSheet app**
 
-1. **Log in** to **AppSheet**.
+1. **Log in** to [**AppSheet**](https://www.appsheet.com/Account/Login?utm_source=qwiklabs).
     
 2. Access the [**ATM Maintenance App**](https://www.appsheet.com/template/AppDef?appName=ATMMaintenance-925818016) in **Incognito Mode**.
     
