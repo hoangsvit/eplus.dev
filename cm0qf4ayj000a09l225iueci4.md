@@ -433,7 +433,7 @@ Click *Check my progress* to verify the objective.
 
 ## Solution of Lab
 
-%[https://youtu.be/wyBVUyvXGdk] 
+%[https://youtu.be/Hp-jiX9QqFI] 
 
 ---
 
