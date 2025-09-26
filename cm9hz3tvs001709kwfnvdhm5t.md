@@ -222,13 +222,9 @@ Create and publish an Apps Script chat bot
 
 1. Start a new **Apps Script Chat App** project from [**this link**](https://script.google.com/home/projects/create?template=hangoutsChat).
     
-<table>
-    <tr>
-        <td>Project name</td>
-        <td>Helper Bot</td>
-    </tr>
-</table>
-    
+
+<table><tbody><tr><td colspan="1" rowspan="1"><p>Project name</p></td><td colspan="1" rowspan="1"><p>Helper Bot</p></td></tr></tbody></table>
+
 2. Replace the content in `Code.gs` with the following script:
     
 
@@ -291,24 +287,16 @@ function onRemoveFromSpace(event) {
 1. Navigate to the **OAuth consent screen** using [**this link**](https://console.cloud.google.com/apis/credentials/consent).
     
 2. Configure the settings as follows:
+    
 
-<table>
-    <tr>
-        <td>App name</td>
-        <td>Helper Bot</td>
-    </tr>
-    <tr>
-        <td>User support email</td>
-        <td>*Your selected email*</td>
-    </tr>
-    <tr>
-        <td>Developer contact</td>
-        <td>*Your email address*</td>
-    </tr>
-</table>
-    
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744689147140/89340208-68cf-44ae-b22b-68e92e32b900.png align="center")
-    
+| App name | Helper Bot |
+| --- | --- |
+| User support email | \*Your selected email\* |
+| Developer contact | \*Your email address\* |
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744689147140/89340208-68cf-44ae-b22b-68e92e32b900.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758906367338/97f9d507-b137-4c75-992a-37a7e7c5b776.png align="center")
 
 ---
 
@@ -318,37 +306,15 @@ function onRemoveFromSpace(event) {
     
 2. Apply the following configuration:
     
-<table>
-    <tr>
-        <td>App name</td>
-        <td>Helper Bot</td>
-    </tr>
-    <tr>
-        <td>Avatar URL</td>
-        <td>[https://goo.gl/kv2ENA](https://goo.gl/kv2ENA)</td>
-    </tr>
-    <tr>
-        <td>Description</td>
-        <td>Helper chat bot</td>
-    </tr>
-    <tr>
-        <td>Functionality</td>
-        <td>✅ Receive 1:1 messages and join spaces/group conversations</td>
-    </tr>
-    <tr>
-        <td>Connection settings</td>
-        <td>✅ Check **Apps Script project** and add **Head Deployment ID**</td>
-    </tr>
-    <tr>
-        <td>Visibility</td>
-        <td>✅ Specific people and groups: *Your email address*</td>
-    </tr>
-    <tr>
-        <td>App Status</td>
-        <td>🟢 LIVE – Available to users</td>
-    </tr>
-</table>
-    
+
+| App name | Helper Bot |
+| --- | --- |
+| Avatar URL | \[https://goo.gl/kv2ENA\](https://goo.gl/kv2ENA) |
+| Description | Helper chat bot |
+| Functionality | ✅ Receive 1:1 messages and join spaces/group conversations |
+| Connection settings | ✅ Check \*\*Apps Script project\*\* and add \*\*Head Deployment ID\*\* |
+| Visibility | ✅ Specific people and groups: \*Your email address\* |
+| App Status | 🟢 LIVE – Available to users |
 
 ---
 
