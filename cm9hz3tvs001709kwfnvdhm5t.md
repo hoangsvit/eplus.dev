@@ -288,25 +288,21 @@ function onRemoveFromSpace(event) {
 1. Navigate to the **OAuth consent screen** using [**this link**](https://console.cloud.google.com/apis/credentials/consent).
     
 2. Configure the settings as follows:
-    
+
 <table>
     <tr>
-        <td>**Field**</td>
-        <td>**Value**</td>
-        <td></td>
+        <td>Field</td>
+        <td>Value</td>
     </tr>
     <tr>
-        <td></td>
         <td>App name</td>
         <td>Helper Bot</td>
     </tr>
     <tr>
-        <td></td>
         <td>User support email</td>
         <td>*Your selected email*</td>
     </tr>
     <tr>
-        <td></td>
         <td>Developer contact</td>
         <td>*Your email address*</td>
     </tr>
