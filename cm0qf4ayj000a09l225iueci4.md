@@ -437,6 +437,9 @@ Click *Check my progress* to verify the objective.
 
 ---
 
+**Development Mode → qwiklabs-flights  
+**
+
 ### **🎯 Task 1: Pivot dimensions**
 
 > 👇 Copy the following code and paste it into the `faa` model in Looker.
