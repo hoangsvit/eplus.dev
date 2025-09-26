@@ -291,10 +291,6 @@ function onRemoveFromSpace(event) {
 
 <table>
     <tr>
-        <td>Field</td>
-        <td>Value</td>
-    </tr>
-    <tr>
         <td>App name</td>
         <td>Helper Bot</td>
     </tr>
