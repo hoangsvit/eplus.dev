@@ -230,4 +230,134 @@ Let's add information about the destination airports to the source query.
 
 ## Solution of Lab
 
-%[https://youtu.be/ssCIDyNwcl8]
+%[https://youtu.be/ssCIDyNwcl8] 
+
+**✅ Task 1 – Create a Primary Query**
+
+1. Go to **Explore** → select **FAA &gt; Flights**.
+    
+2. In the left field panel:
+    
+    * Expand **Flight Details** → select ✅ **Carrier** and ✅ **Flight Num**.
+        
+    * Expand **Aircraft Origin** → select ✅ **City**.
+        
+    * Under **Flight Details &gt; MEASURES** → select ✅ **Cancelled Count**.
+        
+    * Expand **Arrival Date**, hover over **Year** → click **Filter by field**.
+        
+3. In the **Filters** section:
+    
+    * Set **Flights Details Arrival Year** to **is in the year 2000**.
+        
+4. Click **Run** to execute the primary query.
+    
+
+📊 **Result:** A table showing carriers, flight numbers, origin city, and total cancellations for flights in the year 2000.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758903141952/52460206-bf3b-485d-bf89-b2c2293ea3f7.png align="center")
+
+---
+
+**✅ Task 2 – Add the Next Source Query (Merge Results)**
+
+1. In the top-right corner of the Explore page, click the **⚙️ Settings** icon → select **Merge Results**.
+    
+2. In the **Choose an Explore** window → select **Airports**.
+    
+3. In the **All Fields** panel:
+    
+    * Select ✅ **City**
+        
+    * Select ✅ **Average Elevation**
+        
+4. Click **Run** to execute the secondary query.
+    
+5. Click **Save** to add this query to the merge.
+    
+
+📌 **Important:** Ensure that there is **at least one matching dimension** (e.g., **City**) in both queries so Looker can merge them.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758903255122/e51a804d-d21a-4024-9473-061ed8aac98f.png align="center")
+
+---
+
+**✅ Task 3 – Check Merge Rules & Run the Merge**
+
+1. In the **Merge Rules** section:
+    
+    * Make sure the matching fields are:
+        
+        * **Flights** → **Aircraft Origin City**
+            
+        * **Airports** → **Airports City**
+            
+2. Click **Run** to see the merged results.
+    
+3. Click the **Airports Average Elevation** column header to **sort in descending order**.
+    
+4. Expand the **Visualization** pane and try different chart types to explore your merged data visually.
+    
+
+📊 **Result:** A merged table showing flight details combined with airport elevation data by city.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758903297854/2d96b142-5f48-442e-bb5c-879d499de5ba.png align="center")
+
+---
+
+**✅ Task 4 – Edit the Merged Results (Add Destination Info)**
+
+1. In the **Source Queries** section:
+    
+    * Click the **⚙️** icon next to **Flights (Primary)** → select **Edit**.
+        
+2. In the **All Fields** panel:
+    
+    * Expand **Aircraft Destination** → select ✅ **City**.
+        
+3. Click **Run** → then **Save** to update your primary query.
+    
+
+📊 **Result:** The merged table now includes the **Destination City** field.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758903347957/460dd256-b689-44fa-91a0-64b238e389d4.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758903405167/135cfcbc-7453-4e6f-bba8-bb5a2383e5db.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758903455159/7f1e7de0-567f-408e-bb69-b15b6b27291a.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758903488404/03613f3a-430b-4d36-ba0f-d91092006c69.png align="center")
+
+---
+
+**✅ Task 5 – Save Merged Results to a Dashboard**
+
+1. Open the **Visualization** pane → select the **Table** visualization.
+    
+2. In the top-right corner → click the **⚙️ Settings** icon → choose **Save to Dashboard**.
+    
+3. In the save dialog:
+    
+    * **Title:** `Flight Cancellations & Elevation`
+        
+    * Choose **New Dashboard**
+        
+    * **Dashboard Name:** `Airport Data` → click **OK**
+        
+4. Click **Save to Dashboard**.
+    
+
+📁 To view the dashboard:
+
+* Click the green **Airport Data** link at the top, or
+    
+* Go to **Folders &gt; Shared Folders** → open the `Airport Data` dashboard.
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758903548906/1c71d907-88ea-4bb7-8ee9-edcd4b1a4b51.png align="center")
+
+```plaintext
+Flight Cancellations & Elevation
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758903678238/58111545-01c6-4253-9225-4f3a1c940f50.png align="center")
