@@ -289,11 +289,28 @@ function onRemoveFromSpace(event) {
     
 2. Configure the settings as follows:
     
-    | **Field** | **Value** |
-    | --- | --- |
-    | App name | Helper Bot |
-    | User support email | *Your selected email* |
-    | Developer contact | *Your email address* |
+<table>
+    <tr>
+        <td>**Field**</td>
+        <td>**Value**</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>App name</td>
+        <td>Helper Bot</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>User support email</td>
+        <td>*Your selected email*</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Developer contact</td>
+        <td>*Your email address*</td>
+    </tr>
+</table>
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744689147140/89340208-68cf-44ae-b22b-68e92e32b900.png align="center")
     
