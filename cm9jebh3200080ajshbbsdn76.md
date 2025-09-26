@@ -230,4 +230,4 @@ Let's add information about the destination airports to the source query.
 
 ## Solution of Lab
 
-%[https://youtu.be/tc0YosUXaTk]
+%[https://youtu.be/ssCIDyNwcl8]
