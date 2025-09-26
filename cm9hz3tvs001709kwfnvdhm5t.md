@@ -319,15 +319,36 @@ function onRemoveFromSpace(event) {
     
 2. Apply the following configuration:
     
-    | **Field** | **Value** |
-    | --- | --- |
-    | App name | Helper Bot |
-    | Avatar URL | [https://goo.gl/kv2ENA](https://goo.gl/kv2ENA) |
-    | Description | Helper chat bot |
-    | Functionality | ✅ Receive 1:1 messages and join spaces/group conversations |
-    | Connection settings | ✅ Check **Apps Script project** and add **Head Deployment ID** |
-    | Visibility | ✅ Specific people and groups: *Your email address* |
-    | App Status | 🟢 LIVE – Available to users |
+<table>
+    <tr>
+        <td>App name</td>
+        <td>Helper Bot</td>
+    </tr>
+    <tr>
+        <td>Avatar URL</td>
+        <td>[https://goo.gl/kv2ENA](https://goo.gl/kv2ENA)</td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td>Helper chat bot</td>
+    </tr>
+    <tr>
+        <td>Functionality</td>
+        <td>✅ Receive 1:1 messages and join spaces/group conversations</td>
+    </tr>
+    <tr>
+        <td>Connection settings</td>
+        <td>✅ Check **Apps Script project** and add **Head Deployment ID**</td>
+    </tr>
+    <tr>
+        <td>Visibility</td>
+        <td>✅ Specific people and groups: *Your email address*</td>
+    </tr>
+    <tr>
+        <td>App Status</td>
+        <td>🟢 LIVE – Available to users</td>
+    </tr>
+</table>
     
 
 ---
