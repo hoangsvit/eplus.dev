@@ -245,4 +245,159 @@ Add Looks to a Dashboard.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=GL7GDU6c5LM&ab_channel=Techcps]
+%[https://youtu.be/b1fn0JCYVXc] 
+
+### ✅ Task 1 – Filter on Dimensions
+
+**Goal:** Create a Look showing the number of cancelled flights each week in 2004 as a **line chart**.
+
+1. From the Looker navigation menu, click **Explore**.
+    
+2. Under **FAA**, click **Flights**.
+    
+3. In the **Field Picker** (left panel):
+    
+    * Under **Flight Details &gt; Measures**, select ✅ **Cancelled Count**.
+        
+    * Under **Flights &gt; Dimensions &gt; Depart Date**, select ✅ **Week**.
+        
+4. Still under **Depart Date**, click the **Filter** icon next to **Date**.
+    
+5. In the filter options:
+    
+    * Set **Depart Date** to **is in the year 2004**.
+        
+6. Click **Run** to execute the query.
+    
+
+**📈 Visualization:**
+
+* Expand the **Visualization** pane (arrow next to Visualization).
+    
+* Change visualization type to **Line**.
+    
+* Click the **⚙️ gear icon** → **Edit &gt; Series**:
+    
+    * Under **Colors &gt; Collection**, choose a color theme.
+        
+    * Under **Point Style**, select **Outline**.
+        
+* Go to the **Y** tab:
+    
+    * Scroll to the bottom and click **Add Reference Line**.
+        
+    * Set **Type:** `Line`
+        
+    * Set **Value:** `Average (Mean)`
+        
+
+Click the gear icon again to close the settings panel.
+
+**💾 Save the Look:**
+
+* Click the gear icon next to **Run** → **Save &gt; As a Look**.
+    
+* **Title:** `Cancelled Flight Count by Week in 2004`
+    
+* Click **Save**.
+    
+
+✅ **Result:** A line chart showing weekly cancelled flights in 2004 with an average reference line.
+
+---
+
+### ✅ Task 2 – Filter on Measures
+
+**Goal:** Create a **table** showing long flight count and total distance by carrier, filtered by percentage of long flights ≤ 25%.
+
+1. From the navigation menu, click **Explore**.
+    
+2. Under **FAA**, click **Flights**.
+    
+3. In the **Field Picker**:
+    
+    * Under **Flights &gt; Measures**, select ✅ **Count Long Flight**.
+        
+    * Under **Flights &gt; Measures**, select ✅ **Total Distance**.
+        
+    * Under **Carriers &gt; Dimensions**, select ✅ **Name**.
+        
+4. Under **Flights &gt; Measures**, click the **Filter** icon next to **Percentage Long Flights**.
+    
+5. Set the filter to: **is less than or equal to 0.25**.
+    
+6. Click **Run**.
+    
+
+**📊 Visualization:**
+
+* Expand the **Visualization** pane.
+    
+* Change visualization type to **Table**.
+    
+* Click the **⚙️ gear icon** → **Edit &gt; Plot**:
+    
+    * **Table Theme:** `Gray`
+        
+    * Toggle **Show Row Numbers** → Off
+        
+
+Close the settings panel.
+
+**💾 Save the Look:**
+
+* Click the gear icon next to **Run** → **Save &gt; As a Look**.
+    
+* **Title:** `Total Distance and Long Flight Count by Carrier`
+    
+* Click **Save**.
+    
+
+✅ **Result:** A table showing carriers, total distance, and count of long flights where the percentage of long flights ≤ 25%.
+
+---
+
+### ✅ Task 3 – Add Looks to a Dashboard
+
+**Goal:** Combine the two Looks you created into a single interactive dashboard.
+
+**📁 Add the First Look:**
+
+1. Go to **Folders &gt; My folder**.
+    
+2. Click on the Look **Cancelled Flight Count by Week in 2004**.
+    
+3. Click the gear icon next to **Run** → **Save &gt; To an existing dashboard**.
+    
+4. Click **New Dashboard**.
+    
+5. Enter the dashboard title: `Flights Data`.
+    
+6. Click **Add Look to Dashboard**.
+    
+
+**📁 Add the Second Look:**
+
+1. Go back to **Folders &gt; My folder**.
+    
+2. Click the Look **Total Distance and Long Flight Count by Carrier**.
+    
+3. Click the gear icon → **Save &gt; To an existing dashboard**.
+    
+4. Choose the existing dashboard: `Flights Data`.
+    
+5. Click **Add Look to Dashboard**.
+    
+
+**📊 View the Dashboard:**
+
+* Navigate to **Folders &gt; My folder &gt; Dashboards**.
+    
+* Click **Flights Data**.
+    
+
+✅ **Result:** A dashboard containing:
+
+* A line chart of cancelled flights per week (2004).
+    
+* A table of long flight counts and total distance per carrier.
