@@ -198,7 +198,7 @@ Create and publish an Apps Script chat bot
     
 4. In the **Copy app** form, set the **App name** as:
     
-    ```apache
+    ```plaintext
     ATM Maintenance Tracker
     ```
     
