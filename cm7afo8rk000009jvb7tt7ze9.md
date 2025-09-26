@@ -304,6 +304,8 @@ Click the gear icon again to close the settings panel.
 
 ✅ **Result:** A line chart showing weekly cancelled flights in 2004 with an average reference line.
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758904669450/3235811c-1481-43ec-ac3e-0a5c61b75ce1.png align="center")
+
 ---
 
 ### ✅ Task 2 – Filter on Measures
@@ -355,6 +357,8 @@ Close the settings panel.
 
 ✅ **Result:** A table showing carriers, total distance, and count of long flights where the percentage of long flights ≤ 25%.
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758904976367/32643bec-bc12-4f26-aa7c-710d71d6b1f8.png align="center")
+
 ---
 
 ### ✅ Task 3 – Add Looks to a Dashboard
@@ -401,3 +405,6 @@ Close the settings panel.
 * A line chart of cancelled flights per week (2004).
     
 * A table of long flight counts and total distance per carrier.
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758905197506/dbe05f19-0266-45b3-b983-f54e84f0a5a4.png align="center")
