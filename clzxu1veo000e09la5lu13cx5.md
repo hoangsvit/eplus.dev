@@ -323,7 +323,7 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP398
 source task1.sh
 ```
 
-**Task 2:**
+**Task 2: Open** [Vetex AI -&gt; Workbench](https://console.cloud.google.com/vertex-ai/workbench)
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP398/lab.sh
