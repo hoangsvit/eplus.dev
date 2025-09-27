@@ -744,25 +744,43 @@ Welcome to the world of generative AI on Google Cloud
 
 ### New Solution
 
-%[https://youtu.be/L-zzNnKriu4] 
+%[https://youtu.be/qd-Qz-ijPzo] 
 
 ---
 
-### Old Solution
+**Launch Vertex AI API:**  
+Start your Google Vertex AI API session by [clicking here](https://console.cloud.google.com/marketplace/product/google/aiplatform.googleapis.com?q=search&referrer=search&project=)
+
+**Launch Vertex AI:**  
+Start your Google Vertex AI session by [clicking here](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)
+
+**Download files below:**
+
+**Task 1 File:** [Cli](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Insurance%20Risk%20Summary%20-%20Prototype.json)[ck Here](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Timetable%20Image%20Analysis.json)
+
+**Task 2 File:** [Click Here](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Insurance%20Claim%20Data%20Extraction.json)
+
+**Task 3 File:** [Click](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=) [Here](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Insurance%20Risk%20Factor%20Identification.json)
+
+**Task 4 File:** [Cli](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)[ck Here](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Timetable%20Image%20Analysis.json)
+
+---
+
+### [Ol](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Timetable%20Image%20Analysis.json)[d Solution](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)
 
 %[https://youtu.be/x-BZX5gDRaw] 
 
-**Enable Vertex AI API** [**Click Here**](https://console.cloud.google.com/marketplace/product/google/aiplatform.googleapis.com?q=search&referrer=search&project=)
+**Enable Verte**[**x AI API** **Clic**](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)[**k Here**](https://console.cloud.google.com/marketplace/product/google/aiplatform.googleapis.com?q=search&referrer=search&project=)
 
-**💡 Download the 4 files below:**
+**💡 D**[**ownload the 4**](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=) **f**[**iles below**](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Timetable%20Image%20Analysis.json)**:**
 
-* File 1: [Click Here](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1154/techcps1.json)  
-    🔁 Backup: [Raw Link](https://raw.githubusercontent.com/Techcps/GSP-Short-Trick/main/Get%20Started%20with%20Vertex%20AI%20Studio/techcps1.json)
+* File 1: [Click Here](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Timetable%20Image%20Analysis.json)  
+    🔁 Backup: [Raw](https://raw.githubusercontent.com/Techcps/GSP-Short-Trick/main/Get%20Started%20with%20Vertex%20AI%20Studio/techcps1.json) [Link](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Timetable%20Image%20Analysis.json)
     
-* File 2: [Click Here](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1154/techcps2.json)  
-    🔁 Backup: [Raw Link](https://raw.githubusercontent.com/Techcps/GSP-Short-Trick/main/Get%20Started%20with%20Vertex%20AI%20Studio/techcps2.json)
+* [F](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Timetable%20Image%20Analysis.json)ile 2: [Click He](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1154/techcps2.json)[re  
+    🔁 Back](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Timetable%20Image%20Analysis.json)up: [Raw Link](https://raw.githubusercontent.com/Techcps/GSP-Short-Trick/main/Get%20Started%20with%20Vertex%20AI%20Studio/techcps2.json)
     
-* File 3: [Click Here](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1154/techcps3.json)  
+* [File 3: C](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Timetable%20Image%20Analysis.json)[lick Here](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1154/techcps3.json)  
     🔁 Backup: [Raw Link](https://raw.githubusercontent.com/Techcps/GSP-Short-Trick/main/Get%20Started%20with%20Vertex%20AI%20Studio/techcps3.json)
     
 * File 4: [Click Here](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1154/techcps4.json)  
