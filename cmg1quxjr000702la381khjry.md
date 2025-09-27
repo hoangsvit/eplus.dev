@@ -248,9 +248,9 @@ Enable Vertex AI API [Click Here](https://console.cloud.google.com/marketplace/p
 
 **💡 Download the 2 files below:**
 
-* File 1: [Cymbal Product Analysis.json](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP519/Cymbal%20Product%20Analysis.json)
+* File Task 1: [Cymbal Product Analysis.json](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP519/Cymbal%20Product%20Analysis.json)
     
-* File 2: [Cymbal Product Analysis.json](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP519/Cymbal%20Product%20Analysis.json)
+* File Task 2: [Cymbal Tagline Generator Template.json](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP519/Cymbal%20Tagline%20Generator%20Template.json)
     
 
 Click this link to open Vertex AI. [Clic](https://console.cloud.google.com/marketplace/product/google/aiplatform.googleapis.com?q=search&referrer=search&project=)[k Here](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)
