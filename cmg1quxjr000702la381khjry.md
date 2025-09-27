@@ -242,11 +242,22 @@ Experiment with tagline generation code.
 
 ### Quick
 
-**Task 1:**
+**Task 1 & Task 2:**
 
 Enable Vertex AI API [Click Here](https://console.cloud.google.com/marketplace/product/google/aiplatform.googleapis.com?q=search&referrer=search&project=)
 
+**💡 Download the 2 files below:**
+
+* File 1: [**Click Here**](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1154/techcps1.json)
+    
+
 Click this link to open Vertex AI. [Clic](https://console.cloud.google.com/marketplace/product/google/aiplatform.googleapis.com?q=search&referrer=search&project=)[k Here](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758950235277/fb6f2445-a550-44cc-a65b-3c344728c077.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758950538025/04af56ae-33fe-41c0-90c4-63b63b875480.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758950598002/080f1da8-62f7-4638-98fe-134fdf7c28f3.png align="center")
 
 **Task 3:**
 
@@ -268,6 +279,14 @@ Click this link to open Vertex AI. [Clic](https://console.cloud.google.com/marke
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758947764489/a5d81c48-801a-4e36-a033-1083fedfe633.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758946765435/99932d78-98b3-4829-9842-0be58eaea001.png align="center")
+
+```plaintext
+Describe this image with a focus on colors, textures, and the feeling it evokes.
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758948225221/0d1ecf48-5d41-4ab4-b237-11acce2ffa7c.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758949156966/856bb6bc-a493-4993-9867-f71743a6daa8.png align="center")
 
 ---
 
