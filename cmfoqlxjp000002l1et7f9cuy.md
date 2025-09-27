@@ -233,6 +233,21 @@ explore: events {
 }
 ```
 
+**Task 3:**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758964025035/355e7a7d-406e-43ca-80c4-ebd8c65443c9.png align="center")
+
+* Click **Save → Save as a Look**.
+    
+    * Name it: `Top 3 Event Types`
+        
+* Then click **Save to Dashboard → Create New Dashboard**.
+    
+    * Name the dashboard: **User Events**
+        
+* Click **Save**.
+    
+
 ---
 
 ## Manual
