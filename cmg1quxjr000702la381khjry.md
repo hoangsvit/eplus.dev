@@ -261,20 +261,12 @@ Click this link to open Vertex AI. [Clic](https://console.cloud.google.com/marke
 
 **Task 3:**
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758946920988/ae4d32f2-0ae2-443c-a61b-948850cd4faf.png align="center")
-
-* Vertex AI &gt; [Workbench](https://console.cloud.google.com/vertex-ai/workbench)
-    
-* Open `vertex-ai-jupyterlab` instance
-    
-* Open notebook: `image-analysis.ipynb`
-    
-* Kernel: `Python 3`
-    
-* Run all cells (Run All) once to check the environment is **<mark>OK</mark>**
-    
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758946506897/f9f3a4e3-117d-4478-bf50-a9688899edc4.png align="center")
+
+```apache
+rm image-analysis.ipynb
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP519/image-analysis.ipynb
+```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758947764489/a5d81c48-801a-4e36-a033-1083fedfe633.png align="center")
 
