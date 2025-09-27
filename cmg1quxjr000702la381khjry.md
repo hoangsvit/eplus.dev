@@ -266,8 +266,8 @@ Click this link to open Vertex AI. [Clic](https://console.cloud.google.com/marke
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758946506897/f9f3a4e3-117d-4478-bf50-a9688899edc4.png align="center")
 
 ```apache
-rm image-analysis.ipynb
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP519/image-analysis.ipynb
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP519/lab.sh
+source lab.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758952116472/8123708e-f0b0-44c9-ba60-534d16b7b39c.png align="center")
