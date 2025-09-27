@@ -261,7 +261,7 @@ Click this link to open Vertex AI. [Clic](https://console.cloud.google.com/marke
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758950598002/080f1da8-62f7-4638-98fe-134fdf7c28f3.png align="center")
 
-**Task 3:**
+**Task 3 & 4:**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758946506897/f9f3a4e3-117d-4478-bf50-a9688899edc4.png align="center")
 
@@ -273,16 +273,6 @@ source lab.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758952116472/8123708e-f0b0-44c9-ba60-534d16b7b39c.png align="center")
 
 Open file
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758947764489/a5d81c48-801a-4e36-a033-1083fedfe633.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758946765435/99932d78-98b3-4829-9842-0be58eaea001.png align="center")
-
-```plaintext
-Describe this image with a focus on colors, textures, and the feeling it evokes.
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758948225221/0d1ecf48-5d41-4ab4-b237-11acce2ffa7c.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758949156966/856bb6bc-a493-4993-9867-f71743a6daa8.png align="center")
 
