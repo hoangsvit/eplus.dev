@@ -235,7 +235,7 @@ explore: events {
 
 **Task 3:**
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758964025035/355e7a7d-406e-43ca-80c4-ebd8c65443c9.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758964403931/831f6714-fd1a-419f-b2f4-fb183dcd632f.png align="center")
 
 * Click **Save → Save as a Look**.
     
@@ -247,6 +247,8 @@ explore: events {
         
 * Click **Save**.
     
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758964290765/989c1968-da94-40a2-ab4c-65ee04ac2e39.png align="center")
 
 ---
 
