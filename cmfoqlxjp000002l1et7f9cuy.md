@@ -135,7 +135,7 @@ Online Sales
 
 **✅Development Mode → qwiklabs-ecommerce**
 
-**Create a new view named** `users_region` **and Paste the following:**
+**Create a new view named** `users_region` **and paste the following:**
 
 ```apache
 view: users_region {
@@ -164,7 +164,7 @@ view: users_region {
 }
 ```
 
-**Replace the follwing in** `training_ecommerce.model` **file:**
+**Replace the following in** `training_ecommerce.model` **file:**
 
 ```apache
 connection: "bigquery_public_data_looker"
