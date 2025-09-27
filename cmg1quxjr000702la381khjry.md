@@ -108,8 +108,6 @@ In this task, you will create a prompt for generating diverse tagline possibilit
 Cymbal Direct is partnering with an outdoor gear retailer. They're launching a new line of products designed to encourage young people to explore the outdoors. Help them create catchy taglines for this product line.
 ```
 
-Copied!
-
 3. Include **2 Examples** in your prompt to guide the output style. Add this example input and output for your first example, then use this template to add another example.
     
 
