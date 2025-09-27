@@ -259,6 +259,18 @@ Click this link to open Vertex AI. [Clic](https://console.cloud.google.com/marke
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758950538025/04af56ae-33fe-41c0-90c4-63b63b875480.png align="center")
 
+Open Promt **Cymbal Product Analysis**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758955718206/155bde2a-794d-4862-93fb-ac10ebbfe2ab.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758955739513/da8a2a16-3f54-4c65-9a2e-38ff7abcceba.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758955755364/501488a4-56bf-4499-8c4e-a6338224a62d.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758955770778/c27c64d8-6f15-4f37-bf89-fd133322e0bc.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758955783169/e5dadff9-2b22-4f16-8056-db5d3604700a.png align="center")
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758950598002/080f1da8-62f7-4638-98fe-134fdf7c28f3.png align="center")
 
 **Task 3 & 4:**
