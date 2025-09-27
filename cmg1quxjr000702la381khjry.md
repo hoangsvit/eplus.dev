@@ -242,9 +242,30 @@ Experiment with tagline generation code.
 
 ### Quick
 
-**Enable Vertex AI API** [**Click Here**](https://console.cloud.google.com/marketplace/product/google/aiplatform.googleapis.com?q=search&referrer=search&project=)
+**Task 1:**
 
-**Click this link to open Verte**[**x AI.** **Clic**](https://console.cloud.google.com/marketplace/product/google/aiplatform.googleapis.com?q=search&referrer=search&project=)[**k Here**](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)
+Enable Vertex AI API [Click Here](https://console.cloud.google.com/marketplace/product/google/aiplatform.googleapis.com?q=search&referrer=search&project=)
+
+Click this link to open Vertex AI. [Clic](https://console.cloud.google.com/marketplace/product/google/aiplatform.googleapis.com?q=search&referrer=search&project=)[k Here](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)
+
+**Task 3:**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758946920988/ae4d32f2-0ae2-443c-a61b-948850cd4faf.png align="center")
+
+* Vertex AI &gt; [Workbench](https://console.cloud.google.com/vertex-ai/workbench)
+    
+* Open `vertex-ai-jupyterlab` instance
+    
+* Open notebook: `image-analysis.ipynb`
+    
+* Kernel: `Python 3`
+    
+* Run all cells (Run All) once to check the environment OK
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758946506897/f9f3a4e3-117d-4478-bf50-a9688899edc4.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758946765435/99932d78-98b3-4829-9842-0be58eaea001.png align="center")
 
 ---
 
