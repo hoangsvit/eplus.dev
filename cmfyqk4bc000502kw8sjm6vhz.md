@@ -764,6 +764,18 @@ Start your Google Vertex AI session by [clicking here](https://console.cloud.goo
 
 **Task 4 File:** [Cli](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)[ck Here](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Timetable%20Image%20Analysis.json)
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758962279306/6b89e033-546b-49fc-9c7f-4eb05a80e24b.png align="center")
+
+**Task 5:**
+
+```plaintext
+A close-up, photorealistic image of a single honeybee collecting pollen from a vibrant purple lavender flower, with a softly blurred garden background.
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758962346828/13238c50-45a1-478f-964e-777bb6c291cc.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758962369870/c8df4127-bb9e-4aa5-9dac-aaf9d8dda932.png align="center")
+
 ---
 
 ### [Ol](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Timetable%20Image%20Analysis.json)[d Solution](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)
