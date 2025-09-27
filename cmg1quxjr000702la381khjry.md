@@ -265,6 +265,8 @@ Click this link to open Vertex AI. [Clic](https://console.cloud.google.com/marke
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758946506897/f9f3a4e3-117d-4478-bf50-a9688899edc4.png align="center")
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758947607287/80ab9b67-a8fd-4ee4-914d-3545c1367fa6.png align="center")
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758946765435/99932d78-98b3-4829-9842-0be58eaea001.png align="center")
 
 ---
