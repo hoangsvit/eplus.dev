@@ -250,7 +250,7 @@ Enable Vertex AI API [Click Here](https://console.cloud.google.com/marketplace/p
 
 * File 1: [Cymbal Product Analysis.json](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP519/Cymbal%20Product%20Analysis.json)
     
-* File 2: [Cymbal Tagline Generator Template.json](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP519/Cymbal%20Tagline%20Generator%20Template.json)
+* File 2: [Cymbal Product Analysis.json](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP519/Cymbal%20Product%20Analysis.json)
     
 
 Click this link to open Vertex AI. [Clic](https://console.cloud.google.com/marketplace/product/google/aiplatform.googleapis.com?q=search&referrer=search&project=)[k Here](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)
@@ -269,6 +269,10 @@ Click this link to open Vertex AI. [Clic](https://console.cloud.google.com/marke
 rm image-analysis.ipynb
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP519/image-analysis.ipynb
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758952116472/8123708e-f0b0-44c9-ba60-534d16b7b39c.png align="center")
+
+Open file
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758947764489/a5d81c48-801a-4e36-a033-1083fedfe633.png align="center")
 
