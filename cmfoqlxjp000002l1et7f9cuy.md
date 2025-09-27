@@ -133,6 +133,8 @@ Online Sales
 
 ---
 
+**✅Development Mode → qwiklabs-ecommerce**
+
 **Create a new view named** `users_region` **and Paste the following:**
 
 ```apache
