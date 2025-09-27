@@ -281,7 +281,7 @@ Open promt **<mark>Cymbal Tagline Generator Template</mark> → Submit**
 
 **Task 3 & 4:**
 
-Open [Vetex AI -&gt; Workbench](https://console.cloud.google.com/vertex-ai/workbench)
+Open [Vetex AI -&gt; Workbench](https://console.cloud.google.com/vertex-ai/workbench) → `vertex-ai-jupyterlab` → Open **Open JupyterLab**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758946506897/f9f3a4e3-117d-4478-bf50-a9688899edc4.png align="center")
 
