@@ -117,6 +117,12 @@ Create a new dashboard in Looker
 
 %[https://youtu.be/D7PLn86zU6Y] 
 
+**🧠 Task 1: Create a New Report in Looker Studio**
+
+🎯 Goal
+
+Create a report named **Online Sales** and visualize order data from BigQuery.
+
 **Create a new view named** `users_region` **and Paste the following:**
 
 ```apache
