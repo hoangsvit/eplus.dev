@@ -115,6 +115,8 @@ Create a new dashboard in Looker
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/D7PLn86zU6Y] 
 
 **🧠 Task 1: Create a New Report in** [**Looker Studio**](http://lookerstudio.google.com/)
