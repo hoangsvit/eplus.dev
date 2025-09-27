@@ -119,9 +119,19 @@ Create a new dashboard in Looker
 
 **🧠 Task 1: Create a New Report in Looker Studio**
 
-🎯 Goal
+Create a report named **Online Sales** and visualize order data from **BigQuery**.
 
-Create a report named **Online Sales** and visualize order data from BigQuery.
+**Public datasets** &gt; `PROJECT-ID` &gt; **thelook\_ecommerce** &gt; **orders**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758963530296/0a2c25f3-8dbd-46b4-a0da-94d1933836da.png align="center")
+
+```plaintext
+Online Sales
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758963582723/a53e96ea-4a06-4f73-bebf-139483be954b.png align="center")
+
+---
 
 **Create a new view named** `users_region` **and Paste the following:**
 
