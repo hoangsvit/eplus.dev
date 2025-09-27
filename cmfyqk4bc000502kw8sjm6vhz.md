@@ -756,13 +756,13 @@ Start your Google Vertex AI session by [clicking here](https://console.cloud.goo
 
 **Download files below:**
 
-**Task 1 File:** [Cli](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Insurance%20Risk%20Summary%20-%20Prototype.json)[ck Here](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Timetable%20Image%20Analysis.json)
+**Task 1 File:** [Insurance Risk Summary - Prototype.json](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1154/Insurance%20Risk%20Summary%20-%20Prototype.json) - ([Backup](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Insurance%20Risk%20Summary%20-%20Prototype.json))
 
-**Task 2 File:** [Click Here](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Insurance%20Claim%20Data%20Extraction.json)
+**Task 2 File:** [Insurance Claim Data Extraction.json](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1154/Insurance%20Claim%20Data%20Extraction.json) - ([Backup](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Insurance%20Claim%20Data%20Extraction.json))
 
-**Task 3 File:** [Click](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=) [Here](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Insurance%20Risk%20Factor%20Identification.json)
+**Task 3 File:** [Insurance Risk Factor Identification.json](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1154/Insurance%20Risk%20Factor%20Identification.json) - ([Backup](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Insurance%20Risk%20Factor%20Identification.json))
 
-**Task 4 File:** [Cli](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)[ck Here](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Timetable%20Image%20Analysis.json)
+**Task 4 File:** [Timetable Image Analysis.json](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1154/Timetable%20Image%20Analysis.json) - ([Backup](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Timetable%20Image%20Analysis.json))
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758962279306/6b89e033-546b-49fc-9c7f-4eb05a80e24b.png align="center")
 
