@@ -778,7 +778,7 @@ A close-up, photorealistic image of a single honeybee collecting pollen from a v
 
 ---
 
-### [Ol](https://github.com/quiccklabs/Labs_solutions/blob/master/Get%20Started%20with%20Vertex%20AI%20Studio/Timetable%20Image%20Analysis.json)[d Solution](https://console.cloud.google.com/vertex-ai/studio/saved-prompts?project=)
+### Old Solution
 
 %[https://youtu.be/x-BZX5gDRaw] 
 
