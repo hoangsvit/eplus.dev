@@ -117,7 +117,7 @@ Create a new dashboard in Looker
 
 %[https://youtu.be/D7PLn86zU6Y] 
 
-**🧠 Task 1: Create a New Report in Looker Studio**
+**🧠 Task 1: Create a New Report in** [**Looker Studio**](http://lookerstudio.google.com/)
 
 Create a report named **Online Sales** and visualize order data from **BigQuery**.
 
