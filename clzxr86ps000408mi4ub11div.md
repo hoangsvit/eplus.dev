@@ -467,6 +467,7 @@ pip3 install tensorflow
 pip3 install --upgrade pip
 pip install -U pylint --user
 pip install -r requirements.txt
+pip3 install google-cloud-logging
 
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP637/model.ipynb
 ```
