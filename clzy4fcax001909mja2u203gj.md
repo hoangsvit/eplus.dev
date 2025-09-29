@@ -5,7 +5,7 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: Sat Aug 17 2024 12:35:12 GMT+0000 (Coordinated Universal Time)
 cuid: clzy4fcax001909mja2u203gj
 slug: use-machine-learning-apis-on-google-cloud-challenge-lab-gsp329
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723897606221/3fb80e3e-bd77-4e72-ac85-63197295e88d.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759137522185/710cb87a-95da-4899-ae23-f5b49d37c2c5.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1759137203177/c4054b32-8565-451b-9e06-237cfac4ee03.png
 tags: use-machine-learning-apis-on-google-cloud-challenge-lab-gsp329, gsp329, use-machine-learning-apis-on-google-cloud-challenge-lab
 
@@ -224,6 +224,13 @@ Confirm that the application can extract text from images
 %[https://youtu.be/lzCY9R8eBXk] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723898043771/91f73fc1-106f-4ea8-98d8-24271698b706.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP329/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Use%20Machine%20Learning%20APIs%20on%20Google%20Cloud%3A%20Challenge%20Lab/abhishek.sh
