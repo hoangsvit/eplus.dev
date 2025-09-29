@@ -231,7 +231,9 @@ sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759137503414/079d03b7-41d2-4489-8ef3-541b6dd8b856.png align="center")
+
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text">I got the <mark>Japanese</mark> language but it's not working. The change of language task is not working</div>
+<div data-node-type="callout-text">I got the <mark>Japanese</mark> language, but it's not working. The change of language task is not working</div>
 </div>
