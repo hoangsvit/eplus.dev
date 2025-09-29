@@ -228,4 +228,127 @@ The visualization should resemble the following:
 
 ## Solution of Lab
 
-%[https://youtu.be/JdnZeytIw74]
+%[https://youtu.be/JdnZeytIw74] 
+
+## 🥇 Task 1: Create the Partner Authorized View
+
+🔑 **Work in the Data Sharing Partner Project Console**
+
+1. Open **BigQuery Console** → make sure you are in the **Data Sharing Partner project**.
+    
+2. Create the authorized view inside `demo_dataset`:
+    
+
+```apache
+CREATE OR REPLACE VIEW `demo_dataset.authorized_view_b9g4` AS
+SELECT
+  *
+FROM
+  `bigquery-public-data.geo_us_boundaries.zip_codes`;
+```
+
+✅ **Authorize the view:**
+
+* Go to `demo_dataset` → **SHARE DATASET** → **Authorized Views**
+    
+* Add the view: `demo_dataset.authorized_view_b9g4`
+    
+
+✅ **Grant IAM permissions to the customer user:**
+
+* Go to **IAM** → **Grant Access**
+    
+* Add email: `student-01-a8002e448ea7@qwiklabs.net`
+    
+* Role: **BigQuery Data Viewer**
+    
+
+---
+
+## 🥈 Task 2: Update the Customer Data Table
+
+🔑 **Work in the Customer Project Console**
+
+1. Open **BigQuery Console** → switch to the **Customer project**.
+    
+2. Run the following query to update the `county` field:
+    
+
+```apache
+UPDATE
+  `qwiklabs-gcp-04-6d5854c77740.customer_dataset.customer_info` cust
+SET
+  cust.county = vw.county
+FROM
+  `qwiklabs-gcp-01-799db57f207f.demo_dataset.authorized_view_b9g4` vw
+WHERE
+  vw.zip_code = cust.postal_code;
+```
+
+👉 You should see this result:  
+`This statement modified 14 rows in customer_info.`
+
+---
+
+## 🥉 Task 3: Create the Customer Authorized View
+
+🔑 **Still in the Customer Project Console**
+
+1. Create the authorized view inside `customer_dataset`:
+    
+
+```apache
+CREATE OR REPLACE VIEW `customer_dataset.customer_authorized_view_mz9o` AS
+SELECT
+  county,
+  COUNT(1) AS Count
+FROM
+  `qwiklabs-gcp-04-6d5854c77740.customer_dataset.customer_info` cust
+GROUP BY
+  county
+HAVING
+  county IS NOT NULL;
+```
+
+✅ **Authorize the view:**
+
+* Go to `customer_dataset` → **SHARE DATASET** → **Authorized Views**
+    
+* Add: `customer_dataset.customer_authorized_view_mz9o`
+    
+
+✅ **Grant IAM permissions to the partner user:**
+
+* Go to **IAM** → **Grant Access**
+    
+* Add email: `student-01-52643675794b@qwiklabs.net`
+    
+* Role: **BigQuery Data Viewer**
+    
+
+---
+
+## 🏆 Task 4: Create a Visualization with Looker Studio
+
+🔑 **Switch back to the Data Sharing Partner Project**
+
+1. Open Looker Studio → create a **Blank Report**.
+    
+2. Connect to **BigQuery** → go to **My Projects** → navigate to the **Customer project** → select:
+    
+    ```apache
+    customer_dataset.customer_authorized_view_mz9o
+    ```
+    
+3. Build the visualization:
+    
+    * **Report name:** `Data Sharing Partner Visualization`
+        
+    * Insert a **Vertical Bar Chart**
+        
+    * **Dimension:** `county`
+        
+    * **Metric:** `Count`
+        
+
+✅ The chart should display the number of customers by county.
