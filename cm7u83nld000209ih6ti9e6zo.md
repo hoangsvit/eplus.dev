@@ -181,6 +181,12 @@ source lab.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759139248517/f9ed6e4a-5b07-47d1-9689-a78debe3bc27.png align="center")
 
+When prompted for the password, enter:
+
+```apache
+supersecret!
+```
+
 ---
 
 ### Old Solution
