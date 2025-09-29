@@ -330,6 +330,8 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP398
 source lab.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759111777318/5a320386-71ba-4ce6-9c30-b5837d839fe6.png align="center")
+
 ---
 
 ### Manual
