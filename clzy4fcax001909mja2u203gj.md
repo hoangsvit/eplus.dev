@@ -221,7 +221,7 @@ Confirm that the application can extract text from images
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=Xv27oSrjGqI] 
+%[https://youtu.be/lzCY9R8eBXk] 
 
 ```apache
 export LANGUAGE=
