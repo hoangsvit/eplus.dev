@@ -223,19 +223,12 @@ Confirm that the application can extract text from images
 
 %[https://youtu.be/lzCY9R8eBXk] 
 
-```apache
-export LANGUAGE=
-export LOCAL=
-export BIGQUERY_ROLE=
-export CLOUD_STORAGE_ROLE=
-```
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723898043771/91f73fc1-106f-4ea8-98d8-24271698b706.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Use%20Machine%20Learning%20APIs%20on%20Google%20Cloud%20Challenge%20Lab/quicklabgsp329.sh
-sudo chmod +x quicklabgsp329.sh
-./quicklabgsp329.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Use%20Machine%20Learning%20APIs%20on%20Google%20Cloud%3A%20Challenge%20Lab/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
 
 <div data-node-type="callout">
