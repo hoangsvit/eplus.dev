@@ -170,6 +170,21 @@ Check my progress
 
 ## Solution of Lab
 
+### New Solution
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP351/lab.sh
+source lab.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759139291419/69aea423-2c49-483f-a153-41fbecf4ad74.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759139248517/f9ed6e4a-5b07-47d1-9689-a78debe3bc27.png align="center")
+
+---
+
+### Old Solution
+
 %[https://www.youtube.com/watch?v=mc8TMhxS9Ws&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
 ### **Task 1: Enable APIs**
