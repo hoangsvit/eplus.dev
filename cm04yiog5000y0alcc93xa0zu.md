@@ -11,7 +11,7 @@ tags: mitigate-threats-and-vulnerabilities-with-security-command-center-challeng
 
 ---
 
-## **Overview**
+## Overview
 
 In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs in the course to figure out how to complete the tasks on your own! An automated scoring system (shown on this page) will provide feedback on whether you have completed your tasks correctly.
 
@@ -32,29 +32,32 @@ This lab is recommended for students who have enrolled in the [Mitigate Threats 
 * Export Cymbal Bank Findings to a Google Cloud Storage Bucket
     
 
-## **Setup and requirements**
+## Setup and requirements
 
 ### Before you click the Start Lab button
 
-Read these instructions. Labs are timed and you cannot pause them. The timer, which starts when you click **Start Lab**, shows how long Google Cloud resources will be made available to you.
+Read these instructions. Labs are timed and you cannot pause them. The timer, which starts when you click **Start Lab**, shows how long Google Cloud resources are made available to you.
 
-This hands-on lab lets you do the lab activities yourself in a real cloud environment, not in a simulation or demo environment. It does so by giving you new, temporary credentials that you use to sign in and access Google Cloud for the duration of the lab.
+This hands-on lab lets you do the lab activities in a real cloud environment, not in a simulation or demo environment. It does so by giving you new, temporary credentials you use to sign in and access Google Cloud for the duration of the lab.
 
 To complete this lab, you need:
 
 * Access to a standard internet browser (Chrome browser recommended).
     
 
-**Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
+**Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+* Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
-**Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
+**Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
-## **Challenge scenario**
+## Challenge scenario
 
 ![5ce916afc496a60c.jpeg](https://cdn.qwiklabs.com/vD5d2kq0fYY215r0BLo9RmTh4zTLR4MhcoSR6uueqtU%3D align="left")
+
+  
+  
 
 Cymbal Bank is an American retail bank with over 2,000 branches in all 50 states. It offers comprehensive debit and credit services that are built on top of a robust payments platform. Cymbal Bank is a digitally transforming legacy financial services institution.
 
@@ -62,7 +65,7 @@ Cymbal Bank was founded in 1920 under the name Troxler. Cymbal Group acquired th
 
 In this challenge, you are a cloud security engineer tasked with securing Cymbal Bank's Google Cloud environment by leveraging Security Command Center's features. You have performed these tasks in previous labs. Now, it's your turn to demonstrate your proficiency with Security Command Center by implementing advanced threat detection and mitigation strategies, optimizing access controls, and ensuring compliance with industry regulations and best practices.
 
-## **Task 1. Configure the environment**
+## Task 1. Configure the environment
 
 First, make some baseline configurations to Cymbal Bank's environment, so you can implement robust security controls with Security Command Center.
 
@@ -75,7 +78,7 @@ First, make some baseline configurations to Cymbal Bank's environment, so you ca
 
 **Warning:** For all SCC interfaces you interact in this challenge lab, ensure that the time range selected is always set to 180 days! If you don't configure this properly, you may not be able to identify or verify any of the requirements for a task.
 
-## **Task 2. Create mute rules for Cymbal Bank**
+## Task 2. Create mute rules for Cymbal Bank
 
 Cymbal Bank is not interested in surfacing findings against certain resources in their Google Cloud environment.
 
@@ -98,7 +101,7 @@ Create mute rules for Cymbal Bank
 
 **Check my progress**
 
-## **Task 3. Analyze and fix Cymbal Bank's high vulnerability findings**
+## Task 3. Analyze and fix Cymbal Bank's high vulnerability findings
 
 Cymbal Bank wants to remove two high severity Findings in their Google Cloud environment. You are tasked with using SCC to identify and follow the steps laid out to fix the following high severity Findings so they are no longer vulnerable:
 
@@ -115,7 +118,7 @@ Fix Cymbal Bank's high vulnerability findings
 
 **Check my progress**
 
-## **Task 4. Identify application vulnerabilities with SCC's security scanning features**
+## Task 4. Identify application vulnerabilities with SCC's security scanning features
 
 In addition to resolving any infrastructure findings, you also need to identify any application vulnerabilities. In many cases, application vulnerabilities can be introduced unknowingly, so as a cloud security engineer you want to be especially diligent of any new web applications running in your environment.
 
@@ -142,11 +145,12 @@ To run a Web Security scan, the External IP of the Compute Engine VM Instance ne
 http://<YOUR_EXTERNAL_IP>:8080
 ```
 
-Copied!content\_copy
-
 A Cymbal Bank corporate banking portal with a web form should appear.
 
 ![Cymbal Bank web page](https://cdn.qwiklabs.com/9vSrMXfQfNu9itYc0eLgXa0NoEm4KPQlDlmZUWJco4k%3D align="left")
+
+  
+  
 
 For this task, run a Web Security scan against this application's URL (with port 8080).
 
@@ -156,15 +160,15 @@ Run a Web Security Scan
 
 **Check my progress**
 
-## **Task 5. Export Cymbal Bank Findings to Google Cloud Storage**
+## Task 5. Export Cymbal Bank Findings to Google Cloud Storage
 
 Cymbal Bank wants to keep information about security incidents, vulnerabilities and misconfigurations for several years for auditing purposes. As a Cloud Security Engineer, your final task is to export all existing Findings to a Google Cloud Storage Bucket with the following specifications:
 
-* **Bucket name:** scc-export-bucket-`qwiklabs-gcp-00-8ee83fa40c39`
+* **Bucket name:** scc-export-bucket-`qwiklabs-gcp-02-97aaa9bbc076`
     
 * **Location type:** regional
     
-* **Location:** `us-central1`
+* **Location:** `us-west1`
     
 
 The export should have the following properties:
@@ -180,89 +184,25 @@ Click **Check my progress** to verify the objective.
 
 Export Cymbal Bank Findings to Google Cloud Storage
 
+**Check my progress**
+
 ---
 
 ## Solution of Lab
 
-### Quick
-
-%[https://eplus.dev/2025-mitigate-threats-and-vulnerabilities-with-security-command-center-challenge-lab-gsp382#heading-solution-of-lab] 
-
----
-
-### Manual
-
-%[https://www.youtube.com/watch?v=xcSscQiJOps] 
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724309150951/f22a95a0-4725-42ad-ac50-e1297927db55.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724309154921/aa02f3bf-3792-42b1-aec3-9553e434a560.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724309214681/45eb01d9-29c1-44e5-9c8c-ef8d2b33db85.png align="center")
-
----
+%[https://youtu.be/aSUdaONi4CI] 
 
 ```apache
-category="FLOW_LOGS_DISABLED"
+curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Mitigate%20Threats%20and%20Vulnerabilities%20with%20Security%20Command%20Center%20Challenge%20Lab/gsp382-1.sh
+sudo chmod +x gsp382-1.sh
+./gsp382-1.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724309318092/153fd260-9a4b-4702-86b2-4852a529a7ba.png align="center")
-
-```apache
-category="AUDIT_LOGGING_DISABLED"
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724309403086/a869fecf-8278-464e-bc66-7dbb6a4df50f.png align="center")
-
-```apache
-category="ADMIN_SERVICE_ACCOUNT"
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724309470451/d74f267f-4a95-490b-a82e-b5b1fde6ddc5.png align="center")
-
----
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724309677698/8d981368-b31c-4abe-82a3-d1fc5b0365e8.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724309683242/eb860d27-d044-4c88-b3ac-2f08600293d0.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724309689593/f9d5fde7-af1e-47e9-aea3-625dc3e1bde8.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724309784927/82424293-7db6-4dc4-83a7-4dc325db17b9.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724309821714/2e2529e8-52b6-4d21-80d2-925a8722e47f.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724309871831/ce7e8627-fff2-4006-835b-04252de36027.png align="center")
-
-* **<mark>Open SSH port</mark>**
-    
-* **<mark>Open RDP port</mark>**
+* **Reserve Static External IP** address name **static-ip**
     
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724310316458/21e829c9-8d9f-4940-afda-9b823e1a0cff.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724309929058/0f1f7383-59e2-41c6-a529-7544d6b31ac8.png align="center")
-
----
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724310405005/6715fad9-fbdf-4b2a-999b-fd779174e128.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724310567926/e5b8808f-8aca-454f-b8ef-219592372cad.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724310575044/a51ba2eb-1223-4f8e-b89d-db72b61bf57f.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724310838718/967fa5cb-f4f6-4a06-8323-c3e7aced89b0.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724310827652/c6dee635-f460-4236-be16-25a8d5b4e14b.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724310953286/538596cf-73bb-403b-8fbf-e3416ae7c4b0.png align="center")
-
----
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724311254669/8fdbab26-efdd-4948-8e76-075f620d834e.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724311200263/bd27be8c-38b4-44cb-9946-1d771471e162.png align="center")
-
-Download file: [findings.jsonl](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP382/findings.jsonl)
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724311409521/3a6a1245-8d0e-4380-ace0-8674cffa3775.png align="center")
+```apache
+curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Mitigate%20Threats%20and%20Vulnerabilities%20with%20Security%20Command%20Center%20Challenge%20Lab/gsp382-2.sh
+sudo chmod +x gsp382-2.sh
+./gsp382-2.sh
+```
