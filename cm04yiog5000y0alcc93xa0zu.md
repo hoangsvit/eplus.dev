@@ -56,9 +56,6 @@ To complete this lab, you need:
 
 ![5ce916afc496a60c.jpeg](https://cdn.qwiklabs.com/vD5d2kq0fYY215r0BLo9RmTh4zTLR4MhcoSR6uueqtU%3D align="left")
 
-  
-  
-
 Cymbal Bank is an American retail bank with over 2,000 branches in all 50 states. It offers comprehensive debit and credit services that are built on top of a robust payments platform. Cymbal Bank is a digitally transforming legacy financial services institution.
 
 Cymbal Bank was founded in 1920 under the name Troxler. Cymbal Group acquired the company in 1975 after it had been investing heavily in Cymbal Group's proprietary ATMs. As the bank grew into a national leader, they put strategic emphasis on modernizing the customer experience both in-person at their branches and digitally through an app they released in 2014. Cymbal Bank employs 42,000 people nationwide and, in 2019, reported $24 billion in revenue.
@@ -149,9 +146,6 @@ A Cymbal Bank corporate banking portal with a web form should appear.
 
 ![Cymbal Bank web page](https://cdn.qwiklabs.com/9vSrMXfQfNu9itYc0eLgXa0NoEm4KPQlDlmZUWJco4k%3D align="left")
 
-  
-  
-
 For this task, run a Web Security scan against this application's URL (with port 8080).
 
 Click **Check my progress** to verify the objective.
@@ -205,8 +199,13 @@ sudo chmod +x gsp382-1.sh
 ./gsp382-1.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759204268395/28bea4eb-ab9a-4490-88e4-597cad290fd8.png align="center")
+
 * **Reserve Static External IP** address name **static-ip**
     
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759204436741/5a55d5d1-9f46-40c1-94ef-af4bbece8721.png align="center")
+
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP382/step2.sh
 source step2.sh
@@ -219,3 +218,11 @@ curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solution
 sudo chmod +x gsp382-2.sh
 ./gsp382-2.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759204648766/9dcf15f5-2aac-40c6-95ad-26f6c3dc4deb.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759204856370/be9cbcc8-2178-4efa-a967-2ce72ce336c4.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759204861949/d515715b-5bd6-472b-997f-8d175b7378d8.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759204871008/a68495f6-e63e-4a13-93ba-1ef7db2f9288.png align="center")
