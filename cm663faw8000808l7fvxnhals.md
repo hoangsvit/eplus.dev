@@ -246,6 +246,13 @@ Use the Cloud Natural Language API
 %[https://youtu.be/sNo6Cxka-Vw] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP323/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Prepare%20Data%20for%20ML%20APIs%20on%20Google%20Cloud%20Challenge%20Lab/quicklabtask1.sh
 sudo chmod +x quicklabtask1.sh
 ./quicklabtask1.sh
