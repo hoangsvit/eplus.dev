@@ -243,13 +243,27 @@ Use the Cloud Natural Language API
 
 ### New Solution
 
-%[https://youtu.be/sNo6Cxka-Vw]
+%[https://youtu.be/sNo6Cxka-Vw] 
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Prepare%20Data%20for%20ML%20APIs%20on%20Google%20Cloud%20Challenge%20Lab/quicklabtask1.sh
 sudo chmod +x quicklabtask1.sh
 ./quicklabtask1.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759196988697/8610ee3b-fa0f-464a-be36-4687832287d6.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759196999628/030c2076-2848-4329-b333-c9356a7447ba.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759197008834/6a725f98-f825-4a17-b92c-904830b61f68.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759197019186/de5fb1ad-d15c-4b6c-b7d7-9e741fe1afb2.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1737440418190/16cad49c-a601-4a24-aed1-5e3bb92c6c9f.png align="left")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1737440444815/5ff8f6f0-8f34-4366-b4e3-c7564f06afe0.png align="left")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1737440472218/cad81e60-9486-4a7c-9d34-365532c84490.png align="left")
 
 ---
 
