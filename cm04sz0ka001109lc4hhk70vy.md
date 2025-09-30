@@ -5,6 +5,7 @@ seoDescription: "In this lab, you will use Web Security Scanner—one of Securit
 datePublished: Thu Aug 22 2024 04:48:57 GMT+0000 (Coordinated Universal Time)
 cuid: cm04sz0ka001109lc4hhk70vy
 slug: identify-application-vulnerabilities-with-security-command-center-gsp1262
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759205787579/392bdf94-8748-4746-97c6-c8007905e5dc.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1759205343238/ea67ed0f-b6e8-4a8c-b3a3-5d30bb922a9d.png
 tags: identify-application-vulnerabilities-with-security-command-center, gsp1262, 2025-identify-application-vulnerabilities-with-security-command-center-gsp1262, identify-application-vulnerabilities-with-security-command-center-gsp1262
 
