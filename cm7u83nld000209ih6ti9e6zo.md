@@ -172,28 +172,43 @@ Check my progress
 
 ### New Solution
 
+%[https://www.youtube.com/watch?v=F_s-smALoZs] 
+
+**Enable the following Google APIs:**
+
+* [**Database Migration**](https://console.cloud.google.com/marketplace/product/google/datamigration.googleapis.com?q=search&referrer=search&project=) [**API**](https://console.cloud.google.com/marketplace/product/google/datamigration.googleapis.com?q=search&referrer=search&project=)
+    
+* [**Service Network**](https://console.cloud.google.com/marketplace/product/google/datamigration.googleapis.com?q=search&referrer=search&project=)[**ing API**](https://console.cloud.google.com/marketplace/product/google/servicenetworking.googleapis.com?q=search&referrer=search&project=)
+    
+
+**Task 4: Connect to the MySQL source instance**
+
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP351/lab.sh
-source lab.sh
+mysql -u admin -p
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759139291419/69aea423-2c49-483f-a153-41fbecf4ad74.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759139248517/f9ed6e4a-5b07-47d1-9689-a78debe3bc27.png align="center")
-
-When prompted for the password, enter:
+* **Enter password**:
+    
 
 ```apache
-supersecret!
+changeme
+```
+
+* **Copy and paste the password; the password will not be visible to you**
+    
+
+```apache
+use customers_data;
+update customers set gender = 'FEMALE' where addressKey = 934;
 ```
 
 ---
 
-### Old Solution
+### [Old S](https://console.cloud.google.com/marketplace/product/google/datamigration.googleapis.com?q=search&referrer=search&project=)[olution](https://console.cloud.google.com/marketplace/product/google/servicenetworking.googleapis.com?q=search&referrer=search&project=)
 
 %[https://www.youtube.com/watch?v=mc8TMhxS9Ws&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
-### **Task 1: Enable APIs**
+### [**Task 1: Enab**](https://console.cloud.google.com/marketplace/product/google/servicenetworking.googleapis.com?q=search&referrer=search&project=)**le APIs**
 
 Enable the following APIs in your Google Cloud project:
 
