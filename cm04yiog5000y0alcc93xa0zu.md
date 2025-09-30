@@ -7,7 +7,7 @@ cuid: cm04yiog5000y0alcc93xa0zu
 slug: mitigate-threats-and-vulnerabilities-with-security-command-center-challenge-lab-gsp382
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724308869762/0256674b-9d82-4865-b057-e788776557bf.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724311438119/9c430cd3-8a83-4a54-9b57-542a47625f17.png
-tags: mitigate-threats-and-vulnerabilities-with-security-command-center-challenge-lab-gsp382
+tags: mitigate-threats-and-vulnerabilities-with-security-command-center-challenge-lab-gsp382, gsp382, 2025-mitigate-threats-and-vulnerabilities-with-security-command-center-challenge-lab-gsp382, mitigate-threats-and-vulnerabilities-with-security-command-center-challenge-lab
 
 ---
 
