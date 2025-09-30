@@ -437,6 +437,13 @@ Correct vulnerabilities and rescan your application using Web Security Scanner
 **Copy & Run the Commands in Cloud Shell Terminal :**
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1262/step1.sh
+source step1.sh
+```
+
+**Script Alternative**
+
+```apache
 export ZONE=
 ```
 
@@ -451,7 +458,13 @@ sudo chmod +x qwiklab_explorers_gsp1262_task-1.sh
 * Go to `Cloud Web Security Scanner` from [here](https://console.cloud.google.com/security/web-scanner/scanConfigs?)
     
 * **Check All Task's Score Upto** `Task 4` **then Run the below commands only**
-    
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1262/step2.sh
+source step2.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/Titash-shil/Identify-Application-Vulnerabilities-with-Security-Command-Center-GSP1262/refs/heads/main/qwiklab_explorers_gsp1262_task-2.sh
