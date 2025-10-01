@@ -352,11 +352,21 @@ export FUNC_2=
 export MODEL=
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759297895172/ff79ef24-d05f-4610-b6ca-c4e2c0793c5b.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759297929008/25b3ae84-ff92-4a22-b75d-07dad19e2bf4.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759297938727/5131f514-8e18-4ec3-9e34-dea6d50b33f8.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759298004928/f0d1aebc-ab9d-4666-8ba3-74d9f28774d6.png align="center")
+
 ```apache
 curl -LO raw.githubusercontent.com/chayandeokar/Cloud-Skills-2025/refs/heads/master/Perform%20Predictive%20Data%20Analysis%20in%20BigQuery%20Challenge%20Lab%20/gsp374.sh
 sudo chmod +x gsp374.sh
 ./gsp374.sh
 ```
+
+Open [Big Query](https://console.cloud.google.com/bigquery)
 
 ---
 
