@@ -5,9 +5,9 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: Wed Aug 21 2024 02:24:29 GMT+0000 (Coordinated Universal Time)
 cuid: cm038ddhy000009jtghij1r12
 slug: perform-predictive-data-analysis-in-bigquery-challenge-lab-gsp374
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724206633473/0afec8d5-f173-43fd-94aa-766e8665a419.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724207057780/2f94c2fd-cf33-48ef-b1f5-e48669dd888a.png
-tags: perform-predictive-data-analysis-in-bigquery-challenge-lab-gsp374
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759298055184/c868d288-b90b-4a56-911e-ecefc268f4fd.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1759298067443/2c32b567-2c53-49fe-ad91-f13392374c8d.png
+tags: perform-predictive-data-analysis-in-bigquery-challenge-lab-gsp374, gsp374, perform-predictive-data-analysis-in-bigquery-challenge-lab
 
 ---
 
@@ -338,7 +338,7 @@ Make predictions from the model
 
 ## New solution
 
-%[https://www.youtube.com/watch?v=v8nvFo8kpuQ] 
+%[https://youtu.be/gyZCr-1I0m4] 
 
 ```apache
 export EVENT=
