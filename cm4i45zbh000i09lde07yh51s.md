@@ -173,6 +173,27 @@ Check my progress
 
 ## Solution of Lab
 
+### New Solution
+
+%[https://youtu.be/GP-3t4aJuIQ]
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC116/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Get%20Started%20with%20Sensitive%20Data%20Protection%20Challenge%20Lab/arc116.sh
+sudo chmod +x *.sh
+./*.sh
+```
+
+---
+
+### Old Solution
+
 %[https://www.youtube.com/watch?v=x74P6P5FTKs&ab_channel=Techcps] 
 
 ```apache
