@@ -174,6 +174,13 @@ Send the text prompt requests to Gen AI and receive a chat response
 %[https://youtu.be/kGWgH0mTn-c] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/build-an-application-to-send-chat-prompts-using-the-gemini-model/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20an%20application%20to%20send%20Chat%20Prompts%20using%20the%20Gemini%20model/abhishek.sh
 source abhishek.sh
 ```
