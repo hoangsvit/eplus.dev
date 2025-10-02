@@ -171,11 +171,11 @@ Send the text prompt requests to Gen AI and receive a chat response
 
 ## Solution of Lab
 
-%[https://youtu.be/Go6RV4bKl6Y] 
+%[https://youtu.be/kGWgH0mTn-c] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Build%20an%20application%20to%20send%20Chat%20Prompts%20using%20the%20Gemini%20model/arcadecrew.sh
-source arcadecrew.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20an%20application%20to%20send%20Chat%20Prompts%20using%20the%20Gemini%20model/abhishek.sh
+source abhishek.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744624614319/a88f8bce-69a0-4da3-9a43-fadf1d58598e.png align="center")
