@@ -50,11 +50,18 @@ Analyze the saved image by using a multimodal model
 
 ## Solution of Lab
 
-%[https://youtu.be/g-PAru0n-RU] 
+%[https://youtu.be/-96DVnTutbI] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ArcadeCrew/Google-Cloud-Labs/refs/heads/main/Build%20a%20Multi-Modal%20GenAI%20Application%20Challenge%20Lab/arcadecrew.sh
-source arcadecrew.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/build-a-multi-modal-gen-ai-application-challenge-lab/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20a%20Multi-Modal%20GenAI%20Application%3A%20Challenge%20Lab/abhishek.sh
+source abhishek.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744687094137/0cc4c5cf-6bd1-43f5-8eac-917f36b5f9f0.png align="center")
