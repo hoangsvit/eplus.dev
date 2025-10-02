@@ -7,7 +7,7 @@ cuid: cm4i45zbh000i09lde07yh51s
 slug: get-started-with-sensitive-data-protection-challenge-lab-arc116
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733813131726/7d6ead67-bccf-4220-9651-9abfcc2a8d30.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1733814115569/fd678c0b-e36e-4a80-9bd7-ca3f7e6b77b1.png
-tags: get-started-with-sensitive-data-protection-challenge-lab-arc116, arc116
+tags: get-started-with-sensitive-data-protection-challenge-lab-arc116, arc116, sensitive-data-protection
 
 ---
 
