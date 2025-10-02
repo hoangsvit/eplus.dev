@@ -596,7 +596,12 @@ mvn compile
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=3-6bv2CSG44&ab_channel=QUICKGCPLAB] 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1185/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Securing%20Container%20Builds/gsp1185.sh
