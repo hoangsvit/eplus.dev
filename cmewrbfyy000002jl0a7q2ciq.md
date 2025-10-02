@@ -122,6 +122,13 @@ Send a text prompt requests to Gen AI and receive a response
 %[https://youtu.be/yTgVkMdqiUU] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/build-an-ai-image-generator-app-using-imagen-on-vertex-ai/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20an%20AI%20Image%20Generator%20app%20using%20Imagen%20on%20Vertex%20AI/abhishek.sh
 source abhishek.sh
 ```
