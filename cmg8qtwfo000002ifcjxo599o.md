@@ -40,10 +40,10 @@ Welcome to **Base Camp October 2025**, where you’ll develop key **Google Cloud
 
 | **Week** | **Game Link** | **Code** |
 | --- | --- | --- |
-| **Week 1** | [Games 6556](https://www.cloudskillsboost.google/games/6556) | <mark>Coming Soon</mark> |
-| **Week 2** | [Games 6557](https://www.cloudskillsboost.google/games/6557) | <mark>Coming Soon</mark> |
-| **Week 3** | [Games 6558](https://www.cloudskillsboost.google/games/6558) | <mark>Coming Soon</mark> |
-| **Week 4** | [Games 6559](https://www.cloudskillsboost.google/games/6559) | <mark>Coming Soon</mark> |
+| **Week 1** | [Games 6556](https://www.cloudskillsboost.google/games/6556) | <mark>1q-trivia-22930</mark> |
+| **Week 2** | [Games 6557](https://www.cloudskillsboost.google/games/6557) | <mark>1q-trivia-10310</mark> |
+| **Week 3** | [Games 6558](https://www.cloudskillsboost.google/games/6558) | <mark>1q-trivia-29579</mark> |
+| **Week 4** | [Games 6559](https://www.cloudskillsboost.google/games/6559) | <mark>1q-trivia-32105</mark> |
 
 ---
 
