@@ -290,6 +290,8 @@ Test your knowledge about Google Cloud Platform by taking this quiz. (Select mul
 
 ### Solution of Lab
 
+### Quick
+
 %[https://www.youtube.com/watch?v=xqRj36QQhOs] 
 
 ```apache
@@ -311,3 +313,9 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/App%20Engine
 sudo chmod +x quicklabgsp067.sh
 ./quicklabgsp067.sh
 ```
+
+---
+
+### Manual
+
+%[https://youtu.be/BgKs6mngdxA]
