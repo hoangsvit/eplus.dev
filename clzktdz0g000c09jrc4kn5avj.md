@@ -5,9 +5,9 @@ seoDescription: "Cloud Storage allows world-wide storage and retrieval of any am
 datePublished: Thu Aug 08 2024 05:05:12 GMT+0000 (Coordinated Universal Time)
 cuid: clzktdz0g000c09jrc4kn5avj
 slug: app-dev-storing-image-and-video-files-in-cloud-storage-python-gsp185
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723092777074/aa849ebd-9307-4c59-8292-cc3c3e58a8ae.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723093489907/ca360209-73e6-4598-aca2-2880e4295e3f.png
-tags: app-dev-storing-image-and-video-files-in-cloud-storage-python-gsp185
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759563505923/f5affe53-21b7-440b-a0d4-fff878638138.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1759563534371/80c14e34-c347-477b-a185-311eff05ff2e.png
+tags: app-dev-storing-image-and-video-files-in-cloud-storage-python-gsp185, gsp185, app-dev-storing-image-and-video-files-in-cloud-storage-python, app-dev-storing-image-and-video-files-in-cloud-storage
 
 ---
 
