@@ -62,7 +62,7 @@ In this lab you'll do the following with a Python app:
 
 ---
 
-### **Task 1. Enable Google App Engine Admin API**
+## **Task 1. Enable Google App Engine Admin API**
 
 The App Engine Admin API enables developers to provision and manage their App Engine Applications.
 
@@ -75,7 +75,7 @@ The App Engine Admin API enables developers to provision and manage their App En
 4. Click **Enable**. If there is no prompt to enable the API, then it is already enabled and no action is needed.
     
 
-### **Task 2. Download the Hello World app**
+## **Task 2. Download the Hello World app**
 
 There is a simple Hello World app for Python you can use to quickly get a feel for deploying an app to Google Cloud. Follow these steps to download Hello World to your Google Cloud instance.
 
@@ -103,7 +103,7 @@ python3 -m venv create myvenv
 source myvenv/bin/activate
 ```
 
-### **Task 3. Test the application**
+## **Task 3. Test the application**
 
 Test the application using the Google Cloud development server (`dev_appserver.py`), which is included with the preinstalled App Engine SDK.
 
@@ -123,7 +123,7 @@ The development server is now running and listening for requests on port 8080.
     ![Browser window with Hello World! on the page](https://cdn.qwiklabs.com/BIPZByP1eH9Q0K2oQSImfuPKKHlWj%2FbpNiSmef%2BuOaQ%3D align="left")
     
 
-### **Task 4. Make a change**
+## **Task 4. Make a change**
 
 You can leave the development server running while you develop your application. The development server watches for changes in your source files and reloads them if necessary.
 
@@ -156,7 +156,7 @@ nano main.py
     ![Browser window with Hello, Cruel World! on the page](https://cdn.qwiklabs.com/znqxKObHIzucdgmme4nJP485ReBUAMdG%2BOKJP9XLzes%3D align="left")
     
 
-### **Task 5. Deploy your app**
+## **Task 5. Deploy your app**
 
 1. To deploy your app to App Engine, run the following command from within the root directory of your application where the app.yaml file is located:
     
@@ -213,7 +213,7 @@ To view your application in the web browser run:
 
 **Note:** If you receive an error as "Unable to retrieve P4SA" while deploying the app, then re-run the above command.
 
-### **Task 6. View your application**
+## **Task 6. View your application**
 
 * To launch your browser enter the following command, then click on the link it provides:
     
@@ -239,7 +239,7 @@ Deploy your app.
 
 **Check my progress**
 
-### **Task 7. Test your knowledge**
+## **Task 7. Test your knowledge**
 
 Test your knowledge about Google Cloud Platform by taking this quiz. (Select multiple correct answers if necessary.)
 
@@ -288,16 +288,24 @@ Test your knowledge about Google Cloud Platform by taking this quiz. (Select mul
 
 ---
 
-### Solution of Lab
+## Solution of Lab
 
-### Quick
-
-%[https://www.youtube.com/watch?v=xqRj36QQhOs] 
+### New Solution
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP067/lab.sh
 sudo chmod +x lab.sh
 ./lab.sh
+```
+
+### Old Solution
+
+%[https://www.youtube.com/watch?v=xqRj36QQhOs] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP067/old-lab.sh
+sudo chmod +x old-lab.sh
+./old-lab.sh
 ```
 
 **Script Alternative**
