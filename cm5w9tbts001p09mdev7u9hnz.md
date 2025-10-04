@@ -316,7 +316,7 @@ export REGION=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1736846546069/4a12025e-c513-49a1-8c8c-aee34fbf70ba.png align="center")
 
 ```apache
-curl -LO github.com/ePlus-DEV/storage/blob/main/labs/GSP069/lab.sh
+curl -LO github.com/ePlus-DEV/storage/blob/main/labs/GSP070/lab.sh
 sudo chmod +x lab.sh
 ./lab.sh
 ```
