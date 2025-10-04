@@ -541,6 +541,13 @@ Access BigQuery using a Service Account
 %[https://youtu.be/zF6iNawLkk4] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP199/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Service%20Accounts%20and%20Roles%3A%20Fundamentals/techcps199.sh
 sudo chmod +x techcps199.sh
 ./techcps199.sh
