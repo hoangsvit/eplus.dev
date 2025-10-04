@@ -534,6 +534,8 @@ To perform more queries on your data, explore the [BigQuery documentation](https
 
 %[https://www.youtube.com/watch?v=e1GHYCdsd-Y] 
 
+Open [Navigation menu &gt; APIs & Services &gt; Credentials.](https://console.cloud.google.com/apis/credentials)
+
 ```apache
 export KEY=
 ```
