@@ -41,6 +41,13 @@ Create a lifecycle management policy
 
 ## Solution of Lab
 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/mini%20lab%20%3A%20Cloud%20Storage%20%3A%202/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
 ```bash
 cat > lifecycle.json << EOF
 {
