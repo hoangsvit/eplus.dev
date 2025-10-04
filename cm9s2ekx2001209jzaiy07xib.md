@@ -1,7 +1,7 @@
 ---
 title: "App Engine: Qwik Start - PHP - GSP069"
 seoTitle: "App Engine: Qwik Start - PHP - GSP069"
-seoDescription: "App Engine allows developers to focus on doing what they do best—write code. The App Engine standard environment is based on container instances running on "
+seoDescription: "App Engine allows developers to focus on doing what they do best—write code. The App Engine standard environment is based on container instances running on"
 datePublished: Tue Apr 22 2025 05:29:03 GMT+0000 (Coordinated Universal Time)
 cuid: cm9s2ekx2001209jzaiy07xib
 slug: app-engine-qwik-start-php-gsp069
@@ -362,6 +362,13 @@ The App Engine standard environment makes it easy to build and deploy an applica
 ## Solution of Lab
 
 %[https://youtu.be/sxlXdG7sLy4] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP069/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 export REGION=
