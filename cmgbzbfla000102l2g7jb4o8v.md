@@ -80,8 +80,6 @@ To complete this lab, you need:
     student-00-8cdc688e6fb3@qwiklabs.net
     ```
     
-    
-    
     You can also find the Username in the Lab Details pane.
     
 4. Click **Next**.
@@ -91,8 +89,6 @@ To complete this lab, you need:
     ```apache
     orAmeLKoKbEA
     ```
-    
-    
     
     You can also find the Password in the Lab Details pane.
     
@@ -145,8 +141,6 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-00-5eafcb6127
 gcloud auth list
 ```
 
-
-
 4. Click **Authorize**.
     
 
@@ -166,8 +160,6 @@ To set the active account, run:
 ```apache
 gcloud config list project
 ```
-
-
 
 **Output:**
 
@@ -199,16 +191,12 @@ In this section, you access Cloud Shell, clone the git repository containing the
 git clone https://github.com/GoogleCloudPlatform/training-data-analyst
 ```
 
-
-
 2. Create a soft link as a shortcut to the working directory:
     
 
 ```apache
 ln -s ~/training-data-analyst/courses/developingapps/v1.2/python/kubernetesengine ~/kubernetesengine
 ```
-
-
 
 ### Configure the Quiz application
 
@@ -219,8 +207,6 @@ ln -s ~/training-data-analyst/courses/developingapps/v1.2/python/kubernetesengin
 cd ~/kubernetesengine/start
 ```
 
-
-
 2. To replace the default region with the lab-assigned region, run the following commands:
     
 
@@ -230,16 +216,12 @@ export REGION=us-central1
 sed -i -e 's/us-central1/'"$REGION"'/g' -e 's/us-central/'"$APP_REGION"'/g' -e 's/python3/'"python3.12"'/g' prepare_environment.sh
 ```
 
-
-
 3. Configure the Quiz application:
     
 
 ```apache
 . prepare_environment.sh
 ```
-
-
 
 This script file:
 
@@ -337,8 +319,6 @@ In this section you connect the Quiz application to the kubernetes cluster.
 gcloud container clusters get-credentials quiz-cluster --zone us-central1-c --project qwiklabs-gcp-00-5eafcb6127f6
 ```
 
-
-
 Press ENTER to run the command in Cloud Shell.
 
 3. Run the following command to list the Pods in the cluster:
@@ -347,8 +327,6 @@ Press ENTER to run the command in Cloud Shell.
 ```apache
 kubectl get pods
 ```
-
-
 
 The response should be `No resources found in default namespace` because there are no Pods in the cluster. It confirms that you have configured security to allow the `kubectl` command-line tool to perform operations against the cluster.
 
@@ -366,8 +344,6 @@ gcloud artifacts repositories create container-dev-repo --repository-format=dock
   --location=us-central1 \
   --description="Docker repository for Container Dev Workshop"
 ```
-
-
 
 Click **Authorize** if the Cloud Shell authorization prompt appears.
 
@@ -418,8 +394,6 @@ ADD . /app
 CMD gunicorn -b 0.0.0.0:$PORT quiz:app
 ```
 
-
-
 3. Open the `backend/Dockerfile` file and copy and paste the following code:
     
 
@@ -439,8 +413,6 @@ ADD . /app
 CMD python -m quiz.console.worker
 ```
 
-
-
 ### Build Docker images with Cloud Build
 
 1. In Cloud Shell, make sure you are in the `start` folder:
@@ -450,16 +422,12 @@ CMD python -m quiz.console.worker
 cd ~/kubernetesengine/start
 ```
 
-
-
 2. Run the following command to build the frontend Docker image:
     
 
 ```apache
 gcloud builds submit -t us-central1-docker.pkg.dev/qwiklabs-gcp-00-5eafcb6127f6/container-dev-repo/quiz-frontend:v1 ./frontend/
 ```
-
-
 
 Here, Docker image is built and stored in the Artifact Registry. It takes a few minutes.
 
@@ -471,8 +439,6 @@ Ignore any incompatibility messages you see in the output messages.
 ```apache
 gcloud builds submit -t us-central1-docker.pkg.dev/qwiklabs-gcp-00-5eafcb6127f6/container-dev-repo/quiz-backend:v1 ./backend/
 ```
-
-
 
 When the backend Docker image is ready you see these last messages:
 
@@ -553,8 +519,6 @@ In this section, you modify the template `yaml` files that contain the specifica
 kubectl create -f ./frontend-deployment.yaml
 ```
 
-
-
 2. Provision the quiz backend deployment:
     
 
@@ -562,16 +526,12 @@ kubectl create -f ./frontend-deployment.yaml
 kubectl create -f ./backend-deployment.yaml
 ```
 
-
-
 3. Provision the quiz frontend service:
     
 
 ```apache
 kubectl create -f ./frontend-service.yaml
 ```
-
-
 
 **Note:** Each command provisions resources in the Kubernetes Engine. It takes a few minutes to complete the process.
 
@@ -611,6 +571,13 @@ If the status of one or both containers is **Does not have minimum availability*
 ## Solution of Lab
 
 %[https://youtu.be/k-HycgqLhCY] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP188/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 export ZONE=
