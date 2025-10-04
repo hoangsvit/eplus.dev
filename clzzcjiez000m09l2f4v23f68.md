@@ -536,6 +536,20 @@ Access BigQuery using a Service Account
 
 ## Solution of Lab
 
+### New Solution
+
+%[https://youtu.be/zF6iNawLkk4] 
+
+```apache
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Service%20Accounts%20and%20Roles%3A%20Fundamentals/techcps199.sh
+sudo chmod +x techcps199.sh
+./techcps199.sh
+```
+
+---
+
+### Old Solution
+
 %[https://www.youtube.com/watch?v=iq6udZU9QKU] 
 
 ```apache
