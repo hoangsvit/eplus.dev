@@ -49,6 +49,14 @@ The lab mimics a kanban application scenario. Select an active ticket to view th
 
 ## Solution of Lab
 
+### Quick
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759562156898/b44cba8a-bdd2-4a85-8daa-725babefa340.png align="center")
+
+---
+
+### Manual
+
 %[https://youtu.be/Kc-fi4sd2K4] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759561848471/11ccc2ed-f394-42e5-8a35-7831b80a504b.png align="center")
