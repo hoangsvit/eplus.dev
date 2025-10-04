@@ -307,7 +307,16 @@ Which of the following runtimes for GO are supported in App Engine standard envi
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=3cVxYis4Hj8&ab_channel=QUICKGCPLAB] 
+### New Solution
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP070/lab.sh
+source lab.sh
+```
+
+---
+
+### Old Solution
 
 ```apache
 export REGION=
@@ -316,9 +325,9 @@ export REGION=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1736846546069/4a12025e-c513-49a1-8c8c-aee34fbf70ba.png align="center")
 
 ```apache
-curl -LO github.com/ePlus-DEV/storage/blob/main/labs/GSP070/lab.sh
-sudo chmod +x lab.sh
-./lab.sh
+curl -LO github.com/ePlus-DEV/storage/blob/main/labs/GSP070/old-lab.sh
+sudo chmod +x old-lab.sh
+./old-lab.sh
 ```
 
 **Script Alternative**
