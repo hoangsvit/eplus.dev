@@ -418,6 +418,13 @@ You should see your new object named `Google_Cloud_Storage_logo.png`.
 %[https://www.youtube.com/watch?v=1vhrypYAApw] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP185/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 export REGION=
 ```
 
