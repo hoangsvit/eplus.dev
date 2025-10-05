@@ -1176,6 +1176,13 @@ By default, the groups created in identity store are called the internal groups.
 %[https://youtu.be/JeeEC7vZL4U] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1005/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Authentication%20Authorization%20and%20Identity%20with%20Vault/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
