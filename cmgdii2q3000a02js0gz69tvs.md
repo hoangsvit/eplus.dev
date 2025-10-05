@@ -80,7 +80,7 @@ To complete this lab, you need:
     student-01-d506720aec87@qwiklabs.net
     ```
     
-    Copied!
+
     
     You can also find the Username in the Lab Details pane.
     
@@ -92,7 +92,7 @@ To complete this lab, you need:
     GgTx5j96ZQQL
     ```
     
-    Copied!
+
     
     You can also find the Password in the Lab Details pane.
     
@@ -156,7 +156,7 @@ Now that you have found the tables, you can join them.
     `qwiklabs-gcp-00-857ec74d7a38.coffee_on_wheels.order_item` AS t3 LIMIT 10;
     ```
     
-    Copied!
+
     
     You don't use this query, as it only selects items from the tables and lists 10 of them. First, let's try a simple prompt. Enter this and then click **REFINE**:
     
@@ -184,7 +184,7 @@ Now that you have found the tables, you can join them.
       t2.menu_id = t3.menu_id;
     ```
     
-    Copied!
+
     
     While this is a great, easy start, notice how it doesn't necessarily follow best practices in terms of clarity or '\*' usage. To improve it, use the following prompt:
     
@@ -223,7 +223,7 @@ Now that you have found the tables, you can join them.
     order_item.order_id = orders.order_id;
     ```
     
-    Copied!
+
     
 
 **Note**: Ensure you no longer see a `LIMIT` clause. If it persists, either remove the line manually or change the prompt to: 'Join these data sources without using \* while returning all rows'
@@ -280,7 +280,7 @@ Beneath the results of the join query, you see options to branch another node in
     total_revenue DESC;
     ```
     
-    Copied!
+
     
 4. Click **RUN**.
     
@@ -324,7 +324,7 @@ In this task, you use the results from the total revenue calculation to create a
       10;
     ```
     
-    Copied!
+
     
 4. Click **RUN**.
     
@@ -412,7 +412,7 @@ In this task, you identify two menu items generating the same revenue from the t
     2;
     ```
     
-    Copied!
+
     
 6. Click **RUN**.
     
