@@ -305,6 +305,13 @@ gsutil rb "gs://$BUCKET/"
 %[https://www.youtube.com/watch?v=s-psIayBLg8&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP297/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Google%20Cloud%20Storage%20Bucket%20Lock/quicklabgsp297.sh
 sudo chmod +x quicklabgsp297.sh
 ./quicklabgsp297.sh
