@@ -646,11 +646,10 @@ explore: events {
 
 * Click **Save &gt; As a Look**.
     
-
 * Name the Look
     
     ```plaintext
-    Top 10 Users With Highest Average Sales.
+    Top 10 Users With Highest Average Sales
     ```
     
 
