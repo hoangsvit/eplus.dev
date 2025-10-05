@@ -5,9 +5,8 @@ seoDescription: "Authentication in Vault is the process by which user or machine
 datePublished: Mon Sep 09 2024 06:16:16 GMT+0000 (Coordinated Universal Time)
 cuid: cm0um0mr5001o09jwa7y74pmv
 slug: authentication-authorization-and-identity-with-vault-gsp1005
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725862229675/cfdc4f90-eafd-4111-b2de-7fd40b343a04.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725862557567/be196c24-ada3-487b-a2bf-75489ed922b6.jpeg
-tags: authentication-authorization-and-identity-with-vault-gsp1005
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759647571111/c9c4f936-9fd2-4be6-b1cc-9ecddb73d14d.png
+tags: authentication-authorization-and-identity-with-vault-gsp1005, gsp1005, authentication-authorization-and-identity-with-vault
 
 ---
 
@@ -1174,10 +1173,10 @@ By default, the groups created in identity store are called the internal groups.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=3ty7prpsnMk&ab_channel=Techcps] 
+%[https://youtu.be/JeeEC7vZL4U] 
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Authentication%2C%20Authorization%2C%20and%20Identity%20with%20Vault/techcps1005.sh
-sudo chmod +x techcps1005.sh
-./techcps1005.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Authentication%20Authorization%20and%20Identity%20with%20Vault/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
