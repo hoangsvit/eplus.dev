@@ -48,6 +48,13 @@ Configure a bucket for website hosting
 %[https://youtu.be/SNA_geKcqSk] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/mini%20lab%20:%20Cloud%20Storage%20:%201/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 export PROJECT=$(gcloud projects list --format="value(PROJECT_ID)")
 
 gcloud storage buckets update gs://$PROJECT-bucket --no-uniform-bucket-level-access
