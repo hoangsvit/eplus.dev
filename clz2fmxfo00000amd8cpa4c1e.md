@@ -324,6 +324,8 @@ This lab does not cover local SSDs.
 
 ## Solution of Lab
 
+### Qucik
+
 %[https://youtu.be/IvcbZdYgPVg] 
 
 ```apache
@@ -335,3 +337,7 @@ sudo chmod +x techcps004.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750394854813/5854505f-48ba-40a7-b7a1-1fecee18617c.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750394783734/b181218e-4622-4ebf-b801-3e2a74414169.png align="center")
+
+### Manual
+
+%[https://youtu.be/DHnihym7OOg]
