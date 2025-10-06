@@ -36,7 +36,7 @@ In this lab you will learn how to:
 * Create an alert for the user-defined log-based metric
     
 
-### **Task 1. Log-based alert**
+## **Task 1. Log-based alert**
 
 Log-based alerts notify you whenever a specific message appears in your logs. Try it out by setting up a log-based alert to tell you when a VM stops running.
 
@@ -100,7 +100,7 @@ You will now cause your VM to stop.
 10. Click on the **Alerting** tab. You'll see that your alert has registered. Under Alert Policies click the **See all policies** link and you'll see the log-based alert you created listed.
     
 
-### **Task 2. Log-based metric**
+## **Task 2. Log-based metric**
 
 Using log-based metrics you can define a metric that tracks errors in the logs to proactively respond to similar problems and symptoms before they are noticed by end users.
 
@@ -182,7 +182,7 @@ You should see the following:
 flask_exporter_info{version="0.18.5"} 1.0
 ```
 
-### **Task 3. Create a log-based metric**
+## **Task 3. Create a log-based metric**
 
 1. Return to **Logs Explorer**.
     
@@ -213,7 +213,7 @@ Create the log-based metric
 
 **Check my progress**
 
-### **Task 4. Create a metrics-based alert**
+## **Task 4. Create a metrics-based alert**
 
 1. In the left pane of **Logging** window select **Log-based Metrics**. Then in user-defined metrics click on **3 vertical dots** next to metrics and select **Create alert from metric**.
     
@@ -240,7 +240,7 @@ Create the metrics-based alert
 
 **Check my progress**
 
-### **Task 5. Generate some errors**
+## **Task 5. Generate some errors**
 
 Next you'll generate some errors to match the log-based metric you created and trigger the metric-based alert.
 
@@ -264,7 +264,7 @@ Click **Check my progress** to verify the objective.
 
 ---
 
-### Solution of Lab
+## Solution of Lab
 
 ### New solution
 
