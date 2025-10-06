@@ -5,6 +5,8 @@ seoDescription: "Join Base Camp October 2025 to boost your Google Cloud skills w
 datePublished: Thu Oct 02 2025 01:35:21 GMT+0000 (Coordinated Universal Time)
 cuid: cmg8qtwfo000002ifcjxo599o
 slug: the-arcade-base-camp-october-2025
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759737504404/ca8f398b-bc5c-4e44-9ebe-5adc51fe5501.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1759737512555/ff11a4e0-a25b-4433-821f-7da45c500955.png
 tags: the-arcade-base-camp-october-2025, the-arcade-base-camp-october
 
 ---
