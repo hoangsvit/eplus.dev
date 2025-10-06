@@ -704,5 +704,5 @@ sudo chmod +x techcps1246.sh
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text"><strong>If the code is not executed properly, then re run the GitHub commands</strong></div>
+<div data-node-type="callout-text"><strong>If the code is not executed properly, then re-run the GitHub commands</strong></div>
 </div>
