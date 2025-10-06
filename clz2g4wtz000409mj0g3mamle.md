@@ -1194,6 +1194,20 @@ The managed instance group recreated the instance to repair it.
 
 ## Solution of Lab
 
+### New Solution
+
+%[https://youtu.be/3zdTgTUzV2I]
+
+```apache
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Hosting%20a%20Web%20App%20on%20Google%20Cloud%20Using%20Compute%20Engine%20updated/quicklabgsp662/task1.sh
+sudo chmod +x task1.sh
+./task1.sh
+```
+
+---
+
+### Old Solution
+
 %[https://www.youtube.com/watch?v=dkLTeZuNul4&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
 NOTE ► Make sure you export the **ZONE** form Set your region and zone Task. As Shown in the video.
@@ -1204,8 +1218,9 @@ NOTE ► Make sure you export the **ZONE** form Set your region and zone Task. A
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Hosting%20a%20Web%20App%20on%20Google%20Cloud%20Using%20Compute%20Engine%20updated/quicklabgsp662/task1.sh
 sudo chmod +x task1.sh
 ./task1.sh
+```
 
-
+```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Hosting%20a%20Web%20App%20on%20Google%20Cloud%20Using%20Compute%20Engine%20updated/quicklabgsp662/task2.sh
 sudo chmod +x task2.sh
 ./task2.sh
