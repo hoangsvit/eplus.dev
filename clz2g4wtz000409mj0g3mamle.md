@@ -1199,9 +1199,9 @@ The managed instance group recreated the instance to repair it.
 %[https://youtu.be/3zdTgTUzV2I]
 
 ```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Hosting%20a%20Web%20App%20on%20Google%20Cloud%20Using%20Compute%20Engine%20updated/quicklabgsp662/task1.sh
-sudo chmod +x task1.sh
-./task1.sh
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Hosting%20a%20Web%20App%20on%20Google%20Cloud%20Using%20Compute%20Engine/techcps662.sh
+sudo chmod +x techcps662.sh
+./techcps662.sh
 ```
 
 ---
