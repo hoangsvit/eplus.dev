@@ -238,6 +238,17 @@ Question: **Through which of the following ways can you create a VM instance in 
 
 ## Solution of Lab
 
+### New Solution
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/Creating a Virtual Machine - GSP001/lab.sh
+source lab.sh
+```
+
+---
+
+### Old Solution
+
 %[https://www.youtube.com/watch?v=wxVQJEm2MMo&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
 NOTE :- Make sure to export the "REGION & ZONE" as shown in video
