@@ -326,7 +326,12 @@ This lab does not cover local SSDs.
 
 ### Qucik
 
-%[https://youtu.be/IvcbZdYgPVg] 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP004/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Creating%20a%20Persistent%20Disk/techcps004.sh
