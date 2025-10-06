@@ -91,7 +91,7 @@ source lab.sh
 
 ---
 
-### Ols Solution
+### Old Solution
 
 %[https://youtu.be/lfPE9wgNcoE] 
 
@@ -102,9 +102,9 @@ export ZONE=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744955337860/9c84bd3b-efbb-4b4c-87e3-777683f8ff4d.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/ARC/master/The%20Basics%20of%20Google%20Cloud%20Compute%3A%20Challenge%20Lab/techcps120.sh
-sudo chmod +x techcps120.sh
-./techcps120.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/The%20Basics%20of%20Google%20Cloud%20Compute%3A%20Challenge%20Lab/abhishekARC120.sh
+sudo chmod +x abhishekARC120.sh
+./abhishekARC120.sh
 ```
 
 ---
