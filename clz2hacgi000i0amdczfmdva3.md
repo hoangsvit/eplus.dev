@@ -80,9 +80,20 @@ A default web page should open with the message "Welcome to nginx!".
 
 ## Solution of Lab
 
-### Quick
+### New Solution
 
-%[https://youtu.be/m6Y23ik0_kI] 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC120/lab.sh
+source lab.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759714949721/8e442413-40b3-4257-813d-d935b908b93e.png align="center")
+
+---
+
+### Ols Solution
+
+%[https://youtu.be/lfPE9wgNcoE] 
 
 ```apache
 export ZONE=
