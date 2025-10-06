@@ -133,7 +133,3 @@ sudo apt-get update
 sudo apt-get install -y nginx
 ps auwx | grep nginx
 ```
-
-## Congratulations
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721984783836/5729d41e-417b-4f7d-b7d9-bfc2b61a1abb.png align="center")
