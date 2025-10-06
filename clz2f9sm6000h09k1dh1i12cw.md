@@ -241,7 +241,7 @@ Question: **Through which of the following ways can you create a VM instance in 
 ### New Solution
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/Creating a Virtual Machine - GSP001/lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP001/lab.sh
 source lab.sh
 ```
 
