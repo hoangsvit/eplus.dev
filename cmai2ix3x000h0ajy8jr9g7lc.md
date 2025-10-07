@@ -391,7 +391,7 @@ Logs-based metrics are Cloud Monitoring metrics that are based on the content of
 
 Open **Cloud Run**
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756867217647/30300e65-915c-4b9c-89c1-cfd44814f4e9.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759819091773/e1051b7c-623d-4dbc-a28e-b9e8e2fe44ce.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756867231123/c273ce07-62ce-4fa6-9c9e-ecde3d5d896d.png align="center")
 
