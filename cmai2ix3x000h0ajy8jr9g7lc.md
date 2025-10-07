@@ -398,8 +398,8 @@ Open **Cloud Run**
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756867371782/d14f14e4-5018-4b45-b608-7013669da553.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP092/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP092/step2.sh
+source step2.sh
 ```
 
 ---
