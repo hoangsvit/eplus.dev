@@ -24,7 +24,7 @@ Welcome to **Base Camp October 2025**, where you’ll develop key **Google Cloud
 
 | **Section** | **Game Link** | **Code** |**Deadline**|
 | --- | --- | --- |--- |
-| **The Arcade Base Camp October 2025** | [Games 6551]|31/10/25, 11:59 PM|(https://www.cloudskillsboost.google/games/6551) | <mark>1q-basecamp-01202</mark> |31/10/25, 11:59 PM|
+| **The Arcade Base Camp October 2025** | [Games 6551](https://www.cloudskillsboost.google/games/6551) | <mark>1q-basecamp-01202</mark> |31/10/25, 11:59 PM|
 | **Diwali Dialogues** | [Games 6570](https://www.cloudskillsboost.google/games/6570) | <mark>1q-diwali-102017</mark> |20/10/25, 11:59 PM|
 | **Lights & Logic** | [Games 6571](https://www.cloudskillsboost.google/games/6571) | <mark>1q-lights-52021</mark> |20/10/25, 11:59 PM|
 
