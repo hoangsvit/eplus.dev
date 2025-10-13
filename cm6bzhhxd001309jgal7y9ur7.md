@@ -841,6 +841,15 @@ Check my progress
 %[https://www.youtube.com/watch?v=gjSoC-9FWMo] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1249/lab.sh
+source lab.sh
+```
+
+* **Download required** [**<mark>file</mark>**](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1249/quickgcplab.ipynb)
+
+**Alternative Solution**
+
+```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Analyze%20Customer%20Reviews%20with%20Gemini%20Using%20Python%20Notebooks/gsp1249.sh
 sudo chmod +x *.sh
 ./*.sh
