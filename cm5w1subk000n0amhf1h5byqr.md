@@ -3,7 +3,7 @@ title: "Arcade Hero: Enter the Source Repository - ARC136"
 seoTitle: "Arcade Hero: Enter the Source Repository - ARC136"
 seoDescription: "In this lab you will learn the fundamentals of Source Repository using Google Cloud.
 
-If you are new to Source Repository or looking for an overview of how "
+If you are new to Source Repository or looking for an overview of how"
 datePublished: Tue Jan 14 2025 05:44:24 GMT+0000 (Coordinated Universal Time)
 cuid: cm5w1subk000n0amhf1h5byqr
 slug: arcade-hero-enter-the-source-repository-arc136
@@ -52,6 +52,13 @@ The lab mimics a kanban application scenario. Select an active ticket to view th
 ## Solution of Lab
 
 %[https://youtu.be/OAISVEjQZ8M] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC136/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Arcade%20Hero%20Enter%20the%20Source%20Repository/arc136.sh
