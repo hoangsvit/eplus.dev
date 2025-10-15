@@ -465,6 +465,13 @@ Cloud Storage offers four storage classes:
 %[https://www.youtube.com/watch?v=E2ztBJM9ycY&ab_channel=QUICKGCPLAB] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP421/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/APIs%20Explorer%20Cloud%20Storage/gsp421.sh
 sudo chmod +x gsp421.sh
 ./gsp421.sh
