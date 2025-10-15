@@ -341,12 +341,12 @@ Teardown (Clean-up)
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=Txn_9LyOb4g] 
+%[https://youtu.be/WbdoXXqhFrc] 
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP/master/Cloud%20Operations%20for%20GKE/techcps.sh
-sudo chmod +x techcps.sh
-./techcps.sh
+curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Cloud%20Operations%20for%20GKE/TechCode.sh
+sudo chmod +x TechCode.sh 
+./TechCode.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742199386757/ae11e4af-eb04-4c5c-87e7-abd48918432b.png align="center")
