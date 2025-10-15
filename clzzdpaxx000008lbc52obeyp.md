@@ -632,6 +632,17 @@ sudo chmod +x *.sh
 %[https://www.youtube.com/watch?v=BMKPS7EeD0A] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP499/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+export REGION=
+```
+
+```apache
 curl -LO raw.githubusercontent.com/Techcps/GSP/master/User%20Authentication%3A%20Identity-Aware%20Proxy/techcps499.sh
 sudo chmod +x techcps499.sh
 ./techcps499.sh
