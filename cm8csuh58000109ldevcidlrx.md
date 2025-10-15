@@ -341,7 +341,7 @@ Teardown (Clean-up)
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=xgEpYwB-zK4] 
+%[https://www.youtube.com/watch?v=Txn_9LyOb4g] 
 
 ```apache
 curl -LO raw.githubusercontent.com/Techcps/GSP/master/Cloud%20Operations%20for%20GKE/techcps.sh
