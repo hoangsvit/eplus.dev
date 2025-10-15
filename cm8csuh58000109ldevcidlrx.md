@@ -344,6 +344,13 @@ Teardown (Clean-up)
 %[https://youtu.be/WbdoXXqhFrc] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP497/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Cloud%20Operations%20for%20GKE/TechCode.sh
 sudo chmod +x TechCode.sh 
 ./TechCode.sh
