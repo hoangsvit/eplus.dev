@@ -627,7 +627,11 @@ sudo chmod +x *.sh
 
 * Open [https://console.cloud.google.com/auth/overview?project=](https://console.cloud.google.com/auth/overview?project=)
     
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1760501080638/e3efc53e-c7d0-44bb-a0d8-0610a54b7c3b.png align="center")
+    
 * Open [https://console.cloud.google.com/projectselector2/security/iap?t=](https://console.cloud.google.com/projectselector2/security/iap?t=)
+    
+    ![]( align="center")
     
 
 ---
