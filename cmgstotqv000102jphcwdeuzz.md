@@ -36,7 +36,7 @@ Make the media archive folder private.
 %[https://youtu.be/wca4yA8LwHI]
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/mini%20lab%20:%20Cloud%20Storage%20:%203/lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/Secure%20a%20Public%20Storage%20Bucket%20-%20gcloud/lab.sh
 source lab.sh
 ```
 
