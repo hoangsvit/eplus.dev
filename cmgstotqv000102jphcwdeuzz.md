@@ -29,4 +29,22 @@ Click **Check my progress** to verify the objective.
 
 Make the media archive folder private.
 
-## Congratulations!
+---
+
+## Solution of Lab
+
+%[https://youtu.be/wca4yA8LwHI]
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/mini%20lab%20:%20Cloud%20Storage%20:%203/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+**Replace `[Bucket-name]`**
+
+```apache
+gsutil iam ch -d allUsers:objectViewer gs://[Bucket-name]
+gsutil iam get gs://[Bucket-name]
+```
