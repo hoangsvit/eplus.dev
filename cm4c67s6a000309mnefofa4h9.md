@@ -652,13 +652,18 @@ Create and deploy a new version of your app
 %[https://youtu.be/4SjZYBIAngU] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP422/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 export REGION=
 ```
 
 ```apache
 curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/GSP422.sh
-
 sudo chmod +x GSP422.sh
-
 ./GSP422.sh
 ```
