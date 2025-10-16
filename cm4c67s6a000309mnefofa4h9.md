@@ -649,10 +649,16 @@ Create and deploy a new version of your app
 
 ## Solution of Lab
 
-%[https://youtu.be/xngtRB8faI8] 
+%[https://youtu.be/4SjZYBIAngU] 
 
 ```apache
-curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/APIs%20Explorer%20App%20Engine/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+export REGION=
+```
+
+```apache
+curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/GSP422.sh
+
+sudo chmod +x GSP422.sh
+
+./GSP422.sh
 ```
