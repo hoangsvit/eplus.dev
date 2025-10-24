@@ -861,7 +861,9 @@ sudo chmod +x *.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1761277493258/b570fb0f-fc4e-4b38-8465-d8875c303058.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1761277818486/c13df0d0-013d-4dfd-ab2a-dd5a195b18cc.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1761277988260/68ee0150-b37c-44eb-b854-c00affa3c400.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1761278040243/e2405fcb-729c-45a9-9c2c-fb48cfa41805.png align="center")
 
 ---
 
