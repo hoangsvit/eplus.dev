@@ -7,9 +7,9 @@ the use of multiple gcloud c"
 datePublished: Sat Sep 14 2024 05:31:44 GMT+0000 (Coordinated Universal Time)
 cuid: cm11pmmbz000409jr1c9c5ojf
 slug: configuring-iam-permissions-with-gcloud-gsp647
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726290268569/59e72015-2394-4a8d-b882-7d31ec8207fa.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726291874949/f5b571df-230e-4794-962f-941bf8493af5.jpeg
-tags: configuring-iam-permissions-with-gcloud-gsp647
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761277667777/7904c2c4-74da-4c81-9d34-f51c257e7831.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1761277234900/753640c5-ace4-4be8-9d74-0e5dab5fe303.png
+tags: configuring-iam-permissions-with-gcloud-gsp647, gsp647, configuring-iam-permissions-with-gcloud
 
 ---
 
@@ -846,11 +846,20 @@ gcloud compute ssh centos-clean --zone=$ZONE --quiet
 ```
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP647/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Configuring%20IAM%20Permissions%20with%20gcloud/gsp647.sh
 sudo chmod +x gsp647.sh
 sudo chmod +x *.sh
 ./*.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1761277493258/b570fb0f-fc4e-4b38-8465-d8875c303058.png align="center")
 
 ---
 
