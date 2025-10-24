@@ -861,6 +861,8 @@ sudo chmod +x *.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1761277493258/b570fb0f-fc4e-4b38-8465-d8875c303058.png align="center")
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1761277818486/c13df0d0-013d-4dfd-ab2a-dd5a195b18cc.png align="center")
+
 ---
 
 ### Manual
