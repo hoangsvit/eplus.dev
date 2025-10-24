@@ -834,6 +834,28 @@ Because the service account has permissions, you can see the instances listed.
 
 ## Solution of lab
 
+### Quick
+
+%[https://youtu.be/e5uGvyCrFTw] 
+
+```apache
+export ZONE=$(gcloud compute project-info describe \
+--format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+
+gcloud compute ssh centos-clean --zone=$ZONE --quiet
+```
+
+```apache
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Configuring%20IAM%20Permissions%20with%20gcloud/gsp647.sh
+sudo chmod +x gsp647.sh
+sudo chmod +x *.sh
+./*.sh
+```
+
+---
+
+### Manual
+
 %[https://www.youtube.com/watch?v=vSbn050BPGI&ab_channel=Techcps] 
 
 ### Run the following Commands in CloudShell
