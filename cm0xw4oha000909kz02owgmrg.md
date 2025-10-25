@@ -406,16 +406,16 @@ To discuss your spreadsheet with team members, open Google Meet directly from Sh
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=-abpaniEL4Y] 
+%[https://youtu.be/jD1C7GYscok] 
 
-1. **Open a sample spreadsheet** [**Explore this data**](https://docs.google.com/spreadsheets/d/19iLO-XbrqqWRuqphkXTax0lFn71NW6crJK504JvAxoU/edit#gid=599358521)
+1. **Open a sample spreadsheet.** [**Explore this data**](https://docs.google.com/spreadsheets/d/19iLO-XbrqqWRuqphkXTax0lFn71NW6crJK504JvAxoU/edit#gid=599358521)
     
 2. **Download the below 2 files:**
     
 
 * 🚀 **Exported Data File** [**Click here!**](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP469/exported-data.csv)
     
-* 🚀 **Important Data** [**Click here!**](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP469/important-data.xlsx)
+* 🚀 **Important Data:** [**Click here!**](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP469/important-data.xlsx)
     
 
 3. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726061051625/b9d64c37-0307-41f1-93f1-75453e217235.png align="center")
