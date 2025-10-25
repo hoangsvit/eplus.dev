@@ -420,4 +420,7 @@ To discuss your spreadsheet with team members, open Google Meet directly from Sh
 
 3. ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726061051625/b9d64c37-0307-41f1-93f1-75453e217235.png align="center")
     
-    **Open Google Drive in a new browser tab** [**Click here**](https://drive.google.com/)
+    **Open Google Drive in a new browser tab.** [**Click here**](https://drive.google.com/)
+    
+
+![]( align="center")
