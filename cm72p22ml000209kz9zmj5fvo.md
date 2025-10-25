@@ -166,7 +166,7 @@ You can access files in Drive wherever you go — on your computer, phone, or ta
     
     ![settings icon](https://cdn.qwiklabs.com/VRcqs35FafORd9AQ1NvMttR7Ss74CV7H7SD5aaJgmno%3D align="left")
     
-    \&gt; **Settings**.
+    &gt; **Settings**.
     
 2. In the offline section, check the **Sync Google files** box.
     
@@ -545,6 +545,8 @@ In Google Docs, Sheets, Slides, Forms, and Google Sites, individuals can work to
 5. Right-click that file → **File information &gt; Manage versions** → verify Version 1 is listed.
     
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1761376116812/6206832c-9858-41dd-a5c3-fbb3500ad0f8.png align="center")
+
 ✅ Check progress: *Upload files to Drive*
 
 ---
@@ -579,7 +581,10 @@ In Google Docs, Sheets, Slides, Forms, and Google Sites, individuals can work to
 
 1. Create folder:
     
-    * In **My Drive** → **New &gt; New Folder** → name it **Important Data** → Create.  
+    * In **My Drive** → **New &gt; New Folder** → name it **Important Data** → Create.
+        
+        ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1761376282308/78513239-f697-4861-b89c-25a65c117dc6.png align="center")
+        
         ✅ Check progress: *Create a new folder*
         
 2. Move files: drag-and-drop into folder OR right-click → **Move to**.
@@ -611,7 +616,10 @@ In Google Docs, Sheets, Slides, Forms, and Google Sites, individuals can work to
         
     * Choose role (Viewer, Commenter, Editor).
         
-    * Copy link → Done.  
+    * Copy link → Done.
+        
+        ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1761376245779/b91ce5fb-fa5c-46f5-b776-c8204c62ce5b.png align="center")
+        
         ✅ Check progress: *Share a link to a folder*
         
 3. Stop sharing: right-click file → **Share** → remove user or set link to **Restricted**.
