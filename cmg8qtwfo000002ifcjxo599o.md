@@ -35,7 +35,7 @@ Welcome to **Base Camp October 2025**, where you’ll develop key **Google Cloud
 
 | **Level** | **Game Link** | **Code** | **Deadline** |
 | --- | --- | --- | --- |
-| **Level 1 – Scalable Systems** | [Games 6553](https://www.cloudskillsboost.google/games/6553) | <mark>1q-scalability-14841</mark> | 31/10/25, 11:59 PM |
+| **Level 1 – Scalable Systems** | [Games 6560](https://www.cloudskillsboost.google/games/6560) | <mark>1q-scalability-14841</mark> | 31/10/25, 11:59 PM |
 | **Level 2 - Cloud Operations and Application Management** | [Games 6550](https://www.cloudskillsboost.google/games/6550) | <mark>1q-cloudops-103102</mark> | 31/10/25, 11:59 PM |
 | **Level 3 - Generative AI** | [Games 6554](https://www.cloudskillsboost.google/games/6554) | <mark>1q-genai-10091</mark> | 31/10/25, 11:59 PM |
 
