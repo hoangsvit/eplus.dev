@@ -341,11 +341,32 @@ Teardown (Clean-up)
 
 ## Solution of Lab
 
-%[https://youtu.be/WbdoXXqhFrc] 
+### New Solution
+
+%[https://youtu.be/o0wxpvM9-DU] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP497/lab.sh
 source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Cloud%20Operations%20for%20GKE/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
+```
+
+---
+
+### Old Solution
+
+%[https://youtu.be/WbdoXXqhFrc] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP497/old-lab.sh
+source old-lab.sh
 ```
 
 **Script Alternative**
