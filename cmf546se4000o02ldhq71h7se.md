@@ -375,7 +375,7 @@ Now that the load balancing service is configured, you can start sending traffic
 
 ## Solution of Lab
 
-%[https://youtu.be/naNJTq3YlJM] 
+%[https://youtu.be/1ZcOiBTWQc4] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP007/lab.sh
@@ -385,7 +385,7 @@ source lab.sh
 **Script Alternative**
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Set%20Up%20Network%20and%20Application%20Load%20Balancers/techcps007.sh
-sudo chmod +x techcps007.sh
-./techcps007.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Set%20Up%20Network%20and%20Application%20Load%20Balancers/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
