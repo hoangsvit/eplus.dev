@@ -15,7 +15,7 @@ tags: the-arcade-base-camp-october-2025, lights-and-logic, diwali-dialogues, the
 
 Welcome to **Base Camp October 2025**, where you’ll develop key **Google Cloud** skills and earn an exclusive credential that will open doors to the cloud for you. No prior experience is required!
 
-🔗 **Main Link:** [Google Cloud Skills Boost - Games 5703](https://www.cloudskillsboost.google/games/5703/labs/36448)  
+🔗 **Main Link:** [Google Cloud Skills Boost - Games 5703](https://www.skills.google/games/5703/labs/36448)  
 📝 **Solution:** [eplus.dev/start-here-dont-skip-this-arcade-lab](https://eplus.dev/start-here-dont-skip-this-arcade-lab)
 
 ---
@@ -24,10 +24,10 @@ Welcome to **Base Camp October 2025**, where you’ll develop key **Google Cloud
 
 | **Section** | **Game Link** | **Code** | **Deadline** |
 | --- | --- | --- | --- |
-| **The Arcade Base Camp October 2025** | [Games 6551](https://www.cloudskillsboost.google/games/6551) | <mark>1q-basecamp-01202</mark> | 31/10/25, 11:59 PM |
+| **The Arcade Base Camp October 2025** | [Games 6551](https://www.skills.google/games/6551) | <mark>1q-basecamp-01202</mark> | 31/10/25, 11:59 PM |
 | **The Arcade Certification Zone October 2025** | [Games 6670](https://www.skills.google/games/6670) | <mark>1q-cert-10314</mark> | 31/10/25, 11:59 PM |
-| **Diwali Dialogues** | [Games 6570](https://www.cloudskillsboost.google/games/6570) | <mark>1q-diwali-102017</mark> | 20/10/25, 11:59 PM |
-| **Lights & Logic** | [Games 6571](https://www.cloudskillsboost.google/games/6571) | <mark>1q-lights-52021</mark> | 20/10/25, 11:59 PM |
+| **Diwali Dialogues** | [Games 6570](https://www.skills.google/games/6570) | <mark>1q-diwali-102017</mark> | 20/10/25, 11:59 PM |
+| **Lights & Logic** | [Games 6571](https://www.skills.google/games/6571) | <mark>1q-lights-52021</mark> | 20/10/25, 11:59 PM |
 
 ---
 
@@ -37,7 +37,7 @@ Welcome to **Base Camp October 2025**, where you’ll develop key **Google Cloud
 | --- | --- | --- | --- |
 | **Level 1 – Scalable Systems** | [Games 6560](https://www.skills.google/games/6560) | <mark>1q-scalability-14841</mark> | 31/10/25, 11:59 PM |
 | **Level 2 - Cloud Operations and Application Management** | [Games 6550](https://www.skills.google/games/6550) | <mark>1q-cloudops-103102</mark> | 31/10/25, 11:59 PM |
-| **Level 3 - Generative AI** | [Games 6554](https://www.cloudskillsboost.google/games/6554) | <mark>1q-genai-10091</mark> | 31/10/25, 11:59 PM |
+| **Level 3 - Generative AI** | [Games 6554](https://www.skills.google/games/6554) | <mark>1q-genai-10091</mark> | 31/10/25, 11:59 PM |
 
 ---
 
@@ -45,10 +45,10 @@ Welcome to **Base Camp October 2025**, where you’ll develop key **Google Cloud
 
 | **Week** | **Game Link** | **Code** | **Deadline** |
 | --- | --- | --- | --- |
-| **Week 1** | [Games 6556](https://www.cloudskillsboost.google/games/6556) | <mark>1q-trivia-22930</mark> | 31/10/25, 11:59 PM |
-| **Week 2** | [Games 6557](https://www.cloudskillsboost.google/games/6557) | <mark>1q-trivia-10310</mark> | 31/10/25, 11:59 PM |
-| **Week 3** | [Games 6558](https://www.cloudskillsboost.google/games/6558) | <mark>1q-trivia-29579</mark> | 31/10/25, 11:59 PM |
-| **Week 4** | [Games 6559](https://www.cloudskillsboost.google/games/6559) | <mark>1q-trivia-32105</mark> | 31/10/25, 11:59 PM |
+| **Week 1** | [Games 6556](https://www.skills.google/games/6556) | <mark>1q-trivia-22930</mark> | 31/10/25, 11:59 PM |
+| **Week 2** | [Games 6557](https://www.skills.google/games/6557) | <mark>1q-trivia-10310</mark> | 31/10/25, 11:59 PM |
+| **Week 3** | [Games 6558](https://www.skills.google/games/6558) | <mark>1q-trivia-29579</mark> | 31/10/25, 11:59 PM |
+| **Week 4** | [Games 6559](https://www.skills.google/games/6559) | <mark>1q-trivia-32105</mark> | 31/10/25, 11:59 PM |
 
 ---
 
