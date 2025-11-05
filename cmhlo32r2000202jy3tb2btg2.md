@@ -83,8 +83,6 @@ To complete this lab, you need:
     student-00-e9f24b8ccf23@qwiklabs.net
     ```
     
-    
-    
     You can also find the Username in the Lab Details pane.
     
 4. Click **Next**.
@@ -94,8 +92,6 @@ To complete this lab, you need:
     ```apache
     n3HhO5Gihg4a
     ```
-    
-    
     
     You can also find the Password in the Lab Details pane.
     
@@ -142,8 +138,6 @@ Run a quick connection test to make sure things are working well.
 ping -c 5 <external ip address of instance-2>
 ```
 
-
-
 **Example output:**
 
 ```apache
@@ -165,8 +159,6 @@ rtt min/avg/max/mdev = 0.409/0.792/1.894/0.554 ms
 ```apache
 ping -c 5 <external ip address of instance-3>
 ```
-
-
 
 **Example output:**
 
@@ -236,16 +228,12 @@ Now you will set up the scenario.
 iperf -s
 ```
 
-
-
 3. Then SSH into `instance-2` (1vCPU 3.75GB) and generate `iperf` traffic pointing at `instance-1`:
     
 
 ```apache
 iperf -c <external ip address of instance-1>
 ```
-
-
 
 **Example output:**
 
@@ -274,8 +262,6 @@ TCP window size: 45.0 KByte (default)
 iperf -s
 ```
 
-
-
 **Example output:**
 
 ```apache
@@ -292,8 +278,6 @@ TCP window size: 128 KByte (default)
 ```apache
 iperf -c <internal ip address of instance-6>
 ```
-
-
 
 **Example output:**
 
@@ -344,8 +328,6 @@ The network that *Dobermanifesto* has uses 1vCPU machines. Increasing the size o
 iperf -s
 ```
 
-
-
 **Example output:**
 
 ```apache
@@ -362,8 +344,6 @@ TCP window size: 128 KByte (default)
 ```apache
 iperf -c <internal ip address of instance-3>
 ```
-
-
 
 **Example output:**
 
@@ -385,16 +365,12 @@ TCP window size: 45.0 KByte (default)
 iperf -c <internal ip address of instance-3> -P4
 ```
 
-
-
 4. And with 8 threads:
     
 
 ```apache
 iperf -c <internal ip address of instance-3> -P8
 ```
-
-
 
 5. Return to `instance-3` and enter **CTRL** + **C** to end the receiver.
     
@@ -451,8 +427,6 @@ Now recreate this scenario.
 iperf -s
 ```
 
-
-
 **Example output:**
 
 ```apache
@@ -469,8 +443,6 @@ TCP window size: 128 KByte (default)
 ```apache
 iperf -c <external ip address of instance-1>
 ```
-
-
 
 **Example output:**
 
@@ -493,8 +465,6 @@ After further discussion with *Gecko Protocol*, it was learned that they were us
 ```apache
 iperf -c <internal ip address of instance-1>
 ```
-
-
 
 **Example output:**
 
@@ -522,8 +492,6 @@ Building on what you learned from solving the *Dobermanifesto* problem, can the 
 iperf -c <internal ip address of instance-1>
 ```
 
-
-
 **Example output (your results may differ):**
 
 ```apache
@@ -545,8 +513,6 @@ TCP window size: 45.0 KByte (default)
 ```apache
 iperf -c <internal ip address of instance-1>
 ```
-
-
 
 **Example output:**
 
@@ -610,4 +576,6 @@ In the lab interface, under Student Resources on the left-hand side, you'll see 
 
 ## Solution of Lab
 
-%[https://youtu.be/YsrhpQP4Agw]
+%[https://youtu.be/YsrhpQP4Agw] 
+
+Open: [https://console.cloud.google.com/net-security/firewall-manager/firewall-policies/add](https://console.cloud.google.com/net-security/firewall-manager/firewall-policies/add)
