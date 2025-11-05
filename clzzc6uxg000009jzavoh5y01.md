@@ -5,9 +5,9 @@ seoDescription: "Cloud IAM provides the right tools to manage resource permissio
 datePublished: Sun Aug 18 2024 09:00:19 GMT+0000 (Coordinated Universal Time)
 cuid: clzzc6uxg000009jzavoh5y01
 slug: iam-custom-roles-gsp190
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723971178111/0c17026a-d5ae-46fa-a741-2d711d939528.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723971597281/1481757c-e401-4fe7-8f84-2db0b6e10f70.png
-tags: iam-custom-roles-gsp190
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762329239557/e7924a3b-a305-47a2-84de-ba5c9b2d5531.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1762329445017/0d42f3f1-1410-4553-a4b1-ad60fda4be3d.png
+tags: iam-custom-roles-gsp190, gsp103, iam-custom-roles
 
 ---
 
@@ -698,6 +698,15 @@ Click **Check my progress** to verify the objective.
 ---
 
 ## Solution of Lab
+
+### New Solution
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP190/lab.sh
+source lab.sh
+```
+
+### Old Solution
 
 %[https://www.youtube.com/watch?v=TgBqhF_O_7Q] 
 
