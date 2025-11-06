@@ -157,6 +157,24 @@ Below are multiple-choice questions to reinforce your understanding of this lab'
 
 ## Solution of Lab
 
+### Manual
+
+%[https://youtu.be/eJEuMEsthXQ] 
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746867316433/855fbeec-a4ca-40b4-b886-ad918412f4d0.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746867321867/0680db8a-1817-4862-844d-a8f3b003de85.png align="center")
+
+### Test & **View logs**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752901374228/1370334b-edf3-4de1-a80a-c206e4a31fe6.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752901590554/dc803db9-536f-45ab-9602-7c68f8ae1fea.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752901597558/a9944eb0-b948-4d7c-8cd0-4a2e74ed7d1c.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752901564953/0bb0ca37-7da6-4a40-a82f-70b0cf6bf6b4.png align="center")
+
 ### Quick
 
 **Solution 1**
@@ -192,23 +210,3 @@ sudo chmod +x techcps081.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755518175739/efe27a63-42ac-420a-a365-01333a6d99bf.png align="center")
-
----
-
-### Manual
-
-%[https://youtu.be/eJEuMEsthXQ] 
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746867316433/855fbeec-a4ca-40b4-b886-ad918412f4d0.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746867321867/0680db8a-1817-4862-844d-a8f3b003de85.png align="center")
-
-### Test & **View logs**
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752901374228/1370334b-edf3-4de1-a80a-c206e4a31fe6.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752901590554/dc803db9-536f-45ab-9602-7c68f8ae1fea.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752901597558/a9944eb0-b948-4d7c-8cd0-4a2e74ed7d1c.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752901564953/0bb0ca37-7da6-4a40-a82f-70b0cf6bf6b4.png align="center")
