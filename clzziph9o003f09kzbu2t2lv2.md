@@ -535,10 +535,6 @@ At this point, the only IP addresses that have access to the master are the addr
 
 %[https://youtu.be/8rkMxeRCl1k] 
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1753256425656/b6bf47a8-e990-45e6-8714-0c28cd487066.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747462785455/94fea337-cc0f-4a32-a636-f375d605d80c.png align="center")
-
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP178/lab.sh
 source lab.sh
@@ -551,3 +547,7 @@ curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs
 sudo chmod +x TechCode.sh
 ./TechCode.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1753256425656/b6bf47a8-e990-45e6-8714-0c28cd487066.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747462785455/94fea337-cc0f-4a32-a636-f375d605d80c.png align="center")
