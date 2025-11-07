@@ -475,13 +475,32 @@ To best see how Cloud Monitoring and Cloud Logging reflect VM instance changes, 
 
 ## Solution of Lab
 
-### Quick
+### New Solution
 
-%[https://youtu.be/5XkXekawOfo] 
+%[https://youtu.be/gHYly90DTQs] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP089/lab.sh
 source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Cloud%20Monitoring%3A%20Qwik%20Start/abhishekGSP089.sh
+sudo chmod +x abhishekGSP089.sh
+./abhishekGSP089.sh
+```
+
+---
+
+### Old Solution
+
+%[https://youtu.be/5XkXekawOfo] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP089/old-lab.sh
+source old-lab.sh
 ```
 
 **Script Alternative**
