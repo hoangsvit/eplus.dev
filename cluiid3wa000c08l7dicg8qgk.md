@@ -475,6 +475,8 @@ To best see how Cloud Monitoring and Cloud Logging reflect VM instance changes, 
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/5XkXekawOfo] 
 
 ```apache
@@ -489,3 +491,9 @@ curl -LO raw.githubusercontent.com/cloudgoodies/Arcade/refs/heads/main/Cloud%20M
 sudo chmod +x GSP089.sh
 ./GSP089.sh
 ```
+
+---
+
+### Manual
+
+%[https://www.youtube.com/watch?v=I5KWhLfWnro]
