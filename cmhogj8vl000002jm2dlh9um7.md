@@ -90,4 +90,4 @@ P.S. You don't need to open the GCP Console for this, but you do need to keep th
 
 ---
 
-![]( align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1762496153774/020aa851-aece-4349-bea9-316d88f8435c.png align="center")
