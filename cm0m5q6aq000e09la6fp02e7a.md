@@ -577,6 +577,16 @@ sudo chmod +x TechCode.sh
 ./TechCode.sh
 ```
 
+**Task 3:**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1762585864645/15d05bcb-7c37-4cd4-a628-e7deb7b95d9d.png align="center")
+
+```apache
+day2ops-log
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1762585823996/9c1787cf-c061-4ef0-8ff3-a4d6d2cb41bd.png align="center")
+
 ---
 
 ### Old Solution
