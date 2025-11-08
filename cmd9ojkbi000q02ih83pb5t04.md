@@ -1555,12 +1555,11 @@ Hopefully with these deployment, scaling, and updated features, once you've set 
 
 ## Solution of Lab
 
-%[https://youtu.be/x13IhTrwc3o] 
+### Quick
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Hello%20Node%20Kubernetes/techcps005.sh
-sudo chmod +x techcps005.sh
-./techcps005.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP005/lab.sh
+source lab.sh
 ```
 
 ---
