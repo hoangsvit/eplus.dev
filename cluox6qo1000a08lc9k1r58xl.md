@@ -333,6 +333,8 @@ Link: [https://www.cloudskillsboost.google/course\_templates/667/labs/461608](ht
 
 ## Solution of Lab
 
+%[https://youtu.be/gdTxNBBTrQE] 
+
 ### **Activate Cloud Shell**
 
 1. Click **Activate Cloud Shell** in the Console header.
