@@ -560,9 +560,28 @@ After run the query, you should see the output like the following:
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=tYHqogxrZNc] 
+### New Solution
 
-### Task 1 & 2:
+%[https://youtu.be/S0rEas_0aUg] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1088/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Log%20Analytics%20on%20Google%20Cloud/TechCode.sh
+sudo chmod +x TechCode.sh
+./TechCode.sh
+```
+
+---
+
+### Old Solution
+
+%[https://www.youtube.com/watch?v=tYHqogxrZNc] 
 
 ```apache
 export ZONE=
