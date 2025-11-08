@@ -5,8 +5,8 @@ seoDescription: "Learn to deploy a Node.js app to a Kubernetes cluster with Goog
 datePublished: Sat Jul 19 2025 03:19:59 GMT+0000 (Coordinated Universal Time)
 cuid: cmd9ojkbi000q02ih83pb5t04
 slug: hello-node-kubernetes-gsp005
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752895147300/9e546297-e36e-4aad-b942-6ca5376be80d.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1752895174811/b227e352-b035-4236-b3c9-1d56ba2d30a2.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762589876988/1595fc0f-dd1f-446f-82e2-f0d704713efa.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1762589899489/8b439432-79f1-44da-b94a-e88cf64fd502.png
 tags: nodejs, kubernetes, hello-node-kubernetes-gsp005, gsp005, node-kubernetes
 
 ---
@@ -675,7 +675,7 @@ docker build -t hello-node:v2 .
 ```
 
 ```apache
-docker tag hello-node:v2 {{{ project_0.default_region | YOUR_REGION }}}-docker.pkg.dev/{{{ project_0.project_id | YOUR_PROJECT_ID }}}/my-docker-repo/hello-node:v2 
+docker tag hello-node:v2 {{{ project_0.default_region | YOUR_REGION }}}-docker.pkg.dev/{{{ project_0.project_id | YOUR_PROJECT_ID }}}/my-docker-repo/hello-node:v2
 ```
 
 ```apache
@@ -1445,7 +1445,7 @@ docker build -t hello-node:v2 .
 ```
 
 ```apache
-docker tag hello-node:v2 {{{ project_0.default_region | YOUR_REGION }}}-docker.pkg.dev/{{{ project_0.project_id | YOUR_PROJECT_ID }}}/my-docker-repo/hello-node:v2 
+docker tag hello-node:v2 {{{ project_0.default_region | YOUR_REGION }}}-docker.pkg.dev/{{{ project_0.project_id | YOUR_PROJECT_ID }}}/my-docker-repo/hello-node:v2
 ```
 
 ```apache
@@ -1555,10 +1555,16 @@ Hopefully with these deployment, scaling, and updated features, once you've set 
 
 ## Solution of Lab
 
-%[https://youtu.be/0EWmmsCSvUA] 
+%[https://youtu.be/x13IhTrwc3o] 
 
 ```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Hello%20Node%20Kubernetes/techcps005.sh
 sudo chmod +x techcps005.sh
 ./techcps005.sh
 ```
+
+---
+
+### Manual
+
+%[https://youtu.be/pAH9HY0MFS0]
