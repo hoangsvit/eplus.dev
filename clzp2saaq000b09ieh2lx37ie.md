@@ -588,15 +588,6 @@ Cloud Build has been successfully initiated
 
 ## Solution of Lab
 
-### Quick
-
-```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP747/lab.sh
-source lab.sh
-```
-
----
-
 ### New solution
 
 %[https://youtu.be/ky90Rr4AdBA] 
