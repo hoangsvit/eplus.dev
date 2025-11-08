@@ -298,4 +298,6 @@ Verify customization
 
 ## Solution of Lab
 
-%[https://youtu.be/y6Bt3vLuBNk]
+%[https://youtu.be/y6Bt3vLuBNk] 
+
+Open: [https://admin.google.com/ac/accountsettings/profile?hl=en](https://admin.google.com/ac/accountsettings/profile?hl=en)
