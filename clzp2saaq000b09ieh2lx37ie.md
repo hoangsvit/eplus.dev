@@ -646,8 +646,6 @@ source task3.sh
 
 ### Old solution
 
-%[https://www.youtube.com/watch?v=MJ8KxPyFggQ] 
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723350984634/5d468510-15e1-4e65-a3e6-e57629f1e950.png align="center")
 
 ```apache
