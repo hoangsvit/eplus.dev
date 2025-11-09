@@ -588,6 +588,31 @@ Cloud Build has been successfully initiated
 
 ## Solution of Lab
 
+### Short Solution
+
+%[https://youtu.be/JJGapywjk90] 
+
+**Create** `firebase.json`
+
+```json
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "rewrites": [
+      { "source": "**", "destination": "/index.html" }
+    ]
+  }
+}
+```
+
+---
+
 ### New solution
 
 %[https://youtu.be/ky90Rr4AdBA] 
