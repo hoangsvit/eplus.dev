@@ -75,7 +75,7 @@ In your cloud terminal, run the following commands.
     gcloud config set compute/region "REGION"
     ```
     
-    Copied!
+    
     
     **Expected output**:
     
@@ -89,7 +89,7 @@ In your cloud terminal, run the following commands.
     gcloud config set compute/zone "ZONE"
     ```
     
-    Copied!
+    
     
     **Expected output**:
     
@@ -108,7 +108,7 @@ You need authentication credentials to interact with your cluster.
     gcloud container clusters get-credentials lab-cluster
     ```
     
-    Copied!
+    
     
     **Expected output**:
     
@@ -132,7 +132,7 @@ GKE uses Kubernetes objects to create and manage your cluster's resources. Kuber
     kubectl create deployment hello-server --image=gcr.io/google-samples/hello-app:1.0
     ```
     
-    Copied!
+    
     
     **Expected output**:
     
@@ -152,7 +152,7 @@ GKE uses Kubernetes objects to create and manage your cluster's resources. Kuber
     kubectl expose deployment hello-server --type=LoadBalancer --port 8080
     ```
     
-    Copied!
+    
     
     In this command:
     
@@ -173,7 +173,7 @@ GKE uses Kubernetes objects to create and manage your cluster's resources. Kuber
     kubectl get service
     ```
     
-    Copied!
+    
     
     **Expected output**:
     
@@ -192,7 +192,7 @@ GKE uses Kubernetes objects to create and manage your cluster's resources. Kuber
     http://[EXTERNAL-IP]:8080
     ```
     
-    Copied!
+    
     
     **Expected output**: The browser tab displays the message **Hello, world!** as well as the version and hostname.
     
