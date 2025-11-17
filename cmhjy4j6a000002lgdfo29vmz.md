@@ -7,6 +7,7 @@ cuid: cmhjy4j6a000002lgdfo29vmz
 slug: the-arcade-base-camp-november-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762220097220/87faedb8-d1f9-4315-a67a-d3b0900def07.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1762223064137/7361eaec-6aa9-4beb-969c-6be3e3b72c07.png
+tags: the-arcade-base-camp-november-2025, level-1-advanced-cloud-integration-and-data-intelligence, level-2-intelligent-development-and-automation, level-3-scalable-deployments-and-delivery
 
 ---
 
