@@ -23,7 +23,7 @@ Welcome to **Base Camp November 2025**, where you’ll develop key **Google Clou
 
 | **Section** | **Game Link** | **Code** | **Deadline** |
 | --- | --- | --- | --- |
-| **The Arcade Base Camp November 2025** | [Games 6878](https://www.skills.google/games/6878) | <mark>1q-basecamp-03117</mark> | 30/11/25, 11:59 PM |
+| **The Arcade Base Camp November 2025** | [Games 6878](https://www.skills.google/games/6878) | <mark>1q-basecamp-03117</mark> | 20/11/25, 11:59 PM |
 
 ---
 
@@ -31,9 +31,9 @@ Welcome to **Base Camp November 2025**, where you’ll develop key **Google Clou
 
 | **Level** | **Game Link** | **Code** | **Deadline** |
 | --- | --- | --- | --- |
-| **Level 1: Advanced Cloud Integration and Data Intelligence** | [Games 6879](https://www.skills.google/games/6879) | <mark>1q-cloudint-01291</mark> | 30/11/25, 11:59 PM |
-| **Level 2: Intelligent Development and Automation** | [Games 6880](https://www.skills.google/games/6880) | <mark>1q-smartdev-08401</mark> | 30/11/25, 11:59 PM |
-| **Level 3: Scalable Deployments and Delivery** | [Games 6872](https://www.skills.google/games/6872) | <mark>1q-genai-11440</mark> | 30/11/25, 11:59 PM |
+| **Level 1: Advanced Cloud Integration and Data Intelligence** | [Games 6879](https://www.skills.google/games/6879) | <mark>1q-cloudint-01291</mark> | 20/11/25, 11:59 PM |
+| **Level 2: Intelligent Development and Automation** | [Games 6880](https://www.skills.google/games/6880) | <mark>1q-smartdev-08401</mark> | 20/11/25, 11:59 PM |
+| **Level 3: Scalable Deployments and Delivery** | [Games 6872](https://www.skills.google/games/6872) | <mark>1q-genai-11440</mark> | 20/11/25, 11:59 PM |
 
 ---
 
@@ -41,10 +41,10 @@ Welcome to **Base Camp November 2025**, where you’ll develop key **Google Clou
 
 | **Week** | **Game Link** | **Code** | **Deadline** |
 | --- | --- | --- | --- |
-| **Week 1** | [Games 6874](https://www.skills.google/games/6874) | <mark>1q-trivia-11029</mark> | 30/11/25, 11:59 PM |
-| **Week 2** | [Games 6875](https://www.skills.google/games/6875) | <mark>1q-trivia-11902</mark> | 30/11/25, 11:59 PM |
-| **Week 3** | [Games 6876](https://www.skills.google/games/6876) | <mark>1q-trivia-11293</mark> | 30/11/25, 11:59 PM |
-| **Week 4** | [Games 6877](https://www.skills.google/games/6877) | <mark>1q-trivia-11256</mark> | 30/11/25, 11:59 PM |
+| **Week 1** | [Games 6874](https://www.skills.google/games/6874) | <mark>1q-trivia-11029</mark> | 20/11/25, 11:59 PM |
+| **Week 2** | [Games 6875](https://www.skills.google/games/6875) | <mark>1q-trivia-11902</mark> | 20/11/25, 11:59 PM |
+| **Week 3** | [Games 6876](https://www.skills.google/games/6876) | <mark>1q-trivia-11293</mark> | 20/11/25, 11:59 PM |
+| **Week 4** | [Games 6877](https://www.skills.google/games/6877) | <mark>1q-trivia-11256</mark> | 20/11/25, 11:59 PM |
 
 ---
 
