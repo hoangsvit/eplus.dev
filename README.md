@@ -3,21 +3,21 @@
 ### #Blog posts
 
 <!-- BLOG-POST-LIST:START -->
- - 🧰 [Terraform Essentials: Google Compute Engine Instance - gem-terraform-gce-create](https://eplus.dev/terraform-essentials-google-compute-engine-instance-gem-terraform-gce-create-1) - 2025-11-17
- - 😺 [Terraform Essentials: Cloud Firestore Database - gem-terraform-firestore-create](https://eplus.dev/terraform-essentials-cloud-firestore-database-gem-terraform-firestore-create-1) - 2025-11-17
- - 🗽 [Google Skills Arcade Trivia November 2025 Week 4 &lpar;Solution&rpar;](https://eplus.dev/google-skills-arcade-trivia-november-2025-week-4-solution) - 2025-11-09
- - 🌜 [Manage Storage Configuration using gsutil &lpar;Solution&rpar;](https://eplus.dev/manage-storage-configuration-using-gsutil-solution) - 2025-11-09
- - 📝 [gcloud and kubectl for Google Kubernetes Engine - GSP821](https://eplus.dev/gcloud-and-kubectl-for-google-kubernetes-engine-gsp821) - 2025-11-09
- - 🚀 [bq for Google BigQuery &lpar;Solution&rpar;](https://eplus.dev/bq-for-google-bigquery-solution) - 2025-11-08
- - 💼 [gcloud for Network Configuration &lpar;Solution&rpar;](https://eplus.dev/gcloud-for-network-configuration-solution) - 2025-11-08
- - 🦣 [Use Go Code to Work with Google Cloud Data Sources - GSP701](https://eplus.dev/use-go-code-to-work-with-google-cloud-data-sources-gsp701) - 2025-11-08
- - 👨‍🏫 [Google Skills Arcade Trivia November 2025 Week 3 &lpar;Solution&rpar;](https://eplus.dev/google-skills-arcade-trivia-november-2025-week-3-solution) - 2025-11-07
- - 🔭 [Google Skills Arcade Trivia November 2025 Week 2 &lpar;Solution&rpar;](https://eplus.dev/google-skills-arcade-trivia-november-2025-week-2-solution) - 2025-11-06
- - 🤡 [Google Skills Arcade Trivia November 2025 Week 1 &lpar;Solution&rpar;](https://eplus.dev/google-skills-arcade-trivia-november-2025-week-1-solution) - 2025-11-05
- - 💡 [Improving Network Performance I - GSP045](https://eplus.dev/improving-network-performance-i-gsp045) - 2025-11-05
- - 🦣 [The Arcade Base Camp November 2025](https://eplus.dev/the-arcade-base-camp-november-2025) - 2025-11-04
- - 💪 [Clean Up Unused and Orphaned Persistent Disks - GSP648](https://eplus.dev/clean-up-unused-and-orphaned-persistent-disks-gsp648) - 2025-10-24
- - 🤡 [Arcade Hero: Enter the Subnet - ARC127](https://eplus.dev/arcade-hero-enter-the-subnet-arc127) - 2025-10-19<!-- BLOG-POST-LIST:END -->
+ - 🧰 [Zerobyte - Backup automation for self-hosters](https://eplus.dev/zerobyte-backup-automation-for-self-hosters) - 2025-11-27
+ - 😺 [Terraform Essentials: Google Compute Engine Instance - gem-terraform-gce-create](https://eplus.dev/terraform-essentials-google-compute-engine-instance-gem-terraform-gce-create-1) - 2025-11-17
+ - 🗽 [Terraform Essentials: Cloud Firestore Database - gem-terraform-firestore-create](https://eplus.dev/terraform-essentials-cloud-firestore-database-gem-terraform-firestore-create-1) - 2025-11-17
+ - 🌜 [Google Skills Arcade Trivia November 2025 Week 4 &lpar;Solution&rpar;](https://eplus.dev/google-skills-arcade-trivia-november-2025-week-4-solution) - 2025-11-09
+ - 📝 [Manage Storage Configuration using gsutil &lpar;Solution&rpar;](https://eplus.dev/manage-storage-configuration-using-gsutil-solution) - 2025-11-09
+ - 🚀 [gcloud and kubectl for Google Kubernetes Engine - GSP821](https://eplus.dev/gcloud-and-kubectl-for-google-kubernetes-engine-gsp821) - 2025-11-09
+ - 💼 [bq for Google BigQuery &lpar;Solution&rpar;](https://eplus.dev/bq-for-google-bigquery-solution) - 2025-11-08
+ - 🦣 [gcloud for Network Configuration &lpar;Solution&rpar;](https://eplus.dev/gcloud-for-network-configuration-solution) - 2025-11-08
+ - 👨‍🏫 [Use Go Code to Work with Google Cloud Data Sources - GSP701](https://eplus.dev/use-go-code-to-work-with-google-cloud-data-sources-gsp701) - 2025-11-08
+ - 🔭 [Google Skills Arcade Trivia November 2025 Week 3 &lpar;Solution&rpar;](https://eplus.dev/google-skills-arcade-trivia-november-2025-week-3-solution) - 2025-11-07
+ - 🤡 [Google Skills Arcade Trivia November 2025 Week 2 &lpar;Solution&rpar;](https://eplus.dev/google-skills-arcade-trivia-november-2025-week-2-solution) - 2025-11-06
+ - 💡 [Google Skills Arcade Trivia November 2025 Week 1 &lpar;Solution&rpar;](https://eplus.dev/google-skills-arcade-trivia-november-2025-week-1-solution) - 2025-11-05
+ - 🦣 [Improving Network Performance I - GSP045](https://eplus.dev/improving-network-performance-i-gsp045) - 2025-11-05
+ - 💪 [The Arcade Base Camp November 2025](https://eplus.dev/the-arcade-base-camp-november-2025) - 2025-11-04
+ - 🤡 [Clean Up Unused and Orphaned Persistent Disks - GSP648](https://eplus.dev/clean-up-unused-and-orphaned-persistent-disks-gsp648) - 2025-10-24<!-- BLOG-POST-LIST:END -->
 
 <div align="right">
   Update by <a target="_blank"
