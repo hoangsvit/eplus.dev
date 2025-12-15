@@ -450,6 +450,12 @@ Below are multiple-choice questions to reinforce your understanding of this lab'
 
 ## Solution of Lab
 
+### New solution
+
+%[https://youtu.be/UZGhX1FuTMw]
+
+### Old solution
+
 %[https://youtu.be/M35m46Q3GWM] 
 
 ```apache
