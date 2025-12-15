@@ -6,8 +6,8 @@ datePublished: Tue Aug 27 2024 06:00:13 GMT+0000 (Coordinated Universal Time)
 cuid: cm0c0pwqs000p0amf1x1629cb
 slug: cloud-sql-with-terraform-gsp234
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724738231706/04973667-4071-41f9-b48a-506a4a515c27.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724738394017/a950c8e3-9f73-4b1a-8832-27b6d72cb8c4.jpeg
-tags: cloud-sql-with-terraform-gsp234
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1765779477737/a7d0e947-f0be-4977-8e85-ff9fc48be692.png
+tags: cloud-sql-with-terraform-gsp234, gsp234, cloud-sql-with-terraform
 
 ---
 
