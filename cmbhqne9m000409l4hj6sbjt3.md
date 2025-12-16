@@ -455,4 +455,8 @@ A message appears warning that you are about to share a file externally. Click S
 
 ## Solution of Lab
 
-%[https://youtu.be/p5cLeqqnT-Y]
+%[https://youtu.be/-1x2cz32y0k]
+
+**Alternative Solution**
+
+%[https://youtu.be/pLiv14u8ZwM]
