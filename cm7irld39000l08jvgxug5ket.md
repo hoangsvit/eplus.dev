@@ -347,6 +347,13 @@ Test your knowledge about Cloud Spanner by taking the following quiz. (Please se
 %[https://youtu.be/mRNfyemRu3s] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP102/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 export REGION=
 ```
 
