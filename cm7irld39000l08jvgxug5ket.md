@@ -344,7 +344,7 @@ Test your knowledge about Cloud Spanner by taking the following quiz. (Please se
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=-GbB_-dnUcI&ab_channel=Techcps] 
+%[https://youtu.be/mRNfyemRu3s] 
 
 ```apache
 export REGION=
@@ -353,7 +353,7 @@ export REGION=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1740383810653/3458c8ac-3222-426f-b423-a33718cc3692.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Cloud%20Spanner%3A%20Qwik%20Start/techcps102.sh
-sudo chmod +x techcps102.sh
-./techcps102.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Cloud%20Spanner%20Qwik%20Start/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
