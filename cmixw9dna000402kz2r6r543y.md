@@ -24,6 +24,7 @@ Welcome to **Base Camp December 2025**, where you’ll develop key **Google Clou
 | **Section** | **Game Link** | **Code** | **Deadline** |
 | --- | --- | --- | --- |
 | **The Arcade Base Camp December 2025** | [Games 6961](https://www.skills.google/games/6961) | <mark>1q-basecamp-13219</mark> | 28/12/25, 11:59 PM |
+| **Winter Wins** | [Games 6971](https://www.skills.google/games/6971) | <mark>1q-winter-21216</mark> | 21/12/25, 11:59 PM |
 
 ---
 
