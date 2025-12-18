@@ -7,6 +7,7 @@ cuid: cmixw9dna000402kz2r6r543y
 slug: the-arcade-base-camp-december-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765243184577/d95908e5-0540-4c16-8e22-301165c0ac6e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1765243194862/ea37e41a-5c54-4ab3-92e8-579f588632f1.png
+tags: the-arcade-base-camp-december-2025
 
 ---
 
