@@ -36,6 +36,8 @@ tags: vs-code, github-copilot, cach-doi-tai-khoan-github-copilot-trong-vs-code-m
 * Click **icon 👤 Accounts**
     
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1766730529048/ef0f938f-6fc6-404b-bf0d-5ec12bfff838.png align="center")
+
 Bạn sẽ thấy danh sách nhiều GitHub account (ví dụ):
 
 * `davidnguyen-94 (GitHub)`
@@ -57,6 +59,8 @@ Manage Extension Account Preferences...
 
 ### **Bước 3: Chọn extension GitHub Copilot**
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1766730571619/21b208da-c8df-4df7-b51e-a2343f730ec0.png align="center")
+
 Trong danh sách extension, chọn:
 
 ```apache
@@ -66,6 +70,8 @@ GitHub Copilot Chat
 ---
 
 ### **Bước 4: Chọn GitHub account cho workspace**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1766730589077/56c03c7d-5ff5-4a02-980a-3a2dea1cde73.png align="center")
 
 Popup sẽ hiện:
 
