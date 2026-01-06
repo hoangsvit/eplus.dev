@@ -5,7 +5,6 @@ seoDescription: "Join Base Camp January 2026 to develop Google Cloud skills, ear
 datePublished: Tue Jan 06 2026 02:25:48 GMT+0000 (Coordinated Universal Time)
 cuid: cmk1ywk26000102js6e2lhv8y
 slug: the-arcade-base-camp-january-2026
-tags: the-arcade-base-camp-january-2026
 
 ---
 
