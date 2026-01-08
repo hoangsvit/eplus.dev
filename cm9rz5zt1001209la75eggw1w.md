@@ -7,7 +7,6 @@ cuid: cm9rz5zt1001209la75eggw1w
 slug: multiple-vpc-networks-gsp211
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745293992945/b377653f-2c9d-4c79-9fc0-2cd5b0828941.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1745294293700/1d3e47df-fa22-4c73-8422-a8498f5f07d9.png
-tags: multiple-vpc-networks-gsp211, multiple-vpc-networks, gsp211
 
 ---
 
