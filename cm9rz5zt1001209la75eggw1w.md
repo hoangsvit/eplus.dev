@@ -853,7 +853,7 @@ default via 172.16.0.1 dev eth0
 
 ## Solution of Lab
 
-%[https://youtu.be/Kschgy_06SE] 
+%[https://youtu.be/Pi7wRdFwnkA] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP211/lab.sh
