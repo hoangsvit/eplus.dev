@@ -302,9 +302,19 @@ Call the Speech API for French language
 
 ## Solution of Lab
 
-%[https://youtu.be/E62c49ZcPK0] 
+### Manual
+
+%[https://youtu.be/eMBdbMi8cP8]
 
 ### Quick
+
+%[https://youtu.be/E62c49ZcPK0] 
+
+```apache
+curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GSP/GSP048_2025.sh
+sudo chmod +x GSP048_2025.sh
+./GSP048_2025.sh
+```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755335858942/e428f016-3124-476f-ba86-1532df85599a.png align="center")
 
@@ -315,7 +325,3 @@ Call the Speech API for French language
 Type in the terminal <mark>y</mark>
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755336188708/64a6ab63-40b3-438a-a769-f30c374e0a30.png align="center")
-
-### Manual
-
-%[https://youtu.be/eMBdbMi8cP8]
