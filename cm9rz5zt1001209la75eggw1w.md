@@ -863,9 +863,9 @@ source lab.sh
 **Script Alternative**
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Multiple%20VPC%20Networks/techcps211.sh
-sudo chmod +x techcps211.sh
-./techcps211.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Multiple%20VPC%20Networks/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757153633828/05bb4ddf-f180-4965-bfc3-d04782b055a4.png align="center")
