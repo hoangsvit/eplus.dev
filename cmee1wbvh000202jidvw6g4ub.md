@@ -318,4 +318,4 @@ Type in the terminal <mark>y</mark>
 
 ### Manual
 
-%[https://youtu.be/fsk5_Lp3WUM]
+%[https://youtu.be/eMBdbMi8cP8]
