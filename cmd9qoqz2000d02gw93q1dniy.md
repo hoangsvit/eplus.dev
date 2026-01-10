@@ -263,7 +263,7 @@ Now test that the application is working as specified.
 
 ## Solution of Lab
 
-%[https://youtu.be/rPJstB4fba8] 
+%[https://youtu.be/fMmKo5VRwpM] 
 
 * **Paste the following GitHub repository into the prompted search bar:**
     
@@ -272,7 +272,7 @@ Now test that the application is working as specified.
 https://github.com/subfuzion/voting-demo.git
 ```
 
-**🚨Copy and run the below commands in Terminal:**
+**🚨Copy and run the commands below in Terminal:**
 
 ```apache
 curl -LO https://raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/GKE%20Autopilot%20Qwik%20Start/techcps957.sh
