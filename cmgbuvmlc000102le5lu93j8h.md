@@ -505,13 +505,15 @@ gcloud compute vpn-tunnels delete [tunnel-name] --region [region]
 
 ## Solution of Lab
 
-%[https://youtu.be/3iRVTH8Ed5s] 
+### New Solution
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759556567781/aae8f2e6-25c4-4e0a-aad0-bbc92fce14b8.png align="center")
+%[https://youtu.be/IRkx3ORM3-s] 
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759556934450/d48e4bbf-9f17-4d91-a6e4-203a18dd6545.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768037842099/1a4f77e6-d96d-4926-b8af-aab69a52215a.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759556966561/3f4d869b-ae75-4a99-b244-a49e564668cb.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768037920062/c6ee552f-dcfe-4744-bd29-e014e1e9577d.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768037956295/c6fbb26c-73a7-43f6-9158-55183b6df4d2.png align="center")
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP062/lab.sh
