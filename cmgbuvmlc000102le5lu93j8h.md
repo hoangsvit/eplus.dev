@@ -7,7 +7,7 @@ cuid: cmgbuvmlc000102le5lu93j8h
 slug: building-a-high-throughput-vpn-gsp062
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759556299073/8c6dc880-6859-462b-b638-147f75db176c.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1759557098933/baf7c60f-b9cf-4369-999a-81d58bb7f43d.png
-tags: vpn, building-a-high-throughput-vpn-gsp062, building-a-high-throughput-vpn, gsp062
+tags: vpn, building-a-high-throughput-vpn-gsp062, building-a-high-throughput-vpn, gsp062, building-a-high-throughput-vpn-2026
 
 ---
 
