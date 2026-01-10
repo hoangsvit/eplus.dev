@@ -7,7 +7,6 @@ cuid: cmk1ywk26000102js6e2lhv8y
 slug: the-arcade-base-camp-january-2026
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767834618006/34372c2a-a4e2-45de-8e87-15d292c1fc4a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1767834637512/173e6e32-6a56-4e4f-a2e7-c9a1abbbaf30.png
-tags: the-arcade-base-camp-january-2026, the-arcade-base-camp-2026
 
 ---
 
