@@ -282,10 +282,6 @@ Add Cloud Storage permissions
 
 %[https://www.youtube.com/watch?v=mOklnafC9os] 
 
-```apache
-export USERNAME_2=
-```
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723953264765/a95c71c5-0a6e-4c99-b10d-6833d02f49b0.png align="center")
 
 ```apache
@@ -294,6 +290,10 @@ source lab.sh
 ```
 
 **Script Alternative**
+
+```apache
+export USERNAME_2=
+```
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20IAM%20Qwik%20Start/quicklabgsp064.sh
