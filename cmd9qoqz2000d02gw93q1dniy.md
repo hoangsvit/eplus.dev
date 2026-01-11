@@ -275,8 +275,8 @@ https://github.com/subfuzion/voting-demo.git
 **🚨Copy and run the commands below in Terminal:**
 
 ```apache
-curl -LO https://raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/GKE%20Autopilot%20Qwik%20Start/techcps957.sh
-source techcps957.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP957/lab.sh
+source lab.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752898516944/4251c19a-792f-4ebe-9ed8-6a089c5ab01f.png align="center")
