@@ -272,6 +272,8 @@ Now test that the application is working as specified.
 https://github.com/subfuzion/voting-demo.git
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768111389489/51f40ab7-418a-4433-9ca0-b420bb2899b2.png align="center")
+
 **🚨Copy and run the commands below in Terminal:**
 
 ```apache
