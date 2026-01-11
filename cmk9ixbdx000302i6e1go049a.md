@@ -257,7 +257,6 @@ Go back to the Cloud Dataprep tab. To wrangle your data, you need to create a Fl
 
 1. Click **Create Flow** in the upper right-hand corner:
     
-
 2. Name your Flow `Qwiklab1`, leave the flow description blank, then click **Ok**.
     
 
@@ -597,4 +596,4 @@ Publish the results to BigQuery
 
 %[https://youtu.be/UOEsBZm3GE4] 
 
-**Download 👉**[**Here**](https://drive.google.com/uc?export=download&id=1KnhYDNrhY2LxpIlmo-u9fz8xqvkC-QzS)
+**Download 👉**[**here**](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP050/flow_Qwiklab1.zip) **or** [**here**](https://drive.google.com/uc?export=download&id=1KnhYDNrhY2LxpIlmo-u9fz8xqvkC-QzS)
