@@ -828,7 +828,7 @@ You did it! You learned about blue-green deployments and how to deploy updates t
 
 ### Quick
 
-%[https://youtu.be/P5I99wXt7gk] 
+%[https://youtu.be/mQZQGMWkHrs] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP053/lab.sh
