@@ -5,8 +5,8 @@ seoDescription: "Google Sheets is a cloud-based application that provides advanc
 datePublished: Wed Sep 11 2024 13:22:39 GMT+0000 (Coordinated Universal Time)
 cuid: cm0xw4oha000909kz02owgmrg
 slug: google-sheets-getting-started-gsp469
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726060128755/46e79a56-9dc6-40ad-b7a9-0e5319456ebb.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1726060952262/d342b7d3-57a5-46d8-8809-7cb181812ecf.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768633150499/cac49be0-01db-4492-94f9-f0e07e3452f2.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1768633168117/a40b68db-d933-4be7-8342-764e89e0e043.png
 tags: google-sheets, google-sheets-getting-started-gsp469, gsp469
 
 ---
