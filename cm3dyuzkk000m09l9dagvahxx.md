@@ -274,6 +274,14 @@ Airports/Flights
 Average Elevation
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768634013608/43ca7d1e-5f54-4f5d-ae7e-19f9ce055ee0.png align="center")
+
+```apache
+Average elevation by facility type
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768633939026/8c885567-717e-4a07-8835-9915d7d28885.png align="center")
+
 ---
 
 ### Manual
