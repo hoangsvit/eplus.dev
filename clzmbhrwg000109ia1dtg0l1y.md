@@ -336,6 +336,8 @@ Create relationships between tables
 
 ### Solution of Lab
 
+### Quick
+
 %[https://www.youtube.com/watch?v=Y-PTwmPO_is] 
 
 Download file: [quicklab.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP910/quicklab.xlsx)
@@ -361,7 +363,7 @@ Download file: [quicklab.xlsx](https://github.com/ePlus-DEV/storage/blob/main/la
 
 ---
 
-**✅ Task 2: Add a Second Data Source (`companies`)**
+**✅ Task 2: Add a Second Data Source (**`companies`)
 
 1. Open the “**A copy of companies**” link → click **Make a copy**.
     
