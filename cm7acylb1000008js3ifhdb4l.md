@@ -5,8 +5,8 @@ seoDescription: "Looker Studio turns your data into informative dashboards and r
 datePublished: Tue Feb 18 2025 10:45:17 GMT+0000 (Coordinated Universal Time)
 cuid: cm7acylb1000008js3ifhdb4l
 slug: explore-and-create-reports-with-looker-studio-gsp409
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739875440224/733033c9-d767-4e88-be87-3d00ba7aa6e3.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1739875459866/1f22508d-d6a0-4004-996e-1c5e0cfd57cf.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768634180403/fd9afafc-42b7-4e7a-90f0-dd08292b73ac.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1768634188350/92b38f19-9281-4753-a29f-2d287dffe98b.png
 tags: explore-and-create-reports-with-looker-studio-gsp409, explore-and-create-reports-with-looker-studio, gsp409
 
 ---
