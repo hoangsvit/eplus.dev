@@ -258,6 +258,22 @@ explore: +airports {
 }
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768633439281/f247570f-eb52-4d94-9f78-0d9f5d02a6e6.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768633602822/a6efb6e0-4fbb-410c-b098-03640c02a034.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768633574432/75a59ac1-850a-4cab-8e2e-f4a288df3657.png align="center")
+
+```apache
+Airports/Flights
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768633784257/a2fd5142-b227-4e8a-a040-e4241d84fbe9.png align="center")
+
+```apache
+Average Elevation
+```
+
 ---
 
 ### Manual
