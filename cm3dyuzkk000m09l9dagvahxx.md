@@ -191,6 +191,8 @@ Visualize Dimensions and Measures
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/qxYbMRka_iQ] 
 
 **faa.model file**
