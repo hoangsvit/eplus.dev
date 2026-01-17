@@ -310,7 +310,27 @@ Call the Speech API for French language
 
 * **Create credentials:** [https://console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials?project=qwiklabs-gcp-02-6d90480fd7a5)
     
+    ```apache
+    export API_KEY=AIzaSyCziED7mZCbiivxUTOmIrWBfSFgDhckVdw
+    ```
+    
 * **Connect SSH:** [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768624615056/8ed34689-46ad-4f03-bd71-c9bef238060a.png align="center")
+    
+* ```bash
+    cat > request.json <<'JSON'
+    {
+      "config": {
+        "encoding": "FLAC",
+        "languageCode": "en-US"
+      },
+      "audio": {
+        "uri": "gs://cloud-samples-data/speech/brooklyn_bridge.flac"
+      }
+    }
+    JSON
+    ```
     
 
 ### Quick
