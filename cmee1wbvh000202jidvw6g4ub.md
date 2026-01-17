@@ -310,28 +310,24 @@ Call the Speech API for French language
 
 * **Create credentials:** [https://console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials?project=qwiklabs-gcp-02-6d90480fd7a5)
     
-    ```apache
-    export API_KEY=AIzaSyCziED7mZCbiivxUTOmIrWBfSFgDhckVdw
-    ```
-    
 * **Connect SSH:** [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
     
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768624615056/8ed34689-46ad-4f03-bd71-c9bef238060a.png align="center")
-    
-* ```bash
-    cat > request.json <<'JSON'
-    {
-      "config": {
-        "encoding": "FLAC",
-        "languageCode": "en-US"
-      },
-      "audio": {
-        "uri": "gs://cloud-samples-data/speech/brooklyn_bridge.flac"
-      }
-    }
-    JSON
-    ```
-    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768625469135/18413a89-1b52-4b55-abae-ecda31321b19.png align="center")
+
+**Task 3**
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP048/lab-2.sh
+source lab-2.sh
+```
+
+**Task 4**
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP048/lab-1.sh
+source lab-1.sh
+```
 
 ### Quick
 
