@@ -867,3 +867,5 @@ source old-lab.sh
 ---
 
 **Solution 2**
+
+%[https://youtu.be/H2mJpKTuHlo]
