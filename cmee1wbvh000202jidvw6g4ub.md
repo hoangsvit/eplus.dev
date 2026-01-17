@@ -304,7 +304,14 @@ Call the Speech API for French language
 
 ### Manual
 
-%[https://youtu.be/eMBdbMi8cP8]
+%[https://youtu.be/eMBdbMi8cP8] 
+
+%[https://youtu.be/FOHGHHXy56I] 
+
+* **Create credentials:** [https://console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials?project=qwiklabs-gcp-02-6d90480fd7a5)
+    
+* **Connect SSH:** [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
+    
 
 ### Quick
 
