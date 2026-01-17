@@ -608,7 +608,7 @@ Use the app icons in the right pane to view your schedule, reply to invitations,
 
 ## Solution of Lab
 
-%[https://youtu.be/vmN2sEl3GaM] 
+%[https://youtu.be/OjhYuXw-0wk] 
 
 **📧 Task 1. Gmail Layout**
 
