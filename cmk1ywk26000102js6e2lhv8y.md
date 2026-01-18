@@ -24,7 +24,7 @@ Welcome to **Base Camp January 2026**, where you’ll develop key **Google Cloud
 | **Section** | **Game Link** | **Code** | **Deadline** |
 | --- | --- | --- | --- |
 | **The Arcade Base Camp January 2026** | [Games 6983](https://www.skills.google/games/6983) | <mark>1q-basecamp-83205</mark> | 31/01/2026, 11:59 PM |
-| **A Cloud That Cares** | [Games 6994](https://www.skills.google/games/6994) | <mark>1q-worknplay-02013</mark> | 31/01/2026, 11:59 PM |
+| **A Cloud That Cares** | [Games 6994](https://www.skills.google/games/6994) | <mark>1q-worknplay-02013</mark> | 26/01/2026, 11:59 PM |
 | **Work Life Refresh** | [Games 6993](https://www.skills.google/games/6993) | <mark>1q-refresh-91623</mark> | 20/1/2026, 11:59 PM |
 
 ---
