@@ -453,11 +453,18 @@ export ZONE=
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724227553359/38d857a0-3d2d-45bd-aab9-d1cb5336d3cf.png align="center")
 
-[https://cloud-google-com.translate.goog/compute/docs/regions-zones](https://cloud-google-com.translate.goog/compute/docs/regions-zones)
+[https://docs.cloud.google.com/compute/docs/regions-zones](https://docs.cloud.google.com/compute/docs/regions-zones)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724227843209/24f62ebb-bd54-4edc-950c-776361dcc77e.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724227894094/6449075b-58a1-42d4-a7dc-ec55da5cbd72.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP233/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Deploy%20Kubernetes%20Load%20Balancer%20Service%20with%20Terraform/quicklabgsp233.sh
