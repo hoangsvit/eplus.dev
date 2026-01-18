@@ -39,4 +39,17 @@ Click **Check my progress** to verify the objective.
 
 ## Solution of Lab
 
+### Quick
+
+%[https://youtu.be/jI00HyPDPr4] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/manage-cloud-storage-lifecycle-policy-using-gsutil/lab.sh
+source lab.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768716605394/7d6609dc-2248-452e-8d45-4413883fb135.png align="center")
+
+### Manual
+
 %[https://youtu.be/h974PWkWYWA]
