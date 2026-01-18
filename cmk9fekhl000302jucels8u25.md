@@ -47,6 +47,8 @@ Configure a bucket for website hosting
 
 %[https://youtu.be/ks54SJBeVqk] 
 
+Lab link: [https://www.skills.google/games/6987/labs/43424](https://www.skills.google/games/6987/labs/43424)
+
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/configure-cloud-storage-bucket-for-website-hosting-using-gsutil/lab.sh
 source lab.sh
