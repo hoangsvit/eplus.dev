@@ -45,9 +45,11 @@ Configure a bucket for website hosting
 
 ## Solution of Lab
 
-%[https://youtu.be/Qw4jUX8UZ3w] 
+%[https://youtu.be/ks54SJBeVqk] 
 
-<div data-node-type="callout">
-<div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text"><strong>This lab is currently having an issue and</strong> <strong>cannot be completed</strong> at the moment due to permission/IAM errors when updating the Cloud Storage bucket configuration.</div>
-</div>
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/configure-cloud-storage-bucket-for-website-hosting-using-gsutil/lab.sh
+source lab.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768715481245/c49aadb5-6916-4a26-ae77-07fa41a522ae.png align="center")
