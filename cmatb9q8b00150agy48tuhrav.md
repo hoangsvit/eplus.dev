@@ -379,6 +379,13 @@ Your application is deployed, tested, and you can view the logs.
 %[https://youtu.be/j56NWOm8cmM] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP080/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Cloud%20Run%20Functions%3A%20Qwik%20Start%20-%20Command%20Line/techcps080.sh
 sudo chmod +x techcps080.sh
 ./techcps080.sh
