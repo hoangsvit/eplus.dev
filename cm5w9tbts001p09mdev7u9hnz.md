@@ -309,10 +309,14 @@ Which of the following runtimes for GO are supported in App Engine standard envi
 
 ### New Solution
 
+%[https://youtu.be/NbWpD-z51bI] 
+
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP070/lab.sh
 source lab.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768963909079/aa9cc7fd-1cdd-406e-9989-6ba5897949a5.png align="center")
 
 ---
 
