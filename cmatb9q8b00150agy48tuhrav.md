@@ -374,6 +374,8 @@ Your application is deployed, tested, and you can view the logs.
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/j56NWOm8cmM] 
 
 ```apache
@@ -385,3 +387,9 @@ sudo chmod +x techcps080.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747551743325/b826bee2-91fc-458c-befc-b14ef1f2a63f.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747551747853/50a8eb29-af03-414c-a2e7-87133f5f480c.png align="center")
+
+---
+
+### Manual
+
+%[https://www.youtube.com/watch?v=JPHJv7HQ9O8]
