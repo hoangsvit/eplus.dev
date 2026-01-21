@@ -393,3 +393,5 @@ sudo chmod +x techcps080.sh
 ### Manual
 
 %[https://www.youtube.com/watch?v=JPHJv7HQ9O8]
+
+%[https://youtu.be/6ydY0SMB8JY]
