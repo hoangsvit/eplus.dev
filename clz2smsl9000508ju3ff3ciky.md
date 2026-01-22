@@ -163,6 +163,8 @@ Below are multiple-choice questions to reinforce your understanding of this lab'
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746867316433/855fbeec-a4ca-40b4-b886-ad918412f4d0.png align="center")
 
+**Open:** [https://console.cloud.google.com/run/create](https://console.cloud.google.com/run/create)
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746867321867/0680db8a-1817-4862-844d-a8f3b003de85.png align="center")
 
 ### Test & **View logs**
