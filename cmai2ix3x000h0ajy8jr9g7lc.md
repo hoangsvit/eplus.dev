@@ -387,7 +387,7 @@ Logs-based metrics are Cloud Monitoring metrics that are based on the content of
 
 ### Quick
 
-%[https://youtu.be/Fuhwa8tlUC8] 
+%[https://youtu.be/oDgJF7wVp3s] 
 
 Open **Cloud Run**
 
