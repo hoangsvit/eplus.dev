@@ -169,6 +169,10 @@ Below are multiple-choice questions to reinforce your understanding of this lab'
 
 ### Test & **View logs**
 
+```json
+"message":"Hello World!"
+```
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752901374228/1370334b-edf3-4de1-a80a-c206e4a31fe6.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1752901590554/dc803db9-536f-45ab-9602-7c68f8ae1fea.png align="center")
