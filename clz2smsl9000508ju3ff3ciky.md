@@ -165,7 +165,7 @@ Below are multiple-choice questions to reinforce your understanding of this lab'
 
 **Open:** [https://console.cloud.google.com/run/create](https://console.cloud.google.com/run/create)
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1746867321867/0680db8a-1817-4862-844d-a8f3b003de85.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769045056281/794d10b9-56dd-4b36-a8d1-927bbb18faf4.png align="center")
 
 ### Test & **View logs**
 
