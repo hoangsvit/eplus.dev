@@ -281,7 +281,7 @@ Assess my progress
 
 ## Solution of Lab
 
-%[https://youtu.be/MszH378NlJk] 
+%[https://youtu.be/oEfGPbIjW2I] 
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
