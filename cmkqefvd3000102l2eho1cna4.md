@@ -784,6 +784,7 @@ Make a collection of cards
 **Task 1:**
 
 ```apache
+git clone https://github.com/material-components/material-components-flutter-codelabs.git /home/ide-dev
 cd ~/material-components-flutter-codelabs/mdc_100_series
 flutter config --enable-web
 flutter create .
