@@ -407,4 +407,19 @@ gcloud alloydb clusters list
 
 ## Solution of Lab
 
-%[https://youtu.be/N5zfAHPNGB4]
+### Quick
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1083/lab.sh
+source lab.sh
+```
+
+### Manual
+
+**Solution 1**
+
+%[https://youtu.be/N5zfAHPNGB4] 
+
+**Solution 2**
+
+%[https://youtu.be/ESpRowUZiEU]
