@@ -768,6 +768,8 @@ Group similar fields or Explores into useful categories
 
 **Toggle Development mode button &gt; <mark>Develop</mark> &gt; <mark>qwiklabs-ecommerce</mark>**
 
+![]( align="center")
+
 ### Step 1 :`order_items`
 
 ```apache
