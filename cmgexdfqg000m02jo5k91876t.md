@@ -768,7 +768,7 @@ Group similar fields or Explores into useful categories
 
 **Toggle Development mode button &gt; <mark>Develop</mark> &gt; <mark>qwiklabs-ecommerce</mark>**
 
-### Step 1 `Update order_items`
+### Step 1 :`order_items`
 
 ```apache
 view: order_items {
@@ -940,7 +940,7 @@ view: order_items {
 }
 ```
 
-### Step 2 `users.view`
+### Step 2: `users.view`
 
 ```apache
 view: users {
@@ -1047,7 +1047,7 @@ view: users {
 }
 ```
 
-### Step 3 `training_ecommerce.model`
+### Step 3: `training_ecommerce.model`
 
 ```apache
 connection: "bigquery_public_data_looker"
