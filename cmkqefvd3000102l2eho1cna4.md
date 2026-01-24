@@ -781,6 +781,21 @@ Make a collection of cards
 
 %[https://youtu.be/UK4z8USnmow] 
 
+**Task 1:**
+
+```apache
+cd ~/material-components-flutter-codelabs/mdc_100_series
+flutter config --enable-web
+flutter create .
+fwr
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769229918257/b7d364a2-d1d4-41f3-bcb6-4a471f9f6591.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769229950299/bdd97cf8-ee31-4f43-a86e-8849852e3f93.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769229931643/bb512bc5-2412-4b99-b45c-9cae52bc61cb.png align="center")
+
 **Login.Dart**
 
 ```dart
