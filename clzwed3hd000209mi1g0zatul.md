@@ -395,6 +395,8 @@ Now it's time to test your new Explores. Go to each Explore (**Events** and **Co
 
 **Toggle Development mode button &gt; <mark>Develop</mark> &gt; <mark>qwiklabs-ecommerce</mark>**
 
+![]( align="center")
+
 **user\_order\_lifetime.view**
 
 ```apache
