@@ -478,6 +478,8 @@ explore: events {
 }
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769240699833/30d7b314-18d9-465a-8299-e702d8493429.png align="center")
+
 ### Quick
 
 **Task 2. Add an always\_filter**
