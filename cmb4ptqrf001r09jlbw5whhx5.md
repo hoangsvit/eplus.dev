@@ -512,6 +512,10 @@ sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769246138580/52141001-96c4-40fd-9fdb-1f3a041ba63d.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769246178511/877f9ac8-cfb0-45c6-8361-4f1def0feaea.png align="center")
+
 ---
 
 ### Old Solution
