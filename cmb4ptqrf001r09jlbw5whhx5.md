@@ -514,6 +514,8 @@ sudo chmod +x drabhishek.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769246138580/52141001-96c4-40fd-9fdb-1f3a041ba63d.png align="center")
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769246403291/d87b9341-2228-418a-9268-22234875a85d.png align="center")
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769246347287/4b18953f-6ea4-4389-9ee5-4337af7e4211.png align="center")
 
 ---
