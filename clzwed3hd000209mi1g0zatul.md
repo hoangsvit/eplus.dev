@@ -395,7 +395,7 @@ Now it's time to test your new Explores. Go to each Explore (**Events** and **Co
 
 **Toggle Development mode button &gt; <mark>Develop</mark> &gt; <mark>qwiklabs-ecommerce</mark>**
 
-![]( align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769244101256/824e3264-c860-4e92-8789-0623689e3243.png align="center")
 
 **user\_order\_lifetime.view**
 
@@ -643,6 +643,8 @@ explore: events {
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758356140354/e4d2f26e-22fa-4571-8f19-4d4b5157865e.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769244179157/3b118c5b-2492-4e36-aebd-2ce3be4a93d6.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747556477971/a7b8cf79-b8ed-4ee1-bcec-85db35e7bce4.png align="center")
 
