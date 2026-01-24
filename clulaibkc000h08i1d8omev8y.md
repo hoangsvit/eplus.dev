@@ -334,7 +334,7 @@ You will add code within these curly braces to define the filter.
 
 Here, you want the order created date to be in the past 3 years. You will also define the `unless` sub-parameter as an alternative dimension that can be used as a filter. For this, you will use the user ID and state dimensions:
 
-```
+```apache
 filters: [created_date: "3 years"]
 unless: [users.id, users.state]
 ```
@@ -407,7 +407,7 @@ Click *Check my progress* to verify the objective.
 
 ### Manual
 
-%[https://youtu.be/QUc2aEoJjms] 
+%[https://youtu.be/IvzDdajxVNA] 
 
 `training_ecommerce.model`
 
