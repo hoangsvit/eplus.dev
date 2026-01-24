@@ -269,7 +269,9 @@ explore: events {
 }
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769240921641/2973aca3-8379-45cf-ae66-1134eea3acbb.png align="center")
+
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text">Just wait a little bit</div>
+<div data-node-type="callout-text"><strong>Just wait a little bit</strong></div>
 </div>
