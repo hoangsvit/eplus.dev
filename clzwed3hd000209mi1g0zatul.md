@@ -395,7 +395,7 @@ Now it's time to test your new Explores. Go to each Explore (**Events** and **Co
 
 **Toggle Development mode button &gt; Develop &gt; qwiklabs-ecommerce**
 
-### user\_order\_lifetime.view
+**user\_order\_lifetime.view**
 
 ```apache
 view: user_order_lifetime {
@@ -439,7 +439,7 @@ view: user_order_lifetime {
 
 ---
 
-### users.view
+**users.view**
 
 ```apache
 view: users {
@@ -551,7 +551,7 @@ view: users {
 
 ---
 
-### training\_ecommerce.model
+**training\_ecommerce.model**
 
 ```apache
 connection: "bigquery_public_data_looker"
