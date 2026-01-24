@@ -766,6 +766,8 @@ Group similar fields or Explores into useful categories
 
 %[https://youtu.be/xTqj3TkAjZw] 
 
+**Toggle Development mode button &gt; <mark>Develop</mark> &gt; <mark>qwiklabs-ecommerce</mark>**
+
 ### Step 1 `Update order_items`
 
 ```apache
