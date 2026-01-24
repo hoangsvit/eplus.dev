@@ -393,7 +393,7 @@ Now it's time to test your new Explores. Go to each Explore (**Events** and **Co
 
 %[https://www.youtube.com/watch?v=YfAaHLVQBtI] 
 
-**Toggle Development mode button &gt; Develop &gt; qwiklabs-ecommerce**
+**Toggle Development mode button &gt; <mark>Develop</mark> &gt; <mark>qwiklabs-ecommerce</mark>**
 
 **user\_order\_lifetime.view**
 
