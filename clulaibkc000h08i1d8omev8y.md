@@ -409,6 +409,8 @@ Click *Check my progress* to verify the objective.
 
 %[https://youtu.be/IvzDdajxVNA] 
 
+Click the **<mark>Develop</mark>** tab and then select the **<mark>qwiklabs-ecommerce</mark>** LookML project.
+
 `training_ecommerce.model`
 
 ```apache
