@@ -496,9 +496,22 @@ In this lab, you will use the **Cloud Console** to backup your database.
 
 ### New Solution
 
+%[https://youtu.be/QK92UThBejk] 
+
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1049/lab.sh
-source lab.sh
+
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Cloud%20Spanner%20%20Loading%20Data%20and%20Performing%20Backups/drabhishek.sh
+sudo chmod +x drabhishek.sh
+./drabhishek.sh
+```
+
+---
+
+### Old Solution
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1049/old-lab.sh
+source old-lab.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757992315992/1f019483-a035-44a9-a511-9c0616e528f3.png align="center")
@@ -515,22 +528,3 @@ source lab.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757988632394/4250e827-e2e9-421d-a47e-223169a8fff8.png align="center")
 
 ---
-
-### Old Solution
-
-%[https://youtu.be/DzjLV6Hs3Mo] 
-
-```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Cloud%20Spanner%20-%20Loading%20Data%20and%20Performing%20Backups/techcps1049.sh
-sudo chmod +x techcps1049.sh
-./techcps1049.sh
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757988628190/5c5b7c51-47a3-4a95-acae-dbb724ce4790.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757988632394/4250e827-e2e9-421d-a47e-223169a8fff8.png align="center")
-
-<div data-node-type="callout">
-<div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text">In first try, 4th task does not work. In the second try, all tasks were completed.</div>
-</div>
