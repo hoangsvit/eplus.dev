@@ -646,7 +646,7 @@ explore: events {
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769244179157/3b118c5b-2492-4e36-aebd-2ce3be4a93d6.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747556477971/a7b8cf79-b8ed-4ee1-bcec-85db35e7bce4.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769244319918/62af2932-0499-413e-9a75-ff600312cdd6.png align="center")
 
 * Click **Save &gt; As a Look**.
     
