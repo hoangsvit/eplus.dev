@@ -343,6 +343,10 @@ Click the **<mark>Develop</mark>** tab and then select the **<mark>qwiklabs-ecom
 
 ***Select Create View. Name the file*** `users_limited`. Click Create.
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769239621155/f8d11b26-f7ac-4399-8755-bbc394a39d15.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769239586166/aced7c87-1bf8-4bd7-b475-a497a3671a19.png align="center")
+
 ```apache
 view: users_limited {
   sql_table_name: `cloud-training-demos.looker_ecomm.users` ;;
