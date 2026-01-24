@@ -431,9 +431,9 @@ persist_with: training_ecommerce_default_datagroup
 label: "E-Commerce Training"
 
 explore: order_items {
-  always_filter: {
-    filters: [order_items.status: "Complete", users.country: "USA"]
-  }
+  conditionally_filter: {filters: [created_date: "3 years"]
+
+  unless: [users.id, users.state]}
   join: users {
     type: left_outer
     sql_on: ${order_items.user_id} = ${users.id} ;;
