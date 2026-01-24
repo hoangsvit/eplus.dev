@@ -414,6 +414,44 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP108
 source lab.sh
 ```
 
+**Task 2:**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769238741200/39d280b0-22fa-42c7-936d-0dbeee2e8eff.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769239041820/088221f8-4aa2-4f85-8ede-1364a2b53979.png align="center")
+
+**Type password**
+
+```apache
+Change3Me
+```
+
+**Insert SQL**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769238585126/69b73924-1253-45eb-aff2-4bf3711dc527.png align="center")
+
+```sql
+CREATE TABLE regions (
+    region_id bigint NOT NULL,
+    region_name varchar(25)
+) ;
+
+ALTER TABLE regions ADD PRIMARY KEY (region_id);
+
+INSERT INTO regions VALUES ( 1, 'Europe' );
+
+INSERT INTO regions VALUES ( 2, 'Americas' );
+
+INSERT INTO regions VALUES ( 3, 'Asia' );
+
+INSERT INTO regions VALUES ( 4, 'Middle East and Africa' );
+SELECT region_id, region_name from regions;
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769238541085/42337eb1-390b-4cfa-9c13-279723607c65.png align="center")
+
+---
+
 ### Manual
 
 **Solution 1**
