@@ -379,6 +379,8 @@ source task-2.sh
 gcloud ml language analyze-entities --content="Michelangelo Caravaggio, Italian painter, is known for 'The Calling of Saint Matthew'." > result.json
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769329636152/37abadf4-c98c-403b-9048-53ffbb089b42.png align="center")
+
 ---
 
 ### Manual
