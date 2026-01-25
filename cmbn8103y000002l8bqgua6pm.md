@@ -436,4 +436,4 @@ sudo chmod +x abhishek.sh
 
 ### Manual
 
-%[https://youtu.be/SxqLEEzOdJ4]
+%[https://youtu.be/PtZLaWB-BAE]
