@@ -1337,7 +1337,21 @@ The capabilities of this user are limited to the policies assigned to this user'
 
 ## Solution of Lab
 
-%[https://youtu.be/CeLrwTixomo] 
+### Quick
+
+%[https://youtu.be/y9Yqa3FcxSU] 
+
+```apache
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Getting%20Started%20with%20Vault/drabhishek.sh
+sudo chmod +x drabhishek.sh
+./drabhishek.sh
+```
+
+---
+
+### Manual
+
+%[https://youtu.be/1PWLnY3UePI] 
 
 ```apache
 sudo apt update && sudo apt install -y curl gnupg lsb-release
