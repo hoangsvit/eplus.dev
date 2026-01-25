@@ -375,11 +375,3 @@ A \_\_\_\_\_ is a shared string that allows applications to connect with one ano
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP094/lab.sh
 source lab.sh
 ```
-
-**Script Alternative**
-
-```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Pub%20Sub%20Qwik%20Start%20Python/techcps094.sh
-sudo chmod +x techcps094.sh
-./techcps094.sh
-```
