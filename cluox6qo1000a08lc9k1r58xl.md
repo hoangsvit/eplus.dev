@@ -340,6 +340,13 @@ Link: [https://www.cloudskillsboost.google/course\_templates/667/labs/461608](ht
 **Task 1:**
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP097/task-1.sh
+source task-1.sh
+```
+
+**Script Alternative**
+
+```apache
 export GOOGLE_CLOUD_PROJECT=$(gcloud config get-value core/project)
 
 gcloud iam service-accounts create my-natlang-sa \
@@ -354,7 +361,18 @@ echo "GOOGLE_CLOUD_PROJECT=$GOOGLE_CLOUD_PROJECT"
 echo "GOOGLE_APPLICATION_CREDENTIALS=$GOOGLE_APPLICATION_CREDENTIALS"
 ```
 
-**Task 2:**
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769329482098/c8940a20-2999-48ae-b0e6-d689d2b10a73.png align="center")
+
+**Task 2: open** [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769329523151/6aa9103f-07be-41cc-aa01-64d5b62fc417.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP097/task-2.sh
+source task-2.sh
+```
+
+**Script Alternative**
 
 ```apache
 
