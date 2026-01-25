@@ -436,7 +436,7 @@ Now you know how to add flags to a Pub/Sub command to output a larger pool of me
 %[https://www.youtube.com/watch?v=dGZv09mWsQI&ab_channel=QUICKGCPLAB] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/labs/GSP095/lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP095/lab.sh
 source lab.sh
 ```
 
