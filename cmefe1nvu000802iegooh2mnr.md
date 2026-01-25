@@ -6,7 +6,7 @@ datePublished: Sun Aug 17 2025 07:52:27 GMT+0000 (Coordinated Universal Time)
 cuid: cmefe1nvu000802iegooh2mnr
 slug: getting-started-with-vault-gsp1003
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755417109637/1abf1507-be3d-40c7-9679-b4fee8a51848.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1755417128011/d7df6593-62d2-49b8-b7e8-4f48ba807e5a.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1769331341946/f831aa92-c30c-4a2e-bcdb-f83e1478df73.png
 tags: vault, getting-started-with-vault-gsp1003, getting-started-with-vault, gsp1003
 
 ---
@@ -1340,6 +1340,13 @@ The capabilities of this user are limited to the policies assigned to this user'
 ### Quick
 
 %[https://youtu.be/y9Yqa3FcxSU] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1003/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Getting%20Started%20with%20Vault/drabhishek.sh
