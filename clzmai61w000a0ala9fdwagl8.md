@@ -369,7 +369,7 @@ A \_\_\_\_\_ is a shared string that allows applications to connect with one ano
 
 ## Solution of Lab
 
-%[https://youtu.be/fLraRT9x7mE] 
+%[https://youtu.be/04rlCx6SlNo] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP094/lab.sh
