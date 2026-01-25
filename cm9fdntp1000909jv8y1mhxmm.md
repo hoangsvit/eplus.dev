@@ -333,6 +333,8 @@ Check if metric appears
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/TWv3hnr8bQM] 
 
 ```apache
@@ -340,3 +342,9 @@ curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/ma
 sudo chmod +x gsp1025.sh
 ./gsp1025.sh
 ```
+
+---
+
+### Manual
+
+%[https://youtu.be/g6_SuXGYBBg]
