@@ -333,6 +333,38 @@ Link: [https://www.cloudskillsboost.google/course\_templates/667/labs/461608](ht
 
 ## Solution of Lab
 
+### Quick
+
+%[https://youtu.be/zKO7deYd0Bc] 
+
+**Task 1:**
+
+```apache
+export GOOGLE_CLOUD_PROJECT=$(gcloud config get-value core/project)
+
+gcloud iam service-accounts create my-natlang-sa \
+  --display-name "my natural language service account"
+
+gcloud iam service-accounts keys create ~/key.json \
+  --iam-account my-natlang-sa@${GOOGLE_CLOUD_PROJECT}.iam.gserviceaccount.com
+
+export GOOGLE_APPLICATION_CREDENTIALS="$HOME/key.json"
+
+echo "GOOGLE_CLOUD_PROJECT=$GOOGLE_CLOUD_PROJECT"
+echo "GOOGLE_APPLICATION_CREDENTIALS=$GOOGLE_APPLICATION_CREDENTIALS"
+```
+
+**Task 2:**
+
+```apache
+
+gcloud ml language analyze-entities --content="Michelangelo Caravaggio, Italian painter, is known for 'The Calling of Saint Matthew'." > result.json
+```
+
+---
+
+### Manual
+
 %[https://youtu.be/gdTxNBBTrQE] 
 
 ### **Activate Cloud Shell**
