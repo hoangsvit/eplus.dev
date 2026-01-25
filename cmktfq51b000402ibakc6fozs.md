@@ -51,7 +51,7 @@ Distribute the traffic across multiple GCS buckets and view the website.
 %[https://youtu.be/9t-nk29Kj1c] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/labs/configure-cloud-buckets-with-gsutil-for-load-balancing-and-fault-tolerance/lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/configure-cloud-buckets-with-gsutil-for-load-balancing-and-fault-tolerance/lab.sh
 source lab.sh
 ```
 
