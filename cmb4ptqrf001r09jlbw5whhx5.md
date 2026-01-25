@@ -494,13 +494,9 @@ In this lab, you will use the **Cloud Console** to backup your database.
 
 ## Solution of Lab
 
-### Manual
+### New Solution
 
 %[https://youtu.be/QK92UThBejk] 
-
----
-
-### New Solution
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1049/lab.sh
