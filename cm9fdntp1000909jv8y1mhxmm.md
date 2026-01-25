@@ -333,10 +333,10 @@ Check if metric appears
 
 ## Solution of Lab
 
-%[https://youtu.be/lrgDYslmQMA] 
+%[https://youtu.be/TWv3hnr8bQM] 
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Migrate%20Existing%20Prometheus%20Monitoring%20Workloads%20to%20Google%20Cloud/techcps1025.sh
-sudo chmod +x techcps1025.sh
-./techcps1025.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Migrate%20Existing%20Prometheus%20Monitoring%20Workloads%20to%20Google%20Cloud/gsp1025.sh
+sudo chmod +x gsp1025.sh
+./gsp1025.sh
 ```
