@@ -340,7 +340,7 @@ In this last section, use `gcloud` to deploy a custom monitoring dashboard that 
 
 **Note:** Be sure to copy all of this code block.
 
-```apache
+```powershell
 gcloud monitoring dashboards create --config='''
 {
   "category": "CUSTOM",
