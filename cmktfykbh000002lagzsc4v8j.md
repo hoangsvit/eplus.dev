@@ -44,7 +44,7 @@ Update the object metadata for website hosting
 %[https://youtu.be/4B-lWNow2oA] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/labs/manage-rendering-for-cloud-storage-website-hosting/lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/manage-rendering-for-cloud-storage-website-hosting/lab.sh
 source lab.sh
 ```
 
