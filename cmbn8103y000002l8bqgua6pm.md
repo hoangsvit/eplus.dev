@@ -421,8 +421,7 @@ Check if the dashboard is created.
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1024/lab.sh
-sudo chmod +x lab.sh
-./lab.sh
+source lab.sh
 ```
 
 **Script Alternative**
