@@ -417,7 +417,7 @@ Check if the dashboard is created.
 
 ### Quick
 
-%[https://youtu.be/6ITmr6SIogs] 
+%[https://youtu.be/dYhjmyg36CI] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1024/lab.sh
