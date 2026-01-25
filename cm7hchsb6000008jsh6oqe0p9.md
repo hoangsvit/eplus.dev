@@ -454,9 +454,10 @@ sudo chmod +x gsp1027.sh
 
 %[https://youtu.be/0q6wvdfXcJc] 
 
-\`\`apache curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1027/solution-2.sh source solution-2.sh
-
-````apache
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1027/solution-2.sh
+source solution-2.sh
+```
 
 **Script Alternative**
 
@@ -464,4 +465,4 @@ sudo chmod +x gsp1027.sh
 curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Reduce%20Costs%20for%20the%20Managed%20Service%20for%20Prometheus/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
-````
+```
