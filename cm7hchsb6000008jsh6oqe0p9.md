@@ -431,10 +431,24 @@ Check if scrape interval has been changed
 
 ## Solution of Lab
 
+### **Solution 1:**
+
 %[https://youtu.be/bm8BpN1dUSk] 
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Reduce%20Costs%20for%20the%20Managed%20Service%20for%20Prometheus/gsp1027.sh
 sudo chmod +x gsp1027.sh
 ./gsp1027.sh
+```
+
+---
+
+### Solution 2:
+
+%[https://youtu.be/0q6wvdfXcJc] 
+
+```apache
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Reduce%20Costs%20for%20the%20Managed%20Service%20for%20Prometheus/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
