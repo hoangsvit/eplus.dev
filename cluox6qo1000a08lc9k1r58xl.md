@@ -363,7 +363,7 @@ echo "GOOGLE_APPLICATION_CREDENTIALS=$GOOGLE_APPLICATION_CREDENTIALS"
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769329482098/c8940a20-2999-48ae-b0e6-d689d2b10a73.png align="center")
 
-**Task 2: open** [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
+**Task 2: Open** [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769329523151/6aa9103f-07be-41cc-aa01-64d5b62fc417.png align="center")
 
