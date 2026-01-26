@@ -785,6 +785,27 @@ Configure static accounts
 
 ## Solution of Lab
 
+### Quick
+
+%[https://youtu.be/Jm5IXjJYWA0] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1007/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Creating%20Dynamic%20Secrets%20for%20Google%20Cloud%20with%20Vault1/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
+```
+
+---
+
+### Manual
+
 %[https://youtu.be/Saw9Hu4fSmw] 
 
 ```apache
