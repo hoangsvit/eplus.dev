@@ -51,6 +51,8 @@ Create BigQuery Schema and upload csv data
 
 %[https://youtu.be/b_7NZpw9PVE] 
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769428021862/4b49fb22-f9b8-4fbc-8469-bfbed8d1b80b.png align="center")
+
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/data-ingestion-into-bigquery-from-cloud-storage/lab.sh
 source lab.sh
@@ -59,9 +61,7 @@ source lab.sh
 **Script Alternative**
 
 ```apache
-PROJECT_ID=$(gcloud projects list --format="value(projectId)" --limit=1)
-
-bq mk work_day && bq load --source_format=CSV --skip_leading_rows=1 work_day.employee gs://${PROJECT_ID}-bucket/employees.csv employee_id:INTEGER,device_id:STRING,username:STRING,department:STRING,office:STRING
+bq mk work_day && bq load --source_format=CSV --skip_leading_rows=1 work_day.employee gs://qwiklabs-gcp-01-235725ab6f2a-gp06-bucket/employees.csv employee_id:INTEGER,device_id:STRING,username:STRING,department:STRING,office:STRING
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769423927130/e79f482d-de9a-4cb7-96d4-2608a6ee17bc.png align="center")
