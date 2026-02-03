@@ -207,6 +207,14 @@ In this task, modify an existing tile-based dashboard alert.
 
 ## Solution of Lab
 
+### New solution
+
+%[https://youtu.be/vwf2d2kSDnY] 
+
+---
+
+### **Old solution**
+
 %[https://www.youtube.com/watch?v=YWMktpCSCKY&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747551290539/65854309-32f5-4210-b449-7b78a5bb0301.png align="center")
