@@ -165,7 +165,7 @@ At this point, you would click the **Save All** button to save your new customiz
 
 ## Solution of Lab
 
-%[https://youtu.be/kelUpSZxkJU] 
+%[https://www.youtube.com/watch?v=JcT4GfdCidk] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1754717717853/7fac4279-7cc5-4dc6-b1b5-a4004bdb9142.png align="center")
 
