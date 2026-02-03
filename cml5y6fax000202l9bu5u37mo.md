@@ -7,7 +7,6 @@ cuid: cml5y6fax000202l9bu5u37mo
 slug: the-arcade-base-camp-february-2026
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770083741573/735aaaff-580d-40bc-9035-8d4a331d574a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1770083756133/e8edbff9-dee0-4fa0-8a5d-538a6a1d92fe.png
-tags: the-arcade-base-camp-february-2026, the-arcade-base-camp-february
 
 ---
 
