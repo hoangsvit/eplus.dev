@@ -532,3 +532,5 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/h
 sudo chmod +x *.sh
 ./*.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1770179525853/3b229753-6d1b-44b0-b215-eef46dfb9bd2.png align="center")
