@@ -758,6 +758,13 @@ In the new browser window, you should see something like the following:
 %[https://youtu.be/Pj5ye1DYwZ4] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP222/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/It%20Speaks%20Create%20Synthetic%20Speech%20Using%20Text%20to%20Speech/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
