@@ -341,14 +341,13 @@ Use RDP to connect to the domain controller instance with the credentials you cr
 
 6. When you see a security warning dialog stating that the identity of the remote computer cannot be verified click **Yes**.
     
-
-4. When the initial RDP connection to the Windows machine opens click **Yes** to make this machine discoverable.
+7. When the initial RDP connection to the Windows machine opens click **Yes** to make this machine discoverable.
     
-5. Open a PowerShell terminal as Administrator. (Click in the search box on the task-bar, type "PowerShell", and then with Windows PowerShell selected, press **Shift-Ctrl-Enter**.)
+8. Open a PowerShell terminal as Administrator. (Click in the search box on the task-bar, type "PowerShell", and then with Windows PowerShell selected, press **Shift-Ctrl-Enter**.)
     
-6. When prompted to allow this application to make changes to your device click **Yes**.
+9. When prompted to allow this application to make changes to your device click **Yes**.
     
-7. Set the Windows credentials for the Administrator account:
+10. Set the Windows credentials for the Administrator account:
     
 
 ```apache
@@ -735,4 +734,10 @@ Destination DSA     largest delta    fails/total %%   error
 
 ## Solution of Lab
 
-%[https://youtu.be/tL1JMhpRknE]
+**Solution 1:**
+
+%[https://www.youtube.com/watch?v=3LbRFgTdnZ8] 
+
+**Solution 2:**
+
+%[https://www.youtube.com/watch?v=6uXXQ1zzSfA]
