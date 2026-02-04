@@ -755,10 +755,10 @@ In the new browser window, you should see something like the following:
 
 ## Solution of Lab
 
-%[https://youtu.be/yJCxU0xWy1Q] 
+%[https://youtu.be/Pj5ye1DYwZ4] 
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/It%20Speaks%20Create%20Synthetic%20Speech%20Using%20Text%20to%20Speech/techcps222.sh
-sudo chmod +x techcps222.sh
-./techcps222.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/It%20Speaks%20Create%20Synthetic%20Speech%20Using%20Text%20to%20Speech/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
