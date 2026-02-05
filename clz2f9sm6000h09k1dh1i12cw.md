@@ -240,9 +240,19 @@ Question: **Through which of the following ways can you create a VM instance in 
 
 ### New Solution
 
+%[https://www.youtube.com/watch?v=VVCadu58wxk] 
+
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP001/lab.sh
 source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Create%20a%20Virtual%20Machine/gsp001.sh
+sudo chmod +x *.sh
+./*.sh
 ```
 
 ---
