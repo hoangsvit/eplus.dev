@@ -566,6 +566,13 @@ gcloud compute instances delete-access-config NAME
 %[https://youtu.be/kckMztXYB-0] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP157/s.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 export ZONE_2=
 ```
 
