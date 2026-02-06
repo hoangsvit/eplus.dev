@@ -432,7 +432,7 @@ rtt min/avg/max/mdev = 0.164/0.404/1.072/0.340 ms
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=C7cccaAvvTo] 
+### Solution 1:
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP193/lab.sh
@@ -440,8 +440,6 @@ source lab.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759568941465/51a8175b-73c9-432d-9305-34adb79f50ff.png align="center")
-
-**Script Alternative**
 
 ```apache
 export ZONE_1=
@@ -457,8 +455,18 @@ export PROJECT_ID2=
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759568826072/c817ce2d-4145-4920-bf5c-50d4cec72bd1.png align="center")
 
+### Solution 2:
+
+%[https://youtu.be/PvioBkuI-oE]
+
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/VPC%20Network%20Peering/techcps193.sh
-sudo chmod +x techcps193.sh
-./techcps193.sh
+export PROJECT_ID_2=
+export ZONE=
+export ZONE_2=
+```
+
+```apache
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/VPC%20Network%20Peering/gsp193.sh
+sudo chmod +x gsp193.sh
+./gsp193.sh
 ```
