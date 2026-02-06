@@ -455,6 +455,8 @@ export PROJECT_ID2=
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759568826072/c817ce2d-4145-4920-bf5c-50d4cec72bd1.png align="center")
 
+---
+
 ### Solution 2:
 
 %[https://youtu.be/PvioBkuI-oE]
