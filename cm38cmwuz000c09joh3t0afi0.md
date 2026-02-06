@@ -570,6 +570,10 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP157
 source lab.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1770350445201/e60999e8-b571-480c-9b21-9a42d4f09726.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1770350413557/2e273784-025e-488d-ae80-9044e4589820.png align="center")
+
 **Script Alternative**
 
 ```apache
