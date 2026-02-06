@@ -466,6 +466,13 @@ export ZONE_2=
 ```
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP193/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/VPC%20Network%20Peering/gsp193.sh
 sudo chmod +x gsp193.sh
 ./gsp193.sh
