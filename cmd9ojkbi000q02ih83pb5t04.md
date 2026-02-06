@@ -1566,10 +1566,10 @@ source lab.sh
 
 ### Manual
 
-***Solution 1:**
+**Solution 1:**
 
 %[https://youtu.be/pAH9HY0MFS0]
 
-***Solution 2:**
+**Solution 2:**
 
 %[https://youtu.be/x13IhTrwc3o]
