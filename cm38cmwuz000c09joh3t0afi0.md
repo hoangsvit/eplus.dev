@@ -563,12 +563,16 @@ gcloud compute instances delete-access-config NAME
 
 ### Quick
 
-%[https://youtu.be/rD_V0pw1mko] 
+%[https://youtu.be/kckMztXYB-0] 
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Creating%20Cross-region%20Load%20Balancing/techcps157.sh
-sudo chmod +x techcps157.sh
-./techcps157.sh
+export ZONE_2=
+```
+
+```apache
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Creating%20Cross-region%20Load%20Balancing/gsp157.sh
+sudo chmod +x gsp157.sh
+./gsp157.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1731046659496/cdce1312-3da2-4b05-9bbb-e80f1fb96cec.png align="center")
