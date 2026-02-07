@@ -157,4 +157,8 @@ At this point, you would click the **Save** button to save your new customized a
 
 %[https://youtu.be/vylyFE-u4XM] 
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1770448350937/218dad08-1c3c-485d-a489-ab8f076472fa.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1770448428130/724fcd85-5efa-4fb5-b234-5164df35c4ed.png align="center")
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747550822715/3b1ed8dd-e8ed-4750-9dbc-c9ade8b62e8b.png align="center")
