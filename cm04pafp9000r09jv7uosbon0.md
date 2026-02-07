@@ -604,3 +604,10 @@ old_findings
 <div data-node-type="callout-emoji">💡</div>
 <div data-node-type="callout-text"><strong>Note:</strong> It may take <strong>10+ minutes</strong> for these findings to be generated. Rerun the above command if you don't receive a similar output.</div>
 </div>
+
+```apache
+bq query --apilog=/dev/null --use_legacy_sql=false \
+"SELECT finding_id,event_time,finding.category FROM continuous_export_dataset.findings"
+```
+
+![]( align="center")
