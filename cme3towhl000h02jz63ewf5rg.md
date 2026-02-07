@@ -169,4 +169,6 @@ At this point, you would click the **Save All** button to save your new customiz
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1754717717853/7fac4279-7cc5-4dc6-b1b5-a4004bdb9142.png align="center")
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1770447979350/cbdb8603-6516-49de-b6cf-c2f4a990c6e6.png align="center")
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1754717757033/79ca71a6-b339-4310-8c30-12269c2b5e7d.png align="center")
