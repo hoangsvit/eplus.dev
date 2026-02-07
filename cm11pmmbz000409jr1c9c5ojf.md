@@ -869,48 +869,4 @@ sudo chmod +x *.sh
 
 ### Manual
 
-%[https://www.youtube.com/watch?v=vSbn050BPGI&ab_channel=Techcps] 
-
-**Assign Variables**
-
-```apache
-export ZONE=
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726292797064/fa6585ed-eb6d-4e10-8889-9af85a9007c9.png align="center")
-
-```apache
-gcloud compute ssh centos-clean --zone=$ZONE --quiet
-```
-
----
-
-**Change your current zone to another zone in the same region**
-
-> For example, if your current zone is us-central1-a, you could select us-central1-b or "c" or "d"
-
-```apache
-gcloud config set compute/zone $ZONE
-```
-
-```apache
-gcloud init --no-launch-browser
-```
-
-> Set USERNAME 2
-
-```apache
-export USER2=
-```
-
-> Set PROJECT ID 2
-
-```apache
-export PROJECT_ID2=
-```
-
-```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Configuring%20IAM%20Permissions%20with%20gcloud/techcps.sh
-sudo chmod +x techcps.sh
-./techcps.sh
-```
+%[https://youtu.be/KeXYAhs0BYI]
