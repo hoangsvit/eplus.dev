@@ -579,6 +579,10 @@ export-findings-pubsub-topic
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757559783487/569f56f9-03ac-44fe-b812-5d46b6e5d2bc.png align="center")
 
+```apache
+old_findings
+```
+
 **Paste this schema:**
 
 ```json
