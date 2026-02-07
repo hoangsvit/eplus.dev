@@ -550,7 +550,7 @@ Export findings to a Cloud Storage bucket and create a BigQuery table
 
 ## Solution of Lab
 
-%[https://youtu.be/XM4YebTD_Pk] 
+%[https://youtu.be/kH5T4UiRL7A] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1164/lab.sh
