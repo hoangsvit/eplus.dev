@@ -48,10 +48,12 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/enhanc
 source lab.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1770444222931/521ae964-c8ef-4d69-92f0-b6411ccb5ca8.png align="center")
+**Script Alternative**
 
 ```apache
 export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 
 gcloud compute instance-groups managed create dev-instance-group --template=dev-instance-template --size=1 --region="$REGION" && gcloud compute instance-groups managed set-autoscaling dev-instance-group --region=[enter region] --min-num-replicas=1 --max-num-replicas=3 --target-cpu-utilization=0.6 --mode=on
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1770444222931/521ae964-c8ef-4d69-92f0-b6411ccb5ca8.png align="center")
