@@ -560,9 +560,9 @@ source lab.sh
 **Script Alternative**
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Analyze%20Findings%20with%20Security%20Command%20Center/techcps1164.sh
-sudo chmod +x techcps1164.sh
-./techcps1164.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Analyze%20Findings%20with%20Security%20Command%20Center/gsp1164.sh
+sudo chmod +x *.sh
+./*.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757558678779/66d1ac9d-0618-4257-9e85-fe2f16ad608a.png align="center")
