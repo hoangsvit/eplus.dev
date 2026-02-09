@@ -610,4 +610,12 @@ bq query --apilog=/dev/null --use_legacy_sql=false \
 "SELECT finding_id,event_time,finding.category FROM continuous_export_dataset.findings"
 ```
 
-![]( align="center")
+```apache
+PROJECT_ID=$(gcloud projects list --format="value(projectId)" --limit=1)
+
+bq load \
+--source_format=NEWLINE_DELIMITED_JSON \
+continuous_export_dataset.old_findings \
+gs://scc-export-bucket-$PROJECT_ID/findings.jsonl \
+resource:JSON,finding:JSON
+```
