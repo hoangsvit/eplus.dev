@@ -144,7 +144,7 @@ mysql>
 
 ---
 
-### Solution of Lab
+## Solution of Lab
 
 ### New Solution
 
