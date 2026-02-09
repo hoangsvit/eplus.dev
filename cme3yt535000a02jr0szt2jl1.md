@@ -734,16 +734,23 @@ Destination DSA     largest delta    fails/total %%   error
 
 ## Solution of Lab
 
-**Solution 1:**
-
-%[https://www.youtube.com/watch?v=3LbRFgTdnZ8] 
-
-**Solution 2:**
+### Quick
 
 %[https://www.youtube.com/watch?v=6uXXQ1zzSfA] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP118/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Deploying%20a%20Fault-Tolerant%20Microsoft%20Active%20Directory%20Environment/gsp118.sh
 sudo chmod +x gsp118.sh
 ./gsp118.sh
 ```
+
+### Manual
+
+%[https://www.youtube.com/watch?v=3LbRFgTdnZ8]
