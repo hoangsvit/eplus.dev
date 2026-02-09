@@ -130,9 +130,9 @@ What is the name of default database in Postgres Cloud SQL instance?
 
 ---
 
-### Solution of Lab
+## Solution of Lab
 
-# New Solution
+### New Solution
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP152/lab.sh
