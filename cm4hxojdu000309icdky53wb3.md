@@ -374,6 +374,13 @@ In API Explorer we can only try out Google Cloud APIs.
 %[https://www.youtube.com/watch?v=aUy_R-2sRyQ&ab_channel=AbhiArcadeSolution] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP288/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 export REGION=
 export ZONE=
 ```
