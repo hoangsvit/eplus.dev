@@ -488,6 +488,13 @@ This should not work - nothing should be happening. `pnet-vm`'s network has a fi
 %[https://youtu.be/vlzjNYvN73Y] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP630/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 export ZONE=
 ```
 
