@@ -537,10 +537,10 @@ Click **Check my progress** to verify your performed task. The assessment score 
 
 ## Solution of Lab
 
-%[https://youtu.be/o5xbAR1rnqA] 
+%[https://youtu.be/OUxSJ02OmTs] 
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Introduction%20to%20APIs%20in%20Google%20Cloud/techcps294.sh
-sudo chmod +x techcps294.sh
-./techcps294.sh
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Introduction%20to%20APIs%20in%20Google%20Cloud/gsp294.sh
+sudo chmod +x gsp294.sh
+./gsp294.sh
 ```
