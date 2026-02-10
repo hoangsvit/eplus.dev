@@ -488,7 +488,11 @@ This should not work - nothing should be happening. `pnet-vm`'s network has a fi
 %[https://youtu.be/vlzjNYvN73Y] 
 
 ```apache
-curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/Configuring%20Networks%20via%20gcloud/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+export ZONE=
+```
+
+```apache
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Configuring%20Networks%20via%20gcloud/gsp630.sh
+sudo chmod +x gsp630.sh
+./gsp630.sh
 ```
