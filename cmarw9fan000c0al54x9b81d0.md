@@ -485,7 +485,7 @@ This should not work - nothing should be happening. `pnet-vm`'s network has a fi
 
 ## Solution of Lab
 
-%[https://youtu.be/RHNu2hYDgkg] 
+%[https://youtu.be/vlzjNYvN73Y] 
 
 ```apache
 curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/Configuring%20Networks%20via%20gcloud/arcadecrew.sh
