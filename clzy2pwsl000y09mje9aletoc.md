@@ -540,6 +540,13 @@ Click **Check my progress** to verify your performed task. The assessment score 
 %[https://youtu.be/OUxSJ02OmTs] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP294/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Introduction%20to%20APIs%20in%20Google%20Cloud/gsp294.sh
 sudo chmod +x gsp294.sh
 ./gsp294.sh
