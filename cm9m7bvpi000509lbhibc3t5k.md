@@ -291,6 +291,13 @@ You can create an instance using gcloud Shell, Google cloud console and through 
 %[https://youtu.be/kt1szxq7JNY] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP293/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/APIs%20Explorer%20Compute%20Engine/gsp293.sh
 sudo chmod +x *.sh
 ./*.sh
