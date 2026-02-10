@@ -250,12 +250,6 @@ When you are done with experimenting with Windows containers, it is a good idea 
 
 ## Solution of Lab
 
-### Manual
-
-%[https://youtu.be/9KMlcSzFCZU] 
-
----
-
 ### Quick
 
 %[https://www.youtube.com/watch?v=58Rp8yDkkg0&feature=youtu.be] 
@@ -268,3 +262,9 @@ lab.bat
 **Note:** <mark>Run CMD as </mark> **<mark>Administrator</mark>**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723086195135/7fbd9194-b8b4-49de-ab8f-7f5f5e448529.jpeg align="center")
+
+---
+
+### Manual
+
+%[https://youtu.be/9KMlcSzFCZU] 
