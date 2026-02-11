@@ -437,18 +437,16 @@ For feedback, suggestions, or corrections, please use the **Support** tab.
 
 %[https://youtu.be/7ND6JrHtFkQ] 
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756626585328/3d678c15-25af-447f-817d-a7893b9efc66.png align="center")
-
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP016/lab.sh
 source lab.sh
 ```
 
-**Script Alternative**
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756626579246/351ccde3-2bbc-4800-924e-bc78f70bd83f.png align="center")
-
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756626585328/3d678c15-25af-447f-817d-a7893b9efc66.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1770784430022/e0022da9-48a7-4170-86b8-b872f4c4fa71.png align="center")
+
+**Script Alternative**
 
 ```apache
 export REGION_1=
@@ -461,3 +459,7 @@ curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756626579246/351ccde3-2bbc-4800-924e-bc78f70bd83f.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756626585328/3d678c15-25af-447f-817d-a7893b9efc66.png align="center")
