@@ -828,3 +828,9 @@ gcloud builds triggers create github --name="tag" \
 git tag 1.1
 git push gcp 1.1
 ```
+
+---
+
+### Manual
+
+%[https://youtu.be/pxbOIKRnONY]
