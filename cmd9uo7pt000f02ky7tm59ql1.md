@@ -668,7 +668,9 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP107
 source lab.sh
 ```
 
-![]( align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1770785706437/326b5d50-3961-455c-a636-47a2dba1a191.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1770785812582/b010ea3c-9a65-4b9c-a6e6-289406e0064a.png align="center")
 
 **Script Alternative**
 
