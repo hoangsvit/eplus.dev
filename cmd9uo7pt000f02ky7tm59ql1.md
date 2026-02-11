@@ -248,7 +248,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
     
 
 ```apache
-gh repo create cloudrun-progression --private 
+gh repo create cloudrun-progression --private
 ```
 
 6. Clone and prepare the sample repository:
@@ -366,7 +366,7 @@ In this section, you provide developers with a unique URL for development branch
 ```apache
 gcloud builds connections create github cloud-build-connection --project=$PROJECT_ID  --region=$REGION 
 
-gcloud builds connections describe cloud-build-connection --region=$REGION 
+gcloud builds connections describe cloud-build-connection --region=$REGION
 ```
 
 2. In the output, copy (do not click) the **actionUri** URL.
@@ -483,7 +483,7 @@ The updated response output looks like the following:
 Hello World v1.1
 ```
 
- Task 4. Automate canary testing
+Task 4. Automate canary testing
 
 When code is released to production, it's common to release a small subset of live traffic before migrating all traffic to the new code base.
 
@@ -668,6 +668,8 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP107
 source lab.sh
 ```
 
+![]( align="center")
+
 **Script Alternative**
 
 ```apache
@@ -702,17 +704,19 @@ git config --global user.name "${GITHUB_USERNAME}"
 git config --global user.email "${USER_EMAIL}"
 echo ${GITHUB_USERNAME}
 echo ${USER_EMAIL}
-
 ```
 
-- Press **ENTER** to accept the default options. The last default you accept is to **Login with a web browser**.  
-  Copy the one-time code, and then click the URL provided in the output that takes you to GitHub.  
-  In GitHub, follow the prompts to connect this project to your GitHub account.  
-  This involves:
-  - Signing into your GitHub account  
-  - Entering the one-time code when prompted  
-  - Authorizing the connection to GitHub CLI
-
+* Press **ENTER** to accept the default options. The last default you accept is to **Login with a web browser**.  
+    Copy the one-time code, and then click the URL provided in the output that takes you to GitHub.  
+    In GitHub, follow the prompts to connect this project to your GitHub account.  
+    This involves:
+    
+    * Signing into your GitHub account
+        
+    * Entering the one-time code when prompted
+        
+    * Authorizing the connection to GitHub CLI
+        
 
 ```apache
 
@@ -757,18 +761,15 @@ curl -H "Authorization: Bearer $(gcloud auth print-identity-token)" $PROD_URL
 
 gcloud builds connections create github cloud-build-connection --project=$PROJECT_ID  --region=$REGION 
 
-gcloud builds connections describe cloud-build-connection --region=$REGION 
-
-
+gcloud builds connections describe cloud-build-connection --region=$REGION
 ```
 
-- Click Continue. Install the Cloud Build GitHub App in your GitHub account.
-
-- Choose Only select repositories, and then click Select repositories and select the cloudrun-progression repository.
+* Click Continue. Install the Cloud Build GitHub App in your GitHub account.
+    
+* Choose Only select repositories, and then click Select repositories and select the cloudrun-progression repository.
+    
 
 **For Better Understading Follow the Video**
-
-
 
 ```apache
 
