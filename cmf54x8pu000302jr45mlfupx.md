@@ -643,7 +643,7 @@ Create a public-facing web server
 
 ## Solution of Lab
 
-%[https://youtu.be/sjqi2REqMNI] 
+%[https://youtu.be/FuA1GE92VNk] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP007/lab.sh
@@ -653,9 +653,9 @@ source lab.sh
 **Script Alternative**
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Internal%20Load%20Balancer/techcps041.sh
-sudo chmod +x techcps041.sh
-./techcps041.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Use%20an%20internal%20application%20load%20balancer/drabhishek.sh
+sudo chmod +x drabhishek.sh
+./drabhishek.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756973820527/6bb75290-c7d4-4652-a74a-d6a7f37d0096.png align="center")
