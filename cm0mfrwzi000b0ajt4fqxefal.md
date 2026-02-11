@@ -437,6 +437,15 @@ For feedback, suggestions, or corrections, please use the **Support** tab.
 
 %[https://youtu.be/7ND6JrHtFkQ] 
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756626585328/3d678c15-25af-447f-817d-a7893b9efc66.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP016/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756626579246/351ccde3-2bbc-4800-924e-bc78f70bd83f.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756626585328/3d678c15-25af-447f-817d-a7893b9efc66.png align="center")
@@ -446,13 +455,6 @@ export REGION_1=
 export REGION_2=
 export REGION_3=
 ```
-
-```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP016/lab.sh
-source lab.sh
-```
-
-**Script Alternative**
 
 ```apache
 curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Networking%20101/abhishek.sh
