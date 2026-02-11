@@ -670,7 +670,7 @@ source lab.sh
 
 **Script Alternative**
 
-```bash
+```apache
 export PROJECT_ID=$(gcloud config get-value project)
 export PROJECT_NUMBER=$(gcloud projects describe $PROJECT_ID --format='value(projectNumber)')
 REGION=$(gcloud compute project-info describe \
@@ -714,7 +714,7 @@ echo ${USER_EMAIL}
   - Authorizing the connection to GitHub CLI
 
 
-```bash
+```apache
 
 gh repo create cloudrun-progression --private 
 
@@ -770,7 +770,7 @@ gcloud builds connections describe cloud-build-connection --region=$REGION
 
 
 
-```bash
+```apache
 
 gcloud builds repositories create cloudrun-progression \
      --remote-uri="https://github.com/${GITHUB_USERNAME}/cloudrun-progression.git" \
