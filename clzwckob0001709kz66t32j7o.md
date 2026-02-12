@@ -1276,7 +1276,7 @@ Experiment by changing the school\_ncaa filter above to predict for the matchups
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=_uqWQdzvV40] 
+%[https://www.youtube.com/watch?v=H2nbrK6suwk] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/export-data-from-big-query-to-cloud-storage/lab.sh
@@ -1286,7 +1286,7 @@ source lab.sh
 **Script Alternative**
 
 ```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/2024%20Bracketology%20with%20Google%20Machine%20Learning/quicklabgsp461.sh
-sudo chmod +x quicklabgsp461.sh
-./quicklabgsp461.sh
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Bracketology%20with%20Google%20Machine%20Learning/gsp461.sh
+sudo chmod +x gsp461.sh
+./gsp461.sh
 ```
