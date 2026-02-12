@@ -471,16 +471,16 @@ Give the process some time (minimum of 5 minutes) before determining that someth
 
 ### Quick
 
-%[https://youtu.be/_WGZm_ucjAY] 
+%[https://www.youtube.com/watch?v=L9CBCI8vBwQ] 
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Cloud%20Logging%20on%20Kubernetes%20Engine/techcps483.sh
-sudo chmod +x techcps483.sh
-./techcps483.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Cloud%20Logging%20on%20Kubernetes%20Engine/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
 
 ---
 
 ### Manual
 
-%[https://youtu.be/5H3SXuc5JM4]
+%[https://www.youtube.com/watch?v=jJ4PMn-05q4]
