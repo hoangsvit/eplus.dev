@@ -1083,3 +1083,5 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/G
 sudo chmod +x gsp479.sh
 ./gsp479.sh
 ```
+
+![]( align="center")
