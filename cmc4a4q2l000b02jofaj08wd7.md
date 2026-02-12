@@ -474,6 +474,13 @@ Give the process some time (minimum of 5 minutes) before determining that someth
 %[https://www.youtube.com/watch?v=L9CBCI8vBwQ] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP483/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Cloud%20Logging%20on%20Kubernetes%20Engine/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
