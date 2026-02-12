@@ -1,7 +1,7 @@
 ---
 title: "Google Kubernetes Engine Security: Binary Authorization - GSP479"
 seoTitle: "Google Kubernetes Engine Security: Binary Authorization - GSP479"
-seoDescription: "One of the key security concerns for running Kubernetes clusters is knowing what container images are running inside each pod and being able to account for "
+seoDescription: "One of the key security concerns for running Kubernetes clusters is knowing what container images are running inside each pod and being able to account for"
 datePublished: Sun Mar 09 2025 08:31:39 GMT+0000 (Coordinated Universal Time)
 cuid: cm81djx0k000108l80zlw5jvj
 slug: google-kubernetes-engine-security-binary-authorization-gsp479
@@ -1064,6 +1064,13 @@ curl -X DELETE \
 ## Solution of Lab
 
 %[https://youtu.be/cXTA0nxGfLo] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP479/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 export ZONE=
