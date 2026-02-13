@@ -2127,6 +2127,13 @@ For more information on fine-grained control, you can check out the [Fine-Graine
 
 ## Solution of Lab
 
+### Quick
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1004/lab.sh
+source lab.sh
+```
+
 ### New Solution
 
 %[https://www.youtube.com/watch?v=R75L99wb3Rs] 
