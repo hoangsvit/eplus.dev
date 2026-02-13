@@ -135,7 +135,7 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-03-5c1b11a474
 gcloud auth list
 ```
 
-Copied!
+
 
 4. Click **Authorize**.
     
@@ -157,7 +157,7 @@ To set the active account, run:
 gcloud config list project
 ```
 
-Copied!
+
 
 **Output:**
 
@@ -177,7 +177,7 @@ project = qwiklabs-gcp-03-5c1b11a47496
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 ```
 
-Copied!
+
 
 **Note**: Ignore the warning if any.
 
@@ -188,7 +188,7 @@ Copied!
 sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 ```
 
-Copied!
+
 
 3. Update and install Vault:
     
@@ -198,7 +198,7 @@ sudo apt-get update
 sudo apt-get install vault
 ```
 
-Copied!
+
 
 ### Verify the installation
 
@@ -211,7 +211,7 @@ After installing Vault, verify the installation worked by checking that the Vaul
 vault
 ```
 
-Copied!
+
 
 You should see help output similar to the following:
 
@@ -270,7 +270,7 @@ First, start a Vault *dev server*. The dev server is a built-in, pre-configured 
 vault server -dev
 ```
 
-Copied!
+
 
 You should see output relating to your Vault server configuration. Notice that **Unseal Key** and **Root Token** values are displayed:
 
@@ -321,7 +321,7 @@ Now that you have the Vault development server running, you can continue setting
 export VAULT_ADDR='http://127.0.0.1:8200'
 ```
 
-Copied!
+
 
 The Vault CLI determines which Vault servers to send requests using the `VAULT_ADDR` environment variable.
 
@@ -334,7 +334,7 @@ The Vault CLI determines which Vault servers to send requests using the `VAULT_A
 vault status
 ```
 
-Copied!
+
 
 If it ran successfully, the output should look like the following:
 
@@ -532,7 +532,7 @@ Now that you've seen how policies are written, let's quickly check out the capab
 vault login token=<your root token>
 ```
 
-Copied!
+
 
 You should see the following output:
 
@@ -559,7 +559,7 @@ policies             ["root"]
 vault secrets list
 ```
 
-Copied!
+
 
 Your output should resemble the following:
 
@@ -582,7 +582,7 @@ vault auth enable userpass
 vault write auth/userpass/users/example-user password=password!
 ```
 
-Copied!
+
 
 4. Next, log in to Vault with the new user you created:
     
@@ -591,7 +591,7 @@ Copied!
 vault login -method=userpass username=example-user password=password!
 ```
 
-Copied!
+
 
 You should receive the following:
 
@@ -619,7 +619,7 @@ token_meta_username    example-user
 vault secrets list
 ```
 
-Copied!
+
 
 You should receive the following error:
 
@@ -694,7 +694,7 @@ path "path" {
 }
 ```
 
-Copied!
+
 
 5. Now, let's first update the `path` to the `sys/mounts` path you were trying to access earlier:
     
@@ -705,7 +705,7 @@ path "sys/mounts" {
 }
 ```
 
-Copied!
+
 
 6. Next, you'll add a capability. Since Vault is attempting to make a **GET** API call on this path, you'll need to have the `read` capability. Add `read` to the capabilities list:
     
@@ -716,7 +716,7 @@ path "sys/mounts" {
 }
 ```
 
-Copied!
+
 
 Your policy should resemble the following:
 
@@ -758,7 +758,7 @@ Great! You've created a new policy and associated it with the `example-user`.
 vault secrets list
 ```
 
-Copied!
+
 
 You'll notice the same error as before:
 
@@ -781,7 +781,7 @@ Why did it error after you've added the policy to the user? This is because once
 vault login -method=userpass username=example-user password=password!
 ```
 
-Copied!
+
 
 **Note:** You should receive a new token on output. Notice that you now have the `default` policy **and** `demo-policy` attached.
 
@@ -807,7 +807,7 @@ token_meta_username    example-user
 vault secrets list
 ```
 
-Copied!
+
 
 Your output should now resemble the following:
 
@@ -827,7 +827,7 @@ sys/          system       system_414d50aa       system endpoints..
 vault token capabilities <your token> sys/mounts
 ```
 
-Copied!
+
 
 You should get the following output:
 
@@ -842,7 +842,7 @@ read
 vault token capabilities <your token> sys/policies/acl
 ```
 
-Copied!
+
 
 You should get the following output:
 
@@ -857,7 +857,7 @@ deny
 vault policy list
 ```
 
-Copied!
+
 
 You should receive the following error:
 
@@ -888,7 +888,7 @@ path "path" {
 }
 ```
 
-Copied!
+
 
 23. Again, let's first update the `path` to the `sys/policies/acl` path you were trying to access:
     
@@ -899,7 +899,7 @@ path "sys/policies/acl" {
 }
 ```
 
-Copied!
+
 
 24. Now you'll add the capability. Since Vault is attempting to make a **GET** API call on this path, you'll need to add the `read` capability again. Additionally, the attempt passed in the `list=true` to the URL, so you'll need to add this capability as well.
     
@@ -910,7 +910,7 @@ path "sys/policies/acl" {
 }
 ```
 
-Copied!
+
 
 Your updated policy should now resemble the following:
 
@@ -925,7 +925,7 @@ Your updated policy should now resemble the following:
 vault policy list
 ```
 
-Copied!
+
 
 Your output should now resemble:
 
@@ -942,7 +942,7 @@ root
 vault policy list > policies.txt
 ```
 
-Copied!
+
 
 28. Lastly, check the token capabilities again for the `sys/policies/acl` path:
     
@@ -951,7 +951,7 @@ Copied!
 vault token capabilities <your token> sys/policies/acl
 ```
 
-Copied!
+
 
 You should get the following output:
 
@@ -966,7 +966,7 @@ list, read
 vault token capabilities <your token> sys/policies/acl > token_capabilities.txt
 ```
 
-Copied!
+
 
 30. Run the following commands to copy both the `policies` and `token_capabilities` text files to a pre-created Cloud Storage bucket to track your progress:
     
@@ -976,7 +976,7 @@ export PROJECT_ID=$(gcloud config get-value project)
 gsutil cp *.txt gs://$PROJECT_ID
 ```
 
-Copied!
+
 
 As you can see, when you *modified* the existing policy associated with the user, the changes were reflected without generating a new token. This is because the contents of policies are parsed in real-time whenever the token is used. As a result, if a policy is modified, the modified rules will be enforced the next time a token, with that policy attached, is used to make a call to Vault.
 
@@ -999,7 +999,7 @@ In the previous section, you used the UI to write and manage a a policy. This se
 vault login <your root token>
 ```
 
-Copied!
+
 
 ### Listing policies
 
@@ -1010,7 +1010,7 @@ Copied!
 vault read sys/policy
 ```
 
-Copied!
+
 
 You should see the following output:
 
@@ -1056,7 +1056,7 @@ path "sys/mounts"
 EOF
 ```
 
-Copied!
+
 
 2. Check that your file was created correctly:
     
@@ -1065,7 +1065,7 @@ Copied!
 cat example-policy.hcl
 ```
 
-Copied!
+
 
 3. Now, create a new policy named `example-policy` with the `vault policy write` command:
     
@@ -1074,7 +1074,7 @@ Copied!
 vault policy write example-policy example-policy.hcl
 ```
 
-Copied!
+
 
 If it was successful, you should see the following output:
 
@@ -1119,7 +1119,7 @@ path "sys/auth"
 EOF
 ```
 
-Copied!
+
 
 2. Check that your file was created correctly:
     
@@ -1128,7 +1128,7 @@ Copied!
 cat example-policy.hcl
 ```
 
-Copied!
+
 
 3. Update your policy:
     
@@ -1137,7 +1137,7 @@ Copied!
 vault write sys/policy/example-policy policy=@example-policy.hcl
 ```
 
-Copied!
+
 
 Great! You've successfully updated a policy using the CLI.
 
@@ -1148,7 +1148,7 @@ Great! You've successfully updated a policy using the CLI.
 gsutil cp example-policy.hcl gs://$PROJECT_ID
 ```
 
-Copied!
+
 
 Click *Check my progress* to verify the objective.
 
@@ -1169,7 +1169,7 @@ vault delete sys/policy/policy-name
 vault delete sys/policy/example-policy
 ```
 
-Copied!
+
 
 If it was successful, you should have seen the following output:
 
@@ -1184,7 +1184,7 @@ Success! Data deleted (if it existed) at: sys/policy/example-policy
 vault policy list
 ```
 
-Copied!
+
 
 You should see the following output:
 
@@ -1211,7 +1211,7 @@ vault write auth/userpass/users/firstname-lastname \
     policies="default, demo-policy"
 ```
 
-Copied!
+
 
 ```apache
 Success! Data written to: auth/userpass/users/firstname-lastname
@@ -1226,7 +1226,7 @@ This creates an authentication mapping to the policy such that, when the user au
 vault login -method="userpass" username="firstname-lastname" password="s3cr3t!"
 ```
 
-Copied!
+
 
 You should see the following output:
 
@@ -1256,7 +1256,7 @@ Tokens have two sets of policies: identity policies, which are computed based on
 vault login <your root token>
 ```
 
-Copied!
+
 
 2. Tokens are associated with their policies at creation time. Run the following to create a token with the `dev-readonly` and `logs` policies:
     
@@ -1265,7 +1265,7 @@ Copied!
 vault token create -policy=dev-readonly -policy=logs
 ```
 
-Copied!
+
 
 You should see the following output:
 
@@ -1302,7 +1302,7 @@ vault write auth/userpass/users/admin \
     policies="admin"
 ```
 
-Copied!
+
 
 ```apache
 vault write auth/userpass/users/app-dev \
@@ -1310,7 +1310,7 @@ vault write auth/userpass/users/app-dev \
     policies="appdev"
 ```
 
-Copied!
+
 
 ```apache
 vault write auth/userpass/users/security \
@@ -1318,7 +1318,7 @@ vault write auth/userpass/users/security \
     policies="security"
 ```
 
-Copied!
+
 
 Now that you've created some new users, you'll create the policies that you've already associated with them. You'll first start with the **admin** policy, which should be able to have full access to all the secrets in Vault.
 
@@ -1406,7 +1406,7 @@ path "sys/mounts"
 }
 ```
 
-Copied!
+
 
 Your policy should resemble the following:
 
@@ -1453,7 +1453,7 @@ path "sys/mounts"
 }
 ```
 
-Copied!
+
 
 5. Click **Create policy**.
     
@@ -1528,7 +1528,7 @@ path "secret/metadata/admin/*" {
 }
 ```
 
-Copied!
+
 
 5. Click **Create policy**.
     
@@ -1545,7 +1545,7 @@ vault kv put secret/security/first username=password
 vault kv put secret/security/second username=password
 ```
 
-Copied!
+
 
 2. Create some secrets in the `secret/appdev` path:
     
@@ -1555,7 +1555,7 @@ vault kv put secret/appdev/first username=password
 vault kv put secret/appdev/beta-app/second username=password
 ```
 
-Copied!
+
 
 3. Create some secrets in the `secret/admin` path:
     
@@ -1565,7 +1565,7 @@ vault kv put secret/admin/first admin=password
 vault kv put secret/admin/supersecret/second admin=password
 ```
 
-Copied!
+
 
 ### Verify security for appdev
 
@@ -1578,7 +1578,7 @@ Now that you've created some secrets, let's verify that these policies are being
 vault login -method="userpass" username="app-dev" password="appdev123"
 ```
 
-Copied!
+
 
 2. Now, try to fetch the `appdev/first` secret:
     
@@ -1587,7 +1587,7 @@ Copied!
 vault kv get secret/appdev/first
 ```
 
-Copied!
+
 
 You should see the following output:
 
@@ -1614,7 +1614,7 @@ username    password
 vault kv get secret/appdev/beta-app/second
 ```
 
-Copied!
+
 
 You should see the following output:
 
@@ -1641,7 +1641,7 @@ username    password
 vault kv put secret/appdev/appcreds credentials=creds123
 ```
 
-Copied!
+
 
 5. Destroy the secret:
     
@@ -1650,7 +1650,7 @@ Copied!
 vault kv destroy -versions=1 secret/appdev/appcreds
 ```
 
-Copied!
+
 
 6. Attempt to get a secret from `secret/security`:
     
@@ -1659,7 +1659,7 @@ Copied!
 vault kv get secret/security/first
 ```
 
-Copied!
+
 
 You should receive the following error:
 
@@ -1680,7 +1680,7 @@ Code: 403. Errors:
 vault kv list secret/
 ```
 
-Copied!
+
 
 You should again receive an error:
 
@@ -1705,7 +1705,7 @@ Great! You were able to fetch and create secrets in the `secret/appdev` path, an
 vault login -method="userpass" username="security" password="security123"
 ```
 
-Copied!
+
 
 2. Now, try to fetch the `security/first` secret:
     
@@ -1714,7 +1714,7 @@ Copied!
 vault kv get secret/security/first
 ```
 
-Copied!
+
 
 You should see the following output:
 
@@ -1741,7 +1741,7 @@ username    password
 vault kv get secret/security/second
 ```
 
-Copied!
+
 
 You should see the following output:
 
@@ -1768,7 +1768,7 @@ username    password
 vault kv put secret/security/supersecure/bigsecret secret=idk
 ```
 
-Copied!
+
 
 5. Destroy the secret:
     
@@ -1777,7 +1777,7 @@ Copied!
 vault kv destroy -versions=1 secret/security/supersecure/bigsecret
 ```
 
-Copied!
+
 
 6. Attempt to read a secret from `secret/appdev`:
     
@@ -1786,7 +1786,7 @@ Copied!
 vault kv get secret/appdev/first
 ```
 
-Copied!
+
 
 You should receive the following output:
 
@@ -1813,7 +1813,7 @@ username    password
 vault kv list secret/
 ```
 
-Copied!
+
 
 You should receive the following output:
 
@@ -1832,7 +1832,7 @@ security/
 vault secrets enable -path=supersecret kv
 ```
 
-Copied!
+
 
 ```apache
 Success! Enabled the kv secrets engine at: supersecret/
@@ -1845,7 +1845,7 @@ Success! Enabled the kv secrets engine at: supersecret/
 vault kv get secret/admin/first
 ```
 
-Copied!
+
 
 You should receive the following error:
 
@@ -1866,7 +1866,7 @@ Code: 403. Errors:
 vault kv list secret/admin
 ```
 
-Copied!
+
 
 Again, you should receive an error:
 
@@ -1891,7 +1891,7 @@ Great! You are able to fetch and create secrets in the `secret/` path, enable a 
 vault login -method="userpass" username="admin" password="admin123"
 ```
 
-Copied!
+
 
 2. Now, try to fetch the `admin/first` secret:
     
@@ -1900,7 +1900,7 @@ Copied!
 vault kv get secret/admin/first
 ```
 
-Copied!
+
 
 You should see the following output:
 
@@ -1927,7 +1927,7 @@ admin    password
 vault kv get secret/security/first
 ```
 
-Copied!
+
 
 You should see the following output:
 
@@ -1954,7 +1954,7 @@ username    password
 vault kv put secret/webserver/credentials web=awesome
 ```
 
-Copied!
+
 
 5. Destroy the secret:
     
@@ -1963,7 +1963,7 @@ Copied!
 vault kv destroy -versions=1 secret/webserver/credentials
 ```
 
-Copied!
+
 
 6. Attempt to get secrets from the `secret/appdev`:
     
@@ -1972,7 +1972,7 @@ Copied!
 vault kv get secret/appdev/first
 ```
 
-Copied!
+
 
 You should receive the following output:
 
@@ -1999,7 +1999,7 @@ username    password
 vault kv list secret/appdev/
 ```
 
-Copied!
+
 
 You should receive the following output:
 
@@ -2018,7 +2018,7 @@ first
 vault policy list
 ```
 
-Copied!
+
 
 You should receive the following output:
 
@@ -2039,7 +2039,7 @@ vault policy list > policies-update.txt
 gsutil cp policies-update.txt gs://$PROJECT_ID
 ```
 
-Copied!
+
 
 10. Enable the `gcp` auth method:
     
@@ -2048,7 +2048,7 @@ Copied!
 vault auth enable gcp
 ```
 
-Copied!
+
 
 11. Lastly, list the authentication methods enabled:
     
@@ -2057,7 +2057,7 @@ Copied!
 vault auth list
 ```
 
-Copied!
+
 
 ```apache
 Path         Type        Accessor                  Description
@@ -2126,13 +2126,6 @@ For more information on fine-grained control, you can check out the [Fine-Graine
 ---
 
 ## Solution of Lab
-
-### Quick
-
-```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1004/lab.sh
-source lab.sh
-```
 
 ### New Solution
 
