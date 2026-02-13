@@ -2134,8 +2134,6 @@ For more information on fine-grained control, you can check out the [Fine-Graine
 **Task 1:**
 
 ```apache
-
-
 curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Interacting%20with%20Vault%20Policies/TechCode1.sh
 sudo chmod +x TechCode1.sh
 ./TechCode1.sh
@@ -2226,7 +2224,6 @@ run gsutil cp policies.txt token_capabilities.txt "gs://$PROJECT_ID"
 **Task 7:**
 
 ```apache
-
 curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Interacting%20with%20Vault%20Policies/TechCode2.sh
 sudo chmod +x TechCode2.sh
 ./TechCode2.sh
