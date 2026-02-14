@@ -619,3 +619,9 @@ continuous_export_dataset.old_findings \
 gs://scc-export-bucket-$PROJECT_ID/findings.jsonl \
 resource:JSON,finding:JSON
 ```
+
+---
+
+### Manual
+
+%[https://youtu.be/Jfhe9KxofRA]
