@@ -37,7 +37,6 @@ Your Cloud Platform project in this session is set to YOUR_PROJECT_ID
 gcloud auth list
 ```
 
-
 3. Click **Authorize**.
     
 4. Your output should now look like this:
@@ -59,7 +58,6 @@ To set the active account, run:
 ```apache
 gcloud config list project
 ```
-
 
 **Output:**
 
@@ -92,7 +90,6 @@ In this task, you'll learn to move around the Linux filesystem using essential c
 pwd
 ```
 
-
 **Note:**  
 This command displays the absolute path of your current location.
 
@@ -102,7 +99,6 @@ This command displays the absolute path of your current location.
 ```apache
 cd ~
 ```
-
 
 **Note:**  
 The `~` represents the home directory.
@@ -114,7 +110,6 @@ The `~` represents the home directory.
 mkdir my_project
 ```
 
-
 **Note:**  
 This command creates a new directory.
 
@@ -125,7 +120,6 @@ This command creates a new directory.
 cd my_project
 ```
 
-
 **Note:**  
 Now you are inside the newly created directory.
 
@@ -135,7 +129,6 @@ Now you are inside the newly created directory.
 ```apache
 cd ..
 ```
-
 
 **Note:**  
 This command moves you one level up in the directory structure.
@@ -151,7 +144,6 @@ This task covers basic file creation, copying, moving, and deletion operations.
 touch hello.txt
 ```
 
-
 **Note:**  
 This command creates an empty file if it doesn't exist.
 
@@ -161,7 +153,6 @@ This command creates an empty file if it doesn't exist.
 ```apache
 echo "Hello, world!" > hello.txt
 ```
-
 
 **Note:**  
 The `>` redirects the output of the echo command to the file.
@@ -173,7 +164,6 @@ The `>` redirects the output of the echo command to the file.
 cat hello.txt
 ```
 
-
 **Note:**  
 This command displays the contents of a file.
 
@@ -183,7 +173,6 @@ This command displays the contents of a file.
 ```apache
 cp hello.txt goodbye.txt
 ```
-
 
 **Note:**  
 This command duplicates the file.
@@ -195,7 +184,6 @@ This command duplicates the file.
 mv goodbye.txt my_project/
 ```
 
-
 **Note:**  
 This command moves or renames files.
 
@@ -205,7 +193,6 @@ This command moves or renames files.
 ```apache
 rm hello.txt
 ```
-
 
 **Note:**  
 This command permanently deletes files. Use with caution.
@@ -221,7 +208,6 @@ This task focuses on listing directory contents and removing directories.
 ls
 ```
 
-
 **Note:**  
 This command lists files and directories in the current directory.
 
@@ -231,7 +217,6 @@ This command lists files and directories in the current directory.
 ```apache
 cd ~ && ls -la my_project/
 ```
-
 
 **Note:**  
 The `-l` option provides a detailed listing, and `-a` includes hidden files.
@@ -243,7 +228,6 @@ The `-l` option provides a detailed listing, and `-a` includes hidden files.
 cd ~ && rm -r my_project/
 ```
 
-
 **Note:**  
 The `-r` option is necessary to remove directories recursively. Use with caution.
 
@@ -253,7 +237,6 @@ The `-r` option is necessary to remove directories recursively. Use with caution
 ```apache
 cd ~ && ls
 ```
-
 
 **Note:**  
 The directory should no longer be listed.
@@ -269,7 +252,6 @@ This task introduces command chaining and output redirection.
 mkdir my_new_project && cd my_new_project
 ```
 
-
 **Note:**  
 If the first command (mkdir) succeeds, the second command (cd) will execute.
 
@@ -279,7 +261,6 @@ If the first command (mkdir) succeeds, the second command (cd) will execute.
 ```apache
 ls -l > listing.txt
 ```
-
 
 **Note:**  
 The `>` redirects the output of the ls command to the file.
@@ -291,7 +272,6 @@ The `>` redirects the output of the ls command to the file.
 pwd >> listing.txt
 ```
 
-
 **Note:**  
 The `>>` appends the output to the file instead of overwriting it.
 
@@ -302,10 +282,11 @@ The `>>` appends the output to the file instead of overwriting it.
 cat listing.txt
 ```
 
-
 **Note:**  
 This command displays the contents of the file.
-    
+
 ---
 
 ## Solution of Lab
+
+%[https://youtu.be/TODZhL8xzwU]
