@@ -560,6 +560,10 @@ sudo chmod +x TechCode.sh
 ./TechCode.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1771134711279/2e938488-6425-4a99-9906-fe4b5e2495a6.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1771134749671/6c5a8ce8-110b-4682-aaa5-9b9109b005f8.png align="center")
+
 ---
 
 ### Old Solution
