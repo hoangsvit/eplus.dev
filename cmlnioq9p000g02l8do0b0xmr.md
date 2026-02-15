@@ -37,8 +37,6 @@ Your Cloud Platform project in this session is set to YOUR_PROJECT_ID
 gcloud auth list
 ```
 
-
-
 3. Click **Authorize**.
     
 4. Your output should now look like this:
@@ -60,8 +58,6 @@ To set the active account, run:
 ```apache
 gcloud config list project
 ```
-
-
 
 **Output:**
 
@@ -94,8 +90,6 @@ In this task, you will configure your environment and pull the necessary images 
 gcloud config set project qwiklabs-gcp-00-192ff2ed31f3
 ```
 
-
-
 **Note:**  
 This command sets your active project identity.
 
@@ -105,8 +99,6 @@ This command sets your active project identity.
 ```apache
 gcloud config set compute/region us-west1
 ```
-
-
 
 **Note:**  
 This command sets your active compute region.
@@ -118,8 +110,6 @@ This command sets your active compute region.
 gcloud services enable artifactregistry.googleapis.com
 ```
 
-
-
 **Note:**  
 Enables the Artifact Registry service.
 
@@ -129,8 +119,6 @@ Enables the Artifact Registry service.
 ```apache
 gcloud artifacts repositories create lab-registry --repository-format=docker --location=us-west1 --description="Docker repository"
 ```
-
-
 
 **Note:**  
 Creates a Docker repository in Artifact Registry.
@@ -142,8 +130,6 @@ Creates a Docker repository in Artifact Registry.
 gcloud auth configure-docker us-west1-docker.pkg.dev
 ```
 
-
-
 **Note:**  
 This command configures Docker to use your Google Cloud credentials for authentication with Artifact Registry.
 
@@ -153,8 +139,6 @@ This command configures Docker to use your Google Cloud credentials for authenti
 ```apache
 docker pull alpine/curl &&  docker tag alpine/curl us-west1-docker.pkg.dev/qwiklabs-gcp-00-192ff2ed31f3/lab-registry/alpine-curl:latest
 ```
-
-
 
 **Note:**  
 This will pull the image from docker hub and tag it for Artifact Registry.
@@ -166,8 +150,6 @@ This will pull the image from docker hub and tag it for Artifact Registry.
 docker push us-west1-docker.pkg.dev/qwiklabs-gcp-00-192ff2ed31f3/lab-registry/alpine-curl:latest
 ```
 
-
-
 strong&gt;Note:  
 This command pushes the tagged image to your Artifact Registry repository.
 
@@ -178,8 +160,6 @@ This command pushes the tagged image to your Artifact Registry repository.
 docker pull nginx:latest && docker tag nginx:latest us-west1-docker.pkg.dev/qwiklabs-gcp-00-192ff2ed31f3/lab-registry/nginx:latest
 ```
 
-
-
 **Note:**  
 This will pull the image from docker hub and tag it for Artifact Registry.
 
@@ -189,8 +169,6 @@ This will pull the image from docker hub and tag it for Artifact Registry.
 ```apache
 docker push us-west1-docker.pkg.dev/qwiklabs-gcp-00-192ff2ed31f3/lab-registry/nginx:latest
 ```
-
-
 
 **Note:**  
 This command pushes the tagged image to your Artifact Registry repository.
@@ -206,16 +184,12 @@ This task explores the default `bridge` network Docker creates. You will run con
 docker run -d --name container1 us-west1-docker.pkg.dev/qwiklabs-gcp-00-192ff2ed31f3/lab-registry/alpine-curl:latest sleep infinity
 ```
 
-
-
 2. Run container2 using the `alpine/curl` image.
     
 
 ```apache
 docker run -d --name container2 us-west1-docker.pkg.dev/qwiklabs-gcp-00-192ff2ed31f3/lab-registry/alpine-curl:latest sleep infinity
 ```
-
-
 
 **Note:**  
 This starts two containers in detached mode. The `sleep infinity` command keeps the containers running.
@@ -227,8 +201,6 @@ This starts two containers in detached mode. The `sleep infinity` command keeps 
 docker network inspect bridge
 ```
 
-
-
 **Note:**  
 This shows details of the `bridge` network, including connected containers and IP addresses.
 
@@ -238,8 +210,6 @@ This shows details of the `bridge` network, including connected containers and I
 ```apache
 docker exec -it container1 ping container2
 ```
-
-
 
 **Note:**  
 This executes the `ping` command within `container1`, targeting `container2`. The standard bridge network does not provide DNS resolution, so ping command cannot use the container name.
@@ -251,16 +221,12 @@ This executes the `ping` command within `container1`, targeting `container2`. Th
 docker stop container2 && docker rm container2
 ```
 
-
-
 5. Restart `container2` running as an HTTP server.
     
 
 ```apache
 docker run -d --name container2 -p 8080:80 us-west1-docker.pkg.dev/qwiklabs-gcp-00-192ff2ed31f3/lab-registry/nginx:latest
 ```
-
-
 
 **Note:**  
 Start a new container2 running nginx and exposing port 8080.
@@ -271,8 +237,6 @@ Start a new container2 running nginx and exposing port 8080.
 ```apache
 docker exec -it container1 curl container2:8080
 ```
-
-
 
 **Note:**  
 Send a curl request from container1 to container2 on port 8080. The standard bridge network does not provide DNS resolution, so curl command cannot use the container name.
@@ -288,8 +252,6 @@ This task demonstrates how to create a custom network which supports DNS and con
 docker network create my-net
 ```
 
-
-
 **Note:**  
 Creates a new Docker network named `my-net`.
 
@@ -300,16 +262,12 @@ Creates a new Docker network named `my-net`.
 docker run -d --name container3 --network my-net us-west1-docker.pkg.dev/qwiklabs-gcp-00-192ff2ed31f3/lab-registry/alpine-curl:latest sleep infinity
 ```
 
-
-
 3. Run container 4 connecting it to the `my-net` network.
     
 
 ```apache
 docker run -d --name container4 --network my-net us-west1-docker.pkg.dev/qwiklabs-gcp-00-192ff2ed31f3/lab-registry/alpine-curl:latest sleep infinity
 ```
-
-
 
 **Note:**  
 Starts two containers connected to the `my-net` network.
@@ -321,8 +279,6 @@ Starts two containers connected to the `my-net` network.
 docker network inspect my-net
 ```
 
-
-
 **Note:**  
 Displays details about the `my-net` network.
 
@@ -332,8 +288,6 @@ Displays details about the `my-net` network.
 ```apache
 docker exec -it container3 ping container4
 ```
-
-
 
 **Note:**  
 Tests connectivity between containers within `my-net`.
@@ -345,8 +299,6 @@ Tests connectivity between containers within `my-net`.
 docker stop container4 && docker rm container4
 ```
 
-
-
 7. Restart container 4.
     
 
@@ -354,16 +306,12 @@ docker stop container4 && docker rm container4
 docker run -d --name container4 --network my-net -p 8081:80 us-west1-docker.pkg.dev/qwiklabs-gcp-00-192ff2ed31f3/lab-registry/nginx:latest
 ```
 
-
-
 8. Run an `nginx` container on `my-net` and test connectivity.
     
 
 ```apache
 docker exec -it container3 curl container4:80
 ```
-
-
 
 **Note:**  
 Starts an nginx container on my-net.
@@ -374,8 +322,6 @@ Starts an nginx container on my-net.
 ```apache
 docker stop container4 && docker rm container4
 ```
-
-
 
 ## Task 4. Publishing Ports and Accessing Containers from the Host
 
@@ -388,8 +334,6 @@ Learn how to publish container ports and access containerized services from the 
 docker run -d --name container4 -p 8080:80 us-west1-docker.pkg.dev/qwiklabs-gcp-00-192ff2ed31f3/lab-registry/nginx:latest
 ```
 
-
-
 **Note:**  
 Publishes port 80 of the container to port 8080 on the host.
 
@@ -400,8 +344,6 @@ Publishes port 80 of the container to port 8080 on the host.
 curl localhost:8080
 ```
 
-
-
 **Note:**  
 This command sends an HTTP request to the published port on the host machine.
 
@@ -411,8 +353,6 @@ This command sends an HTTP request to the published port on the host machine.
 ```apache
 docker port container4 80
 ```
-
-
 
 **Note:**  
 This command shows the mapping for port 80 of the container.
@@ -428,16 +368,12 @@ Remove the created containers and networks.
 docker stop container1 container2 container3 container4
 ```
 
-
-
 2. Remove all containers.
     
 
 ```apache
 docker rm container1 container2 container3 container4
 ```
-
-
 
 **Note:**  
 This stops and removes the containers created in the previous steps.
@@ -449,8 +385,6 @@ This stops and removes the containers created in the previous steps.
 docker network rm my-net
 ```
 
-
-
 **Note:**  
 This removes the custom network.
 
@@ -458,4 +392,13 @@ This removes the custom network.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=c_w7Utw7l50]
+%[https://www.youtube.com/watch?v=c_w7Utw7l50] 
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1771146201272/ac6b6d15-0b5f-4bc2-b502-adf7666093cf.png align="center")
+
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text">The lab will automatically complete in approximately <strong>5 minutes</strong>. Just sit tight and let it finish 👍</div>
+</div>
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1771146263829/ad3fdf9d-9a71-4e41-9fb4-fa1055f5e8e4.png align="center")
