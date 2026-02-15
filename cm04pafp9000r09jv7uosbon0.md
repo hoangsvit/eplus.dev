@@ -590,8 +590,8 @@ sudo chmod +x TechCode.sh
 %[https://youtu.be/kH5T4UiRL7A] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1164/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1164/old-lab.sh
+source old-lab.sh
 ```
 
 **Script Alternative**
