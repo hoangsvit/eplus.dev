@@ -555,6 +555,13 @@ Export findings to a Cloud Storage bucket and create a BigQuery table
 %[https://youtu.be/PT5JmvRuiwU] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1164/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Analyze%20Findings%20with%20Security%20Command%20Center/TechCode.sh
 sudo chmod +x TechCode.sh 
 ./TechCode.sh
