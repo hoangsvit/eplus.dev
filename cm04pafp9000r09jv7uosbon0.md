@@ -572,7 +572,7 @@ sudo chmod +x abhishek.sh
 Pubsub name
 
 ```apache
-export-findings-pubsub-topic
+export-findings-pubsub-topic-sub
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757559778879/040e1bd4-2cb7-442b-968e-1cd9ac7761d5.png align="center")
