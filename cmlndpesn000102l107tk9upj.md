@@ -54,6 +54,13 @@ Configure secure CORS on the created bucket.
 %[https://youtu.be/AgbAjpY7J5o] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/configure-secure-cors-for-cloud-storage-solution/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 echo '[{"origin":["http://example.com"],"method":["GET"],"responseHeader":["Content-Type"],"maxAgeSeconds":3600}]' > cors.json
 gcloud storage buckets update gs://$(gcloud config get-value project)-bucket --cors-file=cors.json
 ```
