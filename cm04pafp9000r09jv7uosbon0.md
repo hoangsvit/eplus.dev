@@ -569,11 +569,14 @@ sudo chmod +x TechCode.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1771135747738/5def4815-2e63-4536-8c47-b3b5c85f965f.png align="center")
 
+Pubsub name
+
+```apache
+export-findings-pubsub-topic-sub
+```
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757558689524/c4be0b6d-d143-4031-83f6-8130d37a5e29.png align="left")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1771135775987/6329d9a3-d022-420a-859a-05e7b27de1ba.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1771135125472/8cfcedd0-63c8-411a-abad-1bffa97197fb.png align="center")
 
 ```json
 [   
@@ -589,6 +592,8 @@ sudo chmod +x TechCode.sh
   }
 ]
 ```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1771135125472/8cfcedd0-63c8-411a-abad-1bffa97197fb.png align="center")
 
 ---
 
