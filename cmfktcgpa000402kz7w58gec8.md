@@ -295,3 +295,5 @@ This command displays the contents of the file.
 <div data-node-type="callout-emoji">💡</div>
 <div data-node-type="callout-text">The lab will automatically complete in approximately <strong>5 minutes</strong>. Just sit tight and let it finish 👍</div>
 </div>
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1771145612750/c627f456-cdc9-4531-ab7e-dd1206cfa086.png align="center")
