@@ -564,6 +564,23 @@ sudo chmod +x TechCode.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1771134749671/6c5a8ce8-110b-4682-aaa5-9b9109b005f8.png align="center")
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1771135125472/8cfcedd0-63c8-411a-abad-1bffa97197fb.png align="center")
+
+```json
+[   
+  {
+    "mode": "NULLABLE",
+    "name": "resource",
+    "type": "JSON"
+  },   
+  {
+    "mode": "NULLABLE",
+    "name": "finding",
+    "type": "JSON"
+  }
+]
+```
+
 ---
 
 ### Old Solution
