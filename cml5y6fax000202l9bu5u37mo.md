@@ -25,8 +25,8 @@ Welcome to **Base Camp February 2026**, where you’ll develop key **Google Clou
 | --- | --- | --- | --- |
 | **Arcade Base Camp February 2026** | [Games 7008](https://www.skills.google/games/7008) | <mark>1q-basecamp-28025</mark> | 28/02/2026, 11:59 PM |
 | **Work Meets Play: Journeys Made Easy** | [Games 7007](https://www.skills.google/games/7007) | <mark>1q-worknplay-01319</mark> | 28/02/2026, 11:59 PM |
-| **Skills At The Pitch** | [Games 7027](https://www.skills.google/games/7027) | <mark>1q-valentine-14300</mark> | 26/02/2026, 11:59 PM |
-| **From Foundations To Wonders** | [Games 7028](https://www.skills.google/games/7028) | <mark>1q-valentine-14301</mark> | 26/02/2026, 11:59 PM |
+| **Skills At The Pitch** | [Games 7027](https://www.skills.google/games/7027) | <mark>1q-valentine-14300</mark> | 28/02/2026, 11:59 PM |
+| **From Foundations To Wonders** | [Games 7028](https://www.skills.google/games/7028) | <mark>1q-valentine-14301</mark> | 28/02/2026, 11:59 PM |
 
 ---
 
