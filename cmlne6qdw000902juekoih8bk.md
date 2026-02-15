@@ -5,6 +5,8 @@ seoDescription: "Learn to configure Cloud CDN with gcloud for improved performan
 datePublished: Sun Feb 15 2026 06:56:29 GMT+0000 (Coordinated Universal Time)
 cuid: cmlne6qdw000902juekoih8bk
 slug: configure-cloud-cdn-for-storage-using-gcloud-solution
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1771138769570/132a803b-c823-4467-af8e-bf67bbdb0f19.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1771138783745/53a7b4d6-aa95-41f7-9aba-8346aaee361a.png
 tags: configure-cloud-cdn-for-storage-using-gcloud-solution, configure-cloud-cdn-for-storage-using-gcloud
 
 ---
