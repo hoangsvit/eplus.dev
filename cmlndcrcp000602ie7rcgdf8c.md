@@ -40,6 +40,13 @@ Make the media archive folder private.
 %[https://youtu.be/jO8dnodJ2a4] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/Secure%20a%20Public%20Storage%20Bucket%20-%20gcloud/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 PROJECT_ID=$(gcloud config get-value project)
 gsutil iam ch -d allUsers:objectViewer gs://$PROJECT_ID-urgent && gsutil iam get gs://$PROJECT_ID-urgent
 ```
