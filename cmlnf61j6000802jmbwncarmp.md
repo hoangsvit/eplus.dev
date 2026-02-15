@@ -43,6 +43,14 @@ Create a lifecycle management policy
 
 %[https://www.youtube.com/watch?v=jI00HyPDPr4] 
 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/manage-cloud-storage-lifecycle-policy-using-gcloud-storage-solution/lab.sh
+source lab.sh
+```
+
+
+**Script Alternative**
+
 ```powershell
 # I Know you will Steal it
 PROJECT_ID=$(gcloud config get-value project)
