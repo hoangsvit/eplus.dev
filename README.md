@@ -3,8 +3,8 @@
 ### #Blog posts
 
 <!-- BLOG-POST-LIST:START -->
- - 🧰 [Manage Rendering for Cloud Storage Website Hosting &lpar;Solution&rpar;](https://eplus.dev/manage-rendering-for-cloud-storage-website-hosting-solution-1) - 2026-02-15
- - 😺 [Configure Cloud Buckets with gsutil for Load Balancing &amp; Fault Tolerance &lpar;Solution&rpar;](https://eplus.dev/configure-cloud-buckets-with-gsutil-for-load-balancing-and-fault-tolerance-solution-1) - 2026-02-15
+ - 🧰 [Create VPC Peering Connection between VPCs &lpar;Solution&rpar;](https://eplus.dev/create-vpc-peering-connection-between-vpcs-solution-1) - 2026-02-15
+ - 😺 [Manage Rendering for Cloud Storage Website Hosting &lpar;Solution&rpar;](https://eplus.dev/manage-rendering-for-cloud-storage-website-hosting-solution-1) - 2026-02-15
  - 🗽 [Manage Cloud Storage Lifecycle Policy using gcloud storage &lpar;Solution&rpar;](https://eplus.dev/manage-cloud-storage-lifecycle-policy-using-gcloud-storage-solution) - 2026-02-15
  - 🌜 [Configure Cloud Storage Bucket for Website Hosting using gsutil &lpar;Solution&rpar;](https://eplus.dev/configure-cloud-storage-bucket-for-website-hosting-using-gsutil-solution-1) - 2026-02-15
  - 📝 [Configure Cloud CDN for Storage using gcloud &lpar;Solution&rpar;](https://eplus.dev/configure-cloud-cdn-for-storage-using-gcloud-solution) - 2026-02-15
