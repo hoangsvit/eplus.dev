@@ -34,6 +34,14 @@ Create a Cloud CDN configuration to cache the site’s static content.
 
 %[https://youtu.be/VPwleeJam3Y] 
 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/configure-cloud-cdn-for-storage-using-gcloud-solution/lab.sh
+source lab.sh
+```
+
+
+**Script Alternative**
+
 ```powershell
 #!/bin/bash
 set -euo pipefail
