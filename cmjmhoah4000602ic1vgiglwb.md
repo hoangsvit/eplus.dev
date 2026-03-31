@@ -2,7 +2,7 @@
 title: "Cách đổi tài khoản GitHub Copilot trong VS Code (Multi-Account)"
 seoTitle: "Cách đổi tài khoản GitHub Copilot trong VS Code (Multi-Account)"
 seoDescription: "Hướng dẫn đổi tài khoản GitHub Copilot theo workspace trong VS Code mà không cần đăng xuất GitHub"
-datePublished: Fri Dec 26 2025 06:26:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-12-26T06:26:57.160Z
 cuid: cmjmhoah4000602ic1vgiglwb
 slug: cach-doi-tai-khoan-github-copilot-trong-vs-code-multi-account
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1766730243343/89c87ebe-6c3d-450a-a842-c541146ec3a5.png
