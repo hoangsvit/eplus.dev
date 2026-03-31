@@ -2,7 +2,7 @@
 title: "Use an Internal Application Load Balancer - GSP041"
 seoTitle: "Use an Internal Application Load Balancer - GSP041"
 seoDescription: "Learn to set up an internal Application Load Balancer to secure and manage traffic for your internal cloud applications efficiently"
-datePublished: Thu Sep 04 2025 08:19:05 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-04T08:19:05.442Z
 cuid: cmf54x8pu000302jr45mlfupx
 slug: use-an-internal-application-load-balancer-gsp041
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756973854666/19451837-4ea6-48cd-8da6-f3e8d3a2507b.png
