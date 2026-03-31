@@ -2,7 +2,7 @@
 title: "Knowledge Check: Git and GitHub"
 seoTitle: "Knowledge Check: Git and GitHub"
 seoDescription: "Knowledge Check: Git and GitHub"
-datePublished: Sun Jul 21 2024 02:37:29 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T02:37:29.569Z
 cuid: clyuy6oo000000ambe0gn19k2
 slug: knowledge-check-git-and-github
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721529240539/3f069075-eb10-4d78-8328-e43930f000ff.png
