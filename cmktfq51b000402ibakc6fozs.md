@@ -2,7 +2,7 @@
 title: "Configure Cloud Buckets with gsutil for Load Balancing & Fault Tolerance (Solution)"
 seoTitle: "Configure Cloud Buckets with gsutil for Load Balancing & Fault Toleran"
 seoDescription: "Learn to configure cloud buckets using gsutil for improved load balancing and fault tolerance in your organization's website hosting"
-datePublished: Sun Jan 25 2026 07:46:29 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-25T07:46:29.759Z
 cuid: cmktfq51b000402ibakc6fozs
 slug: configure-cloud-buckets-with-gsutil-for-load-balancing-and-fault-tolerance-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769325348078/bc360958-366b-48e9-a253-dc39ebd42f3b.png
