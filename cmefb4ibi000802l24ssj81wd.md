@@ -2,7 +2,7 @@
 title: "App Engine: Qwik Start - Java - GSP068"
 seoTitle: "Qwik Start - Java"
 seoDescription: "Learn to create and deploy a simple Java app on Google App Engine. Focus on writing code while Google handles infrastructure"
-datePublished: Sun Aug 17 2025 06:30:41 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-17T06:30:41.598Z
 cuid: cmefb4ibi000802l24ssj81wd
 slug: app-engine-qwik-start-java-gsp068
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755412122206/f74a9768-edea-4f4a-b188-63a0eecd64ec.png
