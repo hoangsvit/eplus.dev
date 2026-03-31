@@ -2,7 +2,7 @@
 title: "Programming Assignment: Writing a Unit Test"
 seoTitle: "Programming Assignment: Writing a Unit Test"
 seoDescription: "Programming Assignment: Writing a Unit Test"
-datePublished: Sat Jul 20 2024 06:50:55 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-20T06:50:55.259Z
 cuid: clytrsqsb00010ala8drecfs5
 slug: programming-assignment-writing-a-unit-test
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721458194761/1dc1aa2b-157a-4c39-8f39-3ade28c7bf87.png
