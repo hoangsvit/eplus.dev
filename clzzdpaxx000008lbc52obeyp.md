@@ -2,7 +2,7 @@
 title: "User Authentication: Identity-Aware Proxy - GSP499"
 seoTitle: "User Authentication: Identity-Aware Proxy - GSP499"
 seoDescription: "In this lab, you build a minimal web application with Google App Engine, then explore various ways to use Identity-Aware Proxy (IAP) to restrict access to t"
-datePublished: Sun Aug 18 2024 09:42:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-18T09:42:39.525Z
 cuid: clzzdpaxx000008lbc52obeyp
 slug: user-authentication-identity-aware-proxy-gsp499
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747467501163/1dd722a3-3427-4100-8e8c-374f4b1e4b4b.png
