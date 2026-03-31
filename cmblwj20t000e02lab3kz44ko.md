@@ -2,7 +2,7 @@
 title: "Skills Boost Arcade Trivia June 2025 Week 4 (Solution)"
 seoTitle: "Skills Boost Arcade Trivia June 2025 Week 4 (Solution)"
 seoDescription: "Welcome to Skills Boost Arcade Trivia June 2025! Give your career a boost with hands-on experience with different Google Cloud and partner services."
-datePublished: Sat Jun 07 2025 07:17:22 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-07T07:17:22.301Z
 cuid: cmblwj20t000e02lab3kz44ko
 slug: skills-boost-arcade-trivia-june-2025-week-4-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749280172024/18b0eeb4-dd75-4340-8c78-1b2f3d0ee243.png
