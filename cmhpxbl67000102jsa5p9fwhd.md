@@ -2,7 +2,7 @@
 title: "Use Go Code to Work with Google Cloud Data Sources - GSP701"
 seoTitle: "Use Go Code to Work with Google Cloud Data Sources - GSP701"
 seoDescription: "Learn to use Go to interact with Google Cloud services like BigQuery and Firestore. Deploy Go applications on App Engine effortlessly"
-datePublished: Sat Nov 08 2025 06:48:52 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-11-08T06:48:52.208Z
 cuid: cmhpxbl67000102jsa5p9fwhd
 slug: use-go-code-to-work-with-google-cloud-data-sources-gsp701
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762584448892/80073d43-aada-43ef-9f68-1c13f462301d.png
