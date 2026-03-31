@@ -2,7 +2,7 @@
 title: "Introduction to Cloud Dataproc: Hadoop and Spark on Google Cloud - GSP123"
 seoTitle: "Introduction to Cloud Dataproc: Hadoop and Spark on Google Cloud - GSP"
 seoDescription: "Cloud Dataproc is a managed Spark and Hadoop service that lets you take advantage of open source data tools for batch processing, querying, streaming, and m"
-datePublished: Mon Feb 10 2025 02:33:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-10T02:33:50.537Z
 cuid: cm6yfvrns000609js9sh98h50
 slug: introduction-to-cloud-dataproc-hadoop-and-spark-on-google-cloud-gsp123
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739154256268/1fa0eb45-c570-4a07-a399-3e44cccab58a.png
