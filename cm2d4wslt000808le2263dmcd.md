@@ -2,7 +2,7 @@
 title: "Test your knowledge: Analyzing the different project phases"
 seoTitle: "Test your knowledge: Analyzing the different project phases"
 seoDescription: "Test your knowledge: Analyzing the different project phases"
-datePublished: Thu Oct 17 2024 10:04:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-17T10:04:43.602Z
 cuid: cm2d4wslt000808le2263dmcd
 slug: test-your-knowledge-analyzing-the-different-project-phases
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729159459071/bcc9dad4-4598-493d-9d29-597049b23217.png
