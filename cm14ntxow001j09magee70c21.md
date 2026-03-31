@@ -2,7 +2,7 @@
 title: "Knowledge check: Advanced Hooks - Advanced React"
 seoTitle: "Knowledge check: Advanced Hooks - Advanced React"
 seoDescription: "Knowledge check: Advanced Hooks - Advanced React"
-datePublished: Mon Sep 16 2024 07:04:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-16T07:04:45.008Z
 cuid: cm14ntxow001j09magee70c21
 slug: knowledge-check-advanced-hooks-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726470227738/92aec963-667a-426d-9b6a-0dbda41634f7.jpeg
