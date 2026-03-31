@@ -2,7 +2,7 @@
 title: "Build and Deploy a Docker Image to a Kubernetes Cluster: Challenge Lab - GSP304"
 seoTitle: "Build and Deploy a Docker Image to a Kubernetes Cluster: Challenge Lab"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Sun Aug 18 2024 13:36:54 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-18T13:36:54.383Z
 cuid: clzzm2jqn000509l97pc199kk
 slug: build-and-deploy-a-docker-image-to-a-kubernetes-cluster-challenge-lab-gsp304
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723987961970/53661cb3-f904-4b75-9bc3-b95a427dc363.png
