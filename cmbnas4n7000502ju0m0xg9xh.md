@@ -2,7 +2,7 @@
 title: "Arcade Chatbot: Interactive Cloud Developer Revision - arc141-genai"
 seoTitle: "Arcade Chatbot: Interactive Cloud Developer Revision - arc141-genai"
 seoDescription: "In this lab you will learn the fundamentals of prompt engineering using Generative AI and Google Cloud. During the lab you will have access to a chatbot tha"
-datePublished: Sun Jun 08 2025 06:44:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-08T06:44:06.403Z
 cuid: cmbnas4n7000502ju0m0xg9xh
 slug: arcade-chatbot-interactive-cloud-developer-revision-arc141-genai
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749364956028/2c34f5a1-5d8b-463d-9cf1-cf16f89999c5.png
