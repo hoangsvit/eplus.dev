@@ -2,7 +2,7 @@
 title: "Terraform Essentials: Firewall Policy - gem-terraform-fw-rule-create"
 seoTitle: "Terraform Essentials: Firewall Policy - gem-terraform-fw-rule-create"
 seoDescription: "Learn to create a firewall rule in Google Cloud using Terraform, from configuring your project to defining, applying, and cleaning up resources"
-datePublished: Mon Aug 25 2025 02:43:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-25T02:43:24.467Z
 cuid: cmeqij16b000602ldfdrl0ze7
 slug: terraform-essentials-firewall-policy-gem-terraform-fw-rule-create
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756089745213/b805b80f-a9c1-4e2f-ac52-856a7e9b1c0b.png
