@@ -2,7 +2,7 @@
 title: "Cloud Armor Preconfigured WAF Rules - GSP879"
 seoTitle: "Cloud Armor Preconfigured WAF Rules - GSP879"
 seoDescription: "Google Cloud Armor is Google's enterprise edge network security solution providing DDOS protection, WAF rule enforcement, and adaptive manageability at scal"
-datePublished: Tue May 27 2025 03:32:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-27T03:32:02.531Z
 cuid: cmb5ymwrn000209l85mba80tx
 slug: cloud-armor-preconfigured-waf-rules-gsp879
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748316300735/1a4b397f-c983-4623-857a-89890820bbc2.png
