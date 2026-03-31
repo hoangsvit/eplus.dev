@@ -2,7 +2,7 @@
 title: "The Arcade Special Edition - Arcade Athon (Solution)"
 seoTitle: "The Arcade Special Edition - Arcade Athon (Solution)"
 seoDescription: "Sports are captivating, intense, and fast-paced—and with the latest technology, they’re better than ever. Start your run in the Arcade-athon and earn an exc"
-datePublished: Mon Aug 26 2024 05:37:33 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-26T05:37:33.869Z
 cuid: cm0akgxbh001l09l59b732tn4
 slug: the-arcade-special-edition-arcade-athon-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724646733337/d10f8334-c9d1-4358-ae74-0f1304830386.jpeg
