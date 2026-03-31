@@ -2,7 +2,7 @@
 title: "Introduction to Dart - GSP1013"
 seoTitle: "Introduction to Dart - GSP1013"
 seoDescription: "Learn Dart programming essentials with this beginner's guide. Explore variables, flow control, functions, and more in a real cloud environment"
-datePublished: Sun Aug 24 2025 04:35:52 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-24T04:35:52.411Z
 cuid: cmep73t97000102jo5mtfg0kq
 slug: introduction-to-dart-gsp1013
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756010062331/05d9e514-4d4f-4c0f-8fa7-98a93ff65054.png
