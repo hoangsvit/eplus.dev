@@ -2,7 +2,7 @@
 title: "HTTP Load Balancer with Cloud Armor"
 seoTitle: "HTTP Load Balancer with Cloud Armor"
 seoDescription: "Google Cloud HTTP(S) load balancing is implemented at the edge of Google's network in Google's points of presence (POP) around the world. User traffic direc"
-datePublished: Mon Apr 01 2024 15:42:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-04-01T15:42:02.177Z
 cuid: cluh4c24h000208jx1ipcfueo
 slug: http-load-balancer-with-cloud-armor
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711986063431/ff046929-0b3f-4126-8da6-f3eb9fc98cb9.png
