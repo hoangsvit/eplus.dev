@@ -2,7 +2,7 @@
 title: "Deploy a Static Site Using Traefik and Cloud Run - gem-cloud-run-traefik-website"
 seoTitle: "Deploy a Static Site Using Traefik and Cloud Run - gem-cloud-run-traef"
 seoDescription: "Learn how to deploy a static site using Traefik and Cloud Run, including setup, containerization, and configuration"
-datePublished: Sun Jul 20 2025 02:53:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-20T02:53:10.380Z
 cuid: cmdb30x9o000p02le442kcb3t
 slug: deploy-a-static-site-using-traefik-and-cloud-run-gem-cloud-run-traefik-website
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752979681072/b2478c4b-c984-40e1-ad05-ad567011f58a.png
