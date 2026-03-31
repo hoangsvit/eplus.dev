@@ -2,7 +2,7 @@
 title: "Netflix Việt Nam chính thức tiến hành xác minh thiết bị thuộc hộ gia đình"
 seoTitle: "Netflix bắt đầu xác minh tài  khoản hộ gia đình tại Việt Nam"
 seoDescription: "Bạn có thể dễ dàng xem Netflix trong khi di chuyển và khi đi du lịch — trên thiết bị cá nhân hoặc trên TV tại khách sạn hay nhà nghỉ."
-datePublished: Sat Jul 22 2023 05:56:32 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-07-22T05:56:32.618Z
 cuid: clkdlkqne000o09l65mwifr6p
 slug: netflix-viet-nam-chinh-thuc-tien-hanh-xac-minh-thiet-bi-thuoc-ho-gia-dinh
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690004322056/40430f34-d241-4a85-af9d-ef839d8c9639.png
