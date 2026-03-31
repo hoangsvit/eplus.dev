@@ -2,7 +2,7 @@
 title: "Fonts matter"
 seoTitle: "Fonts matter"
 seoDescription: "I like to think of my code as a book. Not just any book, I think of it as a precious, beautifully designed work of art. Something I want to WANT to read."
-datePublished: Mon Jan 30 2023 02:46:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-01-30T02:46:19.455Z
 cuid: cldi7lqv3000108l47djmhs7t
 slug: fonts-matter
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1675046367203/47301240-4bac-4031-b8a3-ca1698138820.webp
