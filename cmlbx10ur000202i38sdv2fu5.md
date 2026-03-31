@@ -2,7 +2,7 @@
 title: "Enhance Scalability Using Managed Instance Groups (Solution)"
 seoTitle: "Enhance Scalability Using Managed Instance Groups (Solution)"
 seoDescription: "Learn how to optimize compute resources with managed instance groups on Google Cloud to enhance scalability using autoscaling with instance templates"
-datePublished: Sat Feb 07 2026 06:10:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-02-07T06:10:42.195Z
 cuid: cmlbx10ur000202i38sdv2fu5
 slug: enhance-scalability-using-managed-instance-groups-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770444527265/c195f485-0ea5-4ecd-a8fd-425dae131889.png
