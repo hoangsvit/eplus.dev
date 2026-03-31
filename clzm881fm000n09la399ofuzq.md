@@ -2,7 +2,7 @@
 title: "Develop Serverless Apps with Firebase: Challenge Lab - GSP344"
 seoTitle: "Develop Serverless Apps with Firebase: Challenge Lab - GSP344"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Fri Aug 09 2024 04:48:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-09T04:48:15.682Z
 cuid: clzm881fm000n09la399ofuzq
 slug: develop-serverless-apps-with-firebase-challenge-lab-gsp344
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757754420571/06d824b5-c0b7-4ed6-8be0-a44cf4a25331.png
