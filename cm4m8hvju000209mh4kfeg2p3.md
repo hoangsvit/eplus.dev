@@ -2,7 +2,7 @@
 title: "Data Science 101 - Big Data"
 seoTitle: "Data Science 101 - Big Data"
 seoDescription: "Data Science 101 - Big Data"
-datePublished: Fri Dec 13 2024 04:14:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-13T04:14:26.298Z
 cuid: cm4m8hvju000209mh4kfeg2p3
 slug: data-science-101-big-data
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734063242029/380f5afd-80d6-4537-9c1b-09fb50667c55.png
