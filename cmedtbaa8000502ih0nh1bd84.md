@@ -2,7 +2,7 @@
 title: "Configuring Private Google Access and Cloud NAT - GSP459"
 seoTitle: "Configuring Private Google Access and Cloud NAT - GSP459"
 seoDescription: "Learn to configure Private Google Access and Cloud NAT in Google Cloud for VMs without external IPs. Enhance network security and efficiency"
-datePublished: Sat Aug 16 2025 05:24:18 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-16T05:24:18.512Z
 cuid: cmedtbaa8000502ih0nh1bd84
 slug: configuring-private-google-access-and-cloud-nat-gsp459
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755321459860/0ed96991-3e37-4634-bfae-6e328f145af9.png
