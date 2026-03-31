@@ -2,7 +2,7 @@
 title: "Self review: Passing props - React Basic"
 seoTitle: "Self review: Passing props - React Basic"
 seoDescription: "Self review: Passing props - React Basic"
-datePublished: Sun Aug 04 2024 03:27:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-04T03:27:21.925Z
 cuid: clzf04qx1000409leesg261eq
 slug: self-review-passing-props-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722739961363/96e7e3fc-ded8-406d-b616-2c37b8a887a4.png
