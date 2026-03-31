@@ -2,7 +2,7 @@
 title: "Using Prometheus for Monitoring on Google Cloud: Qwik Start - GSP1024"
 seoTitle: "Using Prometheus for Monitoring on Google Cloud: Qwik Start - GSP1024"
 seoDescription: "Managed Service for Prometheus is Google Cloud's fully managed storage and query service for Prometheus metrics. This service is built on top of Monarch, th"
-datePublished: Sun Jun 08 2025 05:27:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-08T05:27:01.582Z
 cuid: cmbn8103y000002l8bqgua6pm
 slug: using-prometheus-for-monitoring-on-google-cloud-qwik-start-gsp1024
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749360261106/883cba40-a20b-4017-b289-a3223a4b36c7.png
