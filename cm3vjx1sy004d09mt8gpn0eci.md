@@ -2,7 +2,7 @@
 title: "[SQL] 1633. Percentage of Users Attended a Contest"
 seoTitle: "[SQL] 1633. Percentage of Users Attended a Contest"
 seoDescription: "[SQL] 1633. Percentage of Users Attended a Contest"
-datePublished: Sun Nov 24 2024 12:04:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-24T12:04:23.266Z
 cuid: cm3vjx1sy004d09mt8gpn0eci
 slug: sql-1633-percentage-of-users-attended-a-contest
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732449730168/859d9e28-cf9b-4104-b0d6-9d999f42a0e9.png
