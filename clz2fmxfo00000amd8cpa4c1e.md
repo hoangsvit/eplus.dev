@@ -2,7 +2,7 @@
 title: "Creating a Persistent Disk - GSP004"
 seoTitle: "Creating a Persistent Disk - GSP004"
 seoDescription: "Compute Engine lets you create and run virtual machines on Google infrastructure. You can create virtual machines running different operating systems, inclu"
-datePublished: Fri Jul 26 2024 08:20:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-26T08:20:24.133Z
 cuid: clz2fmxfo00000amd8cpa4c1e
 slug: creating-a-persistent-disk-gsp004
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745299890017/38cf74db-ab51-4cfd-9d69-3a11eea36ae3.png
