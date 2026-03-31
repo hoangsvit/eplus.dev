@@ -2,12 +2,12 @@
 title: "Creating a Looker Modeled Query and Working with Quick Start - GSP984"
 seoTitle: "Creating a Looker Modeled Query and Working with Quick Start - GSP984"
 seoDescription: "Looker provides the ability for LookML developers to build modeled queries that help all Looker business users quickly get started and easily explore data i"
-datePublished: Wed Sep 04 2024 09:48:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-04T09:48:26.602Z
 cuid: cm0noe82x00020al4hbgo3zh6
 slug: creating-a-looker-modeled-query-and-working-with-quick-start-gsp984
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725442789110/10aa88bc-c60b-40e1-b4ce-725a2608421e.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725443285597/e11cf081-b90e-4406-ad2e-527d5a469f89.jpeg
-tags: creating-a-looker-modeled-query-and-working-with-quick-start-gsp984
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/f8f51bff-c887-4fae-99c0-b8cb906727c9.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/0086b7ad-d2af-43da-bcfb-ff98091d42b8.png
+tags: creating-a-looker-modeled-query-and-working-with-quick-start-gsp984, gsp984, creating-a-looker-modeled-query-and-working-with-quick-start
 
 ---
 
