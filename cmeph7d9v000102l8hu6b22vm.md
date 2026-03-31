@@ -2,7 +2,7 @@
 title: "SAP Landing Zone: Plan and Deploy the SAP Network - GSP1068"
 seoTitle: "SAP Landing Zone: Plan and Deploy the SAP Network - GSP1068"
 seoDescription: "Learn to deploy SAP Landing Zones on Google Cloud with network tasks like creating VPCs, subnets, and configuring firewalls"
-datePublished: Sun Aug 24 2025 09:18:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-24T09:18:34.484Z
 cuid: cmeph7d9v000102l8hu6b22vm
 slug: sap-landing-zone-plan-and-deploy-the-sap-network-gsp1068
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756026742177/24abb8c3-45a9-4ef6-ab47-74d8081fc90f.png
