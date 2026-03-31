@@ -2,7 +2,7 @@
 title: "App Dev: Setting up a Development Environment - Python - GSP183"
 seoTitle: "App Dev: Setting up a Development Environment - Python - GSP183"
 seoDescription: "In this lab, you set up a Python development environment on Google Cloud, using Compute Engine to create a virtual machine (VM) and installing software libr"
-datePublished: Thu Aug 08 2024 03:23:51 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-08T03:23:51.884Z
 cuid: clzkprnik001209kx2szzhaq2
 slug: app-dev-setting-up-a-development-environment-python-gsp183
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758620986621/82c01430-a727-4314-b4da-ac1cf2f0f7fd.png
