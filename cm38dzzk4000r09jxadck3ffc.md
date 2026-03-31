@@ -2,7 +2,7 @@
 title: "Module quiz: Getting started with Python - Module 1"
 seoTitle: "Module quiz: Getting started with Python - Module 1"
 seoDescription: "Module quiz: Getting started with Python - Module 1"
-datePublished: Fri Nov 08 2024 07:00:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-08T07:00:00.580Z
 cuid: cm38dzzk4000r09jxadck3ffc
 slug: module-quiz-getting-started-with-python-module-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731049104268/ea506f20-9014-4ad8-98f7-327cbfb0ac0b.png
