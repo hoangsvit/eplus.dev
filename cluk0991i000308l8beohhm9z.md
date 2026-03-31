@@ -2,7 +2,7 @@
 title: "Creating Measures and Dimensions Using LookML - GSP890"
 seoTitle: "Creating Measures and Dimensions Using LookML - GSP890"
 seoDescription: "Looker is a modern data platform in Google Cloud that lets you analyze and visualize your data interactively. You can use Looker to do in-depth data analysi"
-datePublished: Wed Apr 03 2024 16:11:11 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-04-03T16:11:11.238Z
 cuid: cluk0991i000308l8beohhm9z
 slug: creating-measures-and-dimensions-using-lookml-gsp890
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746940188706/08af2dee-257e-4686-933d-37a7d85e3da7.png
