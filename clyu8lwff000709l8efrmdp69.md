@@ -2,7 +2,7 @@
 title: "Module Quiz: Software collaboration"
 seoTitle: "Module Quiz: Software collaboration"
 seoDescription: "Module Quiz: Software collaboration"
-datePublished: Sat Jul 20 2024 14:41:29 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-20T14:41:29.451Z
 cuid: clyu8lwff000709l8efrmdp69
 slug: module-quiz-software-collaboration
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721486421808/7c9c3c50-ff7c-41a6-aa69-8ec8b1336a37.png
