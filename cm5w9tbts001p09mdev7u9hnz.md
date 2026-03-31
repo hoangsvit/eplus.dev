@@ -2,7 +2,7 @@
 title: "App Engine: Qwik Start - Go - GSP070"
 seoTitle: "App Engine: Qwik Start - Go - GSP070"
 seoDescription: "App Engine allows developers to focus on doing what they do best, writing code. The App Engine standard environment is based on container instances running"
-datePublished: Tue Jan 14 2025 09:28:44 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-14T09:28:44.320Z
 cuid: cm5w9tbts001p09mdev7u9hnz
 slug: app-engine-qwik-start-go-gsp070
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736846870908/af27ee98-6959-4a70-a407-2dce5062a914.png
