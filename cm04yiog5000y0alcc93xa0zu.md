@@ -2,7 +2,7 @@
 title: "Mitigate Threats and Vulnerabilities with Security Command Center: Challenge Lab - GSP382"
 seoTitle: "Mitigate Threats and Vulnerabilities with Security Command Center: Cha"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Thu Aug 22 2024 07:24:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-22T07:24:13.253Z
 cuid: cm04yiog5000y0alcc93xa0zu
 slug: mitigate-threats-and-vulnerabilities-with-security-command-center-challenge-lab-gsp382
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759203694609/a656e840-d960-45a6-bfef-a1bc0e523f44.png
