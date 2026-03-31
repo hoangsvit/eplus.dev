@@ -2,7 +2,7 @@
 title: "Module quiz: Introduction to JavaScript"
 seoTitle: "Module quiz: Introduction to JavaScript"
 seoDescription: "Module quiz: Introduction to JavaScript"
-datePublished: Wed Jul 17 2024 07:18:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-17T07:18:49.450Z
 cuid: clypih2lm000s09l49yqjc1ko
 slug: module-quiz-introduction-to-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721199605041/511729a2-9536-43c3-af23-7a67946b1860.png
