@@ -2,7 +2,7 @@
 title: "[Knowledge check] Describe features and tools in Azure for governance and compliance"
 seoTitle: "[Knowledge check] Describe features and tools in Azure for governance "
 seoDescription: "This module introduces you to tools that can help with governance and compliance within Azure."
-datePublished: Fri Jun 21 2024 09:16:44 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-21T09:16:44.373Z
 cuid: clxoh8kb900020al84ff06ejr
 slug: knowledge-check-describe-features-and-tools-in-azure-for-governance-and-compliance
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718961338934/d3d946d3-47f9-4f86-bfda-db9e6876bbb9.png
