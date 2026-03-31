@@ -4,7 +4,7 @@ seoTitle: "Arcade Hero: Enter the Cloud Function Node.js - ARC231"
 seoDescription: "In this lab you will learn the fundamentals of Cloud Functions using Google Cloud.
 
 If you are new to Cloud Functions or looking for an overview of how to g"
-datePublished: Sun Aug 11 2024 06:01:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-11T06:01:45.640Z
 cuid: clzp5q9ig000009mgh07k4lbj
 slug: arcade-hero-enter-the-cloud-function-node-js-arc231
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723355817749/fdbdd7d2-90ba-4376-9e16-5665c7c0a487.png
