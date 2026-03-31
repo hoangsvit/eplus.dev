@@ -2,7 +2,7 @@
 title: "Get Started with Vertex AI Studio - GSP1154"
 seoTitle: "Get Started with Vertex AI Studio - GSP1154"
 seoDescription: "Get started with Vertex AI Studio to explore generative and predictive AI capabilities for your projects with easy-to-use tools and resources"
-datePublished: Thu Sep 25 2025 01:30:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-25T01:30:03.865Z
 cuid: cmfyqk4bc000502kw8sjm6vhz
 slug: get-started-with-vertex-ai-studio-gsp1154
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758763643232/243be6a1-bf0c-4b99-8288-6e72a479a155.png
