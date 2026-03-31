@@ -2,7 +2,7 @@
 title: "SingleStore on Google Cloud - GSP1096"
 seoTitle: "SingleStore on Google Cloud - GSP1096"
 seoDescription: "This lab gives you hands-on experience deploying SingleStoreDB and combining it with Google Cloud's cloud native products like Pub/Sub, Dataflow and Cloud S"
-datePublished: Thu Apr 24 2025 07:29:37 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-24T07:29:37.857Z
 cuid: cm9v1lc8x000609l8hx4hfqig
 slug: singlestore-on-google-cloud-gsp1096
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745479746213/3a974046-a200-4b8a-88c6-5cdeec3a502f.png
