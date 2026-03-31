@@ -2,7 +2,7 @@
 title: "Module Quiz: Command Line"
 seoTitle: "Module Quiz: Command Line"
 seoDescription: "Module Quiz: Command Line"
-datePublished: Sun Jul 21 2024 02:20:55 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T02:20:55.045Z
 cuid: clyuxldad000109l879ra4q4v
 slug: module-quiz-command-line
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721528184214/4794c187-41e9-4d46-904b-0cabb12bf7e3.png
