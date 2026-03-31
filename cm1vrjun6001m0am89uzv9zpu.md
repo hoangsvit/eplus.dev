@@ -2,7 +2,7 @@
 title: "Module Quiz: Starting the Project"
 seoTitle: "Module Quiz: Starting the Project"
 seoDescription: "Module Quiz: Starting the Project"
-datePublished: Sat Oct 05 2024 06:18:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-05T06:18:39.714Z
 cuid: cm1vrjun6001m0am89uzv9zpu
 slug: module-quiz-starting-the-project
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728109075317/56fed27b-c7ca-4c87-b710-17e3df9b7a35.png
