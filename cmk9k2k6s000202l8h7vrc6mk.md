@@ -2,7 +2,7 @@
 title: "Google Skills Arcade Trivia January 2026 Week 3 (Solution)"
 seoTitle: "Google Skills Arcade Trivia January 2026 Week 3 (Solution)"
 seoDescription: "Find trivia solutions for Google Skills Arcade on Google Cloud topics like VPN setup, GKE management, and IAM permissions"
-datePublished: Sun Jan 11 2026 09:52:44 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-11T09:52:44.212Z
 cuid: cmk9k2k6s000202l8h7vrc6mk
 slug: google-skills-arcade-trivia-january-2026-week-3-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768125133422/b48aff2a-9c28-4f5f-aea6-9b5e4ac0c3b9.png
