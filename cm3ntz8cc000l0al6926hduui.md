@@ -2,7 +2,7 @@
 title: "Back-End Developer Capstone - Final Graded Assessment"
 seoTitle: "Back-End Developer Capstone - Final Graded Assessment"
 seoDescription: "Back-End Developer Capstone - Final Graded Assessment"
-datePublished: Tue Nov 19 2024 02:23:51 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-19T02:23:51.804Z
 cuid: cm3ntz8cc000l0al6926hduui
 slug: back-end-developer-capstone-final-graded-assessment
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731983006814/64bc3fe1-a18a-49d9-be88-3af6decec107.png
