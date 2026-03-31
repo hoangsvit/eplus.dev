@@ -2,7 +2,7 @@
 title: "Build an AI Image Generator app using Imagen on Vertex AI - bb-ide-genai-002"
 seoTitle: "Build an AI Image Generator app using Imagen on Vertex AI - bb-ide-gen"
 seoDescription: "Learn to build an AI Image Generator app using Imagen on Vertex AI, leveraging Google Cloud's generative AI models and tools"
-datePublished: Fri Aug 29 2025 11:36:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-29T11:36:03.995Z
 cuid: cmewrbfyy000002jl0a7q2ciq
 slug: build-an-ai-image-generator-app-using-imagen-on-vertex-ai-bb-ide-genai-002-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756467250104/216abd9d-7a5b-40d9-a342-748b6ceff754.png
