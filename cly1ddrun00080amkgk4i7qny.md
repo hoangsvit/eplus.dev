@@ -2,7 +2,7 @@
 title: "MongoDB CRUD Operations in PHP"
 seoTitle: "MongoDB CRUD Operations in PHP"
 seoDescription: "In this unit, you'll learn how to perform CRUD operations by using PHP. First, you'll learn how BSON documents are represented in PHP. Next, you'll learn ho"
-datePublished: Sun Jun 30 2024 09:49:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-30T09:49:49.247Z
 cuid: cly1ddrun00080amkgk4i7qny
 slug: mongodb-crud-operations-in-php
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719740928794/e81ca711-cc12-41b0-aebe-69c44611575d.png
