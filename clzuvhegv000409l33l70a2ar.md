@@ -2,7 +2,7 @@
 title: "Apply RFM method to segment customer data"
 seoTitle: "The Arcade Base Camp August 2024"
 seoDescription: "Data transformation techniques are used to prepare data in a way that makes it easier for users to get the answers to their business questions quickly and e"
-datePublished: Thu Aug 15 2024 06:01:33 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-15T06:01:33.055Z
 cuid: clzuvhegv000409l33l70a2ar
 slug: apply-rfm-method-to-segment-customer-data
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723701476458/e524df7b-cb73-4d3c-913d-9bba2a5e78fb.png
