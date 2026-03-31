@@ -2,7 +2,7 @@
 title: "[SQL] 1280. Students and Examinations"
 seoTitle: "[SQL] 1280. Students and Examinations"
 seoDescription: "[SQL] 1280. Students and Examinations"
-datePublished: Thu Nov 21 2024 06:15:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-21T06:15:38.409Z
 cuid: cm3qx502x000s09mncj3pgho9
 slug: sql-1280-students-and-examinations
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732169661138/69375ebf-7f2e-4ff9-a746-1c05d3b8047c.png
