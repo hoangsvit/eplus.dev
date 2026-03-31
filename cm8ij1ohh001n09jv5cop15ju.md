@@ -2,7 +2,7 @@
 title: "Secure BigLake Data: Challenge Lab - ARC129"
 seoTitle: "Secure BigLake Data: Challenge Lab - ARC129"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Fri Mar 21 2025 08:37:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-21T08:37:31.061Z
 cuid: cm8ij1ohh001n09jv5cop15ju
 slug: secure-biglake-data-challenge-lab-arc129
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742546158148/32d67e5f-9f45-47a5-a59a-da6de8c2c144.png
