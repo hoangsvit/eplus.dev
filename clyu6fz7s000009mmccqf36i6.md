@@ -2,7 +2,7 @@
 title: "Programming Assignment: Little Lemon Receipt Maker"
 seoTitle: "Programming Assignment: Little Lemon Receipt Maker"
 seoDescription: "Programming Assignment: Little Lemon Receipt Maker"
-datePublished: Sat Jul 20 2024 13:40:53 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-20T13:40:53.896Z
 cuid: clyu6fz7s000009mmccqf36i6
 slug: programming-assignment-little-lemon-receipt-maker
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721482818183/1a61271b-4659-4e06-9caa-d7ee8330c36a.png
