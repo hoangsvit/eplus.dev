@@ -2,7 +2,7 @@
 title: "SePay x VPBank: Chính thức hợp tác"
 seoTitle: "SePay x VPBank: Chính thức hợp tác"
 seoDescription: "Nay mình vui mừng thông báo: SePay đã chính thức hợp tác với VPBank. Thông qua SePay, anh em có thể sử dụng API chính chủ từ ngân hàng VPB. Tốc độ đồng bộ g"
-datePublished: Mon Feb 24 2025 07:29:18 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-24T07:29:18.664Z
 cuid: cm7iqlo3s000v09jo5luv2e6z
 slug: sepay-x-vpbank-chinh-thuc-hop-tac
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740382111166/04c03d9e-aeb7-465d-8f81-26c6ca746416.jpeg
