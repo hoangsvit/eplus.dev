@@ -2,7 +2,7 @@
 title: "Programming Assignment: Styling a page"
 seoTitle: "Programming Assignment: Styling a page"
 seoDescription: "In this exercise you will you will practice applying CSS rules to HTML elements."
-datePublished: Tue Jul 09 2024 15:27:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-09T15:27:06.031Z
 cuid: clyeke6nj000008mdb99r8qah
 slug: programming-assignment-styling-a-page
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720537838104/9d411ed5-698c-4aba-a43a-17c9efc092c6.png
