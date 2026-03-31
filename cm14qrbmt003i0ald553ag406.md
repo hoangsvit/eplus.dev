@@ -2,7 +2,7 @@
 title: "Self-review: Implementing scroller position with render props - Advanced React"
 seoTitle: "Self-review: Implementing scroller position with render props"
 seoDescription: "Self-review: Implementing scroller position with render props - Advanced React"
-datePublished: Mon Sep 16 2024 08:26:41 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-16T08:26:41.957Z
 cuid: cm14qrbmt003i0ald553ag406
 slug: self-review-implementing-scroller-position-with-render-props-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726475173918/cdacbdee-6987-44a5-a11c-b31b098e5e56.jpeg
