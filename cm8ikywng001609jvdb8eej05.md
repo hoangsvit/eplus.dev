@@ -2,7 +2,7 @@
 title: "Monitor Environments with Google Cloud Managed Service for Prometheus: Challenge Lab - GSP364"
 seoTitle: "Monitor Environments with Google Cloud Managed Service for Prometheus:"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Fri Mar 21 2025 09:31:20 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-21T09:31:20.908Z
 cuid: cm8ikywng001609jvdb8eej05
 slug: monitor-environments-with-google-cloud-managed-service-for-prometheus-challenge-lab-gsp364
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742549336200/e013cab3-d8a0-4afd-a179-f8b8e3b02ce6.png
