@@ -2,7 +2,7 @@
 title: "Running a Dedicated Ethereum RPC Node in Google Cloud - GSP1116"
 seoTitle: "Running a Dedicated Ethereum RPC Node in Google Cloud - GSP1116"
 seoDescription: "Deploy a dedicated Ethereum RPC node on Google Cloud for secure, scalable blockchain development"
-datePublished: Thu Aug 07 2025 12:07:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-07T12:07:19.862Z
 cuid: cme1cqwqe000a02ju88e6djxg
 slug: running-a-dedicated-ethereum-rpc-node-in-google-cloud-gsp1116
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754568363141/3726e58e-a32e-4988-931b-f1ce3bc78468.png
