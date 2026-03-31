@@ -2,7 +2,7 @@
 title: "Create a Streaming Data Lake on Cloud Storage: Challenge Lab - ARC110"
 seoTitle: "Create a Streaming Data Lake on Cloud Storage: Challenge Lab - ARC110"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Thu Nov 07 2024 10:13:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-07T10:13:59.201Z
 cuid: cm375hlb5000609mhh8saayy3
 slug: create-a-streaming-data-lake-on-cloud-storage-challenge-lab-arc110
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730974399761/9a672bc0-8fd5-4a3e-91ef-073d5b81c3b4.png
