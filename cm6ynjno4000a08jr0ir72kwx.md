@@ -2,7 +2,7 @@
 title: "Translate Text with the Cloud Translation API - GSP049"
 seoTitle: "Translate Text with the Cloud Translation API - GSP049"
 seoDescription: "The Cloud Translation API uses Google’s neural machine translation technology to instantly translate texts into more than one hundred languages."
-datePublished: Mon Feb 10 2025 06:08:22 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-10T06:08:22.420Z
 cuid: cm6ynjno4000a08jr0ir72kwx
 slug: translate-text-with-the-cloud-translation-api-gsp049
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739167467040/0cc5c7bd-bc75-4b7a-ae49-c971609946af.png
