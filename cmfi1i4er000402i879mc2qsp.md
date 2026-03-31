@@ -2,7 +2,7 @@
 title: "Generative AI with Vertex AI: Prompt Design - GSP1151"
 seoTitle: "Generative AI with Vertex AI: Prompt Design - GSP1151"
 seoDescription: "Learn prompt engineering with Vertex AI and Gemini models to craft effective prompts and enhance AI response quality"
-datePublished: Sat Sep 13 2025 09:04:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-13T09:04:21.459Z
 cuid: cmfi1i4er000402i879mc2qsp
 slug: generative-ai-with-vertex-ai-prompt-design-gsp1151
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757753675446/56ea30d0-5459-4d83-bec3-374a670d3ecf.png
