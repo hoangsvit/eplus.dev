@@ -2,7 +2,7 @@
 title: "Infrastructure as Code with Terraform - GSP750"
 seoTitle: "Infrastructure as Code with Terraform - GSP750"
 seoDescription: "Terraform is the infrastructure as code offering from HashiCorp. It is a tool for building, changing, and managing infrastructure in a safe, repeatable way."
-datePublished: Tue Aug 13 2024 02:34:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-13T02:34:47.818Z
 cuid: clzrt7t6y000908l9fupa0yx3
 slug: infrastructure-as-code-with-terraform-gsp750
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750401399070/be36f307-430f-41f4-a53d-5596a9449d29.png
