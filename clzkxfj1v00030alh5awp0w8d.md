@@ -2,7 +2,7 @@
 title: "Knowledge Check: State the concept - React Basic"
 seoTitle: "Knowledge Check: State the concept - React Basic"
 seoDescription: "Knowledge Check: State the concept - React Basic"
-datePublished: Thu Aug 08 2024 06:58:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-08T06:58:23.155Z
 cuid: clzkxfj1v00030alh5awp0w8d
 slug: knowledge-check-state-the-concept-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723100284365/647655cd-09b7-402a-971a-a98acc73114e.png
