@@ -2,11 +2,11 @@
 title: "Cloud SQL with Terraform - GSP234"
 seoTitle: "Cloud SQL with Terraform - GSP234"
 seoDescription: "In this hands-on lab you will learn how to create Cloud SQL instances with Terraform, then set up the Cloud SQL Proxy, testing the connection with a MySQL c"
-datePublished: Tue Aug 27 2024 06:00:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-27T06:00:13.061Z
 cuid: cm0c0pwqs000p0amf1x1629cb
 slug: cloud-sql-with-terraform-gsp234
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724738231706/04973667-4071-41f9-b48a-506a4a515c27.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1765779477737/a7d0e947-f0be-4977-8e85-ff9fc48be692.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a107ec07-2f5c-448c-bd95-b7f4247a523f.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/be344353-980f-4791-b281-f07c9100cb3b.png
 tags: cloud-sql-with-terraform-gsp234, gsp234, cloud-sql-with-terraform
 
 ---
