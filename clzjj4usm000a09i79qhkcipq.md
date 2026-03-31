@@ -2,7 +2,7 @@
 title: "Design Pattern trong thực tế"
 seoTitle: "Design Pattern trong thực tế"
 seoDescription: "Để học một cái gì đó mình cần phải trả lời được lý do vì sao bạn cần phải học nó. Nếu không thì rất dễ rơi vào tình trạng học vẹt, vì mình không hiểu lý do"
-datePublished: Wed Aug 07 2024 07:30:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-07T07:30:24.358Z
 cuid: clzjj4usm000a09i79qhkcipq
 slug: design-pattern-trong-thuc-te
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723015664515/cdff27c0-f10a-4280-bc9b-87805319aaf3.jpeg
