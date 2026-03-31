@@ -2,7 +2,7 @@
 title: "Develop Code with Gemini in BigQuery - GSP1258"
 seoTitle: "Develop Code with Gemini in BigQuery - GSP1258"
 seoDescription: "Learn to develop SQL code using Gemini in BigQuery. Generate, transform, and debug queries efficiently as a data analyst with Google Cloud"
-datePublished: Sun Oct 05 2025 09:55:41 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-05T09:55:41.542Z
 cuid: cmgdj0vom000102js6ajnbb9s
 slug: develop-code-with-gemini-in-bigquery-gsp1258
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759658032071/f3e0256e-66f6-4187-b176-f706fa03b3a9.png
