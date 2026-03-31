@@ -2,7 +2,7 @@
 title: "Knowledge check: Reusing behavior - Advanced React"
 seoTitle: "Knowledge check: Reusing behavior - Advanced React"
 seoDescription: "Knowledge check: Reusing behavior - Advanced React"
-datePublished: Mon Sep 16 2024 08:34:35 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-16T08:34:35.433Z
 cuid: cm14r1gyw001h08l899ilhwh4
 slug: knowledge-check-reusing-behavior-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726475626719/af67e24f-455d-4d8a-9170-d5199ddbb945.jpeg
