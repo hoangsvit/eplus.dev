@@ -2,7 +2,7 @@
 title: "Knowledge check: Forms in React - Advanced React"
 seoTitle: "Knowledge check: Forms in React - Advanced React"
 seoDescription: "Knowledge check: Forms in React - Advanced React"
-datePublished: Thu Sep 12 2024 09:36:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-12T09:36:24.936Z
 cuid: cm0z3hkko00350akucngx1s9e
 slug: knowledge-check-forms-in-react-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726133740481/a506f761-a084-4e25-b958-86852085c268.jpeg
