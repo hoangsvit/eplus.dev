@@ -2,7 +2,7 @@
 title: "Google Workspace Admin: Managing Google Meet - GSP687"
 seoTitle: "Google Workspace Admin: Managing Google Meet - GSP687"
 seoDescription: "Manage Google Meet via Google Workspace Admin Console: create meetings, explore features, and configure access efficiently"
-datePublished: Sun Jul 20 2025 06:44:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-20T06:44:24.689Z
 cuid: cmdbbaar5000g02l1hbcx6ljl
 slug: google-workspace-admin-managing-google-meet-gsp687
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752993391940/7d85918f-dc1f-40bf-a83d-fafbc7bc5c4c.png
