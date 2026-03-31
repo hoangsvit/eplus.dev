@@ -4,7 +4,7 @@ seoTitle: "Arcade Hero: Enter the Cloud Function NET - ARC232"
 seoDescription: "In this lab you will learn the fundamentals of Cloud Functions using Google Cloud.
 
 If you are new to Cloud Functions or looking for an overview of how to g"
-datePublished: Sun Aug 11 2024 06:12:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-11T06:12:19.737Z
 cuid: clzp63us9000309l468ukdevo
 slug: arcade-hero-enter-the-cloud-function-net-arc232
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723356528331/47dc42a8-f454-4806-9a0a-e104f7e07328.png
