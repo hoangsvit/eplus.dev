@@ -2,7 +2,7 @@
 title: "The Arcade Base Camp November 2024"
 seoTitle: "The Arcade Base Camp November 2024"
 seoDescription: "The Arcade Base Camp November 2024"
-datePublished: Thu Nov 07 2024 05:30:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-07T05:30:03.479Z
 cuid: cm36vcggn000b09l84g6pd0jv
 slug: the-arcade-base-camp-november-2024
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730957351576/2f3b1120-d758-4c3e-8db6-f12f4498fee7.png
