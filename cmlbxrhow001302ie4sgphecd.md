@@ -2,7 +2,7 @@
 title: "Arcade February 2026 Sprint 1 (Solution)"
 seoTitle: "Arcade February 2026 Sprint 1 (Solution)"
 seoDescription: "Test your Google Cloud skills with our February 2026 Arcade Sprint quiz. Stay informed, complete tasks, and double-check answers!"
-datePublished: Sat Feb 07 2026 06:31:17 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-02-07T06:31:17.072Z
 cuid: cmlbxrhow001302ie4sgphecd
 slug: arcade-february-2026-sprint-1-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770445850757/67ca4c28-5635-4130-9fbb-52ac1a524b8e.png
