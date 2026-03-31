@@ -2,7 +2,7 @@
 title: "Assessing Data Quality with Dataplex - GSP1158"
 seoTitle: "Assessing Data Quality with Dataplex - GSP1158"
 seoDescription: "Dataplex is an intelligent data fabric that enables organizations to centrally discover, manage, monitor, and govern their data across data lakes, data ware"
-datePublished: Sat Oct 05 2024 10:26:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-05T10:26:30.291Z
 cuid: cm1w0ekur001v09l65ehgapka
 slug: assessing-data-quality-with-dataplex-gsp1158
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728122821293/58ce8b1e-08d3-4328-abc8-0172511c683d.png
