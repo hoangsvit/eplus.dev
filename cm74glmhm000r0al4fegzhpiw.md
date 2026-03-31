@@ -2,7 +2,7 @@
 title: "Redacting Critical Data with Sensitive Data Protection - GSP864"
 seoTitle: "Redacting Critical Data with Sensitive Data Protection - GSP864"
 seoDescription: "The Cloud Data Loss Prevention (DLP) API is part of Sensitive Data Protection, which is a fully managed service designed to help discover, classify, and pro"
-datePublished: Fri Feb 14 2025 07:40:33 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-14T07:40:33.946Z
 cuid: cm74glmhm000r0al4fegzhpiw
 slug: redacting-critical-data-with-sensitive-data-protection-gsp864
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739518692652/f8fe5416-3d6d-45b7-88c9-ea08e511c981.png
