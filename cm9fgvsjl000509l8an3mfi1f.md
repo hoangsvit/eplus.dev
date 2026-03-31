@@ -4,7 +4,7 @@ seoTitle: "Arcade Quiz: Cloud Engineer Challenge - osl-arc-0003"
 seoDescription: "Welcome to the Arcade Quiz. Here we bring you a dose of knowledge on random topics.
 
 Are you ready to rise to the top? The Arcade Quiz is your opportunity t"
-datePublished: Sun Apr 13 2025 09:53:20 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-13T09:53:20.961Z
 cuid: cm9fgvsjl000509l8an3mfi1f
 slug: arcade-quiz-cloud-engineer-challenge-osl-arc-0003
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744537910890/45130bb1-74c9-408d-b8f6-7db19230310a.png
