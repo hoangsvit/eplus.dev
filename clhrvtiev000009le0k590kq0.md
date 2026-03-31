@@ -2,7 +2,7 @@
 title: "Laravel Security Middleware"
 seoTitle: "Laravel Security Middleware"
 seoDescription: "Middleware isn't something new. We have been using it in our applications for quite a while now for various usages, from Authentication to Authorization"
-datePublished: Wed May 17 2023 15:52:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-05-17T15:52:57.463Z
 cuid: clhrvtiev000009le0k590kq0
 slug: laravel-security-middleware
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684338551764/6d8dcecf-e94a-450c-8a48-d919c23773da.png
