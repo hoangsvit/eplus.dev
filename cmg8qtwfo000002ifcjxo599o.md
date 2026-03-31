@@ -2,7 +2,7 @@
 title: "The Arcade Base Camp October 2025"
 seoTitle: "The Arcade Base Camp October 2025"
 seoDescription: "Join Base Camp October 2025 to boost your Google Cloud skills with no experience needed. Unlock new career opportunities today!"
-datePublished: Thu Oct 02 2025 01:35:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-02T01:35:21.972Z
 cuid: cmg8qtwfo000002ifcjxo599o
 slug: the-arcade-base-camp-october-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759737504404/ca8f398b-bc5c-4e44-9ebe-5adc51fe5501.png
