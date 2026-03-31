@@ -2,7 +2,7 @@
 title: "[Vue packages] - viselect Visual dom-selection library"
 seoTitle: "[Vue packages] - viselect Visual dom-selection library"
 seoDescription: "Viselect - A high-performance and lightweight library to add a visual way of selecting elements, just like on your Desktop. Zero dependencies, super small"
-datePublished: Fri Oct 27 2023 14:53:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-10-27T14:53:10.738Z
 cuid: clo8qghjm000809l56wx5fk32
 slug: vue-packages-viselect-visual-dom-selection-library
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698418412844/05e59716-0497-41e3-8bb7-b5a2977ba38d.gif
