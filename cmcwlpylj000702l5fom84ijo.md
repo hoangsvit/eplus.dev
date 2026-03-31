@@ -2,7 +2,7 @@
 title: "Your Session 1 Arcade Points & Tier Are Ready!"
 seoTitle: "Your Session 1 Arcade Points & Tier Are Ready!"
 seoDescription: "Discover your final Arcade points and tier in our latest insider edition. Check your email for prize redemption details soon!"
-datePublished: Wed Jul 09 2025 23:39:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-09T23:39:58.951Z
 cuid: cmcwlpylj000702l5fom84ijo
 slug: your-session-1-arcade-points-and-tier-are-ready
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/Ai-edIkrJGo/upload/ca1a03b816ce60890942fee9043ec6bb.jpeg
