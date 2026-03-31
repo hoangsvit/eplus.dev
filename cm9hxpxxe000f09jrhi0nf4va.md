@@ -2,7 +2,7 @@
 title: "Build a Multi-Modal GenAI Application: Challenge Lab - bb-ide-genai-004"
 seoTitle: "Build a Multi-Modal GenAI Application: Challenge Lab - bb-ide-genai-00"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Tue Apr 15 2025 03:20:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-15T03:20:13.826Z
 cuid: cm9hxpxxe000f09jrhi0nf4va
 slug: build-a-multi-modal-genai-application-challenge-lab-bb-ide-genai-004
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744687026234/187c4a6d-5b71-46d4-b7f9-dcff2eafa380.png
