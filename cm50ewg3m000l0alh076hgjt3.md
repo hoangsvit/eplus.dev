@@ -4,7 +4,7 @@ seoTitle: "Configuring and Using Cloud Logging and Cloud Monitoring"
 seoDescription: "In this lab, you will learn common configurations and uses of both Cloud Logging and Cloud Monitoring.
 
 You will learn how to view logs with filtering mecha"
-datePublished: Mon Dec 23 2024 02:22:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-23T02:22:30.274Z
 cuid: cm50ewg3m000l0alh076hgjt3
 slug: configuring-and-using-cloud-logging-and-cloud-monitoring
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734920461173/1c32cef8-01a5-4bd9-81ff-e4f75b9215f4.png
