@@ -2,7 +2,7 @@
 title: "Knowledge check: Practice using semantic tags"
 seoTitle: "Knowledge check: Practice using semantic tags"
 seoDescription: "Knowledge check: Practice using semantic tags"
-datePublished: Sun Jul 21 2024 11:55:18 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T11:55:18.181Z
 cuid: clyvi417p00090akw3zbvdwzs
 slug: knowledge-check-practice-using-semantic-tags
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721562861113/49c4dbf7-cb9f-4be4-ab11-d309798bebb4.png
