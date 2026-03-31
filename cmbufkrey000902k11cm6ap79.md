@@ -2,7 +2,7 @@
 title: "Setting up Jenkins on Kubernetes Engine - GSP117"
 seoTitle: "Setting up Jenkins on Kubernetes Engine - GSP117"
 seoDescription: "In this hands-on lab, you'll learn how to set up Jenkins on Google Kubernetes Engine to help orchestrate your software delivery pipeline."
-datePublished: Fri Jun 13 2025 06:32:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-13T06:32:43.978Z
 cuid: cmbufkrey000902k11cm6ap79
 slug: setting-up-jenkins-on-kubernetes-engine-gsp117
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749795688286/7c1665ee-8070-44e3-8e9b-0cc5a6ed8b10.png
