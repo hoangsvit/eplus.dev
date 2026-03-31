@@ -2,7 +2,7 @@
 title: "Google Workspace Admin: Managing Applications - GSP417"
 seoTitle: "Google Workspace Admin: Managing Applications - GSP417"
 seoDescription: "Initially in your Google Admin console, all users and devices are placed in a single organizational unit (OU), called the top-level OU. All settings you mak"
-datePublished: Wed Jun 04 2025 09:21:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-04T09:21:42.394Z
 cuid: cmbhqne9m000409l4hj6sbjt3
 slug: google-workspace-admin-managing-applications-gsp417
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749028857065/b910e8e5-2537-4d96-97d4-eb6754cc38a3.png
