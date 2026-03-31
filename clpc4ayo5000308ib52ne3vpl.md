@@ -2,7 +2,7 @@
 title: "Getting Started with MongoDB Atlas"
 seoTitle: "Getting Started with MongoDB Atlas"
 seoDescription: "Learn about MongoDB Atlas, our multi-cloud developer data platform, its latest features, and how to deploy your first cluster."
-datePublished: Fri Nov 24 2023 04:23:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-11-24T04:23:48.485Z
 cuid: clpc4ayo5000308ib52ne3vpl
 slug: getting-started-with-mongodb-atlas
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1700799661870/04427262-d140-4f38-b631-c1342cc4a96e.png
