@@ -2,7 +2,7 @@
 title: "Modularizing LookML Code with Extends - GSP936"
 seoTitle: "Modularizing LookML Code with Extends - GSP936"
 seoDescription: "Looker is a modern data platform in Google Cloud that you can use to analyze and visualize your data interactively. LookML developers curate the data used b"
-datePublished: Fri Aug 16 2024 07:27:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-16T07:27:12.301Z
 cuid: clzwdzelp000309mh7ssnamet
 slug: modularizing-lookml-code-with-extends-gsp936
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747552208220/2afc3e70-c3a7-41d1-b5d2-d4f5778c4a5f.png
