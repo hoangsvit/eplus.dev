@@ -2,7 +2,7 @@
 title: "Form Parsing with Document AI (Python) - GSP1139"
 seoTitle: "Form Parsing with Document AI (Python) - GSP1139"
 seoDescription: "Learn to use Google's Document AI API with Python to parse forms, extract data, and create CSV files in this hands-on lab"
-datePublished: Sat Aug 09 2025 05:22:54 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-09T05:22:54.205Z
 cuid: cme3t6ikd000502kz7gmjdmkb
 slug: form-parsing-with-document-ai-python-gsp1139
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754716916941/15a4a8a9-31a5-4de5-8f36-12da1b89ed5e.png
