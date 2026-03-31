@@ -2,7 +2,7 @@
 title: "Final graded quiz: Intro to databases"
 seoTitle: "Final graded quiz: Intro to databases"
 seoDescription: "The questions in this assessment relate to a sports club that needs to build a digital database to maintain data about the players joining the club."
-datePublished: Sat Nov 09 2024 12:05:33 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-09T12:05:33.699Z
 cuid: cm3a4cs5f00020al9b96m7frb
 slug: final-graded-quiz-intro-to-databases
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731153906476/500b3241-cce6-4984-806a-c1f42da7ac88.png
