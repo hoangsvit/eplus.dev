@@ -1,6 +1,6 @@
 ---
 title: "Build Laravel 6 SPA + GraphQL API"
-datePublished: Wed Aug 12 2020 15:45:32 GMT+0000 (Coordinated Universal Time)
+datePublished: 2020-08-12T15:45:32.000Z
 cuid: ckgvs692t020fb0s13l263uyn
 slug: build-laravel-6-spa-graphql-api
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1604033569825/9kROIQYEp.png
