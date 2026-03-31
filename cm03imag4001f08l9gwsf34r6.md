@@ -2,7 +2,7 @@
 title: "ETL Processing on Google Cloud Using Dataflow and BigQuery (Python) - GSP290"
 seoTitle: "ETL Processing on Google Cloud Using Dataflow and BigQuery (Python)"
 seoDescription: "In Google Cloud, you can build data pipelines that execute Python code to ingest and transform data from publicly available datasets into BigQuery using the"
-datePublished: Wed Aug 21 2024 07:11:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-21T07:11:21.700Z
 cuid: cm03imag4001f08l9gwsf34r6
 slug: etl-processing-on-google-cloud-using-dataflow-and-bigquery-python-gsp290
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724223870892/b98c0da0-5eb0-4ed6-937e-58646f8d3b19.png
