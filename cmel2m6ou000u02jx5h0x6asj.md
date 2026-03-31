@@ -2,7 +2,7 @@
 title: "Stream Processing with Cloud Pub/Sub and Dataflow: Qwik Start - GSP903"
 seoTitle: "Stream Processing with Cloud Pub/Sub and Dataflow: Qwik Start - GSP903"
 seoDescription: "Learn Google Cloud Pub/Sub and Dataflow for stream processing: read, group, write messages to Cloud Storage with this guide"
-datePublished: Thu Aug 21 2025 07:19:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-21T07:19:06.846Z
 cuid: cmel2m6ou000u02jx5h0x6asj
 slug: stream-processing-with-cloud-pubsub-and-dataflow-qwik-start-gsp903
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755760691029/babb5e58-ea74-41e5-9244-7fa2aee24dbf.png
