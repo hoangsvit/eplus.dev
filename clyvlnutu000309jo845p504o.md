@@ -2,7 +2,7 @@
 title: "Create a complex form"
 seoTitle: "Create a complex form"
 seoDescription: "Create a complex form"
-datePublished: Sun Jul 21 2024 13:34:41 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T13:34:41.874Z
 cuid: clyvlnutu000309jo845p504o
 slug: create-a-complex-form
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721568791471/c2e84f05-86e1-4757-8eaf-2f5ca04405e4.png
