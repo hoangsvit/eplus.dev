@@ -2,7 +2,7 @@
 title: "Multimodal Content Generation with Gemini on Vertex AI (Solution)"
 seoTitle: "Multimodal Content Generation with Gemini on Vertex AI (Solution)"
 seoDescription: "Generate multimodal content with images and text using Gemini on Vertex AI. Learn to integrate and automate with Python scripts"
-datePublished: Thu Jan 29 2026 01:36:46 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-29T01:36:46.356Z
 cuid: cmkysa2vo000602l1ep44etih
 slug: multimodal-content-generation-with-gemini-on-vertex-ai-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769650579740/e195ec08-1b9d-4ec4-bcc5-bdafd91e2d6e.png
