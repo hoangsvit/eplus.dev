@@ -2,7 +2,7 @@
 title: "Monitoring and Logging for Cloud Run Functions - GSP092"
 seoTitle: "Monitoring and Logging for Cloud Run Functions - GSP092"
 seoDescription: "In this lab you use Cloud Monitoring to view Cloud Run functions details in the Google Cloud console. The Cloud Run function details include execution times"
-datePublished: Sat May 10 2025 10:14:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-10T10:14:26.589Z
 cuid: cmai2ix3x000h0ajy8jr9g7lc
 slug: monitoring-and-logging-for-cloud-run-functions-gsp092
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746872037861/aa367427-9cbf-40d6-a189-ed9b70e38bdc.png
