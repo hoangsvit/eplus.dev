@@ -2,7 +2,7 @@
 title: "Answering Complex Questions Using Native Derived Tables with LookML - GSP935"
 seoTitle: "Answering Complex Questions Using Native Derived Tables with LookML -"
 seoDescription: "Looker is a modern data platform in Google Cloud that lets you analyze and visualize your data interactively. You can use Looker to do in-depth data analysi"
-datePublished: Sat Jun 07 2025 09:03:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-07T09:03:48.747Z
 cuid: cmbm0bxu3000j02l5h5ax6t7w
 slug: answering-complex-questions-using-native-derived-tables-with-lookml-gsp935
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749287001190/656c4b91-9817-4bb0-8edf-76860d08af11.png
