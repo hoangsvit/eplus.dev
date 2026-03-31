@@ -2,7 +2,7 @@
 title: "Django Web Framework - Module quiz: REST APIs"
 seoTitle: "Django Web Framework - Module quiz: REST APIs"
 seoDescription: "Django Web Framework - Module quiz: REST APIs"
-datePublished: Mon Nov 11 2024 09:46:44 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-11T09:46:44.474Z
 cuid: cm3cu9ym200180amog88y96gj
 slug: django-web-framework-module-quiz-rest-apis
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731318318835/285a6ffd-da6b-4e37-b92d-806da93ead1d.png
