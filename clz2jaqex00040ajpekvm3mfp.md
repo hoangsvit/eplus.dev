@@ -2,7 +2,7 @@
 title: "Cloud Scheduler: Qwik Start - GSP401"
 seoTitle: "Cloud Scheduler: Qwik Start - GSP401"
 seoDescription: "Cloud Scheduler lets you set up scheduled units of work to be executed at defined times or regular intervals. These work units are commonly known as cron jo"
-datePublished: Fri Jul 26 2024 10:02:53 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-26T10:02:53.625Z
 cuid: clz2jaqex00040ajpekvm3mfp
 slug: cloud-scheduler-qwik-start-gsp401
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744776418676/4135121e-da44-405e-8eca-122a6dd471da.png
