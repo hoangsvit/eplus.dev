@@ -2,7 +2,7 @@
 title: "Self review: Dynamic events - React Basic"
 seoTitle: "Self review: Dynamic events - React Basic"
 seoDescription: "Self review: Dynamic events - React Basic"
-datePublished: Sun Aug 04 2024 05:42:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-04T05:42:19.091Z
 cuid: clzf4yaqb000g09meayiw3ego
 slug: self-review-dynamic-events-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722749996004/6e9f4f7a-c932-4e6d-8d0f-448c1948e11b.png
