@@ -1,7 +1,7 @@
 ---
 title: "Free for developers"
 seoDescription: "Developers and Open Source authors now have a massive amount of services offering free tiers, but it can be hard to find them all to make informed decisions"
-datePublished: Tue Nov 08 2022 06:42:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-11-08T06:42:45.806Z
 cuid: cla7ui3se000j08mlh0er79bb
 slug: free-for-developers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1667889678693/xXP1AH-yg.png
