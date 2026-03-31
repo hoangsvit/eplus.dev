@@ -2,7 +2,7 @@
 title: "Serverless Architectures on AWS - Week 2 Quiz"
 seoTitle: "Serverless Architectures on AWS - Week 2 Quiz"
 seoDescription: "You start this week with an introduction to event-driven architectures (EDAs). You learn about AWS services that you can use for messaging, such as Amazon S"
-datePublished: Thu Oct 17 2024 07:35:37 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-17T07:35:37.832Z
 cuid: cm2czl207000209ml6wqwhi4b
 slug: serverless-architectures-on-aws-week-2-quiz
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729150488115/27a8e1b2-3e6b-4c3a-8eb5-c5f81837c020.png
