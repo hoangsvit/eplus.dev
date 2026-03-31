@@ -2,7 +2,7 @@
 title: "API Gateway: Qwik Start - GSP872"
 seoTitle: "API Gateway: Qwik Start - GSP872"
 seoDescription: "API Gateway enables you to provide secure access to your services through a well-defined REST API that is consistent across all of your services, regardless"
-datePublished: Fri Jul 26 2024 13:49:35 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-26T13:49:35.236Z
 cuid: clz2re9hg00070amd5zx841ed
 slug: api-gateway-qwik-start-gsp872
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744951587043/33045b82-f8a4-4c0a-a818-7666cfcc18d9.png
