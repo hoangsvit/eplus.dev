@@ -2,7 +2,7 @@
 title: "Self-review: Targeted CSS"
 seoTitle: "Self-review: Targeted CSS"
 seoDescription: "Self-review: Targeted CSS"
-datePublished: Mon Jul 22 2024 14:40:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-22T14:40:47.644Z
 cuid: clyx3gpi3000109l65tvhgn2q
 slug: self-review-targeted-css
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721659204218/9972de80-d48c-4c7c-9aed-1a2469b47848.png
