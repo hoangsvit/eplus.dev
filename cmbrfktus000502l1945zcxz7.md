@@ -2,12 +2,12 @@
 title: "Entity and Sentiment Analysis with the Natural Language API - GSP038"
 seoTitle: "Entity and Sentiment Analysis with the Natural Language API - GSP038"
 seoDescription: "The Cloud Natural Language API lets you extract entities from text, perform sentiment and syntactic analysis, and classify text into categories."
-datePublished: Wed Jun 11 2025 04:09:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-11T04:09:28.612Z
 cuid: cmbrfktus000502l1945zcxz7
 slug: entity-and-sentiment-analysis-with-the-natural-language-api-gsp038
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749614926592/ca5147e3-8c8b-44f1-8671-4cad9691bd9f.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1749614942734/e32f1f93-c203-4efc-aa11-d411dac40898.png
-tags: entity-and-sentiment-analysis-with-the-natural-language-api-gsp038, entity-and-sentiment-analysis-with-the-natural-language-api, gsp038
+tags: gsp038
 
 ---
 
@@ -21,13 +21,13 @@ In this lab, you learn how to use the Natural Language API to analyze entities, 
 
 In this lab, you will learn how to:
 
-* Create a Natural Language API request and calling the API with curl
+*   Create a Natural Language API request and calling the API with curl
     
-* Extract entities and running sentiment analysis on text with the Natural Language API
+*   Extract entities and running sentiment analysis on text with the Natural Language API
     
-* Perform linguistic analysis on text with the Natural Language API
+*   Perform linguistic analysis on text with the Natural Language API
     
-* Create a Natural Language API request in a different language
+*   Create a Natural Language API request in a different language
     
 
 ## Setup and requirements
@@ -40,29 +40,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -70,7 +70,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-03-8cf9a9ab8f11@qwiklabs.net
@@ -78,9 +78,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     fyMJXeQD3omC
@@ -88,19 +88,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -113,11 +113,11 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Since you use `curl` to send a request to the Natural Language API, you must generate an API key to pass in your request URL.
 
-1. To create an API key, in the Cloud Console, select **Navigation menu** &gt; **APIs & Services** &gt; **Credentials**.
+1.  To create an API key, in the Cloud Console, select **Navigation menu** > **APIs & Services** > **Credentials**.
     
-2. Click **Create credentials** and select **API key**.
+2.  Click **Create credentials** and select **API key**.
     
-3. Copy the generated API key and click **Close**.
+3.  Copy the generated API key and click **Close**.
     
 
 Click **Check my progress** to verify the objective.
@@ -128,11 +128,11 @@ Create an API Key
 
 In order to perform next steps please connect to the instance provisioned for you via **SSH**.
 
-1. Click **Navigation menu &gt; Compute Engine**. You should see the provisioned linux instance, `linux-instance`, in the **VM instances** list.
+1.  Click **Navigation menu > Compute Engine**. You should see the provisioned linux instance, `linux-instance`, in the **VM instances** list.
     
-2. Click on the **SSH** button. You will be brought to an interactive shell.
+2.  Click on the **SSH** button. You will be brought to an interactive shell.
     
-3. In the command line, enter in the following, replacing `<YOUR_API_KEY>` with the key you just copied:
+3.  In the command line, enter in the following, replacing `<YOUR_API_KEY>` with the key you just copied:
     
 
 ```apache
@@ -147,14 +147,14 @@ The first Natural Language API method you use is `analyzeEntities`. With this me
 
 You build your request to the Natural Language API in the file, `request.json`.
 
-1. Use nano (a code editor) to create the file `request.json`:
+1.  Use nano (a code editor) to create the file `request.json`:
     
 
 ```apache
 nano request.json
 ```
 
-2. Type or paste the following code into `request.json`:
+2.  Type or paste the following code into `request.json`:
     
 
 ```json
@@ -167,7 +167,7 @@ nano request.json
 }
 ```
 
-3. Press **CTRL+X** to exit nano, then **Y** to save the file, then **ENTER** to confirm.
+3.  Press **CTRL+X** to exit nano, then **Y** to save the file, then **ENTER** to confirm.
     
 
 In the request, you're telling the Natural Language API about the text being sent. Supported type values are `PLAIN_TEXT` or `HTML`. In content, you pass the text to send to the Natural Language API for analysis.
@@ -184,7 +184,7 @@ Make an Entity Analysis Request
 
 ## Task 3. Call the Natural Language API
 
-1. You can now pass your request body, along with the API key environment variable you saved earlier, to the Natural Language API with the following `curl` command (all in one single command line):
+1.  You can now pass your request body, along with the API key environment variable you saved earlier, to the Natural Language API with the following `curl` command (all in one single command line):
     
 
 ```apache
@@ -192,7 +192,7 @@ curl "https://language.googleapis.com/v1/documents:analyzeEntities?key=${API_KEY
   -s -X POST -H "Content-Type: application/json" --data-binary @request.json > result.json
 ```
 
-2. In order to check the response run:
+2.  In order to check the response run:
     
 
 ```apache
@@ -250,7 +250,7 @@ Check the Entity Analysis response
 
 In addition to extracting entities, the Natural Language API also lets you perform sentiment analysis on a block of text. This JSON request will include the same parameters as the request above, but this time change the text to include something with a stronger sentiment.
 
-1. Use nano to replace the code in `request.json` with the following, and feel free to replace the `content` below with your own text:
+1.  Use nano to replace the code in `request.json` with the following, and feel free to replace the `content` below with your own text:
     
 
 ```json
@@ -263,9 +263,9 @@ In addition to extracting entities, the Natural Language API also lets you perfo
 }
 ```
 
-2. Press **CTRL+X** to exit nano, then **Y** to save the file, then **ENTER** to confirm.
+2.  Press **CTRL+X** to exit nano, then **Y** to save the file, then **ENTER** to confirm.
     
-3. Next you send the request to the API's `analyzeSentiment` endpoint:
+3.  Next you send the request to the API's `analyzeSentiment` endpoint:
     
 
 ```apache
@@ -311,9 +311,9 @@ Your response should look like this:
 
 Notice that you get two types of sentiment values: sentiment for the document as a whole, and sentiment broken down by sentence. The sentiment method returns two values:
 
-* `score` - is a number from -1.0 to 1.0 indicating how positive or negative the statement is.
+*   `score` - is a number from -1.0 to 1.0 indicating how positive or negative the statement is.
     
-* `magnitude` - is a number ranging from 0 to infinity that represents the weight of sentiment expressed in the statement, regardless of being positive or negative.
+*   `magnitude` - is a number ranging from 0 to infinity that represents the weight of sentiment expressed in the statement, regardless of being positive or negative.
     
 
 Longer blocks of text with heavily weighted statements have higher magnitude values. The score for the first sentence is positive (0.7), whereas the score for the second sentence is neutral (0.1).
@@ -326,7 +326,7 @@ In addition to providing sentiment details on the entire text document, the Natu
 
 In this case, getting a sentiment score for the entire sentence as you did above might not be so useful. If this was a restaurant review and there were hundreds of reviews for the same restaurant, you'd want to know exactly which things people liked and didn't like in their reviews. Fortunately, the Natural Language API has a method that lets you get the sentiment for each entity in the text, called `analyzeEntitySentiment`. Let's see how it works!
 
-1. Use nano to update `request.json` with the sentence below:
+1.  Use nano to update `request.json` with the sentence below:
     
 
 ```json
@@ -339,9 +339,9 @@ In this case, getting a sentiment score for the entire sentence as you did above
 }
 ```
 
-2. Press **CTRL+X** to exit nano, then **Y** to save the file, then **ENTER** to confirm.
+2.  Press **CTRL+X** to exit nano, then **Y** to save the file, then **ENTER** to confirm.
     
-3. Then call the `analyzeEntitySentiment` endpoint with the following curl command:
+3.  Then call the `analyzeEntitySentiment` endpoint with the following curl command:
     
 
 ```apache
@@ -415,7 +415,7 @@ Use **syntactic analysis**, another of the Natural Language API's methods, to di
 
 Try it out with a simple sentence. This JSON request will be similar to the ones above, with the addition of a features key. This tells the API to perform syntax annotation.
 
-1. Use nano to replace the code in `request.json` with the following:
+1.  Use nano to replace the code in `request.json` with the following:
     
 
 ```json
@@ -428,9 +428,9 @@ Try it out with a simple sentence. This JSON request will be similar to the ones
 }
 ```
 
-2. Press **CTRL+X** to exit nano, then **Y** to save the file, then **ENTER** to confirm.
+2.  Press **CTRL+X** to exit nano, then **Y** to save the file, then **ENTER** to confirm.
     
-3. Then call the API's `analyzeSyntax` method:
+3.  Then call the API's `analyzeSyntax` method:
     
 
 ```apache
@@ -470,27 +470,27 @@ The response should return an object like the one below for each token in the se
 
 Let's break down the response:
 
-* `partOfSpeech` tells you that "Joanne" is a noun.
+*   `partOfSpeech` tells you that "Joanne" is a noun.
     
-* `dependencyEdge` includes data that you can use to create a [dependency parse tree](https://en.wikipedia.org/wiki/Parse_tree#Dependency-based_parse_trees) of the text. Essentially, this is a diagram showing how words in a sentence relate to each other. A dependency parse tree for the sentence above would look like this:
+*   `dependencyEdge` includes data that you can use to create a [dependency parse tree](https://en.wikipedia.org/wiki/Parse_tree#Dependency-based_parse_trees) of the text. Essentially, this is a diagram showing how words in a sentence relate to each other. A dependency parse tree for the sentence above would look like this:
     
 
 ![Dependency parse tree](https://cdn.qwiklabs.com/Xh7b1inigZEjOOGzkM2OtVQFK9PLn0SdY3wM9tdZLUU%3D align="left")
 
 **Note:** You can create your own dependency parse trees in the browser with the Natural Language demo available in the [Natural Language AI Guide](https://cloud.google.com/natural-language/)
 
-* `headTokenIndex` is the index of the token that has an arc pointing at "Joanne". Think of each token in the sentence as a word in an array.
+*   `headTokenIndex` is the index of the token that has an arc pointing at "Joanne". Think of each token in the sentence as a word in an array.
     
-* `headTokenIndex` of 1 for "Joanne" refers to the word "Rowling", which it is connected to in the tree. The label `NN` (short for noun compound modifier) describes the word's role in the sentence. "Joanne" modifies "Rowling", the subject of the sentence.
+*   `headTokenIndex` of 1 for "Joanne" refers to the word "Rowling", which it is connected to in the tree. The label `NN` (short for noun compound modifier) describes the word's role in the sentence. "Joanne" modifies "Rowling", the subject of the sentence.
     
-* `lemma` is the canonical form of the word. For example, the words *run*, *runs*, *ran*, and *running* all have a lemma of *run*. The lemma value is useful for tracking occurrences of a word in a large piece of text over time.
+*   `lemma` is the canonical form of the word. For example, the words *run*, *runs*, *ran*, and *running* all have a lemma of *run*. The lemma value is useful for tracking occurrences of a word in a large piece of text over time.
     
 
 ## Task 7. Multilingual natural language processing
 
 The Natural Language API also supports languages other than English (full list can be found in the [Language Support Guide](https://cloud.google.com/natural-language/docs/languages)).
 
-1. Modify the code in `request.json` with a sentence in Japanese:
+1.  Modify the code in `request.json` with a sentence in Japanese:
     
 
 ```json
@@ -502,12 +502,12 @@ The Natural Language API also supports languages other than English (full list c
 }
 ```
 
-2. Press **CTRL+X** to exit nano, then **Y** to save the file, then **ENTER** to confirm.
+2.  Press **CTRL+X** to exit nano, then **Y** to save the file, then **ENTER** to confirm.
     
 
 Notice that you didn't tell the API which language the text is, it can automatically detect it!
 
-3. Next, you send it to the `analyzeEntities` endpoint:
+3.  Next, you send it to the `analyzeEntities` endpoint:
     
 
 ```apache
@@ -564,14 +564,25 @@ And you get the following response:
 
 The wikipedia URLs even point to the Japanese Wikipedia pages - so cool!
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://youtu.be/-el4MpSBpMQ] 
+### Quick
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP038/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Entity%20and%20Sentiment%20Analysis%20with%20the%20Natural%20Language%20API/gsp038.sh
 sudo chmod +x gsp038.sh
 ./gsp038.sh
 ```
+
+### Manual
+
+%[https://www.youtube.com/watch?v=LyPUoWS5KS0]
