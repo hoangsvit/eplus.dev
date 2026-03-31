@@ -2,7 +2,7 @@
 title: "Modernize Infrastructure and Applications with Google Cloud"
 seoTitle: "Modernize Infrastructure and Applications with Google Cloud"
 seoDescription: "Many traditional enterprises use legacy systems and applications that can't stay up-to-date with modern customer expectations. Business leaders often have t"
-datePublished: Thu Aug 01 2024 09:48:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-01T09:48:59.738Z
 cuid: clzb3fyze000w08la8hni8uqx
 slug: modernize-infrastructure-and-applications-with-google-cloud
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722505034039/cd927fe6-e667-4f95-9e2b-f89b5f083532.png
