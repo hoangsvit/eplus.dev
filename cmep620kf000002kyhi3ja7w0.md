@@ -2,7 +2,7 @@
 title: "Working with Onscreen Data in a Flutter Application - GSP1011"
 seoTitle: "Working with Onscreen Data in a Flutter Application - GSP1011"
 seoDescription: "Learn how to create a mobile, web, and desktop Flutter app with natural interfaces, using hot reload, ListView, and AppBar features"
-datePublished: Sun Aug 24 2025 04:06:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-24T04:06:28.959Z
 cuid: cmep620kf000002kyhi3ja7w0
 slug: working-with-onscreen-data-in-a-flutter-application-gsp1011
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756008338997/6eae3488-c7c9-4c74-8e6c-51dbaf071567.png
