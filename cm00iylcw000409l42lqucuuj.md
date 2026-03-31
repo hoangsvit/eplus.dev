@@ -2,7 +2,7 @@
 title: "Module quiz: navigation, updating and assets in React.js"
 seoTitle: "Module quiz: navigation, updating and assets in React.js"
 seoDescription: "Module quiz: navigation, updating and assets in React.js"
-datePublished: Mon Aug 19 2024 04:57:37 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-19T04:57:37.184Z
 cuid: cm00iylcw000409l42lqucuuj
 slug: module-quiz-navigation-updating-and-assets-in-react-js
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724043167523/a96268f9-14a7-4621-be35-89e6d643659b.png
