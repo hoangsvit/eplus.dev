@@ -2,7 +2,7 @@
 title: "Programming Assignment: Array and object iteration in Javascript"
 seoTitle: "Programming Assignment: Array and object iteration in Javascript"
 seoDescription: "Programming Assignment: Array and object iteration in Javascript"
-datePublished: Thu Jul 18 2024 13:57:17 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-18T13:57:17.111Z
 cuid: clyrc5cjb00070al15g194ubb
 slug: programming-assignment-array-and-object-iteration-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721310651478/ad8711cd-4423-4118-a172-f27f7c40460b.png
