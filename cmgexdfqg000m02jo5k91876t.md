@@ -2,7 +2,7 @@
 title: "Employing Best Practices for Improving the Usability of LookML Projects - GSP1020"
 seoTitle: "Employing Best Practices for Improving the Usability of LookML Project"
 seoDescription: "Enhance LookML usability with descriptive field names, reuse, and modular code for developers and business users in Looker"
-datePublished: Mon Oct 06 2025 09:25:08 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-06T09:25:08.200Z
 cuid: cmgexdfqg000m02jo5k91876t
 slug: employing-best-practices-for-improving-the-usability-of-lookml-projects-gsp1020-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759742584768/0fa8ab42-a58d-412f-b2fa-9d023af509d1.png
