@@ -2,7 +2,7 @@
 title: "Getting Started with the Gemini API in Vertex AI with cURL - GSP1228"
 seoTitle: "Getting Started with the Gemini API in Vertex AI with cURL - GSP1228"
 seoDescription: "Learn to use the Gemini API in Vertex AI with cURL for text and multimodal generation tasks"
-datePublished: Sat Sep 13 2025 03:04:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-13T03:04:25.976Z
 cuid: cmfhon987000802jue5ziha08
 slug: getting-started-with-the-gemini-api-in-vertex-ai-with-curl-gsp1228
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757731616981/bfd74581-2fcc-4012-95d5-caafd55368fe.png
