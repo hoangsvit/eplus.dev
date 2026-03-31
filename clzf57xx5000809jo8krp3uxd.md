@@ -2,7 +2,7 @@
 title: "Knowledge check: Dynamic events and how to handle them - React Basic"
 seoTitle: "Knowledge check: Dynamic events and how to handle them - React Basic"
 seoDescription: "Knowledge check: Dynamic events and how to handle them - React Basic"
-datePublished: Sun Aug 04 2024 05:49:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-04T05:49:49.049Z
 cuid: clzf57xx5000809jo8krp3uxd
 slug: knowledge-check-dynamic-events-and-how-to-handle-them-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722750327145/eca33899-64d1-4566-8bf9-ef811f376539.png
