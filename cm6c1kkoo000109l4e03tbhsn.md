@@ -2,7 +2,7 @@
 title: "Embedding Maps in Looker BI (Solution)"
 seoTitle: "Embedding Maps in Looker BI (Solution)"
 seoDescription: "Looker is a modern cloud-based business intelligence (BI) platform in Google Cloud that lets you analyze and visualize your data interactively. You can use "
-datePublished: Sat Jan 25 2025 10:22:17 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-25T10:22:17.785Z
 cuid: cm6c1kkoo000109l4e03tbhsn
 slug: embedding-maps-in-looker-bi-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737800295348/b9c71adb-227a-437b-9db3-6d5ea85527b6.png
