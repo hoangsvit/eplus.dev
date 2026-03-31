@@ -2,7 +2,7 @@
 title: "Knowledge check: Creating layouts"
 seoTitle: "Knowledge check: Creating layouts"
 seoDescription: "Knowledge check: Creating layouts"
-datePublished: Mon Jul 22 2024 14:29:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-22T14:29:10.264Z
 cuid: clyx31ref000908md3mmt6kun
 slug: knowledge-check-creating-layouts
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721658493503/8ab4e425-9269-439a-8e7b-4bd385bb36a9.png
