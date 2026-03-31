@@ -2,7 +2,7 @@
 title: "Getting Started with BigQuery ML - GSP247"
 seoTitle: "Getting Started with BigQuery ML - GSP247"
 seoDescription: "BigQuery ML enables users to create and execute machine learning models in BigQuery using SQL queries. The goal is to democratise machine learning by enabli"
-datePublished: Thu Aug 15 2024 09:46:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-15T09:46:06.960Z
 cuid: clzv3i70000030amgencrbyy8
 slug: getting-started-with-bigquery-ml-gsp247
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723714812172/1993c6c3-a731-4e36-a79c-7f4273ef9f10.png
