@@ -2,7 +2,7 @@
 title: "Get Started with Sensitive Data Protection: Challenge Lab - ARC116"
 seoTitle: "Get Started with Sensitive Data Protection: Challenge Lab - ARC116"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Tue Dec 10 2024 07:02:08 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-10T07:02:08.141Z
 cuid: cm4i45zbh000i09lde07yh51s
 slug: get-started-with-sensitive-data-protection-challenge-lab-arc116
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733813131726/7d6ead67-bccf-4220-9651-9abfcc2a8d30.png
