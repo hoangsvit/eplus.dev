@@ -2,7 +2,7 @@
 title: "Programming Assignment: Import and Scope - Module 4"
 seoTitle: "Programming Assignment: Import and Scope - Module 4"
 seoDescription: "So far, you've learned the different ways in which you can use import statements to import other Python files, modules and packages. You have also seen the "
-datePublished: Fri Nov 08 2024 08:19:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-08T08:19:25.173Z
 cuid: cm38gu3xx000a0al9e0w11bkg
 slug: programming-assignment-import-and-scope-module-4
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731053943858/331294f0-0394-44a9-8b36-0600ac500afe.png
