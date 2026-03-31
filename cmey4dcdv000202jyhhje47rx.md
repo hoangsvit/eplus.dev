@@ -2,7 +2,7 @@
 title: "Analyze Speech & Language with Google APIs: Challenge Lab - ARC114"
 seoTitle: "Analyze Speech & Language with Google APIs: Challenge Lab - ARC114"
 seoDescription: "Participate in a hands-on lab to analyze speech and text with Google APIs using the Cloud Natural Language and Cloud Speech APIs"
-datePublished: Sat Aug 30 2025 10:29:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-30T10:29:13.843Z
 cuid: cmey4dcdv000202jyhhje47rx
 slug: analyze-speech-and-language-with-google-apis-challenge-lab-arc114
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756549654619/f2693fd2-8ddc-4bda-8f26-a89b0dcec7a9.png
