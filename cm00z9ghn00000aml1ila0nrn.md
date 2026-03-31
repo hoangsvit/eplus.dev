@@ -2,7 +2,7 @@
 title: "Implement DevOps Workflows in Google Cloud: Challenge Lab - GSP330"
 seoTitle: "Implement DevOps Workflows in Google Cloud: Challenge Lab - GSP330"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Mon Aug 19 2024 12:33:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-19T12:33:57.947Z
 cuid: cm00z9ghn00000aml1ila0nrn
 slug: implement-devops-workflows-in-google-cloud-challenge-lab-gsp330
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724070581364/7f50ea3a-248d-4230-b7cb-4ce196bb5959.png
