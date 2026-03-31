@@ -2,7 +2,7 @@
 title: "Create a Secure Data Lake on Cloud Storage: Challenge Lab - ARC119"
 seoTitle: "Create a Secure Data Lake on Cloud Storage: Challenge Lab - ARC119"
 seoDescription: "In this challenge lab, you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you use the skills learned from the lab i"
-datePublished: Mon Sep 09 2024 08:57:32 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-09T08:57:32.841Z
 cuid: cm0urs149001g09jvb6m9ac6a
 slug: create-a-secure-data-lake-on-cloud-storage-challenge-lab-arc119
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756629319782/0d5452e8-c9ed-4bf9-94ca-a4921cac4c0e.png
