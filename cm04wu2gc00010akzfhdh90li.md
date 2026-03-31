@@ -2,7 +2,7 @@
 title: "Detect and Investigate Threats with Security Command Center - GSP1125"
 seoTitle: "Detect and Investigate Threats with Security Command Center - GSP1125"
 seoDescription: "Event Threat Detection is an integrated service of Security Command Center (SCC) that monitors Google Cloud logs for patterns signaling suspicious activitie"
-datePublished: Thu Aug 22 2024 06:37:05 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-22T06:37:05.388Z
 cuid: cm04wu2gc00010akzfhdh90li
 slug: detect-and-investigate-threats-with-security-command-center-gsp1125
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750403713332/e3bcf8ae-5fbd-4a43-9b3e-25afffde54d9.png
