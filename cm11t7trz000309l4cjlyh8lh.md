@@ -2,7 +2,7 @@
 title: "Chronicle SIEM: Introduction & Single Event Rules - GSP1098"
 seoTitle: "Chronicle SIEM: Introduction & Single Event Rules - GSP1098"
 seoDescription: "Chronicle Security Operations empowers cloud-first, modern SecOps teams to protect their organizations confidently, with cloud-native architecture, petabyte"
-datePublished: Sat Sep 14 2024 07:12:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-14T07:12:12.671Z
 cuid: cm11t7trz000309l4cjlyh8lh
 slug: chronicle-siem-introduction-single-event-rules-gsp1098
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726297669793/f7bf011c-f8ef-4927-a369-85dccf18c044.jpeg
