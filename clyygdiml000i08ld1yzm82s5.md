@@ -2,7 +2,7 @@
 title: "Congratulations, you're now enrolled in the Google Cloud Arcade Facilitator Program 2024"
 seoTitle: "Google Cloud Arcade Facilitator Program 2024"
 seoDescription: "Congratulations, you're now enrolled in the Google Cloud Arcade Facilitator Program 2024"
-datePublished: Tue Jul 23 2024 13:29:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-23T13:29:59.950Z
 cuid: clyygdiml000i08ld1yzm82s5
 slug: congratulations-youre-now-enrolled-in-the-google-cloud-arcade-facilitator-program-2024
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721741316228/603902de-fee9-4182-9970-c006728a437c.png
