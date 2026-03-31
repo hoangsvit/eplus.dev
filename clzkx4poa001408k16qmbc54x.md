@@ -2,7 +2,7 @@
 title: "Knowledge check: Data flow - React Basic"
 seoTitle: "Knowledge check: Data flow - React Basic"
 seoDescription: "Knowledge check: Data flow - React Basic"
-datePublished: Thu Aug 08 2024 06:49:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-08T06:49:58.522Z
 cuid: clzkx4poa001408k16qmbc54x
 slug: knowledge-check-data-flow-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723099772894/ef152495-b5c6-44b8-a606-5e6c5723ef41.png
