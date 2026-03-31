@@ -2,7 +2,7 @@
 title: "Building and Debugging Cloud Functions for Node.js - GSP880"
 seoTitle: "Building and Debugging Cloud Functions for Node.js - GSP880"
 seoDescription: "Learn to build, test, and debug Node.js Cloud Functions locally using Visual Studio Code, then deploy them to Google Cloud Platform"
-datePublished: Sat Aug 16 2025 05:39:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-16T05:39:04.554Z
 cuid: cmedtu9yi000202l11rhyah6d
 slug: building-and-debugging-cloud-functions-for-nodejs-gsp880
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755322669754/225132a2-5946-419b-b9dc-e3b9f53fe272.png
