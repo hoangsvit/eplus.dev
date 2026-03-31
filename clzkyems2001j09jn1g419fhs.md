@@ -2,7 +2,7 @@
 title: "Module quiz: Data and state - React Basic"
 seoTitle: "Module quiz: Data and state - React Basic"
 seoDescription: "Module quiz: Data and state - React Basic"
-datePublished: Thu Aug 08 2024 07:25:40 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-08T07:25:40.946Z
 cuid: clzkyems2001j09jn1g419fhs
 slug: module-quiz-data-and-state-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723101875425/9f1198d2-3406-4d4d-9c90-12c75c578de2.png
