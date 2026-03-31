@@ -2,7 +2,7 @@
 title: "App Dev: Storing Application Data in Cloud Datastore - Python - GSP184"
 seoTitle: "App Dev: Storing Application Data in Cloud Datastore - Python - GSP184"
 seoDescription: "Google Cloud Datastore is a NoSQL document database built for automatic scaling, high performance, and ease of application development. In this lab, you use"
-datePublished: Thu Aug 08 2024 04:08:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-08T04:08:16.587Z
 cuid: clzkrcrm3000009mg2il186s6
 slug: app-dev-storing-application-data-in-cloud-datastore-python-gsp184
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723088197916/4b7f94bb-f826-492c-95ca-c1a9e15e6f62.png
