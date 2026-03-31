@@ -2,7 +2,7 @@
 title: "Secure Builds with Cloud Build - GSP1184"
 seoTitle: "Secure Builds with Cloud Build - GSP1184"
 seoDescription: "Software vulnerabilities are weaknesses that can cause an accidental system failure or provide bad actors a means to compromise your software. Artifact Anal"
-datePublished: Sat Feb 22 2025 06:29:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-22T06:29:04.814Z
 cuid: cm7ftkib2000e09jxeyitdopt
 slug: secure-builds-with-cloud-build-gsp1184
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740205699219/886acb99-f824-47bf-b33c-22627b40850e.png
