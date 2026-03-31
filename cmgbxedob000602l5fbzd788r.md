@@ -2,7 +2,7 @@
 title: "Arcade Hero: Enter the Artifact Registry Container - ARC150"
 seoTitle: "Arcade Hero: Enter the Artifact Registry Container - ARC150"
 seoDescription: "Learn the basics of Google Cloud's Artifact Registry Containers with this hands-on lab, ideal for beginners"
-datePublished: Sat Oct 04 2025 07:02:33 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-04T07:02:33.659Z
 cuid: cmgbxedob000602l5fbzd788r
 slug: arcade-hero-enter-the-artifact-registry-container-arc150
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759561284529/fd94d10a-d452-4321-aefb-a958fc4b3890.png
