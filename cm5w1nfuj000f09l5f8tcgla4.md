@@ -4,7 +4,7 @@ seoTitle: "Arcade Hero: Enter the PubSub - ARC123-PUBSUB"
 seoDescription: "In this lab you will learn the fundamentals of Pub/Sub using Google Cloud.
 
 If you are new to Pub/Sub or looking for an overview of how to get started, you "
-datePublished: Tue Jan 14 2025 05:40:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-14T05:40:12.667Z
 cuid: cm5w1nfuj000f09l5f8tcgla4
 slug: arcade-hero-enter-the-pubsub-arc123-pubsub
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736833156675/501fb5a6-656f-4549-8b68-a1b9aa3046ff.png
