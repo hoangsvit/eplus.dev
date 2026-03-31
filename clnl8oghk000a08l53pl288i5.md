@@ -3,7 +3,7 @@ title: "Laravel Eloquent HasManyThrough relationships with unlimited levels"
 seoTitle: "Laravel Eloquent HasManyThrough relationships with unlimited levels"
 seoDescription: "This extended version of HasManyThrough allows relationships with unlimited intermediate models.
 It supports many-to-many and polymorphic relationships and"
-datePublished: Wed Oct 11 2023 04:16:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-10-11T04:16:47.481Z
 cuid: clnl8oghk000a08l53pl288i5
 slug: laravel-eloquent-hasmanythrough-relationships-with-unlimited-levels
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696997596801/41dd9c61-eb76-4890-a6cd-24cac6bbf518.png
