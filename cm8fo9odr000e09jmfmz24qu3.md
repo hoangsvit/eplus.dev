@@ -2,7 +2,7 @@
 title: "Getting Started with BigQuery GIS for Data Analysts - GSP866"
 seoTitle: "Getting Started with BigQuery GIS for Data Analysts - GSP866"
 seoDescription: "This lab introduces you to BigQuery GIS. BigQuery GIS allows you to easily analyze and visualize geospatial data in BigQuery."
-datePublished: Wed Mar 19 2025 08:40:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-19T08:40:23.728Z
 cuid: cm8fo9odr000e09jmfmz24qu3
 slug: getting-started-with-bigquery-gis-for-data-analysts-gsp866
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742373323813/f882f6fb-e5b3-45bc-bec0-d64074dd1d66.png
