@@ -2,7 +2,7 @@
 title: "Secure a Public Storage Bucket - gcloud (Solution)"
 seoTitle: "Secure a Public Storage Bucket - gcloud (Solution)"
 seoDescription: "Learn how to secure a public storage bucket using gcloud commands in this challenge scenario for cloud architects"
-datePublished: Thu Oct 16 2025 02:50:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-16T02:50:47.575Z
 cuid: cmgstotqv000102jphcwdeuzz
 slug: secure-a-public-storage-bucket-gcloud-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760583041339/3cd3d25f-b4b4-4fb4-ae24-98a9a6b9645a.png
