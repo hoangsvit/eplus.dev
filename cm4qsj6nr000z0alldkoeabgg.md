@@ -2,7 +2,7 @@
 title: "Foundations: Data, Data, Everywhere - Module 2 challenge"
 seoTitle: "Foundations: Data, Data, Everywhere - Module 2 challenge"
 seoDescription: "Foundations: Data, Data, Everywhere - Module 2 challenge"
-datePublished: Mon Dec 16 2024 08:46:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-16T08:46:24.375Z
 cuid: cm4qsj6nr000z0alldkoeabgg
 slug: foundations-data-data-everywhere-module-2-challenge
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734338760067/5d0f39ad-9932-416f-b8d1-3282e33343eb.png
