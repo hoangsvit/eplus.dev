@@ -2,7 +2,7 @@
 title: "Build a Project Tracking App with AppSheet - GSP969"
 seoTitle: "Build a Project Tracking App with AppSheet - GSP969"
 seoDescription: "Build a Project Tracking app in AppSheet using Google Sheets, data views, and customization without coding"
-datePublished: Sat Jan 17 2026 07:39:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-17T07:39:45.207Z
 cuid: cmkhzynjr002b02l5apx3gmvv
 slug: build-a-project-tracking-app-with-appsheet-gsp969
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768635136401/0a7e302f-318d-46b4-a59c-07e6ee217f62.png
