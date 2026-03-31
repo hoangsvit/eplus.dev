@@ -2,7 +2,7 @@
 title: "Knowledge check: Introduction to Object-Oriented Programming in Javascript"
 seoTitle: "Knowledge check: Introduction to Object-Oriented Programming in Javasc"
 seoDescription: "Knowledge check: Introduction to Object-Oriented Programming in Javascript"
-datePublished: Thu Jul 18 2024 13:36:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-18T13:36:10.663Z
 cuid: clyrbe7c6001909l7ha6s8u5s
 slug: knowledge-check-introduction-to-object-oriented-programming-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721309718338/85b3bdbd-6bb8-4adb-b30d-4e0dee725a5b.png
