@@ -2,7 +2,7 @@
 title: "Google Cloud Arcade Facilitator '24 - Syllabus for the program"
 seoTitle: "Google Cloud Arcade Facilitator '24 - Syllabus for the program"
 seoDescription: "While you can find all the active games and trivia quests on the Google Cloud Arcade website directly, we are maintaining a copy of the same here so that it"
-datePublished: Wed Jul 24 2024 01:48:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-24T01:48:06.471Z
 cuid: clyz6qqbq00010al7crq2bncq
 slug: google-cloud-arcade-facilitator-24-syllabus-for-the-program
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721785523288/49d5aa52-7055-49ab-8742-e252c8156a61.png
