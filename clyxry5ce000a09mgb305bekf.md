@@ -2,7 +2,7 @@
 title: "Khám Phá Hai Cách Đơn Giản Để Custom Laravel: Macro và Mixin"
 seoTitle: "Khám Phá Hai Cách Đơn Giản Để Custom Laravel: Macro và Mixin"
 seoDescription: "Hôm nay mình sẽ chia sẻ với mọi người hai cách đơn giản để custom Laravel là Macro và Mixin."
-datePublished: Tue Jul 23 2024 02:06:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-23T02:06:12.110Z
 cuid: clyxry5ce000a09mgb305bekf
 slug: kham-pha-hai-cach-don-gian-de-custom-laravel-macro-va-mixin
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/Y5yxdx2a4PI/upload/7d69e7435a8a4a1f3dcb0a72d8d8eb51.jpeg
