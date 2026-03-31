@@ -2,7 +2,7 @@
 title: "Configure Secure RDP using a Windows Bastion Host: Challenge Lab - GSP303"
 seoTitle: "Configure Secure RDP using a Windows Bastion Host: Challenge Lab - GSP"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Sun Aug 18 2024 13:29:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-18T13:29:50.204Z
 cuid: clzzltgfw00010amg9o02d95b
 slug: configure-secure-rdp-using-a-windows-bastion-host-challenge-lab-gsp303
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723984743027/1069af7c-71f0-4b98-9410-d94f8d1c9c5a.png
