@@ -2,7 +2,7 @@
 title: "End-of-course graded assessment Git"
 seoTitle: "End-of-course graded assessment Git"
 seoDescription: "End-of-course graded assessment Git"
-datePublished: Sun Jul 21 2024 03:10:29 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T03:10:29.750Z
 cuid: clyuzd4l100050ambg5n5g54g
 slug: end-of-course-graded-assessment-git
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721531390233/415f3203-588e-404c-bdce-f494cc0503cb.png
