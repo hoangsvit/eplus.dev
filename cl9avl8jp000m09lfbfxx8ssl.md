@@ -2,7 +2,7 @@
 title: "Google bắt đầu hỗ trợ passkey cho Android và Chrome"
 seoTitle: "Google bắt đầu hỗ trợ passkey cho Android và Chrome"
 seoDescription: "Google bắt đầu đưa passkey lên Android và Chrome, hỗ trợ đăng nhập không cần mật khẩu"
-datePublished: Sun Oct 16 2022 04:56:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-10-16T04:56:47.749Z
 cuid: cl9avl8jp000m09lfbfxx8ssl
 slug: google-bat-dau-ho-tro-passkey-cho-android-va-chrome
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1665895887127/AsK-jWELZ.jpg
