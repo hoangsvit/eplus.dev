@@ -2,7 +2,7 @@
 title: "Looker Data Explorer - Qwik Start - GSP718"
 seoTitle: "Looker Data Explorer - Qwik Start - GSP718"
 seoDescription: "Looker is a modern data platform in Google Cloud that lets you analyze and visualize your data interactively. You can use Looker to do in-depth data analysi"
-datePublished: Tue Nov 12 2024 04:42:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-12T04:42:50.132Z
 cuid: cm3dyuzkk000m09l9dagvahxx
 slug: looker-data-explorer-qwik-start-gsp718
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742374885913/ec691e38-40f1-4a23-899b-9c7c50cdbcbf.png
@@ -23,13 +23,13 @@ Learn more about creating Explores in the [Looker documentation](https://docs.lo
 
 In this lab, you learn how to visualize data in Looker using Explores.
 
-* Use the Explore interface to access data published by LookML developers.
+*   Use the Explore interface to access data published by LookML developers.
     
-* Work with Dimensions and Measures to query and select data.
+*   Work with Dimensions and Measures to query and select data.
     
-* Select the appropriate visualization type to best display your data.
+*   Select the appropriate visualization type to best display your data.
     
-* Save an Explore query to a dashboard.
+*   Save an Explore query to a dashboard.
     
 
 ## **Setup and requirements**
@@ -42,35 +42,35 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to Looker
 
-1. When ready, click .
+1.  When ready, click .
     
     A new panel will appear with the temporary credentials that you must use for this lab.
     
     If you need to pay for the lab, a pop-up will open for you to select your payment method.
     
-2. Note your lab credentials in the left pane. You will use them to sign in to the Looker instance for this lab.
+2.  Note your lab credentials in the left pane. You will use them to sign in to the Looker instance for this lab.
     
     **Note:** If you use other credentials, you will get **errors or incur charges**.
     
-3. Click **Open Looker**.
+3.  Click **Open Looker**.
     
-4. Enter the provided Username and Password in the Email and Password fields.
+4.  Enter the provided Username and Password in the Email and Password fields.
     
     **Important:** You must use the credentials from the Connection Details panel on this page. Do not use your Google Cloud Skills Boost credentials. If you have your own Looker account, do not use it for this lab.
     
-5. Click **Log In**.
+5.  Click **Log In**.
     
     After a successful login, you will see the Looker instance for this lab.
     
@@ -81,46 +81,46 @@ Looker Measures are an aggregation of one or more dimensions (or unique attribut
 
 In the Airports Explore, you will determine the average elevation across all airport facilities and show that number as a single value visualization.
 
-1. In the **Looker navigation menu**, click **Explore**.
+1.  In the **Looker navigation menu**, click **Explore**.
     
-2. Under **FAA**, click **Airports**.
+2.  Under **FAA**, click **Airports**.
     
     The available dimensions and measures will be listed in the data panel for Airports.
     
-3. Under **Airports** &gt; **Measures**, click **Average elevation**.
+3.  Under **Airports** > **Measures**, click **Average elevation**.
     
-4. Click **Run**.
+4.  Click **Run**.
     
-5. Click the arrow next to **Visualization** to expand the window.
+5.  Click the arrow next to **Visualization** to expand the window.
     
     Once the Visualization window has expanded, you can hover your cursor over the icons to identify the available options.
     
-6. Click the **Single value** icon.
+6.  Click the **Single value** icon.
     
     This option creates a single value visualization that you can customize. You can also make the chart larger by collapsing the data window.
     
-7. Click on the settings gear icon () for **Visualization**.
+7.  Click on the settings gear icon () for **Visualization**.
     
-8. Click **Edit** &gt; **Style**.
+8.  Click **Edit** > **Style**.
     
-9. Under **Style**, click on **Value color**, and select your choice of color.
+9.  Under **Style**, click on **Value color**, and select your choice of color.
     
-10. Under **Style**, enable **Show title**, and provide a title in **Title override** box.
-    
-11. Click on the gear icon for **Visualization** to close the settings.
-    
-12. Click on the settings gear icon () next to **Run**, and select **Save &gt; To an existing dashboard**.
-    
-13. Enter a title for the visualization: **Average elevation**.
-    
-14. Click **New Dashboard**.
-    
-15. Enter a title for the new dashboard: **Airports/Flights**.
-    
-16. Click **OK**.
-    
-17. Click **Save to Dashboard**.
-    
+10.  Under **Style**, enable **Show title**, and provide a title in **Title override** box.
+     
+11.  Click on the gear icon for **Visualization** to close the settings.
+     
+12.  Click on the settings gear icon () next to **Run**, and select **Save > To an existing dashboard**.
+     
+13.  Enter a title for the visualization: **Average elevation**.
+     
+14.  Click **New Dashboard**.
+     
+15.  Enter a title for the new dashboard: **Airports/Flights**.
+     
+16.  Click **OK**.
+     
+17.  Click **Save to Dashboard**.
+     
 
 Click **Check my progress** to verify the objective.
 
@@ -134,66 +134,68 @@ Dimensions are unique attributes of the data that helps you describe the data. F
 
 Next, identify the top 5 Facility Types with the highest average elevation and display the results as a bar chart. You will show the total number of airport facilities by Facility Type in the same chart.
 
-1. On the **Looker navigation menu**, click **Explore**.
+1.  On the **Looker navigation menu**, click **Explore**.
     
-2. Under **FAA**, click **Airports**.
+2.  Under **FAA**, click **Airports**.
     
     The available dimensions and measures will be listed in the data panel for Airports.
     
-3. Under **Airports &gt; Dimensions**, click **Facility type**.
+3.  Under **Airports > Dimensions**, click **Facility type**.
     
-4. Under **Airports &gt; Measures**, click **Average Elevation**.
+4.  Under **Airports > Measures**, click **Average Elevation**.
     
-5. Under **Airports &gt; Measures**, click **Count**.
+5.  Under **Airports > Measures**, click **Count**.
     
-6. On the **Data** tab, change **Row limit** to **5**.
+6.  On the **Data** tab, change **Row limit** to **5**.
     
-7. Click **Run**.
+7.  Click **Run**.
     
-8. Click the arrow next to **Visualization** to expand the window.
+8.  Click the arrow next to **Visualization** to expand the window.
     
     Once the Visualization window has expanded, you can hover your cursor over the icons to identify the available options.
     
-9. Click the **Bar** icon.
+9.  Click the **Bar** icon.
     
     This option creates a horizontal bar visualization that you can customize. You can also make the chart larger by collapsing the data window.
     
-10. Click on the settings gear icon () for **Visualization**.
-    
-11. Click **Values**.
-    
-12. Under **Values**, enable **Value labels**.
-    
-13. Click **Y**.
-    
-14. Under **Y**, click on **Airports** and drag it under **Top Axes**.
-    
-    **Average elevation** will remain under **Bottom Axes**.
-    
-15. Under **Configure axes &gt; Bottom 1**, enter an Axis name: **Count**
-    
-16. Click on the gear icon for **Visualization** to close the settings.
-    
-17. Click on settings gear icon () next to **Run**, and select **Save &gt; To an existing dashboard**.
-    
-18. Enter a title for the visualization: **Average elevation by facility type**.
-    
-19. Select the dashboard you previously created: **Airports/Flights**.
-    
-20. Click **Save to Dashboard**.
-    
+10.  Click on the settings gear icon () for **Visualization**.
+     
+11.  Click **Values**.
+     
+12.  Under **Values**, enable **Value labels**.
+     
+13.  Click **Y**.
+     
+14.  Under **Y**, click on **Airports** and drag it under **Top Axes**.
+     
+     **Average elevation** will remain under **Bottom Axes**.
+     
+15.  Under **Configure axes > Bottom 1**, enter an Axis name: **Count**
+     
+16.  Click on the gear icon for **Visualization** to close the settings.
+     
+17.  Click on settings gear icon () next to **Run**, and select **Save > To an existing dashboard**.
+     
+18.  Enter a title for the visualization: **Average elevation by facility type**.
+     
+19.  Select the dashboard you previously created: **Airports/Flights**.
+     
+20.  Click **Save to Dashboard**.
+     
 
 Click **Check my progress** below to check your lab progress.
 
 Visualize Dimensions and Measures
 
----
+* * *
 
 ## Solution of Lab
 
 ### Quick
 
 %[https://youtu.be/qxYbMRka_iQ] 
+
+Open **qwiklabs-flights** -> **faa.model**
 
 **faa.model file**
 
@@ -282,7 +284,7 @@ Average elevation by facility type
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768633939026/8c885567-717e-4a07-8835-9915d7d28885.png align="center")
 
----
+* * *
 
 ### Manual
 
@@ -290,115 +292,115 @@ Average elevation by facility type
 
 🔍 Step 1: Explore and Add a Measure
 
-1. From the left navigation, go to **Explore**.
+1.  From the left navigation, go to **Explore**.
     
-2. Under **FAA**, click **Airports**.
+2.  Under **FAA**, click **Airports**.
     
-3. In the **Data panel**, expand **Airports &gt; Measures** and select **Average elevation**.
+3.  In the **Data panel**, expand **Airports > Measures** and select **Average elevation**.
     
-4. Click **Run** to execute the query.
+4.  Click **Run** to execute the query.
     
 
----
+* * *
 
 📊 Step 2: Create a Single Value Visualization
 
-1. Click the arrow next to **Visualization** to expand the window.
+1.  Click the arrow next to **Visualization** to expand the window.
     
-2. Select the **Single Value** icon.
+2.  Select the **Single Value** icon.
     
-3. Click the **⚙️ settings gear** in the Visualization section:
+3.  Click the **⚙️ settings gear** in the Visualization section:
     
-    * Go to `Edit > Style`
+    *   Go to `Edit > Style`
         
-    * Set a **Value color**.
+    *   Set a **Value color**.
         
-    * Enable **Show title** and enter a title (e.g., `Average Elevation`).
+    *   Enable **Show title** and enter a title (e.g., `Average Elevation`).
         
-4. Close the settings panel.
+4.  Close the settings panel.
     
 
----
+* * *
 
 💾 Step 3: Save to a New Dashboard
 
-1. Click the **⚙️ settings gear** next to **Run** → choose **Save &gt; To an existing dashboard**.
+1.  Click the **⚙️ settings gear** next to **Run** → choose **Save > To an existing dashboard**.
     
-2. Enter the following:
+2.  Enter the following:
     
-    * **Title for visualization:** `Average elevation`
+    *   **Title for visualization:** `Average elevation`
         
-    * **New Dashboard name:** `Airports/Flights`
+    *   **New Dashboard name:** `Airports/Flights`
         
-3. Click **OK** → **Save to Dashboard**.
+3.  Click **OK** → **Save to Dashboard**.
     
 
 ✅ Now, you’ve successfully created a new dashboard named **Airports/Flights** with a single-value visualization.
 
----
+* * *
 
 **📈 Task 2: Visualize Dimensions and Measures with a Bar Chart**
 
 🔍 Step 1: Select Dimensions and Measures
 
-1. Go back to **Explore &gt; Airports**.
+1.  Go back to **Explore > Airports**.
     
-2. In the **Data panel**:
+2.  In the **Data panel**:
     
-    * Under **Dimensions**, select `Facility type`.
+    *   Under **Dimensions**, select `Facility type`.
         
-    * Under **Measures**, select `Average elevation` and `Count`.
+    *   Under **Measures**, select `Average elevation` and `Count`.
         
-3. In the **Data** tab, change the **Row limit** to `5`.
+3.  In the **Data** tab, change the **Row limit** to `5`.
     
-4. Click **Run**.
+4.  Click **Run**.
     
 
----
+* * *
 
 📊 Step 2: Create a Bar Chart Visualization
 
-1. Expand the **Visualization** window.
+1.  Expand the **Visualization** window.
     
-2. Choose the **Bar chart** icon.
+2.  Choose the **Bar chart** icon.
     
-3. Click the **⚙️ settings gear** to customize:
+3.  Click the **⚙️ settings gear** to customize:
     
-    * Under **Values**, enable **Value labels**.
+    *   Under **Values**, enable **Value labels**.
         
-    * Under **Y**, drag `Airports` to **Top Axes**.
+    *   Under **Y**, drag `Airports` to **Top Axes**.
         
-    * Keep `Average elevation` under **Bottom Axes**.
+    *   Keep `Average elevation` under **Bottom Axes**.
         
-    * Under **Configure axes &gt; Bottom 1**, rename the axis to **Count**.
+    *   Under **Configure axes > Bottom 1**, rename the axis to **Count**.
         
-4. Close the settings panel.
+4.  Close the settings panel.
     
 
----
+* * *
 
 💾 Step 3: Save to Existing Dashboard
 
-1. Click the **⚙️ settings gear** next to **Run** → **Save &gt; To an existing dashboard**.
+1.  Click the **⚙️ settings gear** next to **Run** → **Save > To an existing dashboard**.
     
-2. Enter the visualization title: `Average elevation by facility type`.
+2.  Enter the visualization title: `Average elevation by facility type`.
     
-3. Choose the previously created dashboard: **Airports/Flights**.
+3.  Choose the previously created dashboard: **Airports/Flights**.
     
-4. Click **Save to Dashboard**.
+4.  Click **Save to Dashboard**.
     
 
 ✅ Your **Airports/Flights** dashboard now contains:
 
-* A **Single Value visualization** showing the average elevation.
+*   A **Single Value visualization** showing the average elevation.
     
-* A **Bar Chart visualization** showing the top 5 facility types by average elevation and total count.
+*   A **Bar Chart visualization** showing the top 5 facility types by average elevation and total count.
     
 
----
+* * *
 
 **✅ Final Check**
 
-* Go back to the lab page and click **Check my progress**.
+*   Go back to the lab page and click **Check my progress**.
     
-* You should see both objectives marked as **Completed** 🎉
+*   You should see both objectives marked as **Completed** 🎉
