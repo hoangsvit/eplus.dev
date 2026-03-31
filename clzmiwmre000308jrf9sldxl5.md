@@ -2,7 +2,7 @@
 title: "Create a Component Anomaly Detection Model using Visual Inspection AI - GSP895"
 seoTitle: "Create a Component Anomaly Detection Model using Visual Inspection AI"
 seoDescription: "Visual Inspection AI Assembly Inspection inspects products when components come together during some designated stage of assembling a product. For such insp"
-datePublished: Fri Aug 09 2024 09:47:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-09T09:47:19.226Z
 cuid: clzmiwmre000308jrf9sldxl5
 slug: create-a-component-anomaly-detection-model-using-visual-inspection-ai-gsp895
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723196270669/daf28450-6bee-4514-b494-8332576a81f5.png
