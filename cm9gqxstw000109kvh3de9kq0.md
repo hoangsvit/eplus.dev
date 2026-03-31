@@ -4,7 +4,7 @@ seoTitle: "Arcade Quiz: Network Engineer Challenge - osl-arc-0007"
 seoDescription: "Welcome to the Arcade Quiz. Here we bring you a dose of knowledge on random topics.
 
 Are you ready to rise to the top? The Arcade Quiz is your opportunity t"
-datePublished: Mon Apr 14 2025 07:22:36 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-14T07:22:36.981Z
 cuid: cm9gqxstw000109kvh3de9kq0
 slug: arcade-quiz-network-engineer-challenge-osl-arc-0007
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744615274983/8adc8f14-83d4-4d80-9d7a-87c23e226264.png
