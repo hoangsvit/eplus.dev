@@ -2,7 +2,7 @@
 title: "Knowledge check: State or stateless - React Basic"
 seoTitle: "Knowledge check: State or stateless - React Basic"
 seoDescription: "Knowledge check: State or stateless - React Basic"
-datePublished: Thu Aug 08 2024 07:16:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-08T07:16:02.395Z
 cuid: clzky28d7001a09jn5qi7fqub
 slug: knowledge-check-state-or-stateless-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723101334970/337f74fd-a731-4fa2-8fa5-5e73606e080e.png
