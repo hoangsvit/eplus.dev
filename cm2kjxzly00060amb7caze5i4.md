@@ -2,7 +2,7 @@
 title: "Project Planning: Putting It All Together - Module 1 Challenge"
 seoTitle: "Project Planning: Putting It All Together - Module 1 Challenge"
 seoDescription: "Project Planning: Putting It All Together - Module 1 Challenge"
-datePublished: Tue Oct 22 2024 14:39:56 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-22T14:39:56.806Z
 cuid: cm2kjxzly00060amb7caze5i4
 slug: project-planning-putting-it-all-together-module-1-challenge
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729607951490/1b677b35-dc09-430f-93ce-a31c04846f89.png
