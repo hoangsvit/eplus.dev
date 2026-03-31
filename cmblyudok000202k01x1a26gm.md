@@ -4,7 +4,7 @@ seoTitle: "Using Role-based Access Control in Kubernetes Engine - GSP493"
 seoDescription: "This lab covers the usage and debugging of role-based access control (RBAC) in a Kubernetes Engine cluster.
 
 While RBAC resource definitions are standard ac"
-datePublished: Sat Jun 07 2025 08:22:09 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-07T08:22:09.860Z
 cuid: cmblyudok000202k01x1a26gm
 slug: using-role-based-access-control-in-kubernetes-engine-gsp493
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749284435934/fe4c29da-0d23-46dd-8c5d-7411757c4d74.png
