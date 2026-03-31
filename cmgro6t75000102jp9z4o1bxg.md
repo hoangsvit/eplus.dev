@@ -2,7 +2,7 @@
 title: "Skills Boost Arcade Trivia October 2025 Week 2 (Solution)"
 seoTitle: "Skills Boost Arcade Trivia October 2025 Week 2 (Solution)"
 seoDescription: "Advance your career with Skills Boost Arcade Trivia: Experience Google Cloud, Kubernetes, GKE, and IAM best practices"
-datePublished: Wed Oct 15 2025 07:29:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-15T07:29:02.801Z
 cuid: cmgro6t75000102jp9z4o1bxg
 slug: skills-boost-arcade-trivia-october-2025-week-2-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760513310045/a5470ef4-fbaf-429d-9255-71b61da7a718.png
