@@ -2,7 +2,7 @@
 title: "Module Quiz: Introduction to the Full Stack"
 seoTitle: "Module Quiz: Introduction to the Full Stack"
 seoDescription: "Module Quiz: Introduction to the Full Stack"
-datePublished: Wed Nov 13 2024 06:43:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-13T06:43:12.956Z
 cuid: cm3filnek001l09jp7jwd93lj
 slug: module-quiz-introduction-to-the-full-stack
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731480154222/c24fc4ff-f803-4de6-a629-d258d983a2fc.png
