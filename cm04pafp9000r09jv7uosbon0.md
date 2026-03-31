@@ -4,7 +4,7 @@ seoTitle: "Analyzing Findings with Security Command Center - GSP1164"
 seoDescription: "Security Command Center (SCC) is a security monitoring platform that helps users:
 
 Discover security-related misconfigurations of Google Cloud resources."
-datePublished: Thu Aug 22 2024 03:05:52 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-22T03:05:52.125Z
 cuid: cm04pafp9000r09jv7uosbon0
 slug: analyzing-findings-with-security-command-center-gsp1164
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752724997136/3dbb3c99-8ba0-4295-8747-02b012f75c6b.png
