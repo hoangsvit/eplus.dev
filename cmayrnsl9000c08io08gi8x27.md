@@ -2,7 +2,7 @@
 title: "Managing Deployments Using Kubernetes Engine - GSP053"
 seoTitle: "Managing Deployments Using Kubernetes Engine - GSP053"
 seoDescription: "DevOps practices will regularly make use of multiple deployments to manage application deployment scenarios such as "Continuous deployment", "Blue-Green de"
-datePublished: Thu May 22 2025 02:42:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-22T02:42:23.229Z
 cuid: cmayrnsl9000c08io08gi8x27
 slug: managing-deployments-using-kubernetes-engine-gsp053
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747881633630/0befdf1b-fb65-4886-89e1-653603fbb7d7.png
