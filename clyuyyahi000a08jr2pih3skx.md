@@ -2,7 +2,7 @@
 title: "Self review: Managing a project in GitHub"
 seoTitle: "Self review: Managing a project in GitHub"
 seoDescription: "Self review: Managing a project in GitHub"
-datePublished: Sun Jul 21 2024 02:58:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T02:58:57.558Z
 cuid: clyuyyahi000a08jr2pih3skx
 slug: self-review-managing-a-project-in-github
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721530707252/8bfcd304-c823-4a5d-91f6-c6f0c2734b0b.png
