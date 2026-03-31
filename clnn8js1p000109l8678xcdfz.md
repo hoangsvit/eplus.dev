@@ -2,7 +2,7 @@
 title: "Build a simple Laravel development environment with docker-compose"
 seoTitle: "Build a simple Laravel development environment with docker-compose"
 seoDescription: "Build a simple Laravel development environment with docker-compose. Compatible with Windows(WSL2), macOS(M1) and Linux."
-datePublished: Thu Oct 12 2023 13:48:41 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-10-12T13:48:41.533Z
 cuid: clnn8js1p000109l8678xcdfz
 slug: build-a-simple-laravel-development-environment-with-docker-compose
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1697118372902/29cbdedb-01d2-485b-a059-95d70c75c139.png
