@@ -2,7 +2,7 @@
 title: "Spotube - Ứng dụng nghe nhạc Spotify, YouTube, Piped.video và JioSaavn miễn phí"
 seoTitle: "Spotube - Ứng dụng nghe nhạc Spotify, YouTube, Piped.video và JioSaavn"
 seoDescription: "Spotube là một phần mềm nghe nhạc mã nguồn mở hỗ trợ đa nền tảng sử dụng API của Spotify, YouTube, Piped.video và JioSaavn, với các tính năng nổi bật như:"
-datePublished: Wed Aug 14 2024 06:32:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-14T06:32:45.174Z
 cuid: clzth5oc6000v0alag1el8s2h
 slug: spotube-ung-dung-nghe-nhac-spotify-youtube-pipedvideo-va-jiosaavn-mien-phi
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723616985078/c6bf35f5-8749-4b59-a373-490e3d974f91.jpeg
