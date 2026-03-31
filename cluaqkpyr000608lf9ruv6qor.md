@@ -2,7 +2,7 @@
 title: "Get Started with TensorFlow on Google Cloud: Challenge Lab"
 seoTitle: "Get Started with TensorFlow on Google Cloud: Challenge Lab"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Thu Mar 28 2024 04:30:14 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-03-28T04:30:14.643Z
 cuid: cluaqkpyr000608lf9ruv6qor
 slug: get-started-with-tensorflow-on-google-cloud-challenge-lab
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711600139295/c5aeb2fb-02a5-4330-bfda-cab678dd1870.png
