@@ -2,7 +2,7 @@
 title: "Skills Boost Arcade Trivia March 2025 Week 2 (Solution)"
 seoTitle: "Skills Boost Arcade Trivia March 2025 Week 2 (Solution)"
 seoDescription: "Welcome to Skills Boost Arcade Trivia March 2025! Give your career a boost with hands-on experience with different Google Cloud and partner services."
-datePublished: Mon Mar 17 2025 08:42:52 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-17T08:42:52.650Z
 cuid: cm8cth5yi000a09l78mfp3gfn
 slug: skills-boost-arcade-trivia-march-2025-week-2-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742200917224/f51b52c3-c7f6-4fe1-b670-e326d193831f.png
