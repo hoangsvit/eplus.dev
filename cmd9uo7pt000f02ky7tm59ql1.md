@@ -2,7 +2,7 @@
 title: "Cloud Run Canary Deployments - GSP1078"
 seoTitle: "Cloud Run Canary Deployments - GSP1078"
 seoDescription: "Learn how to implement a Cloud Run deployment pipeline with canary testing and traffic management for developers and DevOps engineers"
-datePublished: Sat Jul 19 2025 06:11:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-19T06:11:34.289Z
 cuid: cmd9uo7pt000f02ky7tm59ql1
 slug: cloud-run-canary-deployments-gsp1078
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752904082497/ff4f953d-3fce-4587-bd8a-834401259a72.png
@@ -23,13 +23,13 @@ This lab is for developers and DevOps engineers who are responsible for creating
 
 In this lab, you learn how to:
 
-* Create a Cloud Run service.
+*   Create a Cloud Run service.
     
-* Enable a developer branch.
+*   Enable a developer branch.
     
-* Implement a canary testing.
+*   Implement a canary testing.
     
-* Safely rollout revisions to production.
+*   Safely rollout revisions to production.
     
 
 ### Prerequisites
@@ -48,29 +48,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -78,7 +78,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-03-1e31e8d5db90@qwiklabs.net
@@ -86,9 +86,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     VZOCcAo2sLT1
@@ -96,19 +96,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -121,13 +121,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-02-7b1a2214d5f8`. The output contains a line that declares the **Project\_ID** for this session:
@@ -138,14 +138,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-02-7b1a2214d5
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -158,7 +158,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -176,7 +176,7 @@ project = qwiklabs-gcp-02-7b1a2214d5f8
 
 ## Task 1. Prepare your environment
 
-1. In Cloud Shell, run the following code to create environment variables to use in this lab:
+1.  In Cloud Shell, run the following code to create environment variables to use in this lab:
     
 
 ```apache
@@ -188,20 +188,20 @@ gcloud config set compute/region $REGION
 
 In the next step, you enable the following APIs:
 
-* Cloud Resource Manager
+*   Cloud Resource Manager
     
-* GKE
+*   GKE
     
-* Cloud Build
+*   Cloud Build
     
-* Container Registry
+*   Container Registry
     
-* Cloud Run
+*   Cloud Run
     
-* Secret Manager
+*   Secret Manager
     
 
-2. Run the following code to enable the APIs:
+2.  Run the following code to enable the APIs:
     
 
 ```apache
@@ -214,7 +214,7 @@ run.googleapis.com \
 secretmanager.googleapis.com
 ```
 
-3. Grant the Secret Manager Admin role (roles/secretmanager.admin) to the Cloud Build Service Agent by running the following command:
+3.  Grant the Secret Manager Admin role (roles/secretmanager.admin) to the Cloud Build Service Agent by running the following command:
     
 
 ```apache
@@ -223,7 +223,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
 --role=roles/secretmanager.admin
 ```
 
-4. Run the following commands to configure Git and GitHub in Cloud Shell.
+4.  Run the following commands to configure Git and GitHub in Cloud Shell.
     
     ```apache
     curl -sS https://webi.sh/gh | sh
@@ -237,28 +237,28 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
     ```
     
 
-* Press ENTER to accept the default options. The last default you accept is to **Login with a web browser**.
+*   Press ENTER to accept the default options. The last default you accept is to **Login with a web browser**.
     
-* Copy the one-time code, and then click the URL provided in the output that takes you to GitHub.
+*   Copy the one-time code, and then click the URL provided in the output that takes you to GitHub.
     
-* In GitHub, follow the prompts to connect this project to your GitHub account. This involves signing into your GitHub account, entering the one-time code when prompted, then authorizing the connection to GitHub CLI.
+*   In GitHub, follow the prompts to connect this project to your GitHub account. This involves signing into your GitHub account, entering the one-time code when prompted, then authorizing the connection to GitHub CLI.
     
 
-5. Back in Cloud Shell, run the following command to create an empty repository named `cloudrun-progression` in GitHub Repositories:
+5.  Back in Cloud Shell, run the following command to create an empty repository named `cloudrun-progression` in GitHub Repositories:
     
 
 ```apache
 gh repo create cloudrun-progression --private
 ```
 
-6. Clone and prepare the sample repository:
+6.  Clone and prepare the sample repository:
     
 
 ```apache
 git clone https://github.com/GoogleCloudPlatform/training-data-analyst
 ```
 
-7. Use the following command to copy the sample code into your `cloudrun-progression` directory:
+7.  Use the following command to copy the sample code into your `cloudrun-progression` directory:
     
 
 ```apache
@@ -267,19 +267,19 @@ cp -r /home/$USER/training-data-analyst/self-paced-labs/cloud-run/canary/*  clou
 cd cloudrun-progression
 ```
 
-8. Click **Open Editor** to open Cloud Shell Editor. For the following files, set `REGION` in the `Default Values` section to `us-west1`:
+8.  Click **Open Editor** to open Cloud Shell Editor. For the following files, set `REGION` in the `Default Values` section to `us-west1`:
     
 
-* `branch-cloudbuild.yaml`
+*   `branch-cloudbuild.yaml`
     
-* `master-cloudbuild.yaml`
+*   `master-cloudbuild.yaml`
     
-* `tag-cloudbuild.yaml`
+*   `tag-cloudbuild.yaml`
     
 
 **Note :** Optionally you can use any code editor, this lab provides instructions for Cloud Shell Editor.
 
-9. Click **Open Terminal** to return to the Cloud Shell terminal window and run the commands below. These commands replace the placeholder values in the sample repository with your `PROJECT_ID` and `PROJECT_NUMBER`:
+9.  Click **Open Terminal** to return to the Cloud Shell terminal window and run the commands below. These commands replace the placeholder values in the sample repository with your `PROJECT_ID` and `PROJECT_NUMBER`:
     
 
 ```apache
@@ -288,8 +288,8 @@ sed -e "s/PROJECT/${PROJECT_ID}/g" -e "s/NUMBER/${PROJECT_NUMBER}/g" master-trig
 sed -e "s/PROJECT/${PROJECT_ID}/g" -e "s/NUMBER/${PROJECT_NUMBER}/g" tag-trigger.json-tmpl > tag-trigger.json
 ```
 
-10. Make your first commit with the sample code added to your **cloudrun-progression** directory, and push the changes to the master branch:
-    
+10.  Make your first commit with the sample code added to your **cloudrun-progression** directory, and push the changes to the master branch:
+     
 
 ```apache
 git init
@@ -308,7 +308,7 @@ Preparing your environment
 
 In this section, you build and deploy the initial production application that you use throughout this lab.
 
-1. In Cloud Shell, build and deploy the application, which includes a service that requires authentication.
+1.  In Cloud Shell, build and deploy the application, which includes a service that requires authentication.
     
 
 ```apache
@@ -337,13 +337,13 @@ The output includes the service URL and a unique URL for the revision. Your valu
 
 After the deployment completes, you can view the newly deployed service:
 
-2. In the Google Cloud console, in the **Navigation menu** (), click **Cloud Run**.
+2.  In the Google Cloud console, in the **Navigation menu** (), click **Cloud Run**.
     
-3. Click **hello-cloudrun** from the **Services** list to open the **Service details** page.
+3.  Click **hello-cloudrun** from the **Services** list to open the **Service details** page.
     
-4. Click the **Revisions** tab to view the **hello-cloudrun** status.
+4.  Click the **Revisions** tab to view the **hello-cloudrun** status.
     
-5. To view the authenticated service response, return to Cloud Shell and run the following commands:
+5.  To view the authenticated service response, return to Cloud Shell and run the following commands:
     
 
 ```apache
@@ -360,7 +360,7 @@ Create the CloudRun service and view the authenticated service response
 
 In this section, you provide developers with a unique URL for development branches in your GitHub account. Each branch is represented by a URL identified by the branch name. Commits to the branch trigger a deployment, and the updates are accessible at that same URL.
 
-1. In Cloud Shell, enter the following command to initiate a connection to your GitHub repository:
+1.  In Cloud Shell, enter the following command to initiate a connection to your GitHub repository:
     
 
 ```apache
@@ -369,7 +369,7 @@ gcloud builds connections create github cloud-build-connection --project=$PROJEC
 gcloud builds connections describe cloud-build-connection --region=$REGION
 ```
 
-2. In the output, copy (do not click) the **actionUri** URL.
+2.  In the output, copy (do not click) the **actionUri** URL.
     
 
 Be sure that you are copying the URL in the **actionUri** field in a new tab. If you click, you may not be directed to the correct location.
@@ -388,13 +388,13 @@ reconciling: false
 updateTime: '2024-12-12T08:52:48.505263316Z'
 ```
 
-3. Click **Continue**. Install the Cloud Build GitHub App in your GitHub account.
+3.  Click **Continue**. Install the Cloud Build GitHub App in your GitHub account.
     
-4. Choose **Only select repositories**, and then click **Select repositories** and select the `cloudrun-progression` repository.
+4.  Choose **Only select repositories**, and then click **Select repositories** and select the `cloudrun-progression` repository.
     
-5. Click **Save**.
+5.  Click **Save**.
     
-6. In Cloud Shell, enter the following command to create a Cloud Build repository:
+6.  In Cloud Shell, enter the following command to create a Cloud Build repository:
     
 
 ```apache
@@ -405,7 +405,7 @@ gcloud builds repositories create cloudrun-progression \
 
 ### Set up the trigger
 
-1. In Cloud Shell, run the following command to set up the trigger:
+1.  In Cloud Shell, run the following command to set up the trigger:
     
 
 ```apache
@@ -417,18 +417,18 @@ gcloud builds triggers create github --name="branch" \
    --branch-pattern='[^(?!.*master)].*'
 ```
 
-2. To review the trigger, select **Cloud Build** from the Google Cloud console menu and select **Triggers**.
+2.  To review the trigger, select **Cloud Build** from the Google Cloud console menu and select **Triggers**.
     
-3. In Cloud Shell, create a new branch:
+3.  In Cloud Shell, create a new branch:
     
 
 ```apache
 git checkout -b new-feature-1
 ```
 
-4. Click **Open Editor** to open the sample application code in Cloud Shell Editor:
+4.  Click **Open Editor** to open the sample application code in Cloud Shell Editor:
     
-5. In the sample application (**~/cloudrun-progression/app.py**), in line 24, change `v1.0` to `v1.1`:
+5.  In the sample application (**~/cloudrun-progression/app.py**), in line 24, change `v1.0` to `v1.1`:
     
 
 ```apache
@@ -437,41 +437,41 @@ def hello_world():
 return 'Hello World v1.1'
 ```
 
-6. Click **Open Terminal** to return to your Cloud Shell terminal.
+6.  Click **Open Terminal** to return to your Cloud Shell terminal.
     
-7. In Cloud Shell, commit the change and push it to the remote repository:
+7.  In Cloud Shell, commit the change and push it to the remote repository:
     
 
 ```apache
 git add . && git commit -m "updated" && git push gcp new-feature-1
 ```
 
-8. To review the build in progress, go back to the **Cloud Build** page and view the current build running on your new branch.
+8.  To review the build in progress, go back to the **Cloud Build** page and view the current build running on your new branch.
     
-9. When the build completes, review the revision:
+9.  When the build completes, review the revision:
     
 
-* The **Cloud Run** page should still be open in the console. Otherwise, in the **Navigation menu** click **Cloud Run**.
+*   The **Cloud Run** page should still be open in the console. Otherwise, in the **Navigation menu** click **Cloud Run**.
     
-* Choose the **hello-cloudrun service**.
+*   Choose the **hello-cloudrun service**.
     
-* Select the **Revisions** tab.
+*   Select the **Revisions** tab.
     
 
 Click **Check my progress** to verify the objective.
 
 Connect to a GitHub repository, set up the branch trigger and update the sample application
 
-10. In Cloud Shell, get the unique URL for this branch:
-    
+10.  In Cloud Shell, get the unique URL for this branch:
+     
 
 ```apache
 BRANCH_URL=$(gcloud run services describe hello-cloudrun --platform managed --region $REGION --format=json | jq --raw-output ".status.traffic[] | select (.tag==\"new-feature-1\")|.url")
 echo $BRANCH_URL
 ```
 
-11. Access the authenticated URL:
-    
+11.  Access the authenticated URL:
+     
 
 ```apache
 curl -H "Authorization: Bearer $(gcloud auth print-identity-token)" $BRANCH_URL
@@ -489,7 +489,7 @@ When code is released to production, it's common to release a small subset of li
 
 In this section, you implement a trigger that activates by a code commit to the main branch. The trigger deploys the code to a unique canary URL and routes 10% of the live traffic to it.
 
-1. In Cloud Shell, set up the branch trigger:
+1.  In Cloud Shell, set up the branch trigger:
     
 
 ```apache
@@ -501,9 +501,9 @@ gcloud builds triggers create github --name="master" \
    --branch-pattern='master'
 ```
 
-2. To review the new trigger, go to the **Cloud Build &gt; Triggers** page.
+2.  To review the new trigger, go to the **Cloud Build > Triggers** page.
     
-3. In Cloud Shell, merge the branch to the main line and push to the remote repository:
+3.  In Cloud Shell, merge the branch to the main line and push to the remote repository:
     
 
 ```apache
@@ -512,9 +512,9 @@ git merge new-feature-1
 git push gcp master
 ```
 
-4. To review the build in progress, go back to the **Cloud Build** page and view the current build.
+4.  To review the build in progress, go back to the **Cloud Build** page and view the current build.
     
-5. After the build completes, to review the new revision, go to **Cloud Run**, choose the **hello-cloudrun service** , and select the **Revisions** page. Note that 90% of the traffic is routed to prod, 10% to canary, and 0% to the branch revisions.
+5.  After the build completes, to review the new revision, go to **Cloud Run**, choose the **hello-cloudrun service** , and select the **Revisions** page. Note that 90% of the traffic is routed to prod, 10% to canary, and 0% to the branch revisions.
     
 
 ![Revisions page showing percentage of traffic on each revision](https://cdn.qwiklabs.com/ofBtRhde8X03IPSk4EP5LmHY9IUSvMEDgknkkq2SIG4%3D align="left")
@@ -523,7 +523,7 @@ Click **Check my progress** to verify the objective.
 
 Create the master trigger and build a new revision
 
-6. Review the key lines of `master-cloudbuild.yaml` that implement the logic for the canary deploy.
+6.  Review the key lines of `master-cloudbuild.yaml` that implement the logic for the canary deploy.
     
 
 Lines 39-44 deploy the new revision and use the tag flag to route traffic from the unique canary URL:
@@ -551,7 +551,7 @@ Line 62 updates the traffic to route 90% to production and 10% to canary:
 gcloud run services update-traffic ${_SERVICE_NAME} --to-revisions=$${PROD}=90,$${CANARY}=10 --platform managed --region ${_REGION}
 ```
 
-7. In Cloud Shell, get the unique URL for the canary revision:
+7.  In Cloud Shell, get the unique URL for the canary revision:
     
 
 ```apache
@@ -559,14 +559,14 @@ CANARY_URL=$(gcloud run services describe hello-cloudrun --platform managed --re
 echo $CANARY_URL
 ```
 
-8. Review the canary endpoint directly:
+8.  Review the canary endpoint directly:
     
 
 ```apache
 curl -H "Authorization: Bearer $(gcloud auth print-identity-token)" $CANARY_URL
 ```
 
-9. To see percentage-based responses, make a series of requests:
+9.  To see percentage-based responses, make a series of requests:
     
 
 ```apache
@@ -582,7 +582,7 @@ After you validate the canary deployment with a small subset of traffic, release
 
 In this section, you set up a trigger that is activated when you create a tag in the repository. The trigger migrates 100% of traffic to the already deployed revision based on the commit SHA of the tag. Using the commit SHA ensures the revision validated with canary traffic is the revision utilized for the remainder of production traffic.
 
-1. In Cloud Shell, set up the tag trigger:
+1.  In Cloud Shell, set up the tag trigger:
     
 
 ```apache
@@ -594,9 +594,9 @@ gcloud builds triggers create github --name="tag" \
    --tag-pattern='.*'
 ```
 
-2. To review the new trigger, go to the console title bar, enter **Cloud Build Trigger** in the **Search** field, and then click **Triggers** in the search results.
+2.  To review the new trigger, go to the console title bar, enter **Cloud Build Trigger** in the **Search** field, and then click **Triggers** in the search results.
     
-3. Return to Cloud Shell to create a new tag and push the update to the remote repository:
+3.  Return to Cloud Shell to create a new tag and push the update to the remote repository:
     
 
 ```apache
@@ -604,9 +604,9 @@ git tag 1.1
 git push gcp 1.1
 ```
 
-4. To review the build in progress, return to the console with the **Cloud Build** page open, and click **History** in the left pane.
+4.  To review the build in progress, return to the console with the **Cloud Build** page open, and click **History** in the left pane.
     
-5. After the build is complete, still in the console, click the **hello-cloudrun service** and select the **Revisions** tab. The revision should now indicate the prod tag and be serving 100% of live traffic.
+5.  After the build is complete, still in the console, click the **hello-cloudrun service** and select the **Revisions** tab. The revision should now indicate the prod tag and be serving 100% of live traffic.
     
 
 ![Revisions page showing percentage of traffic on each revision](https://cdn.qwiklabs.com/wxg0Z4wZdd4XN9QI3JD5ju7NimPSrL7h1GSmKLlI%2B2s%3D align="left")
@@ -615,7 +615,7 @@ Click **Check my progress** to verify the objective.
 
 Create the tag trigger and view the updated revision
 
-6. In Cloud Shell, to see percentage-based responses, make a series of requests:
+6.  In Cloud Shell, to see percentage-based responses, make a series of requests:
     
 
 ```apache
@@ -625,7 +625,7 @@ curl -H "Authorization: Bearer $(gcloud auth print-identity-token)" $LIVE_URL; e
 done
 ```
 
-7. Review the key lines of `tag-cloudbuild.yaml` that implement the production deployment logic.
+7.  Review the key lines of `tag-cloudbuild.yaml` that implement the production deployment logic.
     
 
 Line 37 updates the canary revision adding the prod tag. The deployed revision is now tagged for both prod and canary:
@@ -644,31 +644,31 @@ gcloud run services update-traffic ${_SERVICE_NAME} --to-revisions=$${NEW_PROD}=
 
 To keep your GitHub account organized, remove the GitHub repo you created in this lab.
 
-1. In [GitHub.com](https://www.cloudskillsboost.google/games/6311/labs/GitHub.com), navigate to the `cloudrun-progression` repo.
+1.  In [GitHub.com](https://www.cloudskillsboost.google/games/6311/labs/GitHub.com), navigate to the `cloudrun-progression` repo.
     
-2. In the title bar, click **Settings**, then scroll down to the **Danger Zone** section.
+2.  In the title bar, click **Settings**, then scroll down to the **Danger Zone** section.
     
-3. Click **Delete this repository**.
+3.  Click **Delete this repository**.
     
-4. Step through the prompts that confirm you have the correct repository and that you want to delete it.
+4.  Step through the prompts that confirm you have the correct repository and that you want to delete it.
     
 
 **Warning:** Be sure you are deleting the correct repo, you cannot undo the deletion.
 
----
+* * *
 
 ## Solution of Lab
 
 ### Quick
 
-%[https://www.youtube.com/watch?v=_uxYHcCcQmI] 
+<iframe type="youtube" src="https://www.youtube.com/watch?v=_uxYHcCcQmI" data-node-type="hn-embed"></iframe>
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1078/lab.sh
 source lab.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1770785706437/326b5d50-3961-455c-a636-47a2dba1a191.png align="center")
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ad01dc57-ca0c-4205-a756-1d71d33658b3.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1770785812582/b010ea3c-9a65-4b9c-a6e6-289406e0064a.png align="center")
 
@@ -708,16 +708,16 @@ echo ${GITHUB_USERNAME}
 echo ${USER_EMAIL}
 ```
 
-* Press **ENTER** to accept the default options. The last default you accept is to **Login with a web browser**.  
+*   Press **ENTER** to accept the default options. The last default you accept is to **Login with a web browser**.  
     Copy the one-time code, and then click the URL provided in the output that takes you to GitHub.  
     In GitHub, follow the prompts to connect this project to your GitHub account.  
     This involves:
     
-    * Signing into your GitHub account
+    *   Signing into your GitHub account
         
-    * Entering the one-time code when prompted
+    *   Entering the one-time code when prompted
         
-    * Authorizing the connection to GitHub CLI
+    *   Authorizing the connection to GitHub CLI
         
 
 ```apache
@@ -766,9 +766,9 @@ gcloud builds connections create github cloud-build-connection --project=$PROJEC
 gcloud builds connections describe cloud-build-connection --region=$REGION
 ```
 
-* Click Continue. Install the Cloud Build GitHub App in your GitHub account.
+*   Click Continue. Install the Cloud Build GitHub App in your GitHub account.
     
-* Choose Only select repositories, and then click Select repositories and select the cloudrun-progression repository.
+*   Choose Only select repositories, and then click Select repositories and select the cloudrun-progression repository.
     
 
 **For Better Understading Follow the Video**
@@ -832,8 +832,8 @@ git tag 1.1
 git push gcp 1.1
 ```
 
----
+* * *
 
 ### Manual
 
-%[https://youtu.be/pxbOIKRnONY]
+<iframe type="youtube" src="https://youtu.be/pxbOIKRnONY" data-node-type="hn-embed"></iframe>
