@@ -2,7 +2,7 @@
 title: "Self review: Create and test a form"
 seoTitle: "Self review: Create and test a form"
 seoDescription: "Self review: Create and test a form"
-datePublished: Sun Jul 21 2024 12:59:37 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T12:59:37.147Z
 cuid: clyvkeqt7000009lb2nd31le0
 slug: self-review-create-and-test-a-form
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721566735733/0092eff5-8cd9-4c9f-90cc-9e65ba4a899e.png
