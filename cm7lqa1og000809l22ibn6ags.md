@@ -2,7 +2,7 @@
 title: "Postgres, MongoDB, and Pandas - Big Data Integration and Processing"
 seoTitle: "Postgres, MongoDB, and Pandas - Big Data Integration and Processing"
 seoDescription: "Postgres, MongoDB, and Pandas - Big Data Integration and Processing"
-datePublished: Wed Feb 26 2025 09:43:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-26T09:43:34.912Z
 cuid: cm7lqa1og000809l22ibn6ags
 slug: postgres-mongodb-and-pandas-big-data-integration-and-processing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740562981151/623c7b06-968c-412d-836b-6d49c8543466.png
