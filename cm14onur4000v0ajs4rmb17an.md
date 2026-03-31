@@ -2,7 +2,7 @@
 title: "Module quiz: React Hooks and Custom Hooks - Advanced React"
 seoTitle: "Module quiz: React Hooks and Custom Hooks - Advanced React"
 seoDescription: "Module quiz: React Hooks and Custom Hooks - Advanced React"
-datePublished: Mon Sep 16 2024 07:28:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-16T07:28:00.880Z
 cuid: cm14onur4000v0ajs4rmb17an
 slug: module-quiz-react-hooks-and-custom-hooks-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726471640843/82284a21-3b9e-4ab2-a071-fea55c7f4471.jpeg
