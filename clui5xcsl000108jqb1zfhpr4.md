@@ -2,7 +2,7 @@
 title: "Google Cloud Computing Foundations: Networking & Security in Google Cloud - Quiz"
 seoTitle: "Google Cloud Computing Foundations: Networking & Security in Google Cl"
 seoDescription: "Google Cloud Computing Foundations: Networking & Security in Google Cloud - Quiz"
-datePublished: Tue Apr 02 2024 09:14:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-04-02T09:14:21.573Z
 cuid: clui5xcsl000108jqb1zfhpr4
 slug: google-cloud-computing-foundations-networking-security-in-google-cloud-quiz
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712049212887/b6c9b00c-6a20-4f90-aee2-2b47fdd5979f.png
