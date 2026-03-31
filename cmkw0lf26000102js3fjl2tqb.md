@@ -2,7 +2,7 @@
 title: "Arcade Quiz: DevOps Engineer Challenge - osl-arc-0012"
 seoTitle: "Arcade Quiz: DevOps Engineer Challenge - osl-arc-0012"
 seoDescription: "Challenge your DevOps knowledge with our free and fun Arcade Quiz! Compete globally and aim for the top leaderboard spot"
-datePublished: Tue Jan 27 2026 03:06:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-27T03:06:13.758Z
 cuid: cmkw0lf26000102js3fjl2tqb
 slug: arcade-quiz-devops-engineer-challenge-osl-arc-0012-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769483093123/3404078f-b592-4409-bfae-12153b004931.png
