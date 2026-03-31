@@ -4,7 +4,7 @@ seoTitle: "Arcade Hero: Enter the Cloud Function Ruby - ARC234"
 seoDescription: "In this lab you will learn the fundamentals of Cloud Functions using Google Cloud.
 
 If you are new to Cloud Functions or looking for an overview of how to g"
-datePublished: Mon Aug 12 2024 01:40:51 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-12T01:40:51.805Z
 cuid: clzqbullp000008ldbvnk3mjm
 slug: arcade-hero-enter-the-cloud-function-ruby-arc234
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723426536924/be893aca-b414-496e-b6e7-539a7a9c0936.png
