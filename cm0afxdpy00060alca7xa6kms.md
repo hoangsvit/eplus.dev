@@ -2,7 +2,7 @@
 title: "HTTPS Content-Based Load Balancer with Terraform - GSP206"
 seoTitle: "HTTPS Content-Based Load Balancer with Terraform - GSP206"
 seoDescription: "In this lab, you will create an HTTPS load balancer to forward traffic to a custom URL map. The URL map sends traffic to the region closest to you with stat"
-datePublished: Mon Aug 26 2024 17:00:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-26T17:00:00.000Z
 cuid: cm0afxdpy00060alca7xa6kms
 slug: https-content-based-load-balancer-with-terraform-gsp206
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749611789081/3cf29251-a87c-4551-a71f-1d40139fd8a0.png
@@ -23,11 +23,11 @@ The following is a diagram of the architecture you will be creating:
 
 In this lab, you will:
 
-* Learn about the load balancing modules for Terraform
+*   Learn about the load balancing modules for Terraform
     
-* Configure Terraform in the Google Cloud environment
+*   Configure Terraform in the Google Cloud environment
     
-* Create a global HTTPS Content-Based Load Balancer
+*   Create a global HTTPS Content-Based Load Balancer
     
 
 ## **Setup and requirements**
@@ -40,29 +40,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -70,7 +70,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-73afd4b68bfe@qwiklabs.net
@@ -78,9 +78,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     bnUFjlqttBKI
@@ -88,19 +88,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -113,7 +113,7 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell**
+1.  Click **Activate Cloud Shell**
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="left")
     
@@ -128,14 +128,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-00-193596bba7
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-2. (Optional) You can list the active account name with this command:
+2.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-3. Click **Authorize**.
+3.  Click **Authorize**.
     
 
 **Output:**
@@ -148,7 +148,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-4. (Optional) You can list the project ID with this command:
+4.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -166,25 +166,25 @@ project = qwiklabs-gcp-00-193596bba74f
 
 ## **Task 1. Clone the sample repository**
 
-1. In Cloud Shell, clone the `terraform-google-lb-http` repository:
+1.  In Cloud Shell, clone the `terraform-google-lb-http` repository:
     
 
 ```apache
 git clone https://github.com/GoogleCloudPlatform/terraform-google-lb-http.git
 ```
 
-2. Navigate to the `multi-backend-multi-mig-bucket-https-lb` directory:
+2.  Navigate to the `multi-backend-multi-mig-bucket-https-lb` directory:
     
 
 ```apache
 cd ~/terraform-google-lb-http/examples/multi-backend-multi-mig-bucket-https-lb
 ```
 
-3. On the Cloud Shell toolbar, click the **Open Editor** icon.
+3.  On the Cloud Shell toolbar, click the **Open Editor** icon.
     
-4. Open the file `examples/multi-backend-multi-mig-bucket-https-lb/main.tf`.
+4.  Open the file `examples/multi-backend-multi-mig-bucket-https-lb/main.tf`.
     
-5. On line 133, inside the `gce-lb-https` module, add the following lines:
+5.  On line 133, inside the `gce-lb-https` module, add the following lines:
     
 
 ```apache
@@ -192,13 +192,13 @@ create_ssl_certificate = true
 managed_ssl_certificate_domains = ["example.com"]
 ```
 
-6. In the `examples/multi-backend-multi-mig-bucket-https-lb/variables.tf` file, update the region definitions to the following:
+6.  In the `examples/multi-backend-multi-mig-bucket-https-lb/variables.tf` file, update the region definitions to the following:
     
-    * **group1\_region** = `us-west1`
+    *   **group1\_region** = `us-west1`
         
-    * **group2\_region** = `europe-west1`
+    *   **group2\_region** = `europe-west1`
         
-    * **group3\_region** = `us-east4`
+    *   **group3\_region** = `us-east4`
         
 
 ## **Task 2. Run Terraform**
@@ -207,7 +207,7 @@ managed_ssl_certificate_domains = ["example.com"]
 
 The `terraform init` command is used to initialize a working directory containing Terraform configuration files. This command performs several different initialization steps to prepare a working directory for use. This command is always safe to run multiple times, to bring the working directory up to date with changes in the configuration.
 
-* Run the command:
+*   Run the command:
     
 
 ```apache
@@ -227,7 +227,7 @@ The `terraform plan` command is used to create an execution plan. Terraform perf
 
 This command is a convenient way to check whether the execution plan for a set of changes matches your expectations without making any changes to real resources or the state. For example, `terraform plan` might be run before committing a change to version control, to create confidence that it will behave as expected.
 
-1. Run the following command to create an execution plan:
+1.  Run the following command to create an execution plan:
     
 
 ```apache
@@ -243,7 +243,7 @@ Plan: 42 to add, 0 to change, 0 to destroy.
 
 The optional `-out` argument can be used to save the generated plan to a file for later execution with `terraform apply`.
 
-2. List out current directory content. You will see the saved Terraform plan (`tfplan`):
+2.  List out current directory content. You will see the saved Terraform plan (`tfplan`):
     
 
 ```apache
@@ -260,7 +260,7 @@ diagram.png  gceme.sh.tpl  gcp-logo.svg  main.tf  mig.tf  outputs.tf  README.md 
 
 The `terraform apply` command is used to apply the changes required to reach the desired state of the configuration, or the pre-determined set of actions generated by a terraform plan execution plan.
 
-1. Apply the Terraform plan:
+1.  Apply the Terraform plan:
     
 
 ```apache
@@ -280,18 +280,18 @@ asset-url = https://34.96.112.153/assets/gcp-logo.svg group1_region = us-west1 g
 
 Verify the resources created by Terraform:
 
-2. In the Navigation menu navigate to **Network services** &gt; **Load Balancing**.
+2.  In the Navigation menu navigate to **Network services** > **Load Balancing**.
     
-3. Wait until you see the green checkmark in the Backends column.
+3.  Wait until you see the green checkmark in the Backends column.
     
-4. Click on **ml-bk-ml-mig-bkt-s-lb** load balancer and check the details.
+4.  Click on **ml-bk-ml-mig-bkt-s-lb** load balancer and check the details.
     
 
 ![Load Balancer Frontend listing the available details, including the various protocols, hosts, and path rules.](https://cdn.qwiklabs.com/qQJmbqMRX0tkIC7Y7NMu0DTD7I6KAEg89WJV2dLA4u0%3D align="left")
 
 ![Load Balancer Backend listing the backend services and bucktes, each include items such as Type, Zone, and Capacity.](https://cdn.qwiklabs.com/6uEToq0a6IAMTjlqiRbnyK299HzfLSfXDby5sZTEMVY%3D align="left")
 
-5. Run the following to get the external URL:
+5.  Run the following to get the external URL:
     
 
 ```apache
@@ -302,7 +302,7 @@ EXTERNAL_IP=$(terraform output | grep load-balancer-ip | cut -d = -f2 | xargs ec
 echo https://${EXTERNAL_IP}
 ```
 
-6. Click on the `EXTERNAL_IP` link that is returned to open the load balancer URL in a new browser tab. It will take a few minutes to load.
+6.  Click on the `EXTERNAL_IP` link that is returned to open the load balancer URL in a new browser tab. It will take a few minutes to load.
     
 
 **Note:** If you don't get the expected output in the browser, make sure your load balancer details panel is the same as an above screenshot and wait for few minutes.
@@ -319,31 +319,38 @@ Apply the changes in Terraform
 
 **Check my progress**
 
-7. Now append the URL with `group1`, `group2` and `group3`.
+7.  Now append the URL with `group1`, `group2` and `group3`.
     
 
 Your final URLs should look like (make sure to replace `EXTERNAL_IP` with your load balancer IP):`https://EXTERNAL_IP/group1`
 
-* For `group1`: You should see the Google Cloud logo and instance details from the group in `us-west1`.
+*   For `group1`: You should see the Google Cloud logo and instance details from the group in `us-west1`.
     
 
 `https://EXTERNAL_IP/group2`
 
-* For `group2`: You should see the Google Cloud logo and instance details from the group in `europe-west1`
+*   For `group2`: You should see the Google Cloud logo and instance details from the group in `europe-west1`
     
 
 `https://EXTERNAL_IP/group3`
 
-* For `group3`: You should see the Google Cloud logo and instance details from the group in `us-east4`
+*   For `group3`: You should see the Google Cloud logo and instance details from the group in `us-east4`
     
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://youtu.be/CvUrKIhvSJs] 
+### Quick
 
-### Automation
+<iframe type="youtube" src="https://www.youtube.com/watch?v=D1_UPOR4uN4" data-node-type="hn-embed"></iframe>
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP206/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/HTTPS%20Content-Based%20Load%20Balancer%20with%20Terraform/abhishek.sh
@@ -351,20 +358,20 @@ sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1749613176080/85e82ff2-a43c-47d7-b240-f54b2c3ef41b.png align="center")
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/36fad7ea-405e-474d-9ed9-f1759bfb708e.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724736976658/571073f3-9438-475f-b1d1-3e1bb1cc0724.png align="center")
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text"><mark>Please wait 5-10 minutes</mark></div>
+<div data-node-type="callout-text"><mark class="bg-yellow-200 dark:bg-yellow-500/30">Please wait 5-10 minutes</mark></div>
 </div>
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724737188029/dc43669a-ab83-4cdc-a62f-3e05f5e25f52.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724737260513/b2256232-5994-4fb2-8777-3ce27ba62080.png align="center")
 
----
+* * *
 
 ### Manual
 
