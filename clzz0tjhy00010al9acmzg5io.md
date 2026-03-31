@@ -2,7 +2,7 @@
 title: "Deploy Kubernetes Applications on Google Cloud: Challenge Lab - GSP318"
 seoTitle: "Deploy Kubernetes Applications on Google Cloud: Challenge Lab - GSP318"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Sun Aug 18 2024 03:42:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-18T03:42:02.231Z
 cuid: clzz0tjhy00010al9acmzg5io
 slug: deploy-kubernetes-applications-on-google-cloud-challenge-lab-gsp318
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757645185946/659407ab-27d4-4cd7-90d0-e4785009f940.png
