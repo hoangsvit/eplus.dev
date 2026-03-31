@@ -2,7 +2,7 @@
 title: "Data Publishing on BigQuery using Authorized Views for Data Sharing Partners - GSP1041"
 seoTitle: "Data Publishing on BigQuery using Authorized Views for Data Sharing Pa"
 seoDescription: "A common scenario is where a Google Cloud Data Sharing Partner has proprietary datasets that customers can use for their analytics use cases. Customers need"
-datePublished: Sun Apr 13 2025 07:13:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-13T07:13:02.476Z
 cuid: cm9fb5mvg001309jl659jekah
 slug: data-publishing-on-bigquery-using-authorized-views-for-data-sharing-partners-gsp1041
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744527501032/3659b224-f082-4986-9d40-7dd6b986c18c.png
