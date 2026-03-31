@@ -2,7 +2,7 @@
 title: "Speech to Text Transcription with the Cloud Speech API - GSP048"
 seoTitle: "Speech to Text Transcription with the Cloud Speech API - GSP048"
 seoDescription: "Learn to transcribe audio using Google's Speech-to-Text API, supporting over 80 languages, with hands-on practice in this cloud lab"
-datePublished: Sat Aug 16 2025 09:24:37 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-16T09:24:37.278Z
 cuid: cmee1wbvh000202jidvw6g4ub
 slug: speech-to-text-transcription-with-the-cloud-speech-api-gsp048
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755335780253/fa4f5859-634c-423c-aca8-46061c551bdb.png
