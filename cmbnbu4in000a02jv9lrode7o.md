@@ -4,7 +4,7 @@ seoTitle: "Arcade Quiz: Data Practitioner Challenge - osl-arc-0013"
 seoDescription: "Welcome to the Arcade Quiz. Here we bring you a dose of knowledge on random topics.
 
 Are you ready to rise to the top? The Arcade Quiz is your opportunity t"
-datePublished: Sun Jun 08 2025 07:13:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-08T07:13:39.167Z
 cuid: cmbnbu4in000a02jv9lrode7o
 slug: arcade-quiz-data-practitioner-challenge-osl-arc-0013
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749366709075/2825a83d-23b1-4169-98e6-f12d120d33bc.png
