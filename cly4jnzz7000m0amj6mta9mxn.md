@@ -2,7 +2,7 @@
 title: "MongoDB Atlas Search"
 seoTitle: "MongoDB Atlas Search"
 seoDescription: "Atlas Search allows you to quickly and easily add a search feature to your application. Search can be tricky to tackle, especially if you have a lot of data"
-datePublished: Tue Jul 02 2024 15:09:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-02T15:09:02.563Z
 cuid: cly4jnzz7000m0amj6mta9mxn
 slug: mongodb-atlas-search
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719932926588/44e4d584-a66e-4530-9c66-5fe1e34adaea.png
