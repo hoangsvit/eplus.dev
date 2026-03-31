@@ -2,7 +2,7 @@
 title: "Knowledge check: Interacting with the API"
 seoTitle: "Knowledge check: Interacting with the API"
 seoDescription: "Knowledge check: Interacting with the API"
-datePublished: Sat Oct 05 2024 08:53:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-05T08:53:12.471Z
 cuid: cm1vx2ljr001u08l03kay8q4d
 slug: knowledge-check-interacting-with-the-api
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728118327745/0f7cb404-64c9-4e9f-833e-23f034377239.png
