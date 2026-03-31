@@ -2,7 +2,7 @@
 title: "Google Workspace Admin: Getting Started - GSP035"
 seoTitle: "Google Workspace Admin: Getting Started - GSP035"
 seoDescription: "Learn how to manage Google Workspace Admin: add users, customize settings, and improve collaboration with this hands-on guide. Perfect for beginners!"
-datePublished: Sat Jul 19 2025 08:15:56 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-19T08:15:56.104Z
 cuid: cmd9z45af000402l93bpo1fms
 slug: google-workspace-admin-getting-started-gsp035
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752912918238/5dcb5ea3-ef64-4c7f-85f0-242129fd7b0c.png
