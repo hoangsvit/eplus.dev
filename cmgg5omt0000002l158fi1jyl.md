@@ -2,7 +2,7 @@
 title: "Arcade Hero: Enter the Cloud Run functions PHP - ARC233"
 seoTitle: "Arcade Hero: Enter the Cloud Run functions PHP - ARC233"
 seoDescription: "Learn to implement Google Cloud's Cloud Run functions with hands-on practice in this beginner-friendly lab"
-datePublished: Tue Oct 07 2025 06:05:33 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-07T06:05:33.685Z
 cuid: cmgg5omt0000002l158fi1jyl
 slug: arcade-hero-enter-the-cloud-run-functions-php-arc233
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759816971306/89d49f4b-03cb-466a-8cb2-27e5e6b1c0c2.png
