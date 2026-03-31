@@ -2,7 +2,7 @@
 title: "Intro to Hadoop - Big Data"
 seoTitle: "Intro to Hadoop - Big Data"
 seoDescription: "Intro to Hadoop - Big Data"
-datePublished: Fri Dec 13 2024 07:09:11 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-13T07:09:11.830Z
 cuid: cm4meqm8m000209mh2h6jaat8
 slug: intro-to-hadoop-big-data
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734073733471/a36e0bad-f323-4e07-93e1-fcc24c14c0d4.png
