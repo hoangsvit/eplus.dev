@@ -2,7 +2,7 @@
 title: "Analyze Customer Reviews with Gemini Using SQL - GSP1246"
 seoTitle: "Analyze Customer Reviews with Gemini Using SQL - GSP1246"
 seoDescription: "In this lab you learn how to use BigQuery Machine Learning with remote models (Gemini Pro) in SQL to extract keywords, assess customer sentiment in customer"
-datePublished: Sat Jan 25 2025 09:07:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-25T09:07:42.322Z
 cuid: cm6bywnea001809i67sodgrx4
 slug: analyze-customer-reviews-with-gemini-using-sql-gsp1246
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737796015181/857077d7-e3d5-4ca2-b6a7-b770bb3369c5.png
