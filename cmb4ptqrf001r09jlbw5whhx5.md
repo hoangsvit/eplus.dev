@@ -2,7 +2,7 @@
 title: "Cloud Spanner - Loading Data and Performing Backups - GSP1049"
 seoTitle: "Cloud Spanner - Loading Data and Performing Backups - GSP1049"
 seoDescription: "Cloud Spanner is Google’s fully managed, horizontally scalable relational database service. Customers in financial services, gaming, retail and many other i"
-datePublished: Mon May 26 2025 06:37:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-26T06:37:38.619Z
 cuid: cmb4ptqrf001r09jlbw5whhx5
 slug: cloud-spanner-loading-data-and-performing-backups-gsp1049
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748241438545/0dd079cd-e5a4-403f-a313-050a79474832.png
