@@ -2,7 +2,7 @@
 title: "Loading Data into Cloud SQL - GSP196"
 seoTitle: "Loading Data into Cloud SQL - GSP196"
 seoDescription: "In this lab, you import data from CSV text files into Cloud SQL and then carry out some basic data analysis using simple queries."
-datePublished: Wed Sep 04 2024 08:06:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-04T08:06:39.342Z
 cuid: cm0nkrbou000008l85sxo3x7o
 slug: loading-data-into-cloud-sql-gsp196
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725436429589/436c9031-124a-4999-bb99-eca0fc415a53.jpeg
