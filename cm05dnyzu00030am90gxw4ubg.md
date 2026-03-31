@@ -2,7 +2,7 @@
 title: "Use Charts in Google Sheets - GSP1061"
 seoTitle: "Use Charts in Google Sheets - GSP1061"
 seoDescription: "For this lab you read through a fictitious business scenario. By completing the various lab activities, you assist the characters with their Google Sheets u"
-datePublished: Thu Aug 22 2024 14:28:14 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-22T14:28:14.442Z
 cuid: cm05dnyzu00030am90gxw4ubg
 slug: use-charts-in-google-sheets-gsp1061
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747554085275/069edcf1-99a7-4799-b7b5-de462e36455c.png
