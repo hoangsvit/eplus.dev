@@ -2,7 +2,7 @@
 title: "Getting Started with Redis and RediSearch - GSP763"
 seoTitle: "Getting Started with Redis and RediSearch - GSP763"
 seoDescription: "Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker. It is designed for applications requi"
-datePublished: Sun Jun 08 2025 06:22:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-08T06:22:06.270Z
 cuid: cmbn9zu0u000402l28xbzhvrf
 slug: getting-started-with-redis-and-redisearch-gsp763
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749363686864/470bf261-59ce-4821-b216-0e34fb88ba77.png
