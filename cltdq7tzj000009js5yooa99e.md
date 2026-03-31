@@ -2,7 +2,7 @@
 title: "Laravel 11 Scheduled for Release on Tuesday, March 12th, 2024"
 seoTitle: "Laravel 11 Scheduled for Release on Tuesday, March 12th, 2024"
 seoDescription: "Laravel 11 is set to be released in Q1 of 2024 and will include several new features and changes. The directory structure has been streamlined, with a reduc"
-datePublished: Tue Mar 05 2024 02:03:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-03-05T02:03:49.519Z
 cuid: cltdq7tzj000009js5yooa99e
 slug: laravel-11-scheduled-for-release-on-tuesday-march-12th-2024
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1709604119936/930a9a83-ea4b-4ae1-9ecb-036e8ca38d1d.webp
