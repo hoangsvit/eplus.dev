@@ -2,7 +2,7 @@
 title: "New Chrome features to save battery and make browsing smoother"
 seoTitle: "New Chrome features to save battery and make browsing smoother"
 seoDescription: "From the beginning, we designed Chrome for speed. But performance is more than just delivering a fast browsing experience. Today, we’re announcing Chrome wi"
-datePublished: Fri Dec 09 2022 01:47:09 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-12-09T01:47:09.344Z
 cuid: clbfulcwv000308ld6y48ew64
 slug: new-chrome-features-to-save-battery-and-make-browsing-smoother
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670550286470/6YRA2uqha.png
