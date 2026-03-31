@@ -2,7 +2,7 @@
 title: "Prism – Seamlessly Integrate LLMs into Your Laravel Applications"
 seoTitle: "Prism – Seamlessly Integrate LLMs into Your Laravel Applications"
 seoDescription: "Large Language Models (LLMs) have transformed the landscape of artificial intelligence—enabling everything from smart chatbots and content generation to adv"
-datePublished: Wed May 28 2025 01:23:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-28T01:23:13.226Z
 cuid: cmb79h3gq000g09jp4dqc240t
 slug: prism-seamlessly-integrate-llms-into-your-laravel-applications
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748395263494/51998caf-0b9f-49aa-b734-0383e9cf4541.png
