@@ -2,7 +2,7 @@
 title: "Django Web Framework - Module Quiz: Introduction to Django"
 seoTitle: "Django Web Framework - Module Quiz: Introduction to Django"
 seoDescription: "Django Web Framework - Module Quiz: Introduction to Django"
-datePublished: Sun Nov 10 2024 02:03:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-10T02:03:19.739Z
 cuid: cm3aya5ob000509kx1sy3gdbk
 slug: django-web-framework-module-quiz-introduction-to-django
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731204180157/302330c5-bea2-4519-beb1-2045d3c040e5.png
