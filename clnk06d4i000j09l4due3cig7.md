@@ -2,7 +2,7 @@
 title: "Improve Debugging Output With Laravel Dumper"
 seoTitle: "Improve Debugging Output With Laravel Dumper"
 seoDescription: "The Laravel dumper package improves on the default dumper with useful Laravel-specific enhancements."
-datePublished: Tue Oct 10 2023 07:31:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-10-10T07:31:00.210Z
 cuid: clnk06d4i000j09l4due3cig7
 slug: improve-debugging-output-with-laravel-dumper
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696922487382/38126a53-7d64-44a3-a552-e6a5852518bc.webp
