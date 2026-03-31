@@ -2,7 +2,7 @@
 title: "Deploy a Static Site with Nginx on Google Cloud Run using Artifact Registry - gem-cloud-run-nginx-website"
 seoTitle: "Deploy a Static Site with Nginx on Google Cloud Run using Artifact Reg"
 seoDescription: "Learn how to deploy a static website using Nginx on Google Cloud Run with Artifact Registry, utilizing Docker and gcloud commands"
-datePublished: Sun Jul 20 2025 02:46:44 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-20T02:46:44.377Z
 cuid: cmdb2snfd000202joa7t9fu2t
 slug: deploy-a-static-site-with-nginx-on-google-cloud-run-using-artifact-registry-gem-cloud-run-nginx-website
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752978880549/71fee543-5089-41a3-b5ae-c7377fafceb6.png
