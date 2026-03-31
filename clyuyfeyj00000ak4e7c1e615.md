@@ -2,7 +2,7 @@
 title: "Self-review: Create a repository with forking"
 seoTitle: "Self-review: Create a repository with forking"
 seoDescription: "Self-review: Create a repository with forking"
-datePublished: Sun Jul 21 2024 02:44:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T02:44:16.891Z
 cuid: clyuyfeyj00000ak4e7c1e615
 slug: self-review-create-a-repository-with-forking
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721529813224/89044cdf-e16b-4dbd-b78d-290869a224df.png
