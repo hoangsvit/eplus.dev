@@ -2,7 +2,7 @@
 title: "Exploring Cost-optimization for GKE Virtual Machines - GSP767"
 seoTitle: "Exploring Cost-optimization for GKE Virtual Machines - GSP767"
 seoDescription: "The underlying infrastructure of a Google Kubernetes Engine cluster is made up of nodes which are individual Compute VM instances. This lab shows how optimi"
-datePublished: Tue Aug 20 2024 12:44:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-20T12:44:30.280Z
 cuid: cm02f2v2g001n09mr9bqk5j7n
 slug: exploring-cost-optimization-for-gke-virtual-machines-gsp767
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749273944876/010a6d9b-6cfd-4edd-9547-69a5ead44460.png
