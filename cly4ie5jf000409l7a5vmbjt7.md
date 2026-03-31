@@ -2,7 +2,7 @@
 title: "MongoDB Aggregation in PHP"
 seoTitle: "MongoDB Aggregation in PHP"
 seoDescription: "In this unit, you'll learn how to perform basic aggregation with PHP by using MongoDB's aggregation framework. First, you'll learn what aggregation is and e"
-datePublished: Tue Jul 02 2024 14:33:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-02T14:33:23.595Z
 cuid: cly4ie5jf000409l7a5vmbjt7
 slug: mongodb-aggregation-in-php
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719930722101/d5c5e869-412b-49cb-a0fc-c752c177cb89.png
