@@ -2,7 +2,7 @@
 title: "Back-End Developer Capstone - Starting the Project"
 seoTitle: "Back-End Developer Capstone - Starting the Project"
 seoDescription: "Back-End Developer Capstone - Starting the Project"
-datePublished: Mon Nov 18 2024 08:10:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-18T08:10:50.153Z
 cuid: cm3mqxl7t000609l4cnq43ff3
 slug: back-end-developer-capstone-starting-the-project
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731917416499/04a2c1ac-8e4e-432f-82f7-0dc377472e96.png
