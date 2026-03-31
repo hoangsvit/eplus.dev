@@ -2,7 +2,7 @@
 title: "Datastore: Qwik Start - GSP131"
 seoTitle: "Datastore: Qwik Start - GSP131"
 seoDescription: "In this lab, you learn how to store and query data in Datastore using the Google Cloud console."
-datePublished: Sun Jun 08 2025 05:44:56 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-08T05:44:56.771Z
 cuid: cmbn8o1qb000302l7dfkzbms9
 slug: datastore-qwik-start-gsp131
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749361331628/9626ae84-2aeb-4084-936d-37f1614cd345.png
@@ -25,29 +25,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -55,7 +55,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-f2e8937ede91@qwiklabs.net
@@ -63,9 +63,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     5RsfSh8EYF2R
@@ -73,19 +73,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -96,29 +96,29 @@ After a few moments, the Google Cloud console opens in this tab.
 
 ## Task 1. Store data
 
-1. In left menu on the Console, Navigate to Databases section, go to **Datastore** &gt; **+CREATE A FIRESTORE DATABASE**.
+1.  In left menu on the Console, Navigate to Databases section, go to **Datastore** > **+CREATE A FIRESTORE DATABASE**.
     
-2. In the Configuration options, select **Firestore with Datastore compatibility**.
+2.  In the Configuration options, select **Firestore with Datastore compatibility**.
     
 
 ![The Select Datastore Mode button highlighted within the Datastore mode category on the Select a database page.](https://cdn.qwiklabs.com/pznMZxT%2FMDjFfyyYL9QfX5M4mbbYNzTiFScimlCapgU%3D align="left")
 
-3. Now choose where you'll create your database. Use the dropdown menu to select a location:
+3.  Now choose where you'll create your database. Use the dropdown menu to select a location:
     
 
 ![The option nam5 (United States) highlighted within the Select a location drop-down menu.](https://cdn.qwiklabs.com/YDxbO55D3FZuc1quDJzMAiDF6%2BcTek6f1bzd6uCI40A%3D align="left")
 
 The location applies to both Cloud Datastore and App Engine for your Google Cloud project. You cannot change the location after it has been saved.
 
-4. Click **CREATE DATABASE**.
+4.  Click **CREATE DATABASE**.
     
-5. Click **+Create Entity**.
+5.  Click **+Create Entity**.
     
-6. On the **Create an entity** page, use `[default]` for **Namespace**.
+6.  On the **Create an entity** page, use `[default]` for **Namespace**.
     
-7. Type `Task` for **Kind**.
+7.  Type `Task` for **Kind**.
     
-8. Under **Properties** use the **Add property** button to add these properties, and click **Done** after each one:
+8.  Under **Properties** use the **Add property** button to add these properties, and click **Done** after each one:
     
 
 | **Name** | **Type** | **Value** | **Indexed** |
@@ -131,7 +131,7 @@ Your creation page should now look like this:
 
 ![The Create an entity page, with the Create button highlighted below the entity details.](https://cdn.qwiklabs.com/jGQjqaAujuPmkqXOzlwLRrOQwOro7XF393NHj%2FFAfFA%3D align="left")
 
-9. Click **Create**. The console displays the Task entity that you just created.
+9.  Click **Create**. The console displays the Task entity that you just created.
     
 
 You just stored data in Cloud Datastore!
@@ -150,35 +150,35 @@ Cloud Datastore supports querying data by kind or by Google Query Language (GQL)
 
 ### Run kind queries
 
-1. Click **Query by kind**.
+1.  Click **Query by kind**.
     
-2. Select `Task` as the kind.
+2.  Select `Task` as the kind.
     
 
 The query results show the Task entity that you created.
 
-3. Next, add a query filter to restrict the results to entities that meet specific criteria:
+3.  Next, add a query filter to restrict the results to entities that meet specific criteria:
     
 
-* Click **ADD TO QUERY** dropdown.
+*   Click **ADD TO QUERY** dropdown.
     
-* In the dropdown lists, select `WHERE`, **done**, **\== (Equal to)**, **Boolean** and **false**.
+*   In the dropdown lists, select `WHERE`, **done**, **\== (Equal to)**, **Boolean** and **false**.
     
-* Click **Run**.
+*   Click **Run**.
     
-* The results show the `Task` entity that you created, since its `done` value is `false`.
+*   The results show the `Task` entity that you created, since its `done` value is `false`.
     
     ![The task entity displays as false in the Query by kind tab.](https://cdn.qwiklabs.com/y1aoiPWePuwvSO5ceMNSx0ABmTeYQAwcT86OV8eCMNQ%3D align="left")
     
 
-4. Now try a query of `WHERE`, **done**, **\== (Equal to)**, **Boolean** and **true**. The results do not include the `Task` entity that you created, because its `done` value is not `true`.
+4.  Now try a query of `WHERE`, **done**, **\== (Equal to)**, **Boolean** and **true**. The results do not include the `Task` entity that you created, because its `done` value is not `true`.
     
 
 ### Run GQL queries
 
-1. Click the **Query by GQL** tab.
+1.  Click the **Query by GQL** tab.
     
-2. In the query box add the following:
+2.  In the query box add the following:
     
 
 ```apache
@@ -187,14 +187,14 @@ SELECT * FROM Task
 
 **Note:** `Task` is case sensitive.
 
-3. Click **Run query**.
+3.  Click **Run query**.
     
 
 The query results show the Task entity that you created.
 
 **Note:** The GQL query editor supports autocompletion for kinds. When you need to type a kind name, press Ctrl+Space to see a list of the available kinds. Up to 300 alphabetically sorted kinds can appear in the list. For better matches of kinds, type one or more characters.
 
-4. Now add a query filter to restrict the results to entities that meet specific criteria.
+4.  Now add a query filter to restrict the results to entities that meet specific criteria.
     
 
 Run this query:
@@ -209,7 +209,7 @@ The results show the Task entity that you created, since its `done` value is `fa
 
 ![The task entity populated in the Query by GQL tab.](https://cdn.qwiklabs.com/kmoPwJq3zvH8DuwsGzwLRFPgMbrrWZBvhG08N0G2Ufg%3D align="left")
 
-5. Now run this query:
+5.  Now run this query:
     
 
 ```apache
@@ -226,14 +226,21 @@ Google Cloud Datastore is a NoSQL document database built for automatic scaling,
 
 Cloud Datastore is a relational database, and it is an effective storage solution for analytic data.TrueFalse
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://youtu.be/6R3HPpikmNk] 
+%[https://www.youtube.com/watch?v=5sHkpND_iNs] 
 
 ```apache
-curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/Datastore%20Qwik%20Start/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP131/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Datastore%3A%20Qwik%20Start/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
