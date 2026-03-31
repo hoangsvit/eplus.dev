@@ -2,7 +2,7 @@
 title: "Laravel 10 Bug Hunt"
 seoTitle: "Laravel 10 Bug Hunt"
 seoDescription: "Laravel 10 is scheduled to be released in February and the Laravel team announced a new bug hunt with a chance to win $1,000 USD:"
-datePublished: Tue Jan 10 2023 12:52:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-01-10T12:52:31.217Z
 cuid: clcq8ga5t000208jqf9fwfwde
 slug: laravel-10-bug-hunt
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1673355090743/7588672e-d0d9-41fa-a31e-e8f401ecae9f.jpeg
