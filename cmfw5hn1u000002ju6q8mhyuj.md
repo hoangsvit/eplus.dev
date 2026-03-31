@@ -2,7 +2,7 @@
 title: "Get Started with Google Workspace Tools: Challenge Lab - GSP376"
 seoTitle: "Get Started with Google Workspace Tools: Challenge Lab - GSP376"
 seoDescription: "Master Google Workspace tools with this hands-on challenge lab. Complete tasks, improve skills, and earn your skill badge in Google Workspace"
-datePublished: Tue Sep 23 2025 06:04:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-23T06:04:43.890Z
 cuid: cmfw5hn1u000002ju6q8mhyuj
 slug: get-started-with-google-workspace-tools-challenge-lab-gsp376
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758607444647/02cc5d87-10cb-411e-b484-4fb7796c8548.png
