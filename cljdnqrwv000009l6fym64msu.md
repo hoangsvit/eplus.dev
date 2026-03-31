@@ -2,7 +2,7 @@
 title: "30 Great Python Projects To Help You Master It In 2023"
 seoTitle: "30 Great Python Projects To Help You Master It In 2023"
 seoDescription: "Are you ready to become a true Python programmer and learn some of the most demanded skills on the market in programming for 2023?"
-datePublished: Tue Jun 27 2023 02:17:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-06-27T02:17:31.087Z
 cuid: cljdnqrwv000009l6fym64msu
 slug: 30-great-python-projects-to-help-you-master-it-in-2023
 canonical: https://www.udemy.com/course/great-python-projects
