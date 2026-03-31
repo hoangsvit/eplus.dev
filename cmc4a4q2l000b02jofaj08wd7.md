@@ -2,7 +2,7 @@
 title: "Cloud Logging on Kubernetes Engine - GSP483"
 seoTitle: "Cloud Logging on Kubernetes Engine - GSP483"
 seoDescription: "Cloud Logging can be used aggregate logs from all Google Cloud resources, as well as any custom resources on other platforms, to allow for one centralized s"
-datePublished: Fri Jun 20 2025 03:57:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-20T03:57:59.421Z
 cuid: cmc4a4q2l000b02jofaj08wd7
 slug: cloud-logging-on-kubernetes-engine-gsp483
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750391570767/22e84480-5c94-4a35-8f8b-b12923b9d18f.png
