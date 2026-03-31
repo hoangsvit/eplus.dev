@@ -2,7 +2,7 @@
 title: "Arcade Chatbot: Interactive Data Practitioner Revision - arc140-genai"
 seoTitle: "Arcade Chatbot: Interactive Data Practitioner Revision - arc140-genai"
 seoDescription: "In this lab you will learn the fundamentals of prompt engineering using Generative AI and Google Cloud. During the lab you will have access to a chatbot tha"
-datePublished: Sun Jun 08 2025 06:39:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-08T06:39:06.632Z
 cuid: cmbnalpc8000502jv29jn3uf7
 slug: arcade-chatbot-interactive-data-practitioner-revision-arc140-genai
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749364607385/cc1372af-6d21-4ac0-8d45-088e675720df.png
