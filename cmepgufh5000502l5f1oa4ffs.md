@@ -2,7 +2,7 @@
 title: "Getting Started with Neo4J Enterprise on Google Cloud - GSP1104"
 seoTitle: "Getting Started with Neo4J Enterprise on Google Cloud - GSP1104"
 seoDescription: "Learn to deploy Neo4J Enterprise on Google Cloud, analyze asset manager filings and explore data with Cypher in this hands-on lab"
-datePublished: Sun Aug 24 2025 09:08:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-24T09:08:30.809Z
 cuid: cmepgufh5000502l5f1oa4ffs
 slug: getting-started-with-neo4j-enterprise-on-google-cloud-gsp1104
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756026455932/cf959ae1-f9af-4531-9c46-615515a41cfe.png
