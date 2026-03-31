@@ -2,7 +2,7 @@
 title: "[Nóng] VNEID đã hiển thị điểm giấy phép lái xe"
 seoTitle: "[Nóng] VNEID đã hiển thị điểm giấy phép lái xe"
 seoDescription: "Một số nội dung khác cho các bác tham khảo: Theo các nguồn tài liệu, điểm giấy phép lái xe (GPLX) bị trừ khi người lái xe vi phạm luật giao thông đường bộ ["
-datePublished: Wed Jan 01 2025 03:03:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-01T03:03:16.826Z
 cuid: cm5dbbjvd000209jrch37gvi3
 slug: nong-vneid-da-hien-thi-diem-giay-phep-lai-xe
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/dyqnhDZqM5E/upload/0c13a7ff4ff96943da8775b7916bc3a8.jpeg
