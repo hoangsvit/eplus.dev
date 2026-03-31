@@ -2,7 +2,7 @@
 title: "Skills Boost Arcade Trivia August 2025 Week 4 (Solution)"
 seoTitle: "Skills Boost Arcade Trivia August 2025 Week 4 (Solution)"
 seoDescription: "Enhance your skills with Google Cloud services through the Skills Boost Arcade Trivia. Test your knowledge with our August 2025 quiz"
-datePublished: Sun Aug 10 2025 09:05:08 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-10T09:05:08.204Z
 cuid: cme5gk5t8000t02jv9wi8fgkw
 slug: skills-boost-arcade-trivia-august-2025-week-4-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754816098681/bd613792-5c09-43d2-a050-0642de6d65e8.png
