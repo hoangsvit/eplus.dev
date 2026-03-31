@@ -2,7 +2,7 @@
 title: "Understanding and Analyzing Your Costs with Google Cloud Billing Reports - GSP614"
 seoTitle: "Understanding and Analyzing Your Costs with Google Cloud Billing Repor"
 seoDescription: "Google Cloud cost management tools provide greater visibility, accountability, control, and intelligence so that you can scale your business in the cloud wi"
-datePublished: Wed Aug 07 2024 02:34:53 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-07T02:34:53.546Z
 cuid: clzj8ktm2000109l59z6d3tle
 slug: understanding-and-analyzing-your-costs-with-google-cloud-billing-reports-gsp614
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758697542097/b5464407-520f-4546-a345-d9196127cbac.png
