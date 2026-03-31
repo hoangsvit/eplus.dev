@@ -2,7 +2,7 @@
 title: "Project Initiation: Starting a Successful Project - Module 4 Challenge"
 seoTitle: "Project Initiation: Starting a Successful Project - Module 4 Challenge"
 seoDescription: "Project Initiation: Starting a Successful Project - Module 4 Challenge"
-datePublished: Tue Oct 22 2024 14:20:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-22T14:20:47.247Z
 cuid: cm2kj9clr000208jv5ywv0spo
 slug: project-initiation-starting-a-successful-project-module-4-challenge
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729606816423/c098e084-0f45-4dae-bc0d-2f7aae952165.png
