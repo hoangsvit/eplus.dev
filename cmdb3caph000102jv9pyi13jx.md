@@ -2,7 +2,7 @@
 title: "Create a Container Artifact Registry and Upload Code - gem-artifact-registry-container"
 seoTitle: "Create a Container Artifact Registry and Upload Code - gem-artifact-re"
 seoDescription: "Learn how to create and manage an Artifact Registry on Google Cloud to store and secure your container images"
-datePublished: Sun Jul 20 2025 03:02:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-20T03:02:01.013Z
 cuid: cmdb3caph000102jv9pyi13jx
 slug: create-a-container-artifact-registry-and-upload-code-gem-artifact-registry-container
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752980299174/b4ba14c8-118a-4d92-b3b9-fbf4799af6a3.png
