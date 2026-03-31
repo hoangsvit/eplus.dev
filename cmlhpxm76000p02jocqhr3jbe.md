@@ -2,7 +2,7 @@
 title: "Encrypt a Persistent Disk with a Customer-Supplied Key (Solution)"
 seoTitle: "Encrypt a Persistent Disk with a Customer-Supplied Key (Solution)"
 seoDescription: "Encrypt a persistent disk using a customer-supplied key and attach it to a VM instance for enhanced data security"
-datePublished: Wed Feb 11 2026 07:38:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-02-11T07:38:42.978Z
 cuid: cmlhpxm76000p02jocqhr3jbe
 slug: encrypt-a-persistent-disk-with-a-customer-supplied-key-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770795507399/538d4aee-fb5c-40fd-9c48-5b39049f70f0.png
