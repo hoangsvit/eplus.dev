@@ -2,7 +2,7 @@
 title: "Django Web Framework - Module Quiz: Views"
 seoTitle: "Django Web Framework - Module Quiz: Views"
 seoDescription: "Django Web Framework - Module Quiz: Views"
-datePublished: Sun Nov 10 2024 04:08:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-10T04:08:26.121Z
 cuid: cm3b2r1mx000309lgc4pp7ehj
 slug: django-web-framework-module-quiz-views
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731211674754/1114e25d-e913-4292-8def-c999bb68aa3a.png
