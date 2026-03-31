@@ -2,7 +2,7 @@
 title: "Arcade Hero: Enter the Cloud Run functions Golang - ARC230"
 seoTitle: "Arcade Hero: Enter the Cloud Run functions Golang - ARC230"
 seoDescription: "Learn Cloud Run functions basics with hands-on practice in this Google Cloud lab. Explore use cases and implementation steps"
-datePublished: Tue Oct 07 2025 06:08:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-07T06:08:03.572Z
 cuid: cmgg5rugk000102kyew1ocnz4
 slug: arcade-hero-enter-the-cloud-run-functions-golang-arc230
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759817250454/77909d8a-e2f6-4fb0-b8ae-fb0c73cf6771.png
