@@ -2,7 +2,7 @@
 title: "Deploy a Modern Web App connected to a Cloud Spanner Instance - GSP1051"
 seoTitle: "Deploy a Modern Web App connected to a Cloud Spanner Instance - GSP105"
 seoDescription: "Cloud Spanner is Google’s fully managed, horizontally scalable relational database service. Customers in financial services, gaming, retail and many other i"
-datePublished: Wed May 21 2025 05:49:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-21T05:49:48.558Z
 cuid: cmaxiwyvi001609l879g8gjd1
 slug: deploy-a-modern-web-app-connected-to-a-cloud-spanner-instance-gsp1051
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747805868329/acf048c2-ee01-4dbf-a02b-2e45f418f862.png
