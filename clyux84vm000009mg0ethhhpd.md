@@ -2,7 +2,7 @@
 title: "Knowledge Check: Unix Commands"
 seoTitle: "Knowledge Check: Unix Commands"
 seoDescription: "Knowledge Check: Unix Commands"
-datePublished: Sun Jul 21 2024 02:10:37 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T02:10:37.619Z
 cuid: clyux84vm000009mg0ethhhpd
 slug: knowledge-check-unix-commands
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721527807371/1e54ed73-5c6a-4a77-9972-bba39c459037.png
