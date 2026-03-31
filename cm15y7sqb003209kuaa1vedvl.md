@@ -2,7 +2,7 @@
 title: "Module quiz: Design and test - UI/UX"
 seoTitle: "Module quiz: Design and test - UI/UX"
 seoDescription: "Module quiz: Design and test - UI/UX"
-datePublished: Tue Sep 17 2024 04:43:14 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-17T04:43:14.099Z
 cuid: cm15y7sqb003209kuaa1vedvl
 slug: module-quiz-design-and-test-ui-ux-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726548170901/eb7c3a1d-0d7b-4b97-a8b1-607f5039c972.jpeg
