@@ -2,7 +2,7 @@
 title: "Đổi 20.000 điểm Viettel++ lấy Wifi 6"
 seoTitle: " Đổi 20.000 điểm Viettel++ lấy Wifi 6"
 seoDescription: "Khách hàng đăng nhập vào ứng dụng My Viettel chọn Viettel++, sau đó truy cập mục Ưu đãi viễn thông và chọn Thiết bị Modem Wifi"
-datePublished: Tue Jan 14 2025 14:05:51 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-14T14:05:51.053Z
 cuid: cm5wjpp3h000309ldhgceav5j
 slug: doi-20000-diem-viettel-lay-wifi-6
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736863500309/60efb422-2a56-47ca-8687-21d0c017e7bc.jpeg
