@@ -4,7 +4,7 @@ seoTitle: "Arcade Hero: Building Blocks IAM I - ARC1203"
 seoDescription: "In this lab you will learn the fundamentals of Artifact Registry Policy using Google Cloud.
 
 If you are new to Artifact Registry Policy or looking for an ov"
-datePublished: Fri Feb 14 2025 06:11:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-14T06:11:49.269Z
 cuid: cm74dfhxx001u09kqeuo8ayu4
 slug: arcade-hero-building-blocks-iam-i-arc1203
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739513451920/7a72675e-9a36-4402-9448-7fd23fb75b5d.png
