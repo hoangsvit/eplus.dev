@@ -1,7 +1,7 @@
 ---
 title: "[Packages] Beautiful Log Viewer for Laravel"
 seoTitle: "[Packages] Beautiful Log Viewer for Laravel"
-datePublished: Mon Sep 05 2022 08:35:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-09-05T08:35:15.421Z
 cuid: cl7oic96109d6gznve23323cg
 slug: packages-beautiful-log-viewer-for-laravel
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1662364757610/3sm3lcHbx.png
