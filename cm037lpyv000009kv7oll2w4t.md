@@ -2,7 +2,7 @@
 title: "BigQuery Machine Learning using Soccer Data - GSP851"
 seoTitle: "BigQuery Machine Learning using Soccer Data - GSP851"
 seoDescription: "Write functions in BigQuery to help with calculations to be performed on soccer shot data."
-datePublished: Wed Aug 21 2024 02:02:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-21T02:02:59.384Z
 cuid: cm037lpyv000009kv7oll2w4t
 slug: bigquery-machine-learning-using-soccer-data-gsp851
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724205582190/655496aa-af84-4ce1-b0e6-d90fff7be0c9.png
