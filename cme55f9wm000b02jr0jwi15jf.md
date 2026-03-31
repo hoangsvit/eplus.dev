@@ -2,7 +2,7 @@
 title: "Build an LLM and RAG-based Chat Application using AlloyDB and LangChain - GSP1226"
 seoTitle: "LLM Chat App with AlloyDB & LangChain - GSP1226"
 seoDescription: "Build an LLM and RAG-powered chat app using AlloyDB and LangChain with hands-on lab instructions for setup and deployment"
-datePublished: Sun Aug 10 2025 03:53:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-10T03:53:24.454Z
 cuid: cme55f9wm000b02jr0jwi15jf
 slug: build-an-llm-and-rag-based-chat-application-using-alloydb-and-langchain-gsp1226
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754797922262/098ebf2c-a6e1-49de-a271-403ffb492032.png
