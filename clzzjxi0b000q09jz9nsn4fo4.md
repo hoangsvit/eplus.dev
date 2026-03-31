@@ -2,7 +2,7 @@
 title: "Deploy a Compute Instance with a Remote Startup Script: Challenge Lab - GSP301"
 seoTitle: "Deploy a Compute Instance with a Remote Startup Script: Challenge Lab"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Sun Aug 18 2024 12:36:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-18T12:36:59.627Z
 cuid: clzzjxi0b000q09jz9nsn4fo4
 slug: deploy-a-compute-instance-with-a-remote-startup-script-challenge-lab-gsp301
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744947119922/7d612a41-dfab-42a1-94a9-86ffa8ca05c3.png
