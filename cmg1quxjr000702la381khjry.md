@@ -2,7 +2,7 @@
 title: "Prompt Design in Vertex AI: Challenge Lab - GSP519"
 seoTitle: "Prompt Design in Vertex AI: Challenge Lab - GSP519"
 seoDescription: "Explore hands-on prompt design in Vertex AI with a real-world cloud lab, enhancing generative AI skills"
-datePublished: Sat Sep 27 2025 04:01:46 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-27T04:01:46.839Z
 cuid: cmg1quxjr000702la381khjry
 slug: prompt-design-in-vertex-ai-challenge-lab-gsp519
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758945664796/1f416a6c-0ec1-4efa-9257-e18cc4e94d76.png
