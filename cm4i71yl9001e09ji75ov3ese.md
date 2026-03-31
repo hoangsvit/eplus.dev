@@ -2,7 +2,7 @@
 title: "Configure Your Workplace: Google Workspace for IT Admins: Challenge Lab - GSP377"
 seoTitle: "Configure Your Workplace: Google Workspace for IT Admins: Challenge La"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Tue Dec 10 2024 08:22:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-10T08:22:59.421Z
 cuid: cm4i71yl9001e09ji75ov3ese
 slug: configure-your-workplace-google-workspace-for-it-admins-challenge-lab-gsp377
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733817830187/321d3bf5-9a7c-4754-9455-f797e07fddb8.png
