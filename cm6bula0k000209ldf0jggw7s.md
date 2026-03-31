@@ -2,7 +2,7 @@
 title: "Preparing and Aggregating Data for Visualizations using Cloud Dataprep - GSP823"
 seoTitle: "Preparing and Aggregating Data for Visualizations using Cloud Dataprep"
 seoDescription: "Dataprep by Trifacta is Google's self-service data preparation tool built in collaboration with Trifacta. In this lab you will learn some more advanced tech"
-datePublished: Sat Jan 25 2025 07:06:53 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-25T07:06:53.300Z
 cuid: cm6bula0k000209ldf0jggw7s
 slug: preparing-and-aggregating-data-for-visualizations-using-cloud-dataprep-gsp823
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737788776978/c88a69df-598e-41b4-ab81-192c0e7c0b95.png
