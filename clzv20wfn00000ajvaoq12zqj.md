@@ -2,7 +2,7 @@
 title: "Build Infrastructure with Terraform on Google Cloud: Challenge Lab - GSP345"
 seoTitle: "Build Infrastructure with Terraform on Google Cloud: Challenge Lab - G"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Thu Aug 15 2024 09:04:40 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-15T09:04:40.499Z
 cuid: clzv20wfn00000ajvaoq12zqj
 slug: build-infrastructure-with-terraform-on-google-cloud-challenge-lab-gsp345
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757234058559/658e3836-b85d-4fcc-ad8e-515650741753.png
