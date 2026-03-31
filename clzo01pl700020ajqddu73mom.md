@@ -2,7 +2,7 @@
 title: "Create and Test a Document AI Processor - GSP924"
 seoTitle: "Create and Test a Document AI Processor - GSP924"
 seoDescription: "The Document AI API is a document understanding solution that takes unstructured data, such as documents and emails, and makes the data easier to understand"
-datePublished: Sat Aug 10 2024 10:34:55 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-10T10:34:55.819Z
 cuid: clzo01pl700020ajqddu73mom
 slug: create-and-test-a-document-ai-processor-gsp924
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752485873900/32702f06-8201-454b-be90-cab3d91aaf45.png
