@@ -2,7 +2,7 @@
 title: "Building Virtual Agent Fulfillment - GSP792"
 seoTitle: "Building Virtual Agent Fulfillment - GSP792"
 seoDescription: "In this lab, you will continue working on your Pigeon Travel virtual agent created in the Design Conversational Flows for your Agent and add context as well"
-datePublished: Sun Aug 11 2024 03:29:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-11T03:29:04.076Z
 cuid: clzp09wek000408l60jptdy45
 slug: building-virtual-agent-fulfillment-gsp792
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723288991930/41be19fe-12ff-4592-957a-93bb710a1bbf.png
