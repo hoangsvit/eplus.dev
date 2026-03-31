@@ -2,7 +2,7 @@
 title: "Module Quiz: Introduction to HTML and CSS"
 seoTitle: "Module Quiz: Introduction to HTML and CSS"
 seoDescription: "Module Quiz: Introduction to HTML and CSS"
-datePublished: Wed Jul 10 2024 02:37:32 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-10T02:37:32.588Z
 cuid: clyf8cdnw000308jm4066fogb
 slug: module-quiz-introduction-to-html-and-css
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720578739117/53bd860f-3874-4243-9bfa-bb37740ee00f.png
