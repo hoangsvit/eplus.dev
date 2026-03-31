@@ -2,7 +2,7 @@
 title: "Final Graded Quiz: The Full Stack"
 seoTitle: "Final Graded Quiz: The Full Stack"
 seoDescription: "Final Graded Quiz: The Full Stack"
-datePublished: Wed Nov 13 2024 08:46:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-13T08:46:01.862Z
 cuid: cm3fmzlae000108lgbmyp91qq
 slug: final-graded-quiz-the-full-stack
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731487438930/a68974d9-4a37-425c-895d-1b65f068b443.png
