@@ -2,7 +2,7 @@
 title: "Skills Boost Arcade Trivia September 2025 Week 4 (Solution)"
 seoTitle: "Skills Boost Arcade Trivia September 2025 Week 4 (Solution)"
 seoDescription: "Boost your skills with hands-on Google Cloud exercises and trivia in the September 2025 Skills Boost Arcade"
-datePublished: Sun Sep 07 2025 06:38:18 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-07T06:38:18.233Z
 cuid: cmf9bn6nt000002if6luef4w9
 slug: skills-boost-arcade-trivia-september-2025-week-4-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757226482198/a53637e5-31e7-4811-a3fa-63e15dca5afb.png
