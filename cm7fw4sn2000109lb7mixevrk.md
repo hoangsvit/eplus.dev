@@ -2,7 +2,7 @@
 title: "Gating Deployments with Binary Authorization - GSP1183"
 seoTitle: "Gating Deployments with Binary Authorization - GSP1183"
 seoDescription: "Binary Authorization is a deploy-time security control that ensures only trusted container images are deployed on Google Kubernetes Engine (GKE) or Cloud Ru"
-datePublished: Sat Feb 22 2025 07:40:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-22T07:40:50.559Z
 cuid: cm7fw4sn2000109lb7mixevrk
 slug: gating-deployments-with-binary-authorization-gsp1183
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740209296716/0784bc12-9e7c-4efc-ad9f-61cb994fbc93.png
