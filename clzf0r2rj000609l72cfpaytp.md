@@ -2,7 +2,7 @@
 title: "Self review: Multiple components - React Basic"
 seoTitle: "Self review: Multiple components - React Basic"
 seoDescription: "Self review: Multiple components - React Basic"
-datePublished: Sun Aug 04 2024 03:44:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-04T03:44:43.712Z
 cuid: clzf0r2rj000609l72cfpaytp
 slug: self-review-multiple-components-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722742941890/12f7fad4-238a-41a2-a7ea-dd8df7213e97.png
