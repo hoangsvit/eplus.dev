@@ -2,7 +2,7 @@
 title: "Module quiz: Interactive CSS"
 seoTitle: "Module quiz: Interactive CSS"
 seoDescription: "Module quiz: Interactive CSS"
-datePublished: Fri Aug 02 2024 08:09:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-02T08:09:26.832Z
 cuid: clzcfbsxc00040amahdjsfkvc
 slug: module-quiz-interactive-css
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722585555014/579c1ff1-7b6f-4ce4-9f6a-0d2e0ee81ab6.png
