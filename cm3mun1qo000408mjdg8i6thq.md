@@ -2,7 +2,7 @@
 title: "Back-End Developer Capstone - Security and Testing"
 seoTitle: "Back-End Developer Capstone - Security and Testing"
 seoDescription: "Back-End Developer Capstone - Security and Testing"
-datePublished: Mon Nov 18 2024 09:54:36 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-18T09:54:36.817Z
 cuid: cm3mun1qo000408mjdg8i6thq
 slug: back-end-developer-capstone-security-and-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731923648212/0d3c6919-a31c-4a3a-849e-4d6ab7a54422.png
