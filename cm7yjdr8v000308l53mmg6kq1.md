@@ -2,7 +2,7 @@
 title: "Enabling Sensitive Data Protection Discovery for Cloud Storage - GSP1281"
 seoTitle: "Enabling Sensitive Data Protection Discovery for Cloud Storage - GSP12"
 seoDescription: "Sensitive Data Protection is a fully managed service designed to help you discover, classify, and protect sensitive information. Key options include Sensiti"
-datePublished: Fri Mar 07 2025 08:51:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-07T08:51:30.992Z
 cuid: cm7yjdr8v000308l53mmg6kq1
 slug: enabling-sensitive-data-protection-discovery-for-cloud-storage-gsp1281
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741335388509/573bf006-51a8-4d98-893c-11b2bf24bad8.png
