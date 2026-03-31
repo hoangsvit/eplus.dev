@@ -4,7 +4,7 @@ seoTitle: "Arcade Quiz: Security Engineer Challenge - osl-arc-0006"
 seoDescription: "Welcome to the Arcade Quiz. Here we bring you a dose of knowledge on random topics.
 
 Are you ready to rise to the top? The Arcade Quiz is your opportunity t"
-datePublished: Mon Apr 14 2025 07:18:44 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-14T07:18:44.072Z
 cuid: cm9gqst48000q09jofbyife0p
 slug: arcade-quiz-security-engineer-challenge-osl-arc-0006
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744611620812/46c270c3-61a5-4fff-bb85-2981570903ec.png
