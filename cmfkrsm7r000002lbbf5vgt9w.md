@@ -2,7 +2,7 @@
 title: "Developer Essentials: Google Cloud Storage Static Website Hosting - gem-cloud-storage-host-static-site"
 seoTitle: "Developer Essentials: Google Cloud Storage Static Website Hosting - ge"
 seoDescription: "Learn to host static websites using Google Cloud Storage. Set up, configure, and access your site efficiently with this step-by-step guide"
-datePublished: Mon Sep 15 2025 06:55:53 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-15T06:55:53.463Z
 cuid: cmfkrsm7r000002lbbf5vgt9w
 slug: developer-essentials-google-cloud-storage-static-website-hosting-gem-cloud-storage-host-static-site
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757919202691/cdd80402-a4b1-45a5-a79d-34853fb5ec7b.png
