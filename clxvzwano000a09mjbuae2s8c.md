@@ -2,7 +2,7 @@
 title: "Review bộ phát Wifi ROOSEE M600"
 seoTitle: "Review bộ phát Wifi ROOSEE M600"
 seoDescription: "Bộ phát wifi từ sim 4G ROOSEE M600 tích hợp sẵn sim không giới hạn dung lượng tốc độ cao."
-datePublished: Wed Jun 26 2024 15:33:27 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-26T15:33:27.924Z
 cuid: clxvzwano000a09mjbuae2s8c
 slug: review-bo-phat-wifi-roosee-m600
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719415272772/bf6968b0-a033-4490-9aa5-6ba387729e22.png
