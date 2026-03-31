@@ -2,7 +2,7 @@
 title: "Knowledge check: Metadata"
 seoTitle: "Knowledge check: Metadata"
 seoDescription: "Knowledge check: Metadata"
-datePublished: Sun Jul 21 2024 12:12:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T12:12:58.997Z
 cuid: clyviqrqt000108i86ooi5wbb
 slug: knowledge-check-metadata
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721563400159/f8617694-461d-4521-9e76-e5318b5b236c.png
