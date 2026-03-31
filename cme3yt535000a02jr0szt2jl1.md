@@ -2,7 +2,7 @@
 title: "Deploying a Fault-Tolerant Microsoft Active Directory Environment - GSP118"
 seoTitle: "Deploying a Fault-Tolerant Microsoft Active Directory Environment - GS"
 seoDescription: "Set up a fault-tolerant Active Directory on Google Cloud with redundant Windows Domain Controllers and a custom VPC network for enhanced availability"
-datePublished: Sat Aug 09 2025 08:00:27 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-09T08:00:27.905Z
 cuid: cme3yt535000a02jr0szt2jl1
 slug: deploying-a-fault-tolerant-microsoft-active-directory-environment-gsp118
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754726372408/60598dd4-2310-4211-a3b9-d0d8f510ab38.png
