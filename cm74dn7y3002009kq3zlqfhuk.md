@@ -4,7 +4,7 @@ seoTitle: "Arcade Hero: Building Blocks PubSub I - ARC1204"
 seoDescription: "In this lab you will learn the fundamentals of Pub/Sub Subscription using Google Cloud.
 
 If you are new to Pub/Sub Subscription or looking for an overview o"
-datePublished: Fri Feb 14 2025 06:17:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-14T06:17:49.563Z
 cuid: cm74dn7y3002009kq3zlqfhuk
 slug: arcade-hero-building-blocks-pubsub-i-arc1204
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739513824902/7b8328c0-87e2-455d-84cb-cec3cfb779fd.png
