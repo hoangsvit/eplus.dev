@@ -2,7 +2,7 @@
 title: "Develop your Google Cloud Network: Challenge Lab - GSP321"
 seoTitle: "Develop your Google Cloud Network: Challenge Lab - GSP321"
 seoDescription: "Take on GSP321 Challenge Lab to build a WordPress environment on Google Cloud, creating VPCs, Kubernetes clusters, and more"
-datePublished: Sat Sep 06 2025 08:51:18 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-06T08:51:18.413Z
 cuid: cmf80ydjg000502jfcp6zfb3q
 slug: develop-your-google-cloud-network-challenge-lab-gsp321
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757145113432/dca34d64-659e-4fdc-ba5c-92ef66713b3e.png
