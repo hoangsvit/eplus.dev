@@ -2,7 +2,7 @@
 title: "Module quiz: Securing an API in Django REST framework"
 seoTitle: "Module quiz: Securing an API in Django REST framework"
 seoDescription: "Module quiz: Securing an API in Django REST framework"
-datePublished: Tue Nov 12 2024 08:42:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-12T08:42:47.363Z
 cuid: cm3e7fkjn000d09l680izfksj
 slug: module-quiz-securing-an-api-in-django-rest-framework
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731400936454/b8dc40ba-70a5-4b4f-a62a-f749d0b65a6e.png
