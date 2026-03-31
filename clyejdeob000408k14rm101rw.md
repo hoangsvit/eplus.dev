@@ -2,7 +2,7 @@
 title: "Programming Assignment: Creating an HTML Document"
 seoTitle: "Programming Assignment: Creating an HTML Document"
 seoDescription: "In this exercise you will you will practice creating a simple HTML document."
-datePublished: Tue Jul 09 2024 14:58:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-09T14:58:30.155Z
 cuid: clyejdeob000408k14rm101rw
 slug: programming-assignment-creating-an-html-document
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720536965694/f7aa4567-e61a-496f-a32e-f96f031c1f1c.png
