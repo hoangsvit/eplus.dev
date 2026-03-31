@@ -2,7 +2,7 @@
 title: "Build Apps with Gemini Code Assist (Solution)"
 seoTitle: "Build Apps with Gemini Code Assist (Solution)"
 seoDescription: "In this lab, you'll use Gemini Code Assist, an AI-powered app development collaborator for Google Cloud, to explain, test, document, and improve an app."
-datePublished: Sun Feb 23 2025 09:02:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-23T09:02:13.789Z
 cuid: cm7hehb8d000008jy1v6bgp96
 slug: build-apps-with-gemini-code-assist-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740301027430/971f91ce-9ae5-4d86-8b54-21ffd5c83a02.png
