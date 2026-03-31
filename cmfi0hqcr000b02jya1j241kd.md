@@ -2,7 +2,7 @@
 title: "Utilize the Streamlit Framework with Cloud Run and the Gemini API in Vertex AI - GSP1229"
 seoTitle: "Utilize the Streamlit Framework with Cloud Run and the Gemini API in V"
 seoDescription: "Learn to create a generative AI application using Streamlit, Gemini API, and deploy it on Google Cloud Run for scalable serving and interaction"
-datePublished: Sat Sep 13 2025 08:36:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-13T08:36:03.628Z
 cuid: cmfi0hqcr000b02jya1j241kd
 slug: utilize-the-streamlit-framework-with-cloud-run-and-the-gemini-api-in-vertex-ai-gsp1229
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757751663094/5fec7a24-f81e-444a-92d6-2fb26d8c10f1.png
