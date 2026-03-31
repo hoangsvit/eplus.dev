@@ -2,7 +2,7 @@
 title: "Bỗng dưng tôi bị gán "nợ xấu" CIC tại HD SAISON"
 seoTitle: "Bỗng dưng tôi bị gán "nợ xấu" CIC tại HD SAISON"
 seoDescription: "Trước khi tôi kể câu chuyện của mình, tôi sẽ giải thích một số thuật ngữ như "nợ xấu" và "CIC". Nếu bạn từng có kinh nghiệm mua trả góp, sử dụng thẻ tín dụn"
-datePublished: Fri Jul 14 2023 08:34:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-07-14T08:34:15.287Z
 cuid: clk2boqrb000g09jr6jyqahs2
 slug: bong-dung-toi-bi-gan-no-xau-cic-tai-hd-saison
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689323628754/4f6b1739-b5e2-4325-8f1e-204c05deec9f.jpeg
