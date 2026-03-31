@@ -4,7 +4,7 @@ seoTitle: "Arcade Hero: Enter the Storage - ARC120-STORAGE"
 seoDescription: "In this lab you will learn the fundamentals of Cloud Storage using Google Cloud.
 
 If you are new to Cloud Storage or looking for an overview of how to get s"
-datePublished: Sun Jan 12 2025 09:14:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-12T09:14:15.886Z
 cuid: cm5tef0em000709mp7um6de2l
 slug: arcade-hero-enter-the-storage-arc120-storage
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736673216601/6e24b93d-8e88-473c-824b-926ac46fb3c1.png
