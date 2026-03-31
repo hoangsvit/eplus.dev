@@ -2,7 +2,7 @@
 title: "mini lab : Cloud Storage : 1 (Solution)"
 seoTitle: "mini lab : Cloud Storage : 1 (Solution)"
 seoDescription: "Configure a Cloud Storage bucket for website hosting in this guided lab, complete with step-by-step instructions and a solution video"
-datePublished: Sun Oct 05 2025 06:29:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-05T06:29:38.338Z
 cuid: cmgdbnw6a000002jl93b94gy3
 slug: mini-lab-cloud-storage-1-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759645455927/c12dedd0-f505-4252-a0a9-a6bdceebad44.png
