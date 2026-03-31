@@ -2,7 +2,7 @@
 title: "Google Kubernetes Engine Security: Binary Authorization - GSP479"
 seoTitle: "Google Kubernetes Engine Security: Binary Authorization - GSP479"
 seoDescription: "One of the key security concerns for running Kubernetes clusters is knowing what container images are running inside each pod and being able to account for"
-datePublished: Sun Mar 09 2025 08:31:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-09T08:31:39.236Z
 cuid: cm81djx0k000108l80zlw5jvj
 slug: google-kubernetes-engine-security-binary-authorization-gsp479
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741507900920/dcfc48dd-bfd9-4e37-9d23-3cfddee9374c.png
