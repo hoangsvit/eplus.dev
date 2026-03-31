@@ -2,7 +2,7 @@
 title: "Knowledge check: Semantic and meta tags"
 seoTitle: "Knowledge check: Semantic and meta tags"
 seoDescription: "Knowledge check: Semantic and meta tags"
-datePublished: Sun Jul 21 2024 12:41:17 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T12:41:17.705Z
 cuid: clyvjr6h5000309l39czy5xiz
 slug: knowledge-check-semantic-and-meta-tags
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721565920250/291d3695-1827-470b-ae8e-bfb5eb12b4cd.png
