@@ -2,7 +2,7 @@
 title: "MongoDB Indexes II"
 seoTitle: "MongoDB Indexes II"
 seoDescription: "In this unit, you'll dive into the inner workings of indexes and how they improve performance. Next, you'll learn about tools for evaluating the impact of y"
-datePublished: Wed Jul 03 2024 13:12:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-03T13:12:50.086Z
 cuid: cly5uyena000609ifc6c9d268
 slug: mongodb-indexes-ii
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720010615727/388f8c27-9ae8-4182-8e4d-65197c38a889.png
