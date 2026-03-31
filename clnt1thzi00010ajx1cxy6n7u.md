@@ -2,7 +2,7 @@
 title: "Try GitKraken Browser Extension - It's Free!"
 seoTitle: "Try GitKraken Browser Extension - It's Free!"
 seoDescription: "Introducing the GitKraken Browser Extension: Your bridge between web and desktop 🌉"
-datePublished: Mon Oct 16 2023 15:26:54 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-10-16T15:26:54.798Z
 cuid: clnt1thzi00010ajx1cxy6n7u
 slug: try-gitkraken-browser-extension-it-s-free
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1697469705426/9ed24928-7e65-4420-a28a-16b482b33e9e.png
