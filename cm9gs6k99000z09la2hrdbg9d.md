@@ -2,7 +2,7 @@
 title: "Google Cloud Arcade Facilitator '25 - Syllabus for the program"
 seoTitle: "Google Cloud Arcade Facilitator '25 - Syllabus for the program"
 seoDescription: "While you can find all the active games and trivias on the Skills Boost Arcade website directly, we are maintaining a copy of the same here so that it becom"
-datePublished: Mon Apr 14 2025 07:57:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-14T07:57:25.389Z
 cuid: cm9gs6k99000z09la2hrdbg9d
 slug: google-cloud-arcade-facilitator-25-syllabus-for-the-program
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744617412126/d2911139-6468-4a45-8b3c-778ea9cdf3b8.png
