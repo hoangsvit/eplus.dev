@@ -2,7 +2,7 @@
 title: "Creating a Data Transformation Pipeline with Cloud Dataprep - GSP430"
 seoTitle: "Creating a Data Transformation Pipeline with Cloud Dataprep - GSP430"
 seoDescription: "Dataprep by Trifacta is an intelligent data service for visually exploring, cleaning, and preparing structured and unstructured data for analysis. In this l"
-datePublished: Wed Aug 21 2024 03:06:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-21T03:06:03.033Z
 cuid: cm039utg9000c09mhdxqd7wk8
 slug: creating-a-data-transformation-pipeline-with-cloud-dataprep-gsp430
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724209246831/67888bec-5f43-4dee-b095-89e5ce7d0969.png
