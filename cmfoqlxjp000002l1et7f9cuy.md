@@ -2,7 +2,7 @@
 title: "Get Started with Looker: Challenge Lab - ARC107"
 seoTitle: "Get Started with Looker: Challenge Lab - ARC107"
 seoDescription: "Master Looker skills with a challenge lab: complete tasks independently, using Looker Studio and Looker to analyze and visualize data"
-datePublished: Thu Sep 18 2025 01:33:46 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-18T01:33:46.645Z
 cuid: cmfoqlxjp000002l1et7f9cuy
 slug: get-started-with-looker-challenge-lab-arc107
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758159097045/a5df6fa4-8f90-4a5e-930c-71bfd9549dce.png
