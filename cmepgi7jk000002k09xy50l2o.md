@@ -2,7 +2,7 @@
 title: "Explore SAP Data Foundation using Looker Dashboards - GSP1046"
 seoTitle: "Explore SAP Data Foundation using Looker Dashboards - GSP1046"
 seoDescription: "Use Looker Dashboards with SAP data via Google Cloud Cortex for informed business decisions"
-datePublished: Sun Aug 24 2025 08:59:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-24T08:59:00.656Z
 cuid: cmepgi7jk000002k09xy50l2o
 slug: explore-sap-data-foundation-using-looker-dashboards-gsp1046
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756025685403/9f7eeabe-c21d-4250-b064-74e8e7711a21.png
