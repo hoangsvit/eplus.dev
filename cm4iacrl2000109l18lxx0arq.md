@@ -2,7 +2,7 @@
 title: "V for the V's of Big Data"
 seoTitle: "V for the V's of Big Data"
 seoDescription: "V for the V's of Big Data"
-datePublished: Tue Dec 10 2024 09:55:22 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-10T09:55:22.406Z
 cuid: cm4iacrl2000109l18lxx0arq
 slug: v-for-the-vs-of-big-data
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733824493944/9db54f4f-0411-4f4d-8bdf-04ea3312e653.png
