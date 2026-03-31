@@ -2,7 +2,7 @@
 title: "Hello Node Kubernetes - GSP005"
 seoTitle: "Hello Node Kubernetes - GSP005"
 seoDescription: "Learn to deploy a Node.js app to a Kubernetes cluster with Google Cloud services, Docker containers, and Kubernetes Engine"
-datePublished: Sat Jul 19 2025 03:19:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-19T03:19:59.647Z
 cuid: cmd9ojkbi000q02ih83pb5t04
 slug: hello-node-kubernetes-gsp005
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762589876988/1595fc0f-dd1f-446f-82e2-f0d704713efa.png
