@@ -1,6 +1,6 @@
 ---
 title: "The Arcade Trivia September 2024 Week 2"
-datePublished: Wed Sep 11 2024 14:17:11 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-11T14:17:11.355Z
 cuid: cm0xy2sor000109l80ep9gt1b
 slug: the-arcade-trivia-september-2024-week-2
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726063634389/e580c4e5-b696-4954-bce9-b07346779b23.jpeg
