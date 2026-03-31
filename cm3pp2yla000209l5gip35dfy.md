@@ -2,7 +2,7 @@
 title: "Graded Quiz: The Software Development Lifecycle"
 seoTitle: "Graded Quiz: The Software Development Lifecycle"
 seoDescription: "Graded Quiz: The Software Development Lifecycle"
-datePublished: Wed Nov 20 2024 09:42:20 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-20T09:42:20.062Z
 cuid: cm3pp2yla000209l5gip35dfy
 slug: graded-quiz-the-software-development-lifecycle
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732095717009/6836a818-408d-4f7e-8162-59db4efb425a.png
