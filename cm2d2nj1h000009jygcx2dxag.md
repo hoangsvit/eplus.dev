@@ -2,7 +2,7 @@
 title: "Reflection: Influence without authority"
 seoTitle: "Reflection: Influence without authority"
 seoDescription: "Reflection: Influence without authority"
-datePublished: Thu Oct 17 2024 09:01:32 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-17T09:01:32.069Z
 cuid: cm2d2nj1h000009jygcx2dxag
 slug: reflection-influence-without-authority
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729155480669/7dacd9f8-3303-40c7-bc2c-ab076fda9c20.png
