@@ -2,7 +2,7 @@
 title: "Google Cloud Arcade Facilitator '24"
 seoTitle: "Google Cloud Arcade Facilitator '24"
 seoDescription: "The Arcade Facilitator Program is an always-on, no-cost gaming campaign where technical practitioners of all levels can learn new cloud skills like computin"
-datePublished: Mon Jul 22 2024 12:15:27 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-22T12:15:27.471Z
 cuid: clywy9sz3000b08ky7q9g1cf1
 slug: google-cloud-arcade-facilitator-24
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721655944034/61fc2baf-b503-42d2-ab7b-8ced6d6de570.png
