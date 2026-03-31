@@ -2,7 +2,7 @@
 title: "Reduce Costs for the Managed Service for Prometheus - GSP1027"
 seoTitle: "Reduce Costs for the Managed Service for Prometheus - GSP1027"
 seoDescription: "The Google Cloud Managed Service for Prometheus charges for the number of samples ingested into Cloud Monitoring and for read requests to the Monitoring API"
-datePublished: Sun Feb 23 2025 08:06:36 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-23T08:06:36.690Z
 cuid: cm7hchsb6000008jsh6oqe0p9
 slug: reduce-costs-for-the-managed-service-for-prometheus-gsp1027
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740297740723/77bb07fd-6feb-4841-a253-dc45bb9501e2.png
