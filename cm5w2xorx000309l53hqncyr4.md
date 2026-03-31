@@ -4,7 +4,7 @@ seoTitle: "Arcade Hero: Enter the Artifact Registry Go - ARC156"
 seoDescription: "In this lab you will learn the fundamentals of Artifact Registry Go using Google Cloud.
 
 If you are new to Artifact Registry Go or looking for an overview o"
-datePublished: Tue Jan 14 2025 06:16:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-14T06:16:10.413Z
 cuid: cm5w2xorx000309l53hqncyr4
 slug: arcade-hero-enter-the-artifact-registry-go-arc156
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736835335603/b87340dd-2669-41a0-99d0-7812a2bdfa07.png
