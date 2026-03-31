@@ -2,7 +2,7 @@
 title: "Deploy a PHP Web App with Laravel and Docker"
 seoTitle: "Deploy a PHP Web App with Laravel and Docker"
 seoDescription: "Laravel is one of the most popular web frameworks for PHP and for good reason. It comes bundled with most common web app needs, including authentication, au"
-datePublished: Wed Jun 14 2023 03:53:55 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-06-14T03:53:55.854Z
 cuid: cliv6gost00040al26fpv1uv8
 slug: deploy-a-php-web-app-with-laravel-and-docker
 canonical: https://render.com/docs/deploy-php-laravel-docker
