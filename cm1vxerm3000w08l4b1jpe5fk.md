@@ -2,7 +2,7 @@
 title: "Knowledge check: Improving the experience"
 seoTitle: "Knowledge check: Improving the experience"
 seoDescription: "Knowledge check: Improving the experience"
-datePublished: Sat Oct 05 2024 09:02:40 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-05T09:02:40.203Z
 cuid: cm1vxerm3000w08l4b1jpe5fk
 slug: knowledge-check-improving-the-experience
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728118897100/f1ee757b-8c9c-4ac6-885c-219a4127d5a9.png
