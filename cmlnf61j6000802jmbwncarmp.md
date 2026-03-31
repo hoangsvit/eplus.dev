@@ -2,7 +2,7 @@
 title: "Manage Cloud Storage Lifecycle Policy using gcloud storage (Solution)"
 seoTitle: "Manage Cloud Storage Lifecycle Policy using gcloud storage (Solution)"
 seoDescription: "Optimize storage costs with gcloud storage by managing Cloud Storage lifecycle policies for active files, archives, and logs"
-datePublished: Sun Feb 15 2026 07:23:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-02-15T07:23:57.379Z
 cuid: cmlnf61j6000802jmbwncarmp
 slug: manage-cloud-storage-lifecycle-policy-using-gcloud-storage-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1771140229381/84ce1a20-7057-479c-aaba-4abe5350af95.png
