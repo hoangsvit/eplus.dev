@@ -2,7 +2,7 @@
 title: "Module quiz: Introduction to the coding interview"
 seoTitle: "Module quiz: Introduction to the coding interview"
 seoDescription: "Module quiz: Introduction to the coding interview"
-datePublished: Sun Oct 06 2024 06:02:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-06T06:02:38.951Z
 cuid: cm1x6f3zb00020amh2y41entw
 slug: module-quiz-introduction-to-the-coding-interview
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728194538129/50db8794-c782-48dc-9fdf-835633e775ad.png
