@@ -2,7 +2,7 @@
 title: "Create a grid layout"
 seoTitle: "Create a grid layout"
 seoDescription: "Create a grid layout"
-datePublished: Mon Jul 22 2024 14:05:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-22T14:05:01.515Z
 cuid: clyx26pjf000209l79ekg6b2i
 slug: create-a-grid-layout
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721656909016/08f212ff-c073-42c5-b1fc-1739d680424a.png
