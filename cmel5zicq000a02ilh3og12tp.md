@@ -2,7 +2,7 @@
 title: "Get Started with Dataplex: Challenge Lab - ARC117"
 seoTitle: "Get Started with Dataplex: Challenge Lab - ARC117"
 seoDescription: "Join Dataplex Challenge Lab and test your Google Cloud skills by completing setup tasks in real cloud environments"
-datePublished: Thu Aug 21 2025 08:53:27 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-21T08:53:27.338Z
 cuid: cmel5zicq000a02ilh3og12tp
 slug: get-started-with-dataplex-challenge-lab-arc117
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755766370773/b67a7142-7cd8-4d0c-aace-fe6e407278b3.png
