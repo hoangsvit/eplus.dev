@@ -2,7 +2,7 @@
 title: "Data Ingestion into BigQuery from Cloud Storage (Solution)"
 seoTitle: "Data Ingestion into BigQuery from Cloud Storage"
 seoDescription: "Learn how to create a BigQuery dataset and table, and import CSV data from Cloud Storage. Perfect for managing large datasets"
-datePublished: Mon Jan 26 2026 11:22:53 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-26T11:22:53.592Z
 cuid: cmkv2wa3c000502la98i7cwjd
 slug: data-ingestion-into-bigquery-from-cloud-storage
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769424224058/868ca0ad-b80f-4a61-af00-49c11626ca2c.png
