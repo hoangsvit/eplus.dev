@@ -2,7 +2,7 @@
 title: "BillionMail: Giải pháp Email Marketing mã nguồn mở, tự lưu trữ / BillionMail: Open-Source, Self-Hosted Email Marketing Solution"
 seoTitle: " BillionMail: Open-Source, Self-Hosted Email Marketing Solution"
 seoDescription: "In the digital communication landscape, email marketing remains a powerful tool for connecting with customers. However, many current email marketing platfor"
-datePublished: Mon Jun 02 2025 02:35:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-02T02:35:23.938Z
 cuid: cmbeh96ea000109le981naag3
 slug: billionmail-giai-phap-email-marketing-ma-nguon-mo-tu-luu-tru-billionmail-open-source-self-hosted-email-marketing-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748831603124/3883e4dd-cac0-4f0f-bc67-ae03054fcf9e.png
