@@ -2,7 +2,7 @@
 title: "Analyze BigQuery data in Connected Sheets: Challenge Lab - ARC103"
 seoTitle: "Analyze BigQuery data in Connected Sheets: Challenge Lab - ARC103"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Thu Sep 12 2024 04:24:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-12T04:24:28.654Z
 cuid: cm0yscezy003209l88okrdovc
 slug: analyze-bigquery-data-in-connected-sheets-challenge-lab-arc103
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756621025502/6f60d923-498e-438e-94f6-d3d09abde654.png
