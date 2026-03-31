@@ -2,7 +2,7 @@
 title: "Cloud Spanner: Qwik Start - GSP102"
 seoTitle: "Cloud Spanner: Qwik Start - GSP102"
 seoDescription: "Cloud Spanner is a fully managed, mission-critical, relational database service that offers transactional consistency at global scale, schemas, SQL (ANSI 20"
-datePublished: Mon Feb 24 2025 07:57:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-24T07:57:04.006Z
 cuid: cm7irld39000l08jvgxug5ket
 slug: cloud-spanner-qwik-start-gsp102
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740383750749/00324781-b511-4493-955f-1066416d94ce.png
