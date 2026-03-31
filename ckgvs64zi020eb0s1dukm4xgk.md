@@ -1,4 +1,11 @@
-# Samsung Galaxy Z Fold 2 5G: cấu hình chi tiết, camera và giá bán
+---
+title: "Samsung Galaxy Z Fold 2 5G: cấu hình chi tiết, camera và giá bán"
+datePublished: 2020-09-02T08:45:08.000Z
+cuid: ckgvs64zi020eb0s1dukm4xgk
+slug: samsung-galaxy-z-fold-2-5g-cau-hinh-chi-tiet-camera-va-gia-ban
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1604033564620/fyhrNZ1rp.jpeg
+
+---
 
 Samsung đã công bố chi tiết thông tin về dòng Galaxy Z Fold 2 5G dự kiến được bán ra tại một số thị trường nhất định từ ngày 18/09/2020. Ngoài việc nâng cấp về mặt thiết kế, Samsung cũng đem đến cho Galaxy Z Fold 2 cấu hình mạnh mẽ cùng những trang bị tối tân nhất mà hãng từng tạo nên. Dưới đây là thông số kỹ thuật và một số thông tin nổi bật về Galaxy Z Fold 2 mà anh em có thể quan tâm.
 
