@@ -4,7 +4,7 @@ seoTitle: "mini lab : BigQuery : 5 (Solution)"
 seoDescription: "Labs are timed and cannot be paused. The timer starts when you click Start Lab.
 
 The included cloud terminal is preconfigured with the gcloud SDK."
-datePublished: Sun Mar 30 2025 05:52:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-30T05:52:48.105Z
 cuid: cm8v84iqw000809jo5ve57ohz
 slug: mini-lab-bigquery-5-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743313888553/2c84e07a-abcf-44ba-a8f5-db3f14cfca7f.png
