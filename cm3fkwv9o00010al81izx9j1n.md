@@ -2,7 +2,7 @@
 title: "Module Quiz: Production Environments"
 seoTitle: "Module Quiz: Production Environments"
 seoDescription: "Module Quiz: Production Environments"
-datePublished: Wed Nov 13 2024 07:47:55 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-13T07:47:55.597Z
 cuid: cm3fkwv9o00010al81izx9j1n
 slug: module-quiz-production-environments
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731484057503/c5ee7a60-053d-4db1-9c83-d63afc0a481f.png
