@@ -3,7 +3,7 @@ title: "Tinkerwell v4 launch on Thursday"
 seoTitle: "Tinkerwell v4 launch on Thursday"
 seoDescription: "I think everything's ready for the Tinkerwell 4 launch on Thursday 🥵
 I can't wait to finally ship these features!"
-datePublished: Wed Nov 01 2023 15:29:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-11-01T15:29:16.599Z
 cuid: clofwy62f00030amfals76d8t
 slug: tinkerwell-v4-launch-on-thursday
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698854765277/0801a741-4cd9-4da5-9a5c-bc5e42974143.jpeg
