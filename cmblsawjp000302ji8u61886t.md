@@ -2,7 +2,7 @@
 title: "It Speaks! Create Synthetic Speech Using Text-to-Speech - GSP222"
 seoTitle: "It Speaks! Create Synthetic Speech Using Text-to-Speech - GSP222"
 seoDescription: "The Text-to-Speech API lets you create audio files of machine-generated, or synthetic, human speech. You provide the content as text or Speech Synthesis Mar"
-datePublished: Sat Jun 07 2025 05:19:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-07T05:19:03.493Z
 cuid: cmblsawjp000302ji8u61886t
 slug: it-speaks-create-synthetic-speech-using-text-to-speech-gsp222
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749272535385/9e3d75be-6bfb-47b4-a563-aadc4015ebeb.png
