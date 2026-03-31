@@ -2,7 +2,7 @@
 title: "Knowledge check: CSS selectors"
 seoTitle: "Knowledge check: CSS selectors"
 seoDescription: "Knowledge check: CSS selectors"
-datePublished: Fri Aug 02 2024 03:12:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-02T03:12:47.754Z
 cuid: clzc4qb2i00080alcdgrk621i
 slug: knowledge-check-css-selectors
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722568360012/c4f4663d-fa6c-46d1-ac76-55b97e4a9885.png
