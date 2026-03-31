@@ -2,7 +2,7 @@
 title: "Self-review: Create a registration form - Advanced React"
 seoTitle: "Self-review: Create a registration form - Advanced React"
 seoDescription: "Self-review: Create a registration form - Advanced React"
-datePublished: Thu Sep 12 2024 09:23:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-12T09:23:01.279Z
 cuid: cm0z30cgv001w0aku6gg6aqkq
 slug: self-review-create-a-registration-form-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726132843989/3e7a4003-2170-4ffa-b6f6-49df94c09309.jpeg
