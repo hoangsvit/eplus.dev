@@ -1,7 +1,7 @@
 ---
 title: "Spin up your development background processes with ease"
 seoDescription: "Porter is a command line tool that makes it easy to run background services with only a few configuration lines"
-datePublished: Wed Jan 04 2023 01:42:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-01-04T01:42:50.039Z
 cuid: clcgzvy5z000408lhfy13ga8u
 slug: spin-up-your-development-background-processes-with-ease
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1672796412319/b2f78641-3a5a-4930-b719-ea8198d16a6b.png
