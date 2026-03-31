@@ -2,7 +2,7 @@
 title: "Analyze the Text Prompt and Use it to Build an AI Image (Solution)"
 seoTitle: "Analyze the Text Prompt and Use it to Build an AI Image (Solution)"
 seoDescription: "Develop AI images of sports venues using Python & Vertex AI SDK. Enhance skills in dynamic, scenario-based labs to improve task efficiency"
-datePublished: Wed Feb 11 2026 08:24:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-02-11T08:24:39.984Z
 cuid: cmlhrkpio000c02jr4m2z3g5c
 slug: analyze-the-text-prompt-and-use-it-to-build-an-ai-image-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770798264396/57da5282-1047-4ebc-8cc6-e2463a266eb7.png
