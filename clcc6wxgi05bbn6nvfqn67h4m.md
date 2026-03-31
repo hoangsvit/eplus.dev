@@ -1,6 +1,6 @@
 ---
 title: "Happy New Year 2023"
-datePublished: Sat Dec 31 2022 17:00:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-12-31T17:00:42.194Z
 cuid: clcc6wxgi05bbn6nvfqn67h4m
 slug: happy-new-year-2023
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1672503957816/680396c0-6080-4529-9103-068fc66a1d18.png
