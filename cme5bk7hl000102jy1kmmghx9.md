@@ -2,7 +2,7 @@
 title: "App Dev: Adding User Authentication to your Application - Python - GSP186"
 seoTitle: "User Authentication in Python Apps - GSP186"
 seoDescription: "Learn to add user authentication to your Python application using Google Cloud's Identity Platform in this comprehensive hands-on lab"
-datePublished: Sun Aug 10 2025 06:45:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-10T06:45:12.297Z
 cuid: cme5bk7hl000102jy1kmmghx9
 slug: app-dev-adding-user-authentication-to-your-application-python-gsp186
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754807175672/0d86337a-4ddf-446b-8f4f-584607d1f1dc.png
