@@ -2,7 +2,7 @@
 title: "Troubleshooting Common SQL Errors with BigQuery - GSP408"
 seoTitle: "Troubleshooting Common SQL Errors with BigQuery - GSP408"
 seoDescription: "BigQuery is Google's fully managed, NoOps, low cost analytics database. With BigQuery you can query terabytes and terabytes of data without having any infra"
-datePublished: Sun May 18 2025 08:09:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-18T08:09:49.748Z
 cuid: cmatdlh9w000308l81a6gbpf2
 slug: troubleshooting-common-sql-errors-with-bigquery-gsp408
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747555608537/f43e5187-1931-4fff-9648-d2594221bb75.png
