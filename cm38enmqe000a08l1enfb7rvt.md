@@ -2,7 +2,7 @@
 title: "Programming Assignment: Functions, loops and data structures"
 seoTitle: "Programming Assignment: Functions, loops and data structures"
 seoDescription: "In this lab you will be presented with a menu ordering system which will allow users to input three choices for a select menu. You are tasked with completin"
-datePublished: Fri Nov 08 2024 07:18:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-08T07:18:23.702Z
 cuid: cm38enmqe000a08l1enfb7rvt
 slug: programming-assignment-functions-loops-and-data-structures
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731050231446/061c166c-821d-4e50-b69c-64046b1a369d.png
