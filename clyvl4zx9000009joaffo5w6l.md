@@ -2,7 +2,7 @@
 title: "Knowledge check: Form submission"
 seoTitle: "Knowledge check: Form submission"
 seoDescription: "Knowledge check: Form submission"
-datePublished: Sun Jul 21 2024 13:20:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T13:20:02.013Z
 cuid: clyvl4zx9000009joaffo5w6l
 slug: knowledge-check-form-submission
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721567559515/63944cbe-48a5-4cec-9ee5-31ad76747bf1.png
