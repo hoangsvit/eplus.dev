@@ -1,7 +1,7 @@
 ---
 title: "Testing JSON:API Endpoints with PestPHP"
 seoDescription: "JSON:API provides many options for filtering, sorting, and including extra data into the requested data using query parameters. Testing this can be frustrat"
-datePublished: Fri Feb 10 2023 15:18:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-02-10T15:18:57.939Z
 cuid: cldyoc0pe000209mm20dbc37o
 slug: testing-json-api-endpoints-with-pestphp
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1676043969253/c6d07598-ce19-4583-b1d9-36452dd6ee74.png
