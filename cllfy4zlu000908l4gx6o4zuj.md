@@ -2,7 +2,7 @@
 title: "Quên mật khẩu Linux trên WSL? Đây là cách thiết lập lại nó một cách dễ dàng"
 seoTitle: "Quên mật khẩu Linux trên WSL? Đây là cách thiết lập lại nó một cách dễ"
 seoDescription: "WSL (Windows Hệ thống con cho Linux) là một công cụ tiện dụng cho những người muốn tận hưởng sức mạnh của dòng lệnh Linux từ sự thoải mái của Windows."
-datePublished: Fri Aug 18 2023 02:03:27 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-08-18T02:03:27.426Z
 cuid: cllfy4zlu000908l4gx6o4zuj
 slug: quen-mat-khau-linux-tren-wsl-day-la-cach-thiet-lap-lai-no-mot-cach-de-dang
 canonical: https://websetnet.net/vi/forgot-linux-password-on-wsl-heres-how-to-reset-it-easily/
