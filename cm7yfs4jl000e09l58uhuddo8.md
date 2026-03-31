@@ -2,7 +2,7 @@
 title: "Secure Software Supply Chain: Using Cloud Build & Cloud Deploy to Deploy Containerized Applications - GSP1092"
 seoTitle: "Secure Software Supply Chain: Using Cloud Build & Cloud Deploy to Depl"
 seoDescription: "In this lab, you use Cloud Build to create a containerized "Hello, World!" application, store the container in Artifact Registry, and deploy the contianer t"
-datePublished: Fri Mar 07 2025 07:10:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-07T07:10:42.945Z
 cuid: cm7yfs4jl000e09l58uhuddo8
 slug: secure-software-supply-chain-using-cloud-build-and-cloud-deploy-to-deploy-containerized-applications-gsp1092
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741331261892/ba417d14-b0a6-41ee-ad16-2a7d38edc231.png
