@@ -1,7 +1,7 @@
 ---
 title: "ServBay - The all-in-one development platform for Web development"
 seoDescription: "ServBay offers a comprehensive, integrated suite of development tools including PHP, MariaDB, PostgreSQL, Redis, Memcached, and Caddy. This complete package"
-datePublished: Fri Oct 27 2023 09:02:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-10-27T09:02:03.726Z
 cuid: clo8dwy4u000x09ml2zbd1ojk
 slug: servbay-the-all-in-one-development-platform-for-web-development
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698392787227/e1710984-86b7-41a3-a481-043fb5dedfb8.png
