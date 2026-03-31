@@ -2,7 +2,7 @@
 title: "Self review: Create a grid layout"
 seoTitle: "Self review: Create a grid layout"
 seoDescription: "Self review: Create a grid layout"
-datePublished: Mon Jul 22 2024 14:17:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-22T14:17:28.255Z
 cuid: clyx2mpq700040amkhmwkcuum
 slug: self-review-create-a-grid-layout
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721657765507/fbb56fda-2134-4ad0-b62f-a1c3310a30c7.png
