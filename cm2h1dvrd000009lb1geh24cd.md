@@ -2,7 +2,7 @@
 title: "Test your knowledge: Understanding the impact of organizational culture"
 seoTitle: "Test your knowledge: Understanding the impact of organizational cultur"
 seoDescription: "Test your knowledge: Understanding the impact of organizational culture"
-datePublished: Sun Oct 20 2024 03:37:07 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-20T03:37:07.081Z
 cuid: cm2h1dvrd000009lb1geh24cd
 slug: test-your-knowledge-understanding-the-impact-of-organizational-culture
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729395394939/ba4c0019-b381-47bf-8355-ccfc314cbaa7.png
