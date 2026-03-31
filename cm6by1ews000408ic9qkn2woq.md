@@ -2,7 +2,7 @@
 title: "Tag and Discover BigLake Data: Challenge Lab - ARC123"
 seoTitle: "Tag and Discover BigLake Data: Challenge Lab - ARC123"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Sat Jan 25 2025 08:43:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-25T08:43:24.988Z
 cuid: cm6by1ews000408ic9qkn2woq
 slug: tag-and-discover-biglake-data-challenge-lab-arc123
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737794572392/44c5bcd3-9d38-4e98-83ce-e80b0010d1fa.png
