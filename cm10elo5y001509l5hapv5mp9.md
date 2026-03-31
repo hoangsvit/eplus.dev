@@ -2,7 +2,7 @@
 title: "The Arcade Trivia September 2024 Week 4"
 seoTitle: "The Arcade Trivia September 2024 Week 4"
 seoDescription: "Welcome to The Arcade Trivia September 2024! Give your career a boost with hands-on experience with different Google Cloud and partner services."
-datePublished: Fri Sep 13 2024 07:35:18 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-13T07:35:18.166Z
 cuid: cm10elo5y001509l5hapv5mp9
 slug: the-arcade-trivia-september-2024-week-4
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726211444800/4fcb6e46-da0d-47d6-833e-81307afc15d1.jpeg
