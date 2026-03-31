@@ -2,7 +2,7 @@
 title: "Manage Storage Configuration using gsutil (Solution)"
 seoTitle: "Manage Storage Configuration using gsutil (Solution)"
 seoDescription: "Learn to manage storage with gsutil: create a bucket, upload/sync files, set permissions, and manage storage classes in Google Cloud"
-datePublished: Sun Nov 09 2025 08:22:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-11-09T08:22:04.748Z
 cuid: cmhrg3b2k000102l43nns73gr
 slug: manage-storage-configuration-using-gsutil-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762676276316/85e8d7f0-e398-482b-8c55-1523afd0719f.png
