@@ -2,7 +2,7 @@
 title: "“🎉 Prize Counter Opening Soon: Google Arcade Updates 🏆✨”"
 seoTitle: "“🎉 Prize Counter Opening Soon: Google Arcade Updates 🏆✨”"
 seoDescription: "“🎉 Prize Counter Opening Soon: Google Arcade Updates 🏆✨”"
-datePublished: Fri Dec 27 2024 13:45:44 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-27T13:45:44.164Z
 cuid: cm56t2hus000709l8ewvl9uxn
 slug: prize-counter-opening-soon-google-arcade-updates
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/m3hn2Kn5Bns/upload/999550b54fd1286da29d79b1c010aa2e.jpeg
