@@ -2,7 +2,7 @@
 title: "Managing Vault Token - GSP1006"
 seoTitle: "Managing Vault Token - GSP1006"
 seoDescription: "Learn to manage and administer Vault tokens, covering creation, usage, revocation, and various management techniques in this hands-on lab"
-datePublished: Sun Aug 17 2025 09:05:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-17T09:05:50.780Z
 cuid: cmefgo1bw000d02ji0c62e59p
 slug: managing-vault-token-gsp1006
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755420531293/507b33e0-2776-4373-9d51-c0359c75bbc2.png
