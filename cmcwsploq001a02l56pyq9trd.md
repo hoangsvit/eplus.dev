@@ -2,7 +2,7 @@
 title: "Reconciling Account Data with Cloud Spanner Change Streams - GSP1097"
 seoTitle: "Reconciling Account Data with Cloud Spanner Change Streams - GSP1097"
 seoDescription: "Learn to set up account reconciliation using Google Cloud Spanner, change streams, and BigQuery for efficient financial data tracking"
-datePublished: Thu Jul 10 2025 02:55:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-10T02:55:39.530Z
 cuid: cmcwsploq001a02l56pyq9trd
 slug: reconciling-account-data-with-cloud-spanner-change-streams-gsp1097
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752115856648/0f1961ad-1f74-4cbd-ba65-90ab126f31a2.png
