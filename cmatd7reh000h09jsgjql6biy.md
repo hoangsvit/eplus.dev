@@ -2,7 +2,7 @@
 title: "BigQuery: Qwik Start - Command Line - GSP071"
 seoTitle: "BigQuery: Qwik Start - Command Line - GSP071"
 seoDescription: "Storing and querying massive datasets can be time consuming and expensive without the right hardware and infrastructure. BigQuery is a serverless, highly sc"
-datePublished: Sun May 18 2025 07:59:09 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-18T07:59:09.689Z
 cuid: cmatd7reh000h09jsgjql6biy
 slug: bigquery-qwik-start-command-line-gsp071
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747555107812/c31048e3-951b-415f-b4e2-e2abfd549ca7.png
