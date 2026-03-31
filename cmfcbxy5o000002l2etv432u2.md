@@ -2,7 +2,7 @@
 title: "Introduction to Google Chat Bots with Apps Script - GSP250"
 seoTitle: "Introduction to Google Chat Bots with Apps Script - GSP250"
 seoDescription: "Learn to create a Google Chat bot using Google Apps Script, configure settings, and test its functionality in this hands-on tutorial"
-datePublished: Tue Sep 09 2025 09:09:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-09T09:09:58.956Z
 cuid: cmfcbxy5o000002l2etv432u2
 slug: introduction-to-google-chat-bots-with-apps-script-gsp250
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757408921035/5920ba3f-5a54-40b8-8940-aaeec1e7563d.png
