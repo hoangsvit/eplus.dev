@@ -1,7 +1,7 @@
 ---
 title: "CRUD Operations Using Laravel Livewire"
 seoDescription: "Tired of creating boring and tiring Interfaces using traditional methods? Bring in all your attention here as we come up with a tech tutorial on executing t"
-datePublished: Mon Jan 09 2023 14:56:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-01-09T14:56:25.662Z
 cuid: clcoxfry5000708lghjwkh9pq
 slug: crud-operations-using-laravel-livewire
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1673275414399/944917fc-09ec-4219-aa26-2234479e702b.png
