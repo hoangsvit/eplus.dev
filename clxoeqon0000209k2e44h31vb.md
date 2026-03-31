@@ -2,7 +2,7 @@
 title: "[Knowledge check] Describe cloud service types"
 seoTitle: "[Knowledge check] Describe cloud service types"
 seoDescription: "This module covers the different cloud service types and shares some of the use cases and benefits aligned with each service type."
-datePublished: Fri Jun 21 2024 08:06:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-21T08:06:50.940Z
 cuid: clxoeqon0000209k2e44h31vb
 slug: knowledge-check-describe-cloud-service-types
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718957105142/812af57a-06fd-430d-ba89-5367a2c1ff01.png
