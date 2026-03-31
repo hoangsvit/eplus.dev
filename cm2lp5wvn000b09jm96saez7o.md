@@ -2,7 +2,7 @@
 title: "Project Execution: Running the Project - Module 1 Challenge"
 seoTitle: "Project Execution: Running the Project - Module 1 Challenge"
 seoDescription: "Project Execution: Running the Project - Module 1 Challenge"
-datePublished: Wed Oct 23 2024 09:53:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-23T09:53:50.772Z
 cuid: cm2lp5wvn000b09jm96saez7o
 slug: project-execution-running-the-project-module-1-challenge
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729677206343/b7b1163a-4dc7-4836-9b8d-23022bf1d071.png
