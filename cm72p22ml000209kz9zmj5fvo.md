@@ -2,7 +2,7 @@
 title: "Google Drive: Getting Started - GSP468"
 seoTitle: "Google Drive: Getting Started - GSP468"
 seoDescription: "With Google Drive, you can store all your files in the cloud, including photos, Microsoft® Word® documents, Excel® spreadsheets, and more. You can also make"
-datePublished: Thu Feb 13 2025 02:01:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-13T02:01:45.933Z
 cuid: cm72p22ml000209kz9zmj5fvo
 slug: google-drive-getting-started-gsp468
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739412072333/99abc93c-480b-4e75-83c1-e289e2cab539.png
