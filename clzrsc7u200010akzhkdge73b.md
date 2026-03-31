@@ -2,7 +2,7 @@
 title: "Terraform Fundamentals - GSP156"
 seoTitle: "Terraform Fundamentals - GSP156"
 seoDescription: "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is an open source tool that codifies APIs into declarative co"
-datePublished: Tue Aug 13 2024 02:10:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-13T02:10:13.802Z
 cuid: clzrsc7u200010akzhkdge73b
 slug: terraform-fundamentals-gsp156
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750297116144/a3653cda-e00d-48d3-a05f-fe83722c36f4.png
@@ -19,11 +19,11 @@ Terraform enables you to safely and predictably create, change, and improve infr
 
 In this lab, you will learn how to perform the following tasks:
 
-* Get started with Terraform in Google Cloud.
+*   Get started with Terraform in Google Cloud.
     
-* Install Terraform from installation binaries.
+*   Install Terraform from installation binaries.
     
-* Create a VM instance infrastructure using Terraform.
+*   Create a VM instance infrastructure using Terraform.
     
 
 ## **Setup and requirements**
@@ -36,29 +36,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -66,7 +66,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```xml
     student-04-cffb1d80cf0f@qwiklabs.net
@@ -74,9 +74,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```xml
     SR0bolGeLCvV
@@ -84,19 +84,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -109,7 +109,7 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell**
+1.  Click **Activate Cloud Shell**
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="left")
     
@@ -124,14 +124,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-02-e19aa2b3d4
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-2. (Optional) You can list the active account name with this command:
+2.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-3. Click **Authorize**.
+3.  Click **Authorize**.
     
 
 **Output:**
@@ -144,7 +144,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-4. (Optional) You can list the project ID with this command:
+4.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -190,7 +190,7 @@ Complex changesets can be applied to your infrastructure with minimal human inte
 
 Terraform comes pre-installed in Cloud Shell.
 
-* Open a new Cloud Shell tab, and verify that Terraform is available:
+*   Open a new Cloud Shell tab, and verify that Terraform is available:
     
 
 ```apache
@@ -217,7 +217,7 @@ With Terraform installed, you can immediately start creating some infrastructure
 
 The set of files used to describe infrastructure in Terraform is simply known as a `Terraform configuration`. In this section, you will write your first configuration to launch a single VM instance. The format of the configuration files can be found in the [Terraform Language Documentation](https://www.terraform.io/docs/configuration/index.html). We recommend using JSON for creating configuration files.
 
-1. In Cloud Shell, create an empty configuration file named `instance.tf` with the following command:
+1.  In Cloud Shell, create an empty configuration file named `instance.tf` with the following command:
     
 
 ```apache
@@ -227,7 +227,7 @@ touch instance.tf
 Click **Open Editor** on the Cloud Shell toolbar.  
 To switch between Cloud Shell and the code editor, click **Open Editor** or **Open Terminal** as required, or click **Open in a new window** to leave the Editor open in a separate tab.
 
-2. Click the `instance.tf` file and add the following content in it, replacing `<PROJECT_ID>` with your Google Cloud project ID:
+2.  Click the `instance.tf` file and add the following content in it, replacing `<PROJECT_ID>` with your Google Cloud project ID:
     
 
 ```apache
@@ -259,7 +259,7 @@ The resource block has two strings before opening the block: the **resource type
 
 Within the resource block itself is the configuration needed for the resource.
 
-4. In Cloud Shell, verify that your new file has been added and that there are no other `*.tf` files in your directory, because Terraform loads all of them:
+4.  In Cloud Shell, verify that your new file has been added and that there are no other `*.tf` files in your directory, because Terraform loads all of them:
     
 
 ```apache
@@ -272,7 +272,7 @@ The first command to run for a new configuration—or after checking out an exis
 
 Terraform uses a plugin-based architecture to support the numerous infrastructure and service providers available. Each "provider" is its own encapsulated binary that is distributed separately from Terraform itself. The `terraform init` command will automatically download and install any provider binary for the providers to use within the configuration, which in this case is just the Google provider.
 
-1. Download and install the provider binary:
+1.  Download and install the provider binary:
     
 
 ```apache
@@ -289,7 +289,7 @@ Installing hashicorp/google v4.77.0...
 
 The output specifies which version of the plugin is being installed and suggests that you specify this version in future configuration files to ensure that `terraform init` will install a compatible version.
 
-2. Create an execution plan:
+2.  Create an execution plan:
     
 
 ```apache
@@ -302,7 +302,7 @@ Terraform performs a refresh, unless explicitly disabled, and then determines wh
 
 ### Apply changes
 
-1. In the same directory as the `instance.tf` file you created, run this command:
+1.  In the same directory as the `instance.tf` file you created, run this command:
     
 
 ```apache
@@ -392,7 +392,7 @@ Enter a value:
 
 If the plan was created successfully, Terraform will now pause and wait for approval before proceeding. In a production environment, if anything in the Execution Plan seems incorrect or dangerous, it's safe to cancel here. No changes have been made to your infrastructure.
 
-2. For this case the plan looks acceptable, so type `yes` at the confirmation prompt to proceed.  
+2.  For this case the plan looks acceptable, so type `yes` at the confirmation prompt to proceed.  
     Executing the plan will take a few minutes because Terraform waits for the VM instance to become available.
     
 
@@ -406,12 +406,12 @@ Create a VM instance in the `us-west1` zone with Terraform.
 
 **Check my progress**
 
-3. In the Google Cloud Console, on the **Navigation menu**, click **Compute Engine** &gt; **VM instances**. The **VM instances** page opens and you'll see the VM instance you just created in the **VM instances** list.
+3.  In the Google Cloud Console, on the **Navigation menu**, click **Compute Engine** > **VM instances**. The **VM instances** page opens and you'll see the VM instance you just created in the **VM instances** list.
     
 
 Terraform has written some data into the `terraform.tfstate` file. This state file is extremely important: it keeps track of the IDs of created resources so that Terraform knows what it is managing.
 
-4. In Cloud Shell, inspect the current state:
+4.  In Cloud Shell, inspect the current state:
     
 
 ```apache
@@ -456,31 +456,34 @@ The following multiple choice questions should reinforce your understanding of t
 
 Terraform enables you to safely and predictably create, change, and improve infrastructure.
 
-* True
+*   True
     
-* False
+*   False
     
 
 With Terraform, you can create your own custom provider plugins.
 
-* True
+*   True
     
-* False
+*   False
     
 
----
+* * *
 
 ## Solution of Lab
 
 %[https://www.youtube.com/watch?v=u6UU3tI6wPw] 
 
 ```apache
-export ZONE=
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP156/lab.sh
+source lab.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750297182223/905a6f39-be2d-4c4c-b70a-5ca8028710f6.png align="center")
+**Script Alternative**
 
 ```apache
+export ZONE=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])")
+
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Terraform%20Fundamentals/quicklabgsp156.sh
 sudo chmod +x quicklabgsp156.sh
 ./quicklabgsp156.sh
