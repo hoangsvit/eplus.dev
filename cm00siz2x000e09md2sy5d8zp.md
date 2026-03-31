@@ -2,7 +2,7 @@
 title: "Knowledge check: Rendering Lists in React - Advanced React"
 seoTitle: "Knowledge check: Rendering Lists in React - Advanced React"
 seoDescription: "Knowledge check: Rendering Lists in React - Advanced React"
-datePublished: Mon Aug 19 2024 09:25:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-19T09:25:24.633Z
 cuid: cm00siz2x000e09md2sy5d8zp
 slug: knowledge-check-rendering-lists-in-react-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724059494675/6dc625ea-f55b-4122-b2aa-ce5c03697c9d.png
