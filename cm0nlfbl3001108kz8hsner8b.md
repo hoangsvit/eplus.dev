@@ -2,7 +2,7 @@
 title: "Build a BI Dashboard Using Looker Studio and BigQuery - GSP403"
 seoTitle: "Build a BI Dashboard Using Looker Studio and BigQuery - GSP403"
 seoDescription: "For as long as business intelligence (BI) has been around, visualization tools have played an important role in helping analysts and decision-makers quickly"
-datePublished: Wed Sep 04 2024 08:25:18 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-04T08:25:18.951Z
 cuid: cm0nlfbl3001108kz8hsner8b
 slug: build-a-bi-dashboard-using-looker-studio-and-bigquery-gsp403
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745477838784/1eefc061-9caf-48b5-b0ef-dc19f4345424.png
