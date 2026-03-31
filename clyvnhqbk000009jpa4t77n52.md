@@ -2,7 +2,7 @@
 title: "Module quiz: HTML deep dive"
 seoTitle: "Module quiz: HTML deep dive"
 seoDescription: "Module quiz: HTML deep dive"
-datePublished: Sun Jul 21 2024 14:25:55 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T14:25:55.328Z
 cuid: clyvnhqbk000009jpa4t77n52
 slug: module-quiz-html-deep-dive
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721571901330/c754694f-598b-4832-b0b1-e06aa04b77e5.png
