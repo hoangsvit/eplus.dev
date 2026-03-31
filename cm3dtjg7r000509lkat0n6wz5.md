@@ -2,7 +2,7 @@
 title: "Extract, Analyze, and Translate Text from Images with the Cloud ML APIs - GSP075"
 seoTitle: "Extract, Analyze, and Translate Text from Images with the Cloud ML API"
 seoDescription: "In this lab you'll explore the power of machine learning by using multiple machine learning APIs together. Start with Cloud Vision API's text detection meth"
-datePublished: Tue Nov 12 2024 02:13:53 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-12T02:13:53.751Z
 cuid: cm3dtjg7r000509lkat0n6wz5
 slug: extract-analyze-and-translate-text-from-images-with-the-cloud-ml-apis-gsp075
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745302649414/545b1088-cf3a-4772-bed9-ba8a8285c05f.png
