@@ -2,7 +2,7 @@
 title: "Creating Tile-based Dashboard Alerts in Looker - GSP1160"
 seoTitle: "Creating Tile-based Dashboard Alerts in Looker - GSP1160"
 seoDescription: "Looker is a modern data platform in Google Cloud that lets you analyze and visualize your data interactively. You can use Looker to do in-depth data analysi"
-datePublished: Wed Feb 19 2025 04:23:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-19T04:23:03.899Z
 cuid: cm7beqw9n000o09js9k29cure
 slug: creating-tile-based-dashboard-alerts-in-looker-gsp1160
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747551303329/946024e6-fca3-4063-a955-911387f981ed.png
