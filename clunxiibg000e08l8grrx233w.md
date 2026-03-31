@@ -2,7 +2,7 @@
 title: "Introduction to AI and Machine Learning on Google Cloud - Quiz"
 seoTitle: "Introduction to AI and Machine Learning on Google Cloud - Quiz"
 seoDescription: "This course introduces the artificial intelligence (AI) and machine learning (ML) offerings on Google Cloud that support the data-to-AI lifecycle through AI"
-datePublished: Sat Apr 06 2024 10:05:29 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-04-06T10:05:29.020Z
 cuid: clunxiibg000e08l8grrx233w
 slug: introduction-to-ai-and-machine-learning-on-google-cloud-quiz
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712397813813/bf2b55c4-14fd-4de0-aacb-9bb2dc36b7b1.png
