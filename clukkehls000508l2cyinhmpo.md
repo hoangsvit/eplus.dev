@@ -2,7 +2,7 @@
 title: "Build and Execute MySQL, PostgreSQL, and SQLServer to Data Catalog Connectors - GSP814"
 seoTitle: "Build and Execute MySQL, PostgreSQL, and SQLServer to Data Catalog Con"
 seoDescription: "Dataplex is an intelligent data fabric that enables organizations to centrally discover, manage, monitor, and govern their data across data lakes, data ware"
-datePublished: Thu Apr 04 2024 01:35:07 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-04-04T01:35:07.936Z
 cuid: clukkehls000508l2cyinhmpo
 slug: build-and-execute-mysql-postgresql-and-sqlserver-to-data-catalog-connectors-gsp814
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749287794648/f9c6dc59-dae3-4acb-8d53-4b5c46167ce2.png
