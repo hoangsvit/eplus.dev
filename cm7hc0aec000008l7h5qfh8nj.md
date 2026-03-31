@@ -2,7 +2,7 @@
 title: "Deploy and query Google Agentspace (Solution)"
 seoTitle: "Deploy and query Google Agentspace (Solution)"
 seoDescription: "In this lab, you will deploy an Agentspace app connected to a Google Drive data store and use the AI assistant to locate information from within your organi"
-datePublished: Sun Feb 23 2025 07:53:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-23T07:53:00.325Z
 cuid: cm7hc0aec000008l7h5qfh8nj
 slug: deploy-and-query-google-agentspace-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740295876022/b9606509-b77b-444c-9246-af43a16490fa.png
