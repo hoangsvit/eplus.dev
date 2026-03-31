@@ -2,7 +2,7 @@
 title: "Docker Essentials: Container Volumes - gem-docker-volumes"
 seoTitle: "Docker Essentials: Container Volumes - gem-docker-volumes"
 seoDescription: "Learn about Docker volumes, essential for data persistence in containers, including types, usage, and implementation with Docker Compose"
-datePublished: Mon Sep 15 2025 06:44:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-15T06:44:30.917Z
 cuid: cmfkrdzk5000102labrlmfwlb
 slug: docker-essentials-container-volumes-gem-docker-volumes
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757918524345/1fc5b6ca-ce86-4433-a82c-1a5b780f94f7.png
