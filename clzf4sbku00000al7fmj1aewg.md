@@ -2,7 +2,7 @@
 title: "Knowledge check: Events and errors - React Basic"
 seoTitle: "Knowledge check: Events and errors - React Basic"
 seoDescription: "Knowledge check: Events and errors - React Basic"
-datePublished: Sun Aug 04 2024 05:37:40 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-04T05:37:40.254Z
 cuid: clzf4sbku00000al7fmj1aewg
 slug: knowledge-check-events-and-errors-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722749627203/9b445c8a-768b-4ca1-aa04-24f0fb1db35d.png
