@@ -2,7 +2,7 @@
 title: "Tagging Dataplex Assets - GSP1145"
 seoTitle: "Tagging Dataplex Assets - GSP1145"
 seoDescription: "Dataplex is an intelligent data fabric that enables organizations to centrally discover, manage, monitor, and govern their data across data lakes, data ware"
-datePublished: Tue Sep 03 2024 13:26:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-03T13:26:58.877Z
 cuid: cm0mgrewt00090al9d5y1aqpa
 slug: tagging-dataplex-assets-gsp1145
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746860049123/7f3d3490-801c-4ed5-8a7d-aee992b03520.png
