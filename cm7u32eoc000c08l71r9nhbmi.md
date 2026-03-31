@@ -2,7 +2,7 @@
 title: "Create a Custom Network and Apply Firewall Rules - GSP159"
 seoTitle: "Create a Custom Network and Apply Firewall Rules - GSP159"
 seoDescription: "In this hands-on lab you'll learn how to design and implement a secure network architecture. You'll use Cloud Shell and the command line language gcloud to"
-datePublished: Tue Mar 04 2025 06:03:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-04T06:03:42.924Z
 cuid: cm7u32eoc000c08l71r9nhbmi
 slug: create-a-custom-network-and-apply-firewall-rules-gsp159
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756627168256/18f704e1-7678-4057-a4bd-7d17bf9c6aa3.png
