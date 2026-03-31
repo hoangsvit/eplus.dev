@@ -2,7 +2,7 @@
 title: "De-identify DICOM Data with the Healthcare API - GSP626"
 seoTitle: "De-identify DICOM Data with the Healthcare API - GSP626"
 seoDescription: "In this lab, you will discover and use the de-identification functionality of Cloud Healthcare API using Digital Imaging and Communications in Medicine (DIC"
-datePublished: Fri Mar 07 2025 07:35:52 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-07T07:35:52.040Z
 cuid: cm7ygogyw000m09l70kctc6x5
 slug: de-identify-dicom-data-with-the-healthcare-api-gsp626
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741332767910/59199d98-5cef-4106-aa31-15874d26a6ac.png
