@@ -2,7 +2,7 @@
 title: "Knowledge check: Semantic structure"
 seoTitle: "Knowledge check: Semantic structure"
 seoDescription: "Knowledge check: Semantic structure"
-datePublished: Sat Oct 05 2024 06:41:09 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-05T06:41:09.611Z
 cuid: cm1vscs8b000p09kwal1ifb9a
 slug: knowledge-check-semantic-structure
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728109979207/e88ba74e-a244-4d9e-80ff-34cbbe845923.png
