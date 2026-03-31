@@ -2,7 +2,7 @@
 title: "GKE Autopilot: Qwik Start - GSP957"
 seoTitle: "GKE Autopilot: Qwik Start - GSP957"
 seoDescription: "Learn to containerize and deploy applications with GKE Autopilot using Kubernetes in a hands-on lab setting. Focus on development, not infrastructure"
-datePublished: Sat Jul 19 2025 04:20:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-19T04:20:00.782Z
 cuid: cmd9qoqz2000d02gw93q1dniy
 slug: gke-autopilot-qwik-start-gsp957
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752898753570/82070072-e824-42aa-b108-6cf79ad3daa4.png
