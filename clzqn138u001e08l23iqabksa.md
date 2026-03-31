@@ -2,7 +2,7 @@
 title: "Self review: Creating a route - React Basic"
 seoTitle: "Self review: Creating a route - React Basic"
 seoDescription: "Self review: Creating a route - React Basic"
-datePublished: Mon Aug 12 2024 06:53:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-12T06:53:50.382Z
 cuid: clzqn138u001e08l23iqabksa
 slug: self-review-creating-a-route-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723445498765/c5d7fa12-4201-4af3-9758-73cf3cec5dca.png
