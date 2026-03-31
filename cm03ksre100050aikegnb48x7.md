@@ -2,7 +2,7 @@
 title: "Deploy Kubernetes Load Balancer Service with Terraform - GSP233"
 seoTitle: "Deploy Kubernetes Load Balancer Service with Terraform - GSP233"
 seoDescription: "In Terraform, a Provider is the logical abstraction of an upstream API. This lab will show you how to set up a Kubernetes cluster and deploy Load Balancer t"
-datePublished: Wed Aug 21 2024 08:12:22 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-21T08:12:22.825Z
 cuid: cm03ksre100050aikegnb48x7
 slug: deploy-kubernetes-load-balancer-service-with-terraform-gsp233
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750232721494/5b82cccd-4d60-4cae-a186-da9296f975b9.png
