@@ -2,7 +2,7 @@
 title: "The Arcade Base Camp January 2026"
 seoTitle: "The Arcade Base Camp January 2026"
 seoDescription: "Join Base Camp January 2026 to develop Google Cloud skills, earn credentials, and unlock cloud opportunities. No experience needed!"
-datePublished: Tue Jan 06 2026 02:25:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-06T02:25:48.942Z
 cuid: cmk1ywk26000102js6e2lhv8y
 slug: the-arcade-base-camp-january-2026
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767834618006/34372c2a-a4e2-45de-8e87-15d292c1fc4a.png
