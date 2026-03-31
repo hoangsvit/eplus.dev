@@ -2,7 +2,7 @@
 title: "Accelerating Analytical Queries using the AlloyDB Columnar Engine"
 seoTitle: "Accelerating Analytical Queries using the AlloyDB Columnar Engine"
 seoDescription: "AlloyDB for PostgreSQL is a fully managed PostgreSQL-compatible database service for your most demanding enterprise database workloads. AlloyDB combines the"
-datePublished: Mon Mar 25 2024 15:47:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-03-25T15:47:03.104Z
 cuid: clu74fjnk000408jwhv41brsj
 slug: accelerating-analytical-queries-using-the-alloydb-columnar-engine
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711381541177/2af0ccd9-b854-4590-8af4-c96fefac9e97.png
