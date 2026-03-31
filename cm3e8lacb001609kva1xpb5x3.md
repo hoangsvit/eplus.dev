@@ -2,7 +2,7 @@
 title: "Django Web Framework - Final graded quiz: APIs"
 seoTitle: "Django Web Framework - Final graded quiz: APIs"
 seoDescription: "Django Web Framework - Final graded quiz: APIs"
-datePublished: Tue Nov 12 2024 09:15:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-12T09:15:13.691Z
 cuid: cm3e8lacb001609kva1xpb5x3
 slug: django-web-framework-final-graded-quiz-apis
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731402871463/362ecff2-1226-4294-9259-a11657f27a21.png
