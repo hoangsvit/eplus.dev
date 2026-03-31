@@ -2,7 +2,7 @@
 title: "Arcade Quiz: Database Engineer Challenge - osl-arc-0011"
 seoTitle: "Arcade Quiz: Database Engineer Challenge - osl-arc-0011"
 seoDescription: "Challenge your knowledge with the Arcade Quiz and compete globally for the top score. Join now for free!"
-datePublished: Tue Jan 27 2026 02:59:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-27T02:59:38.899Z
 cuid: cmkw0cydv000802l2enyq9uu3
 slug: arcade-quiz-database-engineer-challenge-osl-arc-0011-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769482743736/c26fb417-433a-48e2-a8cf-0118e4dda8d1.png
