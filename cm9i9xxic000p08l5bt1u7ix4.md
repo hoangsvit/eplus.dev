@@ -2,7 +2,7 @@
 title: "Monitor and Log with Google Cloud Observability: Challenge Lab - GSP338"
 seoTitle: "Monitor and Log with Google Cloud Observability: Challenge Lab - GSP33"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Tue Apr 15 2025 09:02:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-15T09:02:21.924Z
 cuid: cm9i9xxic000p08l5bt1u7ix4
 slug: monitor-and-log-with-google-cloud-observability-challenge-lab-gsp338
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744707401264/105651ff-4a8d-4be5-b2c6-adb04c14e116.png
