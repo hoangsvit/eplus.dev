@@ -4,7 +4,7 @@ seoTitle: "Arcade Hero: Building Blocks BigQuery I - ARC1201"
 seoDescription: "In this lab you will learn the fundamentals of topic using Google Cloud.
 
 If you are new to topic or looking for an overview of how to get started, you are "
-datePublished: Fri Feb 14 2025 06:01:09 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-14T06:01:09.605Z
 cuid: cm74d1sdh000t08jm8i67bdv1
 slug: arcade-hero-building-blocks-bigquery-i-arc1201
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739512758051/8b339ba5-45d2-49fe-a66e-b09812f24d33.png
