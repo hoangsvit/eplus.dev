@@ -2,7 +2,7 @@
 title: "Implementing Cloud SQL (Solution)"
 seoTitle: "Implementing Cloud SQL (Solution)"
 seoDescription: "In this lab, you configure a Cloud SQL server and learn how to connect an application to it via a proxy over an external connection. You also configure a co"
-datePublished: Wed Feb 19 2025 07:17:55 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-19T07:17:55.797Z
 cuid: cm7bkzrv8000s09jp0gvy15x6
 slug: implementing-cloud-sql-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739949287437/0c5e6d67-ab6a-4a68-a6c1-bced495ca78d.png
