@@ -2,7 +2,7 @@
 title: "Using gsutil to Perform Operations on Buckets and Objects - GSP130"
 seoTitle: "Using gsutil to Perform Operations on Buckets and Objects - GSP130"
 seoDescription: "In this lab, you will use gsutil to create a bucket and perform operations on objects. gsutil is a Python application that lets you access Cloud Storage fro"
-datePublished: Sun Mar 30 2025 05:37:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-30T05:37:34.608Z
 cuid: cm8v7kxw0000209jogrg8dlpd
 slug: using-gsutil-to-perform-operations-on-buckets-and-objects-gsp130
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743312899580/0f9d89d6-6810-49a3-81df-074454a3c0be.png
