@@ -2,7 +2,7 @@
 title: "Final graded quiz: Django Web Framework"
 seoTitle: "Final graded quiz: Django Web Framework"
 seoDescription: "Final graded quiz: Django Web Framework"
-datePublished: Sun Nov 10 2024 05:34:05 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-10T05:34:05.215Z
 cuid: cm3b5t6zj000n09l55umufcdu
 slug: final-graded-quiz-django-web-framework
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731216816979/4c4a5a16-fc4e-41e8-9a2c-55de0fd0ca34.png
