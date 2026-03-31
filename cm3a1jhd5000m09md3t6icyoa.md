@@ -2,7 +2,7 @@
 title: "Module quiz: Create, Read, Update and Delete (CRUD) Operations"
 seoTitle: "Module quiz: Create, Read, Update and Delete (CRUD) Operations"
 seoDescription: "Module quiz: Create, Read, Update and Delete (CRUD) Operations"
-datePublished: Sat Nov 09 2024 10:46:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-09T10:46:47.466Z
 cuid: cm3a1jhd5000m09md3t6icyoa
 slug: module-quiz-create-read-update-and-delete-crud-operations
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731149184211/99a9c244-0f5b-4fd6-8c86-de5a4c7cf1ee.png
