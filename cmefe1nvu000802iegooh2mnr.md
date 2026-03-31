@@ -2,7 +2,7 @@
 title: "Getting Started with Vault - GSP1003"
 seoTitle: "Getting Started with Vault - GSP1003"
 seoDescription: "Learn Hashicorp Vault fundamentals in this hands-on lab: manage secrets, encryption, authentication, and data security with Vault's CLI and web UI"
-datePublished: Sun Aug 17 2025 07:52:27 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-17T07:52:27.690Z
 cuid: cmefe1nvu000802iegooh2mnr
 slug: getting-started-with-vault-gsp1003
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755417109637/1abf1507-be3d-40c7-9679-b4fee8a51848.png
