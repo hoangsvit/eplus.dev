@@ -2,7 +2,7 @@
 title: "Laravel Comments Package - Spatie"
 seoTitle: "Laravel Comments Package - Spatie"
 seoDescription: "Laravel Comments is a premium comments package for applications using PHP 8.1+ and Laravel 9+ by Spatie. Using this package, you can create and associate co"
-datePublished: Wed Oct 19 2022 02:09:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-10-19T02:09:06.130Z
 cuid: cl9ezx4ya000c09muh4shhfv6
 slug: laravel-comments-package-spatie
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1666144869270/p9S2iBrcp.png
