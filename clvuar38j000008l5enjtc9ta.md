@@ -2,7 +2,7 @@
 title: "Open Server Panel 6.0.0 is now Available"
 seoTitle: "Open Server Panel 6.0.0 is now Available"
 seoDescription: "Open Server Panel 6 is essentially a new software product, the source code of which has been written from scratch by us without reference to old development"
-datePublished: Mon May 06 2024 01:42:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-05-06T01:42:23.780Z
 cuid: clvuar38j000008l5enjtc9ta
 slug: open-server-panel-600-is-now-available
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1714959380309/056485a2-0307-4702-a4b3-c9184e2029c9.png
