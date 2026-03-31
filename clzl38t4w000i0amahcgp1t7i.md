@@ -2,7 +2,7 @@
 title: "Build a Chat Application using the PaLM 2 API on Cloud Run - GSP1201"
 seoTitle: "Build a Chat Application using the PaLM 2 API on Cloud Run - GSP1201"
 seoDescription: "This lab demonstrates how to create and deploy an AI-powered chat application using Cloud Run on Google Cloud. The chat application is powered by the PaLM 2"
-datePublished: Thu Aug 08 2024 09:41:07 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-08T09:41:07.329Z
 cuid: clzl38t4w000i0amahcgp1t7i
 slug: build-a-chat-application-using-the-palm-2-api-on-cloud-run-gsp1201
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758435113584/1006344d-2c5a-479b-9942-82031d68acca.png
