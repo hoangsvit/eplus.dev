@@ -2,7 +2,7 @@
 title: "Knowledge check: Open Graph Protocol"
 seoTitle: "Knowledge check: Open Graph Protocol"
 seoDescription: "Knowledge check: Open Graph Protocol"
-datePublished: Sun Jul 21 2024 12:24:40 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T12:24:40.239Z
 cuid: clyvj5str00020ammce031680
 slug: knowledge-check-open-graph-protocol
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721564595341/24482018-5d57-4a69-9801-9b16486441cf.png
