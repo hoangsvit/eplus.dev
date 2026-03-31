@@ -2,7 +2,7 @@
 title: "Webinar: Generative AI with Vertex AI on Google Cloud"
 seoTitle: "Workshop: Generative AI with Vertex AI on Google Cloud"
 seoDescription: "In this workshop, you will learn about the basics of generative AI, including how it works, its applications, and its future. You will also have the oppo"
-datePublished: Sat Aug 05 2023 07:09:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-08-05T07:09:13.589Z
 cuid: clkxoc4xh000609jo38cohruk
 slug: webinar-generative-ai-with-vertex-ai-on-google-cloud
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691219130378/d18656a8-7b78-4dbf-a9a8-4607517c8fcb.webp
