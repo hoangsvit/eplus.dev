@@ -2,7 +2,7 @@
 title: "The Basics of Google Cloud Compute: Challenge Lab - ARC120"
 seoTitle: "The Basics of Google Cloud Compute: Challenge Lab - ARC120"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Fri Jul 26 2024 09:06:36 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-26T09:06:36.306Z
 cuid: clz2hacgi000i0amdczfmdva3
 slug: the-basics-of-google-cloud-compute-challenge-lab-arc120
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744955449986/5c562214-f9d2-4f7e-9085-14bc33581da4.png
