@@ -2,7 +2,7 @@
 title: "Provision Services with Google Cloud Marketplace - GSP003"
 seoTitle: "Provision Services with Google Cloud Marketplace - GSP003"
 seoDescription: "Google Cloud Marketplace provides a way to launch common software packages and stacks on Compute Engine with just a few clicks. Many common web frameworks,"
-datePublished: Mon Feb 10 2025 06:15:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-10T06:15:58.641Z
 cuid: cm6yntfow001308jx70o3a1h2
 slug: provision-services-with-google-cloud-marketplace-gsp003
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739168127150/47ae8d8c-7e16-4048-bb44-591d1f2f951e.png
