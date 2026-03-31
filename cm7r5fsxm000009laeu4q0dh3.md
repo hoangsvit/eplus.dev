@@ -2,7 +2,7 @@
 title: "The Arcade Base Camp March 2025"
 seoTitle: "The Arcade Base Camp March 2025"
 seoDescription: "Welcome to Base Camp March 2025, where you’ll develop key Google Cloud skills and earn an exclusive credential that will open doors to the cloud for you. No"
-datePublished: Sun Mar 02 2025 04:46:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-02T04:46:48.635Z
 cuid: cm7r5fsxm000009laeu4q0dh3
 slug: the-arcade-base-camp-march-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740890780049/5c3f214d-6de3-498e-b4e1-40148e71cfc0.png
