@@ -2,7 +2,7 @@
 title: "Retrieving Big Data Quiz - Big Data Integration and Processing"
 seoTitle: "Retrieving Big Data Quiz - Big Data Integration and Processing"
 seoDescription: "Retrieving Big Data Quiz - Big Data Integration and Processing"
-datePublished: Wed Feb 26 2025 08:55:40 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-26T08:55:40.576Z
 cuid: cm7lokfts000109l7duw7b8si
 slug: retrieving-big-data-quiz-big-data-integration-and-processing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740559682448/b157618e-6846-4b93-8e8c-816d5f3ad196.png
