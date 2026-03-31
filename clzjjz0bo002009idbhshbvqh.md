@@ -2,7 +2,7 @@
 title: "A Tour of Firebase - GSP1132 (Solution)"
 seoTitle: "A Tour of Firebase - GSP1132"
 seoDescription: "If you are new to cloud computing or looking for an overview of Google Cloud and Firebase, you are in the right place. Read on to learn about the specifics"
-datePublished: Wed Aug 07 2024 07:53:51 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-07T07:53:51.204Z
 cuid: clzjjz0bo002009idbhshbvqh
 slug: a-tour-of-firebase-gsp1132-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757226357863/65597b46-9e24-421d-b6cc-7117e0758413.png
