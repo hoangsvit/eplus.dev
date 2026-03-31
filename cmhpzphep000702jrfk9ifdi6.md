@@ -2,7 +2,7 @@
 title: "bq for Google BigQuery (Solution)"
 seoTitle: "bq for Google BigQuery (Solution)"
 seoDescription: "Learn to use the bq command-line tool for Google BigQuery to query public datasets, create tables, and manage data effectively"
-datePublished: Sat Nov 08 2025 07:55:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-11-08T07:55:39.746Z
 cuid: cmhpzphep000702jrfk9ifdi6
 slug: bq-for-google-bigquery-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762587594700/4417a701-86d1-4f83-8c94-2ef70a8ba607.png
