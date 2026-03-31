@@ -2,7 +2,7 @@
 title: "[Knowledge check] Describe cloud computing"
 seoTitle: "[Knowledge check] Describe cloud computing"
 seoDescription: "This module introduces you to cloud computing. It covers things such as cloud concepts, deployment models, and understanding shared responsibility in the cl"
-datePublished: Fri Jun 21 2024 07:51:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-21T07:51:25.442Z
 cuid: clxoe6uip00030al76kxde2cp
 slug: knowledge-check-describe-cloud-computing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718956239562/1e04d193-d936-436b-9f10-8c1ab11db5a8.png
