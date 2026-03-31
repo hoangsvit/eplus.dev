@@ -2,7 +2,7 @@
 title: "Knowledge check: Advanced JavaScript Features"
 seoTitle: "Knowledge check: Advanced JavaScript Features"
 seoDescription: "Knowledge check: Advanced JavaScript Features"
-datePublished: Thu Jul 18 2024 14:31:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-18T14:31:43.172Z
 cuid: clyrddmpw00010al7dklb40zm
 slug: knowledge-check-advanced-javascript-features
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721313048362/9a1dc376-99b5-4da3-aa42-5d1e8df3ec05.png
