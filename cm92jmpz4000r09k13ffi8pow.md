@@ -2,7 +2,7 @@
 title: "Weather Data in BigQuery - GSP009"
 seoTitle: "Weather Data in BigQuery - GSP009"
 seoDescription: "In this lab you will analyze historical weather observations from NOAA using BigQuery, then use the weather data in conjunction with citizen complaints to 3"
-datePublished: Fri Apr 04 2025 08:49:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-04T08:49:16.288Z
 cuid: cm92jmpz4000r09k13ffi8pow
 slug: weather-data-in-bigquery-gsp009
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743756119610/819ab41d-6f15-4b06-bc91-3cda0a518eb0.png
