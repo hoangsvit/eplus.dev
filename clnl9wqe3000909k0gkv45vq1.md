@@ -2,7 +2,7 @@
 title: "Laravel Bakery is an on-the-fly GraphQL Schema generator from Eloquent models"
 seoTitle: "An on-the-fly GraphQL Schema generator from Eloquent models for Larave"
 seoDescription: "An on-the-fly GraphQL Schema generator from Eloquent models for Laravel."
-datePublished: Wed Oct 11 2023 04:51:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-10-11T04:51:13.179Z
 cuid: clnl9wqe3000909k0gkv45vq1
 slug: laravel-bakery-is-an-on-the-fly-graphql-schema-generator-from-eloquent-models
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696999619835/dc568de0-9318-4920-a174-1e06c22ee3c7.png
