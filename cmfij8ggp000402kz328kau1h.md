@@ -2,7 +2,7 @@
 title: "Debug Apps on Google Kubernetes Engine - GSP736"
 seoTitle: "Debug Apps on Google Kubernetes Engine - GSP736"
 seoDescription: "Learn how to debug applications on Google Kubernetes Engine using Cloud Logging and Monitoring, with practical steps and best practices"
-datePublished: Sat Sep 13 2025 17:20:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-13T17:20:43.609Z
 cuid: cmfij8ggp000402kz328kau1h
 slug: debug-apps-on-google-kubernetes-engine-gsp736
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757783975714/5f49f613-e045-4219-a904-0031f4ccc50c.png
