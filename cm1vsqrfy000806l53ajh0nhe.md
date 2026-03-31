@@ -2,7 +2,7 @@
 title: "Knowledge check: Styling and responsiveness"
 seoTitle: "Knowledge check: Styling and responsiveness"
 seoDescription: "Knowledge check: Styling and responsiveness"
-datePublished: Sat Oct 05 2024 06:52:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-05T06:52:01.774Z
 cuid: cm1vsqrfy000806l53ajh0nhe
 slug: knowledge-check-styling-and-responsiveness
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728111053568/f1d9cae4-41a0-4090-b136-de255adcd7ec.png
