@@ -2,7 +2,7 @@
 title: "Getting Started with Cloud Shell and gcloud - GSP002"
 seoTitle: "Getting Started with Cloud Shell and gcloud - GSP002"
 seoDescription: "Cloud Shell provides you with command-line access to computing resources hosted on Google Cloud. Cloud Shell is a Debian-based virtual machine with a persis"
-datePublished: Thu Jun 19 2025 02:31:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-19T02:31:59.246Z
 cuid: cmc2rm9se000a02kydqx14lzf
 slug: getting-started-with-cloud-shell-and-gcloud-gsp002
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750300248395/3dd911ec-9cb8-4c3a-b0e5-d8b3513135c2.png
