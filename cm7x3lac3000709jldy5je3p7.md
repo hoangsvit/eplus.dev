@@ -2,7 +2,7 @@
 title: "Protecting Sensitive Data in Gen AI Model Responses - GSP1283"
 seoTitle: "Protecting Sensitive Data in Gen AI Model Responses - GSP1283"
 seoDescription: "Sensitive Data Protection is a fully managed service designed to help you discover, classify, and protect sensitive information. Key options include Sensiti"
-datePublished: Thu Mar 06 2025 08:41:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-06T08:41:42.291Z
 cuid: cm7x3lac3000709jldy5je3p7
 slug: protecting-sensitive-data-in-gen-ai-model-responses-gsp1283
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741249830926/48ad3033-5718-41a7-a26d-9409c1090e62.png
