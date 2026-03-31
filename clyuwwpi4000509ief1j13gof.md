@@ -2,7 +2,7 @@
 title: "Make and change directories and files"
 seoTitle: "Make and change directories and files"
 seoDescription: "Make and change directories and files"
-datePublished: Sun Jul 21 2024 02:01:44 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T02:01:44.476Z
 cuid: clyuwwpi4000509ief1j13gof
 slug: make-and-change-directories-and-files
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721527215788/00502333-6480-476f-a958-7ee4020408f9.png
