@@ -2,7 +2,7 @@
 title: "Optimizing Performance of LookML Queries - GSP985"
 seoTitle: "Optimizing Performance of LookML Queries - GSP985"
 seoDescription: "Looker is a modern data platform in Google Cloud that you can use to analyze and visualize your data interactively. You can use Looker to do in-depth data a"
-datePublished: Sat Aug 17 2024 03:29:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-17T03:29:49.357Z
 cuid: clzxkxzcd00020ajw1qay1v90
 slug: optimizing-performance-of-lookml-queries-gsp985
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747553460480/e96c7fb7-3c96-4167-8045-55a46db91a90.png
