@@ -2,7 +2,7 @@
 title: "Telegram tại Việt Nam: Vẫn Bị Chặn, Vì Sao?"
 seoTitle: "Telegram tại Việt Nam: Vẫn Bị Chặn, Vì Sao?"
 seoDescription: "Telegram vẫn bị chặn ở Việt Nam do vi phạm luật pháp và kém hợp tác nội dung. Các báo cáo truy cập lại thiếu sự chính thức"
-datePublished: Wed Jul 09 2025 15:24:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-09T15:24:15.922Z
 cuid: cmcw40gqa000102jr6ubs8z92
 slug: telegram-tai-viet-nam-van-bi-chan-vi-sao
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/SDgX8iC-kEU/upload/618abed92fe8e28acc8b029a13f01655.jpeg
