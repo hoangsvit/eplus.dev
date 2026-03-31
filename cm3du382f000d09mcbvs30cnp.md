@@ -2,7 +2,7 @@
 title: "Securing Google Cloud with CFT Scorecard - GSP698"
 seoTitle: "Securing Google Cloud with CFT Scorecard - GSP698"
 seoDescription: "CFT Scorecard is an open-sourced command line client of Forseti Config Validator and part of the broader Cloud Foundation Toolkit. It provides visibility in"
-datePublished: Tue Nov 12 2024 02:29:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-12T02:29:16.311Z
 cuid: cm3du382f000d09mcbvs30cnp
 slug: securing-google-cloud-with-cft-scorecard-gsp698
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731378524570/cf43a8c3-60fd-435b-b55b-3789b5813c18.png
