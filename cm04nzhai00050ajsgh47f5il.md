@@ -2,7 +2,7 @@
 title: "Engineer Data for Predictive Modeling with BigQuery ML: Challenge Lab - GSP327"
 seoTitle: "Engineer Data for Predictive Modeling with BigQuery ML: Challenge Lab "
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Thu Aug 22 2024 02:29:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-22T02:29:21.354Z
 cuid: cm04nzhai00050ajsgh47f5il
 slug: engineer-data-for-predictive-modeling-with-bigquery-ml-challenge-lab-gsp327
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724293523236/9d3e53b0-b1ab-4dc6-8382-4d2a529199e9.png
