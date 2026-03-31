@@ -4,7 +4,7 @@ seoTitle: "Internal Load Balancer - GSP041"
 seoDescription: "Google Cloud's Internal Load Balancer lets you load balance TCP/UDP traffic without exposing your VM's public IP to the Internet.
 
 This example uses a distr"
-datePublished: Fri Feb 14 2025 07:23:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-14T07:23:04.532Z
 cuid: cm74fz4r8001x09ldf4xahmv3
 slug: internal-load-balancer-gsp041
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739517550174/9d4dd3ce-dc86-467e-b781-a6df38106fb3.png
