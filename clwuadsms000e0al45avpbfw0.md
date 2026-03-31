@@ -2,7 +2,7 @@
 title: "Thông báo từ Moca về việc ngừng dịch vụ ví điện tử Moca / Update from Moca about discontinuing Moca e-wallet"
 seoTitle: "Thông báo từ Moca về việc ngừng dịch vụ ví điện tử Moca"
 seoDescription: "Thông báo từ Moca về việc ngừng dịch vụ ví điện tử Moca / Update from Moca about discontinuing Moca e-wallet"
-datePublished: Fri May 31 2024 06:11:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-05-31T06:11:45.845Z
 cuid: clwuadsms000e0al45avpbfw0
 slug: thong-bao-tu-moca-ve-viec-ngung-dich-vu-vi-dien-tu-moca-update-from-moca-about-discontinuing-moca-e-wallet
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1717135828332/5330f2bd-74f3-4ccc-932a-f77a39699979.jpeg
