@@ -2,7 +2,7 @@
 title: "Module quiz: Components - Advanced React"
 seoTitle: "Module quiz: Components - Advanced React"
 seoDescription: "Module quiz: Components - Advanced React"
-datePublished: Mon Sep 16 2024 03:16:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-16T03:16:25.792Z
 cuid: cm14fobb400080amh688saeb4
 slug: module-quiz-components-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726455537679/4621e901-fd83-4476-976c-79799bf01720.jpeg
