@@ -4,7 +4,7 @@ seoTitle: "Arcade Hero: Enter the Artifact Registry Python - ARC153"
 seoDescription: "In this lab you will learn the fundamentals of Artifact Registry Maven using Google Cloud.
 
 If you are new to Artifact Registry Maven or looking for an over"
-datePublished: Tue Jan 14 2025 06:06:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-14T06:06:31.943Z
 cuid: cm5w2lafb000d09laaz7yd13y
 slug: arcade-hero-enter-the-artifact-registry-python-arc153
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736834464330/788ab198-33fc-4e5b-b4fd-49eaabccd25a.png
