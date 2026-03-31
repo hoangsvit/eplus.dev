@@ -2,7 +2,7 @@
 title: "Secure Software Delivery: Challenge Lab - GSP521"
 seoTitle: "Secure Software Delivery: Challenge Lab - GSP521"
 seoDescription: "Practice secure software delivery with Google Cloud in this hands-on lab for the Secure Software Delivery course"
-datePublished: Thu Oct 02 2025 06:57:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-02T06:57:28.474Z
 cuid: cmg92c4uy000002kyc9hgdwsz
 slug: secure-software-delivery-challenge-lab-gsp521
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759388228855/b3fdadcc-bf6e-43d0-8110-2f7e3d3902ef.png
