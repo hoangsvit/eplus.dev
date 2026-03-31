@@ -2,7 +2,7 @@
 title: "Module Quiz: Working with Git"
 seoTitle: "Module Quiz: Working with Git"
 seoDescription: "Module Quiz: Working with Git"
-datePublished: Sun Jul 21 2024 02:53:41 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T02:53:41.481Z
 cuid: clyuyrill000509l84ijvaab1
 slug: module-quiz-working-with-git
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721530382877/c0177fb5-fff3-4e47-aa75-a472a3313512.png
