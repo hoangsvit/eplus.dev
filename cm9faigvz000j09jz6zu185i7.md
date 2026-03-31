@@ -2,7 +2,7 @@
 title: "Data Publishing on BigQuery for Data Sharing Partners - GSP1032"
 seoTitle: "Data Publishing on BigQuery for Data Sharing Partners - GSP1032"
 seoDescription: "A common scenario is where a Google Cloud Data Sharing Partner has proprietary datasets that customers can use for their analytics use cases. Customers need"
-datePublished: Sun Apr 13 2025 06:55:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-13T06:55:01.631Z
 cuid: cm9faigvz000j09jz6zu185i7
 slug: data-publishing-on-bigquery-for-data-sharing-partners-gsp1032
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744525918710/cf928ae9-2101-4400-9bcd-e97da83ee4a8.png
