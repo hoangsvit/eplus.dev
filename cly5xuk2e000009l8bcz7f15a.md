@@ -2,7 +2,7 @@
 title: "50 000 Suất Học Coursera Miễn Phí Dành Cho Cộng Đồng"
 seoTitle: "50 000 Suất Học Coursera Miễn Phí Dành Cho Cộng Đồng"
 seoDescription: "STIC Talent (US ASEAN Science, Technology, and Innovation Cooperation Program) tài trợ 50.000 slot học MIỄN PHÍ cho cộng đồng."
-datePublished: Wed Jul 03 2024 14:33:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-03T14:33:49.335Z
 cuid: cly5xuk2e000009l8bcz7f15a
 slug: 50-000-suat-hoc-coursera-mien-phi-danh-cho-cong-dong
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720017011004/b5e9df07-2f8c-4401-8b75-b8203c5aa0eb.jpeg
