@@ -2,7 +2,7 @@
 title: "Using BigQuery and Cloud Logging to Analyze BigQuery Usage - GSP617"
 seoTitle: "Using BigQuery and Cloud Logging to Analyze BigQuery Usage - GSP617"
 seoDescription: "Cloud Logging serves as a central repository for logs from various Google Cloud services, including BigQuery, and is ideal for short to mid-term log storage"
-datePublished: Wed Sep 04 2024 06:12:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-04T06:12:06.007Z
 cuid: cm0ngo06v00180am57zev2px9
 slug: using-bigquery-and-cloud-logging-to-analyze-bigquery-usage-gsp617
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725430053747/59478ab7-5d29-4e5b-beb9-9630ce2b817a.jpeg
