@@ -2,7 +2,7 @@
 title: "Building Event-Driven Orchestration on Google Cloud"
 seoTitle: "Building Event-Driven Orchestration on Google Cloud"
 seoDescription: "Serverless computing on Google Cloud lets you develop and deploy highly scalable applications on a fully managed serverless platform. Services are automatic"
-datePublished: Wed Aug 14 2024 02:52:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-14T02:52:31.008Z
 cuid: clzt9ag80000309me2cxq8y8g
 slug: building-event-driven-orchestration-on-google-cloud
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723603863951/364af9a8-9759-4423-b0d7-b7c217671038.png
