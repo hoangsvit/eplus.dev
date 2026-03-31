@@ -2,7 +2,7 @@
 title: "Cloud Data Loss Prevention API: Qwik Start - GSP107"
 seoTitle: "Cloud Data Loss Prevention API: Qwik Start - GSP107"
 seoDescription: "Now part of Sensitive Data Protection, the Cloud Data Loss Prevention (DLP) API provides programmatic access to a powerful detection engine for personally i"
-datePublished: Fri Feb 14 2025 07:15:54 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-14T07:15:54.936Z
 cuid: cm74fpxa0001t09ld1fhm6um3
 slug: cloud-data-loss-prevention-api-qwik-start-gsp107
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757571039839/d443316c-48be-41ae-8421-f756a245bc59.png
