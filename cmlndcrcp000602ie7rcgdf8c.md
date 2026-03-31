@@ -2,7 +2,7 @@
 title: "Secure a Public Storage Bucket - gcloud (Solution)"
 seoTitle: "Secure a Public Storage Bucket - gcloud (Solution)"
 seoDescription: "Secure your public storage bucket using gcloud. Follow the steps to ensure your media archive remains private"
-datePublished: Sun Feb 15 2026 06:33:11 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-02-15T06:33:11.545Z
 cuid: cmlndcrcp000602ie7rcgdf8c
 slug: secure-a-public-storage-bucket-gcloud-solution-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1771137134087/64858228-e9a4-4fae-a9ce-ccc9eb59bd2d.png
