@@ -2,7 +2,7 @@
 title: "Classify Images with TensorFlow on Google Cloud: Challenge Lab - GSP398"
 seoTitle: "Classify Images with TensorFlow on Google Cloud: Challenge Lab - GSP39"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Sat Aug 17 2024 07:44:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-17T07:44:47.424Z
 cuid: clzxu1veo000e09la5lu13cx5
 slug: classify-images-with-tensorflow-on-google-cloud-challenge-lab-gsp398
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758964836133/b40233b6-3054-4530-a507-921e7e98b220.png
