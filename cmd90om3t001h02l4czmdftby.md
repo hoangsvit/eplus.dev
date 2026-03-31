@@ -2,7 +2,7 @@
 title: "Google Workspace Admin: Provisioning - GSP676"
 seoTitle: "Google Workspace Admin: Provisioning - GSP676"
 seoDescription: "Provision groups, calendar resources, and domains in Google Workspace Admin with hands-on tasks for efficient management"
-datePublished: Fri Jul 18 2025 16:12:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-18T16:12:04.457Z
 cuid: cmd90om3t001h02l4czmdftby
 slug: google-workspace-admin-provisioning-gsp676
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752824252612/1e95aa44-ead8-4d9e-8b2b-e147f91f5cc0.png
