@@ -2,7 +2,7 @@
 title: "MongoDB Aggregation"
 seoTitle: "MongoDB Aggregation"
 seoDescription: "In this unit, you will learn about the aggregation pipeline, which is one of MongoDB's most powerful features. You will learn how to use the aggregation pip"
-datePublished: Tue Jul 02 2024 13:00:40 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-02T13:00:40.920Z
 cuid: cly4f2xcn000k0ali5zi85rqk
 slug: mongodb-aggregation
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719925132941/85846a27-2c8a-4a24-b22c-6f16f311ed6d.png
