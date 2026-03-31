@@ -2,7 +2,7 @@
 title: "Developer Essentials: Application Development with Secret Manager - gem-secret-manager-cloud-run"
 seoTitle: "Developer Essentials: Application Development with Secret Manager - ge"
 seoDescription: "Learn to develop and deploy a secure application on Google Cloud Run using Secret Manager for sensitive data management and configuration enhancement"
-datePublished: Mon Aug 25 2025 03:37:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-25T03:37:28.783Z
 cuid: cmeqkgki7001202ie8oqjh7dt
 slug: developer-essentials-application-development-with-secret-manager-gem-secret-manager-cloud-run
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756092996845/808aa2d6-27d2-4350-94f4-a3665f062282.png
