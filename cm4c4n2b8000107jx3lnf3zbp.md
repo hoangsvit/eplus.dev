@@ -2,7 +2,7 @@
 title: "The Arcade Base Camp December 2024"
 seoTitle: "The Arcade Base Camp December 2024"
 seoDescription: "Welcome to Base Camp December 2024, where you’ll develop key Google Cloud skills and earn an exclusive credential that will open doors to the cloud for you."
-datePublished: Fri Dec 06 2024 02:28:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-06T02:28:48.116Z
 cuid: cm4c4n2b8000107jx3lnf3zbp
 slug: the-arcade-base-camp-december-2024
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733451276588/602e76cf-7afe-4633-8b8b-5286a7c8ac47.png
