@@ -2,7 +2,7 @@
 title: "Connect and Configure Data for your AppSheet App - GSP910"
 seoTitle: "Connect and Configure Data for your AppSheet App - GSP910"
 seoDescription: "In this lab, you use AppSheet to enhance a basic application with additional functionality using data from a second data source. Using the AppSheet editor,"
-datePublished: Fri Aug 09 2024 06:19:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-09T06:19:48.736Z
 cuid: clzmbhrwg000109ia1dtg0l1y
 slug: connect-and-configure-data-for-your-appsheet-app-gsp910
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746622257288/6c05b472-5701-4f8c-9edc-6b1f8bd15c8e.png
