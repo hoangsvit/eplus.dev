@@ -2,7 +2,7 @@
 title: "Google Skills Arcade Trivia November 2025 Week 3 (Solution)"
 seoTitle: "Google Skills Arcade Trivia November 2025 Week 3 (Solution)"
 seoDescription: "Test your Google Cloud skills with the November 2025 Skills Arcade Trivia Quiz. Explore hands-on challenges and solutions"
-datePublished: Fri Nov 07 2025 06:11:09 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-11-07T06:11:09.873Z
 cuid: cmhogj8vl000002jm2dlh9um7
 slug: google-skills-arcade-trivia-november-2025-week-3-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762495762092/ff994130-4642-4ade-90ab-5ac3b47343f8.png
