@@ -2,7 +2,7 @@
 title: "Google Skills Arcade Trivia January 2026 Week 1 (Solution)"
 seoTitle: "Google Skills Arcade Trivia January 2026 Week 1 (Solution)"
 seoDescription: "Boost your career with Google Skills Arcade Trivia, offering practical experience with Google Cloud services. Learn solutions and tips here"
-datePublished: Sun Jan 11 2026 09:40:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-11T09:40:16.146Z
 cuid: cmk9jmiz6000202jjbit0dqc9
 slug: google-skills-arcade-trivia-january-2026-week-1-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768124379467/e19ad0ff-cedf-4e6b-afb0-2872f6045048.png
