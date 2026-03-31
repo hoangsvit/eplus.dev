@@ -2,7 +2,7 @@
 title: "Firebase Essentials: Firestore Database Write with Python - gem-firebase-firestore-write-python"
 seoTitle: "Firebase Essentials: Firestore Database Write with Python - gem-fireba"
 seoDescription: "Learn to create, configure, and write data to a Firebase Firestore database using Python and Firebase CLI in Google Cloud"
-datePublished: Mon Sep 15 2025 07:18:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-15T07:18:39.117Z
 cuid: cmfkslvyl000102l26yut915x
 slug: firebase-essentials-firestore-database-write-with-python-gem-firebase-firestore-write-python
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757920606373/df1387c4-841b-46ac-a694-ad6902d81b74.png
