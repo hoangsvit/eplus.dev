@@ -2,7 +2,7 @@
 title: "Create and Manage AlloyDB Databases - Challenge Lab"
 seoTitle: "Create and Manage AlloyDB Databases - Challenge Lab"
 seoDescription: "In this challenge lab, lab you are given a set number of tasks to perform. These have all been covered in the quest Create and Manage AlloyDB Databases. You"
-datePublished: Mon Mar 25 2024 09:35:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-03-25T09:35:43.975Z
 cuid: clu6r60yu000509lb2ubb0lwm
 slug: create-and-manage-alloydb-databases-challenge-lab
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711359257610/afa28aa6-0190-46c7-b4df-4e6fd5a9f7fd.png
