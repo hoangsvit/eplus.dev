@@ -2,7 +2,7 @@
 title: "How to Obtain Tinkerwell Educational Licenses free"
 seoTitle: "How to Obtain Tinkerwell Educational Licenses free"
 seoDescription: "Tinkerwell is a tool that facilitates running PHP code without the need for complex web servers or local development setups. It is particularly useful for t"
-datePublished: Tue Oct 24 2023 16:08:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-10-24T16:08:19.604Z
 cuid: clo4itklw000009l05w9e3vyr
 slug: how-to-obtain-tinkerwell-educational-licenses-free
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698163009508/dfd8d931-c688-4781-8346-2c86bbd9b731.jpeg
