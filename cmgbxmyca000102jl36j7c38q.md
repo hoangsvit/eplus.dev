@@ -2,7 +2,7 @@
 title: "Arcade Hero: Enter the Artifact Registry Maven - ARC151"
 seoTitle: "Arcade Hero: Enter the Artifact Registry Maven - ARC151"
 seoDescription: "Learn the fundamentals of utilizing Google Cloud's Artifact Registry Maven in this hands-on lab with step-by-step guidance"
-datePublished: Sat Oct 04 2025 07:09:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-04T07:09:13.690Z
 cuid: cmgbxmyca000102jl36j7c38q
 slug: arcade-hero-enter-the-artifact-registry-maven-arc151
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759561722526/bf724b0b-31c9-4674-b0fd-5c24a059744b.png
