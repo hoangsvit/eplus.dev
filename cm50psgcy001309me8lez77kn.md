@@ -2,7 +2,7 @@
 title: "Log Analytics on Google Cloud (Solution)"
 seoTitle: "Log Analytics on Google Cloud (Solution)"
 seoDescription: "In this lab you will learn about the features and tools provided by Cloud Logging to gain insight of your applications."
-datePublished: Mon Dec 23 2024 07:27:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-23T07:27:19.762Z
 cuid: cm50psgcy001309me8lez77kn
 slug: log-analytics-on-google-cloud-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734938259345/4f7c818d-dd23-42f3-a06e-182f5f03366f.png
