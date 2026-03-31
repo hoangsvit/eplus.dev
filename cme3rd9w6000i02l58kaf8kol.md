@@ -2,7 +2,7 @@
 title: "Getting started with Webpack - GSP1133"
 seoTitle: "Getting started with Webpack - GSP1133"
 seoDescription: "Learn Webpack fundamentals, boost HTML with JavaScript and CSS, configure Webpack. Perfect for beginners in web development. Start your journey now!"
-datePublished: Sat Aug 09 2025 04:32:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-09T04:32:10.327Z
 cuid: cme3rd9w6000i02l58kaf8kol
 slug: getting-started-with-webpack-gsp1133
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754713490656/6a6d4b36-3161-459a-92b8-ad235a910702.png
