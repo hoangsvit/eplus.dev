@@ -2,7 +2,7 @@
 title: "Running Windows Containers on Compute Engine - GSP153"
 seoTitle: "Running Windows Containers on Compute Engine - GSP153"
 seoDescription: "Container virtualization is a fast evolving technology, which aims to simplify the deployment and management of distributed applications. When people discus"
-datePublished: Wed Aug 07 2024 06:39:22 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-07T06:39:22.239Z
 cuid: clzjhb81r000209jvhg7x7ho7
 slug: running-windows-containers-on-compute-engine-gsp153
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723011573689/490b3cce-0588-4df3-a3e9-384788f60d7d.png
