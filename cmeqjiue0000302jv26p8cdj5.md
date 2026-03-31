@@ -2,7 +2,7 @@
 title: "Terraform Essentials: VPC and Subnet - gem-terraform-vpc-create"
 seoTitle: "Terraform Essentials: VPC and Subnet - gem-terraform-vpc-create"
 seoDescription: "Learn to create and manage a custom VPC network in Google Cloud with Terraform. Configure subnets and firewall rules efficiently"
-datePublished: Mon Aug 25 2025 03:11:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-25T03:11:15.288Z
 cuid: cmeqjiue0000302jv26p8cdj5
 slug: terraform-essentials-vpc-and-subnet-gem-terraform-vpc-create
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756091403955/27a8c6b8-441a-42ce-90cd-8a980956e542.png
