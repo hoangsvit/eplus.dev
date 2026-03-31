@@ -2,11 +2,11 @@
 title: "Creating a De-identified Copy of Data in Cloud Storage - GSP1073"
 seoTitle: "Creating a De-identified Copy of Data in Cloud Storage - GSP1073"
 seoDescription: "Sensitive Data Protection is a fully managed service designed to help discover, classify, and protect sensitive information. In this lab, you create and run"
-datePublished: Mon Jan 20 2025 06:26:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-20T06:26:24.019Z
 cuid: cm64nxy8j000j09jvfrh6gy4s
 slug: creating-a-de-identified-copy-of-data-in-cloud-storage-gsp1073
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737354356410/6d2e578e-da89-4b5d-aa8d-1c182e23eeec.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1737354370832/31019451-0994-4a28-b1ba-110a94f5e5ce.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/3c18f81d-8755-4fbb-baa0-0ced7cca2a05.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/fd1e7fef-6fe9-4860-8223-72879ba2a067.png
 tags: creating-a-de-identified-copy-of-data-in-cloud-storage-gsp1073, gsp1073
 
 ---
@@ -23,13 +23,13 @@ As part of the setup process of this lab, an "input" Cloud Storage bucket with s
 
 In this lab, you:
 
-* Create a Sensitive Data Protection de-identification template for structured and unstructured data
+*   Create a Sensitive Data Protection de-identification template for structured and unstructured data
     
-* Configure a Sensitive Data Protection Inspection Job Trigger with De-identify Findings Action enabled
+*   Configure a Sensitive Data Protection Inspection Job Trigger with De-identify Findings Action enabled
     
-* Create a Sensitive Data Protection Inspection Job
+*   Create a Sensitive Data Protection Inspection Job
     
-* View results of the inspection job and view new de-identified files in Cloud Storage
+*   View results of the inspection job and view new de-identified files in Cloud Storage
     
 
 ## **Setup and requirements**
@@ -42,29 +42,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -72,7 +72,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-62859cff6ca7@qwiklabs.net
@@ -82,9 +82,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     gwnVQo94xPLt
@@ -94,19 +94,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -121,39 +121,39 @@ After a few moments, the Google Cloud console opens in this tab.
 
 In this section, you configure and create a de-identify template for unstructured data.
 
-1. In the Google Cloud console, in the **Navigation menu** (), click **Security &gt;** [**Data Loss Prevention**](https://console.cloud.google.com/security/dlp/).
+1.  In the Google Cloud console, in the **Navigation menu** (), click **Security >** [**Data Loss Prevention**](https://console.cloud.google.com/security/dlp/).
     
-2. Click the **Configuration** tab.
+2.  Click the **Configuration** tab.
     
-3. In the **Configuration** &gt; **Templates** section, click **Create Template**.
+3.  In the **Configuration** > **Templates** section, click **Create Template**.
     
 
 ![create template](https://cdn.qwiklabs.com/JMI8jMKjp2A%2BnheT4jj3ZEQkDKyc6KNZj3thgBGfrWc%3D align="left")
 
-4. On the **Create Template** page, define the following options:
+4.  On the **Create Template** page, define the following options:
     
-    * For **Template type**, select **De-identify (remove sensitive data)**.
+    *   For **Template type**, select **De-identify (remove sensitive data)**.
         
-    * Fo **Data transformation type** select **InfoType**
+    *   Fo **Data transformation type** select **InfoType**
         
-    * For **Template ID**, enter `deid_unstruct1`
+    *   For **Template ID**, enter `deid_unstruct1`
         
-    * For **Display name,** enter `deid_unstruct1 template`
+    *   For **Display name,** enter `deid_unstruct1 template`
         
-    * For **Description**, leave the field empty.
+    *   For **Description**, leave the field empty.
         
-    * For **Resource location**, use the default setting **Global (any region)**.
+    *   For **Resource location**, use the default setting **Global (any region)**.
         
-5. Click **Continue**.
+5.  Click **Continue**.
     
-6. For the **Transformation Rule** select *Replace with infoType name*.
+6.  For the **Transformation Rule** select *Replace with infoType name*.
     
-7. For **InfoTypes to transform** select *Any detected infoTypes defined in an inspection template or inspect config that are not specified in other rules*.
+7.  For **InfoTypes to transform** select *Any detected infoTypes defined in an inspection template or inspect config that are not specified in other rules*.
     
 
 ![configure deidentification](https://cdn.qwiklabs.com/P2I%2FH5Le2rmJlMl7dgrBvM4dQOULfQI3N3nEN0U49Wg%3D align="left")
 
-8. Click **Create**.
+8.  Click **Create**.
     
 
 Click *Check my progress* to verify the objective.
@@ -166,55 +166,55 @@ Check my progress
 
 In this section, you configure and create a de-identify template for structured data.
 
-1. In the Google Cloud console, navigate back to the [Data Loss Prevention](https://console.cloud.google.com/security/dlp/) page.
+1.  In the Google Cloud console, navigate back to the [Data Loss Prevention](https://console.cloud.google.com/security/dlp/) page.
     
-2. Click the **Configuration** tab.
+2.  Click the **Configuration** tab.
     
-3. In the **Configuration** &gt; **Templates** section, click **Create Template**.
+3.  In the **Configuration** > **Templates** section, click **Create Template**.
     
 
 ![create template](https://cdn.qwiklabs.com/SH51h4bFgl3MVZrk1dQCVoGtfbXgDfyOfx%2FIq6HrQCA%3D align="left")
 
-4. On the **Create Template** page, define the following options:
+4.  On the **Create Template** page, define the following options:
     
-    * For **Template type**, select **De-identify (remove sensitive data)**.
+    *   For **Template type**, select **De-identify (remove sensitive data)**.
         
-    * Fo **Data transformation type** select **Record**
+    *   Fo **Data transformation type** select **Record**
         
-    * For **Template ID**, enter `deid_struct1`
+    *   For **Template ID**, enter `deid_struct1`
         
-    * For **Display name,** enter `deid_struct1 template`
+    *   For **Display name,** enter `deid_struct1 template`
         
-    * For **Description**, leave the field empty.
+    *   For **Description**, leave the field empty.
         
-    * For **Resource location**, use the default setting **Global (any region)**.
+    *   For **Resource location**, use the default setting **Global (any region)**.
         
-5. Click **Continue**.
+5.  Click **Continue**.
     
-6. For the **Transformation Rule** add the following field names: `ssn` `ccn` `email` `vin` `id` `agent_id` `user_id`.
+6.  For the **Transformation Rule** add the following field names: `ssn` `ccn` `email` `vin` `id` `agent_id` `user_id`.
     
 
 ![configure structured deidentification](https://cdn.qwiklabs.com/G8x%2FYPbLnBdTHkTpVv1d%2FK34Z0inu5UY2R46M%2BfMD%2BE%3D align="left")
 
-7. For the **Transformation type** select *Primitive field transformation*.
+7.  For the **Transformation type** select *Primitive field transformation*.
     
-8. For **Transformation method** select *Replace*. This replaces the contents of every cell for fields that match any in the list you provided.
+8.  For **Transformation method** select *Replace*. This replaces the contents of every cell for fields that match any in the list you provided.
     
-9. Click **\+ Add Transformation Rule**.
+9.  Click **\+ Add Transformation Rule**.
     
-10. For this new rule add the field: `message`.
-    
-11. For the **Transformation type** select *Match on infoType* and click **Add Transformation**.
-    
-12. For the **Transformation Method** select *Replace with infoType name*.
-    
-13. For **InfoTypes to transform** select *Any detected infoTypes defined in an inspection template or inspect config that are not specified in other rules*. This applies infoType inspection and redaction to any files with a field called `message`.
-    
+10.  For this new rule add the field: `message`.
+     
+11.  For the **Transformation type** select *Match on infoType* and click **Add Transformation**.
+     
+12.  For the **Transformation Method** select *Replace with infoType name*.
+     
+13.  For **InfoTypes to transform** select *Any detected infoTypes defined in an inspection template or inspect config that are not specified in other rules*. This applies infoType inspection and redaction to any files with a field called `message`.
+     
 
 ![configure structured deidentification final config](https://cdn.qwiklabs.com/PKJkWHa2ZzOxPkXSv6shT%2FOYlHU%2Bc9ldjAsc0WGOL%2B0%3D align="left")
 
-13. Click **Create**.
-    
+13.  Click **Create**.
+     
 
 Click *Check my progress* to verify the objective.
 
@@ -224,65 +224,65 @@ Check my progress
 
 ## **Task 2. Create a DLP inspection job trigger**
 
-1. In the Google Cloud console, navigate back to the [Data Loss Prevention](https://console.cloud.google.com/security/dlp/) page.
+1.  In the Google Cloud console, navigate back to the [Data Loss Prevention](https://console.cloud.google.com/security/dlp/) page.
     
-2. Click the **Inspection** tab.
+2.  Click the **Inspection** tab.
     
-3. Click **Create Job and Job Triggers**.
+3.  Click **Create Job and Job Triggers**.
     
-4. To configure input data, do the following:
+4.  To configure input data, do the following:
     
-    * In the **Name** section, define the following options:
+    *   In the **Name** section, define the following options:
         
-        * For **Job ID**, enter `DeID_Storage_Demo1`.
+        *   For **Job ID**, enter `DeID_Storage_Demo1`.
             
-        * Keep Resource location set to **Global (any region)**.
+        *   Keep Resource location set to **Global (any region)**.
             
-    * In the **Storage type** list, select **Google Cloud Storage**, and then define the following options:
+    *   In the **Storage type** list, select **Google Cloud Storage**, and then define the following options:
         
-        * For the **Location Type** select *Scan a bucket with optional include/exclude rules*.
+        *   For the **Location Type** select *Scan a bucket with optional include/exclude rules*.
             
-        * For the URL enter: `qwiklabs-gcp-00-faa709f5e30d-input`
+        *   For the URL enter: `qwiklabs-gcp-00-faa709f5e30d-input`
             
-        * Set “Percentage of included objects scanned within the bucket” to **100%** and select **No Sampling**
+        *   Set “Percentage of included objects scanned within the bucket” to **100%** and select **No Sampling**
             
 
 **Note:** For the storage bucket URL, make sure there are no whitespaces.
 
 ![configure DLP job](https://cdn.qwiklabs.com/71eZfwOPYNZtDO2F4uHOm%2BNGMbiOSGPH6%2Fe7meqIzTg%3D align="left")
 
-5. Leave the rest of the fields as default and click **Continue**.
+5.  Leave the rest of the fields as default and click **Continue**.
     
-6. Under **Configure detection**, leave all fields as default and click **Continue**.
+6.  Under **Configure detection**, leave all fields as default and click **Continue**.
     
-7. Under **Add Actions**, toggle to enable **Make a de-identify copy**.
+7.  Under **Add Actions**, toggle to enable **Make a de-identify copy**.
     
-8. Enter the two templates that you created above in the respective boxes:
+8.  Enter the two templates that you created above in the respective boxes:
     
-    * `projects/qwiklabs-gcp-00-faa709f5e30d/locations/global/deidentifyTemplates/deid_unstruct1`
+    *   `projects/qwiklabs-gcp-00-faa709f5e30d/locations/global/deidentifyTemplates/deid_unstruct1`
         
-    * `projects/qwiklabs-gcp-00-faa709f5e30d/locations/global/deidentifyTemplates/deid_struct1`
+    *   `projects/qwiklabs-gcp-00-faa709f5e30d/locations/global/deidentifyTemplates/deid_struct1`
         
 
 **Note:** make sure there are no spaces in the de-identification template paths.
 
 ![DLP templates](https://cdn.qwiklabs.com/s%2FORA475DX7k%2FEBVdSq0IWtm9RQexUtq6xX8%2BhkyIz8%3D align="left")
 
-9. For the **Cloud Storage output location** specify: `gs://qwiklabs-gcp-00-faa709f5e30d-output`
+9.  For the **Cloud Storage output location** specify: `gs://qwiklabs-gcp-00-faa709f5e30d-output`
     
 
 This specifies to write the redacted output to the second bucket that was created for you.
 
-10. Click **Continue**.
-    
-11. For **Schedule**, select **Create a trigger to run the job on a periodic schedule** and select **Weekly**.
-    
-12. Click **Continue**.
-    
-13. Scroll down and click **Create** &gt; **Confirm Create**.
-    
-14. You should now have a job under **Inspection** &gt; **Job Triggers**.
-    
+10.  Click **Continue**.
+     
+11.  For **Schedule**, select **Create a trigger to run the job on a periodic schedule** and select **Weekly**.
+     
+12.  Click **Continue**.
+     
+13.  Scroll down and click **Create** > **Confirm Create**.
+     
+14.  You should now have a job under **Inspection** > **Job Triggers**.
+     
 
 ![job starting](https://cdn.qwiklabs.com/5aURUIzMmV2tDWaSAUJW7R4Bpt2fq8KjOAyiZIeoarQ%3D align="left")
 
@@ -294,26 +294,26 @@ Check my progress
 
 ## **Task 3. Run DLP Inspection and review results**
 
-1. In the Google Cloud console, navigate back to the [Data Loss Prevention](https://console.cloud.google.com/security/dlp/) page.
+1.  In the Google Cloud console, navigate back to the [Data Loss Prevention](https://console.cloud.google.com/security/dlp/) page.
     
-2. Click the **Inspection** tab.
+2.  Click the **Inspection** tab.
     
-3. Under **Job Triggers** you should see the job trigger that you created.
+3.  Under **Job Triggers** you should see the job trigger that you created.
     
-4. Select this job trigger.
+4.  Select this job trigger.
     
-5. Click **Run Now**.
+5.  Click **Run Now**.
     
-6. This creates and runs a new job instance.
+6.  This creates and runs a new job instance.
     
-7. Select the job instance from the section below **triggered jobs**.
+7.  Select the job instance from the section below **triggered jobs**.
     
 
 **Note:** If you do not see a job, you may need to refresh the screen or wait a minute and refresh.
 
-8. Monitor the job and wait for it to say **Done**.
+8.  Monitor the job and wait for it to say **Done**.
     
-9. Once Done, review the results on this page to see what was found in the bucket.
+9.  Once Done, review the results on this page to see what was found in the bucket.
     
 
 Great! You should see your findings populated and an overview of your job results at the bottom.
@@ -322,29 +322,36 @@ Great! You should see your findings populated and an overview of your job result
 
 ### View de-identified output
 
-1. On the job results page, click on **Configuration**.
+1.  On the job results page, click on **Configuration**.
     
-2. Scroll down to the section **Output bucket for de-identified Cloud Storage Data**.
+2.  Scroll down to the section **Output bucket for de-identified Cloud Storage Data**.
     
-3. Click on the bucket link to be taken to that Cloud Storage Bucket.
+3.  Click on the bucket link to be taken to that Cloud Storage Bucket.
     
-4. Explore the various folders and files to see what has been redacted. For example click on one of the image in the image folder should show something like:
+4.  Explore the various folders and files to see what has been redacted. For example click on one of the image in the image folder should show something like:
     
 
 ![redacted image](https://cdn.qwiklabs.com/MW2f8moXXYR0KrN6m0x1cAgkHZEXk5CKDDyJTb0sKmM%3D align="left")
 
 For further exploration, you can try the following:
 
-* Change the settings in the de-identification templates to try out different ways to de-identify and transform data. See the [transformation reference here](https://cloud.google.com/dlp/docs/transformations-reference). You can also try turning on different tokenization or pseudonymization methods using Cloud KMS.
+*   Change the settings in the de-identification templates to try out different ways to de-identify and transform data. See the [transformation reference here](https://cloud.google.com/dlp/docs/transformations-reference). You can also try turning on different tokenization or pseudonymization methods using Cloud KMS.
     
-* Try editing the DLP Job Trigger and adjusting what kind of data is being inspected for and then run another job by clicking “Run Now” from the triggers page. For example, if you turn off `PERSON_NAME` detection, the names should no longer be redacted.
+*   Try editing the DLP Job Trigger and adjusting what kind of data is being inspected for and then run another job by clicking “Run Now” from the triggers page. For example, if you turn off `PERSON_NAME` detection, the names should no longer be redacted.
     
 
----
+* * *
 
 ## Solution of Lab
 
 %[https://www.youtube.com/watch?v=QSHX7gFDwK8&ab_channel=QUICKGCPLAB] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1073/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Creating%20a%20De-identified%20Copy%20of%20Data%20in%20Cloud%20Storage/gsp1073.sh
@@ -353,3 +360,9 @@ sudo chmod +x gsp1073.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1737354186831/8599ccca-c547-4358-9777-6aae6025079f.png align="center")
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=xxS4Q5JqpeM]
