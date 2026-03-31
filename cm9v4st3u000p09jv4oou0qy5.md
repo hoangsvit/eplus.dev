@@ -2,7 +2,7 @@
 title: "Dataflow: Qwik Start - Templates - GSP192"
 seoTitle: "Dataflow: Qwik Start - Templates - GSP192"
 seoDescription: "In this lab, you learn how to create a streaming pipeline using one of Google's Dataflow templates. More specifically, you use the Pub/Sub to BigQuery templ"
-datePublished: Thu Apr 24 2025 08:59:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-24T08:59:25.146Z
 cuid: cm9v4st3u000p09jv4oou0qy5
 slug: dataflow-qwik-start-templates-gsp192
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745484981616/26c62f72-a4b5-4b20-b0cc-2f901d71706b.png
