@@ -2,7 +2,7 @@
 title: "Cloud SQL for PostgreSQL: Qwik Start - GSP152"
 seoTitle: "Cloud SQL for PostgreSQL: Qwik Start - GSP152"
 seoDescription: "In this lab you'll learn how to create and connect to a Google Cloud SQL PostgreSQL instance and perform basic SQL operations using the Cloud Console and th"
-datePublished: Tue Aug 06 2024 17:00:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-06T17:00:00.000Z
 cuid: cl99oijcg000109mk6zpac8mf
 slug: cloud-sql-for-postgresql-qwik-start-gsp152
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758002061255/7add00de-ee66-485d-b649-14fddb2f818d.png
