@@ -2,7 +2,7 @@
 title: "Congratulations, you're now enrolled in the Google Cloud Arcade Facilitator Program 2025 Cohort 2"
 seoTitle: "Google Cloud Arcade Facilitator Program 2025 Cohort 2"
 seoDescription: "Join the Google Cloud Arcade Facilitator Program and enhance your cloud skills with 600 free credits. Earn badges, points, and exciting prizes!"
-datePublished: Tue Aug 05 2025 13:05:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-05T13:05:47.201Z
 cuid: cmdyjydoh000002lc0y1f2ybf
 slug: congratulations-youre-now-enrolled-in-the-google-cloud-arcade-facilitator-program-2025-cohort-2
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754398980876/9eeb33ff-fffa-4afe-8147-4ca6b1588305.png
