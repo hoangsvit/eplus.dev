@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with Cloud Data Fusion (Solution)"
 seoDescription: "This lab teaches you how to create a Data Fusion instance and deploy a sample pipeline that's provided. The pipeline reads a JSON file containing NYT bestse"
-datePublished: Sun Jan 19 2025 09:39:46 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-19T09:39:46.285Z
 cuid: cm63ferxp000209jv4mc26mb0
 slug: getting-started-with-cloud-data-fusion-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737279338156/5e4e19cb-5503-49f2-9929-e039087b3192.png
