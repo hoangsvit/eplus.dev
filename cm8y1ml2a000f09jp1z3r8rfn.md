@@ -2,7 +2,7 @@
 title: "Launching the Learning Support Extension for Google Cloud Skills Boost!"
 seoTitle: "Launching the Learning Support Extension for Google Cloud Skills Boost"
 seoDescription: "We are excited to introduce Google Cloud Skills Boost - Helper, a browser extension designed to optimize your learning experience on Google Cloud Skills Boo"
-datePublished: Tue Apr 01 2025 05:14:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-01T05:14:12.130Z
 cuid: cm8y1ml2a000f09jp1z3r8rfn
 slug: launching-the-learning-support-extension-for-google-cloud-skills-boost
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743484338353/887b8855-7280-4f1a-86cb-cac028148c8f.png
