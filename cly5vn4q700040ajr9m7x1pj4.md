@@ -2,7 +2,7 @@
 title: "MongoDB Logging Basics"
 seoTitle: "MongoDB Logging Basics"
 seoDescription: "In this unit, you'll learn about logs for both self-managed and Atlas deployments, and how to interpret and use them effectively. You'll first download logs"
-datePublished: Wed Jul 03 2024 13:32:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-03T13:32:03.631Z
 cuid: cly5vn4q700040ajr9m7x1pj4
 slug: mongodb-logging-basics
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720013481971/0961ecc1-0259-4993-9fa2-335436fadccc.png
