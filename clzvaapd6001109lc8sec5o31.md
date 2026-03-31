@@ -2,7 +2,7 @@
 title: "Predict Taxi Fare with a BigQuery ML Forecasting Model - GSP246"
 seoTitle: "Predict Taxi Fare with a BigQuery ML Forecasting Model - GSP246"
 seoDescription: "BigQuery is Google's fully managed, NoOps, low cost analytics database. With BigQuery you can query terabytes and terabytes of data without having any infra"
-datePublished: Thu Aug 15 2024 12:56:14 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-15T12:56:14.826Z
 cuid: clzvaapd6001109lc8sec5o31
 slug: predict-taxi-fare-with-a-bigquery-ml-forecasting-model-gsp246
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723726208154/a4f01581-599d-4631-bb83-213987f021ce.png
