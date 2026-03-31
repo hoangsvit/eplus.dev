@@ -2,7 +2,7 @@
 title: "Running Databases in GKE (Solution)"
 seoTitle: "Running Databases in GKE (Solution)"
 seoDescription: "In this lab, you create a Google Kubernetes Engine (GKE) cluster, and then deploy databases into it. You see two ways to deploy the databases: first using y"
-datePublished: Sat Feb 22 2025 07:18:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-22T07:18:38.845Z
 cuid: cm7fvc931000009jsatwv58mh
 slug: running-databases-in-gke-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740208511186/e00dddab-3fbf-4979-a949-6211691b33c9.png
