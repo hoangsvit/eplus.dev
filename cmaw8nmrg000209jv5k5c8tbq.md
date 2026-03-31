@@ -2,7 +2,7 @@
 title: "Streamlining Data Management: Exploring Laravel Cascade Soft Deletes"
 seoTitle: "Streamlining Data Management: Exploring Laravel Cascade Soft Deletes"
 seoDescription: "When developing web applications with Laravel, managing related data across database tables is a critical task. For instance, when deleting a parent record,"
-datePublished: Tue May 20 2025 08:14:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-20T08:14:50.620Z
 cuid: cmaw8nmrg000209jv5k5c8tbq
 slug: streamlining-data-management-exploring-laravel-cascade-soft-deletes
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747728472472/6e02f7c8-cd29-4e57-8ffe-5dd683b48185.jpeg
