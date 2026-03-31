@@ -2,7 +2,7 @@
 title: "Cloud Speech API 3 Ways: Challenge Lab - ARC132"
 seoTitle: "Cloud Speech API 3 Ways: Challenge Lab - ARC132"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Thu Apr 03 2025 10:25:51 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-03T10:25:51.509Z
 cuid: cm917n2xh002c08leb3xd4br0
 slug: cloud-speech-api-3-ways-challenge-lab-arc132
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743675059843/ef3b77a9-f7b5-44a3-aa0a-99832b8ad170.png
