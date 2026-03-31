@@ -2,7 +2,7 @@
 title: "Measuring and Improving Speech Accuracy - GSP758"
 seoTitle: "Measuring and Improving Speech Accuracy - GSP758"
 seoDescription: "Automated Speech Recognition (ASR), also known as machine transcription or Speech-to-Text, uses machine learning to turn audio containing speech into text. "
-datePublished: Fri Apr 04 2025 04:04:36 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-04T04:04:36.214Z
 cuid: cm929gmwm000309lace3x2fid
 slug: measuring-and-improving-speech-accuracy-gsp758
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743739106896/0f10c854-0817-40ae-ab1f-5a6df0ba5fba.png
