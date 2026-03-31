@@ -2,7 +2,7 @@
 title: "Connect an App to a Cloud SQL for PostgreSQL Instance - GSP919"
 seoTitle: "Connect an App to a Cloud SQL for PostgreSQL Instance - GSP919"
 seoDescription: "Learn how to connect an app to a Cloud SQL for PostgreSQL instance using Kubernetes and Google Kubernetes Engine (GKE)"
-datePublished: Thu Jul 10 2025 03:57:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-10T03:57:26.951Z
 cuid: cmcwux2cn000a02jrgics38r9
 slug: connect-an-app-to-a-cloud-sql-for-postgresql-instance-gsp919
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752119783078/1304f2b2-9e3d-4896-86e7-3b2256aaa75f.png
