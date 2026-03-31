@@ -2,7 +2,7 @@
 title: "Self review: Song selection - React Basic"
 seoTitle: "Self review: Song selection - React Basic"
 seoDescription: "Self review: Song selection - React Basic"
-datePublished: Mon Aug 19 2024 04:44:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-19T04:44:45.727Z
 cuid: cm00ii23j00010akrbsqu8sps
 slug: self-review-song-selection-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724042626882/86a3ff18-651d-4ef8-a5ef-cbfe4b7969d8.png
