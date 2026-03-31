@@ -2,7 +2,7 @@
 title: "Skills Boost Arcade Trivia July 2025 Week 3 (Solution)"
 seoTitle: "Skills Boost Arcade Trivia July 2025 Week 3 (Solution)"
 seoDescription: "Boost your career with our Google Cloud trivia. Test your knowledge on data protection and workspace management. Start the quiz now!"
-datePublished: Sat Jul 19 2025 08:33:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-19T08:33:30.159Z
 cuid: cmd9zqqlr000502jme89t0tnd
 slug: skills-boost-arcade-trivia-july-2025-week-3-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752913553888/807153a3-bf3f-4fb2-ae77-aa5e7179b66a.png
