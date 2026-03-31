@@ -2,7 +2,7 @@
 title: "Trạng thái cáp quang biển Việt Nam"
 seoTitle: "Trạng thái cáp quang biển Việt Nam"
 seoDescription: "Hiện có 5 tuyến cáp quang biển để kết nối Việt Nam đi quốc tế, bao gồm AAG (châu Á – Mỹ); APG (Châu Á Thái Bình Dương); SMW-3 (Đông Nam Á – Trung Đông – Tây"
-datePublished: Thu Aug 11 2022 08:53:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-08-11T08:53:39.630Z
 cuid: cl6oszmiz0473ainv1efjb7xi
 slug: trang-thai-cap-quang-bien-viet-nam
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1660207086070/pxQGPwfqD.webp
