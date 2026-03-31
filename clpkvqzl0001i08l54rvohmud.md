@@ -1,7 +1,7 @@
 ---
 title: "Get 2 months free of Perplexity Pro"
 seoDescription: "Perplexity was first released almost a year ago on December 7th. Thank you all for being part of this incredible journey! Visit http://pplx.ai/thanks or app"
-datePublished: Thu Nov 30 2023 07:34:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-11-30T07:34:15.204Z
 cuid: clpkvqzl0001i08l54rvohmud
 slug: get-2-months-free-of-perplexity-pro
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1701329568622/5d1d89cd-4095-4140-92f4-c74fb644d415.png
