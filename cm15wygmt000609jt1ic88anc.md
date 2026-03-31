@@ -2,7 +2,7 @@
 title: "Knowledge check: Navigation and form design - UI/UX"
 seoTitle: "Knowledge check: Navigation and form design - UI/UX"
 seoDescription: "Knowledge check: Navigation and form design - UI/UX"
-datePublished: Tue Sep 17 2024 04:07:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-17T04:07:58.902Z
 cuid: cm15wygmt000609jt1ic88anc
 slug: knowledge-check-navigation-and-form-design-ui-ux
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726546054046/e40d3c7b-23da-4029-9769-7077e8853a58.jpeg
