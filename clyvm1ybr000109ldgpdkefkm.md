@@ -2,7 +2,7 @@
 title: "Self-review: Create a complex form"
 seoTitle: "Self-review: Create a complex form"
 seoDescription: "Self-review: Create a complex form"
-datePublished: Sun Jul 21 2024 13:45:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T13:45:39.591Z
 cuid: clyvm1ybr000109ldgpdkefkm
 slug: self-review-create-a-complex-form
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721569481371/0d182681-51f6-49f9-981c-93a58d3d528c.png
