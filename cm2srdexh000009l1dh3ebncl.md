@@ -2,7 +2,7 @@
 title: "Capstone: Applying Project Management in the Real World - Module 1 Challenge"
 seoTitle: "Capstone: Applying Project Management in the Real World - Module 1 Cha"
 seoDescription: "Capstone: Applying Project Management in the Real World - Module 1 Challenge"
-datePublished: Mon Oct 28 2024 08:30:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-28T08:30:03.221Z
 cuid: cm2srdexh000009l1dh3ebncl
 slug: capstone-applying-project-management-in-the-real-world-module-1-challenge
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730104171994/3ca4b386-62c3-4b69-9298-25adc4cdeef2.png
