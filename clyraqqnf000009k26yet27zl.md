@@ -2,7 +2,7 @@
 title: "Lab Instructions: Object Oriented Programming in Javascript"
 seoTitle: "Lab Instructions: Object Oriented Programming in Javascript"
 seoDescription: "Lab Instructions: Object Oriented Programming in Javascript"
-datePublished: Thu Jul 18 2024 13:17:55 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-18T13:17:55.947Z
 cuid: clyraqqnf000009k26yet27zl
 slug: lab-instructions-object-oriented-programming-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721308555517/48bc5d22-ee85-4457-b978-42461dd0c80e.png
