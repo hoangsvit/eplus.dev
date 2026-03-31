@@ -2,7 +2,7 @@
 title: "Develop No-Code Chat Apps with AppSheet - GSP1146"
 seoTitle: "Develop No-Code Chat Apps with AppSheet - GSP1146"
 seoDescription: "This lab provides an introduction to creating no-code Chat apps. Chat apps are web applications or services that run in Google Chat. Creating a Chat app wit"
-datePublished: Sat Aug 10 2024 10:11:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-10T10:11:10.680Z
 cuid: clznz75xz000c08jv3nut1ckj
 slug: develop-no-code-chat-apps-with-appsheet-gsp1146
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757036634221/dccf984e-c2f1-4832-8b37-2cfe6f903b5b.png
