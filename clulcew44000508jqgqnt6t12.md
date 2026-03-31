@@ -2,7 +2,7 @@
 title: "Managing Machine Learning Projects with Google Cloud - Quiz"
 seoTitle: "Managing Machine Learning Projects with Google Cloud - Quiz"
 seoDescription: "Business professionals in non-technical roles have a unique opportunity to lead or influence machine learning projects. If you have questions about machine"
-datePublished: Thu Apr 04 2024 14:39:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-04-04T14:39:15.988Z
 cuid: clulcew44000508jqgqnt6t12
 slug: managing-machine-learning-projects-with-google-cloud-quiz
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712241440637/21403414-d2d7-4daf-a27b-741c4890db43.png
