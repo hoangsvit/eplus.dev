@@ -2,7 +2,7 @@
 title: "Analyze Images with the Cloud Vision API: Challenge Lab - ARC122"
 seoTitle: "Analyze Images with the Cloud Vision API: Challenge Lab - ARC122"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Tue Apr 22 2025 03:50:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-22T03:50:04.085Z
 cuid: cm9ryv9yt000p09jvdgi52gkn
 slug: analyze-images-with-the-cloud-vision-api-challenge-lab-arc122
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745293753964/b27dbfc4-0455-45b5-841d-1749d234aad7.png
