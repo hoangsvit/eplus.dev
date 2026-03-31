@@ -2,7 +2,7 @@
 title: "Cloud Run Functions: 3 Ways: Challenge Lab - ARC104"
 seoTitle: "Cloud Run Functions: 3 Ways: Challenge Lab - ARC104"
 seoDescription: "Learn to create and deploy Cloud Run functions using Cloud Storage and HTTP triggers in this hands-on challenge lab"
-datePublished: Sat Aug 30 2025 08:55:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-30T08:55:28.565Z
 cuid: cmey10rw4000d02ky9ewc2grn
 slug: cloud-run-functions-3-ways-challenge-lab-arc104
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756544085025/a5763c88-15bd-4351-83cc-7af47b0bde5e.png
