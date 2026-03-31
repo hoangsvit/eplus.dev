@@ -2,7 +2,7 @@
 title: "Developer Essentials: Creating Secrets with Secret Manager - gem-secret-manager-create-secrets"
 seoTitle: "Developer Essentials: Creating Secrets with Secret Manager - gem-secre"
 seoDescription: "Learn to manage secrets securely in Google Cloud with Secret Manager. Create, store, and access secrets using Cloud Shell and gcloud commands"
-datePublished: Mon Aug 25 2025 03:54:35 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-25T03:54:35.265Z
 cuid: cmeql2kjl001e02ie53m41cfo
 slug: developer-essentials-creating-secrets-with-secret-manager-gem-secret-manager-create-secrets
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756093954151/032a7630-fe7d-4070-8503-42a36c3170b7.png
