@@ -2,7 +2,7 @@
 title: "Module Quiz: Front-End Technologies"
 seoTitle: "Module Quiz: Front-End Technologies"
 seoDescription: "Module Quiz: Front-End Technologies"
-datePublished: Wed Nov 13 2024 07:17:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-13T07:17:39.208Z
 cuid: cm3fjtxqg001009ll07cp9ufg
 slug: module-quiz-front-end-technologies
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731482235356/c795e730-6a1d-4587-a1c2-4ddb6ed853a4.png
