@@ -2,7 +2,7 @@
 title: "Simplify Network Connectivity for AlloyDB for PostgreSQL: Challenge Lab - GCC040"
 seoTitle: "Simplify Network Connectivity for AlloyDB for PostgreSQL: Challenge La"
 seoDescription: "This lab challenges you to perform actions and automation across products. Instead of following step-by-step instructions, you are given a common business s"
-datePublished: Tue Mar 04 2025 07:50:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-04T07:50:04.702Z
 cuid: cm7u6v6vy000209if9veqeaoe
 slug: simplify-network-connectivity-for-alloydb-for-postgresql-challenge-lab-gcc040
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741074567726/bd648114-c174-4297-93de-6a006b5a97aa.png
