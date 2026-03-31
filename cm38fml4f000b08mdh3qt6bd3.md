@@ -2,7 +2,7 @@
 title: "Module quiz: Basic Programming with Python - Module 2"
 seoTitle: "Module quiz: Basic Programming with Python - Module 2"
 seoDescription: "Module quiz: Basic Programming with Python - Module 2"
-datePublished: Fri Nov 08 2024 07:45:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-08T07:45:34.575Z
 cuid: cm38fml4f000b08mdh3qt6bd3
 slug: module-quiz-basic-programming-with-python-module-2
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731051911216/24658788-c882-4f3a-8bc5-471fe627738e.png
