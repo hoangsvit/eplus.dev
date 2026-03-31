@@ -2,7 +2,7 @@
 title: "Google Workspace Admin: Super Admin Account Recovery - GSP948"
 seoTitle: "Google Workspace Admin: Super Admin Account Recovery - GSP948"
 seoDescription: "Learn how to recover your Google Workspace Super Admin account, including setting recovery options and resetting passwords effectively"
-datePublished: Sat Jul 19 2025 08:24:36 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-19T08:24:36.138Z
 cuid: cmd9zfajt001s02jlf3ei2xk5
 slug: google-workspace-admin-super-admin-account-recovery-gsp948
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752913235409/de2ba434-c67e-4a56-a0ec-574e642e8ed9.png
