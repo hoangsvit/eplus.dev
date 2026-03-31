@@ -2,7 +2,7 @@
 title: "[SHARE] Typeface TẾT v2 Designed by Mạc Họa Kỳ"
 seoTitle: "[SHARE] Typeface TẾT v2 Designed by Mạc Họa Kỳ"
 seoDescription: "[SHARE] Typeface TẾT v2 Designed by Mạc Họa Kỳ"
-datePublished: Sun Jan 28 2024 07:03:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-01-28T07:03:43.310Z
 cuid: clrx5mzf2000408l3eq0ocrj0
 slug: share-typeface-tet-v2-designed-by-mac-hoa-ky
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1706424377038/f645de9e-b1fb-4b24-aa33-f7ae605b0afb.jpeg
