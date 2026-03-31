@@ -2,7 +2,7 @@
 title: "Transacting Digital Assets with Multi-Party Computation and Confidential Space - GSP1128"
 seoTitle: "Secure Digital Asset Transactions Using MPC - GSP1128"
 seoDescription: "Explore a lab using Multi-Party Computation and Confidential Space in blockchain transactions for improved security, control, and efficiency"
-datePublished: Sat Aug 09 2025 03:54:27 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-09T03:54:27.839Z
 cuid: cme3q0s5b000702l50pr5fukx
 slug: transacting-digital-assets-with-multi-party-computation-and-confidential-space-gsp1128
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754710833341/d9237113-8973-4990-be24-ae79dfb39785.png
@@ -25,17 +25,17 @@ In this lab, you will build the foundation for this interaction with a simple wo
 
 In this lab, you will learn how to perform the following tasks:
 
-* Learn about Confidential Space
+*   Learn about Confidential Space
     
-* Create an Ethereum private test network
+*   Create an Ethereum private test network
     
-* Create a Confidential Space VM
+*   Create a Confidential Space VM
     
-* Interact with Ethereum from the Confidential Space VM
+*   Interact with Ethereum from the Confidential Space VM
     
-* Create and manage Workload Identity Pools
+*   Create and manage Workload Identity Pools
     
-* Sign and submit an Ethereum transaction using Confidential Space
+*   Sign and submit an Ethereum transaction using Confidential Space
     
 
 ## Setup and requirements
@@ -48,29 +48,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -78,7 +78,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-00-e367dc9a4bae@qwiklabs.net
@@ -86,9 +86,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     LXYUO6zPCGZ1
@@ -96,19 +96,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -121,7 +121,7 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell**
+1.  Click **Activate Cloud Shell**
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="left")
     
@@ -136,14 +136,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-00-c761608164
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-2. (Optional) You can list the active account name with this command:
+2.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-3. Click **Authorize**.
+3.  Click **Authorize**.
     
 
 **Output:**
@@ -156,7 +156,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-4. (Optional) You can list the project ID with this command:
+4.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -174,7 +174,7 @@ project = qwiklabs-gcp-00-c761608164a4
 
 ## Task 1. Key Generation and Encryption
 
-1. Open Cloud Shell and run the following command to set the project ID:
+1.  Open Cloud Shell and run the following command to set the project ID:
     
 
 ```apache
@@ -189,7 +189,7 @@ echo $MPC_PROJECT_ID
 
 You'll be using this variable throughout the remainder of the lab.
 
-2. Run the following command to enable the APIs that will be used in the lab:
+2.  Run the following command to enable the APIs that will be used in the lab:
     
 
 ```apache
@@ -202,14 +202,14 @@ In this section you will create the encryption key which will be used to encrypt
 
 **Note:** For this lab, we are showing MPC-compliant signature operation, but we are over-simplifying the key generation step (and not doing distributed key share generation in multiple locations). We do not expect organizations to do this for real production applications.
 
-1. Create the key ring. After running the below command, you might need to enter `y` to enable the API.
+1.  Create the key ring. After running the below command, you might need to enter `y` to enable the API.
     
 
 ```apache
 gcloud kms keyrings create mpc-keys --location=global
 ```
 
-2. Create the KMS key.
+2.  Create the KMS key.
     
 
 ```apache
@@ -217,7 +217,7 @@ gcloud kms keys create mpc-key --location=global \
   --keyring=mpc-keys --purpose=encryption --protection-level=hsm
 ```
 
-3. Grant your user account access to the key to encrypt the keys.
+3.  Grant your user account access to the key to encrypt the keys.
     
 
 ```apache
@@ -233,14 +233,14 @@ For this lab, you'll be using this private key: `0000000000000000000000000000000
 
 **Note:** In a production scenario, keys should never be stored in plaintext files. Instead, the private key can be generated outside of Google Cloud (or skipped entirely and replaced with custom MPC key shard creation) and then encrypted so that no one sees or has access to the private key or the key shares. For the purposes of this lab we'll be using the gcloud CLI.
 
-1. Add your private key to a gcloud file for encryption:
+1.  Add your private key to a gcloud file for encryption:
     
 
 ```apache
 echo -n "00000000000000000000000000000000" >> alice-key-share
 ```
 
-2. Then run the command to store Bob's private key share.
+2.  Then run the command to store Bob's private key share.
     
 
 ```apache
@@ -249,7 +249,7 @@ echo -n "00000000000000000000000000000001" >> bob-key-share
 
 ### Encrypt the Ethereum private key shards using KMS
 
-1. Encrypt Alice's private key share.
+1.  Encrypt Alice's private key share.
     
 
 ```apache
@@ -261,7 +261,7 @@ gcloud kms encrypt \
     --ciphertext-file alice-encrypted-key-share
 ```
 
-2. Encrypt Bob's private key share.
+2.  Encrypt Bob's private key share.
     
 
 ```apache
@@ -277,14 +277,14 @@ gcloud kms encrypt \
 
 The `mpc-encrypted-keys` bucket will store the encrypted keys of Alice and Bob. In a production application, these keys could be held by Alice and Bob and then handed over when approval by each party is granted. They could also be separated out into different buckets on different projects.
 
-1. Create the `mpc-encrypted-keys` bucket.
+1.  Create the `mpc-encrypted-keys` bucket.
     
 
 ```apache
 gcloud storage buckets create gs://$MPC_PROJECT_ID-mpc-encrypted-keys --location=us-central1
 ```
 
-2. Upload Alice's and Bob's encrypted keys into the bucket. By doing this, we're approving the transaction and granting the Confidential Space VM access to the encrypted key.
+2.  Upload Alice's and Bob's encrypted keys into the bucket. By doing this, we're approving the transaction and granting the Confidential Space VM access to the encrypted key.
     
 
 ```apache
@@ -302,14 +302,14 @@ Key Generation and Encryption
 
 ### Create the MPC Service Account
 
-1. Create the **trusted-mpc-account** service account.
+1.  Create the **trusted-mpc-account** service account.
     
 
 ```apache
 gcloud iam service-accounts create trusted-mpc-account
 ```
 
-2. Allow the MPC service account access to decrypt the key shards.
+2.  Allow the MPC service account access to decrypt the key shards.
     
 
 ```apache
@@ -323,11 +323,11 @@ gcloud kms keys add-iam-policy-binding mpc-key \
 
 We want to authorize workloads to access the encrypted keys based on attributes of the following resources.
 
-* **What**: Code that is verified
+*   **What**: Code that is verified
     
-* **Where**: An environment that is secure
+*   **Where**: An environment that is secure
     
-* **Who**: An operator that is trusted
+*   **Who**: An operator that is trusted
     
 
 We use [Workload identity federation](https://cloud.google.com/iam/docs/workload-identity-federation) to enforce an access policy based on these requirements.
@@ -338,25 +338,25 @@ To create the WIP, complete the following steps.
 
 #### CLI
 
-1. Create a WIP.
+1.  Create a WIP.
     
 
 ```apache
 gcloud iam workload-identity-pools create trusted-workload-pool --location="global"
 ```
 
-You will now create a new OIDC workload identity pool provider. The specified `--attribute-condition` authorizes access to the [`mpc-workloads`](https://www.cloudskillsboost.google/games/6393/labs/40254#workload-container) container. It requires:
+You will now create a new OIDC workload identity pool provider. The specified `--attribute-condition` authorizes access to the `mpc-workloads` container. It requires:
 
-* **What**: Latest `initial-workload-container` uploaded to the `mpc-workloads` repository.
+*   **What**: Latest `initial-workload-container` uploaded to the `mpc-workloads` repository.
     
-* **Where**: Confidential Space trusted execution environment, version 0.1 or later.
+*   **Where**: Confidential Space trusted execution environment, version 0.1 or later.
     
-* **Who**: MPC `trusted-mpc` service account.
+*   **Who**: MPC `trusted-mpc` service account.
     
 
 **Note:** change `int(assertion.swversion) >= 1` to `int(assertion.swversion) ==0` if you choose `confidential-space-debug` image when creating the instance in the later step. See [here](https://cloud.google.com/compute/confidential-vm/docs/reference/cs-attestation-policies) for the full list of confidential vm attribute conditions.
 
-1. Create the new OIDC workload identity pool provider.
+1.  Create the new OIDC workload identity pool provider.
     
 
 ```apache
@@ -374,7 +374,7 @@ gcloud iam workload-identity-pools providers create-oidc attestation-verifier \
     assertion.google_service_accounts"
 ```
 
-2. Grant the `workloadIdentityUser` role on the `trusted-mpc-account` service account to the `trusted-workload-pool` WIP. This allows the WIP to impersonate the service account.
+2.  Grant the `workloadIdentityUser` role on the `trusted-mpc-account` service account to the `trusted-workload-pool` WIP. This allows the WIP to impersonate the service account.
     
 
 ```apache
@@ -390,14 +390,14 @@ Create the **run-confidential-vm** service account.
 
 #### CLI
 
-1. Create the **run-confidential-vm** service account.
+1.  Create the **run-confidential-vm** service account.
     
 
 ```apache
 gcloud iam service-accounts create run-confidential-vm
 ```
 
-2. Grant the Service Account User role on the run-confidential-vm service account to your user account. This allows your user account to impersonate the service account.
+2.  Grant the Service Account User role on the run-confidential-vm service account to your user account. This allows your user account to impersonate the service account.
     
 
 ```apache
@@ -407,7 +407,7 @@ gcloud iam service-accounts add-iam-policy-binding \
   --role='roles/iam.serviceAccountUser'
 ```
 
-3. (Optional) Grant the service account the Log Writer permission. This allows the Confidential Space environment to write logs to Cloud Logging in addition to the Serial Console, so you can review logs after the VM is terminated (Requires `Security Admin` permission).
+3.  (Optional) Grant the service account the Log Writer permission. This allows the Confidential Space environment to write logs to Cloud Logging in addition to the Serial Console, so you can review logs after the VM is terminated (Requires `Security Admin` permission).
     
 
 ```apache
@@ -424,7 +424,7 @@ Service Account and Workload Identity Pool
 
 ### Ganache Ethereum Node
 
-1. Create the Ethereum Ganache instance and take note of the IP address. After running the below command, you might need to enter `y` to enable the API.
+1.  Create the Ethereum Ganache instance and take note of the IP address. After running the below command, you might need to enter `y` to enable the API.
     
 
 ```apache
@@ -445,14 +445,14 @@ Create the `$MPC_PROJECT_ID-mpc-results-storage` bucket. Then grant the `run-con
 
 #### CLI
 
-1. Create the `mpc-results-storage` bucket.
+1.  Create the `mpc-results-storage` bucket.
     
 
 ```apache
 gcloud storage buckets create gs://$MPC_PROJECT_ID-mpc-results-storage --location=us-central1
 ```
 
-2. Grant the Storage Object Creator role on the `/$MPC_PROJECT_ID-mpc-results-storage` bucket to the `run-confidential-vm`service account. This permits the service account to store query results to the bucket.
+2.  Grant the Storage Object Creator role on the `/$MPC_PROJECT_ID-mpc-results-storage` bucket to the `run-confidential-vm`service account. This permits the service account to store query results to the bucket.
     
 
 ```apache
@@ -461,7 +461,7 @@ gsutil iam ch \
   gs://$MPC_PROJECT_ID-mpc-results-storage
 ```
 
-3. Grant the Storage Object Viewer role on the `/$MPC_PROJECT_ID-mpc-encrypted-keys` bucket to the `trusted-mpc-account` service account. This permits the service account to view the encrypted keys that were added by Alice and Bob.
+3.  Grant the Storage Object Viewer role on the `/$MPC_PROJECT_ID-mpc-encrypted-keys` bucket to the `trusted-mpc-account` service account. This permits the service account to view the encrypted keys that were added by Alice and Bob.
     
 
 ```apache
@@ -478,7 +478,7 @@ Create the Blockchain Node and Results Bucket
 
 ### Create the files in the editor
 
-1. In Cloud Shell, click the
+1.  In Cloud Shell, click the
     
     ![Open Editor button](https://cdn.qwiklabs.com/TXd7dDfi9RAnFFHjgQMAxZz%2BrBjVpNP8pSTFz6qgtEs%3D align="left")
     
@@ -489,14 +489,14 @@ You'll then find yourself in an IDE environment similar to Visual Studio Code, i
 
 You can switch back and forth between the Editor and the Terminal by clicking the **Open Editor** and **Open Terminal** buttons, respectively. Try switching back and forth between these two environments now.
 
-1. Start by creating a folder in which to store your work for this lab, by selecting **File** &gt; **New Folder**, enter `mpc-ethereum-demo`, and click **OK**. All of the files you create in this lab, and all of the work you do in Cloud Shell, will take place in this folder.
+1.  Start by creating a folder in which to store your work for this lab, by selecting **File** > **New Folder**, enter `mpc-ethereum-demo`, and click **OK**. All of the files you create in this lab, and all of the work you do in Cloud Shell, will take place in this folder.
     
 
 #### package.json
 
-1. Now create a `package.json` file. In the Cloud Editor window, click the **File** &gt; **New File** menu to create a new file. When prompted for the new file's name, enter `package.json` and press the **OK** button. Make sure the new file ends up in the `mpc-ethereum-demo` project folder.
+1.  Now create a `package.json` file. In the Cloud Editor window, click the **File** > **New File** menu to create a new file. When prompted for the new file's name, enter `package.json` and press the **OK** button. Make sure the new file ends up in the `mpc-ethereum-demo` project folder.
     
-2. Place the following code into the package.json file. This will tell our image what packages should be used for the mpc application. In this case, we're using the `@google-cloud/kms`, `@google-cloud/storage`, `ethers`, and `fast-crc32c` libraries.
+2.  Place the following code into the package.json file. This will tell our image what packages should be used for the mpc application. In this case, we're using the `@google-cloud/kms`, `@google-cloud/storage`, `ethers`, and `fast-crc32c` libraries.
     
 
 ```json
@@ -522,7 +522,7 @@ You can switch back and forth between the Editor and the Terminal by clicking th
 
 #### index.js
 
-1. Next, create a `index.js` file and paste the following code into the file. This is our entry file that specifies what commands should be run when the image starts up. We've also included a sample unsigned transaction. This transaction would normally be coming from an untrusted application that asks users for their signature. This `index.js` file also imports functions from `mpc.js`, which we'll be creating next.
+1.  Next, create a `index.js` file and paste the following code into the file. This is our entry file that specifies what commands should be run when the image starts up. We've also included a sample unsigned transaction. This transaction would normally be coming from an untrusted application that asks users for their signature. This `index.js` file also imports functions from `mpc.js`, which we'll be creating next.
     
 
 ```javascript
@@ -561,7 +561,7 @@ await signAndSubmitTransaction();
 
 #### mpc.js
 
-1. Create the `mpc.js` file and paste the following code into the file. This is where the MPC signing will occur. We'll be importing functions from `kms-decrypt.js` and `credential-config.js`, which we'll be creating next.
+1.  Create the `mpc.js` file and paste the following code into the file. This is where the MPC signing will occur. We'll be importing functions from `kms-decrypt.js` and `credential-config.js`, which we'll be creating next.
     
 
 ```javascript
@@ -634,7 +634,7 @@ export const uploadFromMemory = async (contents) => {
 
 #### kms-decrypt.js
 
-1. Create the `kms-decrypt.js` file and paste the following code into the file. This is where the decryption of the encrypted key shares will occur. We'll be importing functions from `credential-config.js`, which we'll be creating next.
+1.  Create the `kms-decrypt.js` file and paste the following code into the file. This is where the decryption of the encrypted key shares will occur. We'll be importing functions from `credential-config.js`, which we'll be creating next.
     
 
 ```javascript
@@ -684,7 +684,7 @@ export const decryptSymmetric = async (ciphertext) => {
 
 #### credential-config.js
 
-1. Create the `credential-config.js` file and paste the following code into the file. This is where the workload identity pool paths are stored and the service account impersonation will occur. We'll be importing functions from `credential-config.js`.
+1.  Create the `credential-config.js` file and paste the following code into the file. This is where the workload identity pool paths are stored and the service account impersonation will occur. We'll be importing functions from `credential-config.js`.
     
 
 ```javascript
@@ -702,7 +702,7 @@ export const credentialConfig = {
 
 #### Dockerfile
 
-1. Lastly, you'll create your Dockerfile. Create the `Dockerfile` file and paste the following code into the file.
+1.  Lastly, you'll create your Dockerfile. Create the `Dockerfile` file and paste the following code into the file.
     
 
 ```apache
@@ -733,7 +733,7 @@ Once all the files are created, it should look like:
 
 ### Create the repository
 
-1. Click **Open Terminal** to re-open the Cloud Shell terminal. Run the following command to create the [Artifact Registry docker repository](https://cloud.google.com/artifact-registry/docs/overview#introduction).
+1.  Click **Open Terminal** to re-open the Cloud Shell terminal. Run the following command to create the [Artifact Registry docker repository](https://cloud.google.com/artifact-registry/docs/overview#introduction).
     
 
 ```apache
@@ -741,7 +741,7 @@ gcloud artifacts repositories create mpc-workloads \
   --repository-format=docker --location=us-central1
 ```
 
-2. Build and publish the Docker container.
+2.  Build and publish the Docker container.
     
 
 ```apache
@@ -754,7 +754,7 @@ You might need to hit `Y` to confirm the config file.
 
 **Note:** Confidential Space can use any remote repository where a Confidential VM can be granted access.
 
-3. Grant the service account that's going to run the workload the Artifact Registry Reader (`roles/artifactregistry.reader`) role so it can read from the repository:
+3.  Grant the service account that's going to run the workload the Artifact Registry Reader (`roles/artifactregistry.reader`) role so it can read from the repository:
     
 
 ```apache
@@ -764,7 +764,7 @@ gcloud artifacts repositories add-iam-policy-binding mpc-workloads \
     --role=roles/artifactregistry.reader
 ```
 
-4. Grant the workloadUser role to the service account
+4.  Grant the workloadUser role to the service account
     
 
 ```apache
@@ -783,18 +783,18 @@ In this section, you will create the Confidential VM instance.
 
 The following variables have been added to the image:
 
-* `NODE_URL`: the URL of the Ethereum node that will process the signed transaction.
+*   `NODE_URL`: the URL of the Ethereum node that will process the signed transaction.
     
-* `RESULTS_BUCKET`: the bucket that stores the mpc transaction result.
+*   `RESULTS_BUCKET`: the bucket that stores the mpc transaction result.
     
-* `KEY_BUCKET`: the bucket that stores the mpc encrypted keys.
+*   `KEY_BUCKET`: the bucket that stores the mpc encrypted keys.
     
-* `MPC_PROJECT_NUMBER`: the project number, used for the credential config file.
+*   `MPC_PROJECT_NUMBER`: the project number, used for the credential config file.
     
-* `MPC_PROJECT_ID`: the project id, used for the credential config file.
+*   `MPC_PROJECT_ID`: the project id, used for the credential config file.
     
 
-1. Run the following command to create the Confidential VM instance.
+1.  Run the following command to create the Confidential VM instance.
     
 
 ```apache
@@ -811,13 +811,13 @@ gcloud compute instances create mpc-cvm --confidential-compute \
 
 You can view the transaction receipt in Cloud Storage. It might take a few minutes for Confidential Space to boot and for results to appear. You'll know the container is done when the VM is in the stopped state.
 
-1. Go to the [Cloud Storage Browser](https://console.cloud.google.com/storage/browser) page.
+1.  Go to the [Cloud Storage Browser](https://console.cloud.google.com/storage/browser) page.
     
-2. Click `$MPC_PROJECT_ID-mpc-results-storage`.
+2.  Click `$MPC_PROJECT_ID-mpc-results-storage`.
     
-3. Click on the `transaction_receipt` file.
+3.  Click on the `transaction_receipt` file.
     
-4. Click **Download** to download and view the transaction response.
+4.  Click **Download** to download and view the transaction response.
     
 
 **Note:** the results should appear in the bucket within a few minutes. If results aren't appearing, you can go to the **mpc-cvm** in compute engine and click on "Serial port 1 (console)" to view the logs.
@@ -826,48 +826,42 @@ You can view the transaction receipt in Cloud Storage. It might take a few minut
 
 You can also view the transaction in the blockchain log.
 
-1. Go to the [Compute Engine](https://console.cloud.google.com/compute/instances) page.
+1.  Go to the [Compute Engine](https://console.cloud.google.com/compute/instances) page.
     
-2. Click on the `mpc-lab-ethereum-node` VM.
+2.  Click on the `mpc-lab-ethereum-node` VM.
     
-3. Click `SSH` to open the SSH-in-browser window.
+3.  Click `SSH` to open the SSH-in-browser window.
     
-4. In the SSH window, enter `sudo docker ps` to see the running Ganache container.
+4.  In the SSH window, enter `sudo docker ps` to see the running Ganache container.
     
-5. Find the container ID for `trufflesuite/ganache:v7.7.3`
+5.  Find the container ID for `trufflesuite/ganache:v7.7.3`
     
-6. Enter `sudo docker logs CONTAINER_ID` replacing CONTAINER\_ID with the ID for `trufflesuite/ganache:v7.7.3`.
+6.  Enter `sudo docker logs CONTAINER_ID` replacing CONTAINER\_ID with the ID for `trufflesuite/ganache:v7.7.3`.
     
-7. View the logs for Ganache and confirm that there is a transaction listed in the logs.
+7.  View the logs for Ganache and confirm that there is a transaction listed in the logs.
     
 
 Click *Check my progress* to verify the objective.
 
 Create the MPC Operator Confidential Space Instance
 
----
+* * *
 
 ## Solution of Lab
 
-<div data-node-type="callout">
-<div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text"><strong>As of now, the lab can only be completed in the <mark>East</mark> zone.</strong></div>
-</div>
-
 ### Quick
 
-%[https://youtu.be/8-_bqoG5MYc] 
+%[https://www.youtube.com/watch?v=pQUuNWRmX2g] 
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Transacting%20Digital%20Assets%20with%20Multi-Party%20Computation%20and%20Confidential%20Space/techcps1128.sh
-sudo chmod +x techcps1128.sh
-./techcps1128.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1128/lab.sh
+source lab.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1754711067746/1f996c24-e423-4553-ad9c-1f8aa395e697.png align="center")
+**Script Alternative**
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1754711060552/a3a82d03-9b76-473c-92b3-6e059ff95d44.png align="center")
-
-### Manual
-
-%[https://youtu.be/qRQXQeTEN50]
+```apache
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Transacting%20Digital%20Assets%20with%20Multi-Party%20Computation%20and%20Confidential%20Space/drabhishek.sh
+sudo chmod +x drabhishek.sh
+./drabhishek.sh
+```
