@@ -2,7 +2,7 @@
 title: "Tổng hợp cách tra sao kê từ MTTQ"
 seoTitle: "Tổng hợp cách tra sao kê từ MTTQ"
 seoDescription: "Mới đây Mặt trận Tổ quốc Việt Nam (MTTQ) đã tung sao kê dài 12.028 trang từ số tài khoản Vietcombank 0011001932418 từ ngày 1/9/2024 đến ngày 10/9/2024."
-datePublished: Fri Sep 13 2024 04:58:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-13T04:58:30.071Z
 cuid: cm10900tz000y0ak04vrn8ghq
 slug: tong-hop-cach-tra-sao-ke-tu-mttq
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726203009262/8fc40b16-3b28-4bf6-a3f6-403fed223114.jpeg
