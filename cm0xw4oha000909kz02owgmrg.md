@@ -2,7 +2,7 @@
 title: "Google Sheets: Getting Started - GSP469"
 seoTitle: "Google Sheets: Getting Started - GSP469"
 seoDescription: "Google Sheets is a cloud-based application that provides advanced, fast, online spreadsheets. Designed with collaboration and convenience in mind, you can a"
-datePublished: Wed Sep 11 2024 13:22:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-11T13:22:39.982Z
 cuid: cm0xw4oha000909kz02owgmrg
 slug: google-sheets-getting-started-gsp469
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768633150499/cac49be0-01db-4492-94f9-f0e07e3452f2.png
