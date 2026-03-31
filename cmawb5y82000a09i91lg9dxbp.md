@@ -2,7 +2,7 @@
 title: "Dataplex: Qwik Start - Command Line - GSP1144"
 seoTitle: "Dataplex: Qwik Start - Command Line - GSP1144"
 seoDescription: "Dataplex is an intelligent data fabric that enables organizations to centrally discover, manage, monitor, and govern their data across data lakes, data ware"
-datePublished: Tue May 20 2025 09:25:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-20T09:25:04.514Z
 cuid: cmawb5y82000a09i91lg9dxbp
 slug: dataplex-qwik-start-command-line-gsp1144
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747733061410/f8ceef58-87b7-4872-a4fb-ba87d919834a.png
@@ -21,15 +21,15 @@ In this lab, you learn how to start building your own data mesh by creating and 
 
 ### What you'll do
 
-* Enable the Dataplex API
+*   Enable the Dataplex API
     
-* Create a lake
+*   Create a lake
     
-* Add a zone to your lake
+*   Add a zone to your lake
     
-* Attach and detach assets
+*   Attach and detach assets
     
-* Delete zones and lakes
+*   Delete zones and lakes
     
 
 ## Setup and requirements
@@ -42,29 +42,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -72,7 +72,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-4ee3cfba204c@qwiklabs.net
@@ -80,9 +80,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     voSvwGtSalBA
@@ -90,19 +90,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -115,13 +115,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-02-e9ed97dd299e`. The output contains a line that declares the **Project\_ID** for this session:
@@ -132,14 +132,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-02-e9ed97dd29
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -152,7 +152,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -170,7 +170,7 @@ project = qwiklabs-gcp-02-e9ed97dd299e
 
 ### Enable the Dataplex API and set variables
 
-1. In Cloud Shell, run the following command to enable the Dataplex API.
+1.  In Cloud Shell, run the following command to enable the Dataplex API.
     
 
 ```apache
@@ -178,14 +178,14 @@ gcloud services enable \
   dataplex.googleapis.com
 ```
 
-2. Run the following command to create a variable for project ID:
+2.  Run the following command to create a variable for project ID:
     
 
 ```apache
 export PROJECT_ID=$(gcloud config get-value project)
 ```
 
-3. Run the following command to create a variable for region:
+3.  Run the following command to create a variable for region:
     
 
 ```apache
@@ -199,7 +199,7 @@ In Dataplex, a lake is the highest organizational domain that represents a speci
 
 In this task, you use the command line to create a lake to start building a data mesh.
 
-* In Cloud Shell, run the following command to create a new lake called **Ecommerce**:
+*   In Cloud Shell, run the following command to create a new lake called **Ecommerce**:
     
 
 ```apache
@@ -233,14 +233,14 @@ After you create a lake, you can add zones to the lake. Zones are subdomains wit
 
 There are two types of zones:
 
-* Raw zones contain data in raw formats (such as files in Cloud Storage buckets) and are not subject to strict type-checking.
+*   Raw zones contain data in raw formats (such as files in Cloud Storage buckets) and are not subject to strict type-checking.
     
-* Curated zones contain data that is cleaned, formatted, and ready for analytics such as BigQuery datasets.
+*   Curated zones contain data that is cleaned, formatted, and ready for analytics such as BigQuery datasets.
     
 
 In this task, you use the command line to create a curated zone for working with BigQuery datasets.
 
-* In Cloud Shell, run the following command to create a new curated zone called **Orders Curated Zone** with metadata discovery enabled:
+*   In Cloud Shell, run the following command to create a new curated zone called **Orders Curated Zone** with metadata discovery enabled:
     
 
 ```apache
@@ -278,7 +278,7 @@ In this task, you use the command line to create a BigQuery dataset and then att
 
 ### Create a BigQuery dataset
 
-* In Cloud Shell, run the following command to create a new BigQuery dataset called **orders**:
+*   In Cloud Shell, run the following command to create a new BigQuery dataset called **orders**:
     
 
 ```apache
@@ -295,7 +295,7 @@ Dataset '$PROJECT_ID:orders' successfully created.
 
 ### Attach the BigQuery dataset to the zone
 
-* In Cloud Shell, run the following command to attach the BigQuery dataset to the zone as an asset called **Orders Curated Data** with metadata discovery enabled:
+*   In Cloud Shell, run the following command to attach the BigQuery dataset to the zone as an asset called **Orders Curated Data** with metadata discovery enabled:
     
 
 ```apache
@@ -329,7 +329,7 @@ In this task, you use the command line to detach the asset from the zone, then d
 
 ### Detach an asset
 
-* In Cloud Shell, run the following command to detach the BigQuery dataset from the zone:
+*   In Cloud Shell, run the following command to detach the BigQuery dataset from the zone:
     
 
 ```apache
@@ -348,7 +348,7 @@ Deleted asset [orders-curated-dataset].
 
 ### Delete a zone
 
-* In Cloud Shell, run the following command to delete the zone:
+*   In Cloud Shell, run the following command to delete the zone:
     
 
 ```apache
@@ -365,7 +365,7 @@ Deleted zone [orders-curated-zone].
 
 ### Delete the lake
 
-* In Cloud Shell, run the following command to delete the lake:
+*   In Cloud Shell, run the following command to delete the lake:
     
 
 ```apache
@@ -384,11 +384,19 @@ Delete assets, zone and dataplex lake
 
 **Check my progress**
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://youtu.be/L_kP9wJBX7M] 
+%[https://www.youtube.com/watch?v=ncKWNzdpJa8] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1144/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
 
 ```apache
 export REGION=
@@ -397,7 +405,8 @@ export REGION=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747732770453/897cfbe9-d01b-42fe-b498-ef37c1504872.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Dataplex%3A%20Qwik%20Start%20-%20Command%20Line/techcpsgsp1144.sh 
-sudo chmod +x techcpsgsp1144.sh
-./techcpsgsp1144.sh
+
+curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Dataplex%3A%20Qwik%20Start%20-%20Command%20Line/TechCode.sh
+sudo chmod +x TechCode.sh
+./TechCode.sh
 ```
