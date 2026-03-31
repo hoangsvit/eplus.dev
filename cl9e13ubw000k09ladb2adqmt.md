@@ -2,7 +2,7 @@
 title: "Complete Explanation With Example On Laravel Middleware"
 seoTitle: "Complete Explanation With Example On Laravel Middleware"
 seoDescription: "In this tutorial, we will learn Laravel middleware. We will learn with custom middleware and also Laravel predefined middleware. Middleware is a very import"
-datePublished: Tue Oct 18 2022 09:54:32 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-10-18T09:54:32.396Z
 cuid: cl9e13ubw000k09ladb2adqmt
 slug: complete-explanation-with-example-on-laravel-middleware
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1666085736453/vFkjP7liC.png
