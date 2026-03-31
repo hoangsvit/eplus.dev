@@ -2,7 +2,7 @@
 title: "Discount for student dev"
 seoTitle: "Discount for student dev"
 seoDescription: "Discount for student dev"
-datePublished: Mon Nov 06 2023 05:42:18 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-11-06T05:42:18.010Z
 cuid: clomh6kka000j0ajx5aj9g2v1
 slug: discount-for-student-dev
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/XkKCui44iM0/upload/8f2bdbc38a8f87640a5e0a9296ddb2b2.jpeg
