@@ -4,7 +4,7 @@ seoTitle: "Data Catalog: Qwik Start - GSP729"
 seoDescription: "Data Catalog is a fully managed, scalable metadata management service within Dataplex.
 
 It offers a simple and easy-to-use search interface for data discove"
-datePublished: Mon Aug 26 2024 04:18:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-26T04:18:01.721Z
 cuid: cm0ahmn3t000a0albcbw3ab0d
 slug: data-catalog-qwik-start-gsp729
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750130414917/b8cedf17-d3d2-4587-ac83-eb5c1089885f.png
