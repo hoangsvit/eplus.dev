@@ -2,7 +2,7 @@
 title: "Arcade Quiz: Digital Leader Challenge - osl-arc-0002"
 seoTitle: "Arcade Quiz: Digital Leader Challenge - osl-arc-0002"
 seoDescription: "Join the free Arcade Quiz, test your knowledge daily, and climb the global leaderboard with topical questions"
-datePublished: Tue Jan 27 2026 03:10:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-27T03:10:57.588Z
 cuid: cmkw0ri2c000f02l680y52yzl
 slug: arcade-quiz-digital-leader-challenge-osl-arc-0002-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769483416778/a42db16c-6ae6-432b-bc8d-3e723d7122a9.png
