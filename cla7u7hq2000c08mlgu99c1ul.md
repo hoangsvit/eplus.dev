@@ -2,7 +2,7 @@
 title: "Search Engine Optimization Concepts"
 seoTitle: "Search Engine Optimization Concepts"
 seoDescription: "Every website that needs to get featured in the Google Search Engine or any other search engine must implement Search Engine Optimization (SEO) Concepts"
-datePublished: Tue Nov 08 2022 06:34:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-11-08T06:34:30.650Z
 cuid: cla7u7hq2000c08mlgu99c1ul
 slug: search-engine-optimization-concepts
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1667883205316/By1lukfpv.png
