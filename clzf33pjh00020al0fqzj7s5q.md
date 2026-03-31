@@ -2,7 +2,7 @@
 title: "Module Quiz : Component Use and Styling - React Basic"
 seoTitle: "Module Quiz : Component Use and Styling - React Basic"
 seoDescription: "Module Quiz : Component Use and Styling - React Basic"
-datePublished: Sun Aug 04 2024 04:50:32 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-04T04:50:32.333Z
 cuid: clzf33pjh00020al0fqzj7s5q
 slug: module-quiz-component-use-and-styling-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722746584098/0660afb8-90e2-4d74-973a-43939a78a75d.png
