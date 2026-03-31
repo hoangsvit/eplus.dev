@@ -2,7 +2,7 @@
 title: "Introduction to Convolutions with TensorFlow - GSP632"
 seoTitle: "Introduction to Convolutions with TensorFlow - GSP632"
 seoDescription: "Learn convolutional filters and pooling in TensorFlow for image processing. Extract and emphasize image features in this hands-on lab"
-datePublished: Sat Aug 16 2025 04:09:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-16T04:09:15.815Z
 cuid: cmedqmrza000002lk4ipy7tov
 slug: introduction-to-convolutions-with-tensorflow-gsp632
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755316989263/c5a6d606-dbbc-4d8d-8c2d-c8c5f1776a2a.png
