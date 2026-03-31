@@ -2,7 +2,7 @@
 title: "Securing Virtual Machines using Chrome Enterprise Premium - GSP1036"
 seoTitle: "Securing Virtual Machines using Chrome Enterprise Premium - GSP1036"
 seoDescription: "Secure your VMs with Chrome Enterprise Premium using IAP TCP for seamless, secure administrative access to instances without external IPs"
-datePublished: Sun Sep 07 2025 07:33:08 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-07T07:33:08.651Z
 cuid: cmf9dlpkb000d02lb4maa1s5x
 slug: securing-virtual-machines-using-chrome-enterprise-premium-gsp1036
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757230357246/3f5e84aa-08ed-438c-96c0-3cab917e4de4.png
