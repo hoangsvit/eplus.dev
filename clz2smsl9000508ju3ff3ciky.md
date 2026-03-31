@@ -2,7 +2,7 @@
 title: "Cloud Functions: Qwik Start - Console - GSP081"
 seoTitle: "Cloud Functions: Qwik Start - Console - GSP081"
 seoDescription: "A cloud function is a piece of code that runs in response to an event, such as an HTTP request, a message from a messaging service, or a file upload. Cloud"
-datePublished: Fri Jul 26 2024 14:24:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-26T14:24:12.861Z
 cuid: clz2smsl9000508ju3ff3ciky
 slug: cloud-functions-qwik-start-console-gsp081
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745482591797/84b428af-1793-4e29-bb16-5570a927ed9c.png
