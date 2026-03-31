@@ -2,7 +2,7 @@
 title: "Livewire Real-Time Presence"
 seoTitle: "Livewire Real-Time Presence"
 seoDescription: "I’ve always been interested in real-time technologies, especially when dealing with high traffic and complex issues. I once encountered a situation with an"
-datePublished: Thu Aug 17 2023 07:41:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-08-17T07:41:16.595Z
 cuid: clleurkqb001e09l61rdpe4qc
 slug: livewire-real-time-presence
 canonical: https://ahmedash.dev/blog/livewire/real-time-presence/?utm_source=eplus.dev
