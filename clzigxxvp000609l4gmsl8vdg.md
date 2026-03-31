@@ -2,7 +2,7 @@
 title: "Running a MongoDB Database in Kubernetes with StatefulSets - GSP022"
 seoTitle: "Running a MongoDB Database in Kubernetes with StatefulSets - GSP022"
 seoDescription: "Kubernetes is an open source container orchestration tool that handles the complexities of running containerized applications. You can run Kubernetes applic"
-datePublished: Tue Aug 06 2024 13:41:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-06T13:41:16.357Z
 cuid: clzigxxvp000609l4gmsl8vdg
 slug: running-a-mongodb-database-in-kubernetes-with-statefulsets-gsp022
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722949568612/c8c77d6e-2c47-459e-af8a-7769afd1f1f8.png
