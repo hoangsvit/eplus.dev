@@ -2,7 +2,7 @@
 title: "App Dev: Storing Image and Video Files in Cloud Storage - Python - GSP185"
 seoTitle: "Storing Image and Video Files in Cloud Storage - Python - GSP185"
 seoDescription: "Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. You can use Cloud Storage for a range of scenarios including servin"
-datePublished: Thu Aug 08 2024 05:05:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-08T05:05:12.064Z
 cuid: clzktdz0g000c09jrc4kn5avj
 slug: app-dev-storing-image-and-video-files-in-cloud-storage-python-gsp185
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759563505923/f5affe53-21b7-440b-a0d4-fff878638138.png
