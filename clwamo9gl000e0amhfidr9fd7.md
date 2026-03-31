@@ -2,7 +2,7 @@
 title: "Review quá trình học B2 tại Trường Dạy Lái Xe Đại Phúc"
 seoTitle: "Review quá trình học B2 tại Trường Dạy Lái Xe Đại Phúc"
 seoDescription: "Review quá trình học B2 tại Trường Dạy Lái Xe Đại Phúc"
-datePublished: Fri May 17 2024 12:00:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-05-17T12:00:26.085Z
 cuid: clwamo9gl000e0amhfidr9fd7
 slug: review-qua-trinh-hoc-b2-tai-truong-day-lai-xe-dai-phuc
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1715943355548/8cd3345e-8753-4f65-a881-9acedac24fd6.jpeg
