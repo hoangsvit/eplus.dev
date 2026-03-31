@@ -2,7 +2,7 @@
 title: "Swags Unboxing Compose Camp 2023 (#ChienBinhAndroid)"
 seoTitle: "Swags Unboxing Compose Camp 2023 (#ChienBinhAndroid)"
 seoDescription: "Swags Unboxing Compose Camp 2023 (#ChienBinhAndroid)"
-datePublished: Mon Nov 06 2023 04:11:18 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-11-06T04:11:18.772Z
 cuid: clomdxk6r000d09jy008e7c7m
 slug: swags-unboxing-compose-camp-2023-chienbinhandroid
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1699242711969/a3b347ed-3f6b-4b68-b9f4-d04ff2c51cd5.jpeg
