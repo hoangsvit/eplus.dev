@@ -2,7 +2,7 @@
 title: "Programming Assignment: Read in data, store, manipulate and output new data to a file"
 seoTitle: "Programming Assignment: Read in data, store, manipulate and output new"
 seoDescription: "In this lab you must read the contents of a file and then write the contents to another file. You must also store the contents of a file into a list so that"
-datePublished: Fri Nov 08 2024 07:24:05 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-08T07:24:05.921Z
 cuid: cm38euysh000j09l38js83ucn
 slug: programming-assignment-read-in-data-store-manipulate-and-output-new-data-to-a-file
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731050612844/f4fc034e-1753-4368-b247-0898005b57fa.png
