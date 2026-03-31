@@ -2,7 +2,7 @@
 title: "Cảnh Báo Lừa Đảo Mạo Danh Vietcombank (SMS Spoofing)"
 seoTitle: "Cảnh Báo Lừa Đảo Mạo Danh Vietcombank (SMS Spoofing)"
 seoDescription: "Cảnh báo lừa đảo mạo danh Vietcombank qua SMS Spoofing. Không bấm link lạ hay nhập mật khẩu, OTP. Gọi 1900 545413 để xác minh"
-datePublished: Tue Jul 22 2025 08:42:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-22T08:42:02.829Z
 cuid: cmdeada6l000502jm6rus97oi
 slug: canh-bao-lua-dao-mao-danh-vietcombank-sms-spoofing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753173459718/0a4bcd70-a7fc-496d-8807-02671a019640.png
