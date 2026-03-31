@@ -2,7 +2,7 @@
 title: "[SQL] 1251. Average Selling Price"
 seoTitle: "[SQL] 1251. Average Selling Price"
 seoDescription: "[SQL] 1251. Average Selling Price"
-datePublished: Thu Nov 21 2024 09:41:08 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-21T09:41:08.590Z
 cuid: cm3r4ha3y00080am84cw9dppu
 slug: sql-1251-average-selling-price
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732182032109/d63ee41e-5c81-437b-8b73-0a334051e94c.png
