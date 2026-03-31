@@ -2,7 +2,7 @@
 title: "Knowledge check: Best practice principles - UI/UX"
 seoTitle: "Knowledge check: Best practice principles - UI/UX"
 seoDescription: "Knowledge check: Best practice principles - UI/UX"
-datePublished: Tue Sep 17 2024 02:45:17 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-17T02:45:17.024Z
 cuid: cm15u040w000i0ams3xg9f3ey
 slug: knowledge-check-best-practice-principles-ui-ux
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726541090781/4ebd939b-bc9d-406e-9387-2daa4670d713.jpeg
