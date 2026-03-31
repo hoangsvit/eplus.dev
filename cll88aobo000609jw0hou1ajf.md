@@ -9,7 +9,7 @@ Framer Motion for animation
 React Hot Toast for pop-up notifications
 
 Back En"
-datePublished: Sat Aug 12 2023 16:25:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-08-12T16:25:39.493Z
 cuid: cll88aobo000609jw0hou1ajf
 slug: mien-phi-khoa-hoc-the-full-stack-react-course-2023-39-99
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691857178934/d2be95e7-1203-43bf-81c3-55a7910c0f6f.jpeg
