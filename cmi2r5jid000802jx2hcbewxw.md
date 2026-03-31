@@ -2,7 +2,7 @@
 title: "Terraform Essentials: Cloud Firestore Database - gem-terraform-firestore-create"
 seoTitle: "Terraform Essentials: Cloud Firestore Database - gem-terraform-firesto"
 seoDescription: "Learn to create a Cloud Firestore database with Terraform, configure Google Cloud APIs, and manage infrastructure as code efficiently with this guide"
-datePublished: Mon Nov 17 2025 06:17:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-11-17T06:17:12.709Z
 cuid: cmi2r5jid000802jx2hcbewxw
 slug: terraform-essentials-cloud-firestore-database-gem-terraform-firestore-create-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763359761177/75772027-5da9-4648-b615-f6020c2d6b6c.png
