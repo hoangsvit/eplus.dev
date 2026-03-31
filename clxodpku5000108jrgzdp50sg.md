@@ -2,7 +2,7 @@
 title: "Get Free Salesforce Swags - #BuiltWithEinstein"
 seoTitle: "Get Free Salesforce Swags - #BuiltWithEinstein"
 seoDescription: "Build a prompt template with Prompt Builder or an action with Copilot Builder and share your use case in a screen-recorded video on X or LinkedIn with the h"
-datePublished: Fri Jun 21 2024 07:37:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-21T07:37:59.741Z
 cuid: clxodpku5000108jrgzdp50sg
 slug: get-free-salesforce-swags-builtwitheinstein
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718955421496/b0f23041-2f7d-493b-8267-e113b04516c0.png
