@@ -2,7 +2,7 @@
 title: "Manage Kubernetes in Google Cloud: Challenge Lab - GSP510"
 seoTitle: "Manage Kubernetes in Google Cloud: Challenge Lab - GSP510"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Thu Mar 28 2024 15:55:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-03-28T15:55:12.818Z
 cuid: clubf1liq000708js89izdbbg
 slug: manage-kubernetes-in-google-cloud-challenge-lab
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757777170267/0c62b3d4-1071-4290-95b3-c236bdd8ea78.png
