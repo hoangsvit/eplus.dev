@@ -2,7 +2,7 @@
 title: "Knowledge check: Introduction to Functional Programming in Javascript"
 seoTitle: "Knowledge check: Introduction to Functional Programming in Javascript"
 seoDescription: "Knowledge check: Introduction to Functional Programming in Javascript"
-datePublished: Wed Jul 17 2024 09:27:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-17T09:27:16.194Z
 cuid: clypn295t000109l89umw3fpm
 slug: knowledge-check-introduction-to-functional-programming-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721208389049/3c7b0025-e75a-4b8a-be08-ca4eb42e7e9f.png
