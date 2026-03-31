@@ -2,7 +2,7 @@
 title: "BigQuery Soccer Data Analytical Insight - GSP850"
 seoTitle: "BigQuery Soccer Data Analytical Insight - GSP850"
 seoDescription: "BigQuery can be used to perform more sophisticated data analysis. In this lab, you will analyze soccer event data to achieve real insight from the dataset."
-datePublished: Wed Aug 21 2024 01:57:37 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-21T01:57:37.389Z
 cuid: cm037etil000f09lagaescksl
 slug: bigquery-soccer-data-analytical-insight-gsp850
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746868589606/f14390d8-765d-4424-a4f2-f646bd2e78e6.png
