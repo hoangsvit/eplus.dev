@@ -2,7 +2,7 @@
 title: "Google Cloud Arcade Facilitator '25 (Cohort 2)"
 seoTitle: "Google Cloud Arcade Facilitator '25 (Cohort 2)"
 seoDescription: "The Arcade Facilitator Program is an always-on, no-cost gaming campaign where technical practitioners of all levels can learn new cloud skills like computin"
-datePublished: Mon Jul 07 2025 01:56:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-07T01:56:58.832Z
 cuid: cmcsgal3k001902jpgq68eaj4
 slug: google-cloud-arcade-facilitator-25-cohort-2
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751853276863/ef528e5e-417c-499e-a5f1-5978473448d6.png
