@@ -2,7 +2,7 @@
 title: "Deploying a Python Flask Web Application to App Engine Flexible - GSP023"
 seoTitle: "Deploying a Python Flask Web Application to App Engine Flexible - GSP0"
 seoDescription: "Deploy a Python Flask app on Google Cloud's App Engine Flexible with Cloud APIs for Vision, Storage, and Datastore"
-datePublished: Sat Jul 19 2025 04:02:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-19T04:02:50.362Z
 cuid: cmd9q2nwa000n02jvhuq52mnk
 slug: deploying-a-python-flask-web-application-to-app-engine-flexible-gsp023
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752897704664/4064522a-1573-4b6b-9b8b-1214ead7aab9.png
@@ -25,20 +25,20 @@ App Engine's [Flexible Environment](https://cloud.google.com/appengine/docs/flex
 
 ### **What you'll learn**
 
-* How to deploy a simple web application to the App Engine Flexible Environment
+*   How to deploy a simple web application to the App Engine Flexible Environment
     
-* How to access the Google Cloud client libraries for Vision, Storage, and Datastore
+*   How to access the Google Cloud client libraries for Vision, Storage, and Datastore
     
-* How to use Cloud Shell
+*   How to use Cloud Shell
     
 
 ### Prerequisites
 
-* Familiarity with Python
+*   Familiarity with Python
     
-* Familiarity with standard Linux text editors such as vim, emacs, or nano
+*   Familiarity with standard Linux text editors such as vim, emacs, or nano
     
-* Access to an image with a face
+*   Access to an image with a face
     
 
 ## Setup and requirements
@@ -51,29 +51,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -81,7 +81,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-03-dd83653e23e4@qwiklabs.net
@@ -89,9 +89,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     6ObRCVjDYHfC
@@ -99,19 +99,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -124,13 +124,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-02-0cc3b535ba31`. The output contains a line that declares the **Project\_ID** for this session:
@@ -141,14 +141,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-02-0cc3b535ba
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -161,7 +161,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -179,14 +179,14 @@ project = qwiklabs-gcp-02-0cc3b535ba31
 
 ## Task 1. Get the sample code
 
-1. In Cloud Shell, run the following command to copy the sample code:
+1.  In Cloud Shell, run the following command to copy the sample code:
     
 
 ```apache
 gcloud storage cp -r gs://spls/gsp023/flex_and_vision/ .
 ```
 
-2. Change directory into `flex_and_vision`:
+2.  Change directory into `flex_and_vision`:
     
 
 ```apache
@@ -197,14 +197,14 @@ cd flex_and_vision
 
 The Datastore, Storage, and Vision APIs are automatically enabled for you in this lab. In order to make requests to the APIs, you will need service account credentials. You can generate credentials from your project using *gcloud* in Cloud Shell. Your **Project ID** can be found on the tab where you started the lab.
 
-1. Set an environment variable for your Project ID:
+1.  Set an environment variable for your Project ID:
     
 
 ```apache
 export PROJECT_ID=$(gcloud config get-value project)
 ```
 
-2. Create a Service Account to access the Google Cloud APIs when testing locally:
+2.  Create a Service Account to access the Google Cloud APIs when testing locally:
     
 
 ```apache
@@ -212,7 +212,7 @@ gcloud iam service-accounts create qwiklab \
   --display-name "My Qwiklab Service Account"
 ```
 
-3. Give your newly created Service Account appropriate permissions:
+3.  Give your newly created Service Account appropriate permissions:
     
 
 ```apache
@@ -221,7 +221,7 @@ gcloud projects add-iam-policy-binding ${PROJECT_ID} \
 --role roles/owner
 ```
 
-4. After creating your Service Account, create a Service Account key:
+4.  After creating your Service Account, create a Service Account key:
     
 
 ```apache
@@ -231,7 +231,7 @@ gcloud iam service-accounts keys create ~/key.json \
 
 This command generates a service account key stored in a JSON file named `key.json` in your home directory.
 
-5. Using the absolute path of the generated key, set an environment variable for your service account key:
+5.  Using the absolute path of the generated key, set an environment variable for your service account key:
     
 
 ```apache
@@ -248,21 +248,21 @@ Authenticate API Requests
 
 ### Starting your virtual environment and installing dependencies
 
-1. Create an isolated Python 3 environment named `env` with [virtualenv](https://virtualenv.pypa.io/en/stable):
+1.  Create an isolated Python 3 environment named `env` with [virtualenv](https://virtualenv.pypa.io/en/stable):
     
 
 ```apache
 virtualenv -p python3 env
 ```
 
-2. Enter your newly created *virtualenv* named `env`:
+2.  Enter your newly created *virtualenv* named `env`:
     
 
 ```apache
 source env/bin/activate
 ```
 
-3. Use `pip` to install dependencies for your project from the `requirements.txt` file:
+3.  Use `pip` to install dependencies for your project from the `requirements.txt` file:
     
 
 ```apache
@@ -273,14 +273,14 @@ The `requirements.txt` file is a list of package dependencies you need for your 
 
 ### Creating an App Engine app
 
-1. First, create an environment variable with your assigned region:
+1.  First, create an environment variable with your assigned region:
     
 
 ```apache
 AE_REGION=us-east1
 ```
 
-2. Next, create an App Engine instance by using:
+2.  Next, create an App Engine instance by using:
     
 
 ```apache
@@ -289,14 +289,14 @@ gcloud app create --region=$AE_REGION
 
 ### Creating a storage bucket
 
-1. First, set the environment variable *CLOUD\_STORAGE\_BUCKET* equal to the name of your *PROJECT\_ID*. (It is generally recommended to name your bucket the same as your *PROJECT\_ID* for convenience purposes):
+1.  First, set the environment variable *CLOUD\_STORAGE\_BUCKET* equal to the name of your *PROJECT\_ID*. (It is generally recommended to name your bucket the same as your *PROJECT\_ID* for convenience purposes):
     
 
 ```apache
 export CLOUD_STORAGE_BUCKET=${PROJECT_ID}
 ```
 
-2. Now run the following command to create a bucket with the same name as your *PROJECT\_ID*:
+2.  Now run the following command to create a bucket with the same name as your *PROJECT\_ID*:
     
 
 ```apache
@@ -309,14 +309,14 @@ Create an App Engine App and Storage Bucket
 
 ### Running the Application
 
-1. Execute the following command to start your application:
+1.  Execute the following command to start your application:
     
 
 ```apache
 python main.py
 ```
 
-2. Once the application starts, click on the Web Preview icon
+2.  Once the application starts, click on the Web Preview icon
     
     ![Web preview icon](https://cdn.qwiklabs.com/7b9oXblGsiFuNK7hmDZjFB%2B7Lrwdv5T64bbmo8X9FAo%3D align="left")
     
@@ -329,7 +329,7 @@ A tab in your browser opens and connects to the server you just started. You sho
 
 Now things will get interesting!
 
-3. Click the **Choose File** button, find an image from your computer that has a human face, and then click **Submit**.
+3.  Click the **Choose File** button, find an image from your computer that has a human face, and then click **Submit**.
     
 
 After uploading a photo, you should see something like this:
@@ -463,19 +463,19 @@ Storage, Datastore, and the Cloud Vision API.</p>
 
 App Engine Flexible uses a file called `app.yaml` to describe an application's deployment configuration. If this file is not present, App Engine will try to guess the deployment configuration. However, it is a good idea to provide this file.
 
-1. Next, you will modify `app.yaml` using an editor of your choice *vim*, *nano*, or *emacs*. We will use the `nano` editor:
+1.  Next, you will modify `app.yaml` using an editor of your choice *vim*, *nano*, or *emacs*. We will use the `nano` editor:
     
 
 ```apache
 nano app.yaml
 ```
 
-2. Once you have `app.yaml` open, replace `<your-cloud-storage-bucket>` with the name of your Cloud Storage bucket. (If you forgot the name of your Cloud Storage bucket, copy the **Project ID** from the lab details panel).
+2.  Once you have `app.yaml` open, replace `<your-cloud-storage-bucket>` with the name of your Cloud Storage bucket. (If you forgot the name of your Cloud Storage bucket, copy the **Project ID** from the lab details panel).
     
 
 The `env_variables` section sets up environment variables that will be used in `main.py` once the application is deployed.
 
-3. Next, set your app to use **manual scaling** by adding this at the end of the file:
+3.  Next, set your app to use **manual scaling** by adding this at the end of the file:
     
 
 ```apache
@@ -483,7 +483,7 @@ manual_scaling:
   instances: 1
 ```
 
-4. Lastly, ensure the `python_version` is set to 3.12 to deploy your App Engine successfully.
+4.  Lastly, ensure the `python_version` is set to 3.12 to deploy your App Engine successfully.
     
 
 Your file should look like this:
@@ -506,22 +506,22 @@ manual_scaling:
 
 This is the basic configuration needed to deploy a Python 3 App Engine Flex application. You can learn more about configuring App Engine at [Configuring your App with app.yaml Guide](https://cloud.google.com/appengine/docs/flexible/python/configuring-your-app-with-app-yaml).
 
-5. Save and close the file in `nano`:
+5.  Save and close the file in `nano`:
     
 
-* Press CTRL+X.
+*   Press CTRL+X.
     
-* At the prompt, type Y and then press ENTER.
+*   At the prompt, type Y and then press ENTER.
     
 
-6. Update your Cloud Build timeout:
+6.  Update your Cloud Build timeout:
     
 
 ```apache
 gcloud config set app/cloud_build_timeout 1000
 ```
 
-7. Deploy your app on App Engine by using `gcloud`:
+7.  Deploy your app on App Engine by using `gcloud`:
     
 
 ```apache
@@ -532,7 +532,7 @@ If prompted **Do you want to continue (Y/n)**, type Y and then press ENTER.
 
 Watch in Cloud Shell as the application gets built. This will take up to **10** minutes. The App Engine Flexible environment is automatically provisioning a Compute Engine virtual machine for you behind the scenes, and then installing the application, then starting it.
 
-8. After the application is deployed, open the app in your web browser with the following URL:
+8.  After the application is deployed, open the app in your web browser with the following URL:
     
 
 ```apache
@@ -545,9 +545,22 @@ Click **Check my progress** below to check your lab progress.
 
 Deploy the App
 
----
+* * *
 
 ## Solution of Lab
+
+### New solution
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP023/lab.sh
+source lab.sh
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/bb12a5c6-3dbf-4d38-b83e-5d11c91b3ada.png align="center")
+
+* * *
+
+### Old solution
 
 %[https://youtu.be/q_lcJAd-dGI] 
 
