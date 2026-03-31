@@ -2,7 +2,7 @@
 title: "Check Point: Next-Gen Data Center Security CloudGuard for Google Cloud - GSP818"
 seoTitle: "Check Point: Next-Gen Data Center Security CloudGuard for Google Cloud"
 seoDescription: "Organizations are starting to adopt public cloud environments as an extension of their internal Data Centers (DC) to gain operational flexibility and lower "
-datePublished: Sun Sep 15 2024 10:31:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-15T10:31:16.780Z
 cuid: cm13frokr002c0akz0jxf75f6
 slug: check-point-next-gen-data-center-security-cloudguard-for-google-cloud-gsp818
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726395988838/e1e8b8ed-8b70-4e75-8659-ffef7cc9da8b.jpeg
