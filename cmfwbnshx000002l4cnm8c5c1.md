@@ -2,7 +2,7 @@
 title: "Monitoring in Google Cloud: Challenge Lab - ARC115"
 seoTitle: "Monitoring in Google Cloud: Challenge Lab - ARC115"
 seoDescription: "Master Google Cloud Monitoring in this challenge lab. Install agents, set alerts, build dashboards, and create log-based metrics efficiently"
-datePublished: Tue Sep 23 2025 08:57:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-23T08:57:28.581Z
 cuid: cmfwbnshx000002l4cnm8c5c1
 slug: monitoring-in-google-cloud-challenge-lab-arc115
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758616861709/7416dd28-334f-4b26-b9a4-c15e34466f29.png
