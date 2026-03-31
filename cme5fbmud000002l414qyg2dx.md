@@ -2,7 +2,7 @@
 title: "Create VPC Peering Connection between VPCs (Solution)"
 seoTitle: "Create VPC Peering Connection between VPCs (Solution)"
 seoDescription: "Create VPC peering between workspace_vpc and private_vpc with step-by-step lab instructions for seamless communication"
-datePublished: Sun Aug 10 2025 08:30:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-10T08:30:30.757Z
 cuid: cme5fbmud000002l414qyg2dx
 slug: create-vpc-peering-connection-between-vpcs-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754814570314/089fbb6d-1c3b-4b07-b4b0-6f1dd9f82141.png
