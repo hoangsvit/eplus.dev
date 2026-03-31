@@ -2,7 +2,7 @@
 title: "Google tặng 5.000 suất học bổng từ chương trình Nhân Tài Số"
 seoTitle: "Google tặng 5.000 suất học bổng từ chương trình Nhân Tài Số"
 seoDescription: "CHÍNH THỨC RA MẮT KHÓA HỌC GOOGLE AI ESSENTIALS & MỞ 5.000 SUẤT HỌC BỔNG"
-datePublished: Fri Jul 12 2024 01:32:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-12T01:32:15.469Z
 cuid: clyi0w4j0000109juedp406ji
 slug: google-tang-5-000-suat-hoc-bong-tu-chuong-trinh-nhan-tai-so
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720747851890/a5b714e7-b179-41b9-90e9-51ff550e589f.jpeg
