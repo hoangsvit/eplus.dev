@@ -2,7 +2,7 @@
 title: "Introduction to Docker - GSP055"
 seoTitle: "Introduction to Docker - GSP055"
 seoDescription: "Docker is an open platform for developing, shipping, and running applications. With Docker, you can separate your applications from your infrastructure and"
-datePublished: Sat Aug 17 2024 13:56:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-17T13:56:13.661Z
 cuid: clzy7bjkt000008l37fgm7p2u
 slug: introduction-to-docker-gsp055
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748239659070/5040cb24-f757-4206-bc38-b720489409dc.png
