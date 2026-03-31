@@ -3,7 +3,7 @@ title: "Self review: Creating and importing components - React Basic"
 seoTitle: "Self review: Creating and importing components - React Basic"
 seoDescription: "Self review: Creating and importing components - React Basic
 React Components and Where They Live"
-datePublished: Fri Aug 02 2024 09:45:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-02T09:45:45.122Z
 cuid: clzcirnhe000p09if8pzhclkp
 slug: self-review-creating-and-importing-components-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722591816229/f7381a0f-0ead-4612-bb15-570811810f5a.png
