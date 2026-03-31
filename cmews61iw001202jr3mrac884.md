@@ -2,7 +2,7 @@
 title: "Build a Multi-Modal GenAI Application: Challenge Lab"
 seoTitle: "Build a Multi-Modal GenAI Application: Challenge Lab"
 seoDescription: "Learn to build a GenAI app with cloud tools, generating and analyzing bouquet images in this challenge lab. Apply your coding skills now!"
-datePublished: Fri Aug 29 2025 11:59:51 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-29T11:59:51.608Z
 cuid: cmews61iw001202jr3mrac884
 slug: build-a-multi-modal-genai-application-challenge-lab
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756468708814/dc729852-b8e1-4b78-9ea1-a3a5cd458fda.png
