@@ -2,7 +2,7 @@
 title: "Finding Data in Google Sheets - GSP1063"
 seoTitle: "Finding Data in Google Sheets - GSP1063"
 seoDescription: "For this lab you read through a fictitious business scenario. By completing the various lab activities, you assist the characters with their Google Sheets u"
-datePublished: Wed Aug 28 2024 06:18:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-28T06:18:39.289Z
 cuid: cm0dgtgzd000508mchvzralsz
 slug: finding-data-in-google-sheets-gsp1063
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747554442715/d66d50ca-235e-45e7-9d16-6d07b37b7bb7.png
@@ -29,13 +29,13 @@ You may also find it helpful to complete the following lab: [Google Sheets: Gett
 
 ### **Objectives**
 
-* Manipulate data in Google Sheets using the SPLIT and TRANSPOSE functions.
+*   Manipulate data in Google Sheets using the SPLIT and TRANSPOSE functions.
     
-* Use the find and replace feature and the SUBSTITUTE function.
+*   Use the find and replace feature and the SUBSTITUTE function.
     
-* Use VLOOKUP and modify a QUERY statement.
+*   Use VLOOKUP and modify a QUERY statement.
     
-* Debug common Google Sheets function errors using IFERROR.
+*   Debug common Google Sheets function errors using IFERROR.
     
 
 ## **Setup and requirements**
@@ -50,11 +50,11 @@ This Google Workspace hands-on lab lets you do the lab activities yourself in a 
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
-* Time. Note the time at the top of the left panel, which is an estimate of how long it should take to complete all steps. Plan your schedule so you have time to complete the lab. Once you start the lab, you will not be able to pause and return later (you begin at step 1 every time you start a lab).
+*   Time. Note the time at the top of the left panel, which is an estimate of how long it should take to complete all steps. Plan your schedule so you have time to complete the lab. Once you start the lab, you will not be able to pause and return later (you begin at step 1 every time you start a lab).
     
-* You do NOT need a Google Workspace account. An account is provided to you as part of this lab.
+*   You do NOT need a Google Workspace account. An account is provided to you as part of this lab.
     
 
 Open an Incognito window to run this lab.
@@ -71,16 +71,16 @@ To access the resources and console for this lab, locate the **User Email** and 
 
 ### Sign in to Google Drive
 
-1. Click **Open Google Drive**.
+1.  Click **Open Google Drive**.
     
 
 ***Tip:*** Open the tabs in separate windows, side-by-side.
 
-2. Notice the **Email or phone** field has been pre-filled with the User Email. Click **Next**.
+2.  Notice the **Email or phone** field has been pre-filled with the User Email. Click **Next**.
     
-3. Enter the **Password** and click **Next**.
+3.  Enter the **Password** and click **Next**.
     
-4. Accept all terms and conditions as prompted.
+4.  Accept all terms and conditions as prompted.
     
 
 Google Drive opens and you are signed in to the Student Google Account.
@@ -91,41 +91,41 @@ In this task, you use the SPLIT and TRANSPOSE functions to help On the Rise Bake
 
 ### Use the SPLIT function
 
-1. To use the spreadsheet for this lab, go to [Google Drive](https://drive.google.com/), and then double-click to open the **On the Rise Bakery Bulk Orders** file that has been created for you.
+1.  To use the spreadsheet for this lab, go to [Google Drive](https://drive.google.com/), and then double-click to open the **On the Rise Bakery Bulk Orders** file that has been created for you.
     
-2. In cell B1 of the **Bulk Orders** sheet, paste or type **\=SPLIT(A1, ",")**
+2.  In cell B1 of the **Bulk Orders** sheet, paste or type **\=SPLIT(A1, ",")**
     
     The **Bulk Orders** sheet contains orders from customers as comma-separated values. Using the SPLIT function divides text around a specified character or string and puts each fragment into a separate cell in the row.
     
-3. To apply formula to the rest of the column, select cell B1, and then double-click the small blue box in the lower-right corner of the cell.
+3.  To apply formula to the rest of the column, select cell B1, and then double-click the small blue box in the lower-right corner of the cell.
     
     Alternatively, you can click the small blue box in the cell, and then drag your cursor down.
     
-4. Right-click the column A label, and then click **Hide column**.
+4.  Right-click the column A label, and then click **Hide column**.
     
-    You can also split clearly defined data, like text separated by commas, into several columns without using the *SPLIT* function. At the top, click **Data &gt; Split text to columns**.
+    You can also split clearly defined data, like text separated by commas, into several columns without using the *SPLIT* function. At the top, click **Data > Split text to columns**.
     
-5. To adjust the size of the column, hold your pointer over the dividing line between the column D label and column E label until a blue line appears, and then double-click.
+5.  To adjust the size of the column, hold your pointer over the dividing line between the column D label and column E label until a blue line appears, and then double-click.
     
     You can resize a column or row to ensure the full text is visible.
     
 
 ### Use the TRANSPOSE function
 
-1. At the bottom of the spreadsheet, click the sheet labeled **New Order** to view the record for a single customer.
+1.  At the bottom of the spreadsheet, click the sheet labeled **New Order** to view the record for a single customer.
     
     Notice that the data is arranged in a column, rather than a row.
     
-2. In cell A8, paste or type **\=TRANSPOSE(A1:A7)**  
+2.  In cell A8, paste or type **\=TRANSPOSE(A1:A7)**  
     The TRANSPOSE function reorganizes data so the positions of rows and columns are swapped.
     
-3. Copy cells A8:G8.
+3.  Copy cells A8:G8.
     
-4. Return to the **Bulk Orders** sheet, click on cell B101, and then paste the data.
+4.  Return to the **Bulk Orders** sheet, click on cell B101, and then paste the data.
     
     After you paste the data, a clipboard () should appear.
     
-5. Click the dropdown next to the clipboard, and select **Paste values only**.
+5.  Click the dropdown next to the clipboard, and select **Paste values only**.
     
     Paste values only pastes the data shown in the cells, not the underlying functions, or cell references.
     
@@ -144,20 +144,20 @@ In this task, you help the staff update its records using both the find and repl
 
 On the Rise Bakery staff members are adding new muffin flavors to the menu. All existing orders are for blueberry muffins. Help the staff update the **Bulk Orders** sheet to specify the muffin flavor.
 
-1. To open the search box, press Control+F on your keyboard (or Command+F if you're using a Mac computer).
+1.  To open the search box, press Control+F on your keyboard (or Command+F if you're using a Mac computer).
     
 
-**Note:** You can also use shortcuts for spreadsheets made by other companies in Google Sheets. At the top, click **Help &gt; Keyboard shortcuts &gt; Enable compatible spreadsheet shortcuts.**
+**Note:** You can also use shortcuts for spreadsheets made by other companies in Google Sheets. At the top, click **Help > Keyboard shortcuts > Enable compatible spreadsheet shortcuts.**
 
-2. Click **More options** (
+2.  Click **More options** (
     
     ![more-icon.png](https://cdn.qwiklabs.com/6fCnVqpTezjP0%2FGn%2FOs9w2Qk2SZkl7Ttq%2BOylHTZJnc%3D align="left")
     
     ).
     
-3. For **Find**, type **Muffin**, and for **Replace with**, type **Blueberry Muffin**.
+3.  For **Find**, type **Muffin**, and for **Replace with**, type **Blueberry Muffin**.
     
-4. For **Search**, select **This sheet**, click **Replace all**, and then click **Done**.
+4.  For **Search**, select **This sheet**, click **Replace all**, and then click **Done**.
     
 
 The find and replace feature is distinct from the [FIND](https://support.google.com/docs/answer/3094126) and [SEARCH](https://support.google.com/docs/answer/3094154) functions, which provide the position at which a string is first found within text.
@@ -166,13 +166,13 @@ The find and replace feature is distinct from the [FIND](https://support.google.
 
 On the Rise Bakery is closing early on the November 6th due to a bank holiday. All orders scheduled for that date must be rescheduled to the seventh.
 
-1. In cell I1, paste or type **Adjusted Delivery Date**
+1.  In cell I1, paste or type **Adjusted Delivery Date**
     
-2. In cell I2, paste or type **\=SUBSTITUTE(F2,"Nov-6","Nov-7")**
+2.  In cell I2, paste or type **\=SUBSTITUTE(F2,"Nov-6","Nov-7")**
     
     The **SUBSTITUTE** function searches for the specified text, which is in cell F2. If an exact match for **Nov-6** is found, the date changes to **Nov-7**. If a match is not found, the value of the corresponding cell from column F is displayed.
     
-3. Apply the formula to the remaining cells in column I.
+3.  Apply the formula to the remaining cells in column I.
     
 
 Click *Check my progress* to verify the objective.
@@ -189,9 +189,9 @@ The bakery staff must search the sheet to answer customer inquiries and complete
 
 A customer called On the Rise Bakery to confirm the expected delivery date. VLOOKUP can be used to search for related information in a row.
 
-1. In cell J2, paste or type **Georgia Nkosi**
+1.  In cell J2, paste or type **Georgia Nkosi**
     
-2. In cell K2, paste or type **\=VLOOKUP(J2, G2:I100, 3, False)**
+2.  In cell K2, paste or type **\=VLOOKUP(J2, G2:I100, 3, False)**
     
     The VLOOKUP function requires three parameters: the key to search by, the range to search, and the column number of the information being searched. The fourth, and optional parameter,
     
@@ -204,17 +204,17 @@ The column number is relative to the range provided. **Adjusted Delivery Date** 
 
 On the Rise Bakery wants to email a discount code for a future purchase to all customers who spent at least $500. In this task, you get a list of email addresses.
 
-1. In the lower-left of your spreadsheet, click **Add Sheet** (+) to add another sheet.
+1.  In the lower-left of your spreadsheet, click **Add Sheet** (+) to add another sheet.
     
-2. Right-click the new sheet name, click Rename, and type **Discount**
+2.  Right-click the new sheet name, click Rename, and type **Discount**
     
-3. In cell A1 of the **Discount** sheet, paste or type `=QUERY('Bulk Orders'!$B$2:$I$100, "select H where E > 500")`
+3.  In cell A1 of the **Discount** sheet, paste or type `=QUERY('Bulk Orders'!$B$2:$I$100, "select H where E > 500")`
     
     The QUERY function uses the Google Visualization API Query Language and requires both a range and the search criteria.
     
     When referencing data contained in a different sheet, include the name of the source sheet, followed by an exclamation mark. If a sheet name contains spaces or other non-alphanumeric symbols, include single quotes around it (as shown in the provided query statement).
     
-4. (Optional) Modify the query statement to only retrieve email addresses if the customer spent more than $750.
+4.  (Optional) Modify the query statement to only retrieve email addresses if the customer spent more than $750.
     
 
 Click *Check my progress* to verify the objective.
@@ -229,21 +229,21 @@ You used VLOOKUP to successfully retrieve information about an order in task thr
 
 ### Debug errors in Sheets
 
-1. In cell J3 of the **Bulk Orders** sheet, type the name **Alexander Jorgenson**
+1.  In cell J3 of the **Bulk Orders** sheet, type the name **Alexander Jorgenson**
     
-2. In cell K3, paste or type **\=VLOOKUP(J3, B2:I100)**
+2.  In cell K3, paste or type **\=VLOOKUP(J3, B2:I100)**
     
     The text in the cell should show #N/A and a red error flag should appear in the upper-right corner of the cell.
     
-3. Hold your pointer over the red error flag to see the error message.
+3.  Hold your pointer over the red error flag to see the error message.
     
     The formula in cell K3 results in an error because it uses fewer arguments, or inputs, than required.
     
-4. In cell K3, paste or type **\=VLOOKUP(J3, B2:I100, 8)**
+4.  In cell K3, paste or type **\=VLOOKUP(J3, B2:I100, 8)**
     
     This updated formula includes three arguments, the last of which is the column number of the data that must be retrieved.
     
-5. Hold your pointer over the red error flag again.
+5.  Hold your pointer over the red error flag again.
     
     An updated error message should appear.
     
@@ -256,11 +256,11 @@ When you use functions and formulas in Sheets, many errors can occur. When you e
 
 ### Handle errors with IFERROR
 
-1. In cell K4, paste or type **\=ISERROR(K3)**
+1.  In cell K4, paste or type **\=ISERROR(K3)**
     
     The **ISERROR** function checks whether the provided value is an error.
     
-2. In cell K3, paste or type to **\=IFERROR(VLOOKUP(J3, B3:I100, 8), "Record not found")**
+2.  In cell K3, paste or type to **\=IFERROR(VLOOKUP(J3, B3:I100, 8), "Record not found")**
     
     Notice that the red error flag does not appear in the cell. Also, observe how the values of cells K3 and K4 have changed.
     
@@ -271,15 +271,17 @@ Click *Check my progress* to verify the objective.
 
 Use IFERROR and ISERROR.
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=Eqj1mlLsa7c] 
-
 ### Quick
 
-<mark>Download file:</mark> [GSP1063xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1063/techcpsgsp1063.xlsx)
+<iframe type="youtube" src="https://www.youtube.com/watch?v=vxbkyqTjXiI" data-node-type="hn-embed"></iframe>
+
+<mark class="bg-yellow-200 dark:bg-yellow-500/30">Download file:</mark> [GSP1063xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1063/techcpsgsp1063.xlsx)
+
+<mark class="bg-yellow-200 dark:bg-yellow-500/30">Open:</mark> [https://drive.google.com/drive/home](https://drive.google.com/drive/home)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756622585522/b77cbb17-6beb-4ec9-9f29-71a8ab454d01.png align="center")
 
@@ -293,7 +295,7 @@ Use IFERROR and ISERROR.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724825729759/de77cee0-ad33-431e-873c-6c436a979beb.png align="center")
 
----
+* * *
 
 ### Manual
 
