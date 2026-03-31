@@ -2,7 +2,7 @@
 title: "Programming Assignment: Mapping key-values to Dictionary data structures - Module 3"
 seoTitle: "Programming Assignment: Mapping key-values to Dictionary data structur"
 seoDescription: "So far you have learned that Python has different techniques to modify a given iterator sequence such as list or dictionary using comprehensions, map() func"
-datePublished: Fri Nov 08 2024 07:50:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-08T07:50:58.407Z
 cuid: cm38ftizr000009jo0pty024p
 slug: programming-assignment-mapping-key-values-to-dictionary-data-structures-module-3
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731052226668/7ca22e97-c906-436b-86f3-801ab5847c72.png
