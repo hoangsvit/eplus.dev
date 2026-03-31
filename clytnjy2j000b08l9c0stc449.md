@@ -2,7 +2,7 @@
 title: "Module quiz: Programming Paradigms in Javascript"
 seoTitle: "Module quiz: Programming Paradigms in Javascript"
 seoDescription: "Module quiz: Programming Paradigms in Javascript"
-datePublished: Sat Jul 20 2024 04:52:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-20T04:52:06.332Z
 cuid: clytnjy2j000b08l9c0stc449
 slug: module-quiz-programming-paradigms-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721451089669/450af7af-31cd-4fb1-8a80-38ea1ebfa095.png
