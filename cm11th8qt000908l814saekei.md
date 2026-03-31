@@ -2,7 +2,7 @@
 title: "Cách mình kiếm Dollar đầu tiên bằng Lemon Squeezy"
 seoTitle: "Cách mình kiếm Dollar đầu tiên bằng Lemon Squeezy"
 seoDescription: "Trước đây mình có làm ra vài cái app và không biết làm sao để mà có thể quản lý việc thanh toán cho app. Qua một thời gian tìm hiểu và sử dụng rất nhiều dịc"
-datePublished: Sat Sep 14 2024 07:19:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-14T07:19:31.973Z
 cuid: cm11th8qt000908l814saekei
 slug: cach-minh-kiem-dollar-dau-tien-bang-lemon-squeezy
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726298337790/86e53937-2e67-4cc9-9eeb-4d0aa5c3ad03.jpeg
