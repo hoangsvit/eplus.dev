@@ -2,7 +2,7 @@
 title: "Using the Natural Language API from Google Docs - GSP126"
 seoTitle: "Using the Natural Language API from Google Docs - GSP126"
 seoDescription: "The Natural Language API is a pretrained machine learning model that can analyze syntax, extract entities, and evaluate the sentiment of text. You can call "
-datePublished: Tue May 20 2025 10:34:32 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-20T10:34:32.328Z
 cuid: cmawdna4o000p08lb5mma1dke
 slug: using-the-natural-language-api-from-google-docs-gsp126-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747737204292/7ff75294-e8aa-47c6-a342-e24476a1a506.png
