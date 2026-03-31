@@ -2,7 +2,7 @@
 title: "Báo Cáo Lương IT 2024-2025 (IT Salary Report For 2024-2025)"
 seoTitle: "Báo Cáo Lương IT 2024-2025 (IT Salary Report For 2024-2025)"
 seoDescription: "Khảo sát được thực hiện trực tuyến từ ngày 10/09/2024 đến ngày 10/10/2024, với trung bình mỗi người tham gia dành khoảng 15-20 phút để hoàn thành. Những điể"
-datePublished: Sat Dec 28 2024 06:00:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-28T06:00:43.579Z
 cuid: cm57rwcaj000009mb0zrl9wn4
 slug: bao-cao-luong-it-2024-2025-it-salary-report-for-2024-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735365568598/86b4869f-6a03-4ff7-a730-fa73b7cc482d.png
