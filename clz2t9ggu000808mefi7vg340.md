@@ -2,7 +2,7 @@
 title: "Getting Started with API Gateway: Challenge Lab - ARC109"
 seoTitle: "Getting Started with API Gateway: Challenge Lab - ARC109"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Fri Jul 26 2024 14:41:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-26T14:41:50.239Z
 cuid: clz2t9ggu000808mefi7vg340
 slug: getting-started-with-api-gateway-challenge-lab-arc109
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755497648414/1e89f9eb-05de-4343-8156-bdc0bd4c6b25.png
