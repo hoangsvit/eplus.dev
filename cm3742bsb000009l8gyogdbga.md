@@ -2,7 +2,7 @@
 title: "BigLake: Qwik Start - GSP1040"
 seoTitle: "BigLake: Qwik Start - GSP1040"
 seoDescription: "BigLake is a unified storage engine that simplifies data access for data warehouses and lakes by providing uniform fine-grained access control across multi-"
-datePublished: Thu Nov 07 2024 09:34:07 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-07T09:34:07.403Z
 cuid: cm3742bsb000009l8gyogdbga
 slug: biglake-qwik-start-gsp1040
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756631737065/e6003f75-9b8d-4392-addf-84c0fc576c95.png
