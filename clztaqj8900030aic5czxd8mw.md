@@ -2,7 +2,7 @@
 title: "Developing and Deploying Cloud Functions"
 seoTitle: "Developing and Deploying Cloud Functions"
 seoDescription: "Cloud Functions (2nd gen) is the next version of Google Cloud Functions, Google Cloud's Functions-as-a-Service offering. This new version comes with an adva"
-datePublished: Wed Aug 14 2024 03:33:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-14T03:33:01.017Z
 cuid: clztaqj8900030aic5czxd8mw
 slug: developing-and-deploying-cloud-functions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723605958529/cf486c3d-98a3-4c4d-a0d1-6dbd8738f6d9.png
