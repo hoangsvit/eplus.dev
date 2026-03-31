@@ -2,7 +2,7 @@
 title: "mini lab : Cloud Storage : 2 (Solution)"
 seoTitle: "mini lab : Cloud Storage : 2 (Solution)"
 seoDescription: "Implement a cloud storage lifecycle policy to optimize costs by aligning storage classes with file access patterns"
-datePublished: Sat Oct 04 2025 05:30:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-04T05:30:38.627Z
 cuid: cmgbu468z000002ld32raahg9
 slug: mini-lab-cloud-storage-2-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759555695353/b1fff028-1f6a-4553-81c0-f9921d5749e1.png
