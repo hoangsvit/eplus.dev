@@ -2,7 +2,7 @@
 title: "Free Swags For Developers"
 seoTitle: "Free Swags For Developers"
 seoDescription: "Welcome to our collection of open source projects that offer swag 👕🧢 rewards to their contributors! We all love contributing to open source projects, but"
-datePublished: Mon Apr 01 2024 02:01:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-04-01T02:01:10.062Z
 cuid: clugb0ey6000008lh0tpedpvq
 slug: free-swags-for-developers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711936955634/2d92e94b-4d27-4e44-acf1-6f42fb7d05ca.jpeg
