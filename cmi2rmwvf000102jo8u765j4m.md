@@ -2,7 +2,7 @@
 title: "Terraform Essentials: Google Compute Engine Instance - gem-terraform-gce-create"
 seoTitle: "Terraform Essentials: Google Compute Engine Instance - gem-terraform-g"
 seoDescription: "Learn how to create a Google Compute Engine instance using Terraform with Cloud Shell and manage infrastructure efficiently"
-datePublished: Mon Nov 17 2025 06:30:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-11-17T06:30:43.179Z
 cuid: cmi2rmwvf000102jo8u765j4m
 slug: terraform-essentials-google-compute-engine-instance-gem-terraform-gce-create-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763360821268/1d89bde9-f7bc-49a7-999e-71ee7e345c71.png
