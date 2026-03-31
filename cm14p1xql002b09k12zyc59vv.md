@@ -2,7 +2,7 @@
 title: "Self-review: Build a Radio Group Component - Advanced React"
 seoTitle: "Self-review: Build a Radio Group Component - Advanced React"
 seoDescription: "Self-review: Build a Radio Group Component - Advanced React"
-datePublished: Mon Sep 16 2024 07:38:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-16T07:38:57.933Z
 cuid: cm14p1xql002b09k12zyc59vv
 slug: self-review-build-a-radio-group-component-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726472306885/0ab1759d-48c4-4299-ae98-d62f8377330c.jpeg
