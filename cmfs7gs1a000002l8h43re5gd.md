@@ -2,7 +2,7 @@
 title: "Using Specialized Processors with Document AI (Python) - GSP1140"
 seoTitle: "Using Specialized Processors with Document AI (Python) - GSP1140"
 seoDescription: "Learn how to use Google Cloud's Document AI Specialized Processors to classify and parse specialized documents using Python in this hands-on lab"
-datePublished: Sat Sep 20 2025 11:48:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-20T11:48:58.222Z
 cuid: cmfs7gs1a000002l8h43re5gd
 slug: using-specialized-processors-with-document-ai-python-gsp1140
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758368719211/b08fe9fb-75b3-4a0a-a1a1-d1b76d995f52.png
