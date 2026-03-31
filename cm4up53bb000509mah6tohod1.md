@@ -2,7 +2,7 @@
 title: "GitHub Copilot Đã Có Gói Miễn Phí: Cách Bắt Đầu"
 seoTitle: "GitHub Copilot Đã Có Gói Miễn Phí: Cách Bắt Đầu"
 seoDescription: "Bạn đã có quyền truy cập miễn phí vào GitHub Copilot trên VS Code và github.com như một phần của tài khoản GitHub của bạn—bao gồm cả hỗ trợ cho các mô hình "
-datePublished: Thu Dec 19 2024 02:22:32 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-19T02:22:32.711Z
 cuid: cm4up53bb000509mah6tohod1
 slug: github-copilot-da-co-goi-mien-phi-cach-bat-dau
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734574907039/ab544144-4a88-4f76-a36a-9d1fa175e267.png
