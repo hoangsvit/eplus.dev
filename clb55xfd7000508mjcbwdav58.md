@@ -2,7 +2,7 @@
 title: "Creating a Password Generator"
 seoTitle: "Creating a Password Generator"
 seoDescription: "Password generation is something we all think about doing at some point, but how can we go about doing it - and making these passwords easy to remember and"
-datePublished: Thu Dec 01 2022 14:19:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-12-01T14:19:00.236Z
 cuid: clb55xfd7000508mjcbwdav58
 slug: creating-a-password-generator
 canonical: https://laravel-news.com/creating-a-password-generator
