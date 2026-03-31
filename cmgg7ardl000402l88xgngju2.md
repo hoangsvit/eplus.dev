@@ -2,7 +2,7 @@
 title: "Arcade Chatbot: Interactive Film-bot - arc107-genai"
 seoTitle: "Arcade Chatbot: Interactive Film-bot - arc107-genai"
 seoDescription: "Learn prompt engineering and explore Generative AI using an AI chatbot focused on Academy Award winners in this interactive lab"
-datePublished: Tue Oct 07 2025 06:50:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-07T06:50:45.657Z
 cuid: cmgg7ardl000402l88xgngju2
 slug: arcade-chatbot-interactive-film-bot-arc107-genai
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759819795459/9291f2c7-b2c4-40ea-a01c-e9575418f890.png
