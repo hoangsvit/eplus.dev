@@ -2,7 +2,7 @@
 title: "Cloud Filestore: Qwik Start - GSP244"
 seoTitle: "Cloud Filestore: Qwik Start - GSP244"
 seoDescription: "Cloud Filestore is a managed file storage service for applications that require a file system interface and a shared filesystem for data. Filestore gives us"
-datePublished: Wed Apr 16 2025 04:12:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-16T04:12:47.333Z
 cuid: cm9jf1dut000509ld20apa7fj
 slug: cloud-filestore-qwik-start-gsp244
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744776564178/de59a365-8821-4612-9835-5dfd55ec6cc2.png
