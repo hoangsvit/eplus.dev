@@ -2,7 +2,7 @@
 title: "SHARE SCRIPT Kích Hoạt IDM Cực Sạch Không Lo Virus"
 seoTitle: "SHARE SCRIPT Kích Hoạt IDM Cực Sạch Không Lo Virus"
 seoDescription: "SHARE SCRIPT Kích Hoạt IDM Cực Sạch Không Lo Virus"
-datePublished: Thu Oct 27 2022 02:18:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-10-27T02:18:39.347Z
 cuid: cl9qfs8kz000709l5fwzl8sdk
 slug: share-script-kich-hoat-idm-cuc-sach-khong-lo-virus
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1666836742052/cVeLjhEuj.jpg
