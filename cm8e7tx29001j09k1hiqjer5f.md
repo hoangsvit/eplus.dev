@@ -2,7 +2,7 @@
 title: "Configuring GKE-Native Monitoring and Logging (Solution)"
 seoTitle: "Configuring GKE-Native Monitoring and Logging (Solution)"
 seoDescription: "In this lab, you build a GKE cluster and then deploy pods for use with Kubernetes Engine Monitoring. You will create charts and a custom dashboard, work wit"
-datePublished: Tue Mar 18 2025 08:12:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-18T08:12:28.449Z
 cuid: cm8e7tx29001j09k1hiqjer5f
 slug: configuring-gke-native-monitoring-and-logging-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742285349968/10943f0c-c90a-4584-8331-5e86d8dce68a.png
