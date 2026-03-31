@@ -2,7 +2,7 @@
 title: "OpnForm is an Open-source Form Builder Made With Laravel"
 seoTitle: "OpnForm is an Open-source Form Builder Made With Laravel"
 seoDescription: "OpenForm is an open-source form builder made with Laravel, Vue.js, Tailwind CSS, and more."
-datePublished: Wed Jan 04 2023 02:00:32 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-01-04T02:00:32.418Z
 cuid: clch0ipwi000208l3diz0dkez
 slug: opnform-is-an-open-source-form-builder-made-with-laravel
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1672797381827/1dbebe21-e7b3-46e9-b1af-4b924d92dcf0.png
