@@ -2,7 +2,7 @@
 title: "Working with Markdown in PHP"
 seoTitle: "Working with Markdown in PHP"
 seoDescription: "Markdown is a markup language that is quite useful for web developers. It can be used for writing technical documentation, blogs, books, and even writing co"
-datePublished: Sat Aug 05 2023 16:55:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-08-05T16:55:16.738Z
 cuid: clky99szm000009lfbly4e052
 slug: working-with-markdown-in-php
 canonical: https://ashallendesign.co.uk/blog/working-with-markdown-in-php
