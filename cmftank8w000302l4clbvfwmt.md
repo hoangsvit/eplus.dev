@@ -2,7 +2,7 @@
 title: "Custom Document Extraction with Document AI Workbench - GSP1142"
 seoTitle: "Custom Document Extraction with Document AI Workbench - GSP1142"
 seoDescription: "Learn how to create Custom Document Extractors in Document AI Workbench to efficiently process and analyze W-2 tax documents using customized models"
-datePublished: Sun Sep 21 2025 06:05:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-21T06:05:59.744Z
 cuid: cmftank8w000302l4clbvfwmt
 slug: custom-document-extraction-with-document-ai-workbench-gsp1142
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758423216460/e0a08678-0e29-4c38-b6b4-73104f3cb1c7.png
