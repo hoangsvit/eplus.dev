@@ -2,7 +2,7 @@
 title: "Cách Sử Dụng Gmail SMTP với Cloudflare Email Routing: Hướng Dẫn Từng Bước"
 seoTitle: "Cách Sử Dụng Gmail SMTP với Cloudflare Email Routing: Hướng Dẫn Từng B"
 seoDescription: "Tìm hiểu cách gửi email qua Gmail SMTP kết hợp với Cloudflare Email Routing trong hướng dẫn chi tiết này."
-datePublished: Fri Oct 25 2024 03:48:51 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-25T03:48:51.255Z
 cuid: cm2o708fq000509jocpfofg88
 slug: cach-su-dung-gmail-smtp-voi-cloudflare-email-routing-huong-dan-tung-buoc
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729828063993/d96ac354-7ccb-4477-9a44-7e8e6a8d4fc4.png
