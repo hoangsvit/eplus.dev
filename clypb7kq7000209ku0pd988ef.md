@@ -2,7 +2,7 @@
 title: "Knowledge check: Welcome to Programming with JavaScript"
 seoTitle: "Knowledge check: Welcome to Programming with JavaScript"
 seoDescription: "Knowledge check: Welcome to Programming with JavaScript"
-datePublished: Wed Jul 17 2024 03:55:29 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-17T03:55:29.071Z
 cuid: clypb7kq7000209ku0pd988ef
 slug: knowledge-check-welcome-to-programming-with-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721188435666/59b15241-b705-4ee5-a573-e46e8692695b.png
