@@ -2,7 +2,7 @@
 title: "Set Up an App Dev Environment on Google Cloud: Challenge Lab - GSP315"
 seoTitle: "Set Up an App Dev Environment on Google Cloud: Challenge Lab - GSP315"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Thu Aug 08 2024 02:51:52 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-08T02:51:52.861Z
 cuid: clzkomisd00050akx6rp1g26j
 slug: set-up-an-app-dev-environment-on-google-cloud-challenge-lab-gsp315
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757142486531/7651272f-2bf6-4c62-a70c-6dabc5248957.png
