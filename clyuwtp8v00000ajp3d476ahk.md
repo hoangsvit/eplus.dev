@@ -2,7 +2,7 @@
 title: "Self review: Make and change directories and files"
 seoTitle: "Self review: Make and change directories and files"
 seoDescription: "Self review: Make and change directories and files"
-datePublished: Sun Jul 21 2024 01:59:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T01:59:24.175Z
 cuid: clyuwtp8v00000ajp3d476ahk
 slug: self-review-make-and-change-directories-and-files
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721527132066/c2701b6e-6bea-45a6-82ee-e531a52bdad0.png
