@@ -1,6 +1,6 @@
 ---
 title: "Tutorial Use Instagram Basic Display API with Javascript"
-datePublished: Sat Sep 05 2020 10:14:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2020-09-05T10:14:31.000Z
 cuid: ckgvs5l0801wsbxs168i1f0b9
 slug: tutorial-use-instagram-basic-display-api-with-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1604033537773/Z3ZE1Fr4P.jpeg
