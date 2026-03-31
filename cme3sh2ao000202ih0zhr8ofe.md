@@ -2,7 +2,7 @@
 title: "Optical Character Recognition (OCR) with Document AI (Python) - GSP1138"
 seoTitle: "Optical Character Recognition (OCR) with Document AI (Python) - GSP113"
 seoDescription: "Learn how to perform Optical Character Recognition on PDF documents using Google Document AI and Python with online and batch processing techniques"
-datePublished: Sat Aug 09 2025 05:03:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-09T05:03:06.720Z
 cuid: cme3sh2ao000202ih0zhr8ofe
 slug: optical-character-recognition-ocr-with-document-ai-python-gsp1138
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754715648871/39f1992b-ff31-4def-97b6-1a3b20aed7fe.png
