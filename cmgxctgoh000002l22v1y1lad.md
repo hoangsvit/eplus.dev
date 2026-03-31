@@ -2,7 +2,7 @@
 title: "Arcade Hero: Enter the Cloud Run functions Python - ARC235"
 seoTitle: "Arcade Hero: Enter the Cloud Run functions Python - ARC235"
 seoDescription: "Learn Cloud Run functions basics with this Google Cloud lab. Discover use cases and implementation steps through hands-on practice"
-datePublished: Sun Oct 19 2025 06:57:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-19T06:57:21.330Z
 cuid: cmgxctgoh000002l22v1y1lad
 slug: arcade-hero-enter-the-cloud-run-functions-python-arc235
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760856558984/5b372d0d-7fd2-4910-99e9-1e2dd1a4b776.png
