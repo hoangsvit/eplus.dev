@@ -4,7 +4,7 @@ seoTitle: "Arcade Quiz: Cloud Architect Challenge - osl-arc-0004"
 seoDescription: "Welcome to the Arcade Quiz. Here we bring you a dose of knowledge on random topics.
 
 Are you ready to rise to the top? The Arcade Quiz is your opportunity t"
-datePublished: Sun Apr 13 2025 10:01:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-13T10:01:06.671Z
 cuid: cm9fh5rvz000s09jpcrbp62a1
 slug: arcade-quiz-cloud-architect-challenge-osl-arc-0004
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744538416980/e9b3b736-ccb0-49ad-8b81-c1a91483b63f.png
