@@ -4,7 +4,7 @@ seoTitle: "Arcade Quiz: Digital Leader Challenge - osl-arc-0002"
 seoDescription: "Welcome to the Arcade Quiz. Here we bring you a dose of knowledge on random topics.
 
 Are you ready to rise to the top? The Arcade Quiz is your opportunity t"
-datePublished: Sun Apr 13 2025 09:48:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-13T09:48:49.871Z
 cuid: cm9fgpzdb001w09l4go8odnxp
 slug: arcade-quiz-digital-leader-challenge-osl-arc-0002
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744537695936/56cb0ed4-cc00-4659-baec-a4c7305033ce.png
