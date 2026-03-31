@@ -2,7 +2,7 @@
 title: "Google Skills Arcade Trivia December 2025 Week 1 (Solution)"
 seoTitle: "Google Skills Arcade Trivia December 2025 Week 1 (Solution)"
 seoDescription: "Welcome to Google Skills Arcade Trivia December 2025! Give your career a boost with hands-on experience with different Google Cloud and partner services."
-datePublished: Mon Dec 15 2025 02:30:14 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-12-15T02:30:14.568Z
 cuid: cmj6jdico000802kv18j64p4j
 slug: google-skills-arcade-trivia-december-2025-week-1-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765765722345/553848c2-efc4-457c-9e43-cdf933655f04.png
