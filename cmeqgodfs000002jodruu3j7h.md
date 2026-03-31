@@ -2,7 +2,7 @@
 title: "Terraform Essentials: Google Cloud Storage Bucket - gem-terraform-gcs-create"
 seoTitle: "Terraform Essentials: Google Cloud Storage Bucket - gem-terraform-gcs-"
 seoDescription: "Learn to create a Google Cloud Storage bucket using Terraform with this step-by-step guide on configuration, initialization, and verification"
-datePublished: Mon Aug 25 2025 01:51:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-25T01:51:34.408Z
 cuid: cmeqgodfs000002jodruu3j7h
 slug: terraform-essentials-google-cloud-storage-bucket-gem-terraform-gcs-create
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756086635837/d218c525-5137-4a5e-9f06-6c49cd424e04.png
