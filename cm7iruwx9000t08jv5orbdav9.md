@@ -6,7 +6,7 @@ seoDescription: "Labs are timed and cannot be paused. The timer starts when you 
 The included cloud terminal is preconfigured with the gcloud SDK.
 
 Use the "
-datePublished: Mon Feb 24 2025 08:04:29 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-24T08:04:29.613Z
 cuid: cm7iruwx9000t08jv5orbdav9
 slug: mini-lab-bigquery-4-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740384233748/bf93b7a5-30d7-494a-9dbe-552257982094.png
