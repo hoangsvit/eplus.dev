@@ -2,7 +2,7 @@
 title: "Create ML Models with BigQuery ML: Challenge Lab - GSP341"
 seoTitle: "Create ML Models with BigQuery ML: Challenge Lab - GSP341"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Fri Aug 16 2024 06:59:17 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-16T06:59:17.732Z
 cuid: clzwczihw00160ajn9pht4i89
 slug: create-ml-models-with-bigquery-ml-challenge-lab-gsp341
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723790933613/dd73ea7e-0e33-4cf7-aaad-c234742e7033.png
