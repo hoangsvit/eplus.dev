@@ -2,7 +2,7 @@
 title: "Creating a Containerized Application with Buildpacks"
 seoTitle: "Creating a Containerized Application with Buildpacks"
 seoDescription: "Buildpacks are another approach for building container images and provide an alternate approach to turn your source code into a container image. Buildpacks"
-datePublished: Thu Aug 15 2024 07:16:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-15T07:16:00.945Z
 cuid: clzuy55wx000309ldagdn8wmk
 slug: creating-a-containerized-application-with-buildpacks
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723701833961/8aed6a04-dd52-4e9e-88a8-16ed9a6dd7f8.png
