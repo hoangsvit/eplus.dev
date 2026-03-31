@@ -2,7 +2,7 @@
 title: "Creating Date-Partitioned Tables in BigQuery - GSP414"
 seoTitle: "Creating Date-Partitioned Tables in BigQuery - GSP414"
 seoDescription: "BigQuery is Google's fully managed, NoOps, low cost analytics database. With BigQuery you can query terabytes and terabytes of data without having any infra"
-datePublished: Mon Aug 19 2024 04:02:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-19T04:02:45.283Z
 cuid: cm00h01b7000i0amh65znci4a
 slug: creating-date-partitioned-tables-in-bigquery-gsp414
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724039956965/fabf5af0-e3cb-4f70-904b-d0fc4e5f6b27.png
