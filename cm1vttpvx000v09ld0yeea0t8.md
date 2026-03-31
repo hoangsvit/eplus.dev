@@ -2,7 +2,7 @@
 title: "Knowledge check: Adding components"
 seoTitle: "Knowledge check: Adding components"
 seoDescription: "Knowledge check: Adding components"
-datePublished: Sat Oct 05 2024 07:22:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-05T07:22:19.342Z
 cuid: cm1vttpvx000v09ld0yeea0t8
 slug: knowledge-check-adding-components
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728112265946/aca413ad-74c5-4370-a801-e6b3bf52aebc.png
