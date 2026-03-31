@@ -3,7 +3,7 @@ title: "Tip: Tạo phím tắt "Tra cứu phạt nguội" trên Iphone"
 seoDescription: "Giao diện: Đơn giản, thân thiện, dễ sử dụng
 Mục đích: Chủ động tra cứu, xem lại khi có nhu cầu.
 Nói không với quảng cáo, spam, thu thập thông tin."
-datePublished: Mon Oct 30 2023 13:33:46 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-10-30T13:33:46.759Z
 cuid: clocxxxmv000209kv0amb09b6
 slug: tip-tao-phim-tat-tra-cuu-phat-nguoi-tren-iphone
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698672755454/8a60e116-00ad-4ee8-8c89-ff31433819c1.png
