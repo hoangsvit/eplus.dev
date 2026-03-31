@@ -2,7 +2,7 @@
 title: "Laravel Herd for Windows launches in March '24"
 seoTitle: "Laravel Herd for Windows launches in March '24"
 seoDescription: "Herd is a dedicated Laravel and PHP development environment tailored for macOS users, designed to enhance speed and streamline the development process."
-datePublished: Tue Feb 06 2024 01:37:40 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-02-06T01:37:40.034Z
 cuid: cls9oycaq000109l7d69lgpd7
 slug: laravel-herd-for-windows-launches-in-march-24
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1707183213231/1198e238-a5f2-4510-b03d-a375ecef6100.png
