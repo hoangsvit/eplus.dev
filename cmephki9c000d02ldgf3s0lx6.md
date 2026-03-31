@@ -2,7 +2,7 @@
 title: "Media CDN: Qwik Start - GSP1044"
 seoTitle: "Media CDN: Qwik Start - GSP1044"
 seoDescription: "Learn to set up Google Cloud Media CDN for efficient content delivery with edge cache, bucket creation, and origin configuration hands-on"
-datePublished: Sun Aug 24 2025 09:28:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-24T09:28:47.472Z
 cuid: cmephki9c000d02ldgf3s0lx6
 slug: media-cdn-qwik-start-gsp1044
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756027293567/95ff2a66-118d-4003-9bf9-b658182c4e8b.png
