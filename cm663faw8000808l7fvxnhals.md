@@ -2,7 +2,7 @@
 title: "Prepare Data for ML APIs on Google Cloud: Challenge Lab - GSP323"
 seoTitle: "Prepare Data for ML APIs on Google Cloud: Challenge Lab - GSP323"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Tue Jan 21 2025 06:27:33 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-21T06:27:33.992Z
 cuid: cm663faw8000808l7fvxnhals
 slug: prepare-data-for-ml-apis-on-google-cloud-challenge-lab-gsp323
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737439848316/024e96cb-ba4e-44d7-9553-5b3389c1a7dd.png
