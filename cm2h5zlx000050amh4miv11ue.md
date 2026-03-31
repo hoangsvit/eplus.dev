@@ -2,7 +2,7 @@
 title: "Test your knowledge: Evaluating stakeholders"
 seoTitle: "Test your knowledge: Evaluating stakeholders"
 seoDescription: "Test your knowledge: Evaluating stakeholders"
-datePublished: Sun Oct 20 2024 05:45:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-20T05:45:59.220Z
 cuid: cm2h5zlx000050amh4miv11ue
 slug: test-your-knowledge-evaluating-stakeholders
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729403127527/a9f26287-e5fe-47fd-8cbc-6f8a46148b88.png
