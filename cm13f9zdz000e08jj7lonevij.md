@@ -2,7 +2,7 @@
 title: "Chronicle SIEM: Multi Event Rules - GSP1099"
 seoTitle: "Chronicle SIEM: Multi Event Rules - GSP1099"
 seoDescription: "Chronicle Security Operations empowers cloud-first, modern SecOps teams to protect their organizations confidently, with cloud-native architecture, petabyte"
-datePublished: Sun Sep 15 2024 10:17:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-15T10:17:30.983Z
 cuid: cm13f9zdz000e08jj7lonevij
 slug: chronicle-siem-multi-event-rules-gsp1099
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726395118062/18408dda-dda5-4ca5-8f28-15648cd8440c.jpeg
