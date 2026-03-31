@@ -2,7 +2,7 @@
 title: "Creating dynamic SQL derived tables with LookML and Liquid - GSP932"
 seoTitle: "Creating dynamic SQL derived tables with LookML and Liquid - GSP932"
 seoDescription: "Looker is a modern data platform in Google Cloud that lets you analyze and visualize your data interactively. You can use Looker to do in-depth data analysi"
-datePublished: Thu Jun 05 2025 02:40:07 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-05T02:40:07.969Z
 cuid: cmbirqtk1000z09l7d6tbdcc5
 slug: creating-dynamic-sql-derived-tables-with-lookml-and-liquid-gsp932
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749090854455/66441bbb-f901-4c59-9fc2-7feefa8ff84f.png
