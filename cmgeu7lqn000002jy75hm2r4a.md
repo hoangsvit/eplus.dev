@@ -2,7 +2,7 @@
 title: "Explore Generative AI with the Gemini API in Vertex AI: Challenge Lab - GSP515"
 seoTitle: "Explore Generative AI with the Gemini API in Vertex AI: Challenge Lab "
 seoDescription: "Challenge your Google Cloud skills by leveraging Gemini API in Vertex AI for text generation, function calls, and video content description"
-datePublished: Mon Oct 06 2025 07:56:37 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-06T07:56:37.199Z
 cuid: cmgeu7lqn000002jy75hm2r4a
 slug: explore-generative-ai-with-the-gemini-api-in-vertex-ai-challenge-lab-gsp515
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759736004319/83e68110-570a-44ad-b1f4-fa25fcf42064.png
