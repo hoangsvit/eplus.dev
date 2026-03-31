@@ -2,7 +2,7 @@
 title: "Interact with Terraform Modules - GSP751"
 seoTitle: "Interact with Terraform Modules - GSP751"
 seoDescription: "As you manage your infrastructure with Terraform, increasingly complex configurations will b"
-datePublished: Tue Aug 13 2024 03:00:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-13T03:00:15.278Z
 cuid: clzru4jse000209mp0p5a0hzd
 slug: interact-with-terraform-modules-gsp751
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749806183105/65ad3c8c-f0ef-411b-8ec3-70bb1d4ef842.png
