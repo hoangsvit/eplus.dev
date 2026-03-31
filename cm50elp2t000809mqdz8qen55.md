@@ -2,7 +2,7 @@
 title: "Redacting Sensitive Data with the DLP API (Solution)"
 seoTitle: "Redacting Sensitive Data with the DLP API (Solution)"
 seoDescription: "In this lab, you will set up the Cloud Data Loss Prevention API (DLP API) and use the API to inspect a string of data for sensitive information. The DLP API"
-datePublished: Mon Dec 23 2024 02:14:08 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-23T02:14:08.694Z
 cuid: cm50elp2t000809mqdz8qen55
 slug: redacting-sensitive-data-with-the-dlp-api-solution-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735999702044/b7f60ce9-03bf-442d-a6aa-f7b2f3cec12a.png
