@@ -2,7 +2,7 @@
 title: "Working with Cloud Build (Solution)"
 seoTitle: "Working with Cloud Build (Solution)"
 seoDescription: "In this lab you will build a Docker container image from provided code and a Dockerfile using Cloud Build. You will then upload the container to the Artifac"
-datePublished: Sat Feb 22 2025 06:11:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-22T06:11:02.122Z
 cuid: cm7fsxawa000408l5f2hi8y8i
 slug: working-with-cloud-build-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740204617954/d2abef6c-109b-4813-9f3f-0e265e4a33b8.png
