@@ -3,7 +3,7 @@ title: "Viettel miễn phí 1 tháng DATA 5G"
 seoTitle: "Viettel miễn phí 1 tháng DATA 5G"
 seoDescription: "Soạn tin: 5GKM gửi 191 (miễn phí)
 Quy khach da dang ky thanh cong goi trai nghiem 5G sieu toc do (5GKM): MIEN PHI truy cap data tren ha tang 5G."
-datePublished: Thu Jan 25 2024 10:20:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-01-25T10:20:28.705Z
 cuid: clrt2cgip00010al69qozfov8
 slug: viettel-mien-phi-1-thang-data-5g
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1706177272405/ef523cb8-d783-4f0f-a5c8-3f877d21b2af.png
