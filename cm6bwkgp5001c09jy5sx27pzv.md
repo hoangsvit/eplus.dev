@@ -2,7 +2,7 @@
 title: "Cost Optimization and Data Tiering with BigLake and Cloud Storage - GSP267"
 seoTitle: "Cost Optimization and Data Tiering with BigLake and Cloud Storage - GS"
 seoDescription: "BigQuery is Google's fully managed, NoOps, low cost analytics database. BigQuery uses SQL and can take advantage of the pay-as-you-go model. BigLake is a st"
-datePublished: Sat Jan 25 2025 08:02:14 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-25T08:02:14.537Z
 cuid: cm6bwkgp5001c09jy5sx27pzv
 slug: cost-optimization-and-data-tiering-with-biglake-and-cloud-storage-gsp267
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737791048233/bd5c4b73-585c-4dcd-bc96-d4aaed69cc23.png
