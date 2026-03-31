@@ -2,7 +2,7 @@
 title: "Connect to Cloud SQL from an Application in Google Kubernetes Engine - GSP449"
 seoTitle: "Connect to Cloud SQL from an Application in Google Kubernetes Engine -"
 seoDescription: "In this lab you will learn how easy it is to connect an application in Google Kubernetes Engine (GKE) to a Cloud SQL instance using the Cloud SQL Proxy cont"
-datePublished: Sat May 10 2025 08:04:08 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-10T08:04:08.150Z
 cuid: cmahxvcd1000408la1fzycus6
 slug: connect-to-cloud-sql-from-an-application-in-google-kubernetes-engine-gsp449
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746863915098/fad29654-c8c5-4b7b-a041-ce80f7b2fdfa.png
