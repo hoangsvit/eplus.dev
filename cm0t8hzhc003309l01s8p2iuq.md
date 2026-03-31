@@ -2,7 +2,7 @@
 title: "Use Functions, Formulas, and Charts in Google Sheets: Challenge Lab - GSP379"
 seoTitle: "Use Functions, Formulas, and Charts in Google Sheets: Challenge Lab"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Sun Sep 08 2024 07:10:05 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-08T07:10:05.281Z
 cuid: cm0t8hzhc003309l01s8p2iuq
 slug: use-functions-formulas-and-charts-in-google-sheets-challenge-lab-gsp379
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756623748183/2a72772e-34f5-4ff6-96a6-b33bd162a0be.png
