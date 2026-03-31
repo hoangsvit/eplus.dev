@@ -2,7 +2,7 @@
 title: "Setting up a Private Kubernetes Cluster - GSP178"
 seoTitle: "Setting up a Private Kubernetes Cluster - GSP178"
 seoDescription: "In Kubernetes Engine, a private cluster is a cluster that makes your master inaccessible from the public internet. In a private cluster, nodes do not have p"
-datePublished: Sun Aug 18 2024 12:02:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-18T12:02:45.804Z
 cuid: clzziph9o003f09kzbu2t2lv2
 slug: setting-up-a-private-kubernetes-cluster-gsp178
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747462914915/8873791c-a037-427f-a324-8c36972252ca.png
