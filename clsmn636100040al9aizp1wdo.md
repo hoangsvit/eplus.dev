@@ -2,7 +2,7 @@
 title: "Tự Động Hủy Lời Mời Kết Bạn trên Facebook với Script JS"
 seoTitle: "Tự Động Hủy Lời Mời Kết Bạn trên Facebook với Script JS"
 seoDescription: "Dưới đây là đoạn mã JS giúp bạn hủy tất cả những lời mời kết bạn mà bạn đã gửi nhưng chưa được đối phương chấp nhận."
-datePublished: Thu Feb 15 2024 03:08:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-02-15T03:08:42.505Z
 cuid: clsmn636100040al9aizp1wdo
 slug: tu-dong-huy-loi-moi-ket-ban-tren-facebook-voi-script-js
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1707967746809/bef31864-34ed-480d-a574-0c8130b36d1a.jpeg
