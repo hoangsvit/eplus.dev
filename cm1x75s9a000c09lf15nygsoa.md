@@ -2,7 +2,7 @@
 title: "Module quiz: Introduction to data structures"
 seoTitle: "Module quiz: Introduction to data structures"
 seoDescription: "Module quiz: Introduction to data structures"
-datePublished: Sun Oct 06 2024 06:23:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-06T06:23:23.470Z
 cuid: cm1x75s9a000c09lf15nygsoa
 slug: module-quiz-introduction-to-data-structures
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728195785537/630c58cc-b387-471c-8b23-28c33e6c4d32.png
