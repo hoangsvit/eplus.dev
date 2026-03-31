@@ -2,7 +2,7 @@
 title: "Manage Terraform State - GSP752"
 seoTitle: "Manage Terraform State - GSP752"
 seoDescription: "Learn Terraform state management, use backends, and synchronize infrastructure in a real cloud environment—ideal for team projects"
-datePublished: Thu Sep 11 2025 08:09:09 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-11T08:09:09.734Z
 cuid: cmff4nfqe000a02js6de8f2p3
 slug: manage-terraform-state-gsp752
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757578067519/741aad8f-42c1-49dd-a669-a3404d145ca6.png
