@@ -2,7 +2,7 @@
 title: "Introduction to BigQuery SQL translation (Solution)"
 seoTitle: "Introduction to BigQuery SQL translation (Solution)"
 seoDescription: "This lab describes how to use the batch SQL translator in BigQuery to translate scripts written in other SQL dialects into GoogleSQL queries."
-datePublished: Mon Feb 24 2025 06:32:08 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-24T06:32:08.206Z
 cuid: cm7iok55a000809k6brwubi3d
 slug: introduction-to-bigquery-sql-translation-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740378056654/18114a9a-66e5-49ae-b8ff-94418c63efca.png
