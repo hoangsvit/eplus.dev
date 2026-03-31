@@ -2,7 +2,7 @@
 title: "Use Data Canvas to Visualize and Design Queries - GSP1259"
 seoTitle: "Use Data Canvas to Visualize and Design Queries - GSP1259"
 seoDescription: "Discover how to use Data Canvas in Google Cloud BigQuery for visualizing data, creating complex queries, and collaborating effectively with your team"
-datePublished: Sun Oct 05 2025 09:41:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-05T09:41:04.203Z
 cuid: cmgdii2q3000a02js0gz69tvs
 slug: use-data-canvas-to-visualize-and-design-queries-gsp1259
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759657231014/86c8fe66-7853-4963-bf0d-cc48c3b0b1f2.png
