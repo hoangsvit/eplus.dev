@@ -1,6 +1,6 @@
 ---
 title: "Create a RAG Application with BigQuery - GSP1289"
-datePublished: Mon Oct 06 2025 06:34:53 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-06T06:34:53.398Z
 cuid: cmgerahxy000b02kzblcwbjau
 slug: create-a-rag-application-with-bigquery-gsp1289
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759731867860/60ea6522-c698-42fc-824d-654574db2fc6.png
