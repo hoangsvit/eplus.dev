@@ -2,7 +2,7 @@
 title: "Google Workspace for Education: Getting Started - GSP978"
 seoTitle: "Google Workspace for Education: Getting Started - GSP978"
 seoDescription: "Google Workspace for Education is a set of Google apps and services that are tailored for schools and homeschools that allow for collaboration, streamlined "
-datePublished: Tue Dec 10 2024 07:50:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-10T07:50:43.377Z
 cuid: cm4i5wgq8000009l1dbps5y7k
 slug: google-workspace-for-education-getting-started-gsp978
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733815933157/0fa25f28-0ba2-4c22-9340-a011719d9569.png
