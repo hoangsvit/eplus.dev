@@ -2,7 +2,7 @@
 title: "Knowledge check: React Context - Advanced React"
 seoTitle: "Knowledge check: React Context - Advanced React"
 seoDescription: "Knowledge check: React Context - Advanced React"
-datePublished: Thu Sep 12 2024 09:59:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-12T09:59:23.950Z
 cuid: cm0z4b4mm000e0al1awrdcksl
 slug: knowledge-check-react-context-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726135065268/940641d5-122c-42cc-9edd-81c0b3d9d219.jpeg
