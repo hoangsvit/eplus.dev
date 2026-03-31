@@ -2,7 +2,7 @@
 title: "Foundations of Project Management - Module 3 Challenge"
 seoTitle: "Foundations of Project Management - Module 3 Challenge"
 seoDescription: "Foundations of Project Management - Module 3 Challenge"
-datePublished: Sat Oct 19 2024 05:52:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-19T05:52:21.865Z
 cuid: cm2fqryi1000309mdcf2f16it
 slug: foundations-of-project-management-module-3-challenge
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729317046298/164affd8-2056-4ee2-ad6d-85c842265231.png
