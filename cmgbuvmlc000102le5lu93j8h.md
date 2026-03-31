@@ -2,7 +2,7 @@
 title: "Building a High-throughput VPN - GSP062"
 seoTitle: "Building a High-throughput VPN - GSP062"
 seoDescription: "Learn to build and test a high-throughput, secure VPN on Google Cloud with hands-on instructions and best practices"
-datePublished: Sat Oct 04 2025 05:51:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-04T05:51:59.520Z
 cuid: cmgbuvmlc000102le5lu93j8h
 slug: building-a-high-throughput-vpn-gsp062
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759556299073/8c6dc880-6859-462b-b638-147f75db176c.png
