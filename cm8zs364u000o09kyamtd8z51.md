@@ -2,7 +2,7 @@
 title: "Hướng dẫn khai hải quan hàng quà tặng từ Google Cloud Arcade"
 seoTitle: "Hướng dẫn khai hải quan hàng quà tặng từ Google Cloud Arcade"
 seoDescription: "Xin chào MINH HOANG, Lô hàng DHL Express của Quý khách với số vận đơn 96xxxx5 được gửi từ WHITESQUARE INTERNATIONAL yêu cầu thêm thông tin để hoàn tất quy t"
-datePublished: Wed Apr 02 2025 10:22:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-02T10:22:42.126Z
 cuid: cm8zs364u000o09kyamtd8z51
 slug: huong-dan-khai-hai-quan-hang-qua-tang-tu-google-cloud-arcade
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743588895136/3efa8469-2037-4b9f-bddd-b7c49f17e633.png
