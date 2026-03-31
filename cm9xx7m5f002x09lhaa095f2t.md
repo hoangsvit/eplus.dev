@@ -2,7 +2,7 @@
 title: "Analyze Data to Answer Questions - Module 2 challenge"
 seoTitle: "Analyze Data to Answer Questions - Module 2 challenge"
 seoDescription: "Analyze Data to Answer Questions - Module 2 challenge"
-datePublished: Sat Apr 26 2025 07:50:17 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-26T07:50:17.571Z
 cuid: cm9xx7m5f002x09lhaa095f2t
 slug: analyze-data-to-answer-questions-module-2-challenge
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745653781941/31a7377a-2f90-448b-bc9d-a0505c248224.png
