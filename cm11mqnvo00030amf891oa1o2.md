@@ -2,7 +2,7 @@
 title: "Automating Response to Phishing with Cortex XSOAR - GSP951"
 seoTitle: "Automating Response to Phishing with Cortex XSOAR - GSP951"
 seoDescription: "The lab uses a real spear phishing attack against a fictional bank, Galactic Ministry of Finance, by infiltrating the bank's e-mail server. After infiltrati"
-datePublished: Sat Sep 14 2024 04:10:54 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-14T04:10:54.180Z
 cuid: cm11mqnvo00030amf891oa1o2
 slug: automating-response-to-phishing-with-cortex-xsoar-gsp951
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726286890370/323398e6-7934-404c-ad4f-8a5d2d29ae71.jpeg
