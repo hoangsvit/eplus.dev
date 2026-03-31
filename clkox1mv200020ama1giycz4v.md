@@ -2,7 +2,7 @@
 title: "Schedule tasks with WorkManager"
 seoTitle: "Schedule tasks with WorkManager"
 seoDescription: "Schedule tasks with WorkManager"
-datePublished: Sun Jul 30 2023 04:03:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-07-30T04:03:04.574Z
 cuid: clkox1mv200020ama1giycz4v
 slug: schedule-tasks-with-workmanager
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690690578901/c3a2bb5d-0083-4e42-996b-be36f60078da.png
