@@ -2,7 +2,7 @@
 title: "Cloud Spanner - Defining Schemas and Understanding Query Plans - GSP1050"
 seoTitle: "Cloud Spanner - Defining Schemas and Understanding Query Plans - GSP10"
 seoDescription: "Cloud Spanner is Google’s fully managed, horizontally scalable relational database service. Customers in financial services, gaming, retail and many other i"
-datePublished: Tue Apr 22 2025 05:40:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-22T05:40:10.499Z
 cuid: cm9s2svib001i09jze773b2uy
 slug: cloud-spanner-defining-schemas-and-understanding-query-plans-gsp1050
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745300241228/e5d1e22c-fae5-4040-a174-2f68954c05ac.png
