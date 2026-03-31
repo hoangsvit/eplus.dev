@@ -2,7 +2,7 @@
 title: "App Dev: Deploying the Application into Kubernetes Engine - Python - GSP188"
 seoTitle: "App Dev: Deploying the Application into Kubernetes Engine - Python - G"
 seoDescription: "Deploy Python app in Kubernetes Engine using Google Cloud tools: Cloud Build and Artifact Registry for containerization and scaling"
-datePublished: Sat Oct 04 2025 07:56:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-04T07:56:15.406Z
 cuid: cmgbzbfla000102l2g7jb4o8v
 slug: app-dev-deploying-the-application-into-kubernetes-engine-python-gsp188
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759563975928/1a45cc63-9682-4538-95d6-170ecc33a762.png
