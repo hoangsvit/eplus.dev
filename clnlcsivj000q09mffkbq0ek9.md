@@ -2,7 +2,7 @@
 title: "Laravel approved new Model data before it persisted"
 seoTitle: "Laravel approved new Model data before it persisted"
 seoDescription: "Approval is a Laravel package that provides a simple way to approve new Model data before it is persisted"
-datePublished: Wed Oct 11 2023 06:11:55 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-10-11T06:11:55.663Z
 cuid: clnlcsivj000q09mffkbq0ek9
 slug: laravel-approved-new-model-data-before-it-persisted
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1697004490104/a8625b04-94b8-4470-9f70-f3fdba8dcb2e.jpeg
