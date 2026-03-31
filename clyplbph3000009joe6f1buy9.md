@@ -2,7 +2,7 @@
 title: "Knowledge check: Error handling in Javascript"
 seoTitle: "Knowledge check: Error handling in Javascript"
 seoDescription: "Knowledge check: Error handling in Javascript"
-datePublished: Wed Jul 17 2024 08:38:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-17T08:38:38.007Z
 cuid: clyplbph3000009joe6f1buy9
 slug: knowledge-check-error-handling-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721204940955/684c266b-1c55-41cd-843c-7446cb19d74e.png
