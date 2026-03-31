@@ -2,7 +2,7 @@
 title: "Store, Process, and Manage Data on Google Cloud: Challenge Lab - ARC100"
 seoTitle: "Store, Process, and Manage Data on Google Cloud: Challenge Lab - ARC10"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Mon Apr 14 2025 09:10:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-14T09:10:47.851Z
 cuid: cm9gusx7v002d09kvgtio63j0
 slug: store-process-and-manage-data-on-google-cloud-challenge-lab-arc100
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744620896933/8f2e7ae4-d47d-4308-a72a-c3a50856ff84.png
