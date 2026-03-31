@@ -2,7 +2,7 @@
 title: "The Arcade Trivia August 2024 Week 2"
 seoTitle: "The Arcade Trivia August 2024 Week 2"
 seoDescription: "Welcome to The Arcade Trivia August 2024! Give your career a boost with hands on experience with different Google Cloud and partner services."
-datePublished: Tue Aug 13 2024 03:12:11 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-13T03:12:11.352Z
 cuid: clzrujwbc000009ldhmp5c1h1
 slug: the-arcade-trivia-august-2024-week-2
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723518658406/15ed7ccf-5514-46b1-b490-fa10d8dc0d2d.png
