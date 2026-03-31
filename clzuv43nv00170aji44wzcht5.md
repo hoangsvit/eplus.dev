@@ -2,7 +2,7 @@
 title: "Integrating Cloud Functions with Firestore"
 seoTitle: "Integrating Cloud Functions with Firestore"
 seoDescription: "Cloud Functions can extend your applications and services by integrating with Google Cloud databases namely Firestore, Cloud Spanner, Cloud SQL, Cloud Bigta"
-datePublished: Thu Aug 15 2024 05:51:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-15T05:51:12.523Z
 cuid: clzuv43nv00170aji44wzcht5
 slug: integrating-cloud-functions-with-firestore
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723700780180/e772be5d-6510-485d-8f3a-b94a796246c9.png
