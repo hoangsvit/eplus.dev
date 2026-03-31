@@ -2,7 +2,7 @@
 title: "Employing Best Practices for Improving the Usability of LookML Projects - GSP1020"
 seoTitle: "Employing Best Practices for Improving the Usability of LookML Project"
 seoDescription: "Looker is a modern data platform in Google Cloud that you can use to analyze and visualize your data interactively. LookML developers curate the data used b"
-datePublished: Fri Aug 16 2024 09:39:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-16T09:39:25.062Z
 cuid: clzwipfk600040ammezcjahuf
 slug: employing-best-practices-for-improving-the-usability-of-lookml-projects-gsp1020
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747724967921/b732599f-dfb3-4a62-80e1-76a38ed4e9b7.png
