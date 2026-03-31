@@ -2,7 +2,7 @@
 title: "[Knowledge check] Describe Azure identity, access, and security"
 seoTitle: "[Knowledge check] Describe Azure identity, access, and security"
 seoDescription: "This module covers some of the authorization and authentication methods available with Azure."
-datePublished: Fri Jun 21 2024 09:04:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-21T09:04:31.890Z
 cuid: clxogsv4i000208l70hcd0n9r
 slug: knowledge-check-describe-azure-identity-access-and-security
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718960620634/8d323ca3-eaff-4009-89d2-49f8f1d424aa.png
