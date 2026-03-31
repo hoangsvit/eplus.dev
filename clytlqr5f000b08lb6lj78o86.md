@@ -2,7 +2,7 @@
 title: "Knowledge Check - JavaScript in the browser"
 seoTitle: "Knowledge Check - JavaScript in the browser"
 seoDescription: "Knowledge Check - JavaScript in the browser"
-datePublished: Sat Jul 20 2024 04:01:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-20T04:01:24.723Z
 cuid: clytlqr5f000b08lb6lj78o86
 slug: knowledge-check-javascript-in-the-browser
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721448036398/8c182644-9516-47e7-85ef-86bb3c459b74.png
