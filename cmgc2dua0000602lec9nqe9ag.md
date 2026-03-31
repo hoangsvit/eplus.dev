@@ -2,7 +2,7 @@
 title: "Video Intelligence: Qwik Start - GSP154"
 seoTitle: "Video Intelligence: Qwik Start - GSP154"
 seoDescription: "Learn to use the Google Cloud Video Intelligence API to make videos searchable through authorization setup and sending annotate video requests"
-datePublished: Sat Oct 04 2025 09:22:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-04T09:22:06.601Z
 cuid: cmgc2dua0000602lec9nqe9ag
 slug: video-intelligence-qwik-start-gsp154
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759569615018/f46690fd-04b4-47f7-9894-656d8215f35a.png
