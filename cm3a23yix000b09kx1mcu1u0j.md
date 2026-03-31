@@ -2,7 +2,7 @@
 title: "Module quiz: SQL operators and sorting and filtering data"
 seoTitle: "Module quiz: SQL operators and sorting and filtering data"
 seoDescription: "Module quiz: SQL operators and sorting and filtering data"
-datePublished: Sat Nov 09 2024 11:02:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-09T11:02:42.825Z
 cuid: cm3a23yix000b09kx1mcu1u0j
 slug: module-quiz-sql-operators-and-sorting-and-filtering-data
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731150093903/a6488f80-9977-4cb1-93a0-c15684357e62.png
