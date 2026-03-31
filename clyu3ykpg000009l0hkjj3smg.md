@@ -2,7 +2,7 @@
 title: "Knowledge check: Introduction to testing in Javascript"
 seoTitle: "Knowledge check: Introduction to testing in Javascript"
 seoDescription: "Knowledge check: Introduction to testing in Javascript"
-datePublished: Sat Jul 20 2024 12:31:22 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-20T12:31:22.708Z
 cuid: clyu3ykpg000009l0hkjj3smg
 slug: knowledge-check-introduction-to-testing-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721478624291/ab73d9ed-4728-4f4a-bfa9-900aa36372bb.png
