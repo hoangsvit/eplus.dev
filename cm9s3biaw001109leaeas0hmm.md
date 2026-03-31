@@ -2,7 +2,7 @@
 title: "Application Load Balancer with Cloud Armor - GSP215"
 seoTitle: "Application Load Balancer with Cloud Armor - GSP215"
 seoDescription: "Google Cloud Application Load Balancing is implemented at the edge of Google's network in Google's points of presence (POP) around the world. User traffic d"
-datePublished: Tue Apr 22 2025 05:54:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-22T05:54:39.848Z
 cuid: cm9s3biaw001109leaeas0hmm
 slug: application-load-balancer-with-cloud-armor-gsp215
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745301249721/c9d71eee-98bc-4151-8e7a-38f3d6494e42.png
