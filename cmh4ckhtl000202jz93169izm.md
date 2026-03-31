@@ -2,7 +2,7 @@
 title: "Clean Up Unused and Orphaned Persistent Disks - GSP648"
 seoTitle: "Clean Up Unused and Orphaned Persistent Disks - GSP648"
 seoDescription: "Use Cloud Functions and Cloud Scheduler to clean up unused persistent disks in Google Cloud, optimizing resource management and reducing costs"
-datePublished: Fri Oct 24 2025 04:24:46 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-24T04:24:46.137Z
 cuid: cmh4ckhtl000202jz93169izm
 slug: clean-up-unused-and-orphaned-persistent-disks-gsp648
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761279726276/67b2bbc3-d53c-41f2-80dd-bf93548fbd91.png
