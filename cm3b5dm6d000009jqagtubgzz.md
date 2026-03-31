@@ -2,7 +2,7 @@
 title: "Django Web Framework - Module Quiz: Templates"
 seoTitle: "Django Web Framework - Module Quiz: Templates"
 seoDescription: "Django Web Framework - Module Quiz: Templates"
-datePublished: Sun Nov 10 2024 05:21:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-10T05:21:58.405Z
 cuid: cm3b5dm6d000009jqagtubgzz
 slug: django-web-framework-module-quiz-templates
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731216086639/e8f74d91-f4f6-456b-808f-c90bc7789312.png
