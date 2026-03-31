@@ -2,7 +2,7 @@
 title: "Final graded quiz: Advanced React"
 seoTitle: "Final graded quiz: Advanced React"
 seoDescription: "Final graded quiz: Advanced React"
-datePublished: Mon Sep 16 2024 09:29:17 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-16T09:29:17.515Z
 cuid: cm14sztfu000f09m80hc2bavg
 slug: final-graded-quiz-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726478938854/290b4fc1-eb43-4dbc-8fde-7034dc0effce.jpeg
