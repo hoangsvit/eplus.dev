@@ -2,11 +2,11 @@
 title: "Google Kubernetes Engine Pipeline using Cloud Build - GSP1077"
 seoTitle: "Google Kubernetes Engine Pipeline using Cloud Build - GSP1077"
 seoDescription: "In this lab, you create a CI/CD pipeline that automatically builds a container image from committed code, stores the image in Artifact Registry, updates a K"
-datePublished: Mon Aug 19 2024 09:54:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-19T09:54:01.744Z
 cuid: cm00tjs0f000009l4gh9fdem7
 slug: google-kubernetes-engine-pipeline-using-cloud-build-gsp1077
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724060871427/da2cedba-2d95-49db-994a-7bb211c09935.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724061227992/376d641a-d3e7-4acd-9ec8-98d253a58ab6.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1b5c422b-568a-42d1-bc8a-b9ea778493d3.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/a6a07311-c453-4cd6-853b-33f799838125.png
 tags: google-kubernetes-engine-pipeline-using-cloud-build-gsp1077
 
 ---
@@ -19,9 +19,9 @@ In this lab, you create a CI/CD pipeline that automatically builds a container i
 
 For this lab you will create 2 Git repositories:
 
-* app repository: contains the source code of the application itself
+*   app repository: contains the source code of the application itself
     
-* env repository: contains the manifests for the Kubernetes Deployment
+*   env repository: contains the manifests for the Kubernetes Deployment
     
 
 When you push a change to the **app repository**, the Cloud Build pipeline runs tests, builds a container image, and pushes it to Artifact Registry. After pushing the image, Cloud Build updates the Deployment manifest and pushes it to the **env repository**. This triggers another Cloud Build pipeline that applies the manifest to the GKE cluster and, if successful, stores the manifest in another branch of the **env repository**.
@@ -30,11 +30,11 @@ The app and env repositories are kept separate because they have different lifec
 
 When you finish this lab, you have a system where you can easily:
 
-* Distinguish between failed and successful deployments by looking at the Cloud Build history.
+*   Distinguish between failed and successful deployments by looking at the Cloud Build history.
     
-* Access the manifest currently used by looking at the production branch of the **env repository**.
+*   Access the manifest currently used by looking at the production branch of the **env repository**.
     
-* Rollback to any previous version by re-executing the corresponding Cloud Build build.
+*   Rollback to any previous version by re-executing the corresponding Cloud Build build.
     
 
 ![Git Ops Flow](https://cdn.qwiklabs.com/qEN8Qxr82h1FkL8DhD5sqJmblM11i7JjhZv14OGahr0%3D align="left")
@@ -43,15 +43,15 @@ When you finish this lab, you have a system where you can easily:
 
 In this lab, you learn how to perform the following tasks:
 
-* Create Kubernetes Engine clusters
+*   Create Kubernetes Engine clusters
     
-* Create Cloud Source Repositories
+*   Create Cloud Source Repositories
     
-* Trigger Cloud Build from Cloud Source Repositories
+*   Trigger Cloud Build from Cloud Source Repositories
     
-* Automate tests and publish a deployable container image via Cloud Build
+*   Automate tests and publish a deployable container image via Cloud Build
     
-* Manage resources deployed in a Kubernetes Engine cluster via Cloud Build
+*   Manage resources deployed in a Kubernetes Engine cluster via Cloud Build
     
 
 ## **Setup and requirements**
@@ -64,29 +64,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -94,7 +94,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-0ee72c84c098@qwiklabs.net
@@ -102,9 +102,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     tMy03AHhhKsz
@@ -112,19 +112,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -137,7 +137,7 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell**
+1.  Click **Activate Cloud Shell**
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="left")
     
@@ -152,14 +152,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-01-2dc3b6b43c
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-2. (Optional) You can list the active account name with this command:
+2.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-3. Click **Authorize**.
+3.  Click **Authorize**.
     
 
 **Output:**
@@ -172,7 +172,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-4. (Optional) You can list the project ID with this command:
+4.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -190,7 +190,7 @@ project = qwiklabs-gcp-01-2dc3b6b43cd5
 
 ## **Task 1. Initialize Your Lab**
 
-1. In Cloud Shell, set your project ID and project number. Save them as `PROJECT_ID` and `PROJECT_NUMBER` variables:
+1.  In Cloud Shell, set your project ID and project number. Save them as `PROJECT_ID` and `PROJECT_NUMBER` variables:
     
 
 ```apache
@@ -202,7 +202,7 @@ gcloud config set compute/region $REGION
 
 In the next task you will prepare your Google Cloud Project for use by enabling the required APIs, initializing the git configuration in Cloud Shell, and downloading the sample code used later in the lab.
 
-2. Run the following command to enable the APIs for GKE, Cloud Build, Cloud Source Repositories and Container Analysis:
+2.  Run the following command to enable the APIs for GKE, Cloud Build, Cloud Source Repositories and Container Analysis:
     
 
 ```apache
@@ -212,7 +212,7 @@ gcloud services enable container.googleapis.com \
     containeranalysis.googleapis.com
 ```
 
-3. Create an Artifact Registry Docker repository named my-repository in the `us-east1` region to store your container images:
+3.  Create an Artifact Registry Docker repository named my-repository in the `us-east1` region to store your container images:
     
 
 ```apache
@@ -221,14 +221,14 @@ gcloud artifacts repositories create my-repository \
   --location=$REGION
 ```
 
-4. Create a GKE cluster to deploy the sample application of this lab:
+4.  Create a GKE cluster to deploy the sample application of this lab:
     
 
 ```apache
   gcloud container clusters create hello-cloudbuild --num-nodes 1 --region $REGION
 ```
 
-5. If you have never used Git in Cloud Shell, configure it with your name and email address. Git will use those to identify you as the author of the commits you will create in Cloud Shell (if you don't have a github account, you can just fill in this with your current information. No account is necessary for this lab):
+5.  If you have never used Git in Cloud Shell, configure it with your name and email address. Git will use those to identify you as the author of the commits you will create in Cloud Shell (if you don't have a github account, you can just fill in this with your current information. No account is necessary for this lab):
     
 
 ```apache
@@ -249,7 +249,7 @@ Enable services, create an artifact registry and the GKE cluster
 
 In this task, you create the two Git repositories (**hello-cloudbuild-app** and **hello-cloudbuild-env**) and initialize **hello-cloudbuild-app** with some sample code.
 
-1. In Cloud Shell, run the following to create the two Git repositories:
+1.  In Cloud Shell, run the following to create the two Git repositories:
     
 
 ```apache
@@ -260,7 +260,7 @@ gcloud source repos create hello-cloudbuild-app
 gcloud source repos create hello-cloudbuild-env
 ```
 
-2. Download the sample code from Cloud Storage:
+2.  Download the sample code from Cloud Storage:
     
 
 ```apache
@@ -272,7 +272,7 @@ mkdir hello-cloudbuild-app
 gcloud storage cp -r gs://spls/gsp1077/gke-gitops-tutorial-cloudbuild/* hello-cloudbuild-app
 ```
 
-3. Configure Cloud Source Repositories as a remote:
+3.  Configure Cloud Source Repositories as a remote:
     
 
 ```apache
@@ -331,7 +331,7 @@ CMD ["/app/app.py"]
 
 With this Dockerfile, you can create a container image with Cloud Build and store it in Artifact Registry.
 
-1. In Cloud Shell, create a Cloud Build build based on the latest commit with the following command:
+1.  In Cloud Shell, create a Cloud Build build based on the latest commit with the following command:
     
 
 ```apache
@@ -348,7 +348,7 @@ gcloud builds submit --tag="${REGION}-docker.pkg.dev/${PROJECT_ID}/my-repository
 
 Cloud Build streams the logs generated by the creation of the container image to your terminal when you execute this command.
 
-2. After the build finishes, in the Cloud console go to **Artifact Registry &gt; Repositories** to verify that your new container image is indeed available in Artifact Registry. Click **my-repository**.
+2.  After the build finishes, in the Cloud console go to **Artifact Registry > Repositories** to verify that your new container image is indeed available in Artifact Registry. Click **my-repository**.
     
 
 ![Artifact Registry](https://cdn.qwiklabs.com/Fs6gU1DUA0rvXELOzThMRlSRMHOa9Txjxxf0HA6vOdo%3D align="left")
@@ -365,31 +365,31 @@ In this task, you will configure Cloud Build to automatically run a small unit t
 
 ![Architecture](https://cdn.qwiklabs.com/z3p4mZq3O2H5X9gBCmSJLRV9KcC9hL9yhYcO3k3Oq7Q%3D align="left")
 
-1. In the Cloud console, go to **Cloud Build &gt; Triggers**.
+1.  In the Cloud console, go to **Cloud Build > Triggers**.
     
-2. Click **Create Trigger**
+2.  Click **Create Trigger**
     
-3. In the Name field, type `hello-cloudbuild`.
+3.  In the Name field, type `hello-cloudbuild`.
     
-4. Under **Event**, select **Push to a branch**.
+4.  Under **Event**, select **Push to a branch**.
     
-5. Under **Source**, select **hello-cloudbuild-app** as your **Repository** and `.* (any branch)` as your **Branch**.
+5.  Under **Source**, select **hello-cloudbuild-app** as your **Repository** and `.* (any branch)` as your **Branch**.
     
-6. Under **Build configuration**, select **Cloud Build configuration file**.
+6.  Under **Build configuration**, select **Cloud Build configuration file**.
     
-7. In the **Cloud Build configuration file location** field, type `cloudbuild.yaml` after the /.
+7.  In the **Cloud Build configuration file location** field, type `cloudbuild.yaml` after the /.
     
-8. For the **Service account**, use the Compute Engine default service account.
+8.  For the **Service account**, use the Compute Engine default service account.
     
-9. Click **Create**.
+9.  Click **Create**.
     
 
 ![Create Trigger](https://cdn.qwiklabs.com/joBzWe0xa5NJ1uE63FgrF2KVJCswQcPKxddT8O4lJS0%3D align="left")
 
 When the trigger is created, return to the Cloud Shell. You now need to push the application code to Cloud Source Repositories to trigger the CI pipeline in Cloud Build.
 
-10. To start this trigger, run the following command:
-    
+10.  To start this trigger, run the following command:
+     
 
 ```apache
 cd ~/hello-cloudbuild-app
@@ -407,10 +407,10 @@ git commit -m "Type Any Commit Message here"
 git push google master
 ```
 
-11. In the Cloud console, go to **Cloud Build &gt; Dashboard**.
-    
-12. You should see a build running or having recently finished. You can click on the build to follow its execution and examine its logs.
-    
+11.  In the Cloud console, go to **Cloud Build > Dashboard**.
+     
+12.  You should see a build running or having recently finished. You can click on the build to follow its execution and examine its logs.
+     
 
 ![Dashboard](https://cdn.qwiklabs.com/by89PSB7S5nlrhbdgOL1dY1JtsDYIGLHoM4KMwu97NQ%3D align="left")
 
@@ -424,13 +424,13 @@ Create the Continuous Integration (CI) Pipeline
 
 Cloud Build is also used for the continuous delivery pipeline. The pipeline runs each time a commit is pushed to the candidate branch of the **hello-cloudbuild-env** repository. The pipeline applies the new version of the manifest to the Kubernetes cluster and, if successful, copies the manifest over to the production branch. This process has the following properties:
 
-* The candidate branch is a history of the deployment attempts.
+*   The candidate branch is a history of the deployment attempts.
     
-* The production branch is a history of the successful deployments.
+*   The production branch is a history of the successful deployments.
     
-* You have a view of successful and failed deployments in Cloud Build.
+*   You have a view of successful and failed deployments in Cloud Build.
     
-* You can rollback to any previous deployment by re-executing the corresponding build in Cloud Build. A rollback also updates the production branch to truthfully reflect the history of deployments.
+*   You can rollback to any previous deployment by re-executing the corresponding build in Cloud Build. A rollback also updates the production branch to truthfully reflect the history of deployments.
     
 
 Next you will modify the continuous integration pipeline to update the candidate branch of the **hello-cloudbuild-env** repository, triggering the continuous delivery pipeline.
@@ -439,7 +439,7 @@ Next you will modify the continuous integration pipeline to update the candidate
 
 To deploy the application in your Kubernetes cluster, Cloud Build needs the Kubernetes Engine Developer Identity and Access Management role.
 
-1. In Cloud Shell execute the following command:
+1.  In Cloud Shell execute the following command:
     
 
 ```apache
@@ -456,7 +456,7 @@ You need to initialize the **hello-cloudbuild-env** repository with two branches
 
 The first step is to clone the **hello-cloudbuild-env** repository and create the production branch. It is still empty.
 
-2. In Cloud Shell execute the following command:
+2.  In Cloud Shell execute the following command:
     
 
 ```apache
@@ -475,7 +475,7 @@ cd ~/hello-cloudbuild-env
 git checkout -b production
 ```
 
-3. Next you need to copy the **cloudbuild-delivery.yaml** file available in the **hello-cloudbuild-app** repository and commit the change:
+3.  Next you need to copy the **cloudbuild-delivery.yaml** file available in the **hello-cloudbuild-app** repository and commit the change:
     
 
 ```apache
@@ -496,12 +496,12 @@ git commit -m "Create cloudbuild.yaml for deployment"
 
 The `cloudbuild-delivery.yaml` file describes the deployment process to be run in Cloud Build. It has two steps:
 
-* Cloud Build applies the manifest on the GKE cluster.
+*   Cloud Build applies the manifest on the GKE cluster.
     
-* If successful, Cloud Build copies the manifest on the production branch.
+*   If successful, Cloud Build copies the manifest on the production branch.
     
 
-4. Create a candidate branch and push both branches for them to be available in Cloud Source Repositories:
+4.  Create a candidate branch and push both branches for them to be available in Cloud Source Repositories:
     
 
 ```apache
@@ -516,7 +516,7 @@ git push origin production
 git push origin candidate
 ```
 
-5. Grant the Source Repository Writer IAM role to the Cloud Build service account for the **hello-cloudbuild-env** repository:
+5.  Grant the Source Repository Writer IAM role to the Cloud Build service account for the **hello-cloudbuild-env** repository:
     
 
 ```apache
@@ -537,23 +537,23 @@ hello-cloudbuild-env /tmp/hello-cloudbuild-env-policy.yaml
 
 ### Create the trigger for the continuous delivery pipeline
 
-1. In the Cloud console, go to **Cloud Build &gt; Triggers**.
+1.  In the Cloud console, go to **Cloud Build > Triggers**.
     
-2. Click **Create Trigger**.
+2.  Click **Create Trigger**.
     
-3. In the Name field, type `hello-cloudbuild-deploy`.
+3.  In the Name field, type `hello-cloudbuild-deploy`.
     
-4. Under **Event**, select **Push to a branch**.
+4.  Under **Event**, select **Push to a branch**.
     
-5. Under **Source**, select **hello-cloudbuild-env** as your **Repository** and `^candidate$` as your **Branch**.
+5.  Under **Source**, select **hello-cloudbuild-env** as your **Repository** and `^candidate$` as your **Branch**.
     
-6. Under **Build configuration**, select **Cloud Build configuration file**.
+6.  Under **Build configuration**, select **Cloud Build configuration file**.
     
-7. In the **Cloud Build configuration file location** field, type `cloudbuild.yaml` after the /.
+7.  In the **Cloud Build configuration file location** field, type `cloudbuild.yaml` after the /.
     
-8. For the **Service account**, use the Compute Engine default service account.
+8.  For the **Service account**, use the Compute Engine default service account.
     
-9. Click **Create**.
+9.  Click **Create**.
     
 
 ![Create Trigger](https://cdn.qwiklabs.com/GL1HS%2B%2FBhdNwsMwL3FwYujis1MMCR99hDTsZ5j6uNbM%3D align="left")
@@ -562,7 +562,7 @@ hello-cloudbuild-env /tmp/hello-cloudbuild-env-policy.yaml
 
 Next, add some steps to the continuous integration pipeline that will generate a new version of the Kubernetes manifest and push it to the **hello-cloudbuild-env** repository to trigger the continuous delivery pipeline.
 
-1. Copy the extended version of the **cloudbuild.yaml** file for the **app repository**:
+1.  Copy the extended version of the **cloudbuild.yaml** file for the **app repository**:
     
 
 ```apache
@@ -577,7 +577,7 @@ The **cloudbuild-trigger-cd.yaml** is an extended version of the **cloudbuild.ya
 
 This pipeline uses a simple `sed` to render the manifest template. In reality, you will benefit from using a dedicated tool such as kustomize or skaffold. They allow for more control over the rendering of the manifest templates.
 
-2. Commit the modifications and push them to Cloud Source Repositories:
+2.  Commit the modifications and push them to Cloud Source Repositories:
     
 
 ```apache
@@ -606,16 +606,16 @@ Create the Test Environment and CD Pipeline
 
 ## **Task 6. Review Cloud Build Pipeline**
 
-1. In the Cloud console, go to **Cloud Build &gt; Dashboard**.
+1.  In the Cloud console, go to **Cloud Build > Dashboard**.
     
-2. Click into the **hello-cloudbuild-app** trigger to follow its execution and examine its logs. The last step of this pipeline pushes the new manifest to the **hello-cloudbuild-env** repository, which triggers the continuous delivery pipeline.
+2.  Click into the **hello-cloudbuild-app** trigger to follow its execution and examine its logs. The last step of this pipeline pushes the new manifest to the **hello-cloudbuild-env** repository, which triggers the continuous delivery pipeline.
     
 
 ![Build History](https://cdn.qwiklabs.com/fhfK%2F6Z72yUrC%2FyHACUJaNnoUMXwt5M9gJcm2BkTodc%3D align="left")
 
-3. Return to the main **Dashboard**.
+3.  Return to the main **Dashboard**.
     
-4. You should see a build running or having recently finished for the **hello-cloudbuild-env** repository. You can click on the build to follow its execution and examine its logs.
+4.  You should see a build running or having recently finished for the **hello-cloudbuild-env** repository. You can click on the build to follow its execution and examine its logs.
     
 
 ![Cloud Build Dashboard](https://cdn.qwiklabs.com/qAeV%2FbgCks5dCOdBZ2J089Ms3DHBv1X3orVp%2F9yvWqk%3D align="left")
@@ -624,17 +624,17 @@ Create the Test Environment and CD Pipeline
 
 The complete CI/CD pipeline is now configured. Test it from end to end.
 
-1. In the Cloud console, go to **Kubernetes Engine &gt; Gateways,Services & Ingress**.
+1.  In the Cloud console, go to **Kubernetes Engine > Gateways,Services & Ingress**.
     
 
 There should be a single service called **hello-cloudbuild** in the list. It has been created by the continuous delivery build that just ran.
 
-2. Click on the endpoint for the **hello-cloudbuild** service. You should see "Hello World!". If there is no endpoint, or if you see a load balancer error, you may have to wait a few minutes for the load balancer to be completely initialized. Click **Refresh** to update the page if needed.
+2.  Click on the endpoint for the **hello-cloudbuild** service. You should see "Hello World!". If there is no endpoint, or if you see a load balancer error, you may have to wait a few minutes for the load balancer to be completely initialized. Click **Refresh** to update the page if needed.
     
 
 ![App 1 Hello World!](https://cdn.qwiklabs.com/r4XfRZ7CZPMk4Dr8HJ3qHVAZIZDXD%2BwvqiPeA3b5efU%3D align="left")
 
-3. In Cloud Shell, replace "Hello World" with "Hello Cloud Build", both in the application and in the unit test:
+3.  In Cloud Shell, replace "Hello World" with "Hello Cloud Build", both in the application and in the unit test:
     
 
 ```apache
@@ -649,7 +649,7 @@ sed -i 's/Hello World/Hello Cloud Build/g' app.py
 sed -i 's/Hello World/Hello Cloud Build/g' test_app.py
 ```
 
-4. Commit and push the change to Cloud Source Repositories:
+4.  Commit and push the change to Cloud Source Repositories:
     
 
 ```apache
@@ -664,7 +664,7 @@ git commit -m "Hello Cloud Build"
 git push google master
 ```
 
-5. This triggers the full CI/CD pipeline.
+5.  This triggers the full CI/CD pipeline.
     
 
 After a few minutes, reload the application in your browser. You should now see "Hello Cloud Build!".
@@ -675,13 +675,13 @@ After a few minutes, reload the application in your browser. You should now see 
 
 In this task, you rollback to the version of the application that said "Hello World!".
 
-1. In the Cloud console, go to **Cloud Build &gt; Dashboard**.
+1.  In the Cloud console, go to **Cloud Build > Dashboard**.
     
-2. Click on *View all* link under **Build History** for the **hello-cloudbuild-env** repository.
+2.  Click on *View all* link under **Build History** for the **hello-cloudbuild-env** repository.
     
-3. Click on the second most recent build available.
+3.  Click on the second most recent build available.
     
-4. Click **Rebuild**.
+4.  Click **Rebuild**.
     
 
 ![Rollback success screen](https://cdn.qwiklabs.com/iLBtWEOJx%2FnmwISdKFM%2B3C2CbUmug8FtHJTBFLNpWuI%3D align="left")
@@ -690,15 +690,18 @@ When the build is finished, reload the application in your browser. You should n
 
 ![App 1 Hello World!](https://cdn.qwiklabs.com/r4XfRZ7CZPMk4Dr8HJ3qHVAZIZDXD%2BwvqiPeA3b5efU%3D align="left")
 
----
+* * *
 
 ## Solution of Lab
 
 %[https://www.youtube.com/watch?v=6T5_KwNvgy4] 
 
 ```apache
-export REGION=
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1077/lab.sh
+source lab.sh
 ```
+
+**Script Alternative**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724061197695/7996c122-3586-43b8-9b6b-50e25db2e896.png align="center")
 
