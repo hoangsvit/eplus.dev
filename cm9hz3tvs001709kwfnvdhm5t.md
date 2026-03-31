@@ -2,7 +2,7 @@
 title: "Develop with Apps Script and AppSheet: Challenge Lab - ARC126"
 seoTitle: "Develop with Apps Script and AppSheet: Challenge Lab - ARC126"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Tue Apr 15 2025 03:59:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-15T03:59:01.385Z
 cuid: cm9hz3tvs001709kwfnvdhm5t
 slug: develop-with-apps-script-and-appsheet-challenge-lab-arc126
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744688524835/bb3611ad-04b8-4f60-825c-2fb7eb0f521c.png
