@@ -2,7 +2,7 @@
 title: "App Engine: Qwik Start - Python - GSP067"
 seoTitle: "App Engine: Qwik Start - Python - GSP067"
 seoDescription: "App Engine allows developers to focus on doing what they do best, writing code, and not what it runs on. Developers upload their apps to App Engine, and Goo"
-datePublished: Thu Aug 08 2024 05:54:08 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-08T05:54:08.806Z
 cuid: clzkv4x0m000f09jzewalel39
 slug: app-engine-qwik-start-python-gsp067
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750395030234/a998e196-41b7-4741-8068-722ed309e210.png
