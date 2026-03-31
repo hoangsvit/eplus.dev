@@ -2,7 +2,7 @@
 title: "Docker Essentials: Containers and Artifact Registry - gem-docker-basics"
 seoTitle: "Docker Essentials: Containers and Artifact Registry - gem-docker-basic"
 seoDescription: "Learn how to activate Google Cloud Shell, manage Docker containers, and use Artifact Registry in a practical hands-on lab session"
-datePublished: Mon Sep 15 2025 07:33:35 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-15T07:33:35.640Z
 cuid: cmfkt53q0001r02gy1wsz9uws
 slug: docker-essentials-containers-and-artifact-registry-gem-docker-basics
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757921593515/1c1e0318-3548-4be4-876e-074e479476e0.png
