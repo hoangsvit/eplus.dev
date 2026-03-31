@@ -2,7 +2,7 @@
 title: "Hosting a Web App on Google Cloud Using Compute Engine - GSP662"
 seoTitle: "Hosting a Web App on Google Cloud Using Compute Engine - GSP662"
 seoDescription: "There are many ways to deploy web sites within Google Cloud. Each solution offers different features, capabilities, and levels of control. Compute Engine of"
-datePublished: Fri Jul 26 2024 08:34:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-26T08:34:23.159Z
 cuid: clz2g4wtz000409mj0g3mamle
 slug: hosting-a-web-app-on-google-cloud-using-compute-engine-gsp662
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755327827668/1ea7a6ac-37b7-4c51-98ea-a10897a17a7f.png
