@@ -2,7 +2,7 @@
 title: "The GraphOS Studio Explorer"
 seoTitle: "The GraphOS Studio Explorer"
 seoDescription: "Today, we’re introducing Apollo Sandbox – the quickest way to navigate and test your GraphQL endpoints."
-datePublished: Fri Aug 04 2023 08:58:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-08-04T08:58:25.664Z
 cuid: clkwcspvk001108jr28vpgijh
 slug: the-graphos-studio-explorer
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691139711673/d0996439-7471-4f91-83c9-b33868f01281.png
