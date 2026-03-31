@@ -2,7 +2,7 @@
 title: "Serverless Architectures on AWS - Week 1 Quiz"
 seoTitle: "Serverless Architectures on AWS - Week 1 Quiz"
 seoDescription: "This week, you explore tools and practices that can help you automate tasks that you do in AWS. First, you learn about AWS CloudFormation so you can automat"
-datePublished: Thu Oct 17 2024 07:09:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-17T07:09:19.377Z
 cuid: cm2cyn829000s09mb647jblvk
 slug: serverless-architectures-on-aws-week-1-quiz
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729148877460/9e5b14b6-3672-492f-ab9a-8bbc4560b0f4.png
