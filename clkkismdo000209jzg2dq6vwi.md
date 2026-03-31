@@ -2,7 +2,7 @@
 title: "Gmail + email address trick for multiple accounts"
 seoTitle: "Gmail + email address trick for multiple accounts"
 seoDescription: "As of my last update in September 2021, Gmail had a useful trick that allowed users to create multiple accounts using a single email address. This trick exp"
-datePublished: Thu Jul 27 2023 02:13:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-07-27T02:13:04.716Z
 cuid: clkkismdo000209jzg2dq6vwi
 slug: gmail-email-address-trick-for-multiple-accounts
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690423561214/ad06fdef-8dac-4e35-8cca-b1ff0759b91c.jpeg
