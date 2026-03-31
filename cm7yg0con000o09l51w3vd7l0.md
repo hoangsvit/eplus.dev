@@ -2,7 +2,7 @@
 title: "Securing Compute Engine Applications and Resources using Chrome Enterprise Premium - GSP1033"
 seoTitle: "Securing Compute Engine Applications and Resources using Chrome Enterp"
 seoDescription: "In this lab, you will learn how to secure Compute Engine workloads using Chrome Enterprise Premium's Identity Aware Proxy to restrict traffic based on ident"
-datePublished: Fri Mar 07 2025 07:17:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-07T07:17:06.743Z
 cuid: cm7yg0con000o09l51w3vd7l0
 slug: securing-compute-engine-applications-and-resources-using-chrome-enterprise-premium-gsp1033
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741331656931/36cea969-1763-46fa-9365-40c17efc73f4.png
