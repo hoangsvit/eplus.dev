@@ -1,6 +1,6 @@
 ---
 title: "How did I build a free status page for my website?"
-datePublished: Thu Jul 01 2021 13:33:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2021-07-01T13:33:58.000Z
 cuid: ckqkz0e1q01k8ejs1c3eqcz87
 slug: how-did-i-build-a-free-status-page-for-my-website
 canonical: https://dev.to/hoangit/how-did-i-build-a-free-status-page-for-my-website-1i19
