@@ -2,7 +2,7 @@
 title: "Setting Up Cost Control with Quota - GSP651"
 seoTitle: "Setting Up Cost Control with Quota - GSP651"
 seoDescription: "In this lab, you explore controlling your BigQuery costs by modifying quota."
-datePublished: Tue Sep 03 2024 13:08:20 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-03T13:08:20.282Z
 cuid: cm0mg3fsq00070ala17xqa9jr
 slug: setting-up-cost-control-with-quota-gsp651
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761299605872/e3695e05-5c94-49be-a331-597687760a52.png
