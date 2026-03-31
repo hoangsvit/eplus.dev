@@ -2,7 +2,7 @@
 title: "Arcade Hero: Enter the Artifact Registry NPM - ARC152"
 seoTitle: "Arcade Hero: Enter the Artifact Registry NPM - ARC152"
 seoDescription: "Learn the fundamentals of Artifact Registry with hands-on practice in Google Cloud through this lab. Ideal for beginners and advanced users"
-datePublished: Sat Oct 04 2025 07:12:46 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-04T07:12:46.145Z
 cuid: cmgbxri9t000502k3b6g21air
 slug: arcade-hero-enter-the-artifact-registry-npm-arc152
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759561824059/dea6e8ba-66fd-4da8-b52a-02233b9d9e7c.png
