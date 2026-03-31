@@ -2,7 +2,7 @@
 title: "Manage Cloud Storage Lifecycle Policy using gsutil (Solution)"
 seoTitle: "Manage Cloud Storage Lifecycle Policy using gsutil (Solution)"
 seoDescription: "Optimize cloud storage costs using gsutil by implementing a lifecycle management policy to manage active files, archives, and temporary logs"
-datePublished: Sun Jan 11 2026 07:50:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-11T07:50:02.881Z
 cuid: cmk9fos5d000102l11xny3fnu
 slug: manage-cloud-storage-lifecycle-policy-using-gsutil-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768117430018/94362f07-1a0d-4c75-816b-e76aafb2d111.png
