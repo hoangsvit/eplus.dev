@@ -2,7 +2,7 @@
 title: "Log Analytics on Google Cloud - GSP1088"
 seoTitle: "Log Analytics on Google Cloud - GSP1088"
 seoDescription: "In this lab you will learn about the features and tools provided by Cloud Logging to gain insight of your applications."
-datePublished: Tue Sep 03 2024 08:18:05 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-03T08:18:05.282Z
 cuid: cm0m5q6aq000e09la6fp02e7a
 slug: log-analytics-on-google-cloud-gsp1088
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752723201170/59663c4a-682e-4a80-92ae-de215464786c.png
