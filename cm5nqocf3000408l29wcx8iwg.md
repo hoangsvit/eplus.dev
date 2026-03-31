@@ -2,7 +2,7 @@
 title: "[Arcade Prize Counter] Success has its rewards—grab yours now!"
 seoTitle: "[Arcade Prize Counter] Success has its rewards—grab yours now!"
 seoDescription: "[Arcade Prize Counter] Success has its rewards—grab yours now!"
-datePublished: Wed Jan 08 2025 10:10:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-08T10:10:49.695Z
 cuid: cm5nqocf3000408l29wcx8iwg
 slug: arcade-prize-counter-success-has-its-rewardsgrab-yours-now
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736330974190/6cb4aced-4dcf-4dae-a678-affd976ce737.png
