@@ -2,7 +2,7 @@
 title: "Create VPC Peering Connection between VPCs (Solution)"
 seoTitle: "Create VPC Peering Connection between VPCs (Solution)"
 seoDescription: "Learn how to create a secure VPC peering connection between two VPCs for seamless communication and resource interaction in this step-by-step guide"
-datePublished: Sun Feb 15 2026 07:56:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-02-15T07:56:45.196Z
 cuid: cmlngc7ws000b02l5gfxgh8kj
 slug: create-vpc-peering-connection-between-vpcs-solution-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1771142199471/4b4dfe17-a149-4c99-8807-6d9eb6ff6526.png
