@@ -2,7 +2,7 @@
 title: "Google Cloud #QuanQuanGCP Mùa 6: Khám Phá AI/ML và Cơ Hội Nhận Quà Tặng!"
 seoTitle: "Chương Trình Tự Học Google Cloud #QuanQuanGCP: Khám Phá Lab AI/ML"
 seoDescription: "Chương Trình Tự Học Google Cloud #QuanQuanGCP: Khám Phá Lab AI/ML và Cơ Hội Nhận Quà Tặng!"
-datePublished: Fri Feb 23 2024 05:59:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-02-23T05:59:48.388Z
 cuid: clsy8sxpg000p0al809io45id
 slug: google-cloud-quanquangcp-mua-6-kham-pha-ai-ml-va-co-hoi-nhan-qua-tang
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1708667797906/eefdfac1-d109-4d88-916b-a7b000fd03d3.png
