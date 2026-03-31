@@ -2,7 +2,7 @@
 title: "Knowledge check: Type and text design - UI/UX"
 seoTitle: "Knowledge check: Type and text design - UI/UX"
 seoDescription: "Knowledge check: Type and text design - UI/UX"
-datePublished: Tue Sep 17 2024 04:27:40 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-17T04:27:40.344Z
 cuid: cm15xns8o001c09kua8t0bpf9
 slug: knowledge-check-type-and-text-design-ui-ux
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726547237333/cb3917fa-31e0-4864-be65-26f53fe120ad.jpeg
