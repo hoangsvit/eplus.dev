@@ -2,7 +2,7 @@
 title: "Knowledge check: Table booking system"
 seoTitle: "Knowledge check: Table booking system"
 seoDescription: "Knowledge check: Table booking system"
-datePublished: Sat Oct 05 2024 07:59:17 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-05T07:59:17.850Z
 cuid: cm1vv59p6000c0ame9dnwcbkp
 slug: knowledge-check-table-booking-system
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728115138278/68b6dd8a-4a22-47da-bb97-24fbeaf64789.png
