@@ -4,7 +4,7 @@ seoTitle: "Automating and Customizing Reports in Looker Studio Pro (Solution)"
 seoDescription: "This lab is an optional item in the Looker Studio Pro Essentials course.
 
 This lab environment is currently under development and may exhibit occasional une"
-datePublished: Fri Mar 07 2025 08:12:40 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-07T08:12:40.225Z
 cuid: cm7yhzstd000a09l82hslhihu
 slug: automating-and-customizing-reports-in-looker-studio-pro-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741334703420/3d6df4f0-39e0-46ec-8983-bd3f7ebda614.png
