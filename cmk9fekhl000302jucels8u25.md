@@ -2,7 +2,7 @@
 title: "Configure Cloud Storage Bucket for Website Hosting using gsutil (Solution)"
 seoTitle: "Configure Cloud Storage Bucket for Website Hosting using gsutil"
 seoDescription: "Learn to configure a Google Cloud Storage bucket for static website hosting using gsutil commands. Make your content publicly accessible"
-datePublished: Sun Jan 11 2026 07:42:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-11T07:42:06.393Z
 cuid: cmk9fekhl000302jucels8u25
 slug: configure-cloud-storage-bucket-for-website-hosting-using-gsutil-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768117070535/a71b6478-b17a-4f05-bcaf-58c0c430b7ee.png
