@@ -2,7 +2,7 @@
 title: "Get Started with Cloud Storage: Challenge Lab - ARC111"
 seoTitle: "Get Started with Cloud Storage: Challenge Lab - ARC111"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Fri Jul 26 2024 09:46:52 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-26T09:46:52.863Z
 cuid: clz2iq533000u09jy0v0yfz5t
 slug: get-started-with-cloud-storage-challenge-lab-arc111
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745294917384/04515835-be81-4a5b-a2bd-e7e7ff4af343.png
