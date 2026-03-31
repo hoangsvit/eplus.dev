@@ -2,7 +2,7 @@
 title: "[Knowledge check] Describe the core architectural components of Azure"
 seoTitle: "[Knowledge check] Describe the core architectural components of Azure"
 seoDescription: "This module explains the basic infrastructure components of Microsoft Azure. You'll learn about the physical infrastructure, how resources are managed, and"
-datePublished: Fri Jun 21 2024 08:15:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-21T08:15:23.988Z
 cuid: clxof1oic000609kyaehp979z
 slug: knowledge-check-describe-the-core-architectural-components-of-azure
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718957755446/5bb4d4db-4bae-410f-8cfc-116fab32d21a.png
