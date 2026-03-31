@@ -2,7 +2,7 @@
 title: "Knowledge check: Setting up the project"
 seoTitle: "Knowledge check: Setting up the project"
 seoDescription: "Knowledge check: Setting up the project"
-datePublished: Tue Sep 17 2024 10:01:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-17T10:01:04.431Z
 cuid: cm169kjhr003a09jsbu4rgw67
 slug: knowledge-check-setting-up-the-project
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726567240775/ed4b3738-d3ba-493e-b0ce-e9c7d0db953a.jpeg
