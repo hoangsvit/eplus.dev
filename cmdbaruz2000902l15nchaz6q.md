@@ -2,7 +2,7 @@
 title: "Create a Maven Artifact Registry and Upload Code - gem-artifact-registry-maven"
 seoTitle: "Create a Maven Artifact Registry and Upload Code - gem-artifact-regist"
 seoDescription: "Learn to create a Maven Artifact Registry on Google Cloud, configure gcloud and Maven, and deploy a sample project"
-datePublished: Sun Jul 20 2025 06:30:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-20T06:30:04.430Z
 cuid: cmdbaruz2000902l15nchaz6q
 slug: create-a-maven-artifact-registry-and-upload-code-gem-artifact-registry-maven
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752992800943/34390aa7-df6d-4aed-a322-8b9c3b7d7478.png
