@@ -2,7 +2,7 @@
 title: "Laravel Eloquent Tips"
 seoTitle: "Laravel Eloquent Tips"
 seoDescription: "This is a short list of the amazing hidden Laravel eloquent 30 tips that make the code go on smoothly."
-datePublished: Wed Oct 11 2023 01:56:08 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-10-11T01:56:08.018Z
 cuid: clnl3nkk1000309mj42on7hbn
 slug: laravel-eloquent-tips
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696989215288/8835f219-8091-4094-8f97-47f2e5b9f856.png
