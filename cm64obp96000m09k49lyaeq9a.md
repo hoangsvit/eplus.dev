@@ -2,7 +2,7 @@
 title: "Offloading Financial Mainframe Data into BigQuery and Elastic Search - GSP1153"
 seoTitle: "Offloading Financial Mainframe Data into BigQuery and Elastic Search -"
 seoDescription: "Financial institutions have vast amounts of data about their customers. However, many of them struggle to leverage data to their advantage. Data may be sitt"
-datePublished: Mon Jan 20 2025 06:37:05 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-20T06:37:05.562Z
 cuid: cm64obp96000m09k49lyaeq9a
 slug: offloading-financial-mainframe-data-into-bigquery-and-elastic-search-gsp1153
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737354830708/e948952e-25e4-47be-af01-ba9123bb9d63.png
