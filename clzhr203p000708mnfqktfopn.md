@@ -2,7 +2,7 @@
 title: "Start Here (don't skip this!) - Arcade Lab"
 seoTitle: "Start Here (don't skip this!) - Arcade Lab"
 seoDescription: "Get ready to embark on a thrilling journey of learning and discovery with this brand new Arcade Game. Before diving into the world of new skills and technol"
-datePublished: Tue Aug 06 2024 01:36:35 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-06T01:36:35.845Z
 cuid: clzhr203p000708mnfqktfopn
 slug: start-here-dont-skip-this-arcade-lab
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730957843392/7b35a783-2525-48de-bc95-d30eb2c2a4e9.png
