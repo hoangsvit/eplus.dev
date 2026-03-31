@@ -2,7 +2,7 @@
 title: "Continuous Delivery with Google Cloud Deploy - GSP1079"
 seoTitle: "Continuous Delivery with Google Cloud Deploy - GSP1079"
 seoDescription: "Google Cloud Deploy is a managed service that automates delivery of your applications to a series of target environments in a defined promotion sequence. Wh"
-datePublished: Mon Sep 09 2024 04:06:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-09T04:06:06.668Z
 cuid: cm0uhd8p8001q0ajjasga6u2m
 slug: continuous-delivery-with-google-cloud-deploy-gsp1079
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746865159679/cd5a53e5-d63f-42bf-93aa-5865195d5e99.png
