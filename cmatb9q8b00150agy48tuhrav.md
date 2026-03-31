@@ -2,7 +2,7 @@
 title: "Cloud Run Functions: Qwik Start - Command Line - GSP080"
 seoTitle: "Cloud Run Functions: Qwik Start - Command Line - GSP080"
 seoDescription: "A Cloud Run function is a piece of code that runs in response to an event, such as an HTTP request, a message from a messaging service, or a file upload. Cl"
-datePublished: Sun May 18 2025 07:04:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-18T07:04:42.251Z
 cuid: cmatb9q8b00150agy48tuhrav
 slug: cloud-run-functions-qwik-start-command-line-gsp080
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747551687247/6f970d71-8f87-4690-a996-6d8a031a7caa.png
