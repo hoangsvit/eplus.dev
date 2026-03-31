@@ -4,7 +4,7 @@ seoTitle: "Arcade Quiz: Database Engineer Challenge - osl-arc-0011"
 seoDescription: "Welcome to the Arcade Quiz. Here we bring you a dose of knowledge on random topics.
 
 Are you ready to rise to the top? The Arcade Quiz is your opportunity t"
-datePublished: Sun Jun 08 2025 06:50:56 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-08T06:50:56.433Z
 cuid: cmbnb0x0x000502jxgwp9c9t8
 slug: arcade-quiz-database-engineer-challenge-osl-arc-0011
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749365419847/f2b549b6-a691-4734-8149-1dbafdff96eb.png
