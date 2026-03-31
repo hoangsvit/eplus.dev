@@ -2,7 +2,7 @@
 title: "Connected Sheets: Qwik Start - GSP870"
 seoTitle: "Connected Sheets: Qwik Start - GSP870"
 seoDescription: "Connected Sheets brings you the power and scale of a BigQuery data warehouse to the familiar context of Google Sheets. With Connected Sheets, you can analyz"
-datePublished: Wed Sep 11 2024 14:02:07 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-11T14:02:07.369Z
 cuid: cm0xxjf61001i08l86fmo5m5k
 slug: connected-sheets-qwik-start-gsp870
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749282947111/f1dd8290-fa0e-4099-944a-aea34150ef30.png
