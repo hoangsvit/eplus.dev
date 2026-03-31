@@ -2,7 +2,7 @@
 title: "Django Web Framework - Module quiz: Django REST framework"
 seoTitle: "Django Web Framework - Module quiz: Django REST framework"
 seoDescription: "Django Web Framework - Module quiz: Django REST framework"
-datePublished: Mon Nov 11 2024 10:06:09 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-11T10:06:09.574Z
 cuid: cm3cuyxly000n08lbc9pz57j8
 slug: django-web-framework-module-quiz-django-rest-framework
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731319515949/24ac3a3e-e310-4ad8-9adc-c0e6c76b1ca0.png
