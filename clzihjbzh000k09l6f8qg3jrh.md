@@ -2,7 +2,7 @@
 title: "Troubleshooting and Solving Data Join Pitfalls - GSP412"
 seoTitle: "Troubleshooting and Solving Data Join Pitfalls - GSP412"
 seoDescription: "BigQuery is Google's fully managed, NoOps, low cost analytics database. With BigQuery you can query terabytes and terabytes of data without having any infra"
-datePublished: Tue Aug 06 2024 13:57:54 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-06T13:57:54.413Z
 cuid: clzihjbzh000k09l6f8qg3jrh
 slug: troubleshooting-and-solving-data-join-pitfalls-gsp412
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758004151604/b32f6c4e-b5b8-472e-b961-438cabc9698d.png
