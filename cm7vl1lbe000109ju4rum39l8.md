@@ -4,7 +4,7 @@ seoTitle: "Arcade Adventure: ACE App Dev VI - arc3005"
 seoDescription: "In this lab you will learn the fundamentals of Cloud Service Engineering using Google Cloud.
 
 If you are new to Cloud Service Engineering or looking for an "
-datePublished: Wed Mar 05 2025 07:14:44 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-05T07:14:44.138Z
 cuid: cm7vl1lbe000109ju4rum39l8
 slug: arcade-adventure-ace-app-dev-vi-arc3005
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741158852847/51f4fe6d-1c1c-4f07-bc2d-5d635c2a4089.png
