@@ -2,7 +2,7 @@
 title: "Docker Essentials: Container Networking - gem-docker-networking"
 seoTitle: "Docker Essentials: Container Networking - gem-docker-networking"
 seoDescription: "Learn Docker networking: create custom networks, manage container communication, and explore default and bridge modes with hands-on tasks"
-datePublished: Sun Feb 15 2026 09:02:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-02-15T09:02:28.093Z
 cuid: cmlnioq9p000g02l8do0b0xmr
 slug: docker-essentials-container-networking-gem-docker-networking-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1771146007929/f9232612-8d2c-419c-8d81-87d7bd1955e4.png
