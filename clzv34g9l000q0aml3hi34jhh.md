@@ -2,7 +2,7 @@
 title: "Managing Terraform State - GSP752"
 seoTitle: "Managing Terraform State - GSP752"
 seoDescription: "Terraform must store the state about your managed infrastructure and configuration. This state is used by Terraform to map real-world resources to your conf"
-datePublished: Thu Aug 15 2024 09:35:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-15T09:35:25.785Z
 cuid: clzv34g9l000q0aml3hi34jhh
 slug: managing-terraform-state-gsp752
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749806524792/0563e6a3-9384-4e00-bb04-181eade74e85.png
