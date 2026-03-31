@@ -2,7 +2,7 @@
 title: "Fraud Detection on Financial Transactions with Machine Learning on Google Cloud - GSP774"
 seoTitle: "Fraud Detection on Financial Transactions with Machine Learning on Goo"
 seoDescription: "In this lab you will explore the financial transactions data for fraud analysis, apply feature engineering and machine learning techniques to detect fraudul"
-datePublished: Sun Jun 08 2025 05:22:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-08T05:22:03.204Z
 cuid: cmbn7ulvn000602lbbs6h99wy
 slug: fraud-detection-on-financial-transactions-with-machine-learning-on-google-cloud-gsp774
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749360096006/833b8fc6-4580-4847-b7e9-f96bafecadb2.png
