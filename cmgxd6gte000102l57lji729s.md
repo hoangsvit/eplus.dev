@@ -2,7 +2,7 @@
 title: "Arcade Hero: Enter the Subnet - ARC127"
 seoTitle: "Arcade Hero: Enter the Subnet - ARC127"
 seoDescription: "Learn the fundamentals of Virtual Private Cloud Network using Google Cloud with hands-on practice in this informative lab"
-datePublished: Sun Oct 19 2025 07:07:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-19T07:07:28.034Z
 cuid: cmgxd6gte000102l57lji729s
 slug: arcade-hero-enter-the-subnet-arc127
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760857175477/934762ee-9baa-4d67-8c6b-a20951380c7a.png
