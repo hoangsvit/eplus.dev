@@ -2,7 +2,7 @@
 title: "Chương trình #ChienBinhAndroid: Học Android Miễn phí với Compose Camp"
 seoTitle: "Chương trình #ChienBinhAndroid: Học Android Miễn phí với Compose Cam"
 seoDescription: "Chương trình #ChienBinhAndroid là một cơ hội tuyệt vời cho các lập trình viên muốn bắt đầu hành trình phát triển ứng dụng Android bằng việc sử dụng Compose."
-datePublished: Fri Jul 28 2023 15:09:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-07-28T15:09:12.627Z
 cuid: clkmpyl2r000009l78v3eegkv
 slug: chuong-trinh-chienbinhandroid-hoc-android-mien-phi-voi-compose-camp
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690556631235/e97121c2-a2a6-4809-8e91-c7ff33095a30.png
