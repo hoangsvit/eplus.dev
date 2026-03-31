@@ -2,7 +2,7 @@
 title: "Securing Container Builds - GSP1185"
 seoTitle: "Securing Container Builds - GSP1185"
 seoDescription: "Artifact Registry enables you to store different artifact types, create multiple repositories in a single project, and associate a specific region or multi-"
-datePublished: Sat Feb 22 2025 09:04:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-22T09:04:12.056Z
 cuid: cm7fz3ztk000009jjf6vk1vzy
 slug: securing-container-builds-gsp1185
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740214839888/58eba210-55b7-488f-9f4d-b5a26d1e95df.png
