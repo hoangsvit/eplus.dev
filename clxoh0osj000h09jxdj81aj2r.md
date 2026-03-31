@@ -2,7 +2,7 @@
 title: "[Knowledge check] Describe cost management in Azure"
 seoTitle: "[Knowledge check] Describe cost management in Azure"
 seoDescription: "This module explores methods to estimate, track, and manage costs in Azure."
-datePublished: Fri Jun 21 2024 09:10:36 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-21T09:10:36.931Z
 cuid: clxoh0osj000h09jxdj81aj2r
 slug: knowledge-check-describe-cost-management-in-azure
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718960968833/a134cbb4-cce5-4181-b70f-d440cac3fe3b.png
