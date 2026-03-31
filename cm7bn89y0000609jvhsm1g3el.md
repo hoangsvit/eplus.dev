@@ -2,7 +2,7 @@
 title: "Skills Boost Arcade Trivia February 2025 Week 3"
 seoTitle: "Skills Boost Arcade Trivia February 2025 Week 3"
 seoDescription: "Skills Boost Arcade Trivia February 2025 Week 3"
-datePublished: Wed Feb 19 2025 08:20:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-19T08:20:31.705Z
 cuid: cm7bn89y0000609jvhsm1g3el
 slug: skills-boost-arcade-trivia-february-2025-week-3
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739953022282/6a77336f-9e6a-48ad-b0bf-ecffab831d48.png
