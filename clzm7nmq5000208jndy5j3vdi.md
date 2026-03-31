@@ -2,7 +2,7 @@
 title: "Deploy Go Apps on Google Cloud Serverless Platforms - GSP702"
 seoTitle: "Deploy Go Apps on Google Cloud Serverless Platforms - GSP702"
 seoDescription: "Go is an open source programming language by Google that makes it easy to build fast, reliable, and efficient software at scale. In this lab you explore the"
-datePublished: Fri Aug 09 2024 04:32:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-09T04:32:23.501Z
 cuid: clzm7nmq5000208jndy5j3vdi
 slug: deploy-go-apps-on-google-cloud-serverless-platforms-gsp702
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723177101236/b82d6426-caca-46c0-8bdc-18f74f03429c.png
