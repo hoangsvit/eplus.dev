@@ -2,7 +2,7 @@
 title: "Getting Started with the Vertex AI Gemini API with cURL - GSP1228"
 seoTitle: "Getting Started with the Vertex AI Gemini API with cURL - GSP1228"
 seoDescription: "Gemini is a family of generative AI models developed by Google DeepMind that is designed for multimodal use cases. The Gemini API gives you access to the Ge"
-datePublished: Thu Aug 22 2024 09:19:33 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-22T09:19:33.019Z
 cuid: cm052mzrv000b08l4aetc6u2m
 slug: getting-started-with-the-vertex-ai-gemini-api-with-curl-gsp1228
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724317519347/5cb6e6ec-763d-4d8a-a36e-9c2721b9faed.jpeg
