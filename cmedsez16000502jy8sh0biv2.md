@@ -2,7 +2,7 @@
 title: "VPC Networking: Cloud HA-VPN - GSP619"
 seoTitle: "VPC Networking: Cloud HA-VPN - GSP619"
 seoDescription: "Configure Google Cloud's HA-VPN for enhanced security, high availability, and connectivity between on-premises and virtual private cloud networks"
-datePublished: Sat Aug 16 2025 04:59:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-16T04:59:10.938Z
 cuid: cmedsez16000502jy8sh0biv2
 slug: vpc-networking-cloud-ha-vpn-gsp619
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755319579481/f17ce90a-81ea-4b7b-8db4-edacf60af59f.png
