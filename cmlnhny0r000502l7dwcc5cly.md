@@ -2,7 +2,7 @@
 title: "Arcade Hero: Enter the VPC - ARC122-VPC"
 seoTitle: "Arcade Hero: Enter the VPC (Solution)"
 seoDescription: "Learn the fundamentals of `topic` with hands-on practice in Google Cloud via the VPC-ARC122 lab"
-datePublished: Sun Feb 15 2026 08:33:51 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-02-15T08:33:51.867Z
 cuid: cmlnhny0r000502l7dwcc5cly
 slug: arcade-hero-enter-the-vpc-arc122-vpc-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1771144386657/726a5819-5871-44a2-9de2-3fe0fbed7309.png
