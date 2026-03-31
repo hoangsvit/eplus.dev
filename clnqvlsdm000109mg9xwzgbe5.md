@@ -2,7 +2,7 @@
 title: "LangCountry: Laravel Localization Made Effortless"
 seoTitle: "LangCountry: Laravel Localization Made Effortless"
 seoDescription: "LangCountry is a Laravel localization package that streamlines the process of handling localization tasks, including automatic date formatting, language swi"
-datePublished: Sun Oct 15 2023 02:57:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-10-15T02:57:24.971Z
 cuid: clnqvlsdm000109mg9xwzgbe5
 slug: langcountry-laravel-localization-made-effortless
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1697338286646/58b454a9-8c24-458f-999c-6dcb84888993.png
