@@ -2,7 +2,7 @@
 title: "Enabling Sensitive Data Protection Discovery for BigQuery - GSP1282"
 seoTitle: "Enabling Sensitive Data Protection Discovery for BigQuery - GSP1282"
 seoDescription: "Sensitive Data Protection is a fully managed service designed to help you discover, classify, and protect sensitive information. Key options include Sensiti"
-datePublished: Fri Mar 07 2025 06:30:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-07T06:30:25.918Z
 cuid: cm7yecbjx000e08l8aahp6oht
 slug: enabling-sensitive-data-protection-discovery-for-bigquery-gsp1282
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741328969771/e51d2ac8-9f44-4257-8bb1-c489d55d9089.png
