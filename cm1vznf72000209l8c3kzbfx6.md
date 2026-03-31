@@ -4,7 +4,7 @@ seoTitle: "Redacting Sensitive Data with the DLP API (Solution)"
 seoDescription: "For each lab, you get a new Google Cloud project and set of resources for a fixed time at no cost.
 
 Sign in to Qwiklabs using an incognito window."
-datePublished: Sat Oct 05 2024 10:05:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-05T10:05:23.246Z
 cuid: cm1vznf72000209l8c3kzbfx6
 slug: redacting-sensitive-data-with-the-dlp-api-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728122646864/aef3b343-47cb-41ec-826c-1f2d615607be.png
