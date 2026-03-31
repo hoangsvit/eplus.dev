@@ -2,7 +2,7 @@
 title: "Manage Rendering for Cloud Storage Website Hosting (Solution)"
 seoTitle: "Manage Rendering for Cloud Storage Website Hosting (Solution)"
 seoDescription: "Configure Cloud Storage bucket for website hosting by updating object metadata for direct browser access instead of download prompts"
-datePublished: Sun Jan 25 2026 07:53:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-25T07:53:02.814Z
 cuid: cmktfykbh000002lagzsc4v8j
 slug: manage-rendering-for-cloud-storage-website-hosting-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769327042829/754be7b2-9db0-40a1-a011-6a84b34ce710.png
