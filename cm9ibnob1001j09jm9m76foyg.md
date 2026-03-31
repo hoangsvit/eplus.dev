@@ -2,7 +2,7 @@
 title: "[2025] Networking 101 - GSP016"
 seoTitle: "[2025] Networking 101 - GSP016"
 seoDescription: "In this lab you will learn how to perform basic networking tasks on Google Cloud (including Compute Engine instances) and how Google Cloud might differ from"
-datePublished: Tue Apr 15 2025 09:50:22 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-15T09:50:22.669Z
 cuid: cm9ibnob1001j09jm9m76foyg
 slug: 2025-networking-101-gsp016
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744710390736/3057ed3b-5a7a-45a2-8042-378d1810c004.png
