@@ -2,7 +2,7 @@
 title: "Trust and Security with Google Cloud"
 seoTitle: "Trust and Security with Google Cloud"
 seoDescription: "As organizations move their data and applications to the cloud, they must address new security challenges. The Trust and Security with Google Cloud course e"
-datePublished: Thu Aug 01 2024 09:57:20 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-01T09:57:20.458Z
 cuid: clzb3qpca00090ajq5jko6hgr
 slug: trust-and-security-with-google-cloud
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722505789872/fc75792e-41c8-4693-a51b-011fff098c87.png
