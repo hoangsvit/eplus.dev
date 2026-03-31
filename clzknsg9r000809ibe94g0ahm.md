@@ -2,7 +2,7 @@
 title: "App Building with AppSheet: Challenge Lab - ARC105"
 seoTitle: "App Building with AppSheet: Challenge Lab - ARC105"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Thu Aug 08 2024 02:28:29 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-08T02:28:29.919Z
 cuid: clzknsg9r000809ibe94g0ahm
 slug: app-building-with-appsheet-challenge-lab-arc105
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758256094173/f10214ff-4f59-4703-a115-a5762204793c.png
