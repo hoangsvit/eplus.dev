@@ -2,7 +2,7 @@
 title: "Small but powerful CLI apps with Minicli"
 seoTitle: "Small but powerful CLI apps with Minicli"
 seoDescription: "Building CLI applications can be a lot of fun. We don't have to worry about the UI, and we can write beautiful PHP code that doesn't need any build steps."
-datePublished: Tue May 09 2023 06:54:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-05-09T06:54:48.474Z
 cuid: clhfx2mqh00000aljdga2hazo
 slug: small-but-powerful-cli-apps-with-minicli
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683615075700/855e124c-0db5-43cc-abee-662f474b491a.png
