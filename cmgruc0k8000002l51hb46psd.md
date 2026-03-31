@@ -2,7 +2,7 @@
 title: "Skills Boost Arcade Trivia October 2025 Week 3 (Solution)"
 seoTitle: "Skills Boost Arcade Trivia October 2025 Week 3 (Solution)"
 seoDescription: "Skills Boost Arcade Trivia: Test your knowledge on Google Cloud services with this October 2025 quiz. Boost your skills with hands-on experience"
-datePublished: Wed Oct 15 2025 10:21:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-15T10:21:03.321Z
 cuid: cmgruc0k8000002l51hb46psd
 slug: skills-boost-arcade-trivia-october-2025-week-3-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760523632348/5e1dd148-8f94-4edb-8323-63ffcdcdc674.png
