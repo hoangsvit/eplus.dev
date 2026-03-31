@@ -1,7 +1,7 @@
 ---
 title: "EnumConcern - A PHP Package for Effortless Enumeration Handling"
 seoDescription: "EnumConcern is a PHP package designed to enhance the usage of PHP's Enum feature with a set of convenient methods. This package includes a Trait file that e"
-datePublished: Tue Aug 22 2023 02:09:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-08-22T02:09:12.671Z
 cuid: clllo3sny000208kz01gv6rww
 slug: enumconcern-a-php-package-for-effortless-enumeration-handling
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692670106425/91f6d557-a98c-42b3-a3f3-83306d45a76d.jpeg
