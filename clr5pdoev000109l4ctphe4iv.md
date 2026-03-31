@@ -2,7 +2,7 @@
 title: "Trang web được tạo thông qua Trang doanh nghiệp trên Google sẽ sớm bị xoá"
 seoTitle: "Trang web được tạo thông qua Trang doanh nghiệp trên Google sẽ sớm bị"
 seoDescription: "Kể từ ngày 1 tháng 3, 2024, khách hàng sẽ được chuyển hướng đến Trang doanh nghiệp của bạn khi truy cập vào các trang web này"
-datePublished: Tue Jan 09 2024 01:58:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-01-09T01:58:48.535Z
 cuid: clr5pdoev000109l4ctphe4iv
 slug: trang-web-duoc-tao-thong-qua-trang-doanh-nghiep-tren-google-se-som-bi-xoa
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704765371828/df8c09f4-c056-41b0-90d0-afaa3001dffd.png
