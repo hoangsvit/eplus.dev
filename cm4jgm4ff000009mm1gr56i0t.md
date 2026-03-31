@@ -2,7 +2,7 @@
 title: "Google Workspace for Education: Challenge Lab - GSP362"
 seoTitle: "Google Workspace for Education: Challenge Lab - GSP362"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Wed Dec 11 2024 05:38:22 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-11T05:38:22.828Z
 cuid: cm4jgm4ff000009mm1gr56i0t
 slug: google-workspace-for-education-challenge-lab-gsp362
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733895477190/1d367b35-e4e9-4e82-abb0-997637318840.png
