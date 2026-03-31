@@ -2,7 +2,7 @@
 title: "Knowledge check: Navigation - React Basic"
 seoTitle: "Knowledge check: Navigation - React Basic"
 seoDescription: "Knowledge check: Navigation - React Basic"
-datePublished: Thu Aug 15 2024 13:11:54 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-15T13:11:54.742Z
 cuid: clzvauuly000308la6af43jmz
 slug: knowledge-check-navigation-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723727359808/c2e5fa5c-a459-4765-9464-329ef31b9137.png
