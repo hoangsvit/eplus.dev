@@ -2,7 +2,7 @@
 title: "Export Data from BigQuery to Cloud Storage"
 seoTitle: "Export Data from BigQuery to Cloud Storage"
 seoDescription: "Guide to export BigQuery data to Cloud Storage via terminal commands, including CSV file management and table creation tasks"
-datePublished: Thu Sep 04 2025 03:39:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-04T03:39:19.393Z
 cuid: cmf4uxgio000b02ihhno30pzw
 slug: export-data-from-bigquery-to-cloud-storage
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756957116157/df505817-dcce-4112-8303-759cc6ebfddc.png
