@@ -2,7 +2,7 @@
 title: "Automating the Deployment of Networks with Terraform - GSP460"
 seoTitle: "Automating the Deployment of Networks with Terraform - GSP460"
 seoDescription: "Automate Google Cloud deployments with Terraform: custom networks, firewall rules, VM instances for efficient management"
-datePublished: Wed Oct 15 2025 09:13:14 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-15T09:13:14.555Z
 cuid: cmgrrwt2z000802k0418zhlg8
 slug: automating-the-deployment-of-networks-with-terraform-gsp460
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1760519532948/1ae99e3e-50f7-4f88-980a-67239614dd30.png
