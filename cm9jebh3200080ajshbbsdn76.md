@@ -2,7 +2,7 @@
 title: "Merging Results from Different Explores in Looker - GSP856"
 seoTitle: "Merging Results from Different Explores in Looker - GSP856"
 seoDescription: "Explores in Looker are designed by your Looker developers to combine the data from your database tables in the best way, using defined relationships between"
-datePublished: Wed Apr 16 2025 03:52:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-16T03:52:38.462Z
 cuid: cm9jebh3200080ajshbbsdn76
 slug: merging-results-from-different-explores-in-looker-gsp856
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744775084313/834ff471-78af-4ae3-a91c-436c07eb9ec6.png
