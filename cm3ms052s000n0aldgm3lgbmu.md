@@ -2,7 +2,7 @@
 title: "Back-End Developer Capstone - Project Functionality"
 seoTitle: "Back-End Developer Capstone - Project Functionality"
 seoDescription: "Back-End Developer Capstone - Project Functionality"
-datePublished: Mon Nov 18 2024 08:40:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-18T08:40:48.820Z
 cuid: cm3ms052s000n0aldgm3lgbmu
 slug: back-end-developer-capstone-project-functionality
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731919224382/98551b29-2fb2-48df-ac72-892a88d01d90.png
