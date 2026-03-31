@@ -2,7 +2,7 @@
 title: "Self-review: Writing more test scenarios - Advanced React"
 seoTitle: "Self-review: Writing more test scenarios - Advanced React"
 seoDescription: "Self-review: Writing more test scenarios - Advanced React"
-datePublished: Mon Sep 16 2024 08:41:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-16T08:41:28.383Z
 cuid: cm14rablr000b09jx97sihdib
 slug: self-review-writing-more-test-scenarios-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726476059524/1ba98bbc-377d-4a51-afe7-0423fc62df59.jpeg
