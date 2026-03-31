@@ -4,7 +4,7 @@ seoTitle: "Arcade Quiz: Machine Learning Engineer Challenge - osl-arc-0009"
 seoDescription: "Welcome to the Arcade Quiz. Here we bring you a dose of knowledge on random topics.
 
 Are you ready to rise to the top? The Arcade Quiz is your opportunity t"
-datePublished: Mon Apr 14 2025 07:38:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-14T07:38:49.424Z
 cuid: cm9grin68000t09ij83x18nen
 slug: arcade-quiz-machine-learning-engineer-challenge-osl-arc-0009
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744616249589/6961bc07-9bd5-46e1-991e-72411fce4e82.png
