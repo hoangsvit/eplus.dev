@@ -2,7 +2,7 @@
 title: "Deploy Microsoft SQL Server to Compute Engine - GSP031"
 seoTitle: "Deploy Microsoft SQL Server to Compute Engine - GSP031"
 seoDescription: "Compute Engine lets you create and run virtual machines on Google infrastructure. There is a catalog of public application images available, including a var"
-datePublished: Wed Aug 07 2024 07:04:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-07T07:04:57.141Z
 cuid: clzji84dx000x08l7dr124h8k
 slug: deploy-microsoft-sql-server-to-compute-engine-gsp031
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752548872003/c96e239b-5dd3-42a3-af37-0c267a72c20b.png
