@@ -2,7 +2,7 @@
 title: "The Skills Boost Arcade 2025 Tiers (Official)"
 seoTitle: "The Skills Boost Arcade 2025 Tiers (Official)"
 seoDescription: "You’ve been skilling up, racking up points, crushing challenges, and maybe even losing track of time doing all of this (happens to the best of us). Now it’s"
-datePublished: Wed Apr 16 2025 06:06:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-16T06:06:45.564Z
 cuid: cm9jj3y9o002l08k10pe5g6sk
 slug: the-skills-boost-arcade-2025-tiers-official
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744783551705/0dc765fc-f6ec-42e9-9514-15e54fd3709e.gif
