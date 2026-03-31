@@ -2,7 +2,7 @@
 title: "Sending and Scheduling Dashboards in Looker - GSP1162"
 seoTitle: "Sending and Scheduling Dashboards in Looker - GSP1162"
 seoDescription: "Looker is a modern data platform in Google Cloud that lets you analyze and visualize your data interactively. You can use Looker to do in-depth data analysi"
-datePublished: Wed Feb 19 2025 04:03:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-19T04:03:58.334Z
 cuid: cm7be2cce000l09js5a6qec5s
 slug: sending-and-scheduling-dashboards-in-looker-gsp1162
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739937810719/6f305fe0-559c-438a-835d-02aafa7684d4.png
