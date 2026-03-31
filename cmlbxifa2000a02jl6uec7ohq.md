@@ -2,7 +2,7 @@
 title: "Deploy VM with Multiple Network Interfaces in Google Cloud (Solution)"
 seoTitle: "Deploy VM with Multiple Network Interfaces in Google Cloud (Solution)"
 seoDescription: "Learn how to deploy a Google Cloud VM with multiple network interfaces for enhanced security and performance with this comprehensive guide"
-datePublished: Sat Feb 07 2026 06:24:14 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-02-07T06:24:14.042Z
 cuid: cmlbxifa2000a02jl6uec7ohq
 slug: deploy-vm-with-multiple-network-interfaces-in-google-cloud-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1770445420502/ffe863c1-dba4-42ce-baf2-0536134b6ae6.png
