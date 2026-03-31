@@ -2,7 +2,7 @@
 title: "Linux Essentials: Command Line Primer - gem-basics-linux"
 seoTitle: "Linux Essentials: Command Line Primer - gem-basics-linux"
 seoDescription: "Learn Linux shell basics: navigate filesystems, manipulate files, and perform basic operations using Cloud Shell tools"
-datePublished: Mon Sep 15 2025 07:39:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-15T07:39:19.054Z
 cuid: cmfktcgpa000402kz7w58gec8
 slug: linux-essentials-command-line-primer-gem-basics-linux
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757921836902/96f460f0-a493-43ba-97d1-85a1fb5d7b60.png
