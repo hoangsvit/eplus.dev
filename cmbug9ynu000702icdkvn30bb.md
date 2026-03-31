@@ -2,7 +2,7 @@
 title: "Autoscaling TensorFlow Model Deployments with TF Serving and Kubernetes - GSP777"
 seoTitle: "Autoscaling TensorFlow Model Deployments with TF Serving and Kubernete"
 seoDescription: "Serving deep learning models can be especially challenging. The models are often large, requiring gigabytes of memory. They are also very compute intensive "
-datePublished: Fri Jun 13 2025 06:52:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-13T06:52:19.770Z
 cuid: cmbug9ynu000702icdkvn30bb
 slug: autoscaling-tensorflow-model-deployments-with-tf-serving-and-kubernetes-gsp777
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749797466443/8e29a35c-0c70-4d91-9d2c-f79c8d325ec1.png
