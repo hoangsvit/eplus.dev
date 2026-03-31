@@ -2,7 +2,7 @@
 title: "gcloud and kubectl for Google Kubernetes Engine - GSP821"
 seoTitle: "gcloud and kubectl for Google Kubernetes Engine - GSP821"
 seoDescription: "Learn to deploy and manage containerized applications on Google Kubernetes Engine using gcloud and kubectl in this hands-on lab"
-datePublished: Sun Nov 09 2025 08:07:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-11-09T08:07:03.938Z
 cuid: cmhrfk002000002jyc6md69fb
 slug: gcloud-and-kubectl-for-google-kubernetes-engine-gsp821
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762675589594/99c63ea5-d614-4838-ad62-cf1c59e07e1a.png
