@@ -2,7 +2,7 @@
 title: "The Arcade Base Camp December 2025"
 seoTitle: "The Arcade Base Camp December 2025"
 seoDescription: "Join Base Camp December 2025 to gain Google Cloud skills and earn credentials with no prior experience needed"
-datePublished: Tue Dec 09 2025 01:21:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-12-09T01:21:01.270Z
 cuid: cmixw9dna000402kz2r6r543y
 slug: the-arcade-base-camp-december-2025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765243184577/d95908e5-0540-4c16-8e22-301165c0ac6e.png
