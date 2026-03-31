@@ -2,7 +2,7 @@
 title: "Google Cloud Arcade Facilitator '25 Cohort 2 - Syllabus for the program"
 seoTitle: "Google Cloud Arcade '25 Cohort Syllabus"
 seoDescription: "Explore the Google Cloud Arcade Facilitator '25 Cohort 2 syllabus to earn Arcade Points via games, trivia, and skill badges to enhance your skills"
-datePublished: Sat Aug 09 2025 11:00:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-09T11:00:30.399Z
 cuid: cme458oce000002jp921ghytp
 slug: google-cloud-arcade-facilitator-25-cohort-2-syllabus-for-the-program
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754737174297/01cb3cf2-a08c-4d9d-801c-9d9fe241ebde.png
