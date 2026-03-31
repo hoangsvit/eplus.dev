@@ -2,7 +2,7 @@
 title: "Easily Create Custom Date Formats in Any Programming Language"
 seoTitle: "Easily Create Custom Date Formats in Any Programming Language"
 seoDescription: "Codate helps you quickly create date formats for any programming language. Just pick your language, choose a date format, and get the code you need. Save ti"
-datePublished: Mon May 27 2024 01:51:09 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-05-27T01:51:09.565Z
 cuid: clwobb8xp000y0al286rbam3p
 slug: easily-create-custom-date-formats-in-any-programming-language
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716774215774/9d388abd-1b7f-4e9f-987d-18af0579e2cf.avif
