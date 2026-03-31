@@ -2,7 +2,7 @@
 title: "[The Arcade 2025 - Session 1 - Prize Counter] Success looks good on you—Time to pick your prize!"
 seoTitle: "The Arcade 2025 - Session 1 - Prize Counter - Time to pick your prize"
 seoDescription: "The Arcade 2025 prize selection: Redeem your reward as a top Arcade Trooper, ensuring accurate details for smooth delivery. Act before July 31, 2025!"
-datePublished: Thu Jul 17 2025 01:54:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-17T01:54:21.228Z
 cuid: cmd6qlq5o000302l4eqnva2vp
 slug: the-arcade-2025-session-1-prize-counter-success-looks-good-on-youtime-to-pick-your-prize
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752716916010/e4736b39-4820-4606-8eb3-f922f4d5fade.gif
