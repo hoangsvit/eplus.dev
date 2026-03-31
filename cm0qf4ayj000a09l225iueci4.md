@@ -2,7 +2,7 @@
 title: "Looker Functions and Operators - GSP857"
 seoTitle: "Looker Functions and Operators - GSP857"
 seoDescription: "Looker is a modern data platform in Google Cloud that lets you analyze and visualize your data interactively. You can use Looker to do in-depth data analysi"
-datePublished: Fri Sep 06 2024 07:52:05 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-06T07:52:05.755Z
 cuid: cm0qf4ayj000a09l225iueci4
 slug: looker-functions-and-operators-gsp857
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746874598752/7b79ebe2-f63b-48ae-9b5b-cf3bcbe13ce8.png
