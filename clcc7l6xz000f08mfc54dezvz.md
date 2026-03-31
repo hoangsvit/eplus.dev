@@ -4,7 +4,7 @@ seoTitle: "Tự kích hoạt windows 10/11 cực sạch năm 2023"
 seoDescription: "Lưu ý: Chỉ hoạt động từ windows 10 trở lên*
 
 Mở powershell với quyền admin, dán vào dòng lệnh sau enter:"
-datePublished: Sat Dec 31 2022 17:19:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-12-31T17:19:34.247Z
 cuid: clcc7l6xz000f08mfc54dezvz
 slug: tu-kich-hoat-windows-10-11-cuc-sach-nam-2023
 canonical: https://www.facebook.com/groups/j2team.community/posts/2033442980321145/
