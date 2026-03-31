@@ -2,7 +2,7 @@
 title: "Migrate a MySQL Database to Google Cloud SQL: Challenge Lab - GSP306"
 seoTitle: "Migrate a MySQL Database to Google Cloud SQL: Challenge Lab - GSP306"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Sun Aug 18 2024 14:00:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-18T14:00:57.051Z
 cuid: clzzmxgwq000c0aku5fmran2s
 slug: migrate-a-mysql-database-to-google-cloud-sql-challenge-lab-gsp306
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723989109379/ba45a49c-a2da-4e5b-8357-ab57b6bb5c15.png
