@@ -4,7 +4,7 @@ seoTitle: "Arcade Quiz: Generative AI Leader Challenge - osl-arc-0013"
 seoDescription: "Welcome to the Arcade Quiz. Here we bring you a dose of knowledge on random topics.
 
 Are you ready to rise to the top? The Arcade Quiz is your opportunity t"
-datePublished: Sun Jun 08 2025 07:19:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-08T07:19:31.391Z
 cuid: cmbnc1oan000i02l47jwta1u8
 slug: arcade-quiz-generative-ai-leader-challenge-osl-arc-0013
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749367142723/40921e8d-2632-46f6-bc9d-00d672f7e0a4.png
