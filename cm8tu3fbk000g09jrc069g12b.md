@@ -2,7 +2,7 @@
 title: "Looker Developer: Qwik Start - GSP891"
 seoTitle: "Looker Developer: Qwik Start - GSP891"
 seoDescription: "Looker is a modern data platform in Google Cloud that lets you analyze and visualize your data interactively. You can use Looker to do in-depth data analysi"
-datePublished: Sat Mar 29 2025 06:32:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-29T06:32:16.208Z
 cuid: cm8tu3fbk000g09jrc069g12b
 slug: looker-developer-qwik-start-gsp891
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743229500162/85104def-405b-4048-ba13-af09a9d382b2.png
@@ -25,9 +25,9 @@ As such, it defines many different things, like how to join tables, how to defin
 
 ### What you'll do
 
-* Create a view
+*   Create a view
     
-* Join a view to an existing Explore
+*   Join a view to an existing Explore
     
 
 ## **Setup and requirements**
@@ -40,19 +40,19 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have a personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to Looker
 
-1. When ready, click **Start Lab**.
+1.  When ready, click **Start Lab**.
     
     The Lab Details pane appears with the temporary credentials that you must use for this lab.
     
@@ -62,9 +62,9 @@ To complete this lab, you need:
     
     **Note:** If you use other credentials, you will get **errors or incur charges**.
     
-2. Click **Open Looker**.
+2.  Click **Open Looker**.
     
-3. Enter the provided Username and Password in the **Email** and **Password** fields.
+3.  Enter the provided Username and Password in the **Email** and **Password** fields.
     
     Username:
     
@@ -80,7 +80,7 @@ To complete this lab, you need:
     
     **Important:** You must use the credentials from the Lab Details pane on this page. Do not use your Google Cloud Skills Boost credentials. If you have a personal Looker account, do not use it for this lab.
     
-4. Click **Log In**.
+4.  Click **Log In**.
     
     After a successful login, you see the Looker instance for this lab.
     
@@ -89,17 +89,17 @@ To complete this lab, you need:
 
 The hierarchy of LookML is structured using the following objects:
 
-* **Projects**, which are libraries of LookML code. Because Looker uses Git for version control, a best practice is for each project to map 1:1 with a Git repository.
+*   **Projects**, which are libraries of LookML code. Because Looker uses Git for version control, a best practice is for each project to map 1:1 with a Git repository.
     
-    * A project is composed of one or more *models*.
+    *   A project is composed of one or more *models*.
         
-* A **model** is a set of Explores by business area or need. An Explore is a set of pre-joined views for business-user analysis.
+*   A **model** is a set of Explores by business area or need. An Explore is a set of pre-joined views for business-user analysis.
     
-    * Each model contains one or more *Explores*.
+    *   Each model contains one or more *Explores*.
         
-* A **view** in LookML is a database table or a logical representation of one.
+*   A **view** in LookML is a database table or a logical representation of one.
     
-    * Each view includes dimensions (which are database columns or logical representations of them) and measures (which are aggregate functions on dimensions, such as a `COUNT` of customers or a `SUM` of cost).
+    *   Each view includes dimensions (which are database columns or logical representations of them) and measures (which are aggregate functions on dimensions, such as a `COUNT` of customers or a `SUM` of cost).
         
 
 ![LookML hierarchy diagram](https://cdn.qwiklabs.com/fZHhYhC2L0u4EuSMXeKO9U%2B9cWZo2dlvnWNephREMEg%3D align="left")
@@ -120,11 +120,11 @@ You can share content from one project to another via a feature called Project I
 
 Models are the next level of hierarchy and contain:
 
-* The database connection you are using, as defined in the image by *line 1*.
+*   The database connection you are using, as defined in the image by *line 1*.
     
-* View files that are accessible to this model, as defined by *lines 4, 5, and 6*.
+*   View files that are accessible to this model, as defined by *lines 4, 5, and 6*.
     
-* Definitions of Explores and their join logic.
+*   Definitions of Explores and their join logic.
     
 
 ![training_ecommerce.model view](https://cdn.qwiklabs.com/%2BWyk%2FdkgYX5wq6IPzMfQrtfFYYYswUlKtLBE35pRC6c%3D align="left")
@@ -141,9 +141,9 @@ Explores are the “drivers” of analysis on the frontend. They include one or 
 
 Views are where you define dimensions (which are the data attributes) and measures (which are aggregations of dimensions). Think of views as tables that bundle related fields. There are a few different types of views:
 
-* **Standard views**, which abstract what’s already in the database tables.
+*   **Standard views**, which abstract what’s already in the database tables.
     
-* **Virtual tables**, known as *derived tables*, which are discussed later in this quest.
+*   **Virtual tables**, known as *derived tables*, which are discussed later in this quest.
     
 
 ![users.view view](https://cdn.qwiklabs.com/UzwXmFGESzA0%2BnDUQ6g6hd1h0uvAGsE5o9QYAXJB0jI%3D align="left")
@@ -168,9 +168,9 @@ Note that they do not appear in the `GROUP BY` statement of the SQL generated by
 
 To recap, a project is a library of code that models a data source and should map 1:1 to a Git repository. Projects contain:
 
-* **Model files**, which define the Explores that should be packaged together and how those Explores work.
+*   **Model files**, which define the Explores that should be packaged together and how those Explores work.
     
-* **View files**, which describe database tables or logical representations of them.
+*   **View files**, which describe database tables or logical representations of them.
     
 
 Dimensions and measures are defined within *view* files.
@@ -183,20 +183,20 @@ There are other types of project files, such as documents and manifests, which a
 
 In this section, you will create a new view and add some dimensions and measures to it.
 
-1. First, on the bottom left of the Looker User Interface, click the toggle button to enter **Development mode**.
+1.  First, on the bottom left of the Looker User Interface, click the toggle button to enter **Development mode**.
     
 
 ![Development Mode toggle](https://cdn.qwiklabs.com/uUCbNuedSCOYQmL%2BIubjqvusmGAeS7Wjj3f6xByL174%3D align="left")
 
-2. Click the **Develop** tab and then select the `qwiklabs-ecommerce` LookML project.
+2.  Click the **Develop** tab and then select the `qwiklabs-ecommerce` LookML project.
     
-3. To create the file at the project’s root level, click the **+** button at the top of the file browser in the Looker IDE.
+3.  To create the file at the project’s root level, click the **+** button at the top of the file browser in the Looker IDE.
     
-4. Select **Create View**. Name the file `users_limited`. Click **Create**.
+4.  Select **Create View**. Name the file `users_limited`. Click **Create**.
     
-5. After you have created your new view, click the arrow next to the **views** folder to see a list of the existing views for the project.
+5.  After you have created your new view, click the arrow next to the **views** folder to see a list of the existing views for the project.
     
-6. To put your view file into the **views** folder, click and hold the `users_limited` file and drag it into the expanded folder. Your project should resemble the following:
+6.  To put your view file into the **views** folder, click and hold the `users_limited` file and drag it into the expanded folder. Your project should resemble the following:
     
 
 ![users_limited.view tabbed page open in the File Browser](https://cdn.qwiklabs.com/iUVoSzFTBI%2BUdLyl1VQeKRXzwvjjtZgubt1qbAoDnmU%3D align="left")
@@ -205,14 +205,14 @@ In this section, you will create a new view and add some dimensions and measures
 
 Now that you have created a new view file and organized it in your project file browser, you're ready to add some content to it.
 
-1. Start by specifying the view name and the SQL table name you want to connect your view to. For this example, you will be connecting to the dataset used for the `qwiklabs_ecommerce` project. This is the same table for `users.view`. Add the following code on line 2:
+1.  Start by specifying the view name and the SQL table name you want to connect your view to. For this example, you will be connecting to the dataset used for the `qwiklabs_ecommerce` project. This is the same table for `users.view`. Add the following code on line 2:
     
 
 ```apache
 sql_table_name: `cloud-training-demos.looker_ecomm.users` ;;
 ```
 
-2. Now add a few dimensions. Here you will be adding the user `id`, `country`, `email`, `first_name`, and `last_name`:
+2.  Now add a few dimensions. Here you will be adding the user `id`, `country`, `email`, `first_name`, and `last_name`:
     
 
 ```apache
@@ -244,7 +244,7 @@ dimension: last_name {
 }
 ```
 
-3. Next, add a measure. This will be used for counting specific dimensions:
+3.  Next, add a measure. This will be used for counting specific dimensions:
     
 
 ```apache
@@ -254,18 +254,18 @@ measure: count {
 }
 ```
 
-4. Click **Save Changes**. Great! You're all done adding dimensions and measures to your new view. Your file should resemble the following:
+4.  Click **Save Changes**. Great! You're all done adding dimensions and measures to your new view. Your file should resemble the following:
     
 
 ![users_limited.view tabbed page open in the File Browser](https://cdn.qwiklabs.com/5D%2BGGb9jl%2FZSfo16alUe%2B2kIQIM4DXg8tmmJo2bjwyg%3D align="left")
 
 ### Commit changes and deploy to production
 
-1. Click **Validate LookML** and then click **Commit Changes & Push**.
+1.  Click **Validate LookML** and then click **Commit Changes & Push**.
     
-2. Add a commit message and click **Commit**.
+2.  Add a commit message and click **Commit**.
     
-3. Lastly, click **Deploy to Production**.
+3.  Lastly, click **Deploy to Production**.
     
 
 Click **Check my progress** to verify the objective.
@@ -276,9 +276,9 @@ Check my progress
 
 ## **Task 2. Join a view to an existing Explore**
 
-1. In the file browser, under the **models** folder, navigate to the `training_ecommerce.model` file.
+1.  In the file browser, under the **models** folder, navigate to the `training_ecommerce.model` file.
     
-2. In the `explore: events` definition, add a new line after `join: users`, and paste the following:
+2.  In the `explore: events` definition, add a new line after `join: users`, and paste the following:
     
 
 ```apache
@@ -289,45 +289,45 @@ join: users_limited {
 }
 ```
 
-3. Click **Save Changes**. Your project file should now resemble the following:
+3.  Click **Save Changes**. Your project file should now resemble the following:
     
 
 ![training_ecommerce.model tabbed page open in the File Browser](https://cdn.qwiklabs.com/lm2FlwCM3e%2FxEYtn2bKRDz%2FtT9sQ3vYzxmK8sa7Fiio%3D align="left")
 
-4. Click the caret next to the file title at the top of the IDE and then select **Explore Events**.
+4.  Click the caret next to the file title at the top of the IDE and then select **Explore Events**.
     
 
 ![Explore Events option highlighted in the dropdown menu](https://cdn.qwiklabs.com/MXrxmLbCChTXu7MbZdWSZTcwflkyuFCpIPVrVxV%2Bogw%3D align="left")
 
-5. Next, navigate to your new view in the Explore page by selecting **Users Limited**.
+5.  Next, navigate to your new view in the Explore page by selecting **Users Limited**.
     
 
 ![Users Limited option](https://cdn.qwiklabs.com/9YZb0vDrToXmx8A1cfgYsFfB1ajpDgWsY7vRGn3d%2FoA%3D align="left")
 
-6. Under **Users Limited**, select the **First Name** dimension and the **Count** measure.
+6.  Under **Users Limited**, select the **First Name** dimension and the **Count** measure.
     
-7. Click **Run**. Your visualization should resemble the following:
+7.  Click **Run**. Your visualization should resemble the following:
     
 
 ![Ten rows of data in a two-column table with headings: Users limited first name and Users limited content](https://cdn.qwiklabs.com/RGUauOQF0s7dvexnQxNg0Bifsi2XwwTQ6oaiU%2FTdRfw%3D align="left")
 
-8. Navigate back to the `training_ecommerce.model` file.
+8.  Navigate back to the `training_ecommerce.model` file.
     
 
 ### Commit changes and deploy to production
 
-1. Click **Validate LookML** and then click **Commit Changes & Push**.
+1.  Click **Validate LookML** and then click **Commit Changes & Push**.
     
-2. Add a commit message and click **Commit**.
+2.  Add a commit message and click **Commit**.
     
-3. Lastly, click **Deploy to Production**.
+3.  Lastly, click **Deploy to Production**.
     
 
 Click **Check my progress** to verify the objective.
 
 Join view to an explore
 
----
+* * *
 
 ## Solution of Lab
 
@@ -337,7 +337,7 @@ First, on the bottom left of the Looker User Interface, click the toggle button 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1743229840810/ce95d953-98aa-4405-a6d3-903a7036b9d0.png align="center")
 
-Click the **<mark>Develop</mark>** tab and then select the **<mark>qwiklabs-ecommerce</mark>** LookML project.
+Click the **<mark class="bg-yellow-200 dark:bg-yellow-500/30">Develop</mark>** tab and then select the **<mark class="bg-yellow-200 dark:bg-yellow-500/30">qwiklabs-ecommerce</mark>** LookML project.
 
 ***To create the file at the project’s root level, click the + button at the top of the file browser in the Looker IDE.***
 
@@ -346,6 +346,8 @@ Click the **<mark>Develop</mark>** tab and then select the **<mark>qwiklabs-ecom
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769239621155/f8d11b26-f7ac-4399-8755-bbc394a39d15.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1769239586166/aced7c87-1bf8-4bd7-b475-a497a3671a19.png align="center")
+
+Create view **users_limited.view**
 
 ```apache
 view: users_limited {
@@ -456,10 +458,10 @@ explore: events {
 
 **Commit Changes and Deploy to Production**
 
-1. Click **Validate LookML**.
+1.  Click **Validate LookML**.
     
-2. Click **Commit Changes & Push**.
+2.  Click **Commit Changes & Push**.
     
-3. Add a commit message and click **Commit**.
+3.  Add a commit message and click **Commit**.
     
-4. Lastly, click **Deploy to Production**.
+4.  Lastly, click **Deploy to Production**.
