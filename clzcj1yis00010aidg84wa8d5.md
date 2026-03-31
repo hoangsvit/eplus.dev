@@ -3,7 +3,7 @@ title: "Knowledge check: React components and where they live"
 seoTitle: "Knowledge check: React components and where they live"
 seoDescription: "Knowledge check: React components and where they live
 React Components and Where They Live"
-datePublished: Fri Aug 02 2024 09:53:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-02T09:53:45.988Z
 cuid: clzcj1yis00010aidg84wa8d5
 slug: knowledge-check-react-components-and-where-they-live
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722592180672/ddc13386-538e-42c5-9516-eceef3f8cdbd.png
