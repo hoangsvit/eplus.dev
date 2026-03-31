@@ -2,7 +2,7 @@
 title: "[Knowledge check] Describe Azure storage services"
 seoTitle: "[Knowledge check] Describe Azure storage services"
 seoDescription: "This module introduces you to storage in Azure, including things such as different types of storage and how a distributed infrastructure can make your data "
-datePublished: Fri Jun 21 2024 08:56:17 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-21T08:56:17.329Z
 cuid: clxogi9ip000009lb3gbhd0kc
 slug: knowledge-check-describe-azure-storage-services
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718960137410/a905c187-b2fd-4642-9c1e-a65abc9176cf.png
