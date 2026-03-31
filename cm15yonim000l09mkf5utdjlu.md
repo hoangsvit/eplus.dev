@@ -2,7 +2,7 @@
 title: "Knowledge check: Design Systems - UI/UX"
 seoTitle: "Knowledge check: Design Systems - UI/UX"
 seoDescription: "Knowledge check: Design Systems - UI/UX"
-datePublished: Tue Sep 17 2024 04:56:20 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-17T04:56:20.494Z
 cuid: cm15yonim000l09mkf5utdjlu
 slug: knowledge-check-design-systems-ui-ux
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726548959219/5ce36620-6620-46f0-89e3-1afecc047f0b.jpeg
