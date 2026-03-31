@@ -2,7 +2,7 @@
 title: "Exploring Data Transformation with Google Cloud"
 seoTitle: "Exploring Data Transformation with Google Cloud"
 seoDescription: "Cloud technology can bring great value to an organization, and combining the power of cloud technology with data has the potential to unlock even more value"
-datePublished: Thu Aug 01 2024 04:52:02 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-01T04:52:02.058Z
 cuid: clzasu2ru000809mq5smn6es2
 slug: exploring-data-transformation-with-google-cloud
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722486828347/8a06a8a7-a1c8-4d1c-abc5-ccf0898740fd.png
