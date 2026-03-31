@@ -2,7 +2,7 @@
 title: "Knowledge check: Enhancing your design - UI/UX"
 seoTitle: "Knowledge check: Enhancing your design - UI/UX"
 seoDescription: "Knowledge check: Enhancing your design - UI/UX"
-datePublished: Tue Sep 17 2024 04:51:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-17T04:51:24.826Z
 cuid: cm15yibdm000309l95z7vdtgc
 slug: knowledge-check-enhancing-your-design-ui-ux
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726548653040/e0ce2c9a-8d8a-465e-9135-f945bf27f995.jpeg
