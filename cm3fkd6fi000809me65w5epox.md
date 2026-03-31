@@ -2,7 +2,7 @@
 title: "Module Quiz: The Full Stack Using Django"
 seoTitle: "Module Quiz: The Full Stack Using Django"
 seoDescription: "Module Quiz: The Full Stack Using Django"
-datePublished: Wed Nov 13 2024 07:32:36 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-13T07:32:36.942Z
 cuid: cm3fkd6fi000809me65w5epox
 slug: module-quiz-the-full-stack-using-django
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731483136926/664ea835-673b-4c22-b6f3-aa16577c685b.png
