@@ -2,7 +2,7 @@
 title: "gcloud for Network Configuration (Solution)"
 seoTitle: "gcloud for Network Configuration (Solution)"
 seoDescription: "Learn how to configure VPC networks and firewall rules using gcloud commands to manage traffic in Google Cloud efficiently"
-datePublished: Sat Nov 08 2025 07:37:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-11-08T07:37:23.157Z
 cuid: cmhpz1z9x000402jr3zk4assi
 slug: gcloud-for-network-configuration-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762587409886/18036888-ce4a-4c5d-9945-518bd2357a8e.png
