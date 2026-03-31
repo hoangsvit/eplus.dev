@@ -2,7 +2,7 @@
 title: "Implement Load Balancing on Compute Engine: Challenge Lab - GSP313"
 seoTitle: "Implement Load Balancing on Compute Engine: Challenge Lab - GSP313"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Mon Feb 24 2025 06:10:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-24T06:10:38.241Z
 cuid: cm7inshsx000309ju27u5evyd
 slug: implement-load-balancing-on-compute-engine-challenge-lab-gsp313
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756970930510/8bbb14c5-eebb-458a-9f7f-98f37cd67072.png
