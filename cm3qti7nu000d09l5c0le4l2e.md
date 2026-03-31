@@ -2,7 +2,7 @@
 title: "[SQL] 197. Rising Temperature"
 seoTitle: "[SQL] 197. Rising Temperature"
 seoDescription: "[SQL] 197. Rising Temperature"
-datePublished: Thu Nov 21 2024 04:33:56 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-21T04:33:56.298Z
 cuid: cm3qti7nu000d09l5c0le4l2e
 slug: sql-197-rising-temperature
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732163502846/7cfc0bed-83b3-4fbb-8075-605df3d8edef.png
