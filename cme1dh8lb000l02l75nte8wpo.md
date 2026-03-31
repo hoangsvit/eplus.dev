@@ -2,7 +2,7 @@
 title: "A Tour of Cloud Networking - GSP1211"
 seoTitle: "A Tour of Cloud Networking - GSP1211"
 seoDescription: "Explore Google Cloud Networking's key features: VPCs, network services, security, observability, with hands-on exercises"
-datePublished: Thu Aug 07 2025 12:27:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-07T12:27:48.287Z
 cuid: cme1dh8lb000l02l75nte8wpo
 slug: a-tour-of-cloud-networking-gsp1211
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754569492664/568f3c46-35b5-4db0-9a43-68b1b06dfb13.png
