@@ -2,7 +2,7 @@
 title: "GitHub Profile Achievements"
 seoTitle: "GitHub Profile Achievements"
 seoDescription: "A collection listing all Achievements available on the GitHub profile."
-datePublished: Mon Oct 31 2022 12:49:54 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-10-31T12:49:54.008Z
 cuid: cl9ws3fiw000u09mne1my3tyk
 slug: github-profile-achievements
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1667219691569/0KMsfsxuK.png
