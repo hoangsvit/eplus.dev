@@ -2,7 +2,7 @@
 title: "Continuous Delivery with Jenkins in Kubernetes Engine - GSP051"
 seoTitle: "Continuous Delivery with Jenkins in Kubernetes Engine - GSP051"
 seoDescription: "In this lab, you will learn how to set up a continuous delivery pipeline with Jenkins on Kubernetes engine. Jenkins is the go-to automation server used by d"
-datePublished: Sat Oct 05 2024 09:49:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-05T09:49:34.952Z
 cuid: cm1vz33hk001l0al7g2jg2yow
 slug: continuous-delivery-with-jenkins-in-kubernetes-engine-gsp051
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755336615950/41932aef-dce7-4793-96f2-0ee5fc9d5114.png
