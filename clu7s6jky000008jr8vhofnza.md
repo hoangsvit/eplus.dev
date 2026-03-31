@@ -2,7 +2,7 @@
 title: "Laravel Herd on Windows is now Available"
 seoTitle: "Laravel Herd on Windows is now Available"
 seoDescription: "There's good news for Laravel developers on Windows! Laravel Herd, a popular development environment for macOS, is launching a Windows version in March 2024"
-datePublished: Tue Mar 26 2024 02:51:53 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-03-26T02:51:53.890Z
 cuid: clu7s6jky000008jr8vhofnza
 slug: laravel-herd-on-windows-is-now-available
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711421104050/d9ac8a95-d671-48ee-a6d3-c90abf828838.jpeg
