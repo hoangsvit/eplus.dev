@@ -2,7 +2,7 @@
 title: "Develop and Secure APIs with Apigee X: Challenge Lab - GSP363"
 seoTitle: "Develop and Secure APIs with Apigee X: Challenge Lab - GSP363"
 seoDescription: "Master Apigee X challenge lab by developing secure APIs with hands-on tasks. Test skills, earn feedback, and explore Apigee functionalities"
-datePublished: Wed Oct 01 2025 04:01:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-01T04:01:31.550Z
 cuid: cmg7gm0f2000002la76qmbrsi
 slug: develop-and-secure-apis-with-apigee-x-challenge-lab-gsp363
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759291259006/3fed9c8b-a9ec-420f-9efd-4d523c6609aa.png
