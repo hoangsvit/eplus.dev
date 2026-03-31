@@ -2,7 +2,7 @@
 title: "Managing Google Classroom - GSP981"
 seoTitle: "Managing Google Classroom - GSP981"
 seoDescription: "Classroom is an easy-to-use and secure app that helps educators manage, measure, and enrich learning. In this lab, you, as the administrator, use the Google"
-datePublished: Fri Apr 04 2025 08:27:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-04T08:27:57.186Z
 cuid: cm92ivb0h000009l79zmnah6t
 slug: managing-google-classroom-gsp981
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743754235188/7e34eaaa-d00a-40ab-b275-0315616fa0fe.png
