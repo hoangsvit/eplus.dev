@@ -2,7 +2,7 @@
 title: "Build an application to send Chat Prompts using the Gemini model - bb-ide-genai-003"
 seoTitle: "Build an application to send Chat Prompts using the Gemini model - bb-"
 seoDescription: "Generative AI on Vertex AI (also known as genAI or gen AI) gives you access to Google's large generative AI models so you can test, tune, and deploy them fo"
-datePublished: Mon Apr 14 2025 09:58:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-14T09:58:16.838Z
 cuid: cm9gwhzie002u08jo337cczog
 slug: build-an-application-to-send-chat-prompts-using-the-gemini-model-bb-ide-genai-003
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744624665588/ff7f87de-824e-4513-8fc7-2d7f0df38405.png
