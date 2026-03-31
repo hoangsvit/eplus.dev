@@ -2,7 +2,7 @@
 title: "Scale Out and Update a Containerized Application on a Kubernetes Cluster: Challenge Lab - GSP305"
 seoTitle: "Scale Out and Update a Containerized Application on a Kubernetes Clust"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Sun Aug 18 2024 13:49:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-18T13:49:13.520Z
 cuid: clzzmie2800070aku3lywfe1h
 slug: scale-out-and-update-a-containerized-application-on-a-kubernetes-cluster-challenge-lab-gsp305
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723988733786/5d646594-df07-4ba3-90b8-f6c6af9398aa.png
