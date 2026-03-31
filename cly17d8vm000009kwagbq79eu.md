@@ -2,7 +2,7 @@
 title: "Sử dụng BlackMagicc DNS mùa đứt cáp"
 seoTitle: "Sử dụng BlackMagicc DNS mùa đứt cáp"
 seoDescription: "BlackMagicc DNS là dự án DNS Server cá nhân. Phục vụ mục đích sử dụng cá nhân và quy mô nhỏ. Với tiêu chí hoạt động ổn định và hiệu quả."
-datePublished: Sun Jun 30 2024 07:01:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-30T07:01:26.962Z
 cuid: cly17d8vm000009kwagbq79eu
 slug: su-dung-blackmagicc-dns-mua-dut-cap
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719730827131/84ad0b71-9fa8-4b8d-b804-01070c87cc8c.png
