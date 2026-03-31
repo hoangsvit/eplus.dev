@@ -2,7 +2,7 @@
 title: "Implementing Page Navigation in a Flutter Application - GSP1012"
 seoTitle: "Implementing Page Navigation in a Flutter Application - GSP1012"
 seoDescription: "Learn to create a Flutter app, utilize multiple pages, and implement a TabView and Drawer for navigation"
-datePublished: Sun Aug 24 2025 04:31:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-24T04:31:16.364Z
 cuid: cmep6xw98000r02l4eohc4yzw
 slug: implementing-page-navigation-in-a-flutter-application-gsp1012
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756008573119/603c9cee-ed10-45ad-851a-46e7ceccbca8.png
