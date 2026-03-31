@@ -2,7 +2,7 @@
 title: "Configure Cloud CDN for Storage using gcloud (Solution)"
 seoTitle: "Configure Cloud CDN for Storage using gcloud (Solution)"
 seoDescription: "Learn to configure Cloud CDN with gcloud for improved performance of globally accessed news platform's static content"
-datePublished: Sun Feb 15 2026 06:56:29 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-02-15T06:56:29.973Z
 cuid: cmlne6qdw000902juekoih8bk
 slug: configure-cloud-cdn-for-storage-using-gcloud-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1771138769570/132a803b-c823-4467-af8e-bf67bbdb0f19.png
