@@ -2,7 +2,7 @@
 title: "Create a Machine Image for Instance Replication"
 seoTitle: "Create a Machine Image for Instance Replication"
 seoDescription: "Create a machine image for VM instance replication on Google Cloud Platform, preserving its configuration, metadata, and disk data"
-datePublished: Sun Sep 07 2025 06:14:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-07T06:14:16.938Z
 cuid: cmf9asajt000402l167sz23hu
 slug: create-a-machine-image-for-instance-replication
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757225604309/e03c738e-9871-43a5-a8a5-dc863a18d423.png
