@@ -2,7 +2,7 @@
 title: "Knowledge check - Conditionals and loops in Javascript"
 seoTitle: "Knowledge check - Conditionals and loops in Javascript"
 seoDescription: "Knowledge check - Conditionals and loops in Javascript"
-datePublished: Wed Jul 17 2024 06:53:22 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-17T06:53:22.413Z
 cuid: clyphkcbx000g0amjdqrlehqw
 slug: knowledge-check-conditionals-and-loops-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721199194949/a190d0a2-c5d6-4697-ab30-26a70c220c9b.png
