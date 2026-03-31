@@ -2,7 +2,7 @@
 title: "Analyze Customer Reviews with Gemini Using Python Notebooks - GSP1249"
 seoTitle: "Analyze Customer Reviews with Gemini Using Python Notebooks - GSP1249"
 seoDescription: "In this lab you learn how to extract keywords and assess customer sentiment in customer reviews using BigQuery Machine Learning with remote models (Gemini P"
-datePublished: Sat Jan 25 2025 09:23:55 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-25T09:23:55.009Z
 cuid: cm6bzhhxd001309jgal7y9ur7
 slug: analyze-customer-reviews-with-gemini-using-python-notebooks-gsp1249
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737797479301/476fcb54-38ed-4bf9-9eb4-91f90e5681c0.png
