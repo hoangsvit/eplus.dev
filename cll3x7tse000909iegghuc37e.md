@@ -2,7 +2,7 @@
 title: "Open Server Panel 6 Beta"
 seoTitle: "Open Server Panel 6 Beta"
 seoDescription: "The best tool for local development of websites and web services on the Windows platform."
-datePublished: Wed Aug 09 2023 16:04:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-08-09T16:04:26.126Z
 cuid: cll3x7tse000909iegghuc37e
 slug: open-server-panel-6-beta
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691596959698/da8f6ec8-c813-4615-a262-e10b799e6d93.png
