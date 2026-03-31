@@ -2,7 +2,7 @@
 title: "Implementing Security in Dataplex - GSP1157"
 seoTitle: "Implementing Security in Dataplex - GSP1157"
 seoDescription: "Dataplex is an intelligent data fabric that enables organizations to centrally discover, manage, monitor, and govern their data across data lakes, data ware"
-datePublished: Sat May 17 2025 03:51:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-17T03:51:43.138Z
 cuid: cmaroxp29000209jx0ldecahy
 slug: implementing-security-in-dataplex-gsp1157
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747452766018/40502db4-cf89-4757-8d72-540a9221ce37.png
