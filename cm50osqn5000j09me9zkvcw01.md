@@ -2,7 +2,7 @@
 title: "Service Monitoring (Solution)"
 seoTitle: "Service Monitoring (Solution)"
 seoDescription: "Google Cloud's Service Monitoring streamlines the creation of microservice Service Level Objectives (SLOs) based on availability, latency, or custom Service"
-datePublished: Mon Dec 23 2024 06:59:33 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-23T06:59:33.473Z
 cuid: cm50osqn5000j09me9zkvcw01
 slug: service-monitoring-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1734937153254/c60af744-f4c3-4c56-9794-90a85880b504.png
