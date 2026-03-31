@@ -2,7 +2,7 @@
 title: "Self-review: Can you fetch data? - Advanced React"
 seoTitle: "Self-review: Can you fetch data? - Advanced React"
 seoDescription: "Self-review: Can you fetch data? - Advanced React"
-datePublished: Mon Sep 16 2024 06:35:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-16T06:35:13.764Z
 cuid: cm14mryzo000b08jt2a1ugd76
 slug: self-review-can-you-fetch-data-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726468455540/fd58bc22-9055-4673-8980-43e5e07398e2.jpeg
