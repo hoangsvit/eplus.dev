@@ -2,7 +2,7 @@
 title: "Material Components for Flutter Basics - GSP887"
 seoTitle: "Material Components for Flutter Basics - GSP887"
 seoDescription: "Learn the basics of using Material Components with Flutter by building a custom e-commerce app. Enhance design and engineering with MDC-Flutter"
-datePublished: Fri Jan 23 2026 04:47:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-23T04:47:12.519Z
 cuid: cmkqefvd3000102l2eho1cna4
 slug: material-components-for-flutter-basics-gsp887
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769143458537/6d4a5d78-a088-4d96-bf0a-eee46cda6305.png
