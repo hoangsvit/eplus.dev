@@ -2,7 +2,7 @@
 title: "Create and Add Aspects to Dataplex Assets - GSP1145"
 seoTitle: "Create and Add Aspects to Dataplex Assets - GSP1145"
 seoDescription: "Learn how to enable Dataplex API, create lakes and zones, design aspect types, and easily manage metadata in Dataplex Universal Catalog in this lab"
-datePublished: Tue Sep 16 2025 10:27:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-16T10:27:24.244Z
 cuid: cmfmesh5g000102lkdotvh36q
 slug: create-and-add-aspects-to-dataplex-assets-gsp1145
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758017859142/b238db87-c582-4f08-848d-fde3db7d667b.png
