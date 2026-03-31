@@ -5,7 +5,7 @@ seoDescription: "Để hỗ trợ các bạn đang tìm việc, Khoa đã cập 
 A. Cá nhân: tính cách, sở thích
 B. Mong muốn và kế hoạch nghề nghiệp
 C. Học vấn và kinh nghiệm"
-datePublished: Wed Jul 17 2024 09:58:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-17T09:58:45.343Z
 cuid: clypo6qu7001b09l04uuo9m86
 slug: nhung-cau-hoi-phong-van-thuong-gap-va-goi-y-cau-tra-loi
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/LQ1t-8Ms5PY/upload/f5c122adb4c54db52a64dd831c842d14.jpeg
