@@ -2,7 +2,7 @@
 title: "Self-review: Create a light-dark theme switcher - Advanced React"
 seoTitle: "Self-review: Create a light-dark theme switcher - Advanced React"
 seoDescription: "Self-review: Create a light-dark theme switcher - Advanced React"
-datePublished: Thu Sep 12 2024 09:48:44 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-12T09:48:44.647Z
 cuid: cm0z3xfc7000d09l961johnof
 slug: self-review-create-a-light-dark-theme-switcher-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726134481256/826f6535-9e36-4b36-8aac-6a1f449d0537.jpeg
