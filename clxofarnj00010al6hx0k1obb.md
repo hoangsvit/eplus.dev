@@ -2,7 +2,7 @@
 title: "[Knowledge check] Describe Azure compute and networking services"
 seoTitle: "[Knowledge check] Describe Azure compute and networking services"
 seoDescription: "This module focuses on some of the computer services and networking services available within Azure."
-datePublished: Fri Jun 21 2024 08:22:27 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-21T08:22:27.967Z
 cuid: clxofarnj00010al6hx0k1obb
 slug: knowledge-check-describe-azure-compute-and-networking-services
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718958119167/1c4c70ea-4b07-4cf5-880d-8a11975a3bfd.png
