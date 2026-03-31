@@ -2,7 +2,7 @@
 title: "Network Tiers - Optimizing Network Spend - GSP219"
 seoTitle: "Network Tiers - Optimizing Network Spend - GSP219"
 seoDescription: "In this lab, you create one VM in the Premium network service tier (default) and one VM in the Standard network service tier. Then you compare the latency a"
-datePublished: Tue Sep 03 2024 12:44:07 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-03T12:44:07.976Z
 cuid: cm0mf8b6w00070ajxejhu1uz8
 slug: network-tiers-optimizing-network-spend-gsp219
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749805486410/188a8511-d84e-43f5-aedf-a647c97a9974.png
