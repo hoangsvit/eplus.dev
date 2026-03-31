@@ -2,7 +2,7 @@
 title: "Creating Cross-region Load Balancing - GSP157"
 seoTitle: "Creating Cross-region Load Balancing - GSP157"
 seoDescription: "This lab demonstrates how to create an HTTP(S) load balancer that forwards traffic to instances in two different regions. In this lab you create four Comput"
-datePublished: Fri Nov 08 2024 06:21:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-08T06:21:50.939Z
 cuid: cm38cmwuz000c09joh3t0afi0
 slug: creating-cross-region-load-balancing-gsp157
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750131044273/530d53f6-8805-4ef1-ad57-2fdbae5c9044.png
