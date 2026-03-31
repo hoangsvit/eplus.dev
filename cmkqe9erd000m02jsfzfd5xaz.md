@@ -2,7 +2,7 @@
 title: "Flutter Startup Namer - GSP886"
 seoTitle: "Flutter Startup Namer - GSP886"
 seoDescription: "Learn to create a Flutter app generating startup names with an infinite scroll list, stateful widgets, and hot reload for efficient development"
-datePublished: Fri Jan 23 2026 04:42:11 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-23T04:42:11.065Z
 cuid: cmkqe9erd000m02jsfzfd5xaz
 slug: flutter-startup-namer-gsp886
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769143291544/a4a638c9-4d37-47b6-8f5d-5d6e50009431.png
