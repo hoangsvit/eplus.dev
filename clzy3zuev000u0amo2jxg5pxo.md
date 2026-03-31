@@ -2,7 +2,7 @@
 title: "Awwvision: Cloud Vision API from a Kubernetes Cluster - GSP066"
 seoTitle: "Awwvision: Cloud Vision API from a Kubernetes Cluster - GSP066"
 seoDescription: "The Awwvision lab uses Kubernetes and Cloud Vision API to demonstrate how to use the Vision API to classify (label) images from Reddit's /r/aww subreddit an"
-datePublished: Sat Aug 17 2024 12:23:08 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-17T12:23:08.983Z
 cuid: clzy3zuev000u0amo2jxg5pxo
 slug: awwvision-cloud-vision-api-from-a-kubernetes-cluster-gsp066
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750219746249/549f58d5-7a32-4788-9900-bdc75d8c6380.png
