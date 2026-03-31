@@ -2,7 +2,7 @@
 title: "Module Quiz: Project Foundations"
 seoTitle: "Module Quiz: Project Foundations"
 seoDescription: "Module Quiz: Project Foundations"
-datePublished: Sat Oct 05 2024 07:47:33 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-05T07:47:33.194Z
 cuid: cm1vuq5ze00070alcbyzwczcz
 slug: module-quiz-project-foundations
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728114420708/d51fc6c6-a855-4534-a26d-405b5809b742.png
