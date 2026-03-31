@@ -2,7 +2,7 @@
 title: "Knowledge check: JSX - Advanced React"
 seoTitle: "Knowledge check: JSX - Advanced React"
 seoDescription: "Knowledge check: JSX - Advanced React"
-datePublished: Mon Sep 16 2024 08:09:42 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-16T08:09:42.603Z
 cuid: cm14q5h3e000s0al74iocdtep
 slug: knowledge-check-jsx-advanced-react
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726474058716/e4994f6a-2777-4366-a4d3-e7e6f30e82ea.jpeg
