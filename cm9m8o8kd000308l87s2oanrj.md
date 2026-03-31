@@ -4,7 +4,7 @@ seoTitle: "Monitor an Apache Web Server using Ops Agent - GSP1108"
 seoDescription: "In this lab you use Cloud Monitoring to generate traffic and view metrics on the predefined Apache dashboard in the Google Cloud console.
 
 The Apache Web Se"
-datePublished: Fri Apr 18 2025 03:37:54 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-18T03:37:54.781Z
 cuid: cm9m8o8kd000308l87s2oanrj
 slug: monitor-an-apache-web-server-using-ops-agent-gsp1108
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744947363121/8fa3049a-ed0c-4457-af1c-b01bb04149dd.png
