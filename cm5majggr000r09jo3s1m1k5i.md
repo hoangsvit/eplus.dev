@@ -2,7 +2,7 @@
 title: "Quiz 3 - Data Formats and Streaming Data Quiz"
 seoTitle: "Quiz 3 - Data Formats and Streaming Data Quiz"
 seoDescription: "Quiz 3 - Data Formats and Streaming Data Quiz"
-datePublished: Tue Jan 07 2025 09:51:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-07T09:51:21.627Z
 cuid: cm5majggr000r09jo3s1m1k5i
 slug: quiz-3-data-formats-and-streaming-data-quiz
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736243214147/91440139-ebf2-42dd-9143-cae79f359d09.png
