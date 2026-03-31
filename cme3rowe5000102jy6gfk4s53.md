@@ -2,7 +2,7 @@
 title: "Getting Started with Firebase Cloud Firestore - GSP1136"
 seoTitle: "Getting Started with Firebase Cloud Firestore - GSP1136"
 seoDescription: "Learn Cloud Firestore: set up a web app, configure security rules, practice reading/writing data. Beginner-friendly lab"
-datePublished: Sat Aug 09 2025 04:41:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-09T04:41:12.701Z
 cuid: cme3rowe5000102jy6gfk4s53
 slug: getting-started-with-firebase-cloud-firestore-gsp1136
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754714196976/813534c3-5754-45bc-8ad5-8751f26bbe81.png
