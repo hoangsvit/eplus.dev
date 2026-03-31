@@ -2,7 +2,7 @@
 title: "Configure Secure CORS for Cloud Storage (Solution)"
 seoTitle: "Configure Secure CORS for Cloud Storage (Solution)"
 seoDescription: "Learn how to securely configure CORS for Google Cloud Storage to enable cross-origin requests from specific web applications"
-datePublished: Sun Feb 15 2026 06:43:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-02-15T06:43:01.799Z
 cuid: cmlndpesn000102l107tk9upj
 slug: configure-secure-cors-for-cloud-storage-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1771137568478/654a3b67-ec48-4b07-9454-d547bde59ee3.png
