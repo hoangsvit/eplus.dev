@@ -2,7 +2,7 @@
 title: "Create an NPM Artifact Registry and Upload Code - gem-artifact-registry-npm"
 seoTitle: "Create an NPM Artifact Registry and Upload Code - gem-artifact-registr"
 seoDescription: "Learn how to create an NPM Artifact Registry on Google Cloud and upload a Node.js package using Cloud Shell"
-datePublished: Sun Jul 20 2025 06:16:17 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-20T06:16:17.324Z
 cuid: cmdbaa4rw000a02kz9m5ccuo6
 slug: create-an-npm-artifact-registry-and-upload-code-gem-artifact-registry-npm
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752991965456/1d002fc8-01c2-4656-9ae7-7d7532107c17.png
