@@ -2,7 +2,7 @@
 title: "Sending and Scheduling Looks in Looker -GSP1161"
 seoTitle: "Sending and Scheduling Looks in Looker -GSP1161"
 seoDescription: "Learn to send and schedule Looks in Looker, create visualizations, and set up regular distribution in this interactive Google Cloud lab"
-datePublished: Sat Aug 09 2025 05:37:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-09T05:37:12.057Z
 cuid: cme3towhl000h02jz63ewf5rg
 slug: sending-and-scheduling-looks-in-looker-gsp1161
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754717189520/2f4ab39d-2e7c-4dae-b971-7d57e7a140d6.png
