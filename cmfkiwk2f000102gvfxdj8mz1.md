@@ -2,7 +2,7 @@
 title: "Build an AI Image Recognition app using Gemini on Vertex AI"
 seoTitle: "Build an AI Image Recognition app using Gemini on Vertex AI"
 seoDescription: "Learn how to build an AI image recognition app using Gemini on Vertex AI. Follow the step-by-step guide with expert-provided code snippets"
-datePublished: Mon Sep 15 2025 02:47:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-15T02:47:00.759Z
 cuid: cmfkiwk2f000102gvfxdj8mz1
 slug: build-an-ai-image-recognition-app-using-gemini-on-vertex-ai
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757904247770/a74bd609-e066-4326-9c44-621407fbd2c8.png
