@@ -2,7 +2,7 @@
 title: "Google Chat Bot - Apps Script - GSP250"
 seoTitle: "Google Chat Bot - Apps Script - GSP250"
 seoDescription: "Google Chat bots provide easy-to-use access points to your organization's data and services. Users can converse with bots within a chat experience."
-datePublished: Tue Dec 10 2024 06:23:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-10T06:23:34.156Z
 cuid: cm4i2sdu4000v09l48jh2ez0y
 slug: google-chat-bot-apps-script-gsp250
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733811504054/67d536f3-90c7-42d9-8155-8680695eabb8.png
