@@ -2,7 +2,7 @@
 title: "Working with Artifact Registry - GSP1076"
 seoTitle: "Working with Artifact Registry - GSP1076"
 seoDescription: "As the evolution of Container Registry, Artifact Registry is a single place for your organization to manage container images and language packages (such as"
-datePublished: Mon Sep 09 2024 02:17:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-09T02:17:01.527Z
 cuid: cm0udgyfr000d0ak16ar2gkkf
 slug: working-with-artifact-registry-gsp1076
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725847059886/158bc106-a4a6-4c48-a31a-cb13dd81c271.jpeg
