@@ -4,7 +4,7 @@ seoTitle: "Digital Transformation with Google Cloud"
 seoDescription: "There's much excitement about cloud technology and digital transformation, but often many unanswered questions.
 
 For example: What is cloud technology? What"
-datePublished: Thu Aug 01 2024 04:17:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-01T04:17:25.370Z
 cuid: clzarlke1000e09mcbdfidack
 slug: digital-transformation-with-google-cloud
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722485772907/98a339f2-205e-4ba5-9128-79d159a724c4.png
