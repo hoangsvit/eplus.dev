@@ -2,7 +2,7 @@
 title: "Filtering and Sorting Data in Looker - GSP855"
 seoTitle: "Filtering and Sorting Data in Looker - GSP855"
 seoDescription: "Looker is a modern data platform in Google Cloud that lets you analyze and visualize your data interactively. You can use Looker to do in-depth data analysi"
-datePublished: Tue Feb 18 2025 12:01:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-18T12:01:13.568Z
 cuid: cm7afo8rk000009jvb7tt7ze9
 slug: filtering-and-sorting-data-in-looker-gsp855
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739875710542/c3d42ea7-2c58-477b-b57f-dd32c9bd593d.png
