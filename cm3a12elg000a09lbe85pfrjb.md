@@ -2,7 +2,7 @@
 title: "Module quiz: Introduction to Databases"
 seoTitle: "Module quiz: Introduction to Databases"
 seoDescription: "Module quiz: Introduction to Databases"
-datePublished: Sat Nov 09 2024 10:33:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-09T10:33:30.724Z
 cuid: cm3a12elg000a09lbe85pfrjb
 slug: module-quiz-introduction-to-databases
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731148368707/29265e4a-5e90-40b7-b885-11cc465fccf7.png
