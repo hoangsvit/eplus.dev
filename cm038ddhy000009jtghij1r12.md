@@ -2,7 +2,7 @@
 title: "Perform Predictive Data Analysis in BigQuery: Challenge Lab - GSP374"
 seoTitle: "Perform Predictive Data Analysis in BigQuery: Challenge Lab - GSP374"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Wed Aug 21 2024 02:24:29 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-21T02:24:29.590Z
 cuid: cm038ddhy000009jtghij1r12
 slug: perform-predictive-data-analysis-in-bigquery-challenge-lab-gsp374
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759298055184/c868d288-b90b-4a56-911e-ecefc268f4fd.png
