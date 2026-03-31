@@ -2,7 +2,7 @@
 title: "Cloud SQL for MySQL: Qwik Start - GSP151"
 seoTitle: "Cloud SQL for MySQL: Qwik Start - GSP151"
 seoDescription: "In this lab, you learn how to create and connect to a Cloud SQL for MySQL instance and perform basic SQL operations using the Cloud console and the mysql cl"
-datePublished: Wed Aug 07 2024 02:08:27 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-07T02:08:27.316Z
 cuid: clzj7mto400070ak01dok67ar
 slug: cloud-sql-for-mysql-qwik-start-gsp151
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758001678478/22d9c733-31cb-491a-b3c8-658546b6ab5e.png
