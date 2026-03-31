@@ -2,7 +2,7 @@
 title: "Arcade Chatbot: Interactive DevOps Engineer Revision - arc142-genai"
 seoTitle: "Arcade Chatbot: Interactive DevOps Engineer Revision - arc142-genai"
 seoDescription: "In this lab you will learn the fundamentals of prompt engineering using Generative AI and Google Cloud. During the lab you will have access to a chatbot tha"
-datePublished: Sun Jun 08 2025 06:47:35 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-08T06:47:35.191Z
 cuid: cmbnawlqv000b02l4h2u02gtd
 slug: arcade-chatbot-interactive-devops-engineer-revision-arc142-genai
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749365216337/911ecce0-f132-4010-acdc-2138e0270336.png
