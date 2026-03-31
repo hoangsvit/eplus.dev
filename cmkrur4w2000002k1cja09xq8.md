@@ -2,7 +2,7 @@
 title: "AlloyDB - Database Fundamentals - GSP1083"
 seoTitle: "AlloyDB - Database Fundamentals - GSP1083"
 seoDescription: "Learn how to manage Google AlloyDB instances, create tables, insert data, and use the Google Cloud CLI in this hands-on database fundamentals lab"
-datePublished: Sat Jan 24 2026 05:11:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-24T05:11:38.114Z
 cuid: cmkrur4w2000002k1cja09xq8
 slug: alloydb-database-fundamentals-gsp1083
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769231433636/17d385d6-a1f6-4d58-9690-9a9893cab518.png
