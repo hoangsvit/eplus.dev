@@ -2,7 +2,7 @@
 title: "Reflection: Applying the Triple Constraint"
 seoTitle: "Reflection: Applying the Triple Constraint"
 seoDescription: "Reflection: Applying the Triple Constraint"
-datePublished: Sun Oct 20 2024 05:13:37 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-20T05:13:37.848Z
 cuid: cm2h4tzxz000209l7frncaf0n
 slug: reflection-applying-the-triple-constraint
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729401196122/3f05b925-8e19-4c94-8392-a470012e16f3.png
