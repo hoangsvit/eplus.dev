@@ -2,7 +2,7 @@
 title: "Build an application to send Chat Prompts using the Gemini model -"
 seoTitle: "Build an application to send Chat Prompts using the Gemini model "
 seoDescription: "Learn how to build an AI application to send chat prompts using Google's Gemini model on Vertex AI. Explore non-streaming and streaming responses"
-datePublished: Fri Aug 29 2025 11:44:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-29T11:44:58.039Z
 cuid: cmewrmw1j000602jf7np21s78
 slug: build-an-application-to-send-chat-prompts-using-the-gemini-model
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756467840911/d63b68bc-e285-4739-b8ea-182a7efb60d9.png
