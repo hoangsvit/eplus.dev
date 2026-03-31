@@ -2,7 +2,7 @@
 title: "Test your knowledge: Acquiring the core skills of a successful project manager"
 seoTitle: "Test your knowledge: Acquiring the core skills of a successful project"
 seoDescription: "Test your knowledge: Acquiring the core skills of a successful project manager"
-datePublished: Thu Oct 17 2024 08:24:52 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-17T08:24:52.644Z
 cuid: cm2d1cdyc000a09jn80428yir
 slug: test-your-knowledge-acquiring-the-core-skills-of-a-successful-project-manager
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729153473420/8b189f2c-421e-4880-b37e-397bde93e343.png
