@@ -2,7 +2,7 @@
 title: "Service Accounts and Roles: Fundamentals - GSP199"
 seoTitle: "Service Accounts and Roles: Fundamentals - GSP199"
 seoDescription: "Service accounts are a special type of Google account that grant permissions to virtual machines instead of end users. Service accounts are primarily used t"
-datePublished: Sun Aug 18 2024 09:10:09 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-18T09:10:09.659Z
 cuid: clzzcjiez000m09l2f4v23f68
 slug: service-accounts-and-roles-fundamentals-gsp199
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748317472992/2d947910-7749-481c-a68d-e4b4198d6321.png
@@ -19,24 +19,24 @@ Service accounts are a special type of Google account that grant permissions to 
 
 In this lab, you learn how to:
 
-* Create and manage service accounts.
+*   Create and manage service accounts.
     
-* Create a virtual machine and associate it with a service account.
+*   Create a virtual machine and associate it with a service account.
     
-* Use client libraries to access BigQuery from a service account.
+*   Use client libraries to access BigQuery from a service account.
     
-* Run a query on a BigQuery public dataset from a Compute Engine instance.
+*   Run a query on a BigQuery public dataset from a Compute Engine instance.
     
 
 ### Prerequisites
 
 Some experience with Cloud IAM is recommended, but little to no prior knowledge with service accounts is assumed. If you're looking for more advanced hands-on practice in this topic area, be sure to check out the following labs:
 
-* [VPC Network Peering](https://google.qwiklabs.com/catalog_lab/935)
+*   [VPC Network Peering](https://google.qwiklabs.com/catalog_lab/935)
     
-* [Setting up a Private Kubernetes Cluster](https://google.qwiklabs.com/catalog_lab/908)
+*   [Setting up a Private Kubernetes Cluster](https://google.qwiklabs.com/catalog_lab/908)
     
-* [Building a High-throughput VPN](https://google.qwiklabs.com/catalog_lab/620)
+*   [Building a High-throughput VPN](https://google.qwiklabs.com/catalog_lab/620)
     
 
 ## **Setup and requirements**
@@ -49,29 +49,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -79,7 +79,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-2cf7f16cc058@qwiklabs.net
@@ -87,9 +87,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     wFlxuo42sYcR
@@ -97,19 +97,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -122,7 +122,7 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell**
+1.  Click **Activate Cloud Shell**
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="left")
     
@@ -137,14 +137,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-03-34c6d1a024
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-2. (Optional) You can list the active account name with this command:
+2.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-3. Click **Authorize**.
+3.  Click **Authorize**.
     
 
 **Output:**
@@ -157,7 +157,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-4. (Optional) You can list the project ID with this command:
+4.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -229,11 +229,11 @@ When an identity calls a Google Cloud API, Google Cloud Identity and Access Mana
 
 There are three types of roles in Cloud IAM:
 
-* **Primitive roles**, which include the Owner, Editor, and Viewer roles that existed prior to the introduction of Cloud IAM.
+*   **Primitive roles**, which include the Owner, Editor, and Viewer roles that existed prior to the introduction of Cloud IAM.
     
-* **Predefined roles**, which provide granular access for a specific service and are managed by Google Cloud.
+*   **Predefined roles**, which provide granular access for a specific service and are managed by Google Cloud.
     
-* **Custom roles**, which provide granular access according to a user-specified list of permissions.
+*   **Custom roles**, which provide granular access according to a user-specified list of permissions.
     
 
 Learn more about roles from the [Understanding roles Guide](https://cloud.google.com/iam/docs/understanding-roles).
@@ -246,7 +246,7 @@ When you create a new Cloud project, Google Cloud automatically creates one Comp
 
 Creating a service account is similar to adding a member to your project, but the service account belongs to your applications rather than an individual end user.
 
-* To create a service account, run the following command in Cloud Shell:
+*   To create a service account, run the following command in Cloud Shell:
     
 
 ```apache
@@ -271,7 +271,7 @@ At the same time, you might also want to control who can start the VM. You can d
 
 You grant roles to a service account so that the service account has permission to complete specific actions on the resources in your Cloud Platform project. For example, you might grant the `storage.admin` role to a service account so that it has control over objects and buckets in Cloud Storage.
 
-* Run the following in Cloud Shell to grant roles to the service account you just made:
+*   Run the following in Cloud Shell to grant roles to the service account you just made:
     
 
 ```apache
@@ -313,57 +313,47 @@ In this section, you query the BigQuery public datasets from an instance with th
 
 First create a new service account from the console.
 
-1. Go to **Navigation menu** &gt; **IAM & Admin**, select **Service accounts** and click on **\+ Create Service Account**.
+1.  Go to **Navigation menu** > **IAM & Admin**, select **Service accounts** and click on **\+ Create Service Account**.
     
-2. Fill necessary details with:
-    
-
-* **Service account name:** bigquery-qwiklab
+2.  Fill necessary details with:
     
 
-3. Now click **Create and Continue** and then add the following roles:
+*   **Service account name:** bigquery-qwiklab
     
-    * **Bigquery** &gt; **BigQuery Data Viewer**
+
+3.  Now click **Create and Continue** and then add the following roles:
+    
+    *   **Bigquery** > **BigQuery Data Viewer**
         
-    * **BigQuery** &gt; **BigQuery User**
+    *   **BigQuery** > **BigQuery User**
         
 
 Your console should resemble the following:
 
 ![Create service account tabbed page](https://cdn.qwiklabs.com/2lJNyNsAPgANCKenWL1AmKf3Tx4IkB0%2B5eZ3z7%2FPGRs%3D align="left")
 
-4. Click **Continue** and then click **Done**.
+4.  Click **Continue** and then click **Done**.
     
 
 ### Create a VM instance
 
-1. In the console, go to **Compute Engine &gt; VM Instances**, and click **Create Instance**.
+1.  In the console, go to **Compute Engine > VM Instances**, and click **Create Instance**.
     
-2. Create your VM with the following information:
+2.  Create your VM with the following information:
     
 
-| **Configuration** | **Value** |
-| --- | --- |
-| Name | bigquery-instance |
-| Region | `us-central1` |
-| Zone | `us-central1-c` |
-| Series | E2 |
-| Machine Type | e2-medium |
-| Boot Disk | Debian GNU/Linux 11 (bullseye) x86/64 |
-| Service account | bigquery-qwiklab |
-| Access scopes | Set access for each API |
-| BigQuery | Enabled |
+<table style="min-width: 50px;"><colgroup><col style="min-width: 25px;"><col style="min-width: 25px;"></colgroup><tbody><tr><th colspan="1" rowspan="1"><p><strong>Configuration</strong></p></th><th colspan="1" rowspan="1"><p><strong>Value</strong></p></th></tr><tr><td colspan="1" rowspan="1"><p>Name</p></td><td colspan="1" rowspan="1"><p>bigquery-instance</p></td></tr><tr><td colspan="1" rowspan="1"><p>Region</p></td><td colspan="1" rowspan="1"><p><code>us-central1</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Zone</p></td><td colspan="1" rowspan="1"><p><code>us-central1-c</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Series</p></td><td colspan="1" rowspan="1"><p>E2</p></td></tr><tr><td colspan="1" rowspan="1"><p>Machine Type</p></td><td colspan="1" rowspan="1"><p>e2-medium</p></td></tr><tr><td colspan="1" rowspan="1"><p>Boot Disk</p></td><td colspan="1" rowspan="1"><p>Debian GNU/Linux 11 (bullseye) x86/64</p></td></tr><tr><td colspan="1" rowspan="1"><p>Service account</p></td><td colspan="1" rowspan="1"><p>bigquery-qwiklab</p></td></tr><tr><td colspan="1" rowspan="1"><p>Access scopes</p></td><td colspan="1" rowspan="1"><p>Set access for each API</p></td></tr><tr><td colspan="1" rowspan="1"><p>BigQuery</p></td><td colspan="1" rowspan="1"><p>Enabled</p></td></tr></tbody></table>
 
 **Note:** If the `bigquery-qwiklab` service account doesn't appear in the drop-down list, try typing the name into the "Filter" section.
 
-3. Click **Create**.
+3.  Click **Create**.
     
 
 ### Put the example code on a Compute Engine instance
 
-1. In the console, go to **Compute Engine** &gt; **VM Instances**.
+1.  In the console, go to **Compute Engine** > **VM Instances**.
     
-2. SSH into `bigquery-instance` by clicking on the **SSH** button.
+2.  SSH into `bigquery-instance` by clicking on the **SSH** button.
     
 
 **Note:** While connecting to SSH, you can click on **Connect without Identity-Aware Proxy**.
@@ -532,13 +522,13 @@ Click *Check my progress* to verify the objective.
 
 Access BigQuery using a Service Account
 
----
+* * *
 
 ## Solution of Lab
 
 ### New Solution
 
-%[https://youtu.be/zF6iNawLkk4] 
+<iframe type="youtube" src="https://www.youtube.com/watch?v=ME0iWBPvMxo" data-node-type="hn-embed"></iframe>
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP199/lab.sh
@@ -548,16 +538,16 @@ source lab.sh
 **Script Alternative**
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Service%20Accounts%20and%20Roles%3A%20Fundamentals/techcps199.sh
-sudo chmod +x techcps199.sh
-./techcps199.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Service%20Accounts%20and%20Roles%3A%20Fundamentals/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
 
----
+* * *
 
 ### Old Solution
 
-%[https://www.youtube.com/watch?v=iq6udZU9QKU] 
+%\[https://www.youtube.com/watch?v=iq6udZU9QKU\]
 
 ```apache
 export ZONE=
