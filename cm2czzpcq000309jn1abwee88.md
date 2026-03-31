@@ -2,7 +2,7 @@
 title: "Serverless Architectures on AWS - Final Assessment"
 seoTitle: "Serverless Architectures on AWS - Final Assessment"
 seoDescription: "A modern software engineer knows how to use the benefits of managed services from Amazon Web Services to reduce the coding needed to get a project across th"
-datePublished: Thu Oct 17 2024 07:47:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-17T07:47:01.274Z
 cuid: cm2czzpcq000309jn1abwee88
 slug: serverless-architectures-on-aws-final-assessment
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729151172303/26d8d684-735a-4aac-a897-efe5c735795e.png
