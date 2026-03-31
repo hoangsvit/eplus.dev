@@ -2,7 +2,7 @@
 title: "Classify Text into Categories with the Natural Language API - GSP063"
 seoTitle: "Classify Text into Categories with the Natural Language API - GSP063"
 seoDescription: "The Cloud Natural Language API lets you extract entities from text, perform sentiment and syntactic analysis, and classify text into categories. In this lab"
-datePublished: Sat Aug 17 2024 12:02:51 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-17T12:02:51.438Z
 cuid: clzy39qy6000209l28cgk1tfu
 slug: classify-text-into-categories-with-the-natural-language-api-gsp063
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749614161543/93a7e865-6263-4b05-b781-48e5e88a7fd1.png
