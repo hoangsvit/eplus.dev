@@ -2,7 +2,7 @@
 title: "Module quiz: The Building Blocks of a Program in Javascript"
 seoTitle: "Module quiz: The Building Blocks of a Program in Javascript"
 seoDescription: "Module quiz: The Building Blocks of a Program in Javascript"
-datePublished: Wed Jul 17 2024 09:01:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-17T09:01:10.247Z
 cuid: clypm4ovb001g09l6fj6xer9r
 slug: module-quiz-the-building-blocks-of-a-program-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721205578173/c296498d-5cea-41d1-ad99-8d10b67b0c99.png
