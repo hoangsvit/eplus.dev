@@ -2,7 +2,7 @@
 title: "Synthetic Data Generation using Gemini APIs - GSP1272"
 seoTitle: "Synthetic Data Generation using Gemini APIs - GSP1272"
 seoDescription: "This lab explores using the Gemini API in Vertex AI to generate synthetic data using Snowfakery. Snowfakery is a powerful framework for creating complex fak"
-datePublished: Fri Mar 28 2025 02:29:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-28T02:29:58.700Z
 cuid: cm8s5zzfw000209k11lv6bjkw
 slug: synthetic-data-generation-using-gemini-apis-gsp1272
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743128882723/adac1f25-0e71-4195-a5a8-e1b935da4a68.png
