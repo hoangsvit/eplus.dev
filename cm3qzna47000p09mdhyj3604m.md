@@ -4,7 +4,7 @@ seoTitle: "The Arcade Lessons (2024)"
 seoDescription: "Welcome to your next challenge in The Arcade!
 
 From November 19th to December 3rd, 2024, you are invited to attend the Arcade Lessons, where you’ll have the"
-datePublished: Thu Nov 21 2024 07:25:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-21T07:25:50.455Z
 cuid: cm3qzna47000p09mdhyj3604m
 slug: the-arcade-lessons-2024
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732173891018/a3c929aa-169a-414f-8eab-a31ba7efc164.png
