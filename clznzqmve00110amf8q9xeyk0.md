@@ -2,7 +2,7 @@
 title: "Detect Manufacturing Defects using Visual Inspection AI: Challenge Lab - GSP366"
 seoTitle: "Detect Manufacturing Defects using Visual Inspection AI: Challenge Lab"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Sat Aug 10 2024 10:26:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-10T10:26:19.082Z
 cuid: clznzqmve00110amf8q9xeyk0
 slug: detect-manufacturing-defects-using-visual-inspection-ai-challenge-lab-gsp366
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723285433932/353c5524-2665-4a8f-a8ea-7868afaf8867.png
