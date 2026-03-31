@@ -2,7 +2,7 @@
 title: "Reflection: Identify the essential skills of a project manager"
 seoTitle: "Reflection: Identify the essential skills of a project manager"
 seoDescription: "Reflection: Identify the essential skills of a project manager"
-datePublished: Thu Oct 17 2024 08:18:18 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-17T08:18:18.575Z
 cuid: cm2d13xvz000609le8z0mdz1p
 slug: reflection-identify-the-essential-skills-of-a-project-manager
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729153069590/87b0510e-2141-43d0-9ccf-6cef030c0a48.png
