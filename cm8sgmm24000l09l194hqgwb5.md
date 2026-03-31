@@ -2,7 +2,7 @@
 title: "Generate Personalized Email Content with BigQuery Continuous Queries and Gemini - GSP1284"
 seoTitle: "Generate Personalized Email Content with BigQuery Continuous Queries a"
 seoDescription: "Building a customer engagement system is often complex and can require specialized tooling. But what if you could do this with something as easy as a SQL st"
-datePublished: Fri Mar 28 2025 07:27:30 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-28T07:27:30.604Z
 cuid: cm8sgmm24000l09l194hqgwb5
 slug: generate-personalized-email-content-with-bigquery-continuous-queries-and-gemini-gsp1284
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743146761976/3599bff4-ee72-4f7c-8342-3596869dce9d.png
