@@ -2,7 +2,7 @@
 title: "Deploying GKE Autopilot Clusters (Solution)"
 seoTitle: "Deploying GKE Autopilot Clusters (Solution)"
 seoDescription: "In this lab, you use the Google Cloud Console to build GKE Autopilot clusters and deploy a sample Pod."
-datePublished: Sat Feb 22 2025 06:54:44 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-22T06:54:44.191Z
 cuid: cm7fuhi3j000009jxg0vfbft0
 slug: deploying-gke-autopilot-clusters-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740207051542/352725f0-dec4-49bf-b080-4cef13f4a9a9.png
