@@ -4,7 +4,7 @@ seoTitle: "The Arcade Trivia January 2025 Week 2 (Solution)"
 seoDescription: "Welcome to The Arcade Trivia January 2025! Give your career a boost with hands-on experience with different Google Cloud and partner services.
 
 Click Start "
-datePublished: Tue Jan 14 2025 09:54:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-14T09:54:00.672Z
 cuid: cm5waptuo000b0ajr11a0gmnz
 slug: the-arcade-trivia-january-2025-week-2-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736848395145/be924779-610e-4409-968c-f9d576610d9d.png
