@@ -4,7 +4,7 @@ seoTitle: "Configuring IAM Permissions with gcloud - GSP647"
 seoDescription: "This lab looks at three common areas to understand with regards to IAM and gcloud:
 the configuration of the gcloud environment
 the use of multiple gcloud c"
-datePublished: Sat Sep 14 2024 05:31:44 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-14T05:31:44.399Z
 cuid: cm11pmmbz000409jr1c9c5ojf
 slug: configuring-iam-permissions-with-gcloud-gsp647
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761277667777/7904c2c4-74da-4c81-9d34-f51c257e7831.png
