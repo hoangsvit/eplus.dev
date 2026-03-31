@@ -2,7 +2,7 @@
 title: "Google Calendar: Getting Started - GSP466"
 seoTitle: "Google Calendar: Getting Started - GSP466"
 seoDescription: "Google Calendar is an online, integrated calendar designed for teams. You can quickly schedule meetings and events and assign tasks to support upcoming acti"
-datePublished: Sat Jun 07 2025 07:37:37 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-07T07:37:37.666Z
 cuid: cmblx93sy000402l42k7c7fou
 slug: google-calendar-getting-started-gsp466
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749281817970/90b0667b-8846-4bac-8845-34d3435a5dd2.png
