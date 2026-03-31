@@ -4,7 +4,7 @@ seoTitle: "Arcade Adventure: ACE App Dev VIII - arc3007"
 seoDescription: "In this lab you will learn the fundamentals of topic using Google Cloud.
 
 If you are new to topic or looking for an overview of how to get started, you are "
-datePublished: Wed Mar 05 2025 07:25:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-05T07:25:03.114Z
 cuid: cm7vleux6000r09ibaomd8bz8
 slug: arcade-adventure-ace-app-dev-viii-arc3007
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741159475605/270bfb8d-ba49-4efb-8769-41dafec38e0e.png
