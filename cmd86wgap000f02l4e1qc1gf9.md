@@ -2,7 +2,7 @@
 title: "Tinkerwell 5: Elevating PHP Development with Artificial Intelligence"
 seoTitle: "Tinkerwell 5: AI for PHP Development"
 seoDescription: "Boost PHP development with Tinkerwell 5's AI, integrations, and tools for rapid prototyping, debugging, and productivity in various environments"
-datePublished: Fri Jul 18 2025 02:18:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-18T02:18:21.697Z
 cuid: cmd86wgap000f02l4e1qc1gf9
 slug: tinkerwell-5-elevating-php-development-with-artificial-intelligence
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752804586058/339df417-d1b6-4faf-ad8d-900bfa57d5b8.png
