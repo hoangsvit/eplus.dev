@@ -2,7 +2,7 @@
 title: "Knowledge check: Arrays, Objects and Functions in Javascript"
 seoTitle: "Knowledge check: Arrays, Objects and Functions in Javascript"
 seoDescription: "Knowledge check: Arrays, Objects and Functions in Javascript"
-datePublished: Wed Jul 17 2024 07:51:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-17T07:51:01.951Z
 cuid: clypjmhq700000amig1hx87ju
 slug: knowledge-check-arrays-objects-and-functions-in-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721201058782/d00543b6-ac6c-408c-b3ec-e9fc4e2ad1b9.png
