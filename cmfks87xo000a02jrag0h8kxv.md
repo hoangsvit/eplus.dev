@@ -2,7 +2,7 @@
 title: "Firebase Essentials: Firestore Database Write with JavaScript - gem-firebase-firestore-write-javascript"
 seoTitle: "Firebase Essentials: Firestore Database Write with JavaScript"
 seoDescription: "Learn to write data to a Firebase Firestore database using JavaScript in Google Cloud with this comprehensive guide"
-datePublished: Mon Sep 15 2025 07:08:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-15T07:08:01.452Z
 cuid: cmfks87xo000a02jrag0h8kxv
 slug: firebase-essentials-firestore-database-write-with-javascript-gem-firebase-firestore-write-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757919898704/b1645cc4-3aa9-41b1-b143-990d074a9e4a.png
