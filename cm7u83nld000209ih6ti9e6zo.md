@@ -2,7 +2,7 @@
 title: "Migrate MySQL Data to Cloud SQL using Database Migration Service: Challenge Lab - GSP351"
 seoTitle: "Migrate MySQL Data to Cloud SQL using Database Migration Service: Chal"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Tue Mar 04 2025 08:24:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-04T08:24:39.217Z
 cuid: cm7u83nld000209ih6ti9e6zo
 slug: migrate-mysql-data-to-cloud-sql-using-database-migration-service-challenge-lab-gsp351
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741074912327/31571f82-4520-499a-b611-6c30da4e2e3b.png
