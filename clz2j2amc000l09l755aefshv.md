@@ -2,7 +2,7 @@
 title: "Pub/Sub: Qwik Start - Console - GSP096"
 seoTitle: "Pub/Sub: Qwik Start - Console - GSP096"
 seoDescription: "Pub/Sub is a messaging service for exchanging event data among applications and services. A producer of data publishes messages to a Pub/Sub topic. A consum"
-datePublished: Fri Jul 26 2024 09:56:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-26T09:56:19.908Z
 cuid: clz2j2amc000l09l755aefshv
 slug: pub-sub-qwik-start-console-gsp096
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746861292676/b5d1a14b-9e69-4280-8bed-85d82e4e9ee1.png
