@@ -2,7 +2,7 @@
 title: "Process Data from Dirty to Clean - Module 3 challenge"
 seoTitle: "Process Data from Dirty to Clean - Module 3 challenge"
 seoDescription: "Process Data from Dirty to Clean - Module 3 challenge"
-datePublished: Sat Apr 26 2025 07:09:08 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-26T07:09:08.035Z
 cuid: cm9xvqon7002309jm7hgn9p9y
 slug: process-data-from-dirty-to-clean-module-3-challenge
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745651319675/510035e8-564c-4ff3-98aa-2446faaee703.png
