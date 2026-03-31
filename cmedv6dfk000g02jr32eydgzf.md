@@ -2,7 +2,7 @@
 title: "Getting started with Flutter Development - GSP885"
 seoTitle: "Getting started with Flutter Development - GSP885"
 seoDescription: "Learn how to build cross-platform apps with Flutter, Google's UI toolkit. Master the basics in this hands-on lab with real cloud resources"
-datePublished: Sat Aug 16 2025 06:16:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-16T06:16:28.544Z
 cuid: cmedv6dfk000g02jr32eydgzf
 slug: getting-started-with-flutter-development-gsp885
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755324828216/98ffd79f-682b-4e93-9ed5-0a67991d5f57.png
