@@ -2,7 +2,7 @@
 title: "[Knowledge check] Describe monitoring tools in Azure"
 seoTitle: "[Knowledge check] Describe monitoring tools in Azure"
 seoDescription: "This module covers tools that you can use to monitor your Azure environment."
-datePublished: Fri Jun 21 2024 09:28:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-21T09:28:23.681Z
 cuid: clxohnjwh001709mj910962ba
 slug: knowledge-check-describe-monitoring-tools-in-azure
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718961999356/12a180bc-73b8-4be2-a769-eb1e4f7fc2b4.png
