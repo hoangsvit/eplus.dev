@@ -2,7 +2,7 @@
 title: "Knowledge check: What is UX?"
 seoTitle: "Knowledge check: What is UX?"
 seoDescription: "Knowledge check: What is UX?"
-datePublished: Tue Sep 17 2024 01:57:20 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-17T01:57:20.132Z
 cuid: cm15sag78000909kx4srthc3o
 slug: knowledge-check-what-is-ux
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726538174148/4bdb5f91-96f6-4d23-b1ad-96c6c950c694.jpeg
