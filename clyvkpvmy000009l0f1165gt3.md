@@ -2,7 +2,7 @@
 title: "Knowledge check: Declaring form elements"
 seoTitle: "Knowledge check: Declaring form elements"
 seoDescription: "Knowledge check: Declaring form elements"
-datePublished: Sun Jul 21 2024 13:08:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T13:08:16.618Z
 cuid: clyvkpvmy000009l0f1165gt3
 slug: knowledge-check-declaring-form-elements
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721567256251/de61aa2a-d20b-4496-912d-abc070635471.png
