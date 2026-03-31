@@ -2,7 +2,7 @@
 title: "Working with JSON, Arrays, and Structs in BigQuery - GSP416"
 seoTitle: "Working with JSON, Arrays, and Structs in BigQuery - GSP416"
 seoDescription: "BigQuery is Google's fully managed, NoOps, low cost analytics database. With BigQuery you can query terabytes and terabytes of data without having any infra"
-datePublished: Tue Aug 06 2024 01:59:14 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-06T01:59:14.056Z
 cuid: clzhrv43s00050ajncgih3uw7
 slug: working-with-json-arrays-and-structs-in-bigquery-gsp416
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722909511755/657ac802-cdf6-4c48-af8e-64b3bafffb26.png
