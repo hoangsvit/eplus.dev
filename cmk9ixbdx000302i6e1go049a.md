@@ -2,7 +2,7 @@
 title: "Working with Cloud Dataprep on Google Cloud - GSP050"
 seoTitle: "Working with Cloud Dataprep on Google Cloud - GSP050"
 seoDescription: "Learn to clean, enrich, and analyze datasets using Cloud Dataprep on Google Cloud through hands-on lab exercises"
-datePublished: Sun Jan 11 2026 09:20:39 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-11T09:20:39.909Z
 cuid: cmk9ixbdx000302i6e1go049a
 slug: working-with-cloud-dataprep-on-google-cloud-gsp050
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768121887259/d5891a7a-50de-4f0f-b989-4c5987fe5e4e.png
