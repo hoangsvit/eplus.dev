@@ -4,7 +4,7 @@ seoTitle: "Redacting Confidential Data within your Pipelines in Cloud Data Fusio
 seoDescription: "In this lab, you wil learn how to use the Sensitive Data Protection plugin for Cloud Fusion to redact sensitive data.
 
 Consider the following scenario, in w"
-datePublished: Sun Jan 19 2025 09:12:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-19T09:12:15.904Z
 cuid: cm63efehs000509kz1vezc0eh
 slug: redacting-confidential-data-within-your-pipelines-in-cloud-data-fusion-gsp811
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737277606065/d4935035-b950-4281-84a8-53d2bbd8d6de.png
