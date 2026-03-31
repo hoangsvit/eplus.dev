@@ -2,7 +2,7 @@
 title: "Using Custom Fields in Looker Explores - GSP983"
 seoTitle: "Using Custom Fields in Looker Explores - GSP983"
 seoDescription: "Looker provides the ability for non-developer users to create and utilize ad hoc fields for richer data analysis. This is done by creating custom measures,"
-datePublished: Wed Aug 07 2024 02:12:40 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-07T02:12:40.729Z
 cuid: clzj7s97d000p09lb4eqq897g
 slug: using-custom-fields-in-looker-explores-gsp983
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747549885593/67e08a9b-689b-400c-be0a-bd433708fed7.png
