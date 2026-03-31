@@ -2,7 +2,7 @@
 title: "Top Platforms for Remote Job Opportunities"
 seoTitle: "Top Platforms for Remote Job Opportunities"
 seoDescription: "👀 Discover a curated list of the best platforms offering remote job positions. From software engineering to customer support, find diverse opportunities ta"
-datePublished: Thu Jan 18 2024 13:55:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-01-18T13:55:34.965Z
 cuid: clrj9y4dx000109l44kjybn0w
 slug: top-platforms-for-remote-job-opportunities
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/pHPzdEHN6Os/upload/e32f2fce420fd63f5340d6617191a85d.jpeg
