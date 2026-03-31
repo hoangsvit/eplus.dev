@@ -2,7 +2,7 @@
 title: "Prepare Data for Exploration - Module 1 challenge"
 seoTitle: "Prepare Data for Exploration - Module 1 challenge"
 seoDescription: "Prepare Data for Exploration - Module 1 challenge"
-datePublished: Fri Feb 14 2025 06:45:20 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-14T06:45:20.872Z
 cuid: cm74emm3s001w09kzes31eh24
 slug: prepare-data-for-exploration-module-1-challenge
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739515486976/d1568358-6419-415b-9180-b7bc12b43d01.png
