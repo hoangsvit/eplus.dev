@@ -2,7 +2,7 @@
 title: "Google Skills Arcade Trivia November 2025 Week 1 (Solution)"
 seoTitle: "Google Skills Arcade Trivia November 2025 Week 1 (Solution)"
 seoDescription: "Boost your career with Google Skills Arcade Trivia, exploring Google Cloud and Flutter solutions with engaging quizzes"
-datePublished: Wed Nov 05 2025 08:31:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-11-05T08:31:31.696Z
 cuid: cmhlqo1v4000102jj9fijaqdl
 slug: google-skills-arcade-trivia-november-2025-week-1-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762331465177/54aa80c5-4812-4195-8524-24d2692791df.png
