@@ -2,7 +2,7 @@
 title: "Gmail: Getting Started - GSP465"
 seoTitle: "Gmail: Getting Started - GSP465"
 seoDescription: "Gmail is an email service developed by Google. Gmail stores your email safely in the cloud, allowing you to access it from any computer or device with a web"
-datePublished: Fri Jun 06 2025 07:58:18 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-06T07:58:18.906Z
 cuid: cmbkijuvu000009le72v1c1dt
 slug: gmail-getting-started-gsp465
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749196260617/d2a3d85c-8ad8-4b8a-888b-09234d835e78.png
