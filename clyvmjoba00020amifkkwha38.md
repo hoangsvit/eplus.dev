@@ -2,7 +2,7 @@
 title: "Knowledge check: User input and forms"
 seoTitle: "Knowledge check: User input and forms"
 seoDescription: "Knowledge check: User input and forms"
-datePublished: Sun Jul 21 2024 13:59:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T13:59:26.422Z
 cuid: clyvmjoba00020amifkkwha38
 slug: knowledge-check-user-input-and-forms
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721570079863/1ed3bcb8-49f7-4477-9383-3746e0ebbad9.png
