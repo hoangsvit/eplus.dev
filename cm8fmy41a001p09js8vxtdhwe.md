@@ -4,7 +4,7 @@ seoTitle: "App Dev: Storing Image and Video Files in Cloud Storage v1.1 (Solutio
 seoDescription: "In this lab, you will enhance the online Quiz application to work with images and videos. You will store files as objects in a Cloud Storage bucket.
 
 The Qu"
-datePublished: Wed Mar 19 2025 08:03:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-19T08:03:24.526Z
 cuid: cm8fmy41a001p09js8vxtdhwe
 slug: app-dev-storing-image-and-video-files-in-cloud-storage-v11-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742365704559/9567824c-11e7-4c31-9733-b4ff065aac2c.png
