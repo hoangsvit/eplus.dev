@@ -2,7 +2,7 @@
 title: "Deploy a Hugo Website with Cloud Build and Firebase Pipeline - GSP747"
 seoTitle: "Deploy a Hugo Website with Cloud Build and Firebase Pipeline - GSP747"
 seoDescription: "In this lab you will create a pipeline for deploying websites based on Hugo, a static website builder. You will store the website content in Cloud Source Re"
-datePublished: Sun Aug 11 2024 04:39:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-11T04:39:21.122Z
 cuid: clzp2saaq000b09ieh2lx37ie
 slug: deploy-a-hugo-website-with-cloud-build-and-firebase-pipeline-gsp747
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750301173815/0343011f-f05e-452f-9223-337daf4be807.png
