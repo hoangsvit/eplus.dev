@@ -4,7 +4,7 @@ seoTitle: "Build an AI Image Generator app using Imagen on Vertex AI - bb-ide-ge
 seoDescription: "Labs are timed and cannot be paused. The timer starts when you click Start Lab.
 
 The included cloud terminal is preconfigured with the gcloud SDK."
-datePublished: Fri Mar 28 2025 08:18:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-28T08:18:13.965Z
 cuid: cm8sifubx000m09jxb1oa2opw
 slug: build-an-ai-image-generator-app-using-imagen-on-vertex-ai-bb-ide-genai-002
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743149845108/2073746d-8f50-4125-a780-28b24820ff7e.png
