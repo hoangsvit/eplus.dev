@@ -2,7 +2,7 @@
 title: "Migrate Existing Prometheus Monitoring Workloads to Google Cloud - GSP1025"
 seoTitle: "Migrate Existing Prometheus Monitoring Workloads to Google Cloud - GSP"
 seoDescription: "With self-deployed data collections, you manage your Prometheus installation as usual. The only difference from upstream Prometheus is that you run the Mana"
-datePublished: Sun Apr 13 2025 08:23:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-13T08:23:10.357Z
 cuid: cm9fdntp1000909jv8y1mhxmm
 slug: migrate-existing-prometheus-monitoring-workloads-to-google-cloud-gsp1025
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744532427190/94886bac-1aa5-40bd-9894-d9ac4fabf1c6.png
