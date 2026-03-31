@@ -2,7 +2,7 @@
 title: "Module quiz: Modules, packages, libraries and tools"
 seoTitle: "Module quiz: Modules, packages, libraries and tools"
 seoDescription: "Module quiz: Modules, packages, libraries and tools"
-datePublished: Fri Nov 08 2024 08:54:03 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-08T08:54:03.166Z
 cuid: cm38i2nby000209jtgzmsfynw
 slug: module-quiz-modules-packages-libraries-and-tools
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1731056018754/3091f44c-33f7-46a1-80be-48c7bf032252.png
