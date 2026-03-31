@@ -2,7 +2,7 @@
 title: "Làn sóng sa thải hàng loạt 'đánh úp' thị trường IT Việt Nam"
 seoTitle: "Làn sóng sa thải hàng loạt 'đánh úp' thị trường IT Việt Nam"
 seoDescription: "Trong những tháng gần đây, làn sóng sa thải hàng loạt đang diễn ra ở nhiều công ty công nghệ trên thế giới, trong đó có Việt Nam."
-datePublished: Sat Nov 11 2023 15:41:29 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-11-11T15:41:29.610Z
 cuid: clou7sebu000008jqbthc21dt
 slug: lan-song-sa-thai-hang-loat-danh-up-thi-truong-it-viet-nam
 cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/Fa9b57hffnM/upload/bb75ebb372ccf5209e0c3df79111b352.jpeg
