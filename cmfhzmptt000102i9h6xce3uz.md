@@ -2,7 +2,7 @@
 title: "Getting Started with Google Generative AI Using the Gen AI SDK - GSP1209"
 seoTitle: "Getting Started with Google Generative AI Using the Gen AI SDK - GSP12"
 seoDescription: "Learn Google Gen AI SDK to integrate AI in apps via installation, model interaction, and advanced features tasks"
-datePublished: Sat Sep 13 2025 08:11:56 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-13T08:11:56.609Z
 cuid: cmfhzmptt000102i9h6xce3uz
 slug: getting-started-with-google-generative-ai-using-the-gen-ai-sdk-gsp1209
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757750239255/d7db1207-4ad8-4e7d-9c4c-ac0876f69f3c.png
