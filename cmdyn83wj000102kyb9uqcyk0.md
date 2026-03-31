@@ -2,7 +2,7 @@
 title: "Configuring Network Connectivity Center as a Transit Hub - GSP911"
 seoTitle: "Configuring Network Connectivity Center as a Transit Hub - GSP911"
 seoDescription: "Configure Google Cloud's Network Connectivity Center as a transit hub using HA VPN for connecting non-Google networks via Google's backbone"
-datePublished: Tue Aug 05 2025 14:37:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-05T14:37:19.939Z
 cuid: cmdyn83wj000102kyb9uqcyk0
 slug: configuring-network-connectivity-center-as-a-transit-hub-gsp911
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754404154286/89f90905-167c-43ea-9a1b-0c2e97971a47.png
