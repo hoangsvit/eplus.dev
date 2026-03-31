@@ -2,7 +2,7 @@
 title: "Creating a Virtual Machine - GSP001"
 seoTitle: "Creating a Virtual Machine - GSP001"
 seoDescription: "Compute Engine allows you to create virtual machines (VMs) that run different operating systems, including multiple flavors of Linux (Debian, Ubuntu, Suse,"
-datePublished: Fri Jul 26 2024 08:10:11 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-26T08:10:11.358Z
 cuid: clz2f9sm6000h09k1dh1i12cw
 slug: creating-a-virtual-machine-gsp001
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755325660795/3ae249d5-a192-4d5c-8cb4-9d99ee3dd353.png
