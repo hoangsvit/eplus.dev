@@ -2,7 +2,7 @@
 title: "Chia sẻ bản quyền AnyViewer Professional"
 seoTitle: "Chia sẻ bản quyền AnyViewer Professional"
 seoDescription: "AnyViewer là giải pháp điều khiển máy tính, hỗ trợ từ xa tương tự như TeamViewer cho Windows, Android và iOS. Với bản Pro, AnyViewer sẽ cho bạn kết nối với"
-datePublished: Tue Jul 11 2023 06:38:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-07-11T06:38:28.544Z
 cuid: cljxx8am8000j09l18zjm9ao1
 slug: chia-se-ban-quyen-anyviewer-professional
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689056948399/27eedef5-963a-4d89-9538-02f88e9f6b16.png
