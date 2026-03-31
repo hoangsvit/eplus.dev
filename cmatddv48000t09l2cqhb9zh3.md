@@ -2,7 +2,7 @@
 title: "Explore an Ecommerce Dataset with SQL in BigQuery - GSP407"
 seoTitle: "Explore an Ecommerce Dataset with SQL in BigQuery - GSP407"
 seoDescription: "BigQuery is Google's fully managed, NoOps, low cost analytics database. With BigQuery you can query terabytes and terabytes of data without having any infra"
-datePublished: Sun May 18 2025 08:03:54 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-18T08:03:54.440Z
 cuid: cmatddv48000t09l2cqhb9zh3
 slug: explore-an-ecommerce-dataset-with-sql-in-bigquery-gsp407
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747555271855/969e5105-a74d-41e0-9a5f-cbbdba7bcad2.png
