@@ -2,7 +2,7 @@
 title: "Cloud Storage: Qwik Start - Cloud Console - GSP073"
 seoTitle: "Cloud Storage: Qwik Start - Cloud Console - GSP073"
 seoDescription: "Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. You can use Cloud Storage for a range of scenarios including servin"
-datePublished: Fri Aug 09 2024 05:42:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-09T05:42:15.745Z
 cuid: clzma5hhd000409jy4qxu7kyr
 slug: cloud-storage-qwik-start-cloud-console-gsp073
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744620711031/d7f5c6b9-8cc2-4ca8-9dcb-47c6c2e7eed0.png
