@@ -2,7 +2,7 @@
 title: "Validate Data in Google Sheets - GSP1062"
 seoTitle: "Validate Data in Google Sheets - GSP1062"
 seoDescription: "For this lab you read through a fictitious business scenario. By completing the various lab activities, you assist the characters with their Google Sheets u"
-datePublished: Thu Aug 22 2024 15:27:55 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-22T15:27:55.173Z
 cuid: cm05fspwl00090al77hav7bb3
 slug: validate-data-in-google-sheets-gsp1062
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747207383137/42552cfe-00c6-4106-a1b1-d5ff3eb4e623.png
@@ -27,13 +27,13 @@ In this lab, you use a spreadsheet to format the text and numbers printed on pri
 
 You learn how to perform the following tasks:
 
-* Sort and filter data.
+*   Sort and filter data.
     
-* Format numbers and text.
+*   Format numbers and text.
     
-* Clean data using functions.
+*   Clean data using functions.
     
-* Create data validation rules.
+*   Create data validation rules.
     
 
 ### Prerequisites
@@ -54,11 +54,11 @@ This Google Workspace hands-on lab lets you do the lab activities yourself in a 
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
-* Time. Note the time at the top of the left panel, which is an estimate of how long it should take to complete all steps. Plan your schedule so you have time to complete the lab. Once you start the lab, you will not be able to pause and return later (you begin at step 1 every time you start a lab).
+*   Time. Note the time at the top of the left panel, which is an estimate of how long it should take to complete all steps. Plan your schedule so you have time to complete the lab. Once you start the lab, you will not be able to pause and return later (you begin at step 1 every time you start a lab).
     
-* You do NOT need a Google Workspace account. An account is provided to you as part of this lab.
+*   You do NOT need a Google Workspace account. An account is provided to you as part of this lab.
     
 
 Open an Incognito window to run this lab.
@@ -77,16 +77,16 @@ If your lab requires other resource identifiers or connection-related informatio
 
 ### Sign in to Google Sheets
 
-1. Click **Open Google Sheets**
+1.  Click **Open Google Sheets**
     
 
 ***Tip:*** Open the tabs in separate windows, side-by-side.
 
-2. Notice the User Email field has been pre-filled. Click **Next**.
+2.  Notice the User Email field has been pre-filled. Click **Next**.
     
-3. Enter the **Password** and click **Next**.
+3.  Enter the **Password** and click **Next**.
     
-4. Accept all terms and conditions as prompted.
+4.  Accept all terms and conditions as prompted.
     
 
 Google Sheets opens and you are signed in to your Student Google Account.
@@ -97,29 +97,29 @@ In this task, you open a Google Sheets file and organize the data using sorting.
 
 ### Copy a spreadsheet
 
-1. In the left panel of the lab instructions, right-click **Open Google Sheets**, and then click **Open link in incognito window** to sign into your student account.
+1.  In the left panel of the lab instructions, right-click **Open Google Sheets**, and then click **Open link in incognito window** to sign into your student account.
     
-2. Right-click [On The Rise Bakery Customers and Items](https://docs.google.com/spreadsheets/d/1Sj8mfklFylWM5XX_c50896UJu36gvJ6tG36Cwlg2_M8/edit?usp=sharing), and then click **Open link in incognito window** to open the spreadsheet.
+2.  Right-click [On The Rise Bakery Customers and Items](https://docs.google.com/spreadsheets/d/1Sj8mfklFylWM5XX_c50896UJu36gvJ6tG36Cwlg2_M8/edit?usp=sharing), and then click **Open link in incognito window** to open the spreadsheet.
     
-3. Click **File** &gt; **Make a copy**.
+3.  Click **File** > **Make a copy**.
     
-4. Click **Make a copy** in the modal window to save the copy of the sheet in **My Drive**.
+4.  Click **Make a copy** in the modal window to save the copy of the sheet in **My Drive**.
     
 
 ### Sort a range
 
 When working with large datasets, it can be helpful to sort data to gain fast access to the necessary cells. Google Sheets lets users sort data in alphabetical or numerical order. You can sort an entire sheet by a column or you can sort a range of cells.
 
-1. In the lower-left of your spreadsheet, click the sheet labeled **Items** to view the data specific to items from On the Rise Bakery.
+1.  In the lower-left of your spreadsheet, click the sheet labeled **Items** to view the data specific to items from On the Rise Bakery.
     
 
 ![Items Sheet in](https://cdn.qwiklabs.com/GRez%2BTfJtE9pCtVMy0P7WyKWt6KCO7HIVMNQaS4beRI%3D align="left")
 
-2. To freeze the first row, at the top, click **View &gt; Freeze &gt; 1 row**.
+2.  To freeze the first row, at the top, click **View > Freeze > 1 row**.
     
     Freezing the top row ensures that the header does not change when you sort the records.
     
-3. To sort by **Number of Items** in ascending order, right-click the heading for column C, and then click **Sort sheet A to Z**.
+3.  To sort by **Number of Items** in ascending order, right-click the heading for column C, and then click **Sort sheet A to Z**.
     
 
 **Note:** You can also sort by applying a filter to the data range and then sorting on any column. In task two, you learn more about filtering.
@@ -128,18 +128,18 @@ When working with large datasets, it can be helpful to sort data to gain fast ac
 
 The SORT function can arrange rows in a spreadsheet based on the values in one or more of its columns. When using the SORT formula, you must provide the following parameters:
 
-* range: The data to be sorted.
+*   range: The data to be sorted.
     
-* sort\_column: The range of the values to sort by.
+*   sort\_column: The range of the values to sort by.
     
-* is\_ascending: The direction to sort the sort\_column in; TRUE sorts in ascending order, and FALSE sorts in descending order.
+*   is\_ascending: The direction to sort the sort\_column in; TRUE sorts in ascending order, and FALSE sorts in descending order.
     
 
-1. In the lower-left of your spreadsheet, click **Add Sheet** (+) to add another sheet.
+1.  In the lower-left of your spreadsheet, click **Add Sheet** (+) to add another sheet.
     
-2. Right-click the new sheet name, click **Rename**, and type **Items Sorted By Unit Price**
+2.  Right-click the new sheet name, click **Rename**, and type **Items Sorted By Unit Price**
     
-3. In cell A1 of the new sheet, type or paste **\=SORT(Items!A1:Items!C15, Items!B1:Items!B15, FALSE)**
+3.  In cell A1 of the new sheet, type or paste **\=SORT(Items!A1:Items!C15, Items!B1:Items!B15, FALSE)**
     
     In this formula, the range is A1:C15 from the Items sheet and the sort column is column B, which contains the unit price of each column. The word FALSE indicates that the data should be sorted in descending order.
     
@@ -162,21 +162,21 @@ The bakery is out of stock of cinnamon, so it wants to exclude cinnamon buns fro
 
 ### Create a filter
 
-1. Return to the **Items** sheet.
+1.  Return to the **Items** sheet.
     
-2. Select column A, and then at the top, click **Data &gt; Create a filter**.
+2.  Select column A, and then at the top, click **Data > Create a filter**.
     
-3. Click the filter icon () that appears in cell A1 to display filter options.
+3.  Click the filter icon () that appears in cell A1 to display filter options.
     
-4. Point to or click the following items in the menu to explore your options:
+4.  Point to or click the following items in the menu to explore your options:
     
-    * Filter by color
+    *   Filter by color
         
-    * Filter by condition
+    *   Filter by condition
         
-    * Filter by values
+    *   Filter by values
         
-5. To filter out cinnamon buns, under **Filter by values**, clear the checkmark next to **Cinnamon bun**, and then click **OK**.
+5.  To filter out cinnamon buns, under **Filter by values**, clear the checkmark next to **Cinnamon bun**, and then click **OK**.
     
 
 Click **Check my progress** to verify the objective.
@@ -185,18 +185,18 @@ Create a filter
 
 **Check my progress**
 
-6. To remove the filter, at the top, click **Data &gt; Remove filter**.
+6.  To remove the filter, at the top, click **Data > Remove filter**.
     
 
 ### Create a filter view
 
-1. Select cell A1.
+1.  Select cell A1.
     
-2. At the top, click **Data &gt; + Create a filter view**.
+2.  At the top, click **Data > + Create a filter view**.
     
-3. To filter out cinnamon buns, select the filter icon in cell A1, and then follow the previous process.
+3.  To filter out cinnamon buns, select the filter icon in cell A1, and then follow the previous process.
     
-4. To save the filter view, click **Data &gt; View options &gt; Save view &gt; Save**.
+4.  To save the filter view, click **Data > View options > Save view > Save**.
     
 
 Be sure to select the cell(s) before creating the filter view.
@@ -207,7 +207,7 @@ Create a filter view
 
 **Check my progress**
 
-5. To delete the filter view, at the top, click **Data &gt; View options &gt; Delete all views in tab**.
+5.  To delete the filter view, at the top, click **Data > View options > Delete all views in tab**.
     
 
 ## **Task 3. Format data**
@@ -216,26 +216,26 @@ Functions in Google Sheets are used to manipulate text and perform calculations.
 
 ### Truncate numbers
 
-1. In cell E1, type **Truncated Unit Prices**
+1.  In cell E1, type **Truncated Unit Prices**
     
     The unit price displayed for *10 donut holes* shows five values after the decimal point, while other items only show four. You can use the truncate function to limit the decimal places shown.
     
-2. In cell E2, type or paste **\=TRUNC(B2, 4)**
+2.  In cell E2, type or paste **\=TRUNC(B2, 4)**
     
-3. Click the small blue box in the lower-right corner of the cell, and then drag your cursor down to apply the formula to the remaining cells in the column.
+3.  Click the small blue box in the lower-right corner of the cell, and then drag your cursor down to apply the formula to the remaining cells in the column.
     
 
 ### Format currency
 
-1. To calculate the total cost of each menu item, in cell D2, type or paste **\=B2\*C2**
+1.  To calculate the total cost of each menu item, in cell D2, type or paste **\=B2\*C2**
     
     This formula multiplies the unit price by the number of items.
     
-2. To round the total cost to two decimal points, change the formula in cell D2 to **\=ROUND(B2\*C2, 2)**
+2.  To round the total cost to two decimal points, change the formula in cell D2 to **\=ROUND(B2\*C2, 2)**
     
-3. Apply the formula to the remaining cells in column D.
+3.  Apply the formula to the remaining cells in column D.
     
-4. To format numbers as currency, click the gray column label for column D to select the column, and then at the top, click **Format &gt; Number &gt; Currency**.
+4.  To format numbers as currency, click the gray column label for column D to select the column, and then at the top, click **Format > Number > Currency**.
     
     Currency formatting options in Google Sheets can also be used to adjust the number of values shown after the decimal point and add a currency symbol. Similarly, the decrease decimal places option () in the toolbar lets you reduce the number of decimal places shown without changing the underlying data in the cell.
     
@@ -246,13 +246,13 @@ When entering the formulas in this exercise, you may have seen the option to aut
 
 On the Rise Bakery must also properly capitalize product descriptions for the catering menu.
 
-1. To insert a new column, right-click the column B label, and then click **Insert 1 column left**.
+1.  To insert a new column, right-click the column B label, and then click **Insert 1 column left**.
     
-2. In cell B1, type **Formatted Name**
+2.  In cell B1, type **Formatted Name**
     
-3. To capitalize the first letter of each word in the name of each food item, in cell B2, type or paste **\=PROPER(A2)**
+3.  To capitalize the first letter of each word in the name of each food item, in cell B2, type or paste **\=PROPER(A2)**
     
-4. Apply this function to the remaining cells in column B.
+4.  Apply this function to the remaining cells in column B.
     
 
 Click **Check my progress** to verify the objective.
@@ -267,25 +267,25 @@ On The Rise Bakery must ensure the customer mailing list only contains valid ema
 
 ### Use a function to validate data
 
-1. On the sheet labeled **Customers**, click cell D2 and, at the top, click **Insert &gt; Function &gt; Info &gt; ISEMAIL**.
+1.  On the sheet labeled **Customers**, click cell D2 and, at the top, click **Insert > Function > Info > ISEMAIL**.
     
-2. In the parentheses in the formula, type **C2**, so the formula reads **\=ISEMAIL(C2)**
+2.  In the parentheses in the formula, type **C2**, so the formula reads **\=ISEMAIL(C2)**
     
-3. Apply the formula to the remaining rows in the column.
+3.  Apply the formula to the remaining rows in the column.
     
 
 ### Use a rule to validate data
 
-1. Select cells D2:D100 and, at the top, click **Data &gt; Data validation &gt; + Add rule**.
+1.  Select cells D2:D100 and, at the top, click **Data > Data validation > + Add rule**.
     
     This opens a sidebar with options for data validation rules. The **Cell range** field should be prepopulated with **Customers!D2:D100**.
     
-2. Select **Text contains** from the dropdown next to **Criteria**.
+2.  Select **Text contains** from the dropdown next to **Criteria**.
     
 
 **Note**: You can also use a data validation rule to check if the text in a cell is a valid email address or url.
 
-3. Type **True** in input box and then click **Done**.
+3.  Type **True** in input box and then click **Done**.
     
 
 Your completed validation rule should look like this:
@@ -306,7 +306,7 @@ Validate data using the function and correct rule
 
 **Check my progress**
 
-4. (Optional) Experiment with **ISDATE** or **ISNUMBER** using a data validation rule. Use column E for sample data, and validate the data in column F.
+4.  (Optional) Experiment with **ISDATE** or **ISNUMBER** using a data validation rule. Use column E for sample data, and validate the data in column F.
     
 
 ## **Task 5. Clean Data**
@@ -317,47 +317,47 @@ In this task, you help On the Rise Bakery clean data by removing duplicate rows 
 
 On The Rise Bakery also wants to know whether a single email address is associated with more than one customer.
 
-1. At the top, click **Format &gt; Conditional formatting**. This opens a sidebar with options for conditional format rules.
+1.  At the top, click **Format > Conditional formatting**. This opens a sidebar with options for conditional format rules.
     
-2. For **Apply to range**, type **C1:C100**
+2.  For **Apply to range**, type **C1:C100**
     
-3. Under **Format rules**, for **Format cells if**, select **Custom formula is**.
+3.  Under **Format rules**, for **Format cells if**, select **Custom formula is**.
     
-4. For **Value or formula**, type or paste **\=COUNTIF(C:C,C1)&gt;1**
+4.  For **Value or formula**, type or paste **\=COUNTIF(C:C,C1)>1**
     
     Cells, rows, or columns can be formatted to change text or background color if they meet certain conditions. This formula checks if an email address is found more than once within the column.
     
-5. For **Fill color** (), select red.
+5.  For **Fill color** (), select red.
     
-6. Click **Done**.
+6.  Click **Done**.
     
 
 ### Trim whitespaces
 
 On The Rise Bakery wants to address each of its customers by their first names in emails.
 
-1. In cell G1, type **Personalized Greeting**
+1.  In cell G1, type **Personalized Greeting**
     
-2. In cell G2, type or paste **\=CONCATENATE("Hello ", A2, ",")**, and then apply this formula to the remaining cells in the column.
+2.  In cell G2, type or paste **\=CONCATENATE("Hello ", A2, ",")**, and then apply this formula to the remaining cells in the column.
     
     The *CONCATENATE* function lets you combine strings of text. In this case, the formula combines the word "Hello" with the customer's name and a comma. However, cell G2 appears different from the other cells in the column.
     
-3. To trim whitespaces, update the formula in cell G2 to **\=CONCATENATE("Hello ", TRIM(A2),",")**
+3.  To trim whitespaces, update the formula in cell G2 to **\=CONCATENATE("Hello ", TRIM(A2),",")**
     
     The trim function removes leading, trailing, and repeated spaces in text. Using *TRIM* and *CONCATENATE* together ensures the Personalized Greeting will be properly formatted.
     
 
 ### Remove duplicates
 
-1. Select columns C, and at the top, click **Data &gt; Data cleanup &gt; Remove duplicates**.
+1.  Select columns C, and at the top, click **Data > Data cleanup > Remove duplicates**.
     
-2. Click on **Expand to A:D**.
+2.  Click on **Expand to A:D**.
     
-3. In the **Remove duplicates** dialog, select **Data has header row**, and under **Column to analyze**, select **Select all**.
+3.  In the **Remove duplicates** dialog, select **Data has header row**, and under **Column to analyze**, select **Select all**.
     
-4. Click **Remove duplicates**.
+4.  Click **Remove duplicates**.
     
-5. Notice the number of duplicate rows removed, and then click **OK** or **X** to close the dialog.
+5.  Notice the number of duplicate rows removed, and then click **OK** or **X** to close the dialog.
     
 
 **Note**: You may have noticed some *Cleanup Suggestions* or *Column Stats* while completing this task. Check out [Use Sheets Smart Cleanup to prepare your data for analysis](https://support.google.com/docs/answer/10098582) to learn more.
@@ -366,34 +366,46 @@ Click **Check my progress** to verify the objective.
 
 Clean Data
 
----
+* * *
 
 ## Solution of Lab
+
+### New solution
+
+<iframe type="youtube" src="https://www.youtube.com/watch?v=gmWSMWgYjX4" data-node-type="hn-embed"></iframe>
+
+Click the [On The Rise Bakery Customers and Items](https://storage.googleapis.com/cloud-training/GoogleSheets/On%20The%20Rise%20Bakery%20Customers%20and%20Items.xlsx) to download a spreadsheet
+
+<mark class="bg-yellow-200 dark:bg-yellow-500/30">Download file:</mark> [Drabhishek1062.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1062/Drabhishek1062.xlsx) *(Support task 3 → 5)*
+
+* * *
+
+### Quick
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
 <div data-node-type="callout-text">This laboratory may <strong>not be completed</strong>; please complete it by hand in the video to be graded.</div>
 </div>
 
-<mark>Download file:</mark> [GSP1062.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1062/GSP1062.xlsx) *(Support task 3 → 5)*
+<mark class="bg-yellow-200 dark:bg-yellow-500/30">Download file:</mark> [GSP1062.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1062/GSP1062.xlsx) *(Support task 3 → 5)*
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724338915156/4740f919-611e-4ab8-b398-7eeec543a5f6.png align="center")
 
----
+* * *
 
 ### Manual
 
-%[https://youtu.be/FY4TpzXxBsY] 
+<iframe type="youtube" src="https://youtu.be/FY4TpzXxBsY" data-node-type="hn-embed"></iframe>
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724338189304/7958c0cb-fab0-40a0-bbfd-859397b458ad.png align="center")
 
-1. Select cell A1.
+1.  Select cell A1.
     
-2. At the top, click **Data &gt; + Create a filter view**.
+2.  At the top, click **Data > + Create a filter view**.
     
-3. To filter out cinnamon buns, select the filter icon in cell A1, and then follow the previous process.
+3.  To filter out cinnamon buns, select the filter icon in cell A1, and then follow the previous process.
     
-4. To save the filter view, click **Data &gt; View options &gt; Save view &gt; Save**.
+4.  To save the filter view, click **Data > View options > Save view > Save**.
     
 
 Be sure to select the cell(s) before creating the filter view.
@@ -406,12 +418,12 @@ Be sure to select the cell(s) before creating the filter view.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724338607814/4411352b-9db5-4ca6-94b5-638347f2452a.png align="center")
 
-5. To delete the filter view, at the top, click **Data &gt; View options &gt; Delete all views in tab**.
+5.  To delete the filter view, at the top, click **Data > View options > Delete all views in tab**.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724338662192/ea395954-ec15-437f-aee8-22cd9e4e89ed.png align="center")
 
----
+* * *
 
 Task 6:
 
