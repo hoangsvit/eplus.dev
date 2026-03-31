@@ -2,7 +2,7 @@
 title: "Bracketology with Google Machine Learning - GSP461"
 seoTitle: "Bracketology with Google Machine Learning - GSP461"
 seoDescription: "BigQuery is Google's fully managed, NoOps, low cost analytics database. With BigQuery you can query terabytes and terabytes of data without managing infrast"
-datePublished: Fri Aug 16 2024 06:47:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-16T06:47:45.420Z
 cuid: clzwckob0001709kz66t32j7o
 slug: bracketology-with-google-machine-learning-gsp461
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756957743051/113f71ad-b9b5-4fb3-9308-ed75a582f1c5.png
