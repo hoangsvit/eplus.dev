@@ -2,7 +2,7 @@
 title: "Google Workspace for Education: Managing Services - GSP979"
 seoTitle: "Google Workspace for Education: Managing Services - GSP979"
 seoDescription: "Google Workspace for Education is a set of Google apps and services that are tailored for schools and homeschools to collaborate, streamline instruction, an"
-datePublished: Tue Dec 10 2024 04:45:56 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-10T04:45:56.595Z
 cuid: cm4hzau43001709jp4wur34uh
 slug: google-workspace-for-education-managing-services-gsp979
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733805893639/50c47d94-5ab4-46db-9e07-524b322d6967.png
