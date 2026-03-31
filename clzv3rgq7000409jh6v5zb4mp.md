@@ -2,7 +2,7 @@
 title: "Predict Visitor Purchases with a Classification Model in BigQuery ML - GSP229"
 seoTitle: "Predict Visitor Purchases with a Classification Model in BigQuery ML"
 seoDescription: "BigQuery is Google's fully managed, NoOps, low cost analytics database. With BigQuery you can query terabytes and terabytes of data without having any infra"
-datePublished: Thu Aug 15 2024 09:53:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-15T09:53:19.471Z
 cuid: clzv3rgq7000409jh6v5zb4mp
 slug: predict-visitor-purchases-with-a-classification-model-in-bigquery-ml-gsp229
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723715246709/10f09498-3ca4-4cea-a647-6c2abc2c668a.png
