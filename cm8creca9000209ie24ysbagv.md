@@ -2,7 +2,7 @@
 title: "Using BigQuery in the Google Cloud Console - GSP406"
 seoTitle: "Using BigQuery in the Google Cloud Console - GSP406"
 seoDescription: "Storing and querying massive datasets can be time consuming and expensive without the right hardware and infrastructure. BigQuery is an enterprise data ware"
-datePublished: Mon Mar 17 2025 07:44:41 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-17T07:44:41.649Z
 cuid: cm8creca9000209ie24ysbagv
 slug: using-bigquery-in-the-google-cloud-console-gsp406
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742197265401/e0c66b6f-73e2-458a-8037-89e3d711f7ae.png
