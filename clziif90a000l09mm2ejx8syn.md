@@ -2,7 +2,7 @@
 title: "Speech-to-Text API: Qwik Start - GSP119"
 seoTitle: "Speech-to-Text API: Qwik Start - GSP119"
 seoDescription: "The Speech-to-Text API enables easy integration of Google speech recognition technologies into developer applications. The Speech-to-Text API allows you to"
-datePublished: Tue Aug 06 2024 14:22:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-06T14:22:43.546Z
 cuid: clziif90a000l09mm2ejx8syn
 slug: speech-to-text-api-qwik-start-gsp119
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744618332193/716134d7-046a-4032-9af4-d8c5b73ea968.png
@@ -19,24 +19,24 @@ The Speech-to-Text API enables easy integration of Google speech recognition tec
 
 In this lab, you learn how to:
 
-* Create an API key
+*   Create an API key
     
-* Create a Speech-to-Text API request
+*   Create a Speech-to-Text API request
     
-* Call the Speech-to-Text API
+*   Call the Speech-to-Text API
     
 
 ### **Task 1. Create an API key**
 
 Since you'll be using `curl` to send a request to the Speech-to-Text API, you need to generate an API key to pass in our request URL.
 
-1. To create an API key, click **Navigation menu** &gt; **APIs & services** &gt; **Credentials**.
+1.  To create an API key, click **Navigation menu** > **APIs & services** > **Credentials**.
     
-2. Then click **Create credentials**.
+2.  Then click **Create credentials**.
     
-3. In the drop down menu, select **API key**.
+3.  In the drop down menu, select **API key**.
     
-4. Copy the key you just generated and click **Close**.
+4.  Copy the key you just generated and click **Close**.
     
 
 Click **Check my progress** to verify the objective.
@@ -49,11 +49,11 @@ Now that you have an API key, save it as an environment variable to avoid having
 
 To perform the next steps, connect using SSH to the instance provisioned for you.
 
-1. In the **Navigation menu**, select **Compute Engine**. You should see a `linux-instance` listed in the **VM instances** window.
+1.  In the **Navigation menu**, select **Compute Engine**. You should see a `linux-instance` listed in the **VM instances** window.
     
-2. Click on the **SSH** button in line with the `linux-instance`. You will be brought to an interactive shell.
+2.  Click on the **SSH** button in line with the `linux-instance`. You will be brought to an interactive shell.
     
-3. In the command line, enter in the following, replacing `<YOUR_API_KEY>` with the API key you copied from previously generated:
+3.  In the command line, enter in the following, replacing `<YOUR_API_KEY>` with the API key you copied from previously generated:
     
 
 ```apache
@@ -66,7 +66,7 @@ You remain in this SSH session for the rest of the lab.
 
 **Note:** You will use a pre-recorded file that's available on Cloud Storage: `gs://cloud-samples-tests/speech/brooklyn.flac`. [Listen to the audio file before sending it to the Speech-to-Text API](https://storage.cloud.google.com/cloud-samples-tests/speech/brooklyn.flac).
 
-1. Create `request.json` in the SSH command line. You'll use this to build your request to the Speech-to-Text API:
+1.  Create `request.json` in the SSH command line. You'll use this to build your request to the Speech-to-Text API:
     
 
 ```apache
@@ -75,7 +75,7 @@ touch request.json
 
 Copied!content\_copy
 
-2. Open the `request.json`:
+2.  Open the `request.json`:
     
 
 ```apache
@@ -86,7 +86,7 @@ Copied!content\_copy
 
 **Note:** You can use your preferred command line editor (`nano`, `vim`, `emacs`) or `gcloud`. This lab will provide instructions for `nano`.
 
-3. Add the following to your `request.json` file, using the `uri` value of the sample raw audio file:
+3.  Add the following to your `request.json` file, using the `uri` value of the sample raw audio file:
     
 
 ```json
@@ -101,7 +101,7 @@ Copied!content\_copy
 }
 ```
 
-4. Press `control` + `x` and then `y` to save and click `Enter` to close the `request.json` file.
+4.  Press `control` + `x` and then `y` to save and click `Enter` to close the `request.json` file.
     
 
 The request body has a `config` and `audio` object.
@@ -122,7 +122,7 @@ Now you're ready to call the Speech-to-Text API!
 
 ### **Task 3. Call the Speech-to-Text API**
 
-1. Pass your request body, along with the API key environment variable, to the Speech-to-Text API with the following `curl` command (all in one single command line):
+1.  Pass your request body, along with the API key environment variable, to the Speech-to-Text API with the following `curl` command (all in one single command line):
     
 
 ```apache
@@ -153,7 +153,7 @@ You'll notice that you called the `syncrecognize` method in the request above. T
 
 You created a Speech-to-Text API request then called the Speech-to-Text API.
 
-2. Run the following command to save the response in a `result.json` file:
+2.  Run the following command to save the response in a `result.json` file:
     
 
 ```apache
@@ -165,13 +165,22 @@ Click **Check my progress** to verify the objective.
 
 Call the Speech-to-Text API
 
----
+* * *
 
 ## Solution of Lab
 
 %[https://www.youtube.com/watch?v=0OOpG5_lXuM] 
 
-```apache
+Open: [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP119/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
 export API_KEY=
 ```
 
@@ -180,14 +189,13 @@ export API_KEY=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726211119264/1240ef9a-c470-4f33-a9cf-eb05b221714c.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP119/lab.sh
-source lab.sh
-```
-
-Script Alternative
-
-```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Google%20Cloud%20Speech%20to%20Text%20API%20Qwik%20Start/quicklabgsp119.sh
 sudo chmod +x quicklabgsp119.sh
 ./quicklabgsp119.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=nsEH6wD6VHg]
