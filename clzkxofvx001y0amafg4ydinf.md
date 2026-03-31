@@ -2,7 +2,7 @@
 title: "Knowledge check: Passing state - React Basic"
 seoTitle: "Knowledge check: Passing state - React Basic"
 seoDescription: "Knowledge check: Passing state - React Basic"
-datePublished: Thu Aug 08 2024 07:05:18 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-08T07:05:18.957Z
 cuid: clzkxofvx001y0amafg4ydinf
 slug: knowledge-check-passing-state-react-basic
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723100697939/4f7a0ed7-5080-4917-aa6f-d7093bca754e.png
