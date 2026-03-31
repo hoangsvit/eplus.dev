@@ -2,7 +2,7 @@
 title: "Securing a Cloud SQL for PostgreSQL Instance - GSP920"
 seoTitle: "Securing a Cloud SQL for PostgreSQL Instance - GSP920"
 seoDescription: "Secure your Cloud SQL PostgreSQL with CMEK, pgAudit, and IAM authentication in this step-by-step guide designed for database administrators"
-datePublished: Thu Sep 11 2025 01:50:58 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-11T01:50:58.159Z
 cuid: cmfer52sv000002ky5kcfeeoj
 slug: securing-a-cloud-sql-for-postgresql-instance-gsp920
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757554356353/3ef2e1ff-2314-4b75-92fb-5ba1270d33dd.png
