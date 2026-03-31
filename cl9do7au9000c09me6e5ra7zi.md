@@ -2,7 +2,7 @@
 title: "Import Laravel Vapor DNS to Cloudflare"
 seoTitle: "Import Laravel Vapor DNS to Cloudflare"
 seoDescription: "Orrison/Cumulus is an open-source package that works with Laravel Vapor to allow the user to manage their DNS records better when using Cloudflare for DNS"
-datePublished: Tue Oct 18 2022 03:53:18 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-10-18T03:53:18.753Z
 cuid: cl9do7au9000c09me6e5ra7zi
 slug: import-laravel-vapor-dns-to-cloudflare
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1666064905784/qi4HK59rK.jpg
