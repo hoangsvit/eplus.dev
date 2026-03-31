@@ -2,7 +2,7 @@
 title: "Machine Learning Operations (MLOps) with Vertex AI: Model Evaluation - Quiz"
 seoTitle: "Machine Learning Operations (MLOps) with Vertex AI: Model Evaluation -"
 seoDescription: "Machine Learning Operations (MLOps) with Vertex AI: Model Evaluation - Quiz"
-datePublished: Sun Apr 20 2025 07:03:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-20T07:03:06.595Z
 cuid: cm9pavtr7000909l2eggxd3m1
 slug: machine-learning-operations-mlops-with-vertex-ai-model-evaluation-quiz
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745131813983/5b96b5ff-876e-4ff0-8c9a-58efb82fcc2c.png
