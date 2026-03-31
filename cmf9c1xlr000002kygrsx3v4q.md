@@ -2,7 +2,7 @@
 title: "Build a Secure Google Cloud Network: Challenge Lab - GSP322"
 seoTitle: "Build a Secure Google Cloud Network: Challenge Lab - GSP322"
 seoDescription: "Set up secure firewall rules and virtual machine tags for a Google Cloud Network in this challenge lab. Maximize security for a project site"
-datePublished: Sun Sep 07 2025 06:49:46 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-07T06:49:46.336Z
 cuid: cmf9c1xlr000002kygrsx3v4q
 slug: build-a-secure-google-cloud-network-challenge-lab-gsp322
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757227724479/d5275164-6e03-491d-b208-5fe7520af2be.png
