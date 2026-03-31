@@ -2,7 +2,7 @@
 title: "[SQL] 620. Not Boring Movies"
 seoTitle: "[SQL] 620. Not Boring Movies"
 seoDescription: "[SQL] 620. Not Boring Movies"
-datePublished: Thu Nov 21 2024 09:26:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-21T09:26:43.934Z
 cuid: cm3r3yqxq000209mkab99gbjp
 slug: sql-620-not-boring-movies
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1732181088453/f6dd423e-a227-4e70-9c36-82ac296c45a7.png
