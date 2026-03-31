@@ -2,7 +2,7 @@
 title: "Implement Multimodal Vector Search with BigQuery: Challenge Lab - GSP523"
 seoTitle: "Implement Multimodal Vector Search with BigQuery: Challenge Lab - GSP5"
 seoDescription: "Implement a multimodal vector search in BigQuery to tackle real-world data challenges and score 100%"
-datePublished: Mon Oct 06 2025 04:41:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-06T04:41:16.392Z
 cuid: cmgen8dwo000102k1e0mnf7dt
 slug: implement-multimodal-vector-search-with-bigquery-challenge-lab-gsp523
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759725569402/6c7f0a08-f966-4399-b7ea-42cfc34fe515.png
