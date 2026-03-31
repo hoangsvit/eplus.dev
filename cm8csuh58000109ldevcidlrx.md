@@ -2,7 +2,7 @@
 title: "Cloud Operations for GKE - GSP497"
 seoTitle: "Cloud Operations for GKE - GSP497"
 seoDescription: "Kubernetes Engine Monitoring is a new Cloud Monitoring feature that more tightly integrates with GKE to better show you key stats about your cluster and the"
-datePublished: Mon Mar 17 2025 08:25:14 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-17T08:25:14.060Z
 cuid: cm8csuh58000109ldevcidlrx
 slug: cloud-operations-for-gke-gsp497
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742197976299/1966a9a7-1b42-4def-959f-3b3da4f8246d.png
