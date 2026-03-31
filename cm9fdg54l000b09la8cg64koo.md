@@ -2,7 +2,7 @@
 title: "Share Data using Google Data Cloud: Challenge Lab - GSP375"
 seoTitle: "Share Data using Google Data Cloud: Challenge Lab - GSP375"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Sun Apr 13 2025 08:17:11 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-13T08:17:11.925Z
 cuid: cm9fdg54l000b09la8cg64koo
 slug: share-data-using-google-data-cloud-challenge-lab-gsp375
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744530257626/34980ecc-8975-4497-bd28-429f71c4f84b.png
