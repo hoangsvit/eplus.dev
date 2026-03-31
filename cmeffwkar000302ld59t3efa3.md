@@ -2,7 +2,7 @@
 title: "Interacting with Vault Policies - GSP1004"
 seoTitle: "Interacting with Vault Policies - GSP1004"
 seoDescription: "Explore Vault policies and learn to write, manage, and test them to control client access and implement Role-Based Access Control (RBAC)"
-datePublished: Sun Aug 17 2025 08:44:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-17T08:44:28.996Z
 cuid: cmeffwkar000302ld59t3efa3
 slug: interacting-with-vault-policies-gsp1004
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755420217642/aefe22df-9760-46f8-86a0-9b1e0d2f1aaa.png
@@ -19,13 +19,13 @@ Vault uses policies to govern the behavior of clients and instrument Role-Based 
 
 In this lab, you will:
 
-* Create Vault policies
+*   Create Vault policies
     
-* Manage Vault policies
+*   Manage Vault policies
     
-* Associate Vault policies
+*   Associate Vault policies
     
-* Verify and test Vault policies
+*   Verify and test Vault policies
     
 
 ## Setup and requirements
@@ -38,29 +38,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -68,7 +68,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-03-997fcd6e75dd@qwiklabs.net
@@ -76,9 +76,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     c4kiQs468y8N
@@ -86,19 +86,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -111,13 +111,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-03-5c1b11a47496`. The output contains a line that declares the **Project\_ID** for this session:
@@ -128,16 +128,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-03-5c1b11a474
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-
-
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -150,14 +148,12 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
 gcloud config list project
 ```
-
-
 
 **Output:**
 
@@ -170,27 +166,23 @@ project = qwiklabs-gcp-03-5c1b11a47496
 
 ## Task 1. Install Vault
 
-1. In Cloud Shell, add the HashiCorp GPG key:
+1.  In Cloud Shell, add the HashiCorp GPG key:
     
 
 ```apache
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 ```
 
-
-
 **Note**: Ignore the warning if any.
 
-2. Add the official HashiCorp Linux repository:
+2.  Add the official HashiCorp Linux repository:
     
 
 ```apache
 sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 ```
 
-
-
-3. Update and install Vault:
+3.  Update and install Vault:
     
 
 ```apache
@@ -198,20 +190,16 @@ sudo apt-get update
 sudo apt-get install vault
 ```
 
-
-
 ### Verify the installation
 
 After installing Vault, verify the installation worked by checking that the Vault binary is available.
 
-* Execute the `vault` command to verify the installation:
+*   Execute the `vault` command to verify the installation:
     
 
 ```apache
 vault
 ```
-
-
 
 You should see help output similar to the following:
 
@@ -263,14 +251,12 @@ This dev-mode server requires no further setup, and your local vault CLI will be
 
 First, start a Vault *dev server*. The dev server is a built-in, pre-configured server that is not very secure but useful for playing with Vault locally.
 
-1. To start the Vault dev server, run:
+1.  To start the Vault dev server, run:
     
 
 ```apache
 vault server -dev
 ```
-
-
 
 You should see output relating to your Vault server configuration. Notice that **Unseal Key** and **Root Token** values are displayed:
 
@@ -312,29 +298,25 @@ Do not run a Vault dev server in production! This approach is only used here to 
 
 Now that you have the Vault development server running, you can continue setting up access to it.
 
-2. Open a new Cloud Shell tab.
+2.  Open a new Cloud Shell tab.
     
-3. Copy and run the export `VAULT_ADDR ..`. command from the **terminal output**. This will configure the Vault client to talk to the dev server:
+3.  Copy and run the export `VAULT_ADDR ..`. command from the **terminal output**. This will configure the Vault client to talk to the dev server:
     
 
 ```apache
 export VAULT_ADDR='http://127.0.0.1:8200'
 ```
 
-
-
 The Vault CLI determines which Vault servers to send requests using the `VAULT_ADDR` environment variable.
 
 ### Verify the server is running
 
-* Verify the server is running by running the `vault status` command:
+*   Verify the server is running by running the `vault status` command:
     
 
 ```apache
 vault status
 ```
-
-
 
 If it ran successfully, the output should look like the following:
 
@@ -525,14 +507,12 @@ For more information on templated policies, you can check out the [Templated Pol
 
 Now that you've seen how policies are written, let's quickly check out the capabilities of the **root** and **default** policies.
 
-1. In your open Cloud Shell tab, execute the following command to log in to Vault with your **root token**:
+1.  In your open Cloud Shell tab, execute the following command to log in to Vault with your **root token**:
     
 
 ```apache
 vault login token=<your root token>
 ```
-
-
 
 You should see the following output:
 
@@ -552,14 +532,12 @@ policies             ["root"]
 
 **Note:** Notice that the policy attached is the **root** policy.
 
-2. Since the root policy allows you to do anything in Vault, run a basic command to verify that this is the case:
+2.  Since the root policy allows you to do anything in Vault, run a basic command to verify that this is the case:
     
 
 ```apache
 vault secrets list
 ```
-
-
 
 Your output should resemble the following:
 
@@ -574,7 +552,7 @@ sys/          system       system_1a7dcf93       system endpoints..
 
 Now you'll try to run the same command as a user with only the `default` policy attached.
 
-3. Start by enabling the `userpass` auth method and creating a new user:
+3.  Start by enabling the `userpass` auth method and creating a new user:
     
 
 ```apache
@@ -582,16 +560,12 @@ vault auth enable userpass
 vault write auth/userpass/users/example-user password=password!
 ```
 
-
-
-4. Next, log in to Vault with the new user you created:
+4.  Next, log in to Vault with the new user you created:
     
 
 ```apache
 vault login -method=userpass username=example-user password=password!
 ```
-
-
 
 You should receive the following:
 
@@ -612,14 +586,12 @@ token_meta_username    example-user
 
 **Note:** Notice that the policy attached is the **default** policy.
 
-5. Run the same command from earlier to check the policy capabilities:
+5.  Run the same command from earlier to check the policy capabilities:
     
 
 ```apache
 vault secrets list
 ```
-
-
 
 You should receive the following error:
 
@@ -645,24 +617,24 @@ Policies are attached to tokens and roles to enforce client permissions on Vault
 
 ### Log in to the Vault web UI
 
-1. First, click on the **web preview icon** on the toolbar of Cloud Shell.
+1.  First, click on the **web preview icon** on the toolbar of Cloud Shell.
     
 
 ![Web preview icon](https://cdn.qwiklabs.com/OLFGboKgKleMinJjp0qj8J713XImthsD7PvdxjmW9Uw%3D align="left")
 
-2. Click **Change port**.
+2.  Click **Change port**.
     
-3. Change the Port Number to `8200` and click **Change and Preview**.
+3.  Change the Port Number to `8200` and click **Change and Preview**.
     
 
 ![Change Preview Port dialog box, which includes the Change and Preview button.](https://cdn.qwiklabs.com/9wLXL7KtGaMJ6KQ8VD24cIyD81m%2ByaxzfR3VDR0%2BztQ%3D align="left")
 
-4. You should be redirected to the Vault sign in page.
+4.  You should be redirected to the Vault sign in page.
     
 
 ![Sign in to Vault page.](https://cdn.qwiklabs.com/rZ9T%2BPXR2kK6uCui7Q2gyPyPCiBQUKx%2F8VeSeZQNlz8%3D align="left")
 
-5. Enter your **Root Token** that you saved earlier in the lab and click **Sign In**.
+5.  Enter your **Root Token** that you saved earlier in the lab and click **Sign In**.
     
 
 Your Vault development server should resemble the following.
@@ -673,19 +645,19 @@ Now that you're logged in to the development server web UI, you can continue on 
 
 ### Create a new policy
 
-1. Click **Policies** from the home page. You should see the `default` and `root` ACL policies.
+1.  Click **Policies** from the home page. You should see the `default` and `root` ACL policies.
     
 
 ![ACL Policies page, which lists the two ACL policies.](https://cdn.qwiklabs.com/UB2pEN7RCkcrQmmc2O%2BBDTqhNKwRCo%2F2LB%2FSUp%2BZsf8%3D align="left")
 
-2. Click **Create ACL policy**.
+2.  Click **Create ACL policy**.
     
-3. Start by naming your policy `demo-policy`.
+3.  Start by naming your policy `demo-policy`.
     
 
 You can now start writing your policy. Recall in the previous section, you were unable to access the `sys/mounts` path to read the secrets engines. You'll go ahead and add that now.
 
-4. In the **Policy** box, add the following placeholder code:
+4.  In the **Policy** box, add the following placeholder code:
     
 
 ```apache
@@ -694,9 +666,7 @@ path "path" {
 }
 ```
 
-
-
-5. Now, let's first update the `path` to the `sys/mounts` path you were trying to access earlier:
+5.  Now, let's first update the `path` to the `sys/mounts` path you were trying to access earlier:
     
 
 ```apache
@@ -705,9 +675,7 @@ path "sys/mounts" {
 }
 ```
 
-
-
-6. Next, you'll add a capability. Since Vault is attempting to make a **GET** API call on this path, you'll need to have the `read` capability. Add `read` to the capabilities list:
+6.  Next, you'll add a capability. Since Vault is attempting to make a **GET** API call on this path, you'll need to have the `read` capability. Add `read` to the capabilities list:
     
 
 ```apache
@@ -716,49 +684,45 @@ path "sys/mounts" {
 }
 ```
 
-
-
 Your policy should resemble the following:
 
 ![The code entered on the Policy page.](https://cdn.qwiklabs.com/At6DqoiM3PQcOSZgwIMaiDE55%2BYQvSd3d05g9Wbsilo%3D align="left")
 
-7. Click **Create policy**.
+7.  Click **Create policy**.
     
 
 Now, you'll need to associate this policy with the `example-user` you created earlier.
 
-8. Click **Back to main navigation**.
+8.  Click **Back to main navigation**.
     
-9. Click the **Access** from the left pane and then click on the `userpass` authentication method.
+9.  Click the **Access** from the left pane and then click on the `userpass` authentication method.
     
 
 ![Authentication Methods page.](https://cdn.qwiklabs.com/zFX0bcftcIuYQkmf%2Bi229iPyMNDdWCZ9ekgeadcuges%3D align="left")
 
-10. Click on the three dots next to the `example-user` user and select **Edit user**.
-    
+10.  Click on the three dots next to the `example-user` user and select **Edit user**.
+     
 
 ![Userpass' Users tabbed page, with the expanded More menu](https://cdn.qwiklabs.com/rE%2FnUsJSPa531fxquPRYWcSBKmfOZHwAAcfew6pzLcQ%3D align="left")
 
-11. Under the password field, click **Tokens** to open up the submenu.
-    
-12. Under **Generated Token's Policies**, add the policy you just created (`demo-policy`) and click **Add**.
-    
+11.  Under the password field, click **Tokens** to open up the submenu.
+     
+12.  Under **Generated Token's Policies**, add the policy you just created (`demo-policy`) and click **Add**.
+     
 
 ![Add button](https://cdn.qwiklabs.com/x7hpqSC5wup0CmPDe0P8s7Au0TAzX9hYa%2Faxr2znFds%3D align="left")
 
-13. Click **Save**.
-    
+13.  Click **Save**.
+     
 
 Great! You've created a new policy and associated it with the `example-user`.
 
-14. Navigate back to Cloud Shell and run the following command again:
-    
+14.  Navigate back to Cloud Shell and run the following command again:
+     
 
 ```apache
 vault secrets list
 ```
-
-
 
 You'll notice the same error as before:
 
@@ -774,14 +738,12 @@ Code: 403. Errors:
 
 Why did it error after you've added the policy to the user? This is because once you associate a new policy with a *user*, that policy won't be associated with the existing *token* for that user. To fix this, you'll need to **generate a new token for that user so that new policy can be attached to that token**.
 
-15. Run the following command to log in and generate a new token for `example-user`:
-    
+15.  Run the following command to log in and generate a new token for `example-user`:
+     
 
 ```apache
 vault login -method=userpass username=example-user password=password!
 ```
-
-
 
 **Note:** You should receive a new token on output. Notice that you now have the `default` policy **and** `demo-policy` attached.
 
@@ -800,14 +762,12 @@ policies               ["default" "demo-policy"]
 token_meta_username    example-user
 ```
 
-16. Now, try listing the secrets engines one more time:
-    
+16.  Now, try listing the secrets engines one more time:
+     
 
 ```apache
 vault secrets list
 ```
-
-
 
 Your output should now resemble the following:
 
@@ -820,14 +780,12 @@ secret/       kv           kv_f6e83366           key/value secret storage
 sys/          system       system_414d50aa       system endpoints..
 ```
 
-17. You can also check the capabilities of the token by using the `vault token capabilities` command. Run the following to verify your policy on the `sys/mounts` path:
-    
+17.  You can also check the capabilities of the token by using the `vault token capabilities` command. Run the following to verify your policy on the `sys/mounts` path:
+     
 
 ```apache
 vault token capabilities <your token> sys/mounts
 ```
-
-
 
 You should get the following output:
 
@@ -835,14 +793,12 @@ You should get the following output:
 read
 ```
 
-18. Next, check the token capabilities for the `sys/policies/acl` path:
-    
+18.  Next, check the token capabilities for the `sys/policies/acl` path:
+     
 
 ```apache
 vault token capabilities <your token> sys/policies/acl
 ```
-
-
 
 You should get the following output:
 
@@ -850,14 +806,12 @@ You should get the following output:
 deny
 ```
 
-19. To verify this, try to run the following command to list the policies:
-    
+19.  To verify this, try to run the following command to list the policies:
+     
 
 ```apache
 vault policy list
 ```
-
-
 
 You should receive the following error:
 
@@ -872,15 +826,15 @@ URL: GET http://127.0.0.1:8200/v1/sys/policies/acl?list=trueCode: 403. Errors:
 
 As you can see here, you're getting a permission denied error for a **GET** API request on the `sys/policies/acl` path. Also notice the additional `list=true` on the path; you will need to add this capability as well. Let's fix this by updating the existing policy.
 
-20. Navigate back to the `demo-policy` you created in the Vault UI.
-    
+20.  Navigate back to the `demo-policy` you created in the Vault UI.
+     
 
 ![demo-policy page](https://cdn.qwiklabs.com/12pSJV9KDNQ5v6uGa8ashPqoxk62sBkUU7dTUIimo8A%3D align="left")
 
-21. Click **Edit policy**.
-    
-22. In the **Policy** box, add the following placeholder code under the existing policy you wrote:
-    
+21.  Click **Edit policy**.
+     
+22.  In the **Policy** box, add the following placeholder code under the existing policy you wrote:
+     
 
 ```apache
 path "path" {
@@ -888,10 +842,8 @@ path "path" {
 }
 ```
 
-
-
-23. Again, let's first update the `path` to the `sys/policies/acl` path you were trying to access:
-    
+23.  Again, let's first update the `path` to the `sys/policies/acl` path you were trying to access:
+     
 
 ```apache
 path "sys/policies/acl" {
@@ -899,10 +851,8 @@ path "sys/policies/acl" {
 }
 ```
 
-
-
-24. Now you'll add the capability. Since Vault is attempting to make a **GET** API call on this path, you'll need to add the `read` capability again. Additionally, the attempt passed in the `list=true` to the URL, so you'll need to add this capability as well.
-    
+24.  Now you'll add the capability. Since Vault is attempting to make a **GET** API call on this path, you'll need to add the `read` capability again. Additionally, the attempt passed in the `list=true` to the URL, so you'll need to add this capability as well.
+     
 
 ```apache
 path "sys/policies/acl" {
@@ -910,22 +860,18 @@ path "sys/policies/acl" {
 }
 ```
 
-
-
 Your updated policy should now resemble the following:
 
 ![The updated Policy code.](https://cdn.qwiklabs.com/DHrQGCe6hOBrgfB%2BhEVbf8Ovularejq5RIP%2FbZDGjmM%3D align="left")
 
-25. Click **Save**.
-    
-26. Navigate back to Cloud Shell and run the following command again:
-    
+25.  Click **Save**.
+     
+26.  Navigate back to Cloud Shell and run the following command again:
+     
 
 ```apache
 vault policy list
 ```
-
-
 
 Your output should now resemble:
 
@@ -935,23 +881,19 @@ demo-policy
 root
 ```
 
-27. Run the following command to copy the values of the policies to a text file:
-    
+27.  Run the following command to copy the values of the policies to a text file:
+     
 
 ```apache
 vault policy list > policies.txt
 ```
 
-
-
-28. Lastly, check the token capabilities again for the `sys/policies/acl` path:
-    
+28.  Lastly, check the token capabilities again for the `sys/policies/acl` path:
+     
 
 ```apache
 vault token capabilities <your token> sys/policies/acl
 ```
-
-
 
 You should get the following output:
 
@@ -959,24 +901,20 @@ You should get the following output:
 list, read
 ```
 
-29. Run the following command to copy the values of the policies to a text file. Make sure to replace `<your token>` with the value of your token:
-    
+29.  Run the following command to copy the values of the policies to a text file. Make sure to replace `<your token>` with the value of your token:
+     
 
 ```apache
 vault token capabilities <your token> sys/policies/acl > token_capabilities.txt
 ```
 
-
-
-30. Run the following commands to copy both the `policies` and `token_capabilities` text files to a pre-created Cloud Storage bucket to track your progress:
-    
+30.  Run the following commands to copy both the `policies` and `token_capabilities` text files to a pre-created Cloud Storage bucket to track your progress:
+     
 
 ```apache
 export PROJECT_ID=$(gcloud config get-value project)
 gsutil cp *.txt gs://$PROJECT_ID
 ```
-
-
 
 As you can see, when you *modified* the existing policy associated with the user, the changes were reflected without generating a new token. This is because the contents of policies are parsed in real-time whenever the token is used. As a result, if a policy is modified, the modified rules will be enforced the next time a token, with that policy attached, is used to make a call to Vault.
 
@@ -992,25 +930,21 @@ Policies are authored (written) in your editor of choice. They can be authored i
 
 In the previous section, you used the UI to write and manage a a policy. This section will cover the CLI commands to manage policies.
 
-* First, make sure to run the following in Cloud Shell to log in to Vault with your root token:
+*   First, make sure to run the following in Cloud Shell to log in to Vault with your root token:
     
 
 ```apache
 vault login <your root token>
 ```
 
-
-
 ### Listing policies
 
-* Run the following command to list all registered policies in Vault:
+*   Run the following command to list all registered policies in Vault:
     
 
 ```apache
 vault read sys/policy
 ```
-
-
 
 You should see the following output:
 
@@ -1031,7 +965,7 @@ To create a new policy in Vault, you would use the following command:
 vault policy write policy-name policy-file.hcl
 ```
 
-1. You can test this out by first creating a basic policy file with the following command:
+1.  You can test this out by first creating a basic policy file with the following command:
     
 
 ```apache
@@ -1056,25 +990,19 @@ path "sys/mounts"
 EOF
 ```
 
-
-
-2. Check that your file was created correctly:
+2.  Check that your file was created correctly:
     
 
 ```apache
 cat example-policy.hcl
 ```
 
-
-
-3. Now, create a new policy named `example-policy` with the `vault policy write` command:
+3.  Now, create a new policy named `example-policy` with the `vault policy write` command:
     
 
 ```apache
 vault policy write example-policy example-policy.hcl
 ```
-
-
 
 If it was successful, you should see the following output:
 
@@ -1088,7 +1016,7 @@ In this example, the name of the policy is "example-policy". You can think of th
 
 Existing policies may be updated to change permissions via the CLI or via the API. To update an existing policy in Vault, you will follow the same steps as creating a policy, but use an existing policy name.
 
-1. First, run the following command to update and overwrite your existing policy file to be able to list auth methods:
+1.  First, run the following command to update and overwrite your existing policy file to be able to list auth methods:
     
 
 ```apache
@@ -1119,36 +1047,28 @@ path "sys/auth"
 EOF
 ```
 
-
-
-2. Check that your file was created correctly:
+2.  Check that your file was created correctly:
     
 
 ```apache
 cat example-policy.hcl
 ```
 
-
-
-3. Update your policy:
+3.  Update your policy:
     
 
 ```apache
 vault write sys/policy/example-policy policy=@example-policy.hcl
 ```
 
-
-
 Great! You've successfully updated a policy using the CLI.
 
-4. Run the following command to copy the policy file to a pre-created Cloud Storage bucket to track your progress:
+4.  Run the following command to copy the policy file to a pre-created Cloud Storage bucket to track your progress:
     
 
 ```apache
 gsutil cp example-policy.hcl gs://$PROJECT_ID
 ```
-
-
 
 Click *Check my progress* to verify the objective.
 
@@ -1162,14 +1082,12 @@ Existing policies may be deleted via the CLI, UI, or API. To delete a policy, yo
 vault delete sys/policy/policy-name
 ```
 
-1. Let's try this in practice. Run the following command to delete the policy you just created:
+1.  Let's try this in practice. Run the following command to delete the policy you just created:
     
 
 ```apache
 vault delete sys/policy/example-policy
 ```
-
-
 
 If it was successful, you should have seen the following output:
 
@@ -1177,14 +1095,12 @@ If it was successful, you should have seen the following output:
 Success! Data deleted (if it existed) at: sys/policy/example-policy
 ```
 
-2. List your policies with the following command:
+2.  List your policies with the following command:
     
 
 ```apache
 vault policy list
 ```
-
-
 
 You should see the following output:
 
@@ -1202,7 +1118,7 @@ Great! You've successfully deleted the `example-policy`.
 
 Vault can automatically associate a set of policies to a token based on an authorization. This configuration varies significantly between authentication backends. For simplicity, this example will use Vault's built-in userpass auth method.
 
-1. Run the following command to create the user `firstname-lastname` in Vault with a list of associated policies:
+1.  Run the following command to create the user `firstname-lastname` in Vault with a list of associated policies:
     
 
 ```apache
@@ -1211,22 +1127,18 @@ vault write auth/userpass/users/firstname-lastname \
     policies="default, demo-policy"
 ```
 
-
-
 ```apache
 Success! Data written to: auth/userpass/users/firstname-lastname
 ```
 
 This creates an authentication mapping to the policy such that, when the user authenticates successfully to Vault, they will be given a token which has the list of policies attached.
 
-2. Authenticate with Vault by running the following:
+2.  Authenticate with Vault by running the following:
     
 
 ```apache
 vault login -method="userpass" username="firstname-lastname" password="s3cr3t!"
 ```
-
-
 
 You should see the following output:
 
@@ -1249,23 +1161,19 @@ Since the provided information is correct, Vault will generate a token, assign t
 
 Tokens have two sets of policies: identity policies, which are computed based on the entity and its groups, and token policies, which are either defined based on the login method or, in the case of explicit token creates via the API, are an input to the token creation. What follows concerns token policies exclusively: a token's identity policies cannot be controlled except by modifying the underlying entities, groups, and group memberships.
 
-1. First, log back in to Vault with your root token:
+1.  First, log back in to Vault with your root token:
     
 
 ```apache
 vault login <your root token>
 ```
 
-
-
-2. Tokens are associated with their policies at creation time. Run the following to create a token with the `dev-readonly` and `logs` policies:
+2.  Tokens are associated with their policies at creation time. Run the following to create a token with the `dev-readonly` and `logs` policies:
     
 
 ```apache
 vault token create -policy=dev-readonly -policy=logs
 ```
-
-
 
 You should see the following output:
 
@@ -1293,7 +1201,7 @@ However, the *contents* of policies are parsed in real-time whenever the token i
 
 In this section, you'll create Vault policies to grant users different levels of access within Vault and test them.
 
-* In Cloud Shell, start by creating a few different users with different policies:
+*   In Cloud Shell, start by creating a few different users with different policies:
     
 
 ```apache
@@ -1302,15 +1210,11 @@ vault write auth/userpass/users/admin \
     policies="admin"
 ```
 
-
-
 ```apache
 vault write auth/userpass/users/app-dev \
     password="appdev123" \
     policies="appdev"
 ```
-
-
 
 ```apache
 vault write auth/userpass/users/security \
@@ -1318,30 +1222,28 @@ vault write auth/userpass/users/security \
     policies="security"
 ```
 
-
-
 Now that you've created some new users, you'll create the policies that you've already associated with them. You'll first start with the **admin** policy, which should be able to have full access to all the secrets in Vault.
 
 ### Create the admin policy
 
 For the purposes of this lab, an **admin** user must be able to:
 
-* Read system health check
+*   Read system health check
     
-* Create and manage ACL policies broadly across Vault
+*   Create and manage ACL policies broadly across Vault
     
-* Enable and manage authentication methods broadly across Vault
+*   Enable and manage authentication methods broadly across Vault
     
-* Manage the Key-Value secrets engine enabled at `secret/` path
+*   Manage the Key-Value secrets engine enabled at `secret/` path
     
 
-1. Navigate to **Policies** from the left pane in the Vault UI. You should see the `default`, `demo-policy`, and `root` policies.
+1.  Navigate to **Policies** from the left pane in the Vault UI. You should see the `default`, `demo-policy`, and `root` policies.
     
-2. Click **Create ACL policy**.
+2.  Click **Create ACL policy**.
     
-3. Start by naming your policy `admin`.
+3.  Start by naming your policy `admin`.
     
-4. In the **Policy** box, add the following policy code:
+4.  In the **Policy** box, add the following policy code:
     
 
 ```apache
@@ -1406,31 +1308,29 @@ path "sys/mounts"
 }
 ```
 
-
-
 Your policy should resemble the following:
 
 ![Updated Policy page.](https://cdn.qwiklabs.com/6A3E8mZzpX%2BHgFn65TbDItWARDOWUpc6NIkXOxvsGeQ%3D align="left")
 
-5. Click **Create policy**.
+5.  Click **Create policy**.
     
 
 ### Create the appdev policy
 
 For the purposes of this lab, an **appdev** user must be able to:
 
-* Create, read, and update secrets engines
+*   Create, read, and update secrets engines
     
-* Manage the Key-Value secrets engine enabled at `secret/appdev/` path
+*   Manage the Key-Value secrets engine enabled at `secret/appdev/` path
     
 
-1. Navigate back to the **ACL Policies** page.
+1.  Navigate back to the **ACL Policies** page.
     
-2. Click **Create ACL policy**.
+2.  Click **Create ACL policy**.
     
-3. Start by naming your policy `appdev`.
+3.  Start by naming your policy `appdev`.
     
-4. In the **Policy** box, add the following policy code:
+4.  In the **Policy** box, add the following policy code:
     
 
 ```apache
@@ -1453,31 +1353,29 @@ path "sys/mounts"
 }
 ```
 
-
-
-5. Click **Create policy**.
+5.  Click **Create policy**.
     
 
 ### Create the security policy
 
 For the purposes of this lab, a **security** user must be able to:
 
-* Create and manage ACL policies broadly across Vault
+*   Create and manage ACL policies broadly across Vault
     
-* Manage secrets engines
+*   Manage secrets engines
     
-* Manage the Key-Value secrets engine enabled at `secret/` path
+*   Manage the Key-Value secrets engine enabled at `secret/` path
     
-* Not have access to read or list secrets on the `secret/admin` path
+*   Not have access to read or list secrets on the `secret/admin` path
     
 
-1. Navigate back to the **ACL Policies** page.
+1.  Navigate back to the **ACL Policies** page.
     
-2. Click **Create ACL policy**.
+2.  Click **Create ACL policy**.
     
-3. Start by naming your policy `security`.
+3.  Start by naming your policy `security`.
     
-4. In the **Policy** box, add the following policy code:
+4.  In the **Policy** box, add the following policy code:
     
 
 ```apache
@@ -1528,16 +1426,14 @@ path "secret/metadata/admin/*" {
 }
 ```
 
-
-
-5. Click **Create policy**.
+5.  Click **Create policy**.
     
 
 ### Create secrets
 
 Now that you've created the different policies, it's time to create some secrets.
 
-1. Navigate back to Cloud Shell and run the following commands to create some secrets in the `secret/security` path:
+1.  Navigate back to Cloud Shell and run the following commands to create some secrets in the `secret/security` path:
     
 
 ```apache
@@ -1545,9 +1441,7 @@ vault kv put secret/security/first username=password
 vault kv put secret/security/second username=password
 ```
 
-
-
-2. Create some secrets in the `secret/appdev` path:
+2.  Create some secrets in the `secret/appdev` path:
     
 
 ```apache
@@ -1555,9 +1449,7 @@ vault kv put secret/appdev/first username=password
 vault kv put secret/appdev/beta-app/second username=password
 ```
 
-
-
-3. Create some secrets in the `secret/admin` path:
+3.  Create some secrets in the `secret/admin` path:
     
 
 ```apache
@@ -1565,29 +1457,23 @@ vault kv put secret/admin/first admin=password
 vault kv put secret/admin/supersecret/second admin=password
 ```
 
-
-
 ### Verify security for appdev
 
 Now that you've created some secrets, let's verify that these policies are being enforced. You'll first log in as the `app-dev` user and see what you have access to.
 
-1. Run the following command to log in as `app-dev` user:
+1.  Run the following command to log in as `app-dev` user:
     
 
 ```apache
 vault login -method="userpass" username="app-dev" password="appdev123"
 ```
 
-
-
-2. Now, try to fetch the `appdev/first` secret:
+2.  Now, try to fetch the `appdev/first` secret:
     
 
 ```apache
 vault kv get secret/appdev/first
 ```
-
-
 
 You should see the following output:
 
@@ -1607,14 +1493,12 @@ Key         Value
 username    password
 ```
 
-3. Fetch the secret located at `secret/appdev/beta-app/second`:
+3.  Fetch the secret located at `secret/appdev/beta-app/second`:
     
 
 ```apache
 vault kv get secret/appdev/beta-app/second
 ```
-
-
 
 You should see the following output:
 
@@ -1634,32 +1518,26 @@ Key         Value
 username    password
 ```
 
-4. Create a new secret:
+4.  Create a new secret:
     
 
 ```apache
 vault kv put secret/appdev/appcreds credentials=creds123
 ```
 
-
-
-5. Destroy the secret:
+5.  Destroy the secret:
     
 
 ```apache
 vault kv destroy -versions=1 secret/appdev/appcreds
 ```
 
-
-
-6. Attempt to get a secret from `secret/security`:
+6.  Attempt to get a secret from `secret/security`:
     
 
 ```apache
 vault kv get secret/security/first
 ```
-
-
 
 You should receive the following error:
 
@@ -1673,14 +1551,12 @@ Code: 403. Errors:
         * permission denied
 ```
 
-7. Attempt to list all the secrets at `secret/`:
+7.  Attempt to list all the secrets at `secret/`:
     
 
 ```apache
 vault kv list secret/
 ```
-
-
 
 You should again receive an error:
 
@@ -1698,23 +1574,19 @@ Great! You were able to fetch and create secrets in the `secret/appdev` path, an
 
 ### Verify policy for security
 
-1. Run the following command to log in as `security` user:
+1.  Run the following command to log in as `security` user:
     
 
 ```apache
 vault login -method="userpass" username="security" password="security123"
 ```
 
-
-
-2. Now, try to fetch the `security/first` secret:
+2.  Now, try to fetch the `security/first` secret:
     
 
 ```apache
 vault kv get secret/security/first
 ```
-
-
 
 You should see the following output:
 
@@ -1734,14 +1606,12 @@ Key         Value
 username    password
 ```
 
-3. Fetch the secret located at `secret/security/second`:
+3.  Fetch the secret located at `secret/security/second`:
     
 
 ```apache
 vault kv get secret/security/second
 ```
-
-
 
 You should see the following output:
 
@@ -1761,32 +1631,26 @@ Key         Value
 username    password
 ```
 
-4. Create a new secret in `secret/security/supersecure`:
+4.  Create a new secret in `secret/security/supersecure`:
     
 
 ```apache
 vault kv put secret/security/supersecure/bigsecret secret=idk
 ```
 
-
-
-5. Destroy the secret:
+5.  Destroy the secret:
     
 
 ```apache
 vault kv destroy -versions=1 secret/security/supersecure/bigsecret
 ```
 
-
-
-6. Attempt to read a secret from `secret/appdev`:
+6.  Attempt to read a secret from `secret/appdev`:
     
 
 ```apache
 vault kv get secret/appdev/first
 ```
-
-
 
 You should receive the following output:
 
@@ -1806,14 +1670,12 @@ Key         Value
 username    password
 ```
 
-7. Attempt to list all of the secrets at `secret/`:
+7.  Attempt to list all of the secrets at `secret/`:
     
 
 ```apache
 vault kv list secret/
 ```
-
-
 
 You should receive the following output:
 
@@ -1825,27 +1687,23 @@ appdev/
 security/
 ```
 
-8. Enable a new secrets engine:
+8.  Enable a new secrets engine:
     
 
 ```apache
 vault secrets enable -path=supersecret kv
 ```
 
-
-
 ```apache
 Success! Enabled the kv secrets engine at: supersecret/
 ```
 
-9. Attempt to look at the `secret/admin/first` secret:
+9.  Attempt to look at the `secret/admin/first` secret:
     
 
 ```apache
 vault kv get secret/admin/first
 ```
-
-
 
 You should receive the following error:
 
@@ -1859,14 +1717,12 @@ Code: 403. Errors:
         * permission denied
 ```
 
-10. Attempt to list the secrets at `secret/admin`:
-    
+10.  Attempt to list the secrets at `secret/admin`:
+     
 
 ```apache
 vault kv list secret/admin
 ```
-
-
 
 Again, you should receive an error:
 
@@ -1884,23 +1740,19 @@ Great! You are able to fetch and create secrets in the `secret/` path, enable a 
 
 ### Verify policy for admin
 
-1. Run the following command to log in as `admin` user:
+1.  Run the following command to log in as `admin` user:
     
 
 ```apache
 vault login -method="userpass" username="admin" password="admin123"
 ```
 
-
-
-2. Now, try to fetch the `admin/first` secret:
+2.  Now, try to fetch the `admin/first` secret:
     
 
 ```apache
 vault kv get secret/admin/first
 ```
-
-
 
 You should see the following output:
 
@@ -1920,14 +1772,12 @@ Key      Value
 admin    password
 ```
 
-3. Fetch a secret located at `secret/security/first` :
+3.  Fetch a secret located at `secret/security/first` :
     
 
 ```apache
 vault kv get secret/security/first
 ```
-
-
 
 You should see the following output:
 
@@ -1947,32 +1797,26 @@ Key         Value
 username    password
 ```
 
-4. Create a new secret:
+4.  Create a new secret:
     
 
 ```apache
 vault kv put secret/webserver/credentials web=awesome
 ```
 
-
-
-5. Destroy the secret:
+5.  Destroy the secret:
     
 
 ```apache
 vault kv destroy -versions=1 secret/webserver/credentials
 ```
 
-
-
-6. Attempt to get secrets from the `secret/appdev`:
+6.  Attempt to get secrets from the `secret/appdev`:
     
 
 ```apache
 vault kv get secret/appdev/first
 ```
-
-
 
 You should receive the following output:
 
@@ -1992,14 +1836,12 @@ Key         Value
 username    password
 ```
 
-7. Attempt to list all of the secrets at `secret/appdev`:
+7.  Attempt to list all of the secrets at `secret/appdev`:
     
 
 ```apache
 vault kv list secret/appdev/
 ```
-
-
 
 You should receive the following output:
 
@@ -2011,14 +1853,12 @@ beta-app/
 first
 ```
 
-8. List all of the policies:
+8.  List all of the policies:
     
 
 ```apache
 vault policy list
 ```
-
-
 
 You should receive the following output:
 
@@ -2031,7 +1871,7 @@ security
 root
 ```
 
-9. Run the following command to copy the values of the policies to a text file and upload it to the Cloud Storage bucket:
+9.  Run the following command to copy the values of the policies to a text file and upload it to the Cloud Storage bucket:
     
 
 ```apache
@@ -2039,25 +1879,19 @@ vault policy list > policies-update.txt
 gsutil cp policies-update.txt gs://$PROJECT_ID
 ```
 
-
-
-10. Enable the `gcp` auth method:
-    
+10.  Enable the `gcp` auth method:
+     
 
 ```apache
 vault auth enable gcp
 ```
 
-
-
-11. Lastly, list the authentication methods enabled:
-    
+11.  Lastly, list the authentication methods enabled:
+     
 
 ```apache
 vault auth list
 ```
-
-
 
 ```apache
 Path         Type        Accessor                  Description
@@ -2079,15 +1913,15 @@ As you may have seen in the policy code that was provided for the `security` use
 
 The `metadata/` path endpoint returns a list of key names at the specified location. Furthermore, the values themselves are not accessible with this command. Writing and reading versions are prefixed with `data/`. Listing, reading, and destroying are as follows:
 
-* **Writing and Reading Versions** - `data/`
+*   **Writing and Reading Versions** - `data/`
     
-* **Listing Keys** - `metadata/`
+*   **Listing Keys** - `metadata/`
     
-* **Reading versions** - `metadata/`
+*   **Reading versions** - `metadata/`
     
-* **Destroy Versions of Secret** - `destroy/`
+*   **Destroy Versions of Secret** - `destroy/`
     
-* **Destroy all versions of metadata for a key** - `metadata/`
+*   **Destroy all versions of metadata for a key** - `metadata/`
     
 
 For example, if you are trying to deny access to a secret at `secret/example`, you would need to format it with the following `data/`:
@@ -2114,24 +1948,40 @@ In addition to the standard set of capabilities, Vault offers finer-grained cont
 
 In Vault, data is represented as `key=value` pairs. Vault policies can optionally further restrict paths based on the keys and data at those keys when evaluating the permissions for a path. The optional finer-grained control options are:
 
-* `required_parameters` - A list of parameters that must be specified.
+*   `required_parameters` - A list of parameters that must be specified.
     
-* `allowed_parameters` - A list of keys and values that are permitted on the given path.
+*   `allowed_parameters` - A list of keys and values that are permitted on the given path.
     
-* `denied_parameters` - Denylists a list of parameter and values. Any values specified here take precedence over `allowed_parameters`
+*   `denied_parameters` - Denylists a list of parameter and values. Any values specified here take precedence over `allowed_parameters`
     
 
 For more information on fine-grained control, you can check out the [Fine-Grained Control documentation](https://www.vaultproject.io/docs/concepts/policies#fine-grained-control).
 
----
+* * *
 
 ## Solution of Lab
 
+### Quick
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1004/lab.sh
+source lab.sh
+```
+
+* * *
+
 ### New Solution
 
-%[https://www.youtube.com/watch?v=R75L99wb3Rs] 
+<iframe type="youtube" src="https://www.youtube.com/watch?v=R75L99wb3Rs" data-node-type="hn-embed"></iframe>
 
 **Task 1:**
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1004/TechCode1.sh
+source TechCode1.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Interacting%20with%20Vault%20Policies/TechCode1.sh
@@ -2237,11 +2087,11 @@ sudo chmod +x TechCode3.sh
 ./TechCode3.sh 
 ```
 
----
+* * *
 
 ### Manual
 
-%[https://youtu.be/aSiHm6JySd4] 
+<iframe type="youtube" src="https://www.youtube.com/watch?v=v_b95EmAGbc" data-node-type="hn-embed"></iframe>
 
 ```apache
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
