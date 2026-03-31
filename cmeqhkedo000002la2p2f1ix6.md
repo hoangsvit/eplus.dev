@@ -2,7 +2,7 @@
 title: "Terraform Essentials: Service Account - gem-terraform-sa-create"
 seoTitle: "Terraform Essentials: Service Account - gem-terraform-sa-create"
 seoDescription: "Learn how to create a Google Cloud service account using Terraform, configure projects, and manage Terraform state files effectively"
-datePublished: Mon Aug 25 2025 02:16:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-25T02:16:28.620Z
 cuid: cmeqhkedo000002la2p2f1ix6
 slug: terraform-essentials-service-account-gem-terraform-sa-create
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756088036546/81a8e6f0-4022-4dbd-a2aa-eb4ea338ed51.png
