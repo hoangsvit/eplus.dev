@@ -4,7 +4,7 @@ seoTitle: "Arcade Hero: Building Blocks Cloud Run functions I - ARC1220"
 seoDescription: "In this lab you will learn the fundamentals of Cloud Run functions using Google Cloud.
 
 If you are new to Cloud Run functions or looking for an overview of "
-datePublished: Fri May 23 2025 09:30:27 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-23T09:30:27.649Z
 cuid: cmb0lofk1000809jrf6i58lem
 slug: arcade-hero-building-blocks-cloud-run-functions-i-arc1220
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747992259670/411d2fe7-e053-4f7d-95d8-4080e3feb0b0.png
