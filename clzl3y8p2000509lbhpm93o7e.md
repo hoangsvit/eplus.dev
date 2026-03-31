@@ -2,7 +2,7 @@
 title: "Build a Website on Google Cloud: Challenge Lab - GSP319"
 seoTitle: "Build a Website on Google Cloud: Challenge Lab - GSP319"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Thu Aug 08 2024 10:00:53 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-08T10:00:53.894Z
 cuid: clzl3y8p2000509lbhpm93o7e
 slug: build-a-website-on-google-cloud-challenge-lab-gsp319
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723110281154/17a56171-b252-4784-b7ea-33e66a4cb4f0.png
