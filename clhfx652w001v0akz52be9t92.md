@@ -2,7 +2,7 @@
 title: "PostgreSQL Full Text Search for Laravel Scout"
 seoTitle: "PostgreSQL Full Text Search for Laravel Scout"
 seoDescription: "This package makes it easy to use native PostgreSQL Full Text Search capabilities with Laravel Scout:"
-datePublished: Tue May 09 2023 06:57:32 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-05-09T06:57:32.217Z
 cuid: clhfx652w001v0akz52be9t92
 slug: postgresql-full-text-search-for-laravel-scout
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683615377223/411d4569-13f7-458b-bd8e-4975d555bd8a.png
