@@ -4,7 +4,7 @@ seoTitle: "Arcade Hero: Enter the Cloud Function Golang - ARC230"
 seoDescription: "In this lab you will learn the fundamentals of Cloud Functions using Google Cloud.
 
 If you are new to Cloud Functions or looking for an overview of how to g"
-datePublished: Sun Aug 11 2024 05:35:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-11T05:35:16.801Z
 cuid: clzp4s7k100000amab9i5ecis
 slug: arcade-hero-enter-the-cloud-function-golang-arc230
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723354406220/380cf310-3934-4cf7-b1d6-b1c6e45dc677.png
