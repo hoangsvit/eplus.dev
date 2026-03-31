@@ -2,7 +2,7 @@
 title: "LocalXpose: Securely Access Your Localhost from Anywhere"
 seoTitle: "LocalXpose: Securely Access Your Localhost from Anywhere"
 seoDescription: "I'm thrilled to introduce LocalXpose, an incredibly versatile and secure tool designed to help developers, sysadmins, DevOps engineers, gamers, and anyone e"
-datePublished: Wed Sep 11 2024 01:31:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-11T01:31:34.463Z
 cuid: cm0x6q7jy000p09i3f7tc5npw
 slug: localxpose-securely-access-your-localhost-from-anywhere
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726017829702/4110da70-39d3-450a-b384-de06ba1f2159.avif
