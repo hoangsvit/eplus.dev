@@ -2,7 +2,7 @@
 title: "Build LookML Objects in Looker: Challenge Lab - GSP361"
 seoTitle: "Build LookML Objects in Looker: Challenge Lab - GSP361"
 seoDescription: "Complete LookML objects challenge lab in Looker by applying skills to create dimensions, measures, and derived tables with persistence and filters"
-datePublished: Sun Sep 14 2025 07:34:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-14T07:34:00.648Z
 cuid: cmfjdpsco000902ju3txv7dlu
 slug: build-lookml-objects-in-looker-challenge-lab-gsp361
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757833655689/f46e3e80-b198-4980-9186-1eee79a8c548.png
