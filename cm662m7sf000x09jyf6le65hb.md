@@ -2,7 +2,7 @@
 title: "Store, Process, and Manage Data on Google Cloud - Command Line: Challenge Lab - ARC102"
 seoTitle: "Store, Process, and Manage Data on Google Cloud - Command Line: Challe"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Tue Jan 21 2025 06:04:56 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-21T06:04:56.943Z
 cuid: cm662m7sf000x09jyf6le65hb
 slug: store-process-and-manage-data-on-google-cloud-command-line-challenge-lab-arc102
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737439463950/8a942c5b-805c-493e-ab67-5d06600c8a80.png
