@@ -2,7 +2,7 @@
 title: "Create a Python Artifact Registry and Upload Code - gem-artifact-registry-python"
 seoTitle: "Create a Python Artifact Registry and Upload Code - gem-artifact-regis"
 seoDescription: "Learn to create a Python package repository in Google Cloud's Artifact Registry and upload a sample package"
-datePublished: Sun Jul 20 2025 06:25:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-20T06:25:06.270Z
 cuid: cmdbalgwu000002js967hbjkk
 slug: create-a-python-artifact-registry-and-upload-code-gem-artifact-registry-python
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752992504771/5c89de6a-2d24-452e-bf21-63d148bf430d.png
