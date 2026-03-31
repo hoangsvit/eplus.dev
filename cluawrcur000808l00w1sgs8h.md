@@ -2,7 +2,7 @@
 title: "Analyze Speech & Language with Google APIs: Challenge Lab"
 seoTitle: "Analyze Speech & Language with Google APIs: Challenge Lab"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Thu Mar 28 2024 07:23:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-03-28T07:23:21.939Z
 cuid: cluawrcur000808l00w1sgs8h
 slug: analyze-speech-language-with-google-apis-challenge-lab
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711610540070/ae8b1174-9372-469c-8c6f-c1b9b5682699.png
