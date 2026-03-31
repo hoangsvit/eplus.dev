@@ -2,7 +2,7 @@
 title: "Trang web đã hoạt động trở lại / Website is Now Back Online"
 seoTitle: "Trang web đã hoạt động trở lại / Website is Now Back Online"
 seoDescription: "Chúng tôi xin trân trọng thông báo rằng trang web của chúng tôi hiện đã hoạt động trở lại sau một thời gian gián đoạn từ 18:00 ngày 15/10/2024 đến 22:00 ngà"
-datePublished: Wed Oct 16 2024 15:13:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-16T15:13:10.181Z
 cuid: cm2c0hlpg000009l8beo57b6u
 slug: trang-web-da-hoat-dong-tro-lai-website-is-now-back-online
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729092058269/b1cfb492-1f23-4571-a13a-78a374f749aa.avif
