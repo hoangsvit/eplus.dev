@@ -2,7 +2,7 @@
 title: "Collect Metrics from Exporters using the Managed Service for Prometheus - GSP1026"
 seoTitle: "Collect Metrics from Exporters using the Managed Service for Prometheu"
 seoDescription: "In this lab, you will explore using the Managed Service for Prometheus to collect metrics from other infrastructure sources via exporters."
-datePublished: Tue Aug 27 2024 05:48:56 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-27T05:48:56.286Z
 cuid: cm0c0beji00010al7e6aqbttk
 slug: collect-metrics-from-exporters-using-the-managed-service-for-prometheus-gsp1026
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747471162219/bb55105b-4dbb-4a01-aed8-fc1265d12727.png
