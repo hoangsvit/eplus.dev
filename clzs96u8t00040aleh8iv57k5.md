@@ -2,7 +2,7 @@
 title: "Crippling Facebook"
 seoTitle: "Crippling Facebook"
 seoDescription: "Facebook works with advertisers to target you. These instructions are one of the many ways to begin crippling that relationship. When AI targeting is crippl"
-datePublished: Tue Aug 13 2024 10:01:56 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-13T10:01:56.381Z
 cuid: clzs96u8t00040aleh8iv57k5
 slug: crippling-facebook
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723543232986/2b5b78ca-e543-46cf-864c-353afe6c7fd6.png
