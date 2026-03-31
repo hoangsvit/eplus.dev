@@ -2,7 +2,7 @@
 title: "Laravel Love: Expressing Emotions in Your Application"
 seoTitle: "Laravel Love: Expressing Emotions in Your Application"
 seoDescription: "Laravel Love is the emotional part of the application. It lets people express how they feel about the content. Make any model reachable in minutes!"
-datePublished: Tue May 23 2023 14:32:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-05-23T14:32:38.892Z
 cuid: cli0dlcdo00040al8bbs96zqa
 slug: laravel-love-expressing-emotions-in-your-application
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684851524512/430f8b7c-bafb-4da5-a048-f823c933c5fa.jpeg
