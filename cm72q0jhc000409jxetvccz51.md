@@ -2,7 +2,7 @@
 title: "Google Meet: Getting Started - GSP467"
 seoTitle: "Google Meet: Getting Started - GSP467"
 seoDescription: "Google Meet is a video conferencing application that lets you hold impromptu video meetings on the go, virtual training classes around the world, remote int"
-datePublished: Thu Feb 13 2025 02:28:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-13T02:28:34.080Z
 cuid: cm72q0jhc000409jxetvccz51
 slug: google-meet-getting-started-gsp467
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739413197579/b62a2644-4753-4bf9-8344-e33ba586a256.png
