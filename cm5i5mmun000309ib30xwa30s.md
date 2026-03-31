@@ -2,7 +2,7 @@
 title: "Ask Questions to Make Data-Driven Decisions - Module 1 challenge"
 seoTitle: "Ask Questions to Make Data-Driven Decisions - Module 1 challenge"
 seoDescription: "Ask Questions to Make Data-Driven Decisions - Module 1 challenge"
-datePublished: Sat Jan 04 2025 12:22:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-04T12:22:47.087Z
 cuid: cm5i5mmun000309ib30xwa30s
 slug: ask-questions-to-make-data-driven-decisions-module-1-challenge
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735993048785/79d7966d-1a26-4af5-9659-4a9ec210f2b4.png
