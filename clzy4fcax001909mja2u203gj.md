@@ -2,7 +2,7 @@
 title: "Use Machine Learning APIs on Google Cloud: Challenge Lab - GSP329"
 seoTitle: "Use Machine Learning APIs on Google Cloud: Challenge Lab - GSP329"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Sat Aug 17 2024 12:35:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-17T12:35:12.009Z
 cuid: clzy4fcax001909mja2u203gj
 slug: use-machine-learning-apis-on-google-cloud-challenge-lab-gsp329
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759137522185/710cb87a-95da-4899-ae23-f5b49d37c2c5.png
