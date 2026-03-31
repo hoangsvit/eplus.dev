@@ -1,7 +1,7 @@
 ---
 title: "Workshop: Build your AI-powered applications with MongoDB and AWS"
 seoDescription: "​Vào ngày 24 tháng 8 này, hãy đồng hành cùng team MongoDB và AWS khám phá chủ đề “Build your AI-powered applications with MongoDB and AWS – Xây dựng ứng dụn"
-datePublished: Mon Aug 14 2023 06:12:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-08-14T06:12:48.978Z
 cuid: cllaha9ci000u08l436of419x
 slug: workshop-build-your-ai-powered-applications-with-mongodb-and-aws
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691993344328/6cc22669-a638-4a33-b5f8-4d78f1c24295.avif
