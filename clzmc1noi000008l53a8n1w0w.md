@@ -6,7 +6,7 @@ seoDescription: "In this lab, you use AppSheet to deploy and publish your app so
 What you'll do
 
 In this lab, you learn how to perfor"
-datePublished: Fri Aug 09 2024 06:35:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-09T06:35:16.386Z
 cuid: clzmc1noi000008l53a8n1w0w
 slug: publish-your-appsheet-app-gsp1030
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746622653348/95b2c003-d616-40cb-813f-2a9184cf5974.png
