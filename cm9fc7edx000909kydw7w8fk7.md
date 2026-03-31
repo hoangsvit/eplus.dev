@@ -2,7 +2,7 @@
 title: "Analytics as a Service for Data Sharing Partners - GSP1042"
 seoTitle: "Analytics as a Service for Data Sharing Partners - GSP1042"
 seoDescription: "A common scenario is where a Google Cloud Data Sharing Partner has proprietary datasets that customers can use for their analytics use cases. Customers need"
-datePublished: Sun Apr 13 2025 07:42:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-13T07:42:24.406Z
 cuid: cm9fc7edx000909kydw7w8fk7
 slug: analytics-as-a-service-for-data-sharing-partners-gsp1042
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744528563795/afa6c14c-b3d9-450d-8529-4e70eb7cda85.png
