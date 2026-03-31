@@ -2,7 +2,7 @@
 title: "MongoDB Database Administrator Tools"
 seoTitle: "MongoDB Database Administrator Tools"
 seoDescription: "In this unit, you will install a set of command-line tools on an Ubuntu Linux container that will help you with several tasks associated with administering "
-datePublished: Thu Jul 04 2024 09:29:37 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-04T09:29:37.298Z
 cuid: cly72f7de000209lb0tywaw32
 slug: mongodb-database-administrator-tools
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720083991961/d0df0811-4270-4d1e-bc51-da30a97e8fdc.png
