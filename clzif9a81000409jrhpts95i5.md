@@ -2,7 +2,7 @@
 title: "The Arcade Base Camp August 2024"
 seoTitle: "The Arcade Base Camp August 2024"
 seoDescription: "Welcome to Base Camp, where you’ll develop key Google Cloud skills (available in Spanish and Portuguese too!) and earn an exclusive credential that will ope"
-datePublished: Tue Aug 06 2024 12:54:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-06T12:54:06.337Z
 cuid: clzif9a81000409jrhpts95i5
 slug: the-arcade-base-camp-august-2024
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722948809227/e8a0d78f-149d-4bbc-8f8e-32ee7cbaad19.png
