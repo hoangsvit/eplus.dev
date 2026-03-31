@@ -2,7 +2,7 @@
 title: "Cloudflare's Turnstile Captcha for Laravel"
 seoTitle: "Cloudflare's Turnstile Captcha for Laravel"
 seoDescription: "The turnstile-laravel package integrates Turnstile's siteverify API with a server-side Laravel application. To use Turnstile in your Laravel application, yo"
-datePublished: Mon Jan 09 2023 13:30:12 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-01-09T13:30:12.787Z
 cuid: clcoucwj7000a08mc4wwz23gy
 slug: cloudflare-s-turnstile-captcha-for-laravel
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1673270946933/4d840608-983a-4d64-986a-fcc48249f5c7.png
