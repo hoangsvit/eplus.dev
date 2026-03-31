@@ -2,7 +2,7 @@
 title: "TensorFlow: Qwik Start - GSP637"
 seoTitle: "TensorFlow: Qwik Start - GSP637"
 seoDescription: "In this lab you will learn the basic ‘Hello World' of machine learning where, instead of programming explicit rules in a language such as Java or C++, you b"
-datePublished: Sat Aug 17 2024 06:25:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-17T06:25:43.168Z
 cuid: clzxr86ps000408mi4ub11div
 slug: tensorflow-qwik-start-gsp637
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752478373375/57e80729-1d69-4607-a9ea-071e9180b1e3.png
