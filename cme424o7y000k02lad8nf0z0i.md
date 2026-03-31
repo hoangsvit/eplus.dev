@@ -2,7 +2,7 @@
 title: "Skills Boost Arcade Trivia August 2025 Week 1 (Solution)"
 seoTitle: "Skills Boost Arcade Trivia August 2025 Week 1 (Solution)"
 seoDescription: "Enhance your cloud skills with hands-on trivia covering Dialogflow, Looker, and Google Cloud services in this Skills Boost Arcade session"
-datePublished: Sat Aug 09 2025 09:33:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-09T09:33:24.766Z
 cuid: cme424o7y000k02lad8nf0z0i
 slug: skills-boost-arcade-trivia-august-2025-week-1-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1754731416649/d427d731-5d46-4b31-9148-e472abe1b53d.png
