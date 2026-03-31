@@ -2,7 +2,7 @@
 title: "Final graded quiz: Programming with JavaScript"
 seoTitle: "Final graded quiz: Programming with JavaScript"
 seoDescription: "Final graded quiz: Programming with JavaScript"
-datePublished: Sat Jul 20 2024 13:58:37 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-20T13:58:37.968Z
 cuid: clyu72s9c000709jmci1r8amq
 slug: final-graded-quiz-programming-with-javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721483885163/2ca349f3-db00-48f1-a231-c09fe4fc2a6c.png
