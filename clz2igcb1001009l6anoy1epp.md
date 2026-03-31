@@ -2,7 +2,7 @@
 title: "Google Cloud Storage - Bucket Lock - GSP297"
 seoTitle: "Google Cloud Storage - Bucket Lock - GSP297"
 seoDescription: "In this lab, you learn how to use Cloud Storage Bucket Lock feature which allows you to configure a data retention policy for a Cloud Storage bucket that go"
-datePublished: Fri Jul 26 2024 09:39:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-26T09:39:15.661Z
 cuid: clz2igcb1001009l6anoy1epp
 slug: google-cloud-storage-bucket-lock-gsp297
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747473479410/97293601-a2d0-4abb-be67-26a7a996a8d2.png
