@@ -2,7 +2,7 @@
 title: "App Engine: 3 Ways: Challenge Lab - ARC112"
 seoTitle: "App Engine: 3 Ways: Challenge Lab - ARC112"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Thu Aug 08 2024 05:37:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-08T05:37:19.111Z
 cuid: clzkuj9xj000c08le6rv0hlx4
 slug: app-engine-3-ways-challenge-lab-arc112
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755847053625/5d64ac78-5e21-424a-a42a-f63745be1f5a.png
