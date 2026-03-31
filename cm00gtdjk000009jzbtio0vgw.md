@@ -2,7 +2,7 @@
 title: "Creating a Data Warehouse Through Joins and Unions - GSP413"
 seoTitle: "Creating a Data Warehouse Through Joins and Unions - GSP413"
 seoDescription: "BigQuery is Google's fully managed, NoOps, low cost analytics database. With BigQuery you can query terabytes and terabytes of data without having any infra"
-datePublished: Mon Aug 19 2024 03:57:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-19T03:57:34.544Z
 cuid: cm00gtdjk000009jzbtio0vgw
 slug: creating-a-data-warehouse-through-joins-and-unions-gsp413
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758004884006/7c1065b1-3feb-45ff-b22d-6176aed6d3f2.png
