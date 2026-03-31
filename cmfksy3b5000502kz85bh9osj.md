@@ -2,7 +2,7 @@
 title: "Firebase Essentials: Firestore Database Write with TypeScript - gem-firebase-firestore-write-typescript"
 seoTitle: "Firebase Essentials: Firestore Database Write with TypeScript - gem-fi"
 seoDescription: "Learn to create/configure Firebase Firestore with TypeScript, connect Firebase to Google Cloud, and write data using Firebase Functions"
-datePublished: Mon Sep 15 2025 07:28:08 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-15T07:28:08.513Z
 cuid: cmfksy3b5000502kz85bh9osj
 slug: firebase-essentials-firestore-database-write-with-typescript-gem-firebase-firestore-write-typescript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757921354482/3b036b45-7c12-4cb3-9456-66a5a4c23f08.png
