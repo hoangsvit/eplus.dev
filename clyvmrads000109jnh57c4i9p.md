@@ -2,7 +2,7 @@
 title: "Self review: Rate the media"
 seoTitle: "Self review: Rate the media"
 seoDescription: "Self review: Rate the media"
-datePublished: Sun Jul 21 2024 14:05:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T14:05:21.616Z
 cuid: clyvmrads000109jnh57c4i9p
 slug: self-review-rate-the-media
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721570637489/fb8cd39d-c3fc-4557-8a27-362156f80062.png
