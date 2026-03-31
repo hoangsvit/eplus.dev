@@ -2,7 +2,7 @@
 title: "Deploying a Containerized Application on Cloud Run"
 seoTitle: "Deploying a Containerized Application on Cloud Run"
 seoDescription: "Cloud Run is a fully managed compute platform that allows you to run stateless containers that are invocable with HTTP requests. You can deploy code written"
-datePublished: Thu Aug 15 2024 03:59:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-15T03:59:26.705Z
 cuid: clzur4df500000akz8o31dj9q
 slug: deploying-a-containerized-application-on-cloud-run
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723693993665/ad5f726e-f020-4e8b-8874-6c9bf2c6a24f.png
