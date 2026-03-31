@@ -2,7 +2,7 @@
 title: "Enhancing User Interactivity in Looker with Liquid - GSP934"
 seoTitle: "Enhancing User Interactivity in Looker with Liquid - GSP934"
 seoDescription: "Looker is a modern data platform in Google Cloud that lets you analyze and visualize your data interactively. You can use Looker to do in-depth data analysi"
-datePublished: Sat Nov 09 2024 10:04:52 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-11-09T10:04:52.621Z
 cuid: cm3a01kwd000709lad5fmdut8
 slug: enhancing-user-interactivity-in-looker-with-liquid-gsp934
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749092207336/644b89ad-f39a-4090-af2d-727793a770a2.png
