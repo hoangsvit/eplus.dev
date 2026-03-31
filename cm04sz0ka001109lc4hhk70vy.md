@@ -2,7 +2,7 @@
 title: "Identify Application Vulnerabilities with Security Command Center - GSP1262"
 seoTitle: "Identify Application Vulnerabilities with Security Command Center"
 seoDescription: "In this lab, you will use Web Security Scanner—one of Security Command Center's built-in services—to scan a Python Flask application for vulnerabilities. We"
-datePublished: Thu Aug 22 2024 04:48:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-22T04:48:57.754Z
 cuid: cm04sz0ka001109lc4hhk70vy
 slug: identify-application-vulnerabilities-with-security-command-center-gsp1262
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759205787579/392bdf94-8748-4746-97c6-c8007905e5dc.png
