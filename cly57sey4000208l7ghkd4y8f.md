@@ -2,7 +2,7 @@
 title: "The MongoDB Shell"
 seoTitle: "The MongoDB Shell"
 seoDescription: "In this unit, you'll learn about the MongoDB Shell (mongosh), the command line interface that enables you to interact with local and remote MongoDB deployme"
-datePublished: Wed Jul 03 2024 02:24:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-03T02:24:19.372Z
 cuid: cly57sey4000208l7ghkd4y8f
 slug: the-mongodb-shell
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719972610300/73809e78-fd0e-4757-b301-ad606413b86c.png
