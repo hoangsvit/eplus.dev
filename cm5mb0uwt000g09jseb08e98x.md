@@ -2,7 +2,7 @@
 title: "Quiz 4 - BDMS Quiz"
 seoTitle: "Quiz 4 - BDMS Quiz"
 seoDescription: "Quiz 4 - BDMS Quiz"
-datePublished: Tue Jan 07 2025 10:04:53 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-07T10:04:53.501Z
 cuid: cm5mb0uwt000g09jseb08e98x
 slug: quiz-4-bdms-quiz
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736244265343/4f70b6df-9646-4b04-b2f9-092ec49247a7.png
