@@ -2,7 +2,7 @@
 title: "Self review: Transforming and transitioning elements"
 seoTitle: "Self review: Transforming and transitioning elements"
 seoDescription: "Self review: Transforming and transitioning elements"
-datePublished: Fri Aug 02 2024 04:04:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-02T04:04:59.719Z
 cuid: clzc6lfpi000008mebmc331yf
 slug: self-review-transforming-and-transitioning-elements
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722568767163/3eab5bf7-cdb8-41bc-a611-32c3fa8f4abd.png
