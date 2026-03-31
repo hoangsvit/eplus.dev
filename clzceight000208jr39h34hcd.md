@@ -2,7 +2,7 @@
 title: "Knowledge check: Debugging"
 seoTitle: "Knowledge check: Debugging"
 seoDescription: "Knowledge check: Debugging"
-datePublished: Fri Aug 02 2024 07:46:37 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-02T07:46:37.697Z
 cuid: clzceight000208jr39h34hcd
 slug: knowledge-check-debugging
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722584445651/562cadb9-8f15-4337-b894-8a6f5d21ec52.png
