@@ -4,7 +4,7 @@ seoTitle: "Arcade Hero: Building Blocks Firestore I - ARC1206"
 seoDescription: "In this lab you will learn the fundamentals of Artifact Registry Policy using Google Cloud.
 
 If you are new to Artifact Registry Policy or looking for an ov"
-datePublished: Fri Feb 14 2025 06:25:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-14T06:25:38.278Z
 cuid: cm74dx9ly001609l59lci3wse
 slug: arcade-hero-building-blocks-firestore-i-arc1206
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739514252323/2024ca78-c963-4c76-960d-ab3e4ebb211c.png
