@@ -2,7 +2,7 @@
 title: "BigQuery Soccer Data Ingestion - GSP848"
 seoTitle: "BigQuery Soccer Data Ingestion - GSP848"
 seoDescription: "Information access uses multiple formats, and BigQuery makes working with multiple data sources simple. In this lab you will get started with sports data sc"
-datePublished: Tue Aug 20 2024 15:01:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-20T15:01:13.501Z
 cuid: cm02jyopp000209l4dtad4lcs
 slug: bigquery-soccer-data-ingestion-gsp848
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724165920495/5decc0e0-e94e-4a52-b940-65159c13693c.png
