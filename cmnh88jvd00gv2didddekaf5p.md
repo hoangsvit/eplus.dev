@@ -2,12 +2,11 @@
 title: "The Arcade Base Camp April 2026"
 seoTitle: "The Arcade Base Camp April 2026"
 seoDescription: "Welcome to Arcade Base Camp April 2026, where you’ll develop key Google Cloud skills and earn an exclusive credential that will open doors to the clou"
-datePublished: 2026-04-02T08:42:44.762Z
+datePublished: Thu Apr 02 2026 08:42:44 GMT+0000 (Coordinated Universal Time)
 cuid: cmnh88jvd00gv2didddekaf5p
 slug: the-arcade-base-camp-april-2026
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/abdb70fa-3a80-4512-a322-9531bfc94ed9.png
 ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/7f7448a4-9933-489b-9062-e7154057c1d4.png
-tags: the-arcade-base-camp-april-2026
 
 ---
 
