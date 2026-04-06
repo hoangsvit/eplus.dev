@@ -21,17 +21,17 @@ You will learn strategy to help maximize utilization (and avoid underutilization
 
 In this lab, you will learn how to:
 
-* Examine Resource Usage of a Deployment
+*   Examine Resource Usage of a Deployment
     
-* Scale Up a Deployment
+*   Scale Up a Deployment
     
-* Migrate Your Workload to a Node Pool with an Optimized Machine Type
+*   Migrate Your Workload to a Node Pool with an Optimized Machine Type
     
-* Explore Location Options for your Cluster
+*   Explore Location Options for your Cluster
     
-* Monitor Flow Logs between Pods in Different Zones
+*   Monitor Flow Logs between Pods in Different Zones
     
-* Move a Chatty Pod to Minimize Cross-Zonal Traffic Costs
+*   Move a Chatty Pod to Minimize Cross-Zonal Traffic Costs
     
 
 ## **Setup and requirements**
@@ -44,29 +44,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -74,7 +74,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-3e5f15d38435@qwiklabs.net
@@ -82,9 +82,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     p3TEqTAYtIxp
@@ -92,19 +92,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -143,11 +143,11 @@ In the following section, you will take a look at a demo app and migrate it to a
 
 On startup, your lab generated a **Hello Demo Cluster** with two E2 medium (2vCPU, 4GB memory) nodes. This cluster is deploying one replica of a simple web application called **Hello App**, a web server written in Go that responds to all requests with the message "Hello, World!".
 
-1. Once your lab has finished provisioning, in the **Cloud Console**, click on your **Navigation Menu** and then click on **Kubernetes Engine**.
+1.  Once your lab has finished provisioning, in the **Cloud Console**, click on your **Navigation Menu** and then click on **Kubernetes Engine**.
     
-2. In the **Kubernetes Clusters** window, select your **hello-demo-cluster**.
+2.  In the **Kubernetes Clusters** window, select your **hello-demo-cluster**.
     
-3. In the following window, select the **Nodes** tab:
+3.  In the following window, select the **Nodes** tab:
     
 
 ![The Nodes tab highlighted within the hello-demo-cluster.](https://cdn.qwiklabs.com/z6lb4OjjpGND%2BJS5XigSNEE8Wjy8yJr89BZxg%2F6BfRE%3D align="left")
@@ -158,7 +158,7 @@ You should now see a list of your cluster's nodes:
 
 Observe how GKE has utilized the resources of your cluster. You can see how much cpu and memory is being requested by each node as well as how much your nodes could potentially allocate.
 
-4. Click on the first node of your cluster.
+4.  Click on the first node of your cluster.
     
 
 Look at the **Pods** section. You should see your `hello-server` pod in the `default` namespace. If you don't see a `hello-server` pod, go back and select the second node of your cluster instead.
@@ -167,7 +167,7 @@ You'll notice the `hello-server` pod is requesting 400 mcpu. You should also see
 
 ![Several pods listed in the Pods section along with their statuses set to Running.](https://cdn.qwiklabs.com/9ZEVrgGaoMBT7%2F2qnkC7%2FpAUaEHTRFlqjZqYz6MbaQc%3D align="left")
 
-5. Press the **Back** button to return to the previous **Nodes** page.
+5.  Press the **Back** button to return to the previous **Nodes** page.
     
 
 Already, you'll notice that it takes two E2-medium nodes to run one replica of your `Hello-App` along with the essential `kube-system` services. Also, while you're using most of the cluster's cpu resources, you're only using about 1/3rd of its allocatable memory.
@@ -182,7 +182,7 @@ What would happen if the Hello App were to be scaled up?
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell**
+1.  Click **Activate Cloud Shell**
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="left")
     
@@ -197,14 +197,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-00-e1aa8cb99d
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-2. (Optional) You can list the active account name with this command:
+2.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-3. Click **Authorize**.
+3.  Click **Authorize**.
     
 
 **Output:**
@@ -217,7 +217,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-4. (Optional) You can list the project ID with this command:
+4.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -235,14 +235,14 @@ project = qwiklabs-gcp-00-e1aa8cb99d2e
 
 ### Scale up Hello app
 
-1. Access your cluster's credentials:
+1.  Access your cluster's credentials:
     
 
 ```apache
 gcloud container clusters get-credentials hello-demo-cluster --zone us-west1-a
 ```
 
-2. Scale up your `Hello-Server`:
+2.  Scale up your `Hello-Server`:
     
 
 ```apache
@@ -255,19 +255,19 @@ Scale Up Hello App
 
 **Check my progress**
 
-3. Back in the **Console**, select **Workloads** from the **Kubernetes Engine** menu on the left.
+3.  Back in the **Console**, select **Workloads** from the **Kubernetes Engine** menu on the left.
     
 
 You might see your `hello-server` with the **Does not have minimum availability** error status.
 
 **Note:** In your lab you might not see the error. Depending on the kubernetes version of your cluster, kube-system pods can have smaller resource requests and the cluster might be able to accommodate the new workload. If you don't see the error, do not worry. The error has no effect on the completion of this lab.
 
-4. Click on the error message to get status details. You will see that the reason is `Insufficient cpu`.
+4.  Click on the error message to get status details. You will see that the reason is `Insufficient cpu`.
     
 
 This is to be expected. If you remember, the cluster barely had any more cpu resources and you requested another 400m with another replica of the `hello-server`.
 
-5. Increase your node pool to handle your new request:
+5.  Increase your node pool to handle your new request:
     
 
 ```apache
@@ -275,9 +275,9 @@ gcloud container clusters resize hello-demo-cluster --node-pool my-node-pool \
     --num-nodes 3 --zone us-west1-a
 ```
 
-6. When asked to continue, type `y` and press `enter`.
+6.  When asked to continue, type `y` and press `enter`.
     
-7. In the **Console**, refresh the **Workloads** page until you see the status of your `hello-server` workload turn to **OK**:
+7.  In the **Console**, refresh the **Workloads** page until you see the status of your `hello-server` workload turn to **OK**:
     
 
 ![hello-server with "OK" status on the Workloads page](https://cdn.qwiklabs.com/yt4%2Fx2FQoIIZUdJPvFZz2zrdGTLyvMA%2BUcMaJDEwkRw%3D align="left")
@@ -286,12 +286,12 @@ gcloud container clusters resize hello-demo-cluster --node-pool my-node-pool \
 
 With the workload successfully scaled up, navigate back to the nodes tab of your cluster.
 
-1. Click on **hello-demo-cluster**:
+1.  Click on **hello-demo-cluster**:
     
 
 ![hello-demo-cluser highlighted on the nodes tab](https://cdn.qwiklabs.com/qaeRvtdIXAglREmsHsetWfIiFimBOFq1FGMEE7v9Rl4%3D align="left")
 
-2. Then, click on the **Nodes** tab.
+2.  Then, click on the **Nodes** tab.
     
 
 The larger node pool is able to handle the heavier workload, but look at how your infrastructure's resources are being utilized.
@@ -314,7 +314,7 @@ Your **Hello Demo Cluster** does not employ very efficient binpacking. It would 
 
 ### Migrate to optimized node pool
 
-* Create a new node pool with a larger machine type:
+*   Create a new node pool with a larger machine type:
     
 
 ```apache
@@ -333,12 +333,12 @@ Create node pool
 
 Now, you can migrate pods to the new node pool by following these steps:
 
-1. **Cordon the existing node pool**: This operation marks the nodes in the existing node pool (`node`) as unschedulable. Kubernetes stops scheduling new Pods to these nodes once you mark them as unschedulable.
+1.  **Cordon the existing node pool**: This operation marks the nodes in the existing node pool (`node`) as unschedulable. Kubernetes stops scheduling new Pods to these nodes once you mark them as unschedulable.
     
-2. **Drain the existing node pool**: This operation evicts the workloads running on the nodes of the existing node pool (`node`) gracefully.
+2.  **Drain the existing node pool**: This operation evicts the workloads running on the nodes of the existing node pool (`node`) gracefully.
     
 
-* First, cordon the original node pool:
+*   First, cordon the original node pool:
     
 
 ```apache
@@ -347,7 +347,7 @@ for node in $(kubectl get nodes -l cloud.google.com/gke-nodepool=my-node-pool -o
 done
 ```
 
-* Next, drain the pool:
+*   Next, drain the pool:
     
 
 ```apache
@@ -362,14 +362,14 @@ At this point, you should see that your pods are running on the new, `larger-poo
 kubectl get pods -o=wide
 ```
 
-3. With the pods migrated, it's safe to delete the old node pool:
+3.  With the pods migrated, it's safe to delete the old node pool:
     
 
 ```apache
 gcloud container node-pools delete my-node-pool --cluster hello-demo-cluster --zone us-west1-a
 ```
 
-4. When asked to continue, type `y` and `enter`.
+4.  When asked to continue, type `y` and `enter`.
     
 
 Deletion can take about 2 minutes. Read the next section while you wait.
@@ -410,9 +410,9 @@ Resources that live in a zone, such as virtual machine instances or zonal persis
 
 When choosing a region or zone, it's important to think about:
 
-1. **Handling failures** - If your resources for your app are only distributed in one zone and that zone becomes unavailable, your app will also become unavailable. For larger scale, high demand apps it's often best practice to distribute resources across multiple zones or regions in order to handle failures.
+1.  **Handling failures** - If your resources for your app are only distributed in one zone and that zone becomes unavailable, your app will also become unavailable. For larger scale, high demand apps it's often best practice to distribute resources across multiple zones or regions in order to handle failures.
     
-2. **Decreased network latency** - To decrease network latency, you might want to choose a region or zone that is close to your point of service. For example, if you mostly have customers on the East Coast of the US, then you might want to choose a primary region and zone that is close to that area.
+2.  **Decreased network latency** - To decrease network latency, you might want to choose a region or zone that is close to your point of service. For example, if you mostly have customers on the East Coast of the US, then you might want to choose a primary region and zone that is close to that area.
     
 
 ### Best practices for clusters
@@ -445,7 +445,7 @@ Managing your cluster's resources across multiple zones becomes a little more co
 
 In this section, you'll observe the network traffic of your cluster and move two chatty pods, pods which are generating a lot of traffic to one another, to be in the same zone.
 
-1. In your **Cloud Shell** tab, create a new regional cluster (this command will take a few minutes to complete):
+1.  In your **Cloud Shell** tab, create a new regional cluster (this command will take a few minutes to complete):
     
 
 ```apache
@@ -454,7 +454,7 @@ gcloud container clusters create regional-demo --region=us-west1 --num-nodes=1
 
 In order to demonstrate traffic between your pods and nodes, you will create two pods on separate nodes in your regional cluster. We will use `ping` to generate traffic from one pod to the other to generate traffic which we can then monitor.
 
-2. Run this command to create a manifest for your first pod:
+2.  Run this command to create a manifest for your first pod:
     
 
 ```apache
@@ -472,14 +472,14 @@ spec:
 EOF
 ```
 
-3. Create the first pod in Kubernetes by using this command:
+3.  Create the first pod in Kubernetes by using this command:
     
 
 ```apache
 kubectl apply -f pod-1.yaml
 ```
 
-4. Next, run this command to create a manifest for your second pod:
+4.  Next, run this command to create a manifest for your second pod:
     
 
 ```apache
@@ -505,7 +505,7 @@ spec:
 EOF
 ```
 
-5. Create the second pod in Kubernetes:
+5.  Create the second pod in Kubernetes:
     
 
 ```apache
@@ -526,7 +526,7 @@ If you look back at the `pod-2.yaml` file you created, you can see that **Pod An
 
 In this case, **Pod Anti Affinity** is being used to help illustrate traffic between nodes, but smart use of **Pod Anti Affinity** and **Pod Affinity** can help you utilize your regional cluster's resources even better.
 
-6. View the pods you created:
+6.  View the pods you created:
     
 
 ```apache
@@ -547,14 +547,14 @@ Take note of the IP address of `pod-2`. You will use it in the following command
 
 ### Simulate traffic
 
-1. Get a shell to your `pod-1` container:
+1.  Get a shell to your `pod-1` container:
     
 
 ```apache
 kubectl exec -it pod-1 -- sh
 ```
 
-2. In your shell, send a request to `pod-2` replacing **\[POD-2-IP\]** with the internal IP displayed for `pod-2`:
+2.  In your shell, send a request to `pod-2` replacing **\[POD-2-IP\]** with the internal IP displayed for `pod-2`:
     
 
 ```apache
@@ -567,20 +567,20 @@ Take note of the average latency it takes to ping `pod-2` from `pod-1`.
 
 With `pod-1` pinging `pod-2`, you can enable flow logs on the subnet of the VPC the cluster was created to observe traffic.
 
-1. In the **Cloud Console**, open the **Navigation Menu** and select **VPC Network** in the **Networking** section.
+1.  In the **Cloud Console**, open the **Navigation Menu** and select **VPC Network** in the **Networking** section.
     
-2. Locate the `default` subnet in the `us-west1` region and click on it.
+2.  Locate the `default` subnet in the `us-west1` region and click on it.
     
 
 ![Highlighted default subnet for us-central1](https://cdn.qwiklabs.com/xlJuDNh61krC9Exp2xz8b54F89%2Fnp9lmnf4r7Mk%2FLsc%3D align="left")
 
-3. Click **Edit** at the top of the screen.
+3.  Click **Edit** at the top of the screen.
     
-4. Select **Flow Logs** to be **On**.
+4.  Select **Flow Logs** to be **On**.
     
-5. Then, click **Save**.
+5.  Then, click **Save**.
     
-6. Next, click **View Flow Logs in Logs Explorer**.
+6.  Next, click **View Flow Logs in Logs Explorer**.
     
 
 ![The View Flow Logs option highlighted within the Flow Logs menu.](https://cdn.qwiklabs.com/xFI8yhMOxwEucp1R5py3R6jDFuUkR%2FP5XmZQ9bdJfgs%3D align="left")
@@ -593,50 +593,50 @@ If the logs are not generated then replace `/` before vpc\_flows with `%2F` as g
 
 This can be a little difficult to read. Next, export it to a BigQuery table so you can query the relevant information.
 
-7. Click on **More actions** &gt; **Create Sink**.
+7.  Click on **More actions** > **Create Sink**.
     
 
 ![Two options in the More actions drop-down menu: Create sink, and Manage alerts.](https://cdn.qwiklabs.com/cSR9%2FGXOiDMFUvOBLXf9YlCW4r9TMdJKE%2BS%2BVi0cTu4%3D align="left")
 
-8. Name your sink `FlowLogsSample`.
+8.  Name your sink `FlowLogsSample`.
     
-9. Click **Next**.
+9.  Click **Next**.
     
 
 ### Sink destination
 
-* For your **Sink Service**, select **BigQuery Dataset**.
+*   For your **Sink Service**, select **BigQuery Dataset**.
     
-* For your **BigQuery Dataset**, select **Create new BigQuery dataset**.
+*   For your **BigQuery Dataset**, select **Create new BigQuery dataset**.
     
-* Name your dataset as '**us\_flow\_logs**', and click **CREATE DATASET**.
+*   Name your dataset as '**us\_flow\_logs**', and click **CREATE DATASET**.
     
 
 Everything else can be left as-is.
 
-1. Click **Create Sink**.
+1.  Click **Create Sink**.
     
-2. Now, inspect your newly created dataset. In the **Cloud Console**, from the **Navigation Menu** in the **Analytics** section, click **BigQuery**.
+2.  Now, inspect your newly created dataset. In the **Cloud Console**, from the **Navigation Menu** in the **Analytics** section, click **BigQuery**.
     
-3. Click **Done**.
+3.  Click **Done**.
     
-4. Select your project name, and then select the **us\_flow\_logs** to see the newly created table. If no table is there, you may need to refresh until it has been created.
+4.  Select your project name, and then select the **us\_flow\_logs** to see the newly created table. If no table is there, you may need to refresh until it has been created.
     
-5. Click on the `compute_googleapis_com_vpc_flows_xxx` table under your `us_flow_logs` dataset.
+5.  Click on the `compute_googleapis_com_vpc_flows_xxx` table under your `us_flow_logs` dataset.
     
 
 ![The Explorer pane, which includes the search box, the pinned projects, and table under the us_central_flow_logs dataset.](https://cdn.qwiklabs.com/uwtUC8ICO7mh8nZe3m%2B13Ekzf8nOyqcOVZRPp3Arf%2Bk%3D align="left")
 
-6. Click on **Query &gt; In new tab**.
+6.  Click on **Query > In new tab**.
     
-7. In the BigQuery Editor, paste this in between `SELECT` and `FROM`:
+7.  In the BigQuery Editor, paste this in between `SELECT` and `FROM`:
     
 
 ```apache
 jsonPayload.src_instance.zone AS src_zone, jsonPayload.src_instance.vm_name AS src_vm, jsonPayload.dest_instance.zone AS dest_zone, jsonPayload.dest_instance.vm_name
 ```
 
-8. Click **Run**.
+8.  Click **Run**.
     
 
 ![Query results displayed in the BigQuery Editor, along with the options: Save, More, and Schedule.](https://cdn.qwiklabs.com/WBKMJyRhJYzWmhU5i5ACx3mNrgwncnW4ZKEImB61UYQ%3D align="left")
@@ -655,16 +655,16 @@ Next, you will move the pods into the same zone and observe the benefits.
 
 ### Move a chatty pod to minimize cross-zonal traffic costs
 
-1. Back in **Cloud Shell**, press **Ctrl** + **C** to cancel the `ping` command.
+1.  Back in **Cloud Shell**, press **Ctrl** + **C** to cancel the `ping` command.
     
-2. Type the `exit` command to exit `pod-1`'s shell:
+2.  Type the `exit` command to exit `pod-1`'s shell:
     
 
 ```apache
 exit
 ```
 
-3. Run this command to edit the `pod-2` manifest:
+3.  Run this command to edit the `pod-2` manifest:
     
 
 ```apache
@@ -673,14 +673,14 @@ sed -i 's/podAntiAffinity/podAffinity/g' pod-2.yaml
 
 This changes your `Pod Anti Affinity` rule into a `Pod Affinity` rule while still using the same logic. Now `pod-2` will be scheduled on the same node as `pod-1`.
 
-4. Delete the current running `pod-2`:
+4.  Delete the current running `pod-2`:
     
 
 ```apache
 kubectl delete pod pod-2
 ```
 
-5. With `pod-2` deleted, recreate it using the newly edited manifest:
+5.  With `pod-2` deleted, recreate it using the newly edited manifest:
     
 
 ```apache
@@ -693,7 +693,7 @@ Simulate Traffic
 
 **Check my progress**
 
-6. View the pods you created and ensure they are both `Running`:
+6.  View the pods you created and ensure they are both `Running`:
     
 
 ```apache
@@ -704,14 +704,14 @@ From the output, you can see that `Pod-1` and `Pod-2` are now running on the sam
 
 Take note of the IP address of `pod-2`. You will use it in the following command.
 
-7. Get a shell to your `pod-1` container:
+7.  Get a shell to your `pod-1` container:
     
 
 ```apache
 kubectl exec -it pod-1 -- sh
 ```
 
-8. In your shell, send a request to `pod-2` replacing **\[POD-2-IP\]** with the internal IP for `pod-2` from the earlier command:
+8.  In your shell, send a request to `pod-2` replacing **\[POD-2-IP\]** with the internal IP for `pod-2` from the earlier command:
     
 
 ```apache
@@ -732,7 +732,7 @@ When the pods were pinging each other from different zones, it was costing $0.01
 
 When you moved the pods into the same zone, the pinging became free of charge.
 
----
+* * *
 
 ## Solution of Lab
 
@@ -756,6 +756,10 @@ sudo chmod +x GSP767.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757829503700/961c1a29-5fb1-4b23-b725-cd96d30df49d.png align="center")
 
 Open link: [VPC networks](https://console.cloud.google.com/networking/networks/list?pageTab=CURRENT_PROJECT_SUBNET)
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a6cedaf0-bb8b-4692-b20c-8b6067852eb4.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/2541cf07-ca5b-4ef0-b99f-11ae909a7ed7.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757829653564/a2363416-3367-49cf-a3b0-f66862f1ce0d.png align="center")
 
@@ -791,7 +795,7 @@ jsonPayload.src_instance.zone AS src_zone, jsonPayload.src_instance.vm_name AS s
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757830923078/c42d8f69-c79e-4c72-8ff9-620ec9102c60.png align="center")
 
----
+* * *
 
 ### Manual
 
