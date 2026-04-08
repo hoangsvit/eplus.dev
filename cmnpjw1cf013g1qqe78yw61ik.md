@@ -334,6 +334,8 @@ source lab.sh
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1e29ba79-3faf-4ba6-949b-adaf53cbc447.png align="center")
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/dd9385bb-20a7-4f34-a395-163d1f287689.png align="center")
+
 ```plaintext
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP758/vetex.sh
 source vetex.sh
