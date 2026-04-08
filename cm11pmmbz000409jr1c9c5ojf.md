@@ -832,7 +832,7 @@ Because the service account has permissions, you can see the instances listed.
 
 * * *
 
-## Solution of lab
+## Solution of the lab
 
 ### Quick
 
@@ -867,8 +867,29 @@ sudo chmod +x *.sh
 
 * * *
 
-### Manual
+### **Alternative Solution**
 
 %[https://www.youtube.com/watch?v=Vor35uhoEEw] 
+
+```plaintext
+gcloud compute ssh centos-clean --zone=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-zone])") --quiet
+```
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP647/alternative-solution.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Configuring%20IAM%20Permissions%20with%20gcloud/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
+```
+
+* * *
+
+### Manual
 
 %[https://youtu.be/KeXYAhs0BYI]
