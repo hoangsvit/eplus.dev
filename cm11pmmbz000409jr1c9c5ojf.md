@@ -17,11 +17,11 @@ tags: configuring-iam-permissions-with-gcloud-gsp647, gsp647, configuring-iam-pe
 
 This lab looks at three common areas to understand with regards to IAM and gcloud:
 
-* the configuration of the gcloud environment
+*   the configuration of the gcloud environment
     
-* the use of multiple gcloud configurations
+*   the use of multiple gcloud configurations
     
-* the use of services accounts
+*   the use of services accounts
     
 
 In this lab you use the `gcloud` CLI tool to set up and configure command features of Cloud Identity and Access Management (IAM).
@@ -30,22 +30,22 @@ In this lab you use the `gcloud` CLI tool to set up and configure command featur
 
 In this lab, you do the following:
 
-* Review IAM and using the `gcloud` client
+*   Review IAM and using the `gcloud` client
     
-* Create and switch between multiple IAM configurations
+*   Create and switch between multiple IAM configurations
     
-* Identify and assign correct IAM permissions
+*   Identify and assign correct IAM permissions
     
-* Create and use a service account
+*   Create and use a service account
     
 
 ### Starting environment
 
 You start with two user accounts and two projects;
 
-* `user1` is the "owner" of both projects
+*   `user1` is the "owner" of both projects
     
-* `user2` is the "viewer" of only the first project.
+*   `user2` is the "viewer" of only the first project.
     
 
 There is a Linux virtual machine (vm) running in the first project.
@@ -62,19 +62,19 @@ In IAM, permission to access a resource isn't granted directly to the end user. 
 
 In Cloud IAM, you grant access to *principals*. Principals can be of the following types:
 
-* Google Account
+*   Google Account
     
-* Service account
+*   Service account
     
-* Google group
+*   Google group
     
-* Google Workspace account
+*   Google Workspace account
     
-* Cloud Identity domain
+*   Cloud Identity domain
     
-* All authenticated users
+*   All authenticated users
     
-* All users
+*   All users
     
 
 Learn more about these identity types from the [Concepts related to identity Guide](https://cloud.google.com/iam/docs/overview#concepts_related_identity).
@@ -103,12 +103,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -117,17 +117,17 @@ To complete this lab, you need:
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -135,7 +135,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-00-9ac661da4d7c@qwiklabs.net
@@ -143,9 +143,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     AM45ah6nG5JF
@@ -153,19 +153,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -178,16 +178,16 @@ After a few moments, the Google Cloud console opens in this tab.
 
 This lab already has a Compute Engine instance called **centos-clean** that simulates an environment that doesn't have `gcloud` installed. You connect to this instance using the Google Cloud console.
 
-1. Open the list of compute instances by going to **Navigation Menu** &gt; **Compute Engine** &gt; **VM instances**.
+1.  Open the list of compute instances by going to **Navigation Menu** > **Compute Engine** > **VM instances**.
     
-2. On the line with the compute instance named **centos-clean**, click **SSH**.
+2.  On the line with the compute instance named **centos-clean**, click **SSH**.
     
 
 **Note:** About Compute Engine instances: There are Windows and Linux types of instances. In this lab you use the Linux instance type. You can easily connect to Linux instances using the Secure Shell (SSH) client via the web browser.
 
 You are automatically connected to the instance. Google Cloud manages the authentication keys for you, keeping them safe and available for only those you allow access.
 
-3. First test, confirm that `gcloud` is successfully installed by checking the version. Inside the SSH session run:
+3.  First test, confirm that `gcloud` is successfully installed by checking the version. Inside the SSH session run:
     
 
 ```apache
@@ -198,7 +198,7 @@ gcloud --version
 
 After verification that `gcloud` command-line tool is installed , make some changes by creating a compute instance.
 
-1. First, authenticate in gcloud. Inside the SSH session, run:
+1.  First, authenticate in gcloud. Inside the SSH session, run:
     
 
 ```apache
@@ -207,13 +207,13 @@ gcloud auth login
 
 Press ENTER when you see the prompt *Do you want to continue (Y/n)?*
 
-2. Navigate to the link displayed in a new tab.
+2.  Navigate to the link displayed in a new tab.
     
-3. Click on your active username (`student-00-9ac661da4d7c@qwiklabs.net`), and click **Allow**.
+3.  Click on your active username (`student-00-9ac661da4d7c@qwiklabs.net`), and click **Allow**.
     
-4. When you see the prompt **Enter the following verification code in gcloud CLI on the machine you want to log into**, click on the copy button then go back to the SSH session, and paste the code into the prompt **Enter authorization code:**.
+4.  When you see the prompt **Enter the following verification code in gcloud CLI on the machine you want to log into**, click on the copy button then go back to the SSH session, and paste the code into the prompt **Enter authorization code:**.
     
-5. In the SSH session, set the region and zone:
+5.  In the SSH session, set the region and zone:
     
 
 ```apache
@@ -221,7 +221,7 @@ gcloud config set compute/region us-west1
 gcloud config set compute/zone us-west1-a
 ```
 
-6. Inside the SSH session run:
+6.  Inside the SSH session run:
     
 
 ```apache
@@ -238,7 +238,7 @@ Create an instance with name as lab-1 in Project 1
 
 **Check my progress**
 
-8. Check your current gcloud configuration. Inside the SSH session run:
+8.  Check your current gcloud configuration. Inside the SSH session run:
     
 
 ```apache
@@ -247,24 +247,24 @@ gcloud config list
 
 You now see a `compute` section, a `core` section, and an `active configuration`. You can change each of these, but for this lab you'll only change the zone. Look at the zone your VM was created in.
 
-9. Now list all the zones available to use by running the following inside the SSH session run:
+9.  Now list all the zones available to use by running the following inside the SSH session run:
     
 
 ```apache
 gcloud compute zones list
 ```
 
-10. Identify one of the other zones in the same region as you. For example, if your current zone is `us-west2-a`, you could select `us-west2-b`.
-    
-11. Change your current zone for another zone in the same region. Inside the SSH session run the following, replacing `ZONE` with the zone you selected:
-    
+10.  Identify one of the other zones in the same region as you. For example, if your current zone is `us-west2-a`, you could select `us-west2-b`.
+     
+11.  Change your current zone for another zone in the same region. Inside the SSH session run the following, replacing `ZONE` with the zone you selected:
+     
 
 ```apache
 gcloud config set compute/zone ZONE
 ```
 
-12. Verify the zone change was made. Inside the SSH session run:
-    
+12.  Verify the zone change was made. Inside the SSH session run:
+     
 
 ```apache
 gcloud config list
@@ -282,8 +282,8 @@ Update the default zone
 
 **Check my progress**
 
-13. Verify the zone was written to the configuration file. Inside the SSH session run:
-    
+13.  Verify the zone was written to the configuration file. Inside the SSH session run:
+     
 
 ```apache
 cat ~/.config/gcloud/configurations/config_default
@@ -301,40 +301,40 @@ In your next task you learn how to create a second configuration and switch betw
 
 In this lab you have a second Google account you can log on with. This account has read-only (viewer) access to the first project. You create a new configuration for that user.
 
-1. Start a new `gcloud` configuration for the second user account. Inside the SSH session run:
+1.  Start a new `gcloud` configuration for the second user account. Inside the SSH session run:
     
 
 ```apache
 gcloud init --no-launch-browser
 ```
 
-2. Select option 2, *Create a new configuration*.
+2.  Select option 2, *Create a new configuration*.
     
-3. *configuration name*: Type **user2**.
+3.  *configuration name*: Type **user2**.
     
-4. *Log in with a new account*: select option 3 - you're logging in with the other provided user name.
+4.  *Log in with a new account*: select option 3 - you're logging in with the other provided user name.
     
-5. Press ENTER when you see the prompt *Do you want to continue (Y/n)?*
+5.  Press ENTER when you see the prompt *Do you want to continue (Y/n)?*
     
-6. Navigate to the link displayed in a new tab.
+6.  Navigate to the link displayed in a new tab.
     
-7. Click *Use another account*
+7.  Click *Use another account*
     
-8. Copy the second user account (`student-03-fa874093f278@qwiklabs.net`), and paste into the *email or phone* prompt.
+8.  Copy the second user account (`student-03-fa874093f278@qwiklabs.net`), and paste into the *email or phone* prompt.
     
-9. Copy the same password that you started the lab with, and paste into the *enter your password* prompt.
+9.  Copy the same password that you started the lab with, and paste into the *enter your password* prompt.
     
-10. Click **I understand**.
-    
-11. Click **Allow**.
-    
+10.  Click **I understand**.
+     
+11.  Click **Allow**.
+     
 
 You are accepting that the Cloud SDK has the same access as your Google account.
 
-12. When you see the prompt **Enter the following verification code in gcloud CLI on the machine you want to log into**, click on the copy button then go back to the SSH session and paste the code into the prompt **Enter authorization code:**.
-    
-13. For **Pick cloud project to use:** locate your current project (`qwiklabs-gcp-00-237e954c74f1`) and then type in the number that corresponds to the project.
-    
+12.  When you see the prompt **Enter the following verification code in gcloud CLI on the machine you want to log into**, click on the copy button then go back to the SSH session and paste the code into the prompt **Enter authorization code:**.
+     
+13.  For **Pick cloud project to use:** locate your current project (`qwiklabs-gcp-00-237e954c74f1`) and then type in the number that corresponds to the project.
+     
 
 The initialization completes and you see the zone and region are set for you.
 
@@ -346,7 +346,7 @@ Check gcloud user2 configuration was created
 
 This new account has viewer only access to the project, so you can test that you are indeed using this account by trying to view and then create some resources.
 
-1. Check that you can view details in the first project. Inside the SSH session run:
+1.  Check that you can view details in the first project. Inside the SSH session run:
     
 
 ```apache
@@ -355,7 +355,7 @@ gcloud compute instances list
 
 The second user account has viewer access so you should see `centos-clean` and `lab-1` instances listed.
 
-2. Check that you cannot create an instance in the first project, as your assigned role is basic viewer. Inside the SSH session run:
+2.  Check that you cannot create an instance in the first project, as your assigned role is basic viewer. Inside the SSH session run:
     
 
 ```apache
@@ -364,7 +364,7 @@ gcloud compute instances create lab-2 --zone us-east1-c --machine-type=e2-standa
 
 Because the second user account has only viewer access, they are not allowed to create an instance, so this command fails. It takes a little time to fail.
 
-3. Change back to your first user's configuration (**default**). Inside the SSH session run:
+3.  Change back to your first user's configuration (**default**). Inside the SSH session run:
     
 
 ```apache
@@ -383,7 +383,7 @@ Next you use `gcloud` to configure access to one project for the devops user by 
 
 ### Examine roles and permissions
 
-1. To view all the roles, run the following inside the SSH session run:
+1.  To view all the roles, run the following inside the SSH session run:
     
 
 ```apache
@@ -394,7 +394,7 @@ The list of roles is returned. The addition of `grep "name:"` to the command red
 
 Inspect one of these roles to see the permissions assigned to the role. To view the permissions use `gcloud iam roles describe`. Try looking at the simple role **roles/compute.instanceAdmin**.
 
-2. Examine the `compute.instanceAdmin` predefined role. Inside the SSH session run:
+2.  Examine the `compute.instanceAdmin` predefined role. Inside the SSH session run:
     
 
 ```apache
@@ -403,25 +403,25 @@ gcloud iam roles describe roles/compute.instanceAdmin
 
 You can see **roles/compute.instanceAdmin** has many permissions, but these are the minimum needed for later:
 
-* compute.instances.create
+*   compute.instances.create
     
-* compute.instances.delete
+*   compute.instances.delete
     
-* compute.instances.start
+*   compute.instances.start
     
-* compute.instances.stop
+*   compute.instances.stop
     
-* compute.instances.update
+*   compute.instances.update
     
-* compute.disks.create
+*   compute.disks.create
     
-* compute.subnetworks.use
+*   compute.subnetworks.use
     
-* compute.subnetworks.useExternalIp
+*   compute.subnetworks.useExternalIp
     
-* compute.instances.setMetadata
+*   compute.instances.setMetadata
     
-* compute.instances.setServiceAccount
+*   compute.instances.setServiceAccount
     
 
 To review the full list of roles and the permissions assigned, refer to the [IAM permissions reference Guide](https://cloud.google.com/iam/docs/permissions-reference).
@@ -432,16 +432,16 @@ Now that you know that roles contain permissions, how do you assign a role (and 
 
 There are two ways to attach a role:
 
-* To the user and an organization
+*   To the user and an organization
     
-* To a user and a project
+*   To a user and a project
     
 
 Next you attach the basic role of "viewer" to the second user onto the second project.
 
 #### **Test that the second user doesn't have access to the second project.**
 
-1. Switch `gcloud` configuration back to the second user (**user2**). Inside the SSH session run:
+1.  Switch `gcloud` configuration back to the second user (**user2**). Inside the SSH session run:
     
 
 ```apache
@@ -450,7 +450,7 @@ gcloud config configurations activate user2
 
 Now you're back to `user2`.
 
-2. Set `PROJECTID2` to the second project. Inside the SSH session, run the following:
+2.  Set `PROJECTID2` to the second project. Inside the SSH session, run the following:
     
 
 ```apache
@@ -466,21 +466,21 @@ gcloud config set project $PROJECTID2
 
 You get a warning: `WARNING: You do not appear to have access to project [your 2nd project id] or it does not exist.`
 
-3. When prompted, *Do you want to continue (Y/n)?*, type N and press ENTER.
+3.  When prompted, *Do you want to continue (Y/n)?*, type N and press ENTER.
     
 
 This means that user 2 doesn't have access to the PROJECTID2 project, which you fix in the next section.
 
 #### **Assign the viewer role to the second user in the second project**
 
-1. Switch back to the **default** gcloud configuration, which has the permission to grant access to the second user. Inside the SSH session run:
+1.  Switch back to the **default** gcloud configuration, which has the permission to grant access to the second user. Inside the SSH session run:
     
 
 ```apache
 gcloud config configurations activate default
 ```
 
-2. Install `jq`:
+2.  Install `jq`:
     
 
 ```apache
@@ -490,7 +490,7 @@ sudo yum -y install jq
 
 Next, set the value of `USERID2` to the second user name and bind the role of viewer to the second user onto the second project.
 
-3. Inside the SSH session, run the following:
+3.  Inside the SSH session, run the following:
     
 
 ```apache
@@ -524,14 +524,14 @@ Restricting Username 2 to roles/viewer in Project 2
 
 ## **Task 4. Test that user2 has access**
 
-1. Switch your gcloud configuration to **user2**. Inside the SSH session run:
+1.  Switch your gcloud configuration to **user2**. Inside the SSH session run:
     
 
 ```apache
 gcloud config configurations activate user2
 ```
 
-2. Change the configuration for user2 to the second project. Inside the SSH session run:
+2.  Change the configuration for user2 to the second project. Inside the SSH session run:
     
 
 ```apache
@@ -540,7 +540,7 @@ gcloud config set project $PROJECTID2
 
 You should not see an error message this time.
 
-3. Verify you have viewer access. Inside the SSH session run:
+3.  Verify you have viewer access. Inside the SSH session run:
     
 
 ```apache
@@ -549,7 +549,7 @@ gcloud compute instances list
 
 You now see 0 instances in this project.
 
-4. Try to create an instance in the second project as the second user. Inside the SSH session run:
+4.  Try to create an instance in the second project as the second user. Inside the SSH session run:
     
 
 ```apache
@@ -558,7 +558,7 @@ gcloud compute instances create lab-2 --zone us-east1-c --machine-type=e2-standa
 
 This command fails because user2 only has viewer access to the project.
 
-5. Switch your gcloud configuration to **default**. Inside the SSH session run:
+5.  Switch your gcloud configuration to **default**. Inside the SSH session run:
     
 
 ```apache
@@ -571,7 +571,7 @@ You are now back to using your original user account credentials.
 
 Next, create the new role with the set of permissions needed for the devops team.
 
-* Create a custom role called `devops` that has the permissions to create an instance. Inside the SSH session run:
+*   Create a custom role called `devops` that has the permissions to create an instance. Inside the SSH session run:
     
 
 ```apache
@@ -590,7 +590,7 @@ Create a new role with permissions for the devops team
 
 You now have the role created and need to bind the user and the role to the project. Use `gcloud projects add-iam-policy-binding` to perform the binding. To make this command easier to execute, set a couple of environment variables first; the project id and the user account.
 
-1. Bind the role of `iam.serviceAccountUser` to the second user onto the second project. Inside the SSH session run:
+1.  Bind the role of `iam.serviceAccountUser` to the second user onto the second project. Inside the SSH session run:
     
 
 ```apache
@@ -603,7 +603,7 @@ Check user2 is bound to project2 and the role roles/iam.serviceAccountUser
 
 **Check my progress**
 
-2. Bind the custom role `devops` to the second user onto the second project. You can find the second user account on the left of this page. Make sure you set USERID to the second user account.
+2.  Bind the custom role `devops` to the second user onto the second project. You can find the second user account on the left of this page. Make sure you set USERID to the second user account.
     
 
 Inside the SSH session run:
@@ -628,7 +628,7 @@ Bound Username 2 to devops role
 
 ### Test the newly assigned permissions.
 
-1. Switch your gcloud configuration to **user2**. Inside the SSH session run:
+1.  Switch your gcloud configuration to **user2**. Inside the SSH session run:
     
 
 ```apache
@@ -637,7 +637,7 @@ gcloud config configurations activate user2
 
 Now you're back to user2.
 
-2. Try to create an instance called lab-2. Inside the SSH session run:
+2.  Try to create an instance called lab-2. Inside the SSH session run:
     
 
 ```apache
@@ -650,7 +650,7 @@ Create an instance with name as lab-2 in Project 2
 
 **Check my progress**
 
-3. Verify the instance exists. Inside the SSH session run:
+3.  Verify the instance exists. Inside the SSH session run:
     
 
 ```apache
@@ -681,14 +681,14 @@ Now you create a service account, use that service account with a compute instan
 
 ### Create a service account
 
-1. Switch your gcloud configuration to **default**, `user2` doesn't have the rights to set up and configure service accounts. Inside the SSH session run:
+1.  Switch your gcloud configuration to **default**, `user2` doesn't have the rights to set up and configure service accounts. Inside the SSH session run:
     
 
 ```apache
 gcloud config configurations activate default
 ```
 
-2. Set the project to `PROJECTID2` in your configuration. Inside the SSH session run:
+2.  Set the project to `PROJECTID2` in your configuration. Inside the SSH session run:
     
 
 ```apache
@@ -697,7 +697,7 @@ gcloud config set project $PROJECTID2
 
 Make sure you are targeting the right project.
 
-3. Create the service account. Inside the SSH session run:
+3.  Create the service account. Inside the SSH session run:
     
 
 ```apache
@@ -708,7 +708,7 @@ Check the created devops service account
 
 **Check my progress**
 
-4. Get the service account email address. Inside the SSH session run:
+4.  Get the service account email address. Inside the SSH session run:
     
 
 ```apache
@@ -717,7 +717,7 @@ gcloud iam service-accounts list  --filter "displayName=devops"
 
 **Note:** The filter shows only the line you are interested in. Notice that the email address contains the role name and the project id.
 
-5. Put the email address into a local variable called `SA`. Inside the SSH session run:
+5.  Put the email address into a local variable called `SA`. Inside the SSH session run:
     
 
 ```apache
@@ -726,7 +726,7 @@ SA=$(gcloud iam service-accounts list --format="value(email)" --filter "displayN
 
 This command sets the SA local variable to the email address of the service account. Pretty useful right?
 
-6. Give the service account the role of `iam.serviceAccountUser`. Inside the SSH session run:
+6.  Give the service account the role of `iam.serviceAccountUser`. Inside the SSH session run:
     
 
 ```apache
@@ -741,7 +741,7 @@ Check devops service account is bound to project2 and the role roles/iam.service
 
 ## **Task 6. Using the service account with a compute instance**
 
-1. Give the service account the role of `compute.instanceAdmin`. Inside the SSH session run:
+1.  Give the service account the role of `compute.instanceAdmin`. Inside the SSH session run:
     
 
 ```apache
@@ -754,7 +754,7 @@ Check devops service account is bound to project2 and the role roles/compute.ins
 
 **Check my progress**
 
-2. Create an instance with the devops service account attached. You also have to specify an access scope that defines the API calls that the instance can make. Inside the SSH session run:
+2.  Create an instance with the devops service account attached. You also have to specify an access scope that defines the API calls that the instance can make. Inside the SSH session run:
     
 
 ```apache
@@ -777,7 +777,7 @@ Check lab-3 has the service account attached
 
 ## **Task 7. Test the service account**
 
-1. Connect to the newly created instance using `gcloud compute ssh`. Inside the SSH session run:
+1.  Connect to the newly created instance using `gcloud compute ssh`. Inside the SSH session run:
     
 
 ```apache
@@ -788,7 +788,7 @@ Press ENTER when asked if you want to continue.
 
 Press ENTER twice to skip making a password.
 
-2. The default image used already contains `gcloud` configuration. Inside the SSH session run:
+2.  The default image used already contains `gcloud` configuration. Inside the SSH session run:
     
 
 ```apache
@@ -797,7 +797,7 @@ gcloud config list
 
 The configuration now has the service account
 
-3. Create an instance. This tests that you have the necessary permissions via the service account:
+3.  Create an instance. This tests that you have the necessary permissions via the service account:
     
 
 ```apache
@@ -806,7 +806,7 @@ gcloud compute instances create lab-4 --zone us-east1-c --machine-type=e2-standa
 
 You can press ENTER to accept the default zone for this VM.
 
-4. Check roles attached are working. Inside the SSH session run:
+4.  Check roles attached are working. Inside the SSH session run:
     
 
 ```apache
@@ -821,16 +821,16 @@ Because the service account has permissions, you can see the instances listed.
 
 **What is NOT true about service accounts?**
 
-* It allows automated deployments of resources.
+*   It allows automated deployments of resources.
     
-* Service accounts always provide full admin rights to the project.
+*   Service accounts always provide full admin rights to the project.
     
-* Service accounts can be assigned only the rights necessary for the access required.
+*   Service accounts can be assigned only the rights necessary for the access required.
     
-* It prevents a user from directly getting involved in setting up access on the instance.
+*   It prevents a user from directly getting involved in setting up access on the instance.
     
 
----
+* * *
 
 ## Solution of lab
 
@@ -865,8 +865,10 @@ sudo chmod +x *.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1761278040243/e2405fcb-729c-45a9-9c2c-fb48cfa41805.png align="center")
 
----
+* * *
 
 ### Manual
+
+%[https://www.youtube.com/watch?v=Vor35uhoEEw] 
 
 %[https://youtu.be/KeXYAhs0BYI]
