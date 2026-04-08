@@ -877,7 +877,7 @@ gcloud compute ssh centos-clean --zone=$(gcloud compute project-info describe --
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP647/alternative-solution.sh
-source lab.sh
+source alternative-solution.sh
 ```
 
 **Script Alternative**
