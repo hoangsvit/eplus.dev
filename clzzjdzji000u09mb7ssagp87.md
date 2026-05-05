@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-08-18T12:21:49.230Z
 cuid: clzzjdzji000u09mb7ssagp87
 slug: implement-cloud-security-fundamentals-on-google-cloud-challenge-lab-gsp342-1-1
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723983362489/559a7405-a09b-459d-94f0-241fba2cca4b.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723983692318/eefff81f-2c1c-4f97-91bf-0d37ceca9a5c.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/303a4909-a516-4259-b2d3-39c15e4837b4.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/08b5e8a8-1ebe-459e-b80e-f6733b855043.png
 tags: implement-cloud-security-fundamentals-on-google-cloud-challenge-lab-gsp342
 
 ---
@@ -23,15 +23,15 @@ This lab is recommended for students who have enrolled in the [Implement Cloud S
 
 ### Topics tested
 
-* Create a custom security role.
+*   Create a custom security role.
     
-* Create a service account.
+*   Create a service account.
     
-* Bind IAM security roles to a service account.
+*   Bind IAM security roles to a service account.
     
-* Create a private Kubernetes Engine cluster in a custom subnet.
+*   Create a private Kubernetes Engine cluster in a custom subnet.
     
-* Deploy an application to a private Kubernetes Engine cluster
+*   Deploy an application to a private Kubernetes Engine cluster
     
 
 ## **Setup and requirements**
@@ -44,12 +44,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -66,35 +66,35 @@ You have been asked to deploy, configure, and test a new Kubernetes Engine clust
 
 As per the organization's security standards you must ensure that the new Kubernetes Engine cluster is built according to the organization's most recent security standards and thereby must comply with the following:
 
-* The cluster must be deployed using a dedicated service account configured with the least privileges required.
+*   The cluster must be deployed using a dedicated service account configured with the least privileges required.
     
-* The cluster must be deployed as a Kubernetes Engine private cluster, with the public endpoint disabled, and the master authorized network set to include only the ip-address of the Orca group's management jumphost.
+*   The cluster must be deployed as a Kubernetes Engine private cluster, with the public endpoint disabled, and the master authorized network set to include only the ip-address of the Orca group's management jumphost.
     
-* The Kubernetes Engine private cluster must be deployed to the `orca-build-subnet` in the Orca Build VPC.
+*   The Kubernetes Engine private cluster must be deployed to the `orca-build-subnet` in the Orca Build VPC.
     
 
 From a previous project you know that the minimum permissions required by the service account that is specified for a Kubernetes Engine cluster is covered by these three built in roles:
 
-* `roles/monitoring.viewer`
+*   `roles/monitoring.viewer`
     
-* `roles/monitoring.metricWriter`
+*   `roles/monitoring.metricWriter`
     
-* `roles/logging.logWriter`
+*   `roles/logging.logWriter`
     
 
 These roles are specified in the Google Kubernetes Engine (GKE)'s Harden your cluster's security guide in the [Use least privilege Google service accounts](https://cloud.google.com/kubernetes-engine/docs/how-to/hardening-your-cluster#use_least_privilege_sa) section.
 
 You must bind the above roles to the service account used by the cluster as well as a custom role that you must create in order to provide access to any other services specified by the development team. Initially you have been told that the development team requires that the service account used by the cluster should have the permissions necessary to add and update objects in Google Cloud Storage buckets. To do this you will have to create a new custom IAM role that will provide the following permissions:
 
-* `storage.buckets.get`
+*   `storage.buckets.get`
     
-* `storage.objects.get`
+*   `storage.objects.get`
     
-* `storage.objects.list`
+*   `storage.objects.list`
     
-* `storage.objects.update`
+*   `storage.objects.update`
     
-* `storage.objects.create`
+*   `storage.objects.create`
     
 
 Once you have created the new private cluster you must test that it is correctly configured by connecting to it from the jumphost, `orca-jumphost`, in the management subnet `orca-mgmt-subnet`. As this compute instance is not in the same subnet as the private cluster you must make sure that the master authorized networks for the cluster includes the internal ip-address for the instance, and you must specify the `--internal-ip` flag when retrieving cluster credentials using the `gcloud container clusters get-credentials` command.
@@ -133,13 +133,13 @@ Check that a the correct built in and custom security roles have been bound to t
 
 You must now use the service account you have configured when creating a new Kubernetes Engine private cluster. The new cluster configuration must include the following:
 
-* The cluster must be called `orca-cluster-326`
+*   The cluster must be called `orca-cluster-326`
     
-* The cluster must be deployed to the subnet `orca-build-subnet`
+*   The cluster must be deployed to the subnet `orca-build-subnet`
     
-* The cluster must be configured to use the `orca-private-cluster-675-sa` service account.
+*   The cluster must be configured to use the `orca-private-cluster-675-sa` service account.
     
-* The private cluster options `enable-master-authorized-networks`, `enable-ip-alias`, `enable-private-nodes`, and `enable-private-endpoint` must be enabled.
+*   The private cluster options `enable-master-authorized-networks`, `enable-ip-alias`, `enable-private-nodes`, and `enable-private-endpoint` must be enabled.
     
 
 Once the cluster is configured you must add the internal ip-address of the `orca-jumphost` compute instance to the master authorized network list.
@@ -166,7 +166,7 @@ Check that an application has been deployed to a private Kubernetes Engine clust
 
 ## **Tips and Tricks**
 
-* **Tip 1**. Make sure to use the `gke-gcloud-auth-plugin`, which is needed for continued use of `kubectl`. You can install it by running the following commands. Make sure to replace your GKE cluster name and zone, as well as your Project ID.
+*   **Tip 1**. Make sure to use the `gke-gcloud-auth-plugin`, which is needed for continued use of `kubectl`. You can install it by running the following commands. Make sure to replace your GKE cluster name and zone, as well as your Project ID.
     
 
 ```apache
@@ -176,14 +176,22 @@ source ~/.bashrc
 gcloud container clusters get-credentials <your cluster name> --internal-ip --project=<project ID> --zone <cluster zone>
 ```
 
-* **Tip 2**. When adding the internal ip-address of the `orca-jumphost` machine to the list of authorized addresses for the private Kubernetes Engine cluster you should use a `/32` netmask to ensure that only the specific compute instance is authorized.
+*   **Tip 2**. When adding the internal ip-address of the `orca-jumphost` machine to the list of authorized addresses for the private Kubernetes Engine cluster you should use a `/32` netmask to ensure that only the specific compute instance is authorized.
     
-* **Tip 3**. You cannot connect directly to a Kubernetes Engine private cluster from a VPC or other network outside of the VPC the private cluster has been deployed to if the `enable-private-endpoint` option has been specified. This represents the highest security option for a private cluster and you must use a jumphost, or a proxy within the same VPC as the cluster, and you must use that jumphost or proxy to connect to the internal managment ip-address for the cluster.
+*   **Tip 3**. You cannot connect directly to a Kubernetes Engine private cluster from a VPC or other network outside of the VPC the private cluster has been deployed to if the `enable-private-endpoint` option has been specified. This represents the highest security option for a private cluster and you must use a jumphost, or a proxy within the same VPC as the cluster, and you must use that jumphost or proxy to connect to the internal managment ip-address for the cluster.
     
 
----
+* * *
 
 ## Solution of Lab
+
+### Quick
+
+%[https://www.youtube.com/watch?v=0f2zHltA-LY] 
+
+
+
+### Old Solution
 
 %[https://www.youtube.com/watch?v=0f2zHltA-LY] 
 
