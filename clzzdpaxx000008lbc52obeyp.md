@@ -615,6 +615,13 @@ If IAP is turned off or bypassed, the verified data would either be missing, or 
 
 ### Quick
 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP499/lab.sh
+source lab.sh
+```
+
+**Solution Alternative**
+
 %[https://youtu.be/m3lgM8YXHPA] 
 
 ```apache
