@@ -696,7 +696,7 @@ When the build is finished, reload the application in your browser. You should n
 
 %[https://www.youtube.com/watch?v=6T5_KwNvgy4] 
 
-```apache
+```
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1077/lab.sh
 source lab.sh
 ```
