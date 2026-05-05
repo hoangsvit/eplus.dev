@@ -187,9 +187,28 @@ gcloud container clusters get-credentials <your cluster name> --internal-ip --pr
 
 ### Quick
 
-%[https://www.youtube.com/watch?v=0f2zHltA-LY] 
+%[https://www.youtube.com/watch?v=mF98N-EjX2M] 
 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP342/lab.sh
+source lab.sh
+```
 
+**Script Alternative**
+
+```plaintext
+curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Implement%20Cloud%20Security%20Fundamentals%20on%20Google%20Cloud%3A%20Challenge%20Lab/TechCode.sh
+sudo chmod +x TechCode.sh 
+./TechCode.sh
+```
+
+* * *
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/0d0b65b8-c074-493e-ba92-2516fa1bc82b.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/308d3dab-92c6-4a4f-91f2-cdec116b8781.png align="center")
+
+* * *
 
 ### Old Solution
 
