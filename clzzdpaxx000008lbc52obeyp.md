@@ -15,22 +15,22 @@ tags: user-authentication-identity-aware-proxy-gsp499, gsp499, user-authenticati
 
 In this lab, you build a minimal web application with Google App Engine, then explore various ways to use Identity-Aware Proxy (IAP) to restrict access to the application and provide user identity information to it. Your app will:
 
-* Display a welcome page
+*   Display a welcome page
     
-* Access user identity information provided by IAP
+*   Access user identity information provided by IAP
     
-* Use cryptographic verification to prevent spoofing of user identity information
+*   Use cryptographic verification to prevent spoofing of user identity information
     
 
 ### What you'll learn
 
-* How to write and deploy a simple App Engine app using Python
+*   How to write and deploy a simple App Engine app using Python
     
-* How to enable and disable IAP to restrict access to your app
+*   How to enable and disable IAP to restrict access to your app
     
-* How to get user identity information from IAP into your app
+*   How to get user identity information from IAP into your app
     
-* How to cryptographically verify information from IAP to protect against spoofing
+*   How to cryptographically verify information from IAP to protect against spoofing
     
 
 ### Prerequisites
@@ -57,29 +57,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -87,7 +87,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-bf64ebf7597e@qwiklabs.net
@@ -95,9 +95,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     0zPhiy2zyr1y
@@ -105,19 +105,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -130,7 +130,7 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell**
+1.  Click **Activate Cloud Shell**
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="left")
     
@@ -145,14 +145,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-04-19dedccfdb
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-2. (Optional) You can list the active account name with this command:
+2.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-3. Click **Authorize**.
+3.  Click **Authorize**.
     
 
 **Output:**
@@ -165,7 +165,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-4. (Optional) You can list the project ID with this command:
+4.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -207,7 +207,7 @@ This is an App Engine Standard application written in Python that simply display
 
 ### Review the application code
 
-* Change from the main project folder to the `1-HelloWorld` subfolder that contains code for this step.
+*   Change from the main project folder to the `1-HelloWorld` subfolder that contains code for this step.
     
 
 ```apache
@@ -230,37 +230,37 @@ You do not need to change any files for this step.
 
 ### Deploy to App Engine
 
-1. Update python runtime to `python39`.
+1.  Update python runtime to `python39`.
     
 
 ```apache
 sed -i 's/python37/python39/g' app.yaml
 ```
 
-2. Deploy the app to the App Engine Standard environment for Python.
+2.  Deploy the app to the App Engine Standard environment for Python.
     
 
 ```apache
 gcloud app deploy
 ```
 
-3. Select a region `us-west1`.
+3.  Select a region `us-west1`.
     
-4. When you are asked if you want to continue, enter **Y** for yes.
+4.  When you are asked if you want to continue, enter **Y** for yes.
     
 
 **Note:** If you get a **Gaia propagation** related error message, re-run the `gcloud app deploy` command.
 
 In a few minutes the deployment completes. You will see a message that you can view your application with `gcloud app browse`.
 
-5. Enter that command:
+5.  Enter that command:
     
 
 ```apache
 gcloud app browse
 ```
 
-6. Click the displayed link to open it in a new tab, or copy it to a manually opened new tab if necessary. Since this is the first time this app is run, it will take a few seconds to appear while a cloud instance is started, and you should see the following window.
+6.  Click the displayed link to open it in a new tab, or copy it to a manually opened new tab if necessary. Since this is the first time this app is run, it will take a few seconds to appear while a cloud instance is started, and you should see the following window.
     
 
 ![IAP Hello World tabbed page](https://cdn.qwiklabs.com/BUrEJObysrNmE%2FqmU234RAj3kMiAvwOswH%2FAmSdJ%2FNY%3D align="left")
@@ -275,17 +275,17 @@ Deploy an App Engine application
 
 ### Restrict access with IAP
 
-1. In the cloud console window, click the **Navigation menu** &gt; **Security** &gt; **Identity-Aware Proxy**.
+1.  In the cloud console window, click the **Navigation menu** > **Security** > **Identity-Aware Proxy**.
     
-2. Click **ENABLE API**.
+2.  Click **ENABLE API**.
     
-3. Click **GO TO IDENTITY-AWARE PROXY**.
+3.  Click **GO TO IDENTITY-AWARE PROXY**.
     
-4. Click **CONFIGURE CONSENT SCREEN**.
+4.  Click **CONFIGURE CONSENT SCREEN**.
     
-5. Select **Internal** under User Type and click **Create**.
+5.  Select **Internal** under User Type and click **Create**.
     
-6. Fill in the required blanks with appropriate values:
+6.  Fill in the required blanks with appropriate values:
     
 
 | **Field** | **Value** |
@@ -297,17 +297,17 @@ Deploy an App Engine application
 | Authorized domains | *Click* ***\+ ADD DOMAIN****The hostname portion of the application's URL, e.g. iap-example-999999.appspot.com. You can see this in the address bar of the Hello World web page you previously opened. Do not include the starting* `https://` *or trailing* `/` *from that URL.* |
 | Developer Contact Information | *Enter at least one email* |
 
-7. Click **Save and Continue**.
+7.  Click **Save and Continue**.
     
-8. For **Scopes**, click **Save and Continue**.
+8.  For **Scopes**, click **Save and Continue**.
     
-9. For **Summary**, click **Back to Dashboard**.
+9.  For **Summary**, click **Back to Dashboard**.
     
 
 You might be prompted to create credentials. You do not need to create credentials for this lab, so you can simply close this browser tab.
 
-10. In Cloud Shell, run this command to disable the Flex API:
-    
+10.  In Cloud Shell, run this command to disable the Flex API:
+     
 
 ```apache
 gcloud services disable appengineflex.googleapis.com
@@ -315,40 +315,40 @@ gcloud services disable appengineflex.googleapis.com
 
 **Note:** App Engine has its standard and flexible environments which are optimized for different application architectures. Currently, when enabling IAP for App Engine, if the Flex API is enabled, Google Cloud will look for a Flex Service Account. Your lab project comes with a multitude of APIs already enabled for the purpose of convenience. However, this creates a unique situation where the Flex API is enabled without a Service Account created.
 
-11. Return to the Identity-Aware Proxy page and refresh it. You should now see a list of resources you can protect.
-    
+11.  Return to the Identity-Aware Proxy page and refresh it. You should now see a list of resources you can protect.
+     
 
 Click the toggle button in the IAP column in the **App Engine app** row to turn **IAP** on.
 
-12. The domain will be protected by IAP. Click **Turn On**.
-    
+12.  The domain will be protected by IAP. Click **Turn On**.
+     
 
 ### Test that IAP is turned on
 
-1. Open a browser tab and navigate to the URL for your app. A Sign in with Google screen opens and requires you to log in to access the app.
+1.  Open a browser tab and navigate to the URL for your app. A Sign in with Google screen opens and requires you to log in to access the app.
     
-2. Sign in with the account you used to log into the console. You will see a screen denying you access.
+2.  Sign in with the account you used to log into the console. You will see a screen denying you access.
     
 
 You have successfully protected your app with IAP, but you have not yet told IAP which accounts to allow through.
 
-3. Return to the Identity-Aware Proxy page of the console, select the checkbox next to **App Engine app**, and see the App Engine sidebar to the right.
+3.  Return to the Identity-Aware Proxy page of the console, select the checkbox next to **App Engine app**, and see the App Engine sidebar to the right.
     
 
 Each email address (or Google Group address, or Workspace domain name) that should be allowed access needs to be added as a Member.
 
-4. Click **Add Principal**.
+4.  Click **Add Principal**.
     
-5. Enter your **Student** email address.
+5.  Enter your **Student** email address.
     
-6. Then, pick the **Cloud IAP** &gt; **IAP-Secured Web App User** role to assign to that address.
+6.  Then, pick the **Cloud IAP** > **IAP-Secured Web App User** role to assign to that address.
     
 
 You may enter more addresses or Workspace domains in the same way.
 
 ![Add principals to "App Engine App" dialog box, Cloud IAP > IAP-secured Web App User](https://cdn.qwiklabs.com/%2B%2Bz37ggBAGLOnH5bbMnE0u70erSWgzXVTqLcsPK%2F1z0%3D align="left")
 
-7. Click **Save**.
+7.  Click **Save**.
     
 
 The message "Policy Updated" will appear at the bottom of the window.
@@ -365,9 +365,9 @@ Navigate back to your app and reload the page. You should now see your web app, 
 
 If you still see the "You don't have access" page, IAP did not recheck your authorization. In that case, do the following steps:
 
-1. Open your web browser to the home page address with `/_gcp_iap/clear_login_cookie` added to the end of the URL, as in `https://iap-example-999999.appspot.com/_gcp_iap/clear_login_cookie`.
+1.  Open your web browser to the home page address with `/_gcp_iap/clear_login_cookie` added to the end of the URL, as in `https://iap-example-999999.appspot.com/_gcp_iap/clear_login_cookie`.
     
-2. You will see a new Sign in with Google screen, with your account already showing. Do not click the account. Instead, click Use another account, and re-enter your credentials.
+2.  You will see a new Sign in with Google screen, with your account already showing. Do not click the account. Instead, click Use another account, and re-enter your credentials.
     
 
 **Note:** It takes a minute for the role change to take effect. If the page still shows the "You don't have access" message after following the previous steps, wait a minute and try refreshing the page.
@@ -380,7 +380,7 @@ If you have access to another browser or can use Incognito Mode in your browser,
 
 Once an app is protected with IAP, it can use the identity information that IAP provides in the web request headers it passes through. In this step, the application will get the logged-in user's email address and a persistent unique user ID assigned by the Google Identity Service to that user. That data will be displayed to the user in the welcome page.
 
-* In Cloud Shell, change to the folder for this step:
+*   In Cloud Shell, change to the folder for this step:
     
 
 ```apache
@@ -389,21 +389,21 @@ cd ~/user-authentication-with-iap/2-HelloUser
 
 ### Deploy to App Engine
 
-1. Update python runtime to `python39`.
+1.  Update python runtime to `python39`.
     
 
 ```apache
 sed -i 's/python37/python39/g' app.yaml
 ```
 
-2. Since deployment takes a few minutes, start by deploying the app to the App Engine Standard environment for Python:
+2.  Since deployment takes a few minutes, start by deploying the app to the App Engine Standard environment for Python:
     
 
 ```apache
 gcloud app deploy
 ```
 
-3. When you are asked if you want to continue, enter **Y** for yes.
+3.  When you are asked if you want to continue, enter **Y** for yes.
     
 
 In a few minutes the deployment should complete. While you are waiting you can examine the application files as described below.
@@ -443,14 +443,14 @@ As you can see, the provided data is prefixed with `accounts.google.com`, showin
 
 Going back to the deployment, when it is ready, you will see a message that you can view your application with `gcloud app browse`.
 
-1. Enter that command:
+1.  Enter that command:
     
 
 ```apache
 gcloud app browse
 ```
 
-2. If a new tab does not open on your browser, copy the displayed link and open it in a new tab normally. You should see a page similar to the following:
+2.  If a new tab does not open on your browser, copy the displayed link and open it in a new tab normally. You should see a page similar to the following:
     
 
 ![IAP Hello User tabbed page](https://cdn.qwiklabs.com/fe3%2F6PJvDcVemwODFLnePjFaHoMPvNhbWWsNmuJQC4s%3D align="left")
@@ -461,14 +461,14 @@ You may need to wait a few minutes for the new version of your application to re
 
 What happens to this app if IAP is disabled, or somehow bypassed (such as by other applications running in your same cloud project)? Turn off IAP to see.
 
-1. In the cloud console window, click **Navigation menu** &gt; **Security** &gt; **Identity-Aware Proxy**.
+1.  In the cloud console window, click **Navigation menu** > **Security** > **Identity-Aware Proxy**.
     
-2. Click the **IAP** toggle switch next to App Engine app to turn **IAP** off. Click **TURN OFF**.
+2.  Click the **IAP** toggle switch next to App Engine app to turn **IAP** off. Click **TURN OFF**.
     
 
 You will be warned that this will allow all users to access the app.
 
-3. Refresh the application web page. You should see the same page, but without any user information:
+3.  Refresh the application web page. You should see the same page, but without any user information:
     
 
 ![IAP Hello User tabbed page with no user information](https://cdn.qwiklabs.com/60irmGWAbgzDgFX1H3yCFeBha4t3oo%2F%2B2HmbxvVa2vQ%3D align="left")
@@ -512,7 +512,7 @@ If there is a risk of IAP being turned off or bypassed, your app can check to ma
 
 Digital signature verification requires several extra steps, such as retrieving the latest set of Google public keys. You can decide whether your application needs these extra steps based on the risk that someone might be able to turn off or bypass IAP, and the sensitivity of the application.
 
-* In Cloud Shell, change to the folder for this step:
+*   In Cloud Shell, change to the folder for this step:
     
 
 ```apache
@@ -521,21 +521,21 @@ cd ~/user-authentication-with-iap/3-HelloVerifiedUser
 
 ### Deploy to App Engine
 
-1. Update python runtime to `python39`.
+1.  Update python runtime to `python39`.
     
 
 ```apache
 sed -i 's/python37/python39/g' app.yaml
 ```
 
-2. Deploy the app to the App Engine Standard environment for Python:
+2.  Deploy the app to the App Engine Standard environment for Python:
     
 
 ```apache
 gcloud app deploy
 ```
 
-3. When you are asked if you want to continue, enter **Y** for yes.
+3.  When you are asked if you want to continue, enter **Y** for yes.
     
 
 In a few minutes the deployment should complete. While you are waiting you can examine the application files as described below.
@@ -550,7 +550,7 @@ Use Cryptographic Verification
 
 This folder contains the same set of files as seen in `2-HelloUser`, with two files altered and one new file. The new file is `auth.py`, which provides a `user()` method to retrieve and verify the cryptographically signed identity information. The changed files are `main.py` and `templates/index.html`, which now use the results of that method. The unverified headers as found in the last deployment are also shown for comparison.
 
-* The new functionality is primarily in the `user()` function:
+*   The new functionality is primarily in the `user()` function:
     
 
 ```apache
@@ -579,7 +579,7 @@ This completes Step 3.
 
 When the deployment is ready you will see a message that you can view your application with `gcloud app browse`.
 
-* Enter that command:
+*   Enter that command:
     
 
 ```apache
@@ -596,11 +596,11 @@ As before, you may need to wait a few minutes for the newest version to be live 
 
 Since IAP is disabled, no user information is available. Now turn IAP back on.
 
-1. In the cloud console window, click the **Navigation menu** &gt; **Security** &gt; **Identity-Aware Proxy**.
+1.  In the cloud console window, click the **Navigation menu** > **Security** > **Identity-Aware Proxy**.
     
-2. Click the **IAP** toggle switch next to App Engine app to turn IAP on again. Click **TURN ON**.
+2.  Click the **IAP** toggle switch next to App Engine app to turn IAP on again. Click **TURN ON**.
     
-3. Refresh the page. The page should look like the following:
+3.  Refresh the page. The page should look like the following:
     
 
 ![Hello Verified User tabbed page, you have an ID](https://cdn.qwiklabs.com/UsOXUWd8w0x29naS7Dgiii1kedVbpV5BGxi7PLKFR98%3D align="left")
@@ -609,7 +609,7 @@ Notice that the email address provided by the verified method does not have the 
 
 If IAP is turned off or bypassed, the verified data would either be missing, or invalid, since it cannot have a valid signature unless it was created by the holder of Google's private keys.
 
----
+* * *
 
 ## Solution of Lab
 
@@ -625,22 +625,22 @@ sudo chmod +x *.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1747470362982/a275b5f8-d8d6-4d60-a1df-7723f47b01d1.png align="center")
 
-* Open [https://console.cloud.google.com/auth/overview?project=](https://console.cloud.google.com/auth/overview?project=)
+*   Open [https://console.cloud.google.com/auth/overview?project=](https://console.cloud.google.com/auth/overview?project=)
     
-* Open [https://console.cloud.google.com/projectselector2/security/iap?t=](https://console.cloud.google.com/projectselector2/security/iap?t=)
+*   Open [https://console.cloud.google.com/projectselector2/security/iap?t=](https://console.cloud.google.com/projectselector2/security/iap?t=)
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1760501099208/8f6432ab-b2e2-42e7-aee3-fd9d8ffc39af.png align="center")
     
 
----
+* * *
 
 ### Manual
 
 %[https://www.youtube.com/watch?v=BMKPS7EeD0A] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP499/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP499/solution.sh
+source solution.sh
 ```
 
 **Script Alternative**
@@ -659,18 +659,18 @@ sudo chmod +x techcps499.sh
 
 **Numeric choice value - Go to Task 1:**
 
-* Point No.2 and Select a **region** value using lab instructions
+*   Point No.2 and Select a **region** value using lab instructions
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723973830340/d6286fa6-a04a-4406-86c9-71c5ffdff360.png align="center")
 
-**Provide your confirmation type:** `Y` **and** `Enter` **(follow same process <mark>3 times</mark>)**
+**Provide your confirmation type:** `Y` **and** `Enter` **(follow same process <mark class="bg-yellow-200 dark:bg-yellow-500/30">3 times</mark>)**
 
 **Under: Task 1**
 
-* "Restrict access with IAP" perform using lab instructions
+*   "Restrict access with IAP" perform using lab instructions
     
-* "Test that IAP is turned on" perform using lab instructions
+*   "Test that IAP is turned on" perform using lab instructions
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723974308833/75ee69d6-f54a-4d25-ad4e-50ea82f013ef.png align="center")
