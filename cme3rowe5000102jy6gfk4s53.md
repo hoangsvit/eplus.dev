@@ -21,26 +21,26 @@ The following lab is based on the Firebase Fundamentals YouTube Series:
 
 In this lab learn how to create a basic web application using webpack.
 
-* Installing Firebase
+*   Installing Firebase
     
-* Creating a Firebase Application
+*   Creating a Firebase Application
     
-* Using the Firebase Emulator
+*   Using the Firebase Emulator
     
-* Creating a Cloud Firestore Database
+*   Creating a Cloud Firestore Database
     
-* Writing content to the database
+*   Writing content to the database
     
-* Reading content from the database
+*   Reading content from the database
     
 
 ### Prerequisites
 
 Over the course of this lab the following elements are required:
 
-* Understanding of Webpack
+*   Understanding of Webpack
     
-* Understanding of Node.js
+*   Understanding of Node.js
     
 
 ## Task 1. Setting Database Security Rules
@@ -50,25 +50,25 @@ Before the database can be used, the security rules need to be configured. In th
 **Note:**  
 To learn more about how to setup Firebase security rules visit [Get started with Cloud Firestore Security Rules](https://cloud.google.com/firestore/docs/security/get-started)
 
-1. Right click on the [Cloud Shell](https://shell.cloud.google.com/?hl=en_US&fromcloudshell=true&show=terminal) link
+1.  Right click on the [Cloud Shell](https://shell.cloud.google.com/?hl=en_US&fromcloudshell=true&show=terminal) link
     
-2. Select **Open link in an incognito window**
+2.  Select **Open link in an incognito window**
     
-3. Use gcloud to set the project configuration
+3.  Use gcloud to set the project configuration
     
 
 ```apache
 gcloud config set project qwiklabs-gcp-04-8e39579dfff4
 ```
 
-4. Make a new **firebase-project** folder
+4.  Make a new **firebase-project** folder
     
 
 ```apache
 mkdir firebase-project && cd $_
 ```
 
-5. Create a file named **firebase.json**
+5.  Create a file named **firebase.json**
     
 
 ```apache
@@ -82,7 +82,7 @@ cat << EOF > firebase.json
 EOF
 ```
 
-6. Create a file named **firestore.rules**
+6.  Create a file named **firestore.rules**
     
 
 ```apache
@@ -98,7 +98,7 @@ service cloud.firestore {
 EOF
 ```
 
-7. Create a file named **firestore.indexes.json**
+7.  Create a file named **firestore.indexes.json**
     
 
 ```apache
@@ -110,7 +110,7 @@ cat << EOF > firestore.indexes.json
 EOF
 ```
 
-8. The folder will now contain the following files:
+8.  The folder will now contain the following files:
     
 
 ```apache
@@ -120,7 +120,7 @@ EOF
 └── firestore.rules
 ```
 
-9. Deploy the **Firebase database rules** for the project
+9.  Deploy the **Firebase database rules** for the project
     
 
 ```javascript
@@ -130,8 +130,8 @@ firebase deploy --only firestore:rules --project qwiklabs-gcp-04-8e39579dfff4
 **Note:**  
 The above command will update the Cloud Firestore security rules. If this is the first Cloud Shell API command, you may be required to authorize the command. Select **AUTHORIZE** when presented with this option.
 
-10. The **Security Rules** deploy will be similar to below:
-    
+10.  The **Security Rules** deploy will be similar to below:
+     
 
 **Example Output**
 
@@ -162,14 +162,14 @@ Before installing the Firebase packages ensure the host device has a valid Node.
 
 Set up the environment ready for the Firebase application.
 
-1. Create a default npm project
+1.  Create a default npm project
     
 
 ```apache
 npm init -y
 ```
 
-2. Install the **Firebase SDK** package
+2.  Install the **Firebase SDK** package
     
 
 ```apache
@@ -198,14 +198,14 @@ The following section creates the elements required to perform Firebase Authenti
 | Firestore | import { collection } from ‘firebase/firestore' | Gets a CollectionReference instance that refers to the collection at the specified absolute path.. |
 | Firestore | import { doc } from ‘firebase/firestore' | Gets a DocumentReference instance that refers to the document at the specified absolute path. |
 
-1. Make a **src** folder within the firebase-project
+1.  Make a **src** folder within the firebase-project
     
 
 ```apache
 mkdir src
 ```
 
-2. Create a **src/index.js** file with the following content:
+2.  Create a **src/index.js** file with the following content:
     
 
 ```javascript
@@ -228,7 +228,7 @@ const firebaseApp = initializeApp(firebaseConfig);
 console.log('Hello, Firestore!')
 ```
 
-3. Create **src/index.html** file with the following content:
+3.  Create **src/index.html** file with the following content:
     
 
 ```xml
@@ -262,7 +262,7 @@ The next step is to enhance the application to support webpack. Configure webpac
 
 Webpack is a common method of bundling web code and assets.
 
-1. Create a **webpack.config.js** file
+1.  Create a **webpack.config.js** file
     
 
 ```javascript
@@ -289,30 +289,30 @@ module.exports = {
 }
 ```
 
-2. Install **webpack** packages using npm
+2.  Install **webpack** packages using npm
     
 
 ```apache
 npm install webpack webpack-cli --save-dev
 ```
 
-3. Install **html-webpack-plugin**
+3.  Install **html-webpack-plugin**
     
 
 ```apache
 npm install --save-dev html-webpack-plugin
 ```
 
-4. Edit the **package.json** file
+4.  Edit the **package.json** file
     
-5. Replace the **"main": "index.js"** entry with the following line in the package.json
+5.  Replace the **"main": "index.js"** entry with the following line in the package.json
     
 
 ```json
   "private": "true",
 ```
 
-6. Remove the **"type": "commonjs"** entry from the package.json
+6.  Remove the **"type": "commonjs"** entry from the package.json
     
 
 ```json
@@ -322,7 +322,7 @@ npm install --save-dev html-webpack-plugin
 **Note:**  
 The **type** property may have been added, in which case removed from the package.json.
 
-7. Add a build script to the **package.json**
+7.  Add a build script to the **package.json**
     
 
 ```json
@@ -332,7 +332,7 @@ The **type** property may have been added, in which case removed from the packag
   },
 ```
 
-8. The **package.json** should now look similar to the following:
+8.  The **package.json** should now look similar to the following:
     
 
 **Example Output**
@@ -360,7 +360,7 @@ The **type** property may have been added, in which case removed from the packag
 }
 ```
 
-9. Run the **build** for the application from the command line
+9.  Run the **build** for the application from the command line
     
 
 ```apache
@@ -370,22 +370,22 @@ npm run build
 **Note:**  
 The build command will generate a webpack dist folder containing the code to access the Firebase Cloud Function application.
 
-10. Serve the **dist** directory on port 8080
-    
+10.  Serve the **dist** directory on port 8080
+     
 
 ```apache
 python3 -m http.server 8080 --directory dist
 ```
 
-11. Open the Cloud Shell **web preview** on port 8080
-    
+11.  Open the Cloud Shell **web preview** on port 8080
+     
 
 **Example Output**
 
 ![3beaed443ec75abd.png](https://cdn.qwiklabs.com/AEtqgs3IlTpVyiKsny4Ts2mCH%2BppHrl9OMpcQWQfCxg%3D align="left")
 
-12. Cancel the Cloud Shell web preview (**Press CTRL-C**)
-    
+12.  Cancel the Cloud Shell web preview (**Press CTRL-C**)
+     
 
 At this point the backend Firebase project is being referenced. Proceed to the next section to learn how to write information to the database.
 
@@ -395,16 +395,16 @@ Update the Cloud Firestore firestore configuration to write information to the d
 
 To add content to the linked Firebase project, use the **getFirestore** call. Update the **src/index.js** code created earlier to write to the project Firestore database.
 
-1. Edit **src/index.js**
+1.  Edit **src/index.js**
     
-2. Add an import statement to **src/index.js**:
+2.  Add an import statement to **src/index.js**:
     
 
 ```javascript
 import { getFirestore, doc, setDoc } from 'firebase/firestore'
 ```
 
-3. Add a call to getFirestore in **src/index.js** after the initializeApp call:
+3.  Add a call to getFirestore in **src/index.js** after the initializeApp call:
     
 
 ```javascript
@@ -413,7 +413,7 @@ const firestore = getFirestore()
 
 Copied!
 
-4. Add a **writeFirestoreDemo** function to write to the Cloud Firestore database
+4.  Add a **writeFirestoreDemo** function to write to the Cloud Firestore database
     
 
 ```javascript
@@ -433,7 +433,7 @@ writeFirestoreDemo()
 
 Copied!
 
-5. The **src/index.js** file should look similar to below:
+5.  The **src/index.js** file should look similar to below:
     
 
 **Example Output**
@@ -471,23 +471,23 @@ console.log('Hello, Firestore!')
 
 Copied!
 
-6. Run the **build** for the application from the command line
+6.  Run the **build** for the application from the command line
     
 
 ```javascript
 npm run build
 ```
 
-7. Serve the **dist** directory in the browser on port 8080
+7.  Serve the **dist** directory in the browser on port 8080
     
 
 ```javascript
 python3 -m http.server 8080 --directory dist
 ```
 
-8. Open the Cloud Shell **web preview** on port 8080
+8.  Open the Cloud Shell **web preview** on port 8080
     
-9. In the **Cloud console**, select the **Firestore** menu option to view the Firestore data
+9.  In the **Cloud console**, select the **Firestore** menu option to view the Firestore data
     
 
 ![Cloud Firestore data](https://cdn.qwiklabs.com/RLp09o%2BHe9Heawu8s9ADOkVX68x5KPVYXbKGEo%2BE29g%3D align="left")
@@ -503,9 +503,9 @@ Update the Cloud Firestore firestore configuration to read information from the 
 
 To access document information from the linked Firebase project, add the `getDoc` call. Update the `src/index.js` code created earlier to enable the application to read from the project Firestore database.
 
-1. Edit **src/index.js**
+1.  Edit **src/index.js**
     
-2. Update the import statement to include **getDoc**:
+2.  Update the import statement to include **getDoc**:
     
 
 ```javascript
@@ -517,7 +517,7 @@ titleControl.textContent = ''
 descriptionControl.textContent = ''
 ```
 
-3. Add a function **readASingleDocument** to read from the Firebase database
+3.  Add a function **readASingleDocument** to read from the Firebase database
     
 
 ```javascript
@@ -541,8 +541,8 @@ readASingleDocument()
 **Note:**  
 Do not forget to comment out the **writeFirestoreDemo** function. If you are unsure how to do this, take a look at the example solution shown below.
 
-10. The **src/index.js** file should look similar to below:
-    
+10.  The **src/index.js** file should look similar to below:
+     
 
 **Example Output**
 
@@ -600,22 +600,22 @@ readASingleDocument()
 console.log('Hello, Firestore!')
 ```
 
-11. Run the **build** for the application from the command line
-    
+11.  Run the **build** for the application from the command line
+     
 
 ```apache
 npm run build
 ```
 
-12. Serve the **dist** directory in the browser on port 8080
-    
+12.  Serve the **dist** directory in the browser on port 8080
+     
 
 ```apache
 python3 -m http.server 8080 --directory dist
 ```
 
-13. Open the Cloud Shell **web preview** on port 8080
-    
+13.  Open the Cloud Shell **web preview** on port 8080
+     
 
 ![ea41f9ec0a477cc4.png](https://cdn.qwiklabs.com/IWyuzTW9dbibU3B6o0hJXh%2Be3wyKCqELxgm%2FDd5Fi2M%3D align="left")
 
@@ -623,13 +623,13 @@ In the application output, the information written to the Firestore database is 
 
 Feel free to make changes to the code to update the application to include different text using the read and write functions provided.
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://youtu.be/XU44QYEYFgI] 
+%[https://www.youtube.com/watch?v=lM3vAENNsQ0] 
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text">You don't need to perform this lab, spend more than <mark>3 minutes</mark> to complete</div>
+<div data-node-type="callout-text">You don't need to perform this lab, spend more than <mark class="bg-yellow-200 dark:bg-yellow-500/30">3 minutes</mark> to complete</div>
 </div>
