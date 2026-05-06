@@ -2,11 +2,12 @@
 title: "Develop Serverless Apps with Firebase: Challenge Lab - GSP344"
 seoTitle: "Develop Serverless Apps with Firebase: Challenge Lab - GSP344"
 seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs"
-datePublished: Fri Aug 09 2024 04:48:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-09T04:48:15.682Z
 cuid: clzm881fm000n09la399ofuzq
 slug: develop-serverless-apps-with-firebase-challenge-lab-gsp344
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757754420571/06d824b5-c0b7-4ed6-8be0-a44cf4a25331.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757754445225/814a9f5a-2b90-40be-a935-dd2d08877823.png
+tags: serverless, develop-serverless-apps-with-firebase-challenge-lab-gsp344, gsp344, develop-serverless-apps-with-firebase-challenge-lab
 
 ---
 
@@ -30,19 +31,19 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### Provision the environment
 
-1. Link to the project:
+1.  Link to the project:
     
 
 ```apache
@@ -51,7 +52,7 @@ To complete this lab, you need:
 
 Copied!
 
-2. Clone the repo:
+2.  Clone the repo:
     
 
 ```apache
@@ -85,11 +86,11 @@ Requirements:
 
 To complete this section successfully, you are required to implement the following:
 
-* Cloud Firestore Database
+*   Cloud Firestore Database
     
-* Use Firestore Native Mode
+*   Use Firestore Native Mode
     
-* Add location `europe-west4`
+*   Add location `europe-west4`
     
 
 Click **Check my progress** to verify that you've performed the above task.
@@ -129,19 +130,19 @@ The [Netflix Shows Dataset](https://www.kaggle.com/shivamb/netflix-shows) includ
 
 To complete this section successfully, you are required to implement the following tasks:
 
-1. Use the sample code from `pet-theory/lab06/firebase-import-csv/solution`:
+1.  Use the sample code from `pet-theory/lab06/firebase-import-csv/solution`:
     
 
-```
+```plaintext
   npm install
 ```
 
 Copied!
 
-2. To import CSV use the node `pet-theory/lab06/firebase-import-csv/solution/index.js`:
+2.  To import CSV use the node `pet-theory/lab06/firebase-import-csv/solution/index.js`:
     
 
-```
+```plaintext
   node index.js netflix_titles_original.csv
 ```
 
@@ -171,21 +172,21 @@ A high level architecture diagram below summarizes the general architecture.
 
 To complete this section successfully, you are required to implement the following tasks:
 
-1. Access `pet-theory/lab06/firebase-rest-api/solution-01`.
+1.  Access `pet-theory/lab06/firebase-rest-api/solution-01`.
     
-2. Build and Deploy the code to Google Container Registry.
+2.  Build and Deploy the code to Google Container Registry.
     
-3. Deploy the image as a Cloud Run service.
+3.  Deploy the image as a Cloud Run service.
     
 
 **Note:** Deploy your service with 1 max instance to ensure you do not exceed the max limit for Cloud Run instances.
 
-4. Go to Cloud Run and click **netflix-dataset-service** then copy the service URL:
+4.  Go to Cloud Run and click **netflix-dataset-service** then copy the service URL:
     
 
-* `SERVICE_URL=copy url from your netflix-dataset-service`
+*   `SERVICE_URL=copy url from your netflix-dataset-service`
     
-* `curl -X GET $SERVICE_URL` should respond with: {"status":"Netflix Dataset! Make a query."}
+*   `curl -X GET $SERVICE_URL` should respond with: {"status":"Netflix Dataset! Make a query."}
     
 
 Click **Check my progress** to verify that you've performed the above task.
@@ -210,23 +211,23 @@ A high level architecture diagram below summarizes the general architecture.
 
 To complete this section successfully, you are required to implement the following tasks:
 
-1. Access `pet-theory/lab06/firebase-rest-api/solution-02`.
+1.  Access `pet-theory/lab06/firebase-rest-api/solution-02`.
     
-2. Build the updated application.
+2.  Build the updated application.
     
-3. Use Cloud Build to tag and deploy image revision to Container Registry.
+3.  Use Cloud Build to tag and deploy image revision to Container Registry.
     
-4. Deploy the new image a Cloud Run service.
+4.  Deploy the new image a Cloud Run service.
     
 
 **Note:** Deploy your service with 1 max instance to ensure you do not exceed the max limit for Cloud Run instances.
 
-5. Go to Cloud Run and click **netflix-dataset-service** then copy the service URL:
+5.  Go to Cloud Run and click **netflix-dataset-service** then copy the service URL:
     
 
-* `SERVICE_URL=copy url from your netflix-dataset-service`
+*   `SERVICE_URL=copy url from your netflix-dataset-service`
     
-* `curl -X GET $SERVICE_URL/2019` should respond with json dataset
+*   `curl -X GET $SERVICE_URL/2019` should respond with json dataset
     
 
 Click **Check my progress** to verify that you've performed the above task.
@@ -251,20 +252,20 @@ A high level architecture diagram below summarizes the general architecture.
 
 To complete this section successfully, you are required to implement the following tasks:
 
-1. Access `pet-theory/lab06/firebase-frontend`.
+1.  Access `pet-theory/lab06/firebase-frontend`.
     
-2. Build the frontend staging application.
+2.  Build the frontend staging application.
     
-3. Use Cloud Build to tag and deploy image revision to Container Registry.
+3.  Use Cloud Build to tag and deploy image revision to Container Registry.
     
-4. Deploy the new image as a Cloud Run service.
+4.  Deploy the new image as a Cloud Run service.
     
 
 **Note:** Deploy your service with 1 max instance to ensure you do not exceed the max limit for Cloud Run instances.
 
-5. Frontend access to Rest API and Firestore Database.
+5.  Frontend access to Rest API and Firestore Database.
     
-6. Access the Frontend Service URL.
+6.  Access the Frontend Service URL.
     
 
 **Note:** It's using a demo dataset to provide the onscreen entries.
@@ -293,17 +294,17 @@ A high level architecture diagram below summarizes the general architecture.
 
 To complete this section successfully, you are required to implement the following tasks:
 
-1. Access `pet-theory/lab06/firebase-frontend/public`.
+1.  Access `pet-theory/lab06/firebase-frontend/public`.
     
-2. Update the frontend application i.e. `app.js` to use the REST API.
+2.  Update the frontend application i.e. `app.js` to use the REST API.
     
-3. Don't forget to append the year to the SERVICE\_URL.
+3.  Don't forget to append the year to the SERVICE\_URL.
     
-4. Use Cloud Build to tag and deploy image revision to Container Registry.
+4.  Use Cloud Build to tag and deploy image revision to Container Registry.
     
-5. Deploy the new image a Cloud Run service.**Note:** Deploy your service with 1 max instance to ensure you do not exceed the max limit for Cloud Run instances.
+5.  Deploy the new image a Cloud Run service.**Note:** Deploy your service with 1 max instance to ensure you do not exceed the max limit for Cloud Run instances.
     
-6. Frontend access to Rest API and Firestore Database.
+6.  Frontend access to Rest API and Firestore Database.
     
 
 Now that the services have been deployed you will be able to see the contents of the Firestore database using the frontend service.
@@ -314,13 +315,13 @@ Click **Check my progress** to verify that you've performed the above task.
 
 Deploy the production frontend
 
----
+* * *
 
 ## Solution of Lab
 
 ### New Solution
 
-%[https://youtu.be/RR7M4VWZi1o] 
+%[https://www.youtube.com/watch?v=5Qg8gTJVXxI] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP344/lab.sh
@@ -330,12 +331,13 @@ source lab.sh
 **Script Alternative**
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Develop%20Serverless%20Apps%20with%20Firebase%3A%20Challenge%20Lab/techcps344.sh
-sudo chmod +x techcps344.sh
-./techcps344.sh
+
+curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Develop%20Serverless%20Apps%20with%20Firebase%3A%20Challenge%20Lab/TechCode.sh
+sudo chmod +x TechCode.sh
+./TechCode.sh
 ```
 
----
+* * *
 
 ### Old Solution
 
