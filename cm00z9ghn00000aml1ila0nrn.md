@@ -366,13 +366,20 @@ Roll back the production deployment
 
 ## Solution of Lab
 
-### Quick
-
-%[https://www.youtube.com/watch?v=uYpIzfd6PWY] 
+### New Solution
 
 ```plaintext
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP330/lab.sh
 source lab.sh
+```
+
+### Old Solution
+
+%[https://www.youtube.com/watch?v=uYpIzfd6PWY] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP330/old-lab.sh
+source old-lab.sh
 ```
 
 **Script Alternative**
