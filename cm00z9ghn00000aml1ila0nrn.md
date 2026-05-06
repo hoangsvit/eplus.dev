@@ -370,6 +370,13 @@ Roll back the production deployment
 
 %[https://www.youtube.com/watch?v=uYpIzfd6PWY] 
 
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP330/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
 ```apache
 export ZONE=
 export CLUSTER_NAME=hello-cluster
