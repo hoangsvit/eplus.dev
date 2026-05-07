@@ -109,7 +109,7 @@ Note: Use only the student account for this lab. If you use a different Google 
 
 After a few moments, the Google Cloud console opens in this tab.
 
-Note: To access Google Cloud products and services, click the Navigation menu or type the service or product name in the Search field. 
+Note: To access Google Cloud products and services, click the Navigation menu or type the service or product name in the Search field.
 
 ![Navigation menu icon and Search field](https://cdn.qwiklabs.com/9Fk8NYFp3quE9mF%2FilWF6%2FlXY9OUBi3UWtb2Ne4uXNU%3D align="center")
 
@@ -117,11 +117,11 @@ Note: To access Google Cloud products and services, click the Navigation menu�
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1.  Click Activate Cloud Shell 
+1.  Click Activate Cloud Shell
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="center")
     
-     at the top of the Google Cloud console.
+    at the top of the Google Cloud console.
     
 2.  Click through the following windows:
     
@@ -468,6 +468,26 @@ Review data quality results in the BigQuery table
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1158/lab.sh
 source lab.sh
 ```
+
+Task 3:
+
+[https://console.cloud.google.com/bigquery](https://console.cloud.google.com/bigquery)
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8249cfb8-0d93-4cdf-aca5-cd44a0eaac10.png align="center")
+
+```sql
+SELECT * FROM `customers.contact_info` ORDER BY id LIMIT 50
+```
+
+Task 5:
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ed7dfd20-b9e6-4fc6-9c41-1cd7894aee15.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5b82a17a-a0c2-40ce-98cb-4504461d0202.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/fb0e47bb-cd94-49e0-8c28-657857cc6260.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8f36383e-a36a-48ad-a9c4-cc17fa254327.png align="center")
 
 * * *
 
