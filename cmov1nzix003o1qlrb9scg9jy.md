@@ -192,7 +192,7 @@ Open: [https://console.cloud.google.com/dataplex/catalog/aspect-types](https://c
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ead69588-9a26-464e-b17f-04fbc4b554db.png align="center")
 
-Open: https://console.cloud.google.com/dataplex/search-autoredirect
+Open: [https://console.cloud.google.com/dataplex/search-autoredirect](https://console.cloud.google.com/dataplex/search-autoredirect)
 
 ```plaintext
 Raw Customer Zone
