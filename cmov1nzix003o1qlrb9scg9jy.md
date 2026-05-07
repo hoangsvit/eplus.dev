@@ -168,3 +168,40 @@ It can take several minutes for the job to run. You may need to refresh the page
 * * *
 
 ## Solution of Lab
+
+%[https://www.youtube.com/watch?v=sLYP9RxzlEU] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP514/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Build%20a%20Data%20Mesh%20with%20Dataplex%3A%20Challenge%20Lab/TechCode.sh
+sudo chmod +x TechCode.sh 
+./TechCode.sh
+```
+
+**Step 2:**
+
+Open: [https://console.cloud.google.com/dataplex/catalog/aspect-types](https://console.cloud.google.com/dataplex/catalog/aspect-types?cloudshell=true&project=qwiklabs-gcp-04-3d03ae4e0f34)
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/44b67a6c-bc1a-4f7b-9da0-1943aeb4832f.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ead69588-9a26-464e-b17f-04fbc4b554db.png align="center")
+
+Open: https://console.cloud.google.com/dataplex/search-autoredirect
+
+```plaintext
+Raw Customer Zone
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/26bea977-69fd-4744-9744-908f477a3f93.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/66fe91b8-d4a3-472b-a60a-142e81f42785.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/e35a463d-99af-41c1-9496-fcd250743aa1.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4d5743e1-a338-4a87-a9cd-f757616c3d18.png align="center")
