@@ -205,3 +205,15 @@ Raw Customer Zone
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/e35a463d-99af-41c1-9496-fcd250743aa1.png align="center")
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4d5743e1-a338-4a87-a9cd-f757616c3d18.png align="center")
+
+**Task 5:**
+
+Open: [https://console.cloud.google.com/dataplex/govern/data-profiling-and-quality](https://console.cloud.google.com/dataplex/govern/data-profiling-and-quality)
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/00e9c73b-7291-42bf-b4dc-e0f0eefa5ec5.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ffacac36-1c4a-455e-a2a6-f5e8e5122b73.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/43b69fcd-3f76-4e6b-a558-e86fa048fa21.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/7a6b5297-27c6-4f4d-9370-da4834d5f07a.png align="center")
