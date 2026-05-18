@@ -628,4 +628,4 @@ source lab.sh
 
 ### Manual
 
-<iframe type="youtube" src="https://www.youtube.com/watch?v=s8CM56JowgQ" data-node-type="hn-embed"></iframe>
+%[https://www.youtube.com/watch?v=s8CM56JowgQ]
