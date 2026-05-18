@@ -710,3 +710,9 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Google%20Kub
 sudo chmod +x quicklabgsp1077.sh
 ./quicklabgsp1077.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=mo8YHsvfPjk]
