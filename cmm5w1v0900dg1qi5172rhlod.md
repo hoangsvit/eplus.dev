@@ -617,7 +617,26 @@ If you see the error below, simply re-run the command.
 
 ## Solution of Lab
 
-### Quick
+### New solution
+
+%[https://www.youtube.com/watch?v=kd4SI1Wlrpg] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP480/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/How%20to%20Use%20a%20Network%20Policy%20on%20Google%20Kubernetes%20Engine/drabhishek.sh
+sudo chmod +x drabhishek.sh
+./drabhishek.sh
+```
+
+* * *
+
+### Other solution
 
 %[https://www.youtube.com/watch?v=H_ao2ir0n9k] 
 
