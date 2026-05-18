@@ -619,9 +619,12 @@ If you see the error below, simply re-run the command.
 
 ### Quick
 
+%[https://www.youtube.com/watch?v=H_ao2ir0n9k] 
+
 ```plaintext
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP480/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/How%20to%20Use%20a%20Network%20Policy%20on%20Google%20Kubernetes%20Engine/TechCode.sh
+sudo chmod +x TechCode.sh 
+./TechCode.sh
 ```
 
 * * *
