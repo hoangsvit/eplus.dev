@@ -21,26 +21,26 @@ Cloud Run brings "serverless" development to containers and can be run either on
 
 The exercises are ordered to reflect a common cloud developer experience:
 
-1. Create a Docker container from your application
+1.  Create a Docker container from your application
     
-2. Deploy the container to Cloud Run
+2.  Deploy the container to Cloud Run
     
-3. Modify the website
+3.  Modify the website
     
-4. Roll out a new version with zero downtime
+4.  Roll out a new version with zero downtime
     
 
 ### What you'll learn
 
 In this lab you will learn how to:
 
-* Build a Docker image using Cloud Build and upload it to Artifact Registry
+*   Build a Docker image using Cloud Build and upload it to Artifact Registry
     
-* Deploy Docker images to Cloud Run
+*   Deploy Docker images to Cloud Run
     
-* Manage Cloud Run deployments
+*   Manage Cloud Run deployments
     
-* Set up an endpoint for an application on Cloud Run
+*   Set up an endpoint for an application on Cloud Run
     
 
 ## Setup and requirements
@@ -53,29 +53,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -83,7 +83,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-e8dc472b8c77@qwiklabs.net
@@ -91,9 +91,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     mlMPQRF3tYkX
@@ -101,19 +101,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -126,13 +126,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-04-27fe21b77900`. The output contains a line that declares the **Project\_ID** for this session:
@@ -143,14 +143,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-04-27fe21b779
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -163,7 +163,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -183,7 +183,7 @@ project = qwiklabs-gcp-04-27fe21b77900
 
 Since you are deploying an existing website, you just need to clone the source, so you can focus on creating Docker images and deploying to Cloud Run.
 
-1. In Cloud Shell run the following commands to clone the git repository and change to the appropriate directory:
+1.  In Cloud Shell run the following commands to clone the git repository and change to the appropriate directory:
     
 
 ```apache
@@ -191,7 +191,7 @@ git clone https://github.com/googlecodelabs/monolith-to-microservices.git
 cd ~/monolith-to-microservices
 ```
 
-2. Install the NodeJS dependencies so you can test the application before deploying:
+2.  Install the NodeJS dependencies so you can test the application before deploying:
     
 
 ```apache
@@ -200,7 +200,7 @@ cd ~/monolith-to-microservices
 
 This will take a few minutes to run. You will see a success message when it finishes.
 
-3. Test your application by running the following command to start the web server:
+3.  Test your application by running the following command to start the web server:
     
 
 ```apache
@@ -214,7 +214,7 @@ npm start
 Monolith listening on port 8080!
 ```
 
-4. Preview your application by clicking the web preview icon and selecting **Preview on port 8080**.
+4.  Preview your application by clicking the web preview icon and selecting **Preview on port 8080**.
     
 
 ![Preview on port 8080 option selected on the expanded web preview menu](https://cdn.qwiklabs.com/tXNcKRtkk%2Bm98qN64S6STw2%2FaxbiZoZTc5rEq%2BkQZK0%3D align="left")
@@ -223,7 +223,7 @@ This should open a new window where you can see your Fancy Store web page in act
 
 ![Fancy Store website](https://cdn.qwiklabs.com/UhhavmFScvrZyPiCdGvNQG9FUjk8EqgdMoS71xgoEUA%3D align="left")
 
-5. Close this window after viewing the website, and stop the web server process by pressing **CTRL+C** in Cloud Shell.
+5.  Close this window after viewing the website, and stop the web server process by pressing **CTRL+C** in Cloud Shell.
     
 
 ## Task 2. Create a Docker container with Cloud Build
@@ -238,24 +238,24 @@ Cloud Build will compress the files from the directory and move them to a Cloud 
 
 You must create a repository before you can push any images to it. Pushing an image can't trigger creation of a repository and the Cloud Build service account does not have permissions to create repositories.
 
-1. In the console, search for **Artifact Registry** in the search field, then click on **Artifact Registry** result.
+1.  In the console, search for **Artifact Registry** in the search field, then click on **Artifact Registry** result.
     
-2. Click **Create Repository**.
+2.  Click **Create Repository**.
     
-3. Specify `monolith-demo` as the repository name.
+3.  Specify `monolith-demo` as the repository name.
     
-4. Choose **Docker** as the format.
+4.  Choose **Docker** as the format.
     
-5. Under Location Type, select Region and then choose the location `europe-west1`.
+5.  Under Location Type, select Region and then choose the location `europe-west1`.
     
-6. Click **Create**.
+6.  Click **Create**.
     
 
 ### Configure authentication
 
 Before you can push or pull images, configure Docker to use the Google Cloud CLI to authenticate requests to Artifact Registry.
 
-* To set up authentication to Docker repositories in the region `europe-west1`, run the following command in Cloud Shell:
+*   To set up authentication to Docker repositories in the region `europe-west1`, run the following command in Cloud Shell:
     
 
 ```apache
@@ -268,7 +268,7 @@ The command updates your Docker configuration. You can now connect with Artifact
 
 You will now deploy the image that was built earlier.
 
-1. First you need to enable the Cloud Build, Artifact Registry, and Cloud Run APIs. Run the following command in Cloud Shell to enable them:
+1.  First you need to enable the Cloud Build, Artifact Registry, and Cloud Run APIs. Run the following command in Cloud Shell to enable them:
     
 
 ```apache
@@ -277,7 +277,7 @@ gcloud services enable artifactregistry.googleapis.com \
     run.googleapis.com
 ```
 
-2. After the APIs are enabled, run the following command to start the build process:
+2.  After the APIs are enabled, run the following command to start the build process:
     
 
 ```apache
@@ -286,16 +286,16 @@ gcloud builds submit --tag europe-west1-docker.pkg.dev/${GOOGLE_CLOUD_PROJECT}/m
 
 **Note:** This process will take a few minutes.
 
-3. To view your build history, or watch the process in real time, in the console, search for **Cloud Build** then click on the **Cloud Build** result.
+3.  To view your build history, or watch the process in real time, in the console, search for **Cloud Build** then click on the **Cloud Build** result.
     
-4. On the **History** page you can see a list of all your builds; there should only be 1 that you just created.
+4.  On the **History** page you can see a list of all your builds; there should only be 1 that you just created.
     
 
 ![Build History list](https://cdn.qwiklabs.com/VAXOV%2FoYKvJCbNlDt2hjeEaGc%2FwN%2BfTSCFfAxKkqB7o%3D align="left")
 
-* If you click on the Build ID, you can see all the details for that build including the log output.
+*   If you click on the Build ID, you can see all the details for that build including the log output.
     
-* From the Build Details page you can view the container image that was created by clicking the **Execution Details** tab, then clicking on on the image link.
+*   From the Build Details page you can view the container image that was created by clicking the **Execution Details** tab, then clicking on on the image link.
     
 
 ![Build details](https://cdn.qwiklabs.com/g2u%2FOTXkAASqA5lw7Bw0dZ5rsbLboC6E2Lj4fz%2B4Ja0%3D align="left")
@@ -312,19 +312,19 @@ Now that you have containerized your website and pushed the container to Artifac
 
 There are two approaches for deploying to Cloud Run:
 
-* **Managed Cloud Run**: The Platform as a Service model where all container lifecycle is managed by the Cloud Run product itself. You'll be using this approach in this lab.
+*   **Managed Cloud Run**: The Platform as a Service model where all container lifecycle is managed by the Cloud Run product itself. You'll be using this approach in this lab.
     
-* **Cloud Run on GKE**: Cloud Run with an additional layer of control which allows you to bring your own clusters & pods from GKE. [You can read more about it here](https://cloud.google.com/run/docs/gke/setup).
+*   **Cloud Run on GKE**: Cloud Run with an additional layer of control which allows you to bring your own clusters & pods from GKE. [You can read more about it here](https://cloud.google.com/run/docs/gke/setup).
     
 
-1. Run the following command to deploy the image to Cloud Run:
+1.  Run the following command to deploy the image to Cloud Run:
     
 
 ```apache
 gcloud run deploy monolith --image europe-west1-docker.pkg.dev/${GOOGLE_CLOUD_PROJECT}/monolith-demo/monolith:1.0.0 --region europe-west1
 ```
 
-2. When asked to allow unauthenticated invocations to `[monolith]` type **Y**.
+2.  When asked to allow unauthenticated invocations to `[monolith]` type **Y**.
     
 
 Click *Check my progress* to verify the objective.
@@ -335,7 +335,7 @@ Deploy Container To Cloud Run
 
 ### Verify deployment
 
-1. To verify the deployment was created successfully, run the following command:
+1.  To verify the deployment was created successfully, run the following command:
     
 
 ```apache
@@ -357,7 +357,7 @@ LAST DEPLOYED AT: 2022-08-19T19:16:14.351981Z
 
 This output shows several things. You can see the deployment, as well as the user that deployed it (your email) and the URL you can use to access the app. Looks like everything was created successfully!
 
-2. Click on the URL provided in the list of services. You should see the same website you previewed locally.
+2.  Click on the URL provided in the list of services. You should see the same website you previewed locally.
     
 
 **Note:** You can also view your Cloud Run deployments via the console if you navigate to **Cloud Run** in the **Navigation menu**.
@@ -368,19 +368,19 @@ In this section you will deploy your application again, but this time adjusting 
 
 By default, a Cloud Run application will have a concurrency value of 80, meaning that each container instance will serve up to 80 requests at a time. This is a big departure from the Functions-as-a-Service model, where one instance handles one request at a time.
 
-1. Run the following command to re-deploy the same container image with a concurrency value of 1 (just for testing), and see what happens:
+1.  Run the following command to re-deploy the same container image with a concurrency value of 1 (just for testing), and see what happens:
     
 
 ```apache
 gcloud run deploy monolith --image europe-west1-docker.pkg.dev/${GOOGLE_CLOUD_PROJECT}/monolith-demo/monolith:1.0.0 --region europe-west1 --concurrency 1
 ```
 
-2. To see the details, from the **Navigation menu**, click on **Cloud Run**, then click on the **monolith** service:
+2.  To see the details, from the **Navigation menu**, click on **Cloud Run**, then click on the **monolith** service:
     
 
 ![The monolith service](https://cdn.qwiklabs.com/8BOinJOmuwPh0RSNjclIoEqfMsNcDCykBvI3L5gxi3M%3D align="left")
 
-3. On the Service Details page, click on the **Revisions** tab. You should now see 2 revisions created.
+3.  On the Service Details page, click on the **Revisions** tab. You should now see 2 revisions created.
     
 
 The most recent deployment has Details on the right hand side.
@@ -401,7 +401,7 @@ Create new revision with lower concurrency
 
 Next, you can restore the original concurrency without re-deploying. You could set the concurrency value back to the default of "80", or you could just set the value to "0", which will remove any concurrency restrictions and set it to the default max (which happens to be 80).
 
-4. Run the following command to update the current revision, using a concurrency value of `80`:
+4.  Run the following command to update the current revision, using a concurrency value of `80`:
     
 
 ```apache
@@ -418,7 +418,7 @@ You will notice that another revision has been created, that traffic has now bee
 
 **Task:** You will add some text to the homepage to make the marketing team happy! It looks like one of our developers already created the changes with the file name `index.js.new`. You can just copy this file to `index.js` and your changes should be reflected. Follow the instructions below to make the appropriate changes.
 
-1. Run the following commands to copy the updated file to the correct file name:
+1.  Run the following commands to copy the updated file to the correct file name:
     
 
 ```apache
@@ -426,7 +426,7 @@ cd ~/monolith-to-microservices/react-app/src/pages/Home
 mv index.js.new index.js
 ```
 
-2. Print its contents to verify the changes:
+2.  Print its contents to verify the changes:
     
 
 ```apache
@@ -480,7 +480,7 @@ export default function Home() {
 
 You updated the React components, but you need to build the React app to generate the static files.
 
-3. Run the following command to build the React app and copy it into the monolith public directory:
+3.  Run the following command to build the React app and copy it into the monolith public directory:
     
 
 ```apache
@@ -490,7 +490,7 @@ npm run build:monolith
 
 Now that the code is updated, rebuild the Docker container and publish it to Artifact Registry. You can use the same command as before, except this time you will update the version label.
 
-4. Run the following command to trigger a new Cloud Build with an updated image version of 2.0.0:
+4.  Run the following command to trigger a new Cloud Build with an updated image version of 2.0.0:
     
 
 ```apache
@@ -512,7 +512,7 @@ The changes are complete and the marketing team is happy with your updates! It i
 
 By default the latest revision will be assigned 100% of the inbound traffic for a service. It is possible to use "Routes" to allocate different percentages of traffic to different revisions within a service. Follow the instructions below to update your website.
 
-* Run the following command to re-deploy the service to update the image to a new version with the following command:
+*   Run the following command to re-deploy the service to update the image to a new version with the following command:
     
 
 ```apache
@@ -527,7 +527,7 @@ Update website with zero downtime
 
 ### Verify deployment
 
-1. Validate that your deployment updated by running the following command:
+1.  Validate that your deployment updated by running the following command:
     
 
 ```apache
@@ -544,26 +544,47 @@ Here you will see that the Service is now using the latest version of your image
 
 To verify the changes, navigate to the external URL of the Cloud Run service, refresh the page, and notice that the application title has been updated.
 
-2. Run the following command to list the services and view the service Url:
+2.  Run the following command to list the services and view the service Url:
     
 
 ```apache
 gcloud beta run services list
 ```
 
-3. Click on the URL of the service. Your web site should now be displaying the text you just added to the homepage component!
+3.  Click on the URL of the service. Your web site should now be displaying the text you just added to the homepage component!
     
 
 ![The updated Fancy Store website](https://cdn.qwiklabs.com/vaYmoyYfCpvcaOReoA2JFEem2sWMWnnYjaIghzpuGkI%3D align="left")
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://youtu.be/j_5JaW08q90] 
+### Quick
 
-```apache
-curl -LO https://github.com/ArcadeCrew/Google-Cloud-Labs/raw/refs/heads/main/Deploy%20Your%20Website%20on%20Cloud%20Run/arcadecrew.sh
-sudo chmod +x arcadecrew.sh
-./arcadecrew.sh
+%[https://www.youtube.com/watch?v=p4EHol3nZYY] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP659/lab.sh
+source lab.sh
 ```
+
+**Script Alternative**
+
+```plaintext
+export REGION=
+```
+
+```plaintext
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Deploy%20Your%20Website%20on%20Cloud%20Run/gsp659.sh
+
+sudo chmod +x gsp659.sh
+
+./gsp659.sh
+```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=TxdSIZ1xVSE]
