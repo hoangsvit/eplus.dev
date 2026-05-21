@@ -1,4 +1,4 @@
-name: "Cronjob"
+name: "Cronjob get RSS"
 on:
   # schedule:
   #   - cron: '*/30 * * * *'
