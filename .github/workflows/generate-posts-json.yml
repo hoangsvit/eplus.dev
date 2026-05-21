@@ -1,4 +1,4 @@
-name: Generate posts.json
+name: Generate posts.json and feed.rss
 
 on:
   push:
@@ -32,19 +32,19 @@ jobs:
         with:
           node-version: 24
 
-      - name: Generate data/posts.json
+      - name: Generate data/posts.json and feed.rss
         run: node scripts/generate-posts-json.js
 
-      - name: Commit data/posts.json if changed
+      - name: Commit generated files if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/posts.json
+          git add data/posts.json feed.rss
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: generate data/posts.json"
+            git commit -m "chore: generate posts json and rss feed"
             git push
           fi
