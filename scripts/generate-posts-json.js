@@ -7,7 +7,7 @@ const SITE_URL = "https://eplus.dev";
 
 const DATA_DIR = path.join(ROOT_DIR, "data");
 const POSTS_OUTPUT_FILE = path.join(DATA_DIR, "posts.json");
-const RSS_OUTPUT_FILE = path.join(ROOT_DIR, "feed.rss");
+const RSS_OUTPUT_FILE = path.join(ROOT_DIR, "rss.xml");
 
 const FEED_TITLE = "ePlus DEV";
 const FEED_DESCRIPTION = "Latest posts from ePlus DEV";

@@ -37,14 +37,14 @@ jobs:
 
       - name: Commit generated files if changed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/posts.json feed.rss
+            git add data/posts.json rss.xml
 
-          if git diff --cached --quiet; then
+            if git diff --cached --quiet; then
             echo "No changes to commit"
-          else
-            git commit -m "chore: generate posts json and rss feed"
+            else
+            git commit -m "chore: generate posts json and rss xml"
             git push
-          fi
+            fi
