@@ -1,0 +1,39 @@
+name: Generate posts.json
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+      - "scripts/generate-posts-json.js"
+      - ".github/workflows/generate-posts-json.yml"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-posts-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate posts.json
+        run: node scripts/generate-posts-json.js
+
+      - name: Commit posts.json if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: generate posts.json"
+          file_pattern: posts.json
