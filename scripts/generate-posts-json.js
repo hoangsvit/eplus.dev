@@ -2,7 +2,8 @@ const fs = require("fs");
 const path = require("path");
 
 const ROOT_DIR = process.cwd();
-const OUTPUT_FILE = path.join(ROOT_DIR, "posts.json");
+const OUTPUT_DIR = path.join(ROOT_DIR, "data");
+const OUTPUT_FILE = path.join(OUTPUT_DIR, "posts.json");
 
 const IGNORE_DIRS = new Set([
   ".git",
@@ -11,6 +12,7 @@ const IGNORE_DIRS = new Set([
   "dist",
   "build",
   ".next",
+  "data",
 ]);
 
 function walk(dir, result = []) {
@@ -56,26 +58,26 @@ function cleanValue(value) {
     .trim();
 }
 
+function extractValue(content, key) {
+  return extractFromFrontmatter(content, key) || extractFromMarkdownTable(content, key);
+}
+
 function extractPostData(filePath) {
   const content = fs.readFileSync(filePath, "utf8");
 
-  const title =
-    extractFromFrontmatter(content, "title") ||
-    extractFromMarkdownTable(content, "title");
-
-  const slug =
-    extractFromFrontmatter(content, "slug") ||
-    extractFromMarkdownTable(content, "slug");
+  const title = extractValue(content, "title");
+  const slug = extractValue(content, "slug");
 
   const postId =
-    extractFromFrontmatter(content, "_id") ||
-    extractFromFrontmatter(content, "postId") ||
-    extractFromFrontmatter(content, "id") ||
-    extractFromMarkdownTable(content, "_id") ||
-    extractFromMarkdownTable(content, "postId") ||
-    extractFromMarkdownTable(content, "id") ||
-    extractFromFrontmatter(content, "cuid") ||
-    extractFromMarkdownTable(content, "cuid");
+    extractValue(content, "_id") ||
+    extractValue(content, "postId") ||
+    extractValue(content, "id") ||
+    extractValue(content, "cuid");
+
+  const datePublished =
+    extractValue(content, "datePublished") ||
+    extractValue(content, "publishedAt") ||
+    extractValue(content, "date");
 
   if (!title || !slug) {
     return null;
@@ -85,6 +87,7 @@ function extractPostData(filePath) {
     _id: cleanValue(postId || path.basename(filePath, ".md")),
     title: cleanValue(title),
     slug: cleanValue(slug),
+    datePublished: cleanValue(datePublished),
   };
 }
 
@@ -93,7 +96,16 @@ const markdownFiles = walk(ROOT_DIR);
 const posts = markdownFiles
   .map(extractPostData)
   .filter(Boolean)
-  .sort((a, b) => a.title.localeCompare(b.title));
+  .sort((a, b) => {
+    const dateA = new Date(a.datePublished || 0).getTime();
+    const dateB = new Date(b.datePublished || 0).getTime();
+
+    return dateB - dateA;
+  });
+
+if (!fs.existsSync(OUTPUT_DIR)) {
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+}
 
 fs.writeFileSync(OUTPUT_FILE, JSON.stringify(posts, null, 2) + "\n", "utf8");
 

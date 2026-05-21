@@ -14,26 +14,37 @@ on:
 permissions:
   contents: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   generate-posts-json:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: 22
+          node-version: 24
 
-      - name: Generate posts.json
+      - name: Generate data/posts.json
         run: node scripts/generate-posts-json.js
 
-      - name: Commit posts.json if changed
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: generate posts.json"
-          file_pattern: posts.json
+      - name: Commit data/posts.json if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/posts.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: generate data/posts.json"
+            git push
+          fi
