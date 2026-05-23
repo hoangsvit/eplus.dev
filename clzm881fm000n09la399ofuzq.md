@@ -374,3 +374,9 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/AUGUST%20Ser
 sudo chmod +x quicklabgsp344.sh
 ./quicklabgsp344.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=IGvZJ9q6xcM]
