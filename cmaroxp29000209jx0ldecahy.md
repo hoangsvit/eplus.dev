@@ -21,13 +21,13 @@ In this lab, you learn how to implement security in Dataplex by logging in to a 
 
 ### What you'll do
 
-* Create a lake, zone, and asset in Dataplex
+*   Create a lake, zone, and asset in Dataplex
     
-* Assign Dataplex IAM roles to other users
+*   Assign Dataplex IAM roles to other users
     
-* Test access to a Dataplex asset as different users with differing Dataplex IAM roles
+*   Test access to a Dataplex asset as different users with differing Dataplex IAM roles
     
-* Upload a new file to a Cloud Storage bucket managed as a Dataplex asset
+*   Upload a new file to a Cloud Storage bucket managed as a Dataplex asset
     
 
 ## Setup and requirements
@@ -42,29 +42,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -72,7 +72,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-00-7b58dada149f@qwiklabs.net
@@ -80,9 +80,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     SPyj6m8wk47R
@@ -90,19 +90,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -113,11 +113,11 @@ After a few moments, the Google Cloud console opens in this tab.
 
 ### Enable Dataplex API
 
-1. In the Google Cloud Console, enter **Cloud Dataplex API** in the top search bar.
+1.  In the Google Cloud Console, enter **Cloud Dataplex API** in the top search bar.
     
-2. Click on the result for **Cloud Dataplex API** under Marketplace.
+2.  Click on the result for **Cloud Dataplex API** under Marketplace.
     
-3. Click **Enable**.
+3.  Click **Enable**.
     
 
 ## Task 1. Create a lake, zone, and asset in Dataplex
@@ -130,20 +130,20 @@ To complete this task, **be sure you are logged in as User 1 (**`student-00-7b58
 
 ### Create a lake
 
-1. In the Google Cloud Console, in the **Navigation menu** (
+1.  In the Google Cloud Console, in the **Navigation menu** (
     
     ![Navigation menu](https://cdn.qwiklabs.com/tkgw1TDgj4Q%2BYKQUW4jUFd0O5OEKlUMBRYbhlCrF0WY%3D align="left")
     
-    ), navigate to **Analytics** &gt; **Dataplex**.
+    ), navigate to **Analytics** > **Dataplex**.
     
 
 If prompted `Welcome to the new Dataplex experience`, click **Close**.
 
-2. Under **Manage lakes**, click **Manage**.
+2.  Under **Manage lakes**, click **Manage**.
     
-3. Click **Create lake**.
+3.  Click **Create lake**.
     
-4. Enter the required information to create a new lake:
+4.  Enter the required information to create a new lake:
     
 
 | **Property** | **Value** |
@@ -154,18 +154,18 @@ If prompted `Welcome to the new Dataplex experience`, click **Close**.
 
 Leave the other default values.
 
-5. Click **Create**.
+5.  Click **Create**.
     
 
 It can take up to 3 minutes for the lake to be created.
 
 ### Add a zone to the lake
 
-1. On the **Manage** tab, click on the name of your lake.
+1.  On the **Manage** tab, click on the name of your lake.
     
-2. Click **Add zone**.
+2.  Click **Add zone**.
     
-3. Enter the required information to create a new zone:
+3.  Enter the required information to create a new zone:
     
 
 | **Property** | **Value** |
@@ -179,7 +179,7 @@ Leave the other default values.
 
 For example, the option for **Enable metadata discovery** under **Discovery settings** is enabled by default and allows authorized users to discover the data in the zone.
 
-4. Click **Create**.
+4.  Click **Create**.
     
 
 It can take up to 2 minutes for the zone to be created.
@@ -188,13 +188,13 @@ You can perform the next task once the status of the zone is **Active**.
 
 ### Attach an asset to a zone
 
-1. On the **Zones** tab, click on the name of your zone.
+1.  On the **Zones** tab, click on the name of your zone.
     
-2. On the **Assets** tab, click **Add assets**.
+2.  On the **Assets** tab, click **Add assets**.
     
-3. Click **Add an asset**.
+3.  Click **Add an asset**.
     
-4. Enter the required information to attach a new asset:
+4.  Enter the required information to attach a new asset:
     
 
 | **Property** | **Value** |
@@ -208,13 +208,13 @@ Leave the other default values.
 
 While the Cloud Storage bucket does not contain any files, you can attach it to the zone now, and newly added files will automatically be integrated into the zone.
 
-5. Click **Done**.
+5.  Click **Done**.
     
-6. Click **Continue**.
+6.  Click **Continue**.
     
-7. For **Discovery settings**, select **Inherit** to inherit the Discovery settings from the zone level, and then click **Continue**.
+7.  For **Discovery settings**, select **Inherit** to inherit the Discovery settings from the zone level, and then click **Continue**.
     
-8. Click **Submit**.
+8.  Click **Submit**.
     
 
 Click *Check my progress* to verify the objective.
@@ -231,23 +231,23 @@ In this task, you use the Google Cloud console to assign the Dataplex Data Reade
 
 To complete this task, **remain logged in as User 1 (**`student-00-7b58dada149f@qwiklabs.net`), who has the appropriate grant Dataplex IAM roles to other users.
 
-1. In the Google Cloud Console, in the **Navigation menu** (), under **Analytics**, navigate to **Dataplex** &gt; **Secure**.
+1.  In the Google Cloud Console, in the **Navigation menu** (), under **Analytics**, navigate to **Dataplex** > **Secure**.
     
-2. In the **Dataplex resources** menu, expand the arrow next to the project ID (`qwiklabs-gcp-01-31fb2710f505`).
+2.  In the **Dataplex resources** menu, expand the arrow next to the project ID (`qwiklabs-gcp-01-31fb2710f505`).
     
-3. Expand the arrow next to the name of your lake.
+3.  Expand the arrow next to the name of your lake.
     
-4. Expand the arrow next to the name of your zone.
+4.  Expand the arrow next to the name of your zone.
     
-5. Click on the asset name (Customer Online Sessions).
+5.  Click on the asset name (Customer Online Sessions).
     
-6. Click **Grant access**.
+6.  Click **Grant access**.
     
-7. For **New principals**, enter the email for User 2: `student-03-40f9a6a1b8e4@qwiklabs.net`
+7.  For **New principals**, enter the email for User 2: `student-03-40f9a6a1b8e4@qwiklabs.net`
     
-8. For **Select a role**, select **Dataplex Data Reader** under **Cloud Dataplex**.
+8.  For **Select a role**, select **Dataplex Data Reader** under **Cloud Dataplex**.
     
-9. Click **Save**.
+9.  Click **Save**.
     
 
 To see the updated data permissions, refresh the page. It can take a few minutes for the permissions to be applied.
@@ -262,9 +262,9 @@ Assign Dataplex Data Reader role to another user
 
 Log out of the project as User 1. In the next task, you log in to the project as User 2.
 
-1. Click on the profile icon on the top right of the Google Cloud console.
+1.  Click on the profile icon on the top right of the Google Cloud console.
     
-2. Click **Sign out**.
+2.  Click **Sign out**.
     
 
 If asked to confirm, click **Leave**.
@@ -279,18 +279,18 @@ In this task, you use the Google Cloud console to test access for User 2 to Data
 
 To complete this task, **log in to the project as User 2 (**`student-03-40f9a6a1b8e4@qwiklabs.net`).
 
-1. In the Google Cloud Console, in the **Navigation menu** (), navigate to **Cloud Storage** &gt; **Buckets**.
+1.  In the Google Cloud Console, in the **Navigation menu** (), navigate to **Cloud Storage** > **Buckets**.
     
-2. Click on the bucket that has been precreated for you: `qwiklabs-gcp-01-31fb2710f505`\-bucket
+2.  Click on the bucket that has been precreated for you: `qwiklabs-gcp-01-31fb2710f505`\-bucket
     
-3. Click **Upload files**.
+3.  Click **Upload files**.
     
-4. Select any file of your choice.
+4.  Select any file of your choice.
     
 
 If you need a sample file, you can download the following [test CSV file](https://storage.googleapis.com/spls/gsp1157/test.csv), and use it as the upload file.
 
-5. Click **Open**.
+5.  Click **Open**.
     
 
 Notice that you receive an error, and no files are uploaded to the bucket.
@@ -301,9 +301,9 @@ User 2 is denied access to upload a new file to the Cloud Storage bucket because
 
 Log out of the project as User 2. In the next task, you log in to the project as User 1.
 
-1. Click on the profile icon on the top right of the Google Cloud console.
+1.  Click on the profile icon on the top right of the Google Cloud console.
     
-2. Click **Sign out**.
+2.  Click **Sign out**.
     
 
 If asked to confirm, click **Leave**.
@@ -316,21 +316,21 @@ In this task, you use the Google Cloud console to assign the Dataplex Writer Rol
 
 To complete this task, **log in to the project as User 1 (**`student-00-7b58dada149f@qwiklabs.net`), who has the appropriate grant Dataplex IAM roles to other users.
 
-1. In the Google Cloud Console, in the **Navigation menu** (), under **Analytics**, navigate to **Dataplex** &gt; **Secure**.
+1.  In the Google Cloud Console, in the **Navigation menu** (), under **Analytics**, navigate to **Dataplex** > **Secure**.
     
-2. In the **Dataplex resources** menu, expand the arrow next to the project ID (`qwiklabs-gcp-01-31fb2710f505`).
+2.  In the **Dataplex resources** menu, expand the arrow next to the project ID (`qwiklabs-gcp-01-31fb2710f505`).
     
-3. Expand the arrow next to the name of your lake.
+3.  Expand the arrow next to the name of your lake.
     
-4. Expand the arrow next to the name of your zone.
+4.  Expand the arrow next to the name of your zone.
     
-5. Click on the asset name (Customer Online Sessions).
+5.  Click on the asset name (Customer Online Sessions).
     
-6. Click on **Edit principal** (pencil icon) next to the email for User 2: `student-03-40f9a6a1b8e4@qwiklabs.net`
+6.  Click on **Edit principal** (pencil icon) next to the email for User 2: `student-03-40f9a6a1b8e4@qwiklabs.net`
     
-7. For **Role**, select **Dataplex Data Writer** under **Cloud Dataplex**.
+7.  For **Role**, select **Dataplex Data Writer** under **Cloud Dataplex**.
     
-8. Click **Save**.
+8.  Click **Save**.
     
 
 To see the updated data permissions, refresh the page. It can take a few minutes for the permissions to be applied.
@@ -345,9 +345,9 @@ Assign Dataplex Data Writer role to another user
 
 Log out of the project as User 1. In the next task, you log in to the project as User 2.
 
-1. Click on the profile icon on the top right of the Google Cloud console.
+1.  Click on the profile icon on the top right of the Google Cloud console.
     
-2. Click **Sign out**.
+2.  Click **Sign out**.
     
 
 If asked to confirm, click **Leave**.
@@ -362,18 +362,18 @@ In this task, you use the Google Cloud console to test access again for User 2 t
 
 To complete this task, **log in to the project as User 2 (**`student-03-40f9a6a1b8e4@qwiklabs.net`).
 
-1. In the Google Cloud Console, in the **Navigation menu** (), navigate to **Cloud Storage** &gt; **Buckets**.
+1.  In the Google Cloud Console, in the **Navigation menu** (), navigate to **Cloud Storage** > **Buckets**.
     
-2. Click on the bucket that has been precreated for you: `qwiklabs-gcp-01-31fb2710f505`\-bucket
+2.  Click on the bucket that has been precreated for you: `qwiklabs-gcp-01-31fb2710f505`\-bucket
     
-3. Click **Upload files**.
+3.  Click **Upload files**.
     
-4. Select any file of your choice.
+4.  Select any file of your choice.
     
 
 If you need a sample file, you can download the following [test CSV file](https://storage.googleapis.com/spls/gsp1157/test.csv), and use it as the upload file.
 
-5. Click **Open**.
+5.  Click **Open**.
     
 
 User 2 can successfully upload a new file to the Cloud Storage bucket as a Dataplex Data Writer.
@@ -384,7 +384,7 @@ Upload a file to the Cloud Storage bucket as a Dataplex Data Writer
 
 **Check my progress**
 
----
+* * *
 
 ## Solution of Lab
 
@@ -393,8 +393,8 @@ Upload a file to the Cloud Storage bucket as a Dataplex Data Writer
 %[https://youtu.be/57mgLUHy8HQ] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1157/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1157/old-lab.sh
+source old-lab.sh
 ```
 
 **Script Alternative**
