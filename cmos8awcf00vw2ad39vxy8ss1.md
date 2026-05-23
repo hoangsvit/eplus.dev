@@ -2,7 +2,7 @@
 title: "The Arcade Base Camp May 2026"
 seoTitle: "The Arcade Base Camp May 2026"
 seoDescription: "Welcome to Arcade Base Camp, May 2026, where you’ll develop key Google Cloud skills and earn an exclusive credential that will open doors to the cloud for you"
-datePublished: Tue May 05 2026 06:09:44 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-05-05T06:09:44.513Z
 cuid: cmos8awcf00vw2ad39vxy8ss1
 slug: the-arcade-base-camp-may-2026
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8a0732a0-d279-4033-b991-b3b411143030.png
@@ -24,6 +24,7 @@ Welcome to **Arcade Base Camp May 2026**, where you’ll develop key **Google Cl
 | **Section** | **Game Link** | **Code** | **Deadline** |
 | --- | --- | --- | --- |
 | **The Arcade Base Camp May 2026** | [Games 7174](https://www.skills.google/games/7174) | <mark class="bg-yellow-200 dark:bg-yellow-500/30">1q-basecamp-05059</mark> | 31/05/26, 11:59 PM |
+| **Skillup Summer** | [Games 7175](https://www.skills.google/games/7175) | <mark class="bg-yellow-200 dark:bg-yellow-500/30">1q-summer-06031</mark> | 31/05/26, 11:59 PM |
 
 * * *
 
