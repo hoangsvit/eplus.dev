@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-08-09T04:48:15.682Z
 cuid: clzm881fm000n09la399ofuzq
 slug: develop-serverless-apps-with-firebase-challenge-lab-gsp344
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757754420571/06d824b5-c0b7-4ed6-8be0-a44cf4a25331.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757754445225/814a9f5a-2b90-40be-a935-dd2d08877823.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/3d3645bd-3798-473f-b7fe-717b9e00a0f3.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/0639a17d-5df0-4701-a348-cc1d183ee0ee.png
 tags: serverless, develop-serverless-apps-with-firebase-challenge-lab-gsp344, gsp344, develop-serverless-apps-with-firebase-challenge-lab
 
 ---
