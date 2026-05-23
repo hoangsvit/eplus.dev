@@ -5,10 +5,16 @@
     <link>https://eplus.dev</link>
     <description>Latest posts from ePlus DEV</description>
     <language>en</language>
-    <lastBuildDate>Sat, 23 May 2026 06:34:02 GMT</lastBuildDate>
-    <pubDate>Tue, 19 May 2026 02:34:51 GMT</pubDate>
+    <lastBuildDate>Sat, 23 May 2026 07:23:49 GMT</lastBuildDate>
+    <pubDate>Sat, 23 May 2026 07:23:39 GMT</pubDate>
     <generator>GitHub Actions</generator>
 
+    <item>
+      <title>Implementing Security in Knowledge Catalog - GSP1157</title>
+      <link>https://eplus.dev/implementing-security-in-knowledge-catalog-gsp-1157</link>
+      <guid isPermaLink="true">https://eplus.dev/implementing-security-in-knowledge-catalog-gsp-1157</guid>
+      <pubDate>Sat, 23 May 2026 07:23:39 GMT</pubDate>
+    </item>
     <item>
       <title>Migrating a Monolithic Website to Microservices on Google Kubernetes Engine - GSP699</title>
       <link>https://eplus.dev/migrating-a-monolithic-website-to-microservices-on-google-kubernetes-engine-gsp699</link>
