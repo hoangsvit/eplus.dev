@@ -25,15 +25,15 @@ In this lab, you learn how to use Dataplex Universal Catalog to create an aspect
 
 In this lab, you learn how to perform the following:
 
-* Enable the Dataplex API.
+*   Enable the Dataplex API.
     
-* Create a lake, zone, and asset in Dataplex.
+*   Create a lake, zone, and asset in Dataplex.
     
-* Create an aspect type.
+*   Create an aspect type.
     
-* Add an aspect to assets.
+*   Add an aspect to assets.
     
-* Search for assets using aspects.
+*   Search for assets using aspects.
     
 
 ## Setup and requirements
@@ -46,29 +46,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -76,7 +76,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-01-ca687293fd1f@qwiklabs.net
@@ -86,9 +86,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     jCSS3OSr9yO5
@@ -98,19 +98,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -121,9 +121,9 @@ After a few moments, the Google Cloud console opens in this tab.
 
 ### Enable Dataplex API
 
-1. In the Google Cloud console title bar, type **Cloud Dataplex API** in the **Search** field and then click **Cloud Dataplex API** in the search results.
+1.  In the Google Cloud console title bar, type **Cloud Dataplex API** in the **Search** field and then click **Cloud Dataplex API** in the search results.
     
-2. If needed, click **Enable** to enable the Cloud Dataplex API.
+2.  If needed, click **Enable** to enable the Cloud Dataplex API.
     
 
 ## Task 1. Create a lake, zone, and asset
@@ -132,13 +132,13 @@ In this task, you create a new Dataplex lake to store customer order information
 
 ### Create a lake
 
-1. In the Google Cloud console title bar, type **Dataplex Universal Catalog**, and then click **Dataplex Universal Catalog, type Product or Page** from the search results.
+1.  In the Google Cloud console title bar, type **Dataplex Universal Catalog**, and then click **Dataplex Universal Catalog, type Product or Page** from the search results.
     
-2. In the left pane, under **Manage lakes**, click **Manage**.
+2.  In the left pane, under **Manage lakes**, click **Manage**.
     
-3. Click **Create Lake**.
+3.  Click **Create Lake**.
     
-4. Set the properties below as follows, leave the remaining properties as their default.
+4.  Set the properties below as follows, leave the remaining properties as their default.
     
 
 | **Property** | **Value** |
@@ -146,7 +146,7 @@ In this task, you create a new Dataplex lake to store customer order information
 | **Display Name** | **Orders Lake** |
 | **Region** | `us-central1` |
 
-5. Scroll down and click **Create**.
+5.  Scroll down and click **Create**.
     
 
 It can take a few minutes for the lake to be created.
@@ -155,11 +155,11 @@ You can proceed to the next section once the status of the lake is **Active**.
 
 ### Add a zone to the lake
 
-1. In the **Lakes** list, click **Orders Lake**.
+1.  In the **Lakes** list, click **Orders Lake**.
     
-2. Click **Add zone**.
+2.  Click **Add zone**.
     
-3. Set the properties below as follows to create a new zone. Leave all other properties at their default values.
+3.  Set the properties below as follows to create a new zone. Leave all other properties at their default values.
     
 
 | **Property** | **Value** |
@@ -168,7 +168,7 @@ You can proceed to the next section once the status of the lake is **Active**.
 | **Type** | **Curated zone** |
 | **Data locations** | **Regional** |
 
-4. Click **Create**.
+4.  Click **Create**.
     
 
 It can take a few minutes for the zone to be created.
@@ -177,13 +177,13 @@ You can proceed to the next section once the status of the zone is **Active**.
 
 ### Attach an asset to a zone
 
-1. In the **Zones** instance list, click **Customer Curated Zone**.
+1.  In the **Zones** instance list, click **Customer Curated Zone**.
     
-2. Click **Add assets**.
+2.  Click **Add assets**.
     
-3. Click **Add an asset**.
+3.  Click **Add an asset**.
     
-4. Set the properties below as follows, and leave the remaining properties at the default values:
+4.  Set the properties below as follows, and leave the remaining properties at the default values:
     
 
 | **Property** | **Value** |
@@ -192,11 +192,11 @@ You can proceed to the next section once the status of the zone is **Active**.
 | **Display Name** | **Customer Details Dataset** |
 | **Dataset** | `qwiklabs-gcp-01-91b56212aea5`.customers |
 
-5. Click **Continue**.
+5.  Click **Continue**.
     
-6. For **Discovery settings**, select **Inherit** to inherit the Discovery settings from the zone level, and then click **Continue**.
+6.  For **Discovery settings**, select **Inherit** to inherit the Discovery settings from the zone level, and then click **Continue**.
     
-7. Click **Submit**.
+7.  Click **Submit**.
     
 
 Create a lake, zone, and asset in Dataplex
@@ -207,11 +207,11 @@ An aspect type is a reusable template for aspects. Every aspect is an instance o
 
 In this task, you create an aspect type to label BigQuery table columns with a protected status. With a public aspect type, users with access to the BigQuery table can see the aspects applied to the columns.
 
-1. On the left pane, under **Manage Metadata**, click **Catalog**.
+1.  On the left pane, under **Manage Metadata**, click **Catalog**.
     
-2. Click **Create aspect type**.
+2.  Click **Create aspect type**.
     
-3. Enter the required information to define the aspect type:
+3.  Enter the required information to define the aspect type:
     
 
 | **Property** | **Value** |
@@ -219,7 +219,7 @@ In this task, you create an aspect type to label BigQuery table columns with a p
 | **Display Name** | **Protected Data Aspect** |
 | **Location** | `us-central1` |
 
-4. In the **Template** section, click **Add field** and enter the required information to add a new field to the aspect type:
+4.  In the **Template** section, click **Add field** and enter the required information to add a new field to the aspect type:
     
 
 | **Property** | **Value** |
@@ -227,22 +227,22 @@ In this task, you create an aspect type to label BigQuery table columns with a p
 | **Field Display Name** | **Protected Data Flag** |
 | **Type** | **Enum** |
 
-5. Select the **Is Required** checkbox.
+5.  Select the **Is Required** checkbox.
     
-6. Click **Add an enum value**.
+6.  Click **Add an enum value**.
     
-7. For **Values**, enter **Yes**.
+7.  For **Values**, enter **Yes**.
     
-8. Click **Done**.
+8.  Click **Done**.
     
-9. Click **Add an enum value**.
+9.  Click **Add an enum value**.
     
-10. For **Values**, enter **No**.
-    
-11. Click **Done**.
-    
-12. Click **Save**.
-    
+10.  For **Values**, enter **No**.
+     
+11.  Click **Done**.
+     
+12.  Click **Save**.
+     
 
 **Note:** It can take a few minutes for the aspect type to be created before the progress check returns a successful message.
 
@@ -256,61 +256,61 @@ In this task, you add the Protected Data aspect to columns in the BigQuery table
 
 ### Add an aspect to the entry
 
-1. On the left menu, under **Discover**, click **Search**.
+1.  On the left menu, under **Discover**, click **Search**.
     
-2. On the **Search** bar, be sure **Dataplex Universal Catalog** is selected.
+2.  On the **Search** bar, be sure **Dataplex Universal Catalog** is selected.
     
-3. For **Filters &gt; Systems**, select the **BigQuery** checkbox.
+3.  For **Filters > Systems**, select the **BigQuery** checkbox.
     
-4. In the **Find data across your projects and organizations** field, enter **customer\_details** and then click **customer\_details** from the search results.
+4.  In the **Find data across your projects and organizations** field, enter **customer\_details** and then click **customer\_details** from the search results.
     
 
 If you do not see the **customer\_details** table, make sure that the search platform is selected as **Dataplex Universal Platform** on the top right.
 
-5. If needed, click **Enable** to enable the Google Cloud Data Catalog API.
+5.  If needed, click **Enable** to enable the Google Cloud Data Catalog API.
     
-6. On the **Search** bar, be sure **Dataplex Universal Catalog** is selected.
+6.  On the **Search** bar, be sure **Dataplex Universal Catalog** is selected.
     
-7. Scroll down to the **Tags & aspects** section. Next to **Optional tags & aspects**, click **Add**.
+7.  Scroll down to the **Tags & aspects** section. Next to **Optional tags & aspects**, click **Add**.
     
-8. Type **protected data aspect** in the **Filter** field, and then click the **Protected Data Aspect** aspect from the results.
+8.  Type **protected data aspect** in the **Filter** field, and then click the **Protected Data Aspect** aspect from the results.
     
-9. For **Protected Data Flag**, select **Yes**.
+9.  For **Protected Data Flag**, select **Yes**.
     
-10. Click **Save**.
-    
+10.  Click **Save**.
+     
 
 ### Add an aspect to a column of the entry
 
-1. Click the **Schema** tab.
+1.  Click the **Schema** tab.
     
-2. Select the following column checkboxes:
+2.  Select the following column checkboxes:
     
-    * zip
+    *   zip
         
-    * state
+    *   state
         
-    * last\_name
+    *   last\_name
         
-    * country
+    *   country
         
-    * email
+    *   email
         
-    * latitude
+    *   latitude
         
-    * first\_name
+    *   first\_name
         
-    * city
+    *   city
         
-    * longitude
+    *   longitude
         
-3. Click **Add tag or aspect**.
+3.  Click **Add tag or aspect**.
     
-4. Click **Protected Data Aspect**.
+4.  Click **Protected Data Aspect**.
     
-5. For **Protected Data Flag**, select **Yes**.
+5.  For **Protected Data Flag**, select **Yes**.
     
-6. Click **Save**.
+6.  Click **Save**.
     
 
 **Note:** It can take a few minutes for the aspect type to be added to the asset before the progress check returns a successful message.
@@ -323,18 +323,18 @@ After you add an aspect to an asset, such as a table column, you can search for 
 
 In this task, you search for the assets that have the Protected Data aspect applied.
 
-1. On the left menu, under **Discover**, click **Search**.
+1.  On the left menu, under **Discover**, click **Search**.
     
-2. On the **Search** bar, be sure **Dataplex Universal Catalog** is selected.
+2.  On the **Search** bar, be sure **Dataplex Universal Catalog** is selected.
     
-3. For **Filters** &gt; **Aspects**, select the **Protected Data Aspect** checkbox.
+3.  For **Filters** > **Aspects**, select the **Protected Data Aspect** checkbox.
     
-4. Click the **customer\_details** table.
+4.  Click the **customer\_details** table.
     
-5. Click the **Schema** tab to see the Protected Data aspects on the specified columns.
+5.  Click the **Schema** tab to see the Protected Data aspects on the specified columns.
     
 
----
+* * *
 
 ### Solution of Lab
 
@@ -345,8 +345,8 @@ In this task, you search for the assets that have the Protected Data aspect appl
 **Task 1: Run the script in the terminal**
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1145/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1145/old-lab.sh
+source old-lab.sh
 ```
 
 **Script Alternative**
@@ -369,7 +369,7 @@ sudo chmod +x GSP1145.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758422961406/2082ab19-5d3a-4679-ac2a-c99427d93fc0.png align="center")
 
----
+* * *
 
 ### Manual
 
