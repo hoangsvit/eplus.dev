@@ -402,6 +402,13 @@ Upload a file to the Cloud Storage bucket as a Dataplex Data Writer
 %[https://www.youtube.com/watch?v=5Q_KMj7hl50] 
 
 ```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1157/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
 curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Implementing%20Security%20in%20Dataplex/TechCode.sh
 sudo chmod +x TechCode.sh 
 ./TechCode.sh
