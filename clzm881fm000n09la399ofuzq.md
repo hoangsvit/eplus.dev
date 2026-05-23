@@ -321,11 +321,30 @@ Deploy the production frontend
 
 ### New Solution
 
+%[https://www.youtube.com/watch?v=F7eJl7VjpxA] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP344/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Develop%20Serverless%20Apps%20with%20Firebase%3A%20Challenge%20Lab/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
+```
+
+* * *
+
+### Old Solution
+
 %[https://www.youtube.com/watch?v=5Qg8gTJVXxI] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP344/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP344/old-lab.sh
+source old-lab.sh
 ```
 
 **Script Alternative**
