@@ -21,11 +21,11 @@ Finally, you'll learn how to create firewall rules and use instance tags to appl
 
 ### What you'll learn
 
-* Basics concepts and constructs of Google Cloud networking
+*   Basics concepts and constructs of Google Cloud networking
     
-* How default and user-created networks are configured.
+*   How default and user-created networks are configured.
     
-* How to create firewall rules, and use instance tags to apply firewall rules
+*   How to create firewall rules, and use instance tags to apply firewall rules
     
 
 ## Setup and requirements
@@ -38,29 +38,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -68,7 +68,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-00-e51afb8d5ea5@qwiklabs.net
@@ -76,9 +76,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     xJNQ9KMPxg37
@@ -86,19 +86,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -111,13 +111,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-01-7d2e1beebb0c`. The output contains a line that declares the **Project\_ID** for this session:
@@ -128,14 +128,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-01-7d2e1beebb
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -148,7 +148,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -198,9 +198,9 @@ A *VPC network* is a virtual network inside of Google Cloud. A VPC network is a 
 
 ***Subnetworks*** allow you to group related resources (Compute Engine instances) into RFC1918 private address spaces. Subnetworks can only be regional. A subnetwork can be in auto mode or custom mode.
 
-* An auto mode network has one subnet per region, each with a predetermined IP range and gateway. These subnets are created automatically when you create the auto mode network, and each subnet has the same name as the overall network.
+*   An auto mode network has one subnet per region, each with a predetermined IP range and gateway. These subnets are created automatically when you create the auto mode network, and each subnet has the same name as the overall network.
     
-* A custom mode network has no subnets at creation. To create an instance in a custom mode network, you must first create a subnetwork in that region and specify its IP range. A custom mode network can have zero, one, or many subnets per region.
+*   A custom mode network has no subnets at creation. To create an instance in a custom mode network, you must first create a subnetwork in that region and specify its IP range. A custom mode network can have zero, one, or many subnets per region.
     
 
 ### Set your region and zone
@@ -225,7 +225,7 @@ When a new project is created, a default network configuration provides each reg
 
 Each instance created within a subnetwork is assigned an IPv4 address from that subnetwork range.
 
-* Review your network. Click **Navigation menu** &gt; **VPC network**.
+*   Review your network. Click **Navigation menu** > **VPC network**.
     
 
 ![The VPC networks page displaying a list of network including their associated information such as IP address ranges and gateways ](https://cdn.qwiklabs.com/78YPZpFLjPhsJlCfoHtK1SzH8gHTOCNAM3Bf8zcxZJg%3D align="left")
@@ -248,7 +248,7 @@ The ingress firewall rules automatically created for the default network are as 
 | `default-allow-rdp` | Allows RDP connections from any source to any instance on the network over TCP port 3389. |
 | `default-allow-icmp` | Allows ICMP traffic from any source to any instance on the network. |
 
-* To review the default Firewall rules, in the Cloud console click **Navigation menu** &gt; **VPC network** &gt; **Firewall**.
+*   To review the default Firewall rules, in the Cloud console click **Navigation menu** > **VPC network** > **Firewall**.
     
 
 ![The Firewall page displaying a list of firewall rules including their respective types, targets, filters, proptocol/ports, priority, and network](https://cdn.qwiklabs.com/F3GhLGyYTLRQLedLF%2Fw2QGi3a4xXvbuKFaJDkmBZ9Os%3D align="left")
@@ -257,7 +257,7 @@ The ingress firewall rules automatically created for the default network are as 
 
 All networks have routes created automatically to the Internet (default route) and to the IP ranges in the network. The route names are automatically generated and will look different for each project.
 
-* To review default routes, click **Navigation menu** &gt; **VPC network** &gt; **Routes** &gt; Select **Network** and **Region** to view **Routes**.
+*   To review default routes, click **Navigation menu** > **VPC network** > **Routes** > Select **Network** and **Region** to view **Routes**.
     
 
 ![The Routes page displaying a list of routes and their respective description, destination IP range, priority level, and network](https://cdn.qwiklabs.com/tn5FCanVlH8H2Mk%2FKBeMbHwUFkl%2BLx4ub3bW%2Bdf0mls%3D align="left")
@@ -272,29 +272,29 @@ You can either create your custom network with the console or with Cloud Shell. 
 
 To create a custom network:
 
-1. Click **Navigation menu** &gt; **VPC network**.
+1.  Click **Navigation menu** > **VPC network**.
     
-2. Click **Create VPC Network** and name it `taw-custom-network`.
+2.  Click **Create VPC Network** and name it `taw-custom-network`.
     
-3. On the **Custom** tab create:
+3.  On the **Custom** tab create:
     
-    * Subnet name: subnet-`us-east1`
+    *   Subnet name: subnet-`us-east1`
         
-    * Region: `us-east1`
+    *   Region: `us-east1`
         
-    * IP address range: `10.0.0.0/16`
+    *   IP address range: `10.0.0.0/16`
         
-4. Click **Done**.
+4.  Click **Done**.
     
     ![The populated Create a VPC network dialog box](https://cdn.qwiklabs.com/oW6Ltq0QD9aSnwxKmlnTqqkbJ%2B1rL6EGf33bahnSVi8%3D align="left")
     
-5. Now click **Add Subnet** and add 2 more subnets in their respective regions:
+5.  Now click **Add Subnet** and add 2 more subnets in their respective regions:
     
-    * subnet-`us-central1`, `us-central1`, 10.1.0.0/16
+    *   subnet-`us-central1`, `us-central1`, 10.1.0.0/16
         
-    * subnet-`europe-west4`, `europe-west4`, 10.2.0.0/16
+    *   subnet-`europe-west4`, `europe-west4`, 10.2.0.0/16
         
-6. Click **Create** to finish.
+6.  Click **Create** to finish.
     
 
 At this point, the network has routes to the Internet and to any instances that you might create. But it has no firewall rules allowing access to instances, even from other instances. To allow access, you must create [firewall rules](https://cloud.google.com/compute/docs/vpc/firewalls).
@@ -309,22 +309,22 @@ To allow access to VM instances, you must apply firewall rules. For this lab, yo
 
 Tags are also reflected in the metadata server, so you can use them for applications running on your instances.
 
-* Start by opening the firewall to allow HTTP Internet requests, then you'll add more firewall rules.
+*   Start by opening the firewall to allow HTTP Internet requests, then you'll add more firewall rules.
     
 
 ### Add firewall rules through the Console
 
-1. In the Cloud console, navigate to **VPC networks** and click on the **taw-custom-network**:
+1.  In the Cloud console, navigate to **VPC networks** and click on the **taw-custom-network**:
     
 
 ![taw-custom-networking highlighted on the VPC networks page](https://cdn.qwiklabs.com/kGIKzSZ%2FdPHDJ3wY9Am1L9O4LAujE%2B0laH3SlfxYOyI%3D align="left")
 
-2. Click the **Firewalls** tab, then **Add Firewall rule**.
+2.  Click the **Firewalls** tab, then **Add Firewall rule**.
     
 
 ![The Firewall Rules tab and the Add Firewall rule button highlighted on the VPC network details page](https://cdn.qwiklabs.com/qcxhORK3TSup5MNvwtkpLcPeh1s8DMy8gIMUzUZmzoU%3D align="left")
 
-3. Enter the following info:
+3.  Enter the following info:
     
 
 | **Field** | **Value** | **Comments** |
@@ -340,14 +340,14 @@ Your screen will look like this:
 
 ![The populated Create a firewall rule dialog box](https://cdn.qwiklabs.com/wgjxrVqpSOarL8cGnc5RgzNMVK4uaXkJnQ89kZSg%2BmI%3D align="left")
 
-4. Click **Create** and wait until the command succeeds. Next you'll create the additional firewall rules you'll need.
+4.  Click **Create** and wait until the command succeeds. Next you'll create the additional firewall rules you'll need.
     
 
 ### Create additional firewall rules
 
 These additional firewall rules will allow ICMP, internal communication, SSH, and RDP. You can create them using the Console.
 
-* **ICMP**
+*   **ICMP**
     
 
 | **Field** | **Value** | **Comments** |
@@ -359,7 +359,7 @@ These additional firewall rules will allow ICMP, internal communication, SSH, an
 | Source IPv4 ranges | 0.0.0.0/0 | We will open the firewall for any IP address from the Internet. |
 | Protocols and ports | Select **Specified protocols and ports**, **other protocols**, then type *icmp* | The protocols and ports the firewall applies to |
 
-* **Internal Communication**
+*   **Internal Communication**
     
 
 | **Field** | **Value** | **Comments** |
@@ -370,7 +370,7 @@ These additional firewall rules will allow ICMP, internal communication, SSH, an
 | Source IPv4 ranges | 10.0.0.0/16, | We will open the firewall for any IP address from the Internet. |
 | Protocols and ports | Select **Specified protocols and ports**, then **tcp** and type *0-65535*; check **udp** type *0-65535*; check **Other protocols** and type *icmp* | Allows Tcp:0-65535, udp:0-65535,icmp |
 
-* **SSH**
+*   **SSH**
     
 
 | **Field** | **Value** | **Comments** |
@@ -382,7 +382,7 @@ These additional firewall rules will allow ICMP, internal communication, SSH, an
 | Source IPv4 ranges | 0.0.0.0/0 | We will open the firewall for any IP address from the Internet. |
 | Protocols and ports | Select **Specified protocols and ports**, check the **tcp** box, then type *22* | Allows tcp:22 |
 
-* **RDP**
+*   **RDP**
     
 
 | **Field** | **Value** | **Comments** |
@@ -393,7 +393,7 @@ These additional firewall rules will allow ICMP, internal communication, SSH, an
 | Source IPv4 ranges | 0.0.0.0/0 | We will open the firewall for any IP address from the Internet. |
 | Protocols and ports | Select **Specified protocols and ports**, check the **tcp**, then type *3389* | Allows tcp:3389 |
 
-* Use the Console to review the firewall rules in your network. It should look like this:
+*   Use the Console to review the firewall rules in your network. It should look like this:
     
 
 ![The Firewall rules tabbed page on the VPC network details dialog](https://cdn.qwiklabs.com/h%2BgQPspU8dp%2FG1A036zWN6fmKT3IU967EYpZCywaeEU%3D align="left")
@@ -416,26 +416,26 @@ You will be given an opportunity to rate the lab experience. Select the applicab
 
 The number of stars indicates the following:
 
-* 1 star = Very dissatisfied
+*   1 star = Very dissatisfied
     
-* 2 stars = Dissatisfied
+*   2 stars = Dissatisfied
     
-* 3 stars = Neutral
+*   3 stars = Neutral
     
-* 4 stars = Satisfied
+*   4 stars = Satisfied
     
-* 5 stars = Very satisfied
+*   5 stars = Very satisfied
     
 
 You can close the dialog box if you don't want to provide feedback.
 
 For feedback, suggestions, or corrections, please use the **Support** tab.
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://youtu.be/7ND6JrHtFkQ] 
+%[https://www.youtube.com/watch?v=lqX3GjEJ8nc] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP016/lab.sh
