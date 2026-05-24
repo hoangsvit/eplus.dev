@@ -503,7 +503,7 @@ Tools like [bbcp](https://github.com/eeertekin/bbcp) can help to copy files as f
 
 ### Quick
 
-%[https://www.youtube.com/watch?v=Kdjm_82e-nk] 
+%[https://www.youtube.com/watch?v=RLF-vQ_U-O8] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756627667243/e56f12da-f4bb-495b-aa9f-af351c7ce2b1.png align="center")
 
