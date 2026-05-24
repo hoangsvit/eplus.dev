@@ -510,13 +510,16 @@ Tools like [bbcp](https://github.com/eeertekin/bbcp) can help to copy files as f
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756627674234/782fdebd-25bb-4a1d-a25b-754a86813cfa.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP161/lab.sh source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP161/lab.sh
+source lab.sh
 ```
 
 **Script Alternative**
 
 ```apache
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Test%20Network%20Latency%20Between%20VMs/abhishek.sh sudo chmod +x abhishek.sh ./abhishek.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Test%20Network%20Latency%20Between%20VMs/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
 
 * * *
