@@ -288,12 +288,6 @@ Deploy the Frontend microservice
 
 %[https://www.youtube.com/watch?v=D4F-_V_Fz1o] 
 
-```plaintext
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20a%20Website%20on%20Google%20Cloud%3A%20Challenge%20Lab/abhishek.sh
-sudo chmod +x abhishek.sh
-./abhishek.sh
-```
-
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP319/lab.sh
 source lab.sh
