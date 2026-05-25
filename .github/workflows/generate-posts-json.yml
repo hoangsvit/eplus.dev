@@ -1,4 +1,4 @@
-name: Generate posts.json and feed.rss
+name: Generate posts.json and rss.xml
 
 on:
   push:
@@ -17,6 +17,10 @@ permissions:
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
+concurrency:
+  group: generate-posts-json-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   generate-posts-json:
     runs-on: ubuntu-latest
@@ -26,26 +30,38 @@ jobs:
         uses: actions/checkout@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
         with:
           node-version: 24
 
-      - name: Generate data/posts.json and feed.rss
+      - name: Generate data/posts.json and data/rss.xml
         run: node scripts/generate-posts-json.js
 
       - name: Commit generated files if changed
         run: |
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            
-            git pull
-            git add data/posts.json data/rss.xml
+          set -e
 
-            if git diff --cached --quiet; then
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/posts.json data/rss.xml
+
+          if git diff --cached --quiet; then
             echo "No changes to commit"
-            else
-            git commit -m "chore: generate posts json and rss xml"
-            git push
-            fi
+            exit 0
+          fi
+
+          git commit -m "chore: generate posts json and rss xml"
+
+          echo "Syncing with latest main before push..."
+          git pull --rebase origin main
+
+          echo "Pushing changes..."
+          git push origin HEAD:main || {
+            echo "Push failed because remote changed. Rebase and retry..."
+            git pull --rebase origin main
+            git push origin HEAD:main
+          }
