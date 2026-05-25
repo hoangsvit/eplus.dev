@@ -313,9 +313,17 @@ The first step in sharing your app with users is to add them as users of your ap
 
 %[https://www.youtube.com/watch?v=3BJkoM5iMNU] 
 
-Download File: [GSP1030.xlsx](http://github.com/ePlus-DEV/storage/blob/main/labs/GSP1030/GSP1030.xlsx)
+Download File: [GSP1030.xlsx](http://github.com/ePlus-DEV/storage/blob/main/labs/GSP1030/GSP1030.xlsx) / [link backup](https://github.com/Itsabhishek7py/GoogleCloudSkillsboost/blob/main/Files/Publish%20your%20AppSheet%20App/abhisheklab1030.xlsx)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723185410351/6b3ee508-d980-48ca-a02a-602a9da01b87.png align="center")
+
+Open [https://docs.google.com/spreadsheets](https://docs.google.com/spreadsheets)
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/84e88591-e753-4c1c-850a-31e790b81c5a.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1c6c565d-b634-4426-8484-1bbc99ce2435.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/49440df9-1858-4437-89e2-b2c796822920.png align="center")
 
 * * *
 
