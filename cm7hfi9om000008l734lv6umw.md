@@ -5,8 +5,8 @@ seoDescription: "Natural language is the language that humans use to communicate
 datePublished: 2025-02-23T09:30:58.054Z
 cuid: cm7hfi9om000008l734lv6umw
 slug: cloud-natural-language-api-qwik-start-gsp097
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740302921066/9f9eca51-342b-481e-8908-580a6b09d4f0.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1740303045179/4f36b06e-01f4-428f-aad6-a8d7f82ab6e8.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b87ad617-1c03-44b0-ae58-c04db67efec8.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/9c2dd2d6-cd6d-491d-ba34-8ffacd15c8aa.png
 tags: 2025-cloud-natural-language-api-qwik-start-gsp097, 2025-cloud-natural-language-api-qwik-start, gsp097, cloud-natural-language-api-qwik-start-gsp097, cloud-natural-language-api-qwik-start
 
 ---
@@ -33,9 +33,9 @@ The Cloud Natural Language API is a cloud-based service that provides natural la
 
 In this lab, you learn how to:
 
-* Create an API key
+*   Create an API key
     
-* Use the Cloud Natural Language API to extract "entities" (e.g. people, places, and events) from a snippet of text
+*   Use the Cloud Natural Language API to extract "entities" (e.g. people, places, and events) from a snippet of text
     
 
 ## **Setup and requirements**
@@ -48,29 +48,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -78,7 +78,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-01-487239d5357e@qwiklabs.net
@@ -86,9 +86,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     N3y8r9tOv896
@@ -96,19 +96,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -121,13 +121,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-00-6f2e42f66d8e`. The output contains a line that declares the **Project\_ID** for this session:
@@ -138,14 +138,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-00-6f2e42f66d
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -158,7 +158,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -176,14 +176,14 @@ project = qwiklabs-gcp-00-6f2e42f66d8e
 
 ## **Task 1. Create an API key**
 
-1. First, you will set an environment variable with your PROJECT\_ID which you will use throughout this lab:
+1.  First, you will set an environment variable with your PROJECT\_ID which you will use throughout this lab:
     
 
 ```apache
 export GOOGLE_CLOUD_PROJECT=$(gcloud config get-value core/project)
 ```
 
-2. Next, create a new service account to access the Natural Language API:
+2.  Next, create a new service account to access the Natural Language API:
     
 
 ```apache
@@ -191,7 +191,7 @@ gcloud iam service-accounts create my-natlang-sa \
   --display-name "my natural language service account"
 ```
 
-3. Then, create credentials to log in as your new service account. Create these credentials and save it as a JSON file "~/key.json" by using the following command:
+3.  Then, create credentials to log in as your new service account. Create these credentials and save it as a JSON file "~/key.json" by using the following command:
     
 
 ```apache
@@ -199,7 +199,7 @@ gcloud iam service-accounts keys create ~/key.json \
   --iam-account my-natlang-sa@${GOOGLE_CLOUD_PROJECT}.iam.gserviceaccount.com
 ```
 
-4. Finally, set the GOOGLE\_APPLICATION\_CREDENTIALS environment variable. The environment variable should be set to the full path of the credentials JSON file you created, which you can see in the output from the previous command:
+4.  Finally, set the GOOGLE\_APPLICATION\_CREDENTIALS environment variable. The environment variable should be set to the full path of the credentials JSON file you created, which you can see in the output from the previous command:
     
 
 ```apache
@@ -216,14 +216,14 @@ In order to perform next steps please connect to the instance provisioned for yo
 
 ![VM Instances page](https://cdn.qwiklabs.com/XQiYB4E8wduqZuLRkwzV%2FZsKQZy2XdbgDe%2BdBk1Wjjs%3D align="left")
 
-1. Click on the **SSH** button. You will be brought to an interactive shell. **Remain in this SSH session for the rest of the lab.**
+1.  Click on the **SSH** button. You will be brought to an interactive shell. **Remain in this SSH session for the rest of the lab.**
     
 
 Now you'll try out the Natural Language API's entity analysis with the following sentence:
 
 *Michelangelo Caravaggio, Italian painter, is known for 'The Calling of Saint Matthew'*
 
-2. Run the following `gcloud` command:
+2.  Run the following `gcloud` command:
     
 
 ```apache
@@ -234,7 +234,7 @@ Make an Entity Analysis Request
 
 Check my progress
 
-3. Run the below command to preview the output of result.json file:
+3.  Run the below command to preview the output of result.json file:
     
 
 ```apache
@@ -314,18 +314,18 @@ You should see a response similar to the following in the result.json file:
 
 Read through your results. For each "entity" in the response, you'll see:
 
-* The entity `name` and `type`, a person, location, event, etc.
+*   The entity `name` and `type`, a person, location, event, etc.
     
-* `metadata`, an associated Wikipedia URL if there is one.
+*   `metadata`, an associated Wikipedia URL if there is one.
     
-* `salience`, and the indices of where this entity appeared in the text. Salience is a number in the \[0,1\] range that refers to the centrality of the entity to the text as a whole.
+*   `salience`, and the indices of where this entity appeared in the text. Salience is a number in the \[0,1\] range that refers to the centrality of the entity to the text as a whole.
     
-* `mentions`, which is the same entity mentioned in different ways.
+*   `mentions`, which is the same entity mentioned in different ways.
     
 
 You've sent your first request to the Cloud Natural Language API.
 
----
+* * *
 
 ## Solution of Lab
 
