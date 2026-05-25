@@ -19,11 +19,11 @@ When you take a challenge lab, you will not be taught new Google Cloud concepts.
 
 To score 100% you must successfully complete all tasks within the time period!
 
----
+* * *
 
 ### **Task 1. Enable the Google App Engine Admin API**
 
-* Enable the Google App Engine Admin API for the project to provision and manage the App Engine application.
+*   Enable the Google App Engine Admin API for the project to provision and manage the App Engine application.
     
 
 Click **Check my progress** to verify the objective.
@@ -34,7 +34,7 @@ Enable Google App Engine Admin API
 
 ### **Task 2. Download the Hello World app**
 
-1. Download a simple Hello World app from the relevant repository according to your choice of language for deploying the web application on the VM instance **lab-setup** at the `$HOME` directory (~/).
+1.  Download a simple Hello World app from the relevant repository according to your choice of language for deploying the web application on the VM instance **lab-setup** at the `$HOME` directory (~/).
     
     | **Language** | **Repository** |
     | --- | --- |
@@ -42,7 +42,7 @@ Enable Google App Engine Admin API
     | PHP | [https://github.com/GoogleCloudPlatform/php-docs-samples.git](https://github.com/GoogleCloudPlatform/php-docs-samples.git) |
     | Golang/Go | [https://github.com/GoogleCloudPlatform/golang-samples.git](https://github.com/GoogleCloudPlatform/golang-samples.git) |
     
-2. Go to the directory that contains the `helloworld` sample code.
+2.  Go to the directory that contains the `helloworld` sample code.
     
 
 Click **Check my progress** to verify the objective.
@@ -55,21 +55,21 @@ Download the Hello World app
 
 For this task, you need to deploy the `helloworld` app to the Google App Engine in the `us-east4` region.
 
-* Navigate from the root directory to where your application's `app.yaml` file is located.
+*   Navigate from the root directory to where your application's `app.yaml` file is located.
     
 
 **Note:** Deploy the application to the App Engine standard environment.
 
 **View your application**
 
-1. To launch and view the application in your browser, enter the following command:
+1.  To launch and view the application in your browser, enter the following command:
     
 
 ```apache
 gcloud app browse
 ```
 
-2. Click on the link that is provided. Your application is deployed and you can read the default message in your browser.
+2.  Click on the link that is provided. Your application is deployed and you can read the default message in your browser.
     
 
 Click **Check my progress** to verify the objective.
@@ -80,7 +80,7 @@ Deploy the application
 
 ### **Task 4. Deploy updates to your application**
 
-* Update your application code to change the default message of `Hello, World!` to `Goodbye world!` and redeploy your application.
+*   Update your application code to change the default message of `Hello, World!` to `Goodbye world!` and redeploy your application.
     
 
 Click **Check my progress** to verify the objective.
@@ -89,7 +89,7 @@ Deploy updates to your application
 
 **Check my progress**
 
----
+* * *
 
 ## Solution of Lab
 
@@ -98,16 +98,16 @@ Deploy updates to your application
 %[https://youtu.be/CmVhpNYquiU] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC112/lab.sh
-sudo chmod +x lab.sh
-./lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC112/old-lab.sh
+sudo chmod +x old-lab.sh
+./old-lab.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755846991837/4b3e79d6-ae9a-42f2-8879-997fe1da21e0.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755847889619/9df347c5-6359-471b-bb53-f0f264a7ef39.png align="center")
 
----
+* * *
 
 ### Manual
 
@@ -130,9 +130,9 @@ git clone https://github.com/GoogleCloudPlatform/php-docs-samples.git
 cd php-docs-samples/appengine/standard/helloworld
 ```
 
-* After cloning the above command in the `SSH of VM-Instance`, come back to your `cloud console` and open the `Cloud Shell Terminal`.
+*   After cloning the above command in the `SSH of VM-Instance`, come back to your `cloud console` and open the `Cloud Shell Terminal`.
     
-* And again, `recloning the sample file` using the *above commands*.
+*   And again, `recloning the sample file` using the *above commands*.
     
 
 **Task 3 - Deploy your application**
@@ -146,16 +146,16 @@ gcloud app deploy
 gcloud app browse
 ```
 
-* Choose *Region* in the list which you have given in your lab. --&gt; (This is the most important thing in this step.)
+*   Choose *Region* in the list which you have given in your lab. --> (This is the most important thing in this step.)
     
-* If asking "Enter your choice (Y/n)" then --&gt; press y
+*   If asking "Enter your choice (Y/n)" then --> press y
     
 
 **Task 4 - Deploy updates to your application**
 
-* Here, in the `index.php`, change the code to *Hello, World!* to `Whatever the message is in the Task 4`.
+*   Here, in the `index.php`, change the code to *Hello, World!* to `Whatever the message is in the Task 4`.
     
-* Now, after editing the code, save and exit from the editor by pressing the `Ctrl+X, Y`, and then hit `Enter`.
+*   Now, after editing the code, save and exit from the editor by pressing the `Ctrl+X, Y`, and then hit `Enter`.
     
 
 ```apache
