@@ -1,10 +1,10 @@
 ---
-title: "(2025) Cloud Natural Language API: Qwik Start - GSP097"
-seoTitle: "(2025) Cloud Natural Language API: Qwik Start - GSP097"
+title: "Cloud Natural Language API: Qwik Start - GSP097"
+seoTitle: "Cloud Natural Language API: Qwik Start - GSP097"
 seoDescription: "Natural language is the language that humans use to communicate with each other. Natural language processing (NLP) is a field of computer science that is co"
 datePublished: 2025-02-23T09:30:58.054Z
 cuid: cm7hfi9om000008l734lv6umw
-slug: 2025-cloud-natural-language-api-qwik-start-gsp097
+slug: cloud-natural-language-api-qwik-start-gsp097
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740302921066/9f9eca51-342b-481e-8908-580a6b09d4f0.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1740303045179/4f36b06e-01f4-428f-aad6-a8d7f82ab6e8.png
 tags: 2025-cloud-natural-language-api-qwik-start-gsp097, 2025-cloud-natural-language-api-qwik-start, gsp097, cloud-natural-language-api-qwik-start-gsp097, cloud-natural-language-api-qwik-start
