@@ -21,20 +21,20 @@ In this lab, you use AppSheet to enhance a basic application with additional fun
 
 In this lab, you learn how to perform the following tasks:
 
-* Use the AppSheet UI to configure an app using data from multiple data sources.
+*   Use the AppSheet UI to configure an app using data from multiple data sources.
     
-* Add a second data source to the app using a separate Google sheet.
+*   Add a second data source to the app using a separate Google sheet.
     
-* Configure the data types of the data from the tables that are used in the app.
+*   Configure the data types of the data from the tables that are used in the app.
     
-* Create a relationship between the existing and new tables.
+*   Create a relationship between the existing and new tables.
     
-* Verify that the newly added and modified data is present in the underlying Google sheet.
+*   Verify that the newly added and modified data is present in the underlying Google sheet.
     
 
----
+* * *
 
-### **Task 1. Copy the app**
+## **Task 1. Copy the app**
 
 When working on your own or your company's app, you normally would incrementally build the app over a continuous project timeline.
 
@@ -42,17 +42,17 @@ In order to continue building the app in this lab environment, you must first co
 
 **Copy the app to your AppSheet account**
 
-1. Open the link in another browser tab to copy the *Customer Contacts* app to your AppSheet account: [Customer Contacts app](https://www.appsheet.com/Template/AppDef?appName=Lab1-CustomerContacts-3856613).
+1.  Open the link in another browser tab to copy the *Customer Contacts* app to your AppSheet account: [Customer Contacts app](https://www.appsheet.com/Template/AppDef?appName=Lab1-CustomerContacts-3856613).
     
-2. Click **Copy app** from the left pane.
+2.  Click **Copy app** from the left pane.
     
-3. On the **Copy App** form, specify the following, and leave the remaining settings as their defaults:
+3.  On the **Copy App** form, specify the following, and leave the remaining settings as their defaults:
     
-    <table><tbody><tr><td colspan="1" rowspan="1"><p><strong>App name</strong></p></td><td colspan="1" rowspan="1"><p>Customer Contacts</p></td></tr></tbody></table>
+    <table style="min-width: 50px;"><colgroup><col style="min-width: 25px;"><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong>App name</strong></p></td><td colspan="1" rowspan="1"><p>Customer Contacts</p></td></tr></tbody></table>
     
-4. Click **Copy app**.
+4.  Click **Copy app**.
     
-5. Click **Customize your app** to go to the AppSheet editor.
+5.  Click **Customize your app** to go to the AppSheet editor.
     
     You can also access the app from the **My apps** page in the AppSheet UI under **Apps**.
     
@@ -65,7 +65,7 @@ Create the app
 
 **Check my progress**
 
-### **Task 2. Set up your app with a second data source**
+## **Task 2. Set up your app with a second data source**
 
 Our *Customer contacts* app currently uses a Google sheet containing sample person contact information.
 
@@ -79,32 +79,32 @@ Adding a table to your app is usually one of the first steps involved in creatin
 
 To add additional tables after you have created your app, perform the following steps:
 
-1. Copy and paste the link below in a separate browser tab: [A copy of companies](https://docs.google.com/spreadsheets/d/1fsusJTqRwsURG9GpduXVZE8XXfv9vzq5XXI9jBlcq9M/copy).
+1.  Copy and paste the link below in a separate browser tab: [A copy of companies](https://docs.google.com/spreadsheets/d/1fsusJTqRwsURG9GpduXVZE8XXfv9vzq5XXI9jBlcq9M/copy).
     
-2. Click **Make a copy** to make a copy of the spreadsheet in your Google drive folder.
+2.  Click **Make a copy** to make a copy of the spreadsheet in your Google drive folder.
     
-3. At the top left corner of the sheet, click anywhere in the filename and change the name to **companies**.
+3.  At the top left corner of the sheet, click anywhere in the filename and change the name to **companies**.
     
     ![The companies sheet](https://cdn.qwiklabs.com/WZ1JisW5iuyv%2FrP5GIlsmeq5%2FIWCwx3FJf8mQ9UCVdM%3D align="left")
     
-4. Navigate to [drive.google.com](https://drive.google.com/) to confirm the file has been saved to your **My Drive** folder.
+4.  Navigate to [drive.google.com](https://drive.google.com/) to confirm the file has been saved to your **My Drive** folder.
     
     ![my drive data](https://cdn.qwiklabs.com/zk0E%2Bj01gcaaDOZaptJhq%2BTBi%2BO4VbGyxdYeXbaHMd0%3D align="left")
     
-5. In the *Customer Contacts - AppSheet* UI, use the left navigation bar and go to **Data &gt; Contacts**.
+5.  In the *Customer Contacts - AppSheet* UI, use the left navigation bar and go to **Data > Contacts**.
     
     ![The contacts table listed on the Tables tabbed page](https://cdn.qwiklabs.com/3N%2F2CzibyZeJC7UD5VmfQqPuMFJwEcbZT1HjMKrPiW0%3D align="left")
     
-6. To add a second data source to your app, click **Add new Data** (+) next to `Data`.
+6.  To add a second data source to your app, click **Add new Data** (+) next to `Data`.
     
-7. In **Add data** form, select **Google Sheets**.
+7.  In **Add data** form, select **Google Sheets**.
     
 
 If you get an error preventing you from adding new data, please refresh the page then try to **Add data** again.
 
-8. In the file picker, select the **companies** sheet that you uploaded in the previous step and click **Select**.
+8.  In the file picker, select the **companies** sheet that you uploaded in the previous step and click **Select**.
     
-9. In the **Create a new table** form, leave the default settings and click **Add this table**.
+9.  In the **Create a new table** form, leave the default settings and click **Add this table**.
     
     The settings in this dialog allow you to select a specific worksheet from the spreadsheet or a different type of data source; and lets you allow or disallow modifications to the data by users of the app.
     
@@ -113,10 +113,10 @@ If you get an error preventing you from adding new data, please refresh the page
 
 AppSheet adds the *companies* table to your app. This table contains information about various sample companies.
 
-10. Preview the data from the new table using the app live preview feature in AppSheet.
-    
-    ![The companies table preview](https://cdn.qwiklabs.com/w6ixCAITme8uYIbHvsUdVfWphceFsgWTPUQHNCvVifQ%3D align="left")
-    
+10.  Preview the data from the new table using the app live preview feature in AppSheet.
+     
+     ![The companies table preview](https://cdn.qwiklabs.com/w6ixCAITme8uYIbHvsUdVfWphceFsgWTPUQHNCvVifQ%3D align="left")
+     
 
 Click *Check my progress* to verify the objective.
 
@@ -124,7 +124,7 @@ Set up your app with a second data source
 
 **Check my progress**
 
-### **Task 3. Configure your app's data structure**
+## **Task 3. Configure your app's data structure**
 
 When a data source is added as a table for your app, AppSheet reads each column header to define the column structure of the app. You need a column header in your data source for each column in which you store data.
 
@@ -132,55 +132,55 @@ In this task, you inspect and if needed update the columns' type and properties 
 
 **Update column structure for: *contacts***
 
-1. In the AppSheet editor left navigation menu, select **Data**.
+1.  In the AppSheet editor left navigation menu, select **Data**.
     
-2. To inspect the structure of the columns in the *contacts* table, click the **contacts**.
+2.  To inspect the structure of the columns in the *contacts* table, click the **contacts**.
     
     ![The contacts panel](https://cdn.qwiklabs.com/%2B9O9OKZmGiu4M%2FMeZKGCgzP9M%2FRcO49fG021GLAL0%2Fg%3D align="left")
     
 
 The table below lists the columns and some of their properties as inferred by AppSheet.
 
-3. Determine if you need to change the type or other properties of each column (Scroll to the right in the AppSheet editor to view all the column properties).
+3.  Determine if you need to change the type or other properties of each column (Scroll to the right in the AppSheet editor to view all the column properties).
     
-    <table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Name</strong></p></td><td colspan="1" rowspan="1"><p><strong>Type<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Key?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Label?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Formula<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Show?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Editable?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Require?<br></strong></p></td></tr><tr><td colspan="1" rowspan="1"><p>_RowNumber<br>(System generated virtual column)</p></td><td colspan="1" rowspan="1"><p>Number</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>ID</p></td><td colspan="1" rowspan="1"><p>Number</p></td><td colspan="1" rowspan="1"><p>(checked)</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td></tr><tr><td colspan="1" rowspan="1"><p>Email Address</p></td><td colspan="1" rowspan="1"><p>Email</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td></tr><tr><td colspan="1" rowspan="1"><p>First Name</p></td><td colspan="1" rowspan="1"><p>Name</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Last Name</p></td><td colspan="1" rowspan="1"><p>Name</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Phone</p></td><td colspan="1" rowspan="1"><p>Text</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>_ComputedName<br>(System generated virtual column)</p></td><td colspan="1" rowspan="1"><p>Name</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>(checked)</p></td><td colspan="1" rowspan="1"><p>CONCATENATE([First Name]," ",[Last Name])</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td></tr></tbody></table>
+    <table style="min-width: 200px;"><colgroup><col style="min-width: 25px;"><col style="min-width: 25px;"><col style="min-width: 25px;"><col style="min-width: 25px;"><col style="min-width: 25px;"><col style="min-width: 25px;"><col style="min-width: 25px;"><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong>Name</strong></p></td><td colspan="1" rowspan="1"><p><strong>Type<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Key?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Label?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Formula<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Show?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Editable?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Require?<br></strong></p></td></tr><tr><td colspan="1" rowspan="1"><p>_RowNumber<br>(System generated virtual column)</p></td><td colspan="1" rowspan="1"><p>Number</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>ID</p></td><td colspan="1" rowspan="1"><p>Number</p></td><td colspan="1" rowspan="1"><p>(checked)</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td></tr><tr><td colspan="1" rowspan="1"><p>Email Address</p></td><td colspan="1" rowspan="1"><p>Email</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td></tr><tr><td colspan="1" rowspan="1"><p>First Name</p></td><td colspan="1" rowspan="1"><p>Name</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Last Name</p></td><td colspan="1" rowspan="1"><p>Name</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Phone</p></td><td colspan="1" rowspan="1"><p>Text</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>_ComputedName<br>(System generated virtual column)</p></td><td colspan="1" rowspan="1"><p>Name</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>(checked)</p></td><td colspan="1" rowspan="1"><p>CONCATENATE([First Name]," ",[Last Name])</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td></tr></tbody></table>
     
     Which of the above columns' properties do you think needs to be updated?
     
     This generally depends on your app's requirements. For the purposes of this lab, the highlighted columns in the table above are candidates whose properties should be changed.
     
-4. Given that this is a person contact app, there must be valid data in all cells of the *First Name* column, so the **Require?** property for this column should be checked.
+4.  Given that this is a person contact app, there must be valid data in all cells of the *First Name* column, so the **Require?** property for this column should be checked.
     
 
 Notice that AppSheet has set the *type* property of the **Phone** column as *text*.
 
 This allows the column to contain a single line of text. Since this column is intended to store a valid phone number, change the type to **Phone** using the drop-down list.
 
-5. Click **SAVE** to save your column configuration changes.
+5.  Click **SAVE** to save your column configuration changes.
     
 
 **Update column structure for: *companies***
 
 Follow the same process to update the structure of the columns of the *companies* table, where required.
 
-1. Perform this step by referring to the highlighted items in the table below as a guide to update the column properties:
+1.  Perform this step by referring to the highlighted items in the table below as a guide to update the column properties:
     
-    <table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Name</strong></p></td><td colspan="1" rowspan="1"><p><strong>Type<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Key?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Label?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Formula<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Show?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Editable?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Require?<br></strong></p></td></tr><tr><td colspan="1" rowspan="1"><p>_RowNumber<br>(System generated virtual column)</p></td><td colspan="1" rowspan="1"><p>Number</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>ID</p></td><td colspan="1" rowspan="1"><p>Number</p></td><td colspan="1" rowspan="1"><p>(checked)</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td></tr><tr><td colspan="1" rowspan="1"><p>Phone</p></td><td colspan="1" rowspan="1"><p>Text</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Company Name</p></td><td colspan="1" rowspan="1"><p>Name</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Industry</p></td><td colspan="1" rowspan="1"><p>Text</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Business Address</p></td><td colspan="1" rowspan="1"><p>Address</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Shipping Information</p></td><td colspan="1" rowspan="1"><p>LongText</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>(checked)</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr></tbody></table>
+    <table style="min-width: 200px;"><colgroup><col style="min-width: 25px;"><col style="min-width: 25px;"><col style="min-width: 25px;"><col style="min-width: 25px;"><col style="min-width: 25px;"><col style="min-width: 25px;"><col style="min-width: 25px;"><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong>Name</strong></p></td><td colspan="1" rowspan="1"><p><strong>Type<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Key?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Label?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Formula<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Show?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Editable?<br></strong></p></td><td colspan="1" rowspan="1"><p><strong>Require?<br></strong></p></td></tr><tr><td colspan="1" rowspan="1"><p>_RowNumber<br>(System generated virtual column)</p></td><td colspan="1" rowspan="1"><p>Number</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>ID</p></td><td colspan="1" rowspan="1"><p>Number</p></td><td colspan="1" rowspan="1"><p>(checked)</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td></tr><tr><td colspan="1" rowspan="1"><p>Phone</p></td><td colspan="1" rowspan="1"><p>Text</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Company Name</p></td><td colspan="1" rowspan="1"><p>Name</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Industry</p></td><td colspan="1" rowspan="1"><p>Text</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Business Address</p></td><td colspan="1" rowspan="1"><p>Address</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr><tr><td colspan="1" rowspan="1"><p>Shipping Information</p></td><td colspan="1" rowspan="1"><p>LongText</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>(checked)</p></td><td colspan="1" rowspan="1"><p></p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p>checked</p></td><td colspan="1" rowspan="1"><p></p></td></tr></tbody></table>
     
-2. Repeat the previous step for each of the highlighted columns in the table above, except the *Industry* column which is updated in the next step.
+2.  Repeat the previous step for each of the highlighted columns in the table above, except the *Industry* column which is updated in the next step.
     
 
 AppSheet supports the *Enumerated Type* for columns. Columns of these types are constrained to having one or more allowed values from a fixed list. In this step, you change the **Industry** column's *type* property to use the *Enum* (single value) or *EnumList* (multiple values) type.
 
-1. Click the pencil icon to the left of the *Industry* column.
+1.  Click the pencil icon to the left of the *Industry* column.
     
     ![The pencil icon highlighted in the UI](https://cdn.qwiklabs.com/H48XA0gmH%2BakXGSARClmVLKTR2SGiSuMwnm2LtGw734%3D align="left")
     
-2. On the column details form, specify the following, and leave the remaining settings as their defaults:
+2.  On the column details form, specify the following, and leave the remaining settings as their defaults:
     
-    <table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Property</strong></p></td><td colspan="1" rowspan="1"><p><strong>Value</strong><br>(type or select)</p></td></tr><tr><td colspan="1" rowspan="1"><p>Type</p></td><td colspan="1" rowspan="1"><p>Enum</p></td></tr><tr><td colspan="1" rowspan="1"><p>Type Details</p></td><td colspan="1" rowspan="1"><p>Accounting</p></td></tr></tbody></table>
+    <table style="min-width: 50px;"><colgroup><col style="min-width: 25px;"><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong>Property</strong></p></td><td colspan="1" rowspan="1"><p><strong>Value</strong><br>(type or select)</p></td></tr><tr><td colspan="1" rowspan="1"><p>Type</p></td><td colspan="1" rowspan="1"><p>Enum</p></td></tr><tr><td colspan="1" rowspan="1"><p>Type Details</p></td><td colspan="1" rowspan="1"><p>Accounting</p></td></tr></tbody></table>
     
-3. Click **Add** for each enum value to be added to the list of allowed values.
+3.  Click **Add** for each enum value to be added to the list of allowed values.
     
     **Note: For information only**
     
@@ -190,26 +190,26 @@ AppSheet supports the *Enumerated Type* for columns. Columns of these types are 
     
     By setting the **Input mode**, you can control whether the values are displayed as buttons arranged naturally or as a vertical stack, or as a dropdown set of radiobuttons in the app.
     
-4. After all the values are entered, click **Done** in the form.
+4.  After all the values are entered, click **Done** in the form.
     
-5. Click **SAVE** to save the app configuration changes.
+5.  Click **SAVE** to save the app configuration changes.
     
-6. Preview the change in the live app preview:
+6.  Preview the change in the live app preview:
     
-    * Select the *companies* table, and click on any one of the companies from the list.
+    *   Select the *companies* table, and click on any one of the companies from the list.
         
-    * Click the pencil icon to edit the company record.
+    *   Click the pencil icon to edit the company record.
         
-    * Scroll down to select the *Industry* column using the dropdown. The enum values are displayed.
+    *   Scroll down to select the *Industry* column using the dropdown. The enum values are displayed.
         
-    * Select any of the values and click **Done**.
+    *   Select any of the values and click **Done**.
         
-    * Click **Save** to save the data changes.
+    *   Click **Save** to save the data changes.
         
 
 Refer to the documentation for more information on [AppSheet column types](https://help.appsheet.com/en/articles/1013271-column-types-diving-deeper).
 
-### **Task 4. Regenerate your app's data structure**
+## **Task 4. Regenerate your app's data structure**
 
 AppSheet reads column metadata from your data source to define the column structure of the app. For spreadsheets, AppSheet uses the column headers to derive this information. Every time you modify the columns in the spreadsheet, you need to regenerate the column structure within the app, or AppSheet won't know how to locate the columns to read and write data and your app will stop functioning.
 
@@ -217,51 +217,51 @@ In this task, you regenerate your app's data structure after adding a new column
 
 **Add a new column to the *contacts* sheet**
 
-1. Open a browser tab and navigate to [Google drive](https://drive.google.com/). If you already have it open then switch to that tab.
+1.  Open a browser tab and navigate to [Google drive](https://drive.google.com/). If you already have it open then switch to that tab.
     
-2. In Google drive, open the `appsheet/data` folder, by double-clicking *appsheet* then double-clicking *data*.
+2.  In Google drive, open the `appsheet/data` folder, by double-clicking *appsheet* then double-clicking *data*.
     
-3. Open the *CustomerContacts-NNNNNNN* folder.
+3.  Open the *CustomerContacts-NNNNNNN* folder.
     
     **Note:** The actual folder name contains numeric digits represented by NNNNNNN.
     
-4. Open the *contacts* sheet.
+4.  Open the *contacts* sheet.
     
-5. Add a new column header in row 1, column F with a value of: **Last Contacted**.
+5.  Add a new column header in row 1, column F with a value of: **Last Contacted**.
     
     We will use this new column to store the last contacted date and time when the person was contacted.
     
     ![The Last Contacted column highlighted in the sheet](https://cdn.qwiklabs.com/wKVFy%2Blokd2yLEE2EvG7v1oa8PqX09OZPFFCPrlH5OU%3D align="left")
     
-6. Switch to the AppSheet editor in your browser and navigate to **Data &gt; contacts**.
+6.  Switch to the AppSheet editor in your browser and navigate to **Data > contacts**.
     
-7. Click **More**(three dots) of the contacts tile and then select **Regenerate Schema**.
+7.  Click **More**(three dots) of the contacts tile and then select **Regenerate Schema**.
     
-8. Click **Regenerate** to confirm.
+8.  Click **Regenerate** to confirm.
     
     AppSheet regenerates the column structure for the *contacts* table, and re-syncs the app in the live preview.
     
 
 AppSheet also infers the type of the new column which may not be the intented column type.
 
-9. Using the **Type** dropdown list, change the type of the *Last Contacted* column to **DateTime**.
+9.  Using the **Type** dropdown list, change the type of the *Last Contacted* column to **DateTime**.
     
-10. Since it is not mandatory for every contact to have a value for this column, scroll the column properties to the right and verify that the **Require?** property is unchecked. If checked, then select it to uncheck the property.
-    
-11. Click **SAVE** to save your app configuration changes.
-    
+10.  Since it is not mandatory for every contact to have a value for this column, scroll the column properties to the right and verify that the **Require?** property is unchecked. If checked, then select it to uncheck the property.
+     
+11.  Click **SAVE** to save your app configuration changes.
+     
 
 **Preview the new column in the app**
 
-1. In the app live preview, select one of the contacts from the list.
+1.  In the app live preview, select one of the contacts from the list.
     
-2. Click the pencil icon to edit the contact.
+2.  Click the pencil icon to edit the contact.
     
-3. Scroll to the bottom and click the calendar icon to set the *Last Contacted* value for the contact.
+3.  Scroll to the bottom and click the calendar icon to set the *Last Contacted* value for the contact.
     
-4. Click **Save** in the app preview to save the data for this contact.
+4.  Click **Save** in the app preview to save the data for this contact.
     
-5. View the *contacts* sheet on Google drive to verify that the contact that was updated using the app reflects the updated value in the *Last Contacted* column.
+5.  View the *contacts* sheet on Google drive to verify that the contact that was updated using the app reflects the updated value in the *Last Contacted* column.
     
 
 Click *Check my progress* to verify the objective.
@@ -270,7 +270,7 @@ Regenerate your app's data structure
 
 **Check my progress**
 
-### **Task 5. Create relationships between tables**
+## **Task 5. Create relationships between tables**
 
 The person contacts in the *contacts* sheet are likely employed at the companies whose information is stored in the *companies* sheet.
 
@@ -282,59 +282,59 @@ Read the AppSheet documentation to learn more about the [Ref column type](https:
 
 **Set up the reference column in the *contacts* sheet**
 
-1. In the *contacts* sheet on Google drive add a new column header in row 1, column G with a value of: **Company ID**.
+1.  In the *contacts* sheet on Google drive add a new column header in row 1, column G with a value of: **Company ID**.
     
     This new column will be used to store the ID of the company that the contact is associated with.
     
     ![The Company ID column highlighted on the sheet](https://cdn.qwiklabs.com/1yFe5u8ExLcdkCTXUJTIFzKSripZ2n3gXHzVH7KyvFY%3D align="left")
     
-2. Switch to the AppSheet editor in your browser and navigate to **Data &gt; Contacts**.
+2.  Switch to the AppSheet editor in your browser and navigate to **Data > Contacts**.
     
-3. Click **More**(three dots) of the contacts tile and then select **Regenerate Schema**.
+3.  Click **More**(three dots) of the contacts tile and then select **Regenerate Schema**.
     
-4. then Click **Regenerate** to confirm. AppSheet regenerates the column structure of the *contacts* table and adds the new *Company ID* column to the list of columns.
+4.  then Click **Regenerate** to confirm. AppSheet regenerates the column structure of the *contacts* table and adds the new *Company ID* column to the list of columns.
     
-5. Click the pencil icon to the left of the *Company ID* column to edit its properties.
+5.  Click the pencil icon to the left of the *Company ID* column to edit its properties.
     
-6. On the column details form, specify the following, and leave the remaining settings as their defaults:
+6.  On the column details form, specify the following, and leave the remaining settings as their defaults:
     
-    <table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Property</strong></p></td><td colspan="1" rowspan="1"><p><strong>Value</strong><br>(type or select)</p></td></tr><tr><td colspan="1" rowspan="1"><p>Type</p></td><td colspan="1" rowspan="1"><p>Ref</p></td></tr><tr><td colspan="1" rowspan="1"><p>Source table</p></td><td colspan="1" rowspan="1"><p>companies</p></td></tr></tbody></table>
+    <table style="min-width: 50px;"><colgroup><col style="min-width: 25px;"><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong>Property</strong></p></td><td colspan="1" rowspan="1"><p><strong>Value</strong><br>(type or select)</p></td></tr><tr><td colspan="1" rowspan="1"><p>Type</p></td><td colspan="1" rowspan="1"><p>Ref</p></td></tr><tr><td colspan="1" rowspan="1"><p>Source table</p></td><td colspan="1" rowspan="1"><p>companies</p></td></tr></tbody></table>
     
     This changes the type of the column to be a *reference* that refers to the *companies* table.
     
     When contacts are added or updated in the app to include the company that is associated with the contact, AppSheet automatically stores the Company ID in this column in the *contacts* sheet.
     
-7. Since the value displayed in the app for this column is the actual company name, you should change the display name of the column. To do this, scroll down in the same form and expand the **Display** section. Then, click the expression assistant icon in the **Display name** field.
+7.  Since the value displayed in the app for this column is the actual company name, you should change the display name of the column. To do this, scroll down in the same form and expand the **Display** section. Then, click the expression assistant icon in the **Display name** field.
     
-8. In the **Expression Assistant** form for **Display Name expression for column Company ID (Text)**, type **Company**.
+8.  In the **Expression Assistant** form for **Display Name expression for column Company ID (Text)**, type **Company**.
     
-9. Click **Save** in the expression assistant form.
+9.  Click **Save** in the expression assistant form.
     
-10. Click **Done** to save the changes to the column properties.
-    
-11. Finally, click **Save** in the AppSheet editor to save the changes and refresh the app in the live preview.
-    
+10.  Click **Done** to save the changes to the column properties.
+     
+11.  Finally, click **Save** in the AppSheet editor to save the changes and refresh the app in the live preview.
+     
 
 **Preview the *Company* column in the app**
 
-1. In the app live preview, select one of the contacts from the *contacts* list.
+1.  In the app live preview, select one of the contacts from the *contacts* list.
     
-2. Click the pencil icon to edit the contact.
+2.  Click the pencil icon to edit the contact.
     
-3. Scroll to the bottom and select a *Company* from the drop-down list of companies. AppSheet has automatically populated the list from the *companies* table.
+3.  Scroll to the bottom and select a *Company* from the drop-down list of companies. AppSheet has automatically populated the list from the *companies* table.
     
-4. Click **Save** in the app preview to save the data for this contact.
+4.  Click **Save** in the app preview to save the data for this contact.
     
-5. View the *contacts* sheet on Google drive to verify that the contact that was updated using the app, contains the ID of the company that was selected.
+5.  View the *contacts* sheet on Google drive to verify that the contact that was updated using the app, contains the ID of the company that was selected.
     
 
 Click *Check my progress* to verify the objective.
 
 Create relationships between tables
 
----
+* * *
 
-### Solution of Lab
+## Solution of Lab
 
 ### Quick
 
@@ -344,62 +344,62 @@ Download file: [quicklab.xlsx](https://github.com/ePlus-DEV/storage/blob/main/la
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723184531498/af9a8984-ad13-4bb3-aeee-4b3cb8a29661.png align="center")
 
----
+* * *
 
-## Manual
+### Manual
 
 **✅ Task 1: Copy the Sample App**
 
-1. Click **Open AppSheet** → sign in with the provided student account.
+1.  Click **Open AppSheet** → sign in with the provided student account.
     
-2. Close the “Tell us about you” popup if it appears.
+2.  Close the “Tell us about you” popup if it appears.
     
-3. Open the “**Customer Contacts app**” link → click **Copy app**.
+3.  Open the “**Customer Contacts app**” link → click **Copy app**.
     
-4. Set the **App name** to `Customer Contacts` → click **Copy app**.
+4.  Set the **App name** to `Customer Contacts` → click **Copy app**.
     
-5. The app should now appear in your **My apps** page.
+5.  The app should now appear in your **My apps** page.
     
 
----
+* * *
 
 **✅ Task 2: Add a Second Data Source (**`companies`)
 
-1. Open the “**A copy of companies**” link → click **Make a copy**.
+1.  Open the “**A copy of companies**” link → click **Make a copy**.
     
-2. Rename the copied sheet to `companies` → verify it’s in **My Drive**.
+2.  Rename the copied sheet to `companies` → verify it’s in **My Drive**.
     
-3. In AppSheet, go to **Data &gt; Contacts** → click **\+ Add new data**.
+3.  In AppSheet, go to **Data > Contacts** → click **\+ Add new data**.
     
-4. Choose **Google Sheets** → select the `companies` sheet.
+4.  Choose **Google Sheets** → select the `companies` sheet.
     
-5. In the **Create a new table** form → click **Add 1 table**.
+5.  In the **Create a new table** form → click **Add 1 table**.
     
 
 ✅ The `companies` table is now added as a second data source.
 
----
+* * *
 
 **✅ Task 3: Configure Data Structure**
 
 🧩 Update `contacts` table
 
-* **First Name** → enable `Require?` ✅
+*   **First Name** → enable `Require?` ✅
     
-* **Phone** → change `Type` to `Phone`
+*   **Phone** → change `Type` to `Phone`
     
 
 👉 Click **SAVE**
 
----
+* * *
 
 🧩 Update `companies` table
 
-* **Phone** → change `Type` to `Phone`
+*   **Phone** → change `Type` to `Phone`
     
-* **Business Address** → change `Type` to `Address`
+*   **Business Address** → change `Type` to `Address`
     
-* **Shipping Information** → change `Type` to `LongText`
+*   **Shipping Information** → change `Type` to `LongText`
     
 
 🔁 **Industry** → change `Type` to `Enum` and add the following values:
@@ -414,34 +414,34 @@ Travel and Hospitality
 
 👉 Click **SAVE**
 
----
+* * *
 
 🧩 Create a View for `companies` table
 
-1. Go to **App &gt; Views** → click `+`.
+1.  Go to **App > Views** → click `+`.
     
-2. **View name:** `companies`
+2.  **View name:** `companies`
     
-3. **For this data:** `companies`
+3.  **For this data:** `companies`
     
-4. Click **Save** → preview the company data view and try editing a record.
+4.  Click **Save** → preview the company data view and try editing a record.
     
 
----
+* * *
 
 **✅ Task 4: Regenerate Schema After Adding a New Column**
 
 ➕ Add a new column to `contacts`
 
-1. Open the `contacts` sheet in Google Drive.
+1.  Open the `contacts` sheet in Google Drive.
     
-2. Add a new column header: **Last Contacted** (column F).
+2.  Add a new column header: **Last Contacted** (column F).
     
-3. Go back to AppSheet → **Data &gt; Contacts** → **More (...) &gt; Regenerate Schema**.
+3.  Go back to AppSheet → **Data > Contacts** → **More (...) > Regenerate Schema**.
     
-4. Set `Type` of `Last Contacted` to **DateTime**.
+4.  Set `Type` of `Last Contacted` to **DateTime**.
     
-5. Make sure `Require?` ❌ is unchecked.
+5.  Make sure `Require?` ❌ is unchecked.
     
 
 👉 Click **SAVE**
@@ -449,26 +449,26 @@ Travel and Hospitality
 📱 In the app preview → edit a contact → select a date for **Last Contacted** → **Save**.  
 Verify the new column updates in the sheet.
 
----
+* * *
 
 **✅ Task 5: Create a Relationship Between Tables**
 
 🧩 Add `Company ID` column
 
-1. In the `contacts` sheet, add a new column: **Company ID** (column G).
+1.  In the `contacts` sheet, add a new column: **Company ID** (column G).
     
-2. Go back to AppSheet → **Data &gt; Contacts** → **Regenerate Schema**.
+2.  Go back to AppSheet → **Data > Contacts** → **Regenerate Schema**.
     
 
 ⚙️ Configure Reference (Ref) column
 
-1. Click ✏️ next to `Company ID`.
+1.  Click ✏️ next to `Company ID`.
     
-2. Change `Type` → **Ref**.
+2.  Change `Type` → **Ref**.
     
-3. Set **Source table** → `companies`.
+3.  Set **Source table** → `companies`.
     
-4. In the **Display Name** section → enter `Company`.
+4.  In the **Display Name** section → enter `Company`.
     
 
 👉 Click **Save**.
