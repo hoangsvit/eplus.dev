@@ -301,6 +301,16 @@ source lab.sh
 
 **Script Alternative**
 
+```plaintext
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20a%20Website%20on%20Google%20Cloud%3A%20Challenge%20Lab/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a54deafd-ec63-483e-a7dd-c77a0259002f.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/6bdc3520-e482-4a01-a97d-7ca10758c90a.png align="center")
+
 * * *
 
 ### Manual
