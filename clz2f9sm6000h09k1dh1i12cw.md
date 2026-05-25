@@ -21,29 +21,29 @@ Although you can easily copy and paste commands from the lab to the appropriate 
 
 ### What you'll do
 
-* Create a VM with the Cloud console.
+*   Create a VM with the Cloud console.
     
-* Create a VM with the `gcloud` command line.
+*   Create a VM with the `gcloud` command line.
     
-* Deploy a web server and connect it to a VM.
+*   Deploy a web server and connect it to a VM.
     
 
 ### Prerequisites
 
-* Familiarity with standard Linux text editors such as `vim`, `emacs`, or `nano`.
+*   Familiarity with standard Linux text editors such as `vim`, `emacs`, or `nano`.
     
 
 ## **Task 1. Create a new instance from the Cloud console**
 
 In this section, you create new predefined machine types with Compute Engine from the Cloud console.
 
-1. In the Cloud console, on the **Navigation menu** (), click **Compute Engine** &gt; **VM Instances**.
+1.  In the Cloud console, on the **Navigation menu** (), click **Compute Engine** > **VM Instances**.
     
     This may take a minute to initialize for the first time.
     
-2. To create a new instance, click **CREATE INSTANCE**.
+2.  To create a new instance, click **CREATE INSTANCE**.
     
-3. There are many parameters you can configure when creating a **new instance**. Use the following for this lab:
+3.  There are many parameters you can configure when creating a **new instance**. Use the following for this lab:
     
 
 | **Field** | **Value** | **Additional Information** |
@@ -56,11 +56,11 @@ In this section, you create new predefined machine types with Compute Engine fro
 | **Boot Disk** | **New 10 GB balanced persistent diskOS Image: Debian GNU/Linux 11 (bullseye)** | Several images are available, including Debian, Ubuntu, CoreOS, and premium images such as Red Hat Enterprise Linux and Windows Server. For more information, see Operating System documentation. |
 | **Firewall** | **Allow HTTP traffic** | Select this option in order to access a web server that you install later. **Note:** This automatically creates a firewall rule to allow HTTP traffic on port 80. |
 
-4. Click **Create**.
+4.  Click **Create**.
     
     It should take about a minute for the VM, `gcelab`, to be created. After `gcelab` is created, the **VM Instances** page lists it in the VM instances list.
     
-5. To use **SSH** to connect to the VM, click **SSH** to the right of the instance name, `gcelab`.
+5.  To use **SSH** to connect to the VM, click **SSH** to the right of the instance name, `gcelab`.
     
     This launches an SSH client directly from your browser.
     
@@ -71,7 +71,7 @@ In this section, you create new predefined machine types with Compute Engine fro
 
 Now you install an NGINX web server, one of the most popular web servers in the world, to connect your VM to something.
 
-1. Update the OS:
+1.  Update the OS:
     
     ```powershell
     sudo apt-get update
@@ -88,7 +88,7 @@ Now you install an NGINX web server, one of the most popular web servers in the 
      ...
     ```
     
-2. Install NGINX:
+2.  Install NGINX:
     
     ```powershell
     sudo apt-get install -y nginx
@@ -106,7 +106,7 @@ Now you install an NGINX web server, one of the most popular web servers in the 
      ...
     ```
     
-3. Confirm that NGINX is running:
+3.  Confirm that NGINX is running:
     
     ```apache
     ps auwx | grep nginx
@@ -123,7 +123,7 @@ Now you install an NGINX web server, one of the most popular web servers in the 
      root      2342  0.0  0.0  12780   988 pts/0    S+   14:07   0:00 grep nginx
     ```
     
-4. To see the web page, return to the Cloud console and click the **External IP** link in the row for your machine, or add the **External IP** value to `http://EXTERNAL_IP/` in a new browser window or tab.
+4.  To see the web page, return to the Cloud console and click the **External IP** link in the row for your machine, or add the **External IP** value to `http://EXTERNAL_IP/` in a new browser window or tab.
     
     This default web page should open:
     
@@ -142,7 +142,7 @@ Instead of using the Cloud console to create a VM instance, use the command line
 
 **Note:** If you want to try this on your own machine, read the [gcloud command line tool guide](https://cloud.google.com/sdk/gcloud/).
 
-1. In the Cloud Shell, use `gcloud` to create a new VM instance from the command line:
+1.  In the Cloud Shell, use `gcloud` to create a new VM instance from the command line:
     
     ```apache
     gcloud compute instances create gcelab2 --machine-type e2-medium --zone=$ZONE
@@ -169,16 +169,16 @@ Instead of using the Cloud console to create a VM instance, use the command line
     
     The new instance has these default values:
     
-    * The latest [Debian 11 (bullseye)](https://cloud.google.com/compute/docs/images#debian) image.
+    *   The latest [Debian 11 (bullseye)](https://cloud.google.com/compute/docs/images#debian) image.
         
-    * The `e2-medium`[machine type](https://cloud.google.com/compute/docs/machine-types).
+    *   The `e2-medium`[machine type](https://cloud.google.com/compute/docs/machine-types).
         
-    * A root persistent disk with the same name as the instance; the disk is automatically attached to the instance.
+    *   A root persistent disk with the same name as the instance; the disk is automatically attached to the instance.
         
     
     When working in your own project, you can specify a [custom machine type](https://cloud.google.com/compute/docs/instances/creating-instance-with-custom-machine-type).
     
-2. To see all the defaults, run:
+2.  To see all the defaults, run:
     
     ```bash
     gcloud compute instances create --help
@@ -192,31 +192,31 @@ Instead of using the Cloud console to create a VM instance, use the command line
     
     `gcloud config set compute/region ...`
     
-3. To exit `help`, press **CTRL + C**.
+3.  To exit `help`, press **CTRL + C**.
     
-4. In the Cloud console, on the **Navigation menu**, click **Compute Engine &gt; VM instances**.  
+4.  In the Cloud console, on the **Navigation menu**, click **Compute Engine > VM instances**.  
     Your two new instances should be listed.
     
-5. You can also use SSH to connect to your instance via `gcloud`. Make sure to add your zone, or omit the `--zone` flag if you've set the option globally:
+5.  You can also use SSH to connect to your instance via `gcloud`. Make sure to add your zone, or omit the `--zone` flag if you've set the option globally:
     
     ```bash
     gcloud compute ssh gcelab2 --zone=$ZONE
     ```
     
-6. Type **Y** to continue.
+6.  Type **Y** to continue.
     
     ```bash
        Do you want to continue? (Y/n)
     ```
     
-7. Press **ENTER** through the passphrase section to leave the passphrase empty.
+7.  Press **ENTER** through the passphrase section to leave the passphrase empty.
     
     ```bash
        Generating public/private rsa key pair.
        Enter passphrase (empty for no passphrase)
     ```
     
-8. After connecting, disconnect from SSH by exiting from the remote shell:
+8.  After connecting, disconnect from SSH by exiting from the remote shell:
     
     ```bash
      exit
@@ -229,12 +229,12 @@ Test your knowledge about Google Cloud by taking the quiz. (Please select multip
 
 Question: **Through which of the following ways can you create a VM instance in Compute Engine?**
 
-* <mark>The gcloud command line tool</mark>
+*   <mark class="bg-yellow-200 dark:bg-yellow-500/30">The gcloud command line tool</mark>
     
-* <mark>The Cloud console</mark>
+*   <mark class="bg-yellow-200 dark:bg-yellow-500/30">The Cloud console</mark>
     
 
----
+* * *
 
 ## Solution of Lab
 
@@ -255,7 +255,7 @@ sudo chmod +x *.sh
 ./*.sh
 ```
 
----
+* * *
 
 ### Old Solution
 
@@ -276,3 +276,9 @@ sudo chmod +x quicklabgsp001.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721981172435/e843096c-5d3e-4ded-996f-57beab7004ed.png align="center")
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=P35UO6SjTq4]
