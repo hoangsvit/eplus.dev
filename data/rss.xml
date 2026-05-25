@@ -5,7 +5,7 @@
     <link>https://eplus.dev</link>
     <description>Latest posts from ePlus DEV</description>
     <language>en</language>
-    <lastBuildDate>Mon, 25 May 2026 12:09:40 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 12:34:56 GMT</lastBuildDate>
     <pubDate>Mon, 25 May 2026 02:37:53 GMT</pubDate>
     <generator>GitHub Actions</generator>
 
@@ -224,12 +224,6 @@
       <link>https://eplus.dev/create-vpc-peering-connection-between-vpcs-solution-1</link>
       <guid isPermaLink="true">https://eplus.dev/create-vpc-peering-connection-between-vpcs-solution-1</guid>
       <pubDate>Sun, 15 Feb 2026 07:56:45 GMT</pubDate>
-    </item>
-    <item>
-      <title>Manage Rendering for Cloud Storage Website Hosting (Solution)</title>
-      <link>https://eplus.dev/manage-rendering-for-cloud-storage-website-hosting-solution-1</link>
-      <guid isPermaLink="true">https://eplus.dev/manage-rendering-for-cloud-storage-website-hosting-solution-1</guid>
-      <pubDate>Sun, 15 Feb 2026 07:48:10 GMT</pubDate>
     </item>
     <item>
       <title>Configure Cloud Buckets with gsutil for Load Balancing &amp; Fault Tolerance (Solution)</title>
