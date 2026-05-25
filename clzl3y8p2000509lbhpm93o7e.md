@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-08-08T10:00:53.894Z
 cuid: clzl3y8p2000509lbhpm93o7e
 slug: build-a-website-on-google-cloud-challenge-lab-gsp319
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723110281154/17a56171-b252-4784-b7ea-33e66a4cb4f0.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723111234001/004ce568-0a97-4944-b0bf-48b25ce13df9.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9e73d9b7-cf7b-447f-8524-8fa55cd8fc54.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/7e15a159-fd65-4d07-80d2-0012914e63a5.png
 tags: build-a-website-on-google-cloud-challenge-lab-gsp319
 
 ---
@@ -21,15 +21,15 @@ To score 100% you must successfully complete all tasks within the time period!
 
 This lab is recommended for students who have enrolled in the [Build a Website on Google Cloud](https://google.qwiklabs.com/quests/115) quest. Are you ready for the challenge?
 
----
+* * *
 
 ### **Task 1. Download the monolith code and build your container**
 
-1. Log in to your new project and open up Cloud Shell.
+1.  Log in to your new project and open up Cloud Shell.
     
-2. First things first, you'll need to [clone your team's git repo](https://github.com/googlecodelabs/monolith-to-microservices.git). There's a *setup.sh* script in the root directory of the project that you'll need to run to get your monolith container built up.
+2.  First things first, you'll need to [clone your team's git repo](https://github.com/googlecodelabs/monolith-to-microservices.git). There's a *setup.sh* script in the root directory of the project that you'll need to run to get your monolith container built up.
     
-3. After running the `setup.sh` script, ensure your Cloud Shell is running its latest version of nodeJS:
+3.  After running the `setup.sh` script, ensure your Cloud Shell is running its latest version of nodeJS:
     
 
 ```apache
@@ -38,18 +38,18 @@ nvm install --lts
 
 There will be a few different projects that can be built and pushed.
 
-4. Push the monolith build (conveniently located in the `monolith` directory) up to the Artifact Registry. There's a Dockerfile located in the `~/monotlith-to-microservices/monolith` folder which you can use to build the application container.
+4.  Push the monolith build (conveniently located in the `monolith` directory) up to the Artifact Registry. There's a Dockerfile located in the `~/monotlith-to-microservices/monolith` folder which you can use to build the application container.
     
-5. You will have to run Cloud Build (in that monolith folder) to build it, then push it up to Artifact Registry.
+5.  You will have to run Cloud Build (in that monolith folder) to build it, then push it up to Artifact Registry.
     
-6. Name your artifact as follows:
+6.  Name your artifact as follows:
     
 
-* Repo: gcr.io/${GOOGLE\_CLOUD\_PROJECT}
+*   Repo: gcr.io/${GOOGLE\_CLOUD\_PROJECT}
     
-* Image name: `fancy-monolith-580`
+*   Image name: `fancy-monolith-580`
     
-* Image version: 1.0.0
+*   Image version: 1.0.0
     
 
 **Hint:**
@@ -68,14 +68,14 @@ Now that you have the image created and sitting in the Artifact Registry, it's t
 
 You've been told to deploy all of your resources in the `europe-west4-b` zone, so first you'll need to create a GKE cluster for it. Start with a 3 node cluster to begin with.
 
-1. Create your cluster as follows:
+1.  Create your cluster as follows:
     
 
-* Cluster name: `fancy-prod-697`
+*   Cluster name: `fancy-prod-697`
     
-* Region: `europe-west4`
+*   Region: `europe-west4`
     
-* Node count: 3
+*   Node count: 3
     
 
 **Hint:**
@@ -86,23 +86,23 @@ Now that you've built up an image, and have a cluster up and running, it's time 
 
 You'll need to deploy the image that you've built onto your cluster. This will get your application up and running, but it can't be accessed until you expose it to the outside world. Your team has told you that the application runs on port 8080, but you will need to expose this on a more consumer-friendly port 80.
 
-2. Create and expose your deployment as follows:
+2.  Create and expose your deployment as follows:
     
 
-* Cluster name: `fancy-prod-697`
+*   Cluster name: `fancy-prod-697`
     
-* Container name: `fancy-monolith-580`
+*   Container name: `fancy-monolith-580`
     
-* Container version: 1.0.0
+*   Container version: 1.0.0
     
-* Application port: 8080
+*   Application port: 8080
     
-* Externally accessible port: 80
+*   Externally accessible port: 80
     
 
 **Note:** For purposes of this lab, exposure of the service has been simplified. Typically, you would use an API gateway to secure your public endpoints. Learn more about best practices in the [Best practices for microservices Guide](https://cloud.google.com/solutions/migrating-a-monolithic-app-to-microservices-gke#best_practices_for_microservices).
 
-3. Make note of the IP address that is assigned in the expose deployment operation. You should now be able to visit this IP address from your browser!
+3.  Make note of the IP address that is assigned in the expose deployment operation. You should now be able to visit this IP address from your browser!
     
 
 You should see the following:
@@ -131,25 +131,25 @@ For the purposes of this Challenge, fast forward a bit and pretend that you have
 
 There are 3 services that need to be broken out into their own containers. Since you are moving all of the services into containers, you need to track the following information for each service:
 
-* The root folder of the service (where you will build the container)
+*   The root folder of the service (where you will build the container)
     
-* The repository you will upload the container to
+*   The repository you will upload the container to
     
-* The name & version of the container artifact
+*   The name & version of the container artifact
     
 
 **Create a containerized version of your microservices**
 
 Below is the set of services which need to be containerized.
 
-1. Navigate to the source roots mentioned below, and upload the artifacts that are created to the Artifact Registry with the metadata indicated:
+1.  Navigate to the source roots mentioned below, and upload the artifacts that are created to the Artifact Registry with the metadata indicated:
     
 
 | **Orders Microservice** | `Service root folder: ~/monolith-to-microservices/microservices/src/orders` |
 | --- | --- |
 | **Products Microservice** | `Service root folder: ~/monolith-to-microservices/microservices/src/products` |
 
-2. Once these microservices have been containerized, and their images uploaded to Artifact Registry, you should deploy and expose these services.
+2.  Once these microservices have been containerized, and their images uploaded to Artifact Registry, you should deploy and expose these services.
     
 
 Hint: Make sure that you submit a build named `fancy-orders-884` with a version of "1.0.0", AND a build named `fancy-products-172` with a version of "1.0.0".
@@ -164,7 +164,7 @@ Create a containerized version of orders and product Microservices
 
 Deploy these new containers following the same process that you followed for the `fancy-monolith-580` monolith. Note that these services will be listening on different ports, so make note of the port mappings in the table below.
 
-1. Create and expose your deployments as follows:
+1.  Create and expose your deployments as follows:
     
 
 | **Orders Microservice** | `Cluster name: fancy-prod-697` |
@@ -173,7 +173,7 @@ Deploy these new containers following the same process that you followed for the
 
 NOTE: *Please make note of the IP address of both the Orders and Products services once they have been exposed, you will need them in future steps*.
 
-2. You can verify that the deployments were successful and that the services have been exposed by going to the following URLs in your browser:
+2.  You can verify that the deployments were successful and that the services have been exposed by going to the following URLs in your browser:
     
 
 `http://ORDERS_EXTERNAL_IP/api/orders`
@@ -196,7 +196,7 @@ Now that you have extracted both the Orders and Products microservice, you need 
 
 **Reconfigure Frontend**
 
-1. Use the `nano` editor to replace the local URL with the IP address of the new Products microservices:
+1.  Use the `nano` editor to replace the local URL with the IP address of the new Products microservices:
     
 
 ```python
@@ -211,7 +211,7 @@ REACT_APP_ORDERS_URL=http://localhost:8081/api/orders
 REACT_APP_PRODUCTS_URL=http://localhost:8082/api/products
 ```
 
-2. Replace the `REACT_APP_PRODUCTS_URL` to the new format while replacing with your Orders and Product microservice IP addresses so it matches below:
+2.  Replace the `REACT_APP_PRODUCTS_URL` to the new format while replacing with your Orders and Product microservice IP addresses so it matches below:
     
 
 ```apache
@@ -219,9 +219,9 @@ REACT_APP_ORDERS_URL=http://<ORDERS_IP_ADDRESS>/api/orders
 REACT_APP_PRODUCTS_URL=http://<PRODUCTS_IP_ADDRESS>/api/products
 ```
 
-3. Press **CTRL+O**, press **ENTER**, then **CTRL+X** to save the file in the `nano` editor.
+3.  Press **CTRL+O**, press **ENTER**, then **CTRL+X** to save the file in the `nano` editor.
     
-4. Now rebuild the frontend app before containerizing it:
+4.  Now rebuild the frontend app before containerizing it:
     
 
 ```apache
@@ -234,13 +234,13 @@ With the Orders and Products microservices now containerized and deployed, and t
 
 Use Cloud Build to package up the contents of the Frontend service and push it up to Artifact Registry.
 
-* Service root folder: ~/monolith-to-microservices/microservices/src/frontend
+*   Service root folder: ~/monolith-to-microservices/microservices/src/frontend
     
-* Repo: gcr.io/${GOOGLE\_CLOUD\_PROJECT}
+*   Repo: gcr.io/${GOOGLE\_CLOUD\_PROJECT}
     
-* Image name: `fancy-frontend-507`
+*   Image name: `fancy-frontend-507`
     
-* Image version: 1.0.0
+*   Image version: 1.0.0
     
 
 This process may take a few minutes, so be patient.
@@ -257,21 +257,21 @@ Create a containerized version of the Frontend microservice
 
 Deploy this container following the same process that you followed for the "Orders" and "Products" microservices.
 
-1. Create and expose your deployment as follows:
+1.  Create and expose your deployment as follows:
     
 
-* Cluster name: `fancy-prod-697`
+*   Cluster name: `fancy-prod-697`
     
-* Container name: `fancy-frontend-507`
+*   Container name: `fancy-frontend-507`
     
-* Container version: 1.0.0
+*   Container version: 1.0.0
     
-* Application port: 8080
+*   Application port: 8080
     
-* Externally accessible port: 80
+*   Externally accessible port: 80
     
 
-2. You can verify that the deployment was successful and that the microservices have been properly exposed by hitting the following the IP address of the frontend service in your browser:?.
+2.  You can verify that the deployment was successful and that the microservices have been properly exposed by hitting the following the IP address of the frontend service in your browser:?.
     
 
 You will see the Fancy Store homepage, with links to the Products and Orders pages powered by your new microservices.
@@ -280,9 +280,30 @@ Click *Check my progress* to verify the objective.
 
 Deploy the Frontend microservice
 
----
+* * *
 
-### Solution of Lab
+## Solution of Lab
+
+### Quick
+
+%[https://www.youtube.com/watch?v=D4F-_V_Fz1o] 
+
+```plaintext
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20a%20Website%20on%20Google%20Cloud%3A%20Challenge%20Lab/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
+```
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP319/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+* * *
+
+### Manual
 
 %[https://www.youtube.com/watch?v=hIaM45Tph4Y] 
 
