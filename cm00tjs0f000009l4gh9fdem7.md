@@ -694,6 +694,18 @@ When the build is finished, reload the application in your browser. You should n
 
 ## Solution of Lab
 
+### New solution
+
+%[https://www.youtube.com/watch?v=UplruPrsNcA] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Google%20Kubernetes%20Engine%20Pipeline%20using%20Cloud%20Build/TechCode.sh
+sudo chmod +x TechCode.sh 
+./TechCode.sh
+```
+
+### Old solution
+
 %[https://www.youtube.com/watch?v=6T5_KwNvgy4] 
 
 ```plaintext
@@ -715,4 +727,4 @@ sudo chmod +x quicklabgsp1077.sh
 
 ### Manual
 
-%[https://www.youtube.com/watch?v=mo8YHsvfPjk]
+%[https://www.youtube.com/watch?v=mo8YHsvfPjk&embeds_referring_euri=https%3A%2F%2Feplus.dev%2F]
