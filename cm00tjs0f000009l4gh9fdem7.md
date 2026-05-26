@@ -699,6 +699,13 @@ When the build is finished, reload the application in your browser. You should n
 %[https://www.youtube.com/watch?v=UplruPrsNcA] 
 
 ```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1077/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
 curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Google%20Kubernetes%20Engine%20Pipeline%20using%20Cloud%20Build/TechCode.sh
 sudo chmod +x TechCode.sh 
 ./TechCode.sh
@@ -711,8 +718,8 @@ sudo chmod +x TechCode.sh
 %[https://www.youtube.com/watch?v=6T5_KwNvgy4] 
 
 ```plaintext
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1077/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1077/old-lab.sh
+source old-lab.sh
 ```
 
 **Script Alternative**
