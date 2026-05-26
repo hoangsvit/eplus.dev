@@ -169,6 +169,8 @@ Call the Speech-to-Text API
 
 ## Solution of Lab
 
+### Quick
+
 %[https://www.youtube.com/watch?v=0OOpG5_lXuM] 
 
 Open: [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
