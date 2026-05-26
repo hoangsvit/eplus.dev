@@ -607,9 +607,8 @@ kubectl set image deployment/monolith monolith=gcr.io/${GOOGLE_CLOUD_PROJECT}/mo
 
 9.  Verify your application is now hitting the new Products microservice by going to the monolith application in your browser and navigating to the Products page. All the product names should be prefixed by MS- as shown below:
     
-
-9.  Verify your application is now hitting the new Products microservice by going to the monolith application in your browser and navigating to the Products page. All the product names should be prefixed by MS- as shown below:
-    
+10.  Verify your application is now hitting the new Products microservice by going to the monolith application in your browser and navigating to the Products page. All the product names should be prefixed by MS- as shown below:
+     
 
 ![Image tiles with each image labelled in the following format: MS- image name - price. Example: MS-Vintage Typewriter-$67.99.](https://cdn.qwiklabs.com/qQwX8B%2F24ZwBAlloTffI%2B0vxlMhc11fJfKvPQSOSur8%3D align="center")
 
@@ -704,6 +703,15 @@ Once you've determined the external IP address for your frontend microservice, c
 ## Solution of Lab
 
 %[https://www.youtube.com/watch?v=khYq2ku6FlQ] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP699/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9a44b67d-a886-4445-b7c9-325fe822fdd7.png align="center")
 
 ```plaintext
 export ZONE=
