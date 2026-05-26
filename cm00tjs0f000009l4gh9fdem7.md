@@ -7,7 +7,7 @@ cuid: cm00tjs0f000009l4gh9fdem7
 slug: google-kubernetes-engine-pipeline-using-cloud-build-gsp1077
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1b5c422b-568a-42d1-bc8a-b9ea778493d3.png
 ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/a6a07311-c453-4cd6-853b-33f799838125.png
-tags: google-kubernetes-engine-pipeline-using-cloud-build-gsp1077
+tags: google-kubernetes-engine-pipeline-using-cloud-build-gsp1077, gsp1077, google-kubernetes-engine-pipeline-using-cloud-build
 
 ---
 
