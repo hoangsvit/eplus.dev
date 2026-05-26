@@ -5,10 +5,16 @@
     <link>https://eplus.dev</link>
     <description>Latest posts from ePlus DEV</description>
     <language>en</language>
-    <lastBuildDate>Tue, 26 May 2026 01:50:37 GMT</lastBuildDate>
-    <pubDate>Mon, 25 May 2026 02:37:53 GMT</pubDate>
+    <lastBuildDate>Tue, 26 May 2026 02:52:37 GMT</lastBuildDate>
+    <pubDate>Tue, 26 May 2026 02:52:20 GMT</pubDate>
     <generator>GitHub Actions</generator>
 
+    <item>
+      <title>Deploy, Scale, and Update Your Website on Google Kubernetes Engine - GSP663</title>
+      <link>https://eplus.dev/deploy-scale-and-update-your-website-on-google-kubernetes-engine-gsp663</link>
+      <guid isPermaLink="true">https://eplus.dev/deploy-scale-and-update-your-website-on-google-kubernetes-engine-gsp663</guid>
+      <pubDate>Tue, 26 May 2026 02:52:20 GMT</pubDate>
+    </item>
     <item>
       <title>Deploy and Manage Applications on Google App Engine: Challenge Lab - ARC112</title>
       <link>https://eplus.dev/deploy-and-manage-applications-on-google-app-engine-challenge-lab-arc112</link>
