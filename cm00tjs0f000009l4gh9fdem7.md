@@ -704,6 +704,8 @@ sudo chmod +x TechCode.sh
 ./TechCode.sh
 ```
 
+* * *
+
 ### Old solution
 
 %[https://www.youtube.com/watch?v=6T5_KwNvgy4] 
