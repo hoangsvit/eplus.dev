@@ -29,12 +29,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -45,13 +45,13 @@ You have just completed training on containers and their creation and management
 
 You are expected to create container images, store the images in a repository, and expose a deployment in Kubernetes. Your know that Kurt, your supervisor, will ask you to complete these tasks:
 
-* Create a Docker image and store the Dockerfile.
+*   Create a Docker image and store the Dockerfile.
     
-* Test the created Docker image.
+*   Test the created Docker image.
     
-* Push the Docker image into the Artifact Registry.
+*   Push the Docker image into the Artifact Registry.
     
-* Use the image to create and expose a deployment in Kubernetes
+*   Use the image to create and expose a deployment in Kubernetes
     
 
 ### Your challenge
@@ -60,14 +60,14 @@ As soon as you sit down at your desk and open your new laptop you receive the fo
 
 ## **Task 1. Create a Docker image and store the Dockerfile**
 
-1. Open Cloud Shell and run the following command. This will install the marking scripts you will use to help check your progress.
+1.  Open Cloud Shell and run the following command. This will install the marking scripts you will use to help check your progress.
     
 
 ```apache
 source <(gsutil cat gs://cloud-training/gsp318/marking/setup_marking_v2.sh)
 ```
 
-2. Use Cloud Shell to clone the `valkyrie-app` source code repository into the `~/marking` directory. You can use the following command:
+2.  Use Cloud Shell to clone the `valkyrie-app` source code repository into the `~/marking` directory. You can use the following command:
     
 
 ```apache
@@ -76,7 +76,7 @@ gcloud source repos clone valkyrie-app
 
 The app source code is in `valkyrie-app/source`.
 
-3. Create `valkyrie-app/Dockerfile` and add the configuration below:
+3.  Create `valkyrie-app/Dockerfile` and add the configuration below:
     
 
 ```apache
@@ -87,9 +87,9 @@ RUN go install -v
 ENTRYPOINT ["app","-single=true","-port=8080"]
 ```
 
-4. Use `valkyrie-app/Dockerfile` to create a Docker image called `valkyrie-app` with the tag `v0.0.3`.
+4.  Use `valkyrie-app/Dockerfile` to create a Docker image called `valkyrie-app` with the tag `v0.0.3`.
     
-5. Once you have created the Docker image, and before clicking **Check my progress**, run the following command to perform the local check of your work:
+5.  Once you have created the Docker image, and before clicking **Check my progress**, run the following command to perform the local check of your work:
     
 
 ```apache
@@ -106,17 +106,17 @@ Create a Docker image and store the Dockerfile
 
 ## **Task 2. Test the created Docker image**
 
-1. Launch a container using the image `valkyrie-app:v0.0.3`.
+1.  Launch a container using the image `valkyrie-app:v0.0.3`.
     
 
-* You need to map the host’s port 8080 to port 8080 on the container.
+*   You need to map the host’s port 8080 to port 8080 on the container.
     
-* Add `&` to the end of the command to cause the container to run in the background.
+*   Add `&` to the end of the command to cause the container to run in the background.
     
 
 When your container is running you will see the page by **Web Preview**.
 
-2. Once you have your container running, and before clicking **Check my progress**, run the following command to perform the local check of your work.
+2.  Once you have your container running, and before clicking **Check my progress**, run the following command to perform the local check of your work.
     
 
 ```apache
@@ -133,18 +133,18 @@ Test the created Docker image
 
 ## **Task 3. Push the Docker image to the Artifact Registry**
 
-1. Create a repository named `valkyrie-docker-repo` in Artifact Registry. Use **Docker** as the format and use the `us-east1` region as the location.
+1.  Create a repository named `valkyrie-docker-repo` in Artifact Registry. Use **Docker** as the format and use the `us-east1` region as the location.
     
-2. Before you can push or pull images, configure Docker to use the Google Cloud CLI to authenticate requests to Artifact Registry. You will need to set up authentication to Docker repositories. You can use the following command.
+2.  Before you can push or pull images, configure Docker to use the Google Cloud CLI to authenticate requests to Artifact Registry. You will need to set up authentication to Docker repositories. You can use the following command.
     
 
 ```apache
 gcloud auth configure-docker us-east1-docker.pkg.dev
 ```
 
-3. [Re-tag](https://cloud.google.com/artifact-registry/docs/docker/pushing-and-pulling#tag) the container to be able push it to the repository. The format should resemble the following: `LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY/IMAGE`.
+3.  [Re-tag](https://cloud.google.com/artifact-registry/docs/docker/pushing-and-pulling#tag) the container to be able push it to the repository. The format should resemble the following: `LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY/IMAGE`.
     
-4. Push the Docker image to the Artifact Registry.
+4.  Push the Docker image to the Artifact Registry.
     
 
 Click *Check my progress* to verify the objective.
@@ -157,20 +157,20 @@ Push the Docker image to Artifact Registry
 
 Kurt created the `deployment.yaml` and `service.yaml` to deploy your new container image to a Kubernetes cluster (called valkyrie-dev). The two files are in `valkyrie-app/k8s`.
 
-1. Get the Kubernetes credentials using `us-east1-c` zone before you deploy the image onto the Kubernetes cluster.
+1.  Get the Kubernetes credentials using `us-east1-c` zone before you deploy the image onto the Kubernetes cluster.
     
-2. Before you create the deployments, Make sure you check and replace some placeholder values in the `deployment.yaml` file and the format should be `LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY/IMAGE`.
+2.  Before you create the deployments, Make sure you check and replace some placeholder values in the `deployment.yaml` file and the format should be `LOCATION-docker.pkg.dev/PROJECT-ID/REPOSITORY/IMAGE`.
     
-3. Create the deployments from the `deployment.yaml` and `service.yaml` files.
+3.  Create the deployments from the `deployment.yaml` and `service.yaml` files.
     
-4. From the Navigation Menu, select **Kubernetes Engine** &gt; **Gateways, Services & Ingress**. Click on the load balancer IP Address of the `valkyrie-dev` service to verify your services are up and running.
+4.  From the Navigation Menu, select **Kubernetes Engine** > **Gateways, Services & Ingress**. Click on the load balancer IP Address of the `valkyrie-dev` service to verify your services are up and running.
     
 
 Click *Check my progress* to verify the objective.
 
 Create and expose a deployment in Kubernetes
 
----
+* * *
 
 ## Solution of Lab
 
@@ -180,7 +180,8 @@ Create and expose a deployment in Kubernetes
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP318/lab.sh
 source lab.sh
 ```
-![](<https://cdn.hashnode.com/res/hashnode/image/upload/v1723952464585/0da492af-f53d-4f2c-b9dc-ef408ac2f18f.png> align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723952464585/0da492af-f53d-4f2c-b9dc-ef408ac2f18f.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757644915798/3adbcaaa-c29c-4187-a68d-191185ea86f3.png align="center")
 
