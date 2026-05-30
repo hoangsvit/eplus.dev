@@ -23,11 +23,11 @@ Docker containers can be directly used in Kubernetes, which allows them to be ru
 
 In this lab, you will learn how to:
 
-* Build, run, and debug Docker containers.
+*   Build, run, and debug Docker containers.
     
-* Pull Docker images from Docker Hub and Google Artifact Registry.
+*   Pull Docker images from Docker Hub and Google Artifact Registry.
     
-* Push Docker images to Google Artifact Registry.
+*   Push Docker images to Google Artifact Registry.
     
 
 ### Prerequisites
@@ -44,29 +44,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -74,7 +74,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-03-bab5750f16b3@qwiklabs.net
@@ -82,9 +82,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     uBlrXRvfsQKL
@@ -92,19 +92,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -117,7 +117,7 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell**
+1.  Click **Activate Cloud Shell**
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="left")
     
@@ -132,14 +132,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-01-9e1d59f842
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-2. (Optional) You can list the active account name with this command:
+2.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-3. Click **Authorize**.
+3.  Click **Authorize**.
     
 
 **Output:**
@@ -152,7 +152,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-4. (Optional) You can list the project ID with this command:
+4.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -170,7 +170,7 @@ project = qwiklabs-gcp-01-9e1d59f84297
 
 ## **Task 1. Hello world**
 
-1. In Cloud Shell enter the following command to run a hello world container to get started:
+1.  In Cloud Shell enter the following command to run a hello world container to get started:
     
 
 ```apache
@@ -193,7 +193,7 @@ This message shows that your installation appears to be working correctly.
 
 This simple container returns `Hello from Docker!` to your screen. While the command is simple, notice in the output the number of steps it performed. The Docker daemon searched for the hello-world image, didn't find the image locally, pulled the image from a public registry called Docker Hub, created a container from that image, and ran the container for you.
 
-2. Run the following command to take a look at the container image it pulled from Docker Hub:
+2.  Run the following command to take a look at the container image it pulled from Docker Hub:
     
 
 ```apache
@@ -209,7 +209,7 @@ hello-world   latest    feb5d9fea6a5   14 months ago   13.3kB
 
 This is the image pulled from the Docker Hub public registry. The Image ID is in [SHA256 hash](https://www.movable-type.co.uk/scripts/sha256.html) format—this field specifies the Docker image that's been provisioned. When the Docker daemon can't find an image locally, it will by default search the public registry for the image.
 
-3. Run the container again:
+3.  Run the container again:
     
 
 ```apache
@@ -228,7 +228,7 @@ To generate this message, Docker took the following steps:
 
 Notice the second time you run this, the Docker daemon finds the image in your local registry and runs the container from that image. It doesn't have to pull the image from Docker Hub.
 
-4. Finally, look at the running containers by running the following command:
+4.  Finally, look at the running containers by running the following command:
     
 
 ```apache
@@ -243,7 +243,7 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 
 There are no running containers. You already exited the hello-world containers you previously ran.
 
-5. In order to see all containers, including ones that have finished executing, run `docker ps -a`:
+5.  In order to see all containers, including ones that have finished executing, run `docker ps -a`:
     
 
 ```apache
@@ -264,14 +264,14 @@ This shows you the `Container ID`, a UUID generated by Docker to identify the co
 
 In this section, you will build a Docker image that's based on a simple node application.
 
-1. Execute the following command to create and switch into a folder named `test`.
+1.  Execute the following command to create and switch into a folder named `test`.
     
 
 ```apache
 mkdir test && cd test
 ```
 
-2. Create a `Dockerfile`:
+2.  Create a `Dockerfile`:
     
 
 ```apache
@@ -295,20 +295,20 @@ EOF
 
 This file instructs the Docker daemon on how to build your image.
 
-* The initial line specifies the base parent image, which in this case is the official Docker image for node version long term support (lts).
+*   The initial line specifies the base parent image, which in this case is the official Docker image for node version long term support (lts).
     
-* In the second, you set the working (current) directory of the container.
+*   In the second, you set the working (current) directory of the container.
     
-* In the third, you add the current directory's contents (indicated by the `"."` ) into the container.
+*   In the third, you add the current directory's contents (indicated by the `"."` ) into the container.
     
-* Then expose the container's port so it can accept connections on that port and finally run the node command to start the application.
+*   Then expose the container's port so it can accept connections on that port and finally run the node command to start the application.
     
 
 **Note:** Spend some time reviewing the [Dockerfile command references](https://docs.docker.com/engine/reference/builder/#known-issues-run) to understand each line of the `Dockerfile`.
 
 Now you'll write the node application, and after that you'll build the image.
 
-3. Run the following to create the node application:
+3.  Run the following to create the node application:
     
 
 ```apache
@@ -339,7 +339,7 @@ This is a simple HTTP server that listens on port 80 and returns "Hello World".
 
 Now build the image.
 
-4. Note again the `"."`, which means current directory so you need to run this command from within the directory that has the Dockerfile:
+4.  Note again the `"."`, which means current directory so you need to run this command from within the directory that has the Dockerfile:
     
 
 ```apache
@@ -359,7 +359,7 @@ It might take a couple of minutes for this command to finish executing. When it 
 
 The `-t` is to name and tag an image with the `name:tag` syntax. The name of the image is `node-app` and the `tag` is `0.1`. The tag is highly recommended when building Docker images. If you don't specify a tag, the tag will default to `latest` and it becomes more difficult to distinguish newer images from older ones. Also notice how each line in the `Dockerfile` above results in intermediate container layers as the image is built.
 
-5. Now, run the following command to look at the images you built:
+5.  Now, run the following command to look at the images you built:
     
 
 ```apache
@@ -379,7 +379,7 @@ Notice `node` is the base image and `node-app` is the image you built. You can't
 
 ## **Task 3. Run**
 
-1. Use this code to run containers based on the image you built:
+1.  Use this code to run containers based on the image you built:
     
 
 ```apache
@@ -394,7 +394,7 @@ Server running at http://0.0.0.0:80/
 
 The `--name` flag allows you to name the container if you like. The `-p` instructs Docker to map the host's port 4000 to the container's port 80. Now you can reach the server at `http://localhost:4000`. Without port mapping, you would not be able to reach the container at localhost.
 
-2. Open another terminal (in Cloud Shell, click the `+` icon), and test the server:
+2.  Open another terminal (in Cloud Shell, click the `+` icon), and test the server:
     
 
 ```apache
@@ -409,14 +409,14 @@ Hello World
 
 The container will run as long as the initial terminal is running. If you want the container to run in the background (not tied to the terminal's session), you need to specify the `-d` flag.
 
-3. Close the initial terminal and then run the following command to stop and remove the container:
+3.  Close the initial terminal and then run the following command to stop and remove the container:
     
 
 ```apache
 docker stop my-app && docker rm my-app
 ```
 
-4. Now run the following command to start the container in the background:
+4.  Now run the following command to start the container in the background:
     
 
 ```apache
@@ -432,7 +432,7 @@ CONTAINER ID   IMAGE          COMMAND        CREATED         ...  NAMES
 xxxxxxxxxxxx   node-app:0.1   "node app.js"  16 seconds ago  ...  my-app
 ```
 
-5. Notice the container is running in the output of `docker ps`. You can look at the logs by executing `docker logs [container_id]`.
+5.  Notice the container is running in the output of `docker ps`. You can look at the logs by executing `docker logs [container_id]`.
     
 
 **Note:** You don't have to write the entire container ID, as long as the initial characters uniquely identify the container. For example, you can execute `docker logs 17b` if the container ID is `17bcaca6f....`
@@ -449,14 +449,14 @@ Server running at http://0.0.0.0:80/
 
 Now modify the application.
 
-1. In your Cloud Shell, open the test directory you created earlier in the lab:
+1.  In your Cloud Shell, open the test directory you created earlier in the lab:
     
 
 ```apache
 cd test
 ```
 
-2. Edit `app.js` with a text editor of your choice (for example nano or vim) and replace "Hello World" with another string:
+2.  Edit `app.js` with a text editor of your choice (for example nano or vim) and replace "Hello World" with another string:
     
 
 ```apache
@@ -469,7 +469,7 @@ const server = http.createServer((req, res) => {
 ....
 ```
 
-3. Build this new image and tag it with `0.2`:
+3.  Build this new image and tag it with `0.2`:
     
 
 ```apache
@@ -489,7 +489,7 @@ docker build -t node-app:0.2 .
 
 Notice in Step 2 that you are using an existing cache layer. From Step 3 and on, the layers are modified because you made a change in `app.js`.
 
-4. Run another container with the new image version. Notice how we map the host's port 8080 instead of 80. You can't use host port 4000 because it's already in use.
+4.  Run another container with the new image version. Notice how we map the host's port 8080 instead of 80. You can't use host port 4000 because it's already in use.
     
 
 ```apache
@@ -505,7 +505,7 @@ xxxxxxxxxxxx     node-app:0.2      "node app.js"      53 seconds ago      ...
 xxxxxxxxxxxx     node-app:0.1      "node app.js"      About an hour ago   ...
 ```
 
-5. Test the containers:
+5.  Test the containers:
     
 
 ```apache
@@ -518,7 +518,7 @@ curl http://localhost:8080
 Welcome to Cloud
 ```
 
-6. And now test the first container you made:
+6.  And now test the first container you made:
     
 
 ```apache
@@ -535,7 +535,7 @@ Hello World
 
 Now that you're familiar with building and running containers, go over some debugging practices.
 
-1. You can look at the logs of a container using `docker logs [container_id]`. If you want to follow the log's output as the container is running, use the `-f` option.
+1.  You can look at the logs of a container using `docker logs [container_id]`. If you want to follow the log's output as the container is running, use the `-f` option.
     
 
 ```apache
@@ -550,7 +550,7 @@ Server running at http://0.0.0.0:80/
 
 Sometimes you will want to start an interactive Bash session inside the running container.
 
-2. You can use `docker exec` to do this. Open another terminal (in Cloud Shell, click the + icon) and enter the following command:
+2.  You can use `docker exec` to do this. Open another terminal (in Cloud Shell, click the + icon) and enter the following command:
     
 
 ```apache
@@ -565,7 +565,7 @@ The `-it` flags let you interact with a container by allocating a pseudo-tty and
 root@xxxxxxxxxxxx:/app#
 ```
 
-3. Look at the directory
+3.  Look at the directory
     
 
 ```apache
@@ -578,14 +578,14 @@ ls
 Dockerfile  app.js
 ```
 
-4. Exit the Bash session:
+4.  Exit the Bash session:
     
 
 ```apache
 exit
 ```
 
-5. You can examine a container's metadata in Docker by using Docker inspect:
+5.  You can examine a container's metadata in Docker by using Docker inspect:
     
 
 ```apache
@@ -606,7 +606,7 @@ docker inspect [container_id]
 ...
 ```
 
-6. Use `--format` to inspect specific fields from the returned JSON. For example:
+6.  Use `--format` to inspect specific fields from the returned JSON. For example:
     
 
 ```apache
@@ -621,9 +621,9 @@ docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}
 
 Be sure to check out the following **Docker documentation** resources for more information on debugging:
 
-* [Docker inspect reference](https://docs.docker.com/engine/reference/commandline/inspect/#examples)
+*   [Docker inspect reference](https://docs.docker.com/engine/reference/commandline/inspect/#examples)
     
-* [Docker exec reference](https://docs.docker.com/engine/reference/commandline/exec/)
+*   [Docker exec reference](https://docs.docker.com/engine/reference/commandline/exec/)
     
 
 ## **Task 5. Publish**
@@ -636,31 +636,31 @@ To push images to your private registry hosted by Artifact Registry, you need to
 
 You must create a repository before you can push any images to it. Pushing an image can't trigger creation of a repository and the Cloud Build service account does not have permissions to create repositories.
 
-1. From the **Navigation Menu**, under CI/CD navigate to **Artifact Registry** &gt; **Repositories**.
+1.  From the **Navigation Menu**, under CI/CD navigate to **Artifact Registry** > **Repositories**.
     
-2. Click the **+CREATE REPOSITORY** icon next to repositories.
+2.  Click the **+CREATE REPOSITORY** icon next to repositories.
     
-3. Specify `my-repository` as the repository name.
+3.  Specify `my-repository` as the repository name.
     
-4. Choose **Docker** as the format.
+4.  Choose **Docker** as the format.
     
-5. Under Location Type, select **Region** and then choose the location : `us-east1`.
+5.  Under Location Type, select **Region** and then choose the location : `us-east1`.
     
-6. Click **Create**.
+6.  Click **Create**.
     
 
 ### Configure authentication
 
 Before you can push or pull images, configure Docker to use the Google Cloud CLI to authenticate requests to Artifact Registry.
 
-1. To set up authentication to Docker repositories in the region `us-east1`, run the following command in Cloud Shell:
+1.  To set up authentication to Docker repositories in the region `us-east1`, run the following command in Cloud Shell:
     
 
 ```apache
 gcloud auth configure-docker us-east1-docker.pkg.dev
 ```
 
-2. Enter `Y` when prompted.
+2.  Enter `Y` when prompted.
     
 
 The command updates your Docker configuration. You can now connect with Artifact Registry in your Google Cloud project to push and pull images.
@@ -669,7 +669,7 @@ The command updates your Docker configuration. You can now connect with Artifact
 
 ### Create an Artifact Registry repository (Using CLI)
 
-1. Run the following commands to create an Artifact Repository.
+1.  Run the following commands to create an Artifact Repository.
     
 
 ```apache
@@ -680,21 +680,21 @@ gcloud artifacts repositories create my-repository --repository-format=docker --
 
 ### Push the container to Artifact Registry
 
-1. Change into the directory with your Dockerfile.
+1.  Change into the directory with your Dockerfile.
     
 
 ```apache
 cd ~/test
 ```
 
-2. Run the command to tag `node-app:0.2`.
+2.  Run the command to tag `node-app:0.2`.
     
 
 ```apache
 docker build -t us-east1-docker.pkg.dev/qwiklabs-gcp-01-9e1d59f84297/my-repository/node-app:0.2 .
 ```
 
-3. Run the following command to check your built Docker images.
+3.  Run the following command to check your built Docker images.
     
 
 ```apache
@@ -712,7 +712,7 @@ node                            lts         5a767079e3df      7 days
 hello-world                     latest      1815c82652c0      7 weeks
 ```
 
-4. Push this image to Artifact Registry.
+4.  Push this image to Artifact Registry.
     
 
 ```apache
@@ -736,9 +736,9 @@ f3ed6cb59ab0: Pushed
 0.2: digest: sha256:25b8ebd7820515609517ec38dbca9086e1abef3750c0d2aff7f341407c743c46 size: 2419
 ```
 
-5. After the push finishes, from the **Navigation Menu**, under CI/CD navigate to **Artifact Registry** &gt; **Repositories**.
+5.  After the push finishes, from the **Navigation Menu**, under CI/CD navigate to **Artifact Registry** > **Repositories**.
     
-6. Click on **my-repository**. You should see your `node-app` Docker container created:
+6.  Click on **my-repository**. You should see your `node-app` Docker container created:
     
 
 ![node-app section of artifact registry](https://cdn.qwiklabs.com/qmQ8STPF9fzv3iU3YkoL%2F2fwyr%2Fw%2Fsu54ZPXnJbh2Tg%3D align="left")
@@ -747,7 +747,7 @@ f3ed6cb59ab0: Pushed
 
 You could start a new VM, ssh into that VM, and install gcloud. For simplicity, just remove all containers and images to simulate a fresh environment.
 
-1. Stop and remove all containers:
+1.  Stop and remove all containers:
     
 
 ```apache
@@ -757,7 +757,7 @@ docker rm $(docker ps -aq)
 
 You have to remove the child images (of `node:lts`) before you remove the node image.
 
-2. Run the following command to remove all of the Docker images.
+2.  Run the following command to remove all of the Docker images.
     
 
 ```apache
@@ -775,14 +775,14 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 
 At this point you should have a pseudo-fresh environment.
 
-3. Pull the image and run it.
+3.  Pull the image and run it.
     
 
 ```apache
 docker run -p 4000:80 -d us-east1-docker.pkg.dev/qwiklabs-gcp-01-9e1d59f84297/my-repository/node-app:0.2
 ```
 
-4. Run a curl against the running container.
+4.  Run a curl against the running container.
     
 
 ```apache
@@ -805,15 +805,36 @@ Publish your container image to Artifact Registry
 
 Here the portability of containers is showcased. As long as Docker is installed on the host (either on-premise or VM), it can pull images from public or private registries and run containers based on that image. There are no application dependencies that have to be installed on the host except for Docker.
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=PbdUdH-Wv5o] 
+### New solution
 
-```apache
+%[https://www.youtube.com/watch?v=ZuOzymcONlU] 
+
+```plaintext
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP055/lab.sh
 source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Introduction%20to%20Docker/TechCode.sh
+sudo chmod +x TechCode.sh 
+./TechCode.sh
+```
+
+* * *
+
+### Old solution
+
+%[https://youtu.be/PbdUdH-Wv5o] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP055/old-lab.sh
+source old-lab.sh
 ```
 
 **Script Alternative**
