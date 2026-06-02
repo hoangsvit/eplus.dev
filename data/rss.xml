@@ -5,10 +5,16 @@
     <link>https://eplus.dev</link>
     <description>Latest posts from ePlus DEV</description>
     <language>en</language>
-    <lastBuildDate>Sat, 30 May 2026 09:10:32 GMT</lastBuildDate>
-    <pubDate>Tue, 26 May 2026 02:52:20 GMT</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2026 02:25:18 GMT</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2026 02:25:07 GMT</pubDate>
     <generator>GitHub Actions</generator>
 
+    <item>
+      <title>Google Cloud Arcade Facilitator &apos;26</title>
+      <link>https://eplus.dev/google-cloud-arcade-facilitator-26</link>
+      <guid isPermaLink="true">https://eplus.dev/google-cloud-arcade-facilitator-26</guid>
+      <pubDate>Tue, 02 Jun 2026 02:25:07 GMT</pubDate>
+    </item>
     <item>
       <title>Deploy, Scale, and Update Your Website on Google Kubernetes Engine - GSP663</title>
       <link>https://eplus.dev/deploy-scale-and-update-your-website-on-google-kubernetes-engine-gsp663</link>
