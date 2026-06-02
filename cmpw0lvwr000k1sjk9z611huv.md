@@ -6,13 +6,14 @@ seoDescription: "The Arcade Facilitator Program is an always-on, no-cost gaming 
 datePublished: 2026-06-02T02:25:07.280Z
 cuid: cmpw0lvwr000k1sjk9z611huv
 slug: google-cloud-arcade-facilitator-26
+canonical: https://rsvp.withgoogle.com/events/arcade-facilitator/
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/76d083d4-12d3-45f4-82f5-b25b3ccbbd73.png
 tags: google-cloud-arcade-facilitator, google-cloud-arcade-facilitator-26
 
 ---
 
-The Arcade Facilitator Program is an always-on, no-cost gaming campaign where technical practitioners of all levels can learn new cloud skills like computing, application development, big data & AI/ML and earn digital badges & points to use towards **claiming swag prizes and Google Cloud goodies**.   
-  
+The Arcade Facilitator Program is an always-on, no-cost gaming campaign where technical practitioners of all levels can learn new cloud skills like computing, application development, big data & AI/ML and earn digital badges & points to use towards **claiming swag prizes and Google Cloud goodies**.
+
 **Enrolments will OPEN soon!**
 
 **July 13, 2026 at 5:00 PM - September 14, 2026 at 11:59 PM GMT+5:30**
@@ -41,19 +42,19 @@ There are a lot of things in store for you. We want to make sure that by the end
 
 **NOTE:** The points system below is **NOT YET FINALISED** for the 2026 cohort and still shows the old 2025 system. Please wait for the latest information to be updated.
 
-For the badges and milestones that you complete in the Facilitator program, you will earn several **"Arcade  + Bonus Points"** that you can **REDEEM** **for prizes and Google Cloud goodies** at the Google Skills Arcade prize counter. 
+For the badges and milestones that you complete in the Facilitator program, you will earn several **"Arcade  + Bonus Points"** that you can **REDEEM** **for prizes and Google Cloud goodies** at the Google Skills Arcade prize counter.
 
 See what's the criteria of earning these points below. You can also checkout the official [Google Skills Arcade website here](https://go.cloudskillsboost.google/arcade?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) for more details on the points system.
 
 Here's what you need to know about the points system:
 
-*   For each **"Game"** badge you complete, you will be awarded with **1 Arcade point**. Eg: If you complete 2 game badges, you will receive 2 points & so on. *(Note: You get 2 points for completing the monthly special Arcade game.)*  
+*   For each **"Game"** badge you complete, you will be awarded with **1 Arcade point**. Eg: If you complete 2 game badges, you will receive 2 points & so on. *(Note: You get 2 points for completing the monthly special Arcade game.)*
     
-*   For each **"Trivia"** badge you complete, you will be awarded with **1 Arcade Point**. Eg: If you complete 2 trivia badges, you will receive 2 points & so on.  
+*   For each **"Trivia"** badge you complete, you will be awarded with **1 Arcade Point**. Eg: If you complete 2 trivia badges, you will receive 2 points & so on.
     
-*   For every **2 "Skill Badge"** completions, you will be awarded with **1 Arcade Point.** Eg: If you complete 4 skill badges, you will receive 2 points & so on.  
+*   For every **2 "Skill Badge"** completions, you will be awarded with **1 Arcade Point.** Eg: If you complete 4 skill badges, you will receive 2 points & so on.
     
-*   On completion of any of the **milestones *(including lab-free courses)* mentioned below**, you will receive the mentioned **Bonus Arcade Points**. *(****Note:*** *You will only receive points for the milestone that you earn and not for the ones before that.)*
+*   On completion of any of the **milestones *(including lab-free courses)* mentioned below**, you will receive the mentioned **Bonus Arcade Points**. \*(\****Note:*** *You will only receive points for the milestone that you earn and not for the ones before that.)*
     
 
 Refer to the image on the right for a representation of these points.
@@ -92,4 +93,16 @@ We have added a few commonly asked questions around the "Arcade Points" below th
 </details><details data-node-type="hn-details-summary">
 <summary>I have earned only 1 skill badge. How many points will I get?</summary>
 <p>Unfortunately, earning 1 skill badge will not be enough to claim an Arcade point. You will need to complete at least 2 Skill Badges to earn one point.</p>
+</details><details data-node-type="hn-details-summary">
+<summary>I have done a few labs of this skill badge before, so if I do the rest will I get the point?</summary>
+<p>Yes you will! As long as you complete the skill badge between your cohort timeline and earn its badge on your public profile URL.</p>
+</details><details data-node-type="hn-details-summary">
+<summary>How do I know how many bonus points I have?</summary>
+<p>We will send you email reminders regarding your bonus points and progress in the program throughout your cohort timeline so that you can stay posted.</p><p>In order to calculate your total points i.e. Arcade + Bonus points, you can just go to your <a target="_blank" rel="noopener" class="text-primary underline underline-offset-2 hover:text-primary/80 cursor-pointer" href="https://www.cloudskillsboost.google/profile/badges?utm_source=gcaf-site&amp;utm_medium=website&amp;utm_campaign=arcade-facilitator24" style="pointer-events: none;"><u>Google Skills public profile</u></a> and compare your collected badges with the Google Skills Arcade points system.</p>
+</details><details data-node-type="hn-details-summary">
+<summary>How can I get more arcade points?</summary>
+<p>You can simply go to our catalog of skill badges <a target="_blank" rel="noopener" class="text-primary underline underline-offset-2 hover:text-primary/80 cursor-pointer" href="https://www.cloudskillsboost.google/catalog?keywords=skill+badge&amp;format=quests&amp;utm_source=gcaf-site&amp;utm_medium=website&amp;utm_campaign=arcade-facilitator24" style="pointer-events: none;"><u>here</u></a> and earn as many skill badges as you can to earn more Arcade points.</p>
+</details><details data-node-type="hn-details-summary">
+<summary>Can I share or gift my arcade points with someone else?</summary>
+<p>No. Because points are based on your learning record, they stick with you.</p>
 </details>
