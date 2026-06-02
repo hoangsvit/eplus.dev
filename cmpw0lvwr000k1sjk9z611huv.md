@@ -1,13 +1,13 @@
 ---
 title: "Google Cloud Arcade Facilitator '26"
 seoTitle: "Google Cloud Arcade Facilitator '26"
-seoDescription: "The Arcade Facilitator Program is an always-on, no-cost gaming campaign where technical practitioners of all levels can learn new cloud skills like computing, application development, big data & AI/ML and earn digital badges & points to use towards claiming swag prizes and Google Cloud goodies. 
-"
+seoDescription: "The Arcade Facilitator Program is an always-on, no-cost gaming campaign where technical practitioners of all levels can learn new cloud skills like computing, application development, big data & AI/ML and earn digital badges & points to use towards claiming swag prizes and Google Cloud goodies. "
 datePublished: 2026-06-02T02:25:07.280Z
 cuid: cmpw0lvwr000k1sjk9z611huv
 slug: google-cloud-arcade-facilitator-26
 canonical: https://rsvp.withgoogle.com/events/arcade-facilitator/
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/76d083d4-12d3-45f4-82f5-b25b3ccbbd73.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/3c62c461-ec96-4e27-bf73-c7b8321a0798.png
 tags: google-cloud-arcade-facilitator, google-cloud-arcade-facilitator-26
 
 ---
