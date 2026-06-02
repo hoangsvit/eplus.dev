@@ -38,7 +38,7 @@ There are a lot of things in store for you. We want to make sure that by the end
 
 * * *
 
-### **Points System (Not Final)**
+**Points System (Not Final)**
 
 **NOTE:** The points system below is **NOT YET FINALISED** for the 2026 cohort and still shows the old 2025 system. Please wait for the latest information to be updated.
 
@@ -65,7 +65,7 @@ Refer to the image on the right for a representation of these points.
 
 Earning any of the milestones below does **NOT** make you eligible for any swags/prizes. Note that, in the facilitator program, you are mainly just earning "Bonus" points that you can accumulate and add to your "Arcade" points to reach the actual Google Skills Arcade Player achievements and thus become eligible for swags/prizes.
 
-## See the milestones of the program below!
+### See the milestones of the program below!
 
 <details data-node-type="hn-details-summary">
 <summary>🏆 Milestone 1: Complete ANY 6 Arcade Games, 5 Trivia Games &amp; 14 Skill Badges + ANY 6 provided "lab-free" courses</summary>
