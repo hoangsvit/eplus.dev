@@ -188,7 +188,7 @@ For this task, you will query the BigQuery public datasets from an instance with
 %[https://www.youtube.com/watch?v=kZbs2iZ05t0] 
 
 ```plaintext
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP699/lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC134/lab.sh
 source lab.sh
 ```
 
