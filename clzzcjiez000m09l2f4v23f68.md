@@ -342,7 +342,17 @@ Your console should resemble the following:
 2.  Create your VM with the following information:
     
 
-<table style="min-width: 50px;"><colgroup><col style="min-width: 25px;"><col style="min-width: 25px;"></colgroup><tbody><tr><th colspan="1" rowspan="1"><p><strong>Configuration</strong></p></th><th colspan="1" rowspan="1"><p><strong>Value</strong></p></th></tr><tr><td colspan="1" rowspan="1"><p>Name</p></td><td colspan="1" rowspan="1"><p>bigquery-instance</p></td></tr><tr><td colspan="1" rowspan="1"><p>Region</p></td><td colspan="1" rowspan="1"><p><code>us-central1</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Zone</p></td><td colspan="1" rowspan="1"><p><code>us-central1-c</code></p></td></tr><tr><td colspan="1" rowspan="1"><p>Series</p></td><td colspan="1" rowspan="1"><p>E2</p></td></tr><tr><td colspan="1" rowspan="1"><p>Machine Type</p></td><td colspan="1" rowspan="1"><p>e2-medium</p></td></tr><tr><td colspan="1" rowspan="1"><p>Boot Disk</p></td><td colspan="1" rowspan="1"><p>Debian GNU/Linux 11 (bullseye) x86/64</p></td></tr><tr><td colspan="1" rowspan="1"><p>Service account</p></td><td colspan="1" rowspan="1"><p>bigquery-qwiklab</p></td></tr><tr><td colspan="1" rowspan="1"><p>Access scopes</p></td><td colspan="1" rowspan="1"><p>Set access for each API</p></td></tr><tr><td colspan="1" rowspan="1"><p>BigQuery</p></td><td colspan="1" rowspan="1"><p>Enabled</p></td></tr></tbody></table>
+| **Configuration** | **Value** |
+| --- | --- |
+| Name | bigquery-instance |
+| Region | `us-central1` |
+| Zone | `us-central1-c` |
+| Series | E2 |
+| Machine Type | e2-medium |
+| Boot Disk | Debian GNU/Linux 11 (bullseye) x86/64 |
+| Service account | bigquery-qwiklab |
+| Access scopes | Set access for each API |
+| BigQuery | Enabled |
 
 **Note:** If the `bigquery-qwiklab` service account doesn't appear in the drop-down list, try typing the name into the "Filter" section.
 
@@ -528,7 +538,7 @@ Access BigQuery using a Service Account
 
 ### New Solution
 
-<iframe type="youtube" src="https://www.youtube.com/watch?v=ME0iWBPvMxo" data-node-type="hn-embed"></iframe>
+%[https://www.youtube.com/watch?v=ME0iWBPvMxo] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP199/lab.sh
@@ -547,7 +557,7 @@ sudo chmod +x abhishek.sh
 
 ### Old Solution
 
-%\[https://www.youtube.com/watch?v=iq6udZU9QKU\]
+%[https://www.youtube.com/watch?v=iq6udZU9QKU] 
 
 ```apache
 export ZONE=
