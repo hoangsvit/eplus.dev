@@ -199,3 +199,13 @@ curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/6f3c496d-25b8-4075-b694-a99a73bbc8b3.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9695550f-167a-4c37-ab50-b31b4cbf9f20.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/059bbfc9-eb32-4f24-b52b-3ba41a1920c5.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/303c822c-46b0-48b7-9fe5-17574acc4036.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/98828e51-6181-4223-aac1-1d430207c05c.png align="center")
