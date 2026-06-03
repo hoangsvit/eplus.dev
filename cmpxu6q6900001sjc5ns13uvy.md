@@ -174,7 +174,6 @@ For this task, you will query the BigQuery public datasets from an instance with
     echo " from google.auth import compute_engine from google.cloud import bigquery credentials = compute_engine.Credentials( service_account_email='YOUR_SERVICE_ACCOUNT') query = ''' SELECT name, SUM(number) as total_people FROM "bigquery-public-data.usa_names.usa_1910_2013" WHERE state = 'TX' GROUP BY name, state ORDER BY total_people DESC LIMIT 20 ''' client = bigquery.Client( project='YOUR_PROJECT_ID', credentials=credentials) print(client.query(query).to_dataframe()) " > query.py ```
     ```
     
-
 5.  Replace the `PROJECT_ID` and `SERVICE_ACCOUNT` variables with your credentials and run the file using a Python3 command.
     
 6.  Excute the python file that is created in the above step
