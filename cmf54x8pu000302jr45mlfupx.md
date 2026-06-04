@@ -17,9 +17,9 @@ The internal Application Load Balancer is essential for building robust, secure,
 
 In this lab you build a simplified, but very common, architectural pattern:
 
-* A "Web Tier" (public-facing website) that needs to ask another internal service for help.
+*   A "Web Tier" (public-facing website) that needs to ask another internal service for help.
     
-* An "Internal Service Tier" (a prime number calculator) that performs specific tasks and is distributed across multiple machines.
+*   An "Internal Service Tier" (a prime number calculator) that performs specific tasks and is distributed across multiple machines.
     
 
 This setup ensures that even if one part of your internal service gets busy or goes down, the overall system keeps running smoothly, because the load balancer automatically directs requests to healthy machines.
@@ -28,26 +28,26 @@ This setup ensures that even if one part of your internal service gets busy or g
 
 In this lab, you learn how to perform the following tasks:
 
-* Learn about the components that make up an Internal Load Balancer.
+*   Learn about the components that make up an Internal Load Balancer.
     
-* Create a group of backend machines (prime number calculator).
+*   Create a group of backend machines (prime number calculator).
     
-* Set up internal load balancer to direct internal traffic to the backend machines.
+*   Set up internal load balancer to direct internal traffic to the backend machines.
     
-* Test the internal load balancer from another internal machine.
+*   Test the internal load balancer from another internal machine.
     
-* Set up a public-facing web server that uses the internal load balancer to get results from the internal "prime number calculator" service.
+*   Set up a public-facing web server that uses the internal load balancer to get results from the internal "prime number calculator" service.
     
 
 ### Prerequisites
 
-* Basic familiarity with Google Cloud Compute Engine: Understanding what a Virtual Machine (VM) instance is.
+*   Basic familiarity with Google Cloud Compute Engine: Understanding what a Virtual Machine (VM) instance is.
     
-* Basic concepts of networking: What an IP address is.
+*   Basic concepts of networking: What an IP address is.
     
-* Basic Unix/Linux command line: How to type commands in a terminal.
+*   Basic Unix/Linux command line: How to type commands in a terminal.
     
-* Some knowledge about VPCs (Virtual Private Clouds): Understanding that your Google Cloud resources live in a private network.
+*   Some knowledge about VPCs (Virtual Private Clouds): Understanding that your Google Cloud resources live in a private network.
     
 
 ## Setup and requirements
@@ -60,29 +60,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -90,7 +90,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-02-3cef4b9b1158@qwiklabs.net
@@ -98,9 +98,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     oUPFldja74X8
@@ -108,19 +108,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -133,13 +133,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-02-c2f8db953588`. The output contains a line that declares the **Project\_ID** for this session:
@@ -150,14 +150,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-02-c2f8db9535
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -170,7 +170,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -188,7 +188,7 @@ project = qwiklabs-gcp-02-c2f8db953588
 
 ### Set the region and zone
 
-* Set the project region and zone for this lab:
+*   Set the project region and zone for this lab:
     
 
 ```apache
@@ -206,21 +206,21 @@ A virtual environment keeps your project's software tidy and makes sure your cod
 
 Python virtual environments are used to isolate package installation from the system.
 
-1. Install the `virtualenv` environment:
+1.  Install the `virtualenv` environment:
     
 
 ```apache
 sudo apt-get install -y virtualenv
 ```
 
-2. Build the virtual environment:
+2.  Build the virtual environment:
     
 
 ```apache
 python3 -m venv venv
 ```
 
-3. Activate the virtual environment:
+3.  Activate the virtual environment:
     
 
 ```apache
@@ -231,29 +231,29 @@ source venv/bin/activate
 
 You can use Gemini Code Assist in an integrated development environment (IDE) such as Cloud Shell to receive guidance on code or solve problems with your code. Before you can start using Gemini Code Assist, however, you need to enable it.
 
-1. In Cloud Shell, enable the **Gemini for Google Cloud** API with the following command:
+1.  In Cloud Shell, enable the **Gemini for Google Cloud** API with the following command:
     
 
 ```apache
 gcloud services enable cloudaicompanion.googleapis.com
 ```
 
-2. Click **Open Editor** on the Cloud Shell toolbar.
+2.  Click **Open Editor** on the Cloud Shell toolbar.
     
 
 **Note:** To open the Cloud Shell Editor, click **Open Editor** on the Cloud Shell toolbar. You can switch between Cloud Shell and the code Editor by clicking **Open Editor** or **Open Terminal**, as required.
 
-3. In the Cloud Shell Editor, navigate to **Cloud Code &gt; Help and Feedback &gt; Change Settings**.
+3.  In the Cloud Shell Editor, navigate to **Cloud Code > Help and Feedback > Change Settings**.
     
-4. In the **Settings**, search for **Gemini Code Assist**.
+4.  In the **Settings**, search for **Gemini Code Assist**.
     
-5. Locate and ensure that the checkbox is selected for **Geminicodeassist: Enable**, and close the **Settings**.
+5.  Locate and ensure that the checkbox is selected for **Geminicodeassist: Enable**, and close the **Settings**.
     
-6. Click **Cloud Code - No Project** in the status bar at the bottom of the screen.
+6.  Click **Cloud Code - No Project** in the status bar at the bottom of the screen.
     
-7. Authorize the plugin as instructed. If a project is not automatically selected, click **Select a Google Cloud Project**, and choose `qwiklabs-gcp-02-c2f8db953588`.
+7.  Authorize the plugin as instructed. If a project is not automatically selected, click **Select a Google Cloud Project**, and choose `qwiklabs-gcp-02-c2f8db953588`.
     
-8. Verify that your Google Cloud project (`qwiklabs-gcp-02-c2f8db953588`) displays in the Cloud Code status message in the status bar.
+8.  Verify that your Google Cloud project (`qwiklabs-gcp-02-c2f8db953588`) displays in the Cloud Code status message in the status bar.
     
 
 ## Task 2. Create a backend managed instance group
@@ -264,14 +264,14 @@ By using a "managed instance group", Google Cloud can automatically create and m
 
 This script is like a set of instructions that each new VM in your group follows when it starts up. Your script includes a small web server written in Python that can tell you if a number is prime (True) or not (False).
 
-1. In the Cloud Shell terminal, run the following command to create your `backend.sh` script in the home directory:
+1.  In the Cloud Shell terminal, run the following command to create your `backend.sh` script in the home directory:
     
 
 ```apache
 touch ~/backend.sh
 ```
 
-2. Click the **Open Editor** icon at the top of the Cloud Shell toolbar. If prompted, click **Open in a new window**.
+2.  Click the **Open Editor** icon at the top of the Cloud Shell toolbar. If prompted, click **Open in a new window**.
     
 
 ![The Open Editor icon highlighted in the UI](https://cdn.qwiklabs.com/N4C5%2BZX%2BUzFoTDik3XuHU%2BT1Q0Hk%2B9m%2Bzw17AK9I8JA%3D align="left")
@@ -280,9 +280,9 @@ touch ~/backend.sh
 
 After a few seconds the workspace displays.
 
-3. Select the `backend.sh` file in the file Explorer pane.
+3.  Select the `backend.sh` file in the file Explorer pane.
     
-4. Now add the following script into the Editor:
+4.  Now add the following script into the Editor:
     
 
 ```apache
@@ -304,15 +304,15 @@ EOF
 nohup python3 /usr/local/sbin/serveprimes.py >/dev/null 2>&1 &
 ```
 
-5. Click **File** &gt; **Save** but do not close the file.
+5.  Click **File** > **Save** but do not close the file.
     
-6. With Gemini Code Assist enabled in the IDE, when you open a file in the Editor, such as `backend.sh`, notice the icon in the upper-right corner of the toolbar, which denotes that Gemini Code Assist is ready for use.
+6.  With Gemini Code Assist enabled in the IDE, when you open a file in the Editor, such as `backend.sh`, notice the icon in the upper-right corner of the toolbar, which denotes that Gemini Code Assist is ready for use.
     
     Gemini Code Assist enhances productivity and reduces context switching by providing AI-powered smart actions directly within your code editor. Next, you use Gemini Code Assist to explain the purpose and functionality of a VM startup script within the Managed Instance Group to a team member.
     
-7. Click the **Gemini Code Assist: Smart Actions** icon and select **Explain this**.
+7.  Click the **Gemini Code Assist: Smart Actions** icon and select **Explain this**.
     
-8. Gemini Code Assist opens a chat pane with the prefilled prompt of `Explain this`. In the inline text box of the Code Assist chat, replace the prefilled prompt with the following, and click **Send**:
+8.  Gemini Code Assist opens a chat pane with the prefilled prompt of `Explain this`. In the inline text box of the Code Assist chat, replace the prefilled prompt with the following, and click **Send**:
     
 
 ```apache
@@ -325,7 +325,7 @@ A detailed explanation for the startup script `backend.sh` that's used to run a 
 
 ### Create the instance template
 
-9. Click **Open Terminal** on the toolbar of Cloud Shell. Run the following command to create the instance template `primecalc`:
+9.  Click **Open Terminal** on the toolbar of Cloud Shell. Run the following command to create the instance template `primecalc`:
     
 
 ```apache
@@ -340,8 +340,8 @@ This is the "blueprint" for the backend VMs. Notice it has `--no-address`, meani
 
 You need to create a firewall rule to allow traffic on port 80 (standard HTTP traffic) to reach the backend VMs. This is crucial for the internal Application Load Balancer and health checks to communicate with them.
 
-10. Run the following command to open the firewall to port `80`:
-    
+10.  Run the following command to open the firewall to port `80`:
+     
 
 ```apache
 gcloud compute firewall-rules create http --network default --allow=tcp:80 \
@@ -354,8 +354,8 @@ Create an instance template and open the firewall on port 80
 
 ### Create the instance group
 
-11. Next, run the following command to create the managed instance group named `backend`. Start off with 3 instances:
-    
+11.  Next, run the following command to create the managed instance group named `backend`. Start off with 3 instances:
+     
 
 ```apache
 gcloud compute instance-groups managed create backend \
@@ -364,8 +364,8 @@ gcloud compute instance-groups managed create backend \
 --zone us-west1-b
 ```
 
-12. When this finishes running, go back to the console tab. Navigate to **Compute Engine** &gt; **VM instances**. You should now see three backend VMs being created by your instance group.
-    
+12.  When this finishes running, go back to the console tab. Navigate to **Compute Engine** > **VM instances**. You should now see three backend VMs being created by your instance group.
+     
 
 ![The three backends listed on the Instances tabbed page](https://cdn.qwiklabs.com/08WnJ%2BS22pLGEhCXuZCcONuU41NXAdPdYbZAKiYe8Dg%3D align="left")
 
@@ -383,11 +383,11 @@ In this task, you set up the Internal Load Balancer and connect it to the instan
 
 An Internal Load Balancer consists of three main parts:
 
-* **Forwarding Rule:** This is the actual private IP address that other internal services send requests to. It "forwards" traffic to your backend service.
+*   **Forwarding Rule:** This is the actual private IP address that other internal services send requests to. It "forwards" traffic to your backend service.
     
-* **Backend Service:** This defines how the load balancer distributes traffic to your VM instances. It also includes the health check.
+*   **Backend Service:** This defines how the load balancer distributes traffic to your VM instances. It also includes the health check.
     
-* **Health Check:** This is a continuous check that monitors the "health" of your backend VMs. The load balancer only sends traffic to machines that are passing their health checks, ensuring your service is always available.
+*   **Health Check:** This is a continuous check that monitors the "health" of your backend VMs. The load balancer only sends traffic to machines that are passing their health checks, ensuring your service is always available.
     
 
 The following diagram shows how instances are load balanced using multiple instances in multiple backend groups in different zones.
@@ -396,7 +396,7 @@ The following diagram shows how instances are load balanced using multiple insta
 
 ### Create a health check
 
-1. A health check is needed to make sure the load balancer only sends traffic to healthy instances. Your backend service is an HTTP server, so run the following command to check if it responds with a "200 OK" on a specific URL path (in this case, `/2` to check if 2 is prime):
+1.  A health check is needed to make sure the load balancer only sends traffic to healthy instances. Your backend service is an HTTP server, so run the following command to check if it responds with a "200 OK" on a specific URL path (in this case, `/2` to check if 2 is prime):
     
 
 ```apache
@@ -407,7 +407,7 @@ Since the HTTP service is provided, see if a 200 response on a specific URL path
 
 ### Create a backend service
 
-2. Now, run the following command to create the backend service named `prime-service`:
+2.  Now, run the following command to create the backend service named `prime-service`:
     
 
 ```apache
@@ -420,7 +420,7 @@ This service ties the health check to the instance group.
 
 ### Add the instance group to the backend service
 
-3. Run the following command to connect your backend instance group to the prime-service backend service. This tells the load balancer which machines it should manage:
+3.  Run the following command to connect your backend instance group to the prime-service backend service. This tells the load balancer which machines it should manage:
     
 
 ```apache
@@ -431,7 +431,7 @@ gcloud compute backend-services add-backend prime-service \
 
 ### Create the forwarding rule
 
-4. Finally, run the following command to create a forwarding rule named `prime-lb` with a static IP of `10.138.0.10`:
+4.  Finally, run the following command to create a forwarding rule named `prime-lb` with a static IP of `10.138.0.10`:
     
 
 ```apache
@@ -454,7 +454,7 @@ This step is crucial to confirm that your internal Application Load Balancer is 
 
 To test the load balancer, you need to create a new VM instance in the same network as your internal Application Load Balancer. It's only accessible from within your private cloud network, not directly from Cloud Shell (which lives outside this specific network).
 
-1. In Cloud Shell, run the following `gcloud` command to create a simple test instance:
+1.  In Cloud Shell, run the following `gcloud` command to create a simple test instance:
     
 
 ```apache
@@ -462,7 +462,7 @@ gcloud compute instances create testinstance \
 --machine-type=e2-standard-2 --zone us-west1-b
 ```
 
-2. Then run the following command to SSH into it:
+2.  Then run the following command to SSH into it:
     
 
 ```apache
@@ -473,7 +473,7 @@ If prompted, type **Y** and press **Enter** twice to proceed.
 
 ### Query the load balancer
 
-3. From inside the test instance, run the following `curl` commands to ask your internal Application Load Balancer's IP address if a few numbers are prime:
+3.  From inside the test instance, run the following `curl` commands to ask your internal Application Load Balancer's IP address if a few numbers are prime:
     
 
 ```apache
@@ -503,21 +503,21 @@ You should see that 2 and 5 are correctly identified as prime numbers, but 4 is 
 
 The service responded correctly: that 2 and 5 are prime numbers, but 4 is not.
 
-4. Run the following command to leave the test instance:
+4.  Run the following command to leave the test instance:
     
 
 ```apache
 exit
 ```
 
-5. Then run the following command to delete it because it's not needed any more:
+5.  Then run the following command to delete it because it's not needed any more:
     
 
 ```apache
 gcloud compute instances delete testinstance --zone=us-west1-b
 ```
 
-6. Type in **Y** to confirm the deletion.
+6.  Type in **Y** to confirm the deletion.
     
 
 ## Task 5. Create a public-facing web server
@@ -526,23 +526,23 @@ Now you can see how a public-facing application (like a website) can leverage yo
 
 In this task, you create a public-facing web server that uses the internal "prime number calculator" service (via the internal Application Load Balancer) to display a matrix of prime numbers.
 
-1. First, run the following command to create the startup script for this public-facing "frontend" in the home directory:
+1.  First, run the following command to create the startup script for this public-facing "frontend" in the home directory:
     
 
 ```apache
 touch ~/frontend.sh
 ```
 
-2. You should still see the Code Editor open. But if not, launch the **Code Editor** by selecting it in the shell:
+2.  You should still see the Code Editor open. But if not, launch the **Code Editor** by selecting it in the shell:
     
 
 ![The Open Editor button highlighted in the UI](https://cdn.qwiklabs.com/N4C5%2BZX%2BUzFoTDik3XuHU%2BT1Q0Hk%2B9m%2Bzw17AK9I8JA%3D align="left")
 
 After a few seconds the workspace opens.
 
-3. Select the `frontend.sh` file in the file Explorer pane.
+3.  Select the `frontend.sh` file in the file Explorer pane.
     
-4. Now add the following script into the Editor:
+4.  Now add the following script into the Editor:
     
 
 ```apache
@@ -577,15 +577,15 @@ EOF
 nohup python3 /usr/local/sbin/getprimes.py >/dev/null 2>&1 &
 ```
 
-5. Click **File** &gt; **Save** but do not close the file.
+5.  Click **File** > **Save** but do not close the file.
     
     As before, you next want to ask Gemini Code Assist to explain the startup script for a public-facing web server to a team member.
     
-6. With the `frontend.sh` file open and Gemini Code Assist enabled in the IDE, notice the presence of the icon in the upper-right corner of the editor.
+6.  With the `frontend.sh` file open and Gemini Code Assist enabled in the IDE, notice the presence of the icon in the upper-right corner of the editor.
     
-7. Click the **Gemini Code Assist: Smart Actions** icon and select **Explain this**.
+7.  Click the **Gemini Code Assist: Smart Actions** icon and select **Explain this**.
     
-8. Gemini Code Assist opens a chat pane with the prefilled prompt of `Explain this`. In the inline text box of the Code Assist chat, replace the prefilled prompt with the following, and click **Send**:
+8.  Gemini Code Assist opens a chat pane with the prefilled prompt of `Explain this`. In the inline text box of the Code Assist chat, replace the prefilled prompt with the following, and click **Send**:
     
 
 ```apache
@@ -598,7 +598,7 @@ A detailed explanation for the startup script `frontend.sh` that's used to run a
 
 ### Create the frontend instance
 
-9. In the Cloud Shell terminal, run the following code to create an instance named `frontend` that runs this web server:
+9.  In the Cloud Shell terminal, run the following code to create an instance named `frontend` that runs this web server:
     
 
 ```apache
@@ -609,18 +609,18 @@ gcloud compute instances create frontend --zone=us-west1-b \
 
 ### Open the firewall for the frontend
 
-10. This is a public-facing server, so you need to run the following command to open its firewall to allow traffic from anywhere on the internet (0.0.0.0/0) on port 80:
-    
+10.  This is a public-facing server, so you need to run the following command to open its firewall to allow traffic from anywhere on the internet (0.0.0.0/0) on port 80:
+     
 
 ```apache
 gcloud compute firewall-rules create http2 --network default --allow=tcp:80 \
 --source-ranges 0.0.0.0/0 --target-tags frontend
 ```
 
-11. In the Navigation menu, click **Compute Engine** &gt; **VM instances**. Refresh your browser if you don't see the `frontend` instance.
-    
-12. Open the **External IP** for the frontend in your browser:
-    
+11.  In the Navigation menu, click **Compute Engine** > **VM instances**. Refresh your browser if you don't see the `frontend` instance.
+     
+12.  Open the **External IP** for the frontend in your browser:
+     
 
 ![The VM instances page displaying the IP address of the selected frontend](https://cdn.qwiklabs.com/N8W%2BVCPATqfjQ9DibnvQtba4juXWqVC9E1mJ1a6OdCI%3D align="left")
 
@@ -628,8 +628,8 @@ You should see a matrix like this, showing all prime numbers, up to 100, in gree
 
 ![The Matrix diagram displaying prime numbers in green](https://cdn.qwiklabs.com/hfIdl8Z%2FEfqZrwZeLR4DPg1RIO4CiYb3ClmDbCEyuyA%3D align="left")
 
-13. Try adding a number to the path, like http://your-ip/10000, to see all prime numbers starting from that number.
-    
+13.  Try adding a number to the path, like http://your-ip/10000, to see all prime numbers starting from that number.
+     
 
 ![The Matrix diagram displaying prime numbers starting with 100 in green](https://cdn.qwiklabs.com/kUgT%2BzbInrKniQvWT8t3kvCP7%2FuwNtQLqJi86Dsoblc%3D align="left")
 
@@ -639,14 +639,14 @@ Click **Check my progress** to verify you're on track in this lab.
 
 Create a public-facing web server
 
----
+* * *
 
 ## Solution of Lab
 
 %[https://youtu.be/FuA1GE92VNk] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP007/lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP041/lab.sh
 source lab.sh
 ```
 
