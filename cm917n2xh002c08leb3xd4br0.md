@@ -225,6 +225,8 @@ Detect a language with the Cloud Translation API
 
 ### New solution
 
+%[https://www.youtube.com/watch?v=T9eP543qtN0] 
+
 ```plaintext
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC132/lab.sh
 source lab.sh
