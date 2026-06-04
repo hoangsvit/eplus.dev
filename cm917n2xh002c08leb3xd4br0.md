@@ -29,12 +29,12 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
@@ -51,15 +51,15 @@ For this challenge, you are required to transcribe speech to text in different l
 
 You need to:
 
-* Create synthetic speech from text using the Text-to-Speech API.
+*   Create synthetic speech from text using the Text-to-Speech API.
     
-* Create an API key.
+*   Create an API key.
     
-* Perform speech to text transcription with the Cloud Speech API.
+*   Perform speech to text transcription with the Cloud Speech API.
     
-* Translate text with the Cloud Translation API.
+*   Translate text with the Cloud Translation API.
     
-* Detect a language with the Cloud Translation API.
+*   Detect a language with the Cloud Translation API.
     
 
 For this challenge lab, a virtual machine (VM) instance named `lab-vm` has been configured for you to complete tasks 2 through 5.
@@ -68,12 +68,12 @@ Each task is described in detail below, good luck!
 
 ## Task 1. Create an API key
 
-1. For this task, you need to create an API key to use in this and other tasks when sending a request to the Speech-to-Text API.
+1.  For this task, you need to create an API key to use in this and other tasks when sending a request to the Speech-to-Text API.
     
 
 **Click here for hint!**
 
-2. Save the API key to use in other tasks.
+2.  Save the API key to use in other tasks.
     
 
 Click **Check my progress** to verify the objective.
@@ -84,11 +84,11 @@ Create an API key
 
 ## Task 2. Create synthetic speech from text using the Text-to-Speech API
 
-1. For this task, connect to the VM instance `lab-vm` provisioned for you via **SSH**.
+1.  For this task, connect to the VM instance `lab-vm` provisioned for you via **SSH**.
     
-2. Activate the virtual environment using the `source venv/bin/activate` command.
+2.  Activate the virtual environment using the `source venv/bin/activate` command.
     
-3. Using a text editor (such as `nano` or `vim`), create a file named `synthesize-text.json` and paste the following into the file:
+3.  Using a text editor (such as `nano` or `vim`), create a file named `synthesize-text.json` and paste the following into the file:
     
 
 ```apache
@@ -111,9 +111,9 @@ Create an API key
 }
 ```
 
-4. Call the Text-to-Speech API to synthesize the text of the `synthesize-text.json` file, and store the result in a file named `synthesize-text.txt`.
+4.  Call the Text-to-Speech API to synthesize the text of the `synthesize-text.json` file, and store the result in a file named `synthesize-text.txt`.
     
-5. Using a text editor (such as `nano` or `vim`), create a file named `tts_decode.py` and paste the following code into that file:
+5.  Using a text editor (such as `nano` or `vim`), create a file named `tts_decode.py` and paste the following code into that file:
     
 
 ```apache
@@ -158,7 +158,7 @@ if __name__ == '__main__':
     decode_tts_output(args.input, args.output)
 ```
 
-6. Now, to create an audio file using the response you received from the Text-to-Speech API, run the following command from Cloud Shell:
+6.  Now, to create an audio file using the response you received from the Text-to-Speech API, run the following command from Cloud Shell:
     
 
 ```apache
@@ -167,7 +167,7 @@ python tts_decode.py --input "synthesize-text.txt" --output "synthesize-text-aud
 
 This creates a new MP3 file named `synthesize-text-audio.mp3`.
 
-7. Finally, download the audio file via the `DOWNLOAD FILE` option of the VM instance's SSH session in order to listen to it.
+7.  Finally, download the audio file via the `DOWNLOAD FILE` option of the VM instance's SSH session in order to listen to it.
     
 
 Click **Check my progress** to verify the objective.
@@ -182,11 +182,11 @@ Create synthetic speech from text using the Text-to-Speech API
 
 **Click here for hint!**
 
-1. For this task, connect to the VM instance `lab-vm` provisioned for you via **SSH**.
+1.  For this task, connect to the VM instance `lab-vm` provisioned for you via **SSH**.
     
-2. Using a text editor (such as `nano` or `vim`), create a file named `speech_request.json` as your API request to transcribe the audio file available at the `gs://cloud-samples-data/speech/corbeau_renard.flac` location to French.
+2.  Using a text editor (such as `nano` or `vim`), create a file named `speech_request.json` as your API request to transcribe the audio file available at the `gs://cloud-samples-data/speech/corbeau_renard.flac` location to French.
     
-3. Call `speech_request.json` and store the result in a file named `speech_response_fr.json`.
+3.  Call `speech_request.json` and store the result in a file named `speech_response_fr.json`.
     
 
 Click **Check my progress** to verify the objective.
@@ -197,9 +197,9 @@ Create the API request for transcription in French language
 
 ## Task 4. Translate text with the Cloud Translation API
 
-1. For this task, connect to the VM instance `lab-vm` provisioned for you via **SSH**.
+1.  For this task, connect to the VM instance `lab-vm` provisioned for you via **SSH**.
     
-2. Translate the `これは日本語です。` sentence to the `English` language by calling the Cloud Translation API and store the result in the `translation_response.txt` file.
+2.  Translate the `これは日本語です。` sentence to the `English` language by calling the Cloud Translation API and store the result in the `translation_response.txt` file.
     
 
 Click **Check my progress** to verify the objective.
@@ -210,16 +210,16 @@ Translate text with the Cloud Translation API
 
 ## Task 5. Detect a language with the Cloud Translation API
 
-1. For this task, connect to the VM instance `lab-vm` provisioned for you via **SSH**.
+1.  For this task, connect to the VM instance `lab-vm` provisioned for you via **SSH**.
     
-2. Detect the language of the `Este%é%japonês.` sentence by calling the Cloud Translation API and store the result in the `detected_response.txt` file.
+2.  Detect the language of the `Este%é%japonês.` sentence by calling the Cloud Translation API and store the result in the `detected_response.txt` file.
     
 
 Click **Check my progress** to verify the objective.
 
 Detect a language with the Cloud Translation API
 
----
+* * *
 
 ## Solution of Lab
 
@@ -233,7 +233,7 @@ export ZONE=$(gcloud compute instances list lab-vm --format 'csv[no-heading](zon
 gcloud compute ssh lab-vm --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
 ```
 
-* Go to `Credentials` from [he](https://console.cloud.google.com/apis/credentials)[re](https://console.cloud.google.com/apis/credentials)
+*   Go to `Credentials` from [here](https://console.cloud.google.com/apis/credentials)
     
     ```apache
     export API_KEY=
