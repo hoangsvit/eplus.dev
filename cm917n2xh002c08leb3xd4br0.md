@@ -225,6 +225,11 @@ Detect a language with the Cloud Translation API
 
 ### New solution
 
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC132/lab.sh
+source lab.sh
+```
+
 * * *
 
 ### Old solution
