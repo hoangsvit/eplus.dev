@@ -23,9 +23,9 @@ This lab is recommended for students who have enrolled in the [Implement Load Ba
 
 ### Topics tested
 
-* Create an instance.
+*   Create an instance.
     
-* Create an HTTP load balancer in front of two web servers.
+*   Create an HTTP load balancer in front of two web servers.
     
 
 ## **Setup and requirements**
@@ -38,29 +38,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -68,7 +68,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-646fd44c6562@qwiklabs.net
@@ -76,9 +76,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     cz1ouTIXtAQk
@@ -86,19 +86,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -115,13 +115,13 @@ You are expected to have the skills and knowledge for these tasks, so step-by-st
 
 Some Jooli, Inc. standards you should follow:
 
-1. Create all resources in the default region or zone, unless otherwise directed. The default region is `us-west3`, and the default zone is `us-west3-c`.
+1.  Create all resources in the default region or zone, unless otherwise directed. The default region is `us-west3`, and the default zone is `us-west3-c`.
     
-2. Naming normally uses the format *team-resource*; for example, an instance could be named **nucleus-webserver1**.
+2.  Naming normally uses the format *team-resource*; for example, an instance could be named **nucleus-webserver1**.
     
-3. Make sure to create an instance template in `global` location.
+3.  Make sure to create an instance template in `global` location.
     
-4. Allocate cost-effective resource sizes. Projects are monitored, and excessive resource use will result in the containing project's termination (and possibly yours), so plan carefully. This is the guidance the monitoring team is willing to share: unless directed, use **e2-micro** for small Linux VMs, and use **e2-medium** for Windows or other applications, such as Kubernetes nodes.
+4.  Allocate cost-effective resource sizes. Projects are monitored, and excessive resource use will result in the containing project's termination (and possibly yours), so plan carefully. This is the guidance the monitoring team is willing to share: unless directed, use **e2-micro** for small Linux VMs, and use **e2-medium** for Windows or other applications, such as Kubernetes nodes.
     
 
 ### Your challenge
@@ -134,13 +134,13 @@ You will use this instance to perform maintenance for the project.
 
 **Requirements:**
 
-* Name the instance `nucleus-jumphost-970`.
+*   Name the instance `nucleus-jumphost-970`.
     
-* Create the instance in the `us-west3-c` zone.
+*   Create the instance in the `us-west3-c` zone.
     
-* Use an *e2-micro* machine type.
+*   Use an *e2-micro* machine type.
     
-* Use the default image type (Debian Linux).
+*   Use the default image type (Debian Linux).
     
 
 Click *Check my progress* to verify the objective.
@@ -167,21 +167,21 @@ EOF
 
 You need to:
 
-* Create an instance template. Don't use the default machine type. Make sure you specify **e2-medium** as the machine type and create the **Global** template.
+*   Create an instance template. Don't use the default machine type. Make sure you specify **e2-medium** as the machine type and create the **Global** template.
     
-* Create a managed instance group based on the template.
+*   Create a managed instance group based on the template.
     
-* Create a firewall rule named as `allow-tcp-rule-286` to allow traffic (80/tcp).
+*   Create a firewall rule named as `allow-tcp-rule-286` to allow traffic (80/tcp).
     
-* Create a health check.
+*   Create a health check.
     
-* Create a backend service and add your instance group as the backend to the backend service group with named port (http:80).
+*   Create a backend service and add your instance group as the backend to the backend service group with named port (http:80).
     
-* Create a URL map, and target the HTTP proxy to route the incoming requests to the default backend service.
+*   Create a URL map, and target the HTTP proxy to route the incoming requests to the default backend service.
     
-* Create a target HTTP proxy to route requests to your URL map
+*   Create a target HTTP proxy to route requests to your URL map
     
-* Create a forwarding rule.
+*   Create a forwarding rule.
     
 
 **Note:** You may need to wait for `5 to 7 minutes` to get the score for this task.
@@ -190,9 +190,11 @@ Click *Check my progress* to verify the objective.
 
 Create the website behind the HTTP load balancer
 
----
+* * *
 
 ## Solution of Lab
+
+### Quick
 
 %[https://www.youtube.com/watch?v=jgraLGokKFo&ab_channel=Techcps] 
 
@@ -203,7 +205,6 @@ source lab.sh
 
 **Script Alternative**
 
-
 ```apache
 curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Implement%20Load%20Balancing%20on%20Compute%20Engine:%20Challenge%20Lab/techcps313.sh
 sudo chmod +x techcps313.sh
@@ -211,3 +212,9 @@ sudo chmod +x techcps313.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1740377363760/4a2822f6-791b-43a3-af4b-d90d49edfd9a.png align="center")
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=wNyglIyJl_I]
