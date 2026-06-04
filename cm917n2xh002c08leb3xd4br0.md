@@ -223,6 +223,12 @@ Detect a language with the Cloud Translation API
 
 ## Solution of Lab
 
+### New solution
+
+* * *
+
+### Old solution
+
 %[https://youtu.be/eQIWNzs-0NA] 
 
 ```apache
@@ -248,9 +254,9 @@ gcloud compute ssh lab-vm --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
     
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC132/lab.sh
-sudo chmod +x lab.sh
-./lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC132/old-lab.sh
+sudo chmod +x old-lab.sh
+./old-lab.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755573451287/f9492815-c42c-4d77-a215-1a517e4e808c.png align="center")
