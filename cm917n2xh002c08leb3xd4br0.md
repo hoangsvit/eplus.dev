@@ -230,6 +230,8 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC132
 source lab.sh
 ```
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/778c4d17-25eb-410c-916a-be64497afc6c.png align="center")
+
 * * *
 
 ### Old solution
