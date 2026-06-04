@@ -194,21 +194,40 @@ Create the website behind the HTTP load balancer
 
 ## Solution of Lab
 
-### Quick
+### New solution
 
-%[https://www.youtube.com/watch?v=jgraLGokKFo&ab_channel=Techcps] 
+%[https://www.youtube.com/watch?v=ckgpsyTInUE] 
 
-```apache
+```plaintext
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP313/lab.sh
 source lab.sh
 ```
 
 **Script Alternative**
 
+```plaintext
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Implement%20Load%20Balancing%20on%20Compute%20Engine%3A%20Challenge%20Lab2/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
+```
+
+* * *
+
+### Old solution
+
+%[https://www.youtube.com/watch?v=jgraLGokKFo&ab_channel=Techcps] 
+
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Implement%20Load%20Balancing%20on%20Compute%20Engine:%20Challenge%20Lab/techcps313.sh
-sudo chmod +x techcps313.sh
-./techcps313.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP313/old-lab.sh
+source old-lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Implement%20Load%20Balancing%20on%20Compute%20Engine%3A%20Challenge%20Lab2/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1740377363760/4a2822f6-791b-43a3-af4b-d90d49edfd9a.png align="center")
