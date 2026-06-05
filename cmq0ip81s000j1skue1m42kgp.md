@@ -347,7 +347,7 @@ echo $LB_IP
 Run in SSH
 
 ```plaintext
-curl http://[LB_IP]:110
+curl http://$LB_IP:110
 ```
 
 ```bash
