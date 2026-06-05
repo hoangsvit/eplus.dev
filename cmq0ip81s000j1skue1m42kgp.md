@@ -331,7 +331,7 @@ gcloud compute instances create vm-client-internal \
 
 **7\. Validate Access**
 
-SSH into vm-client-internal
+SSH into **vm-client-internal**
 
 Test:
 
@@ -347,7 +347,7 @@ echo $LB_IP
 Run in SSH
 
 ```plaintext
-curl http://$LB_IP:110
+curl http://[LB_IP]:110
 ```
 
 ```bash
