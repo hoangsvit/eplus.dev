@@ -156,7 +156,6 @@ The Global Market Data Feed must remain available even if a regional failure occ
     sudo systemctl stop nginx
     ```
     
-
 3.  To observe the failover, navigate to **Network Services > Load Balancing**. Click your LB, then the **Monitoring** tab. You should see the request line for Region A drop to zero while Region B spikes.
     
 
@@ -183,7 +182,7 @@ Verify the regional traffic split resumes once the health check shows HEALTHY.
 
 **1\. Create Regional MIG**
 
-Go to: Compute Engine → Instance Groups → Create Instance Group
+Go to: **Compute Engine → Instance Groups → Create Instance Group** ([https://console.cloud.google.com/compute/instanceGroups/add](https://console.cloud.google.com/compute/instanceGroups/add))
 
 Create:
 
