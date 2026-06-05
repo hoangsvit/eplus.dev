@@ -514,11 +514,45 @@ In this optional task, you refactor the VM deployment to use distinct instance t
 
 %[https://www.youtube.com/watch?v=PMYDaM749wc] 
 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP636/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
 ```plaintext
 wget -O SakshamXTech.sh "https://raw.githubusercontent.com/Saksham-Dev-001/Arcade-Google-Cloud-Labs/refs/heads/main/Implement%20Regional%20Internal%20Proxy%20NLB/SakshamXTech.sh"
 sed -i 's/\r$//' SakshamXTech.sh
 chmod +x SakshamXTech.sh
 bash SakshamXTech.sh
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/75b3e491-e7c0-43fa-b4e5-8911b354d072.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/50c33c2d-1064-4d38-b056-9b9b9053a6ee.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9401921a-8c1d-4bb2-8a8c-8ec4a0de25fd.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/530a6b9d-2c77-4148-9f49-8536efb27222.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/0e95233e-84c2-419b-b324-ede894d97e4f.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b693802b-8f96-4362-8e25-a5fc4943d222.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/85d360e9-35a3-4d05-bc64-620dd6cb420b.png align="center")
+
+**Task 5 error:**  
+Try script:
+
+```plaintext
+gcloud compute instances create client-vm \
+  --zone=us-east1-d \
+  --machine-type=e2-micro \
+  --network=lb-network \
+  --subnet=backend-subnet \
+  --tags=allow-ssh \
+  --quiet
 ```
 
 * * *
