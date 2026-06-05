@@ -260,20 +260,22 @@ gcloud compute health-checks create tcp hc-internal-proxy \
 
 **4\. Reserve Internal Static IP**
 
-Go to: **VPC Network → IP Addresses → Reserve Internal**
+Go to: **VPC Network → IP Addresses → Reserve Internal (**[https://console.cloud.google.com/networking/addresses/add-internal](https://console.cloud.google.com/networking/addresses/add-internal)**)**
 
 Create:
 
-*   Name: ip-internal-proxy
+*   **Name:** ip-internal-proxy
     
-*   Region: Region B
+*   **Region:** Region B
     
-*   Network: lb-network
+*   **Network:** lb-network
     
-*   Subnet: lb-backend-subnet-region-b
+*   **Subnet:** lb-backend-subnet-region-b
     
-*   Purpose: Shared Load Balancer VIP
+*   **Purpose:** Shared Load Balancer VIP
     
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b75ed775-ef94-47ec-9893-836c4d37112f.png align="center")
 
 * * *
 
