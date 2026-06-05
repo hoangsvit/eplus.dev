@@ -186,14 +186,14 @@ Go to: **Compute Engine → Instance Groups → Create Instance Group** ([https:
 
 Create:
 
-*   Name: mig-proxy-internal
+*   **Name:** mig-proxy-internal
     
-*   Template: template-proxy-internal
+*   **Template:** template-proxy-internal
     
-*   Region: Region B
+*   **Region:** Region B
     
 
-Add Named Port:
+**Add Named Port:**
 
 *   tcp80 → 80
     
@@ -297,15 +297,15 @@ gcloud compute backend-services add-backend internal-proxy-backend \
 
 Frontend:
 
-*   Name: rule-internal-proxy
+*   **Name:** rule-internal-proxy
     
-*   IP Address: ip-internal-proxy
+*   **IP Address:** ip-internal-proxy
     
-*   Protocol: TCP
+*   **Protocol:** TCP
     
-*   Port: 110
+*   **Port:** 110
     
-*   Global Access: Disabled
+*   **Global Access:** Disabled
     
 
 **6\. Create Client VM**
