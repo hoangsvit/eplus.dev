@@ -206,7 +206,7 @@ Add Named Port:
 
 **2\. Create Firewall Rules**
 
-Go to: **VPC Network → Firewall (**https://console.cloud.google.com/net-security/firewall-manager/firewall-policies/list**)**
+Go to: **VPC Network → Firewall (****https://console.cloud.google.com/net-security/firewall-manager/firewall-policies/list****)**
 
 Create:
 
@@ -252,11 +252,15 @@ gcloud compute health-checks create tcp hc-internal-proxy \
     --port=80
 ```
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/cdf19dd5-4815-4fd5-884c-1166799a04c1.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c7b68605-4f66-416d-a254-8a913ec0489d.png align="center")
+
 * * *
 
 **4\. Reserve Internal Static IP**
 
-Go to: VPC Network → IP Addresses → Reserve Internal
+Go to: **VPC Network → IP Addresses → Reserve Internal**
 
 Create:
 
