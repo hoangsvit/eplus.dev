@@ -165,10 +165,8 @@ The Global Market Data Feed must remain available even if a regional failure occ
     
 
 ```plaintext
-sudo systemctl start nginx 
+sudo systemctl start nginx
 ```
-
-Copied!
 
 Verify the regional traffic split resumes once the health check shows HEALTHY.
 
@@ -294,6 +292,8 @@ gcloud compute backend-services add-backend internal-proxy-backend \
     --instance-group-region=$REGION_B \
     --region=$REGION_B
 ```
+
+Open: https://console.cloud.google.com/net-services/loadbalancing/list/loadBalancers
 
 Frontend:
 
