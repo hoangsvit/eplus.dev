@@ -204,7 +204,7 @@ Create:
 
 **2\. Create Firewall Rules**
 
-Go to: **VPC Network → Firewall (****https://console.cloud.google.com/net-security/firewall-manager/firewall-policies/list****)**
+Go to: **VPC Network → Firewall (https://console.cloud.google.com/net-security/firewall-manager/firewall-policies/list)**
 
 Create:
 
@@ -307,6 +307,14 @@ Frontend:
     
 *   **Global Access:** Disabled
     
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/34638ef9-48be-40ae-84ee-4e87e0c71b3a.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1e8c9dee-8132-441d-a6f8-43044bb060f3.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/032932cb-0628-4583-9919-2d5429dc54b4.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1c88f8fe-3403-4c8e-a9fb-8bca08ff6fe9.png align="center")
 
 **6\. Create Client VM**
 
