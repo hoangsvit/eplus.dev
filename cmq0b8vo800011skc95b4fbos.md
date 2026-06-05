@@ -542,7 +542,7 @@ bash SakshamXTech.sh
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/85d360e9-35a3-4d05-bc64-620dd6cb420b.png align="center")
 
-**Task 5 error:**  
+**<mark class="bg-yellow-200 dark:bg-yellow-500/30">Task 5 error:</mark>**  
 Try script:
 
 ```plaintext
