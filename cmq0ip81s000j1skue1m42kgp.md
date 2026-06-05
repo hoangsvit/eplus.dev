@@ -198,11 +198,15 @@ Add Named Port:
 *   tcp80 → 80
     
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/027c8779-7955-477e-9b24-22e67614f53e.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/880ddc8e-6e33-4e74-914e-1fe01a99852b.png align="center")
+
 * * *
 
 **2\. Create Firewall Rules**
 
-Go to: VPC Network → Firewall
+Go to: **VPC Network → Firewall (**https://console.cloud.google.com/net-security/firewall-manager/firewall-policies/list**)**
 
 Create:
 
