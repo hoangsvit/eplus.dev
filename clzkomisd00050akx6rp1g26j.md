@@ -189,7 +189,7 @@ You will see that there are two users defined in the project.
 
 * * *
 
-### Solution of Lab
+## Solution of Lab
 
 ### New Solution
 
@@ -233,7 +233,7 @@ sudo chmod +x quicklabgsp315.sh
 
 * * *
 
-### Solution Alternative
+Solution Alternative
 
 %[https://youtu.be/7tQ3ZDzW9nI] 
 
