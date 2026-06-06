@@ -251,3 +251,9 @@ curl -LO raw.githubusercontent.com/chayandeokar/Cloud-Skills-2025/refs/heads/mas
 sudo chmod +x gsp315.sh
 ./gsp315.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=m9D3j53GZkM]
