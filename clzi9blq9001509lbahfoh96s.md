@@ -278,9 +278,9 @@ source lab.sh
 **Script Alternative**
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Creating%20and%20Alerting%20on%20Logs%20based%20Metrics/techcps091.sh
-sudo chmod +x techcps091.sh
-./techcps091.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Creating%20and%20Alerting%20on%20Logs-based%20Metrics/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
 
 * * *
