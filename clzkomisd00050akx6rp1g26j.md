@@ -189,13 +189,34 @@ You will see that there are two users defined in the project.
 
 * * *
 
-## Solution of Lab
+### Solution of Lab
 
 ### New Solution
 
-```apache
+%[https://www.youtube.com/watch?v=PhwDQoU4vh8] 
+
+```plaintext
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP315/lab.sh
 source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Set%20Up%20an%20App%20Dev%20Environment%20on%20Google%20Cloud%3A%20Challenge%20Lab/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c31a8d05-0a9b-40e8-8424-beb6cfb177cc.png align="center")
+
+* * *
+
+### Other Solution
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP315/old-lab.sh
+source old-lab.sh
 ```
 
 **Script Alternative**
