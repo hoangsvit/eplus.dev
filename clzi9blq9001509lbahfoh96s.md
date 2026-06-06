@@ -268,7 +268,7 @@ Click **Check my progress** to verify the objective.
 
 ### New solution
 
-%[https://youtu.be/X4OMbwDZMQ0] 
+%[https://youtu.be/6SOo5uxO_hI] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP091/lab.sh
