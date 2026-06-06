@@ -27,60 +27,60 @@ Creating an alert from a metric lets you create an alerting policy based on the 
 
 In this lab you will learn how to:
 
-* Create a log-based alert
+*   Create a log-based alert
     
-* Create a system-defined log-based metric
+*   Create a system-defined log-based metric
     
-* Create a user-defined log-based metric
+*   Create a user-defined log-based metric
     
-* Create an alert for the user-defined log-based metric
+*   Create an alert for the user-defined log-based metric
     
 
 ## **Task 1. Log-based alert**
 
 Log-based alerts notify you whenever a specific message appears in your logs. Try it out by setting up a log-based alert to tell you when a VM stops running.
 
-1. From Cloud Console, in the Search bar, type in “logs explorer”, then click on the **Logs Explorer** result.
+1.  From Cloud Console, in the Search bar, type in “logs explorer”, then click on the **Logs Explorer** result.
     
-2. Click the **Show Query** slide bar.
+2.  Click the **Show Query** slide bar.
     
-3. Enter the following parameters to create Log Based Alert:
+3.  Enter the following parameters to create Log Based Alert:
     
 
 ```apache
 resource.type="gce_instance" protoPayload.methodName="v1.compute.instances.stop"
 ```
 
-4. Click **Create alert** link.
+4.  Click **Create alert** link.
     
-5. Add the following parameters, click **Next** to move to the next parameter.
+5.  Add the following parameters, click **Next** to move to the next parameter.
     
 
-* **Alert name:** stopped vm
+*   **Alert name:** stopped vm
     
-* **Choose logs to include in the alert:** will auto-fill with the query you entered
+*   **Choose logs to include in the alert:** will auto-fill with the query you entered
     
-* **Set notification frequency and autoclose duration:** Time between notifications is `5 min` and Incident autoclose duration is `1 hr`. Click **Next**.
+*   **Set notification frequency and autoclose duration:** Time between notifications is `5 min` and Incident autoclose duration is `1 hr`. Click **Next**.
     
 
 **Who should be notified (optional):**
 
-* Click on the dropdown arrow next to **Notification Channels**, then click on **Manage Notification Channels**.
+*   Click on the dropdown arrow next to **Notification Channels**, then click on **Manage Notification Channels**.
     
-* A Notification channels page will open in the new tab.
+*   A Notification channels page will open in the new tab.
     
-* Scroll down the page and click on **ADD NEW** for **Email**.
+*   Scroll down the page and click on **ADD NEW** for **Email**.
     
-* Enter your personal email in the **Email Address** field and a **Display name**.
+*   Enter your personal email in the **Email Address** field and a **Display name**.
     
-* Click **Save**.
+*   Click **Save**.
     
-* When done, return to the Logs Explorer tab you were in previously.
+*   When done, return to the Logs Explorer tab you were in previously.
     
-* Refresh the Notification Channels, then select the channel you just created. Click **OK**.
+*   Refresh the Notification Channels, then select the channel you just created. Click **OK**.
     
 
-6. Click **Save**.
+6.  Click **Save**.
     
 
 Click **Check my progress** to verify the objective.
@@ -91,20 +91,20 @@ Create the Log-based alert
 
 You will now cause your VM to stop.
 
-7. Go to the 2nd Cloud Console tab, and navigate to **Navigation menu** &gt; **Compute Engine** &gt; **VM instances**.
+7.  Go to the 2nd Cloud Console tab, and navigate to **Navigation menu** > **Compute Engine** > **VM instances**.
     
-8. Check the box next to **instance1**, then click **Stop** at the top of the page, then click **Stop** again in the pop-up window. The green check mark will turn to a gray circle when the instance has been stopped.
+8.  Check the box next to **instance1**, then click **Stop** at the top of the page, then click **Stop** again in the pop-up window. The green check mark will turn to a gray circle when the instance has been stopped.
     
-9. In the Search bar, type "monitoring", then choose the **Monitoring** option.
+9.  In the Search bar, type "monitoring", then choose the **Monitoring** option.
     
-10. Click on the **Alerting** tab. You'll see that your alert has registered. Under Alert Policies click the **See all policies** link and you'll see the log-based alert you created listed.
-    
+10.  Click on the **Alerting** tab. You'll see that your alert has registered. Under Alert Policies click the **See all policies** link and you'll see the log-based alert you created listed.
+     
 
 ## **Task 2. Log-based metric**
 
 Using log-based metrics you can define a metric that tracks errors in the logs to proactively respond to similar problems and symptoms before they are noticed by end users.
 
-1. At the beginning of the lab you deployed a standard GKE cluster. Run the following command to ensure that the cluster named `gmp-cluster` has been created:
+1.  At the beginning of the lab you deployed a standard GKE cluster. Run the following command to ensure that the cluster named `gmp-cluster` has been created:
     
 
 ```apache
@@ -113,7 +113,7 @@ gcloud container clusters list
 
 If your cluster status says PROVISIONING, wait a moment and run the command above again. Repeat until the status is RUNNING.
 
-2. Authenticate the cluster:
+2.  Authenticate the cluster:
     
 
 ```apache
@@ -127,14 +127,14 @@ Fetching cluster endpoint and auth data.
 kubeconfig entry generated for gmp-cluster.
 ```
 
-3. Create a namespace to work in:
+3.  Create a namespace to work in:
     
 
 ```apache
 kubectl create ns gmp-test
 ```
 
-4. Now run the following to deploy a simple application that emits metrics at the `/metrics` endpoint:
+4.  Now run the following to deploy a simple application that emits metrics at the `/metrics` endpoint:
     
 
 ```apache
@@ -145,7 +145,7 @@ kubectl -n gmp-test apply -f https://storage.googleapis.com/spls/gsp091/gmp_flas
 kubectl -n gmp-test apply -f https://storage.googleapis.com/spls/gsp091/gmp_flask_service.yaml
 ```
 
-5. Verify that the namespace is ready and emitting metrics:
+5.  Verify that the namespace is ready and emitting metrics:
     
 
 ```apache
@@ -165,9 +165,9 @@ Deploy the simple application that emits metrics
 
 **Check my progress**
 
-6. Re-run the command until you see the **External-IP** address populated.
+6.  Re-run the command until you see the **External-IP** address populated.
     
-7. Check that the Python Flask app is serving metrics with the following command:
+7.  Check that the Python Flask app is serving metrics with the following command:
     
 
 ```apache
@@ -184,18 +184,18 @@ flask_exporter_info{version="0.18.5"} 1.0
 
 ## **Task 3. Create a log-based metric**
 
-1. Return to **Logs Explorer**.
+1.  Return to **Logs Explorer**.
     
-2. Click **Create metric** link.
+2.  Click **Create metric** link.
     
-3. On the Create metric page, input the following:
+3.  On the Create metric page, input the following:
     
 
-* **Metric type:** leave the default setting, Counter
+*   **Metric type:** leave the default setting, Counter
     
-* **Log based metric name:** hello-app-error
+*   **Log based metric name:** hello-app-error
     
-* **Filter selection:** update the following into the Build filter:
+*   **Filter selection:** update the following into the Build filter:
     
 
 ```apache
@@ -204,7 +204,7 @@ resource.labels.container_name="hello-app"
 textPayload: "ERROR: 404 Error page not found"
 ```
 
-4. Click **Create metric**.
+4.  Click **Create metric**.
     
 
 Click **Check my progress** to verify the objective.
@@ -215,23 +215,23 @@ Create the log-based metric
 
 ## **Task 4. Create a metrics-based alert**
 
-1. In the left pane of **Logging** window select **Log-based Metrics**. Then in user-defined metrics click on **3 vertical dots** next to metrics and select **Create alert from metric**.
+1.  In the left pane of **Logging** window select **Log-based Metrics**. Then in user-defined metrics click on **3 vertical dots** next to metrics and select **Create alert from metric**.
     
-2. Under **Select a Metric**, the metric parameters will automatically fill in.
-    
-
-* Update the Rolling window to **2 min**.
-    
-* Accept the other default settings
-    
-* Click **Next**.
+2.  Under **Select a Metric**, the metric parameters will automatically fill in.
     
 
-3. You will need to set Notifications. Feel free to re-use the channel you created earlier in the lab.
+*   Update the Rolling window to **2 min**.
     
-4. Name the alert policy `log based metric alert`.
+*   Accept the other default settings
     
-5. Click **Create Policy**.
+*   Click **Next**.
+    
+
+3.  You will need to set Notifications. Feel free to re-use the channel you created earlier in the lab.
+    
+4.  Name the alert policy `log based metric alert`.
+    
+5.  Click **Create Policy**.
     
 
 Click **Check my progress** to verify the objective.
@@ -244,25 +244,25 @@ Create the metrics-based alert
 
 Next you'll generate some errors to match the log-based metric you created and trigger the metric-based alert.
 
-1. In Cloud Shell, run the following to generate some errors:
+1.  In Cloud Shell, run the following to generate some errors:
     
 
 ```apache
 timeout 120 bash -c -- 'while true; do curl $(kubectl get services -n gmp-test -o jsonpath='{.items[*].status.loadBalancer.ingress[0].ip}')/error; sleep $((RANDOM % 4)) ; done'
 ```
 
-2. Return to the **Logs Explorer** page, and go to the Severity section on the lower left side. Click on the **Error** severity. Now you can search for the `404 Error page not found` error. View more information by expanding one of the 404 Error messages.
+2.  Return to the **Logs Explorer** page, and go to the Severity section on the lower left side. Click on the **Error** severity. Now you can search for the `404 Error page not found` error. View more information by expanding one of the 404 Error messages.
     
-3. Return to the **Monitoring** page, and click on **Alerting**. You will see the 2 policies you created.
+3.  Return to the **Monitoring** page, and click on **Alerting**. You will see the 2 policies you created.
     
-4. Click on the **Alert policies** link, and you should see both alerts in the Incidents section. Click on an incident to see details.
+4.  Click on the **Alert policies** link, and you should see both alerts in the Incidents section. Click on an incident to see details.
     
 
 **Note:** The log-based metric alert will eventually resolve itself. If you need more time to investigate, run the errors script again and wait for the alert to be triggered again.
 
 Click **Check my progress** to verify the objective.
 
----
+* * *
 
 ## Solution of Lab
 
@@ -283,7 +283,7 @@ sudo chmod +x techcps091.sh
 ./techcps091.sh
 ```
 
----
+* * *
 
 ### Old solution
 
@@ -300,3 +300,9 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Creating%20a
 sudo chmod +x quicklabgsp091.sh
 ./quicklabgsp091.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=Qgb7pBcCImk]
