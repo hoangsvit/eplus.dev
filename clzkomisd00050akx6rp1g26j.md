@@ -21,7 +21,7 @@ To score 100% you must successfully complete all tasks within the time period!
 
 This lab is recommended for students who have enrolled in the [Set Up an App Dev Environment on Google Cloud](https://www.cloudskillsboost.google/course_templates/637) skill badge. Are you ready for the challenge?
 
----
+* * *
 
 ### **Task 1. Create a bucket**
 
@@ -47,14 +47,14 @@ Create a Pub/Sub topic called `topic-memories-433`
 
 Create a Cloud Function `memories-thumbnail-creator` that will to create a thumbnail from an image added to the `qwiklabs-gcp-02-44c8ef7a6ef7-bucket` bucket. Ensure the Cloud Function is using the 2nd Generation environment. Ensure the resource is created in the `europe-west4` region and `europe-west4-b` zone.
 
-1. Create a Cloud Function called `memories-thumbnail-creator`
+1.  Create a Cloud Function called `memories-thumbnail-creator`
     
 
 **Note:** The Cloud Function is required to executes every time an object is created in the bucket created in Task 1. During the process Cloud Function may request permission to enable APIs. Please enable each of the required APIs as requested.
 
-2. Make sure you set the **Entry point** (Function to execute) to `memories-thumbnail-creator` and **Trigger** to `Cloud Storage`.
+2.  Make sure you set the **Entry point** (Function to execute) to `memories-thumbnail-creator` and **Trigger** to `Cloud Storage`.
     
-3. Add the following code to the `index.js`:
+3.  Add the following code to the `index.js`:
     
 
 ```javascript
@@ -128,7 +128,7 @@ functions.cloudEvent('memories-thumbnail-creator', cloudEvent => {
 });
 ```
 
-4. Add the following code to the `package.json`:
+4.  Add the following code to the `package.json`:
     
 
 ```json
@@ -167,29 +167,29 @@ Verify the Cloud Function
 
 You must upload one JPG or PNG image into the bucket
 
-1. Upload a PNG or JPG image to `qwiklabs-gcp-02-44c8ef7a6ef7-bucket` bucket.
+1.  Upload a PNG or JPG image to `qwiklabs-gcp-02-44c8ef7a6ef7-bucket` bucket.
     
 
 **Note:** Alternatively Download this image [`https://storage.googleapis.com/cloud-training/gsp315/map.jpg`](https://storage.googleapis.com/cloud-training/gsp315/map.jpg) to your machine. Then upload it to the bucket.
 
-2. You will see a thumbnail image appear shortly afterwards (use **REFRESH** in the bucket details).
+2.  You will see a thumbnail image appear shortly afterwards (use **REFRESH** in the bucket details).
     
 
 ### **Task 5. Remove the previous cloud engineer**
 
 You will see that there are two users defined in the project.
 
-* One is your account ([`student-03-105022fae008@qwiklabs.net`](mailto:student-03-105022fae008@qwiklabs.net) with the role of Owner).
+*   One is your account ([`student-03-105022fae008@qwiklabs.net`](mailto:student-03-105022fae008@qwiklabs.net) with the role of Owner).
     
-* The other is the previous cloud engineer ([`student-00-a654209f5cea@qwiklabs.net`](mailto:student-00-a654209f5cea@qwiklabs.net) with the role of Viewer).
-    
-
-1. Remove the previous cloud engineer’s access from the project.
+*   The other is the previous cloud engineer ([`student-00-a654209f5cea@qwiklabs.net`](mailto:student-00-a654209f5cea@qwiklabs.net) with the role of Viewer).
     
 
----
+1.  Remove the previous cloud engineer’s access from the project.
+    
 
-### Solution of Lab
+* * *
+
+## Solution of Lab
 
 ### New Solution
 
@@ -210,7 +210,7 @@ sudo chmod +x quicklabgsp315.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757142695494/08beb27d-8841-4f3c-b669-48ea1e33a984.png align="center")
 
----
+* * *
 
 ### Solution Alternative
 
