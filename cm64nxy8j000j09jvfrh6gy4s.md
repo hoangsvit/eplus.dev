@@ -348,7 +348,7 @@ For further exploration, you can try the following:
 
 ### Quick
 
-%[https://www.youtube.com/watch?v=QSHX7gFDwK8&ab_channel=QUICKGCPLAB]
+%[https://www.youtube.com/watch?v=QSHX7gFDwK8&ab_channel=QUICKGCPLAB] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1073/lab.sh
@@ -363,9 +363,11 @@ sudo chmod +x gsp1073.sh
 ./gsp1073.sh
 ```
 
-![](<https://cdn.hashnode.com/res/hashnode/image/upload/v1737354186831/8599ccca-c547-4358-9777-6aae6025079f.png> align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1737354186831/8599ccca-c547-4358-9777-6aae6025079f.png align="center")
 
-![](<https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4e47dd16-f21b-4b82-83b9-99e36275a08f.png> align="center")
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4e47dd16-f21b-4b82-83b9-99e36275a08f.png align="center")
+
+* * *
 
 ### Other Solution
 
