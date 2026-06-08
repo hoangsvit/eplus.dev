@@ -344,13 +344,36 @@ For further exploration, you can try the following:
 
 ## Solution of Lab
 
-### New Solution
+* * *
+
+### Quick
+
+%[https://www.youtube.com/watch?v=QSHX7gFDwK8&ab_channel=QUICKGCPLAB]
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1073/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Creating%20a%20De-identified%20Copy%20of%20Data%20in%20Cloud%20Storage/gsp1073.sh
+sudo chmod +x gsp1073.sh
+./gsp1073.sh
+```
+
+![](<https://cdn.hashnode.com/res/hashnode/image/upload/v1737354186831/8599ccca-c547-4358-9777-6aae6025079f.png> align="center")
+
+![](<https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4e47dd16-f21b-4b82-83b9-99e36275a08f.png> align="center")
+
+### Other Solution
 
 %[https://www.youtube.com/watch?v=ry9Jsx7ydAk] 
 
 ```plaintext
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1073/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1073/other-lab.sh
+source other-lab.sh
 ```
 
 **Script Alternative**
@@ -378,29 +401,6 @@ sudo chmod +x TechCode.sh
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b942bdab-393c-4eb2-8556-776895531a81.png align="center")
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/bf525011-a9db-41f1-87e6-f7ef181e8e70.png align="center")
-
-* * *
-
-### Old Solution
-
-%[https://www.youtube.com/watch?v=QSHX7gFDwK8&ab_channel=QUICKGCPLAB] 
-
-```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1073/old-lab.sh
-source old-lab.sh
-```
-
-**Script Alternative**
-
-```apache
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Creating%20a%20De-identified%20Copy%20of%20Data%20in%20Cloud%20Storage/gsp1073.sh
-sudo chmod +x gsp1073.sh
-./gsp1073.sh
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1737354186831/8599ccca-c547-4358-9777-6aae6025079f.png align="center")
-
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4e47dd16-f21b-4b82-83b9-99e36275a08f.png align="center")
 
 * * *
 
