@@ -344,13 +344,50 @@ For further exploration, you can try the following:
 
 ## Solution of Lab
 
-### Quick
+### New Solution
+
+%[https://www.youtube.com/watch?v=ry9Jsx7ydAk] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1073/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Creating%20a%20De-identified%20Copy%20of%20Data%20in%20Cloud%20Storage/TechCode.sh
+sudo chmod +x TechCode.sh 
+./TechCode.sh
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9d0fe538-05c4-4524-926e-552c080dd3a6.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/556e683c-0766-4b2b-83e8-4ecb86810d4b.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/7f1b93ad-f6a5-48c7-87cc-440d3fec5456.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/46401415-6cc5-4235-99c9-8ce163011f19.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b3af5a11-22f5-4507-93fa-73ece7b9d7c2.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5906e91e-9e8e-4db3-9963-f5b06dbe4b96.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/013cf21a-c6e1-40d7-8a62-c974339860b4.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b942bdab-393c-4eb2-8556-776895531a81.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/bf525011-a9db-41f1-87e6-f7ef181e8e70.png align="center")
+
+* * *
+
+### Old Solution
 
 %[https://www.youtube.com/watch?v=QSHX7gFDwK8&ab_channel=QUICKGCPLAB] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1073/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1073/old-lab.sh
+source old-lab.sh
 ```
 
 **Script Alternative**
