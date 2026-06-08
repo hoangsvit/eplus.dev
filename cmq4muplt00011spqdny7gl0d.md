@@ -299,7 +299,7 @@ False
 
 ### Quick
 
-%[https://www.youtube.com/watch?v=8qCUX_RVYnI] 
+%[https://www.youtube.com/watch?v=cVg6p9cBCJw] 
 
 ```plaintext
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP103/lab.sh
