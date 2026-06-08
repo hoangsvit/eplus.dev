@@ -359,15 +359,14 @@ curl http://[LB_IP]:110
 ```
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20Global%20and%20Regional%20Load%20Balancing%20Solutions%3A%20Challenge%20Lab/drabhishek.sh
-sudo chmod +x drabhishek.sh
-./drabhishek.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC116/lab.sh
+source lab.sh
 ```
 
 ```plaintext
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20Global%20and%20Regional%20Load%20Balancing%20Solutions%3A%20Challenge%20Lab/drabhishek1.sh
-sudo chmod +x drabhishek1.sh
-./drabhishek1.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20Global%20and%20Regional%20Load%20Balancing%20Solutions%3A%20Challenge%20Lab/drabhishek.sh
+sudo chmod +x drabhishek.sh
+./drabhishek.sh
 ```
 
 ```plaintext
