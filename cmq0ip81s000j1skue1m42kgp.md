@@ -333,8 +333,6 @@ gcloud compute instances create vm-client-internal \
 
 Open: https://console.cloud.google.com/compute/instances
 
-SSH into **vm-client-internal**
-
 Test:
 
 ```plaintext
@@ -346,7 +344,15 @@ LB_IP=$(gcloud compute addresses describe ip-internal-proxy \
 echo $LB_IP
 ```
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/903835b8-c21e-4ad6-a6cb-96fbcc38ed70.png align="center")
+
+SSH into **vm-client-internal**
+
 Run in SSH
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5df268c5-6fae-4886-b2c3-a4e95b8d3b6c.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/340e07a8-1bc0-4a8b-a112-4a5d14d1870e.png align="center")
 
 ```plaintext
 curl http://[LB_IP]:110
