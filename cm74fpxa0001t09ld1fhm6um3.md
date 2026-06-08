@@ -23,9 +23,9 @@ In this lab, you set up a JSON file to analyze, send it to the DLP API, to inspe
 
 In this lab, you use the DLP API to do the following:
 
-* Inspect a string for sensitive information
+*   Inspect a string for sensitive information
     
-* Redact sensitive data from text content
+*   Redact sensitive data from text content
     
 
 ## **Setup and requirements**
@@ -38,29 +38,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -68,7 +68,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-01-5025bdf2a6df@qwiklabs.net
@@ -76,9 +76,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     xUOApWRG5YCQ
@@ -86,19 +86,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -111,13 +111,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-00-36d4057bb33c`. The output contains a line that declares the **Project\_ID** for this session:
@@ -128,14 +128,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-00-36d4057bb3
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -148,7 +148,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -166,7 +166,7 @@ project = qwiklabs-gcp-00-36d4057bb33c
 
 ### Set an environmental variable for your project ID
 
-* In Cloud Shell, run the following command to set an environment variable for your project ID:
+*   In Cloud Shell, run the following command to set an environment variable for your project ID:
     
 
 ```apache
@@ -177,7 +177,7 @@ export PROJECT_ID=$DEVSHELL_PROJECT_ID
 
 This section shows you how to ask the service to scan sample text using the [projects.content.inspect](https://cloud.google.com/dlp/docs/reference/rest/v2beta2/projects.content/inspect) REST method. The JSON file you create contains an [InspectConfig](https://cloud.google.com/dlp/docs/reference/rest/v2beta2/InspectConfig) and a [ContentItem](https://cloud.google.com/dlp/docs/reference/rest/v2beta2/ContentItem) object.
 
-1. Using your preferred editor (`nano`, `vim`, etc.) or Cloud Shell, create a JSON request file with the following text, and save it as `inspect-request.json`:
+1.  Using your preferred editor (`nano`, `vim`, etc.) or Cloud Shell, create a JSON request file with the following text, and save it as `inspect-request.json`:
     
 
 ```json
@@ -203,7 +203,7 @@ This section shows you how to ask the service to scan sample text using the [pro
 }
 ```
 
-2. Obtain an authorization token using your account:
+2.  Obtain an authorization token using your account:
     
 
 ```apache
@@ -214,7 +214,7 @@ A huge string is returned. You need this token for the next step.
 
 If you receive an error that no service account is being used, wait a few minutes and run the command again.
 
-3. Use `curl` to make a `content:inspect` request, replacing `ACCESS_TOKEN` with the string that was returned in the previous step:
+3.  Use `curl` to make a `content:inspect` request, replacing `ACCESS_TOKEN` with the string that was returned in the previous step:
     
 
 ```apache
@@ -282,7 +282,7 @@ The DLP API can automatically redact sensitive data from text files instead of g
 
 Try sending the API JSON file using [deidentifyConfig](https://cloud.google.com/dlp/docs/reference/rest/v2beta2/projects.deidentifyTemplates) object, so sensitive information is redacted from the output.
 
-1. Create a new JSON file (called `new-inspect-file.json`) that includes the following:
+1.  Create a new JSON file (called `new-inspect-file.json`) that includes the following:
     
 
 ```json
@@ -309,7 +309,7 @@ Try sending the API JSON file using [deidentifyConfig](https://cloud.google.com/
 }
 ```
 
-2. Use `curl` to make a `content:deidentify` request (`ACCESS_TOKEN` has been replaced with a command to print the access token):
+2.  Use `curl` to make a `content:deidentify` request (`ACCESS_TOKEN` has been replaced with a command to print the access token):
     
 
 ```apache
@@ -368,9 +368,11 @@ gsutil cp redact-output.txt gs://qwiklabs-gcp-00-36d4057bb33c-bucket
 
 Redacting sensitive data from text content
 
----
+* * *
 
 ## Solution of Lab
+
+### Quick
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP107/lab.sh
@@ -383,4 +385,16 @@ source lab.sh
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Data%20Loss%20Prevention%20Qwik%20Start%20-%20JSON/gsp107.sh
 sudo chmod +x gsp107.sh
 ./gsp107.sh
+```
+
+* * *
+
+### Other solution
+
+%[https://www.youtube.com/watch?v=s-CM_j6qNwQ] 
+
+```plaintext
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Cloud%20Data%20Loss%20Prevention%20API%3A%20Qwik%20Start/abhishekGSP107.sh
+sudo chmod +x abhishekGSP107.sh
+./abhishekGSP107.sh
 ```
