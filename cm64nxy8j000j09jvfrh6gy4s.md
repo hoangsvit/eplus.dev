@@ -367,4 +367,4 @@ sudo chmod +x gsp1073.sh
 
 ### Manual
 
-%[https://www.youtube.com/watch?v=xxS4Q5JqpeM]
+%[https://www.youtube.com/watch?v=OzrNWIPO9YE]
