@@ -19,11 +19,11 @@ You are given the option to use the Cloud Shell command line or the Cloud consol
 
 ### What you'll do
 
-* Create a BigQuery dataset and table
+*   Create a BigQuery dataset and table
     
-* Create a Cloud Storage bucket
+*   Create a Cloud Storage bucket
     
-* Create a streaming pipeline using the Pub/Sub to BigQuery Dataflow template
+*   Create a streaming pipeline using the Pub/Sub to BigQuery Dataflow template
     
 
 ## Setup
@@ -36,29 +36,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -66,7 +66,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-c426f555ac76@qwiklabs.net
@@ -74,9 +74,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     QFJXoyWrH7az
@@ -84,19 +84,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -109,13 +109,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-04-6b12446d8944`. The output contains a line that declares the **Project\_ID** for this session:
@@ -126,14 +126,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-04-6b12446d89
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -146,7 +146,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -166,16 +166,16 @@ project = qwiklabs-gcp-04-6b12446d8944
 
 To ensure access to the necessary API, restart the connection to the Dataflow API.
 
-1. In the Cloud Console, enter "Dataflow API" in the top search bar. Click on the result for **Dataflow API**.
+1.  In the Cloud Console, enter "Dataflow API" in the top search bar. Click on the result for **Dataflow API**.
     
-2. Click **Manage**.
+2.  Click **Manage**.
     
-3. Click **Disable API**.
+3.  Click **Disable API**.
     
 
 If asked to confirm, click **Disable**.
 
-4. Click **Enable**.
+4.  Click **Enable**.
     
 
 When the API has been enabled again, the page will show the option to disable.
@@ -194,7 +194,7 @@ Let's first create a BigQuery dataset and table.
 
 **Note:** This task uses the `bq` command-line tool. **Skip down** to Task 3 if you want to complete these steps using the Cloud console.
 
-1. Run the following command to create a dataset called `taxirides`:
+1.  Run the following command to create a dataset called `taxirides`:
     
 
 ```apache
@@ -218,7 +218,7 @@ Create a BigQuery Dataset (name: taxirides).
 
 Now that you have your dataset created, you'll use it in the following step to instantiate a BigQuery table.
 
-2. Run the following command to do so:
+2.  Run the following command to do so:
     
 
 ```apache
@@ -245,7 +245,7 @@ Create a table in BigQuery Dataset.
 
 On its face, the `bq mk` command looks a bit complicated. However, with some assistance from the [BigQuery command-line documentation](https://cloud.google.com/bigquery/docs/reference/bq-cli-reference), we can break down what's going on here. For example, the documentation tells us a little bit more about **schema**:
 
-* Either the path to a local JSON schema file or a comma-separated list of column definitions in the form `[FIELD]`:`[DATA_TYPE]`, `[FIELD]`:`[DATA_TYPE]`.
+*   Either the path to a local JSON schema file or a comma-separated list of column definitions in the form `[FIELD]`:`[DATA_TYPE]`, `[FIELD]`:`[DATA_TYPE]`.
     
 
 In this case, we are using the latter—a comma-separated list.
@@ -256,7 +256,7 @@ Now that we have our table instantiated, let's create a bucket.
 
 Use the Project ID as the bucket name to ensure a globally unique name: `qwiklabs-gcp-04-6b12446d8944`
 
-* Run the following commands to do so:
+*   Run the following commands to do so:
     
 
 ```apache
@@ -281,17 +281,17 @@ Once you've made your bucket, scroll down to the **Run the Pipeline** section.
 
 **Note:** Do not complete Task 3 if you completed Task 2, which includes the same tasks in the command line!
 
-1. From the left-hand menu, in the Big Data section, click on **BigQuery**.
+1.  From the left-hand menu, in the Big Data section, click on **BigQuery**.
     
-2. Then click **Done**.
+2.  Then click **Done**.
     
-3. Click on the three dots next to your project name under the **Explorer** section, then click **Create dataset**.
+3.  Click on the three dots next to your project name under the **Explorer** section, then click **Create dataset**.
     
-4. Input `taxirides` as your dataset ID:
+4.  Input `taxirides` as your dataset ID:
     
-5. Select **us (multiple regions in United States)** in Data location.
+5.  Select **us (multiple regions in United States)** in Data location.
     
-6. Leave all of the other default settings in place and click **CREATE DATASET**.
+6.  Leave all of the other default settings in place and click **CREATE DATASET**.
     
 
 **Test completed task**
@@ -302,16 +302,16 @@ Create a BigQuery Dataset (name: taxirides).
 
 **Check my progress**
 
-7. You should now see the `taxirides` dataset underneath your project ID in the left-hand console.
+7.  You should now see the `taxirides` dataset underneath your project ID in the left-hand console.
     
-8. Click on the three dots next to `taxirides` dataset and select **Open**.
+8.  Click on the three dots next to `taxirides` dataset and select **Open**.
     
-9. Then select **CREATE TABLE** in the right-hand side of the console.
+9.  Then select **CREATE TABLE** in the right-hand side of the console.
     
-10. In the **Destination** &gt; **Table Name** input, enter `realtime`.
-    
-11. Under Schema, toggle the **Edit as text** slider and enter the following:
-    
+10.  In the **Destination** > **Table Name** input, enter `realtime`.
+     
+11.  Under Schema, toggle the **Edit as text** slider and enter the following:
+     
 
 ```apache
 ride_id:string,point_idx:integer,latitude:float,longitude:float,timestamp:timestamp,
@@ -322,8 +322,8 @@ Your console should look like the following:
 
 ![Create table page](https://cdn.qwiklabs.com/LqLoLzf7IkIzwUFthE2fZr5GHTn4W%2BlSQ6YCB58STCI%3D align="left")
 
-12. Now, click **Create table**.
-    
+12.  Now, click **Create table**.
+     
 
 **Test completed task**
 
@@ -335,11 +335,11 @@ Create a table in BigQuery Dataset.
 
 ### Create a Cloud Storage bucket using the Cloud console
 
-1. Go back to the Cloud Console and navigate to **Cloud Storage** &gt; **Buckets** &gt; **Create bucket**.
+1.  Go back to the Cloud Console and navigate to **Cloud Storage** > **Buckets** > **Create bucket**.
     
-2. Use the Project ID as the bucket name to ensure a globally unique name: `qwiklabs-gcp-04-6b12446d8944`
+2.  Use the Project ID as the bucket name to ensure a globally unique name: `qwiklabs-gcp-04-6b12446d8944`
     
-3. Leave all other default settings, then click **Create**.
+3.  Leave all other default settings, then click **Create**.
     
 
 **Test completed task**
@@ -363,7 +363,7 @@ gcloud dataflow jobs run iotflow \
     --parameters inputTopic=projects/pubsub-public-data/topics/taxirides-realtime,outputTableSpec=qwiklabs-gcp-04-6b12446d8944:taxirides.realtime
 ```
 
-In the **Google Cloud Console**, on the **Navigation menu**, click **Dataflow &gt; Jobs**, and you will see your dataflow job.
+In the **Google Cloud Console**, on the **Navigation menu**, click **Dataflow > Jobs**, and you will see your dataflow job.
 
 Please refer the [document](https://cloud.google.com/sdk/gcloud/reference/dataflow/jobs/run) for more information.
 
@@ -381,7 +381,7 @@ You'll watch your resources build and become ready for use.
 
 Now, let's go view the data written to BigQuery by clicking on **BigQuery** found in the Navigation menu.
 
-* When the BigQuery UI opens, you'll see the **taxirides** dataset added under your project name and **realtime** table underneath that.
+*   When the BigQuery UI opens, you'll see the **taxirides** dataset added under your project name and **realtime** table underneath that.
     
 
 **Note:** You may have to wait a few minutes for the data to populate in the BigQuery table.
@@ -390,19 +390,19 @@ Now, let's go view the data written to BigQuery by clicking on **BigQuery** foun
 
 You can submit queries using standard SQL.
 
-1. In the BigQuery **Editor**, add the following to query the data in your project:
+1.  In the BigQuery **Editor**, add the following to query the data in your project:
     
 
 ```apache
 SELECT * FROM `qwiklabs-gcp-04-6b12446d8944.taxirides.realtime` LIMIT 1000
 ```
 
-2. Now click **RUN**.
+2.  Now click **RUN**.
     
 
 If you run into any issues or errors, run the query again (the pipeline takes a minute to start up.)
 
-3. When the query runs successfully, you'll see the output in the **Query Results** panel as shown below:
+3.  When the query runs successfully, you'll see the output in the **Query Results** panel as shown below:
     
 
 ![Query results page](https://cdn.qwiklabs.com/JIACp2MGHfBDfVaUOojawE0nqwdx18el4zjgmqABSuc%3D align="left")
@@ -415,35 +415,33 @@ Below are multiple choice questions to reinforce your understanding of this lab'
 
 **Google Cloud Dataflow supports batch processing.**
 
-* True
+*   True
     
-* False
+*   False
     
 
 **Which Dataflow Template used in the lab to run the pipeline?**
 
-* Bulk Compress Cloud Storage Files
+*   Bulk Compress Cloud Storage Files
     
-* Cloud Storage Text to BigQuery
+*   Cloud Storage Text to BigQuery
     
-* Pub/Sub to BigQuery
+*   Pub/Sub to BigQuery
     
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://youtu.be/s7YEycYQx10] 
+### Quick
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP192/lab.sh
 source lab.sh
 ```
 
-**Script Alternative**
+* * *
 
-```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Dataflow%3A%20Qwik%20Start%20Templates/techcps192.sh
-sudo chmod +x techcps192.sh
-./techcps192.sh
-```
+### Manual
+
+%[https://www.youtube.com/watch?v=8qCUX_RVYnI]
