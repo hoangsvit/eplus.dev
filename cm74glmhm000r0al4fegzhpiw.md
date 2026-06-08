@@ -559,6 +559,8 @@ Redact strings and images
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/wMdejkvRek8] 
 
 ```apache
@@ -573,3 +575,9 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/R
 sudo chmod +x gsp864.sh
 ./gsp864.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=-hn_RX_RXeo]
