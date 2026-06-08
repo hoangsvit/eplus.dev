@@ -344,6 +344,8 @@ For further exploration, you can try the following:
 
 ## Solution of Lab
 
+### Quick
+
 %[https://www.youtube.com/watch?v=QSHX7gFDwK8&ab_channel=QUICKGCPLAB] 
 
 ```apache
