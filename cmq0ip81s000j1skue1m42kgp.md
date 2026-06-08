@@ -375,3 +375,5 @@ curl http://[LB_IP]:110
 ```
 
 Then click: Check my progress → Create a regional internal proxy NLB
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ae05e918-1a07-4c7d-9554-d4f1bf6014e9.png align="center")
