@@ -19,13 +19,13 @@ You can use the DLP API to classify data in a variety of ways, including data ty
 
 The DLP API protects sensitive data in a variety of ways, including:
 
-* **Redaction:** redact sensitive data from a document or file.
+*   **Redaction:** redact sensitive data from a document or file.
     
-* **Masking:** mask sensitive data with a placeholder, such as `*`.
+*   **Masking:** mask sensitive data with a placeholder, such as `*`.
     
-* **Tokenization:** replace sensitive data with a unique identifier.
+*   **Tokenization:** replace sensitive data with a unique identifier.
     
-* **Encryption:** encrypt sensitive data.
+*   **Encryption:** encrypt sensitive data.
     
 
 In this lab, you learn the basic capabilities of the DLP API and try out various ways to use the API to protect data.
@@ -34,11 +34,11 @@ In this lab, you learn the basic capabilities of the DLP API and try out various
 
 In this lab, you use the DLP API to do the following:
 
-* Inspect strings and files for matching info types
+*   Inspect strings and files for matching info types
     
-* Learn about de-identification techniques and de-identify data
+*   Learn about de-identification techniques and de-identify data
     
-* Redact info types in strings and images
+*   Redact info types in strings and images
     
 
 ## **Setup and requirements**
@@ -51,29 +51,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -81,7 +81,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-02-b4de0619daa1@qwiklabs.net
@@ -89,9 +89,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     B5M6bWtNv7ve
@@ -99,19 +99,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -124,13 +124,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-02-e78c5f456fdf`. The output contains a line that declares the **Project\_ID** for this session:
@@ -141,14 +141,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-02-e78c5f456f
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -161,7 +161,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -187,14 +187,14 @@ gcloud config set compute/region us-west1
 
 ## **Task 1. Clone the repo and enable APIs**
 
-1. In Cloud Shell, run the following command to download the Cloud Data Loss Prevention Node.js Client repository:
+1.  In Cloud Shell, run the following command to download the Cloud Data Loss Prevention Node.js Client repository:
     
 
 ```apache
 git clone https://github.com/googleapis/synthtool
 ```
 
-2. Once you download the project code, change into the `samples` directory and install the required `Node.js` packages:
+2.  Once you download the project code, change into the `samples` directory and install the required `Node.js` packages:
     
 
 ```apache
@@ -203,7 +203,7 @@ cd synthtool/tests/fixtures/nodejs-dlp/samples/ && npm install
 
 **Note:** Ignore any warning messages.
 
-3. Make sure you're using the correct project by setting it with the following `gcloud` command:
+3.  Make sure you're using the correct project by setting it with the following `gcloud` command:
     
 
 ```apache
@@ -215,12 +215,12 @@ gcloud config set project $PROJECT_ID
 
 Here are the APIs needed to enable your project:
 
-* **DLP API** - Provides methods for detection, risk analysis, and de-identification of privacy-sensitive fragments in text, images, and Google Cloud storage repositories.
+*   **DLP API** - Provides methods for detection, risk analysis, and de-identification of privacy-sensitive fragments in text, images, and Google Cloud storage repositories.
     
-* **Cloud Key Management Service (KMS) API** - Google Cloud KMS allows encryption key management and performs cryptographic operations with those keys.
+*   **Cloud Key Management Service (KMS) API** - Google Cloud KMS allows encryption key management and performs cryptographic operations with those keys.
     
 
-1. Enable the required APIs with the following `gcloud` command:
+1.  Enable the required APIs with the following `gcloud` command:
     
 
 ```apache
@@ -238,7 +238,7 @@ Check my progress
 
 The samples directory of the project downloaded in the preceding step contains several javascript files that make use of the different functionality of the DLP API. The file `inspectString.js` inspects a provided string for sensitive info types.
 
-1. Provide the string option and a sample string with some potentially sensitive information:
+1.  Provide the string option and a sample string with some potentially sensitive information:
     
 
 ```apache
@@ -247,9 +247,9 @@ node inspectString.js $PROJECT_ID "My email address is jenny@somedomain.com and 
 
 The output tells you the findings for each matched info type, which includes:
 
-* **InfoType**: the information type detected for that part of the string. Find a full list of possible info types here. By default, `inspectString.js` inspects only for info types `CREDIT_CARD_NUMBER`, `PHONE_NUMBER`, `PERSON_NAME` AND `EMAIL_ADDRESS`
+*   **InfoType**: the information type detected for that part of the string. Find a full list of possible info types here. By default, `inspectString.js` inspects only for info types `CREDIT_CARD_NUMBER`, `PHONE_NUMBER`, `PERSON_NAME` AND `EMAIL_ADDRESS`
     
-* **Likelihood**: the results are categorized based on how likely they each represent a match. Likelihood can range from `VERY_UNLIKELY` to `VERY_LIKELY`.
+*   **Likelihood**: the results are categorized based on how likely they each represent a match. Likelihood can range from `VERY_UNLIKELY` to `VERY_LIKELY`.
     
 
 Check the output using below command:
@@ -270,7 +270,7 @@ Findings:
     Likelihood: VERY_LIKELY
 ```
 
-2. Similarly, you can inspect files for info types. Run the following command to review the sample `accounts.txt` file:
+2.  Similarly, you can inspect files for info types. Run the following command to review the sample `accounts.txt` file:
     
 
 ```apache
@@ -283,7 +283,7 @@ The file includes the following text:
 My credit card number is 1234 5678 9012 3456, and my CVV is 789.
 ```
 
-3. Use the `inspectFile.js` file to inspect the provided file for sensitive info types:
+3.  Use the `inspectFile.js` file to inspect the provided file for sensitive info types:
     
 
 ```apache
@@ -364,7 +364,7 @@ Check my progress
 
 Beyond inspecting and detecting sensitive data, you can also use Sensitive Data Protection to perform de-identification using the DLP API. De-identification is the process of removing identifying information from data. The API detects sensitive data as defined by info types, then uses a de-identification transformation to mask, delete, or otherwise obscure the data.
 
-1. Run the following command to use `deidentifyWithMask.js` to try de-identification with a mask:
+1.  Run the following command to use `deidentifyWithMask.js` to try de-identification with a mask:
     
 
 ```apache
@@ -430,7 +430,7 @@ Check my progress
 
 Another method of obfuscating sensitive information is **redaction**. Redaction replaces a match with the info type it's identified to match with.
 
-1. Use `redactText.js` to redact text from a sample input:
+1.  Use `redactText.js` to redact text from a sample input:
     
 
 ```apache
@@ -453,7 +453,7 @@ This is useful if you'd like to hide sensitive information but still identify th
 
 ![image with sensitive info](https://cdn.qwiklabs.com/lpQdTAKuZZn349y6OLFuTjch68niKuvYIj%2BsmQiRDE8%3D align="left")
 
-2. To redact the phone number from the image above, run the following command:
+2.  To redact the phone number from the image above, run the following command:
     
 
 ```apache
@@ -462,11 +462,11 @@ node redactImage.js $PROJECT_ID resources/test.png "" PHONE_NUMBER ./redacted-ph
 
 As specified, a new image named `redacted-phone.png` is generated with the requested information blacked out. To verify, open the `samples/redacted-phone.png` file using Cloud Shell Code Editor:
 
-**Note:** In the Cloud Shell Code Editor, use the left (Explorer) pane to navigate to **synthtool &gt; tests &gt; fixtures &gt; nodejs-dlp &gt; samples &gt; redacted-phone.png**
+**Note:** In the Cloud Shell Code Editor, use the left (Explorer) pane to navigate to **synthtool > tests > fixtures > nodejs-dlp > samples > redacted-phone.png**
 
 ![info redacted image](https://cdn.qwiklabs.com/CCgT0aqQdN5pWlTZ9TWNVrAj895TiIvkjGUfOqLy7SE%3D align="left")
 
-3. Try it again to redact the email address from the image:
+3.  Try it again to redact the email address from the image:
     
 
 ```apache
@@ -555,13 +555,20 @@ Click **Check my progress** to verify the objective.
 
 Redact strings and images
 
----
+* * *
 
 ## Solution of Lab
 
 %[https://youtu.be/wMdejkvRek8] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP864/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Redacting%20Sensitive%20Data%20with%20Cloud%20Data%20Loss%20Prevention/gsp864.sh
 sudo chmod +x gsp864.sh
 ./gsp864.sh
