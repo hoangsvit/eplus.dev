@@ -176,7 +176,7 @@ Verify the regional traffic split resumes once the health check shows HEALTHY.
 
 ### Quick
 
-%[https://www.youtube.com/watch?v=09DKnJwkxIc] 
+%[https://www.youtube.com/watch?v=PpxxrCZ-dwo] 
 
 **1\. Create Regional MIG**
 
