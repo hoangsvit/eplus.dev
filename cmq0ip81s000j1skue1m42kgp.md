@@ -331,6 +331,8 @@ gcloud compute instances create vm-client-internal \
 
 **7\. Validate Access**
 
+Open: https://console.cloud.google.com/compute/instances
+
 SSH into **vm-client-internal**
 
 Test:
