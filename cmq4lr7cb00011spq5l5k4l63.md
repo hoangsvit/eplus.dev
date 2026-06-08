@@ -453,8 +453,7 @@ Generate a useful summary by aggregating, averaging, and counting the contributi
     set col: Average_Contribution_Sum value: round(Average_Contribution_Sum)
     ```
     
-
-4.  Then click **Add**.
+5.  Then click **Add**.
     
 
 Your results look something like this:
@@ -470,7 +469,7 @@ Your results look something like this:
 %[https://www.youtube.com/watch?v=668Zp1e1KGY] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP658/lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP105/lab.sh
 source lab.sh
 ```
 
