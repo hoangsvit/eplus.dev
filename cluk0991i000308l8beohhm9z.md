@@ -642,7 +642,7 @@ Create the advanced measures
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=kSDIBp0vT84] 
+%[https://www.youtube.com/watch?v=WLZHbcRj5AY] 
 
 Click the **<mark class="bg-yellow-200 dark:bg-yellow-500/30">Develop</mark>** tab and then select the **<mark class="bg-yellow-200 dark:bg-yellow-500/30">qwiklabs-ecommerce</mark>** LookML project.
 
