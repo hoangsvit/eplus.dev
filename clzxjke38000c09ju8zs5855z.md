@@ -5,8 +5,8 @@ seoDescription: "Looker is a modern data platform in Google Cloud that you can u
 datePublished: 2024-08-17T02:51:15.668Z
 cuid: clzxjke38000c09ju8zs5855z
 slug: caching-and-datagroups-with-lookml-gsp893
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747552934898/6b8bc77a-dfa9-42da-af74-07b883785e34.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747553005815/25aae782-9da6-4cc7-aa51-642d60541585.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/36f65ee2-5fee-4bde-b0bc-007a12fb3c8a.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/fae66875-754f-42e1-8519-9a15b916a470.png
 tags: caching-and-datagroups-with-lookml-gsp893, gsp893, caching-and-datagroups-with-lookml
 
 ---
