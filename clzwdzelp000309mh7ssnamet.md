@@ -23,11 +23,11 @@ Familiarity with LookML is necessary. It is recommend that you complete [Underst
 
 ### What you'll learn
 
-* Describe how extends allow you to modularize and easily reuse LookML code.
+*   Describe how extends allow you to modularize and easily reuse LookML code.
     
-* Extend a view by integrating columns defined in another view.
+*   Extend a view by integrating columns defined in another view.
     
-* Extend an Explore by integrating joins defined in another Explore.
+*   Extend an Explore by integrating joins defined in another Explore.
     
 
 ## **Setup and requirements**
@@ -40,35 +40,35 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to Looker
 
-1. When ready, click .
+1.  When ready, click .
     
     A new panel will appear with the temporary credentials that you must use for this lab.
     
     If you need to pay for the lab, a pop-up will open for you to select your payment method.
     
-2. Note your lab credentials in the left pane. You will use them to sign in to the Looker instance for this lab.
+2.  Note your lab credentials in the left pane. You will use them to sign in to the Looker instance for this lab.
     
     **Note:** If you use other credentials, you will get **errors or incur charges**.
     
-3. Click **Open Looker**.
+3.  Click **Open Looker**.
     
-4. Enter the provided Username and Password in the Email and Password fields.
+4.  Enter the provided Username and Password in the Email and Password fields.
     
     **Important:** You must use the credentials from the Connection Details panel on this page. Do not use your Google Cloud Skills Boost credentials. If you have your own Looker account, do not use it for this lab.
     
-5. Click **Log In**.
+5.  Click **Log In**.
     
     After a successful login, you will see the Looker instance for this lab.
     
@@ -101,13 +101,13 @@ Another object you can extend is Explores. You may have multiple tables that mus
 
 "Behind the scenes" with an Explore:
 
-1. Looker makes a copy of the LookML object being extended.
+1.  Looker makes a copy of the LookML object being extended.
     
-2. The copy, or *extending object*, is merged with the new or modified definitions.
+2.  The copy, or *extending object*, is merged with the new or modified definitions.
     
-3. If any conflicts are detected (which happens if you modified definitions), the extending object controls.
+3.  If any conflicts are detected (which happens if you modified definitions), the extending object controls.
     
-4. The extending object can be used in your LookML model just like any other object.
+4.  The extending object can be used in your LookML model just like any other object.
     
 
 **Note:** Although implementing extends is a simple process, knowing these details is useful if you encounter unexpected behavior.
@@ -122,13 +122,13 @@ In this task, you create a new view that contains location dimensions (e.g., cit
 
 ### Create a new view
 
-1. Click the toggle button to enter **Development mode**.
+1.  Click the toggle button to enter **Development mode**.
     
-2. On the **Develop** tab, select the **qwiklabs-ecommerce** LookML project.
+2.  On the **Develop** tab, select the **qwiklabs-ecommerce** LookML project.
     
-3. Click (**+**) next to File Browser, and select **Create View**.
+3.  Click (**+**) next to File Browser, and select **Create View**.
     
-4. Name the view `location`, drag it under the **views** folder, and add the following code to it:
+4.  Name the view `location`, drag it under the **views** folder, and add the following code to it:
     
 
 ```apache
@@ -175,7 +175,7 @@ Notice line 2 (`extension: required`), which means that this view *cannot be joi
 
 Also notice that, unlike with other views, you do not need to include the parameter `sql_table_name` in the view definition to identify which table to use for the data. Instead, this view will use the table specified in the view that will be extended in the next section.
 
-5. Click **Save Changes**, and then click **Validate LookML**.  
+5.  Click **Save Changes**, and then click **Validate LookML**.  
     No LookML errors were found, and your file should resemble the following:
     
 
@@ -183,16 +183,16 @@ Also notice that, unlike with other views, you do not need to include the parame
 
 ### Add extends
 
-1. Open the **users.view** file.
+1.  Open the **users.view** file.
     
-2. On a new line at the top of the file (line 1), add the following code, which indicates that the users view is being extended using the location view:
+2.  On a new line at the top of the file (line 1), add the following code, which indicates that the users view is being extended using the location view:
     
 
 ```apache
 include: location.view
 ```
 
-3. On line 3 above `sql_table_name`, add the following code:
+3.  On line 3 above `sql_table_name`, add the following code:
     
 
 ```apache
@@ -201,30 +201,30 @@ extends: [location]
 
 **Note:** Because the extends are added, the `sql_table_name` parameter identifies which table to use as the data source for both the existing objects in the file and the objects that are added from geography via the extend.
 
-4. Remove the existing dimension definitions for: `city`, `country`, `latitude`, `longitude`, `state`, and `zip` (this is the existing order in the file). Instead of being explicitly defined in the **users.view** file, these dimensions are integrated via the extend from **location.view**.
+4.  Remove the existing dimension definitions for: `city`, `country`, `latitude`, `longitude`, `state`, and `zip` (this is the existing order in the file). Instead of being explicitly defined in the **users.view** file, these dimensions are integrated via the extend from **location.view**.
     
-5. Click **Save Changes**, and then click **Validate LookML**.
+5.  Click **Save Changes**, and then click **Validate LookML**.
     
-6. Open the **event.view** file.
+6.  Open the **event.view** file.
     
-7. On a new line at the top of the file (line 1), add the following code:
+7.  On a new line at the top of the file (line 1), add the following code:
     
 
 ```apache
 include: location.view
 ```
 
-8. On line 3 above `sql_table_name`, add the following code:
+8.  On line 3 above `sql_table_name`, add the following code:
     
 
 ```apache
 extends: [location]
 ```
 
-9. As you did with the users view, remove the existing dimension definitions for: `city`, `country`, `latitude`, `longitude`, `state`, and `zip`.
+9.  As you did with the users view, remove the existing dimension definitions for: `city`, `country`, `latitude`, `longitude`, `state`, and `zip`.
     
-10. Click **Save Changes**, and then click **Validate LookML**.
-    
+10.  Click **Save Changes**, and then click **Validate LookML**.
+     
 
 Your file should now resemble the following:
 
@@ -232,36 +232,36 @@ Your file should now resemble the following:
 
 ### Test the extended view for Users and Events in the Order Items Explore
 
-1. Navigate to the Explore page for **Order Items**.
+1.  Navigate to the Explore page for **Order Items**.
     
-2. From the **Users** view, select the **City**, **Country**, **Latitude**, **Longitude**, **State**, and **Zip** dimensions.
+2.  From the **Users** view, select the **City**, **Country**, **Latitude**, **Longitude**, **State**, and **Zip** dimensions.
     
-3. Click **Run**.
+3.  Click **Run**.
     
 
 Even though you removed the definitions for these dimensions (city, country, latitude, longitude, state and zip) from the **users.view** file, you can see and use them because they were added to the **users.view** file using an extend from the **location.view** file!
 
 ![The order items explore visualization displaying the columns from the users.view and location.view files](https://cdn.qwiklabs.com/jpyIz1Q5xMRfFIXIQTukkgnE5J%2B6Ia7a2MpZx3C0Zxc%3D align="left")
 
-4. Navigate to the **Events Explore**.
+4.  Navigate to the **Events Explore**.
     
-5. From the **Events** view, select the **City**, **Country**, **Latitude**, **Longitude**, **State**, and **Zip** dimensions.
+5.  From the **Events** view, select the **City**, **Country**, **Latitude**, **Longitude**, **State**, and **Zip** dimensions.
     
 
 ![The order items explore visualization displaying the dimentions from the events.view file](https://cdn.qwiklabs.com/95EUkiPr6YKQtuWaDUqmLjb3wa0LebH1KgA%2BorE27lM%3D align="left")
 
 Again, even though you removed the definitions for these dimensions from the **events.view** file, you can see and use them because they were added to the **events.view** file using an extend.
 
-6. Navigate back to the **events.view** file in the Looker IDE.
+6.  Navigate back to the **events.view** file in the Looker IDE.
     
 
 ### Commit changes and deploy to production
 
-1. Click **Validate LookML** and then click **Commit Changes & Push**.
+1.  Click **Validate LookML** and then click **Commit Changes & Push**.
     
-2. Add a commit message and click **Commit**.
+2.  Add a commit message and click **Commit**.
     
-3. Lastly, click **Deploy to Production**.
+3.  Lastly, click **Deploy to Production**.
     
 
 Click *Check my progress* to verify the objective.
@@ -278,9 +278,9 @@ A common business use case for this is creating one core Explore that can be use
 
 In this section, you create one base Explore that contains joins for all views that are needed by multiple business teams, and then use extends to reuse and customize that base Explore for multiple teams.
 
-1. Navigate to the **training\_ecommerce.model** file.
+1.  Navigate to the **training\_ecommerce.model** file.
     
-2. After the `order_items` Explore definition (around line 43), create a new base Explore called `base_events`, using the following code:
+2.  After the `order_items` Explore definition (around line 43), create a new base Explore called `base_events`, using the following code:
     
 
 ```apache
@@ -305,14 +305,14 @@ Notice again the line for `extension: required`, which means that this Explore i
 
 Next, you'll modify the existing definition for the **events** Explore to extend it with the views from `base_events`.
 
-3. From the **events** Explore, remove the existing joins for `event_session_facts` and `users`.
+3.  From the **events** Explore, remove the existing joins for `event_session_facts` and `users`.
     
 
 These joined views are integrated from the `base_events` Explore via code added in the next step. Notice that the join definition for `event_session_funnel` remains to customize this Explore for a particular set of users. Your file should resemble the following:
 
 ![The open training.ecommerce.model file with the updated lines 43 to 56 highlighted](https://cdn.qwiklabs.com/MVgLBDCdI6dLQ%2Fqhzgc%2BWf9jHqNe4aKsy3B4%2FqMlnHA%3D align="left")
 
-4. Under the first line of the **events** Explore definition, add the following code:
+4.  Under the first line of the **events** Explore definition, add the following code:
     
 
 ```apache
@@ -331,7 +331,7 @@ Your final definition for the **events** Explore should resemble the following:
 
 **Note:** The `from` and `view_name` are both pointing to the events view, so why include both? The `from` makes sure that you are using the original view called events (not an alias name for the view and not an extended one), and the `view_name` is the view file name, which could be an alias, etc.
 
-5. Below the modified **events** Explore definition, to add a new Explore called **conversions**, use the following code:
+5.  Below the modified **events** Explore definition, to add a new Explore called **conversions**, use the following code:
     
 
 ```apache
@@ -351,7 +351,7 @@ explore: conversions {
 
 Lines 2-6 here provide a description for the Explore info button, identify which fields from which view file to include (all fields except the `total_revenue_from_completed_orders` measure in the order items view), and specify which Explore is being used to extend this Explore (i.e., the same **base\_events** Explore that was used to extend the **events** Explore).
 
-6. Click **Save Changes**, and then click **Validate LookML**.  
+6.  Click **Save Changes**, and then click **Validate LookML**.  
     No LookML errors were found, and your file should resemble the following:
     
 
@@ -359,41 +359,41 @@ Lines 2-6 here provide a description for the Explore info button, identify which
 
 Now it's time to test your new Explores. Go to each Explore (**Events** and **Conversions**), and notice which views are included. Because the Explores share a core set of views but are customized with additional views, each one serves a different user audience.
 
-7. Navigate to the **Events** Explore, which contains the views joined in the base Explore (**Events**, **Event Session Facts**, **Users**) plus the **Event Session Funnel** view.
+7.  Navigate to the **Events** Explore, which contains the views joined in the base Explore (**Events**, **Event Session Facts**, **Users**) plus the **Event Session Funnel** view.
     
 
 ![The Explore Events page listing Custom Fields, Event Session Facts, Events Session Funnel, Events and Users under the All Fields tab](https://cdn.qwiklabs.com/rQe2tmegunRGCqlT74qHTZMKvBjUi2CbIplMdaW31%2Bw%3D align="left")
 
-8. To review the description, hold the pointer over **Information** () next to **Events**.
+8.  To review the description, hold the pointer over **Information** () next to **Events**.
     
-9. Navigate to the **Conversions** Explore, which contains the views joined in the base Explore (**Events**, **Event Session Facts**, **Users**) plus the **Order Items** view.
+9.  Navigate to the **Conversions** Explore, which contains the views joined in the base Explore (**Events**, **Event Session Facts**, **Users**) plus the **Order Items** view.
     
 
 ![The Conversations page listing Custom Fields, Event Session Facts, Events, Order Items and Users under the All Fields tab](https://cdn.qwiklabs.com/k1JuHUES9W4%2FkMljWCJW4Asvx3wPfJbCPdX6UHTzVzE%3D align="left")
 
-10. To review the description, hold the pointer over **Information** () next to **Conversions**.
-    
-11. Review the measures in the **Order Items** view; `total_revenue_from_completed_orders` is not listed.
-    
-12. Return to the **training\_ecommerce.model** file in the Looker IDE.
-    
+10.  To review the description, hold the pointer over **Information** () next to **Conversions**.
+     
+11.  Review the measures in the **Order Items** view; `total_revenue_from_completed_orders` is not listed.
+     
+12.  Return to the **training\_ecommerce.model** file in the Looker IDE.
+     
 
 ### Commit changes and deploy to production
 
-1. Click **Validate LookML** and then click **Commit Changes & Push**.
+1.  Click **Validate LookML** and then click **Commit Changes & Push**.
     
-2. Add a commit message and click **Commit**.
+2.  Add a commit message and click **Commit**.
     
-3. Lastly, click **Deploy to Production**.
+3.  Lastly, click **Deploy to Production**.
     
 
 Click *Check my progress* to verify the objective.
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://youtu.be/LDgitDqznGU] 
+%[https://www.youtube.com/watch?v=6eN4AwxzWoE] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723792222422/479ae2be-99ef-4fad-8a07-e52cc0ff64ef.png align="center")
 
@@ -437,7 +437,7 @@ view: location {
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723792312789/07821485-552e-4616-a287-10528e0d8198.png align="center")
 
----
+* * *
 
 ### users.view
 
@@ -539,6 +539,7 @@ view: users {
   }
 }
 ```
+
 ### events.view
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723792449798/5a9c67d5-4e27-4122-bc93-22dc1752ac6f.png align="center")
@@ -666,9 +667,9 @@ view: events {
 }
 ```
 
----
+* * *
 
-### training_ecommerce.model
+### training\_ecommerce.model
 
 ```apache
 connection: "bigquery_public_data_looker"
