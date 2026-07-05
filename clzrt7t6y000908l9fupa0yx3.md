@@ -19,24 +19,24 @@ Infrastructure as code is the process of managing infrastructure in a file or fi
 
 A simple workflow for deployment will follow closely to the steps below:
 
-* **Scope** - Confirm what resources need to be created for a given project.
+*   **Scope** - Confirm what resources need to be created for a given project.
     
-* **Author** - Create the configuration file in HCL based on the scoped parameters.
+*   **Author** - Create the configuration file in HCL based on the scoped parameters.
     
-* **Initialize** - Run `terraform init` in the project directory with the configuration files. This will download the correct provider plug-ins for the project.
+*   **Initialize** - Run `terraform init` in the project directory with the configuration files. This will download the correct provider plug-ins for the project.
     
-* **Plan & Apply** - Run `terraform plan` to verify creation process and then `terraform apply` to create real resources as well as the state file that compares future changes in your configuration files to what actually exists in your deployment environment.
+*   **Plan & Apply** - Run `terraform plan` to verify creation process and then `terraform apply` to create real resources as well as the state file that compares future changes in your configuration files to what actually exists in your deployment environment.
     
 
 ## **Objectives**
 
 In this lab, you will learn how to perform the following tasks:
 
-* Build, change, and destroy infrastructure with Terraform
+*   Build, change, and destroy infrastructure with Terraform
     
-* Create Resource Dependencies with Terraform
+*   Create Resource Dependencies with Terraform
     
-* Provision infrastructure with Terraform
+*   Provision infrastructure with Terraform
     
 
 ## **Setup and requirements**
@@ -49,29 +49,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -79,7 +79,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-52e2cfd95869@qwiklabs.net
@@ -87,9 +87,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     0f9ZiZ2RxPnK
@@ -97,19 +97,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -122,7 +122,7 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell**
+1.  Click **Activate Cloud Shell**
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="left")
     
@@ -137,14 +137,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-00-fed61199e1
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-2. (Optional) You can list the active account name with this command:
+2.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-3. Click **Authorize**.
+3.  Click **Authorize**.
     
 
 **Output:**
@@ -157,7 +157,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-4. (Optional) You can list the project ID with this command:
+4.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -179,16 +179,16 @@ Terraform comes pre-installed in Cloud Shell. With Terraform already installed, 
 
 Start by creating your example configuration to a file named `main.tf`. Terraform recognizes files ending in `.tf` or `.tf.json` as configuration files and will load them when it runs.
 
-1. Create the `main.tf` file:
+1.  Create the `main.tf` file:
     
 
 ```apache
 touch main.tf
 ```
 
-2. Click the **Open Editor** button on the toolbar of Cloud Shell. (You can switch between Cloud Shell and the code editor by using the **Open Editor** and **Open Terminal** icons as required, or click the **Open in new window** button to leave the Editor open in a separate tab).
+2.  Click the **Open Editor** button on the toolbar of Cloud Shell. (You can switch between Cloud Shell and the code editor by using the **Open Editor** and **Open Terminal** icons as required, or click the **Open in new window** button to leave the Editor open in a separate tab).
     
-3. In the Editor, add the following content to the `main.tf` file.
+3.  In the Editor, add the following content to the `main.tf` file.
     
 
 ```apache
@@ -231,7 +231,7 @@ The `provider` block is used to configure the named provider, in this case `goog
 
 The first command to run for a new configuration -- or after checking out an existing configuration from version control -- is `terraform init`, which initializes various local settings and data that will be used by subsequent commands.
 
-* Initialize your new Terraform configuration by running the `terraform init` command in the same directory as your `main.tf` file:
+*   Initialize your new Terraform configuration by running the `terraform init` command in the same directory as your `main.tf` file:
     
 
 ```apache
@@ -240,7 +240,7 @@ terraform init
 
 ### Creating resources
 
-1. Apply you configuration now by running the command `terraform apply`:
+1.  Apply you configuration now by running the command `terraform apply`:
     
 
 ```apache
@@ -253,7 +253,7 @@ If the plan was created successfully, Terraform will now pause and wait for appr
 
 If `terraform apply` failed with an error, read the error message and fix the error that occurred.
 
-2. The plan looks acceptable here, so type `yes` at the confirmation prompt to proceed.
+2.  The plan looks acceptable here, so type `yes` at the confirmation prompt to proceed.
     
 
 Executing the plan will take a few minutes since Terraform waits for the network to be created successfully:
@@ -275,12 +275,12 @@ Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 
 After this, Terraform is all done! You can go to the Cloud Console to see the network you have provisioned.
 
-3. In the Console, from the **Navigation menu**, navigate to **VPC network**. You will see the `terraform-network` has been provisioned.
+3.  In the Console, from the **Navigation menu**, navigate to **VPC network**. You will see the `terraform-network` has been provisioned.
     
 
 ![VPC networks page](https://cdn.qwiklabs.com/ixPpe0919FV8gS8Aekxv2tD8zu7LpVC%2B4yGFQyl%2FJzQ%3D align="left")
 
-4. In Cloud Shell run the `terraform show` command to inspect the current state:
+4.  In Cloud Shell run the `terraform show` command to inspect the current state:
     
 
 ```apache
@@ -307,7 +307,7 @@ By using Terraform to change infrastructure, you can version control not only yo
 
 You can add new resources by adding them to your Terraform configuration and running `terraform apply` to provision them.
 
-1. In the Editor, add a compute instance resource to `main.tf`:
+1.  In the Editor, add a compute instance resource to `main.tf`:
     
 
 ```apache
@@ -335,14 +335,14 @@ For this example, your compute instance will use a Debian operating system, and 
 
 The presence of the `access_config` block, even without any arguments, ensures that the instance will be accessible over the internet.
 
-2. Now run `terraform apply` to create the compute instance:
+2.  Now run `terraform apply` to create the compute instance:
     
 
 ```apache
 terraform apply
 ```
 
-3. Once again, answer `yes` to the confirmation prompt.
+3.  Once again, answer `yes` to the confirmation prompt.
     
 
 This is a fairly straightforward change - you added a "google\_compute\_instance" resource named "vm\_instance" to your configuration, and Terraform created the resource in Google Cloud.
@@ -351,7 +351,7 @@ This is a fairly straightforward change - you added a "google\_compute\_instance
 
 In addition to creating resources, Terraform can also make changes to those resources.
 
-1. Add a `tags` argument to your "vm\_instance" so that it looks like this:
+1.  Add a `tags` argument to your "vm\_instance" so that it looks like this:
     
 
 ```apache
@@ -363,14 +363,14 @@ resource "google_compute_instance" "vm_instance" {
 }
 ```
 
-2. Run `terraform apply` again to update the instance:
+2.  Run `terraform apply` again to update the instance:
     
 
 ```apache
 terraform apply
 ```
 
-3. The prefix `~` means that Terraform will update the resource in-place. You can go and apply this change now by responding `yes`, and Terraform will add the tags to your instance.
+3.  The prefix `~` means that Terraform will update the resource in-place. You can go and apply this change now by responding `yes`, and Terraform will add the tags to your instance.
     
 
 Click *Check my progress* to verify the objective.
@@ -385,7 +385,7 @@ A destructive change is a change that requires the provider to replace the exist
 
 Changing the disk image of your instance is one example of a destructive change.
 
-1. Edit the `boot_disk` block inside the `vm_instance` resource in your configuration file and change it to the following:
+1.  Edit the `boot_disk` block inside the `vm_instance` resource in your configuration file and change it to the following:
     
 
 ```apache
@@ -396,7 +396,7 @@ Changing the disk image of your instance is one example of a destructive change.
   }
 ```
 
-2. Now run `terraform apply` again to see how Terraform will apply this change to the existing resources:
+2.  Now run `terraform apply` again to see how Terraform will apply this change to the existing resources:
     
 
 ```apache
@@ -407,7 +407,7 @@ The prefix `-/+` means that Terraform will destroy and recreate the resource, ra
 
 Additionally, the execution plan shows that the disk image change is what required your instance to be replaced. Using this information, you can adjust your changes to possibly avoid destroy/create updates if they are not acceptable in some situations.
 
-3. Once again, Terraform prompts for approval of the execution plan before proceeding. Answer `yes` to execute the planned steps.
+3.  Once again, Terraform prompts for approval of the execution plan before proceeding. Answer `yes` to execute the planned steps.
     
 
 As indicated by the execution plan, Terraform first destroyed the existing instance and then created a new one in its place. You can use `terraform show` again to see the new values associated with this instance.
@@ -420,7 +420,7 @@ Destroying your infrastructure is a rare event in production environments. But i
 
 Resources can be destroyed using the `terraform destroy` command, which is similar to `terraform apply` but it behaves as if all of the resources have been removed from the configuration.
 
-* Try the `terraform destroy` command. Answer `yes` to execute this plan and destroy the infrastructure:
+*   Try the `terraform destroy` command. Answer `yes` to execute this plan and destroy the infrastructure:
     
 
 ```apache
@@ -445,7 +445,7 @@ Real-world infrastructure has a diverse set of resources and resource types. Ter
 
 In this section, you will be shown a basic example of how to configure multiple resources and how to use resource attributes to configure other resources.
 
-* Recreate your network and instance. After you respond to the prompt with `yes`, the resources will be created:
+*   Recreate your network and instance. After you respond to the prompt with `yes`, the resources will be created:
     
 
 ```apache
@@ -454,7 +454,7 @@ terraform apply
 
 ### Assigning a static IP address
 
-1. Now add to your configuration by assigning a static IP to the VM instance in `main.tf`:
+1.  Now add to your configuration by assigning a static IP to the VM instance in `main.tf`:
     
 
 ```apache
@@ -465,7 +465,7 @@ resource "google_compute_address" "vm_static_ip" {
 
 This should look familiar from the earlier example of adding a VM instance resource, except this time you're creating a "google\_compute\_address" resource type. This resource type allocates a reserved IP address to your project.
 
-2. Next, run `terraform plan`:
+2.  Next, run `terraform plan`:
     
 
 ```apache
@@ -516,7 +516,7 @@ Note: You didn't specify an "-out" parameter to save this plan, so Terraform can
 
 Unlike `terraform apply`, the `plan` command will only show what would be changed, and never actually apply the changes directly. Notice that the only change you have made so far is to add a static IP. Next, you need to attach the IP address to your instance.
 
-3. Update the `network_interface` configuration for your instance like so:
+3.  Update the `network_interface` configuration for your instance like so:
     
 
 ```apache
@@ -530,14 +530,14 @@ Unlike `terraform apply`, the `plan` command will only show what would be change
 
 The `access_config` block has several optional arguments, and in this case you'll set `nat_ip` to be the static IP address. When Terraform reads this configuration, it will:
 
-* Ensure that `vm_static_ip` is created before `vm_instance`
+*   Ensure that `vm_static_ip` is created before `vm_instance`
     
-* Save the properties of `vm_static_ip` in the state
+*   Save the properties of `vm_static_ip` in the state
     
-* Set `nat_ip` to the value of the `vm_static_ip.address` property
+*   Set `nat_ip` to the value of the `vm_static_ip.address` property
     
 
-4. Run terraform plan again, but this time, save the plan:
+4.  Run terraform plan again, but this time, save the plan:
     
 
 ```apache
@@ -548,7 +548,7 @@ Saving the plan this way ensures that you can apply exactly the same plan in the
 
 In this case, you can see that Terraform will create a new `google_compute_address` and update the existing VM to use it.
 
-5. Run `terraform apply "static_ip"` to see how Terraform plans to apply this change:
+5.  Run `terraform apply "static_ip"` to see how Terraform plans to apply this change:
     
 
 ```apache
@@ -577,7 +577,7 @@ Sometimes there are dependencies between resources that are *not* visible to Ter
 
 For example, perhaps an application you will run on your instance expects to use a specific Cloud Storage bucket, but that dependency is configured inside the application code and thus not visible to Terraform. In that case, you can use `depends_on` to explicitly declare the dependency.
 
-1. Add a Cloud Storage bucket and an instance with an explicit dependency on the bucket by adding the following to `main.tf`:
+1.  Add a Cloud Storage bucket and an instance with an explicit dependency on the bucket by adding the following to `main.tf`:
     
 
 ```apache
@@ -619,7 +619,7 @@ resource "google_compute_instance" "another_instance" {
 
 You may wonder where in your configuration these resources should go. The order that resources are defined in a terraform configuration file has no effect on how Terraform applies your changes. Organize your configuration files in a way that makes the most sense for you and your team.
 
-2. Now run terraform plan and terraform apply to see these changes in action:
+2.  Now run terraform plan and terraform apply to see these changes in action:
     
 
 ```apache
@@ -633,7 +633,7 @@ Create bucket dependent instance
 
 **Check my progress**
 
-3. Before moving on, remove these new resources from your configuration and run `terraform apply` once again to destroy them. You won't use the bucket or the second instance any further in this lab.
+3.  Before moving on, remove these new resources from your configuration and run `terraform apply` once again to destroy them. You won't use the bucket or the second instance any further in this lab.
     
 
 ## **Task 4. Provision infrastructure**
@@ -646,7 +646,7 @@ Terraform uses provisioners to upload files, run shell scripts, or install and t
 
 ### Defining a provisioner
 
-1. To define a provisioner, modify the resource block defining the first `vm_instance` in your configuration to look like the following:
+1.  To define a provisioner, modify the resource block defining the first `vm_instance` in your configuration to look like the following:
     
 
 ```apache
@@ -669,7 +669,7 @@ The `local-exec` provisioner executes a command locally on the machine running T
 
 This also shows a more complex example of string interpolation than you've seen before. Each VM instance can have multiple network interfaces, so refer to the first one with `network_interface[0]`, count starting from 0, as most programming languages do. Each network interface can have multiple access\_config blocks as well, so once again you specify the first one.
 
-2. Run `terraform apply`:
+2.  Run `terraform apply`:
     
 
 ```apache
@@ -682,7 +682,7 @@ Terraform found nothing to do - and if you check, you'll find that there's no `i
 
 Terraform treats provisioners differently from other arguments. Provisioners only run when a resource is created, but adding a provisioner does not force that resource to be destroyed and recreated.
 
-3. Use `terraform taint` to tell Terraform to recreate the instance:
+3.  Use `terraform taint` to tell Terraform to recreate the instance:
     
 
 ```apache
@@ -691,14 +691,14 @@ terraform taint google_compute_instance.vm_instance
 
 A tainted resource will be destroyed and recreated during the next `apply`.
 
-4. Run `terraform apply` now:
+4.  Run `terraform apply` now:
     
 
 ```apache
 terraform apply
 ```
 
-5. Verify everything worked by looking at the contents of the `ip_address.txt` file.
+5.  Verify everything worked by looking at the contents of the `ip_address.txt` file.
     
 
 It contains the IP address, just as you asked.
@@ -717,11 +717,11 @@ For many resources, using built-in cleanup mechanisms is recommended if possible
 
 This lab won't show any destroyed provisioner examples. If you need to use destroy provisioners, please see the [Provisioners documentation](https://www.terraform.io/docs/provisioners/).
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=uGnKLGmLMSw] 
+%[https://www.youtube.com/watch?v=8oxFJ64ej6E] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP750/lab.sh
@@ -737,7 +737,7 @@ export ZONE=
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723516432823/f2f59d24-4d25-40d1-bf8f-7d05cf3a6cc3.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Infrastructure%20as%20Code%20with%20Terraform/quicklabgsp750.sh
-sudo chmod +x quicklabgsp750.sh
-./quicklabgsp750.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Infrastructure%20as%20Code%20with%20Terraform/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
