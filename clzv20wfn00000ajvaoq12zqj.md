@@ -246,7 +246,7 @@ Click *Check my progress* to verify the objective.
 %[https://youtu.be/ngkgfe1cOtQ] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP216/lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP345/lab.sh
 source lab.sh
 ```
 
