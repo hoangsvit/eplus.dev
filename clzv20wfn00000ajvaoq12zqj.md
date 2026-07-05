@@ -23,17 +23,17 @@ This lab is recommended for students who have enrolled in the [Build Infrastruct
 
 ### Topics tested:
 
-* Import existing infrastructure into your Terraform configuration.
+*   Import existing infrastructure into your Terraform configuration.
     
-* Build and reference your own Terraform modules.
+*   Build and reference your own Terraform modules.
     
-* Add a remote backend to your configuration.
+*   Add a remote backend to your configuration.
     
-* Use and implement a module from the Terraform Registry.
+*   Use and implement a module from the Terraform Registry.
     
-* Re-provision, destroy, and update infrastructure.
+*   Re-provision, destroy, and update infrastructure.
     
-* Test connectivity between the resources you've created.
+*   Test connectivity between the resources you've created.
     
 
 ## **Setup and requirements**
@@ -46,12 +46,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -68,7 +68,7 @@ In this lab, you will use Terraform to import and create multiple VM instances, 
 
 ## **Task 1. Create the configuration files**
 
-1. In Cloud Shell, create your Terraform configuration files and a directory structure that resembles the following:
+1.  In Cloud Shell, create your Terraform configuration files and a directory structure that resembles the following:
     
 
 ```apache
@@ -85,33 +85,33 @@ modules/
     └── variables.tf
 ```
 
-2. Fill out the `variables.tf` files in the root directory and within the modules. Add three variables to each file: `region`, `zone`, and `project_id`. For their default values, use `us-east4`, `us-east4-b`, and your Google Cloud Project ID.
+2.  Fill out the `variables.tf` files in the root directory and within the modules. Add three variables to each file: `region`, `zone`, and `project_id`. For their default values, use `us-east4`, `us-east4-b`, and your Google Cloud Project ID.
     
 
 **Note:** You should use these variables anywhere applicable in your resource configurations.
 
-3. Add the Terraform block and the [Google Provider](https://registry.terraform.io/providers/hashicorp/google/latest/docs) to the `main.tf` file. Verify the **zone** argument is added along with the **project** and **region** arguments in the Google Provider block.
+3.  Add the Terraform block and the [Google Provider](https://registry.terraform.io/providers/hashicorp/google/latest/docs) to the `main.tf` file. Verify the **zone** argument is added along with the **project** and **region** arguments in the Google Provider block.
     
-4. Initialize Terraform.
+4.  Initialize Terraform.
     
 
 ## **Task 2. Import infrastructure**
 
-1. In the Google Cloud Console, on the **Navigation menu**, click **Compute Engine &gt; VM Instances**. Two instances named **tf-instance-1** and **tf-instance-2** have already been created for you.
+1.  In the Google Cloud Console, on the **Navigation menu**, click **Compute Engine > VM Instances**. Two instances named **tf-instance-1** and **tf-instance-2** have already been created for you.
     
 
 **Note:** by clicking on one of the instances, you can find its **Instance ID**, **boot disk image**, and **machine type**. These are all necessary for writing the configurations correctly and importing them into Terraform.
 
-2. [Import](https://www.terraform.io/docs/cli/commands/import.html#example-import-into-module) the existing instances into the **instances** module. To do this, you will need to follow these steps:
+2.  [Import](https://www.terraform.io/docs/cli/commands/import.html#example-import-into-module) the existing instances into the **instances** module. To do this, you will need to follow these steps:
     
 
-* First, add the module reference into the `main.tf` file then re-initialize Terraform.
+*   First, add the module reference into the `main.tf` file then re-initialize Terraform.
     
-* Next, write the [resource configurations](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance) in the `instances.tf` file to match the pre-existing instances.
+*   Next, write the [resource configurations](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance) in the `instances.tf` file to match the pre-existing instances.
     
-    * Name your instances `tf-instance-1` and `tf-instance-2`.
+    *   Name your instances `tf-instance-1` and `tf-instance-2`.
         
-    * For the purposes of this lab, the resource configuration should be as minimal as possible. To accomplish this, you will only need to include the following additional arguments in your configuration: `machine_type`, `boot_disk`, `network_interface`, `metadata_startup_script`, and `allow_stopping_for_update`. For the last two arguments, use the following configuration as this will ensure you won't need to recreate it:
+    *   For the purposes of this lab, the resource configuration should be as minimal as possible. To accomplish this, you will only need to include the following additional arguments in your configuration: `machine_type`, `boot_disk`, `network_interface`, `metadata_startup_script`, and `allow_stopping_for_update`. For the last two arguments, use the following configuration as this will ensure you won't need to recreate it:
         
     
     ```apache
@@ -121,10 +121,10 @@ modules/
     allow_stopping_for_update = true
     ```
     
-* Once you have written the resource configurations within the module, use the `terraform import` command to import them into your **instances** module.
+*   Once you have written the resource configurations within the module, use the `terraform import` command to import them into your **instances** module.
     
 
-3. Apply your changes. Note that since you did not fill out all of the arguments in the entire configuration, the `apply` will **update the instances in-place**. This is fine for lab purposes, but in a production environment, you should make sure to fill out all of the arguments correctly before importing.
+3.  Apply your changes. Note that since you did not fill out all of the arguments in the entire configuration, the `apply` will **update the instances in-place**. This is fine for lab purposes, but in a production environment, you should make sure to fill out all of the arguments correctly before importing.
     
 
 Click *Check my progress* to verify the objective.
@@ -135,22 +135,22 @@ Import infrastructure.
 
 ## **Task 3. Configure a remote backend**
 
-1. Create a [Cloud Storage bucket resource](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket) inside the `storage` module. For the bucket **name**, use `tf-bucket-527375`. For the rest of the arguments, you can simply use:
+1.  Create a [Cloud Storage bucket resource](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/storage_bucket) inside the `storage` module. For the bucket **name**, use `tf-bucket-527375`. For the rest of the arguments, you can simply use:
     
-    * `location = "US"`
+    *   `location = "US"`
         
-    * `force_destroy = true`
+    *   `force_destroy = true`
         
-    * `uniform_bucket_level_access = true`
+    *   `uniform_bucket_level_access = true`
         
 
 **Note:** You can optionally add output values inside of the `outputs.tf` file.
 
-2. Add the module reference to the `main.tf` file. Initialize the module and `apply` the changes to create the bucket using Terraform.
+2.  Add the module reference to the `main.tf` file. Initialize the module and `apply` the changes to create the bucket using Terraform.
     
-3. Configure this storage bucket as the [remote backend](https://www.terraform.io/docs/language/settings/backends/gcs.html) inside the `main.tf` file. Be sure to use the **prefix** `terraform/state` so it can be graded successfully.
+3.  Configure this storage bucket as the [remote backend](https://www.terraform.io/docs/language/settings/backends/gcs.html) inside the `main.tf` file. Be sure to use the **prefix** `terraform/state` so it can be graded successfully.
     
-4. If you've written the configuration correctly, upon `init`, Terraform will ask whether you want to copy the existing state data to the new backend. Type `yes` at the prompt.
+4.  If you've written the configuration correctly, upon `init`, Terraform will ask whether you want to copy the existing state data to the new backend. Type `yes` at the prompt.
     
 
 Click *Check my progress* to verify the objective.
@@ -161,13 +161,13 @@ Configure a remote backend.
 
 ## **Task 4. Modify and update infrastructure**
 
-1. Navigate to the **instances** module and modify the **tf-instance-1** resource to use an `e2-standard-2` machine type.
+1.  Navigate to the **instances** module and modify the **tf-instance-1** resource to use an `e2-standard-2` machine type.
     
-2. Modify the **tf-instance-2** resource to use an `e2-standard-2` machine type.
+2.  Modify the **tf-instance-2** resource to use an `e2-standard-2` machine type.
     
-3. Add a third instance resource and name it `tf-instance-128197`. For this third resource, use an `e2-standard-2` machine type. Make sure to change the machine type to `e2-standard-2` **to all the three instances**.
+3.  Add a third instance resource and name it `tf-instance-128197`. For this third resource, use an `e2-standard-2` machine type. Make sure to change the machine type to `e2-standard-2` **to all the three instances**.
     
-4. Initialize Terraform and `apply` your changes.
+4.  Initialize Terraform and `apply` your changes.
     
 
 **Note:** Optionally, you can add output values from these resources in the `outputs.tf` file within the module.
@@ -180,7 +180,7 @@ Modify and update infrastructure.
 
 ## **Task 5. Destroy resources**
 
-1. Destroy the third instance `tf-instance-128197` by removing the resource from the configuration file. After removing it, initialize terraform and `apply` the changes.
+1.  Destroy the third instance `tf-instance-128197` by removing the resource from the configuration file. After removing it, initialize terraform and `apply` the changes.
     
 
 Click *Check my progress* to verify the objective.
@@ -191,25 +191,25 @@ Destroy resources.
 
 ## **Task 6. Use a module from the Registry**
 
-1. In the Terraform Registry, browse to the [Network Module](https://registry.terraform.io/modules/terraform-google-modules/network/google/6.0.0).
+1.  In the Terraform Registry, browse to the [Network Module](https://registry.terraform.io/modules/terraform-google-modules/network/google/6.0.0).
     
-2. Add this module to your `main.tf` file. Use the following configurations:
-    
-
-* Use version `6.0.0` (different versions might cause compatibility errors).
-    
-* Name the VPC `tf-vpc-891566`, and use a **global** routing mode.
-    
-* Specify **2** subnets in the `us-east4` region, and name them `subnet-01` and `subnet-02`. For the subnets arguments, you just need the **Name**, **IP**, and **Region**.
-    
-* Use the IP `10.10.10.0/24` for `subnet-01`, and `10.10.20.0/24` for `subnet-02`.
-    
-* You do **not** need any secondary ranges or routes associated with this VPC, so you can omit them from the configuration.
+2.  Add this module to your `main.tf` file. Use the following configurations:
     
 
-3. Once you've written the module configuration, initialize Terraform and run an `apply` to create the networks.
+*   Use version `6.0.0` (different versions might cause compatibility errors).
     
-4. Next, navigate to the `instances.tf` file and update the configuration resources to connect **tf-instance-1** to `subnet-01` and **tf-instance-2** to `subnet-02`.
+*   Name the VPC `tf-vpc-891566`, and use a **global** routing mode.
+    
+*   Specify **2** subnets in the `us-east4` region, and name them `subnet-01` and `subnet-02`. For the subnets arguments, you just need the **Name**, **IP**, and **Region**.
+    
+*   Use the IP `10.10.10.0/24` for `subnet-01`, and `10.10.20.0/24` for `subnet-02`.
+    
+*   You do **not** need any secondary ranges or routes associated with this VPC, so you can omit them from the configuration.
+    
+
+3.  Once you've written the module configuration, initialize Terraform and run an `apply` to create the networks.
+    
+4.  Next, navigate to the `instances.tf` file and update the configuration resources to connect **tf-instance-1** to `subnet-01` and **tf-instance-2** to `subnet-02`.
     
 
 **Note:** Within the instance configuration, you will need to update the **network** argument to `tf-vpc-891566`, and then add the **subnetwork** argument with the correct subnet for each instance.
@@ -222,24 +222,26 @@ Use a module from the Registry.
 
 ## **Task 7. Configure a firewall**
 
-* Create a [firewall rule](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_firewall) resource in the `main.tf` file, and name it **tf-firewall**.
+*   Create a [firewall rule](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_firewall) resource in the `main.tf` file, and name it **tf-firewall**.
     
-    * This firewall rule should permit the `tf-vpc-891566` network to allow ingress connections on *all* IP ranges (`0.0.0.0/0`) on **TCP port 80**.
+    *   This firewall rule should permit the `tf-vpc-891566` network to allow ingress connections on *all* IP ranges (`0.0.0.0/0`) on **TCP port 80**.
         
-    * Make sure you add the `source_ranges` argument with the correct IP range (`0.0.0.0/0`).
+    *   Make sure you add the `source_ranges` argument with the correct IP range (`0.0.0.0/0`).
         
-    * Initialize Terraform and `apply` your changes.
+    *   Initialize Terraform and `apply` your changes.
         
 
 **Note:** To retrieve the required `network` argument, you can inspect the state and find the **ID** or **self\_link** of the `google_compute_network` resource you created. It will be in the form `projects/PROJECT_ID/global/networks/tf-vpc-891566`.
 
 Click *Check my progress* to verify the objective.
 
----
+* * *
 
 ## Solution of Lab
 
 ### New Solution
+
+%[https://www.youtube.com/watch?v=NQPJlZkenrY] 
 
 %[https://youtu.be/ngkgfe1cOtQ] 
 
@@ -251,14 +253,16 @@ source lab.sh
 **Script Alternative**
 
 ```apache
-curl -LO raw.githubusercontent.com/Titash-shil/Build-Infrastructure-with-Terraform-on-Google-Cloud-Challenge-Lab-GSP345/refs/heads/main/qwiklab_explorers_gsp345.sh
-sudo chmod +x qwiklab_explorers_gsp345.sh
-./qwiklab_explorers_gsp345.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Build%20Infrastructure%20with%20Terraform%20on%20Google%20Cloud-%20Challenge%20Lab/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757234223042/00eb44c8-7096-443e-93d1-7cbc4b96f930.png align="center")
 
----
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5582313e-ad50-4889-b457-c15a52d2544c.png align="center")
+
+* * *
 
 ### Old Solution
 
