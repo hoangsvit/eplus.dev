@@ -596,6 +596,8 @@ mvn compile
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/3-6bv2CSG44] 
 
 ```apache
@@ -610,3 +612,9 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/h
 sudo chmod +x gsp1185.sh
 ./gsp1185.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=fXnf7OVoa5I]
