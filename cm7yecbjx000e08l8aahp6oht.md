@@ -23,13 +23,13 @@ In this lab, you begin by creating a discovery scan configuration for BigQuery i
 
 In this lab, you learn how to:
 
-* Create a discovery scan configuration for BigQuery in paused mode.
+*   Create a discovery scan configuration for BigQuery in paused mode.
     
-* Create tags and grant roles for automated tagging during discovery scan.
+*   Create tags and grant roles for automated tagging during discovery scan.
     
-* Update the paused discovery scan to use the created tags for automated tagging and start scan.
+*   Update the paused discovery scan to use the created tags for automated tagging and start scan.
     
-* Grant conditional access to BigQuery data using tags.
+*   Grant conditional access to BigQuery data using tags.
     
 
 ## **Setup and requirements**
@@ -42,29 +42,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -72,7 +72,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-03-589123a26bb1@qwiklabs.net
@@ -80,9 +80,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     kom0ZKWsbpW2
@@ -90,19 +90,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -117,25 +117,25 @@ The discovery service within Sensitive Data Protection empowers you to identify 
 
 In this task, you create a discovery scan to automatically profile data in BigQuery. As it can take some time for the full discovery results to be generated, you are provided with highlights and summaries of the key results in the last task of the lab.
 
-1. In the Google Cloud console, click on the **Navigation menu** () &gt; **Security**.
+1.  In the Google Cloud console, click on the **Navigation menu** () > **Security**.
     
-2. Under **Data Protection**, click **Sensitive Data Protection**.
+2.  Under **Data Protection**, click **Sensitive Data Protection**.
     
-3. Click the tab named **Discovery**.
+3.  Click the tab named **Discovery**.
     
-4. Under **BigQuery**, click **Enable**.
+4.  Under **BigQuery**, click **Enable**.
     
-5. For **Select a discovery type**, leave the option enabled for **BigQuery**, and click **Continue**.
+5.  For **Select a discovery type**, leave the option enabled for **BigQuery**, and click **Continue**.
     
-6. For **Select scope**, leave the option enabled for **Scan selected project**, and click **Continue**.
+6.  For **Select scope**, leave the option enabled for **Scan selected project**, and click **Continue**.
     
-7. For **Managed schedules**, leave the default, click **Continue**.
+7.  For **Managed schedules**, leave the default, click **Continue**.
     
     In this lab, you are scheduling the discovery scan to run immediately after creation, but there are many options for scheduling scans to run on a periodic basis (such as daily or weekly) or after certain events (such as when an inspection template is updated.)
     
-8. For **Select inspection template**, leave the option enabled for **Create new inspection template**.
+8.  For **Select inspection template**, leave the option enabled for **Create new inspection template**.
     
-9. Leave all other defaults, and click **Continue**.
+9.  Leave all other defaults, and click **Continue**.
     
     By default, the new inspection template includes all existing infoTypes.
     
@@ -143,10 +143,10 @@ In this task, you create a discovery scan to automatically profile data in BigQu
     
     In a later task, you modify this inspection template to explore other options for infoTypes and confidence threshold.
     
-10. For **Add actions**, enable **Publish to Security Command Center**.
-    
-11. For **Add actions**, also enable **Save data profile copies to BigQuery** and provide the dataset and table (which have been pre-created in this lab) to save the results to BigQuery.
-    
+10.  For **Add actions**, enable **Publish to Security Command Center**.
+     
+11.  For **Add actions**, also enable **Save data profile copies to BigQuery** and provide the dataset and table (which have been pre-created in this lab) to save the results to BigQuery.
+     
 
 | **Property** | **Value** |
 | --- | --- |
@@ -158,19 +158,19 @@ Notice the message under the action for **Tag resources** about the service agen
 
 In the next task, you create the tags and grant the necessary role to the service account for automated tagging during the discovery scan.
 
-12. Leave all other defaults, and click **Continue**.
-    
-13. For **Set location to store configuration**, leave the option enabled for **us (multiple regions in United States)**, and click **Continue**.
-    
-14. Provide a display name for this config: **BigQuery Discovery**
-    
-15. Enable **Create scan in paused mode**.
-    
+12.  Leave all other defaults, and click **Continue**.
+     
+13.  For **Set location to store configuration**, leave the option enabled for **us (multiple regions in United States)**, and click **Continue**.
+     
+14.  Provide a display name for this config: **BigQuery Discovery**
+     
+15.  Enable **Create scan in paused mode**.
+     
 
 This creates the discovery scan configuration but does not start the scan yet, so that you can create the tags and grant the appropriate IAM role to the service agent ID for the discovery scan.
 
-16. Click **Create**, and then confirm the creation by clicking **Create configuration**.
-    
+16.  Click **Create**, and then confirm the creation by clicking **Create configuration**.
+     
 
 Click *Check my progress* to verify the objective.
 
@@ -186,21 +186,21 @@ In this task, you create a sensitivity level tag in IAM with four tag values tha
 
 ### Create a sensitivity level tag in IAM
 
-1. In the Google Cloud console, click on the **Navigation menu** () &gt; **IAM & Admin** &gt; **Tags**.
+1.  In the Google Cloud console, click on the **Navigation menu** () > **IAM & Admin** > **Tags**.
     
-2. Click **\+ Create**.
+2.  Click **\+ Create**.
     
-3. For **Tag key**, type a display name for your tag: `sensitivity-level`
+3.  For **Tag key**, type a display name for your tag: `sensitivity-level`
     
-4. For **Tag description**, type a description for this tag: `Sensitivity level tagged as low, moderate, high, and unknown`
+4.  For **Tag description**, type a description for this tag: `Sensitivity level tagged as low, moderate, high, and unknown`
     
-5. Click **\+ Add value**.
+5.  Click **\+ Add value**.
     
-6. For **Tag value**, type a display name for your first tag value: `low`
+6.  For **Tag value**, type a display name for your first tag value: `low`
     
-7. For **Tag value description**, type a description for this tag value: `Tag value to attach to low-sensitivity data`
+7.  For **Tag value description**, type a description for this tag value: `Tag value to attach to low-sensitivity data`
     
-8. Repeat steps 5-7 to create three more tag values:
+8.  Repeat steps 5-7 to create three more tag values:
     
 
 | **Tag value** | **Tag description** |
@@ -209,19 +209,19 @@ In this task, you create a sensitivity level tag in IAM with four tag values tha
 | `high` | `Tag value to attach to high-sensitivity data` |
 | `unknown` | `Tag value to attach to resources with an unknown sensitivity level` |
 
-9. Click **Create tag key**.
+9.  Click **Create tag key**.
     
 
 It may take a minute for the tag key to be created.
 
-10. After the tag key is created, click on the tag key name to see the details.
-    
+10.  After the tag key is created, click on the tag key name to see the details.
+     
 
 Note that the tag key has a tag key path (`qwiklabs-gcp-01-f8baec13cb8c`/sensitivity-level) and the following tag values: `high`, `low`, `moderate`, `unknown`
 
 Combining the tag key path with the tag value provides the tag value path, which you use in the next task. For example:
 
-* `qwiklabs-gcp-01-f8baec13cb8c`/sensitivity-level/high
+*   `qwiklabs-gcp-01-f8baec13cb8c`/sensitivity-level/high
     
 
 Click *Check my progress* to verify the objective.
@@ -234,7 +234,7 @@ Check my progress
 
 To automatically tag resources, the service agent needs the `resourcemanager.tagUser` role. In this section, you follow the steps provided in the documentation titled [Control IAM access based on data sensitivity](https://cloud.google.com/sensitive-data-protection/docs/control-access-based-on-data-sensitivity?_gl=1*m8g9mm*_ga*NTkxMjY1MDA2LjE3MjYzNDI0MjY.*_ga_WH2QY8WWF5*MTcyNjM0MjQyNi4xLjEuMTcyNjM0Mjk4Ny4yMS4wLjA.#grant-service-agent-permission-on-tag) to grant this role.
 
-1. Click **Activate Cloud Shell**
+1.  Click **Activate Cloud Shell**
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="left")
     
@@ -243,7 +243,7 @@ To automatically tag resources, the service agent needs the `resourcemanager.tag
 
 If prompted, click **Continue**.
 
-2. Run the following command to create a variable for the Project Number of your current project:
+2.  Run the following command to create a variable for the Project Number of your current project:
     
 
 ```apache
@@ -252,7 +252,7 @@ export PROJECT_NUMBER=$(gcloud projects describe qwiklabs-gcp-01-f8baec13cb8c --
 
 If prompted, click **Authorize**.
 
-3. Run the following command to grant the tag user role to the service account for the discovery scan:
+3.  Run the following command to grant the tag user role to the service account for the discovery scan:
     
 
 ```apache
@@ -271,11 +271,11 @@ Now that you have granted the service account with the appropriate role for auto
 
 ### Add tag values and start discovery scan
 
-1. Return to [**Sensitive Data Protection**](https://console.cloud.google.com/security/sensitive-data-protection/) overview page.
+1.  Return to [**Sensitive Data Protection**](https://console.cloud.google.com/security/sensitive-data-protection/) overview page.
     
-2. Under **Discovery** &gt; **Scan Configurations** tab, locate the row named **BigQuery Discovery**. Click **View actions** (icon with three vertical dots) for that row, and select **Edit**.
+2.  Under **Discovery** > **Scan Configurations** tab, locate the row named **BigQuery Discovery**. Click **View actions** (icon with three vertical dots) for that row, and select **Edit**.
     
-3. Under **Add actions**, enable **Tag resources** and the following related options:
+3.  Under **Add actions**, enable **Tag resources** and the following related options:
     
 
 | **Property** | **Value** |
@@ -285,15 +285,15 @@ Now that you have granted the service account with the appropriate role for auto
 | **Tag low sensitivity resources** | Enable and provide the tag value: `qwiklabs-gcp-01-f8baec13cb8c`/sensitivity-level/low |
 | **Tag unknown sensitivity resources** | Enable and provide the tag value: `qwiklabs-gcp-01-f8baec13cb8c`/sensitivity-level/unknown |
 
-4. Also, enable the following two options:
+4.  Also, enable the following two options:
     
-    * When a tag is applied to a resource, lower the data risk of its profile to LOW.
+    *   When a tag is applied to a resource, lower the data risk of its profile to LOW.
         
-    * Tag a resource when it is profiled for the first time.
+    *   Tag a resource when it is profiled for the first time.
         
-5. Click **Save**, and then click **Confirm edit**.
+5.  Click **Save**, and then click **Confirm edit**.
     
-6. Last, click **Resume Scan** to start the discovery scan.
+6.  Last, click **Resume Scan** to start the discovery scan.
     
 
 Click *Check my progress* to verify the objective.
@@ -332,7 +332,7 @@ The discovery results also provide the key infoTypes identified in BigQuery: US 
 
 The **Profiles** tab identifies the sensitivity and risk levels for each specific BigQuery dataset name: one with low sensitivity (empty bucket to receive output from jobs) and one with high sensitivity (bucket containing raw data including US Social Security number).
 
-In this lab environment, be sure to select the **Location type** as **Region** &gt; `us-central1` to view the profiles.
+In this lab environment, be sure to select the **Location type** as **Region** > `us-central1` to view the profiles.
 
 ![Discovery profiles of the BigQuery datasets](https://cdn.qwiklabs.com/3D0fWOOkrOqbunL%2FYzTGNyfdP5iaDvnsvoDedRlcyz4%3D align="left")
 
@@ -352,19 +352,19 @@ Click here for hint!
 
 As Username 2, complete the following steps to check the existing BigQuery access that has been granted to Username 2.
 
-1. In the Google Cloud console, click on the **Navigation menu** () &gt; **BigQuery**.
+1.  In the Google Cloud console, click on the **Navigation menu** () > **BigQuery**.
     
-2. In the Explorer panel, expand the arrow next to the project ID (`qwiklabs-gcp-01-f8baec13cb8c`) to see the list of BigQuery datasets.
+2.  In the Explorer panel, expand the arrow next to the project ID (`qwiklabs-gcp-01-f8baec13cb8c`) to see the list of BigQuery datasets.
     
     Notice that there are four BigQuery datasets:
     
-    * **bq\_discovery**: used to store the profiles generated by discovery scan
+    *   **bq\_discovery**: used to store the profiles generated by discovery scan
         
-    * **bq\_inspection**: used to store the results generated by inspection
+    *   **bq\_inspection**: used to store the results generated by inspection
         
-    * **car\_buyers**: contains sensitive data for car buyers such as US Social Security numbers
+    *   **car\_buyers**: contains sensitive data for car buyers such as US Social Security numbers
         
-    * **damaged\_car\_image\_info**: contains non-sensitive data on damaged cars
+    *   **damaged\_car\_image\_info**: contains non-sensitive data on damaged cars
         
 
 ### Update IAM roles for Username 2
@@ -375,31 +375,31 @@ For this section, begin by logging into the Google Cloud project again as **User
 
 Click here for hint!
 
-1. In the Google Cloud console, click on the **Navigation menu** () &gt; **IAM & Admin** &gt; **IAM**.
+1.  In the Google Cloud console, click on the **Navigation menu** () > **IAM & Admin** > **IAM**.
     
-2. Locate the row for Username 2 (`student-01-e1396eaa9824@qwiklabs.net`), and click **Edit principal** (pencil icon).
+2.  Locate the row for Username 2 (`student-01-e1396eaa9824@qwiklabs.net`), and click **Edit principal** (pencil icon).
     
-3. Locate the row for the role named **Viewer**, and click **Delete role** (trash can icon).
+3.  Locate the row for the role named **Viewer**, and click **Delete role** (trash can icon).
     
-4. Click **Add another role**.
+4.  Click **Add another role**.
     
-5. For **Select a role**, select **Basic** &gt; **Browser**.
+5.  For **Select a role**, select **Basic** > **Browser**.
     
-6. Locate the row for the role named **BigQuery Data Viewer**, and click **Add IAM condition**.
+6.  Locate the row for the role named **BigQuery Data Viewer**, and click **Add IAM condition**.
     
-7. For **Title**, type: `Low Sensitivity Data Access Only`
+7.  For **Title**, type: `Low Sensitivity Data Access Only`
     
-8. Under **Condition builder**, select **Tag** for **Condition type 1**, and select **has value** for **Operator**.
+8.  Under **Condition builder**, select **Tag** for **Condition type 1**, and select **has value** for **Operator**.
     
-9. For **Value path**, provide the tag value for low sensitivity resources that you used in Task 3.
+9.  For **Value path**, provide the tag value for low sensitivity resources that you used in Task 3.
     
 
 **Expand the hint to see the tag value if you need a reminder!**
 
 Click here for hint!
 
-10. Click **Save**, and then click **Save** again.
-    
+10.  Click **Save**, and then click **Save** again.
+     
 
 ### Add low sensitivity tag to BigQuery dataset
 
@@ -409,15 +409,15 @@ Recall that the full discovery scan takes some time to complete, so there aren't
 
 To test conditional access, you manually assign the low sensitivity tag to the BigQuery dataset named **damaged\_car\_image\_info**, which does not contain sensitive data.
 
-1. In the Google Cloud console, click on the **Navigation menu** () &gt; **BigQuery**.
+1.  In the Google Cloud console, click on the **Navigation menu** () > **BigQuery**.
     
-2. In the Explorer panel, expand the arrow next to the project ID (`qwiklabs-gcp-01-f8baec13cb8c`) to see the list of BigQuery datasets.
+2.  In the Explorer panel, expand the arrow next to the project ID (`qwiklabs-gcp-01-f8baec13cb8c`) to see the list of BigQuery datasets.
     
-3. Click on **damaged\_car\_image\_info** to open the dataset info tab, and then click **Edit details** (pencil icon).
+3.  Click on **damaged\_car\_image\_info** to open the dataset info tab, and then click **Edit details** (pencil icon).
     
-4. Under **Tags**, click **Select scope** &gt; **Select current project**.
+4.  Under **Tags**, click **Select scope** > **Select current project**.
     
-5. Select the following details.
+5.  Select the following details.
     
 
 | **Property** | **Value** |
@@ -425,7 +425,7 @@ To test conditional access, you manually assign the low sensitivity tag to the B
 | **Key 1** | **sensitivity-level** |
 | **Value 1** | **low** |
 
-6. Click **Save**.
+6.  Click **Save**.
     
 
 ### Test conditional BigQuery access as Username 2
@@ -438,18 +438,18 @@ Click here for hint!
 
 As Username 2, complete the following steps to check the conditional BigQuery access that has been granted to Username 2.
 
-1. Return to BigQuery by clicking on the **Navigation menu** () &gt; **BigQuery**.
+1.  Return to BigQuery by clicking on the **Navigation menu** () > **BigQuery**.
     
-2. In the data explorer panel, expand the arrow next to the project ID (`qwiklabs-gcp-01-f8baec13cb8c`) to see the list of BigQuery datasets.
+2.  In the data explorer panel, expand the arrow next to the project ID (`qwiklabs-gcp-01-f8baec13cb8c`) to see the list of BigQuery datasets.
     
     After the IAM role is updated with the appropriate condition, there is only one BigQuery dataset listed because it is the only one with the low sensitivity tag:
     
-    * **damaged\_car\_image\_info**
+    *   **damaged\_car\_image\_info**
         
 
 **Note:** It may take 5 to 10 minutes for the IAM role updates to fully propagate. You can keep refreshing the BigQuery page until you see that there is only one BigQuery dataset remaining: **damaged\_car\_image\_info**.
 
-3. Log out of the project as Username 2.
+3.  Log out of the project as Username 2.
     
 
 Click *Check my progress* to verify the objective.
@@ -474,45 +474,53 @@ Click here for hint!
 
 ### View summary of results in Looker dashboard
 
-1. Return to [**Sensitive Data Protection**](https://console.cloud.google.com/security/sensitive-data-protection/) overview page.
+1.  Return to [**Sensitive Data Protection**](https://console.cloud.google.com/security/sensitive-data-protection/) overview page.
     
-2. Under **Discovery** &gt; **Scan Configurations** tab, locate the row named **BigQuery Discovery**. Under **Looker Studio**, click **Looker** for that row.
+2.  Under **Discovery** > **Scan Configurations** tab, locate the row named **BigQuery Discovery**. Under **Looker Studio**, click **Looker** for that row.
     
-3. For **Requesting Authorization**, click **Authorize**.
+3.  For **Requesting Authorization**, click **Authorize**.
     
-4. In the dialog window for **Choose an account from qwiklabs.net**, select `student-03-589123a26bb1@qwiklabs.net`.
+4.  In the dialog window for **Choose an account from qwiklabs.net**, select `student-03-589123a26bb1@qwiklabs.net`.
     
-5. Review **Summary Overview**.
+5.  Review **Summary Overview**.
     
     Notice that there are data tiles summarizing key information such as data risk, data sensitivity, and asset types.
     
 
 ![Summary Overview page of Looker Dashboard](https://cdn.qwiklabs.com/yiL%2FUKiLXqxk4uYUJgf6Wkzb30%2FMQAXF5T9PiAiSxVE%3D align="left")
 
-6. Click on **Advanced Exploration (Asset Details)**.
+6.  Click on **Advanced Exploration (Asset Details)**.
     
-7. Locate the row that has infoType of `US_SOCIAL_SECURITY_NUMBER`. Under Action, click **Open** for that row.
+7.  Locate the row that has infoType of `US_SOCIAL_SECURITY_NUMBER`. Under Action, click **Open** for that row.
     
 
 ![Advanced Exploration (Asset Details) page of Looker Dashboard](https://cdn.qwiklabs.com/W%2B%2FRrF3UGbwSp9W7G%2BLdrkVt8blGuKFv33tAwBadaZ0%3D align="left")
 
 ### View detailed results in Sensitive Data Protection
 
-1. Review the page that opens and is titled **Sensitive Data Discovery: File store profile details**.
+1.  Review the page that opens and is titled **Sensitive Data Discovery: File store profile details**.
     
     Notice that there are many details provided on the resources scanned, including IAM permissions.
     
-2. Expand the arrow next to **View Detailed IAM Permissions**.
+2.  Expand the arrow next to **View Detailed IAM Permissions**.
     
-3. Expand the arrow next to **BigQuery Viewer**.
+3.  Expand the arrow next to **BigQuery Viewer**.
     
 
 Notice another user (`student-01-e1396eaa9824@qwiklabs.net`) is listed as a BigQuery Viewer with the condition that you set in Task 3.
 
 ![Sensitive Data Discovery: Table profile details](https://cdn.qwiklabs.com/WSkROCTBb51hZhfxGkRmUHTwxGQKc%2FWGjFmnS9xGado%3D align="left")
 
----
+* * *
 
 ## Solution of Lab
+
+### Manual
+
+%[https://www.youtube.com/watch?v=fIdmx0j3OgE] 
+
+* * *
+
+### Manual
 
 %[https://youtu.be/yfMw7G7VU8o]
