@@ -23,13 +23,13 @@ In this lab, you begin by enabling discovery for continuous monitoring of sensit
 
 In this lab, you learn how to:
 
-* Enable discovery for continuous monitoring of sensitive data in Cloud Storage files
+*   Enable discovery for continuous monitoring of sensitive data in Cloud Storage files
     
-* Create and modify reusable templates for inspection and de-identification jobs
+*   Create and modify reusable templates for inspection and de-identification jobs
     
-* Review and interpret discovery results
+*   Review and interpret discovery results
     
-* Run inspection and de-identification jobs with the option enabled to write job results to BigQuery
+*   Run inspection and de-identification jobs with the option enabled to write job results to BigQuery
     
 
 ## **Setup and requirements**
@@ -42,29 +42,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -72,7 +72,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-00-381b96164d24@qwiklabs.net
@@ -80,9 +80,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     am9hDJzlfxGK
@@ -90,19 +90,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -119,25 +119,25 @@ In this task, you create a discovery scan to automatically profile data across a
 
 ### Create and schedule a scan configuration
 
-1. In the Google Cloud console, click on the **Navigation menu** () &gt; **Security**.
+1.  In the Google Cloud console, click on the **Navigation menu** () > **Security**.
     
-2. Under **Data Protection**, click **Sensitive Data Protection**.
+2.  Under **Data Protection**, click **Sensitive Data Protection**.
     
-3. Click the tab named **Discovery**.
+3.  Click the tab named **Discovery**.
     
-4. Under **Cloud Storage**, click **Enable**.
+4.  Under **Cloud Storage**, click **Enable**.
     
-5. For **Select a discovery type**, leave the option enabled for **Cloud Storage**, and click **Continue**.
+5.  For **Select a discovery type**, leave the option enabled for **Cloud Storage**, and click **Continue**.
     
-6. For **Select scope**, leave the option enabled for **Scan selected project**, and click **Continue**.
+6.  For **Select scope**, leave the option enabled for **Scan selected project**, and click **Continue**.
     
-7. For **Managed schedules**, leave the default, click **Continue**.
+7.  For **Managed schedules**, leave the default, click **Continue**.
     
     In this lab, you are scheduling the discovery scan to run immediately after creation, but there are many options for scheduling scans to run on a periodic basis (such as daily or weekly) or after certain events (such as when an inspection template is updated.)
     
-8. For **Select inspection template**, leave the option enabled for **Create a new inspection template**.
+8.  For **Select inspection template**, leave the option enabled for **Create a new inspection template**.
     
-9. Leave all other defaults, and click **Continue**.
+9.  Leave all other defaults, and click **Continue**.
     
     By default, the new inspection template includes all existing infoTypes.
     
@@ -145,10 +145,10 @@ In this task, you create a discovery scan to automatically profile data across a
     
     In a later task, you modify this inspection template to explore other options for infoTypes and confidence threshold.
     
-10. For **Add actions**, enable **Publish to Security Command Center**.
-    
-11. For **Add actions**, also enable **Save data profile copies to BigQuery** and provide the dataset and table (which have been pre-created in this lab) to save the results to BigQuery.
-    
+10.  For **Add actions**, enable **Publish to Security Command Center**.
+     
+11.  For **Add actions**, also enable **Save data profile copies to BigQuery** and provide the dataset and table (which have been pre-created in this lab) to save the results to BigQuery.
+     
 
 | **Property** | **Value** |
 | --- | --- |
@@ -156,14 +156,14 @@ In this task, you create a discovery scan to automatically profile data across a
 | **Dataset ID** | **cloudstorage\_discovery** |
 | **Table ID** | **data\_profiles** |
 
-12. Click **Continue**.
-    
-13. For **Set location to store configuration**, leave the option enabled for **us (multiple regions in United States)**, and click **Continue**.
-    
-14. Provide a display name for this config: **Cloud Storage Discovery**
-    
-15. Click **Create**, and then confirm the creation by clicking **Create configuration**.
-    
+12.  Click **Continue**.
+     
+13.  For **Set location to store configuration**, leave the option enabled for **us (multiple regions in United States)**, and click **Continue**.
+     
+14.  Provide a display name for this config: **Cloud Storage Discovery**
+     
+15.  Click **Create**, and then confirm the creation by clicking **Create configuration**.
+     
 
 Click *Check my progress* to verify the objective.
 
@@ -201,7 +201,7 @@ The discovery results also provide the key infoTypes identified in Cloud Storage
 
 The **Profiles** tab identifies the sensitivity and risk levels for each specific Cloud Storage bucket name: one with low sensitivity (empty bucket to receive output from jobs) and one with high sensitivity (bucket containing raw data including US Social Security number).
 
-In this lab environment, be sure to select the **Location type** as **Region** &gt; `us-central1` to view the profiles.
+In this lab environment, be sure to select the **Location type** as **Region** > `us-central1` to view the profiles.
 
 ![Discovery profiles of the two Cloud Storage buckets](https://cdn.qwiklabs.com/OY1SgqwpCbrvNPHtCm3lPnqng8JrGK1fOqPltdyQkOs%3D align="left")
 
@@ -211,9 +211,9 @@ Now that you know US Social Security numbers have been identified in your Cloud 
 
 In this task, you configure two [templates](https://cloud.google.com/sensitive-data-protection/docs/concepts-templates):
 
-1. Modify an existing inspection template to find all instances of US Social Security numbers in your Cloud Storage files.
+1.  Modify an existing inspection template to find all instances of US Social Security numbers in your Cloud Storage files.
     
-2. Create a de-identify template to redact US Social Security numbers from structured data files (such as text and CSV).
+2.  Create a de-identify template to redact US Social Security numbers from structured data files (such as text and CSV).
     
 
 Later in the lab, you use these templates to further inspect and redact the US Social Security numbers by running inspection and de-identify jobs.
@@ -224,46 +224,46 @@ Recall that when you enabled discovery for Cloud Storage, a new inspection templ
 
 In this section, imagine that you have already reviewed the full discovery results, and now, you want to modify that inspection template to focus on US Social Security numbers.
 
-1. Return to the [**Sensitive Data Protection**](https://console.cloud.google.com/security/sensitive-data-protection/) overview page by clicking **Navigation menu** () &gt; **Security** &gt; **Sensitive Data Protection** (under **Data Protection**).
+1.  Return to the [**Sensitive Data Protection**](https://console.cloud.google.com/security/sensitive-data-protection/) overview page by clicking **Navigation menu** () > **Security** > **Sensitive Data Protection** (under **Data Protection**).
     
-2. Click the **Configuration** tab.
+2.  Click the **Configuration** tab.
     
-3. In the **Templates** tab, locate the line for the template generated by discovery (such as template ID 7216194786087173213).
+3.  In the **Templates** tab, locate the line for the template generated by discovery (such as template ID 7216194786087173213).
     
     Note this template ID for use later in Task 4.
     
-4. Under **Actions** for this template ID, click on the three vertical dots, and select **Edit**.
+4.  Under **Actions** for this template ID, click on the three vertical dots, and select **Edit**.
     
-5. Update **Display name** to `Inspection Template for US SSN`.
+5.  Update **Display name** to `Inspection Template for US SSN`.
     
-6. Update **Description** to `This template was created as part of a Sensitive Data Protection profiler configuration and was modified for deeper inspection for US Social Security numbers.`
+6.  Update **Description** to `This template was created as part of a Sensitive Data Protection profiler configuration and was modified for deeper inspection for US Social Security numbers.`
     
-7. For **InfoTypes**, click **Manage InfoTypes**.
+7.  For **InfoTypes**, click **Manage InfoTypes**.
     
-8. Enable the checkbox for **US\_SOCIAL\_SECURITY\_NUMBER**, and deselect all other options.
+8.  Enable the checkbox for **US\_SOCIAL\_SECURITY\_NUMBER**, and deselect all other options.
     
     You can easily deselect all other options by clicking on **Select all rows** (under the Filter icon), and clicking it again to deselect all values.
     
-9. Click **Done** to return to the inspection template.
+9.  Click **Done** to return to the inspection template.
     
-10. For **Confidence threshold ("minimum likelihood")**, select **Unlikely**.
-    
-    In addition to the findings that are evaluated as **Possible**, **Likely**, and **Very\_Likely**, the results will now include **Unlikely** to support further review of potential instances of US Social Security numbers.
-    
-11. Leave all other defaults, and click **Save**.
-    
-12. Click **Confirm save**.
-    
+10.  For **Confidence threshold ("minimum likelihood")**, select **Unlikely**.
+     
+     In addition to the findings that are evaluated as **Possible**, **Likely**, and **Very\_Likely**, the results will now include **Unlikely** to support further review of potential instances of US Social Security numbers.
+     
+11.  Leave all other defaults, and click **Save**.
+     
+12.  Click **Confirm save**.
+     
 
 ### Create a de-identify template for structured data
 
-1. Return to [**Sensitive Data Protection**](https://console.cloud.google.com/security/sensitive-data-protection/) overview page.
+1.  Return to [**Sensitive Data Protection**](https://console.cloud.google.com/security/sensitive-data-protection/) overview page.
     
-2. Click the **Configuration** tab.
+2.  Click the **Configuration** tab.
     
-3. In the **Templates** tab, click **Create Template**.
+3.  In the **Templates** tab, click **Create Template**.
     
-4. Provide the following values to create the de-identify template:
+4.  Provide the following values to create the de-identify template:
     
 
 | **Property** | **Value** |
@@ -272,39 +272,39 @@ In this section, imagine that you have already reviewed the full discovery resul
 | **Data transformation type** | **Record** |
 | **Template ID** | `us_ssn_deidentify` |
 | **Display name** | `De-identification Template for US SSN` |
-| **Location type** | **Multi\_region &gt; global (Global)** |
+| **Location type** | **Multi\_region > global (Global)** |
 
-5. Leave all other default values, and click **Continue**.
+5.  Leave all other default values, and click **Continue**.
     
-6. For **Configure de-identification** &gt; **Transformation Rule**, add the following field names by typing the name and then hitting `enter` key: **ssn** and **email**
+6.  For **Configure de-identification** > **Transformation Rule**, add the following field names by typing the name and then hitting `enter` key: **ssn** and **email**
     
-7. For the **Transformation type**, select **Primitive field transformation**.
+7.  For the **Transformation type**, select **Primitive field transformation**.
     
-8. For **Transformation method** &gt; **Transformation**, select **Replace**.
+8.  For **Transformation method** > **Transformation**, select **Replace**.
     
     This option replaces the contents of each instance for the fields that you provided in step 6 (ssn and email).
     
-9. For **Transformation method** &gt; **Replace type**, select **String**.
+9.  For **Transformation method** > **Replace type**, select **String**.
     
-10. For **Transformation method** &gt; **String value**, leave the default value of `[redacted]`.
-    
-11. Click **\+ Add Transformation Rule** to add a second rule.
-    
-12. For **Transformation Rule** for this second rule, add the following field name by typing the name and then hitting `enter` key: **message**
-    
+10.  For **Transformation method** > **String value**, leave the default value of `[redacted]`.
+     
+11.  Click **\+ Add Transformation Rule** to add a second rule.
+     
+12.  For **Transformation Rule** for this second rule, add the following field name by typing the name and then hitting `enter` key: **message**
+     
 
 In this lab environment, there are CSV files in Cloud Storage that contain a column (or field) named **message**, which stores the example chat messages between customers and service agents.
 
-13. For **Transformation type**, select **Match on infoType**, and then click **Add Transformation**.
-    
-14. For **Transformation Method**, select **Replace with infoType name**.
-    
-15. For **InfoTypes to transform**, select **Any detected infoTypes defined in an inspection template or inspect config that are not specified in other rules**.
-    
-    This option applies infoType inspection and redaction to any files with a field called **message** when this template is used to run a job.
-    
-16. Click **Create**.
-    
+13.  For **Transformation type**, select **Match on infoType**, and then click **Add Transformation**.
+     
+14.  For **Transformation Method**, select **Replace with infoType name**.
+     
+15.  For **InfoTypes to transform**, select **Any detected infoTypes defined in an inspection template or inspect config that are not specified in other rules**.
+     
+     This option applies infoType inspection and redaction to any files with a field called **message** when this template is used to run a job.
+     
+16.  Click **Create**.
+     
 
 Click *Check my progress* to verify the objective.
 
@@ -322,37 +322,37 @@ In this task, you review the initial discovery results that are provided in a Lo
 
 ### View summary of results in Looker dashboard
 
-1. Return to [**Sensitive Data Protection**](https://console.cloud.google.com/security/sensitive-data-protection/) overview page.
+1.  Return to [**Sensitive Data Protection**](https://console.cloud.google.com/security/sensitive-data-protection/) overview page.
     
-2. Under **Discovery** &gt; **Scan Configurations** tab, locate the row named **Cloud Storage Discovery**. Under **Looker Studio**, click **Looker** for that row.
+2.  Under **Discovery** > **Scan Configurations** tab, locate the row named **Cloud Storage Discovery**. Under **Looker Studio**, click **Looker** for that row.
     
-3. For **Requesting Authorization**, click **Authorize**.
+3.  For **Requesting Authorization**, click **Authorize**.
     
-4. In the dialog window for **Choose an account from qwiklabs.net**, select `student-00-381b96164d24@qwiklabs.net`.
+4.  In the dialog window for **Choose an account from qwiklabs.net**, select `student-00-381b96164d24@qwiklabs.net`.
     
-5. Review **Summary Overview**.
+5.  Review **Summary Overview**.
     
     Notice that there are data tiles summarizing key information such as data risk, data sensitivity, and asset types.
     
 
 ![Summary Overview page](https://cdn.qwiklabs.com/68UPH6j8n%2FBqmOYuhIDhYeMJu76iUR28S%2F1OzK%2B7OxU%3D align="left")
 
-6. Click on **Advanced Exploration (Asset Details)**.
+6.  Click on **Advanced Exploration (Asset Details)**.
     
-7. Locate the row that has infoType of `US_SOCIAL_SECURITY_NUMBER`. Under Action, click **Open** for that row.
+7.  Locate the row that has infoType of `US_SOCIAL_SECURITY_NUMBER`. Under Action, click **Open** for that row.
     
 
 ![Advanced Exploration (Asset Details)](https://cdn.qwiklabs.com/7XrowdIwVmi4cQ6QcNUYEmyU920dhNL69jlRxKz%2BWog%3D align="left")
 
 ### View detailed results in Sensitive Data Protection
 
-1. Review the opened page, which is titled **Sensitive Data Discovery: File store profile details**.
+1.  Review the opened page, which is titled **Sensitive Data Discovery: File store profile details**.
     
     Notice that there are many details provided on the resources scanned, including IAM permissions.
     
-2. Expand the arrow next to **View Detailed IAM Permissions**.
+2.  Expand the arrow next to **View Detailed IAM Permissions**.
     
-3. Expand the arrow next to **Storage Admin**.
+3.  Expand the arrow next to **Storage Admin**.
     
 
 You can see that another user (`student-03-1f6a900573d8@qwiklabs.net`) is listed as a Cloud Storage Admin and therefore has full access to the data.
@@ -369,15 +369,15 @@ Recall that in Task 2, you created an inspection template for deeper inspection 
 
 ### Create and run inspection job
 
-1. Click **Create inspection job**.
+1.  Click **Create inspection job**.
     
-2. For **Choose input data**, provide the following values:
+2.  For **Choose input data**, provide the following values:
     
 
 | **Property** | **Value** |
 | --- | --- |
 | **Job ID** | `us_ssn_inspection` |
-| **Location type** | **Multi\_region &gt; us (multiple regions in United States)** |
+| **Location type** | **Multi\_region > us (multiple regions in United States)** |
 | **Storage type** | **Google Cloud Storage** |
 | **Location type** | **Scan a single file or folder path** |
 | **URL** | **gs://**`qwiklabs-gcp-03-aefa7d72a62a`\-input/ (Be sure to add the trailing `/` at end of URL) |
@@ -386,9 +386,9 @@ Recall that in Task 2, you created an inspection template for deeper inspection 
 | **Sampling method** | **No sampling** |
 | **Files** | Select **TEXT** and **CSV** (and deselect all other options), and click **OK** |
 
-3. Click **Continue**.
+3.  Click **Continue**.
     
-4. For **Inspection template** &gt; **Template name**, add the path to the inspection template as provided below, replacing `TEMPLATE_ID` with the Template ID for the inspection template that you modfied in Task 2 (such as 7216194786087173213):
+4.  For **Inspection template** > **Template name**, add the path to the inspection template as provided below, replacing `TEMPLATE_ID` with the Template ID for the inspection template that you modfied in Task 2 (such as 7216194786087173213):
     
     `projects/qwiklabs-gcp-03-aefa7d72a62a/locations/global/inspectTemplates/TEMPLATE_ID`
     
@@ -397,13 +397,13 @@ Recall that in Task 2, you created an inspection template for deeper inspection 
 
 **Note:** Make sure there are no spaces in the inspection template path when you add it to the **Template name**.
 
-5. Leave all other defaults, and click **Continue**.
+5.  Leave all other defaults, and click **Continue**.
     
-6. For **Add actions**, enable the option for **Save to BigQuery**, and enable the checkbox for **Include quote**.
+6.  For **Add actions**, enable the option for **Save to BigQuery**, and enable the checkbox for **Include quote**.
     
     This option enables the job to copy both the location and contents of the potentially sensitive data to the BigQuery.
     
-7. Provide the dataset and table (which have been pre-created in this lab) to save the results to BigQuery:
+7.  Provide the dataset and table (which have been pre-created in this lab) to save the results to BigQuery:
     
 
 | **Property** | **Value** |
@@ -412,17 +412,17 @@ Recall that in Task 2, you created an inspection template for deeper inspection 
 | **Dataset ID** | **cloudstorage\_inspection** |
 | **Table ID** | **us\_ssn** |
 
-8. For **Add actions**, also enable **Publish to Security Command Center**.
+8.  For **Add actions**, also enable **Publish to Security Command Center**.
     
-9. Click **Continue**.
+9.  Click **Continue**.
     
-10. Leave the default for **Schedule** as **None (run the one-off job immediately upon creation)** to run the job immediately, and click **Continue**.
-    
+10.  Leave the default for **Schedule** as **None (run the one-off job immediately upon creation)** to run the job immediately, and click **Continue**.
+     
 
 Similar to discovery scans, you can schedule inspection jobs to run on a specific schedule. In this case, you run the job immediately after it is created.
 
-11. Click **Create**, and then confirm the creation by clicking **Confirm create**.
-    
+11.  Click **Create**, and then confirm the creation by clicking **Confirm create**.
+     
 
 Remain on this page, and wait for the job to complete.
 
@@ -432,9 +432,9 @@ When the job has a status of **Done**, proceed to the next section.
 
 In the previous section, you selected to save the inspection results to the BigQuery table named **us\_ssn**. With one click below, you can easily be routed to BigQuery to review the results.
 
-1. Click **View findings in BigQuery**.
+1.  Click **View findings in BigQuery**.
     
-2. In BigQuery, click **Preview** to see the contents of the table.
+2.  In BigQuery, click **Preview** to see the contents of the table.
     
     Notice the column named **quote**, which contains a copy of the exact value that has been flagged by the inspection job for additional review. You can also scroll to the right of the table and review the column named **container name** to see the location (specifically filename) containing the quoted value.
     
@@ -451,17 +451,17 @@ With Sensitive Data Protection, you mitigate sensitive data vulnerabilities in C
 
 In this task, you create and run a de-identification job using the de-identify template that you created in Task 2.
 
-1. Return to [**Sensitive Data Protection**](https://console.cloud.google.com/security/sensitive-data-protection/) overview page.
+1.  Return to [**Sensitive Data Protection**](https://console.cloud.google.com/security/sensitive-data-protection/) overview page.
     
-2. Click on the **Inspection** tab, and then click **Create job and job triggers**.
+2.  Click on the **Inspection** tab, and then click **Create job and job triggers**.
     
-3. For **Choose input data**, provide the following values:
+3.  For **Choose input data**, provide the following values:
     
 
 | **Property** | **Value** |
 | --- | --- |
 | **Job ID** | `us_ssn_deidentify` |
-| **Location type** | **Multi\_region &gt; us (multiple regions in United States)** |
+| **Location type** | **Multi\_region > us (multiple regions in United States)** |
 | **Storage type** | **Google Cloud Storage** |
 | **Location type** | **Scan a bucket with optional include/exclude rules** |
 | **Bucket name** | `qwiklabs-gcp-03-aefa7d72a62a`\-input |
@@ -471,7 +471,7 @@ In this task, you create and run a de-identification job using the de-identify t
 
 **Note:** Make sure there are no spaces in the bucket name.
 
-4. For **Exclude paths**, click **Add exclude regex**. For **Exclude paths**, type: `ignore`
+4.  For **Exclude paths**, click **Add exclude regex**. For **Exclude paths**, type: `ignore`
     
 
 The **Exclude paths 1** value is now:
@@ -480,23 +480,23 @@ The **Exclude paths 1** value is now:
 
 This option allows you to tell the de-identify job to ignore files in that subdirectory named `ignore`.
 
-5. Leave all other default values, and click **Continue**.
+5.  Leave all other default values, and click **Continue**.
     
 
 Note that you do not add a value for the inspection template. In an upcoming step, you define the value for the de-identify template instead.
 
-6. For **Configure detection**, leave all default values, and click **Continue**.
+6.  For **Configure detection**, leave all default values, and click **Continue**.
     
-7. For **Add actions**, scroll down the page to find and enable **Make a de-identified copy**.
+7.  For **Add actions**, scroll down the page to find and enable **Make a de-identified copy**.
     
-8. For **Structured de-identification template**, enter the de-identify template that you previously created for structured files (such as CSV and text files):
+8.  For **Structured de-identification template**, enter the de-identify template that you previously created for structured files (such as CSV and text files):
     
     `projects/qwiklabs-gcp-03-aefa7d72a62a/locations/global/deidentifyTemplates/us_ssn_deidentify`
     
 
 **Note:** Make sure there are no spaces in the de-identification template path.
 
-9. Enable **Export transformation details to BigQuery** and provide the dataset and table (which have been pre-created in this lab) to save the results to BigQuery.
+9.  Enable **Export transformation details to BigQuery** and provide the dataset and table (which have been pre-created in this lab) to save the results to BigQuery.
     
 
 | **Property** | **Value** |
@@ -505,24 +505,24 @@ Note that you do not add a value for the inspection template. In an upcoming ste
 | **Dataset ID** | **cloudstorage\_transformations** |
 | **Table ID** | **deidentify\_ssn\_csv** |
 
-10. For the **Cloud Storage output location**, specify:
-    
+10.  For the **Cloud Storage output location**, specify:
+     
 
 `gs://qwiklabs-gcp-03-aefa7d72a62a-output`
 
 This value tells the job to write the redacted output to the second bucket that has been pre-created in this lab for output files.
 
-11. For **Files**, select **TEXT** and **CSV** (and deselect all other options), and click **OK**.
-    
-12. Click **Continue**.
-    
-13. Leave the default for **Schedule** as **None** to run the job immediately, and click **Continue**.
-    
+11.  For **Files**, select **TEXT** and **CSV** (and deselect all other options), and click **OK**.
+     
+12.  Click **Continue**.
+     
+13.  Leave the default for **Schedule** as **None** to run the job immediately, and click **Continue**.
+     
 
 Similar to inspection jobs, the options for scheduling include running the de-identify job on a periodic schedule (such as weekly).
 
-14. Click **Create**, and then confirm the creation by clicking **Confirm create**.
-    
+14.  Click **Create**, and then confirm the creation by clicking **Confirm create**.
+     
 
 Remain on this page, and wait for the job to complete.
 
@@ -532,30 +532,54 @@ When the job has a status of **Done**, leave this browser tab open, and proceed 
 
 In the previous section, you selected to save the de-identify details to the BigQuery table named **deidentify\_ssn\_csv**. In this section, you navigate to BigQuery to view the transformation details.
 
-1. In the Google Cloud console, click on the **Navigation menu** () &gt; **BigQuery**.
+1.  In the Google Cloud console, click on the **Navigation menu** () > **BigQuery**.
     
-2. In the **Explorer** pane, expand `qwiklabs-gcp-03-aefa7d72a62a` &gt; cloudstorage\_transformations, and click on the table named **deidentify\_ssn\_csv**.
+2.  In the **Explorer** pane, expand `qwiklabs-gcp-03-aefa7d72a62a` > cloudstorage\_transformations, and click on the table named **deidentify\_ssn\_csv**.
     
-3. Click **Preview** to see the results.
+3.  Click **Preview** to see the results.
     
     Notice the columns named **container\_name** and **transformation.type**, which provides the details on the files that were de-identified using specific transformation rules.
     
 
 ### View de-identified output
 
-1. Return to the inspection job results page, and click on **Configuration**.
+1.  Return to the inspection job results page, and click on **Configuration**.
     
-2. Scroll down to **Actions** &gt; **Output bucket for de-identified Cloud Storage Data**.
+2.  Scroll down to **Actions** > **Output bucket for de-identified Cloud Storage Data**.
     
-3. Click on the bucket link (gs://`qwiklabs-gcp-03-aefa7d72a62a`\-output) to be routed to that Cloud Storage Bucket and review the de-identify files.
+3.  Click on the bucket link (gs://`qwiklabs-gcp-03-aefa7d72a62a`\-output) to be routed to that Cloud Storage Bucket and review the de-identify files.
     
 
 Click *Check my progress* to verify the objective.
 
 Create and run a de-identify job.
 
----
+* * *
 
 ## Solution of Lab
+
+### Quick
+
+%[https://www.youtube.com/watch?v=tnNqVFqqQks] 
+
+*   Go to **Sensitive Data Protection** from [here](https://console.cloud.google.com/security/sensitive-data-protection/create/discoveryConfiguration;source=DATA_PROFILE_COVERAGE_DASHBOARD;discoveryType=4?project=)
+    
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1281/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Enabling%20Sensitive%20Data%20Protection%20Discovery%20for%20Cloud%20Storage/gsp1281.sh
+sudo chmod +x *.sh
+./*.sh
+```
+
+* * *
+
+### Manual
 
 %[https://www.youtube.com/watch?v=0K6Iz_RT670]
