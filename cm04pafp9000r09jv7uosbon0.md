@@ -1,6 +1,6 @@
 ---
-title: "Analyzing Findings with Security Command Center - GSP1164"
-seoTitle: "Analyzing Findings with Security Command Center - GSP1164"
+title: "Analyze Findings with Security Command Center - GSP1164"
+seoTitle: "Analyze Findings with Security Command Center - GSP1164"
 seoDescription: "Security Command Center (SCC) is a security monitoring platform that helps users:
 
 Discover security-related misconfigurations of Google Cloud resources."
@@ -17,11 +17,11 @@ tags: analyzing-findings-with-security-command-center-gsp1164, gsp1164, analyzin
 
 [Security Command Center](https://cloud.google.com/security-command-center) (SCC) is a security monitoring platform that helps users accomplish the following:
 
-* Discover security-related misconfigurations of Google Cloud resources.
+*   Discover security-related misconfigurations of Google Cloud resources.
     
-* Report on active threats in Google Cloud environments.
+*   Report on active threats in Google Cloud environments.
     
-* Fix vulnerabilities across Google Cloud assets.
+*   Fix vulnerabilities across Google Cloud assets.
     
 
 In this lab, you learn about Security Command Center by exploring the service’s analyzed assets and export features.
@@ -30,22 +30,22 @@ In this lab, you learn about Security Command Center by exploring the service’
 
 In this lab, you learn how to perform the following tasks:
 
-* Create a continuous export pipeline to Pub/Sub.
+*   Create a continuous export pipeline to Pub/Sub.
     
-* Export and analyze SCC findings in a BigQuery table.
+*   Export and analyze SCC findings in a BigQuery table.
     
 
 ### Prerequisites
 
 It is recommended that you're familiar with the following before starting this lab:
 
-* Cloud computing concepts.
+*   Cloud computing concepts.
     
-* Google Cloud console.
+*   Google Cloud console.
     
-* The [severity classifications for findings](https://cloud.google.com/security-command-center/docs/finding-severity-classifications) (this is recommended but not required).
+*   The [severity classifications for findings](https://cloud.google.com/security-command-center/docs/finding-severity-classifications) (this is recommended but not required).
     
-* Pub/Sub and BigQuery (recommended but not required).
+*   Pub/Sub and BigQuery (recommended but not required).
     
 
 ## Setup and requirements
@@ -58,29 +58,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -88,7 +88,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-0c66ccfc4382@qwiklabs.net
@@ -96,9 +96,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     bxsiqeFNhD2b
@@ -106,19 +106,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -131,13 +131,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-01-f2f70ae70a7d`. The output contains a line that declares the **Project\_ID** for this session:
@@ -148,14 +148,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-01-f2f70ae70a
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -168,7 +168,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -198,13 +198,13 @@ Cymbal Bank is interested in integrating a centralized security monitoring platf
 
 Security Command Center can export security findings to external resources using several methods, including the following:
 
-* Continuous exports to a BigQuery dataset.
+*   Continuous exports to a BigQuery dataset.
     
-* Continuous exports to Pub/Sub.
+*   Continuous exports to Pub/Sub.
     
-* One-time exports to CSV files.
+*   One-time exports to CSV files.
     
-* One-time exports to Cloud Storage buckets as JSON files.
+*   One-time exports to Cloud Storage buckets as JSON files.
     
 
 In this task, you explore how to configure continuous exports of findings to Pub/Sub.
@@ -221,41 +221,41 @@ For the purposes of this lab, you export your findings to a Pub/Sub topic and th
 
 Before you can start configuring an SCC export, you first need to create a Pub/Sub topic and subscription.
 
-1. On the Google Cloud console title bar, type `Pub/Sub` in the search field and press **Enter**. Then click on the uppermost search result, **Pub/Sub**.
+1.  On the Google Cloud console title bar, type `Pub/Sub` in the search field and press **Enter**. Then click on the uppermost search result, **Pub/Sub**.
     
-2. Click the **Create Topic** button on the **Topics** page.
+2.  Click the **Create Topic** button on the **Topics** page.
     
-3. Enter in `export-findings-pubsub-topic` for the Topic ID.
+3.  Enter in `export-findings-pubsub-topic` for the Topic ID.
     
-4. Leave all other settings as their defaults and click **Create**.
+4.  Leave all other settings as their defaults and click **Create**.
     
 
 This automatically kicks off the creation process for both a Pub/Sub topic and an associated subscription.
 
-5. Click **Subscriptions** in the left-hand menu.
+5.  Click **Subscriptions** in the left-hand menu.
     
-6. Click on **export-findings-pubsub-topic-sub**. If you don't see the subscription listed, refresh the browser page.
+6.  Click on **export-findings-pubsub-topic-sub**. If you don't see the subscription listed, refresh the browser page.
     
 
 This provides you with a dashboard of statistics and metrics related to the messages published in this subscription.
 
 ### Create a continuous export of findings
 
-1. In the Cloud console, on the **Navigation menu** (), click **Security &gt; Risk Overview** and then click **Settings** at the top of the page.
+1.  In the Cloud console, on the **Navigation menu** (), click **Security > Risk Overview** and then click **Settings** at the top of the page.
     
-2. Click on the **Continuous Exports** tab.
+2.  Click on the **Continuous Exports** tab.
     
-3. Click the **Create Pub/Sub Export** button.
+3.  Click the **Create Pub/Sub Export** button.
     
-4. For the **Continuous export name**, enter in `export-findings-pubsub`.
+4.  For the **Continuous export name**, enter in `export-findings-pubsub`.
     
-5. For the **Continuous export description**, enter in `Continuous exports of Findings to Pub/Sub and BigQuery`.
+5.  For the **Continuous export description**, enter in `Continuous exports of Findings to Pub/Sub and BigQuery`.
     
-6. For the **Project name**, select `qwiklabs-gcp-01-f2f70ae70a7d`, which is the project ID of the project you are working in. (*Do not* select Qwiklabs Resources).
+6.  For the **Project name**, select `qwiklabs-gcp-01-f2f70ae70a7d`, which is the project ID of the project you are working in. (*Do not* select Qwiklabs Resources).
     
-7. In the **Select a Cloud Pub/Sub topic** field, select the **projects/**`qwiklabs-gcp-01-f2f70ae70a7d`/topics/export-findings-pubsub-topic.
+7.  In the **Select a Cloud Pub/Sub topic** field, select the **projects/**`qwiklabs-gcp-01-f2f70ae70a7d`/topics/export-findings-pubsub-topic.
     
-8. Set the findings query to the following:
+8.  Set the findings query to the following:
     
 
 ```apache
@@ -267,7 +267,7 @@ This query ensures that all new `ACTIVE` and `NOT MUTED` findings are forwarded 
 
 **Note:** You might see the message that there are several findings matched. Remember that existing findings are **not** forwarded to the Pub/Sub topic.
 
-9. Click **Save**.
+9.  Click **Save**.
     
 
 You have now created a continuous export from Security Command Center to Pub/Sub.
@@ -276,9 +276,9 @@ You have now created a continuous export from Security Command Center to Pub/Sub
 
 In this section, you create new findings and check how they are exported to Pub/Sub.
 
-1. Open a new Cloud Shell session ().
+1.  Open a new Cloud Shell session ().
     
-2. Run the following command to create a new virtual machine:
+2.  Run the following command to create a new virtual machine:
     
 
 ```apache
@@ -287,7 +287,7 @@ gcloud compute instances create instance-1 --zone=us-central1-c \
 --scopes=https://www.googleapis.com/auth/cloud-platform
 ```
 
-3. Ensure you receive an output similar to the following.
+3.  Ensure you receive an output similar to the following.
     
 
 **Output:**
@@ -308,22 +308,22 @@ This command creates a new VM instance with a public IP address and a default se
 
 Performing this activity immediately generates three new vulnerability findings:
 
-* Public IP address
+*   Public IP address
     
-* Default service account used
+*   Default service account used
     
-* Compute secure boot disabled
+*   Compute secure boot disabled
     
 
-4. On the Google Cloud console title bar, type `Pub/Sub` in the search field and press **Enter**. Then click on the uppermost search result, **Pub/Sub**. Then click **Subscriptions** in the left-hand menu.
+4.  On the Google Cloud console title bar, type `Pub/Sub` in the search field and press **Enter**. Then click on the uppermost search result, **Pub/Sub**. Then click **Subscriptions** in the left-hand menu.
     
-5. Select the **export-findings-pubsub-topic-sub** subscription.
+5.  Select the **export-findings-pubsub-topic-sub** subscription.
     
-6. Click the **Messages** tab.
+6.  Click the **Messages** tab.
     
-7. Select the **Enable ack messages** checkbox.
+7.  Select the **Enable ack messages** checkbox.
     
-8. Click the **Pull** button.
+8.  Click the **Pull** button.
     
 
 You should receive a list of messages in this subscription. These relate to the public IP address, default service account used, and compute secure boot disabled vulnerabilities.
@@ -344,13 +344,13 @@ SCC findings can also be exported to a BigQuery dataset. This might be useful fo
 
 As of now, configuring continuous exports can only be set using commands (i.e. not in the console).
 
-1. Open a Cloud Shell session (
+1.  Open a Cloud Shell session (
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="left")
     
     ).
     
-2. In your Cloud Shell session, run the following command to create a new BigQuery dataset:
+2.  In your Cloud Shell session, run the following command to create a new BigQuery dataset:
     
 
 ```apache
@@ -359,14 +359,14 @@ bq --location=us-central1 --apilog=/dev/null mk --dataset \
 $PROJECT_ID:continuous_export_dataset
 ```
 
-3. You have not used an SCC command line interface in this project yet, so you need to enable the SCC service. Run the following command to enable the service in the current project:
+3.  You have not used an SCC command line interface in this project yet, so you need to enable the SCC service. Run the following command to enable the service in the current project:
     
 
 ```apache
 gcloud services enable securitycenter.googleapis.com
 ```
 
-4. Now create a new export by entering this command:
+4.  Now create a new export by entering this command:
     
 
 ```apache
@@ -388,7 +388,7 @@ updateTime: '2023-05-31T15:44:22.097585Z'
 
 Once new findings are exported to BigQuery, SCC creates a new table. You can now initiate new SCC findings.
 
-5. Run the following commands to create three new service accounts without any IAM permissions and create three user-managed service account keys for them.
+5.  Run the following commands to create three new service accounts without any IAM permissions and create three user-managed service account keys for them.
     
 
 ```bash
@@ -401,7 +401,7 @@ done
 
 Once new findings are created in SCC, they are exported to BigQuery. For storing them, the export pipeline creates a new table called `findings`.
 
-6. Run the following command to fetch information from BigQuery about newly created findings:
+6.  Run the following command to fetch information from BigQuery about newly created findings:
     
 
 ```powershell
@@ -442,44 +442,44 @@ Direct exporting of findings to BigQuery is not supported yet. Instead, you can 
 
 To export *existing* findings to a BigQuery interface, you need to export them first to a Cloud Storage bucket. In this section, you create the storage bucket.
 
-1. In the Cloud console, on the **Navigation menu** (), click **Cloud Storage &gt; Buckets**.
+1.  In the Cloud console, on the **Navigation menu** (), click **Cloud Storage > Buckets**.
     
-2. Click the **Create** button.
+2.  Click the **Create** button.
     
-3. Every bucket name in Google Cloud must be unique. Set the bucket name to **scc-export-bucket-**`qwiklabs-gcp-01-f2f70ae70a7d`.
+3.  Every bucket name in Google Cloud must be unique. Set the bucket name to **scc-export-bucket-**`qwiklabs-gcp-01-f2f70ae70a7d`.
     
-4. Click **Continue**.
+4.  Click **Continue**.
     
-5. Set the **Location type** to **Region**.
+5.  Set the **Location type** to **Region**.
     
-6. Choose `us-central1` for the location.
+6.  Choose `us-central1` for the location.
     
-7. Do not change any other settings. Scroll down the page and click **Create**.
+7.  Do not change any other settings. Scroll down the page and click **Create**.
     
-8. Click the **Confirm** button when asked whether to "Enforce public access prevention" on this bucket.
+8.  Click the **Confirm** button when asked whether to "Enforce public access prevention" on this bucket.
     
 
 #### Export existing findings as JSONL data
 
 In this section, you export your findings for use in a BigQuery database.
 
-1. In the Cloud console, on the **Navigation menu** (), click **Security &gt; Findings**.
+1.  In the Cloud console, on the **Navigation menu** (), click **Security > Findings**.
     
-2. Click the **Export** button.
+2.  Click the **Export** button.
     
-3. From the dropdown list, select **Cloud Storage**.
+3.  From the dropdown list, select **Cloud Storage**.
     
-4. For the project name, **Select** the Project ID as `qwiklabs-gcp-01-f2f70ae70a7d` (*do not* select Qwiklabs Resources).
+4.  For the project name, **Select** the Project ID as `qwiklabs-gcp-01-f2f70ae70a7d` (*do not* select Qwiklabs Resources).
     
-5. Then select the Export path by clicking the **Browse** button.
+5.  Then select the Export path by clicking the **Browse** button.
     
-6. Click the arrow next to the **scc-export-bucket-**`qwiklabs-gcp-01-f2f70ae70a7d` button.
+6.  Click the arrow next to the **scc-export-bucket-**`qwiklabs-gcp-01-f2f70ae70a7d` button.
     
-7. Set the filename to `findings.jsonl` and click **Select**.
+7.  Set the filename to `findings.jsonl` and click **Select**.
     
-8. In the Format drop-down list, select **JSONL**.
+8.  In the Format drop-down list, select **JSONL**.
     
-9. Change the Time Range to **All time**.
+9.  Change the Time Range to **All time**.
     
     Do not modify the default findings query.
     
@@ -488,20 +488,20 @@ In this section, you export your findings for use in a BigQuery database.
 
 ![Sample of export to configuration](https://cdn.qwiklabs.com/e1Bs3k4qI8jFPaRFOaNTcIRzNPTF3IIrLynUGWEh9hk%3D align="left")
 
-10. Click the **Export** button.
-    
+10.  Click the **Export** button.
+     
 
 #### Create a table in BigQuery
 
 In this section, you use the exported findings data to create a table in BigQuery.
 
-1. In the Cloud console, on the **Navigation menu** (), click **BigQuery &gt; BigQuery Studio**.
+1.  In the Cloud console, on the **Navigation menu** (), click **BigQuery > BigQuery Studio**.
     
-2. From the left-hand **Explore** menu, click on the **\+ Add data** button.
+2.  From the left-hand **Explore** menu, click on the **\+ Add data** button.
     
-3. In a new **Add data** window, click on **Google Cloud Storage** as most popular data sources.
+3.  In a new **Add data** window, click on **Google Cloud Storage** as most popular data sources.
     
-4. Click on **GCS: (Manual) BigLake External & External Tables** for manually create BigLake/External tables on GCS data and set the following parameters:
+4.  Click on **GCS: (Manual) BigLake External & External Tables** for manually create BigLake/External tables on GCS data and set the following parameters:
     
 
 | **Setting** | **Value** |
@@ -513,7 +513,7 @@ In this section, you use the exported findings data to create a table in BigQuer
 | **Table** | `old_findings` |
 | **Schema** | Enable the "Edit as text" toggle |
 
-5. Now paste in the following schema:
+5.  Now paste in the following schema:
     
 
 ```json
@@ -533,11 +533,11 @@ In this section, you use the exported findings data to create a table in BigQuer
 
 Copied!content\_copy
 
-6. Click the **Create table** button.
+6.  Click the **Create table** button.
     
-7. Once the new table is created, click the link in the notification that says, **Go to table**.
+7.  Once the new table is created, click the link in the notification that says, **Go to table**.
     
-8. Click the **Preview** tab and confirm you can view your existing findings.
+8.  Click the **Preview** tab and confirm you can view your existing findings.
     
 
 ![BigQuery table values](https://cdn.qwiklabs.com/2k1HiII2HAmDhjRNaHLEFxrpUNBMLDxKbnWM%2FbyXufc%3D align="left")
@@ -546,7 +546,7 @@ Click **Check my progress** to verify the objective.
 
 Export findings to a Cloud Storage bucket and create a BigQuery table
 
----
+* * *
 
 ## Solution of Lab
 
@@ -574,6 +574,7 @@ Pubsub name
 ```apache
 export-findings-pubsub-topic-sub
 ```
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757558689524/c4be0b6d-d143-4031-83f6-8130d37a5e29.png align="left")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1771135775987/6329d9a3-d022-420a-859a-05e7b27de1ba.png align="center")
@@ -595,7 +596,7 @@ export-findings-pubsub-topic-sub
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1771135125472/8cfcedd0-63c8-411a-abad-1bffa97197fb.png align="center")
 
----
+* * *
 
 ### Old Solution
 
@@ -669,7 +670,7 @@ gs://scc-export-bucket-$PROJECT_ID/findings.jsonl \
 resource:JSON,finding:JSON
 ```
 
----
+* * *
 
 ### Manual
 
