@@ -613,6 +613,13 @@ Review the good image in Artifact Registry.
 %[https://www.youtube.com/watch?v=DNrBihMIYUo&ab_channel=QUICKGCPLAB] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1184/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Secure%20Builds%20with%20Cloud%20Build/gsp1184.sh
 sudo chmod +x gsp1184.sh
 ./gsp1184.sh
