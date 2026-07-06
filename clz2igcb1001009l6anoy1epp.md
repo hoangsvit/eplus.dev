@@ -21,30 +21,30 @@ Combined with Cloud Storage [detailed audit logging mode](https://cloud.google.c
 
 In this lab you will learn how to:
 
-* Create a bucket
+*   Create a bucket
     
-* Define an object retention policy
+*   Define an object retention policy
     
-* Remove a retention policy
+*   Remove a retention policy
     
 
 ## **Task 1. Create a new bucket**
 
-1. Define an environment variable named **Cloud Storage\_BUCKET** and use your Project ID as the bucket name. Use the following command which uses the Cloud SDK to get your Project ID:
+1.  Define an environment variable named **Cloud Storage\_BUCKET** and use your Project ID as the bucket name. Use the following command which uses the Cloud SDK to get your Project ID:
     
 
 ```powershell
 export BUCKET=$(gcloud config get-value project)
 ```
 
-2. Next, make a new bucket using the following gsutil command:
+2.  Next, make a new bucket using the following gsutil command:
     
 
 ```powershell
 gsutil mb "gs://$BUCKET"
 ```
 
-3. Click **Authorize**.
+3.  Click **Authorize**.
     
 
 Click **Check my progress** to verify the objective.
@@ -59,7 +59,7 @@ Consider a financial institution branch with a [SEC Rule 17a-4](https://en.wikip
 
 Look at how to set up a Retention Policy on a bucket.
 
-1. You can define the Retention Policy using seconds, days, months, and years with the Cloud Storage gsutil tool. As an example, create a Retention Policy for 10 seconds:
+1.  You can define the Retention Policy using seconds, days, months, and years with the Cloud Storage gsutil tool. As an example, create a Retention Policy for 10 seconds:
     
 
 ```powershell
@@ -68,7 +68,7 @@ gsutil retention set 10s "gs://$BUCKET"
 
 **Note:** You can also use `10d` for 10 days, `10m` for 10 months or `10y` for 10 years. To learn more, use the command: `gsutil help retention set`.
 
-2. Verify the Retention Policy for a bucket:
+2.  Verify the Retention Policy for a bucket:
     
 
 ```powershell
@@ -85,14 +85,14 @@ Retention Policy (UNLOCKED):
 
 The `Effective Time` defines when the policy took effect on the bucket.
 
-3. Now that the bucket has a Retention Policy, add a transaction record object to test it:
+3.  Now that the bucket has a Retention Policy, add a transaction record object to test it:
     
 
 ```powershell
 gsutil cp gs://spls/gsp297/dummy_transactions "gs://$BUCKET/"
 ```
 
-4. Review the retention expiration:
+4.  Review the retention expiration:
     
 
 ```powershell
@@ -122,7 +122,7 @@ Set up Retention Policy
 
 While unlocked, you can remove the Retention Policy from the bucket or reduce the retention time. After you lock the Retention Policy, it cannot be removed from the bucket or the retention time reduced.
 
-1. Lock the Retention Policy:
+1.  Lock the Retention Policy:
     
 
 ```powershell
@@ -141,7 +141,7 @@ This will PERMANENTLY set the Retention Policy on gs://YOUR-BUCKET-NAME to:
 This setting cannot be reverted!  Continue? [y|N]:
 ```
 
-2. Enter `y` to confirm.
+2.  Enter `y` to confirm.
     
 
 **Note:** To view the Retention Policy for a bucket recall the following command:
@@ -164,14 +164,14 @@ Financial regulators decide to perform an audit of one of the branch's customers
 
 To handle this, when regulatory investigation begins, the Branch IT Administrator sets the temporary hold flag for each of the objects related to the audit. While that flag is set, the objects will continue to be protected from deletion, even if they are older than 10 seconds.
 
-1. Set a temporary hold on the transactions object:
+1.  Set a temporary hold on the transactions object:
     
 
 ```powershell
 gsutil retention temp set "gs://$BUCKET/dummy_transactions"
 ```
 
-2. By placing a temporary hold on the object, delete operations are not possible unless the object is released from the hold. As an example, attempt to delete the object:
+2.  By placing a temporary hold on the object, delete operations are not possible unless the object is released from the hold. As an example, attempt to delete the object:
     
 
 ```powershell
@@ -184,7 +184,7 @@ You should see the following error message:
 AccessDeniedException: 403 Object 'YOUR-BUCKET-NAME/dummy_transactions is under active Temporary hold and cannot be deleted, overwritten or archived until hold is removed.
 ```
 
-3. Once regulators conclude their audit, the Branch IT Administrator removes the temporary hold. Use the following command to release the hold:
+3.  Once regulators conclude their audit, the Branch IT Administrator removes the temporary hold. Use the following command to release the hold:
     
 
 ```powershell
@@ -197,7 +197,7 @@ Set up Temporary Hold
 
 **Check my progress**
 
-4. Now you can delete the file unless the Retention Policy for the file hasn't expired. Otherwise wait a few moments and try again.
+4.  Now you can delete the file unless the Retention Policy for the file hasn't expired. Otherwise wait a few moments and try again.
     
 
 ```powershell
@@ -216,21 +216,21 @@ Event-based holds allow you to delay a Retention Policy from counting down until
 
 Look at enabling event-based holds for a loan.
 
-1. Enable the default event-based hold for your bucket using the following command:
+1.  Enable the default event-based hold for your bucket using the following command:
     
 
 ```powershell
 gsutil retention event-default set "gs://$BUCKET/"
 ```
 
-2. Add an example loan into the bucket using the following command:
+2.  Add an example loan into the bucket using the following command:
     
 
 ```powershell
 gsutil cp gs://spls/gsp297/dummy_loan "gs://$BUCKET/"
 ```
 
-3. Verify that the event-based hold is enabled for your newly added loan using the following command:
+3.  Verify that the event-based hold is enabled for your newly added loan using the following command:
     
 
 ```powershell
@@ -248,7 +248,7 @@ gs://YOUR-BUCKET-NAME/dummy_loan:
 
 Notice that Retention Expiration isn't defined. The Retention Expiration time is not available until the Event-Based hold is released on the object.
 
-4. When the loan is paid off, the Branch IT Administrator then releases the event-based hold using the following command:
+4.  When the loan is paid off, the Branch IT Administrator then releases the event-based hold using the following command:
     
 
 ```powershell
@@ -261,7 +261,7 @@ You should see a similar output:
 Releasing Event-Based Hold on gs://YOUR-BUCKET-NAME/dummy_loan...
 ```
 
-5. After an event-based hold is released, the bucket Retention Policy takes effect. Verify that the example loan now has a Retention Expiration field using the following command:
+5.  After an event-based hold is released, the bucket Retention Policy takes effect. Verify that the example loan now has a Retention Expiration field using the following command:
     
 
 ```powershell
@@ -291,16 +291,18 @@ Create Event-based holds
 
 Unfortunately, the branch shuts down its lending operations. The Branch IT Administrator still needs to maintain the existing records for their full duration, but no longer expects to produce records in the bucket. After the last loan Retention Period has expired and no longer subject to a hold, the Branch IT Administrator can then delete the empty bucket. The bucket can be deleted even though it has a locked Retention Policy because it contains no data subject to retention.
 
-* Delete an empty bucket using the following command:
+*   Delete an empty bucket using the following command:
     
 
 ```powershell
 gsutil rb "gs://$BUCKET/"
 ```
 
----
+* * *
 
 ## Solution of Lab
+
+### Quick
 
 %[https://www.youtube.com/watch?v=s-psIayBLg8&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
@@ -316,3 +318,9 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Google%20Clo
 sudo chmod +x quicklabgsp297.sh
 ./quicklabgsp297.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=re-YI9ck6DI]
