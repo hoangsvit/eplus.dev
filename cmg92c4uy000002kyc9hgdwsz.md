@@ -27,19 +27,19 @@ You are a software engineer at Cymbal Bank, tasked with securely deploying a new
 
 ### Topics tested
 
-* **Create Artifact Registry Repositories:** Set up Artifact Registry repositories to store Docker images for scanning and production.
+*   **Create Artifact Registry Repositories:** Set up Artifact Registry repositories to store Docker images for scanning and production.
     
-* **Push Docker Images:** Build and push Docker images to Artifact Registry via Cloud Build for vulnerability scanning.
+*   **Push Docker Images:** Build and push Docker images to Artifact Registry via Cloud Build for vulnerability scanning.
     
-* **Set up Binary Authorization:** Configure Binary Authorization with attestors and keys to enforce image signing policies.
+*   **Set up Binary Authorization:** Configure Binary Authorization with attestors and keys to enforce image signing policies.
     
-* **View Vulnerability Scans:** Examine vulnerability scan results within Artifact Registry to identify and understand potential security risks.
+*   **View Vulnerability Scans:** Examine vulnerability scan results within Artifact Registry to identify and understand potential security risks.
     
-* **Create a Secure CI/CD Pipeline:** Build a Cloud Build pipeline that automates image building, vulnerability scanning, and image signing.
+*   **Create a Secure CI/CD Pipeline:** Build a Cloud Build pipeline that automates image building, vulnerability scanning, and image signing.
     
-* **Review and Fix:** Analyze a failed build due to critical vulnerabilities and rectify the issues in the application code.
+*   **Review and Fix:** Analyze a failed build due to critical vulnerabilities and rectify the issues in the application code.
     
-* **Rebuild and Deploy:** Re-run the CI/CD pipeline with the fixed code and ensure successful deployment to Cloud Run.
+*   **Rebuild and Deploy:** Re-run the CI/CD pipeline with the fixed code and ensure successful deployment to Cloud Run.
     
 
 ## Setup and requirements
@@ -52,12 +52,12 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
@@ -66,7 +66,7 @@ To complete this lab, you need:
 
 Before you can start building your secure CI/CD pipeline, you need to enable the necessary Google Cloud APIs and set up your development environment. This will ensure that you have access to all the required services and tools.
 
-1. Enable the required APIs for this lab:
+1.  Enable the required APIs for this lab:
     
 
 ```apache
@@ -82,8 +82,7 @@ gcloud services enable \
   binaryauthorization.googleapis.com
 ```
 
-
-2. In Cloud Shell, run the following command to download the sample Python, Docker, and Cloud Build files:
+2.  In Cloud Shell, run the following command to download the sample Python, Docker, and Cloud Build files:
     
 
 ```apache
@@ -91,8 +90,7 @@ mkdir sample-app && cd sample-app
 gcloud storage cp gs://spls/gsp521/* .
 ```
 
-
-3. Create two Artifact Registry repositories: one for scanning and one for production. Name the repositories `artifact-scanning-repo` and `artifact-prod-repo`, respectively.
+3.  Create two Artifact Registry repositories: one for scanning and one for production. Name the repositories `artifact-scanning-repo` and `artifact-prod-repo`, respectively.
     
 
 The scanning repository will be used to store the Docker image before it is scanned for vulnerabilities, while the production repository will store the image after it has been signed and is ready for deployment.
@@ -105,19 +103,19 @@ Enable APIs and set up Artifact Registries.
 
 In this task, you'll lay the foundation for your CI/CD pipeline by creating a basic Cloud Build configuration to build and push your Docker image to Artifact Registry. This initial step will enable you to scan the image for vulnerabilities later in the lab.
 
-1. Start by adding the following roles to the **Cloud Build service account**:
+1.  Start by adding the following roles to the **Cloud Build service account**:
     
-    * `roles/iam.serviceAccountUser`
+    *   `roles/iam.serviceAccountUser`
         
-    * `roles/ondemandscanning.admin`
+    *   `roles/ondemandscanning.admin`
         
-2. In the **Cloud Shell Editor**, open the `sample-app/cloudbuild.yaml` file.
+2.  In the **Cloud Shell Editor**, open the `sample-app/cloudbuild.yaml` file.
     
-3. **Complete TODOs:** Fill out the image name placeholders (`<image-name>`). For this, you will need to reference the `artifact-scanning-repo` repository, and the image name should be `sample-image`. Make sure to use the region `us-central1`.
+3.  **Complete TODOs:** Fill out the image name placeholders (`<image-name>`). For this, you will need to reference the `artifact-scanning-repo` repository, and the image name should be `sample-image`. Make sure to use the region `us-central1`.
     
-4. Submit the build.
+4.  Submit the build.
     
-5. Check out the image you pushed to the `artifact-scanning-repo` repository and verify you can see a number of **Critical** vulnerabilities in the scan results.
+5.  Check out the image you pushed to the `artifact-scanning-repo` repository and verify you can see a number of **Critical** vulnerabilities in the scan results.
     
 
 To verify the objective, click **Check my progress**.
@@ -130,39 +128,39 @@ To enforce strict security policies for container deployments, you'll leverage B
 
 ### Create an Attestor
 
-1. In Cloud Shell, create a JSON file. This file will define an Attestor note containing the attestation hint. The attestation hint's `human_readable_name` should be set to "Container Vulnerabilities attestation authority".
+1.  In Cloud Shell, create a JSON file. This file will define an Attestor note containing the attestation hint. The attestation hint's `human_readable_name` should be set to "Container Vulnerabilities attestation authority".
     
-2. Use the Container Analysis API to create a new note with the ID `vulnerability_note`. The note's details should be defined in the note file you created in the previous step. Make sure to include proper authentication and set the appropriate Content-Type header in your API request.
+2.  Use the Container Analysis API to create a new note with the ID `vulnerability_note`. The note's details should be defined in the note file you created in the previous step. Make sure to include proper authentication and set the appropriate Content-Type header in your API request.
     
-3. Use the Container Analysis API to retrieve the details of the Attestor note you just created. Make sure to include proper authentication in your API request.
+3.  Use the Container Analysis API to retrieve the details of the Attestor note you just created. Make sure to include proper authentication in your API request.
     
-4. Use the `gcloud` command-line tool to create a new Binary Authorization Attestor. The Attestor ID should be **vulnerability-attestor**, and it should be associated with the Attestor note you created earlier.
+4.  Use the `gcloud` command-line tool to create a new Binary Authorization Attestor. The Attestor ID should be **vulnerability-attestor**, and it should be associated with the Attestor note you created earlier.
     
-5. Use the `gcloud` command-line tool to list all existing Binary Authorization Attestors. Verify that the Attestor you just created is included in the list.
+5.  Use the `gcloud` command-line tool to list all existing Binary Authorization Attestors. Verify that the Attestor you just created is included in the list.
     
-6. Construct an IAM policy that grants the Binary Authorization service account the `roles/containeranalysis.notes.occurrences.viewer` role on the Attestor note you created. Then, use the Container Analysis API to set this IAM policy on the note.
+6.  Construct an IAM policy that grants the Binary Authorization service account the `roles/containeranalysis.notes.occurrences.viewer` role on the Attestor note you created. Then, use the Container Analysis API to set this IAM policy on the note.
     
 
 ### Generate a KMS Pair
 
 In this section, you will generate a KMS key pair to sign attestations.
 
-1. Set up Key Management:
+1.  Set up Key Management:
     
-    * Create a KMS keyring named `binauthz-keys` in the `global` location to store the keys.
+    *   Create a KMS keyring named `binauthz-keys` in the `global` location to store the keys.
         
-    * Within this keyring, generate a new asymmetric signing key pair. Name this key `lab-key` and make sure it's **version 1**.
+    *   Within this keyring, generate a new asymmetric signing key pair. Name this key `lab-key` and make sure it's **version 1**.
         
-2. Link Key to Attestor:
+2.  Link Key to Attestor:
     
-    * Use the `gcloud` command-line tool to associate the `lab-key` (**version 1**) with your Binary Authorization Attestor. Make sure to specify the `global` location and the `binauthz-keys` keyring when referencing the key.
+    *   Use the `gcloud` command-line tool to associate the `lab-key` (**version 1**) with your Binary Authorization Attestor. Make sure to specify the `global` location and the `binauthz-keys` keyring when referencing the key.
         
 
 ### Update the Binary Authorization Policy
 
-1. **Modify the Policy**: Adjust the Binary Authorization policy to enforce the requirement for attestations for the default rule.
+1.  **Modify the Policy**: Adjust the Binary Authorization policy to enforce the requirement for attestations for the default rule.
     
-2. **Incorporate Your Attestor**: Include the `vulnerability-attestor` you previously created as part of the policy configuration.
+2.  **Incorporate Your Attestor**: Include the `vulnerability-attestor` you previously created as part of the policy configuration.
     
 
 To verify the objective, click **Check my progress**.
@@ -175,24 +173,24 @@ Building upon the basic pipeline from Task 2, you'll now enhance it with crucial
 
 ### Add the required roles to the Cloud Build service account
 
-1. Grant the Cloud Build service account the following IAM roles in your project:
+1.  Grant the Cloud Build service account the following IAM roles in your project:
     
-    * `roles/binaryauthorization.attestorsViewer`
+    *   `roles/binaryauthorization.attestorsViewer`
         
-    * `roles/cloudkms.signerVerifier`
+    *   `roles/cloudkms.signerVerifier`
         
-    * `roles/containeranalysis.notes.attacher`
+    *   `roles/containeranalysis.notes.attacher`
         
-    * `roles/iam.serviceAccountUser`
+    *   `roles/iam.serviceAccountUser`
         
-    * `roles/ondemandscanning.admin`
+    *   `roles/ondemandscanning.admin`
         
-2. Additionally, ensure that the Compute Engine default service account also has the `cloudkms.signerVerifier` role.
+2.  Additionally, ensure that the Compute Engine default service account also has the `cloudkms.signerVerifier` role.
     
 
 ### Install the Custom Build step
 
-1. You'll be using a Custom Build step in Cloud Build to simplify the attestation process. Google provides this Custom Build step which contains helper functions to streamline the process. Before use, the code for the custom build step must be built into a container and pushed to Cloud Build. To do this, run the following command:
+1.  You'll be using a Custom Build step in Cloud Build to simplify the attestation process. Google provides this Custom Build step which contains helper functions to streamline the process. Before use, the code for the custom build step must be built into a container and pushed to Cloud Build. To do this, run the following command:
     
 
 ```apache
@@ -203,22 +201,21 @@ cd ../..
 rm -rf cloud-builders-community
 ```
 
-
 ### Update the Cloud Build pipeline
 
 In this section, you will complete the Cloud Build pipeline to include vulnerability scanning, severity checks, image signing, and deployment to Cloud Run. The code provided below is a partial implementation of the pipeline. You will need to fill in the missing parts to complete the pipeline.
 
-1. **Complete TODOs:** Fill in the missing parts of the pipeline, including:
+1.  **Complete TODOs:** Fill in the missing parts of the pipeline, including:
     
-    * Specifying the image location in Artifact Registry for vulnerability scanning. Note that you want to scan the image in the `artifact-scanning-repo` repository.
+    *   Specifying the image location in Artifact Registry for vulnerability scanning. Note that you want to scan the image in the `artifact-scanning-repo` repository.
         
-    * Setting the appropriate severity level for vulnerability checks. The pipeline should fail if any `CRITICAL` vulnerabilities are found.
+    *   Setting the appropriate severity level for vulnerability checks. The pipeline should fail if any `CRITICAL` vulnerabilities are found.
         
-    * Configuring the image signing step with the correct attestor and KMS key information. The attestor name is `vulnerability-attestor`, and the key version is the full path to the `lab-key` version 1.
+    *   Configuring the image signing step with the correct attestor and KMS key information. The attestor name is `vulnerability-attestor`, and the key version is the full path to the `lab-key` version 1.
         
-    * Retagging the image for production and pushing it to the production repository. You should use the `artifact-prod-repo` repository for this purpose.
+    *   Retagging the image for production and pushing it to the production repository. You should use the `artifact-prod-repo` repository for this purpose.
         
-    * Deploying the image to Cloud Run. You will use the production image from the `artifact-prod-repo` repository for this step.
+    *   Deploying the image to Cloud Run. You will use the production image from the `artifact-prod-repo` repository for this step.
         
 
 **Note:** you have already filled out the first few TODOs in the `cloudbuild.yaml` file in the second task of this lab. Make sure to replace the rest of the placeholders with the correct values for the remaining TODOs.
@@ -304,20 +301,19 @@ images:
   - <image-name>
 ```
 
-
-3. **Trigger the Build**:
+3.  **Trigger the Build**:
     
-    * Submit the Cloud Build configuration you created to initiate the build process.
+    *   Submit the Cloud Build configuration you created to initiate the build process.
         
-    * Pay attention to the region you're working in when submitting the build.
+    *   Pay attention to the region you're working in when submitting the build.
         
-4. **Observe the Build Failure**:
+4.  **Observe the Build Failure**:
     
-    * Navigate to the Cloud Build History page in the Google Cloud Console.
+    *   Navigate to the Cloud Build History page in the Google Cloud Console.
         
-    * Look for the build you just triggered and examine its status.
+    *   Look for the build you just triggered and examine its status.
         
-    * Confirm that the build fails due to the presence of a `CRITICAL` severity vulnerability.
+    *   Confirm that the build fails due to the presence of a `CRITICAL` severity vulnerability.
         
 
 **Note:** your build is supposed fail due to a `CRITICAL` severity vulnerability. You will address this issue in the next task.
@@ -330,40 +326,39 @@ Integrate vulnerability scanning into your CI/CD pipeline.
 
 In a real-world scenario, vulnerability scans often reveal issues that need to be addressed. This task simulates such a scenario, where your build fails due to a critical vulnerability. In this task, you will analyze the build failure, identify the vulnerability, and fix it by updating your application's dependencies. You will then re-trigger the Cloud Build pipeline to ensure the build completes successfully without any critical vulnerabilities.
 
-1. **Update the Dockerfile:** Modify your Dockerfile to use the `python:3.8-alpine` base image. Update the `Flask`, `Gunicorn`, and `Werkzeug` dependencies to the following versions:
+1.  **Update the Dockerfile:** Modify your Dockerfile to use the `python:3.8-alpine` base image. Update the `Flask`, `Gunicorn`, and `Werkzeug` dependencies to the following versions:
     
-    * Flask: `3.0.3`
+    *   Flask: `3.0.3`
         
-    * Gunicorn: `23.0.0`
+    *   Gunicorn: `23.0.0`
         
-    * Werkzeug: `3.0.4`
+    *   Werkzeug: `3.0.4`
         
-2. **Re-trigger the Build**: Submit your updated Cloud Build configuration to initiate a new build.
+2.  **Re-trigger the Build**: Submit your updated Cloud Build configuration to initiate a new build.
     
-3. **Verify Build Success**: Check the Cloud Build History page to confirm that the build completes successfully without any `CRITICAL` vulnerability issues.
+3.  **Verify Build Success**: Check the Cloud Build History page to confirm that the build completes successfully without any `CRITICAL` vulnerability issues.
     
-4. For testing purposes, run the following command to allow unauthenticated access to the Cloud Run service so you can validate the deployment. Replace `<your-region>` with the region where you deployed the service.
+4.  For testing purposes, run the following command to allow unauthenticated access to the Cloud Run service so you can validate the deployment. Replace `<your-region>` with the region where you deployed the service.
     
 
 ```apache
 gcloud beta run services add-iam-policy-binding --region=<your-region> --member=allUsers --role=roles/run.invoker auth-service
 ```
 
-
 **Note:** this command is for testing purposes only and should not be used in a production environment!
 
-5. **Validate Deployment:** Access the Cloud Run service URL to ensure your application is deployed and functioning correctly.
+5.  **Validate Deployment:** Access the Cloud Run service URL to ensure your application is deployed and functioning correctly.
     
 
 To verify the objective, click **Check my progress**.
 
 Fix the vulnerability and redeploy the CI/CD pipeline.
 
----
+* * *
 
 ## Solution of Lab
 
-https://youtu.be/Bctek9o37gk
+%[https://youtu.be/Bctek9o37gk] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP521/lab.sh
