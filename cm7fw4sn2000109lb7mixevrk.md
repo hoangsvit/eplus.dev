@@ -23,30 +23,30 @@ Cloud Build pipeline that creates a Binary Authorization attestation.
 
 In this pipeline:
 
-1. Code to build the container image is pushed to a source repository, such as [Cloud Source Repositories](https://cloud.google.com/source-repositories/docs).
+1.  Code to build the container image is pushed to a source repository, such as [Cloud Source Repositories](https://cloud.google.com/source-repositories/docs).
     
-2. A continuous integration (CI) tool, [Cloud Build](https://cloud.google.com/build/docs) builds and tests the container.
+2.  A continuous integration (CI) tool, [Cloud Build](https://cloud.google.com/build/docs) builds and tests the container.
     
-3. The build pushes the container image to [Container Registry](https://cloud.google.com/container-registry/docs) or another registry that stores your built images.
+3.  The build pushes the container image to [Container Registry](https://cloud.google.com/container-registry/docs) or another registry that stores your built images.
     
-4. [Cloud Key Management Service](https://cloud.google.com/kms/docs), which provides key management for the [cryptographic key pair](https://cloud.google.com/binary-authorization/docs/key-concepts#cryptographic_keys), signs the container image. The resulting signature is then stored in a newly created attestation.
+4.  [Cloud Key Management Service](https://cloud.google.com/kms/docs), which provides key management for the [cryptographic key pair](https://cloud.google.com/binary-authorization/docs/key-concepts#cryptographic_keys), signs the container image. The resulting signature is then stored in a newly created attestation.
     
-5. At deploy time, the attestor verifies the attestation using the public key from the key pair. [Binary Authorization](https://cloud.google.com/binary-authorization/docs) enforces the [policy](https://cloud.google.com/binary-authorization/docs/key-concepts#policies) by requiring signed [attestations](https://cloud.google.com/binary-authorization/docs/key-concepts#attestations) to deploy the container image.
+5.  At deploy time, the attestor verifies the attestation using the public key from the key pair. [Binary Authorization](https://cloud.google.com/binary-authorization/docs) enforces the [policy](https://cloud.google.com/binary-authorization/docs/key-concepts#policies) by requiring signed [attestations](https://cloud.google.com/binary-authorization/docs/key-concepts#attestations) to deploy the container image.
     
 
 In this lab you will learn about the tools and techniques to secure deployed artifacts. This lab focuses on artifacts (containers) after they have been created but not deployed to any particular environment.
 
 ### What you'll learn
 
-* Image Signing
+*   Image Signing
     
-* Admission Control Policies
+*   Admission Control Policies
     
-* Signing Scanned Images
+*   Signing Scanned Images
     
-* Authorizing Signed Images
+*   Authorizing Signed Images
     
-* Blocked unsigned Images
+*   Blocked unsigned Images
     
 
 ## **Setup and requirements**
@@ -59,23 +59,23 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 #### **How to start your lab and sign in to the Google Cloud Console**
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is a panel populated with the temporary credentials that you must use for this lab.
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is a panel populated with the temporary credentials that you must use for this lab.
     
     ![Open Google Console](https://cdn.qwiklabs.com/%2FtHp4GI5VSDyTtdqi3qDFtevuY014F88%2BFow%2FadnRgE%3D align="left")
     
-2. Copy the username, and then click **Open Google Console**. The lab spins up resources, and then opens another tab that shows the **Sign in** page.
+2.  Copy the username, and then click **Open Google Console**. The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
     ![Sign in](https://cdn.qwiklabs.com/VkUIAFY2xX3zoHgmWqYKccRLwFrR4BfARLd5ojmlbhs%3D align="left")
     
@@ -85,17 +85,17 @@ To complete this lab, you need:
     
     ![Choose an account](https://cdn.qwiklabs.com/eQ6xPnPn13GjiJP3RWlHWwiMjhooHxTNvzfg1AL2WPw%3D align="left")
     
-3. In the **Sign in** page, paste the username that you copied from the left panel. Then copy and paste the password.
+3.  In the **Sign in** page, paste the username that you copied from the left panel. Then copy and paste the password.
     
     ***Important:*** You must use the credentials from the left panel. Do not use your Google Cloud Training credentials. If you have your own Google Cloud account, do not use it for this lab (avoids incurring charges).
     
-4. Click through the subsequent pages:
+4.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Cloud Console opens in this tab.
@@ -192,7 +192,7 @@ gcloud services enable \
 
 In this lab you will be using Artifact Registry to store and scan your images.
 
-1. Create the repository with the following command:
+1.  Create the repository with the following command:
     
 
 ```apache
@@ -202,21 +202,21 @@ gcloud artifacts repositories create artifact-scanning-repo \
   --description="Docker repository"
 ```
 
-2. Configure docker to utilize your gcloud credentials when accessing Artifact Registry:
+2.  Configure docker to utilize your gcloud credentials when accessing Artifact Registry:
     
 
 ```apache
 gcloud auth configure-docker us-west1-docker.pkg.dev
 ```
 
-3. Create and change into a work directory:
+3.  Create and change into a work directory:
     
 
 ```apache
 mkdir vuln-scan && cd vuln-scan
 ```
 
-4. Next define a sample image. Create a file called `Dockerfile` with the following contents:
+4.  Next define a sample image. Create a file called `Dockerfile` with the following contents:
     
 
 ```apache
@@ -237,7 +237,7 @@ CMD exec gunicorn --bind :\$PORT --workers 1 --threads 8 main:app
 EOF
 ```
 
-5. Create a file called `main.py` with the following contents:
+5.  Create a file called `main.py` with the following contents:
     
 
 ```apache
@@ -257,7 +257,7 @@ if __name__ == "__main__":
 EO
 ```
 
-6. Use Cloud Build to build and automatically push your container to Artifact Registry.
+6.  Use Cloud Build to build and automatically push your container to Artifact Registry.
     
 
 ```apache
@@ -274,15 +274,15 @@ Check my progress
 
 ### What is an Attestor
 
-* This person/process is responsible for one link in the chain of trust of the system.
+*   This person/process is responsible for one link in the chain of trust of the system.
     
-* They hold a cryptographic key, and sign an image if it passes their approval process.
+*   They hold a cryptographic key, and sign an image if it passes their approval process.
     
-* While the Policy Creator determines policy in a high-level, abstract way, the Attestor is responsible for concretely enforcing some aspect of the policy.
+*   While the Policy Creator determines policy in a high-level, abstract way, the Attestor is responsible for concretely enforcing some aspect of the policy.
     
-* This can be a real person, like a QA tester or a manager, or a bot in a CI system.
+*   This can be a real person, like a QA tester or a manager, or a bot in a CI system.
     
-* The security of the system depends on their trustworthiness, so it's important that their private keys are kept secure.
+*   The security of the system depends on their trustworthiness, so it's important that their private keys are kept secure.
     
 
 Each of these roles can represent an individual person or a team of people in your organization. In a production environment, these roles would likely be managed by separate Google Cloud Platform projects, and access to resources would be shared between them in a limited fashion using [Cloud IAM](https://cloud.google.com/iam/).
@@ -307,7 +307,7 @@ An Attestor Note is simply a small bit of data that acts as a label for the type
 
 ![Container Analysis API and Binary Authorization relationship flow chart](https://cdn.qwiklabs.com/0unMZi45xcTy9qCD3rNg5XVwKKwJDDJibRw9D0inSK0%3D align="left")
 
-1. Create a note:
+1.  Create a note:
     
 
 ```apache
@@ -322,7 +322,7 @@ cat > ./vulnz_note.json << EOM
 EOM
 ```
 
-2. Store the note
+2.  Store the note
     
 
 ```apache
@@ -335,7 +335,7 @@ curl -vvv -X POST \
     "https://containeranalysis.googleapis.com/v1/projects/${PROJECT_ID}/notes/?noteId=${NOTE_ID}"
 ```
 
-3. Verify the note
+3.  Verify the note
     
 
 ```apache
@@ -346,14 +346,14 @@ curl -vvv  \
 
 Your Note is now saved within the Container Analysis API.
 
-4. Creating an Attestor
+4.  Creating an Attestor
     
 
 Attestors are used to perform the actual image signing process and will attach an occurrence of the note to the image for later verification. To make use of your attestor, you must also register the note with Binary Authorization:
 
 ![Attestor is associated with an occurance of a Note](https://cdn.qwiklabs.com/Yg0FbL%2B5ncD3xEmsII6yWnErCCp00tbrJzdW4gsIPdQ%3D align="left")
 
-5. Create Attestor
+5.  Create Attestor
     
 
 ```apache
@@ -364,7 +364,7 @@ gcloud container binauthz attestors create $ATTESTOR_ID \
     --attestation-authority-note-project=${PROJECT_ID}
 ```
 
-6. Verify Attestor
+6.  Verify Attestor
     
 
 ```apache
@@ -375,7 +375,7 @@ The last line indicates `NUM_PUBLIC_KEYS: 0` you will provide keys in a later st
 
 Cloud Build automatically creates the `built-by-cloud-build` attestor in your project when you run a build that generates images. So the above command returns two attestors, `vulnz-attestor` and `built-by-cloud-build`. After images are successfully built, Cloud Build automatically signs and creates attestations for them.
 
-7. The [Binary Authorization](https://cloud.google.com/binary-authorization/docs/overview) service account will need rights to view the attestation notes. Provide the access to the IAM Role with the following API call:
+7.  The [Binary Authorization](https://cloud.google.com/binary-authorization/docs/overview) service account will need rights to view the attestation notes. Provide the access to the IAM Role with the following API call:
     
 
 ```apache
@@ -401,7 +401,7 @@ cat > ./iam_request.json << EOM
 EOM
 ```
 
-8. Use the file to create the IAM Policy:
+8.  Use the file to create the IAM Policy:
     
 
 ```apache
@@ -424,7 +424,7 @@ Before you can use this attestor, your authority needs to create a cryptographic
 
 ![diagram of Google Cloud Key Management Service (KMS)](https://cdn.qwiklabs.com/OK95gxgG2IDQK1FP%2FCr5IWOQNg2LtmZ2pU75iGelWHU%3D align="left")
 
-1. First, add some environment variables to describe the new key:
+1.  First, add some environment variables to describe the new key:
     
 
 ```apache
@@ -434,14 +434,14 @@ KEY_NAME=codelab-key
 KEY_VERSION=1
 ```
 
-2. Create a keyring to hold a set of keys:
+2.  Create a keyring to hold a set of keys:
     
 
 ```apache
 gcloud kms keyrings create "${KEYRING}" --location="${KEY_LOCATION}"
 ```
 
-3. Create a new asymmetric signing key pair for the attestor
+3.  Create a new asymmetric signing key pair for the attestor
     
 
 ```apache
@@ -453,7 +453,7 @@ gcloud kms keys create "${KEY_NAME}" \
 
 You should see your key appear on the [KMS page](https://console.cloud.google.com/security/kms) of theCloud console.
 
-4. Now, associate the key with your attestor through the gcloud `binauthz` command:
+4.  Now, associate the key with your attestor through the gcloud `binauthz` command:
     
 
 ```apache
@@ -466,7 +466,7 @@ gcloud beta container binauthz attestors public-keys add  \
     --keyversion="${KEY_VERSION}"
 ```
 
-5. If you print the list of authorities again, you should now see a key registered:
+5.  If you print the list of authorities again, you should now see a key registered:
     
 
 ```apache
@@ -485,7 +485,7 @@ At this point you have the features configured that enable you to sign images. U
 
 An attestation must include a cryptographic signature to state that the attestor has verified a particular container image and is safe to run on your cluster.
 
-1. To specify which container image to attest, run the following to determine its digest:
+1.  To specify which container image to attest, run the following to determine its digest:
     
 
 ```apache
@@ -497,7 +497,7 @@ DIGEST=$(gcloud container images describe ${CONTAINER_PATH}:latest \
     --format='get(image_summary.digest)')
 ```
 
-2. Now, you can use gcloud to create your attestation. The command takes in the details of the key you want to use for signing, and the specific container image you want to approve:
+2.  Now, you can use gcloud to create your attestation. The command takes in the details of the key you want to use for signing, and the specific container image you want to approve:
     
 
 ```apache
@@ -514,7 +514,7 @@ gcloud beta container binauthz attestations sign-and-create  \
 
 In Container Analysis terms, this will create a new occurrence, and attach it to your attestor's note.
 
-3. To ensure everything worked as expected, run the following to list your attestations:
+3.  To ensure everything worked as expected, run the following to list your attestations:
     
 
 ```apache
@@ -528,7 +528,7 @@ gcloud container binauthz attestations list \
 
 To understand this capability you will modify the default GKE policy to enforce a strict authorization rule.
 
-1. Create the GKE cluster with binary authorization enabled:
+1.  Create the GKE cluster with binary authorization enabled:
     
 
 ```apache
@@ -537,7 +537,7 @@ gcloud beta container clusters create binauthz \
     --binauthz-evaluation-mode=PROJECT_SINGLETON_POLICY_ENFORCE
 ```
 
-2. Allow Cloud Build to deploy to this cluster:
+2.  Allow Cloud Build to deploy to this cluster:
     
 
 ```apache
@@ -550,26 +550,26 @@ gcloud projects add-iam-policy-binding ${PROJECT_ID} \
 
 First verify the default policy state and your ability to deploy any image
 
-1. Review existing policy:
+1.  Review existing policy:
     
 
 ```apache
 gcloud container binauthz policy export
 ```
 
-2. Notice that the enforcement policy is set to `ALWAYS_ALLOW`
+2.  Notice that the enforcement policy is set to `ALWAYS_ALLOW`
     
 
 `evaluationMode: ALWAYS_ALLOW`
 
-3. Deploy Sample to verify you can deploy anything:
+3.  Deploy Sample to verify you can deploy anything:
     
 
 ```apache
 kubectl run hello-server --image gcr.io/google-samples/hello-app:1.0 --port 8080
 ```
 
-4. Verify the deploy worked:
+4.  Verify the deploy worked:
     
 
 ```apache
@@ -580,7 +580,7 @@ You will see the following output:
 
 ![Status Running for hello-server](https://cdn.qwiklabs.com/SEwOSRRzy%2Bi%2BSmwHHILuSu31J1HVUv36fAr7poskrzg%3D align="left")
 
-5. Delete deployment:
+5.  Delete deployment:
     
 
 ```apache
@@ -591,14 +591,14 @@ kubectl delete pod hello-server
 
 Now update the policy to disallow all images.
 
-1. Export the current policy to an editable file:
+1.  Export the current policy to an editable file:
     
 
 ```apache
 gcloud container binauthz policy export  > policy.yaml
 ```
 
-2. In a text editor, open the `policy.yaml' file and change the` evaluationMode ``from `ALWAYS_ALLOW`` to `ALWAYS_DENY`:
+2.  In a text editor, open the `policy.yaml' file and change the` evaluationMode ``from `ALWAYS_ALLOW`` to `ALWAYS_DENY`:
     
 
 ```apache
@@ -621,7 +621,7 @@ For instructions on how to build more complex policies, look through the [Binary
 
 ![flowchart of binary authorization policy allowing only specified containers](https://cdn.qwiklabs.com/lZJ1Lhho7dn%2Bw64Ukgko4IfdJ26TLkHSYuKOyCmvxQ8%3D align="left")
 
-3. In Cloud Shell run the following to apply the new policy:
+3.  In Cloud Shell run the following to apply the new policy:
     
 
 ```apache
@@ -630,14 +630,14 @@ gcloud container binauthz policy import policy.yaml
 
 Wait a few seconds for the change to propagate.
 
-4. Attempt a sample workload deployment:
+4.  Attempt a sample workload deployment:
     
 
 ```apache
 kubectl run hello-server --image gcr.io/google-samples/hello-app:1.0 --port 8080
 ```
 
-5. Deployment fails with the following message:
+5.  Deployment fails with the following message:
     
 
 ```apache
@@ -648,7 +648,7 @@ Error from server (VIOLATES_POLICY): admission webhook "imagepolicywebhook.image
 
 Before moving on to the next section, revert the policy changes.
 
-1. In a text editor, change the `evaluationMode` from `ALWAYS_DENY` to **ALWAYS\_ALLOW**.
+1.  In a text editor, change the `evaluationMode` from `ALWAYS_DENY` to **ALWAYS\_ALLOW**.
     
 
 ```apache
@@ -665,7 +665,7 @@ defaultAdmissionRule:
 name: projects/PROJECT_ID/policy
 ```
 
-2. Apply the reverted policy:
+2.  Apply the reverted policy:
     
 
 ```apache
@@ -686,7 +686,7 @@ In this section you will configure [Cloud Build](https://cloud.google.com/binary
 
 ### Roles needed
 
-1. Add Binary Authorization Attestor Viewer role to Cloud Build Service Account:
+1.  Add Binary Authorization Attestor Viewer role to Cloud Build Service Account:
     
 
 ```apache
@@ -695,7 +695,7 @@ gcloud projects add-iam-policy-binding ${PROJECT_ID} \
   --role roles/binaryauthorization.attestorsViewer
 ```
 
-2. Add Cloud KMS CryptoKey Signer/Verifier role to Cloud Build Service Account (KMS-based Signing):
+2.  Add Cloud KMS CryptoKey Signer/Verifier role to Cloud Build Service Account (KMS-based Signing):
     
 
 ```apache
@@ -710,7 +710,7 @@ gcloud projects add-iam-policy-binding ${PROJECT_ID} \
   --role roles/cloudkms.signerVerifier
 ```
 
-3. Add Container Analysis Notes Attacher role to Cloud Build Service Account:
+3.  Add Container Analysis Notes Attacher role to Cloud Build Service Account:
     
 
 ```apache
@@ -723,7 +723,7 @@ gcloud projects add-iam-policy-binding ${PROJECT_ID} \
 
 Cloud Build will need rights to access the on-demand scanning api.
 
-* Provide access with the following commands:
+*   Provide access with the following commands:
     
 
 ```apache
@@ -740,7 +740,7 @@ gcloud projects add-iam-policy-binding ${PROJECT_ID} \
 
 You'll be using a Custom Build step in Cloud Build to simplify the attestation process. Google provides this Custom Build step which contains helper functions to streamline the process. Before use, the code for the custom build step must be built into a container and pushed to Cloud Build.
 
-* To do this, run the following commands:
+*   To do this, run the following commands:
     
 
 ```apache
@@ -755,7 +755,7 @@ rm -rf cloud-builders-community
 
 Add the attestation step into your Cloud Build pipeline.
 
-1. Review the signing step below.
+1.  Review the signing step below.
     
 
 **Review only. Do Not Copy**
@@ -773,7 +773,7 @@ Add the attestation step into your Cloud Build pipeline.
     - 'projects/${PROJECT_ID}/locations/$KEY_LOCATION/keyRings/$KEYRING/cryptoKeys/$KEY_NAME/cryptoKeyVersions/$KEY_VERSION'
 ```
 
-2. Write a `cloudbuild.yaml` file with the complete pipeline below:
+2.  Write a `cloudbuild.yaml` file with the complete pipeline below:
     
 
 ```apache
@@ -818,7 +818,7 @@ images:
 EOF
 ```
 
-3. Run the build:
+3.  Run the build:
     
 
 ```apache
@@ -827,7 +827,7 @@ gcloud builds submit
 
 ### Review the build in Cloud Build History
 
-In the Cloud console navigate to **Cloud Build &gt; Build history** page and review that latest build and the successful execution of the build steps.
+In the Cloud console navigate to **Cloud Build > Build history** page and review that latest build and the successful execution of the build steps.
 
 Click **Check my progress** to verify the objective.
 
@@ -847,7 +847,7 @@ Require images are signed by your Attestor by adding clusterAdmissionRules to yo
 
 Currently, your cluster is running a policy with one rule: allow containers from official repositories, and reject all others.
 
-1. Overwrite the policy with the updated config using the command below:
+1.  Overwrite the policy with the updated config using the command below:
     
 
 ```apache
@@ -869,12 +869,12 @@ clusterAdmissionRules:
 EOM
 ```
 
-2. You should now have a new file on disk, called `updated_policy.yaml`. Now, instead of the default rule rejecting all images, it first checks your attestor for verifications.
+2.  You should now have a new file on disk, called `updated_policy.yaml`. Now, instead of the default rule rejecting all images, it first checks your attestor for verifications.
     
 
 ![allowed containers plus container signed by Attestor is allowed](https://cdn.qwiklabs.com/bSBYeLR9JpqaZIHH18uksRHnQNq48hrEZy3eom9553Q%3D align="left")
 
-3. Upload the new policy to Binary Authorization:
+3.  Upload the new policy to Binary Authorization:
     
 
 ```apache
@@ -883,7 +883,7 @@ gcloud beta container binauthz policy import binauth_policy.yaml
 
 ### Deploy a signed image
 
-1. Get the image digest for the good image:
+1.  Get the image digest for the good image:
     
 
 ```apache
@@ -895,7 +895,7 @@ DIGEST=$(gcloud container images describe ${CONTAINER_PATH}:good \
     --format='get(image_summary.digest)')
 ```
 
-2. Use the digest in the Kubernetes configuration:
+2.  Use the digest in the Kubernetes configuration:
     
 
 ```apache
@@ -938,14 +938,14 @@ spec:
 EOM
 ```
 
-3. Deploy the app to GKE
+3.  Deploy the app to GKE
     
 
 ```apache
 kubectl apply -f deploy.yamlâ
 ```
 
-In the Cloud console navigate to **Kubernetes Engine &gt; Workloads** and review the successful deployment of the image.
+In the Cloud console navigate to **Kubernetes Engine > Workloads** and review the successful deployment of the image.
 
 Click **Check my progress** to verify the objective.
 
@@ -957,21 +957,21 @@ Check my progress
 
 ### Build an Image
 
-1. Use local docker to build the image to your local cache:
+1.  Use local docker to build the image to your local cache:
     
 
 ```apache
 docker build -t us-west1-docker.pkg.dev/${PROJECT_ID}/artifact-scanning-repo/sample-image:bad .
 ```
 
-2. Push the unsigned image to the repo:
+2.  Push the unsigned image to the repo:
     
 
 ```apache
 docker push us-west1-docker.pkg.dev/${PROJECT_ID}/artifact-scanning-repo/sample-image:bad
 ```
 
-3. Get the image digest for the bad image:
+3.  Get the image digest for the bad image:
     
 
 ```apache
@@ -983,7 +983,7 @@ DIGEST=$(gcloud container images describe ${CONTAINER_PATH}:bad \
     --format='get(image_summary.digest)')
 ```
 
-4. Use the digest in the Kubernetes configuration:
+4.  Use the digest in the Kubernetes configuration:
     
 
 ```apache
@@ -1026,7 +1026,7 @@ spec:
 EOM
 ```
 
-5. Attempt to deploy the app to GKE
+5.  Attempt to deploy the app to GKE
     
 
 ```apache
@@ -1043,9 +1043,30 @@ Click **Check my progress** to verify the objective.
 
 Deploy an unsigned image.
 
----
+* * *
 
 ## Solution of Lab
+
+### New solution
+
+%[https://www.youtube.com/watch?v=hC6vHEEQCiQ] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1183/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Gating%20Deployments%20with%20Binary%20Authorization/abhishekGSP1183.sh
+sudo chmod +x abhishekGSP1183.sh
+./abhishekGSP1183.sh
+```
+
+* * *
+
+### Old solution
 
 %[https://www.youtube.com/watch?v=7INFyriFDlg&ab_channel=QUICKGCPLAB] 
 
