@@ -20,6 +20,10 @@ The Arcade Facilitator Program is an always-on, no-cost gaming campaign where te
 
 Registration opens on July 13, 2026 at 6:30 PM GMT+7
 
+📌 When asked *"<mark class="bg-yellow-200 dark:bg-yellow-500/30">Do you have a Facilitator Code?</mark>"* select ***Yes*** and enter:
+
+`GCAF26-IN-JYV-RMM`
+
 * * *
 
 #### **Why should I enrol in the program?**
