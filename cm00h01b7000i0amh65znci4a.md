@@ -5,8 +5,8 @@ seoDescription: "BigQuery is Google's fully managed, NoOps, low cost analytics d
 datePublished: 2024-08-19T04:02:45.283Z
 cuid: cm00h01b7000i0amh65znci4a
 slug: creating-date-partitioned-tables-in-bigquery-gsp414
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724039956965/fabf5af0-e3cb-4f70-904b-d0fc4e5f6b27.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724040153604/5df776ed-64f3-4644-ace0-5a5a1e78c89f.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/cb3ee726-1199-48b7-b146-f6b01c701222.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/4060179f-64b1-45ee-9e07-cf29b5c94fe0.png
 tags: creating-date-partitioned-tables-in-bigquery-gsp414
 
 ---
@@ -21,9 +21,9 @@ In this lab, you learn how to query and create partitioned tables in BigQuery to
 
 In this lab, you learn how to:
 
-* Query partitioned tables.
+*   Query partitioned tables.
     
-* Create your own partitioned tables.
+*   Create your own partitioned tables.
     
 
 ## **Setup and requirements**
@@ -36,29 +36,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -66,7 +66,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-dd76facb64af@qwiklabs.net
@@ -74,9 +74,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     kR2YlcS76iCg
@@ -84,19 +84,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -107,31 +107,31 @@ After a few moments, the Google Cloud console opens in this tab.
 
 ### Open the BigQuery console
 
-1. In the Google Cloud Console, select **Navigation menu** &gt; **BigQuery**.
+1.  In the Google Cloud Console, select **Navigation menu** > **BigQuery**.
     
 
 The **Welcome to BigQuery in the Cloud Console** message box opens. This message box provides a link to the quickstart guide and the release notes.
 
-2. Click **Done**.
+2.  Click **Done**.
     
 
 The BigQuery console opens.
 
 ## **Task 1. Create a new dataset**
 
-1. First, you will create a dataset to store your tables.
+1.  First, you will create a dataset to store your tables.
     
-2. In the **Explorer pane**, near your project id, click on **View actions** then click **Create dataset**.
+2.  In the **Explorer pane**, near your project id, click on **View actions** then click **Create dataset**.
     
 
 ![Create dataset option highlighted within the project's dropdownmenu.](https://cdn.qwiklabs.com/AP%2B7ysu%2FJbFGYOu09hM81NdW5uLDPvqskkHZJyq%2BQrY%3D align="left")
 
-3. Set **Dataset ID** to **ecommerce**.
+3.  Set **Dataset ID** to **ecommerce**.
     
 
 Leave the other options at their default values (Data Location, Default table Expiration).
 
-4. Click **Create dataset**.
+4.  Click **Create dataset**.
     
 
 Click **Check my progress** to verify the objective.
@@ -148,7 +148,7 @@ Now create a new table and bind a date or timestamp column as a partition. Befor
 
 ### Query web page analytics for a sample of visitors in 2017
 
-1. Click on **\+ Compose new query** and add the below query:
+1.  Click on **\+ Compose new query** and add the below query:
     
 
 ```apache
@@ -165,7 +165,7 @@ LIMIT 5
 
 Before running, note the total amount of data it will process as indicated next to the query validator icon: "This query will process 1.74 GB when run".
 
-2. Click **Run**.
+2.  Click **Run**.
     
 
 The query returns 5 results.
@@ -174,7 +174,7 @@ The query returns 5 results.
 
 Let's modify the query to look at visitors for 2018 now.
 
-1. Click **COMPOSE NEW QUERY** to clear the **Query Editor**, then add this new query. Note the `WHERE date` parameter is changed to `20180708`:
+1.  Click **COMPOSE NEW QUERY** to clear the **Query Editor**, then add this new query. Note the `WHERE date` parameter is changed to `20180708`:
     
 
 ```apache
@@ -191,7 +191,7 @@ LIMIT 5
 
 The **Query Validator** tells you how much data this query will process.
 
-2. Click **Run**.
+2.  Click **Run**.
     
 
 Notice that the query still processes 1.74 GB even though it returns 0 results. Why? The query engine needs to scan all records in the dataset to see if they satisfy the date matching condition in the WHERE clause. It must look at each record to compare the date against the condition of ‘20180708'.
@@ -206,18 +206,18 @@ Why did the previous query return 0 records but still scan through 1.74GB of dat
 
 Scanning through the entire dataset everytime to compare rows against a WHERE condition is wasteful. This is especially true if you only really care about records for a specific period of time like:
 
-* All transactions for the last year
+*   All transactions for the last year
     
-* All visitor interactions within the last 7 days
+*   All visitor interactions within the last 7 days
     
-* All products sold in the last month
+*   All products sold in the last month
     
 
 Instead of scanning the entire dataset and filtering on a date field like we did in the earlier queries, Now set up a date-partitioned table. This allows you to completely ignore scanning records in certain partitions if they are irrelevant to our query.
 
 #### **Create a new partitioned table based on date**
 
-1. Click **COMPOSE NEW QUERY** , add the below query, then click **Run**:
+1.  Click **COMPOSE NEW QUERY** , add the below query, then click **Run**:
     
 
 ```apache
@@ -236,19 +236,19 @@ Instead of scanning the entire dataset and filtering on a date field like we did
 
 In this query, note the new option - PARTITION BY a field. The two options available to partition are DATE and TIMESTAMP. The PARSE\_DATE function is used on the date field (stored as a string) to get it into the proper DATE type for partitioning.
 
-2. Click on the **ecommerce** dataset, then select the new **partiton\_by\_day** table:
+2.  Click on the **ecommerce** dataset, then select the new **partiton\_by\_day** table:
     
 
 ![partiton_by_day table option highlighted](https://cdn.qwiklabs.com/MOKf1mKRDJjhlD0WxypQMvRsMV93A4PPOjC4aD%2BcpgM%3D align="left")
 
-3. Click on the **Details** tab.
+3.  Click on the **Details** tab.
     
 
 Confirm that you see:
 
-* Partitioned by: Day
+*   Partitioned by: Day
     
-* Partitioning on: date\_formatted
+*   Partitioning on: date\_formatted
     
 
 ![partiton_by_day details](https://cdn.qwiklabs.com/INxxScny5dVwKWvwsQ%2FZ8e80Ai4Wpxr2Ypiqmpq03Ts%3D align="left")
@@ -263,7 +263,7 @@ Create a new partitioned table based on date
 
 ## **Task 3. Review results from queries on a partitioned table**
 
-1. Run the below query, and note the total bytes to be processed:
+1.  Run the below query, and note the total bytes to be processed:
     
 
 ```apache
@@ -275,7 +275,7 @@ WHERE date_formatted = '2016-08-01'
 
 This time 25 KB or 0.025MB is processed, which is a fraction of what you queried.
 
-2. Now run the below query, and note the total bytes to be processed:
+2.  Now run the below query, and note the total bytes to be processed:
     
 
 ```apache
@@ -297,30 +297,30 @@ Auto-expiring partitioned tables are used to comply with data privacy statutes, 
 
 ### Explore the available NOAA weather data tables
 
-1. In the left menu, in Explorer, click on **\+ Add** and select **Public datasets**.
+1.  In the left menu, in Explorer, click on **\+ Add** and select **Public datasets**.
     
 
 ![Add data menu, which includes Explore public datasets, Pin a project, and External data source.](https://cdn.qwiklabs.com/%2F29Pylwxd7gk1LWdiOg5S9COjDSCdcVA4FArFJIcswE%3D align="left")
 
-2. Search for **GSOD NOAA** then select the dataset.
+2.  Search for **GSOD NOAA** then select the dataset.
     
-3. Click on **View Dataset**.
+3.  Click on **View Dataset**.
     
-4. **Scroll through** the tables in the **noaa\_gsod** dataset (which are manually sharded and not partitioned):
+4.  **Scroll through** the tables in the **noaa\_gsod** dataset (which are manually sharded and not partitioned):
     
 
 ![noaa_gsod dataset highlighted](https://cdn.qwiklabs.com/LJhLVqXD9KS90oAAMyHh%2FeasHL7ZEdxROIYpVvAD83g%3D align="left")
 
 Your goal is to create a table that:
 
-* Queries on weather data from 2018 onward
+*   Queries on weather data from 2018 onward
     
-* Filters to only include days that have had some precipitation (rain, snow, etc.)
+*   Filters to only include days that have had some precipitation (rain, snow, etc.)
     
-* Only stores each partition of data for 90 days from that partition's date (rolling window)
+*   Only stores each partition of data for 90 days from that partition's date (rolling window)
     
 
-1. First, **copy and paste** this below query:
+1.  First, **copy and paste** this below query:
     
 
 ```apache
@@ -342,22 +342,22 @@ Your goal is to create a table that:
 
 **Note:** Although a LIMIT 10 was added, this still does not reduce the total amount of data scanned (about 1.83 GB) since there are no partitions yet.
 
-2. Click **Run**.
+2.  Click **Run**.
     
-3. Confirm the date is properly formatted and the precipitation field is showing non-zero values.
+3.  Confirm the date is properly formatted and the precipitation field is showing non-zero values.
     
 
 ## **Task 5. Your turn: create a partitioned table**
 
-* Modify the previous query to create a table with the below specifications:
+*   Modify the previous query to create a table with the below specifications:
     
-    * Table name: ecommerce.days\_with\_rain
+    *   Table name: ecommerce.days\_with\_rain
         
-    * Use the date field as your PARTITION BY
+    *   Use the date field as your PARTITION BY
         
-    * For OPTIONS, specify partition\_expiration\_days = 60
+    *   For OPTIONS, specify partition\_expiration\_days = 60
         
-    * Add the table description = "weather stations with precipitation, partitioned by day"
+    *   Add the table description = "weather stations with precipitation, partitioned by day"
         
 
 Your query should look like this:
@@ -395,7 +395,7 @@ To confirm you are only storing data from 60 days in the past up until today, ru
 
 Below is a query which tracks the average rainfall for the NOAA weather station in [Wakayama, Japan](https://en.wikipedia.org/wiki/Wakayama,_Wakayama#Climate) which has significant precipitation.
 
-* Add this query and run it:
+*   Add this query and run it:
     
 
 ```apache
@@ -418,7 +418,7 @@ ORDER BY date DESC; # most recent days first
 
 Update the ORDER BY clause to show the oldest partitions first.
 
-* Add this query and run it:
+*   Add this query and run it:
     
 
 ```apache
@@ -440,13 +440,20 @@ ORDER BY partition_age DESC
 
 **Note:** Your results will vary if you re-run the query in the future, as the weather data, and your partitions, are continuously updated.
 
----
+* * *
 
 ## Solution of Lab
 
 %[https://www.youtube.com/watch?v=KixZOHJefyw] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP414/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Creating%20Date%20Partitioned%20Tables%20in%20BigQuery/quicklabgsp414.sh
 sudo chmod +x quicklabgsp414.sh
 ./quicklabgsp414.sh
