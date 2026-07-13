@@ -821,9 +821,11 @@ Click *Check my progress* to verify the objective.
 
 * * *
 
-### **Solution of Lab**
+## **Solution of Lab**
 
-%[https://www.youtube.com/watch?v=IZUwzQo5tRI] 
+### Quick
+
+%[https://www.youtube.com/watch?v=tadYxz-iO7k] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP416/lab.sh
@@ -833,7 +835,13 @@ source lab.sh
 **Script Alternative**
 
 ```plaintext
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Working%20with%20JSON%20Arrays%20and%20Structs%20in%20BigQuery/quicklabgsp416.sh
-sudo chmod +x quicklabgsp416.sh
-./quicklabgsp416.sh
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Working%20with%20JSON%2C%20Arrays%2C%20and%20Structs%20in%20BigQuery/gsp416.sh
+sudo chmod +x gsp416.sh
+./gsp416.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=fX6Ikc53e6Y]
