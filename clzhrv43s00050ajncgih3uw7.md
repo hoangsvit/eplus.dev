@@ -5,8 +5,8 @@ seoDescription: "BigQuery is Google's fully managed, NoOps, low cost analytics d
 datePublished: 2024-08-06T01:59:14.056Z
 cuid: clzhrv43s00050ajncgih3uw7
 slug: working-with-json-arrays-and-structs-in-bigquery-gsp416
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722909511755/657ac802-cdf6-4c48-af8e-64b3bafffb26.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1722909536132/c6e5aff5-b017-4ef9-b61d-9496fed2f3eb.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1cf3d28a-bb63-4def-962d-666a19058222.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/d527ba16-1a03-4e7c-8cec-b50588adc2bc.png
 tags: working-with-json-arrays-and-structs-in-bigquery-gsp416
 
 ---
@@ -19,14 +19,14 @@ In this lab, you work in-depth with semi-structured data (ingesting JSON, Array 
 
 ### **Task 1. Create a new dataset to store the tables**
 
-1. In your BigQuery, click the three dots next to your Project ID and select **Create dataset**:
+1.  In your BigQuery, click the three dots next to your Project ID and select **Create dataset**:
     
 
 ![Create dataset option highlighted](https://cdn.qwiklabs.com/awMyd4%2BGXwp9scoUf57V5uJIczBhRaMzy%2FrOi0EhtxE%3D align="left")
 
-2. Name the new dataset `fruit_store`. Leave the other options at their default values (Data Location, Default Expiration).
+2.  Name the new dataset `fruit_store`. Leave the other options at their default values (Data Location, Default Expiration).
     
-3. Click **Create dataset**.
+3.  Click **Create dataset**.
     
 
 **Task 2. Practice working with arrays in SQL**
@@ -64,19 +64,19 @@ Now, you're going to learn a different approach that stores data at different le
 | **Row** | **Fruit (array)** | **Person** |
 | --- | --- | --- |
 | 1 | raspberry | sally |
-| blackberry |  |
-| strawberry |  |
-| cherry |  |
+| blackberry |  |  |
+| strawberry |  |  |
+| cherry |  |  |
 | 2 | orange | frederick |
-| apple |  |
+| apple |  |  |
 
 What looks strange about the previous table?
 
-* It's only two rows.
+*   It's only two rows.
     
-* There are multiple field values for Fruit in a single row.
+*   There are multiple field values for Fruit in a single row.
     
-* The people are associated with all of the field values.
+*   The people are associated with all of the field values.
     
 
 What the key insight? The `array` data type!
@@ -90,14 +90,14 @@ An easier way to interpret the Fruit array:
 
 Both of these tables are exactly the same. There are two key learnings here:
 
-* An array is simply a list of items in brackets \[ \]
+*   An array is simply a list of items in brackets \[ \]
     
-* BigQuery visually displays arrays as *flattened*. It simply lists the value in the array vertically (note that all of those values still belong to a single row)
+*   BigQuery visually displays arrays as *flattened*. It simply lists the value in the array vertically (note that all of those values still belong to a single row)
     
 
 Try it yourself.
 
-1. Enter the following in the BigQuery Query Editor:
+1.  Enter the following in the BigQuery Query Editor:
     
 
 ```sql
@@ -105,9 +105,9 @@ Try it yourself.
 SELECT ['raspberry', 'blackberry', 'strawberry', 'cherry'] AS fruit_array
 ```
 
-2. Click **Run**.
+2.  Click **Run**.
     
-3. Now try executing this one:
+3.  Now try executing this one:
     
 
 ```sql
@@ -125,7 +125,7 @@ Why did you get this error?Data in an array must only be stringsData in an array
 
 Arrays can only share one data type (all strings, all numbers).
 
-4. Here's the final table to query against:
+4.  Here's the final table to query against:
     
 
 ```sql
@@ -133,9 +133,9 @@ Arrays can only share one data type (all strings, all numbers).
 SELECT person, fruit_array, total_cost FROM `data-to-insights.advanced.fruit_store`;
 ```
 
-5. Click **Run**.
+5.  Click **Run**.
     
-6. After viewing the results, click the **JSON** tab to view the nested structure of the results.
+6.  After viewing the results, click the **JSON** tab to view the nested structure of the results.
     
 
 ![results on the JSON tabbed page](https://cdn.qwiklabs.com/V0j%2FsiBB1RlvfpG6x%2Bl9P6xn5YaSKjcRwasQde5WRTs%3D align="left")
@@ -146,39 +146,39 @@ What if you had a JSON file that you needed to ingest into BigQuery?
 
 Create a new table `fruit_details` in the dataset.
 
-1. Click on `fruit_store` dataset.
+1.  Click on `fruit_store` dataset.
     
 
 Now you will see the **Create Table** option.
 
 **Note:** You may have to widen your browser window to see the Create table option.
 
-2. Add the following details for the table:
+2.  Add the following details for the table:
     
 
-* **Source**: Choose **Google Cloud Storage** in the **Create table from** dropdown.
+*   **Source**: Choose **Google Cloud Storage** in the **Create table from** dropdown.
     
-* **Select file from Cloud Storage bucket**: `data-insights-course/labs/optimizing-for-performance/shopping_cart.json`
+*   **Select file from Cloud Storage bucket**: `data-insights-course/labs/optimizing-for-performance/shopping_cart.json`
     
-* **File format**: JSONL (Newline delimited JSON)
+*   **File format**: JSONL (Newline delimited JSON)
     
 
-3. Call the new table `fruit_details`.
+3.  Call the new table `fruit_details`.
     
-4. Check the checkbox of **Schema (Auto detect)**.
+4.  Check the checkbox of **Schema (Auto detect)**.
     
-5. Click **Create table**.
+5.  Click **Create table**.
     
 
 In the schema, note that `fruit_array` is marked as REPEATED which means it's an array.
 
 **Recap**
 
-* BigQuery natively supports arrays
+*   BigQuery natively supports arrays
     
-* Array values must share a data type
+*   Array values must share a data type
     
-* Arrays are called REPEATED fields in BigQuery
+*   Arrays are called REPEATED fields in BigQuery
     
 
 Click *Check my progress* to verify the objective.
@@ -191,7 +191,7 @@ Create a new dataset and table to store our data
 
 Don't have arrays in your tables already? You can create them!
 
-1. **Copy and paste** the below query to explore this public dataset:
+1.  **Copy and paste** the below query to explore this public dataset:
     
 
 ```sql
@@ -205,7 +205,7 @@ WHERE visitId = 1501570398
 ORDER BY date
 ```
 
-2. Click **Run** and view the results.
+2.  Click **Run** and view the results.
     
 
 How many rows are returned?702100111
@@ -214,7 +214,7 @@ How many rows are returned?702100111
 
 Now, use the `ARRAY_AGG()` function to aggregate our string values into an array.
 
-3. **Copy and paste** the below query to explore this public dataset:
+3.  **Copy and paste** the below query to explore this public dataset:
     
 
 ```sql
@@ -229,14 +229,14 @@ GROUP BY fullVisitorId, date
 ORDER BY date
 ```
 
-4. Click **Run** and view the results
+4.  Click **Run** and view the results
     
 
 How many rows are returned?2 - one for each day63 - one for each day100 - one for each day70 - one for each day
 
 **Submit**
 
-5. Next, use the `ARRAY_LENGTH()` function to count the number of pages and products that were viewed:
+5.  Next, use the `ARRAY_LENGTH()` function to count the number of pages and products that were viewed:
     
 
 ```sql
@@ -257,7 +257,7 @@ How many pages were visited by this user on 20170801?701011098
 
 **Submit**
 
-6. Next, deduplicate the pages and products so you can see how many unique products were viewed by adding `DISTINCT` to `ARRAY_AGG()`:
+6.  Next, deduplicate the pages and products so you can see how many unique products were viewed by adding `DISTINCT` to `ARRAY_AGG()`:
     
 
 ```sql
@@ -288,20 +288,20 @@ Execute the query to see how many unique products were viewed
 
 You can do some pretty useful things with arrays like:
 
-* finding the number of elements with `ARRAY_LENGTH(<array>)`
+*   finding the number of elements with `ARRAY_LENGTH(<array>)`
     
-* deduplicating elements with `ARRAY_AGG(DISTINCT <field>)`
+*   deduplicating elements with `ARRAY_AGG(DISTINCT <field>)`
     
-* ordering elements with `ARRAY_AGG(<field> ORDER BY <field>)`
+*   ordering elements with `ARRAY_AGG(<field> ORDER BY <field>)`
     
-* limiting `ARRAY_AGG(<field> LIMIT 5)`
+*   limiting `ARRAY_AGG(<field> LIMIT 5)`
     
 
 ### **Task 4. Query tables containing arrays**
 
 The BigQuery Public Dataset for Google Analytics `bigquery-public-data.google_analytics_sample` has many more fields and rows than our course dataset `data-to-insights.ecommerce.all_sessions`. More importantly, it already stores field values like products, pages, and transactions natively as ARRAYs.
 
-1. **Copy and paste** the below query to explore the available data and see if you can find fields with repeated values (arrays):
+1.  **Copy and paste** the below query to explore the available data and see if you can find fields with repeated values (arrays):
     
 
 ```sql
@@ -311,9 +311,9 @@ FROM `bigquery-public-data.google_analytics_sample.ga_sessions_20170801`
 WHERE visitId = 1501570398
 ```
 
-2. **Run** the query.
+2.  **Run** the query.
     
-3. **Scroll right** in the results until you see the `hits.product.v2ProductName` field (multiple field aliases are discussed shortly).
+3.  **Scroll right** in the results until you see the `hits.product.v2ProductName` field (multiple field aliases are discussed shortly).
     
 
 You'll note a lot of seemingly 'blank' values in the results as you scroll. Why do you think that is?BigQuery is still loading the data for those fieldsThe fields that appear to be missing data are actually at a higher level of granularity than other fieldsThe dataset is missing data values for those fields
@@ -322,7 +322,7 @@ You'll note a lot of seemingly 'blank' values in the results as you scroll. Why 
 
 The amount of fields available in the Google Analytics schema can be overwhelming for analysis.
 
-4. Try to query just the visit and page name fields like before:
+4.  Try to query just the visit and page name fields like before:
     
 
 ```sql
@@ -365,9 +365,9 @@ LIMIT 10
 
 We'll cover UNNEST() more in detail later but for now just know that:
 
-* You need to UNNEST() arrays to bring the array elements back into rows
+*   You need to UNNEST() arrays to bring the array elements back into rows
     
-* UNNEST() always follows the table name in your FROM clause (think of it conceptually like a pre-joined table)
+*   UNNEST() always follows the table name in your FROM clause (think of it conceptually like a pre-joined table)
     
 
 Click *Check my progress* to verify the objective.
@@ -384,31 +384,31 @@ The easiest way to think about a STRUCT is to consider it conceptually like a se
 
 A STRUCT can have:
 
-* One or many fields in it
+*   One or many fields in it
     
-* The same or different data types for each field
+*   The same or different data types for each field
     
-* It's own alias
+*   It's own alias
     
 
 Sounds just like a table right?
 
 **Explore a dataset with STRUCTs**
 
-1. To open the **bigquery-public-data** dataset, click **+ADD** and then select **Star a project by name** and enter the name `bigquery-public-data`
+1.  To open the **bigquery-public-data** dataset, click **+ADD** and then select **Star a project by name** and enter the name `bigquery-public-data`
     
-2. Click **Star**.
+2.  Click **Star**.
     
 
 The `bigquery-public-data` project is listed in the Explorer section.
 
-3. Open **bigquery-public-data**.
+3.  Open **bigquery-public-data**.
     
-4. Find and open **google\_analytics\_sample** dataset.
+4.  Find and open **google\_analytics\_sample** dataset.
     
-5. Click the *ga\_sessions(366)*\_ table.
+5.  Click the *ga\_sessions(366)*\_ table.
     
-6. Start scrolling through the schema and answer the following question by using the find feature of your browser.
+6.  Start scrolling through the schema and answer the following question by using the find feature of your browser.
     
 
 In a BigQuery schema, a STRUCT field is noted as a RECORD Type. Search for RECORD in the Google Analytics schema. How many STRUCTs are present in this dataset?151132
@@ -445,11 +445,11 @@ LIMIT 10
 
 Storing your large reporting tables as STRUCTs (pre-joined "tables") and ARRAYs (deep granularity) allows you to:
 
-* Gain significant performance advantages by avoiding 32 table JOINs
+*   Gain significant performance advantages by avoiding 32 table JOINs
     
-* Get granular data from ARRAYs when you need it but not be punished if you don't (BigQuery stores each column individually on disk)
+*   Get granular data from ARRAYs when you need it but not be punished if you don't (BigQuery stores each column individually on disk)
     
-* Have all the business context in one table as opposed to worrying about JOIN keys and which tables have the data you need
+*   Have all the business context in one table as opposed to worrying about JOIN keys and which tables have the data you need
     
 
 ### **Task 6. Practice with STRUCTs and arrays**
@@ -458,7 +458,7 @@ The next dataset will be lap times of runners around the track. Each lap will be
 
 ![Runners on a running track](https://cdn.qwiklabs.com/7SKxQcYHcPl4LFyErCHfGcASWgeQSpH%2FHbtJcGyfAEY%3D align="left")
 
-1. With this query, try out the STRUCT syntax and note the different field types within the struct container:
+1.  With this query, try out the STRUCT syntax and note the different field types within the struct container:
     
 
 ```sql
@@ -480,7 +480,7 @@ How could you have multiple split times within a single record? Hint: the splits
 
 With an array of course!
 
-2. Run the below query to confirm:
+2.  Run the below query to confirm:
     
 
 ```css
@@ -491,33 +491,33 @@ SELECT STRUCT("Rudisha" as name, [23.4, 26.3, 26.4, 26.1] as splits) AS runner
 | **Row** | **runner.name** | **runner.splits** |
 | --- | --- | --- |
 | 1 | Rudisha | 23.4 |
-| 26.3 |
-| 26.4 |
-| 26.1 |
+| 26.3 |  |  |
+| 26.4 |  |  |
+| 26.1 |  |  |
 
 To recap:
 
-* Structs are containers that can have multiple field names and data types nested inside.
+*   Structs are containers that can have multiple field names and data types nested inside.
     
-* Arrays can be one of the field types inside of a Struct (as shown above with the splits field).
+*   Arrays can be one of the field types inside of a Struct (as shown above with the splits field).
     
 
 **Practice ingesting JSON data**
 
-1. Create a new dataset titled `racing`.
+1.  Create a new dataset titled `racing`.
     
-2. Click on `racing` dataset and click Create table.
+2.  Click on `racing` dataset and click Create table.
     
 
 **Note**: You may have to widen your browser window to see the Create table option.
 
-* **Source**: select **Google Cloud Storage** under **Create table from** dropdown.
+*   **Source**: select **Google Cloud Storage** under **Create table from** dropdown.
     
-* **Select file from Cloud Storage bucket**: `data-insights-course/labs/optimizing-for-performance/race_results.json`
+*   **Select file from Cloud Storage bucket**: `data-insights-course/labs/optimizing-for-performance/race_results.json`
     
-* **File format**: JSONL (Newline delimited JSON)
+*   **File format**: JSONL (Newline delimited JSON)
     
-* In **Schema**, click on **Edit as text** slider and add the following:
+*   In **Schema**, click on **Edit as text** slider and add the following:
     
 
 ```json
@@ -547,11 +547,11 @@ To recap:
 ]
 ```
 
-3. Call the new table `race_results`.
+3.  Call the new table `race_results`.
     
-4. Click **Create table**.
+4.  Click **Create table**.
     
-5. After the load job is successful, preview the schema for the newly created table:
+5.  After the load job is successful, preview the schema for the newly created table:
     
 
 ![race_results Schema tabbed page](https://cdn.qwiklabs.com/uS4tIn1NVXc08s%2FVZXp4nll64cbAlYrnAmx6MlMyt1w%3D align="left")
@@ -572,7 +572,7 @@ Create a dataset and a table to ingest JSON data
 
 ### Practice querying nested and repeated fields
 
-1. Let's see all of our racers for the 800 Meter race:
+1.  Let's see all of our racers for the 800 Meter race:
     
 
 ```sql
@@ -588,7 +588,7 @@ How many rows were returned?
 
 What if you wanted to list the name of each runner and the type of race?
 
-2. Run the below schema and see what happens:
+2.  Run the below schema and see what happens:
     
 
 ```sql
@@ -622,7 +622,7 @@ Can you think of what two word SQL command you would use to correlate the 800M r
 
 Great!
 
-3. Now try running this:
+3.  Now try running this:
     
 
 ```sql
@@ -637,7 +637,7 @@ participants  # this is the STRUCT (it is like a table within a table)
 
 Even though the participants STRUCT is like a table, it is still technically a field in the `racing.race_results` table.
 
-4. Add the dataset name to the query:
+4.  Add the dataset name to the query:
     
 
 ```sql
@@ -648,7 +648,7 @@ CROSS JOIN
 race_results.participants # full STRUCT name
 ```
 
-5. And click **Run**.
+5.  And click **Run**.
     
 
 Wow! You've successfully listed all of the racers for each race!
@@ -664,12 +664,12 @@ Wow! You've successfully listed all of the racers for each race!
 | 7 | 800M | Kipketer |
 | 8 | 800M | Berian |
 
-6. You can simplify the last query by:
+6.  You can simplify the last query by:
     
 
-* Adding an alias for the original table
+*   Adding an alias for the original table
     
-* Replacing the words "CROSS JOIN" with a comma (a comma implicitly cross joins)
+*   Replacing the words "CROSS JOIN" with a comma (a comma implicitly cross joins)
     
 
 This will give you the same query result:
@@ -686,11 +686,11 @@ If you have more than one race type (800M, 100M, 200M), wouldn't a CROSS JOIN ju
 
 Recap of STRUCTs:
 
-* A SQL [STRUCT](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#struct-type) is simply a container of other data fields which can be of different data types. The word struct means data structure. Recall the example from earlier: `STRUCT(``"Rudisha" as name, [23.4, 26.3, 26.4, 26.1] as splits``)`` AS runner`
+*   A SQL [STRUCT](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types#struct-type) is simply a container of other data fields which can be of different data types. The word struct means data structure. Recall the example from earlier: `STRUCT(``"Rudisha" as name, [23.4, 26.3, 26.4, 26.1] as splits``)`` AS runner`
     
-* STRUCTs are given an alias (like runner above) and can conceptually be thought of as a table inside of your main table.
+*   STRUCTs are given an alias (like runner above) and can conceptually be thought of as a table inside of your main table.
     
-* STRUCTs (and ARRAYs) must be unpacked before you can operate over their elements. Wrap an UNNEST() around the name of the struct itself or the struct field that is an array in order to unpack and flatten it.
+*   STRUCTs (and ARRAYs) must be unpacked before you can operate over their elements. Wrap an UNNEST() around the name of the struct itself or the struct field that is an array in order to unpack and flatten it.
     
 
 ### **Task 7. Lab question: STRUCT()**
@@ -699,7 +699,7 @@ Answer the below questions using the `racing.race_results` table you created pre
 
 **Task:** Write a query to COUNT how many racers were there in total.
 
-* To start, use the below partially written query:
+*   To start, use the below partially written query:
     
 
 ```sql
@@ -734,7 +734,7 @@ Execute the query to COUNT how many racers were there in total
 
 Write a query that will list the total race time for racers whose names begin with R. Order the results with the fastest total time first. Use the UNNEST() operator and start with the partially written query below.
 
-* Complete the query:
+*   Complete the query:
     
 
 ```sql
@@ -751,9 +751,9 @@ ORDER BY
 
 **Note:**
 
-* You will need to unpack both the struct and the array within the struct as data sources after your FROM clause.
+*   You will need to unpack both the struct and the array within the struct as data sources after your FROM clause.
     
-* Be sure to use aliases where appropriate.
+*   Be sure to use aliases where appropriate.
     
 
 Possible solution:
@@ -786,7 +786,7 @@ Execute the query that will list the total race time for racers whose names begi
 
 You happened to see that the fastest lap time recorded for the 800 M race was 23.2 seconds, but you did not see which runner ran that particular lap. Create a query that returns that result.
 
-* Complete the partially written query:
+*   Complete the partially written query:
     
 
 ```sql
@@ -819,13 +819,20 @@ WHERE split_time = 23.2;
 
 Click *Check my progress* to verify the objective.
 
----
+* * *
 
 ### **Solution of Lab**
 
 %[https://www.youtube.com/watch?v=IZUwzQo5tRI] 
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP416/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Working%20with%20JSON%20Arrays%20and%20Structs%20in%20BigQuery/quicklabgsp416.sh
 sudo chmod +x quicklabgsp416.sh
 ./quicklabgsp416.sh
