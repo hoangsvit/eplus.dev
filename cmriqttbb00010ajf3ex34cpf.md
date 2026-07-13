@@ -319,6 +319,21 @@ Delete lake **sensors** and nested resources
 
 ### Quick
 
+%[https://www.youtube.com/watch?v=RnTSZ7gavHQ] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1143/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Dataplex%3A%20Qwik%20Start%20-%20Console/techcps1143.sh
+sudo chmod +x techcps1143.sh
+./techcps1143.sh
+```
+
 * * *
 
 ### Manual
