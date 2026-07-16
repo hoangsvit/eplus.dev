@@ -718,7 +718,7 @@ Click **Check my progress** for **Manage Google Meet features by an OU**.
 
 ### 6\. Create the History Class
 
-1.  Open **Google Classroom**.
+1.  Open [**Google Classroom**](https://classroom.google.com/).
     
 2.  Select **Switch account → Use another account**.
     
