@@ -676,9 +676,7 @@ Click **Check my progress** for **Add users**.
 
 Go to:
 
-```text
-Admin Console → Apps → Google Workspace
-```
+[Admin Console → Apps → Google Workspace → **Google Meet**](https://admin.google.com/ac/managedsettings/725740718362?)
 
 Find **Google Meet** and confirm that its status is:
 
@@ -698,6 +696,8 @@ If it is disabled:
     
 
 This section has no separate progress check, but Meet must be enabled before the teacher can generate a Meet link.
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/d258e377-978f-4f9f-95ec-e39f7e4519ca.png align="center")
 
 ### 5\. Disable Recording for Students
 
