@@ -165,7 +165,7 @@ In this section, you create a small role-oriented structure with the top-level O
     
     ![directory icon](https://cdn.qwiklabs.com/qL01xZ0uK32Oaae%2FqUoI%2FXrhIKTmaEDA65n54gdTl2M%3D align="left")
     
-    &gt; **Organizational units**. The **Organizational units** window opens and shows one organization unit: the Google Workspace Labs.
+    \> **Organizational units**. The **Organizational units** window opens and shows one organization unit: the Google Workspace Labs.
     
 2.  Hover over the Google Workspace Labs OU, and then click the plus sign to the right to create a new OU. Alternatively, click the plus sign in the yellow circle to create a new OU.
     
@@ -360,7 +360,7 @@ A user must have added a recovery phone number or email address to their account
     
     ![security icon](https://cdn.qwiklabs.com/iIonwE%2BnrrpfmFRPQ%2BC%2B3GdeSbj4uo49uK6cLgtW5Ac%3D align="left")
     
-    &gt; **Overview**. You may need to click **Show more** to see the **Security** option.
+    \> **Overview**. You may need to click **Show more** to see the **Security** option.
     
 2.  Click the **Account Recovery** card.
     
@@ -447,3 +447,176 @@ Submit
 %[https://www.youtube.com/watch?v=SsSIjOrbfLY] 
 
 **Download file**: [<mark class="bg-yellow-200 dark:bg-yellow-500/30">techcps978.csv</mark>](https://github.com/Techcps/GSP-Short-Trick/blob/main/techcps978.csv)
+
+**Google Workspace Organizational Structure — Quick Lab Solution**
+
+This guide includes only the tasks required by **Check my progress**.
+
+> Use an Incognito or private browser window and sign in only with the temporary lab credentials.
+
+**Prerequisite: Verify the Workspace Domain**
+
+1.  Click **Start Lab** and open **Google Workspace Admin Console**.
+    
+2.  Sign in with the lab-provided **User Email** and **Password**.
+    
+3.  Accept the Terms of Service and click **Get set up**.
+    
+4.  Right-click **Verify** or **Verify domain**, then select **Open link in new tab**.
+    
+5.  Click **Get Started → Other verification options**.
+    
+6.  Select **Other** as the domain host, then click **Continue**.
+    
+7.  Select **Come back here and confirm once you have updated the code on your domain host**.
+    
+8.  Click **Confirm** and wait for **Your domain is verified!**
+    
+9.  Close the verification tab and refresh the Admin Console.
+    
+
+> Do not click **Activate Gmail**.
+
+### Task 1: Create Organizational Units
+
+Go to:
+
+```text
+Admin Console → Directory → Organizational units
+```
+
+**Create Teachers and Students**
+
+Create these two organizational units directly under **Google Workspace Labs**:
+
+*   `Teachers`
+    
+*   `Students`
+    
+
+**Create and Move History**
+
+The progress checker expects `History` to be created under `Teachers` and then moved to `Students`.
+
+1.  Hover over **Teachers** and click the `+` icon.
+    
+2.  Create an organizational unit named:
+    
+    ```text
+    History
+    ```
+    
+3.  Hover over **History** and click the move arrow.
+    
+4.  Select **Students**.
+    
+5.  Click **Continue → Move**.
+    
+
+The final organizational structure must be:
+
+```text
+Google Workspace Labs
+├── Teachers
+└── Students
+    └── History
+```
+
+Click **Check my progress** for **Create organizational units**.
+
+### Task 2: Add Users
+
+The fastest method is to import users from a CSV file.
+
+**Get the Workspace Domain**
+
+Copy the part after `@` in the Admin email address.
+
+For example:
+
+```text
+Admin email: admin@goog-test.example.qwiklabs-gsuite.net
+Domain:      goog-test.example.qwiklabs-gsuite.net
+```
+
+**Download the CSV Template**
+
+Go to:
+
+```text
+Admin Console → Directory → Users → Bulk update users
+```
+
+1.  Click **Download blank CSV template**.
+    
+2.  Open the downloaded template in Excel or Google Sheets.
+    
+3.  Keep all original column headers.
+    
+4.  Add the following users to the matching columns:
+    
+
+| First Name | Last Name | Email Address | Password | Org Unit Path |
+| --- | --- | --- | --- | --- |
+| Alex | Miller | `alex@YOUR-LAB-DOMAIN` | `Lab@12345678` | `/Teachers` |
+| Maria | Kearns | `maria@YOUR-LAB-DOMAIN` | `Lab@12345678` | `/Students` |
+| John | Smith | `john@YOUR-LAB-DOMAIN` | `Lab@12345678` | `/` |
+| Emma | Wilson | `emma@YOUR-LAB-DOMAIN` | `Lab@12345678` | `/Students/History` |
+
+Replace `YOUR-LAB-DOMAIN` with the domain copied from the Admin email.
+
+Example CSV data:
+
+```csv
+First Name [Required],Last Name [Required],Email Address [Required],Password [Required],Org Unit Path [Required],Change Password at Next Sign-In
+Alex,Miller,alex@YOUR-LAB-DOMAIN,Lab@12345678,/Teachers,FALSE
+Maria,Kearns,maria@YOUR-LAB-DOMAIN,Lab@12345678,/Students,FALSE
+John,Smith,john@YOUR-LAB-DOMAIN,Lab@12345678,/,FALSE
+Emma,Wilson,emma@YOUR-LAB-DOMAIN,Lab@12345678,/Students/History,FALSE
+```
+
+**Upload the Users**
+
+1.  Save the completed spreadsheet as a CSV file.
+    
+2.  Return to **Bulk update users**.
+    
+3.  Click **Attach CSV** and select the file.
+    
+4.  Start the upload.
+    
+5.  Click the **Tasks** icon in the upper-right corner to monitor the import.
+    
+6.  Wait for the import to finish, then refresh **Directory → Users**.
+    
+
+Click **Check my progress** for **Add users**.
+
+> If Google rejects the column headers, use the exact blank template downloaded from the current Admin Console and fill only its existing columns.
+
+### **Task 3: Turn On Password Recovery**
+
+Go to:
+
+```text
+Admin Console → Security → Overview
+```
+
+If **Security** is hidden, click **Show more**.
+
+1.  Open **Account Recovery**.
+    
+2.  Keep the root OU **Google Workspace Labs** selected.
+    
+3.  Open **User account recovery**.
+    
+4.  Enable:
+    
+    ```text
+    Allow users and non-super admins to recover their account
+    ```
+    
+5.  Click **Save**.
+    
+
+Click **Check my progress** for **Turn on password recovery**.
