@@ -638,7 +638,7 @@ Create these two child organizational units directly under the root organization
 
 With only two users, manual creation is normally faster than preparing and processing a CSV import.
 
-Go to: [Admin Console → Directory → Users → Add new user](https://admin.google.com/u/0/ac/users)
+Go to: [Admin Console → Directory → Users → Add new user](https://admin.google.com/ac/user/bulkadd)
 
 Create and assign the users as follows:
 
@@ -664,7 +664,9 @@ For each user:
 
 Click **Check my progress** for **Add users**.
 
-> Alex Miller is the teacher account. Maria Kearns is the student account.
+> Alex Miller is the <mark class="bg-yellow-200 dark:bg-yellow-500/30">teacher </mark> account.
+> 
+> Maria Kearns is the <mark class="bg-yellow-200 dark:bg-yellow-500/30">student </mark> account.
 
 ### 4\. Ensure Google Meet Is Enabled
 
