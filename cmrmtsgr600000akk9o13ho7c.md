@@ -623,7 +623,7 @@ This guide focuses only on the tasks required by **Check my progress**.
 
 ### 2\. Create the Organizational Units
 
-Go to: [Admin Console → Directory → Organizational units](https://admin.google.com/u/0/ac/orgunits?journey=218)
+Go to: [Admin Console → Directory → Organizational units](https://admin.google.com/u/0/ac/orgunits)
 
 Create these two child organizational units directly under the root organization:
 
