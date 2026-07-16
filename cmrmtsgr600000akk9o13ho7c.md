@@ -676,7 +676,7 @@ Click **Check my progress** for **Add users**.
 
 Go to:
 
-[Admin Console → Apps → Google Workspace → **Google Meet**](https://admin.google.com/ac/managedsettings/725740718362?)
+[Admin Console → Apps → Google Workspace → **Google Meet**](https://admin.google.com/ac/managedsettings/725740718362)
 
 Find **Google Meet** and confirm that its status is:
 
