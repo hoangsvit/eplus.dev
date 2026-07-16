@@ -636,8 +636,6 @@ Create these two child organizational units directly under the root organization
 
 ### 3\. Add the Users
 
-**Option A: Add the Users Manually — Recommended**
-
 With only two users, manual creation is normally faster than preparing and processing a CSV import.
 
 Go to: [Admin Console → Directory → Users → Add new user](https://admin.google.com/u/0/ac/users)
@@ -648,6 +646,8 @@ Create and assign the users as follows:
 | --- | --- | --- | --- |
 | Maria | Kearns | `Students` | Student |
 | Alex | Miller | `Teachers` | Teacher |
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/536106ff-4074-4e12-bb3f-ff84f6c56166.png align="center")
 
 For each user:
 
@@ -665,35 +665,6 @@ For each user:
 Click **Check my progress** for **Add users**.
 
 > Alex Miller is the teacher account. Maria Kearns is the student account.
-
-Option B: Import the Users from CSV
-
-Go to:
-
-```text
-Admin Console → Directory → Users → Bulk update users
-```
-
-1.  Download the blank CSV template.
-    
-2.  Keep all original column headers.
-    
-3.  Add these two rows using the matching columns in the downloaded template:
-    
-
-| First Name | Last Name | Email Address | Password | Org Unit Path | Change Password at Next Sign-In |
-| --- | --- | --- | --- | --- | --- |
-| Maria | Kearns | `maria@YOUR-LAB-DOMAIN` | `Lab@12345678` | `/Students` | `TRUE` |
-| Alex | Miller | `alex@YOUR-LAB-DOMAIN` | `Lab@12345678` | `/Teachers` | `TRUE` |
-
-4.  Replace `YOUR-LAB-DOMAIN` with the domain of the lab Admin account.
-    
-5.  Save the file as CSV and upload it through **Bulk update users**.
-    
-6.  Wait for processing to finish, then verify both users under **Directory → Users**.
-    
-
-> Google may change the bulk-upload column names. Always use the template downloaded from the current Admin Console and do not remove unused columns.
 
 ### 4\. Ensure Google Meet Is Enabled
 
