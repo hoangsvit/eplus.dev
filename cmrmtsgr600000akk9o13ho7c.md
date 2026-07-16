@@ -632,7 +632,7 @@ Create these two child organizational units directly under the root organization
 *   `Students`
     
 
-Click **Check my progress** for **Create a structure**.
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/426b3747-0c4e-4a6d-9b20-0944144717eb.png align="center")
 
 ### 3\. Add the Users
 
@@ -640,11 +640,7 @@ Click **Check my progress** for **Create a structure**.
 
 With only two users, manual creation is normally faster than preparing and processing a CSV import.
 
-Go to:
-
-```text
-Admin Console → Directory → Users → Add new user
-```
+Go to: [Admin Console → Directory → Users → Add new user](https://admin.google.com/u/0/ac/users)
 
 Create and assign the users as follows:
 
