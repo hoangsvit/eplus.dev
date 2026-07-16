@@ -699,11 +699,7 @@ This section has no separate progress check, but Meet must be enabled before the
 
 ### 5\. Disable Recording for Students
 
-Go to:
-
-```text
-Admin Console → Apps → Google Workspace → Google Meet → Meet video settings
-```
+Go to: [Admin Console → Apps → Google Workspace → Google Meet → Meet video settings](https://admin.google.com/ac/managedsettings/725740718362/videoSettings)
 
 1.  Select the **Students** OU in the left panel.
     
@@ -715,6 +711,10 @@ Admin Console → Apps → Google Workspace → Google Meet → Meet video setti
     
 
 Click **Check my progress** for **Manage Google Meet features by an OU**.
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a93f72da-ef06-4c90-98d8-4c862b9b0c23.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/42c8463f-afe1-4501-8044-ea8e5bb60844.png align="center")
 
 ### 6\. Create the History Class
 
