@@ -720,15 +720,25 @@ Click **Check my progress** for **Manage Google Meet features by an OU**.
 
 1.  Open [**Google Classroom**](https://classroom.google.com/).
     
-2.  Select **Switch account → Use another account**.
+2.  Select **Switch account → Use another account**.  
     
-3.  Sign in with the **Alex Miller** account from the `Teachers` OU.
+    ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b94ab77c-8547-4430-8197-cf350943264d.png align="center")
     
-4.  Change the temporary password if prompted.
+3.  Sign in with the **Alex Miller** account from the `Teachers` OU.  
     
-5.  When asked to choose a role, select **I'm a teacher**.
+    ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/348494a0-6fc3-49c9-ba1f-b47dd01000b5.png align="center")
     
-6.  Click **Create class**.
+4.  Change the temporary password if prompted.  
+    
+    ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/d9d3a8b7-ce07-497f-98c2-a05ab707206b.png align="center")
+    
+5.  When asked to choose a role, select **I'm a teacher**.  
+    
+    ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/725b9db1-581c-4b0b-b0aa-922749b2b645.png align="center")
+    
+6.  Click **Create class**.  
+    
+    ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/0ef97d35-68f3-4d14-99ed-ecd7caba93b6.png align="center")
     
 7.  Enter the exact class name:
     
@@ -736,11 +746,17 @@ Click **Check my progress** for **Manage Google Meet features by an OU**.
     History
     ```
     
-8.  Click **Create**.
+8.  Click **Create**.  
     
-9.  In the class Meet card, click **Generate link**.
+    ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8e5b2283-c0cb-42b1-a4a0-f51c3dc173b8.png align="center")
     
-10.  Click **Save**.
+9.  In the class Meet card, click **Generate link**.  
+    
+    ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/7f46a973-4e8f-49e1-ae4c-ee0c1b9cadc8.png align="center")
+    
+10.  Click **Save**.  
+     
+     ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/346f57f3-3c81-43ad-9c71-0b2e4094b364.png align="center")
      
 11.  Confirm that the Meet card displays a **Join** button.
      
