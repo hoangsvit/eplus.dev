@@ -668,6 +668,10 @@ Click **Check my progress** for **Add users**.
 > 
 > Maria Kearns is the <mark class="bg-yellow-200 dark:bg-yellow-500/30">student </mark> account.
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/fc13f3e1-7657-4152-b89d-a2f86e4b6b9d.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ba1d9d0f-b8ec-42a0-9c11-da4b710f3291.png align="center")
+
 ### 4\. Ensure Google Meet Is Enabled
 
 Go to:
