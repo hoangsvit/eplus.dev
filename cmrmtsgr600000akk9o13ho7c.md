@@ -579,6 +579,207 @@ In the **End this video call for everyone?** dialog, click **End the call for ev
 
 %[https://www.youtube.com/watch?v=be6SRCCo1Hc] 
 
+**Google Meet for Google Workspace: Quick Lab Guide**
+
+This guide focuses only on the tasks required by **Check my progress**.
+
+> **Important:** Use an Incognito or private browser window and sign in only with the temporary lab credentials.
+
+**Progress Checklist**
+
+| Objective | Required action |
+| --- | --- |
+| Create a structure | Create the `Teachers` and `Students` organizational units |
+| Add users | Add Maria to `Students` and Alex to `Teachers` |
+| Manage Google Meet features by an OU | Disable meeting recording for `Students` |
+| Create a class | Create the `History` class and generate its Meet link |
+
+### 1\. Sign In and Verify the Domain
+
+1.  Click **Start Lab**.
+    
+2.  Click **Open Google Workspace Admin Console**.
+    
+3.  Sign in with the **User Email** and **Password** provided by the lab.
+    
+4.  Accept the Terms of Service and click **Get set up**.
+    
+5.  In the red warning box, right-click **Verify** or **Verify domain**, then select **Open link in new tab**.
+    
+6.  In the new tab, click **Get Started**.
+    
+7.  Select **Other verification options**.
+    
+8.  For **Domain host**, select **Other**, then click **Continue**.
+    
+9.  Select **Come back here and confirm once you have updated the code on your domain host**.
+    
+10.  Click **Confirm** and wait for **Your domain is verified!**
+     
+11.  Close the verification tab and refresh the Admin Console.
+     
+
+> Do not click **Activate Gmail**.
+
+### 2\. Create the Organizational Units
+
+Go to:
+
+```text
+Admin Console → Directory → Organizational units
+```
+
+Create these two child organizational units directly under the root organization:
+
+*   `Teachers`
+    
+*   `Students`
+    
+
+Click **Check my progress** for **Create a structure**.
+
+### 3\. Add the Users
+
+**Option A: Add the Users Manually — Recommended**
+
+With only two users, manual creation is normally faster than preparing and processing a CSV import.
+
+Go to:
+
+```text
+Admin Console → Directory → Users → Add new user
+```
+
+Create and assign the users as follows:
+
+| First name | Last name | Organizational unit | Role |
+| --- | --- | --- | --- |
+| Maria | Kearns | `Students` | Student |
+| Alex | Miller | `Teachers` | Teacher |
+
+For each user:
+
+1.  Enter the first and last name.
+    
+2.  Click **Continue**.
+    
+3.  Save the generated email address and password.
+    
+4.  Open the user and select **More Options → Change organizational unit**.
+    
+5.  Select the required OU, then click **Continue → Change**.
+    
+
+Click **Check my progress** for **Add users**.
+
+> Alex Miller is the teacher account. Maria Kearns is the student account.
+
+Option B: Import the Users from CSV
+
+Go to:
+
+```text
+Admin Console → Directory → Users → Bulk update users
+```
+
+1.  Download the blank CSV template.
+    
+2.  Keep all original column headers.
+    
+3.  Add these two rows using the matching columns in the downloaded template:
+    
+
+| First Name | Last Name | Email Address | Password | Org Unit Path | Change Password at Next Sign-In |
+| --- | --- | --- | --- | --- | --- |
+| Maria | Kearns | `maria@YOUR-LAB-DOMAIN` | `Lab@12345678` | `/Students` | `TRUE` |
+| Alex | Miller | `alex@YOUR-LAB-DOMAIN` | `Lab@12345678` | `/Teachers` | `TRUE` |
+
+4.  Replace `YOUR-LAB-DOMAIN` with the domain of the lab Admin account.
+    
+5.  Save the file as CSV and upload it through **Bulk update users**.
+    
+6.  Wait for processing to finish, then verify both users under **Directory → Users**.
+    
+
+> Google may change the bulk-upload column names. Always use the template downloaded from the current Admin Console and do not remove unused columns.
+
+### 4\. Ensure Google Meet Is Enabled
+
+Go to:
+
+```text
+Admin Console → Apps → Google Workspace
+```
+
+Find **Google Meet** and confirm that its status is:
+
+```text
+ON for everyone
+```
+
+If it is disabled:
+
+1.  Hover over **Google Meet**.
+    
+2.  Open the three-dot menu.
+    
+3.  Select **Turn ON for everyone**.
+    
+4.  Click **Turn On**.
+    
+
+This section has no separate progress check, but Meet must be enabled before the teacher can generate a Meet link.
+
+### 5\. Disable Recording for Students
+
+Go to:
+
+```text
+Admin Console → Apps → Google Workspace → Google Meet → Meet video settings
+```
+
+1.  Select the **Students** OU in the left panel.
+    
+2.  Open the **Recording** setting.
+    
+3.  Clear **Let people record their meetings**.
+    
+4.  Click **Override**.
+    
+
+Click **Check my progress** for **Manage Google Meet features by an OU**.
+
+### 6\. Create the History Class
+
+1.  Open **Google Classroom**.
+    
+2.  Select **Switch account → Use another account**.
+    
+3.  Sign in with the **Alex Miller** account from the `Teachers` OU.
+    
+4.  Change the temporary password if prompted.
+    
+5.  When asked to choose a role, select **I'm a teacher**.
+    
+6.  Click **Create class**.
+    
+7.  Enter the exact class name:
+    
+    ```text
+    History
+    ```
+    
+8.  Click **Create**.
+    
+9.  In the class Meet card, click **Generate link**.
+    
+10.  Click **Save**.
+     
+11.  Confirm that the Meet card displays a **Join** button.
+     
+
+Click **Check my progress** for **Create a class**.
+
 * * *
 
 ### Alternative Solution
