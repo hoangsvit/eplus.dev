@@ -5,8 +5,8 @@ seoDescription: "Google Workspace for Education is a set of Google apps and serv
 datePublished: 2024-12-10T07:50:43.377Z
 cuid: cm4i5wgq8000009l1dbps5y7k
 slug: google-workspace-for-education-getting-started-gsp978
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733815933157/0fa25f28-0ba2-4c22-9340-a011719d9569.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1733817016854/009367cc-4e69-4269-b497-c77eb513c736.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/d5cbec09-75fd-4dda-acb7-b0696ef2976c.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/ab8fef28-f565-422a-99f2-7bfd9b58c5e4.png
 tags: google-workspace-for-education-getting-started-gsp978, gsp978
 
 ---
@@ -537,11 +537,7 @@ Domain:      goog-test.example.qwiklabs-gsuite.net
 
 **Download the CSV Template**
 
-Go to:
-
-```text
-Admin Console → Directory → Users → Bulk update users
-```
+Go to: [Admin Console → Directory → Users → Bulk update users](https://admin.google.com/ac/users)
 
 1.  Click **Download blank CSV template**.
     
@@ -571,6 +567,8 @@ John,Smith,john@YOUR-LAB-DOMAIN,Lab@12345678,/,FALSE
 Emma,Wilson,emma@YOUR-LAB-DOMAIN,Lab@12345678,/Students/History,FALSE
 ```
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/2a53c246-4fc6-4237-92b0-d6a0839d998f.png align="center")
+
 **Upload the Users**
 
 1.  Save the completed spreadsheet as a CSV file.
@@ -592,11 +590,7 @@ Click **Check my progress** for **Add users**.
 
 ### **Task 3: Turn On Password Recovery**
 
-Go to:
-
-```text
-Admin Console → Security → Overview
-```
+Go to: [Admin Console → Security → Overview](https://admin.google.com/ac/managedsettings/352555445522)
 
 If **Security** is hidden, click **Show more**.
 
@@ -616,3 +610,5 @@ If **Security** is hidden, click **Show more**.
     
 
 Click **Check my progress** for **Turn on password recovery**.
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/f3c1af7a-e82b-4d58-a49f-899167352929.png align="center")
