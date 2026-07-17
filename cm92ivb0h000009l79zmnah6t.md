@@ -405,4 +405,193 @@ Notice the view looks a lot like the student view because you're not yet verifie
 
 **Alternative Solution**
 
-%[https://www.youtube.com/watch?v=hSFgatO5q7Y]
+%[https://www.youtube.com/watch?v=hSFgatO5q7Y] 
+
+* * *
+
+**Google Classroom Administration — Quick Lab Solution**
+
+This guide includes only the tasks required by **Check my progress**.
+
+> Use an Incognito or private browser window and sign in only with the temporary lab credentials.
+
+**Progress Checklist**
+
+| Objective | Required configuration |
+| --- | --- |
+| Assign users and control access | Create `History` and move Maria and Alex into it |
+| Set permissions | Allow only verified teachers to create classes |
+| Secure Google Meet | Allow only users from the organization or phone users |
+| Manage guardian settings | Enable guardian access to Classroom information |
+
+**Prerequisite: Sign In and Verify the Domain**
+
+1.  Click **Start Lab** and open **Google Workspace Admin Console**.
+    
+2.  Sign in with the lab-provided **User Email** and **Password**.
+    
+3.  Accept the Terms of Service and click **Get set up**.
+    
+4.  Right-click **Verify** or **Verify domain**, then select **Open link in new tab**.
+    
+5.  Click **Get Started → Other verification options**.
+    
+6.  Select **Other** as the domain host, then click **Continue**.
+    
+7.  Select **Come back here and confirm once you have updated the code on your domain host**.
+    
+8.  Click **Confirm** and wait for **Your domain is verified!**
+    
+9.  Close the verification tab and refresh the Admin Console.
+    
+
+> Do not click **Activate Gmail**.
+
+### Task 1: Assign Users and Control Access
+
+**Create the Required Users**
+
+Go to:
+
+```text
+Admin Console → Directory → Users → Add new user
+```
+
+Create these two users:
+
+| First name | Last name | Primary email prefix |
+| --- | --- | --- |
+| Maria | Kearns | `maria.kearns` |
+| Alex | Miller | `alex.miller` |
+
+After creating them, refresh the Users page if they do not appear immediately.
+
+> Saving the generated passwords is unnecessary when completing only the progress checks.
+
+**Create the History OU**
+
+Go to:
+
+```text
+Admin Console → Directory → Organizational units
+```
+
+1.  Click **Create organizational unit**.
+    
+2.  Enter the exact name:
+    
+    ```text
+    History
+    ```
+    
+3.  Create it directly under **Google Workspace Labs**.
+    
+4.  Click **Create**.
+    
+
+The required structure is:
+
+```text
+Google Workspace Labs
+└── History
+```
+
+**Move the Users to History**
+
+1.  Go to **Directory → Users**.
+    
+2.  Select:
+    
+    *   **Maria Kearns**
+        
+    *   **Alex Miller**
+        
+3.  Do not select **Workspace User**.
+    
+4.  Click **More options → Change organizational unit**.
+    
+5.  Select **History**.
+    
+6.  Click **Continue → Change**.
+    
+
+Click **Check my progress** for **Assign users and control access**.
+
+### Task 2: Set Teacher Permissions
+
+Go to:
+
+```text
+Admin Console → Apps → Additional Google services
+```
+
+1.  Select the **History** OU in the left panel.
+    
+2.  Open **Classroom**.
+    
+3.  Open **General settings**.
+    
+4.  Open **Teacher permissions**.
+    
+5.  Select:
+    
+    ```text
+    Verified teachers only
+    ```
+    
+6.  Click **Save**.
+    
+
+Click **Check my progress** for **Set permissions for Teachers to create and manage classes**.
+
+> Teacher verification and Groups for Business are not required for this progress check.
+
+### Task 3: Secure Google Meet
+
+Go to:
+
+```text
+Admin Console → Apps → Google Workspace → Google Meet
+```
+
+1.  Confirm that **Service status** is **ON for everyone**.
+    
+2.  If it is disabled, select **On for everyone** and click **Save**.
+    
+3.  Open **Meet safety settings**.
+    
+4.  Expand **Domain**.
+    
+5.  Select:
+    
+    ```text
+    Only users from your organization or users dialing in using a phone
+    ```
+    
+6.  Click **Save**.
+    
+
+Click **Check my progress** for **Set up Google Meet to allow teachers to host more secure video meetings**.
+
+### Task 4: Enable Guardian Access
+
+Go to:
+
+```text
+Admin Console → Apps → Additional Google services → Classroom
+```
+
+1.  Open **General settings**.
+    
+2.  Open **Guardian access**.
+    
+3.  Enable:
+    
+    ```text
+    Allow parents and guardians to access Classroom information
+    ```
+    
+4.  Click **Save**.
+    
+
+Click **Check my progress** for **Enable guardian settings to allow guardians to track their student's progress**.
