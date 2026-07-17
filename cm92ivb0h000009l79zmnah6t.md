@@ -513,13 +513,11 @@ Google Workspace Labs
 
 Click **Check my progress** for **Assign users and control access**.
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/41472889-3b55-421b-b8e4-5b7f23fe5db8.png align="center")
+
 ### Task 2: Set Teacher Permissions
 
-Go to:
-
-```text
-Admin Console → Apps → Additional Google services
-```
+Go to: [Admin Console → Apps → Additional Google services](https://admin.google.com/ac/appslist/additional)
 
 1.  Select the **History** OU in the left panel.
     
@@ -538,17 +536,15 @@ Admin Console → Apps → Additional Google services
 6.  Click **Save**.
     
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/fcba0db2-c929-4411-89cc-5909224cfc44.png align="center")
+
 Click **Check my progress** for **Set permissions for Teachers to create and manage classes**.
 
 > Teacher verification and Groups for Business are not required for this progress check.
 
 ### Task 3: Secure Google Meet
 
-Go to:
-
-```text
-Admin Console → Apps → Google Workspace → Google Meet
-```
+Go to: [Admin Console → Apps → Google Workspace → Google Meet](https://admin.google.com/ac/managedsettings/725740718362)
 
 1.  Confirm that **Service status** is **ON for everyone**.
     
@@ -567,15 +563,13 @@ Admin Console → Apps → Google Workspace → Google Meet
 6.  Click **Save**.
     
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/bf7b68f4-6822-42c5-94e4-ae2c826633b1.png align="center")
+
 Click **Check my progress** for **Set up Google Meet to allow teachers to host more secure video meetings**.
 
 ### Task 4: Enable Guardian Access
 
-Go to:
-
-```text
-Admin Console → Apps → Additional Google services → Classroom
-```
+Go to: [Admin Console → Apps → Additional Google services → Classroom](https://admin.google.com/ac/managedsettings/397451267717)
 
 1.  Open **General settings**.
     
@@ -589,5 +583,7 @@ Admin Console → Apps → Additional Google services → Classroom
     
 4.  Click **Save**.
     
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1e261a8d-c970-493a-bec4-e7c60dabce9c.png align="center")
 
 Click **Check my progress** for **Enable guardian settings to allow guardians to track their student's progress**.
