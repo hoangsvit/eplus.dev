@@ -446,7 +446,7 @@ Submit
 
 %[https://www.youtube.com/watch?v=grOqw0kQP28] 
 
-**Download file**: [<mark class="bg-yellow-200 dark:bg-yellow-500/30">techcps978.csv</mark>](https://github.com/Techcps/GSP-Short-Trick/blob/main/techcps978.csv)
+* * *
 
 **Google Workspace Organizational Structure — Quick Lab Solution**
 
@@ -568,6 +568,8 @@ Emma,Wilson,emma@YOUR-LAB-DOMAIN,Lab@12345678,/Students/History,FALSE
 ```
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/2a53c246-4fc6-4237-92b0-d6a0839d998f.png align="center")
+
+**Download file**: [<mark class="bg-yellow-200 dark:bg-yellow-500/30">user-import.csv</mark>](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP978/user-import.csv)
 
 **Upload the Users**
 
