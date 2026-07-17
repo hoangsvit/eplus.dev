@@ -511,10 +511,6 @@ The progress checker expects `History` to be created under `Teachers` and then m
 
 The final organizational structure must be:
 
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b5384dee-1ce9-4db9-bbd1-2ced79db3169.png align="center")
-
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/af16ae54-f60a-4815-9976-7f6d63352101.png align="center")
-
 ```text
 Google Workspace Labs
 ├── Teachers
