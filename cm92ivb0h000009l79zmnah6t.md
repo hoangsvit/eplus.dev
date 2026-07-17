@@ -401,4 +401,8 @@ Notice the view looks a lot like the student view because you're not yet verifie
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=dcVxvCprngo]
+%[https://www.youtube.com/watch?v=dcVxvCprngo] 
+
+**Alternative Solution**
+
+%[https://www.youtube.com/watch?v=hSFgatO5q7Y]
