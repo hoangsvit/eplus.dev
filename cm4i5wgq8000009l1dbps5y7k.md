@@ -444,7 +444,7 @@ Submit
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=SsSIjOrbfLY] 
+%[https://www.youtube.com/watch?v=grOqw0kQP28] 
 
 **Download file**: [<mark class="bg-yellow-200 dark:bg-yellow-500/30">techcps978.csv</mark>](https://github.com/Techcps/GSP-Short-Trick/blob/main/techcps978.csv)
 
