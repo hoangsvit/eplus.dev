@@ -479,11 +479,7 @@ This guide includes only the tasks required by **Check my progress**.
 
 ### Task 1: Create Organizational Units
 
-Go to:
-
-```text
-Admin Console → Directory → Organizational units
-```
+Go to: [Admin Console → Directory → Organizational units](https://admin.google.com/u/0/ac/orgunits)
 
 **Create Teachers and Students**
 
