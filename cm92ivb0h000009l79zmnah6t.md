@@ -451,11 +451,7 @@ This guide includes only the tasks required by **Check my progress**.
 
 **Create the Required Users**
 
-Go to:
-
-```text
-Admin Console → Directory → Users → Add new user
-```
+Go to: [Admin Console → Directory → Users → Add new user](https://admin.google.com/u/0/ac/user/bulkadd)
 
 Create these two users:
 
@@ -466,15 +462,13 @@ Create these two users:
 
 After creating them, refresh the Users page if they do not appear immediately.
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/cd15d402-ff86-4a1b-8544-01c673fad66f.png align="center")
+
 > Saving the generated passwords is unnecessary when completing only the progress checks.
 
 **Create the History OU**
 
-Go to:
-
-```text
-Admin Console → Directory → Organizational units
-```
+Go to: [Admin Console → Directory → Organizational units](https://admin.google.com/ac/orgunits)
 
 1.  Click **Create organizational unit**.
     
@@ -495,6 +489,8 @@ The required structure is:
 Google Workspace Labs
 └── History
 ```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/40c773b7-8c49-4cf0-8581-9b6ed1793c7f.png align="center")
 
 **Move the Users to History**
 
