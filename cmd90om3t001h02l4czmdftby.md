@@ -474,7 +474,7 @@ Enter:
 
 1.  Click **Next**.
     
-2.  Set **Access type** to:  
+2.  Set **Access type** to:
     
     ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/31200e6d-ed41-4dea-9ec1-d16d869e25a0.png align="center")
     
@@ -482,7 +482,7 @@ Enter:
     Announcement only
     ```
     
-3.  Leave the other settings at their defaults.  
+3.  Leave the other settings at their defaults.
     
     ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a6f3a300-c4ac-4b92-8d19-f87473a40faf.png align="center")
     
@@ -529,7 +529,7 @@ Enter:
     
 2.  In the **Access settings** table, clear every checkbox in the **Entire Organization** column.
     
-3.  Scroll down and set **Who can join the group** to:  
+3.  Scroll down and set **Who can join the group** to:
     
     ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/2eeb8eb2-dcba-497c-85bb-79ad933bb857.png align="center")
     
@@ -556,11 +556,11 @@ Go to: [Admin Console → Directory → Buildings and resources → Manage resou
 
 1.  In the breadcrumbs, click **Resources → Buildings**.
     
-2.  Click **Add building**.  
+2.  Click **Add building**.
     
     ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/23eb7141-aa3a-4ed3-b529-ce05f12bb39c.png align="center")
     
-    ![]( align="center")
+    ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/aeff1c58-d561-4215-8f18-8273c8444b21.png align="center")
     
 3.  Enter:
     
@@ -574,7 +574,9 @@ Go to: [Admin Console → Directory → Buildings and resources → Manage resou
 4.  Click **Add building**.
     
 
-### Create a Meeting Room
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/621c7070-26b5-4d55-8a45-3a9b7faa1edd.png align="center")
+
+**Create a Meeting Room**
 
 1.  In the breadcrumbs, click **Buildings → Resources**.
     
