@@ -346,6 +346,13 @@ Open the link in another browser tab to copy the *Customer Contacts* app to your
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1de86e49-d0b4-4a53-8f29-fdb01e66a7ea.png align="center")
 
+1.  Copy and paste the link below in a separate browser tab: [A copy of companies](https://docs.google.com/spreadsheets/d/1fsusJTqRwsURG9GpduXVZE8XXfv9vzq5XXI9jBlcq9M/copy).
+    
+2.  Click **Make a copy** to make a copy of the spreadsheet in your Google drive folder.
+    
+3.  At the top left corner of the sheet, click anywhere in the filename and change the name to **companies**.
+    
+
 Download file: [quicklab.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP910/quicklab.xlsx)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723184531498/af9a8984-ad13-4bb3-aeee-4b3cb8a29661.png align="center")
