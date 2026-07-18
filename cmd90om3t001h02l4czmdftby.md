@@ -552,15 +552,15 @@ Click **Check my progress** for **Google Workspace groups**.
 
 **Create a Building**
 
-Go to:
-
-```text
-Admin Console → Directory → Buildings and resources → Manage resources
-```
+Go to: [Admin Console → Directory → Buildings and resources → Manage resources](https://admin.google.com/u/0/ac/calendarresources/resources)
 
 1.  In the breadcrumbs, click **Resources → Buildings**.
     
-2.  Click **Add building**.
+2.  Click **Add building**.  
+    
+    ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/23eb7141-aa3a-4ed3-b529-ce05f12bb39c.png align="center")
+    
+    ![]( align="center")
     
 3.  Enter:
     
