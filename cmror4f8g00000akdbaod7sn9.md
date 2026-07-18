@@ -550,11 +550,7 @@ Prerequisite 1: Verify the Workspace Domain
 
 **Create the Organizational Units**
 
-Go to:
-
-```text
-Admin Console → Directory → Organizational units
-```
+Go to: [Admin Console → Directory → Organizational units](https://admin.google.com/u/0/ac/orgunits)
 
 Create these two organizational units directly under **Google Workspace Labs**:
 
@@ -571,13 +567,11 @@ Google Workspace Labs
 └── Students
 ```
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c13ca6de-8330-4a2e-b30c-293ba472ddf3.png align="center")
+
 **Create Maria Kearns**
 
-Go to:
-
-```text
-Admin Console → Directory → Users → Add new user
-```
+Go to: [Admin Console → Directory → Users → Add new user](https://admin.google.com/u/0/ac/user/bulkadd)
 
 Create the user:
 
@@ -632,7 +626,7 @@ Verify the final assignment:
 
 1.  Click the **Google Apps** icon in the upper-right corner.
     
-2.  Open **Classroom**.
+2.  Open [**Classroom**](https://classroom.google.com/).
     
 3.  Click **Switch account → Use another account**.
     
