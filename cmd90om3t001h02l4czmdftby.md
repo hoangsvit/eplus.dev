@@ -578,9 +578,15 @@ Go to: [Admin Console → Directory → Buildings and resources → Manage resou
 
 **Create a Meeting Room**
 
-1.  In the breadcrumbs, click **Buildings → Resources**.
+1.  In the breadcrumbs, click **Buildings → Resources**.  
     
-2.  Click the yellow `+` button to add a resource.
+    ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b4f11d5f-7cc9-4acd-aeb5-5e8d84e388ae.png align="center")
+    
+    ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/61f10e06-dd46-42c3-ae90-d8ee390f3779.png align="center")
+    
+2.  Click the yellow `+` button to add a resource.  
+    
+    ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/72aeb2e6-03d8-474f-a643-7d9528682cb4.png align="center")
     
 3.  Enter:
     
