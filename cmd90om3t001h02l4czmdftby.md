@@ -513,7 +513,9 @@ Enter:
 
 **Create the Executive Group**
 
-Go to: Admin Console → Directory → Groups → Create group
+Go to: [Admin Console → Directory → Groups → Create group](https://admin.google.com/u/0/ac/groups)
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9429937b-c9fe-4c8b-8c43-0aa5cb00225c.png align="center")
 
 Enter:
 
@@ -527,7 +529,9 @@ Enter:
     
 2.  In the **Access settings** table, clear every checkbox in the **Entire Organization** column.
     
-3.  Scroll down and set **Who can join the group** to:
+3.  Scroll down and set **Who can join the group** to:  
+    
+    ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/2eeb8eb2-dcba-497c-85bb-79ad933bb857.png align="center")
     
     ```text
     Only invited users
@@ -542,9 +546,11 @@ Enter:
 
 Click **Check my progress** for **Google Workspace groups**.
 
-## Task 2: Create and Share a Calendar Resource
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/e322ee4c-2366-4d77-959b-a1371170a3f2.png align="center")
 
-### Create a Building
+### Task 2: Create and Share a Calendar Resource
+
+**Create a Building**
 
 Go to:
 
