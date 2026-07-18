@@ -417,4 +417,259 @@ True or False: A domain alias gives users in your primary domain an email addres
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=IM3AP0df-sM]
+%[https://www.youtube.com/watch?v=IM3AP0df-sM] 
+
+**Google Workspace Groups, Resources, and Domains — Quick Lab Solution**
+
+This guide includes only the tasks required by **Check my progress**.
+
+> Use an Incognito or private browser window and sign in only with the temporary lab credentials.
+
+**Progress Checklist**
+
+| Objective | Required configuration |
+| --- | --- |
+| Google Workspace groups | Create the `Everyone` and `Executive` groups |
+| Use Workspace to share resources | Create a building, room, feature, and Calendar reservation |
+| Add a secondary domain or domain alias | Add an unverified secondary domain |
+
+**Prerequisite: Sign In and Verify the Primary Domain**
+
+1.  Click **Start Lab** and open **Google Workspace Admin Console**.
+    
+2.  Sign in with the lab-provided **User Email** and **Password**.
+    
+3.  Accept the Terms of Service and click **Get set up**.
+    
+4.  Right-click **Verify** or **Verify domain**, then select **Open link in new tab**.
+    
+5.  Click **Get Started → Other verification options**.
+    
+6.  Select **Other** as the domain host, then click **Continue**.
+    
+7.  Select **Come back here and confirm once you have updated the code on your domain host**.
+    
+8.  Click **Confirm** and wait for **Your domain is verified!**
+    
+9.  Close the verification tab and refresh the Admin Console.
+    
+
+> Do not click **Activate Gmail**.
+
+### Task 1: Create Google Workspace Groups
+
+**Create the Everyone Group**
+
+Go to: [Admin Console → Directory → Groups → Create group](https://admin.google.com/u/0/ac/groups)
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/0e5b2fe1-376f-4cb1-9988-01db7f3afe62.png align="center")
+
+Enter:
+
+| Field | Value |
+| --- | --- |
+| Name | `Everyone` |
+| Group email | `everyone` |
+| Group owner | Your lab Admin email address |
+
+1.  Click **Next**.
+    
+2.  Set **Access type** to:  
+    
+    ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/31200e6d-ed41-4dea-9ec1-d16d869e25a0.png align="center")
+    
+    ```text
+    Announcement only
+    ```
+    
+3.  Leave the other settings at their defaults.  
+    
+    ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a6f3a300-c4ac-4b92-8d19-f87473a40faf.png align="center")
+    
+4.  Click **Next → Create group**.
+    
+5.  Under **What you can do next**, click **Add members to Everyone**.
+    
+6.  Click **Add members → Advanced**.
+    
+7.  Enable:
+    
+    ```text
+    Add all current and future users of your organization to this group with All Email setting
+    ```
+    
+8.  Click **Add to group**.
+    
+9.  Confirm that the member list contains:
+    
+    *   **All users in the organization**
+        
+    *   Your Admin account with the **Owner** role
+        
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1e52e760-c4d7-452c-8cf7-b9f3d27fd040.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5cf3c850-ce3a-43e4-a4ef-f914c7148f1a.png align="center")
+
+**Create the Executive Group**
+
+Go to: Admin Console → Directory → Groups → Create group
+
+Enter:
+
+| Field | Value |
+| --- | --- |
+| Name | `Executive` |
+| Group email | `executive` |
+| Group owner | Your lab Admin email address |
+
+1.  Click **Next**.
+    
+2.  In the **Access settings** table, clear every checkbox in the **Entire Organization** column.
+    
+3.  Scroll down and set **Who can join the group** to:
+    
+    ```text
+    Only invited users
+    ```
+    
+4.  Click **Next**.
+    
+5.  Leave the remaining settings at their defaults.
+    
+6.  Click **Create group → Done**.
+    
+
+Click **Check my progress** for **Google Workspace groups**.
+
+## Task 2: Create and Share a Calendar Resource
+
+### Create a Building
+
+Go to:
+
+```text
+Admin Console → Directory → Buildings and resources → Manage resources
+```
+
+1.  In the breadcrumbs, click **Resources → Buildings**.
+    
+2.  Click **Add building**.
+    
+3.  Enter:
+    
+
+| Field | Value |
+| --- | --- |
+| Building ID, if requested | `main-building` |
+| Name | `Main Building` |
+| Floors | `1` |
+
+4.  Click **Add building**.
+    
+
+### Create a Meeting Room
+
+1.  In the breadcrumbs, click **Buildings → Resources**.
+    
+2.  Click the yellow `+` button to add a resource.
+    
+3.  Enter:
+    
+
+| Field | Value |
+| --- | --- |
+| Category | `Meeting space` |
+| Building | `Main Building` |
+| Floor | `1` |
+| Resource name | `Interview Room` |
+| Capacity | `5` |
+
+4.  Click **Add Resource**.
+    
+
+### Create a Resource Feature
+
+1.  From the Resource list, click **Manage resource features** in the upper-right corner.
+    
+2.  Click **Add Feature**.
+    
+3.  Enter:
+    
+
+| Field | Value |
+| --- | --- |
+| Feature name | `Refreshment Station` |
+| Feature type | `Other` |
+
+4.  Click **Save**, then click **Close**.
+    
+
+### Associate the Feature with the Room
+
+1.  Open **Interview Room** from the Resource list.
+    
+2.  Open the **Features** card.
+    
+3.  Click **Search features**.
+    
+4.  Select **Refreshment Station**.
+    
+5.  Click **Save**.
+    
+
+### Reserve the Room in Google Calendar
+
+1.  Open **Google Calendar**.
+    
+2.  Click **Create** and open **More options**.
+    
+3.  Enter any event title and date.
+    
+4.  Open the **Rooms** tab.
+    
+5.  Select **Interview Room** under available rooms.
+    
+6.  Save the event.
+    
+
+> A newly created resource may take a few minutes to appear in Calendar.
+
+Click **Check my progress** for **Use Workspace to share resources**.
+
+## Task 3: Add a Secondary Domain
+
+Go to:
+
+```text
+Admin Console → Domains → Manage domains
+```
+
+1.  Click **Add a domain**.
+    
+2.  Select the option to add a **secondary domain**, not a user alias domain.
+    
+3.  Enter any valid domain that you do not own. For example:
+    
+    ```text
+    eplusdev-workspace-lab-2026.com
+    ```
+    
+4.  Click **Add Domain & Start Verification**.
+    
+5.  Click **Continue** on the TXT verification instructions.
+    
+6.  Do not add any DNS records.
+    
+7.  Click **Verify my domain**.
+    
+8.  After verification fails, click the `X` in the upper-left corner to close the verification page.
+    
+9.  Return to the domain list and confirm that the new domain appears with this status:
+    
+    ```text
+    Verify domain
+    ```
+    
+
+Click **Check my progress** for **Add a secondary domain or a domain alias**.
