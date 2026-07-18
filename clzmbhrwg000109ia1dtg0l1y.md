@@ -340,6 +340,12 @@ Create relationships between tables
 
 %[https://www.youtube.com/watch?v=Y-PTwmPO_is] 
 
+Open the link in another browser tab to copy the *Customer Contacts* app to your AppSheet account: [Customer Contacts app](https://www.appsheet.com/Template/AppDef?appName=Lab1-CustomerContacts-3856613).
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/db3d3347-584d-4fe0-b00c-9cdf25b87338.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1de86e49-d0b4-4a53-8f29-fdb01e66a7ea.png align="center")
+
 Download file: [quicklab.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP910/quicklab.xlsx)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723184531498/af9a8984-ad13-4bb3-aeee-4b3cb8a29661.png align="center")
