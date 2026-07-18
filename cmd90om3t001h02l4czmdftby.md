@@ -602,7 +602,9 @@ Go to: [Admin Console → Directory → Buildings and resources → Manage resou
 4.  Click **Add Resource**.
     
 
-### Create a Resource Feature
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/155e85b2-b02e-4102-a27a-7cd359b178a8.png align="center")
+
+**Create a Resource Feature**
 
 1.  From the Resource list, click **Manage resource features** in the upper-right corner.
     
