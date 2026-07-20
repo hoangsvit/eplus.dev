@@ -21,16 +21,16 @@ In this lab, you learn how to create an organizational unit structure and config
 
 In this lab, you use Google Workspace to do:
 
-* Create three OUs and add users to those OUs.
+*   Create three OUs and add users to those OUs.
     
-* Configure application access based on OUs.
+*   Configure application access based on OUs.
     
-* Configure application settings based on OUs.
+*   Configure application settings based on OUs.
     
 
 ### Prerequisites
 
-* Familiarity with basic Google Workspace terminology
+*   Familiarity with basic Google Workspace terminology
     
 
 ## Setup and requirements
@@ -43,12 +43,12 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
@@ -69,45 +69,45 @@ If your lab requires other resource identifiers or connection-related informatio
 
 #### Sign in to the Admin Console
 
-1. Click **Open Google Workspace Admin Console**.
+1.  Click **Open Google Workspace Admin Console**.
     
 
 ***Tip:*** Open the tabs in separate windows, side-by-side.
 
 **Note:** If you see the **Verify your account** dialog:
 
-* Click **Next**.
+*   Click **Next**.
     
-* Click the prefilled user.
+*   Click the prefilled user.
     
-* Click **Use another account**.
+*   Click **Use another account**.
     
 
-2. On the Sign in page, log in using the **User Email** and **Password** details provided.
+2.  On the Sign in page, log in using the **User Email** and **Password** details provided.
     
-3. When prompted, click **I understand** and **ACCEPT TERMS OF SERVICE** to accept all terms and conditions.
+3.  When prompted, click **I understand** and **ACCEPT TERMS OF SERVICE** to accept all terms and conditions.
     
 
 After a few seconds, the *Admin Console* opens.
 
-4. Right-click **VERIFY DOMAIN** in either the yellow box at the top or the red box in the *Domains* card, and select **Open link in new tab**.
+4.  Right-click **VERIFY DOMAIN** in either the yellow box at the top or the red box in the *Domains* card, and select **Open link in new tab**.
     
     **Note:** To complete this step in a real-life scenario, you'd need to add an actual DNS record.
     
-5. Click the new tab, called **Domain setup**, to complete the Google Workspace domain verification steps.
+5.  Click the new tab, called **Domain setup**, to complete the Google Workspace domain verification steps.
     
-6. On the *Let's set up your domain* page, click **Get Started**.
+6.  On the *Let's set up your domain* page, click **Get Started**.
     
-7. Select the **My domain uses a different host** checkbox and then click **Continue**.
+7.  Select the **My domain uses a different host** checkbox and then click **Continue**.
     
-8. At the bottom of the *Add verification code* page, select the **Come back here and confirm once you have updated the code on your domain host** checkbox, and then click **Confirm**.
+8.  At the bottom of the *Add verification code* page, select the **Come back here and confirm once you have updated the code on your domain host** checkbox, and then click **Confirm**.
     
-9. Wait until it says **Your domain is verified!** and then close the *Domain setup* tab.
+9.  Wait until it says **Your domain is verified!** and then close the *Domain setup* tab.
     
     **Note:** Do not click **Activate Gmail**.
     
-10. Return to the **Admin Console** tab and refresh the page.
-    
+10.  Return to the **Admin Console** tab and refresh the page.
+     
 
 ## Task 1. Create an organizational unit (OU) structure
 
@@ -119,64 +119,64 @@ In this section, you create three OUs, and then apply different organizational p
 
 Start by creating OUs.
 
-1. Click the **Navigation menu** (
+1.  Click the **Navigation menu** (
     
     ![Navigation menu icon](https://cdn.qwiklabs.com/tkgw1TDgj4Q%2BYKQUW4jUFd0O5OEKlUMBRYbhlCrF0WY%3D align="left")
     
-    ) &gt; **Directory** &gt; **Organization units**.
+    ) > **Directory** > **Organization units**.
     
-2. Click **Create organizational unit** to create a new OU.
+2.  Click **Create organizational unit** to create a new OU.
     
-3. For **Name of organizational unit**, enter **Marketing**
+3.  For **Name of organizational unit**, enter **Marketing**
     
-4. Optional: For **Description**, enter **The Marketing team**
+4.  Optional: For **Description**, enter **The Marketing team**
     
-5. Click **CREATE**.
+5.  Click **CREATE**.
     
-6. Repeat steps 2-5 and create the **Compliance** and **Contractors** OUs.
+6.  Repeat steps 2-5 and create the **Compliance** and **Contractors** OUs.
     
 
 ### Create users in each of the OUs
 
 Next, create three new users and place each of them into their own OU. Start by adding a user to the Marketing OU.
 
-1. Click the **Navigation menu** (
+1.  Click the **Navigation menu** (
     
     ![Navigation menu icon](https://cdn.qwiklabs.com/tkgw1TDgj4Q%2BYKQUW4jUFd0O5OEKlUMBRYbhlCrF0WY%3D align="left")
     
-    ) &gt; **Directory** &gt; **Users**.
+    ) > **Directory** > **Users**.
     
-2. Click **Add new user**.
+2.  Click **Add new user**.
     
-3. For **First name**, enter **Jamie**.
+3.  For **First name**, enter **Jamie**.
     
-4. For **Last name**, enter **Marketeer**.
+4.  For **Last name**, enter **Marketeer**.
     
-5. For **Primary email address**, enter **jamie.marketeer**.
+5.  For **Primary email address**, enter **jamie.marketeer**.
     
-6. Click **Continue**, then click **Done**.
+6.  Click **Continue**, then click **Done**.
     
-7. Select the checkbox next to Name **Jamie Marketeer**.
+7.  Select the checkbox next to Name **Jamie Marketeer**.
     
-8. Click **More options** &gt; **Change organizational unit**. The Change organizational unit dialog opens.
+8.  Click **More options** > **Change organizational unit**. The Change organizational unit dialog opens.
     
-9. Under **Google Workspace Labs**, select **Marketing**.
+9.  Under **Google Workspace Labs**, select **Marketing**.
     
-10. Click **Continue**, then click **Change**.
-    
-11. Click on the name **Jamie Marketeer**, then click **RESET PASSWORD**, and choose **Generate a new password**.
-    
+10.  Click **Continue**, then click **Change**.
+     
+11.  Click on the name **Jamie Marketeer**, then click **RESET PASSWORD**, and choose **Generate a new password**.
+     
 
 **Note:** Note the username and password. These will be used later in the lab.
 
-12. Click **DONE**.
-    
-13. Repeat steps 2-12 to create two more users and assign them to an OU as described below:
-    
-    * User: **Leslie Compliance**, Email: **leslie.compliance**, OU: **Compliance**.
-        
-    * User: **Jesse Contractor**, Email: **jesse.contractor**, OU: **Contractors**.
-        
+12.  Click **DONE**.
+     
+13.  Repeat steps 2-12 to create two more users and assign them to an OU as described below:
+     
+     *   User: **Leslie Compliance**, Email: **leslie.compliance**, OU: **Compliance**.
+         
+     *   User: **Jesse Contractor**, Email: **jesse.contractor**, OU: **Contractors**.
+         
 
 Click *Check my progress* to verify the objective.
 
@@ -192,22 +192,22 @@ In this section, you configure access settings for Gmail and Google Vault, and D
 
 Customize Gmail access such that users in the Contractors OU do not have access to the Gmail service.
 
-1. Click **Main menu** (
+1.  Click **Main menu** (
     
     ![Navigation menu icon](https://cdn.qwiklabs.com/tkgw1TDgj4Q%2BYKQUW4jUFd0O5OEKlUMBRYbhlCrF0WY%3D align="left")
     
-    ) &gt; **Apps** &gt; **Google Workspace** &gt; **Gmail**.
+    ) > **Apps** > **Google Workspace** > **Gmail**.
     
 
-**Note:** If a prompt to verify your domain appears, under **Services**, click the checkbox next to **Gmail** to select it. Leave this tab open for the rest of the lab.  
-  
+**Note:** If a prompt to verify your domain appears, under **Services**, click the checkbox next to **Gmail** to select it. Leave this tab open for the rest of the lab.
+
 Open a new Admin console tab and repeat steps 1 and 2. The **Service Status** for all apps should now indicate ‘ON for everyone’.
 
-2. Click the **Service status** card.
+2.  Click the **Service status** card.
     
-3. In the left panel, under **Google Workspace Labs**, click **Contractors**.
+3.  In the left panel, under **Google Workspace Labs**, click **Contractors**.
     
-4. For **Service status**, select **OFF** and click **OVERRIDE** to override the inherited settings and disable Gmail for all users in the Contractors OU.
+4.  For **Service status**, select **OFF** and click **OVERRIDE** to override the inherited settings and disable Gmail for all users in the Contractors OU.
     
 
 ### Testing Gmail access configuration
@@ -216,47 +216,47 @@ Now test to make sure that the Gmail access configuration is working properly.
 
 #### Testing Gmail access for users in the Contractors OU
 
-1. Open [Gmail](https://mail.google.com/).
+1.  Open [Gmail](https://mail.google.com/).
     
-2. Click the Google avatar at the top right of the screen. (Notice that you are currently logged in as Workspace User.)
+2.  Click the Google avatar at the top right of the screen. (Notice that you are currently logged in as Workspace User.)
     
-3. Click **Add another account**.
+3.  Click **Add another account**.
     
-4. For **Email or phone**, enter the email of Jesse Contractor that you recorded in an earlier section. It should be similar to `jesse@goog-test.reseller.gappslabs.co…`.
+4.  For **Email or phone**, enter the email of Jesse Contractor that you recorded in an earlier section. It should be similar to `jesse@goog-test.reseller.gappslabs.co…`.
     
-5. Click **Next**.
+5.  Click **Next**.
     
-6. For **Enter your password**, enter the password of Jesse Contractor that you previously noted and click **Next**.
+6.  For **Enter your password**, enter the password of Jesse Contractor that you previously noted and click **Next**.
     
-7. Accept terms as prompted.
+7.  Accept terms as prompted.
     
-8. Create a secure password and click **Change password**.
+8.  Create a secure password and click **Change password**.
     
 
 A page opens with a message explaining that Jesse Contractor does not have access to Gmail.
 
 #### Testing Gmail access for users in the Marketing OU
 
-1. Switch to the Gmail browser tab which is logged in as Workspace User.
+1.  Switch to the Gmail browser tab which is logged in as Workspace User.
     
-2. Click the Google avatar at the top right of the screen.
+2.  Click the Google avatar at the top right of the screen.
     
-3. Click **Add another account**.
+3.  Click **Add another account**.
     
-4. This time, log in as Jamie Marketeer with the email and password for that user that you previously recorded.
+4.  This time, log in as Jamie Marketeer with the email and password for that user that you previously recorded.
     
 
 Gmail successfully opens for Jamie Marketeer.
 
 #### Testing Gmail access for users in the Compliance OU
 
-1. Switch to the Gmail tab which is logged in as Workspace User.
+1.  Switch to the Gmail tab which is logged in as Workspace User.
     
-2. Click the Google avatar at the top right of the screen.
+2.  Click the Google avatar at the top right of the screen.
     
-3. Click **Add another account**.
+3.  Click **Add another account**.
     
-4. This time, log in as Leslie Compliance with the email and password of that user.
+4.  This time, log in as Leslie Compliance with the email and password of that user.
     
 
 Gmail successfully opens for Leslie Compliance.
@@ -271,25 +271,25 @@ Disable Gmail for contractors
 
 Configure access to Google Vault such that only users in the Compliance OU can access Google Vault.
 
-1. Switch to the Admin console browser tab.
+1.  Switch to the Admin console browser tab.
     
-2. Click **Main menu** (
+2.  Click **Main menu** (
     
     ![Navigation menu icon](https://cdn.qwiklabs.com/tkgw1TDgj4Q%2BYKQUW4jUFd0O5OEKlUMBRYbhlCrF0WY%3D align="left")
     
-    ) &gt; **Apps** &gt; **Google Workspace** &gt; **Google Vault**.
+    ) > **Apps** > **Google Workspace** > **Google Vault**.
     
-3. Click the **Service status** card.
+3.  Click the **Service status** card.
     
-4. Click **OFF for everyone** to disable Google Vault for all users.
+4.  Click **OFF for everyone** to disable Google Vault for all users.
     
-5. Click **SAVE**.
+5.  Click **SAVE**.
     
-6. In the left panel, under **Google Workspace Labs**, click **Compliance**.
+6.  In the left panel, under **Google Workspace Labs**, click **Compliance**.
     
-7. For **Service status**, click **ON** and then **OVERRIDE** to override the inherited settings.
+7.  For **Service status**, click **ON** and then **OVERRIDE** to override the inherited settings.
     
-8. Click **TURN ON** when prompted.
+8.  Click **TURN ON** when prompted.
     
 
 ### Testing Vault access configuration
@@ -298,11 +298,11 @@ Now test to make sure that the Google Vault access configuration is working prop
 
 #### Testing Vault access for users in the Compliance OU
 
-1. Switch to the Gmail tab that is logged in as `Leslie Compliance`.
+1.  Switch to the Gmail tab that is logged in as `Leslie Compliance`.
     
-2. Click on the **Google apps** icon.
+2.  Click on the **Google apps** icon.
     
-3. Scroll down and click **Vault**.
+3.  Scroll down and click **Vault**.
     
 
 Google Vault should load successfully for user Leslie Compliance.
@@ -311,22 +311,22 @@ Google Vault should load successfully for user Leslie Compliance.
 
 #### Testing Vault access for users in the in the Marketing OU
 
-1. Switch to the Gmail tab that is logged in as `Jamie Marketeer`.
+1.  Switch to the Gmail tab that is logged in as `Jamie Marketeer`.
     
-2. Click on the **Google apps** icon.
+2.  Click on the **Google apps** icon.
     
-3. Scroll down and click **Vault**.
+3.  Scroll down and click **Vault**.
     
 
 A page opens with the message that Jamie Marketeer does not have access to Google Vault.
 
 #### Testing Vault access for users in the Contractors OU
 
-1. Switch to the Gmail tab that is logged in as `Jesse Contractor`.
+1.  Switch to the Gmail tab that is logged in as `Jesse Contractor`.
     
-2. Click on the **Google apps** icon.
+2.  Click on the **Google apps** icon.
     
-3. Scroll down and click **Vault**.
+3.  Scroll down and click **Vault**.
     
 
 A page opens with the message that Jesse Contractor does not have access to Google Vault.
@@ -341,38 +341,38 @@ Restrict access to Vault
 
 Set up a rule to prevent file sharing with an external domain in Google Drive.
 
-1. Switch to the Admin console browser tab.
+1.  Switch to the Admin console browser tab.
     
-2. Click on the **Navigation menu** (
+2.  Click on the **Navigation menu** (
     
     ![Navigation menu icon](https://cdn.qwiklabs.com/tkgw1TDgj4Q%2BYKQUW4jUFd0O5OEKlUMBRYbhlCrF0WY%3D align="left")
     
-    ) &gt; **Show more** &gt; **Rules**.
+    ) > **Show more** > **Rules**.
     
-3. Click **Create rule** &gt; **Data Protection**.
+3.  Click **Create rule** > **Data Protection**.
     
-4. For **Name**, enter "Google Drive - Prevent sharing with external domain".
+4.  For **Name**, enter "Google Drive - Prevent sharing with external domain".
     
-5. Under **Scope**, click **Organizational units and/or groups**.
+5.  Under **Scope**, click **Organizational units and/or groups**.
     
-6. Click **Include organizational units**.
+6.  Click **Include organizational units**.
     
-7. Select **Compliance** and **Marketing**.
+7.  Select **Compliance** and **Marketing**.
     
-8. Click **DONE**.
+8.  Click **DONE**.
     
-9. Click **CONTINUE**.
+9.  Click **CONTINUE**.
     
-10. Under **Apps** &gt; **Google Drive**, select **Drive files** and click **CONTINUE**.
-    
-11. Click **CONTINUE**. (Because no condition has been added this rule will apply to all files in Google Drive.)
-    
-12. For **Actions**, select **Block external sharing**.
-    
-13. Click **CONTINUE**.
-    
-14. Review the rule details and click **CREATE**.
-    
+10.  Under **Apps** > **Google Drive**, select **Drive files** and click **CONTINUE**.
+     
+11.  Click **CONTINUE**. (Because no condition has been added this rule will apply to all files in Google Drive.)
+     
+12.  For **Actions**, select **Block external sharing**.
+     
+13.  Click **CONTINUE**.
+     
+14.  Review the rule details and click **CREATE**.
+     
 
 The new rule, **Google Drive - Prevent sharing with external domain**, is now listed in the **Rules** list.
 
@@ -382,42 +382,42 @@ Now test to make sure that the DLP configuration on Google Drive is working prop
 
 #### Testing Google Drive DLP access for users in the Compliance OU
 
-1. Switch to the Gmail tab that is logged in as `Leslie Compliance`.
+1.  Switch to the Gmail tab that is logged in as `Leslie Compliance`.
     
-2. Click on the **Applications** icon.
+2.  Click on the **Applications** icon.
     
-3. Click **Docs**.
+3.  Click **Docs**.
     
-4. Under **Start a new document**, click **Blank**.
+4.  Under **Start a new document**, click **Blank**.
     
-5. In the top right hand corner of the page, click **Share**.
+5.  In the top right hand corner of the page, click **Share**.
     
-6. For **Add people and groups**, enter an email address on an external domain, e.g. @gmail.com. Press the return key on the keyboard.
+6.  For **Add people and groups**, enter an email address on an external domain, e.g. @gmail.com. Press the return key on the keyboard.
     
-7. Click **Send**.
+7.  Click **Send**.
     
 
 Leslie Compliance is notified that the file cannot be shared outside Google Workspace Labs.
 
 #### Testing Google Drive DLP access for users in the Contractors OU
 
-1. Switch to the Gmail tab that is logged in as `Jesse Contractor`.
+1.  Switch to the Gmail tab that is logged in as `Jesse Contractor`.
     
-2. Click on the **Applications** icon.
+2.  Click on the **Applications** icon.
     
-3. Click **Docs**.
+3.  Click **Docs**.
     
-4. Under **Start a new document**, click **Blank**.
+4.  Under **Start a new document**, click **Blank**.
     
-5. In the top right hand corner of the page, click **Share**.
+5.  In the top right hand corner of the page, click **Share**.
     
-6. If prompted, **Name before sharing**, click **Save**.
+6.  If prompted, **Name before sharing**, click **Save**.
     
-7. For **Add people and groups**, enter an email address on an external domain, e.g. @gmail.com. Press the return key on the keyboard.
+7.  For **Add people and groups**, enter an email address on an external domain, e.g. @gmail.com. Press the return key on the keyboard.
     
-8. Click **Done**.
+8.  Click **Done**.
     
-9. Click **Send**.
+9.  Click **Send**.
     
 
 A message appears warning that you are about to share a file externally. Click Share anyway to share the file with a user on an external domain.
@@ -426,37 +426,252 @@ A message appears warning that you are about to share a file externally. Click S
 
 **True or False: Three types of organizational units are automatically spun up when you set up Google Workspace: one for admins, one for users, and one for devices.**
 
-* True
+*   True
     
-* False
+*   False
     
 
 **To add Users to an organizational unit:**
 
-* You put users in each organizational unit that runs an app they use.
+*   You put users in each organizational unit that runs an app they use.
     
-* You manually or batch add users, Google Workspace assigns them to an organization unit based on rules set by the admin.
+*   You manually or batch add users, Google Workspace assigns them to an organization unit based on rules set by the admin.
     
-* You manually or batch add users and assign them to an organization unit.
+*   You manually or batch add users and assign them to an organization unit.
     
 
 **The following is true when you use organizational units to set policies:**
 
-* You create a top level organizational unit, and then create child organizational units to customize the policies inherited from the top level organizational unit.
+*   You create a top level organizational unit, and then create child organizational units to customize the policies inherited from the top level organizational unit.
     
-* You must always keep organizational units for devices separate from organizational units for users.
+*   You must always keep organizational units for devices separate from organizational units for users.
     
-* One child organization unit may be in the hierarchy path of more than one top level organizational unit.
+*   One child organization unit may be in the hierarchy path of more than one top level organizational unit.
     
-* You create an organizational unit for each department, even if each unit has the same policies.
+*   You create an organizational unit for each department, even if each unit has the same policies.
     
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://youtu.be/-1x2cz32y0k]
+%[https://youtu.be/-1x2cz32y0k] 
 
 **Alternative Solution**
 
-%[https://youtu.be/pLiv14u8ZwM]
+%[https://youtu.be/pLiv14u8ZwM] 
+
+**Google Workspace OU and Application Access — Quick Lab Solution**
+
+This guide includes only the tasks required by **Check my progress**.
+
+> Use an Incognito or private browser window and sign in only with the temporary lab credentials.
+
+**Progress Checklist**
+
+| Objective | Required configuration |
+| --- | --- |
+| Create OU structure and new users | Create three OUs and assign one specified user to each OU |
+| Disable Gmail for contractors | Override Gmail to `Off` for `Contractors` |
+| Restrict access to Vault | Turn Vault off globally and override it to `On` for `Compliance` |
+
+**Prerequisite: Sign In and Verify the Domain**
+
+1.  Click **Start Lab** and open **Google Workspace Admin Console**.
+    
+2.  Sign in with the lab-provided **User Email** and **Password**.
+    
+3.  Accept the Terms of Service and click **Get set up**.
+    
+4.  Right-click **Verify** or **Verify domain**, then select **Open link in new tab**.
+    
+5.  Click **Get Started → Other verification options**.
+    
+6.  Select **Other** as the domain host, then click **Continue**.
+    
+7.  Select **Come back here and confirm once you have updated the code on your domain host**.
+    
+8.  Click **Confirm** and wait for **Your domain is verified!**
+    
+9.  Close the verification tab and refresh the Admin Console.
+    
+
+> Do not click **Activate Gmail**.
+
+### Task 1: Create the OU Structure and Users
+
+**Create the Organizational Units**
+
+Go to:
+
+```text
+Admin Console → Directory → Organizational units
+```
+
+Create these three organizational units directly under **Google Workspace Labs**:
+
+*   `Marketing`
+    
+*   `Compliance`
+    
+*   `Contractors`
+    
+
+The final structure must be:
+
+```text
+Google Workspace Labs
+├── Marketing
+├── Compliance
+└── Contractors
+```
+
+**Create Jamie Marketeer**
+
+Go to:
+
+```text
+Admin Console → Directory → Users → Add new user
+```
+
+Enter:
+
+| Field | Value |
+| --- | --- |
+| First name | `Jamie` |
+| Last name | `Marketeer` |
+| Primary email address | `jamie.marketeer` |
+
+1.  Create the user.
+    
+2.  Return to the Users list and select **Jamie Marketeer**.
+    
+3.  Click **More options → Change organizational unit**.
+    
+4.  Select **Marketing**.
+    
+5.  Click **Continue → Change**.
+    
+
+**Create Leslie Compliance**
+
+Create another user:
+
+| Field | Value |
+| --- | --- |
+| First name | `Leslie` |
+| Last name | `Compliance` |
+| Primary email address | `leslie.compliance` |
+
+Move **Leslie Compliance** to the `Compliance` OU.
+
+**Create Jesse Contractor**
+
+Create another user:
+
+| Field | Value |
+| --- | --- |
+| First name | `Jesse` |
+| Last name | `Contractor` |
+| Primary email address | `jesse.contractor` |
+
+Move **Jesse Contractor** to the `Contractors` OU.
+
+Verify the final assignments:
+
+| User | Organizational unit |
+| --- | --- |
+| Jamie Marketeer | `Marketing` |
+| Leslie Compliance | `Compliance` |
+| Jesse Contractor | `Contractors` |
+
+Click **Check my progress** for **Create OU structure and new users**.
+
+> Resetting or saving the users' passwords is unnecessary when completing only the progress checks.
+
+### Task 2: Disable Gmail for Contractors
+
+Go to:
+
+```text
+Admin Console → Apps → Google Workspace → Gmail
+```
+
+If Google asks you to verify the domain or activate services:
+
+1.  Select **Gmail** under Services.
+    
+2.  Keep that tab open.
+    
+3.  Open the Admin Console in another tab and return to the Gmail settings.
+    
+
+Then configure Gmail access:
+
+1.  Open the **Service status** card.
+    
+2.  In the left panel, select the **Contractors** OU.
+    
+3.  Set **Service status** to:
+    
+    ```text
+    Off
+    ```
+    
+4.  Click **Override**.
+    
+
+The expected result is:
+
+| Organizational unit | Gmail status |
+| --- | --- |
+| Marketing | Inherited `On` |
+| Compliance | Inherited `On` |
+| Contractors | Overridden `Off` |
+
+Click **Check my progress** for **Disable Gmail for contractors**.
+
+### Task 3: Restrict Access to Google Vault
+
+Go to:
+
+```text
+Admin Console → Apps → Google Workspace → Google Vault
+```
+
+**Turn Vault Off Globally**
+
+1.  Open the **Service status** card.
+    
+2.  Select the root OU **Google Workspace Labs**.
+    
+3.  Click **Off for everyone** or set the service status to **Off**.
+    
+4.  Click **Save**.
+    
+
+**Turn Vault On for Compliance**
+
+1.  In the left panel, select the **Compliance** OU.
+    
+2.  Set **Service status** to:
+    
+    ```text
+    On
+    ```
+    
+3.  Click **Override**.
+    
+4.  Click **Turn on** if a confirmation dialog appears.
+    
+
+The expected result is:
+
+| Organizational unit | Vault status |
+| --- | --- |
+| Root OU | `Off` |
+| Marketing | Inherited `Off` |
+| Compliance | Overridden `On` |
+| Contractors | Inherited `Off` |
+
+Click **Check my progress** for **Restrict access to Vault**.
