@@ -174,16 +174,14 @@ Create a HTTP function `http-messenger`
 
 ### Quick
 
-```apache
+%[https://www.youtube.com/watch?v=rDA4QBsT9Uo] 
+
+```plaintext
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC104/lab.sh
 source lab.sh
 ```
 
-* * *
-
-### Manual
-
-%[https://www.youtube.com/watch?v=rDA4QBsT9Uo] 
+**Script Alternative**
 
 ```plaintext
 export HTTP_FUNCTION=
