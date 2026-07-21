@@ -252,10 +252,10 @@ Complete only the tasks that have **Check my progress**.
 
 Go to: [Admin Console → Account → Account settings → Profile](https://admin.google.com/u/0/ac/accountsettings/profile)
 
-Set:
+Set: Organization name
 
 ```text
-Organization name: Cymbal Finance
+Cymbal Finance
 ```
 
 Click **Save**.
