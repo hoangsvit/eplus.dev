@@ -378,7 +378,7 @@ Click **Check my progress – Create a shared resource**.
 
 **Create the organizational unit**
 
-Go to: Admin Console → Directory → Organizational units
+Go to: [Admin Console → Directory → Organizational units](https://admin.google.com/u/0/ac/orgunits)
 
 Create a child OU directly under the root organization:
 
@@ -386,7 +386,9 @@ Create a child OU directly under the root organization:
 Operating Unit
 ```
 
-### Create the two users
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/0e4cd8e5-20a0-4408-acbf-cac32a90fe81.png align="center")
+
+**Create the two users**
 
 Go to: Admin Console → Directory → Users → Add new user
 
