@@ -206,3 +206,279 @@ Check my progress
 %[https://www.youtube.com/watch?v=qE4v0ARydy4] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1733818945067/3fe2ff9f-75c2-4769-89aa-c79a5c4557e1.png align="center")
+
+**Google Workspace Admin Challenge Lab — Quick Solution**
+
+Complete only the tasks that have **Check my progress**.
+
+> Use an Incognito window and sign in only with the temporary lab account.
+
+**Prerequisite: Verify the Domain**
+
+1.  Open the **Google Workspace Admin Console**.
+    
+2.  Sign in with the credentials provided by the lab.
+    
+3.  Accept the Terms of Service and click **Get set up**.
+    
+4.  Right-click **Verify** or **Verify domain** → **Open link in new tab**.
+    
+5.  Click **Get Started**.
+    
+6.  Select **Other verification options**.
+    
+7.  Select **Other** as the domain host → **Continue**.
+    
+8.  Select:
+    
+    ```text
+    Come back here and confirm once you have updated the code on your domain host
+    ```
+    
+9.  Click **Confirm**.
+    
+10.  Wait for **Your domain is verified!**
+     
+11.  Close the tab and refresh the Admin Console.
+     
+
+> Do not click **Activate Gmail**.
+
+* * *
+
+### Task 1: Update the Organization Profile and Preferences
+
+**Change the organization name**
+
+Go to: Admin Console → Account → Account settings → Profile
+
+Set:
+
+```text
+Organization name: Cymbal Finance
+```
+
+Click **Save**.
+
+### Disable automatic release of new products
+
+Go to: Admin Console → Account → Account settings → Preferences
+
+Find **New products** or **New products release** and select the option that prevents new products from being automatically enabled.
+
+Depending on the current interface, select:
+
+```text
+Manual release
+```
+
+or disable:
+
+```text
+Turn on new products automatically
+```
+
+Click **Save**.
+
+Click **Check my progress – Update the organization profile and preferences**.
+
+* * *
+
+### **Task 2: Create the Operating Team Group**
+
+Go to: Admin Console → Directory → Groups → Create group
+
+Enter:
+
+| Field | Value |
+| --- | --- |
+| Group name | `Operating Team` |
+| Group email | `operating-team@YOUR-LAB-DOMAIN` |
+| Description | Optional |
+
+Replace `YOUR-LAB-DOMAIN` with the domain of the lab Admin account.
+
+Click **Next** and configure:
+
+```text
+Access type: Restricted
+Who can join the group: Invited users only
+```
+
+Complete the group creation.
+
+> You do not need to add members unless the progress checker specifically requests them.
+
+Click **Check my progress – Create a new group**.
+
+* * *
+
+### Task 3: Create the Shared Calendar Resource
+
+Go to: Admin Console → Directory → Buildings and resources → Manage resources
+
+**Create the building**
+
+Open **Buildings** or **Manage buildings**, then create:
+
+| Field | Value |
+| --- | --- |
+| Building name | `Head Office` |
+| Floors | `G` |
+
+Complete any other required fields with valid values, then click **Add building** or **Save**.
+
+**Create the resource feature**
+
+Open **Resource features** and create:
+
+| Field | Value |
+| --- | --- |
+| Feature name | `Whiteboard` |
+| Feature type | `Other` |
+
+Click **Save**.
+
+**Create the meeting room**
+
+Return to **Resources** and select **Add resource**.
+
+Enter:
+
+| Field | Value |
+| --- | --- |
+| Category | `Meeting Space` |
+| Building | `Head Office` |
+| Floor | `G` |
+| Resource name | `Meeting Room` |
+| Capacity | `12` |
+| Feature | `Whiteboard` |
+
+Click **Add resource** or **Save**.
+
+Click **Check my progress – Create a shared resource**.
+
+* * *
+
+### Task 4: Create the Operating Unit OU and Configure Vault
+
+**Create the organizational unit**
+
+Go to: Admin Console → Directory → Organizational units
+
+Create a child OU directly under the root organization:
+
+```text
+Operating Unit
+```
+
+### Create the two users
+
+Go to: Admin Console → Directory → Users → Add new user
+
+Create:
+
+| First name | Last name | Organizational unit |
+| --- | --- | --- |
+| Jamie | Jim | `/Operating Unit` |
+| Leslie | Brick | `/Operating Unit` |
+
+For each user, select `Operating Unit` during creation or move the user afterward through:
+
+```text
+User → More options → Change organizational unit
+```
+
+### Optional: Bulk upload users
+
+Download the official template from:
+
+```text
+Directory → Users → Bulk update users
+```
+
+Fill its matching columns with:
+
+```csv
+First Name [Required],Last Name [Required],Email Address [Required],Password [Required],Org Unit Path [Required],Change Password at Next Sign-In
+Jamie,Jim,jamie@YOUR-LAB-DOMAIN,Lab@12345678,/Operating Unit,FALSE
+Leslie,Brick,leslie@YOUR-LAB-DOMAIN,Lab@12345678,/Operating Unit,FALSE
+```
+
+Always keep all columns from the official Google template.
+
+### Turn off Vault for the root organization
+
+Go to:
+
+```text
+Admin Console → Apps → Google Workspace → Google Vault
+```
+
+1.  Select the root organizational unit.
+    
+2.  Set **Service status** to:
+    
+    ```text
+    OFF for everyone
+    ```
+    
+3.  Click **Save**.
+    
+
+### Turn on Vault only for Operating Unit
+
+1.  Select **Operating Unit** from the left panel.
+    
+2.  Change the service status to:
+    
+    ```text
+    ON
+    ```
+    
+3.  Click **Override**.
+    
+
+The final configuration must be:
+
+| Organizational unit | Google Vault |
+| --- | --- |
+| Root organization | OFF |
+| Operating Unit | ON — overridden |
+
+Click **Check my progress – Create an OU structure and configure access for Google Vault**.
+
+* * *
+
+### Task 5: Add Recovery Information
+
+Open the lab administrator’s user profile:
+
+```text
+Admin Console → Directory → Users → Select the lab Admin account
+```
+
+Open:
+
+```text
+Security → Recovery information
+```
+
+Add a valid recovery email address and click **Save**.
+
+If the option is not available from the Admin Console:
+
+1.  Click the Admin account avatar.
+    
+2.  Select **Manage your Google Account**.
+    
+3.  Open **Security**.
+    
+4.  Find **Recovery email**.
+    
+5.  Add a valid email address and complete verification if requested.
+    
+
+> Do not use the same temporary lab email as its own recovery email.
+
+Click **Check my progress – Add user account recovery information**.
