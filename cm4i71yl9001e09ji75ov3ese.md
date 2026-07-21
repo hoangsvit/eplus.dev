@@ -297,10 +297,8 @@ Enter:
 | Field | Value |
 | --- | --- |
 | Group name | `Operating Team` |
-| Group email | `operating-team@YOUR-LAB-DOMAIN` |
+| Group email | `operating-team` |
 | Description | Optional |
-
-Replace `YOUR-LAB-DOMAIN` with the domain of the lab Admin account.
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5bfcb817-9670-439b-894c-050a12c0c53d.png align="center")
 
