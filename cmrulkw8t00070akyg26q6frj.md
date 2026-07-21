@@ -181,6 +181,10 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC104
 source lab.sh
 ```
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/e35b6db7-9a8b-4ec2-9cd6-8f58f600cd0d.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/16eed156-7e7a-4938-a940-dc2cf118fed3.png align="center")
+
 **Script Alternative**
 
 ```plaintext
