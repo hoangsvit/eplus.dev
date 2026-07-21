@@ -174,6 +174,4 @@ source lab.sh
 
 * * *
 
-### Manual
-
-%[https://youtu.be/SuzUtqXvI6s]
+%[https://eplus.dev/build-serverless-applications-with-cloud-run-functions-challenge-lab-arc104]
