@@ -399,37 +399,21 @@ Create:
 | Jamie | Jim | `/Operating Unit` |
 | Leslie | Brick | `/Operating Unit` |
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/d441e6ad-fed2-40cd-ba67-82e554306738.png align="center")
+
 For each user, select `Operating Unit` during creation or move the user afterward through:
 
 ```text
 User → More options → Change organizational unit
 ```
 
-### Optional: Bulk upload users
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5d6275f2-fe1e-424b-bd24-b4def2f5a89c.png align="center")
 
-Download the official template from:
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c81d49bb-c916-460e-9c0a-d2e82c31cd43.png align="center")
 
-```text
-Directory → Users → Bulk update users
-```
+**Turn off Vault for the root organization**
 
-Fill its matching columns with:
-
-```csv
-First Name [Required],Last Name [Required],Email Address [Required],Password [Required],Org Unit Path [Required],Change Password at Next Sign-In
-Jamie,Jim,jamie@YOUR-LAB-DOMAIN,Lab@12345678,/Operating Unit,FALSE
-Leslie,Brick,leslie@YOUR-LAB-DOMAIN,Lab@12345678,/Operating Unit,FALSE
-```
-
-Always keep all columns from the official Google template.
-
-### Turn off Vault for the root organization
-
-Go to:
-
-```text
-Admin Console → Apps → Google Workspace → Google Vault
-```
+Go to: Admin Console → Apps → Google Workspace → [Admin Console → Apps → Google Workspace → Google Vault](https://admin.google.com/ac/managedsettings/477919301060)
 
 1.  Select the root organizational unit.
     
@@ -442,7 +426,9 @@ Admin Console → Apps → Google Workspace → Google Vault
 3.  Click **Save**.
     
 
-### Turn on Vault only for Operating Unit
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/752dd873-5a1d-40fd-a13d-b6f1cecb5a9d.png align="center")
+
+**Turn on Vault only for Operating Unit**
 
 1.  Select **Operating Unit** from the left panel.
     
@@ -454,6 +440,8 @@ Admin Console → Apps → Google Workspace → Google Vault
     
 3.  Click **Override**.
     
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9135a79d-139b-4add-b79f-aa3ef1d3c9ae.png align="center")
 
 The final configuration must be:
 
