@@ -462,7 +462,7 @@ Click **Check my progress – Create an OU structure and configure access for Go
 
 ### Task 5: Add Recovery Information
 
-Open the lab administrator’s user profile: Admin Console → Directory → Users → Select the lab Admin account
+Open the lab administrator’s user profile: [Admin Console → Directory → Users](https://admin.google.com/ac/users) → Select the lab Admin account
 
 Open:
 
@@ -471,6 +471,10 @@ Security → Recovery information
 ```
 
 Add a valid recovery email address and click **Save**.
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/88791e56-235b-43e3-a69e-faf554599cfd.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/e4d87eec-c4e5-4c48-8ccb-33aecce516c6.png align="center")
 
 If the option is not available from the Admin Console:
 
