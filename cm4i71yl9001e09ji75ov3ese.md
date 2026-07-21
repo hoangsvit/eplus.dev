@@ -390,7 +390,7 @@ Operating Unit
 
 **Create the two users**
 
-Go to: Admin Console → Directory → Users → Add new user
+Go to: [Admin Console → Directory → Users → Add new user](https://admin.google.com/u/0/ac/user/bulkadd)
 
 Create:
 
