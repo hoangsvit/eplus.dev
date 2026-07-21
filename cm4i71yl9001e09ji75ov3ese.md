@@ -264,7 +264,7 @@ Click **Save**.
 
 **Disable automatic release of new products**
 
-Go to: Admin Console → Account → Account settings → Preferences
+Go to: [Admin Console → Account → Account settings → Preferences](https://admin.google.com/u/0/ac/accountsettings/preferences)
 
 Find **New products** or **New products release** and select the option that prevents new products from being automatically enabled.
 
@@ -283,6 +283,8 @@ Turn on new products automatically
 Click **Save**.
 
 Click **Check my progress – Update the organization profile and preferences**.
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b5e77e80-7b7d-411a-b6b7-11477a328288.png align="center")
 
 * * *
 
