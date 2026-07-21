@@ -201,6 +201,12 @@ sudo chmod +x ARC104.sh
 
 * * *
 
-### Manual
+### Other Solution
 
-%[https://www.youtube.com/watch?v=KdaP4Cx7AY0]
+%[https://www.youtube.com/watch?v=KdaP4Cx7AY0] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/Orbit-of-Ops/Google-Cloud-Labs-Solutions/main/Cloud%20Functions%203%20Ways%20Challenge%20Lab/arc104.sh
+sudo chmod +x arc104.sh
+./arc104.sh
+```
