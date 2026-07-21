@@ -250,7 +250,7 @@ Complete only the tasks that have **Check my progress**.
 
 **Change the organization name**
 
-Go to: Admin Console → Account → Account settings → Profile
+Go to: [Admin Console → Account → Account settings → Profile](https://admin.google.com/u/0/ac/accountsettings/profile)
 
 Set:
 
@@ -260,7 +260,9 @@ Organization name: Cymbal Finance
 
 Click **Save**.
 
-### Disable automatic release of new products
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/bd4fda09-0b6b-48c8-a3b6-3c555a0d33bb.png align="center")
+
+**Disable automatic release of new products**
 
 Go to: Admin Console → Account → Account settings → Preferences
 
