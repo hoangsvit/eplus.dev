@@ -174,7 +174,7 @@ Create a HTTP function `http-messenger`
 
 ### Quick
 
-%[https://www.youtube.com/watch?v=rDA4QBsT9Uo] 
+%[https://www.youtube.com/watch?v=KdaP4Cx7AY0] 
 
 ```plaintext
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC104/lab.sh
@@ -185,7 +185,17 @@ source lab.sh
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/16eed156-7e7a-4938-a940-dc2cf118fed3.png align="center")
 
-**Script Alternative**
+```plaintext
+curl -LO raw.githubusercontent.com/Orbit-of-Ops/Google-Cloud-Labs-Solutions/main/Cloud%20Functions%203%20Ways%20Challenge%20Lab/arc104.sh
+sudo chmod +x arc104.sh
+./arc104.sh
+```
+
+* * *
+
+### Other Solution
+
+%[https://www.youtube.com/watch?v=rDA4QBsT9Uo] 
 
 ```plaintext
 export HTTP_FUNCTION=
@@ -197,16 +207,4 @@ export REGION=
 curl -LO  https://raw.githubusercontent.com/chayandeokar/Cloud-Skills-2025/refs/heads/master/Cloud%20Functions%203%20Ways%20Challenge%20Lab%20/ARC104.sh
 sudo chmod +x ARC104.sh
 ./ARC104.sh
-```
-
-* * *
-
-### Other Solution
-
-%[https://www.youtube.com/watch?v=KdaP4Cx7AY0] 
-
-```plaintext
-curl -LO raw.githubusercontent.com/Orbit-of-Ops/Google-Cloud-Labs-Solutions/main/Cloud%20Functions%203%20Ways%20Challenge%20Lab/arc104.sh
-sudo chmod +x arc104.sh
-./arc104.sh
 ```
