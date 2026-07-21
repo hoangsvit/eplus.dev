@@ -622,13 +622,11 @@ The expected result is:
 
 Click **Check my progress** for **Disable Gmail for contractors**.
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a190331d-ada2-4e99-81f6-09e7f068063d.png align="center")
+
 ### Task 3: Restrict Access to Google Vault
 
-Go to:
-
-```text
-Admin Console → Apps → Google Workspace → Google Vault
-```
+Go to: [Admin Console → Apps → Google Workspace → Google Vault](https://admin.google.com/ac/managedsettings/477919301060)
 
 **Turn Vault Off Globally**
 
@@ -640,6 +638,8 @@ Admin Console → Apps → Google Workspace → Google Vault
     
 4.  Click **Save**.
     
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/fcfff740-1660-4a1d-ae33-95e26474bc24.png align="center")
 
 **Turn Vault On for Compliance**
 
@@ -655,6 +655,8 @@ Admin Console → Apps → Google Workspace → Google Vault
     
 4.  Click **Turn on** if a confirmation dialog appears.
     
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/d17507c5-1118-46a8-82b2-e9a922f094a9.png align="center")
 
 The expected result is:
 
