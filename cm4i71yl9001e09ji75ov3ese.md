@@ -370,12 +370,6 @@ Click **Check my progress – Create a shared resource**.
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1c084483-576a-497e-8794-6e8f259673dd.png align="center")
 
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/53ea17c9-57bf-4f68-84ac-f961b33877fa.png align="center")
-
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/064dc534-23fa-49e3-ab41-00f82fe130b7.png align="center")
-
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/532edc5e-3aed-4ab0-b714-076c016f2030.png align="center")
-
 * * *
 
 ### Task 4: Create the Operating Unit OU and Configure Vault
@@ -471,6 +465,8 @@ Security → Recovery information
 Add a valid recovery email address and click **Save**.
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/88791e56-235b-43e3-a69e-faf554599cfd.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/bea656e2-18e6-4114-a698-47609f570ae4.png align="center")
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/e4d87eec-c4e5-4c48-8ccb-33aecce516c6.png align="center")
 
