@@ -290,7 +290,7 @@ Click **Check my progress – Update the organization profile and preferences**.
 
 ### **Task 2: Create the Operating Team Group**
 
-Go to: Admin Console → Directory → Groups → Create group
+Go to: [Admin Console → Directory → Groups → Create group](https://admin.google.com/u/0/ac/groups)
 
 Enter:
 
@@ -301,6 +301,8 @@ Enter:
 | Description | Optional |
 
 Replace `YOUR-LAB-DOMAIN` with the domain of the lab Admin account.
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5bfcb817-9670-439b-894c-050a12c0c53d.png align="center")
 
 Click **Next** and configure:
 
@@ -314,6 +316,8 @@ Complete the group creation.
 > You do not need to add members unless the progress checker specifically requests them.
 
 Click **Check my progress – Create a new group**.
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/43ff8a12-413a-4380-8189-86aa426bd840.png align="center")
 
 * * *
 
@@ -332,6 +336,8 @@ Open **Buildings** or **Manage buildings**, then create:
 
 Complete any other required fields with valid values, then click **Add building** or **Save**.
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/996e9d6b-0318-4a20-a008-97ad1d28497a.png align="center")
+
 **Create the resource feature**
 
 Open **Resource features** and create:
@@ -342,6 +348,8 @@ Open **Resource features** and create:
 | Feature type | `Other` |
 
 Click **Save**.
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/541d0df4-8642-4bb2-a429-6339b47e47ae.png align="center")
 
 **Create the meeting room**
 
@@ -361,6 +369,8 @@ Enter:
 Click **Add resource** or **Save**.
 
 Click **Check my progress – Create a shared resource**.
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1c084483-576a-497e-8794-6e8f259673dd.png align="center")
 
 * * *
 
