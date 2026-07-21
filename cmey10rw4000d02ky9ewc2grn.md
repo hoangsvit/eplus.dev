@@ -5,6 +5,7 @@ seoDescription: "Learn to create and deploy Cloud Run functions using Cloud Stor
 datePublished: 2025-08-30T08:55:28.565Z
 cuid: cmey10rw4000d02ky9ewc2grn
 slug: cloud-run-functions-3-ways-challenge-lab-arc104
+canonical: https://eplus.dev/build-serverless-applications-with-cloud-run-functions-challenge-lab-arc104
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756544085025/a5763c88-15bd-4351-83cc-7af47b0bde5e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756544112055/9a16cf58-f907-434e-ba94-f5bbfdf125aa.png
 tags: cloud-run-functions-qwik-start, cloud-run-functions-3-ways-challenge-lab-arc104, cloud-run-functions-3-ways-challenge-lab, arc104
@@ -29,12 +30,12 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
@@ -49,27 +50,27 @@ You are expected to have the skills and knowledge for these tasks.
 
 You are asked to help a newly formed development team with some of their initial work on a new project. Specifically, they need to automate running code based on specific activities in their Google Cloud project including HTTP requests and new events in Cloud Storage; you receive the following request to complete the following tasks:
 
-* Create a bucket to upload new project files.
+*   Create a bucket to upload new project files.
     
-* Create, deploy, and test a Cloud Storage function that logs new activities in the Cloud Storage bucket.
+*   Create, deploy, and test a Cloud Storage function that logs new activities in the Cloud Storage bucket.
     
-* Create and deploy a function that responds to HTTP requests with minimum instances to limit cold starts.
+*   Create and deploy a function that responds to HTTP requests with minimum instances to limit cold starts.
     
 
 Some standards you should follow:
 
-* Ensure that any needed APIs (such as Cloud Run functions) are successfully enabled.
+*   Ensure that any needed APIs (such as Cloud Run functions) are successfully enabled.
     
-* Ensure that any needed IAM permissions (such as for the Cloud Storage service account) are assigned.
+*   Ensure that any needed IAM permissions (such as for the Cloud Storage service account) are assigned.
     
-* Create all resources in the `us-east4` region, unless otherwise directed.
+*   Create all resources in the `us-east4` region, unless otherwise directed.
     
 
 Each task is detailed below, good luck!
 
 ## Task 1. Create a Cloud Storage bucket
 
-* Create a Cloud Storage bucket in `us-east4` using your Project ID as the bucket name: `qwiklabs-gcp-04-a59145c06193`
+*   Create a Cloud Storage bucket in `us-east4` using your Project ID as the bucket name: `qwiklabs-gcp-04-a59145c06193`
     
 
 Click *Check my progress* to verify the objective.
@@ -78,13 +79,13 @@ Create a Cloud Storage bucket `qwiklabs-gcp-04-a59145c06193`
 
 ## Task 2. Create, deploy, and test a Cloud Storage function
 
-1. Create and deploy a Cloud Function called `cs-logger` that executes every time a new event occurs in the bucket called `qwiklabs-gcp-04-a59145c06193` you created in task 1. The function is written in **Node.js 20**.
+1.  Create and deploy a Cloud Function called `cs-logger` that executes every time a new event occurs in the bucket called `qwiklabs-gcp-04-a59145c06193` you created in task 1. The function is written in **Node.js 20**.
     
-2. Set the **Region** to `us-east4`, and set the **Entry point** (Function to execute) to your function name.
+2.  Set the **Region** to `us-east4`, and set the **Entry point** (Function to execute) to your function name.
     
-3. Deploy the function with **2** maximum instances.
+3.  Deploy the function with **2** maximum instances.
     
-4. Use the following code blocks for the index.js and package.json:
+4.  Use the following code blocks for the index.js and package.json:
     
 
 index.js (replace `eventStorage` with your function name):
@@ -113,7 +114,7 @@ package.json:
 
 **Note:** If you get **permissions error**, please wait a few minutes and try the deployment again. It takes a few minutes for the APIs to be enabled.
 
-5. Test the function by uploading any file to the bucket.
+5.  Test the function by uploading any file to the bucket.
     
 
 Click *Check my progress* to verify the objective.
@@ -122,13 +123,13 @@ Create a Cloud Storage function `cs-logger`
 
 ## Task 3. Create and deploy a HTTP function with minimum instances
 
-1. Create and deploy a HTTP function called `http-responder` that responds to HTTP requests. The function is written in **Node.js 20**.
+1.  Create and deploy a HTTP function called `http-responder` that responds to HTTP requests. The function is written in **Node.js 20**.
     
-2. Set the **Region** to `us-east4`, and set the **Entry point** (Function to execute) to your function name.
+2.  Set the **Region** to `us-east4`, and set the **Entry point** (Function to execute) to your function name.
     
-3. Deploy the function with **1** minimum instance and **2** maximum instances.
+3.  Deploy the function with **1** minimum instance and **2** maximum instances.
     
-4. Use the following code blocks for the index.js and package.json:
+4.  Use the following code blocks for the index.js and package.json:
     
 
 index.js (replace `helloWorld` with your function name):
@@ -160,7 +161,7 @@ Create a HTTP function `http-responder`
 
 **Note:** If you get **permissions error**, please wait a few minutes and try the deployment again. It takes a few minutes for the APIs to be enabled.
 
----
+* * *
 
 ## Solution of Lab
 
@@ -171,7 +172,7 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC104
 source lab.sh
 ```
 
----
+* * *
 
 ### Manual
 
