@@ -456,11 +456,7 @@ Click **Check my progress – Create an OU structure and configure access for Go
 
 ### Task 5: Add Recovery Information
 
-Open the lab administrator’s user profile:
-
-```text
-Admin Console → Directory → Users → Select the lab Admin account
-```
+Open the lab administrator’s user profile: Admin Console → Directory → Users → Select the lab Admin account
 
 Open:
 
