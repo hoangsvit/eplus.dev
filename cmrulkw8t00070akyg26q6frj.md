@@ -198,3 +198,9 @@ curl -LO  https://raw.githubusercontent.com/chayandeokar/Cloud-Skills-2025/refs/
 sudo chmod +x ARC104.sh
 ./ARC104.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=KdaP4Cx7AY0]
