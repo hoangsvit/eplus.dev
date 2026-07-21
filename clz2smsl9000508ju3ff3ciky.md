@@ -5,8 +5,8 @@ seoDescription: "A cloud function is a piece of code that runs in response to an
 datePublished: 2024-07-26T14:24:12.861Z
 cuid: clz2smsl9000508ju3ff3ciky
 slug: cloud-functions-qwik-start-console-gsp081
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745482591797/84b428af-1793-4e29-bb16-5570a927ed9c.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1745482599692/e792eb84-c168-47b5-9e11-208f66d74e7c.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/3de6cf9f-a7fb-453c-820a-d861e7d6f11c.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/3c04d417-c8c2-4af8-b73e-798cf94978b9.png
 tags: cloud-functions-qwik-start-console-gsp081, gsp081, cloud-functions-qwik-start-console, cloud-run-functions-qwik-start-console
 
 ---
@@ -19,11 +19,11 @@ Since cloud functions are event-driven, they only run when something happens. Th
 
 For example, you can use a cloud function to:
 
-* automatically generate thumbnails for images that are uploaded to Cloud Storage.
+*   automatically generate thumbnails for images that are uploaded to Cloud Storage.
     
-* send a notification to a user's phone when a new message is received in Cloud Pub/Sub.
+*   send a notification to a user's phone when a new message is received in Cloud Pub/Sub.
     
-* process data from a Cloud Firestore database and generate a report.
+*   process data from a Cloud Firestore database and generate a report.
     
 
 You can write your code in any language that supports Node.js, and you can deploy your code to the cloud with a few clicks. Once your cloud function is deployed, it will automatically start running in response to events.
@@ -32,22 +32,22 @@ This hands-on lab shows you how to create, deploy, and test a cloud function usi
 
 ### What you'll do
 
-* Create a cloud function
+*   Create a cloud function
     
-* Deploy and test the function
+*   Deploy and test the function
     
-* View logs
+*   View logs
     
 
 ## **Task 1. Create a function**
 
 In this step, you're going to create a cloud function using the console.
 
-1. In the console, click the **Navigation menu ()** &gt; **Cloud Functions**.
+1.  In the console, click the **Navigation menu ()** > **Cloud Functions**.
     
-2. Click **Create function**.
+2.  Click **Create function**.
     
-3. In the **Create function** dialog, enter the following values:
+3.  In the **Create function** dialog, enter the following values:
     
 
 | **Field** | **Value** |
@@ -66,11 +66,11 @@ You deploy the function in the next section.
 
 ## **Task 2. Deploy the function**
 
-1. Still in the **Create function** dialog, in Source code for **Inline editor** use the default `helloWorld` function implementation already provided for index.js.
+1.  Still in the **Create function** dialog, in Source code for **Inline editor** use the default `helloWorld` function implementation already provided for index.js.
     
-2. At the bottom, click **Deploy** to deploy the function.
+2.  At the bottom, click **Deploy** to deploy the function.
     
-3. After you click **Deploy**, the console redirects to the **Cloud Functions Overview** page.
+3.  After you click **Deploy**, the console redirects to the **Cloud Functions Overview** page.
     
 
 \*\*Note:\*\*While the function is being deployed, the icon next to it is a small spinner. When it's deployed, the spinner is a green check mark.
@@ -87,15 +87,15 @@ Deploy the function.
 
 Test the deployed function.
 
-1. In the **Cloud Functions Overview** page, click on **GCFunction**.
+1.  In the **Cloud Functions Overview** page, click on **GCFunction**.
     
     ![Cloud Functions Overview page](https://cdn.qwiklabs.com/ntNLM4%2FRUocarLOxoKvDXPRSx0vIE0nD4aZOMFFzwhY%3D align="left")
     
-2. On function details dashboard, to test the function click on **TESTING**.
+2.  On function details dashboard, to test the function click on **TESTING**.
     
     ![Cloud Functions details page](https://cdn.qwiklabs.com/h2GXcp0cfCzmfAN13imzhFPR5FuUpjXnFpxn4W%2B30tg%3D align="left")
     
-3. In the Triggering event field, enter the following text between the brackets `{}` and click **Test the function**.
+3.  In the Triggering event field, enter the following text between the brackets `{}` and click **Test the function**.
     
     ```apache
     "message":"Hello World!"
@@ -114,11 +114,11 @@ In the **Logs** field, a status code of **200** indicates success. (It may take 
 
 View logs from the Cloud Functions Overview page.
 
-1. Click the blue arrow to go back to the **Cloud Functions Overview** page.
+1.  Click the blue arrow to go back to the **Cloud Functions Overview** page.
     
     ![Blue arrow](https://cdn.qwiklabs.com/9H5sRV3E8z2I%2FoUmhqD3ODBGMAdnPlX2E3TUzSkOnmg%3D align="left")
     
-2. Display the menu for your function, and click **View logs**.
+2.  Display the menu for your function, and click **View logs**.
     
     ![View logs option in the function menu](https://cdn.qwiklabs.com/r%2FoV8YPZn8fKg5t%2B6KJZWvF9uNpJoc3zFf2Khuw%2Fkhg%3D align="left")
     
@@ -139,21 +139,21 @@ Below are multiple-choice questions to reinforce your understanding of this lab'
 
 **Cloud Functions is a serverless execution environment for event driven services on Google Cloud.**
 
-* True
+*   True
     
-* False
+*   False
     
 
 **Which type of trigger is used while creating Cloud Function in the lab?**
 
-* Firebase
+*   Firebase
     
-* Google Cloud Pub/Sub
+*   Google Cloud Pub/Sub
     
-* Cloud StorageHTTP
+*   Cloud StorageHTTP
     
 
----
+* * *
 
 ## Solution of Lab
 
@@ -199,7 +199,7 @@ sudo chmod +x lab.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755654938711/22b9a73d-429a-4a5b-a06d-1bceb80d98a8.png align="center")
 
----
+* * *
 
 **Solution 2**
 
