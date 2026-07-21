@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-12-10T08:22:59.421Z
 cuid: cm4i71yl9001e09ji75ov3ese
 slug: configure-your-workplace-google-workspace-for-it-admins-challenge-lab-gsp377
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733817830187/321d3bf5-9a7c-4754-9455-f797e07fddb8.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1733818963029/8fea1afc-3919-49e7-b650-c30975d81424.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/19cde3a9-7be4-4da5-b45e-91b7896a30eb.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/02628e6c-bc9a-48b8-a227-400bf3444eaa.png
 tags: configure-your-workplace-google-workspace-for-it-admins-challenge-lab-gsp377, gsp377
 
 ---
@@ -31,12 +31,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -57,45 +57,45 @@ If your lab requires other resource identifiers or connection-related informatio
 
 #### **Sign in to the Admin Console**
 
-1. Click **Open Google Workspace Admin Console**.
+1.  Click **Open Google Workspace Admin Console**.
     
 
 ***Tip:*** Open the tabs in separate windows, side-by-side.
 
 **Note:** If you see the **Verify your account** dialog:
 
-* Click **Next**.
+*   Click **Next**.
     
-* Click the prefilled user.
+*   Click the prefilled user.
     
-* Click **Use another account**.
+*   Click **Use another account**.
     
 
-2. On the Sign in page, log in using the **User Email** and **Password** details provided.
+2.  On the Sign in page, log in using the **User Email** and **Password** details provided.
     
-3. When prompted, click **I understand** and **ACCEPT TERMS OF SERVICE** to accept all terms and conditions.
+3.  When prompted, click **I understand** and **ACCEPT TERMS OF SERVICE** to accept all terms and conditions.
     
 
 After a few seconds, the *Admin Console* opens.
 
-4. Right-click **VERIFY DOMAIN** in either the yellow box at the top or the red box in the *Domains* card, and select **Open link in new tab**.
+4.  Right-click **VERIFY DOMAIN** in either the yellow box at the top or the red box in the *Domains* card, and select **Open link in new tab**.
     
     **Note:** To complete this step in a real-life scenario, you'd need to add an actual DNS record.
     
-5. Click the new tab, called **Domain setup**, to complete the Google Workspace domain verification steps.
+5.  Click the new tab, called **Domain setup**, to complete the Google Workspace domain verification steps.
     
-6. On the *Let's set up your domain* page, click **Get Started**.
+6.  On the *Let's set up your domain* page, click **Get Started**.
     
-7. Select the **My domain uses a different host** checkbox and then click **Continue**.
+7.  Select the **My domain uses a different host** checkbox and then click **Continue**.
     
-8. At the bottom of the *Add verification code* page, select the **Come back here and confirm once you have updated the code on your domain host** checkbox, and then click **Confirm**.
+8.  At the bottom of the *Add verification code* page, select the **Come back here and confirm once you have updated the code on your domain host** checkbox, and then click **Confirm**.
     
-9. Wait until it says **Your domain is verified!** and then close the *Domain setup* tab.
+9.  Wait until it says **Your domain is verified!** and then close the *Domain setup* tab.
     
     **Note:** Do not click **Activate Gmail**.
     
-10. Return to the **Admin Console** tab and refresh the page.
-    
+10.  Return to the **Admin Console** tab and refresh the page.
+     
 
 ## **Challenge scenario**
 
@@ -103,15 +103,15 @@ Your company acquired a small company that will become a new division. As part o
 
 As a Workspace administrator you need to perform following administrative operations:
 
-* Update organization profile and preferences
+*   Update organization profile and preferences
     
-* Create a new group
+*   Create a new group
     
-* Create a shared resource
+*   Create a shared resource
     
-* Create an organizational unit (OU) structure and configure access for Google Vault
+*   Create an organizational unit (OU) structure and configure access for Google Vault
     
-* Enable super admin recovery
+*   Enable super admin recovery
     
 
 ## **Task 1. Update the organization profile and preferences**
@@ -197,10 +197,10 @@ Add user account recovery information
 
 Check my progress
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=HFvux0cuUnE&ab_channel=Techcps] 
+%[https://www.youtube.com/watch?v=3dkSgnCNsSA] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1733818945067/3fe2ff9f-75c2-4769-89aa-c79a5c4557e1.png align="center")
