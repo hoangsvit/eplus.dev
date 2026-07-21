@@ -323,7 +323,7 @@ Click **Check my progress – Create a new group**.
 
 ### Task 3: Create the Shared Calendar Resource
 
-Go to: Admin Console → Directory → Buildings and resources → Manage resources
+Go to: [Admin Console → Directory → Buildings and resources → Manage resources](https://admin.google.com/ac/calendarresources/resources)
 
 **Create the building**
 
@@ -372,6 +372,12 @@ Click **Check my progress – Create a shared resource**.
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1c084483-576a-497e-8794-6e8f259673dd.png align="center")
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/53ea17c9-57bf-4f68-84ac-f961b33877fa.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/064dc534-23fa-49e3-ab41-00f82fe130b7.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/532edc5e-3aed-4ab0-b714-076c016f2030.png align="center")
+
 * * *
 
 ### Task 4: Create the Operating Unit OU and Configure Vault
@@ -413,7 +419,7 @@ User → More options → Change organizational unit
 
 **Turn off Vault for the root organization**
 
-Go to: Admin Console → Apps → Google Workspace → [Admin Console → Apps → Google Workspace → Google Vault](https://admin.google.com/ac/managedsettings/477919301060)
+Go to: [Admin Console → Apps → Google Workspace → Google Vault](https://admin.google.com/ac/managedsettings/477919301060)
 
 1.  Select the root organizational unit.
     
