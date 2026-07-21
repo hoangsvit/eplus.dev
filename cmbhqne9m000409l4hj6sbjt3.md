@@ -502,11 +502,7 @@ This guide includes only the tasks required by **Check my progress**.
 
 **Create the Organizational Units**
 
-Go to:
-
-```text
-Admin Console → Directory → Organizational units
-```
+Go to: [Admin Console → Directory → Organizational units](https://admin.google.com/u/0/ac/orgunits)
 
 Create these three organizational units directly under **Google Workspace Labs**:
 
@@ -526,13 +522,12 @@ Google Workspace Labs
 └── Contractors
 ```
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/3ce31b10-68c8-416c-b448-250660205c8e.png align="center")
+
+  
 **Create Jamie Marketeer**
 
-Go to:
-
-```text
-Admin Console → Directory → Users → Add new user
-```
+Go to: [Admin Console → Directory → Users → Add new user](https://admin.google.com/u/0/ac/user/bulkadd)
 
 Enter:
 
@@ -591,11 +586,7 @@ Click **Check my progress** for **Create OU structure and new users**.
 
 ### Task 2: Disable Gmail for Contractors
 
-Go to:
-
-```text
-Admin Console → Apps → Google Workspace → Gmail
-```
+Go to: [Admin Console → Apps → Google Workspace → Gmail](https://admin.google.com/ac/managedsettings/740348119625?journey=217)
 
 If Google asks you to verify the domain or activate services:
 
