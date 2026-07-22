@@ -23,13 +23,13 @@ This lab is recommended for students who have enrolled in the [Mitigate Threats 
 
 ### Topics tested
 
-* Create mute rules for Cymbal Bank
+*   Create mute rules for Cymbal Bank
     
-* Analyze and fix Cymbal Bank's high vulnerability findings
+*   Analyze and fix Cymbal Bank's high vulnerability findings
     
-* Identify application vulnerabilities with SCC's security scanning features
+*   Identify application vulnerabilities with SCC's security scanning features
     
-* Export Cymbal Bank Findings to a Google Cloud Storage Bucket
+*   Export Cymbal Bank Findings to a Google Cloud Storage Bucket
     
 
 ## Setup and requirements
@@ -42,12 +42,12 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
@@ -66,9 +66,9 @@ In this challenge, you are a cloud security engineer tasked with securing Cymbal
 
 First, make some baseline configurations to Cymbal Bank's environment, so you can implement robust security controls with Security Command Center.
 
-1. Open the navigation menu and select **Security &gt; Security Command Center &gt; Findings**.
+1.  Open the navigation menu and select **Security > Security Command Center > Findings**.
     
-2. From the time range selector, select **Last 180 days**. Your output should be similar to the following:
+2.  From the time range selector, select **Last 180 days**. Your output should be similar to the following:
     
 
 ![Active vulnerabilities graph over 180 days](https://cdn.qwiklabs.com/zKNta9nXyA0rXFYoEcMXj0X1ixXQ0LF8DJLgUyx8u7k%3D align="left")
@@ -79,7 +79,7 @@ First, make some baseline configurations to Cymbal Bank's environment, so you ca
 
 Cymbal Bank is not interested in surfacing findings against certain resources in their Google Cloud environment.
 
-1. For this task, create three mute rules that address the following:
+1.  For this task, create three mute rules that address the following:
     
 
 | **Name** | **Finding** | **Description** |
@@ -102,9 +102,9 @@ Create mute rules for Cymbal Bank
 
 Cymbal Bank wants to remove two high severity Findings in their Google Cloud environment. You are tasked with using SCC to identify and follow the steps laid out to fix the following high severity Findings so they are no longer vulnerable:
 
-* Open SSH port
+*   Open SSH port
     
-* Open RDP port
+*   Open RDP port
     
 
 Ensure that these rules are not facing the public internet. You can use the IP address `35.235.240.0/20` as a replacement for the ones facing the public internet.
@@ -123,19 +123,19 @@ Cymbal Bank wants to test-run Web Security Scanner against a sample application 
 
 To run a Web Security scan, the External IP of the Compute Engine VM Instance needs to be static.
 
-1. On the Navigation menu, select **Compute Engine** &gt; **VM instances** &gt; **cls-vm**. On the Details page, click **Edit**.
+1.  On the Navigation menu, select **Compute Engine** > **VM instances** > **cls-vm**. On the Details page, click **Edit**.
     
-2. In the **Network Interface** section, expand the default network.
+2.  In the **Network Interface** section, expand the default network.
     
-3. Click the "External IPv4 address" dropdown and click **Reserve Static External IP address** .
+3.  Click the "External IPv4 address" dropdown and click **Reserve Static External IP address** .
     
-4. Give it the name `static-ip` and click **Reserve**.
+4.  Give it the name `static-ip` and click **Reserve**.
     
-5. Click **Save**.
+5.  Click **Save**.
     
-6. Find the external IP address of the instance.
+6.  Find the external IP address of the instance.
     
-7. Replace `YOUR_EXTERNAL_IP` in the URL field below with that IP address, and open the URL in a new browser tab:
+7.  Replace `YOUR_EXTERNAL_IP` in the URL field below with that IP address, and open the URL in a new browser tab:
     
 
 ```apache
@@ -158,20 +158,20 @@ Run a Web Security Scan
 
 Cymbal Bank wants to keep information about security incidents, vulnerabilities and misconfigurations for several years for auditing purposes. As a Cloud Security Engineer, your final task is to export all existing Findings to a Google Cloud Storage Bucket with the following specifications:
 
-* **Bucket name:** scc-export-bucket-`qwiklabs-gcp-02-97aaa9bbc076`
+*   **Bucket name:** scc-export-bucket-`qwiklabs-gcp-02-97aaa9bbc076`
     
-* **Location type:** regional
+*   **Location type:** regional
     
-* **Location:** `us-west1`
+*   **Location:** `us-west1`
     
 
 The export should have the following properties:
 
-* **Filename:** `findings.jsonl`
+*   **Filename:** `findings.jsonl`
     
-* **Format:** JSONL
+*   **Format:** JSONL
     
-* **Time Range:** All time
+*   **Time Range:** All time
     
 
 Click **Check my progress** to verify the objective.
@@ -180,9 +180,11 @@ Export Cymbal Bank Findings to Google Cloud Storage
 
 **Check my progress**
 
----
+* * *
 
 ## Solution of Lab
+
+### Quick
 
 %[https://youtu.be/aSUdaONi4CI] 
 
@@ -201,7 +203,7 @@ sudo chmod +x gsp382-1.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759204268395/28bea4eb-ab9a-4490-88e4-597cad290fd8.png align="center")
 
-* **Reserve Static External IP** address name **static-ip**
+*   **Reserve Static External IP** address name **static-ip**
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759204436741/5a55d5d1-9f46-40c1-94ef-af4bbece8721.png align="center")
@@ -226,3 +228,9 @@ sudo chmod +x gsp382-2.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759204861949/d515715b-5bd6-472b-997f-8d175b7378d8.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759204871008/a68495f6-e63e-4a13-93ba-1ef7db2f9288.png align="center")
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=XaEy5QHplLU]
