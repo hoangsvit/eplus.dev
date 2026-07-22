@@ -5,7 +5,6 @@ seoDescription: "APIs (Application Programming Interfaces) are software programs
 datePublished: 2024-08-17T11:47:25.893Z
 cuid: clzy2pwsl000y09mje9aletoc
 slug: introduction-to-apis-in-google-cloud-gsp294
-cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/6b746b5c-4862-46a5-b458-dd87b47028b0.png
 ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/bc57a274-28cd-4272-be97-738da8218727.png
 tags: introduction-to-apis-in-google-cloud-gsp294, gsp294, introduction-to-apis-in-google-cloud
 
@@ -537,7 +536,7 @@ Click **Check my progress** to verify your performed task. The assessment score 
 
 ## Solution of Lab
 
-%[https://youtu.be/OUxSJ02OmTs] 
+%[https://www.youtube.com/watch?v=RibVUDvSeRY] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP294/lab.sh
@@ -551,3 +550,9 @@ curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Introduc
 sudo chmod +x gsp294.sh
 ./gsp294.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=XpWivY7lk5s]
