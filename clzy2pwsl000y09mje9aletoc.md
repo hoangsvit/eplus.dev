@@ -5,8 +5,8 @@ seoDescription: "APIs (Application Programming Interfaces) are software programs
 datePublished: 2024-08-17T11:47:25.893Z
 cuid: clzy2pwsl000y09mje9aletoc
 slug: introduction-to-apis-in-google-cloud-gsp294
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748324129428/b3e6577e-87a6-4ef7-9f23-751d758843e8.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1748324146340/16886ac5-a39a-4fea-8ca3-acb218a7e754.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/6b746b5c-4862-46a5-b458-dd87b47028b0.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/bc57a274-28cd-4272-be97-738da8218727.png
 tags: introduction-to-apis-in-google-cloud-gsp294, gsp294, introduction-to-apis-in-google-cloud
 
 ---
@@ -31,9 +31,9 @@ When Qwiklabs provisions a new Google Cloud Project for a lab instance, it enabl
 
 As you gain proficiency as a Google Cloud user, you use more APIs in your workflow. Experienced users integrate and use Cloud APIs in their local environments almost exclusively, rarely using the Cloud Console to run tools and services. Dozens of Hands-on Labs are available that give you practice with various Google APIs in different languages. Here are two for example:
 
-* [Cloud Natural Language API: Qwik Start](https://www.cloudskillsboost.google/catalog_lab/709)
+*   [Cloud Natural Language API: Qwik Start](https://www.cloudskillsboost.google/catalog_lab/709)
     
-* [Entity and Sentiment Analysis with the Natural Language API](https://www.cloudskillsboost.google/catalog_lab/1113)
+*   [Entity and Sentiment Analysis with the Natural Language API](https://www.cloudskillsboost.google/catalog_lab/1113)
     
 
 In this lab, you explore the [API library](https://console.cloud.google.com/apis/library?project=hello-world-sean-200116&folder&organizationId) to see what Google APIs are available.
@@ -42,28 +42,28 @@ In this lab, you explore the [API library](https://console.cloud.google.com/apis
 
 In this lab, you learn about:
 
-* Google APIs
+*   Google APIs
     
-* API architecture
+*   API architecture
     
-* HTTP protocol and methods
+*   HTTP protocol and methods
     
-* Endpoints
+*   Endpoints
     
-* REST (Representational State Transfer) and RESTful APIs
+*   REST (Representational State Transfer) and RESTful APIs
     
-* JSON (JavaScript Object Notation)
+*   JSON (JavaScript Object Notation)
     
-* API authentication services
+*   API authentication services
     
 
 ## **Prerequisites**
 
 This is an **introductory level** lab. This assumes little to no prior knowledge of APIs or experience using Google APIs. Familiarity with shell environments and command line interface tools is recommended, but not required. Familiarity with the Cloud Console and Cloud Storage is recommended, so please at a minimum take the following labs before attempting this one:
 
-* [A Tour of Qwiklabs and Google Cloud](https://www.cloudskillsboost.google/catalog_lab/1281)
+*   [A Tour of Qwiklabs and Google Cloud](https://www.cloudskillsboost.google/catalog_lab/1281)
     
-* [Cloud Storage: Qwik Start - Cloud Console](https://www.cloudskillsboost.google/catalog_lab/1089)
+*   [Cloud Storage: Qwik Start - Cloud Console](https://www.cloudskillsboost.google/catalog_lab/1089)
     
 
 Once you're ready, scroll down and follow the steps below to set up your lab environment.
@@ -78,29 +78,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -108,7 +108,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-56246e0c1a53@qwiklabs.net
@@ -116,9 +116,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     xIjbFjQ9KBcy
@@ -126,19 +126,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -151,7 +151,7 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell**
+1.  Click **Activate Cloud Shell**
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="left")
     
@@ -166,14 +166,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-04-04055b00f7
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-2. (Optional) You can list the active account name with this command:
+2.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-3. Click **Authorize**.
+3.  Click **Authorize**.
     
 
 **Output:**
@@ -186,7 +186,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-4. (Optional) You can list the project ID with this command:
+4.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -244,25 +244,25 @@ An HTTP method commonly used for creating new resources.DELETEPOSTPUTGET
 
 In this section, you explore the API library and enable an API. The API library is a centralized location for all Google APIs. You can use the API library to enable, disable, and manage APIs across your projects.
 
-1. Open the **Navigation menu** and select **APIs & Services &gt; Library**.
+1.  Open the **Navigation menu** and select **APIs & Services > Library**.
     
 
 The **API library** offers quick access, documentation, and configuration options for 200+ Google APIs. Even though it's housed in the Console, it's important to note that the library offers access to *all Google APIs* — not only Google Cloud centric ones. This highlights an important theme: APIs are fundamental to all Google services, and Cloud APIs don't all fall under the Google Cloud category.
 
 Time for some hands-on practice enabling an API in the API library. Assume that you are a mobile developer for a fitness site and you want to use the [Google Fitness API](https://developers.google.com/fit/) to build your application.
 
-2. Type `Fitness API` and press **ENTER** into the In the **Search for APIs and Service** search bar,.
+2.  Type `Fitness API` and press **ENTER** into the In the **Search for APIs and Service** search bar,.
     
-3. Click the **Fitness API** from the result list. Then, click **Enable**.
+3.  Click the **Fitness API** from the result list. Then, click **Enable**.
     
 
 The **Fitness API** page opens and the API **Status** is **Enabled**.
 
 The API library provides links to tutorials and documentation, terms of service, and interactive methods offered in the APIs Explorer. To see metric and usage information, use the **APIs & Services** dashboard. In this page, you view and request quotas, control access to resources and data, and view metrics.
 
-4. To see one of these features in action, select the **QUOTAS & SYSTEM LIMITS** tab.
+4.  To see one of these features in action, select the **QUOTAS & SYSTEM LIMITS** tab.
     
-5. This shows you how many queries this API allows per day and per minute.
+5.  This shows you how many queries this API allows per day and per minute.
     
 
 You've now provisioned a non-Cloud API. In the next sections, you learn about the architecture and basic functioning of APIs. You then practice using the Cloud Storage API.
@@ -283,16 +283,16 @@ Details your project's usage of specific APIs, including traffic levels, error r
 
 To apply what you've learned, you make [Cloud Storage REST/JSON API](https://cloud.google.com/storage/docs/json_api/v1/) calls in Cloud Shell to create buckets and upload content.
 
-1. In a new tab, open [Google Cloud Storage JSON API](https://console.cloud.google.com/apis/library/storage-api.googleapis.com?_ga=2.263178572.-1708473792.1539023585) to ensure that the Cloud Storage API is enabled. Notice the API is enabled.
+1.  In a new tab, open [Google Cloud Storage JSON API](https://console.cloud.google.com/apis/library/storage-api.googleapis.com?_ga=2.263178572.-1708473792.1539023585) to ensure that the Cloud Storage API is enabled. Notice the API is enabled.
     
-2. In Cloud Shell, run the following command to create and edit a file called `values.json:`
+2.  In Cloud Shell, run the following command to create and edit a file called `values.json:`
     
 
 ```apache
 nano values.json
 ```
 
-3. Inside the `nano` text editor copy and paste the following. Since the bucket must have a [unique bucket name](https://cloud.google.com/storage/docs/naming), the **Project ID** is used in the bucket name:
+3.  Inside the `nano` text editor copy and paste the following. Since the bucket must have a [unique bucket name](https://cloud.google.com/storage/docs/naming), the **Project ID** is used in the bucket name:
     
 
 ```json
@@ -305,7 +305,7 @@ nano values.json
 
 **Note:** You can use your Project ID as your bucket name since it is globally unique.
 
-4. Once you have, exit out of the `nano` text editor by pressing **CTRL+X**, **Y**, and then **ENTER**.
+4.  Once you have, exit out of the `nano` text editor by pressing **CTRL+X**, **Y**, and then **ENTER**.
     
 
 You just created a JSON file that contains an object that has three key-value pairs: `name`, `location`, and `storageClass`. These are the same values that are required when you make a bucket with the `gsutil` command line tool or in the console.
@@ -318,9 +318,9 @@ Before a bucket can be created with the Cloud Storage REST/JSON API, you need to
 
 **Authentication** and **authorization** are two terms that are often used interchangeably, but they are not the same thing.
 
-* *Authentication* refers to the process of determining a client's identity.
+*   *Authentication* refers to the process of determining a client's identity.
     
-* *Authorization* refers to the process of determining what permissions an authenticated client has for a set of resources.
+*   *Authorization* refers to the process of determining what permissions an authenticated client has for a set of resources.
     
 
 Authentication identifies who you are, and authorization determines what you can do.
@@ -349,27 +349,27 @@ For a lab specifically dealing with service accounts and roles, refer to: [Servi
 
 Since Cloud Storage is a platform that hosts and provides access to user data, you need to generate an OAuth token before you use its services.
 
-1. Open the [OAuth 2.0 playground](https://developers.google.com/oauthplayground/) in a new tab. This is a service that allows you to generate OAuth tokens with ease.
+1.  Open the [OAuth 2.0 playground](https://developers.google.com/oauthplayground/) in a new tab. This is a service that allows you to generate OAuth tokens with ease.
     
-2. Scroll down and select **Cloud Storage API V1**.
+2.  Scroll down and select **Cloud Storage API V1**.
     
-3. Then select the **https://www.googleapis.com/auth/devstorage.full\_control** scope.
+3.  Then select the **https://www.googleapis.com/auth/devstorage.full\_control** scope.
     
-4. Click on the blue box that says **Authorize APIs**. This opens the Google Sign-in page.
+4.  Click on the blue box that says **Authorize APIs**. This opens the Google Sign-in page.
     
-5. Select your username and then click **Allow** when prompted for permissions.
+5.  Select your username and then click **Allow** when prompted for permissions.
     
 
 OAuth 2.0 Playground opens, notice that Step 2 has an authorization code generated.
 
-6. Click on **Exchange authorization code for tokens**. If you get moved to Step 3, click on the Step 2 panel.
+6.  Click on **Exchange authorization code for tokens**. If you get moved to Step 3, click on the Step 2 panel.
     
-7. **Copy** the access token to use in the next step.
+7.  **Copy** the access token to use in the next step.
     
 
 ## **Task 4. Create a bucket with the Cloud Storage JSON/REST API**
 
-1. Return to your Cloud Shell session. At the CLI prompt, type in `ls` and hit enter. You should see the `values.json` file that you created before and a `README-cloudshell.txt` file:
+1.  Return to your Cloud Shell session. At the CLI prompt, type in `ls` and hit enter. You should see the `values.json` file that you created before and a `README-cloudshell.txt` file:
     
 
 Output:
@@ -378,21 +378,21 @@ Output:
 README-cloudshell.txt    values.json
 ```
 
-2. Run the following command to set your OAuth2 token as an environment variable, replacing `<YOUR_TOKEN>` with the access token you generated:
+2.  Run the following command to set your OAuth2 token as an environment variable, replacing `<YOUR_TOKEN>` with the access token you generated:
     
 
 ```apache
 export OAUTH2_TOKEN=<YOUR_TOKEN>
 ```
 
-3. Run the following command to set your Project ID as an environment variable:
+3.  Run the following command to set your Project ID as an environment variable:
     
 
 ```apache
 export PROJECT_ID=$(gcloud config get-value project)
 ```
 
-4. Now run the following command to create a Cloud Storage bucket:
+4.  Now run the following command to create a Cloud Storage bucket:
     
 
 ```apache
@@ -402,7 +402,7 @@ curl -X POST --data-binary @values.json \
     "https://www.googleapis.com/storage/v1/b?project=$PROJECT_ID"
 ```
 
-5. You should receive a similar output:
+5.  You should receive a similar output:
     
 
 ```json
@@ -436,7 +436,7 @@ This request is the culmination of everything you've learned about so far. You u
 
 ### View your newly created Cloud Storage bucket
 
-* To see your newly created bucket, from the **Navigation menu** select **Cloud Storage &gt; Buckets**.
+*   To see your newly created bucket, from the **Navigation menu** select **Cloud Storage > Buckets**.
     
 
 ### Test completed task
@@ -451,14 +451,14 @@ Create a bucket with the Cloud Storage JSON/REST API
 
 You can use the Cloud Storage JSON/REST API to upload files to buckets.
 
-1. Save the following image to your computer and name it **demo-image.png**:
+1.  Save the following image to your computer and name it **demo-image.png**:
     
 
 ![Dog](https://cdn.qwiklabs.com/PviQ6obeDGvaMjZ7ZRe2VOAArIKl%2B%2FNrBAttlgILNnY%3D align="left")
 
-2. In your Cloud Shell session, click on the three-dotted menu icon in the top-right corner. Click **Upload** &gt; **Choose File**. Select and upload `demo-image.png` file. This adds the image to your directory.
+2.  In your Cloud Shell session, click on the three-dotted menu icon in the top-right corner. Click **Upload** > **Choose File**. Select and upload `demo-image.png` file. This adds the image to your directory.
     
-3. Run the following command to get the path to the image file:
+3.  Run the following command to get the path to the image file:
     
 
 ```apache
@@ -471,21 +471,21 @@ You should receive a similar output:
 /home/gcpstaging25084_student/demo-image.png
 ```
 
-4. Set the file path as an environment variable by running the following command, replacing `<DEMO_IMAGE_PATH>` with your output from the previous command:
+4.  Set the file path as an environment variable by running the following command, replacing `<DEMO_IMAGE_PATH>` with your output from the previous command:
     
 
 ```apache
 export OBJECT=<DEMO_IMAGE_PATH>
 ```
 
-5. Set your bucket name as an environment variable by running the following command:
+5.  Set your bucket name as an environment variable by running the following command:
     
 
 ```apache
 export BUCKET_NAME=qwiklabs-gcp-04-04055b00f784-bucket
 ```
 
-6. Now run the following command to upload the demo image to your Cloud Storage bucket:
+6.  Now run the following command to upload the demo image to your Cloud Storage bucket:
     
 
 ```apache
@@ -519,21 +519,21 @@ You should receive a similar output:
 }
 ```
 
-7. To see the image that was added to your bucket, open the navigation menu and select **Cloud Storage &gt; Buckets**.
+7.  To see the image that was added to your bucket, open the navigation menu and select **Cloud Storage > Buckets**.
     
-8. Click on the name of your bucket to see that `demo-image` has been added:
+8.  Click on the name of your bucket to see that `demo-image` has been added:
     
 
 ![demo-image highlighted](https://cdn.qwiklabs.com/p50IqvDGjWmHD2wN0JoUD7JDIlE7Awa6ZysiptreguQ%3D align="left")
 
-9. Click on the image name to open the **Object details** page.
+9.  Click on the image name to open the **Object details** page.
     
 
 ### Test completed task
 
 Click **Check my progress** to verify your performed task. The assessment score updates ff you have successfully uploaded a file using the Cloud Storage JSON/REST API
 
----
+* * *
 
 ## Solution of Lab
 
