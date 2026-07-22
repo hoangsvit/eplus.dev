@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-08-22T07:24:13.253Z
 cuid: cm04yiog5000y0alcc93xa0zu
 slug: mitigate-threats-and-vulnerabilities-with-security-command-center-challenge-lab-gsp382
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759203694609/a656e840-d960-45a6-bfef-a1bc0e523f44.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1759203667856/61cf6687-1aa1-4f8d-b0d9-c35287cce3c7.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/421a7cf3-afa7-4ca9-95be-e280b28984b6.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/931e32d8-7c45-4411-986e-fe018446eaf5.png
 tags: mitigate-threats-and-vulnerabilities-with-security-command-center-challenge-lab-gsp382, gsp382, 2025-mitigate-threats-and-vulnerabilities-with-security-command-center-challenge-lab-gsp382, mitigate-threats-and-vulnerabilities-with-security-command-center-challenge-lab
 
 ---
