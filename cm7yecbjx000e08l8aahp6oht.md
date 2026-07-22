@@ -5,8 +5,8 @@ seoDescription: "Sensitive Data Protection is a fully managed service designed t
 datePublished: 2025-03-07T06:30:25.918Z
 cuid: cm7yecbjx000e08l8aahp6oht
 slug: enabling-sensitive-data-protection-discovery-for-bigquery-gsp1282
-cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/09f6f616-8ba5-4bfc-90a7-086cf237398f.png
-ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/baf7b28e-7ef4-4c8d-99f9-cc22b7317703.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a4e44e19-c906-45b0-936d-7451d69c40db.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/04a796a5-0385-471e-bc95-0b7fb78cbfd7.png
 tags: enabling-sensitive-data-protection-discovery-for-bigquery-gsp1282, enabling-sensitive-data-protection-discovery-for-bigquery, gsp1282
 
 ---
