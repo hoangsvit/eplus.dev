@@ -15,15 +15,15 @@ tags: apis-explorer-cloud-storage-gsp421, apis-explorer-cloud-storage, gsp421
 
 The [Google APIs Explorer](http://developers.google.com/apis-explorer/) is a tool that helps you explore various Google APIs interactively. With the APIs Explorer, you can:
 
-* Browse quickly through available APIs and versions.
+*   Browse quickly through available APIs and versions.
     
-* See methods available for each API and what parameters they support along with inline documentation.
+*   See methods available for each API and what parameters they support along with inline documentation.
     
-* Execute requests for any method and see responses in real-time.
+*   Execute requests for any method and see responses in real-time.
     
-* Make authenticated and authorized API calls.
+*   Make authenticated and authorized API calls.
     
-* Search across all services, methods, and your recent requests to quickly find what you are looking for.
+*   Search across all services, methods, and your recent requests to quickly find what you are looking for.
     
 
 [Cloud Storage](https://cloud.google.com/storage/) allows world-wide storage and retrieval of any amount of data at any time. You can use Cloud Storage for a range of scenarios including serving website content, storing data for archival and disaster recovery, or distributing large data objects to users via direct download.
@@ -34,15 +34,15 @@ In this lab, you will use the APIs Explorer to make Cloud Storage API requests t
 
 In this lab, you will:
 
-* Create Cloud Storage buckets using the APIs Explorer.
+*   Create Cloud Storage buckets using the APIs Explorer.
     
-* Upload image files to your Cloud Storage bucket.
+*   Upload image files to your Cloud Storage bucket.
     
-* Copy an image file and add it to a Cloud Storage bucket using the APIs Explorer.
+*   Copy an image file and add it to a Cloud Storage bucket using the APIs Explorer.
     
-* Delete image files from your Cloud Storage bucket using the APIs Explorer.
+*   Delete image files from your Cloud Storage bucket using the APIs Explorer.
     
-* Delete a Cloud Storage bucket using the APIs Explorer.
+*   Delete a Cloud Storage bucket using the APIs Explorer.
     
 
 ## **Setup and requirements**
@@ -55,29 +55,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -85,7 +85,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-e4a582c6159f@qwiklabs.net
@@ -93,9 +93,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     2dosNDTLjuaC
@@ -103,19 +103,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -126,27 +126,27 @@ After a few moments, the Google Cloud console opens in this tab.
 
 ## **Task 1. Create Cloud Storage Buckets**
 
-1. To access the Cloud Storage APIs Explorer tool, from the **Navigation menu** select **APIs & Services** &gt; **Library**.
+1.  To access the Cloud Storage APIs Explorer tool, from the **Navigation menu** select **APIs & Services** > **Library**.
     
-2. In the search bar, type **Cloud Storage**.
+2.  In the search bar, type **Cloud Storage**.
     
-3. Click on the **Google Cloud Storage JSON API** from the results list.
+3.  Click on the **Google Cloud Storage JSON API** from the results list.
     
-4. Make sure that API is enabled, if not click **Enable**.
+4.  Make sure that API is enabled, if not click **Enable**.
     
-5. Open the [Buckets: insert reference](https://cloud.google.com/storage/docs/json_api/v1/buckets/insert). This will open a new tab with the APIs Explorer page loaded.
+5.  Open the [Buckets: insert reference](https://cloud.google.com/storage/docs/json_api/v1/buckets/insert). This will open a new tab with the APIs Explorer page loaded.
     
 
 You will now be on the APIs Explorer page.
 
 **Note:** In the next section you are using the `insert` method from **Cloud Storage JSON API**. You can view all API versions and its method in the [API reference](https://cloud.google.com/storage/docs/json_api/v1/).
 
-6. Now click on the request body from the right panel under Try this API and fill in the details for your storage bucket:
+6.  Now click on the request body from the right panel under Try this API and fill in the details for your storage bucket:
     
 
-* **project**: add your Project ID - `qwiklabs-gcp-01-8aa628374634`.
+*   **project**: add your Project ID - `qwiklabs-gcp-01-8aa628374634`.
     
-* **Request body**: click inside the quotes next to the **name** key-value pair and give your Cloud Storage bucket a unique name that follows the [Cloud Storage bucket naming guidelines](https://cloud.google.com/storage/docs/naming).
+*   **Request body**: click inside the quotes next to the **name** key-value pair and give your Cloud Storage bucket a unique name that follows the [Cloud Storage bucket naming guidelines](https://cloud.google.com/storage/docs/naming).
     
 
 Your method should now resemble the following:
@@ -159,11 +159,11 @@ Your method should now resemble the following:
 
 **Note:** To view **Credentials FAQs**, click on the question mark icon next to **Credentials** title.
 
-7. Click the **Execute** button.
+7.  Click the **Execute** button.
     
-8. Select the student account you started the lab with.
+8.  Select the student account you started the lab with.
     
-9. On the next screen, click **Allow** to give APIs Explorer access.
+9.  On the next screen, click **Allow** to give APIs Explorer access.
     
 
 Your response should resemble the following:
@@ -201,13 +201,13 @@ Check my progress
 
 Now make another Cloud Storage bucket so you can get hands-on practice copying files between the two.
 
-1. Still, in the `insert` method, ensure that your Project ID is still in the project field.
+1.  Still, in the `insert` method, ensure that your Project ID is still in the project field.
     
-2. In the request body, for the **name** key-value pair, give your second bucket a unique name.
+2.  In the request body, for the **name** key-value pair, give your second bucket a unique name.
     
-3. Make sure that there are no trailing spaces in any of the fields.
+3.  Make sure that there are no trailing spaces in any of the fields.
     
-4. Click the **Execute** button. Your response should resemble the following:
+4.  Click the **Execute** button. Your response should resemble the following:
     
 
 ```json
@@ -245,9 +245,9 @@ Check my progress
 
 ### View your Cloud Storage buckets in the Cloud console
 
-1. Return to the Cloud console and from the **Navigation menu** go to **Cloud Storage** to ensure that your Cloud Storage buckets were created.
+1.  Return to the Cloud console and from the **Navigation menu** go to **Cloud Storage** to ensure that your Cloud Storage buckets were created.
     
-2. From the **Navigation menu** select **Cloud Storage** &gt; **Buckets**. You should see your newly created buckets added.
+2.  From the **Navigation menu** select **Cloud Storage** > **Buckets**. You should see your newly created buckets added.
     
 
 Remain in the Cloud console for the following step. Keep the APIs Explorer tab open.
@@ -256,19 +256,19 @@ Remain in the Cloud console for the following step. Keep the APIs Explorer tab o
 
 Upload some files to your Cloud Storage bucket so you can get hands-on practice with methods housed in the APIs explorer.
 
-1. Save the following image to your computer and name it **demo-image1.png**:
+1.  Save the following image to your computer and name it **demo-image1.png**:
     
 
 ![Dog](https://cdn.qwiklabs.com/E4%2BSx10I0HBeOFPB15BFPzf9%2F%2FOK%2Btf7S0Mbn6aQ8fw%3D align="left")
 
-2. Now save this public domain image of [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace) to your computer and name it **demo-image2.png**:
+2.  Now save this public domain image of [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace) to your computer and name it **demo-image2.png**:
     
 
 ![Ada Lovelace](https://cdn.qwiklabs.com/Hr8ohUSBSeAiMUJe1J998ydGcTu%2FrF4BUjZ2J%2BbiKps%3D align="left")
 
-3. In the Cloud Storage browser select the first bucket from the list.
+3.  In the Cloud Storage browser select the first bucket from the list.
     
-4. Click **Upload files** and select **demo-image1.png** and **demo-image2.png** from your computer.
+4.  Click **Upload files** and select **demo-image1.png** and **demo-image2.png** from your computer.
     
 
 Your bucket should now have both image files added to it and should resemble the following:
@@ -285,32 +285,32 @@ Next, you will copy one of the image files to your second Cloud Storage bucket.
 
 ## **Task 4. Copy files between Cloud Storage buckets**
 
-1. From the left APIs & Reference section, navigate to **JSON API** &gt; **API reference** &gt; **Objects** &gt; **copy** to `copy` method or, to copy files between storage buckets using API Explorer, use the [Objects: copy reference](https://cloud.google.com/storage/docs/json_api/v1/objects/copy).
+1.  From the left APIs & Reference section, navigate to **JSON API** > **API reference** > **Objects** > **copy** to `copy` method or, to copy files between storage buckets using API Explorer, use the [Objects: copy reference](https://cloud.google.com/storage/docs/json_api/v1/objects/copy).
     
-2. Update as follows:
+2.  Update as follows:
     
 
-* **sourceBucket**: type in the name of the bucket that contains the demo image files.
+*   **sourceBucket**: type in the name of the bucket that contains the demo image files.
     
-* **sourceObject**: enter in **demo-image1.png**.
+*   **sourceObject**: enter in **demo-image1.png**.
     
-* **destinationBucket**: enter intype the name of your second (empty) bucket.
+*   **destinationBucket**: enter intype the name of your second (empty) bucket.
     
-* **destinationObject**: type in **demo-image1-copy.png**.
+*   **destinationObject**: type in **demo-image1-copy.png**.
     
 
 Your method should resemble the following:
 
 ![The Request parameters dialog displaying the bulleted information in step 2](https://cdn.qwiklabs.com/T4XJuHuw1KFSIDhEzCB4unBAb45izdwWyKAFQ0DwGSs%3D align="left")
 
-3. Make sure that **Google OAuth 2.0** and **API key** checkboxes are selected under **Credentials** section.
+3.  Make sure that **Google OAuth 2.0** and **API key** checkboxes are selected under **Credentials** section.
     
 
 **Note:** To view **Credentials FAQs**, click on question mark icon next to **Credentials** title.
 
-4. Make sure that there are no trailing spaces in any of the fields.
+4.  Make sure that there are no trailing spaces in any of the fields.
     
-5. Now scroll down and click **Execute**.
+5.  Now scroll down and click **Execute**.
     
 
 You should receive a similar output:
@@ -350,45 +350,45 @@ Check my progress
 
 ### View your updated bucket in the Cloud console
 
-1. Return to the Cloud console for this step. You should have left off on your Cloud Storage bucket details page.
+1.  Return to the Cloud console for this step. You should have left off on your Cloud Storage bucket details page.
     
-2. From the left-hand menu, click **Buckets** and select your second bucket. You should see the copy of **demo-image1.png** added.
+2.  From the left-hand menu, click **Buckets** and select your second bucket. You should see the copy of **demo-image1.png** added.
     
 
 ## **Task 5. Delete files from a Cloud Storage bucket**
 
-1. From the left APIs & Reference section navigate to **JSON API** &gt; **API reference** &gt; **Objects** &gt; **delete** or, to delete files from a Cloud Storage bucket using API Explorer, use the [Objects: delete reference](https://cloud.google.com/storage/docs/json_api/v1/objects/delete).
+1.  From the left APIs & Reference section navigate to **JSON API** > **API reference** > **Objects** > **delete** or, to delete files from a Cloud Storage bucket using API Explorer, use the [Objects: delete reference](https://cloud.google.com/storage/docs/json_api/v1/objects/delete).
     
-2. Now you'll delete an image file from a Cloud Storage bucket.
+2.  Now you'll delete an image file from a Cloud Storage bucket.
     
 
-* **bucket**: enter in the name of your bucket that contains both demo image files.
+*   **bucket**: enter in the name of your bucket that contains both demo image files.
     
-* **object**: enter in **demo-image1.png**. Your method should resemble the following:
+*   **object**: enter in **demo-image1.png**. Your method should resemble the following:
     
 
 ![The method displayed in the Request parameters dialog box](https://cdn.qwiklabs.com/9kPqMSP9xS6EyR41GQ5i9uV6JMPSeVMOXMzIzp9JKAA%3D align="left")
 
-3. Make sure that **Google OAuth 2.0** and **API key** checkboxes are selected under **Credentials** section.
+3.  Make sure that **Google OAuth 2.0** and **API key** checkboxes are selected under **Credentials** section.
     
 
 **Note:** To view **Credentials FAQs**, click on question mark icon next to **Credentials** title.
 
-4. Make sure that there are no trailing spaces in any of the fields.
+4.  Make sure that there are no trailing spaces in any of the fields.
     
-5. Now scroll down and click **Execute**.
+5.  Now scroll down and click **Execute**.
     
 
 You should receive a similar output as below:
 
 ![204 displayed on a green ribbon](https://cdn.qwiklabs.com/nRkqUtiQhhbyhJr7SILoziHp5HZOH39Vlr%2B8ES9Winc%3D align="left")
 
-6. Now remove the second image from the Cloud Storage bucket. Still in the same method, for the **object** field, enter in **demo-image2.png**. Your bucket name will remain the same. Your method should resemble the following:
+6.  Now remove the second image from the Cloud Storage bucket. Still in the same method, for the **object** field, enter in **demo-image2.png**. Your bucket name will remain the same. Your method should resemble the following:
     
 
 ![The request parameters dialog box displaying the method](https://cdn.qwiklabs.com/o0kbacFtw85NbEJAl2nxLqWyTjXrjQu8zoKGv37YaxE%3D align="left")
 
-7. Now scroll down and click **Execute**. You should receive a similar output:
+7.  Now scroll down and click **Execute**. You should receive a similar output:
     
 
 ![204 displayed on a green ribbon](https://cdn.qwiklabs.com/nRkqUtiQhhbyhJr7SILoziHp5HZOH39Vlr%2B8ES9Winc%3D align="left")
@@ -397,31 +397,31 @@ You have successfully deleted files from a bucket using the `objects.delete` met
 
 ### View your updated bucket in the Cloud console
 
-1. Return to the Cloud console for this step. You should have left off on your Cloud Storage bucket details page.
+1.  Return to the Cloud console for this step. You should have left off on your Cloud Storage bucket details page.
     
-2. From the left-hand menu, click **Buckets** and select your first bucket. You should see that both images have been removed.
+2.  From the left-hand menu, click **Buckets** and select your first bucket. You should see that both images have been removed.
     
 
 ## **Task 6. Delete your Cloud Storage bucket**
 
-1. From the left APIs & Reference section navigate to **JSON API** &gt; **API reference** &gt; **Buckets** &gt; **delete** to `buckets.delete` method or, to delete a Cloud Storage bucket using API Explorer, use the [Buckets: delete reference](https://cloud.google.com/storage/docs/json_api/v1/buckets/delete).
+1.  From the left APIs & Reference section navigate to **JSON API** > **API reference** > **Buckets** > **delete** to `buckets.delete` method or, to delete a Cloud Storage bucket using API Explorer, use the [Buckets: delete reference](https://cloud.google.com/storage/docs/json_api/v1/buckets/delete).
     
 
 You will now delete your first (empty) Cloud Storage bucket.
 
-2. For the **bucket** field, enter in the name of your first bucket. Your method should resemble the following:
+2.  For the **bucket** field, enter in the name of your first bucket. Your method should resemble the following:
     
 
 ![The Request parameters dialog box with the populated bucket field](https://cdn.qwiklabs.com/ApOaZPBzbblyXqVyyOqA%2BTJi09SKxkuyOHuQjEAfdUg%3D align="left")
 
-3. Make sure that **Google OAuth 2.0** and **API key** checkboxes are selected under **Credentials** section.
+3.  Make sure that **Google OAuth 2.0** and **API key** checkboxes are selected under **Credentials** section.
     
 
 **Note:** To view **Credentials FAQs**, click on question mark icon next to **Credentials** title.
 
-4. Make sure that there are no trailing spaces in any of the fields.
+4.  Make sure that there are no trailing spaces in any of the fields.
     
-5. Now scroll down and click **Execute**. You should receive a similar output:
+5.  Now scroll down and click **Execute**. You should receive a similar output:
     
 
 ![204 displayed on a green ribbon](https://cdn.qwiklabs.com/nRkqUtiQhhbyhJr7SILoziHp5HZOH39Vlr%2B8ES9Winc%3D align="left")
@@ -430,9 +430,9 @@ You have successfully deleted a bucket using the `buckets.delete` method.
 
 ### View your updated bucket in the Cloud console
 
-1. Return to the Cloud console for this step. You should have left off on the Details page.
+1.  Return to the Cloud console for this step. You should have left off on the Details page.
     
-2. From the left-hand menu, click **Buckets**. You should see that your first bucket has been removed.
+2.  From the left-hand menu, click **Buckets**. You should see that your first bucket has been removed.
     
 
 You have successfully completed all steps of the lab. You can end your lab here, or experiment with some new methods in the remaining time.
@@ -447,22 +447,22 @@ Every bucket must have a unique name across the entire Cloud Storage namespace.T
 
 Cloud Storage offers four storage classes:
 
-* Nearline Storage
+*   Nearline Storage
     
-* Cross region storage
+*   Cross region storage
     
-* Multi-Regional Storage
+*   Multi-Regional Storage
     
-* Regional Storage
+*   Regional Storage
     
-* Coldline StorageLocal storage
+*   Coldline StorageLocal storage
     
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=E2ztBJM9ycY&ab_channel=QUICKGCPLAB] 
+%[https://www.youtube.com/watch?v=pfkWHLad-E8] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP421/lab.sh
@@ -472,7 +472,20 @@ source lab.sh
 **Script Alternative**
 
 ```apache
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/APIs%20Explorer%20Cloud%20Storage/gsp421.sh
-sudo chmod +x gsp421.sh
-./gsp421.sh
+gsutil mb gs://$DEVSHELL_PROJECT_ID
+gsutil mb gs://$DEVSHELL_PROJECT_ID-2
+
+curl -# -LO raw.githubusercontent.com/GoogleCloudPlatform/cloud-storage-samples/main/sample-files/demo-image1.png
+curl -# -LO raw.githubusercontent.com/GoogleCloudPlatform/cloud-storage-samples/main/sample-files/demo-image2.png
+curl -# -LO raw.githubusercontent.com/GoogleCloudPlatform/cloud-storage-samples/main/sample-files/demo-image1-copy.png
+
+gsutil cp demo-image1.png gs://$DEVSHELL_PROJECT_ID/demo-image1.png
+gsutil cp demo-image2.png gs://$DEVSHELL_PROJECT_ID/demo-image2.png
+gsutil cp demo-image1-copy.png gs://$DEVSHELL_PROJECT_ID-2/demo-image1-copy.png
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=qPXd-us4xLM]
