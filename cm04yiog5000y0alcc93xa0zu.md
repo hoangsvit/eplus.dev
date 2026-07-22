@@ -186,6 +186,41 @@ Export Cymbal Bank Findings to Google Cloud Storage
 
 ### Quick
 
+%[https://www.youtube.com/watch?v=XaEy5QHplLU] 
+
+```plaintext
+wget -O SakshamXTech.sh "https://raw.githubusercontent.com/Saksham-Dev-001/Arcade-Google-Cloud-Labs/refs/heads/main/Mitigate%20Threats%20and%20Vulnerabilities%20with%20Security%20Command%20Center%3A%20Challenge%20Lab/SakshamXTech.sh"
+sed -i 's/\r$//' SakshamXTech.sh
+chmod +x SakshamXTech.sh
+bash SakshamXTech.sh
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/670c46d3-8966-4708-a471-6a5858888fae.png align="center")
+
+*   **Reserve Static External IP** address name `static-ip`
+    
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/3612bcce-5e53-4090-b34d-de32ad2202e8.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/38b8fe28-299a-439c-82a0-d9464c6beb72.png align="center")
+
+```plaintext
+wget -O SakshamXTech2.sh "https://raw.githubusercontent.com/Saksham-Dev-001/Arcade-Google-Cloud-Labs/refs/heads/main/Mitigate%20Threats%20and%20Vulnerabilities%20with%20Security%20Command%20Center%3A%20Challenge%20Lab/SakshamXTech2.sh"
+sed -i 's/\r$//' SakshamXTech2.sh
+chmod +x SakshamXTech2.sh
+bash SakshamXTech2.sh
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8013ec97-373a-43d3-a346-f3a6e1806fd1.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/fbaff84c-5be5-40d9-8daa-adf35e94e969.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1eefd9c8-3cff-4260-b950-5c6127c5dfbf.png align="center")
+
+---
+
+### Other solution
+
 %[https://youtu.be/aSUdaONi4CI] 
 
 ```apache
@@ -228,38 +263,3 @@ sudo chmod +x gsp382-2.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759204861949/d515715b-5bd6-472b-997f-8d175b7378d8.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759204871008/a68495f6-e63e-4a13-93ba-1ef7db2f9288.png align="center")
-
-* * *
-
-### Manual
-
-%[https://www.youtube.com/watch?v=XaEy5QHplLU] 
-
-```plaintext
-wget -O SakshamXTech.sh "https://raw.githubusercontent.com/Saksham-Dev-001/Arcade-Google-Cloud-Labs/refs/heads/main/Mitigate%20Threats%20and%20Vulnerabilities%20with%20Security%20Command%20Center%3A%20Challenge%20Lab/SakshamXTech.sh"
-sed -i 's/\r$//' SakshamXTech.sh
-chmod +x SakshamXTech.sh
-bash SakshamXTech.sh
-```
-
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/670c46d3-8966-4708-a471-6a5858888fae.png align="center")
-
-*   **Reserve Static External IP** address name `static-ip`
-    
-
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/3612bcce-5e53-4090-b34d-de32ad2202e8.png align="center")
-
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/38b8fe28-299a-439c-82a0-d9464c6beb72.png align="center")
-
-```plaintext
-wget -O SakshamXTech2.sh "https://raw.githubusercontent.com/Saksham-Dev-001/Arcade-Google-Cloud-Labs/refs/heads/main/Mitigate%20Threats%20and%20Vulnerabilities%20with%20Security%20Command%20Center%3A%20Challenge%20Lab/SakshamXTech2.sh"
-sed -i 's/\r$//' SakshamXTech2.sh
-chmod +x SakshamXTech2.sh
-bash SakshamXTech2.sh
-```
-
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8013ec97-373a-43d3-a346-f3a6e1806fd1.png align="center")
-
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/fbaff84c-5be5-40d9-8daa-adf35e94e969.png align="center")
-
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1eefd9c8-3cff-4260-b950-5c6127c5dfbf.png align="center")
