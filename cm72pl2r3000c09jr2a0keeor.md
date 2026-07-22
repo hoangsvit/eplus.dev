@@ -5,8 +5,8 @@ seoDescription: "The Google APIs Explorer is a tool that helps you explore vario
 datePublished: 2025-02-13T02:16:32.559Z
 cuid: cm72pl2r3000c09jr2a0keeor
 slug: apis-explorer-cloud-storage-gsp421
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739412620457/48eda5b9-00b5-4a36-bc2e-3d5adcf174ae.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1739412937204/6918de34-5592-4390-a2cb-e02601185ec4.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c56961e5-2ee8-40fe-947c-72c2e0687a3c.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/7c3d9a6d-c3f9-437c-8673-7327f39e2b42.png
 tags: apis-explorer-cloud-storage-gsp421, apis-explorer-cloud-storage, gsp421
 
 ---
