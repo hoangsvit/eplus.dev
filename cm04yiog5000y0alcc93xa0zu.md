@@ -188,6 +188,13 @@ Export Cymbal Bank Findings to Google Cloud Storage
 
 %[https://www.youtube.com/watch?v=XaEy5QHplLU] 
 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP382/step1.sh
+source step1.sh
+```
+
+**Script Alternative**
+
 ```plaintext
 wget -O SakshamXTech.sh "https://raw.githubusercontent.com/Saksham-Dev-001/Arcade-Google-Cloud-Labs/refs/heads/main/Mitigate%20Threats%20and%20Vulnerabilities%20with%20Security%20Command%20Center%3A%20Challenge%20Lab/SakshamXTech.sh"
 sed -i 's/\r$//' SakshamXTech.sh
@@ -204,6 +211,13 @@ bash SakshamXTech.sh
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/38b8fe28-299a-439c-82a0-d9464c6beb72.png align="center")
 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP382/step2.sh
+source step2.sh
+```
+
+**Script Alternative**
+
 ```plaintext
 wget -O SakshamXTech2.sh "https://raw.githubusercontent.com/Saksham-Dev-001/Arcade-Google-Cloud-Labs/refs/heads/main/Mitigate%20Threats%20and%20Vulnerabilities%20with%20Security%20Command%20Center%3A%20Challenge%20Lab/SakshamXTech2.sh"
 sed -i 's/\r$//' SakshamXTech2.sh
@@ -217,18 +231,11 @@ bash SakshamXTech2.sh
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1eefd9c8-3cff-4260-b950-5c6127c5dfbf.png align="center")
 
----
+* * *
 
 ### Other solution
 
 %[https://youtu.be/aSUdaONi4CI] 
-
-```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP382/step1.sh
-source step1.sh
-```
-
-**Script Alternative**
 
 ```apache
 curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Mitigate%20Threats%20and%20Vulnerabilities%20with%20Security%20Command%20Center%20Challenge%20Lab/gsp382-1.sh
@@ -244,13 +251,6 @@ sudo chmod +x gsp382-1.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759204436741/5a55d5d1-9f46-40c1-94ef-af4bbece8721.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP382/step2.sh
-source step2.sh
-```
-
-**Script Alternative**
-
-```apache
 curl -LO https://raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Mitigate%20Threats%20and%20Vulnerabilities%20with%20Security%20Command%20Center%20Challenge%20Lab/gsp382-2.sh
 sudo chmod +x gsp382-2.sh
 ./gsp382-2.sh
@@ -263,3 +263,7 @@ sudo chmod +x gsp382-2.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759204861949/d515715b-5bd6-472b-997f-8d175b7378d8.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1759204871008/a68495f6-e63e-4a13-93ba-1ef7db2f9288.png align="center")
+
+* * *
+
+### Manual
