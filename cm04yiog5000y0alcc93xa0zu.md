@@ -257,3 +257,9 @@ sed -i 's/\r$//' SakshamXTech2.sh
 chmod +x SakshamXTech2.sh
 bash SakshamXTech2.sh
 ```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8013ec97-373a-43d3-a346-f3a6e1806fd1.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/fbaff84c-5be5-40d9-8daa-adf35e94e969.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1eefd9c8-3cff-4260-b950-5c6127c5dfbf.png align="center")
