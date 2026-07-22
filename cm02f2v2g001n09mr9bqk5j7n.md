@@ -5,8 +5,8 @@ seoDescription: "The underlying infrastructure of a Google Kubernetes Engine clu
 datePublished: 2024-08-20T12:44:30.280Z
 cuid: cm02f2v2g001n09mr9bqk5j7n
 slug: exploring-cost-optimization-for-gke-virtual-machines-gsp767
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749273944876/010a6d9b-6cfd-4edd-9547-69a5ead44460.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1749273962664/d30c487c-248e-4310-af82-642beb297ddf.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4675a117-a1d0-4950-b479-ea8fe09a223b.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/da57a865-80de-4d36-8177-dd5f9c9e141e.png
 tags: exploring-cost-optimization-for-gke-virtual-machines-gsp767, gsp767, exploring-cost-optimization-for-gke-virtual-machines
 
 ---
@@ -832,3 +832,9 @@ sudo chmod +x quicklabgsp767.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724160591676/1fe05db5-d97d-47e9-9086-bcb518affffc.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724160662415/29f6b9e1-7994-4f8c-87f3-53951f65facc.png align="center")
+
+* * *
+
+### Manual other
+
+%[https://www.youtube.com/watch?v=jDYUh1nXrLc]
