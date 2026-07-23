@@ -123,7 +123,7 @@ sudo chmod +x lab-solution-2.sh
 ./lab-solution-2.sh
 ```
 
-Task 3. Create and apply a tag template to a zone
+**Task 3. Create and apply a tag template to a zone**
 
 1.  Go to Templates from [here](https://console.cloud.google.com/dataplex/templates/create)
     
