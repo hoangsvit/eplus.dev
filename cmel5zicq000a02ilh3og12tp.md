@@ -150,4 +150,8 @@ sudo chmod +x lab.sh
 
 ### Manual
 
-%[https://www.youtube.com/watch?v=3OHoiOYAgIU]
+%[https://www.youtube.com/watch?v=3OHoiOYAgIU] 
+
+* * *
+
+%[https://eplus.dev/organize-and-govern-data-with-knowledge-catalog-challenge-lab-arc117]
