@@ -93,7 +93,7 @@ You may complete the badges in any order. Choose courses based on your current k
     
 *   \[x\] [Get Started with Pub/Sub](https://www.skills.google/course_templates/728)
     
-*   \[ \] [Get Started with API Gateway](https://www.skills.google/course_templates/662)
+*   \[x\] [Get Started with API Gateway](https://www.skills.google/course_templates/662)
     
 *   \[ \] [Get Started with Dataplex](https://www.skills.google/course_templates/726)
     
