@@ -59,7 +59,7 @@ Across the two-month Facilitator cohort, participants can complete up to **12 mo
 
 For the highest Facilitator milestone, **any 12 eligible game completions** can be counted.
 
-## Active Arcade Games — July 2026
+## **Active Arcade Games — July 2026**
 
 | Game | Link | Access code | Deadline |
 | --- | --- | --- | --- |
@@ -72,7 +72,7 @@ For the highest Facilitator milestone, **any 12 eligible game completions** can 
 
 > Open each game and verify the displayed deadline and eligibility before beginning.
 
-## Google Cloud Skill Badges
+### Google Cloud Skill Badges
 
 The Facilitator syllabus highlights **51 skill badges**, divided into three learning tracks:
 
@@ -87,7 +87,7 @@ You may complete the badges in any order. Choose courses based on your current k
 
 > **Publishing note:** The official page renders its badge accordions dynamically and Google may rename or replace courses during the cohort. The checklist below is a Markdown-friendly snapshot reconstructed from the currently indexed syllabus and Google Skills catalog. Verify newly added or renamed badges against the live syllabus before publishing an update.
 
-## Beginner: Get Started with Google Cloud & AI
+### Beginner: Get Started with Google Cloud & AI
 
 *   \[ \] [The Basics of Google Cloud Compute](https://www.skills.google/course_templates/754)
     
@@ -124,7 +124,7 @@ You may complete the badges in any order. Choose courses based on your current k
 *   \[ \] [Store, Process, and Manage Data on Google Cloud — Command Line](https://www.skills.google/course_templates/659)
     
 
-## Intermediate: Dive Deeper into Google Cloud & AI
+### Intermediate: Dive Deeper into Google Cloud & AI
 
 *   \[ \] [Build Real World AI Applications with Gemini and Imagen](https://www.skills.google/course_templates/1076)
     
@@ -161,7 +161,7 @@ You may complete the badges in any order. Choose courses based on your current k
 *   \[ \] [Set Up a Google Cloud Network](https://www.skills.google/course_templates/641)
     
 
-## Advanced: Take Your Google Cloud & AI Skills to the Next Level
+### Advanced: Take Your Google Cloud & AI Skills to the Next Level
 
 *   \[ \] [Implementing Cloud Load Balancing for Compute Engine](https://www.skills.google/course_templates/648)
     
