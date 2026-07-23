@@ -112,6 +112,13 @@ export LOCATION=
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC117/lab-solution-2.sh
+source lab-solution-2.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC117/lab-solution-2.sh
 sudo chmod +x lab-solution-2.sh
 ./lab-solution-2.sh
 ```
