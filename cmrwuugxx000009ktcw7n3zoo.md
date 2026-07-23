@@ -95,7 +95,7 @@ You may complete the badges in any order. Choose courses based on your current k
     
 *   \[x\] [Get Started with API Gateway](https://www.skills.google/course_templates/662)
     
-*   \[ \] [Get Started with Dataplex](https://www.skills.google/course_templates/726)
+*   \[x\] [Get Started with Dataplex](https://www.skills.google/course_templates/726)
     
 *   \[ \] [Get Started with Looker](https://www.skills.google/course_templates/647)
     
