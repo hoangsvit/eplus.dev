@@ -165,6 +165,8 @@ Next, invoke the Cloud Run function via API Gateway. If done correctly, a messag
 
 ## Solution of Lab
 
+### Quick
+
 %[https://www.youtube.com/watch?v=N2yLVNGvQNY] 
 
 ```plaintext
