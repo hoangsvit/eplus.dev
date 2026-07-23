@@ -255,5 +255,3 @@ The game requirement is:
 The syllabus is updated throughout the program. Bookmark the official page and check it regularly for new games, corrected access codes, and changes to eligible skill badges.
 
 #GoogleCloud #GoogleSkills #GoogleCloudArcade #CloudComputing #GenerativeAI :::
-
-[Download file Markdown để import vào Hashnode](sandbox:/mnt/data/google-cloud-arcade-facilitator-26-syllabus.md)
