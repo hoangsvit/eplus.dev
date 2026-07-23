@@ -91,7 +91,7 @@ You may complete the badges in any order. Choose courses based on your current k
 
 *   \[x\] [The Basics of Google Cloud Compute](https://www.skills.google/course_templates/754)
     
-*   \[ \] [Get Started with Pub/Sub](https://www.skills.google/course_templates/728)
+*   \[x\] [Get Started with Pub/Sub](https://www.skills.google/course_templates/728)
     
 *   \[ \] [Get Started with API Gateway](https://www.skills.google/course_templates/662)
     
