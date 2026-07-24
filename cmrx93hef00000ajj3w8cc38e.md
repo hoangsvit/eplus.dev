@@ -102,6 +102,16 @@ Create and add an aspect
 
 **Solution 1:**
 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC117/lab.sh
+sudo chmod +x lab.sh
+./lab.sh
+```
+
+* * *
+
+**Solution 2:**
+
 %[https://youtu.be/1QDH0aGkL1Y] 
 
 ```apache
@@ -139,14 +149,6 @@ sudo chmod +x lab-solution-2.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755830700259/21bd1cb6-fbd5-4158-a278-4e7294b3fd9f.png align="center")
 
 * * *
-
-**Solution 2:**
-
-```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC117/lab.sh
-sudo chmod +x lab.sh
-./lab.sh
-```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755766054237/55a11997-79fd-4f4e-9e66-6d1329f01635.png align="center")
 
