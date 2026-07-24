@@ -5,7 +5,7 @@
     <link>https://eplus.dev</link>
     <description>Latest posts from ePlus DEV</description>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jul 2026 13:54:32 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 13:54:58 GMT</lastBuildDate>
     <pubDate>Fri, 24 Jul 2026 07:44:16 GMT</pubDate>
     <generator>GitHub Actions</generator>
 
@@ -14,12 +14,6 @@
       <link>https://eplus.dev/implement-event-driven-messaging-and-automation-workflows-challenge-lab-arc113</link>
       <guid isPermaLink="true">https://eplus.dev/implement-event-driven-messaging-and-automation-workflows-challenge-lab-arc113</guid>
       <pubDate>Fri, 24 Jul 2026 07:44:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>Daily Tech Brief - 24/06/2027</title>
-      <link>https://eplus.dev/daily-tech-brief-24-06-2027</link>
-      <guid isPermaLink="true">https://eplus.dev/daily-tech-brief-24-06-2027</guid>
-      <pubDate>Fri, 24 Jul 2026 02:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Organize and Govern Data with Knowledge Catalog: Challenge Lab - ARC117</title>
@@ -368,6 +362,12 @@
       <link>https://eplus.dev/create-vpc-peering-connection-between-vpcs-solution-1</link>
       <guid isPermaLink="true">https://eplus.dev/create-vpc-peering-connection-between-vpcs-solution-1</guid>
       <pubDate>Sun, 15 Feb 2026 07:56:45 GMT</pubDate>
+    </item>
+    <item>
+      <title>Daily Tech Brief - 24/06/2027</title>
+      <link>https://eplus.dev/daily-tech-brief-24-06-2027</link>
+      <guid isPermaLink="true">https://eplus.dev/daily-tech-brief-24-06-2027</guid>
+      <pubDate>Sun, 15 Feb 2026 07:48:10 GMT</pubDate>
     </item>
     <item>
       <title>Configure Cloud Buckets with gsutil for Load Balancing &amp; Fault Tolerance (Solution)</title>
