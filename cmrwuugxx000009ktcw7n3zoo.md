@@ -169,9 +169,9 @@ You may complete the badges in any order. Choose courses based on your current k
     
 *   [Prompt Design in Agent Platform](https://www.skills.google/course_templates/976?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)
     
-*   [Inspect Rich Documents with Gemini Multimodality and Multimodal RAG](https://www.skills.google/course_templates/981?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 20 credits) ✔️
+*   [Inspect Rich Documents with Gemini Multimodality and Multimodal RAG](https://www.skills.google/course_templates/981?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 20 credits)
     
-*   [Develop GenAI Apps with Gemini and Streamlit](https://www.skills.google/course_templates/978?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (5 labs & 20 credits)
+*   [Develop GenAI Apps with Gemini and Streamlit](https://www.skills.google/course_templates/978?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (5 labs & 20 credits)✔️
     
 *   [Set Up an App Dev Environment on Google Cloud](https://www.skills.google/course_templates/637?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (10 labs & 8 credits)
     
