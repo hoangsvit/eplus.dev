@@ -92,7 +92,7 @@ Verify Task
 **Run the following in CloudShell**
 
 ```apache
-export REGION=$(gcloud config get-value compute/region)
+export REGION=$(gcloud compute project-info describe --format="value(commonInstanceMetadata.items[google-compute-default-region])")
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755490076694/ab70f62e-b309-4c4d-8d20-f11fc24f45df.png align="center")
