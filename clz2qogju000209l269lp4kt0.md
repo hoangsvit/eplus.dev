@@ -5,6 +5,7 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-07-26T13:29:31.338Z
 cuid: clz2qogju000209l269lp4kt0
 slug: get-started-with-pub-sub-challenge-lab-arc113
+canonical: https://eplus.dev/implement-event-driven-messaging-and-automation-workflows-challenge-lab-arc113
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755490310539/0a50a53f-0254-487e-a1d2-6ba0abd2a1e4.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1755490137198/4e96aa3e-9857-4470-9b1f-cf976f9d14de.png
 tags: get-started-with-pubsub-challenge-lab-arc113
@@ -29,12 +30,12 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
@@ -63,7 +64,7 @@ Each task is described in detail below, good luck!
 
 Create a pub/sub Schema with the schema id named as '**city-temp-schema**' and use the schema configuration as below:
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p>{ "type" : "record", "name" : "Avro", "fields" : [ { "name" : "city", "type" : "string" }, { "name" : "temperature", "type" : "double" }, { "name" : "pressure", "type" : "int" }, { "name" : "time_position", "type" : "string" } ] }</p></td></tr></tbody></table>
+<table style="min-width: 25px;"><colgroup><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p>{ "type" : "record", "name" : "Avro", "fields" : [ { "name" : "city", "type" : "string" }, { "name" : "temperature", "type" : "double" }, { "name" : "pressure", "type" : "int" }, { "name" : "time_position", "type" : "string" } ] }</p></td></tr></tbody></table>
 
 Click **Check my progress** to verify the objective.
 
@@ -75,7 +76,7 @@ Verify Task
 
 Create a pub/sub topic '**temp-topic**' with precreated schema id named as '**temperature-schema**'.
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Note: </strong>In case you're unable to view pre-created resources as per the task description,"your Google Cloud resources are still being provisioned, please refresh the page and try again in a few minutes." If you do, just wait a short time and reload your page.</p></td></tr></tbody></table>
+<table style="min-width: 25px;"><colgroup><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong>Note: </strong>In case you're unable to view pre-created resources as per the task description,"your Google Cloud resources are still being provisioned, please refresh the page and try again in a few minutes." If you do, just wait a short time and reload your page.</p></td></tr></tbody></table>
 
 Click **Check my progress** to verify the objective.
 
@@ -87,11 +88,11 @@ Verify Task
 
 1\. Create a trigger cloud function '**gcf-pubsub**' with the **Cloud Run Function** environment for the pub/sub topic named as **gcf-topic**.
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Note: </strong>In case you're unable to view pre-created resources as per the task description,"your Google Cloud resources are still being provisioned, please refresh the page and try again in a few minutes." If you do, just wait a short time and reload your page.</p></td></tr></tbody></table>
+<table style="min-width: 25px;"><colgroup><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong>Note: </strong>In case you're unable to view pre-created resources as per the task description,"your Google Cloud resources are still being provisioned, please refresh the page and try again in a few minutes." If you do, just wait a short time and reload your page.</p></td></tr></tbody></table>
 
 Click **Check my progress** to verify the objective.
 
----
+* * *
 
 ## Answer of Lab
 
@@ -109,13 +110,13 @@ export REGION=$(gcloud config get-value compute/region)
 
 ### **Form 1:**
 
----
+* * *
 
-* **Task 1. Set up Cloud Pub/Sub.**
+*   **Task 1. Set up Cloud Pub/Sub.**
     
-* **Task 2. Create a Cloud Scheduler job.**
+*   **Task 2. Create a Cloud Scheduler job.**
     
-* **Task 3. Verify the results in Cloud Pub/Sub.**
+*   **Task 3. Verify the results in Cloud Pub/Sub.**
     
 
 ```apache
@@ -126,13 +127,13 @@ sudo chmod +x abhishek1.sh
 
 ### **form 2:**
 
----
+* * *
 
-* **Task 1. Create Pub/Sub schema.**
+*   **Task 1. Create Pub/Sub schema.**
     
-* **Task 2. Create Pub/Sub topic using schema.**
+*   **Task 2. Create Pub/Sub topic using schema.**
     
-* **Task 3. Create a trigger cloud function with Pub/Sub topic**
+*   **Task 3. Create a trigger cloud function with Pub/Sub topic**
     
 
 ```apache
@@ -143,13 +144,13 @@ sudo chmod +x abhishek2.sh
 
 ### **form 3:**
 
----
+* * *
 
-* **Task 1. Publish a message to the topic.**
+*   **Task 1. Publish a message to the topic.**
     
-* **Task 2. View the message.**
+*   **Task 2. View the message.**
     
-* **Task 3. Create a Pub/Sub Snapshot for Pub/Sub topic.**
+*   **Task 3. Create a Pub/Sub Snapshot for Pub/Sub topic.**
     
 
 ```apache
