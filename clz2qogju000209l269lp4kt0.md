@@ -94,7 +94,7 @@ Click **Check my progress** to verify the objective.
 
 * * *
 
-## Answer of Lab
+## Solution of Lab
 
 %[https://youtu.be/rIEQsK1cGX0] 
 
@@ -158,3 +158,7 @@ curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost
 sudo chmod +x abhishek3.sh
 ./abhishek3.sh
 ```
+
+* * *
+
+%[https://eplus.dev/implement-event-driven-messaging-and-automation-workflows-challenge-lab-arc113#solution-of-lab]
