@@ -111,6 +111,13 @@ export REGION=$(gcloud compute project-info describe --format="value(commonInsta
     
 
 ```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC113/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
 curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Get%20Started%20with%20PubSub%3A%20Challenge%20Lab/abhishek1.sh
 sudo chmod +x abhishek1.sh
 ./abhishek1.sh
