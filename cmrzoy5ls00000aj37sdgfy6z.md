@@ -13,8 +13,6 @@ tags: daily-tech-brief-25-07-2026, daily-tech-brief
 
 > Một bản tin giúp Developer cập nhật nhanh AI, Cloud, Open Source và những công nghệ đáng chú ý trong ngày.
 
-![Daily Tech Brief 25/07/2026](URL_ANH_DAI_DIEN align="center")
-
 * * *
 
 ## 📌 Executive Summary
