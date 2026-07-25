@@ -3,21 +3,21 @@
 ### #Blog posts
 
 <!-- BLOG-POST-LIST:START -->
- - 🧰 [Daily Tech Brief - 24/06/2027](https://eplus.dev/daily-tech-brief-24-06-2027) - 2026-07-24
- - 😺 [Implement Event-Driven Messaging and Automation Workflows: Challenge Lab - ARC113](https://eplus.dev/implement-event-driven-messaging-and-automation-workflows-challenge-lab-arc113) - 2026-07-24
- - 🗽 [Organize and Govern Data with Knowledge Catalog: Challenge Lab - ARC117](https://eplus.dev/organize-and-govern-data-with-knowledge-catalog-challenge-lab-arc117) - 2026-07-23
- - 🌜 [Deploy and Secure Serverless APIs with API Gateway: Challenge Lab - ARC109](https://eplus.dev/deploy-and-secure-serverless-apis-with-api-gateway-challenge-lab-arc109) - 2026-07-23
- - 📝 [Develop AI-Powered Prototypes in Google AI Studio: Challenge Lab - GSP529](https://eplus.dev/develop-ai-powered-prototypes-in-google-ai-studio-challenge-lab-gsp529) - 2026-07-23
- - 🚀 [Google Cloud Arcade Facilitator &#39;26 — Syllabus for the Program](https://eplus.dev/google-cloud-arcade-facilitator-26-syllabus-for-the-program) - 2026-07-23
- - 💼 [Discover and Protect Sensitive Data Across Your Ecosystem: Challenge Lab - GSP522](https://eplus.dev/discover-and-protect-sensitive-data-across-your-ecosystem-challenge-lab-gsp522) - 2026-07-22
- - 🦣 [Build Serverless Applications with Cloud Run Functions: Challenge Lab - ARC104](https://eplus.dev/build-serverless-applications-with-cloud-run-functions-challenge-lab-arc104) - 2026-07-21
- - 👨‍🏫 [Teaching with Google Classroom - GSP982](https://eplus.dev/teaching-with-google-classroom-gsp982) - 2026-07-17
- - 🔭 [Setting Up Google Meet for Distance Learning - GSP980](https://eplus.dev/setting-up-google-meet-for-distance-learning-gsp980) - 2026-07-16
- - 🤡 [Knowledge Catalog: Qwik Start - Console - GSP1143](https://eplus.dev/knowledge-catalog-qwik-start-console-gsp1143) - 2026-07-13
- - 💡 [The Arcade Base Camp July 2026](https://eplus.dev/the-arcade-base-camp-july-2026) - 2026-07-05
- - 🦣 [Implement Sensitive Data Protection on Google Cloud: Challenge Lab - ARC116](https://eplus.dev/implement-sensitive-data-protection-on-google-cloud-challenge-lab-arc116) - 2026-06-08
- - 💪 [Managed Service for Apache Spark: Qwik Start - Console - GSP103](https://eplus.dev/managed-service-for-apache-spark-qwik-start-console-gsp103) - 2026-06-08
- - 🤡 [Alteryx Designer Cloud: Qwik Start - GSP105](https://eplus.dev/alteryx-designer-cloud-qwik-start-gsp105) - 2026-06-08<!-- BLOG-POST-LIST:END -->
+ - 🧰 [Daily Tech Brief - 25/07/2026](https://eplus.dev/daily-tech-brief-25-07-2026) - 2026-07-25
+ - 😺 [Daily Tech Brief - 24/06/2027](https://eplus.dev/daily-tech-brief-24-06-2027) - 2026-07-24
+ - 🗽 [Implement Event-Driven Messaging and Automation Workflows: Challenge Lab - ARC113](https://eplus.dev/implement-event-driven-messaging-and-automation-workflows-challenge-lab-arc113) - 2026-07-24
+ - 🌜 [Organize and Govern Data with Knowledge Catalog: Challenge Lab - ARC117](https://eplus.dev/organize-and-govern-data-with-knowledge-catalog-challenge-lab-arc117) - 2026-07-23
+ - 📝 [Deploy and Secure Serverless APIs with API Gateway: Challenge Lab - ARC109](https://eplus.dev/deploy-and-secure-serverless-apis-with-api-gateway-challenge-lab-arc109) - 2026-07-23
+ - 🚀 [Develop AI-Powered Prototypes in Google AI Studio: Challenge Lab - GSP529](https://eplus.dev/develop-ai-powered-prototypes-in-google-ai-studio-challenge-lab-gsp529) - 2026-07-23
+ - 💼 [Google Cloud Arcade Facilitator &#39;26 — Syllabus for the Program](https://eplus.dev/google-cloud-arcade-facilitator-26-syllabus-for-the-program) - 2026-07-23
+ - 🦣 [Discover and Protect Sensitive Data Across Your Ecosystem: Challenge Lab - GSP522](https://eplus.dev/discover-and-protect-sensitive-data-across-your-ecosystem-challenge-lab-gsp522) - 2026-07-22
+ - 👨‍🏫 [Build Serverless Applications with Cloud Run Functions: Challenge Lab - ARC104](https://eplus.dev/build-serverless-applications-with-cloud-run-functions-challenge-lab-arc104) - 2026-07-21
+ - 🔭 [Teaching with Google Classroom - GSP982](https://eplus.dev/teaching-with-google-classroom-gsp982) - 2026-07-17
+ - 🤡 [Setting Up Google Meet for Distance Learning - GSP980](https://eplus.dev/setting-up-google-meet-for-distance-learning-gsp980) - 2026-07-16
+ - 💡 [Knowledge Catalog: Qwik Start - Console - GSP1143](https://eplus.dev/knowledge-catalog-qwik-start-console-gsp1143) - 2026-07-13
+ - 🦣 [The Arcade Base Camp July 2026](https://eplus.dev/the-arcade-base-camp-july-2026) - 2026-07-05
+ - 💪 [Implement Sensitive Data Protection on Google Cloud: Challenge Lab - ARC116](https://eplus.dev/implement-sensitive-data-protection-on-google-cloud-challenge-lab-arc116) - 2026-06-08
+ - 🤡 [Managed Service for Apache Spark: Qwik Start - Console - GSP103](https://eplus.dev/managed-service-for-apache-spark-qwik-start-console-gsp103) - 2026-06-08<!-- BLOG-POST-LIST:END -->
 
 <div align="right">
   Update by <a target="_blank"
