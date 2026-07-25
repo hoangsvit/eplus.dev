@@ -5,34 +5,42 @@ seoDescription: "Tin công nghệ 25/07/2026: Claude Opus 5, GitHub Copilot, Goo
 datePublished: 2026-07-25T01:29:13.715Z
 cuid: cmrzoy5ls00000aj37sdgfy6z
 slug: daily-tech-brief-25-07-2026
-cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/7f9f1fe4-eb47-4520-a4b9-3501e609ad90.jpg
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b8eaa73e-5274-429d-97ec-8e5708b0d132.png
 ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/04b918b3-3803-4900-9159-fa770c30fbea.png
 tags: daily-tech-brief-25-07-2026, daily-tech-brief
 
 ---
 
-# Daily Tech Brief — 25/07/2026
-
 > Một bản tin giúp Developer cập nhật nhanh AI, Cloud, Open Source và những công nghệ đáng chú ý trong ngày.
 
-![Daily Tech Brief 25/07/2026](URL_ANH_DAI_DIEN)
+![Daily Tech Brief 25/07/2026](URL_ANH_DAI_DIEN align="center")
 
----
+* * *
 
 ## 📌 Executive Summary
 
-- Anthropic phát hành Claude Opus 5, tập trung vào các tác vụ coding và knowledge work kéo dài với mức giá thấp hơn dòng model frontier cao nhất.
-- Claude Opus 5 đã được tích hợp vào GitHub Copilot cho các gói trả phí và môi trường phát triển phổ biến.
-- Google Cloud giới thiệu cooperative time-slicing cho llm-d, nâng mức sử dụng accelerator từ khoảng 40% lên đến 70% trong benchmark ban đầu.
-- Open Knowledge Format v0.2 bổ sung provenance, trust, freshness và lifecycle để AI agent đánh giá độ tin cậy của context.
-- GitHub MCP Server đã hỗ trợ trước phiên bản MCP stateless dự kiến áp dụng từ ngày 28/07.
-- GitHub đưa Copilot cloud agent dành cho Linear lên trạng thái General Availability.
-- Chrome Dev 152 đã xuất hiện trên Android, trong khi Chrome 151 bắt đầu được triển khai qua kênh Early Stable.
-- Laravel đang mở rộng benchmark AI coding từ tiêu chí “pass test” sang khả năng tạo ra code đúng convention của framework.
-- Supabase bổ sung kết nối Grafana Cloud để cung cấp dashboard, metrics và alerting cho mọi project.
-- Việt Nam đang thúc đẩy hợp tác với Meta, ZTE và Thái Lan về AI, đào tạo nhân lực, chuyển đổi số và quản trị công nghệ.
+*   Anthropic phát hành Claude Opus 5, tập trung vào các tác vụ coding và knowledge work kéo dài với mức giá thấp hơn dòng model frontier cao nhất.
+    
+*   Claude Opus 5 đã được tích hợp vào GitHub Copilot cho các gói trả phí và môi trường phát triển phổ biến.
+    
+*   Google Cloud giới thiệu cooperative time-slicing cho llm-d, nâng mức sử dụng accelerator từ khoảng 40% lên đến 70% trong benchmark ban đầu.
+    
+*   Open Knowledge Format v0.2 bổ sung provenance, trust, freshness và lifecycle để AI agent đánh giá độ tin cậy của context.
+    
+*   GitHub MCP Server đã hỗ trợ trước phiên bản MCP stateless dự kiến áp dụng từ ngày 28/07.
+    
+*   GitHub đưa Copilot cloud agent dành cho Linear lên trạng thái General Availability.
+    
+*   Chrome Dev 152 đã xuất hiện trên Android, trong khi Chrome 151 bắt đầu được triển khai qua kênh Early Stable.
+    
+*   Laravel đang mở rộng benchmark AI coding từ tiêu chí “pass test” sang khả năng tạo ra code đúng convention của framework.
+    
+*   Supabase bổ sung kết nối Grafana Cloud để cung cấp dashboard, metrics và alerting cho mọi project.
+    
+*   Việt Nam đang thúc đẩy hợp tác với Meta, ZTE và Thái Lan về AI, đào tạo nhân lực, chuyển đổi số và quản trị công nghệ.
+    
 
----
+* * *
 
 ## 📈 Hôm nay có gì nổi bật?
 
@@ -42,7 +50,7 @@ Claude Opus 5 được định vị cho những tác vụ kéo dài, GitHub ti�
 
 Ở phía hạ tầng và framework, câu chuyện cũng tương tự. Laravel bắt đầu đặt câu hỏi liệu code do agent tạo ra có thật sự “đúng chất Laravel” hay chỉ đơn giản là vượt qua test. Supabase đưa observability đến gần hơn với nhóm phát triển nhỏ, còn Cloudflare tiếp tục đào sâu vào những hành vi định tuyến Internet tưởng như đã ổn định từ nhiều năm trước.
 
----
+* * *
 
 ## 📰 Tin nổi bật
 
@@ -70,7 +78,7 @@ Hãy thử model trên một issue thật có acceptance criteria rõ ràng, tha
 **Thời gian đọc:** 2 phút  
 **Nguồn:** [Anthropic — Introducing Claude Opus 5](https://www.anthropic.com/news/claude-opus-5)
 
----
+* * *
 
 #### Claude Opus 5 xuất hiện trong GitHub Copilot
 
@@ -94,7 +102,7 @@ Không nên đặt model mạnh nhất làm mặc định cho mọi request. Hã
 **Thời gian đọc:** 1 phút  
 **Nguồn:** [GitHub Changelog — Claude Opus 5 is now available in GitHub Copilot](https://github.blog/changelog/2026-07-24-claude-opus-5-is-now-available-in-github-copilot)
 
----
+* * *
 
 ### ☁️ Cloud & DevOps
 
@@ -120,7 +128,7 @@ Các đội đang chạy post-training trên Kubernetes nên đo accelerator uti
 **Thời gian đọc:** 2 phút  
 **Nguồn:** [Google Cloud — Cooperative time-slicing for RL in llm-d](https://cloud.google.com/blog/products/containers-kubernetes/introducing-co-operative-time-slicing-for-rl-in-llm-d)
 
----
+* * *
 
 #### Open Knowledge Format v0.2 bổ sung trust signals cho AI agent
 
@@ -144,7 +152,7 @@ Dù chưa áp dụng OKF, knowledge base nội bộ vẫn nên có tối thiểu
 **Thời gian đọc:** 2 phút  
 **Nguồn:** [Google Cloud — Open Knowledge Format v0.2 tackles agentic trust](https://cloud.google.com/blog/products/data-analytics/okf-v0-2-adds-trust-signals/)
 
----
+* * *
 
 #### Cloudflare phát hiện gần 70% đường BGP bị thay đổi ORIGIN
 
@@ -168,7 +176,7 @@ Application Developer không cần thay đổi code, nhưng đội Network và S
 **Thời gian đọc:** 2 phút  
 **Nguồn:** [Cloudflare — BGP ORIGIN attribute manipulation and its impact on the Internet](https://blog.cloudflare.com/bgp-origin-attribute/)
 
----
+* * *
 
 ### 💻 GitHub & Open Source
 
@@ -194,7 +202,7 @@ Chuẩn hóa issue template với reproduction steps, acceptance criteria, giớ
 **Thời gian đọc:** 1 phút  
 **Nguồn:** [GitHub Changelog — Copilot cloud agent for Linear is now generally available](https://github.blog/changelog/2026-07-23-copilot-cloud-agent-for-linear-is-now-generally-available)
 
----
+* * *
 
 #### GitHub MCP Server sẵn sàng cho MCP stateless
 
@@ -218,7 +226,7 @@ Nâng SDK, kiểm tra lại lifecycle của client và chạy conformance test t
 **Thời gian đọc:** 1 phút  
 **Nguồn:** [GitHub Changelog — GitHub MCP Server supports the next MCP specification](https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification)
 
----
+* * *
 
 #### GitHub thử nghiệm cơ chế kiểm soát agent trong Issues
 
@@ -242,7 +250,7 @@ Chỉ cho agent tự động áp dụng các thay đổi có thể hoàn tác d�
 **Thời gian đọc:** 1 phút  
 **Nguồn:** [GitHub Changelog — Agent automation controls in GitHub Issues](https://github.blog/changelog/2026-07-23-agent-automation-controls-in-github-issues-in-public-preview)
 
----
+* * *
 
 ### 🌐 Browser Extensions & Web Platform
 
@@ -268,7 +276,7 @@ Duy trì ít nhất một emulator hoặc thiết bị dùng Chrome Dev để ch
 **Thời gian đọc:** 1 phút  
 **Nguồn:** [Chrome Releases — Chrome Dev for Android Update](https://chromereleases.googleblog.com/2026/07/chrome-dev-for-android-update.html)
 
----
+* * *
 
 #### Chrome 151 bắt đầu triển khai qua Early Stable
 
@@ -292,7 +300,7 @@ Ghi nhận browser version trong bug report và telemetry. Với extension có l
 **Thời gian đọc:** 1 phút  
 **Nguồn:** [Chrome Releases — Early Stable Update for Desktop](https://chromereleases.googleblog.com/2026/07/early-stable-update-for-desktop.html)
 
----
+* * *
 
 ### 🐘 Backend & Database
 
@@ -318,7 +326,7 @@ Bổ sung `AGENTS.md`, coding convention và ví dụ module chuẩn vào reposi
 **Thời gian đọc:** 1 phút  
 **Nguồn:** [Laravel — AI coding agents pass tests. Can they write idiomatic Laravel?](https://laravel.com/blog/idiomatic-laravel-ai-coding-agents)
 
----
+* * *
 
 #### Supabase kết nối Grafana Cloud cho mọi project
 
@@ -342,7 +350,7 @@ Kết nối thử một project staging trước và thiết lập cảnh báo c
 **Thời gian đọc:** 1 phút  
 **Nguồn:** [Supabase — Observability for every Supabase project with Grafana Cloud](https://supabase.com/blog)
 
----
+* * *
 
 ### 🚀 DevTools
 
@@ -368,7 +376,7 @@ Chỉ sử dụng cho lỗi CI có phạm vi rõ ràng như lint, format hoặc 
 **Thời gian đọc:** 1 phút  
 **Nguồn:** [GitHub Changelog — Fix failing Actions checks with Copilot cloud agent](https://github.blog/changelog/2026-07-23-github-mobile-fix-failing-actions-checks-with-copilot-cloud-agent)
 
----
+* * *
 
 ### 🎓 Học tập & Sự kiện
 
@@ -394,7 +402,7 @@ Dù không tham dự, có thể tổ chức một internal AI build day: chọn 
 **Thời gian đọc:** 1 phút  
 **Nguồn:** [Microsoft Visual Studio Blog — Microsoft AI Hackathon 2026](https://devblogs.microsoft.com/visualstudio/vslive-microsoft-ai-hackathon-2026-send-your-team-home-with-working-code)
 
----
+* * *
 
 ### 🇻🇳 Công nghệ Việt Nam
 
@@ -420,58 +428,78 @@ Theo dõi các chương trình hợp tác từ Bộ KH&CN, trường đại họ
 **Thời gian đọc:** 2 phút  
 **Nguồn:** [Bộ KH&CN — Việt Nam thúc đẩy hợp tác AI, đào tạo nhân lực và quản trị số](https://mst.gov.vn/viet-nam-thuc-day-hop-tac-ai-dao-tao-nhan-luc-va-quan-tri-so-voi-zte-meta-va-thai-lan-197260724194717329.htm)
 
----
+* * *
 
 ## 🔥 Top 5 đáng chú ý nhất hôm nay
 
 | Chủ đề | Lý do đáng chú ý |
-|---|---|
+| --- | --- |
 | Claude Opus 5 | Model mới tập trung vào coding và long-running agent, đồng thời được tích hợp ngay vào GitHub Copilot. |
 | llm-d cooperative time-slicing | Giải quyết trực tiếp vấn đề GPU nhàn rỗi và có thể giảm đáng kể chi phí RL post-training. |
 | Open Knowledge Format v0.2 | Đưa provenance, trust và freshness thành metadata có thể xử lý tự động cho agent. |
 | GitHub MCP stateless | Có thể ảnh hưởng trực tiếp đến MCP server đang phụ thuộc vào session hoặc bước initialize. |
 | Laravel idiomatic AI coding | Chuyển tiêu chí đánh giá từ “code chạy được” sang “code phù hợp kiến trúc và convention”. |
 
----
+* * *
 
 ## 🛠 Công cụ đáng thử hôm nay
 
 ### Claude Code
 
-- **Dùng để làm gì:** Làm việc với codebase, sửa code, chạy command và xử lý Git bằng ngôn ngữ tự nhiên.
-- **Điểm nổi bật:** Hỗ trợ workflow dài và có thể sử dụng Claude Opus 5.
-- **Phù hợp với:** Developer muốn giao các tác vụ repository nhiều bước cho agent.
-- **Link:** [Claude Code](https://github.com/anthropics/claude-code)
+*   **Dùng để làm gì:** Làm việc với codebase, sửa code, chạy command và xử lý Git bằng ngôn ngữ tự nhiên.
+    
+*   **Điểm nổi bật:** Hỗ trợ workflow dài và có thể sử dụng Claude Opus 5.
+    
+*   **Phù hợp với:** Developer muốn giao các tác vụ repository nhiều bước cho agent.
+    
+*   **Link:** [Claude Code](https://github.com/anthropics/claude-code)
+    
 
 ### llm-d
 
-- **Dùng để làm gì:** Triển khai distributed LLM inference trên Kubernetes.
-- **Điểm nổi bật:** Intelligent routing, KV-cache management, autoscaling và tối ưu accelerator.
-- **Phù hợp với:** Đội AI infrastructure và platform engineering.
-- **Link:** [llm-d](https://github.com/llm-d/llm-d)
+*   **Dùng để làm gì:** Triển khai distributed LLM inference trên Kubernetes.
+    
+*   **Điểm nổi bật:** Intelligent routing, KV-cache management, autoscaling và tối ưu accelerator.
+    
+*   **Phù hợp với:** Đội AI infrastructure và platform engineering.
+    
+*   **Link:** [llm-d](https://github.com/llm-d/llm-d)
+    
 
 ### Laravel Boost
 
-- **Dùng để làm gì:** Cung cấp context Laravel cho AI coding agent thông qua MCP và documentation API.
-- **Điểm nổi bật:** Giúp agent hiểu package, version và convention của ứng dụng.
-- **Phù hợp với:** Developer Laravel đang sử dụng Claude Code, Codex hoặc Copilot.
-- **Link:** [Laravel Boost](https://github.com/laravel/boost)
+*   **Dùng để làm gì:** Cung cấp context Laravel cho AI coding agent thông qua MCP và documentation API.
+    
+*   **Điểm nổi bật:** Giúp agent hiểu package, version và convention của ứng dụng.
+    
+*   **Phù hợp với:** Developer Laravel đang sử dụng Claude Code, Codex hoặc Copilot.
+    
+*   **Link:** [Laravel Boost](https://github.com/laravel/boost)
+    
 
 ### GitHub MCP Server
 
-- **Dùng để làm gì:** Cho phép AI agent làm việc với repository, pull request, issue và các tài nguyên GitHub.
-- **Điểm nổi bật:** Đã hỗ trợ specification MCP stateless mới.
-- **Phù hợp với:** Nhóm xây automation hoặc agent tích hợp GitHub.
-- **Link:** [GitHub MCP Server](https://github.com/github/github-mcp-server)
+*   **Dùng để làm gì:** Cho phép AI agent làm việc với repository, pull request, issue và các tài nguyên GitHub.
+    
+*   **Điểm nổi bật:** Đã hỗ trợ specification MCP stateless mới.
+    
+*   **Phù hợp với:** Nhóm xây automation hoặc agent tích hợp GitHub.
+    
+*   **Link:** [GitHub MCP Server](https://github.com/github/github-mcp-server)
+    
 
 ### Grafana Cloud for Supabase
 
-- **Dùng để làm gì:** Theo dõi metrics, dashboard và alert của Supabase project.
-- **Điểm nổi bật:** Có dashboard dựng sẵn và khả dụng trên cả Free plan.
-- **Phù hợp với:** Startup và nhóm nhỏ chưa có observability stack riêng.
-- **Link:** [Supabase Blog](https://supabase.com/blog)
+*   **Dùng để làm gì:** Theo dõi metrics, dashboard và alert của Supabase project.
+    
+*   **Điểm nổi bật:** Có dashboard dựng sẵn và khả dụng trên cả Free plan.
+    
+*   **Phù hợp với:** Startup và nhóm nhỏ chưa có observability stack riêng.
+    
+*   **Link:** [Supabase Blog](https://supabase.com/blog)
+    
 
----
+* * *
 
 ## 📚 Bài viết nên đọc
 
@@ -505,7 +533,7 @@ Cloudflare trình bày một nghiên cứu chi tiết về cách thuộc tính B
 
 **Đọc bài:** [Cloudflare](https://blog.cloudflare.com/bgp-origin-attribute/)
 
----
+* * *
 
 ## 🚀 GitHub Repository nổi bật
 
@@ -513,45 +541,70 @@ Cloudflare trình bày một nghiên cứu chi tiết về cách thuộc tính B
 
 ### anthropics/claude-code
 
-- **Stars:** khoảng 139.000
-- **Language:** Shell, TypeScript và hệ sinh thái plugin
-- **Use case:** AI coding agent hoạt động trong terminal và IDE
-- **Điểm nổi bật:** Hiểu codebase, chạy command, xử lý Git và hỗ trợ plugin
-- **GitHub:** [anthropics/claude-code](https://github.com/anthropics/claude-code)
+*   **Stars:** khoảng 139.000
+    
+*   **Language:** Shell, TypeScript và hệ sinh thái plugin
+    
+*   **Use case:** AI coding agent hoạt động trong terminal và IDE
+    
+*   **Điểm nổi bật:** Hiểu codebase, chạy command, xử lý Git và hỗ trợ plugin
+    
+*   **GitHub:** [anthropics/claude-code](https://github.com/anthropics/claude-code)
+    
 
 ### supabase/supabase
 
-- **Stars:** khoảng 106.900
-- **Language:** TypeScript
-- **Use case:** Nền tảng Postgres cho web, mobile và AI application
-- **Điểm nổi bật:** Database, Auth, Storage, Realtime và Edge Functions
-- **GitHub:** [supabase/supabase](https://github.com/supabase/supabase)
+*   **Stars:** khoảng 106.900
+    
+*   **Language:** TypeScript
+    
+*   **Use case:** Nền tảng Postgres cho web, mobile và AI application
+    
+*   **Điểm nổi bật:** Database, Auth, Storage, Realtime và Edge Functions
+    
+*   **GitHub:** [supabase/supabase](https://github.com/supabase/supabase)
+    
 
 ### modelcontextprotocol/servers
 
-- **Stars:** khoảng 88.800
-- **Language:** TypeScript
-- **Use case:** Tập hợp reference implementation cho MCP server
-- **Điểm nổi bật:** Nhiều ví dụ tích hợp filesystem, database và dịch vụ bên ngoài
-- **GitHub:** [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+*   **Stars:** khoảng 88.800
+    
+*   **Language:** TypeScript
+    
+*   **Use case:** Tập hợp reference implementation cho MCP server
+    
+*   **Điểm nổi bật:** Nhiều ví dụ tích hợp filesystem, database và dịch vụ bên ngoài
+    
+*   **GitHub:** [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+    
 
 ### llm-d/llm-d
 
-- **Stars:** khoảng 3.900
-- **Language:** Go, Helm và cấu hình Kubernetes
-- **Use case:** Distributed LLM inference trên accelerator
-- **Điểm nổi bật:** Cache-aware routing, KV-cache management và production benchmark
-- **GitHub:** [llm-d/llm-d](https://github.com/llm-d/llm-d)
+*   **Stars:** khoảng 3.900
+    
+*   **Language:** Go, Helm và cấu hình Kubernetes
+    
+*   **Use case:** Distributed LLM inference trên accelerator
+    
+*   **Điểm nổi bật:** Cache-aware routing, KV-cache management và production benchmark
+    
+*   **GitHub:** [llm-d/llm-d](https://github.com/llm-d/llm-d)
+    
 
 ### laravel/boost
 
-- **Stars:** khoảng 3.500
-- **Language:** PHP
-- **Use case:** Cung cấp context Laravel cho AI coding agent
-- **Điểm nổi bật:** MCP server chính thức và documentation API theo version package
-- **GitHub:** [laravel/boost](https://github.com/laravel/boost)
+*   **Stars:** khoảng 3.500
+    
+*   **Language:** PHP
+    
+*   **Use case:** Cung cấp context Laravel cho AI coding agent
+    
+*   **Điểm nổi bật:** MCP server chính thức và documentation API theo version package
+    
+*   **GitHub:** [laravel/boost](https://github.com/laravel/boost)
+    
 
----
+* * *
 
 ## 💬 Góc nhìn của mình
 
@@ -569,7 +622,7 @@ Open Knowledge Format v0.2 cũng chạm đúng một vấn đề mà nhiều h�
 
 Mình nghĩ lợi thế của Developer trong giai đoạn tới không nằm ở việc sử dụng nhiều AI tool nhất. Lợi thế nằm ở khả năng xây dựng một quy trình để agent làm việc trong phạm vi rõ ràng, nhận đủ context, tự kiểm tra kết quả và dừng lại khi gặp quyết định cần con người.
 
----
+* * *
 
 ## 📝 Kết luận
 
