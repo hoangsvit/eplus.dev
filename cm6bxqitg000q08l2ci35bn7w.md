@@ -5,8 +5,8 @@ seoDescription: "Pub/Sub is a messaging service for exchanging event data among 
 datePublished: 2025-01-25T08:34:56.836Z
 cuid: cm6bxqitg000q08l2ci35bn7w
 slug: pubsub-qwik-start-command-line-gsp095
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737794051683/b20c1538-86b2-4b04-8554-b5d97efd0364.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1737794084675/600ba539-0ad3-4f4a-9db2-4615b2c151f0.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5f5cec80-4b82-4461-b9b1-85de6522e02b.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/b3983c60-baed-4518-8173-174dedfeebcd.png
 tags: pubsub-qwik-start-command-line-gsp095, pubsub-qwik-start-command-line, gsp095
 
 ---
