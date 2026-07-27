@@ -182,7 +182,8 @@ sudo chmod +x abhishek.sh
 **Create API Key:** [https://console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials)
 
 ```plaintext
-Natural Language API
+Cloud Natural Language API
+Cloud Speech-to-Text API
 ```
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5f39edaa-b845-4d28-9848-601bf1b20c2a.png align="center")
