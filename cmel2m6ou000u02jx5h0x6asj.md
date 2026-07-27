@@ -479,6 +479,8 @@ gsutil rb gs://${BUCKET_NAME}
 
 ## Solution of Lab
 
+### Quick
+
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP903/lab.sh
 sudo chmod +x lab.sh
@@ -488,3 +490,9 @@ sudo chmod +x lab.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755760633427/0bf21997-ced7-44d5-8120-89160c965f3e.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755760648417/d3a7fe5a-b9a0-4f36-8766-8035e981f579.png align="center")
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=hgNuItTGis4]
