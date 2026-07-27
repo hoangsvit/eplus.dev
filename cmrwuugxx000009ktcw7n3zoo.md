@@ -97,9 +97,9 @@ You may complete the badges in any order. Choose courses based on your current k
     
 *   [Implement Event-Driven Messaging and Automation Workflows](https://www.skills.google/course_templates/728?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (3 labs & 2 credits)
     
-*   [Implement Cloud Storage and Data Protection Solutions](https://www.skills.google/course_templates/725?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)🚀
+*   [Implement Cloud Storage and Data Protection Solutions](https://www.skills.google/course_templates/725?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)
     
-*   [Create a Streaming Data Lake on Cloud Storage](https://www.skills.google/course_templates/705?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 3 credits)
+*   [Create a Streaming Data Lake on Cloud Storage](https://www.skills.google/course_templates/705?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 3 credits)🚀
     
 *   [Deploy and Manage Applications on Google App Engine](https://www.skills.google/course_templates/671?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)
     
