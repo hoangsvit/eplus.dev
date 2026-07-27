@@ -170,3 +170,7 @@ sudo chmod +x techcps110.sh
 ```
 
 * * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=pajOvFTvN-s]
