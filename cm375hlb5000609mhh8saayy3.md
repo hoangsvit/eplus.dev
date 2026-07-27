@@ -147,6 +147,8 @@ sudo chmod +x lab.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755756610997/52af0e00-61b2-4084-ab55-fe529ceda963.png align="center")
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b11d7faa-72f0-4be4-bc76-d219dd0dbf4d.png align="center")
+
 * * *
 
 **Solution 2:**
@@ -166,3 +168,5 @@ curl -LO raw.githubusercontent.com/Techcps/ARC/master/Create%20a%20Streaming%20D
 sudo chmod +x techcps110.sh
 ./techcps110.sh
 ```
+
+* * *
