@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-11-07T10:13:59.201Z
 cuid: cm375hlb5000609mhh8saayy3
 slug: create-a-streaming-data-lake-on-cloud-storage-challenge-lab-arc110
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730974399761/9a672bc0-8fd5-4a3e-91ef-073d5b81c3b4.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1730974418678/1812202e-bbaa-4b3e-a575-8959214e6a55.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/f33f02cd-fed5-472a-a8ca-c768abc2fcf8.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/1c1c13e5-d892-4ba5-947f-167a4945723e.png
 tags: create-a-streaming-data-lake-on-cloud-storage-challenge-lab-arc110, arc110
 
 ---
@@ -29,12 +29,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -49,22 +49,22 @@ You are expected to have the skills and knowledge for these tasks.
 
 You are asked to help a newly formed development team with some of their initial work on a live messages streaming project. You have been asked to assist the team with a simulation of streaming live messages into Cloud Storage using Pub/Sub and Dataflow; you receive the following request to complete the following tasks:
 
-* Use the command line to create up a Pub/Sub topic.
+*   Use the command line to create up a Pub/Sub topic.
     
-* Use the command line to create a Cloud Scheduler job to publish messages to Pub/Sub on a regular interval.
+*   Use the command line to create a Cloud Scheduler job to publish messages to Pub/Sub on a regular interval.
     
-* Use the command line to create a Cloud Storage bucket as the output destination for a Dataflow job.
+*   Use the command line to create a Cloud Storage bucket as the output destination for a Dataflow job.
     
-* Use the command line to create and run a Dataflow job to stream data from a Pub/Sub topic to a Cloud Storage bucket, then check the output files in Cloud Storage bucket.
+*   Use the command line to create and run a Dataflow job to stream data from a Pub/Sub topic to a Cloud Storage bucket, then check the output files in Cloud Storage bucket.
     
 
 Some standards you should follow:
 
-* Ensure that any needed APIs (such as Dataflow) are successfully enabled.
+*   Ensure that any needed APIs (such as Dataflow) are successfully enabled.
     
-* Create all resources in the `us-east4` region, unless otherwise directed.
+*   Create all resources in the `us-east4` region, unless otherwise directed.
     
-* Complete the challenge lab in cloud shell instead of console, unless otherwise directed.
+*   Complete the challenge lab in cloud shell instead of console, unless otherwise directed.
     
 
 **Note:** Make sure to disable and enable the Dataflow API before executing the dataflow pipeline.
@@ -73,7 +73,7 @@ Each task is described in detail below, good luck!
 
 ## **Task 1. Create a Pub/Sub topic**
 
-* Use the command line to create a Pub/Sub topic called `topic1`.
+*   Use the command line to create a Pub/Sub topic called `topic1`.
     
 
 Click *Check my progress* to verify the objective.
@@ -84,11 +84,11 @@ Check my progress
 
 ## **Task 2. Create a Cloud Scheduler job**
 
-1. Use the command line to create an App Engine app for your project.
+1.  Use the command line to create an App Engine app for your project.
     
-2. Use the command line to create a Cloud Scheduler job in this project to publish messages at one-minute intervals to the Pub/Sub topic in task 1. Message body: `Hello World!`.
+2.  Use the command line to create a Cloud Scheduler job in this project to publish messages at one-minute intervals to the Pub/Sub topic in task 1. Message body: `Hello World!`.
     
-3. Use the command line to start the scheduler job.
+3.  Use the command line to start the scheduler job.
     
 
 Click here for hint!
@@ -101,7 +101,7 @@ Check my progress
 
 ## **Task 3. Create a Cloud Storage bucket**
 
-* Use the command line to create a Cloud Storage bucket with the following bucket name: `qwiklabs-gcp-03-d1904edf4f56-bucket`
+*   Use the command line to create a Cloud Storage bucket with the following bucket name: `qwiklabs-gcp-03-d1904edf4f56-bucket`
     
 
 Click *Check my progress* to verify the objective.
@@ -112,26 +112,26 @@ Check my progress
 
 ## **Task 4. Run a Dataflow pipeline to stream data from a Pub/Sub topic to Cloud Storage**
 
-1. Use the command line to create and run a Dataflow job to stream data from a Pub/Sub topic to a Cloud Storage bucket.
+1.  Use the command line to create and run a Dataflow job to stream data from a Pub/Sub topic to a Cloud Storage bucket.
     
 
-* Use Java or Python script as your choice. Sample code available on GitHub pages: [java-docs-samples](https://github.com/GoogleCloudPlatform/java-docs-samples/blob/HEAD/pubsub/streaming-analytics/src/main/java/com/examples/pubsub/streaming/PubSubToGcs.java), [python-docs-samples](https://github.com/GoogleCloudPlatform/python-docs-samples/blob/main/pubsub/streaming-analytics/PubSubToGCS.py).
+*   Use Java or Python script as your choice. Sample code available on GitHub pages: [java-docs-samples](https://github.com/GoogleCloudPlatform/java-docs-samples/blob/HEAD/pubsub/streaming-analytics/src/main/java/com/examples/pubsub/streaming/PubSubToGcs.java), [python-docs-samples](https://github.com/GoogleCloudPlatform/python-docs-samples/blob/main/pubsub/streaming-analytics/PubSubToGCS.py).
     
-* Use the Pub/Sub topic that you created in a task 1.
+*   Use the Pub/Sub topic that you created in a task 1.
     
-* Use the Cloud Storage bucket that you created in task 3 as the output location.
+*   Use the Cloud Storage bucket that you created in task 3 as the output location.
     
-* Group messages based on a fixed time window of 2 minutes.
+*   Group messages based on a fixed time window of 2 minutes.
     
 
-2. Use the command line to check which files have been written out in Cloud Storage.
+2.  Use the command line to check which files have been written out in Cloud Storage.
     
 
 Click *Check my progress* to verify the objective.
 
 Run a Dataflow pipeline to stream data from a Pub/Sub topic to Cloud Storage
 
----
+* * *
 
 ## **Solution of Lab**
 
@@ -147,7 +147,7 @@ sudo chmod +x lab.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755756610997/52af0e00-61b2-4084-ab55-fe529ceda963.png align="center")
 
----
+* * *
 
 **Solution 2:**
 
