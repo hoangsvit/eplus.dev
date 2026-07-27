@@ -158,6 +158,8 @@ Analyze sentiment with the Natural Language API
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/qUb4yzQIwjs] 
 
 Open VM: [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
@@ -179,4 +181,16 @@ sudo chmod +x abhishek.sh
 
 **Create API Key:** [https://console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials)
 
+```plaintext
+Natural Language API
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5f39edaa-b845-4d28-9848-601bf1b20c2a.png align="center")
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756549801906/5104ea4c-40df-491b-8ff9-f55047126b3e.png align="center")
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=KSStnnG5Go4]
