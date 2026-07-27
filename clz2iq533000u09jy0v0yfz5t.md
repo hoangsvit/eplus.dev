@@ -29,12 +29,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -59,7 +59,7 @@ You are expected to have the skills and knowledge for these tasks.
 
 ## Task 1: Create a Cloud storage bucket
 
-1\. Create a Cloud storage bucket with named as '<mark>Bucket1</mark>', which is located at the left side of the lab instructions.
+1\. Create a Cloud storage bucket with named as '<mark class="bg-yellow-200 dark:bg-yellow-500/30">Bucket1</mark>', which is located at the left side of the lab instructions.
 
 Click **Check my progress** to verify the objective.
 
@@ -69,12 +69,12 @@ Verify Task
 
 ## Task 2: Publish Cloud Storage files to web
 
-* Grant all users read permission for the object stored in '<mark>Bucket2</mark>', which will make it publicly available.
+*   Grant all users read permission for the object stored in '<mark class="bg-yellow-200 dark:bg-yellow-500/30">Bucket2</mark>', which will make it publicly available.
     
-* For '<mark>Bucket2</mark>' refer the bucket2 name provided at the left side of the lab instructions. Instead of a bucket, grant all users read permissions to the object.
+*   For '<mark class="bg-yellow-200 dark:bg-yellow-500/30">Bucket2</mark>' refer the bucket2 name provided at the left side of the lab instructions. Instead of a bucket, grant all users read permissions to the object.
     
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Note: </strong>Instead of a bucket, grant all users read permissions to the object. In case you're unable to view pre-created resources as per the task description,"your Google Cloud resources are still being provisioned, please refresh the page and try again in a few minutes." If you do, just wait a short time and reload your page.</p></td></tr></tbody></table>
+<table style="min-width: 25px;"><colgroup><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong>Note: </strong>Instead of a bucket, grant all users read permissions to the object. In case you're unable to view pre-created resources as per the task description,"your Google Cloud resources are still being provisioned, please refresh the page and try again in a few minutes." If you do, just wait a short time and reload your page.</p></td></tr></tbody></table>
 
 Click **Check my progress** to verify the objective.
 
@@ -84,12 +84,12 @@ Verify Task
 
 ## Task 3: Add labels to cloud storage bucket
 
-* Add labels to the pre-created bucket '<mark>Bucket3</mark>'.
+*   Add labels to the pre-created bucket '<mark class="bg-yellow-200 dark:bg-yellow-500/30">Bucket3</mark>'.
     
-* For '<mark>Bucket3</mark>' refer the bucket3 name provided at the left side of the lab instructions.
+*   For '<mark class="bg-yellow-200 dark:bg-yellow-500/30">Bucket3</mark>' refer the bucket3 name provided at the left side of the lab instructions.
     
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Note: </strong>In case you're unable to view pre-created resources as per the task description,"your Google Cloud resources are still being provisioned, please refresh the page and try again in a few minutes." If you do, just wait a short time and reload your page.</p></td></tr></tbody></table>
+<table style="min-width: 25px;"><colgroup><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong>Note: </strong>In case you're unable to view pre-created resources as per the task description,"your Google Cloud resources are still being provisioned, please refresh the page and try again in a few minutes." If you do, just wait a short time and reload your page.</p></td></tr></tbody></table>
 
 Click **Check my progress** to verify the objective.
 
@@ -97,7 +97,7 @@ Verify Task
 
 **Check my progress**
 
----
+* * *
 
 ## Solution of Lab
 
@@ -120,3 +120,7 @@ sudo chmod +x arc111.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755510113942/7c980f39-30fb-425d-bdd1-cbff1d5dcebe.png align="center")
+
+* * *
+
+%[https://eplus.dev/implement-cloud-storage-and-data-protection-solutions-challenge-lab-arc111]
