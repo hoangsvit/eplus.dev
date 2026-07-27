@@ -5,8 +5,8 @@ seoDescription: "Learn Google Cloud Pub/Sub and Dataflow for stream processing: 
 datePublished: 2025-08-21T07:19:06.846Z
 cuid: cmel2m6ou000u02jx5h0x6asj
 slug: stream-processing-with-cloud-pubsub-and-dataflow-qwik-start-gsp903
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755760691029/babb5e58-ea74-41e5-9244-7fa2aee24dbf.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1755760708551/97802424-49f5-4c4a-a26e-3773df74981f.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/87c8d211-2218-49bd-8974-bb113809ed90.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/9222dbcd-cc2a-47dc-ae4a-cf8c73fc01e3.png
 tags: pubsub, dataflow, stream-processing-with-cloud-pubsub-and-dataflow-qwik-start-gsp903, stream-processing-with-cloud-pubsub-and-dataflow-qwik-start, gsp903
 
 ---
@@ -21,11 +21,11 @@ Pub/Sub is a scalable, durable event ingestion and delivery system. Dataflow com
 
 ### What you'll do
 
-* Read messages published to a Pub/Sub topic
+*   Read messages published to a Pub/Sub topic
     
-* Window (or group) the messages by timestamp
+*   Window (or group) the messages by timestamp
     
-* Write the messages to Cloud Storage
+*   Write the messages to Cloud Storage
     
 
 ## Setup
@@ -38,29 +38,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -68,7 +68,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-03-b0c130af25b9@qwiklabs.net
@@ -76,9 +76,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     nESsA5Ud0pL2
@@ -86,19 +86,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -111,13 +111,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-03-8f7826a76f90`. The output contains a line that declares the **Project\_ID** for this session:
@@ -128,14 +128,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-03-8f7826a76f
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -148,7 +148,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -166,7 +166,7 @@ project = qwiklabs-gcp-03-8f7826a76f90
 
 ### Set the region
 
-* In Cloud Shell, run the following command to set the project region for this lab:
+*   In Cloud Shell, run the following command to set the project region for this lab:
     
 
 ```apache
@@ -188,7 +188,7 @@ Disable and re-enable the Dataflow API
 
 ## Task 1. Create project resources
 
-1. In Cloud Shell, create variables for your bucket, project, and region.
+1.  In Cloud Shell, create variables for your bucket, project, and region.
     
 
 ```apache
@@ -198,7 +198,7 @@ TOPIC_ID=my-id
 REGION=us-central1
 ```
 
-2. Set your App Engine region.
+2.  Set your App Engine region.
     
 
 **Note:** For regions other than `us-central1` and `europe-west1`, set the AppEngine region variable to be the same as the assigned region. If you are assigned `us-central1`, set the AppEngine region variable to `us-central`. If you are assigned `europe-west1`, set the AppEngine region variable to `europe-west`.
@@ -209,7 +209,7 @@ You can refer to the [App Engine locations](https://cloud.google.com/appengine/d
 AE_REGION=us-central
 ```
 
-3. Create a Cloud Storage bucket owned by this project:
+3.  Create a Cloud Storage bucket owned by this project:
     
 
 ```apache
@@ -218,21 +218,21 @@ gsutil mb gs://$BUCKET_NAME
 
 **Note:** Cloud Storage bucket names must be globally unique. Your Qwiklabs Project ID is always unique, so that is used in your bucket name in this lab.
 
-4. Create a Pub/Sub topic in this project:
+4.  Create a Pub/Sub topic in this project:
     
 
 ```apache
 gcloud pubsub topics create $TOPIC_ID
 ```
 
-5. Create an App Engine app for your project:
+5.  Create an App Engine app for your project:
     
 
 ```apache
 gcloud app create --region=$AE_REGION
 ```
 
-6. Create a Cloud Scheduler job in this project. The job publishes a message to a Pub/Sub topic at one-minute intervals:
+6.  Create a Cloud Scheduler job in this project. The job publishes a message to a Pub/Sub topic at one-minute intervals:
     
 
 ```apache
@@ -240,14 +240,14 @@ gcloud scheduler jobs create pubsub publisher-job --schedule="* * * * *" \
     --topic=$TOPIC_ID --message-body="Hello!"
 ```
 
-7. If prompted to enable the Cloud Scheduler API, press `y` and enter.
+7.  If prompted to enable the Cloud Scheduler API, press `y` and enter.
     
 
 Click **Check my progress** to verify the objective.
 
 Create Project Resources
 
-8. Start the job:
+8.  Start the job:
     
 
 ```apache
@@ -256,7 +256,7 @@ gcloud scheduler jobs run publisher-job
 
 **Note:** If you encounter an error for `RESOURCE_EXHAUSTED`, attempt to execute the command again.
 
-9. Use the following commands to clone the quickstart repository and navigate to the sample code directory:
+9.  Use the following commands to clone the quickstart repository and navigate to the sample code directory:
     
 
 **JavaPython**
@@ -278,11 +278,11 @@ Start the cloud scheduler job
 
 Review the following sample code, which uses Dataflow to:
 
-* Read Pub/Sub messages.
+*   Read Pub/Sub messages.
     
-* Window (or group) messages into fixed-size intervals by publish timestamps.
+*   Window (or group) messages into fixed-size intervals by publish timestamps.
     
-* Write the messages in each window to files in Cloud Storage.
+*   Write the messages in each window to files in Cloud Storage.
     
 
 **JavaPython**
@@ -355,7 +355,7 @@ public class PubSubToGcs {
 
 ## Task 3. Start the pipeline
 
-1. To start the pipeline, run the following command:
+1.  To start the pipeline, run the following command:
     
 
 **JavaPython**
@@ -388,33 +388,33 @@ Start the pipeline and launch dataflow job
 
 ## Task 4. Observe job and pipeline progress
 
-1. Go to [Dataflow console](https://console.cloud.google.com/dataflow?project=) to observe the job's progress.
+1.  Go to [Dataflow console](https://console.cloud.google.com/dataflow?project=) to observe the job's progress.
     
-2. Click **Refresh** to see the job and the latest status updates.
+2.  Click **Refresh** to see the job and the latest status updates.
     
 
 ![Dataflow page displaying the information of the pubsubtogcs 0815172250-75a99ab8 job](https://cdn.qwiklabs.com/RaFJBrjeoXO0jVCQnlfbGKRYp05LNneSpbqnQ25%2Fe1Y%3D align="left")
 
-3. Click on the job name to open the job details and review the following:
+3.  Click on the job name to open the job details and review the following:
     
 
-* Job structure
+*   Job structure
     
-* Job logs
+*   Job logs
     
-* Stage metrics
+*   Stage metrics
     
 
 ![Job page displaying the Job summary information](https://cdn.qwiklabs.com/YeS%2F3aBHYjhizSJQJEXcyk9hnJrvKY%2FtACSZQyx%2FVVY%3D align="left")
 
 You may have to wait a few more minutes to see the output files in Cloud Storage.
 
-4. You can see the output files by navigating to **Navigation menu** &gt; **Cloud Storage**, and clicking on your bucket name and then clicking **Samples**.
+4.  You can see the output files by navigating to **Navigation menu** > **Cloud Storage**, and clicking on your bucket name and then clicking **Samples**.
     
 
 ![Bucket details page displaying the output file information](https://cdn.qwiklabs.com/1ZT3gmwJfLUDUAgaZeSpzvhp89P5EwPP0P0Du662wk4%3D align="left")
 
-5. Alternately, you can exit the application in Cloud Shell using **CTRL+C** (and for the Python option, type `exit`), and then execute the command below to list the files that have been written out to Cloud Storage:
+5.  Alternately, you can exit the application in Cloud Shell using **CTRL+C** (and for the Python option, type `exit`), and then execute the command below to list the files that have been written out to Cloud Storage:
     
 
 ```apache
@@ -434,12 +434,12 @@ gs://{$BUCKET_NAME}/samples/output-22:36-22:38-0-of-1
 
 ## Task 5. Cleanup
 
-1. If you have not already, exit the application in Cloud Shell using **CTRL+C**.
+1.  If you have not already, exit the application in Cloud Shell using **CTRL+C**.
     
 
 For the Python option, type `exit` to exit the Python environment.
 
-2. In Cloud Shell, delete the Cloud Scheduler job:
+2.  In Cloud Shell, delete the Cloud Scheduler job:
     
 
 ```apache
@@ -448,19 +448,19 @@ gcloud scheduler jobs delete publisher-job
 
 If prompted "Do you want to continue", press `Y` and enter.
 
-3. In the Dataflow console, stop the job by selecting your job name, and clicking **Stop**.
+3.  In the Dataflow console, stop the job by selecting your job name, and clicking **Stop**.
     
 
-When prompted, click **Stop Job &gt; Cancel** to cancel the pipeline without draining.
+When prompted, click **Stop Job > Cancel** to cancel the pipeline without draining.
 
-4. In Cloud Shell, delete the topic:
+4.  In Cloud Shell, delete the topic:
     
 
 ```apache
 gcloud pubsub topics delete $TOPIC_ID
 ```
 
-5. In Cloud Shell, delete the files created by the pipeline:
+5.  In Cloud Shell, delete the files created by the pipeline:
     
 
 ```apache
@@ -468,14 +468,14 @@ gsutil -m rm -rf "gs://${BUCKET_NAME}/samples/output*"
 gsutil -m rm -rf "gs://${BUCKET_NAME}/temp/*"
 ```
 
-6. In Cloud Shell, delete the Cloud Storage bucket:
+6.  In Cloud Shell, delete the Cloud Storage bucket:
     
 
 ```apache
 gsutil rb gs://${BUCKET_NAME}
 ```
 
----
+* * *
 
 ## Solution of Lab
 
