@@ -103,9 +103,9 @@ You may complete the badges in any order. Choose courses based on your current k
     
 *   [Deploy and Manage Applications on Google App Engine](https://www.skills.google/course_templates/671?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)
     
-*   [Implement Speech and Language Solutions with Pre-trained APIs](https://www.skills.google/course_templates/700?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)🚀
+*   [Implement Speech and Language Solutions with Pre-trained APIs](https://www.skills.google/course_templates/700?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)
     
-*   [Using the Google Cloud Speech API](https://www.skills.google/course_templates/756?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)
+*   [Using the Google Cloud Speech API](https://www.skills.google/course_templates/756?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)🚀
     
 *   [Analyze Speech and Language with Google APIs](https://www.skills.google/course_templates/634?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 8 credits)
     
