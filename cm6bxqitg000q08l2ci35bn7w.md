@@ -435,23 +435,13 @@ Now you know how to add flags to a Pub/Sub command to output a larger pool of me
 
 ### Quick
 
-%[https://www.youtube.com/watch?v=dGZv09mWsQI&ab_channel=QUICKGCPLAB] 
-
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP095/lab.sh
 source lab.sh
-```
-
-**Script Alternative**
-
-```apache
-curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/PubSub%20Qwik%20Start%20-%20Command%20Line/gsp095.sh
-sudo chmod +x gsp095.sh
-./gsp095.sh
 ```
 
 * * *
 
 ### Manual
 
-%[https://youtu.be/DOkO8QSphJY]
+%[https://www.youtube.com/watch?v=S1mVaoruacM]
