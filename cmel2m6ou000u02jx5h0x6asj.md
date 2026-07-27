@@ -479,8 +479,6 @@ gsutil rb gs://${BUCKET_NAME}
 
 ## Solution of Lab
 
-%[https://youtu.be/Vfe6SES1ixE] 
-
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP903/lab.sh
 sudo chmod +x lab.sh
