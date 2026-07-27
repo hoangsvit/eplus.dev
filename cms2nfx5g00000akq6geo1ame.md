@@ -61,13 +61,13 @@ You are expected to have the skills and knowledge for these tasks.
 
 ## **Task 1**
 
-## Create a bucket with Coldline Storage class
+**Create a bucket with Coldline Storage class**
 
 1\. Create a Cloud storage bucket with **Coldline Storage class** and named as '<mark class="bg-yellow-200 dark:bg-yellow-500/30">Bucket1</mark>', which is located at the left side of the lab instructions.
 
 ## **Task 2**
 
-## Create a retention policy
+**Create a retention policy**
 
 1\. Now add a retention policy of 30 seconds to the precreated bucket '<mark class="bg-yellow-200 dark:bg-yellow-500/30">Bucket2</mark>', which is located at the left side of the lab instructions.
 
@@ -80,3 +80,44 @@ You are expected to have the skills and knowledge for these tasks.
 1\. Add an object into the precreated bucket named as '<mark class="bg-yellow-200 dark:bg-yellow-500/30">Bucket3</mark>', which is located at the left side of the lab instructions.
 
 <table style="min-width: 25px;"><colgroup><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong>Note: </strong>In case you're unable to view pre-created resources as per the task description,"your Google Cloud resources are still being provisioned, please refresh the page and try again in a few minutes." If you do, just wait a short time and reload your page.</p></td></tr></tbody></table>
+
+* * *
+
+## Solution of Lab
+
+### Quick
+
+%[https://www.youtube.com/watch?v=X6DNbZbzKuA&embeds_referring_euri=https%3A%2F%2Feplus.dev%2F] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC111/lab.sh
+source lab.sh
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8d487443-b4a3-4c92-8d36-6ed8cf771579.png align="center")
+
+**Script Alternative**
+
+```plaintext
+export BUCKET_1=
+export BUCKET_2=
+export BUCKET_3=
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1721987092380/b5cb2c32-a337-4395-b1fe-3ab7ecd71fe5.png align="center")
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1745294830497/150c004f-8629-482d-9d93-cb52654b2b92.png align="center")
+
+```apache
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Get%20Started%20with%20Cloud%20Storage%20Challenge%20Lab/arc111.sh
+sudo chmod +x arc111.sh
+./arc111.sh
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755510113942/7c980f39-30fb-425d-bdd1-cbff1d5dcebe.png align="center")
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=yJz0PKxxjfQ]
