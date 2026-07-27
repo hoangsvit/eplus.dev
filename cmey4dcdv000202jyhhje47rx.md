@@ -5,8 +5,8 @@ seoDescription: "Participate in a hands-on lab to analyze speech and text with G
 datePublished: 2025-08-30T10:29:13.843Z
 cuid: cmey4dcdv000202jyhhje47rx
 slug: analyze-speech-and-language-with-google-apis-challenge-lab-arc114
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756549654619/f2693fd2-8ddc-4bda-8f26-a89b0dcec7a9.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756549702688/4012f014-b245-476e-90b2-9d69c5adfa4f.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/fed2f503-13f3-437d-ac61-4c3c6d4eed92.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/c7c03059-0ea5-4e9c-a8ed-1317b04907cf.png
 tags: google-cloud-apis, analyze-speech-and-language-with-google-apis-challenge-lab-arc114, analyze-speech-and-language-with-google-apis-challenge-lab, arc114
 
 ---
@@ -29,12 +29,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -51,13 +51,13 @@ For this challenge, you are asked to analyze some text and speech using the Clou
 
 You need to:
 
-* Create an API key
+*   Create an API key
     
-* Make an entity analysis request and call the Natural Language API
+*   Make an entity analysis request and call the Natural Language API
     
-* Create a speech analysis request and call the Speech API
+*   Create a speech analysis request and call the Speech API
     
-* Analyze sentiment with the Natural Language API
+*   Analyze sentiment with the Natural Language API
     
 
 For this challenge lab, a virtual machine (VM) instance named `lab-vm` has been configured for you to complete the tasks.
@@ -66,9 +66,9 @@ Each task is described in detail below, good luck!
 
 ## Task 1. Create an API key
 
-1. For this task, you need to create an API key to use in this and other tasks when sending a request to the Natural Language API.
+1.  For this task, you need to create an API key to use in this and other tasks when sending a request to the Natural Language API.
     
-2. Save the API key to use in other tasks.
+2.  Save the API key to use in other tasks.
     
 
 Click **Check my progress** to verify the objective.
@@ -77,9 +77,9 @@ Create an API key
 
 ## Task 2. Make an entity analysis request and call the Natural Language API
 
-1. For this task, connect to the instance `lab-vm` provisioned for you via **SSH**.
+1.  For this task, connect to the instance `lab-vm` provisioned for you via **SSH**.
     
-2. Next, create a JSON file named `nl_request.json` which you will pass to the Natural Language API for analysis. You can add the following code to your JSON file to analyze text about the city of Boston or, alternatively, add text of your own choosing to the **content** object to perform entity analysis on that instead.
+2.  Next, create a JSON file named `nl_request.json` which you will pass to the Natural Language API for analysis. You can add the following code to your JSON file to analyze text about the city of Boston or, alternatively, add text of your own choosing to the **content** object to perform entity analysis on that instead.
     
 
 ```json
@@ -92,9 +92,9 @@ Create an API key
 }
 ```
 
-3. You can now pass your request body, along with the API key environment variable you saved earlier, to the Natural Language API using the `curl` command or analyze the text using `gcloud` ML commands.
+3.  You can now pass your request body, along with the API key environment variable you saved earlier, to the Natural Language API using the `curl` command or analyze the text using `gcloud` ML commands.
     
-4. Save the response in a file called `nl_response.json`.
+4.  Save the response in a file called `nl_response.json`.
     
 
 Click **Check my progress** to verify the objective.
@@ -105,7 +105,7 @@ Make an entity analysis request and call the Natural Language API
 
 **Note:** For this task, you will use a pre-recorded file that's available on Cloud Storage: `gs://cloud-samples-tests/speech/brooklyn.flac`. [Listen to the audio file before sending it to the Speech API](https://storage.cloud.google.com/cloud-samples-tests/speech/brooklyn.flac).
 
-1. Create another JSON file, named `speech_request.json` for this task, and add the content using the URI value of the sample audio file.
+1.  Create another JSON file, named `speech_request.json` for this task, and add the content using the URI value of the sample audio file.
     
 
 ```json
@@ -120,9 +120,9 @@ Make an entity analysis request and call the Natural Language API
 }
 ```
 
-2. You can now pass your request body, along with the API key environment variable that you saved earlier, to the Natural Language API using the `curl` command or analyze the speech using `gcloud` ML commands.
+2.  You can now pass your request body, along with the API key environment variable that you saved earlier, to the Natural Language API using the `curl` command or analyze the speech using `gcloud` ML commands.
     
-3. Save the response in a file named `speech_response.json`.
+3.  Save the response in a file named `speech_response.json`.
     
 
 Click **Check my progress** to verify the objective.
@@ -135,26 +135,26 @@ For this task, you need to analyze text sentiment using the Google Cloud Natural
 
 To use the Natural Language API to perform sentiment analysis, you need to access the service by calling the `analyze_sentiment` method of the `LanguageServiceClient` instance.
 
-1. You need to edit the method `def analyze(movie_review_filename):` in the file `sentiment_analysis.py` and complete the method using Python code that performs the following actions:
+1.  You need to edit the method `def analyze(movie_review_filename):` in the file `sentiment_analysis.py` and complete the method using Python code that performs the following actions:
     
-    * Instantiate a `LanguageServiceClient` instance as the client.
+    *   Instantiate a `LanguageServiceClient` instance as the client.
         
-    * Read the filename containing the text data into a variable.
+    *   Read the filename containing the text data into a variable.
         
-    * Instantiate a `Document` object with the contents of the file.
+    *   Instantiate a `Document` object with the contents of the file.
         
-    * Call the client's `analyze_sentiment` method.
+    *   Call the client's `analyze_sentiment` method.
         
-2. Download the fictitious movie review samples from Google Cloud Storage: `gs://cloud-samples-tests/natural-language/sentiment-samples.tgz .`
+2.  Download the fictitious movie review samples from Google Cloud Storage: `gs://cloud-samples-tests/natural-language/sentiment-samples.tgz .`
     
-3. Unzip the sample files and run the sentiment analysis on one of the files, `bladerunner-pos.txt`, using the relevant Python command.
+3.  Unzip the sample files and run the sentiment analysis on one of the files, `bladerunner-pos.txt`, using the relevant Python command.
     
 
 Click **Check my progress** to verify the objective.
 
 Analyze sentiment with the Natural Language API
 
----
+* * *
 
 ## Solution of Lab
 
