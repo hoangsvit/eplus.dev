@@ -145,7 +145,7 @@ sudo chmod +x lab.sh
 ./lab.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1755756610997/52af0e00-61b2-4084-ab55-fe529ceda963.png align="center")
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a9efba65-c819-4ad4-996d-9681722b18cf.png align="center")
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b11d7faa-72f0-4be4-bc76-d219dd0dbf4d.png align="center")
 
