@@ -548,6 +548,25 @@ sudo chmod +x *.sh
 
 * * *
 
+*   [https://console.cloud.google.com/iam-admin/iam](https://console.cloud.google.com/iam-admin/iam)
+    
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/92673d9d-c9c0-4ba4-a6f4-f2bf89bac3d1.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8ea110e4-5659-4532-810d-810b89c3627d.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1dd1769b-1630-4eb2-89a1-ec7a5ec1e505.png align="center")
+
+```plaintext
+Low Sensitivity Data Access Only
+```
+
+```plaintext
+Your-Project-ID/sensitivity-level/low
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/0b7a143c-3fde-489c-b58d-18f4080ffa5d.png align="center")
+
 ### Manual
 
 %[https://www.youtube.com/watch?v=fIdmx0j3OgE] 
