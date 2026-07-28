@@ -170,9 +170,37 @@ Check my progress
 
 ## Solution of Lab
 
-### New Solution
+### Quick
 
-%[https://www.youtube.com/watch?v=F_s-smALoZs] 
+%[https://www.youtube.com/watch?v=xtK2Zot-L9A] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Migrate%20MySQL%20Data%20to%20Cloud%20SQL%20using%20Database%20Migration%20Service%3A%20Challenge%20Lab/TechCode.sh
+sudo chmod +x TechCode.sh 
+./TechCode.sh
+```
+
+**For Database Migration: Click** [**Here**](https://console.cloud.google.com/dbmigration/migrations?)
+
+**Task 4: Connect to the MySQL Interactive Console**
+
+*   Run the following command in your terminal:
+    
+
+```plaintext
+mysql -u admin -p
+```
+
+*   When prompted for the password, enter:
+    
+
+```plaintext
+changeme
+```
+
+* * *
+
+### Other Solution
 
 **Enable the following Google APIs:**
 
