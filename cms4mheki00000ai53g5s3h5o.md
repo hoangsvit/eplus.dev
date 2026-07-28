@@ -1,0 +1,132 @@
+---
+title: "Build Event-Driven Applications with Eventarc: Challenge Lab - ARC118"
+seoTitle: "Build Event-Driven Applications with Eventarc: Challenge Lab - ARC118"
+seoDescription: "In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs in the course to figure out how to complete the tasks on your own! An automated scoring system (shown on this page) will provide feedback on whether you have completed your tasks correctly."
+datePublished: 2026-07-28T12:19:03.832Z
+cuid: cms4mheki00000ai53g5s3h5o
+slug: build-event-driven-applications-with-eventarc-challenge-lab-arc118
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/d118ed0e-6385-4e0e-8405-1b504c8ddf42.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/d6b4fb45-732b-4dcf-ae5c-b08feee2328c.png
+tags: arc118, build-event-driven-applications-with-eventarc-challenge-lab-arc118, build-event-driven-applications-with-eventarc-challenge-lab
+
+---
+
+## **Overview**
+
+In a challenge lab you’re given a scenario and a set of tasks. Instead of following step-by-step instructions, you will use the skills learned from the labs in the course to figure out how to complete the tasks on your own! An automated scoring system (shown on this page) will provide feedback on whether you have completed your tasks correctly.
+
+When you take a challenge lab, you will not be taught new Google Cloud concepts. You are expected to extend your learned skills, like changing default values and reading and researching error messages to fix your own mistakes.
+
+To score 100% you must successfully complete all tasks within the time period!
+
+## **Setup**
+
+### Before you click the Start Lab button
+
+Read these instructions. Labs are timed and you cannot pause them. The timer, which starts when you click **Start Lab**, shows how long Google Cloud resources are made available to you.
+
+This hands-on lab lets you do the lab activities in a real cloud environment, not in a simulation or demo environment. It does so by giving you new, temporary credentials you use to sign in and access Google Cloud for the duration of the lab.
+
+To complete this lab, you need:
+
+*   Access to a standard internet browser (Chrome browser recommended).
+    
+
+**Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
+
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
+    
+
+**Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
+
+## **Challenge scenario**
+
+You are just starting your junior cloud DevOps role. So far you have been helping teams create and manage Cloud Functions, Cloud Run services, and Pub/Sub topics.
+
+You are expected to have the skills and knowledge for these tasks.
+
+### Your challenge
+
+You are asked to help a newly formed development team with some of their initial work on a new project using Pub/Sub to manage messages. Specifically, they need to create a new Pub/Sub topic with an event trigger to a Cloud Run sink using Eventarc; you receive the following request to complete the following tasks:
+
+*   Create a Pub/Sub topic.
+    
+*   Create a Cloud Run sink.
+    
+*   Create and test a Pub/Sub event trigger using Eventarc.
+    
+
+Some standards you should follow:
+
+*   Ensure that any needed APIs (such as Eventarc, Logging, Cloud Build, Cloud Run, and Pub/Sub) are successfully enabled.
+    
+*   Create all resources in the `us-west1` region, unless otherwise directed.
+    
+
+Each task is described in detail below, good luck!
+
+## **Task 1. Create a Pub/Sub topic**
+
+*   Create a Pub/Sub topic named `qwiklabs-gcp-01-9c22451824ff`**\-topic with a subscription named** `qwiklabs-gcp-01-9c22451824ff`**\-topic-sub.**
+    
+
+Click **Check my progress** to verify the objective.
+
+Create a Pub/Sub topic
+
+## **Task 2. Create a Cloud Run sink**
+
+*   Create a Cloud Run sink with the following requirements:
+    
+    *   Service name: `pubsub-events`
+        
+    *   Image name: `gcr.io/cloudrun/hello`
+        
+
+Click **Check my progress** to verify that you've performed the above task.
+
+Create a Cloud Run sink
+
+## **Task 3. Create and test a Pub/Sub event trigger using Eventarc**
+
+1.  Create a Pub/Sub event trigger named `pubsub-events-trigger` with the following requirements:
+    
+
+*   Use the Cloud Run sink and Pub/Sub topic created in the previous tasks.
+    
+*   To create the trigger on an existing Pub/Sub topic, add the following argument to the command used to create the trigger: `--transport-topic=qwiklabs-gcp-01-9c22451824ff`\-topic
+    
+
+2.  Test the Pub/Sub event trigger by publishing a message to the Pub/Sub topic.
+    
+
+Click **Check my progress** to verify that you've performed the above task.
+
+Create and test a Pub/Sub event trigger
+
+* * *
+
+## Solution of Lab
+
+### Quick
+
+%[https://www.youtube.com/watch?v=KouTr9LfFwU] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC118/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Get%20Started%20with%20Eventarc%3A%20Challenge%20Lab/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
+```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=f_c0pYMlAd4]
