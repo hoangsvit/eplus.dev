@@ -119,9 +119,9 @@ You may complete the badges in any order. Choose courses based on your current k
     
 *   [Analyze Images with the Cloud Vision API](https://www.skills.google/course_templates/633?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 12 credits)
     
-*   [Build Event-Driven Applications with Eventarc](https://www.skills.google/course_templates/727?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 3 credits)🚀
+*   [Build Event-Driven Applications with Eventarc](https://www.skills.google/course_templates/727?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 3 credits)
     
-*   [Configure Service Accounts and IAM Roles for Google Cloud](https://www.skills.google/course_templates/702?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)
+*   [Configure Service Accounts and IAM Roles for Google Cloud](https://www.skills.google/course_templates/702?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)🚀
     
 
 ### Intermediate: Dive Deeper into Google Cloud & AI (17 Skill Badges)
