@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2025-04-14T09:10:47.851Z
 cuid: cm9gusx7v002d09kvgtio63j0
 slug: store-process-and-manage-data-on-google-cloud-challenge-lab-arc100
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744620896933/8f2e7ae4-d47d-4308-a72a-c3a50856ff84.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744620979618/0bfaa8f0-a506-4ee0-8b0f-0582924e8080.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a46e4776-0016-41e8-b652-cd536116da18.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/c42c68a3-0e53-40b8-82c6-e7733b8a9edc.png
 tags: store-process-and-manage-data-on-google-cloud-challenge-lab-arc100, store-process-and-manage-data-on-google-cloud-challenge-lab, arc100
 
 ---
@@ -29,12 +29,12 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
@@ -49,22 +49,22 @@ You are expected to have the skills and knowledge for these tasks.
 
 You are asked to help a newly formed development team with some of their initial work on a new project around storing and organizing photographs, called Memories. You have been asked to assist the Memories team with initial configuration for their application development environment; you receive the following request to complete the following tasks:
 
-* Create a bucket for storing the photographs.
+*   Create a bucket for storing the photographs.
     
-* Create a Pub/Sub topic that will be used by a Cloud Run function you create.
+*   Create a Pub/Sub topic that will be used by a Cloud Run function you create.
     
-* Create a Cloud Run function.
+*   Create a Cloud Run function.
     
 
 Some standards you should follow:
 
-* Create all resources in the `us-west1` region unless otherwise directed.
+*   Create all resources in the `us-west1` region unless otherwise directed.
     
-* Use the project VPCs.
+*   Use the project VPCs.
     
-* Naming is normally *team-resource*, e.g. an instance could be named **kraken-webserver1**
+*   Naming is normally *team-resource*, e.g. an instance could be named **kraken-webserver1**
     
-* Allocate cost effective resource sizes. Projects are monitored and excessive resource use will result in the containing project's termination (and possibly yours), so beware. This is the guidance the monitoring team is willing to share; unless directed, use **f1-micro** for small Linux VMs and **n1-standard-1** for Windows or other applications such as Kubernetes nodes.
+*   Allocate cost effective resource sizes. Projects are monitored and excessive resource use will result in the containing project's termination (and possibly yours), so beware. This is the guidance the monitoring team is willing to share; unless directed, use **f1-micro** for small Linux VMs and **n1-standard-1** for Windows or other applications such as Kubernetes nodes.
     
 
 Each task is described in detail below, good luck!
@@ -95,7 +95,7 @@ Create a Cloud Run function `memories-thumbnail-creator` that will to create a t
 
 Ensure the Cloud Run function is using the **Cloud Run function** environment (which is 2nd generation). Ensure the resource is created in the `us-west1` region and `us-west1-a` zone.
 
-1. Create a Cloud Run function (2nd generation) called `memories-thumbnail-creator` using `Node.js 22` and setting the trigger to `Cloud Storage`.
+1.  Create a Cloud Run function (2nd generation) called `memories-thumbnail-creator` using `Node.js 22` and setting the trigger to `Cloud Storage`.
     
 
 **Note:** The Cloud Run Function is required to execute every time an object is created in the bucket created in Task 1. During the process, Cloud Run Function may request permission to enable APIs or request permission to grant roles to service accounts. Please enable each of the required APIs and grant roles as requested.
@@ -104,9 +104,9 @@ After you grant the permissions, wait a few minutes before you click to create t
 
 **Note when using the console to create the function:** After initiating the creation of the function, wait until the green checkbox has been granted for **Creating Eventarc trigger** (top of page under **Creating service**) before updating the code in the next step. If you do not wait for the green checkbox for **Creating Eventarc trigger**, the trigger may not be successfully created and will not appear under the **Triggers** tab of the function.
 
-2. Make sure you set the **Entry point** (Function to execute) to `memories-thumbnail-creator`.
+2.  Make sure you set the **Entry point** (Function to execute) to `memories-thumbnail-creator`.
     
-3. Add the following code to the `index.js`:
+3.  Add the following code to the `index.js`:
     
 
 ```javascript
@@ -176,7 +176,7 @@ functions.cloudEvent('memories-thumbnail-creator', async cloudEvent => {
 });
 ```
 
-4. Add the following code to the `package.json`:
+4.  Add the following code to the `package.json`:
     
 
 ```json
@@ -206,12 +206,12 @@ functions.cloudEvent('memories-thumbnail-creator', async cloudEvent => {
 
 To test the function, upload a JPG or PNG image into the bucket.
 
-1. Upload a PNG or JPG image to `memories-bucket-qwiklabs-gcp-01-2fa6388dfe64` bucket.
+1.  Upload a PNG or JPG image to `memories-bucket-qwiklabs-gcp-01-2fa6388dfe64` bucket.
     
 
 **Note:** You need to upload one JPG or PNG image into the bucket to verify the thumbnail was created (after creating the function successfully). Use any JPG or PNG image, or use this image `https://storage.googleapis.com/cloud-training/arc101/travel.jpg` by downloading the image to your machine and then uploading that file to your bucket.
 
-2. You will see a thumbnail image appear shortly afterwards (use **REFRESH** in the bucket details).
+2.  You will see a thumbnail image appear shortly afterwards (use **REFRESH** in the bucket details).
     
 
 After you upload the image file, you can click to check your progress below. You do not need to wait for the thumbnail image to be created.
@@ -224,16 +224,9 @@ Click **Check my progress** to verify the objective.
 
 Verify the thumbnail was successfully created by the Cloud Run function
 
----
+* * *
 
 ## Solution of Lab
-
-```apache
-export BUCKET_NAME=""
-export REGION=""
-export TOPIC_NAME=""
-export FUNCTION_NAME=""
-```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744621441370/7b06dafe-d823-4d45-bd2e-5e4a493ac4e5.png align="center")
 
@@ -247,4 +240,4 @@ sudo chmod +x lab.sh
 ./lab.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744621835600/b63f5b29-fd62-441e-8402-004ac6904515.png align="center")
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/3e9c8b0c-2a77-4428-bfaf-bf6f7ca653a5.png align="center")
