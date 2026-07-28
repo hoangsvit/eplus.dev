@@ -183,7 +183,23 @@ sudo chmod +x TechCode.sh
 *   [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
     
 
-**For Database Migration: Click** [**Here**](https://console.cloud.google.com/dbmigration/migrations?)
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/e3470d11-6074-4891-abd6-29c100ff6a24.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/0f61a745-0ba6-4c6c-a566-ffdae0ed154f.png align="center")
+
+**For Database Migration: Click** [**Here**](https://console.cloud.google.com/dbmigration/migrations?)  
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c7606032-d4c5-4e7e-bd47-c47bffa3e317.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/07fac084-4dd2-4a6f-b2be-65426ccd84fa.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/02f1fee0-bc61-4f27-8246-54ce7e99131f.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b9e5f4a2-56d8-4374-94ae-d3b5d77e2782.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a0d29234-7b42-4586-aff5-2c72bac1859e.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/f60260ec-82c1-4579-a6f2-1bbfc32ff898.png align="center")
 
 **Task 4: Connect to the MySQL Interactive Console**
 
@@ -200,6 +216,17 @@ mysql -u admin -p
 ```plaintext
 changeme
 ```
+
+* * *
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8a4d225b-f9ac-42f2-b7a0-17aa7b93e0e6.png align="center")
+
+*   [https://console.cloud.google.com/dbmigration/migrations](https://console.cloud.google.com/dbmigration/migrations)
+    
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1476fcd3-076e-480d-bb07-0fc8d95a4845.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/48f175eb-8dbe-4cd5-a502-9f2fef028efc.png align="center")
 
 * * *
 
