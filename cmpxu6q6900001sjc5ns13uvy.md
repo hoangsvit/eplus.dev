@@ -185,6 +185,8 @@ For this task, you will query the BigQuery public datasets from an instance with
 
 ## Solution of Lab
 
+### Quick
+
 %[https://www.youtube.com/watch?v=kZbs2iZ05t0] 
 
 ```plaintext
@@ -209,3 +211,9 @@ sudo chmod +x abhishek.sh
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/303c822c-46b0-48b7-9fe5-17574acc4036.png align="center")
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/98828e51-6181-4223-aac1-1d430207c05c.png align="center")
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=Ftck0wUDvaY]
