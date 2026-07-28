@@ -109,9 +109,9 @@ You may complete the badges in any order. Choose courses based on your current k
     
 *   [Analyze Speech and Language with Google APIs](https://www.skills.google/course_templates/634?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 8 credits)
     
-*   [Store, Process, and Manage Data on Google Cloud - Console](https://www.skills.google/course_templates/658?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 3 credits)🚀
+*   [Store, Process, and Manage Data on Google Cloud - Console](https://www.skills.google/course_templates/658?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 3 credits)
     
-*   [Store, Process, and Manage Data on Google Cloud - Command Line](https://www.skills.google/course_templates/659?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 3 credits)
+*   [Store, Process, and Manage Data on Google Cloud - Command Line](https://www.skills.google/course_templates/659?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 3 credits)🚀
     
 *   [Migrate MySQL Data to Cloud SQL Using Database Migration Service](https://www.skills.google/course_templates/629?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (5 labs & 5 credits)
     
