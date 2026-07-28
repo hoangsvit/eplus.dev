@@ -523,6 +523,24 @@ Notice another user (`student-01-e1396eaa9824@qwiklabs.net`) is listed as a BigQ
     
 
 ```plaintext
+bq_discovery
+```
+
+```plaintext
+data_profiles
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/14d4219d-d80a-4168-b5fb-54fd82d1ce19.png align="center")
+
+* * *
+
+```plaintext
+BigQuery Discovery
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/059c8427-def1-41a1-bb8e-99e70db31010.png align="center")
+
+```plaintext
 curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Enabling%20Sensitive%20Data%20Protection%20Discovery%20for%20BigQuery/gsp1282.sh
 sudo chmod +x *.sh
 ./*.sh
