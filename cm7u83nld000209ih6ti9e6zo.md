@@ -31,11 +31,13 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
+    
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
+    
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
@@ -65,7 +67,8 @@ Before you cut over to the newly migrated database, you must carry out a test to
 
 ## **Task 1. Configure a Database Migration Service connection profile for a stand-alone MySQL database**
 
-* To complete this task you must configure a connection profile for the migration of the MySQL source instance, running on a compute instance named `dev-mkt-bpb`, to Cloud SQL using a Database Migration Service one-time migration and the external IP address of the source instance.
+*   To complete this task you must configure a connection profile for the migration of the MySQL source instance, running on a compute instance named `dev-mkt-bpb`, to Cloud SQL using a Database Migration Service one-time migration and the external IP address of the source instance.
+    
 
 The credentials for this source database are provided in the table below:
 
@@ -82,7 +85,8 @@ Check my progress
 
 ## **Task 2. Perform a one-time migration of a stand-alone MySQL database to Cloud SQL**
 
-1. You must migrate this compute instance based MySQL database to a Cloud SQL instance configured with the following properties:
+1.  You must migrate this compute instance based MySQL database to a Cloud SQL instance configured with the following properties:
+    
 
 | **Property** | **Value** |
 | --- | --- |
@@ -94,7 +98,8 @@ Check my progress
 | **Storage type** | `SSD` |
 | **Storage capacity** | `10GB` |
 
-2. Once you have migrated this database to a Cloud SQL instance you can confirm that the data has populated the Cloud SQL MySQL database by connecting to the new Cloud SQL MySQL database and running the following query:
+2.  Once you have migrated this database to a Cloud SQL instance you can confirm that the data has populated the Cloud SQL MySQL database by connecting to the new Cloud SQL MySQL database and running the following query:
+    
 
 ```sql
 use customers_data;
@@ -109,9 +114,10 @@ Check my progress
 
 ## **Task 3. Create a continuous Database Migration Service migration job to migrate a stand-alone MySQL database to Cloud SQL**
 
-1. To complete this task you must create a continuous Database Migration Service migration job to migrate a stand-alone MySQL database to a second Cloud SQL instance using VPC peering.
-
-2. You must migrate the same stand-alone MySQL database to a second Cloud SQL instance configured with the following properties:
+1.  To complete this task you must create a continuous Database Migration Service migration job to migrate a stand-alone MySQL database to a second Cloud SQL instance using VPC peering.
+    
+2.  You must migrate the same stand-alone MySQL database to a second Cloud SQL instance configured with the following properties:
+    
 
 | **Property** | **Value** |
 | --- | --- |
@@ -127,7 +133,8 @@ Check my progress
 
 Be sure to use the same source connection profile that you created in Task 1. For the continuous migration job, you must use VPC Peering to provide access to the source compute instance and its database.
 
-3. To complete this task you must start the continuous migration job you have created. Wait until the job is in the `Running` state before checking your progress below.
+3.  To complete this task you must start the continuous migration job you have created. Wait until the job is in the `Running` state before checking your progress below.
+    
 
 Migrate the stand-alone MySQL database to Cloud SQL using continuous migration.
 
@@ -135,14 +142,16 @@ Check my progress
 
 ## **Task 4. Test that the continuous Database Migration Service job replicates updated source data**
 
-1. To complete this task you must connect to the source stand-alone MySQL instance and modify the database with the following query:
+1.  To complete this task you must connect to the source stand-alone MySQL instance and modify the database with the following query:
+    
 
 ```sql
 use customers_data;
 update customers set gender = 'FEMALE' where addressKey = 934;
 ```
 
-2. Allow a minute for the change to be propagated by the continuous migration job and then check the changes at the destination.
+2.  Allow a minute for the change to be propagated by the continuous migration job and then check the changes at the destination.
+    
 
 Check that the updated source data in the stand-alone MySQL database has been migrated to continuous replication Cloud SQL instance.
 
@@ -150,25 +159,27 @@ Check my progress
 
 ## **Task 5. Promote the destination Cloud SQL for MySQL database to a stand-alone database**
 
-* In this task you must promote the Cloud SQL for MySQL instance to a stand-alone database for reading and writing data.
+*   In this task you must promote the Cloud SQL for MySQL instance to a stand-alone database for reading and writing data.
+    
 
 Check that the Cloud SQL for MySQL continuous migration job has been promoted to a stand-alone database for reading and writing.
 
 Check my progress
 
----
+* * *
 
 ## Solution of Lab
 
 ### New Solution
 
-%[https://www.youtube.com/watch?v=F_s-smALoZs]
+%[https://www.youtube.com/watch?v=F_s-smALoZs] 
 
 **Enable the following Google APIs:**
 
-* [**Database Migration**](https://console.cloud.google.com/marketplace/product/google/datamigration.googleapis.com?q=search&referrer=search&project=) [**API**](https://console.cloud.google.com/marketplace/product/google/datamigration.googleapis.com?q=search&referrer=search&project=)
-
-* [**Service Network**](https://console.cloud.google.com/marketplace/product/google/datamigration.googleapis.com?q=search&referrer=search&project=)[**ing API**](https://console.cloud.google.com/marketplace/product/google/servicenetworking.googleapis.com?q=search&referrer=search&project=)
+*   [**Database Migration**](https://console.cloud.google.com/marketplace/product/google/datamigration.googleapis.com?q=search&referrer=search&project=) [**API**](https://console.cloud.google.com/marketplace/product/google/datamigration.googleapis.com?q=search&referrer=search&project=)
+    
+*   [**Service Network**](https://console.cloud.google.com/marketplace/product/google/datamigration.googleapis.com?q=search&referrer=search&project=)[**ing API**](https://console.cloud.google.com/marketplace/product/google/servicenetworking.googleapis.com?q=search&referrer=search&project=)
+    
 
 **Task 4: Connect to the MySQL source instance**
 
@@ -176,67 +187,78 @@ Check my progress
 mysql -u admin -p
 ```
 
-* **Enter password**:
+*   **Enter password**:
+    
 
 ```apache
 changeme
 ```
 
-* **Copy and paste the password; the password will not be visible to you**
+*   **Copy and paste the password; the password will not be visible to you**
+    
 
 ```apache
 use customers_data;
 update customers set gender = 'FEMALE' where addressKey = 934;
 ```
 
----
+* * *
 
-### [Old S](https://console.cloud.google.com/marketplace/product/google/datamigration.googleapis.com?q=search&referrer=search&project=)[olution](https://console.cloud.google.com/marketplace/product/google/servicenetworking.googleapis.com?q=search&referrer=search&project=)
+### Old Solution
 
-%[https://www.youtube.com/watch?v=mc8TMhxS9Ws&ab_channel=QuickLab%E2%98%81%EF%B8%8F]
+%[https://www.youtube.com/watch?v=mc8TMhxS9Ws&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
-### [**Task 1: Enab**](https://console.cloud.google.com/marketplace/product/google/servicenetworking.googleapis.com?q=search&referrer=search&project=)**le APIs**
+### **Task 1: Enable APIs**
 
 Enable the following APIs in your Google Cloud project:
 
-1. **Database Migration API**
-
-2. **Service Networking API**
+1.  **Database Migration API**
+    
+2.  **Service Networking API**
+    
 
 Use the Google Cloud Console or the `gcloud` command-line tool to enable these APIs.
 
----
+* * *
 
 ### **Task 4.1: Connect to the MySQL Interactive Console**
 
 To connect to the MySQL interactive console, follow these steps:
 
-1. Run the following command in your terminal:
-
+1.  Run the following command in your terminal:
+    
     ```plantext
     mysql -u admin -p
     ```
-
-2. When prompted for the password, enter:
-
+    
+2.  When prompted for the password, enter:
+    
     ```plantext
     changeme
     ```
+    
 
----
+* * *
 
 ### **Task 4.2: Update Records in the Database**
 
 Once connected to the MySQL console:
 
-1. Switch to the database named `customers_data`:
-
+1.  Switch to the database named `customers_data`:
+    
     ```sql
     use customers_data;
     ```
-
-2. Run the following SQL command to update the gender field for a specific record:
-
+    
+2.  Run the following SQL command to update the gender field for a specific record:
+    
     ```sql
     update customers set gender = 'FEMALE' where addressKey = 934;
     ```
+    
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=nfWpoPPBu24]
