@@ -567,6 +567,28 @@ Your-Project-ID/sensitivity-level/low
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/0b7a143c-3fde-489c-b58d-18f4080ffa5d.png align="center")
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/0f4c7777-5a9e-483b-ab78-5ae22e36e815.png align="center")
+
+*   [https://console.cloud.google.com/security/sensitive-data-protection/landing/dataProfiles/configurations](https://console.cloud.google.com/security/sensitive-data-protection/landing/dataProfiles/configurations)
+    
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/acec8e71-3dce-4bc3-a5a6-4d5cfc49cf03.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4d95e152-22ae-44a9-8d0f-186ab30d83f0.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ab66126c-a9ce-4b36-8fa8-80fa71fef88a.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/7ed86a1f-c4fe-46ef-b43f-b573a4d0bfa1.png align="center")
+
+*   [https://console.cloud.google.com/bigquery](https://console.cloud.google.com/bigquery)
+    
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/349c3af8-59bb-4c15-8c8d-92e6255faccb.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/021b2439-490d-4949-bbc8-60ad934777f2.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/7bc13189-a951-497f-b51d-594cbe9a2a15.png align="center")
+
 ### Manual
 
 %[https://www.youtube.com/watch?v=fIdmx0j3OgE] 
