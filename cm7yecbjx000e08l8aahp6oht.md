@@ -515,6 +515,21 @@ Notice another user (`student-01-e1396eaa9824@qwiklabs.net`) is listed as a BigQ
 
 ## Solution of Lab
 
+### Quick
+
+%[https://www.youtube.com/watch?v=bf5xPnBJBRk] 
+
+*   Go to **Sensitive Data Protection** from [here](https://console.cloud.google.com/security/sensitive-data-protection/create/discoveryConfiguration;source=DATA_PROFILE_COVERAGE_DASHBOARD;discoveryType=1?project=)
+    
+
+```plaintext
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Enabling%20Sensitive%20Data%20Protection%20Discovery%20for%20BigQuery/gsp1282.sh
+sudo chmod +x *.sh
+./*.sh
+```
+
+* * *
+
 ### Manual
 
 %[https://www.youtube.com/watch?v=fIdmx0j3OgE] 
