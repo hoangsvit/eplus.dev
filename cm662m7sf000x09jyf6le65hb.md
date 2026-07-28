@@ -204,6 +204,8 @@ Verify the Cloud Function worked
 
 ## Solution of Lab
 
+### Quick
+
 %[https://www.youtube.com/watch?v=4bRqwkwBHKQ] 
 
 ```apache
@@ -215,3 +217,9 @@ sudo chmod +x lab.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1737439336844/f588de7a-d77e-4662-9e9b-385e5ab8bc23.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1737439345330/f428daf2-82f3-4ab7-9acd-0ef390f4bdb3.png align="center")
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=lUzyVH8E8O4]
