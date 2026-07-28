@@ -115,9 +115,9 @@ You may complete the badges in any order. Choose courses based on your current k
     
 *   [Migrate MySQL Data to Cloud SQL Using Database Migration Service](https://www.skills.google/course_templates/629?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (5 labs & 5 credits)❌
     
-*   [Get Started with Sensitive Data Protection](https://www.skills.google/course_templates/750?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)🚀
+*   [Get Started with Sensitive Data Protection](https://www.skills.google/course_templates/750?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)
     
-*   [Analyze Images with the Cloud Vision API](https://www.skills.google/course_templates/633?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 12 credits)
+*   [Analyze Images with the Cloud Vision API](https://www.skills.google/course_templates/633?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 12 credits)🚀
     
 *   [Build Event-Driven Applications with Eventarc](https://www.skills.google/course_templates/727?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 3 credits)
     
