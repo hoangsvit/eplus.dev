@@ -180,6 +180,9 @@ sudo chmod +x TechCode.sh
 ./TechCode.sh
 ```
 
+*   [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
+    
+
 **For Database Migration: Click** [**Here**](https://console.cloud.google.com/dbmigration/migrations?)
 
 **Task 4: Connect to the MySQL Interactive Console**
