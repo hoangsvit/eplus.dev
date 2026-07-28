@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2025-03-04T08:24:39.217Z
 cuid: cm7u83nld000209ih6ti9e6zo
 slug: migrate-mysql-data-to-cloud-sql-using-database-migration-service-challenge-lab-gsp351
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741074912327/31571f82-4520-499a-b611-6c30da4e2e3b.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1741076659264/c477b103-42fc-4149-8377-d24d699526c6.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/f5f05c67-c260-4b79-9f00-a8e1a5a85c90.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/8e8b6873-c126-47c2-9f43-40b94cb9f723.png
 tags: migrate-mysql-data-to-cloud-sql-using-database-migration-service-challenge-lab-gsp351, migrate-mysql-data-to-cloud-sql-using-database-migration-service-challenge-lab, gsp351
 
 ---
