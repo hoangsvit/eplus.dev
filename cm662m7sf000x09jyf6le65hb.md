@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2025-01-21T06:04:56.943Z
 cuid: cm662m7sf000x09jyf6le65hb
 slug: store-process-and-manage-data-on-google-cloud-command-line-challenge-lab-arc102
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737439463950/8a942c5b-805c-493e-ab67-5d06600c8a80.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1737439480553/8f301cb4-e0b4-4a6c-b0e8-0488b75fad1b.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/52b65929-3c7d-4c26-80c3-6aae86c2facf.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/b1146b37-e0d8-4d35-a313-de95a444a95f.png
 tags: store-process-and-manage-data-on-google-cloud-command-line-challenge-lab-arc102, store-process-and-manage-data-on-google-cloud-command-line-challenge-lab, arc102
 
 ---
@@ -29,12 +29,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -49,29 +49,29 @@ You are expected to have the skills and knowledge for these tasks.
 
 You are asked to help a newly formed development team with some of their initial work on a new project around storing and organizing photographs for wildlife organizations, called Wild. You have been asked to assist the Wild team with initial configuration for their application development environment; you receive the following request to complete the following tasks:
 
-* Use commands to create a bucket for storing the photographs.
+*   Use commands to create a bucket for storing the photographs.
     
-* Use commands to create a Pub/Sub topic that will be used by a Cloud Function you create.
+*   Use commands to create a Pub/Sub topic that will be used by a Cloud Function you create.
     
-* Use commands to create a Cloud Function.
+*   Use commands to create a Cloud Function.
     
 
 Some standards you should follow:
 
-* Create all resources in the `us-east4` zone, unless otherwise directed.
+*   Create all resources in the `us-east4` zone, unless otherwise directed.
     
-* Use the project VPCs.
+*   Use the project VPCs.
     
-* Naming is normally *team-resource*, e.g. an instance could be named **kraken-webserver1**
+*   Naming is normally *team-resource*, e.g. an instance could be named **kraken-webserver1**
     
-* Allocate cost effective resource sizes. Projects are monitored and excessive resource use will result in the containing project's termination (and possibly yours), so beware. This is the guidance the monitoring team is willing to share; unless directed, use **e2-micro** for small Linux VMs and **e2-medium** for Windows or other applications such as Kubernetes nodes.
+*   Allocate cost effective resource sizes. Projects are monitored and excessive resource use will result in the containing project's termination (and possibly yours), so beware. This is the guidance the monitoring team is willing to share; unless directed, use **e2-micro** for small Linux VMs and **e2-medium** for Windows or other applications such as Kubernetes nodes.
     
 
 Each task is described in detail below, good luck!
 
 ## **Task 1. Create a bucket**
 
-* Use commands (CLI/SDK) to create a bucket called `wild-bucket-qwiklabs-gcp-00-54f42b09098c` for the storage of the photographs.
+*   Use commands (CLI/SDK) to create a bucket called `wild-bucket-qwiklabs-gcp-00-54f42b09098c` for the storage of the photographs.
     
 
 Click *Check my progress* to verify the objective.
@@ -82,7 +82,7 @@ Check my progress
 
 ## **Task 2. Create a Pub/Sub topic**
 
-* Use the command line to create a Pub/Sub topic called `wild-topic-983` for the Cloud Function to send messages.
+*   Use the command line to create a Pub/Sub topic called `wild-topic-983` for the Cloud Function to send messages.
     
 
 Click *Check my progress* to verify the objective.
@@ -93,11 +93,11 @@ Check my progress
 
 ## **Task 3. Create the thumbnail Cloud Function**
 
-1. Use the command line to create a Cloud Function called `wild-thumbnail-maker` that executes every time an object is created in the bucket `wild-bucket-qwiklabs-gcp-00-54f42b09098c` you created in task 1.
+1.  Use the command line to create a Cloud Function called `wild-thumbnail-maker` that executes every time an object is created in the bucket `wild-bucket-qwiklabs-gcp-00-54f42b09098c` you created in task 1.
     
-2. Make sure you set the **Entry point** (Function to execute) to `thumbnail` and **Trigger** to `Cloud Storage`.
+2.  Make sure you set the **Entry point** (Function to execute) to `thumbnail` and **Trigger** to `Cloud Storage`.
     
-3. In line 15 of `index.js` replace the text **REPLACE\_WITH\_YOUR\_TOPIC ID** with the `wild-topic-983` you created in task 2.
+3.  In line 15 of `index.js` replace the text **REPLACE\_WITH\_YOUR\_TOPIC ID** with the `wild-topic-983` you created in task 2.
     
 
 index.js:
@@ -200,7 +200,7 @@ Click *Check my progress* to verify the objective.
 
 Verify the Cloud Function worked
 
----
+* * *
 
 ## Solution of Lab
 
