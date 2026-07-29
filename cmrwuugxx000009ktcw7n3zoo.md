@@ -126,9 +126,9 @@ You may complete the badges in any order. Choose courses based on your current k
 
 ### Intermediate: Dive Deeper into Google Cloud & AI (17 Skill Badges)
 
-*   [Engineer AI Agents with Agent Development Kit (ADK)](https://www.skills.google/course_templates/1596?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (1 lab & 5 credits)🚀
+*   [Engineer AI Agents with Agent Development Kit (ADK)](https://www.skills.google/course_templates/1596?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (1 lab & 5 credits)
     
-*   [Build Real World AI Applications with Gemini and Imagen](https://www.skills.google/course_templates/1076?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 0 credits)
+*   [Build Real World AI Applications with Gemini and Imagen](https://www.skills.google/course_templates/1076?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 0 credits)🚀
     
 *   [Build a Smart Cloud Application with Vibe Coding and MCP](https://www.skills.google/course_templates/1459?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)
     
