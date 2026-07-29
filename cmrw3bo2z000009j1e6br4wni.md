@@ -273,6 +273,10 @@ No SPII Access Only
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b8e7157c-92b2-49b6-85b6-53cdb538b75f.png align="center")
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/06d29176-365a-4dda-bbfe-e7e8b3d8e1ff.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/3e6cb05d-486f-4bde-b0e4-4172c1de9031.png align="center")
+
 ```python
 # Redefine original function to inspect and deidentify output with Sensitive Data Protection
 import google.cloud.dlp  
@@ -338,7 +342,36 @@ def deidentify_with_replace_infotype(
     print(return_payload)
 ```
 
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4d2ca6e6-1e52-4d4a-9304-9a6fc6d19e60.png align="center")
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ff2f27d6-da1e-4ca0-88c3-a28b16057c47.png align="center")
+
+```plaintext
+# Create prompt that generates an example response with US Vehicle Identification Number (VIN)
+prompt = "Is 4Y1SL65848Z411439 an example of a US Vehicle Identification Number (VIN)?"
+
+# Run model with prompt setting the temperature to 0
+from google.genai import types
+response_vin = client.models.generate_content(
+    model=model,
+    contents=prompt,
+    config=types.GenerateContentConfig(
+        temperature=0.0,
+    ),
+)
+
+# Print response without blocking it (VIN provided)
+print("Original Response:")
+print(response_vin.text)
+
+print("\n--- Running DLP Block Guard ---")
+# Block model response that includes US Vehicle Identification Number (VIN)
+deidentify_with_replace_infotype(
+    project=PROJECT_ID, 
+    item=response_vin.text, 
+    info_types=["US_VEHICLE_IDENTIFICATION_NUMBER"]
+)
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/906c6f57-86b9-47bb-9d7d-43632f7161c5.png align="center")
 
 ### Manual
 
