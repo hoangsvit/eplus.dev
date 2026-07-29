@@ -253,7 +253,13 @@ No SPII Access Only
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1f8b26e4-9192-4de5-9776-8db9c537d00b.png align="center")
 
-**Copy this and paste it into** [**in Notebook**](https://console.cloud.google.com/agent-platform/colab)
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/87b2a5c5-ea07-4904-aeac-53675122e819.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/51476753-896c-472f-985b-c268edc6bf67.png align="center")
+
+**Copy this and paste it into** [**in Notebook**](https://console.cloud.google.com/agent-platform/workbench/instances)
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b8e7157c-92b2-49b6-85b6-53cdb538b75f.png align="center")
 
 ```python
 # Redefine original function to inspect and deidentify output with Sensitive Data Protection
@@ -320,7 +326,7 @@ def deidentify_with_replace_infotype(
     print(return_payload)
 ```
 
-* * *
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4d2ca6e6-1e52-4d4a-9304-9a6fc6d19e60.png align="center")
 
 ### Manual
 
