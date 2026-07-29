@@ -248,7 +248,12 @@ No SPII Access Only
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c67db96f-9e42-48bd-867f-132db0308528.png align="center")
 
-**Copy this and paste it into in Notebook**
+*   [https://console.cloud.google.com/bigquery](https://console.cloud.google.com/bigquery)
+    
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1f8b26e4-9192-4de5-9776-8db9c537d00b.png align="center")
+
+**Copy this and paste it into** [**in Notebook**](https://console.cloud.google.com/agent-platform/colab)
 
 ```python
 # Redefine original function to inspect and deidentify output with Sensitive Data Protection
