@@ -344,7 +344,7 @@ def deidentify_with_replace_infotype(
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ff2f27d6-da1e-4ca0-88c3-a28b16057c47.png align="center")
 
-```plaintext
+```python
 # Create prompt that generates an example response with US Vehicle Identification Number (VIN)
 prompt = "Is 4Y1SL65848Z411439 an example of a US Vehicle Identification Number (VIN)?"
 
