@@ -332,6 +332,18 @@ The system should invoke the critic to debunk the claim and the reviser to provi
 
 ## Solution of Lab
 
+### Quick
+
+%[https://www.youtube.com/watch?v=iio0tycJklk] 
+
+```plaintext
+curl -LO https://raw.githubusercontent.com/Orbit-of-Ops/Google-Cloud-Labs-Solutions/refs/heads/main/Engineer%20AI%20Agents%20with%20Agent%20Development%20Kit%20/GSP540.sh
+sudo chmod +x GSP540.sh
+./GSP540.sh
+```
+
+* * *
+
 ### Manual
 
 %[https://www.youtube.com/watch?v=ScsDRNj3UMA]
