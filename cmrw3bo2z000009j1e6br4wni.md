@@ -231,6 +231,13 @@ cs_data_profiles
 Cloud Storage Daily Discovery
 ```
 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP522/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
 ```plaintext
 curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Discover%20and%20Protect%20Sensitive%20Data%20Across%20Your%20Ecosystem%20Challenge%20Lab/gsp522.sh
 sudo chmod +x *.sh
