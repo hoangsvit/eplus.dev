@@ -19,11 +19,11 @@ When you take a challenge lab, you will not be taught new Google Cloud concepts.
 
 To score 100% you must successfully complete all tasks within the time period! Are you ready for the challenge?
 
-* Labs are timed and cannot be paused. The timer starts when you click **Start Lab**.
+*   Labs are timed and cannot be paused. The timer starts when you click **Start Lab**.
     
-* The included cloud terminal is preconfigured with the gcloud SDK.
+*   The included cloud terminal is preconfigured with the gcloud SDK.
     
-* Use the terminal to execute commands and then click **Check my progress** to verify your work.
+*   Use the terminal to execute commands and then click **Check my progress** to verify your work.
     
 
 ## Challenge scenario
@@ -42,11 +42,25 @@ Click **Check my progress** to verify the objective.
 
 Analyze the saved image by using a multimodal model
 
----
+* * *
 
 ## Solution of Lab
 
 %[https://youtu.be/r8s0AUaOEQE] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/build-a-multi-modal-gen-ai-application-challenge-lab/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP540/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20a%20Multi-Modal%20GenAI%20Application%3A%20Challenge%20Lab/abhishek.sh
