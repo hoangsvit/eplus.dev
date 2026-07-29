@@ -215,9 +215,21 @@ For Project ID, use: qwiklabs-gcp-04-fa4f5930c2ec For Location, use: global Note
 
 **Dataset ID**
 
+```plaintext
+cs_discovery
+```
+
 **Table ID**
 
+```plaintext
+cs_data_profiles
+```
+
 **Display name for configuration**
+
+```plaintext
+Cloud Storage Daily Discovery
+```
 
 ```plaintext
 curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Discover%20and%20Protect%20Sensitive%20Data%20Across%20Your%20Ecosystem%20Challenge%20Lab/gsp522.sh
