@@ -373,6 +373,10 @@ deidentify_with_replace_infotype(
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/906c6f57-86b9-47bb-9d7d-43632f7161c5.png align="center")
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/419d57cd-6ab9-4c35-97e4-9af842b22e88.png align="center")
+
+* * *
+
 ### Manual
 
 %[https://www.youtube.com/watch?v=TwCRWl41z7o]
