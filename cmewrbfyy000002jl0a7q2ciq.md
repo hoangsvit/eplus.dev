@@ -5,8 +5,8 @@ seoDescription: "Learn to build an AI Image Generator app using Imagen on Vertex
 datePublished: 2025-08-29T11:36:03.995Z
 cuid: cmewrbfyy000002jl0a7q2ciq
 slug: build-an-ai-image-generator-app-on-agent-platform-bb-ide-genai-002
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756467250104/216abd9d-7a5b-40d9-a342-748b6ceff754.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756467356469/ef1b7623-39d0-4e3a-a474-4127a2884c82.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/15004220-0b5b-45ce-b14c-cb6fad31dc15.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/23a7e366-34c8-49bd-aa1e-1358a6a7244f.png
 tags: vertex-ai, build-an-ai-image-generator-app-using-imagen-on-vertex-ai-bb-ide-genai-002, build-an-ai-image-generator-app-using-imagen-on-vertex-ai, bb-ide-genai-002, build-an-ai-image-generator-app-on-agent-platform
 
 ---
