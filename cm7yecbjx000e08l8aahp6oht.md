@@ -517,7 +517,7 @@ Notice another user (`student-01-e1396eaa9824@qwiklabs.net`) is listed as a BigQ
 
 ### Quick
 
-%[https://www.youtube.com/watch?v=bf5xPnBJBRk] 
+%[https://www.youtube.com/watch?v=LFZhwMVqSK8] 
 
 *   Go to **Sensitive Data Protection** from [here](https://console.cloud.google.com/security/sensitive-data-protection/create/discoveryConfiguration;source=DATA_PROFILE_COVERAGE_DASHBOARD;discoveryType=1?project=)
     
@@ -541,9 +541,8 @@ BigQuery Discovery
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/059c8427-def1-41a1-bb8e-99e70db31010.png align="center")
 
 ```plaintext
-curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Enabling%20Sensitive%20Data%20Protection%20Discovery%20for%20BigQuery/gsp1282.sh
-sudo chmod +x *.sh
-./*.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1282/lab.sh
+source lab.sh
 ```
 
 * * *
