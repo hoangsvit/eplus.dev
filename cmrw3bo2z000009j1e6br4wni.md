@@ -209,11 +209,44 @@ For Project ID, use: qwiklabs-gcp-04-fa4f5930c2ec For Location, use: global Note
 *   Go to **Sensitive Data Protection** from [here](https://console.cloud.google.com/security/sensitive-data-protection/create/discoveryConfiguration;source=DATA_PROFILE_COVERAGE_DASHBOARD;discoveryType=4?project=)
     
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/07afe113-0f48-4dc5-80b8-3258ac1d9937.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/67e068ca-fe0f-479d-9108-35b883d6128e.png align="center")
+
+**Dataset ID**
+
+**Table ID**
+
+**Display name for configuration**
+
 ```plaintext
 curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/refs/heads/main/Discover%20and%20Protect%20Sensitive%20Data%20Across%20Your%20Ecosystem%20Challenge%20Lab/gsp522.sh
 sudo chmod +x *.sh
 ./*.sh
 ```
+
+*   [https://console.cloud.google.com/iam-admin/iam](https://console.cloud.google.com/iam-admin/iam)
+    
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ac431b6e-f062-48a2-9d4b-1c17fadb1227.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8173915b-f2b7-4126-b84e-582b37c6f837.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/0987160b-c5db-41b9-98fb-40bbec333bd3.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9ea7ca33-d3d4-4570-bfbc-efb2f3f4f9e4.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/6e84d039-bb81-4e87-8aed-2654c81fbb4b.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a6d1f4c3-edd7-484b-bce6-3f91b6147aba.png align="center")
+
+**Condition title**
+
+```plaintext
+No SPII Access Only
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c67db96f-9e42-48bd-867f-132db0308528.png align="center")
 
 **Copy this and paste it into in Notebook**
 
