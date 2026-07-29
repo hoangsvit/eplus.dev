@@ -148,7 +148,7 @@ Click **Check my progress** to verify the objective.
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/355cd51d-c270-427c-b079-39021f854bb5.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs//build-an-ai-image-recognition-app-using-gemini-on-agent-platform/lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/build-an-ai-image-recognition-app-using-gemini-on-agent-platform/lab.sh
 source lab.sh
 ```
 
