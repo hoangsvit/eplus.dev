@@ -5,8 +5,8 @@ seoDescription: "Learn to build a GenAI app with cloud tools, generating and ana
 datePublished: 2025-08-29T11:59:51.608Z
 cuid: cmews61iw001202jr3mrac884
 slug: build-a-multi-modal-genai-application-challenge-lab
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756468708814/dc729852-b8e1-4b78-9ea1-a3a5cd458fda.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756468764758/0e1e6f6f-d172-48e3-aa16-c7a3295544c9.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/44adc9ab-4d6f-4683-986e-03740598a166.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/17fbd830-2584-40e1-9236-7ac867e44c9d.png
 tags: genai, build-a-multi-modal-genai-application-challenge-lab, genai-application
 
 ---
