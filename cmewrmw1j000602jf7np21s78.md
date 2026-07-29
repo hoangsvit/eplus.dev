@@ -184,3 +184,7 @@ source abhishek.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756467810217/4493efd0-ff61-4ff2-98af-2e0bbdae3405.png align="center")
+
+* * *
+
+%[https://eplus.dev/build-an-application-to-send-chat-prompts-using-the-gemini-model-bb-ide-genai-003]
