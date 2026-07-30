@@ -3,21 +3,21 @@
 ### #Blog posts
 
 <!-- BLOG-POST-LIST:START -->
- - 🧰 [Build an AI Image Recognition app using Gemini on Agent Platform - bb-ide-genai-001](https://eplus.dev/build-an-ai-image-recognition-app-using-gemini-on-agent-platform-bb-ide-genai-001) - 2026-07-29
- - 😺 [Engineer AI Agents with Agent Development Kit &lpar;ADK&rpar;: Challenge Lab - GSP540](https://eplus.dev/engineer-ai-agents-with-agent-development-kit-adk-challenge-lab-gsp540) - 2026-07-29
- - 🗽 [Daily Tech Brief — 29/07/2026](https://eplus.dev/daily-tech-brief-29-07-2026) - 2026-07-29
- - 🌜 [Build Event-Driven Applications with Eventarc: Challenge Lab - ARC118](https://eplus.dev/build-event-driven-applications-with-eventarc-challenge-lab-arc118) - 2026-07-28
- - 📝 [Daily Tech Brief — 28/07/2026](https://eplus.dev/daily-tech-brief-28-07-2026) - 2026-07-28
- - 🚀 [Implement Cloud Storage and Data Protection Solutions: Challenge Lab - ARC111](https://eplus.dev/implement-cloud-storage-and-data-protection-solutions-challenge-lab-arc111) - 2026-07-27
- - 💼 [Daily Tech Brief — 27/07/2026](https://eplus.dev/daily-tech-brief-27-07-2026) - 2026-07-27
- - 🦣 [Daily Tech Brief — 26/07/2026](https://eplus.dev/daily-tech-brief-26-07-2026) - 2026-07-26
- - 👨‍🏫 [Daily Tech Brief - 25/07/2026](https://eplus.dev/daily-tech-brief-25-07-2026) - 2026-07-25
- - 🔭 [Daily Tech Brief - 24/06/2027](https://eplus.dev/daily-tech-brief-24-06-2027) - 2026-07-24
- - 🤡 [Implement Event-Driven Messaging and Automation Workflows: Challenge Lab - ARC113](https://eplus.dev/implement-event-driven-messaging-and-automation-workflows-challenge-lab-arc113) - 2026-07-24
- - 💡 [Organize and Govern Data with Knowledge Catalog: Challenge Lab - ARC117](https://eplus.dev/organize-and-govern-data-with-knowledge-catalog-challenge-lab-arc117) - 2026-07-23
- - 🦣 [Deploy and Secure Serverless APIs with API Gateway: Challenge Lab - ARC109](https://eplus.dev/deploy-and-secure-serverless-apis-with-api-gateway-challenge-lab-arc109) - 2026-07-23
- - 💪 [Develop AI-Powered Prototypes in Google AI Studio: Challenge Lab - GSP529](https://eplus.dev/develop-ai-powered-prototypes-in-google-ai-studio-challenge-lab-gsp529) - 2026-07-23
- - 🤡 [Google Cloud Arcade Facilitator &#39;26 — Syllabus for the Program](https://eplus.dev/google-cloud-arcade-facilitator-26-syllabus-for-the-program) - 2026-07-23<!-- BLOG-POST-LIST:END -->
+ - 🧰 [Get Started with Vibe Coding and Gemini CLI - GSP1348](https://eplus.dev/get-started-with-vibe-coding-and-gemini-cli-gsp1348) - 2026-07-30
+ - 😺 [Build an AI Image Recognition app using Gemini on Agent Platform - bb-ide-genai-001](https://eplus.dev/build-an-ai-image-recognition-app-using-gemini-on-agent-platform-bb-ide-genai-001) - 2026-07-29
+ - 🗽 [Engineer AI Agents with Agent Development Kit &lpar;ADK&rpar;: Challenge Lab - GSP540](https://eplus.dev/engineer-ai-agents-with-agent-development-kit-adk-challenge-lab-gsp540) - 2026-07-29
+ - 🌜 [Daily Tech Brief — 29/07/2026](https://eplus.dev/daily-tech-brief-29-07-2026) - 2026-07-29
+ - 📝 [Build Event-Driven Applications with Eventarc: Challenge Lab - ARC118](https://eplus.dev/build-event-driven-applications-with-eventarc-challenge-lab-arc118) - 2026-07-28
+ - 🚀 [Daily Tech Brief — 28/07/2026](https://eplus.dev/daily-tech-brief-28-07-2026) - 2026-07-28
+ - 💼 [Implement Cloud Storage and Data Protection Solutions: Challenge Lab - ARC111](https://eplus.dev/implement-cloud-storage-and-data-protection-solutions-challenge-lab-arc111) - 2026-07-27
+ - 🦣 [Daily Tech Brief — 27/07/2026](https://eplus.dev/daily-tech-brief-27-07-2026) - 2026-07-27
+ - 👨‍🏫 [Daily Tech Brief — 26/07/2026](https://eplus.dev/daily-tech-brief-26-07-2026) - 2026-07-26
+ - 🔭 [Daily Tech Brief - 25/07/2026](https://eplus.dev/daily-tech-brief-25-07-2026) - 2026-07-25
+ - 🤡 [Daily Tech Brief - 24/06/2027](https://eplus.dev/daily-tech-brief-24-06-2027) - 2026-07-24
+ - 💡 [Implement Event-Driven Messaging and Automation Workflows: Challenge Lab - ARC113](https://eplus.dev/implement-event-driven-messaging-and-automation-workflows-challenge-lab-arc113) - 2026-07-24
+ - 🦣 [Organize and Govern Data with Knowledge Catalog: Challenge Lab - ARC117](https://eplus.dev/organize-and-govern-data-with-knowledge-catalog-challenge-lab-arc117) - 2026-07-23
+ - 💪 [Deploy and Secure Serverless APIs with API Gateway: Challenge Lab - ARC109](https://eplus.dev/deploy-and-secure-serverless-apis-with-api-gateway-challenge-lab-arc109) - 2026-07-23
+ - 🤡 [Develop AI-Powered Prototypes in Google AI Studio: Challenge Lab - GSP529](https://eplus.dev/develop-ai-powered-prototypes-in-google-ai-studio-challenge-lab-gsp529) - 2026-07-23<!-- BLOG-POST-LIST:END -->
 
 <div align="right">
   Update by <a target="_blank"
