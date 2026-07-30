@@ -464,7 +464,7 @@ Each server configuration supports the following properties, as per the [Referen
     
 *   **headers (object)**: Custom HTTP headers when using url or httpUrl
     
-*   **env (object)**: Environment variables for the server process. Values can reference environment variables using $$VAR\_NAME or $${VAR\_NAME} syntax
+*   **env (object)**: Environment variables for the server process. Values can reference environment variables using VARNAMEor{VAR\_NAME} syntax
     
 *   **cwd (string)**: Working directory for Stdio transport
     
