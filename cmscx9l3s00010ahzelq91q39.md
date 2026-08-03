@@ -385,6 +385,12 @@ Click **Check my progress** to verify the objective.
 
 ## Solution of Lab
 
-### Quick
+### Manual
 
-%[https://www.youtube.com/watch?v=0UchpXk8E0Y]
+%[https://www.youtube.com/watch?v=0UchpXk8E0Y] 
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=vc5dbBwRKmI]
