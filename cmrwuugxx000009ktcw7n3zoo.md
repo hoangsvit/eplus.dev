@@ -132,9 +132,9 @@ You may complete the badges in any order. Choose courses based on your current k
     
 *   [Build a Smart Cloud Application with Vibe Coding and MCP](https://www.skills.google/course_templates/1459?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)❌
     
-*   [Implement Cloud Collaboration and Productivity Workflows](https://www.skills.google/course_templates/676?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (7 labs & 0 credits)🚀
+*   [Implement Cloud Collaboration and Productivity Workflows](https://www.skills.google/course_templates/676?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (7 labs & 0 credits)
     
-*   [Analyze BigQuery Data in Connected Sheets](https://www.skills.google/course_templates/632?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 0 credits)
+*   [Analyze BigQuery Data in Connected Sheets](https://www.skills.google/course_templates/632?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 0 credits)🚀
     
 *   [Streaming Analytics into BigQuery](https://www.skills.google/course_templates/752?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 2 credits)
     
