@@ -5,7 +5,7 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2025-03-21T08:37:31.061Z
 cuid: cm8ij1ohh001n09jv5cop15ju
 slug: secure-biglake-data-challenge-lab-arc129
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742546158148/32d67e5f-9f45-47a5-a59a-da6de8c2c144.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/214c2f33-957e-4ba4-b00a-888cb52a3c22.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1742546233812/9e89e6f0-cd9e-453c-92fb-807a2268fcb9.png
 tags: secure-biglake-data-challenge-lab-arc129, secure-biglake-data-challenge-lab, arc129
 
@@ -29,12 +29,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -49,34 +49,34 @@ You are expected to have the skills and knowledge for these tasks.
 
 You are asked to help a newly formed development team with some of their initial work on a new project. Specifically, they need a new BigLake table from a Cloud Storage file with the appropriate permissions to limit access to sensitive data columns; you receive the following request to complete the following tasks:
 
-* Create a BigLake table from an existing file on Cloud Storage.
+*   Create a BigLake table from an existing file on Cloud Storage.
     
-* Apply and verify policy tags to restrict access to columns containing sensitive data.
+*   Apply and verify policy tags to restrict access to columns containing sensitive data.
     
-* Remove direct IAM permissions to Cloud Storage for other users (after policy tags have been applied to protect the data).
+*   Remove direct IAM permissions to Cloud Storage for other users (after policy tags have been applied to protect the data).
     
 
 Some standards you should follow:
 
-* Ensure that any needed APIs (such as Data Catalog and BigQuery Connection API) are successfully enabled and that necessary service accounts have the appropriate permissions.
+*   Ensure that any needed APIs (such as Data Catalog and BigQuery Connection API) are successfully enabled and that necessary service accounts have the appropriate permissions.
     
-* Create all resources in the multiple regions in United States, unless otherwise directed.
+*   Create all resources in the multiple regions in United States, unless otherwise directed.
     
 
 Each task is described in detail below, good luck!
 
 ## **Task 1. Create a BigLake table using a Cloud Resource connection**
 
-1. Create a BigQuery dataset named **online\_shop** that is multi-region in the United States.
+1.  Create a BigQuery dataset named **online\_shop** that is multi-region in the United States.
     
-2. Create a Cloud Resource connection named **user\_data\_connection** (multi-region in the United States) and use it to create a BigLake table named **user\_online\_sessions** in the **online\_shop** dataset.
+2.  Create a Cloud Resource connection named **user\_data\_connection** (multi-region in the United States) and use it to create a BigLake table named **user\_online\_sessions** in the **online\_shop** dataset.
     
 
-* Be sure to apply the appropriate service account permissions to read Cloud Storage files in your project.
+*   Be sure to apply the appropriate service account permissions to read Cloud Storage files in your project.
     
-* When creating the table, load data from the following Cloud Storage file using schema auto-detection:
+*   When creating the table, load data from the following Cloud Storage file using schema auto-detection:
     
-    * gs://`qwiklabs-gcp-02-e0360202de5c`\-bucket/user-online-sessions.csv
+    *   gs://`qwiklabs-gcp-02-e0360202de5c`\-bucket/user-online-sessions.csv
         
 
 Click *Check my progress* to verify the objective.
@@ -87,21 +87,21 @@ Check my progress
 
 ## **Task 2. Apply and verify policy tags on columns containing sensitive data**
 
-1. Use the precreated taxonomy named `access_control-taxonomy-9py6b` to apply column-level policy tags on the table.
+1.  Use the precreated taxonomy named `access_control-taxonomy-9py6b` to apply column-level policy tags on the table.
     
 
-* Apply the policy tag named **sensitive-data-policy** to the following columns in the **user\_online\_sessions** table:
+*   Apply the policy tag named **sensitive-data-policy** to the following columns in the **user\_online\_sessions** table:
     
-    * zip
+    *   zip
         
-    * latitude
+    *   latitude
         
-    * ip\_address
+    *   ip\_address
         
-    * longitude
+    *   longitude
         
 
-2. Verify the column-level security by running a query that omits the protected columns.
+2.  Verify the column-level security by running a query that omits the protected columns.
     
 
 Click *Check my progress* to verify the objective.
@@ -112,38 +112,48 @@ Check my progress
 
 ## **Task 3. Remove IAM permissions to Cloud Storage for other users**
 
-* Follow Google best practices after migrating data to BigLake by removing IAM permissions for user 2 ([`student-02-65b54431cc51@qwiklabs.net`](mailto:student-02-65b54431cc51@qwiklabs.net)) to Cloud Storage.
+*   Follow Google best practices after migrating data to BigLake by removing IAM permissions for user 2 ([`student-02-65b54431cc51@qwiklabs.net`](mailto:student-02-65b54431cc51@qwiklabs.net)) to Cloud Storage.
     
-    * Leave the IAM role for project viewer.
+    *   Leave the IAM role for project viewer.
         
-    * Remove only the IAM role for Cloud Storage.
+    *   Remove only the IAM role for Cloud Storage.
         
 
 Click *Check my progress* to verify the objective.
 
 Remove IAM permissions to Cloud Storage for other users
 
----
+* * *
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/cX2bsOHifis] 
-
-```apache
- export USER_2=
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742546201290/3177808a-83a4-442f-8412-050dc283a47d.png align="center")
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC129/lab.sh
 source lab.sh
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1742546201290/3177808a-83a4-442f-8412-050dc283a47d.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1a4ea7f4-89b5-4d1d-be23-47bb89cd750a.png align="center")
+
 **Script Alternative**
+
+```apache
+ export USER_2=
+```
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/refs/heads/main/Secure%20BigLake%20Data%20Challenge%20Lab/arc129.sh
 sudo chmod +x arc129.sh
 ./arc129.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=bwsCx3uu1gE]
