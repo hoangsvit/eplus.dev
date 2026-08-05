@@ -177,9 +177,9 @@ You may complete the badges in any order. Choose courses based on your current k
     
 *   [Develop Your Google Cloud Network](https://www.skills.google/course_templates/625?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (6 labs & 18 credits)
     
-*   [Build a Secure Google Cloud Network](https://www.skills.google/course_templates/654?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (6 labs & 30 credits)✔️
+*   [Build a Secure Google Cloud Network](https://www.skills.google/course_templates/654?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (6 labs & 30 credits)
     
-*   [Deploy Kubernetes Applications on Google Cloud](https://www.skills.google/course_templates/663?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 12 credits)
+*   [Deploy Kubernetes Applications on Google Cloud](https://www.skills.google/course_templates/663?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 12 credits)✔️
     
 *   [Derive Insights from BigQuery Data](https://www.skills.google/course_templates/623?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (7 labs & 6 credits)
     
