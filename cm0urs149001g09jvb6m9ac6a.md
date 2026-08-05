@@ -160,11 +160,6 @@ Click **Check my progress** to verify the objective.
 
 %[https://youtu.be/a3efepPmf3A] 
 
-```apache
-export ZONE=
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725872009346/13a61b99-7568-40f6-a6c1-0387bc9ce914.png align="center")
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC119/lab.sh
@@ -172,6 +167,13 @@ source lab.sh
 ```
 
 **Script Alternative**
+
+
+```apache
+export ZONE=
+```
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725872009346/13a61b99-7568-40f6-a6c1-0387bc9ce914.png align="center")
 
 ```apache
 
