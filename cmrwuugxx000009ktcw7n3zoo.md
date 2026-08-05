@@ -136,9 +136,9 @@ You may complete the badges in any order. Choose courses based on your current k
     
 *   [Analyze BigQuery Data in Connected Sheets](https://www.skills.google/course_templates/632?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 0 credits)❌
     
-*   [Streaming Analytics into BigQuery](https://www.skills.google/course_templates/752?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 2 credits)🚀
+*   [Streaming Analytics into BigQuery](https://www.skills.google/course_templates/752?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 2 credits)
     
-*   [Create a Secure Data Lake on Cloud Storage](https://www.skills.google/course_templates/704?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)
+*   [Create a Secure Data Lake on Cloud Storage](https://www.skills.google/course_templates/704?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)🚀
     
 *   [Secure Lakehouse Data](https://www.skills.google/course_templates/751?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)
     
