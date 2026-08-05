@@ -5,7 +5,6 @@ seoDescription: "In this challenge lab, you’re given a scenario and a set of t
 datePublished: 2024-09-09T08:57:32.841Z
 cuid: cm0urs149001g09jvb6m9ac6a
 slug: create-a-secure-data-lake-on-cloud-storage-challenge-lab-arc119
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756629319782/0d5452e8-c9ed-4bf9-94ca-a4921cac4c0e.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756629398931/41feca1f-4310-48fd-a563-0167f207442c.png
 tags: data-lake, cloud-storage, create-a-secure-data-lake-on-cloud-storage-challenge-lab-arc119, arc119, create-a-secure-data-lake-on-cloud-storage-challenge-lab
 
@@ -29,12 +28,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -53,20 +52,20 @@ You are asked to help a newly formed development team with some of their initial
 
 For each time when you start the lab, you get different tasks and you need to perform it accordingly to learn the concept of the data lake.
 
-* Ensure that any needed APIs (such as Dataplex API) are successfully enabled.
+*   Ensure that any needed APIs (such as Dataplex API) are successfully enabled.
     
-* Create all resources in the `us-east4` and `us-east4-c`, unless otherwise directed.
+*   Create all resources in the `us-east4` and `us-east4-c`, unless otherwise directed.
     
 
 Each task is described in detail below, good luck!
 
 ## **Task 1:** Create a Cloud Storage bucket
 
-1. Sign into the project as **User 1**
+1.  Sign into the project as **User 1**
     
-2. Create a regional Cloud Storage bucket using the following bucket name:<mark>[PROJECT-ID]</mark>\-bucket and replace the PROJECT\_ID in the bucket name with the project ID provided at the left side of the lab instructions.
+2.  Create a regional Cloud Storage bucket using the following bucket name:<mark class="bg-yellow-200 dark:bg-yellow-500/30">[PROJECT-ID]</mark>\-bucket and replace the PROJECT\_ID in the bucket name with the project ID provided at the left side of the lab instructions.
     
-3. Use the same bucket you have created in the above step to attach as an asset to the zone
+3.  Use the same bucket you have created in the above step to attach as an asset to the zone
     
 
 Click **Check my progress** to verify the objective.
@@ -77,9 +76,9 @@ Verify Task
 
 ## **Task 2:** Create a lake in Dataplex and add a zone to your lake
 
-1. Sign into the project as **User 2**
+1.  Sign into the project as **User 2**
     
-2. Create a lake in Dataplex using the below information:
+2.  Create a lake in Dataplex using the below information:
     
 
 | Property | Value |
@@ -88,7 +87,7 @@ Verify Task
 | **ID** | Leave the default value. |
 | Region | Region from the Lab Details panel which is located at the left side of the lab instructions |
 
-3. Add a zone to your lake:**Customer-Lake**. Use the information below:
+3.  Add a zone to your lake:**Customer-Lake**. Use the information below:
     
 
 | Display Name | Value |
@@ -99,7 +98,7 @@ Verify Task
 | **Data locations** | Regional |
 | **Discovery settings** | Enable metadata discovery |
 
-4. For the **Lables** set key\_1 as: <mark>domain_type</mark> and value\_1 as: <mark>source_data</mark>
+4.  For the **Lables** set key\_1 as: <mark class="bg-yellow-200 dark:bg-yellow-500/30">domain_type</mark> and value\_1 as: <mark class="bg-yellow-200 dark:bg-yellow-500/30">source_data</mark>
     
 
 Click **Check my progress** to verify the objective.
@@ -110,9 +109,9 @@ Verify Task
 
 ## **Task 3:** Environment Creation for Dataplex Lake
 
-1. Navigate to the lake:**Customer-Lake** and create an environment for the lake
+1.  Navigate to the lake:**Customer-Lake** and create an environment for the lake
     
-2. Use the below configuration for the environment creation
+2.  Use the below configuration for the environment creation
     
 
 | Property | Value |
@@ -141,7 +140,7 @@ To begin tagging data, an asset must be added to the zone . A tag template is a 
 | Customer Data Tag Template | customer\_data\_tag\_template | Use the default region | Data Owner | String |
 | PII Data | Enumurated**Value 1:** Yes**Value 2:** No |  |  |  |
 
-Therefore, attach a tag to the**Storage bucket**Data Catalog entry under the `CLOUD STORAGE` source system. Use the<mark>Customer Data Tag Template</mark>template to tag this entry, and provide the values for the tag fields provided in the following table.
+Therefore, attach a tag to the**Storage bucket**Data Catalog entry under the `CLOUD STORAGE` source system. Use the<mark class="bg-yellow-200 dark:bg-yellow-500/30">Customer Data Tag Template</mark>template to tag this entry, and provide the values for the tag fields provided in the following table.
 
 | Tag field | Value |
 | --- | --- |
@@ -152,11 +151,13 @@ Search for assets using a Tag Template: **Customer Data Tag Template**
 
 Click **Check my progress** to verify the objective.
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=PbIfliCwHQw&ab_channel=Techcps] 
+### Quick
+
+%[https://youtu.be/a3efepPmf3A] 
 
 ```apache
 export ZONE=
@@ -172,14 +173,15 @@ source lab.sh
 **Script Alternative**
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/ARC/master/Create%20a%20Secure%20Data%20Lake%20on%20Cloud%20Storage%3A%20Challenge%20Lab/techcps119.sh
-sudo chmod +x techcps119.sh
-./techcps119.sh
+
+curl -LO https://raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Create%20a%20Secure%20Data%20Lake%20on%20Cloud%20Storage%3A%20Challenge%20Lab/TechCode1.sh
+sudo chmod +x TechCode1.sh
+./TechCode1.sh
 ```
 
----
+* * *
 
-Invalid form number. Please enter 1, 2, 3, or 4: (Let's find the Form Number: Press <mark>Ctrl + G</mark>)
+Invalid form number. Please enter 1, 2, 3, or 4: (Let's find the Form Number: Press <mark class="bg-yellow-200 dark:bg-yellow-500/30">Ctrl + G</mark>)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725872799140/01a8f325-e68d-4b68-a1a0-b22898cf566e.png align="center")
 
@@ -193,53 +195,60 @@ Invalid form number. Please enter 1, 2, 3, or 4: (Let's find the Form Number: Pr
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725873595024/c38f2c22-ed98-4960-8b81-61abf69e1f57.png align="center")
 
----
+* * *
 
 🚀***Form 1***
 
-* **Task 1. Create a Cloud Storage bucket**
+*   **Task 1. Create a Cloud Storage bucket**
     
-* **Task 2. Create a lake in Dataplex and add a zone to your lake**
+*   **Task 2. Create a lake in Dataplex and add a zone to your lake**
     
-* **Task 3. Environment Creation for Dataplex Lake**
+*   **Task 3. Environment Creation for Dataplex Lake**
     
-* **Task 4. Create a tag template**
+*   **Task 4. Create a tag template**
     
 
----
+* * *
 
 🚀 ***Form 2***
 
-* **Task 1. Create a lake in Dataplex and add a zone to your**
+*   **Task 1. Create a lake in Dataplex and add a zone to your**
     
-* **Task 2. Environment Creation for Dataplex**
+*   **Task 2. Environment Creation for Dataplex**
     
-* **Task 3. Attach an existing Cloud Storage bucket to the zone**
+*   **Task 3. Attach an existing Cloud Storage bucket to the zone**
     
-* **Task 4. Create a tag template**
+*   **Task 4. Create a tag template**
     
 
----
+* * *
 
 🚀 ***Form 3***
 
-* **Task 1. Create a BigQuery dataset**
+*   **Task 1. Create a BigQuery dataset**
     
-* **Task 2. Add a zone to your lake**
+*   **Task 2. Add a zone to your lake**
     
-* **Task 3. Attach an existing BigQuery Dataset to the Lake**
+*   **Task 3. Attach an existing BigQuery Dataset to the Lake**
     
-* **Task 4. Create a tag template**
+*   **Task 4. Create a tag template**
     
 
----
+* * *
 
 🚀 ***Form 4***
 
-* **Task 1. Create a lake in Dataplex and add a zone to your lake**
+*   **Task 1. Create a lake in Dataplex and add a zone to your lake**
     
-* **Task 2. Attach an existing Cloud Storage bucket to the zone**
+*   **Task 2. Attach an existing Cloud Storage bucket to the zone**
     
-* **Task 3. Attach an existing BigQuery Dataset to the Lake**
+*   **Task 3. Attach an existing BigQuery Dataset to the Lake**
     
-* **Task 4. Create Entities**
+*   **Task 4. Create Entities**
+    
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=1FKhfhDKyOQ]
