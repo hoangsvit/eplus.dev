@@ -146,3 +146,5 @@ sudo chmod +x abhishek.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724293676153/7adf0c46-f91b-4c7e-b6bf-77f62918dace.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/473f70fc-cde8-410b-91b0-97e4e239730f.png align="center")
