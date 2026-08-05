@@ -274,6 +274,31 @@ source lab.sh
 
 * * *
 
+### Other Solution
+
+%[https://www.youtube.com/watch?v=xm7eOgZd2ss] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP321/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+export ZONE=
+```
+
+```plaintext
+curl -O "https://raw.githubusercontent.com/Arcade-helper/Solutions/main/Develop%20your%20Google%20Cloud%20Network%3A%20Challenge%20Lab/GSP321.sh"
+
+chmod +x GSP321.sh
+
+./GSP321.sh
+```
+
+* * *
+
 ### Manual
 
 %[https://www.youtube.com/watch?v=xLK6HgZaROc] 
