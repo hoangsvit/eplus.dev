@@ -5,7 +5,8 @@ seoDescription: "In this challenge lab, you’re given a scenario and a set of t
 datePublished: 2024-09-09T08:57:32.841Z
 cuid: cm0urs149001g09jvb6m9ac6a
 slug: create-a-secure-data-lake-on-cloud-storage-challenge-lab-arc119
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756629398931/41feca1f-4310-48fd-a563-0167f207442c.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/092ee48e-903b-424c-81f7-78c832ef83e7.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/c8c480a2-60ec-490d-848c-38cef2b80599.png
 tags: data-lake, cloud-storage, create-a-secure-data-lake-on-cloud-storage-challenge-lab-arc119, arc119, create-a-secure-data-lake-on-cloud-storage-challenge-lab
 
 ---
