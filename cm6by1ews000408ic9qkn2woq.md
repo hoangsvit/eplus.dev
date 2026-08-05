@@ -141,3 +141,7 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/T
 sudo chmod +x arc123.sh
 ./arc123.sh
 ```
+
+* * *
+
+%[https://eplus.dev/enrich-metadata-and-discovery-of-lakehouse-data-challenge-lab-arc123#solution-of-lab]
