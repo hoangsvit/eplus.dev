@@ -140,9 +140,9 @@ You may complete the badges in any order. Choose courses based on your current k
     
 *   [Create a Secure Data Lake on Cloud Storage](https://www.skills.google/course_templates/704?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)
     
-*   [Secure Lakehouse Data](https://www.skills.google/course_templates/751?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)🚀
+*   [Secure Lakehouse Data](https://www.skills.google/course_templates/751?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)
     
-*   [Enrich Metadata and Discovery of Lakehouse Data](https://www.skills.google/course_templates/753?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 3 credits)
+*   [Enrich Metadata and Discovery of Lakehouse Data](https://www.skills.google/course_templates/753?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 3 credits)🚀
     
 *   [Monitor and Manage Google Cloud Resources](https://www.skills.google/course_templates/653?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 4 credits)
     
