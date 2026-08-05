@@ -6,7 +6,7 @@ datePublished: 2025-09-06T08:51:18.413Z
 cuid: cmf80ydjg000502jfcp6zfb3q
 slug: develop-your-google-cloud-network-challenge-lab-gsp321
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a8c7b9fd-3cce-46a5-94ef-50e8824f4651.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757148644592/48b23812-36eb-44ab-9337-a734d411cecb.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/fffb0b44-a523-4f03-a1a3-19565fa7d8c5.png
 tags: develop-your-google-cloud-network-challenge-lab-gsp321, develop-your-google-cloud-network-challenge-lab, gsp321, google-cloud-network
 
 ---
@@ -271,7 +271,6 @@ source lab.sh
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5e95bced-c545-4672-9373-b4002de40bbe.png align="center")
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c468d66c-5525-427c-8fa6-d46aee5a7830.png align="center")
-
 
 * * *
 
