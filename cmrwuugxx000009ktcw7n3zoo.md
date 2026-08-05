@@ -185,9 +185,9 @@ You may complete the badges in any order. Choose courses based on your current k
     
 *   [Build LookML Objects in Looker](https://www.skills.google/course_templates/639?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (5 labs & 0 credits)
     
-*   [Manage Data Models in Looker](https://www.skills.google/course_templates/651?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (6 labs & 0 credits)✔️
+*   [Manage Data Models in Looker](https://www.skills.google/course_templates/651?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (6 labs & 0 credits)
     
-*   [Prepare Data for Looker Dashboards and Reports](https://www.skills.google/course_templates/628?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (5 labs & 0 credits)
+*   [Prepare Data for Looker Dashboards and Reports](https://www.skills.google/course_templates/628?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (5 labs & 0 credits)✔️
     
 *   [Develop Serverless Apps with Firebase](https://www.skills.google/course_templates/649?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator26) (4 labs & 16 credits)
     
