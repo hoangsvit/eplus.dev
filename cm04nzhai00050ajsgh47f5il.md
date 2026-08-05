@@ -31,12 +31,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -59,31 +59,31 @@ You've already completed the first step, and have created a dataset `taxirides` 
 
 To complete this task you will need to:
 
-* Clean the data in `historical_taxi_rides_raw` and make a copy to `Table` in the same dataset. You can use BigQuery, Dataprep, Dataflow, etc. to create this table and clean the data. Make sure your target column is called `Fare amount`.
+*   Clean the data in `historical_taxi_rides_raw` and make a copy to `Table` in the same dataset. You can use BigQuery, Dataprep, Dataflow, etc. to create this table and clean the data. Make sure your target column is called `Fare amount`.
     
 
 Some helpful hints:
 
-* You can see the source dataset in the BQ UI - familiarize yourself with the source schema first.
+*   You can see the source dataset in the BQ UI - familiarize yourself with the source schema first.
     
-* As a hint for the data available at prediction time, familiarize yourself with the table `taxirides.report_prediction_data` which shows the format data will arrive at prediction time.
+*   As a hint for the data available at prediction time, familiarize yourself with the table `taxirides.report_prediction_data` which shows the format data will arrive at prediction time.
     
 
 Data cleaning tasks:
 
-* Ensure `trip_distance` is greater than `Number`.
+*   Ensure `trip_distance` is greater than `Number`.
     
-* Remove rows where `fare_amount` is very small (less than `$Value` for example).
+*   Remove rows where `fare_amount` is very small (less than `$Value` for example).
     
-* Ensure that the latitudes and longitudes are reasonable for the use case.
+*   Ensure that the latitudes and longitudes are reasonable for the use case.
     
-* Ensure `passenger_count` is greater than `Number`.
+*   Ensure `passenger_count` is greater than `Number`.
     
-* Be sure to add `tolls_amount` and `fare_amount` to `Fare amount` as the target variable since total\_amount includes tips.
+*   Be sure to add `tolls_amount` and `fare_amount` to `Fare amount` as the target variable since total\_amount includes tips.
     
-* Because the source dataset is large (&gt;1 Billion rows), sample the dataset to less than 1 Million rows.
+*   Because the source dataset is large (>1 Billion rows), sample the dataset to less than 1 Million rows.
     
-* Only copy fields that will be used in your model (`report_prediction_data` is a good guide).
+*   Only copy fields that will be used in your model (`report_prediction_data` is a good guide).
     
 
 Click *Check my progress* to verify the objective.
@@ -94,20 +94,20 @@ Create a cleaned copy of the data in `Table`
 
 ## **Task 2. Create a BigQuery ML model**
 
-1. Based on the data you have in `Table`, build a BigQuery ML model that predicts `Fare amount`.
+1.  Based on the data you have in `Table`, build a BigQuery ML model that predicts `Fare amount`.
     
-2. Call the model `Fare`.
+2.  Call the model `Fare`.
     
 
 **Note:** Your model will need an RMSE of 10 or less to complete the task.
 
 Some helpful hints:
 
-* You can encapsulate any additional data transformations in a [TRANSFORM()](https://cloud.google.com/bigquery-ml/docs/reference/standard-sql/bigqueryml-syntax-create#transform) clause
+*   You can encapsulate any additional data transformations in a [TRANSFORM()](https://cloud.google.com/bigquery-ml/docs/reference/standard-sql/bigqueryml-syntax-create#transform) clause
     
-* Keep in mind, only features in the `TRANSFORM()` clause will be passed to the model. You can use a `* EXCEPT(feature_to_leave_out)` to pass some or all of the features without explicitly calling them
+*   Keep in mind, only features in the `TRANSFORM()` clause will be passed to the model. You can use a `* EXCEPT(feature_to_leave_out)` to pass some or all of the features without explicitly calling them
     
-* `ST_distance()` and `ST_GeogPoint()` GIS functions in BigQuery can be used to easily calculate euclidean distance (i.e. how far pickup to dropoff did the taxi travel):
+*   `ST_distance()` and `ST_GeogPoint()` GIS functions in BigQuery can be used to easily calculate euclidean distance (i.e. how far pickup to dropoff did the taxi travel):
     
 
 ```apache
@@ -124,32 +124,25 @@ Create BigQuery ML model `Fare` with RMSE 10 or less
 
 Leadership is curious to see how well your model performs over new data, in this case, all of the data they've collected in 2015. This data is in `taxirides.report_prediction_data`. Only values known at prediction time are included in the table.
 
-* Use `ML.PREDICT` and your model to predict `Fare amount` and store your results in a table called `2015_fare_amount_predictions`.
+*   Use `ML.PREDICT` and your model to predict `Fare amount` and store your results in a table called `2015_fare_amount_predictions`.
     
 
 Click *Check my progress* to verify the objective.
 
 Perform batch predictions and store in a new table `2015_fare_amount_predictions`
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=JnaPHJSh6vI] 
+### Quick
 
-```apache
-export TABLE_NAME=''
-export FARE_AMOUNT=''
-export TRIP_DISTANCE_VALUE=
-export FARE_AMOUNT_VALUE=
-export PASSENGER_COUNT_VALUE=
-export MODEL_NAME=''
+%[https://www.youtube.com/watch?v=GevrlVcDwsI] 
+
+```plaintext
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Engineer%20Data%20for%20Predictive%20Modeling%20with%20BigQuery%20ML%3A%20Challenge%20Lab/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724293676153/7adf0c46-f91b-4c7e-b6bf-77f62918dace.png align="center")
-
-```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Engineer%20Data%20for%20Predictive%20Modeling%20with%20BigQuery%20ML%3A%20Challenge%20Lab/techcps327.sh
-sudo chmod +x techcps327.sh
-./techcps327.sh
-```
