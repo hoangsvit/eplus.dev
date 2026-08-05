@@ -5,8 +5,8 @@ seoDescription: "Set up secure firewall rules and virtual machine tags for a Goo
 datePublished: 2025-09-07T06:49:46.336Z
 cuid: cmf9c1xlr000002kygrsx3v4q
 slug: build-a-secure-google-cloud-network-challenge-lab-gsp322
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757227724479/d5275164-6e03-491d-b208-5fe7520af2be.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757227750303/74dc55b1-fd02-4bb1-82b7-16b972c5d977.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/abcaf272-e928-4b35-8cfa-e01ccadd5732.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/1df33db1-1278-4b11-bde2-6d5dfc9658df.png
 tags: google-cloud-network, build-a-secure-google-cloud-network-challenge-lab-gsp322, build-a-secure-google-cloud-network-challenge-lab, gsp322, secure-google-cloud-network
 
 ---
@@ -31,12 +31,12 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
@@ -55,65 +55,67 @@ You need to create the appropriate security configuration for Jeff's site. Your 
 
 For the firewall rules, make sure that:
 
-* The bastion host does not have a public IP address.
+*   The bastion host does not have a public IP address.
     
-* You can only SSH to the bastion and only via IAP.
+*   You can only SSH to the bastion and only via IAP.
     
-* You can only SSH to `juice-shop` via the bastion.
+*   You can only SSH to `juice-shop` via the bastion.
     
-* Only HTTP is open to the world for `juice-shop`.
+*   Only HTTP is open to the world for `juice-shop`.
     
 
 Tips and tricks:
 
-* Pay close attention to the network tags and the associated VPC firewall rules.
+*   Pay close attention to the network tags and the associated VPC firewall rules.
     
-* Be specific and limit the size of the VPC firewall rule source ranges.
+*   Be specific and limit the size of the VPC firewall rule source ranges.
     
-* Overly permissive permissions will not be marked correct.
+*   Overly permissive permissions will not be marked correct.
     
 
 ![The Google Cloud environment to configure](https://cdn.qwiklabs.com/BgxgsuLyqMkhxmO3jDlkHE7yGLIR%2B3rrUabKimlgrbo%3D align="left")
 
 Suggested order of action.
 
-1. Check the firewall rules. Remove the overly permissive rules.
+1.  Check the firewall rules. Remove the overly permissive rules.
     
 
 Remove the overly permissive rules
 
-2. Navigate to Compute Engine in the Cloud console and identify the bastion host. The instance should be stopped. Start the instance.
+2.  Navigate to Compute Engine in the Cloud console and identify the bastion host. The instance should be stopped. Start the instance.
     
 
 Start the bastion host instance
 
-3. The bastion host is the one machine authorized to receive external SSH traffic. Create a firewall rule that allows [SSH (tcp/22) from the IAP service](https://cloud.google.com/iap/docs/using-tcp-forwarding). The firewall rule must be enabled for the bastion host instance using a network tag of `allow-ssh-iap-ingress-ql-595`.
+3.  The bastion host is the one machine authorized to receive external SSH traffic. Create a firewall rule that allows [SSH (tcp/22) from the IAP service](https://cloud.google.com/iap/docs/using-tcp-forwarding). The firewall rule must be enabled for the bastion host instance using a network tag of `allow-ssh-iap-ingress-ql-595`.
     
 
 Create a firewall rule that allows SSH (tcp/22) from the IAP service and add network tag on bastion
 
-4. The `juice-shop` server serves HTTP traffic. Create a firewall rule that allows traffic on HTTP (tcp/80) to any address. The firewall rule must be enabled for the juice-shop instance using a network tag of `allow-http-ingress-ql-595`.
+4.  The `juice-shop` server serves HTTP traffic. Create a firewall rule that allows traffic on HTTP (tcp/80) to any address. The firewall rule must be enabled for the juice-shop instance using a network tag of `allow-http-ingress-ql-595`.
     
 
 Create a firewall rule that allows traffic on HTTP (tcp/80) to any address and add network tag on juice-shop
 
-5. You need to connect to `juice-shop` from the bastion using SSH. Create a firewall rule that allows traffic on SSH (tcp/22) from `acme-mgmt-subnet` network address. The firewall rule must be enabled for the `juice-shop` instance using a network tag of `allow-ssh-internal-ingress-ql-595`.
+5.  You need to connect to `juice-shop` from the bastion using SSH. Create a firewall rule that allows traffic on SSH (tcp/22) from `acme-mgmt-subnet` network address. The firewall rule must be enabled for the `juice-shop` instance using a network tag of `allow-ssh-internal-ingress-ql-595`.
     
 
 Create a firewall rule that allows traffic on SSH (tcp/22) from acme-mgmt-subnet
 
-6. In the Compute Engine instances page, click the SSH button for the bastion host. Once connected, SSH to `juice-shop`.
+6.  In the Compute Engine instances page, click the SSH button for the bastion host. Once connected, SSH to `juice-shop`.
     
 
 **Hint:** If you're having difficulties with the compute ssh connection or IAP tunnel, make use of the [\--troubleshoot](https://cloud.google.com/sdk/gcloud/reference/compute/ssh) flag.
 
 SSH to bastion host via IAP and juice-shop via bastion
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://youtu.be/tHHreNiiAcQ] 
+### Quick
+
+%[https://www.youtube.com/watch?v=wROa-Qcp9fA] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP322/lab.sh
