@@ -5,6 +5,7 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2025-01-25T08:43:24.988Z
 cuid: cm6by1ews000408ic9qkn2woq
 slug: tag-and-discover-biglake-data-challenge-lab-arc123
+canonical: https://eplus.dev/enrich-metadata-and-discovery-of-lakehouse-data-challenge-lab-arc123
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737794572392/44c5bcd3-9d38-4e98-83ce-e80b0010d1fa.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756632253163/8519748b-9d53-43be-8a36-6ae0d30c4833.png
 tags: tag-and-discover-biglake-data-challenge-lab-arc123, tag-and-discover-biglake-data-challenge-lab, arc123
@@ -29,12 +30,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -49,25 +50,25 @@ You are expected to have the skills and knowledge for these tasks.
 
 You are asked to help a newly formed development team with some of their initial work on a new project. Specifically, they need to create a new BigLake table from Cloud Storage and tag data using a new tag template to label sensitive data for online shopping sessions by customers; you receive the following request to complete the following tasks:
 
-* Create a BigQuery dataset to store the connection to your BigLake table.
+*   Create a BigQuery dataset to store the connection to your BigLake table.
     
-* Create a BigLake table using a Cloud Resource connection.
+*   Create a BigLake table using a Cloud Resource connection.
     
-* Create a tag template to label sensitive data and apply tags to the BigLake table.
+*   Create a tag template to label sensitive data and apply tags to the BigLake table.
     
 
 Some standards you should follow:
 
-* Ensure that any needed APIs (such as Data Catalog and BigQuery Connection API) are successfully enabled and that necessary service accounts have the appropriate permissions.
+*   Ensure that any needed APIs (such as Data Catalog and BigQuery Connection API) are successfully enabled and that necessary service accounts have the appropriate permissions.
     
-* Create all resources in the `us-east4` region, unless otherwise directed.
+*   Create all resources in the `us-east4` region, unless otherwise directed.
     
 
 Each task is described in detail below, good luck!
 
 ## **Task 1. Create a BigQuery dataset**
 
-* Create a BigQuery dataset named **ecommerce** that is multi-region in the United States.
+*   Create a BigQuery dataset named **ecommerce** that is multi-region in the United States.
     
 
 Click *Check my progress* to verify the objective.
@@ -78,14 +79,14 @@ Check my progress
 
 ## **Task 2. Create a BigLake table using a Cloud Resource connection**
 
-1. Create a Cloud Resource connection named **customer\_data\_connection** with the appropriate service account permissions to read Cloud Storage files in your project.
+1.  Create a Cloud Resource connection named **customer\_data\_connection** with the appropriate service account permissions to read Cloud Storage files in your project.
     
-2. Within the BigQuery dataset named **ecommerce**, use the Cloud Resource connection to create a BigLake table named **customer\_online\_sessions**.
+2.  Within the BigQuery dataset named **ecommerce**, use the Cloud Resource connection to create a BigLake table named **customer\_online\_sessions**.
     
 
-* When creating the table, load data from the following Cloud Storage file using schema auto-detection:
+*   When creating the table, load data from the following Cloud Storage file using schema auto-detection:
     
-    * gs://`qwiklabs-gcp-02-b1e1641dfedd`\-bucket/customer-online-sessions.csv
+    *   gs://`qwiklabs-gcp-02-b1e1641dfedd`\-bucket/customer-online-sessions.csv
         
 
 Click *Check my progress* to verify the objective.
@@ -96,27 +97,27 @@ Check my progress
 
 ## **Task 3. Create a tag template and attach a tag to the BigLake table**
 
-1. Create a public tag template named **Sensitive Data Template** with two fields:
+1.  Create a public tag template named **Sensitive Data Template** with two fields:
     
 
-* Boolean field named **Has Sensitive Data**.
+*   Boolean field named **Has Sensitive Data**.
     
-* Enumerated field named **Sensitive Data Type** that contains three values: `Location Info`, `Contact Info`, and `None`.
-    
-
-2. Use the tag template to tag the BigLake table as containing sensitive data using both enumerated fields:
+*   Enumerated field named **Sensitive Data Type** that contains three values: `Location Info`, `Contact Info`, and `None`.
     
 
-* **Has Sensitive Data** = `TRUE`
+2.  Use the tag template to tag the BigLake table as containing sensitive data using both enumerated fields:
     
-* **Sensitive Data Type** = `Location Info`
+
+*   **Has Sensitive Data** = `TRUE`
+    
+*   **Sensitive Data Type** = `Location Info`
     
 
 Click *Check my progress* to verify the objective.
 
 Create a tag template and attach a tag to the BigLake table
 
----
+* * *
 
 ## Solution of Lab
 
