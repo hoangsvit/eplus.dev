@@ -139,6 +139,13 @@ Perform batch predictions and store in a new table `2015_fare_amount_predictions
 
 %[https://www.youtube.com/watch?v=GevrlVcDwsI] 
 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP327/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
 ```plaintext
 curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Engineer%20Data%20for%20Predictive%20Modeling%20with%20BigQuery%20ML%3A%20Challenge%20Lab/abhishek.sh
 sudo chmod +x abhishek.sh
