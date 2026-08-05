@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-08-22T02:29:21.354Z
 cuid: cm04nzhai00050ajsgh47f5il
 slug: engineer-data-for-predictive-modeling-with-bigquery-ml-challenge-lab-gsp327
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724293523236/9d3e53b0-b1ab-4dc6-8382-4d2a529199e9.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724293751374/72a82283-be3d-42b2-adc6-3ec7769a6fbe.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ba9c44e8-a814-4ed6-b1e1-07159f343b87.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/547bb9a8-4105-46cf-bf4d-04b67b2e736d.png
 tags: engineer-data-for-predictive-modeling-with-bigquery-ml-challenge-lab-gsp327
 
 ---
