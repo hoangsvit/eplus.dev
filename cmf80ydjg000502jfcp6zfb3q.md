@@ -261,20 +261,7 @@ Provide access for an additional engineer
 
 ## Solution of Lab
 
-%[https://youtu.be/6S-cHVLmNL4] 
-
-```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP321/lab.sh
-source lab.sh
-```
-
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5e95bced-c545-4672-9373-b4002de40bbe.png align="center")
-
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c468d66c-5525-427c-8fa6-d46aee5a7830.png align="center")
-
-* * *
-
-### Other Solution
+### Quick
 
 %[https://www.youtube.com/watch?v=xm7eOgZd2ss] 
 
@@ -296,6 +283,26 @@ chmod +x GSP321.sh
 
 ./GSP321.sh
 ```
+
+* * *
+
+### Other Solution
+
+%[https://youtu.be/6S-cHVLmNL4] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP321/other.sh
+source other.sh
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5e95bced-c545-4672-9373-b4002de40bbe.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c468d66c-5525-427c-8fa6-d46aee5a7830.png align="center")
+
+*   [https://console.cloud.google.com/kubernetes/discovery](https://console.cloud.google.com/kubernetes/discovery)
+    
+*   [https://console.cloud.google.com/monitoring/uptime](https://console.cloud.google.com/monitoring/uptime)
+    
 
 * * *
 
