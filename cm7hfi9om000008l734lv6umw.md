@@ -329,6 +329,8 @@ You've sent your first request to the Cloud Natural Language API.
 
 ## Solution of Lab
 
+### Quick
+
 %[https://www.youtube.com/watch?v=cnmag49ro24&ab_channel=QUICKGCPLAB] 
 
 **Open link:** [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
@@ -340,3 +342,9 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/C
 sudo chmod +x gsp097.sh
 ./gsp097.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=I0Ybwae59ts]
