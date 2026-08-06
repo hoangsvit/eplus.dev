@@ -5,8 +5,8 @@ seoDescription: "Master Google Cloud Monitoring in this challenge lab. Install a
 datePublished: 2025-09-23T08:57:28.581Z
 cuid: cmfwbnshx000002l4cnm8c5c1
 slug: monitoring-in-google-cloud-challenge-lab-arc115
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758616861709/7416dd28-334f-4b26-b9a4-c15e34466f29.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1758617658802/199d677f-5b11-462a-a1b2-41ff4faf48da.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/314602da-2f29-4ff0-b6af-4a0e01db42a5.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/45f2f3db-b720-4beb-89b7-269cc49daef1.png
 tags: google-cloud, monitoring-in-google-cloud-challenge-lab-arc115, monitoring-in-google-cloud-challenge-lab, arc115, monitoring-in-google-cloud
 
 ---
@@ -29,12 +29,12 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
@@ -51,13 +51,13 @@ For this challenge, you have been tasked with installing the Cloud Monitoring an
 
 You need to:
 
-* Install the Cloud Monitoring and Cloud Logging agents.
+*   Install the Cloud Monitoring and Cloud Logging agents.
     
-* Add an uptime check and alert policy for Apache Web Server.
+*   Add an uptime check and alert policy for Apache Web Server.
     
-* Create a dashboard and chart for the VM and Apache Web Server each.
+*   Create a dashboard and chart for the VM and Apache Web Server each.
     
-* Create a log-based metric.
+*   Create a log-based metric.
     
 
 For this challenge lab, a virtual machine (VM) instance named `apache-vm` has been configured that has Apache Web Server installed for you to complete the tasks.
@@ -72,9 +72,9 @@ Each task is described in detail below, good luck!
 
 So for this task, you need to install the Cloud Logging and Cloud Monitoring agents.
 
-1. Connect to the VM instance `apache-vm` provisioned for you via SSH and install the Cloud Logging and Cloud Monitoring agents.
+1.  Connect to the VM instance `apache-vm` provisioned for you via SSH and install the Cloud Logging and Cloud Monitoring agents.
     
-2. Enable the Apache Web Server monitoring plugin using the following commands:
+2.  Enable the Apache Web Server monitoring plugin using the following commands:
     
 
 ```plaintext
@@ -95,7 +95,7 @@ Install the Cloud Logging and Cloud Monitoring agents
 
 ## Task 2. Add an uptime check for Apache Web Server on the VM
 
-* For this task, you need to verify that your VM is up and running. To do this, create an uptime check with the resource type set to `instance`.
+*   For this task, you need to verify that your VM is up and running. To do this, create an uptime check with the resource type set to `instance`.
     
 
 **Note:** The uptime check that you configure may take a while to become active. Continue with the lab, you can check the uptime results later.
@@ -106,9 +106,9 @@ Add an uptime check for Apache Web Server on the VM
 
 ## Task 3. Add an alert policy for Apache Web Server
 
-1. Create an alert policy for Apache Web Server traffic that notifies you on your personal email account when the traffic rate exceeds 3 KiB/s.
+1.  Create an alert policy for Apache Web Server traffic that notifies you on your personal email account when the traffic rate exceeds 3 KiB/s.
     
-2. Connect to the instance via SSH and run the following command to generate the traffic:
+2.  Connect to the instance via SSH and run the following command to generate the traffic:
     
 
 ```plaintext
@@ -117,7 +117,7 @@ timeout 120 bash -c -- 'while true; do curl localhost | grep -oP "<title>.*</tit
 
 Copied!
 
-3. Monitor the alert policy that you just created once the traffic rate exceeds 3 KiB/s you should receive an alert on your email id.
+3.  Monitor the alert policy that you just created once the traffic rate exceeds 3 KiB/s you should receive an alert on your email id.
     
 
 Click **Check my progress** to verify the objective.
@@ -130,9 +130,9 @@ Add an alert policy for Apache Web Server
 
 For this task, you need to create a dashboard that's configured with charts.
 
-1. Add the first line chart that has a Resource metric filter, `CPU load (1m)`, for the VM.
+1.  Add the first line chart that has a Resource metric filter, `CPU load (1m)`, for the VM.
     
-2. Add a second line chart that has a Resource metric filter, `Requests`, for Apache Web Server.
+2.  Add a second line chart that has a Resource metric filter, `Requests`, for Apache Web Server.
     
 
 Click **Check my progress** to verify the objective.
@@ -141,7 +141,7 @@ Create a dashboard and charts for Apache Web Server on the VM
 
 ## Task 5. Create a log-based metric
 
-1. Next, create a log based metric that filters for the following values:
+1.  Next, create a log based metric that filters for the following values:
     
     | **Filter** | **Values** |
     | --- | --- |
@@ -149,14 +149,14 @@ Create a dashboard and charts for Apache Web Server on the VM
     | **Logname** | apache-access |
     | **Text Payload** | textPayload:"200" |
     
-2. Explore the log-based metrics by selecting the metric **VM Instance &gt; Apache &gt; Request**.
+2.  Explore the log-based metrics by selecting the metric **VM Instance > Apache > Request**.
     
 
 Click **Check my progress** to verify the objective.
 
 Create a log-based metric
 
----
+* * *
 
 ## Solution of Lab
 
@@ -175,12 +175,12 @@ sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```
 
-* Go to `Create log-based metric` from [here](https://console.cloud.google.com/logs/metrics/edit?)
+*   Go to `Create log-based metric` from [here](https://console.cloud.google.com/logs/metrics/edit?)
     
 
-1. For Log-based metric name: enter `drabhi`
+1.  For Log-based metric name: enter `drabhi`
     
-2. [P](https://console.cloud.google.com/logs/metrics/edit?)aste The Following in `Build filter` & Re[plac](https://console.cloud.google.com/logs/metrics/edit?)e PROJECT\_ID
+2.  [P](https://console.cloud.google.com/logs/metrics/edit?)aste The Following in `Build filter` & Re[plac](https://console.cloud.google.com/logs/metrics/edit?)e PROJECT\_ID
     
 
 ```plaintext
@@ -189,7 +189,7 @@ logName="projects/PROJECT_ID/logs/apache-access"
 textPayload:"200"
 ```
 
-3. Paste The Following in `Regular Expressio`[`n` fi](https://console.cloud.google.com/logs/metrics/edit?)eld:
+3.  Paste The Following in `Regular Expressio`[`n` fi](https://console.cloud.google.com/logs/metrics/edit?)eld:
     
 
 ```plaintext
