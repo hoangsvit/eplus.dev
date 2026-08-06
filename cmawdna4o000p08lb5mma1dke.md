@@ -430,6 +430,14 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP126
 source lab.sh
 ```
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4920e5b1-152e-4288-bd59-1236cae0e9c7.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4c01cc22-9ce1-4185-9dec-669218fb68fb.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ec0574ee-f68e-4074-9cd4-fe2e0f689ea2.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8cbf6dc2-e7e2-43ae-a245-505599cf24a5.png align="center")
+
 * * *
 
 ### Manual
