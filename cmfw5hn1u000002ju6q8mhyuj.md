@@ -31,12 +31,12 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
@@ -51,28 +51,28 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
-* Time to complete the lab.
+*   Time to complete the lab.
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This avoids conflicts between your personal account and the student account.
 
 ### How to start your lab and sign in to Gmail
 
-1. When ready, click **Start Lab**.
+1.  When ready, click **Start Lab**.
     
     The Lab Details pane appears with the temporary credentials that you must use to sign into Gmail for this lab.
     
     If you need to pay for the lab, a pop-up opens for you to select your payment method.
     
-2. Click **Open Gmail**.
+2.  Click **Open Gmail**.
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
     ***Tip:*** Arrange the tabs in separate windows, side-by-side.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-00-81849f736d44@qwiklabs.net
@@ -80,9 +80,9 @@ To complete this lab, you need:
     
     Copied!
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     dnNwovTOkscu
@@ -90,13 +90,13 @@ To complete this lab, you need:
     
     Copied!
     
-6. Click **Next**.
+6.  Click **Next**.
     
-7. If needed, click **I understand** to accept the terms.
+7.  If needed, click **I understand** to accept the terms.
     
     Gmail opens.
     
-8. Click **Get started**, and then close any further information windows.
+8.  Click **Get started**, and then close any further information windows.
     
 
 You are now in Gmail, looking at your Inbox.
@@ -145,15 +145,15 @@ Schedule weekly status meetings
 
 In Sheets, create a new blank spreadsheet named **Project Task Sheet** which includes the following column headers:
 
-* **Tasks**
+*   **Tasks**
     
-* **Owner**
+*   **Owner**
     
-* **Priority**
+*   **Priority**
     
-* **Status**
+*   **Status**
     
-* **Comments**
+*   **Comments**
     
 
 Now share this spreadsheet with the same 2 colleagues that you invited to the weekly team meeting.
@@ -172,19 +172,27 @@ Click *Check my progress* to verify the objective.
 
 Create AppSheet application
 
----
+* * *
 
 ## Solution of Lab
+
+### Quick
+
+%[https://www.youtube.com/watch?v=J5gSNLQgu-c] 
+
+* * *
+
+### Manual
 
 %[https://youtu.be/GhubnQy9KME] 
 
 ### 📝 Task 1. Create Gmail Signature
 
-1. Open **Gmail** → **Settings (⚙️)** → **See all settings**.
+1.  Open **Gmail** → **Settings (⚙️)** → **See all settings**.
     
-2. Go to **General** tab → scroll down to **Signature**.
+2.  Go to **General** tab → scroll down to **Signature**.
     
-3. Create new and enter:
+3.  Create new and enter:
     
     ```plaintext
     Your Name
@@ -192,66 +200,66 @@ Create AppSheet application
     Contact: [phone / email]
     ```
     
-4. Choose **Automatically insert** when composing/replying emails.
+4.  Choose **Automatically insert** when composing/replying emails.
     
-5. Save changes.
+5.  Save changes.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758607895523/cd94bf67-7754-4159-b57e-29f3afa0f58c.png align="center")
 
 ✅ Check progress: *Create your signature*
 
----
+* * *
 
 ### 📅 Task 2. Add Out-of-Office Event
 
-1. Open [**Google Calendar**](https://calendar.google.com/calendar).
+1.  Open [**Google Calendar**](https://calendar.google.com/calendar).
     
-2. Click **\+ Create** → choose **Out of office**.
+2.  Click **\+ Create** → choose **Out of office**.
     
-3. Title: **OOO Orientation**.
+3.  Title: **OOO Orientation**.
     
-4. Select the next **3 consecutive days**.
+4.  Select the next **3 consecutive days**.
     
-5. Check **Automatically decline meetings** if available.
+5.  Check **Automatically decline meetings** if available.
     
-6. Save.
+6.  Save.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758608111159/84b1c2b8-b271-438a-b576-2642e318006a.png align="center")
 
 ✅ Check progress: *Add out-of-office dates*
 
----
+* * *
 
 ### 📂 Task 3. Create a Folder in Drive
 
-1. Open [**Google Drive**](https://drive.google.com/).
+1.  Open [**Google Drive**](https://drive.google.com/).
     
-2. Click **\+ New** → **Folder**.
+2.  Click **\+ New** → **Folder**.
     
-3. Name it (example): **Project Information**.
+3.  Name it (example): **Project Information**.
     
-4. Create.
+4.  Create.
     
 
 ✅ Check progress: *Create a folder*
 
----
+* * *
 
 ### 👥 Task 4. Schedule Weekly Status Meeting
 
-1. Open **Google Calendar** → **\+ Create Event**.
+1.  Open **Google Calendar** → **\+ Create Event**.
     
-2. Title: **Weekly Status Meeting**.
+2.  Title: **Weekly Status Meeting**.
     
-3. Select date & time (example: Monday, 10:00–11:00).
+3.  Select date & time (example: Monday, 10:00–11:00).
     
-4. Change **Does not repeat** → **Weekly**.
+4.  Change **Does not repeat** → **Weekly**.
     
-5. Add Colleague 1 and Colleague 2 emails (from lab info).
+5.  Add Colleague 1 and Colleague 2 emails (from lab info).
     
-6. Save & send invitations.
+6.  Save & send invitations.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758608382320/f3195e59-5c45-492a-992e-26918cbe6c8f.png align="center")
@@ -260,21 +268,21 @@ Create AppSheet application
 
 ✅ Check progress: *Schedule weekly status meetings*
 
----
+* * *
 
 ### 📊 Task 5. Create and Share Task Spreadsheet
 
-1. Open [**Google Sheets**](https://docs.google.com/spreadsheets) → **Blank Spreadsheet** or [**Download file**](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP376/Project%20Task%20Sheet.xlsx).
+1.  Open [**Google Sheets**](https://docs.google.com/spreadsheets) → **Blank Spreadsheet** or [**Download file**](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP376/Project%20Task%20Sheet.xlsx).
     
-2. Rename: **Project Task Sheet**.
+2.  Rename: **Project Task Sheet**.
     
-3. Add headers in row 1:
+3.  Add headers in row 1:
     
-    * Tasks | Owner | Priority | Status | Comments
+    *   Tasks | Owner | Priority | Status | Comments
         
-4. Click **Share** (top right) → add Colleague 1 & Colleague 2 emails → give **Editor** access.
+4.  Click **Share** (top right) → add Colleague 1 & Colleague 2 emails → give **Editor** access.
     
-5. Send.
+5.  Send.
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758608382320/f3195e59-5c45-492a-992e-26918cbe6c8f.png align="center")
@@ -283,19 +291,19 @@ Create AppSheet application
 
 ✅ Check progress: *Create and share a task spreadsheet*
 
----
+* * *
 
 ### 📱 Task 6. Create AppSheet Application
 
-1. Open [AppSheet](https://www.appsheet.com).
+1.  Open [AppSheet](https://www.appsheet.com).
     
-2. Sign in with your **student account**.
+2.  Sign in with your **student account**.
     
-3. Click **Make a new app** → choose “Start with your own data” or template.
+3.  Click **Make a new app** → choose “Start with your own data” or template.
     
-4. Confirm creation and wait for the initial environment.
+4.  Confirm creation and wait for the initial environment.
     
-5. No need to add code.
+5.  No need to add code.
     
 
 ✅ Check progress: *Create AppSheet application*
