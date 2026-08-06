@@ -6,6 +6,7 @@ datePublished: 2025-05-10T10:14:26.589Z
 cuid: cmai2ix3x000h0ajy8jr9g7lc
 slug: monitoring-and-logging-for-cloud-run-functions-gsp092
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4f98debb-a413-4813-8226-75404158b35c.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/5afcc00b-61bb-4041-9dbd-99074e2bf95b.png
 tags: monitoring-and-logging-for-cloud-run-functions-gsp092, monitoring-and-logging-for-cloud-run-functions, gsp092
 
 ---
@@ -405,4 +406,6 @@ source step2.sh
 
 ### Manual
 
-%[https://youtu.be/GuksDlyreW8]
+%[https://youtu.be/GuksDlyreW8] 
+
+%[https://www.youtube.com/watch?v=q6d7mePU58w]
