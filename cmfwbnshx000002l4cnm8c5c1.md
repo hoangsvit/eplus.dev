@@ -160,6 +160,8 @@ Create a log-based metric
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/8ohKEAgZNOg] 
 
 ```apache
@@ -195,3 +197,9 @@ textPayload:"200"
 ```plaintext
 execution took (\d+)
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=omDAvsVfDkQ]
