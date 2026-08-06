@@ -29,12 +29,12 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
@@ -51,29 +51,29 @@ For this challenge, you are asked to set up Google Docs and perform sentiment an
 
 You need to:
 
-* Create an API key.
+*   Create an API key.
     
-* Set up Google Docs and call the Natural Language API.
+*   Set up Google Docs and call the Natural Language API.
     
-* Analyze syntax and parts of speech with the Natural Language API.
+*   Analyze syntax and parts of speech with the Natural Language API.
     
-* Perform multilingual natural language processing.
+*   Perform multilingual natural language processing.
     
 
 For this challenge lab, a virtual machine (VM) instance named `lab-vm` has been configured for you to complete tasks 3 and 4.
 
 Some standards you should follow:
 
-* Ensure that any needed APIs (such as the Cloud Natural Language API) are successfully enabled.
+*   Ensure that any needed APIs (such as the Cloud Natural Language API) are successfully enabled.
     
 
 Each task is described in detail below, good luck!
 
 ## Task 1. Create an API key
 
-1. For this task, you need to create an API key to use in this and other tasks when sending a request to the Natural Language API.
+1.  For this task, you need to create an API key to use in this and other tasks when sending a request to the Natural Language API.
     
-2. Save the API key to use in other tasks.
+2.  Save the API key to use in other tasks.
     
 
 Click **Check my progress** to verify the objective.
@@ -86,9 +86,9 @@ For this task, you need to set up Google Docs to use the Natural Language API an
 
 Text is highlighted in red for negative sentiment, green for positive sentiment, and yellow for neutral sentiment.
 
-1. Create a [new Google Docs document](https://docs.google.com/document/create).
+1.  Create a [new Google Docs document](https://docs.google.com/document/create).
     
-2. Use the following code in **Apps Script**. In the `retrieveSentiment` function, replace "your key here" with your actual API key from the Google Cloud Console.
+2.  Use the following code in **Apps Script**. In the `retrieveSentiment` function, replace "your key here" with your actual API key from the Google Cloud Console.
     
 
 ```apache
@@ -230,7 +230,7 @@ Text is highlighted in red for negative sentiment, green for positive sentiment,
 
 Copied!
 
-3. Add text to your document. You can use the sample that comes from Charles Dickens' novel, [A Tale of Two Cities](https://www.gutenberg.org/cache/epub/98/pg98-images.html).
+3.  Add text to your document. You can use the sample that comes from Charles Dickens' novel, [A Tale of Two Cities](https://www.gutenberg.org/cache/epub/98/pg98-images.html).
     
 
 Click **Check my progress** to verify the objective.
@@ -241,7 +241,7 @@ Set up Google Docs and call the Natural Language API
 
 To complete this task, connect via SSH to the VM instance named `lab-vm` that has been provisioned for you.
 
-1. Create a JSON file called `analyze-request.json` using the code that follows.
+1.  Create a JSON file called `analyze-request.json` using the code that follows.
     
 
 ```apache
@@ -256,9 +256,9 @@ To complete this task, connect via SSH to the VM instance named `lab-vm` that ha
 
 Copied!
 
-2. Pass your request (along with the API key environment variable you saved earlier in task 1) to the Natural Language API using the `curl` command or analyze syntax using `gcloud` ML commands.
+2.  Pass your request (along with the API key environment variable you saved earlier in task 1) to the Natural Language API using the `curl` command or analyze syntax using `gcloud` ML commands.
     
-3. Save the response in a file called `analyze-response.txt`.
+3.  Save the response in a file called `analyze-response.txt`.
     
 
 Click **Check my progress** to verify the objective.
@@ -269,7 +269,7 @@ Analyze syntax and parts of speech with the Natural Language API
 
 To complete this task, connect via SSH to the VM instance named `lab-vm` that has been provisioned for you.
 
-1. Create a JSON file called `multi-nl-request.json` using the code that follows, which contains a sentence in the French language.
+1.  Create a JSON file called `multi-nl-request.json` using the code that follows, which contains a sentence in the French language.
     
 
 ```apache
@@ -283,37 +283,39 @@ To complete this task, connect via SSH to the VM instance named `lab-vm` that ha
 
 Copied!
 
-2. Pass your request (along with the API key environment variable you saved earlier in task 1) to the Natural Language API using the `curl` command or analyze syntax using `gcloud` ML commands.
+2.  Pass your request (along with the API key environment variable you saved earlier in task 1) to the Natural Language API using the `curl` command or analyze syntax using `gcloud` ML commands.
     
-3. Save the output in a file called `multi-response.txt`.
+3.  Save the output in a file called `multi-response.txt`.
     
 
 Click **Check my progress** to verify the objective.
 
 Perform multilingual natural language processing
 
----
+* * *
 
 ## Solution of Lab
 
-### **Task 1. Create an API key**
+### Quick
 
-* *Navigation Menu* &gt; *APIs and Services* &gt; *Credentials* &gt; Click `+Create Credentials` &gt; Choose `API KEY`.
+**Task 1. Create an API key**
+
+*   [*Navigation Menu* > *APIs and Services* > *Credentials*](https://console.cloud.google.com/apis/credentials) > Click `+Create Credentials` > Choose `API KEY`.
     
 
 ```apache
 export API_KEY=
 ```
 
-### Task 2. Set up Google Docs and call the Natural Language API
+**Task 2. Set up Google Docs and call the Natural Language API**
 
-* Open this link in Incoginato Mode [Click Here](https://docs.google.com/document/create)
+*   Open this link in Incoginato Mode [Click Here](https://docs.google.com/document/create)
     
-* Login using your Lab Credentials.
+*   Login using your Lab Credentials.
     
-* Click `Externsion` &gt; then `Apps Script`.
+*   Click `Externsion` > then `Apps Script`.
     
-* Paste the below code in the `code.js file`.
+*   Paste the below code in the `code.js file`.
     
 
 ```javascript
@@ -454,10 +456,10 @@ export API_KEY=
 }
 ```
 
-* In place of "*<mark>YOUR_API_KEY_HERE</mark>*", replace it with your created `API_KEY` which you make it in **task 1**.
+*   In place of "*<mark class="bg-yellow-200 dark:bg-yellow-500/30">YOUR_API_KEY_HERE</mark>*", replace it with your created `API_KEY` which you make it in **task 1**.
     
 
-### **Task 3. Analyze syntax and parts of speech with the Natural Language API**
+**Task 3. Analyze syntax and parts of speech with the Natural Language API**
 
 ```powershell
 cat > analyze-request.json <<EOF
@@ -478,7 +480,7 @@ curl -s -H "Content-Type: application/json" \
 cat analyze-response.txt
 ```
 
-### Task 4. Perform multilingual natural language processing
+**Task 4. Perform multilingual natural language processing**
 
 ```powershell
 cat > multi-nl-request.json <<EOF
@@ -500,3 +502,9 @@ cat multi-response.txt
 ```
 
 Congratulations🎉!, You're all done with this Challenge lab.
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=8ZKQCncnERg]
