@@ -5,8 +5,8 @@ seoDescription: "The Natural Language API is a pretrained machine learning model
 datePublished: 2025-05-20T10:34:32.328Z
 cuid: cmawdna4o000p08lb5mma1dke
 slug: using-the-natural-language-api-from-google-docs-gsp126-1
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747737204292/7ff75294-e8aa-47c6-a342-e24476a1a506.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747737223938/fbd8f1b2-97f1-4452-8029-e688138ced0a.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9fb26446-51a2-4bda-8b36-32d105f56632.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/ffca5c5a-4032-4dec-b165-468bd39eb9c4.png
 tags: using-the-natural-language-api-from-google-docs-gsp126, gsp1262, using-the-natural-language-api-from-google-docs
 
 ---
