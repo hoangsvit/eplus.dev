@@ -426,7 +426,7 @@ function retrieveSentiment (line) {
 **🚨 Copy and run the below commands in** [**Cloud Shell**](https://console.cloud.google.com/home/dashboard?project=&pli=1&invt=AbuATQ&cloudshell=true)
 
 ```apache
-gcloud services enable language.googleapis.com && gcloud alpha services api-keys create --display-name="techcps"
+gcloud services enable language.googleapis.com && gcloud alpha services api-keys create --display-name="eplus"
 ```
 
 * * *
