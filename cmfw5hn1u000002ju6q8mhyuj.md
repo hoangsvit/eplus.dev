@@ -5,8 +5,8 @@ seoDescription: "Master Google Workspace tools with this hands-on challenge lab.
 datePublished: 2025-09-23T06:04:43.890Z
 cuid: cmfw5hn1u000002ju6q8mhyuj
 slug: get-started-with-google-workspace-tools-challenge-lab-gsp376
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758607444647/02cc5d87-10cb-411e-b484-4fb7796c8548.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1758607464423/9cf6e339-2f1f-45ad-b39b-d5131d8357a5.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c43c1a6d-4d95-4754-9c1f-56c3bdab515c.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/fad79450-7182-40c2-9c3a-c1b9e5a5c2f5.png
 tags: google-workspace-tools, get-started-with-google-workspace-tools-challenge-lab-gsp376, get-started-with-google-workspace-tools-challenge-lab, gsp376
 
 ---
