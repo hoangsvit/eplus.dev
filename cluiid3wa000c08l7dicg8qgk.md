@@ -5,8 +5,8 @@ seoDescription: "Cloud Monitoring provides visibility into the performance, upti
 datePublished: 2024-04-02T15:02:31.930Z
 cuid: cluiid3wa000c08l7dicg8qgk
 slug: cloud-monitoring-qwik-start-gsp089
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753252010776/c937b03a-c15f-42f7-a389-b9f551eef25e.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1753252040670/9b979de6-d2b5-42c5-b837-b87e4625937e.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/e2a74f3c-7a75-4fc7-bc84-0538e83b7d38.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/861cd697-c18d-474d-be39-a1750fa51d4f.png
 tags: cloud-monitoring-qwik-start-gsp089, cloud-monitoring-qwik-start, gsp089
 
 ---
@@ -21,9 +21,9 @@ In this lab you'll install monitoring and logging agents to collect information 
 
 In this lab, you learn how to:
 
-* Monitor a Compute Engine virtual machine (VM) instance with Cloud Monitoring.
+*   Monitor a Compute Engine virtual machine (VM) instance with Cloud Monitoring.
     
-* Install monitoring and logging agents for your VM
+*   Install monitoring and logging agents for your VM
     
 
 ## Setup and requirements
@@ -36,29 +36,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -66,7 +66,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-03-6ac3d0ac18d9@qwiklabs.net
@@ -74,9 +74,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     ir78StaHAbgx
@@ -84,19 +84,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -109,13 +109,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-02-356245a0b5cc`. The output contains a line that declares the **Project\_ID** for this session:
@@ -126,14 +126,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-02-356245a0b5
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -146,7 +146,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -180,11 +180,11 @@ export REGION=$(gcloud config get compute/region)
 
 ## Task 1. Create a Compute Engine instance
 
-1. In the **Cloud console**, on the **Navigation menu** (☰), click **Compute Engine** &gt; **VM Instances**, then click **Create instance**.
+1.  In the **Cloud console**, on the **Navigation menu** (☰), click **Compute Engine** > **VM Instances**, then click **Create instance**.
     
     Fill in the fields as follows, leaving all other fields at the default value:
     
-2. In the **Machine configuration**
+2.  In the **Machine configuration**
     
     Enter the values for the following fields:
     
@@ -196,19 +196,19 @@ export REGION=$(gcloud config get compute/region)
     | **Series** | `E2` |
     | **Machine** | `e2-medium` |
     
-3. Click **OS and storage**
+3.  Click **OS and storage**
     
     Select Boot Disk:
     
-    * **Boot Disk**: Debian GNU/Linux 12 (bookworm)
+    *   **Boot Disk**: Debian GNU/Linux 12 (bookworm)
         
-4. Click **Networking**
+4.  Click **Networking**
     
     Select the values for Firewall:
     
-    * **Firewall**: Allow HTTP traffic
+    *   **Firewall**: Allow HTTP traffic
         
-5. Once all sections are configured, scroll down and click **Create** to launch your new virtual machine instance.
+5.  Once all sections are configured, scroll down and click **Create** to launch your new virtual machine instance.
     
     Wait a couple of minutes, you'll see a green check when the instance has launched.
     
@@ -219,9 +219,9 @@ Create a Compute Engine instance
 
 ## Task 2. Add Apache2 HTTP Server to your instance
 
-1. In the Console, click **SSH** in line with `lamp-1-vm` to open a terminal to your instance.
+1.  In the Console, click **SSH** in line with `lamp-1-vm` to open a terminal to your instance.
     
-2. Run the following commands in the SSH window to set up Apache2 HTTP Server:
+2.  Run the following commands in the SSH window to set up Apache2 HTTP Server:
     
 
 ```apache
@@ -232,7 +232,7 @@ sudo apt-get update
 sudo apt-get install apache2 php7.0
 ```
 
-3. When asked if you want to continue, enter **Y**.
+3.  When asked if you want to continue, enter **Y**.
     
 
 **Note:** If you cannot install php7.0, use php5.
@@ -245,7 +245,7 @@ Click **Check my progress** below. A green check confirms you're on track.
 
 Add Apache2 HTTP Server to your instance
 
-4. Return to the Cloud Console, on the VM instances page. Click the `External IP` for `lamp-1-vm` instance to see the Apache2 default page for this instance.
+4.  Return to the Cloud Console, on the VM instances page. Click the `External IP` for `lamp-1-vm` instance to see the Apache2 default page for this instance.
     
 
 **Note:** If you are unable to find `External IP` column then click on **Column Display Options** icon on the right side of the corner, select `External IP` checkbox and click **OK**.
@@ -258,11 +258,11 @@ Get a success response over External IP of VM instance
 
 Set up a Monitoring Metrics Scope that's tied to your Google Cloud Project. The following steps create a new account that has a free trial of Monitoring.
 
-* In the Cloud Console, click **Navigation menu** (
+*   In the Cloud Console, click **Navigation menu** (
     
     ![Navigation menu icon](https://cdn.qwiklabs.com/tkgw1TDgj4Q%2BYKQUW4jUFd0O5OEKlUMBRYbhlCrF0WY%3D align="left")
     
-    ) &gt; View All Products &gt; Observability &gt; **Monitoring**.
+    ) > View All Products > Observability > **Monitoring**.
     
 
 When the Monitoring **Overview** page opens, your metrics scope project is ready.
@@ -277,7 +277,7 @@ In this section, you install the *Cloud Logging agent* to stream logs from your 
 
 **Note:** It is best practice to run the Cloud Logging agent on all your VM instances.
 
-1. Run the Monitoring agent install script command in the SSH terminal of your VM instance to install the Cloud Monitoring agent:
+1.  Run the Monitoring agent install script command in the SSH terminal of your VM instance to install the Cloud Monitoring agent:
     
 
 ```apache
@@ -288,9 +288,9 @@ curl -sSO https://dl.google.com/cloudagents/add-google-cloud-ops-agent-repo.sh
 sudo bash add-google-cloud-ops-agent-repo.sh --also-install
 ```
 
-2. If asked if you want to continue, press **Y**.
+2.  If asked if you want to continue, press **Y**.
     
-3. Run the Logging agent install script command in the SSH terminal of your VM instance to install the Cloud Logging agent:
+3.  Run the Logging agent install script command in the SSH terminal of your VM instance to install the Cloud Logging agent:
     
 
 ```apache
@@ -307,72 +307,72 @@ sudo apt-get update
 
 Uptime checks verify that a resource is always accessible. For practice, create an uptime check to verify your VM is up.
 
-1. In the Cloud Console, in the left menu, click **Uptime checks**, and then click **Create Uptime Check**.
+1.  In the Cloud Console, in the left menu, click **Uptime checks**, and then click **Create Uptime Check**.
     
-2. For **Protocol**, select **HTTP**.
+2.  For **Protocol**, select **HTTP**.
     
-3. For **Resource Type**, select **Instance**.
+3.  For **Resource Type**, select **Instance**.
     
-4. For **Instance**, select **lamp-1-vm**.
+4.  For **Instance**, select **lamp-1-vm**.
     
-5. For **Check Frequency**, select **1 minute**.
+5.  For **Check Frequency**, select **1 minute**.
     
-6. Click **Continue**.
+6.  Click **Continue**.
     
-7. In Response Validation, accept the defaults and then click **Continue**.
+7.  In Response Validation, accept the defaults and then click **Continue**.
     
-8. In Alert & Notification, accept the defaults, and then click **Continue**.
+8.  In Alert & Notification, accept the defaults, and then click **Continue**.
     
-9. For Title, type **Lamp Uptime Check**.
+9.  For Title, type **Lamp Uptime Check**.
     
-10. Click **Test** to verify that your uptime check can connect to the resource.
-    
-    When you see a green check mark everything can connect.
-    
-11. Click **Create**.
-    
-    The uptime check you configured takes a while for it to become active. Continue with the lab, you'll check for results later. While you wait, create an alerting policy for a different resource.
-    
+10.  Click **Test** to verify that your uptime check can connect to the resource.
+     
+     When you see a green check mark everything can connect.
+     
+11.  Click **Create**.
+     
+     The uptime check you configured takes a while for it to become active. Continue with the lab, you'll check for results later. While you wait, create an alerting policy for a different resource.
+     
 
 ## Task 4. Create an alerting policy
 
 Use Cloud Monitoring to create one or more alerting policies.
 
-1. In the left menu, click **Alerting**, and then click **+Create Policy**.
+1.  In the left menu, click **Alerting**, and then click **+Create Policy**.
     
-2. Click on **Select a metric** dropdown. Uncheck the **Active**.
+2.  Click on **Select a metric** dropdown. Uncheck the **Active**.
     
-3. Type **Network traffic** in filter by resource and metric name and click on **VM instance &gt; Interface**. Select `Network traffic` (agent.googleapis.com/interface/traffic) and click **Apply**. Leave all other fields at the default value.
+3.  Type **Network traffic** in filter by resource and metric name and click on **VM instance > Interface**. Select `Network traffic` (agent.googleapis.com/interface/traffic) and click **Apply**. Leave all other fields at the default value.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Set the **Threshold position** to `Above threshold`, **Threshold value** to `500` and **Advanced Options &gt; Retest window** to `1 min`. Click **Next**.
+5.  Set the **Threshold position** to `Above threshold`, **Threshold value** to `500` and **Advanced Options > Retest window** to `1 min`. Click **Next**.
     
-6. Click on the drop down arrow next to **Notification Channels**, then click on **Manage Notification Channels**.
+6.  Click on the drop down arrow next to **Notification Channels**, then click on **Manage Notification Channels**.
     
 
 A **Notification channels** page will open in a new tab.
 
-7. Scroll down the page and click on **ADD NEW** for **Email**.
+7.  Scroll down the page and click on **ADD NEW** for **Email**.
     
-8. In the **Create Email Channel** dialog box, enter your personal email address in the **Email Address** field and a **Display name**.
+8.  In the **Create Email Channel** dialog box, enter your personal email address in the **Email Address** field and a **Display name**.
     
-9. Click on **Save**.
+9.  Click on **Save**.
     
-10. Go back to the previous **Create alerting policy** tab.
-    
-11. Click on **Notification Channels** again, then click on the **Refresh icon** to get the display name you mentioned in the previous step.
-    
-12. Click on **Notification Channels** again if necessary, select your **Display name** and click **OK**.
-    
-13. Add a message in documentation, which will be included in the emailed alert.
-    
-14. Mention the **Alert name** as `Inbound Traffic Alert`.
-    
-15. Click **Next**.
-    
-16. Review the alert and click **Create Policy**.
-    
+10.  Go back to the previous **Create alerting policy** tab.
+     
+11.  Click on **Notification Channels** again, then click on the **Refresh icon** to get the display name you mentioned in the previous step.
+     
+12.  Click on **Notification Channels** again if necessary, select your **Display name** and click **OK**.
+     
+13.  Add a message in documentation, which will be included in the emailed alert.
+     
+14.  Mention the **Alert name** as `Inbound Traffic Alert`.
+     
+15.  Click **Next**.
+     
+16.  Review the alert and click **Create Policy**.
+     
 
 You've created an alert! While you wait for the system to trigger an alert, create a dashboard and chart, and then check out Cloud Logging.
 
@@ -384,50 +384,50 @@ Create an uptime check and alerting policy
 
 You can display the metrics collected by Cloud Monitoring in your own charts and dashboards. In this section you create the charts for the lab metrics and a custom dashboard.
 
-1. In the left menu select **Dashboards**, and then **+Create Custom Dashboard**.
+1.  In the left menu select **Dashboards**, and then **+Create Custom Dashboard**.
     
-2. Name the dashboard `Cloud Monitoring LAMP Qwik Start Dashboard`.
+2.  Name the dashboard `Cloud Monitoring LAMP Qwik Start Dashboard`.
     
 
 ### Add the first chart
 
-1. Click on **\+ ADD WIDGET**
+1.  Click on **\+ ADD WIDGET**
     
-2. Select the **Line** option under **Visualization** in the **Add widget**.
+2.  Select the **Line** option under **Visualization** in the **Add widget**.
     
-3. Name the Widget title **CPU Load**.
+3.  Name the Widget title **CPU Load**.
     
-4. Click on **Select a metric** dropdown. Uncheck the **Active**.
+4.  Click on **Select a metric** dropdown. Uncheck the **Active**.
     
-5. Type **CPU load (1m)** in filter by resource and metric name and click on **VM instance &gt; Cpu**. Select `CPU load (1m)` and click **Apply**. Leave all other fields at the default value. Refresh the tab to view the graph.
+5.  Type **CPU load (1m)** in filter by resource and metric name and click on **VM instance > Cpu**. Select `CPU load (1m)` and click **Apply**. Leave all other fields at the default value. Refresh the tab to view the graph.
     
 
 ### Add the second chart
 
-1. Click **\+ Add WIDGET** and select **Line** option under **Visualization** in the **Add widget**.
+1.  Click **\+ Add WIDGET** and select **Line** option under **Visualization** in the **Add widget**.
     
-2. Name this Widget title **Received Packets**.
+2.  Name this Widget title **Received Packets**.
     
-3. Click on **Select a metric** dropdown. Uncheck the **Active**.
+3.  Click on **Select a metric** dropdown. Uncheck the **Active**.
     
-4. Type **Received packets** in filter by resource and metric name and click on **VM instance &gt; Instance**. Select `Received packets` and click **Apply**. Refresh the tab to view the graph.
+4.  Type **Received packets** in filter by resource and metric name and click on **VM instance > Instance**. Select `Received packets` and click **Apply**. Refresh the tab to view the graph.
     
-5. Leave the other fields at their default values. You see the chart data.
+5.  Leave the other fields at their default values. You see the chart data.
     
 
 ## Task 6. View your logs
 
 Cloud Monitoring and Cloud Logging are closely integrated. Check out the logs for your lab.
 
-1. Select **Navigation menu** &gt; **Logging** &gt; **Logs Explorer**.
+1.  Select **Navigation menu** > **Logging** > **Logs Explorer**.
     
-2. Select the logs you want to see, in this case, you select the logs for the lamp-1-vm instance you created at the start of this lab:
+2.  Select the logs you want to see, in this case, you select the logs for the lamp-1-vm instance you created at the start of this lab:
     
-    * Click on **All Resource**.
+    *   Click on **All Resource**.
         
-    * Select **VM Instance** &gt; **lamp-1-vm** in the Resource drop-down menu.
+    *   Select **VM Instance** > **lamp-1-vm** in the Resource drop-down menu.
         
-    * Click **Apply**.
+    *   Click **Apply**.
         
 
 In the results section you can see the logs for your VM instance.
@@ -436,42 +436,42 @@ In the results section you can see the logs for your VM instance.
 
 To best see how Cloud Monitoring and Cloud Logging reflect VM instance changes, make changes to your instance in one browser window and then see what happens in the Cloud Monitoring, and then Cloud Logging windows.
 
-1. Open the Compute Engine window in a new browser window. Select **Navigation menu** &gt; **Compute Engine**, right-click **VM instances** &gt; **Open link in new window**.
+1.  Open the Compute Engine window in a new browser window. Select **Navigation menu** > **Compute Engine**, right-click **VM instances** > **Open link in new window**.
     
-2. Move the Logs Viewer browser window next to the Compute Engine window. This makes it easier to view how changes to the VM are reflected in the logs
+2.  Move the Logs Viewer browser window next to the Compute Engine window. This makes it easier to view how changes to the VM are reflected in the logs
     
-3. In the Compute Engine window, select the `lamp-1-vm` instance, click the three vertical dots at the right of the screen and then click **Stop**, and then confirm to stop the instance.
+3.  In the Compute Engine window, select the `lamp-1-vm` instance, click the three vertical dots at the right of the screen and then click **Stop**, and then confirm to stop the instance.
     
     It takes a few minutes for the instance to stop.
     
-4. Watch in the Logs View tab for when the VM is stopped.
+4.  Watch in the Logs View tab for when the VM is stopped.
     
-5. In the VM instance details window, click the three vertical dots at the right of the screen and then click **Start/resume**, and then confirm. It will take a few minutes for the instance to re-start. Watch the log messages to monitor the start up.
+5.  In the VM instance details window, click the three vertical dots at the right of the screen and then click **Start/resume**, and then confirm. It will take a few minutes for the instance to re-start. Watch the log messages to monitor the start up.
     
 
 ## Task 7. Check the uptime check results and triggered alerts
 
-1. In the Cloud Logging window, select **Navigation menu** &gt; **Monitoring** &gt; **Uptime checks**. This view provides a list of all active uptime checks, and the status of each in different locations.
+1.  In the Cloud Logging window, select **Navigation menu** > **Monitoring** > **Uptime checks**. This view provides a list of all active uptime checks, and the status of each in different locations.
     
     You will see Lamp Uptime Check listed. Since you have just restarted your instance, the regions are in a failed status. It may take up to 5 minutes for the regions to become active. Reload your browser window as necessary until the regions are active.
     
-2. Click the name of the uptime check, `Lamp Uptime Check`.
+2.  Click the name of the uptime check, `Lamp Uptime Check`.
     
     Since you have just restarted your instance, it may take some minutes for the regions to become active. Reload your browser window as necessary.
     
 
 ### Check if alerts have been triggered
 
-1. In the left menu, click **Alerting**.
+1.  In the left menu, click **Alerting**.
     
-2. You see incidents and events listed in the Alerting window.
+2.  You see incidents and events listed in the Alerting window.
     
-3. Check your email account. You should see Cloud Monitoring Alerts.
+3.  Check your email account. You should see Cloud Monitoring Alerts.
     
 
 **Note:** Remove the email notification from your alerting policy. The resources for the lab may be active for a while after you finish, and this may result in a few more email notifications getting sent out.
 
----
+* * *
 
 ## Solution of Lab
 
@@ -492,7 +492,7 @@ sudo chmod +x abhishekGSP089.sh
 ./abhishekGSP089.sh
 ```
 
----
+* * *
 
 ### Old Solution
 
@@ -511,7 +511,7 @@ sudo chmod +x GSP089.sh
 ./GSP089.sh
 ```
 
----
+* * *
 
 ### Manual
 
