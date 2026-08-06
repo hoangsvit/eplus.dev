@@ -5,8 +5,8 @@ seoDescription: "The Cloud Natural Language API lets you extract entities from t
 datePublished: 2025-06-11T04:09:28.612Z
 cuid: cmbrfktus000502l1945zcxz7
 slug: entity-and-sentiment-analysis-with-the-natural-language-api-gsp038
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749614926592/ca5147e3-8c8b-44f1-8671-4cad9691bd9f.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1749614942734/e32f1f93-c203-4efc-aa11-d411dac40898.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9a60222e-1a5f-44d0-aa1f-35c786740382.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/fde02151-f57f-43ba-9f4f-08ed82975082.png
 tags: gsp038
 
 ---
