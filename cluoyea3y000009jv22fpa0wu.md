@@ -298,6 +298,25 @@ Perform multilingual natural language processing
 
 ### Quick
 
+%[https://www.youtube.com/watch?v=77hJeUIgnVc] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC130/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Analyze%20Sentiment%20with%20Natural%20Language%20API%3A%20Challenge%20Lab/abhishek.sh
+sudo chmod +x abhishek.sh
+./abhishek.sh
+```
+
+* * *
+
+### Other Solution
+
 **Task 1. Create an API key**
 
 *   [*Navigation Menu* > *APIs and Services* > *Credentials*](https://console.cloud.google.com/apis/credentials) > Click `+Create Credentials` > Choose `API KEY`.
