@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-04-07T03:17:57.550Z
 cuid: cluoyea3y000009jv22fpa0wu
 slug: analyze-sentiment-with-natural-language-api-challenge-lab-arc130
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759298543854/4d62ff83-0b91-4fce-9798-5d8eea213c49.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1759299315134/47fc9a0b-bf38-4f6d-9572-2c629241198a.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5433b8f1-3d3a-4280-a06c-f9910cd9f313.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/a8a1831f-3895-4fbf-aa0e-5b105960f723.png
 tags: analyze-sentiment-with-natural-language-api-challenge-lab-arc130, analyze-sentiment-with-natural-language-api-challenge-lab, arc130
 
 ---
