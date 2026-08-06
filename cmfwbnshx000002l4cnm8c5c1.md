@@ -191,7 +191,7 @@ logName="projects/PROJECT_ID/logs/apache-access"
 textPayload:"200"
 ```
 
-3.  Paste The Following in `Regular Expressio`[`n` fi](https://console.cloud.google.com/logs/metrics/edit?)eld:
+3.  Paste The Following in `Regular Expression` field:
     
 
 ```plaintext
