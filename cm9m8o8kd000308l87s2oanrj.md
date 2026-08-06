@@ -290,18 +290,15 @@ The email notification you receive looks similar to the following:
 
 ## Solution of Lab
 
-%[https://youtu.be/LwfU7ySmphw] 
+### Quick
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1108/lab.sh
 source lab.sh
 ```
 
-**Script Alternative**
+* * *
 
-```apache
+### Manual
 
-curl -LO https://raw.githubusercontent.com/AnonymousOlix/My-Qwick-Lab-Resources/refs/heads/main/GSP/myqwiklab-gsp1108.sh
-sudo chmod +x myqwiklab-gsp1108.sh
-./myqwiklab-gsp1108.sh
-```
+%[https://www.youtube.com/watch?v=fopVMRO0OLI]
