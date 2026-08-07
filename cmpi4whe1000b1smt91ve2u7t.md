@@ -364,6 +364,8 @@ sudo chmod +x TechCode.sh
 
 [https://console.cloud.google.com/dataplex/catalog/aspect-types](https://console.cloud.google.com/dataplex/catalog/aspect-types)
 
+[https://console.cloud.google.com/dataplex/create](https://console.cloud.google.com/dataplex/create)
+
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1d9037b1-1c32-4738-9710-937eb2a0f37e.png align="center")
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/399bfc99-4860-49fe-8143-e8691c7d1f3e.png align="center")
