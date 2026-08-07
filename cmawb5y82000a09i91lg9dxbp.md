@@ -5,6 +5,7 @@ seoDescription: "Dataplex is an intelligent data fabric that enables organizatio
 datePublished: 2025-05-20T09:25:04.514Z
 cuid: cmawb5y82000a09i91lg9dxbp
 slug: dataplex-qwik-start-command-line-gsp1144
+canonical: https://eplus.dev/knowledge-catalog-qwik-start-command-line-gsp1144
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747733061410/f8ceef58-87b7-4872-a4fb-ba87d919834a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747733089510/3e832065-5a55-437e-820f-b7a092e0122f.png
 tags: command-line, dataplex-qwik-start-command-line-gsp1144, dataplex-qwik-start, dataplex-qwik-start-command-line, command-line-gsp1144, gsp1144
@@ -397,7 +398,6 @@ source lab.sh
 
 **Script Alternative**
 
-
 ```apache
 export REGION=
 ```
@@ -410,3 +410,5 @@ curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs
 sudo chmod +x TechCode.sh
 ./TechCode.sh
 ```
+
+%[https://eplus.dev/knowledge-catalog-qwik-start-command-line-gsp1144]
