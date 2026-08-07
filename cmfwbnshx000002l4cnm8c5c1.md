@@ -81,13 +81,9 @@ So for this task, you need to install the Cloud Logging and Cloud Monitoring age
 (cd /etc/stackdriver/collectd.d/ && sudo curl -O https://raw.githubusercontent.com/Stackdriver/stackdriver-agent-service-configs/master/etc/collectd.d/apache.conf)
 ```
 
-Copied!
-
 ```plaintext
 sudo service stackdriver-agent restart
 ```
-
-Copied!
 
 Click **Check my progress** to verify the objective.
 
@@ -177,12 +173,14 @@ sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/e1dfd234-d779-4e70-bf29-bb719e892352.png align="center")
+
 *   Go to `Create log-based metric` from [here](https://console.cloud.google.com/logs/metrics/edit?)
     
 
 1.  For Log-based metric name: enter `drabhi`
     
-2.  [P](https://console.cloud.google.com/logs/metrics/edit?)aste The Following in `Build filter` & Replace **<mark class="bg-yellow-200 dark:bg-yellow-500/30">PROJECT_ID</mark>**
+2.  Paste The Following in `Build filter` & Replace **<mark class="bg-yellow-200 dark:bg-yellow-500/30">PROJECT_ID</mark>**
     
 
 ```plaintext
@@ -190,6 +188,8 @@ resource.type="gce_instance"
 logName="projects/PROJECT_ID/logs/apache-access"
 textPayload:"200"
 ```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/6349838a-5016-49f3-b4c5-18215c75a69f.png align="center")
 
 3.  Paste The Following in `Regular Expression` field:
     
