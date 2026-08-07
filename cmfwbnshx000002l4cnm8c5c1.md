@@ -175,6 +175,8 @@ sudo chmod +x abhishek.sh
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/e1dfd234-d779-4e70-bf29-bb719e892352.png align="center")
 
+**Task 3. Add an alert policy for Apache Web Server**
+
 *   Go to `Create log-based metric` from [here](https://console.cloud.google.com/logs/metrics/edit?)
     
 
@@ -191,12 +193,31 @@ textPayload:"200"
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/6349838a-5016-49f3-b4c5-18215c75a69f.png align="center")
 
-3.  Paste The Following in `Regular Expression` field:
-    
+**Task 4. Create a dashboard and charts for Apache Web Server on the VM**
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/cf7640d0-66d8-48bc-9b15-f76b0dffe279.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a3fa4727-e6ec-4852-aaa7-62fb6f90d701.png align="center")
 
 ```plaintext
-execution took (\d+)
+CPU load (1m)
 ```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/54dd9473-ee7f-489a-9313-1ebbf6ea1d45.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/54cb373f-9946-4d7b-8d82-b9668f1fa22c.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/04fb421d-45f0-40ca-b4e6-ed1553723180.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/99b9db2b-d164-4566-b6b7-75ed08206f07.png align="center")
+
+```plaintext
+Requests
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/be2c70b9-5222-4d0f-94ce-2ed8232f1f42.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/65cc24eb-9bc8-4e87-a0dc-dbc1a96980d1.png align="center")
 
 * * *
 
