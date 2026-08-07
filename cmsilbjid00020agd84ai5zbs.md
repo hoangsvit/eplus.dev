@@ -388,6 +388,8 @@ Delete assets, zone and dataplex lake
 
 ## Solution of Lab
 
+### Quick
+
 %[https://www.youtube.com/watch?v=ncKWNzdpJa8] 
 
 ```apache
@@ -409,3 +411,9 @@ curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs
 sudo chmod +x TechCode.sh
 ./TechCode.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=k6b2KHTxnso]
