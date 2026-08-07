@@ -182,7 +182,7 @@ sudo chmod +x abhishek.sh
 
 1.  For Log-based metric name: enter `drabhi`
     
-2.  [P](https://console.cloud.google.com/logs/metrics/edit?)aste The Following in `Build filter` & Re[plac](https://console.cloud.google.com/logs/metrics/edit?)e PROJECT\_ID
+2.  [P](https://console.cloud.google.com/logs/metrics/edit?)aste The Following in `Build filter` & Replace **<mark class="bg-yellow-200 dark:bg-yellow-500/30">PROJECT_ID</mark>**
     
 
 ```plaintext
