@@ -299,6 +299,8 @@ Use IFERROR and ISERROR.
 
 ### Manual
 
+%[https://www.youtube.com/watch?v=ojTmY2MGhZE] 
+
 **Task 1. Manipulate data**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724824324657/6ddc5b90-b5f0-45a0-834d-f9a7194d7619.png align="center")
