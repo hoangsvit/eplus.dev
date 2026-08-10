@@ -5,8 +5,8 @@ seoDescription: "Artifact Registry is a secure, scalable, and fully managed serv
 datePublished: 2026-05-05T11:15:06.187Z
 cuid: cmosj7lfq005d2flr7cf9cssp
 slug: artifact-registry-qwik-start-gsp1131
-cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/f5b8914a-97e9-42da-a8fe-26cc3bdf2157.png
-ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/2a5e99a0-2447-41ac-a44d-d0e625cf317a.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b0452fcd-e0a8-45dc-8e83-aae1e37261f5.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/ac0d6711-b796-40a7-b8dd-e647b20afa87.png
 tags: artifact-registry-qwik-start-gsp1131, artifact-registry-qwik-start, gsp1131
 
 ---
