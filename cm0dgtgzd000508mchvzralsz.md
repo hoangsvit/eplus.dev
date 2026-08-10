@@ -5,8 +5,8 @@ seoDescription: "For this lab you read through a fictitious business scenario. B
 datePublished: 2024-08-28T06:18:39.289Z
 cuid: cm0dgtgzd000508mchvzralsz
 slug: finding-data-in-google-sheets-gsp1063
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747554442715/d66d50ca-235e-45e7-9d16-6d07b37b7bb7.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747554431237/2fdf0e91-44d3-4b3f-a84d-1372cf98698d.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/f39237ba-7abb-4248-8c7a-1a62973d5469.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/fcb9b674-6f00-4720-9a43-f3dd335f0231.png
 tags: finding-data-in-google-sheets-gsp1063, gsp1063, finding-data-in-google-sheets
 
 ---
