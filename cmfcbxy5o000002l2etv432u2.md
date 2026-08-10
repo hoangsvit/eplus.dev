@@ -5,8 +5,8 @@ seoDescription: "Learn to create a Google Chat bot using Google Apps Script, con
 datePublished: 2025-09-09T09:09:58.956Z
 cuid: cmfcbxy5o000002l2etv432u2
 slug: introduction-to-google-chat-bots-with-apps-script-gsp250
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757408921035/5920ba3f-5a54-40b8-8940-aaeec1e7563d.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757408950312/18de02de-2a25-47e8-90bc-b5a6a3fd33cc.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8ebcb0df-a84f-4296-94a4-64c940270fc9.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/0dbd21b3-c27e-4c45-8b4e-5dadb0ce9ce9.png
 tags: google-apps-script, gsp250, introduction-to-google-chat-bots-with-apps-script-gsp250, introduction-to-google-chat-bots-with-apps-script, google-chat-bots
 
 ---
