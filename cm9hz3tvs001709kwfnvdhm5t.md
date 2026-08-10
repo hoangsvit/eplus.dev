@@ -323,3 +323,9 @@ function onRemoveFromSpace(event) {
 **🧪 Testing Your Helper Bot**
 
 You can test your newly created bot directly in Google Chat [**here**](https://mail.google.com/chat/u/0/#chat/home).
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=ArG8vmau4BA]
