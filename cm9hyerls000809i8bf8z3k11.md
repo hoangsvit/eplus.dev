@@ -5,8 +5,8 @@ seoDescription: "In this lab, you are introduced to one of the easiest ways to w
 datePublished: 2025-04-15T03:39:32.032Z
 cuid: cm9hyerls000809i8bf8z3k11
 slug: google-apps-script-access-google-sheets-maps-and-gmail-in-4-lines-of-code-gsp235
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744687888916/46536094-5779-4171-97a3-e819f70679bc.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744688355619/dafa37a7-a661-4024-a7e1-b302dca6c7eb.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1a84ac93-01a4-4740-b0d4-0228d2cbf0da.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/2a1e7842-6864-4815-9b5c-861f75c59874.png
 tags: google-apps-script-access-google-sheets-maps-and-gmail-in-4-lines-of-code-gsp235, google-apps-script-access-google-sheets-maps-and-gmail-in-4-lines-of-code, gsp235
 
 ---
