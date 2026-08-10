@@ -5,8 +5,8 @@ seoDescription: "In this lab, you create a CI/CD pipeline that automatically bui
 datePublished: 2024-08-19T09:54:01.744Z
 cuid: cm00tjs0f000009l4gh9fdem7
 slug: google-kubernetes-engine-pipeline-using-cloud-build-gsp1077
-cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1b5c422b-568a-42d1-bc8a-b9ea778493d3.png
-ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/a6a07311-c453-4cd6-853b-33f799838125.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/0217b77d-d338-46d5-8ab2-68041976288a.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/08b43223-52bd-4020-ab3f-e0948f4de407.png
 tags: google-kubernetes-engine-pipeline-using-cloud-build-gsp1077, gsp1077, google-kubernetes-engine-pipeline-using-cloud-build
 
 ---
@@ -695,8 +695,6 @@ When the build is finished, reload the application in your browser. You should n
 ## Solution of Lab
 
 ### New solution
-
-%[https://www.youtube.com/watch?v=UplruPrsNcA] 
 
 ```plaintext
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1077/lab.sh
