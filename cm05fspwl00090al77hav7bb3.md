@@ -5,8 +5,8 @@ seoDescription: "For this lab you read through a fictitious business scenario. B
 datePublished: 2024-08-22T15:27:55.173Z
 cuid: cm05fspwl00090al77hav7bb3
 slug: validate-data-in-google-sheets-gsp1062
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747207383137/42552cfe-00c6-4106-a1b1-d5ff3eb4e623.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747207413346/edd5978b-2df2-4bc2-973d-dcc038291d76.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/803d67f2-d630-411c-948c-94edafa2384b.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/58730d75-4156-4768-b29d-9ea5a5bd4ead.png
 tags: validate-data-in-google-sheets-gsp1062, gsp1262, validate-data-in-google-sheets
 
 ---
@@ -372,7 +372,7 @@ Clean Data
 
 ### New solution
 
-<iframe type="youtube" src="https://www.youtube.com/watch?v=gmWSMWgYjX4" data-node-type="hn-embed"></iframe>
+%[https://www.youtube.com/watch?v=gmWSMWgYjX4] 
 
 Click the [On The Rise Bakery Customers and Items](https://storage.googleapis.com/cloud-training/GoogleSheets/On%20The%20Rise%20Bakery%20Customers%20and%20Items.xlsx) to download a spreadsheet
 
@@ -395,7 +395,7 @@ Click the [On The Rise Bakery Customers and Items](https://storage.googleapis.co
 
 ### Manual
 
-<iframe type="youtube" src="https://youtu.be/FY4TpzXxBsY" data-node-type="hn-embed"></iframe>
+%[https://youtu.be/FY4TpzXxBsY] 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724338189304/7958c0cb-fab0-40a0-bbfd-859397b458ad.png align="center")
 
