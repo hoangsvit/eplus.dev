@@ -303,7 +303,9 @@ GmailApp.sendEmail("friend@example.com", "Map", 'See below.', {attachments:[map]
 
 ## Solution of Lab
 
-<iframe type="youtube" src="https://www.youtube.com/watch?v=afvGRQGdDjg" data-node-type="hn-embed"></iframe>
+### Quick
+
+%[https://www.youtube.com/watch?v=afvGRQGdDjg] 
 
 *   **1\. 🚨On the blank spreadsheet, click into the first cell in the upper left-hand corner (A1). It should be in column A and row 1**:
     
@@ -331,3 +333,9 @@ function sendMap() {
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744688159534/8a8e522c-c9c9-4754-a2ab-3ffe1d9a1f9c.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744688265408/d1272571-a271-433e-a8ef-936fe7a30ce0.png align="center")
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=gAC8tOcxNJU]
