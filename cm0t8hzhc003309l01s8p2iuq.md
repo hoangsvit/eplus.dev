@@ -172,15 +172,16 @@ Click *Check my progress* to verify the objective.
 
 %[https://www.youtube.com/watch?v=a-DSc7cC2s8] 
 
-
 *   [https://docs.google.com/presentation](https://docs.google.com/presentation)
     
 *   [https://drive.google.com/drive/home](https://drive.google.com/drive/home)
+    
 
 Download file: [On the Rise Bakery Business Challenge.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP379/On%20the%20Rise%20Bakery%20Business%20Challenge.xlsx) & [Staff Roles.pptx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP379/Staff%20Roles.pptx)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726123948183/a8769e8c-5d92-45e4-9af6-885b1aa020da.png align="center")
-    
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c7356825-1661-4e82-aa0d-dfdc8356a372.png align="center")
 
 * * *
 
