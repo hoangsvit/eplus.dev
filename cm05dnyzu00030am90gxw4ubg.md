@@ -5,8 +5,8 @@ seoDescription: "For this lab you read through a fictitious business scenario. B
 datePublished: 2024-08-22T14:28:14.442Z
 cuid: cm05dnyzu00030am90gxw4ubg
 slug: use-charts-in-google-sheets-gsp1061
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747554085275/069edcf1-99a7-4799-b7b5-de462e36455c.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747554105259/6c57355a-1307-44ec-b9ed-81552d0f6461.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/df4ed04d-20aa-486b-a68e-954f73ee9844.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/d249fcec-116c-4e55-a76a-4378c8157f3a.png
 tags: 2024-use-charts-in-google-sheets-gsp1061, use-charts-in-google-sheets-gsp1061, gsp1061, use-charts-in-google-sheets
 
 ---
@@ -27,13 +27,13 @@ In this lab, you develop charts to help On the Rise Bakery visualize its locatio
 
 You learn how to perform the following tasks:
 
-* Visualize datasets using pie charts, column charts, line charts, combo charts, and scatter charts.
+*   Visualize datasets using pie charts, column charts, line charts, combo charts, and scatter charts.
     
-* Customize charts using the chart editor.
+*   Customize charts using the chart editor.
     
-* Create inline visualizations using sparklines and progress bars.
+*   Create inline visualizations using sparklines and progress bars.
     
-* Use charts and tables in other Google Workspace products and publish charts in Sheets.
+*   Use charts and tables in other Google Workspace products and publish charts in Sheets.
     
 
 ### Prerequisites
@@ -54,11 +54,11 @@ This Google Workspace hands-on lab lets you do the lab activities yourself in a 
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
-* Time. Note the time at the top of the left panel, which is an estimate of how long it should take to complete all steps. Plan your schedule so you have time to complete the lab. Once you start the lab, you will not be able to pause and return later (you begin at step 1 every time you start a lab).
+*   Time. Note the time at the top of the left panel, which is an estimate of how long it should take to complete all steps. Plan your schedule so you have time to complete the lab. Once you start the lab, you will not be able to pause and return later (you begin at step 1 every time you start a lab).
     
-* You do NOT need a Google Workspace account. An account is provided to you as part of this lab.
+*   You do NOT need a Google Workspace account. An account is provided to you as part of this lab.
     
 
 Open an Incognito window to run this lab.
@@ -75,16 +75,16 @@ To access the resources and console for this lab, locate the **User Email** and 
 
 ### Sign in to Google Drive
 
-1. Click **Open Google Drive**.
+1.  Click **Open Google Drive**.
     
 
 ***Tip:*** Open the tabs in separate windows, side-by-side.
 
-2. Notice the **Email or phone** field has been pre-filled with the User Email. Click **Next**.
+2.  Notice the **Email or phone** field has been pre-filled with the User Email. Click **Next**.
     
-3. Enter the **Password** and click **Next**.
+3.  Enter the **Password** and click **Next**.
     
-4. Accept all terms and conditions as prompted.
+4.  Accept all terms and conditions as prompted.
     
 
 Google Drive opens and you are signed in to the Student Google Account.
@@ -95,59 +95,59 @@ In this task, you create and customize a chart that displays On the Rise Bakery 
 
 ### Upload a spreadsheet
 
-1. In the left panel of the lab instructions, right-click **Open Google Drive**, and then click **Open link in incognito window** to sign into your lab student account.
+1.  In the left panel of the lab instructions, right-click **Open Google Drive**, and then click **Open link in incognito window** to sign into your lab student account.
     
-2. In the upper-right corner of Google Drive, click the Settings icon (), and then click **Settings** to open the settings page.
+2.  In the upper-right corner of Google Drive, click the Settings icon (), and then click **Settings** to open the settings page.
     
-3. Check the box to **Convert uploads to Google Docs editor format**.
+3.  Check the box to **Convert uploads to Google Docs editor format**.
     
-4. In the upper-left corner of the settings page, click the back arrow to return to the Google Drive homepage.
+4.  In the upper-left corner of the settings page, click the back arrow to return to the Google Drive homepage.
     
-5. Click [On the Rise Bakery Sales and Locations](https://storage.googleapis.com/cloud-training/GoogleSheets/On%20the%20Rise%20Bakery%20Sales%20and%20Locations.xlsx) to download a spreadsheet.
+5.  Click [On the Rise Bakery Sales and Locations](https://storage.googleapis.com/cloud-training/GoogleSheets/On%20the%20Rise%20Bakery%20Sales%20and%20Locations.xlsx) to download a spreadsheet.
     
-6. In the left pane, click **New &gt; File upload**.
+6.  In the left pane, click **New > File upload**.
     
-7. Select the file on your computer named **On the Rise Bakery Sales and Locations.xlsx**.
+7.  Select the file on your computer named **On the Rise Bakery Sales and Locations.xlsx**.
     
     When you see **Upload complete** in the lower-right, your file has uploaded successfully.
     
-8. Double-click on the newly uploaded file to open it, and then exit out of the Google Drive tab.
+8.  Double-click on the newly uploaded file to open it, and then exit out of the Google Drive tab.
     
 
 ### Create a pie chart
 
-1. To select all the items in column E of the **Locations** sheet, click the gray column label.
+1.  To select all the items in column E of the **Locations** sheet, click the gray column label.
     
-2. To create a chart, at the top, click **Insert &gt; Chart**.
+2.  To create a chart, at the top, click **Insert > Chart**.
     
     You should see a pie chart appear on the screen.
     
-3. (Optional) Click the chart and drag the blue markers to resize it.
+3.  (Optional) Click the chart and drag the blue markers to resize it.
     
 
 You can use pie charts to compare parts of a single data series to the whole. As a best practice, pie charts should include five or fewer categories. Don't use a pie chart to represent exact values because differences in angles and areas can be difficult to understand.
 
 ### Create and customize a column chart
 
-1. In the **Chart editor** pane, for **Chart type**, select **Column chart**.
+1.  In the **Chart editor** pane, for **Chart type**, select **Column chart**.
     
     Google Sheets automatically suggests chart types based on the characteristics of the data, but you are not limited to using only the suggested options.
     
-2. To change the appearance of the chart, click the **Customize** tab.
+2.  To change the appearance of the chart, click the **Customize** tab.
     
-3. Expand the **Chart & axis titles** section, and then change the chart title to **Locations by Continent**
+3.  Expand the **Chart & axis titles** section, and then change the chart title to **Locations by Continent**
     
-4. Expand the **Series** section, and then, next to **Format data point**, click **Add**.
+4.  Expand the **Series** section, and then, next to **Format data point**, click **Add**.
     
-5. In the **Select data point** dialog, for **Data point**, select **Continent: South America**, and then click **OK**.
+5.  In the **Select data point** dialog, for **Data point**, select **Continent: South America**, and then click **OK**.
     
-6. Change the color of this data point to purple.
+6.  Change the color of this data point to purple.
     
-7. In the **Chart editor** pane, scroll down, and then expand the **Gridlines and ticks** section.
+7.  In the **Chart editor** pane, scroll down, and then expand the **Gridlines and ticks** section.
     
-8. Select **Vertical axis** in the first dropdown, and then select the **Minor gridlines** checkbox.
+8.  Select **Vertical axis** in the first dropdown, and then select the **Minor gridlines** checkbox.
     
-9. Exit out of the **Chart editor**.
+9.  Exit out of the **Chart editor**.
     
 
 Use a column chart to show one or more categories, or groups, of data, especially if each category has subcategories.
@@ -166,13 +166,13 @@ In this task, you create a combo chart and a scatter chart for On the Rise Baker
 
 ### Change a line chart to a combo chart
 
-1. In the lower-left of your spreadsheet, click the sheet labeled **Sales - South America**.
+1.  In the lower-left of your spreadsheet, click the sheet labeled **Sales - South America**.
     
-2. Select cells A1:M3, and then at the top, click **Insert &gt; Chart**.
+2.  Select cells A1:M3, and then at the top, click **Insert > Chart**.
     
     A line chart should appear. Line charts are used to look at data over a time period.
     
-3. In the **Chart editor** pane, for **Chart type**, select **Combo chart**.
+3.  In the **Chart editor** pane, for **Chart type**, select **Combo chart**.
     
 
 ![combo chart](https://cdn.qwiklabs.com/TdvOxYqzS%2FDkHf%2B1TUGbB6Aqk5dACbfGP2EsnvRMG7Q%3D align="left")
@@ -181,13 +181,13 @@ Use a combo chart when you want to represent different data series using lines a
 
 ### Create a scatter chart
 
-1. Select cells A1:M3, and then at the top, click **Insert &gt; Chart**.
+1.  Select cells A1:M3, and then at the top, click **Insert > Chart**.
     
     A second copy of the chart should appear on top of the existing chart.
     
-2. Move the charts so they are both visible.
+2.  Move the charts so they are both visible.
     
-3. In the **Chart Editor** pane, for **Chart type**, select **Scatter chart**.
+3.  In the **Chart Editor** pane, for **Chart type**, select **Scatter chart**.
     
 
 Scatter charts show numeric coordinates along the horizontal (X) and vertical (Y) axes. Use a scatter chart when you want to find out how much one variable is affected by another.
@@ -214,11 +214,11 @@ In this task, you create sparklines and progress bars for On the Rise Bakery to 
 
 Sparklines are miniature charts contained within a single cell.
 
-1. Right-click the gray label for column B and select **Insert 1 column left**.
+1.  Right-click the gray label for column B and select **Insert 1 column left**.
     
     A new, empty column is added.
     
-2. To create a sparkline, in cell B2, type or paste **\=SPARKLINE(C2:N2)**
+2.  To create a sparkline, in cell B2, type or paste **\=SPARKLINE(C2:N2)**
     
 
 The only required argument for the sparkline function is data, which can be provided as a range of cells, as shown in this exercise. You can also provide data without specifying a range by using an array. For example, **\=SPARKLINE({500,100,200,400,300})**.
@@ -229,13 +229,13 @@ Learn more about [using arrays in Google Sheets](https://support.google.com/docs
 
 On the Rise Bakery wants to track progress toward the annual sales goal of $2,400,000 after the first quarter of the year (January-March). You can create a progress bar by using the sparkline function with optional settings.
 
-1. In cell B3, type or paste **\=SPARKLINE(SUM(C3:E3)/2400000,{"charttype", "bar"; "max", 1; "min", 0; "color1", "blue"})**
+1.  In cell B3, type or paste **\=SPARKLINE(SUM(C3:E3)/2400000,{"charttype", "bar"; "max", 1; "min", 0; "color1", "blue"})**
     
     The first argument uses first quarter sales divided by the annual sales goal. The width of the colored bar represents how much of the annual goal has been achieved.
     
     The sparkline function has an optional parameter that lets you specify many attributes, including: chart types, minimum and maximum values, and colors using an array.
     
-2. Change the formula in cell B3 to use **green** instead of **blue** for the progress bar.
+2.  Change the formula in cell B3 to use **green** instead of **blue** for the progress bar.
     
     Each option in the array is described using comma-delimited pairs. The first word is the name of the option, for example, **"charttype"**. The second attribute is the value that option is set to, for example, **"bar"**. Different options defined in the array are delimited by semicolons.
     
@@ -254,13 +254,13 @@ In this task, you publish a spreadsheet as a unique web page with its own URL an
 
 ### Publish a spreadsheet to the web
 
-1. At the top, click **File &gt; Share &gt; Publish to web**.
+1.  At the top, click **File > Share > Publish to web**.
     
-2. In the **Publish to the web** dialog, click the dropdown next to the **Entire document,** select a chart from the list, and then click **Publish**.
+2.  In the **Publish to the web** dialog, click the dropdown next to the **Entire document,** select a chart from the list, and then click **Publish**.
     
-3. Click **OK** if the **Are you sure you want to publish this selection?** alert appears.
+3.  Click **OK** if the **Are you sure you want to publish this selection?** alert appears.
     
-4. To view the published sheet, copy the link and paste it into your web browser.
+4.  To view the published sheet, copy the link and paste it into your web browser.
     
 
 The publishing option lets you to share a copy of your file as a distinct, lightweight web page. You can control whether or not your web page is automatically republished when changes are made. You can also limit access to a particular domain.
@@ -269,28 +269,28 @@ The publishing option lets you to share a copy of your file as a distinct, light
 
 ### Embed a chart in a Google Slides presentation
 
-1. Right-click [Google Slides](https://slides.google.com/), and then click **Open link in incognito window**.
+1.  Right-click [Google Slides](https://slides.google.com/), and then click **Open link in incognito window**.
     
 
 **Note:** Please ensure you are opening Google Slides in the lab student account. To change between Google Accounts, click your profile photo or email address in the top right of the page. Select the desired account and a new tab will open for this account.
 
-2. In the top left, under **Start a new presentation**, click **+** to open a blank presentation in a new browser tab.
+2.  In the top left, under **Start a new presentation**, click **+** to open a blank presentation in a new browser tab.
     
-3. Change the filename from **Untitled presentation** to **On the Rise Bakery**
+3.  Change the filename from **Untitled presentation** to **On the Rise Bakery**
     
-4. At the top, for **Layout**, select **Title Only**.
+4.  At the top, for **Layout**, select **Title Only**.
     
-5. In the slide, for the title, type **On the Rise Bakery**
+5.  In the slide, for the title, type **On the Rise Bakery**
     
-6. At the top, click **Insert &gt; Chart** &gt;
+6.  At the top, click **Insert > Chart** >
     
     ![sheets-icon.png](https://cdn.qwiklabs.com/Nmk%2Fpb6PgNsrnhky3szz8RZdz7NsswSid2d2fK9hZSY%3D align="left")
     
     **From Sheets**.
     
-7. In the **Insert chart** dialog, from the list of files, select **On the Rise Bakery Sales and Locations**, and then click **Insert**.
+7.  In the **Insert chart** dialog, from the list of files, select **On the Rise Bakery Sales and Locations**, and then click **Insert**.
     
-8. In the **Import chart** dialog, select the column chart, and then click **Import**.
+8.  In the **Import chart** dialog, select the column chart, and then click **Import**.
     
 
 When you insert a chart or table to Google Slides or Google Docs, you can link them to existing files.
@@ -301,7 +301,7 @@ Click *Check my progress* to verify the objective.
 
 Share a spreadsheet.
 
----
+* * *
 
 ## Solution of Lab
 
@@ -311,16 +311,16 @@ Share a spreadsheet.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756621357321/c59997e7-214f-4c71-a40a-d06b605e47da.png align="center")
 
----
+* * *
 
-**<mark>Download file:</mark>**
+**<mark class="bg-yellow-200 dark:bg-yellow-500/30">Download file:</mark>**
 
-* [On the Rise Bakery Sales and Locations.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1061/On%20the%20Rise%20Bakery%20Sales%20and%20Locations.xlsx)
+*   [On the Rise Bakery Sales and Locations.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1061/On%20the%20Rise%20Bakery%20Sales%20and%20Locations.xlsx)
     
-* [On the Rise Bakery.pptx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1061/On%20the%20Rise%20Bakery.pptx)
+*   [On the Rise Bakery.pptx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1061/On%20the%20Rise%20Bakery.pptx)
     
 
----
+* * *
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1724336771194/fd995d48-fff8-430a-8d69-a2c50cc57d76.png align="center")
 
