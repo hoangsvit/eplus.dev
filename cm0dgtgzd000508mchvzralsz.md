@@ -277,7 +277,7 @@ Use IFERROR and ISERROR.
 
 ### Quick
 
-<iframe type="youtube" src="https://www.youtube.com/watch?v=vxbkyqTjXiI" data-node-type="hn-embed"></iframe>
+%[https://www.youtube.com/watch?v=vxbkyqTjXiI] 
 
 <mark class="bg-yellow-200 dark:bg-yellow-500/30">Download file:</mark> [GSP1063xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP1063/techcpsgsp1063.xlsx)
 
