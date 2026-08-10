@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-09-08T07:10:05.281Z
 cuid: cm0t8hzhc003309l01s8p2iuq
 slug: use-functions-formulas-and-charts-in-google-sheets-challenge-lab-gsp379
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756623748183/2a72772e-34f5-4ff6-96a6-b33bd162a0be.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756623755999/7511136a-5198-4bd2-a74b-bf3bb251d5ad.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8fdf8086-b23d-4598-8168-563ed5e299f1.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/6ed93028-339e-4a97-ac31-5e34745109fb.png
 tags: google-sheets, use-functions-formulas-and-charts-in-google-sheets-challenge-lab-gsp379, gsp379, use-functions-formulas-and-charts-in-google-sheets-challenge-lab
 
 ---
@@ -23,15 +23,15 @@ This lab is recommended for students enrolled in the *Use Functions, Formulas, a
 
 ### Topics tested
 
-* Use functions and data validation rules to validate data.
+*   Use functions and data validation rules to validate data.
     
-* Sort and search a spreadsheet.
+*   Sort and search a spreadsheet.
     
-* Create a chart and embed it in a Slides presentation.
+*   Create a chart and embed it in a Slides presentation.
     
-* Calculate descriptive statistics.
+*   Calculate descriptive statistics.
     
-* Create a pivot table.
+*   Create a pivot table.
     
 
 ## **Setup**
@@ -46,11 +46,11 @@ This Google Workspace hands-on lab lets you do the lab activities yourself in a 
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
-* Time. Note the time at the top of the left panel, which is an estimate of how long it should take to complete all steps. Plan your schedule so you have time to complete the lab. Once you start the lab, you will not be able to pause and return later (you begin at step 1 every time you start a lab).
+*   Time. Note the time at the top of the left panel, which is an estimate of how long it should take to complete all steps. Plan your schedule so you have time to complete the lab. Once you start the lab, you will not be able to pause and return later (you begin at step 1 every time you start a lab).
     
-* You do NOT need a Google Workspace account. An account is provided to you as part of this lab.
+*   You do NOT need a Google Workspace account. An account is provided to you as part of this lab.
     
 
 Open an Incognito window to run this lab.
@@ -67,16 +67,16 @@ To access the resources and console for this lab, locate the **User Email** and 
 
 ### Sign in to Google Drive
 
-1. Click **Open Google Drive**.
+1.  Click **Open Google Drive**.
     
 
 ***Tip:*** Open the tabs in separate windows, side-by-side.
 
-2. Notice the **Email or phone** field has been pre-filled with the User Email. Click **Next**.
+2.  Notice the **Email or phone** field has been pre-filled with the User Email. Click **Next**.
     
-3. Enter the **Password** and click **Next**.
+3.  Enter the **Password** and click **Next**.
     
-4. Accept all terms and conditions as prompted.
+4.  Accept all terms and conditions as prompted.
     
 
 Google Drive opens and you are signed in to the Student Google Account.
@@ -103,9 +103,9 @@ You also must verify that column E contains a valid email address for each new e
 
 Perform the following two methods of validating email addresses:
 
-* Identify the appropriate function to validate email addresses, and then use that function in column E.
+*   Identify the appropriate function to validate email addresses, and then use that function in column E.
     
-* Create a data validation rule that validates email addresses.
+*   Create a data validation rule that validates email addresses.
     
 
 Click *Check my progress* to verify the objective.
@@ -164,12 +164,20 @@ After reviewing the summary table, On the Rise Bakery wants more insight into th
 
 Click *Check my progress* to verify the objective.
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://youtu.be/RUPd14WHaXw] 
+### Quick
+
+%[https://www.youtube.com/watch?v=a-DSc7cC2s8] 
 
 Download file: [On the Rise Bakery Business Challenge.xlsx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP379/On%20the%20Rise%20Bakery%20Business%20Challenge.xlsx) & [Staff Roles.pptx](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP379/Staff%20Roles.pptx)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726123948183/a8769e8c-5d92-45e4-9af6-885b1aa020da.png align="center")
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=te7dujSL_kI]
