@@ -301,3 +301,5 @@ Friendly Bot
 * * *
 
 ### Manual
+
+%[https://www.youtube.com/watch?v=-CNm0DXri8g]
