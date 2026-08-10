@@ -29,12 +29,12 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
@@ -53,18 +53,18 @@ You are expected to have the skills and knowledge to complete the tasks that fol
 
 In this lab, you are asked to create two applications that run in Google chat:
 
-1. No-code chat app using AppSheet
+1.  No-code chat app using AppSheet
     
-2. App Scripts app with event handlers
+2.  App Scripts app with event handlers
     
 
 You need to:
 
-* Create the apps based on templates.
+*   Create the apps based on templates.
     
-* Customize the apps (such as adding some automation).
+*   Customize the apps (such as adding some automation).
     
-* Publish the bots.
+*   Publish the bots.
     
 
 ## Task 1. Create and customize an AppSheet app
@@ -73,9 +73,9 @@ For this task, copy and customize an existing *ATM Maintenance* app, which techn
 
 ### Create the app
 
-1. Open the [ATM Maintenance app](https://www.appsheet.com/template/AppDef?appName=ATMMaintenance-925818016) in AppSheet.
+1.  Open the [ATM Maintenance app](https://www.appsheet.com/template/AppDef?appName=ATMMaintenance-925818016) in AppSheet.
     
-2. Set the following values, leaving all others at their defaults:
+2.  Set the following values, leaving all others at their defaults:
     
     | **Property** | **Value (type value or select option as specified)** |
     | --- | --- |
@@ -84,7 +84,7 @@ For this task, copy and customize an existing *ATM Maintenance* app, which techn
 
 ### Customize the first message
 
-* Set the following values, leaving all others at their defaults:
+*   Set the following values, leaving all others at their defaults:
     
     | **Property** | **Value (type value or select option as specified)** |
     | --- | --- |
@@ -93,7 +93,7 @@ For this task, copy and customize an existing *ATM Maintenance* app, which techn
 
 ### Create a slash command
 
-* Set the following values, leaving all others at their defaults:
+*   Set the following values, leaving all others at their defaults:
     
     | **Property** | **Value (type value or select option as specified)** |
     | --- | --- |
@@ -114,7 +114,7 @@ Create and customize an AppSheet app
 
 For this task, create and test an automation added to the ATM Maintenance app.
 
-1. In the **Settings** panel, provide the following information:
+1.  In the **Settings** panel, provide the following information:
     
 
 | **Event name** | **New ticket** |
@@ -122,11 +122,11 @@ For this task, create and test an automation added to the ATM Maintenance app.
 | **Event type** | Adds only |
 | **Table** | Tickets |
 
-2. During the custom steps, in the **Message Text** box, type the message: *You have created a new ticket*.
+2.  During the custom steps, in the **Message Text** box, type the message: *You have created a new ticket*.
     
-3. At the top right of the page, click **Save** to update your app.
+3.  At the top right of the page, click **Save** to update your app.
     
-4. To test your automation, in the **First Name** box, type `Freeda` and provide information of your choosing for **ATM ID** and **Symptom**, respectively.
+4.  To test your automation, in the **First Name** box, type `Freeda` and provide information of your choosing for **ATM ID** and **Symptom**, respectively.
     
 
 **Click here for hint!**
@@ -139,16 +139,16 @@ Add an automation to an AppSheet app
 
 ## Task 3. Create and publish an Apps Script chat bot
 
-1. Create a new [Apps Script Chat App](https://script.google.com/corp/home/start) project with the following details:
+1.  Create a new [Apps Script Chat App](https://script.google.com/corp/home/start) project with the following details:
     
 
 | **Property** | **Value** |
 | --- | --- |
 | **Project name** | Helper Bot |
 
-2. Update the `MESSAGE` event handler to prompt logging of the event.
+2.  Update the `MESSAGE` event handler to prompt logging of the event.
     
-3. Use the following values to configure the Google Cloud project and update the script to use it.
+3.  Use the following values to configure the Google Cloud project and update the script to use it.
     
 
 | **Field** | **Value** |
@@ -157,7 +157,7 @@ Add an automation to an AppSheet app
 | **User support email** | Select the email ID `student-04-a7859869e90a@qwiklabs.net` from the drop-down. This is also your **User Email** in the left panel of the lab instructions. |
 | **Developer contact information** | `student-04-a7859869e90a@qwiklabs.net` |
 
-4. Use the following values to publish the bot.
+4.  Use the following values to publish the bot.
     
 
 | **Field** | **Value** |
@@ -182,21 +182,23 @@ Create and publish an Apps Script chat bot
 
 **Check my progress**
 
----
+* * *
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/0VQFSGyKC2U] 
 
-### **📝 Task 1: Create and customize an AppSheet app**
+**📝 Task 1: Create and customize an AppSheet app**
 
-1. **Log in** to [**AppSheet**](https://www.appsheet.com/Account/Login?utm_source=qwiklabs).
+1.  **Log in** to [**AppSheet**](https://www.appsheet.com/Account/Login?utm_source=qwiklabs).
     
-2. Access the [**ATM Maintenance App**](https://www.appsheet.com/template/AppDef?appName=ATMMaintenance-925818016) in **Incognito Mode**.
+2.  Access the [**ATM Maintenance App**](https://www.appsheet.com/template/AppDef?appName=ATMMaintenance-925818016) in **Incognito Mode**.
     
-3. Use the left menu to select **Copy app**.
+3.  Use the left menu to select **Copy app**.
     
-4. In the **Copy app** form, set the **App name** as:
+4.  In the **Copy app** form, set the **App name** as:
     
     ```plaintext
     ATM Maintenance Tracker
@@ -204,28 +206,28 @@ Create and publish an Apps Script chat bot
     
     *Leave other settings as they are.*
     
-5. Click the **Copy app** to proceed.
+5.  Click the **Copy app** to proceed.
     
 
----
+* * *
 
-### **⚙️ Task 2: Add an automation to an AppSheet app**
+**⚙️ Task 2: Add an automation to an AppSheet app**
 
-1. Open **My Drive** from [**this link**](https://drive.google.com/drive/my-drive).
+1.  Open **My Drive** from [**this link**](https://drive.google.com/drive/my-drive).
     
-2. Download the required file [**here 📥**](https://github.com/ePlus-DEV/storage/blob/main/labs/ARC126/ARC126.xlsx).
-    
-
----
-
-### **🤖 Task 3: Creating and Publishing a Google Chat Bot with Apps Script**
-
-1. Start a new **Apps Script Chat App** project from [**this link**](https://script.google.com/home/projects/create?template=hangoutsChat).
+2.  Download the required file [**here 📥**](https://github.com/ePlus-DEV/storage/blob/main/labs/ARC126/ARC126.xlsx).
     
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p>Project name</p></td><td colspan="1" rowspan="1"><p>Helper Bot</p></td></tr></tbody></table>
+* * *
 
-2. Replace the content in `Code.gs` with the following script:
+**🤖 Task 3: Creating and Publishing a Google Chat Bot with Apps Script**
+
+1.  Start a new **Apps Script Chat App** project from [**this link**](https://script.google.com/home/projects/create?template=hangoutsChat).
+    
+
+<table style="min-width: 50px;"><colgroup><col style="min-width: 25px;"><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p>Project name</p></td><td colspan="1" rowspan="1"><p>Helper Bot</p></td></tr></tbody></table>
+
+2.  Replace the content in `Code.gs` with the following script:
     
 
 ```javascript
@@ -280,13 +282,13 @@ function onRemoveFromSpace(event) {
 }
 ```
 
----
+* * *
 
-### **🔧 Configuring OAuth Consent Screen**
+**🔧 Configuring OAuth Consent Screen**
 
-1. Navigate to the **OAuth consent screen** using [**this link**](https://console.cloud.google.com/apis/credentials/consent).
+1.  Navigate to the **OAuth consent screen** using [**this link**](https://console.cloud.google.com/apis/credentials/consent).
     
-2. Configure the settings as follows:
+2.  Configure the settings as follows:
     
 
 | App name | Helper Bot |
@@ -298,13 +300,13 @@ function onRemoveFromSpace(event) {
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758906367338/97f9d507-b137-4c75-992a-37a7e7c5b776.png align="center")
 
----
+* * *
 
-### **🛠️ Setting Up Google Chat API**
+**🛠️ Setting Up Google Chat API**
 
-1. Visit the **Google Chat API Configuration** page [**here**](https://console.cloud.google.com/apis/api/chat.googleapis.com/hangouts-chat).
+1.  Visit the **Google Chat API Configuration** page [**here**](https://console.cloud.google.com/apis/api/chat.googleapis.com/hangouts-chat).
     
-2. Apply the following configuration:
+2.  Apply the following configuration:
     
 
 | App name | Helper Bot |
@@ -316,8 +318,8 @@ function onRemoveFromSpace(event) {
 | Visibility | ✅ Specific people and groups: \*Your email address\* |
 | App Status | 🟢 LIVE – Available to users |
 
----
+* * *
 
-### **🧪 Testing Your Helper Bot**
+**🧪 Testing Your Helper Bot**
 
 You can test your newly created bot directly in Google Chat [**here**](https://mail.google.com/chat/u/0/#chat/home).
