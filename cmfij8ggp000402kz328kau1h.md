@@ -747,4 +747,6 @@ source lab.sh
 
 ### Manual
 
+%[https://www.youtube.com/watch?v=X2jACBCWEg0] 
+
 %[https://youtu.be/PC64-5wuzIg]
