@@ -510,8 +510,6 @@ Display insights for View B
 
 ### Quick
 
-### **uick**
-
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/76563e0f-2bd5-4fc9-96ff-e811177f91cc.png align="center")
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/334a4c9f-533c-42af-87a9-e7c1b250ee5c.png align="center")
@@ -537,7 +535,65 @@ Log in as **Customer B**: perform the same steps as logging in as **Customer A**
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/7ad71890-f1c4-413f-bacb-c4113f00e117.png align="center")
 
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9cf29542-d24f-4cb9-86e4-0a3861b57fca.png align="center")
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/bd2a1a46-7fbb-4de1-b087-82ef6cef9053.png align="center")
+
+**TASK 4 - CUSTOMER A**
+
+1.  Open: https://lookerstudio.google.com/
+    
+2.  Login with **Customer A**: `student-04-66c26cc29d40@qwiklabs.net`
+    
+3.  Create a Blank Report.
+    
+4.  Add BigQuery data: Project : `qwiklabs-gcp-01-d5430d195207`  
+    Dataset : `customer_a_dataset`  
+    Table : `customer_a_table`
+    
+5.  Rename report:
+    
+    ```plaintext
+    Customer A Visualization
+    ```
+    
+6.  Insert a Pie chart:  
+    Dimension : **city**  
+    Metric : **Record Count**
+    
+7.  Share → Get report link → Copy Link.
+    
+8.  Login with Customer B and open the copied link. Customer B should NOT be able to access the report.
+    
+9.  Click Check my progress for Task 4.
+    
+
+**TASK 5 - CUSTOMER B**
+
+1.  Open: https://lookerstudio.google.com/
+    
+2.  Login with **Customer B**: `student-04-aa86aa15b6ef@qwiklabs.net`
+    
+3.  Create a Blank Report.
+    
+4.  Add BigQuery data: Project : \`qwiklabs-gcp-02-599d29d14457\`  
+    Dataset : **customer\_b\_dataset**  
+    Table : **customer\_b\_table**
+    
+5.  Rename report:
+    
+    ```plaintext
+    Customer B Visualization
+    ```
+    
+6.  Insert a Pie chart:  
+    Dimension : **city**  
+    Metric : **Record Count**
+    
+7.  Share → Get report link → Copy Link.
+    
+8.  Login with Customer A and open the copied link. Customer A should NOT be able to access the report.
+    
+9.  Click Check my progress for Task 5.
+    
 
 * * *
 
