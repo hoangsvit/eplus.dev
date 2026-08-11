@@ -5,8 +5,8 @@ seoDescription: "A common scenario is where a Google Cloud Data Sharing Partner 
 datePublished: 2025-04-13T07:13:02.476Z
 cuid: cm9fb5mvg001309jl659jekah
 slug: data-publishing-on-bigquery-using-authorized-views-for-data-sharing-partners-gsp1041
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744527501032/3659b224-f082-4986-9d40-7dd6b986c18c.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744528365437/9d6347ce-9af9-4c5c-ae4c-187baf9332aa.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/d4b8850b-5bc7-4127-af69-729632df8ed1.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/a9d1a9a6-3ca3-44c8-8788-b4e2aca4aaff.png
 tags: data-publishing-on-bigquery-using-authorized-views-for-data-sharing-partners-gsp1041, data-publishing-on-bigquery-using-authorized-views-for-data-sharing-partners, gsp1041
 
 ---
@@ -23,11 +23,11 @@ Through integration with Google Cloud IAM, you can set permissions on BigQuery o
 
 In this lab, you will:
 
-* Copy datasets from an Data Sharing Partner project to a customer’s BigQuery project
+*   Copy datasets from an Data Sharing Partner project to a customer’s BigQuery project
     
-* Restrict datasets from the Data Sharing Partner project for consumption by a specific customer
+*   Restrict datasets from the Data Sharing Partner project for consumption by a specific customer
     
-* Coalesce the dataset provided by the Data Sharing Partner with a customer’s own dataset to enhance business intelligence
+*   Coalesce the dataset provided by the Data Sharing Partner with a customer’s own dataset to enhance business intelligence
     
 
 ## Setup and Requirements
@@ -40,29 +40,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -70,7 +70,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     "Username"
@@ -78,9 +78,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     "Password"
@@ -88,19 +88,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -115,11 +115,11 @@ In the first project, you will take on the role of a Data Sharing Partner creati
 
 ### Create Authorized View A
 
-1. From the lab pane. open the **Data Sharing Partner Project Console** and log in with the associated credentials.
+1.  From the lab pane. open the **Data Sharing Partner Project Console** and log in with the associated credentials.
     
-2. From the **Navigation Menu**, go to **BigQuery** &gt; **BigQuery Studio**.
+2.  From the **Navigation Menu**, go to **BigQuery** > **BigQuery Studio**.
     
-3. Run the following query to create an authorized view for Customer A, based on a public geographical dataset.
+3.  Run the following query to create an authorized view for Customer A, based on a public geographical dataset.
     
 
 ```sql
@@ -128,20 +128,20 @@ WHERE state_code="TX"
 LIMIT 4000
 ```
 
-4. From the toolbar, click **Save** &gt; **Save View**.
+4.  From the toolbar, click **Save** > **Save View**.
     
-5. Keep the project as default and for the **Dataset** select `demo_dataset`.
+5.  Keep the project as default and for the **Dataset** select `demo_dataset`.
     
-6. For **Table** type `authorized_view_a`.
+6.  For **Table** type `authorized_view_a`.
     
-7. Click **Save**.
+7.  Click **Save**.
     
 
 ### Create Authorized View B
 
-1. In the query editor, remove the previous query you just ran.
+1.  In the query editor, remove the previous query you just ran.
     
-2. Run the following query to create an authorized view for Customer B, based on a public geographical dataset.
+2.  Run the following query to create an authorized view for Customer B, based on a public geographical dataset.
     
 
 ```sql
@@ -150,13 +150,13 @@ WHERE state_code="CA"
 LIMIT 4000
 ```
 
-3. From the toolbar, click **Save** &gt; **Save View as**.
+3.  From the toolbar, click **Save** > **Save View as**.
     
-4. Keep the project as default and for the **Dataset** select `demo_dataset`.
+4.  Keep the project as default and for the **Dataset** select `demo_dataset`.
     
-5. For **Table** type `authorized_view_b`.
+5.  For **Table** type `authorized_view_b`.
     
-6. Click **Save**.
+6.  Click **Save**.
     
 
 Your authorized views should resemble the following:
@@ -171,23 +171,23 @@ Create Authorized Views
 
 ## Task 2. Assign IAM permissions to both the views
 
-1. From the BigQuery Explorer pane, open the **demo\_dataset** and click **\+ Sharing** &gt; **Authorize Views**.
+1.  From the BigQuery Explorer pane, open the **demo\_dataset** and click **\+ Sharing** > **Authorize Views**.
     
 
 ![authorize views](https://cdn.qwiklabs.com/kjrsH87nmJnPznCs%2F6rluH%2BYVonULwHnNaA63WRxUx4%3D align="left")
 
-2. Add **Authorized View A** that needs to be authorized to share: `qwiklabs-gcp-00-168f170025ef.demo_dataset.authorized_view_a`.
+2.  Add **Authorized View A** that needs to be authorized to share: `qwiklabs-gcp-00-168f170025ef.demo_dataset.authorized_view_a`.
     
-3. Click **Add Authorization**.
+3.  Click **Add Authorization**.
     
-4. Add **Authorized View B** that needs to be authorized to share: `qwiklabs-gcp-00-168f170025ef.demo_dataset.authorized_view_b`.
+4.  Add **Authorized View B** that needs to be authorized to share: `qwiklabs-gcp-00-168f170025ef.demo_dataset.authorized_view_b`.
     
-5. Click **Add Authorization**. Your authorized views should resemble the following:
+5.  Click **Add Authorization**. Your authorized views should resemble the following:
     
 
 ![authorized views](https://cdn.qwiklabs.com/hOK48qWlIt%2B1aIydmgeftC9f7Hpwmr9LQNby1pzc7M4%3D align="left")
 
-6. Click **Close**.
+6.  Click **Close**.
     
 
 Click *Check my progress* to verify the objective.
@@ -202,38 +202,38 @@ In this section, you will assign permissions for each customer user and their as
 
 ### Assign IAM permissions for Customer A
 
-1. Under your project, inside of **demo\_dataset**, open the `authorized_view_a` view.
+1.  Under your project, inside of **demo\_dataset**, open the `authorized_view_a` view.
     
-2. Click **Share**.
+2.  Click **Share**.
     
-3. Click on **Add Principal** and add the *Customer A* user:
+3.  Click on **Add Principal** and add the *Customer A* user:
     
-    * [`student-04-3452e1e79a76@qwiklabs.net`](mailto:student-04-3452e1e79a76@qwiklabs.net)
+    *   [`student-04-3452e1e79a76@qwiklabs.net`](mailto:student-04-3452e1e79a76@qwiklabs.net)
         
-4. Select the **BigQuery Data Viewer** role.
+4.  Select the **BigQuery Data Viewer** role.
     
 
 ![add bigquery data viewer principal](https://cdn.qwiklabs.com/tKPr2wADt5o6%2B79IRDAXNWF%2FCYz4wZf9OUayEakzDn0%3D align="left")
 
-6. Click **Save**.
+6.  Click **Save**.
     
 
 ### Assign IAM permissions for Customer B
 
-1. Under your project, inside of **demo\_dataset**, open the `authorized_view_b` view.
+1.  Under your project, inside of **demo\_dataset**, open the `authorized_view_b` view.
     
-2. Click **Share**.
+2.  Click **Share**.
     
-3. Click on **Add Principal** and add the *Customer B* user:
+3.  Click on **Add Principal** and add the *Customer B* user:
     
-    * [`student-04-78661b103b1a@qwiklabs.net`](mailto:student-04-78661b103b1a@qwiklabs.net)
+    *   [`student-04-78661b103b1a@qwiklabs.net`](mailto:student-04-78661b103b1a@qwiklabs.net)
         
-4. Select the **BigQuery Data Viewer** role.
+4.  Select the **BigQuery Data Viewer** role.
     
 
 ![add bigquery data viewer principal](https://cdn.qwiklabs.com/Mz6%2Bf%2B9x6s4OleLd6fqVRIjPY1CRcc2LhGUy%2BHIJxk8%3D align="left")
 
-6. Click **Save**.
+6.  Click **Save**.
     
 
 Click *Check my progress* to verify the objective.
@@ -248,11 +248,11 @@ In this section, you will verify that the authorized views were shared for each 
 
 ### Verify authorized view sharing for Customer A
 
-1. Close the **Data Sharing Partner Project Console** and from the lab pane open the **Customer Project A Console**. Log in with the associated credentials.
+1.  Close the **Data Sharing Partner Project Console** and from the lab pane open the **Customer Project A Console**. Log in with the associated credentials.
     
-2. From the **Navigation Menu**, go to **BigQuery** &gt; **BigQuery Studio**.
+2.  From the **Navigation Menu**, go to **BigQuery** > **BigQuery Studio**.
     
-3. Run the following query, which selects all columns from the **demo\_dataset.authorized\_view\_a** view from the **Data Sharing Partner project**:
+3.  Run the following query, which selects all columns from the **demo\_dataset.authorized\_view\_a** view from the **Data Sharing Partner project**:
     
 
 ```sql
@@ -261,18 +261,18 @@ SELECT * FROM `qwiklabs-gcp-00-168f170025ef.demo_dataset.authorized_view_a`
 
 You should now see the results populated.
 
-4. On the query toolbar, select **Save** &gt; **Save View**.
+4.  On the query toolbar, select **Save** > **Save View**.
     
-5. Click in the **Dataset** field and select `customer_a_dataset`.
+5.  Click in the **Dataset** field and select `customer_a_dataset`.
     
-6. In the **Table** field, type `customer_a_table`.
+6.  In the **Table** field, type `customer_a_table`.
     
-7. Click **Save**. You should now be able to see the dataset and table, as well as query it.
+7.  Click **Save**. You should now be able to see the dataset and table, as well as query it.
     
 
 Now you will join the data from *Customer A's* authorized view to the customer specific dataset to generate new insights.
 
-8. Run the following query to find all customers in a State. Since the authorized view available to Customer A is filtered on the state of Texas, the query should return only customers in that state.
+8.  Run the following query to find all customers in a State. Since the authorized view available to Customer A is filtered on the state of Texas, the query should return only customers in that state.
     
 
 ```sql
@@ -286,7 +286,7 @@ Your results should resemble the following:
 
 ![customer a query](https://cdn.qwiklabs.com/JtF1qCl5SoUbdP%2BKvPlPOMciGn2QxTJdhPEDSLz5%2B6Y%3D align="left")
 
-9. Run the following query to confirm only *Customer A's* specific data is visible.
+9.  Run the following query to confirm only *Customer A's* specific data is visible.
     
 
 ```sql
@@ -301,11 +301,11 @@ Access Denied: Table qwiklabs-gcp-04-b39db6c444b1:demo_dataset.authorized_view_b
 
 ### Verify authorized view sharing for Customer B
 
-1. Close the **Customer Project A Console** and from the lab pane open the **Customer Project B Console**. Log in with the associated credentials.
+1.  Close the **Customer Project A Console** and from the lab pane open the **Customer Project B Console**. Log in with the associated credentials.
     
-2. From the **Navigation Menu**, go to **BigQuery** &gt; **BigQuery Studio**.
+2.  From the **Navigation Menu**, go to **BigQuery** > **BigQuery Studio**.
     
-3. Run the following query, which selects all columns from the **demo\_dataset.authorized\_view\_b** view from the **Data Sharing Partner project**:
+3.  Run the following query, which selects all columns from the **demo\_dataset.authorized\_view\_b** view from the **Data Sharing Partner project**:
     
 
 ```sql
@@ -314,18 +314,18 @@ SELECT * FROM `qwiklabs-gcp-00-168f170025ef.demo_dataset.authorized_view_b`
 
 You should now see the results populated.
 
-4. On the query toolbar, select **Save** &gt; **Save View**.
+4.  On the query toolbar, select **Save** > **Save View**.
     
-5. Click in the **Dataset** field and select `customer_b_dataset`.
+5.  Click in the **Dataset** field and select `customer_b_dataset`.
     
-6. In the **Table** field, type `customer_b_table`.
+6.  In the **Table** field, type `customer_b_table`.
     
-7. Click **Save**. You should now be able to see the dataset and table, as well as query it.
+7.  Click **Save**. You should now be able to see the dataset and table, as well as query it.
     
 
 Now you will join the data from *Customer B's* authorized view to the customer specific dataset to generate new insights.
 
-8. Run the following query to find all customers in a State. Since the authorized view available to Customer A is filtered on the state of California, the query should return only customers in that state.
+8.  Run the following query to find all customers in a State. Since the authorized view available to Customer A is filtered on the state of California, the query should return only customers in that state.
     
 
 ```sql
@@ -339,7 +339,7 @@ Your results should resemble the following:
 
 ![customer b query](https://cdn.qwiklabs.com/%2B32wUQbXxOu5NzEF21vjSZPSt8%2BhYpkONoCu8iLS5rg%3D align="left")
 
-9. Run the following query to confirm only *Customer B's* specific data is visible.
+9.  Run the following query to confirm only *Customer B's* specific data is visible.
     
 
 ```sql
@@ -358,8 +358,16 @@ Verify shared authorized views in customer projects
 
 **Check my progress**
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://youtu.be/frfPVLKTg5c]
+### Quick
+
+%[https://www.youtube.com/watch?v=40cfZfOTAro] 
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=6Mzv3P2bquY]
