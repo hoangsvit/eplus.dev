@@ -228,11 +228,13 @@ The visualization should resemble the following:
 
 ## Solution of Lab
 
-%[https://youtu.be/JdnZeytIw74] 
+### Manual
 
-### 🥇 Task 1: Create the Partner Authorized View
+%[https://www.youtube.com/watch?v=It_atH4LTMU] 
 
-🔑 **Work in the Data Sharing Partner Project Console**
+**🥇 Task 1: Create the Partner Authorized View**
+
+**🔑 Work in the Data Sharing Partner Project Console**
 
 1.  Open **BigQuery Console** → make sure you are in the **Data Sharing Partner project**.
     
@@ -265,7 +267,7 @@ FROM
 
 * * *
 
-### 🥈 Task 2: Update the Customer Data Table
+**🥈 Task 2: Update the Customer Data Table**
 
 🔑 **Work in the Customer Project Console**
 
@@ -290,7 +292,7 @@ WHERE
 
 * * *
 
-### 🥉 Task 3: Create the Customer Authorized View
+**🥉 Task 3: Create the Customer Authorized View**
 
 🔑 **Still in the Customer Project Console**
 
@@ -328,7 +330,7 @@ HAVING
 
 * * *
 
-### 🏆 Task 4: Create a Visualization with Looker Studio
+**🏆 Task 4: Create a Visualization with Looker Studio**
 
 🔑 **Switch back to the Data Sharing Partner Project**
 
