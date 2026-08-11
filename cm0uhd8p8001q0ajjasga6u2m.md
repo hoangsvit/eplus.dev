@@ -804,6 +804,8 @@ Click **Check my progress** to verify the objective.
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/ZR0c3wmDayk] 
 
 ```apache
@@ -818,3 +820,9 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Continuous%2
 sudo chmod +x quicklabgsp1079.sh
 ./quicklabgsp1079.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=ak3HQH8ltik]
