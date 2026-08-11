@@ -828,14 +828,19 @@ sudo chmod +x quicklabgsp1079.sh
 %[https://www.youtube.com/watch?v=G4L3Jsr9qAM] 
 
 ```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1079/other.sh
+source other.sh
+```
+
+**Script Alternative**
+
+```plaintext
 curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Continuous%20Delivery%20with%20Google%20Cloud%20Deploy/gsp1079.sh
 
 sudo chmod +x gsp1079.sh
 
 ./gsp1079.sh
 ```
-
-* * *
 
 ### Manual
 
