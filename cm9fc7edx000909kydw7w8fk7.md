@@ -508,6 +508,10 @@ Display insights for View B
 
 ## Solution of Lab
 
+### Quick
+
+* * *
+
 ### New Solution
 
 %[https://youtu.be/m3BY-ifc_Vs] 
@@ -594,9 +598,13 @@ ON geos.zip_code = cust.postal_code;' customer_b_dataset.customer_b_table
 
 * * *
 
-### Old Solution
+### Manual
 
-%[https://youtu.be/uShq4W2L4E8] 
+%[https://www.youtube.com/watch?v=-06uEHtuAa0] 
+
+* * *
+
+### Old Solution
 
 ### **1\. ☁️ Initialize Views in Cloud Shell**
 
