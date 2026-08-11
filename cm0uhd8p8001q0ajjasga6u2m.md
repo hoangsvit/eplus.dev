@@ -823,6 +823,20 @@ sudo chmod +x quicklabgsp1079.sh
 
 * * *
 
+### Other Solution
+
+%[https://www.youtube.com/watch?v=G4L3Jsr9qAM] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/imharshtiwari/2-Minutes-GCP-Lab-Solutions/main/Continuous%20Delivery%20with%20Google%20Cloud%20Deploy/gsp1079.sh
+
+sudo chmod +x gsp1079.sh
+
+./gsp1079.sh
+```
+
+* * *
+
 ### Manual
 
 %[https://www.youtube.com/watch?v=ak3HQH8ltik]
