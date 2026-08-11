@@ -158,6 +158,10 @@ Value: `payment_type`
 
 **Task 5**
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/48429586-c664-44d0-94cf-ca4f6838949b.png align="center")
+
+**Calculated column name:** `eplus`
+
 ```apache
 =IF(fare_amount>0,tip_amount/fare_amount*100,0)
 ```
