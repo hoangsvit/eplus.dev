@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-03-28T15:55:12.818Z
 cuid: clubf1liq000708js89izdbbg
 slug: manage-kubernetes-in-google-cloud-challenge-lab
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757777170267/0c62b3d4-1071-4290-95b3-c236bdd8ea78.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757777217170/2c9b9e73-7cc4-43a2-8705-83fb0a971b31.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/3fac3aea-7c58-42a3-9072-de801742e523.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/d63cae5b-fe10-49fc-8c21-1cc2ca8d6c44.png
 tags: google-cloud-platform, manage-kubernetes-in-google-cloud-challenge-lab, manage-kubernetes-in-google-cloud, gsp510, manage-kubernetes
 
 ---
