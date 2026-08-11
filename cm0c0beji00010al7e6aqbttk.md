@@ -5,8 +5,8 @@ seoDescription: "In this lab, you will explore using the Managed Service for Pro
 datePublished: 2024-08-27T05:48:56.286Z
 cuid: cm0c0beji00010al7e6aqbttk
 slug: collect-metrics-from-exporters-using-the-managed-service-for-prometheus-gsp1026
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747471162219/bb55105b-4dbb-4a01-aed8-fc1265d12727.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747471171209/bc5dd9b0-b285-4b0d-9262-2ee5f6bd838c.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/671e8b96-c911-405c-80b6-41bb95ca1f65.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/8ba531b5-dbc6-4394-8d82-e8cff61d7bd4.png
 tags: collect-metrics-from-exporters-using-the-managed-service-for-prometheus-gsp1026, gsp1262, collect-metrics-from-exporters-using-the-managed-service-for-prometheus
 
 ---
@@ -19,11 +19,11 @@ In this lab, you will explore using the Managed Service for Prometheus to collec
 
 In this lab, you will learn how to:
 
-1. Deploy a GCE instance and configure the node-exporter tool
+1.  Deploy a GCE instance and configure the node-exporter tool
     
-2. Build the GMP binary locally and deploy to the GCE instance
+2.  Build the GMP binary locally and deploy to the GCE instance
     
-3. Apply a Prometheus configuration to begin collecting metrics
+3.  Apply a Prometheus configuration to begin collecting metrics
     
 
 ## **Setup and requirements**
@@ -36,29 +36,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -66,7 +66,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-0b0b7463d3ae@qwiklabs.net
@@ -74,9 +74,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     V0fmXCBIjnmp
@@ -84,19 +84,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -109,7 +109,7 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell**
+1.  Click **Activate Cloud Shell**
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="left")
     
@@ -124,14 +124,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-03-43594179f7
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-2. (Optional) You can list the active account name with this command:
+2.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-3. Click **Authorize**.
+3.  Click **Authorize**.
     
 
 **Output:**
@@ -144,7 +144,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-4. (Optional) You can list the project ID with this command:
+4.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -162,7 +162,7 @@ project = qwiklabs-gcp-03-43594179f72c
 
 ## **Task 1. Deploy GKE cluster**
 
-* Deploy a basic GKE cluster to set up the lab:
+*   Deploy a basic GKE cluster to set up the lab:
     
 
 ```apache
@@ -175,7 +175,7 @@ gcloud container clusters get-credentials gmp-cluster --zone=us-east4-c
 
 ## **Task 2. Set up a namespace**
 
-* Create the `gmp-test` Kubernetes namespace for resources you create as part of the example application:
+*   Create the `gmp-test` Kubernetes namespace for resources you create as part of the example application:
     
 
 ```apache
@@ -190,7 +190,7 @@ Check if prometheus has been deployed
 
 The managed service provides a manifest for an example application that emits Prometheus metrics on its metrics port. The application uses three replicas.
 
-* To deploy the example application, run the following command:
+*   To deploy the example application, run the following command:
     
 
 ```apache
@@ -221,7 +221,7 @@ spec:
     interval: 30s
 ```
 
-* To apply this resource, run the following command:
+*   To apply this resource, run the following command:
     
 
 ```apache
@@ -236,14 +236,14 @@ To configure horizontal collection that applies to a range of pods across all na
 
 If you are running on GKE, then you can do the following:
 
-* To query the metrics ingested by the example application, see Query data from the Prometheus service.
+*   To query the metrics ingested by the example application, see Query data from the Prometheus service.
     
-* To learn about filtering exported metrics and adapting your prom-operator resources, see Additional topics for managed collection.
+*   To learn about filtering exported metrics and adapting your prom-operator resources, see Additional topics for managed collection.
     
 
 ## **Task 5. Download the prometheus binary**
 
-* Download the prometheus binary from the following bucket:
+*   Download the prometheus binary from the following bucket:
     
 
 ```apache
@@ -264,21 +264,21 @@ chmod a+x prometheus
 
 ## **Task 6. Run the prometheus binary**
 
-1. Save your project id to a variable:
+1.  Save your project id to a variable:
     
 
 ```apache
 export PROJECT_ID=$(gcloud config get-value project)
 ```
 
-2. Save your zone to a variable. These values will be used when running your promtheus binary.
+2.  Save your zone to a variable. These values will be used when running your promtheus binary.
     
 
 ```apache
 export ZONE=us-east4-c
 ```
 
-3. Run the prometheus binary on cloud shell using command here:
+3.  Run the prometheus binary on cloud shell using command here:
     
 
 ```apache
@@ -290,9 +290,9 @@ After the prometheus binary begins you should be able to go to managed prometheu
 
 ## **Task 7. Download and run the node exporter**
 
-1. Open a new tab in cloud shell to run the node exporter commands.
+1.  Open a new tab in cloud shell to run the node exporter commands.
     
-2. Download and run the exporter on the cloud shell box:
+2.  Download and run the exporter on the cloud shell box:
     
 
 ```apache
@@ -322,14 +322,14 @@ ts=2023-03-01T10:27:17.263Z caller=tls_config.go:195 level=info msg="TLS is disa
 
 ### Create a config.yaml file
 
-1. Stop the running prometheus binary in the 1st tab of Cloud Shell and have a new config file which will take the metrics from node exporter:
+1.  Stop the running prometheus binary in the 1st tab of Cloud Shell and have a new config file which will take the metrics from node exporter:
     
 
 ```apache
 vi config.yaml
 ```
 
-2. Create a config.yaml file with the following spec:
+2.  Create a config.yaml file with the following spec:
     
 
 ```apache
@@ -342,7 +342,7 @@ scrape_configs:
       - targets: ['localhost:9100']
 ```
 
-3. Upload the config.yaml file you created to verify:
+3.  Upload the config.yaml file you created to verify:
     
 
 ```apache
@@ -365,28 +365,28 @@ Check if config.yaml is configured correctly
 
 **Check my progress**
 
-4. Re-run prometheus pointing to the new configuration file by running the command below:
+4.  Re-run prometheus pointing to the new configuration file by running the command below:
     
 
 ```apache
 ./prometheus --config.file=config.yaml --export.label.project-id=$PROJECT --export.label.location=$ZONE
 ```
 
-5. Use the following stat from the exporter to see its count in a PromQL query. In Cloud Shell, click on the web preview icon. Set the port to `9090` by selecting **Change Preview Port** and preview by clicking **Change and Preview**.
+5.  Use the following stat from the exporter to see its count in a PromQL query. In Cloud Shell, click on the web preview icon. Set the port to `9090` by selecting **Change Preview Port** and preview by clicking **Change and Preview**.
     
 
 ![web_preview](https://cdn.qwiklabs.com/ycWSySafzKiZ2ilJzZlDr8Ye%2Fx6IIzKdAntaGdSA7tI%3D align="left")
 
 Write any query in the PromQL query Editor prefixed with **“node\_”** this should bring up an input list of metrics you can select to visualize in the graphical editor.
 
-* "node\_cpu\_seconds\_total" provides graphical data.
+*   "node\_cpu\_seconds\_total" provides graphical data.
     
 
 ![node_export](https://cdn.qwiklabs.com/EhyiFGv5EDVULK5jUlKi%2BhJ%2FDSkKQBLe32triSM8v%2Fg%3D align="left")
 
 Try selecting other metrics that appear to view the data exported.
 
----
+* * *
 
 ## Solution of Lab
 
