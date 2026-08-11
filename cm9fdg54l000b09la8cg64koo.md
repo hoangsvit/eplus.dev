@@ -232,6 +232,8 @@ The visualization should resemble the following:
 
 %[https://www.youtube.com/watch?v=It_atH4LTMU] 
 
+%[https://www.youtube.com/watch?v=TzJdGl0lU2M] 
+
 **🥇 Task 1: Create the Partner Authorized View**
 
 **🔑 Work in the Data Sharing Partner Project Console**
