@@ -124,7 +124,9 @@ Calculate columns in Connected Sheets
 
 %[https://www.youtube.com/watch?v=cKBc1pU1oN0] 
 
-**Task 1**
+**Task 1:**
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/78e5bc96-8adb-415e-8370-327a2a91941e.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756620543515/e5a9f352-61cb-4f7d-93a8-bae099d33188.png align="center")
 
