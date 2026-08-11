@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-09-12T04:24:28.654Z
 cuid: cm0yscezy003209l88okrdovc
 slug: analyze-bigquery-data-in-connected-sheets-challenge-lab-arc103
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756621025502/6f60d923-498e-438e-94f6-d3d09abde654.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756621060512/30e0e9c5-4adc-48ec-b431-54e34684f6df.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/7719b4d7-8ca1-45e7-ac6d-b0ef78bfdbaa.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/c442bd1d-fcf6-4ed0-a718-6e512224e6e9.png
 tags: bigquery, analyze-bigquery-data-in-connected-sheets-challenge-lab-arc103, arc103, analyze-bigquery-data-in-connected-sheets-challenge-lab, connected-sheets
 
 ---
@@ -29,12 +29,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -49,27 +49,27 @@ You are expected to have the skills and knowledge for these tasks.
 
 You are asked to help a newly formed development team with some of their initial work on a new project around analyzing taxi data in New York City. You have been asked to assist the Taxi team with their analysis using Google Sheets; you receive the following request to complete the following tasks:
 
-* Connect a BigQuery dataset to Google Sheets.
+*   Connect a BigQuery dataset to Google Sheets.
     
-* Use a formula to find the number of taxi trips that include an airport fee.
+*   Use a formula to find the number of taxi trips that include an airport fee.
     
-* Create a chart of the percentages of all payment types.
+*   Create a chart of the percentages of all payment types.
     
-* Extract raw data from BigQuery to Connected Sheets.
+*   Extract raw data from BigQuery to Connected Sheets.
     
-* Calculate a column to create a new column from transformations/combinations of existing columns.
+*   Calculate a column to create a new column from transformations/combinations of existing columns.
     
 
 Each task is described in detail below, good luck!
 
 ## **Task 1. Open Google Sheets and connect to a BigQuery dataset**
 
-* Log in to Sheets using the credentials provided, and connect to `qwiklabs-gcp-00-04f45539533b` &gt; **Public datasets** &gt; **new\_york\_taxi\_trips** &gt; **tlc\_yellow\_trips\_2022**.
+*   Log in to Sheets using the credentials provided, and connect to `qwiklabs-gcp-00-04f45539533b` > **Public datasets** > **new\_york\_taxi\_trips** > **tlc\_yellow\_trips\_2022**.
     
 
 ## **Task 2. Use a formula to count rows that meet a specific criteria**
 
-* Use a formula to count the number of taxi trips that include an airport fee.
+*   Use a formula to count the number of taxi trips that include an airport fee.
     
 
 Click *Check my progress* to verify the objective.
@@ -80,7 +80,7 @@ Use formulas in Connected Sheets
 
 ## **Task 3. Create charts to visualize BigQuery data**
 
-* Create a pie chart to identify which payment type is most frequently used to pay the fare amount.
+*   Create a pie chart to identify which payment type is most frequently used to pay the fare amount.
     
 
 | **Payment type code** | **Payment type description** |
@@ -100,7 +100,7 @@ Use charts in Connected Sheets
 
 ## **Task 4. Extract data from BigQuery to Connected Sheets**
 
-* Extract 10,000 rows of data from the columns **pickup\_datetime**, **dropoff\_datetime**, **trip\_distance**, and **fare\_amount**, ordered by longest trip first.
+*   Extract 10,000 rows of data from the columns **pickup\_datetime**, **dropoff\_datetime**, **trip\_distance**, and **fare\_amount**, ordered by longest trip first.
     
 
 Click *Check my progress* to verify the objective.
@@ -111,18 +111,18 @@ Extract BigQuery data in Connected Sheets
 
 ## **Task 5. Calculate new columns to transform existing column data**
 
-* Calculate a new column that displays the percentage of each fare amount that was used to pay toll fees (based on the **toll\_amount** column).
+*   Calculate a new column that displays the percentage of each fare amount that was used to pay toll fees (based on the **toll\_amount** column).
     
 
 Click *Check my progress* to verify the objective.
 
 Calculate columns in Connected Sheets
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=IVshKiTX04M&ab_channel=Techcps] 
+%[https://www.youtube.com/watch?v=cKBc1pU1oN0] 
 
 **Task 1**
 
