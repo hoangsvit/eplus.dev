@@ -5,8 +5,8 @@ seoDescription: "Google Cloud Deploy is a managed service that automates deliver
 datePublished: 2024-09-09T04:06:06.668Z
 cuid: cm0uhd8p8001q0ajjasga6u2m
 slug: continuous-delivery-with-google-cloud-deploy-gsp1079
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746865159679/cd5a53e5-d63f-42bf-93aa-5865195d5e99.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1746865176881/b3a12a32-143c-458d-bc64-8adc5a273810.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/dc1095bb-af2c-4f86-846a-dc94f238d377.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/66e33ad6-aed3-479d-a3ed-7de1af7eae07.png
 tags: continuous-delivery-with-google-cloud-deploy-gsp1079, gsp1079, continuous-delivery-with-google-cloud-deploy
 
 ---
@@ -23,13 +23,13 @@ The sample application is a simple web app that listens to a port, provides an H
 
 In this lab, you learn how to perform the following tasks:
 
-* Deploy a container image to Google Cloud Artifact Registry using Skaffold
+*   Deploy a container image to Google Cloud Artifact Registry using Skaffold
     
-* Create a Google Cloud Deploy delivery pipeline
+*   Create a Google Cloud Deploy delivery pipeline
     
-* Create a release for the delivery pipeline
+*   Create a release for the delivery pipeline
     
-* Promote the application through the targets in the delivery pipeline
+*   Promote the application through the targets in the delivery pipeline
     
 
 ## **Setup**
@@ -42,29 +42,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -72,7 +72,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-261b235aa684@qwiklabs.net
@@ -80,9 +80,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     luYbyzDyfhnD
@@ -90,19 +90,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -115,7 +115,7 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell**
+1.  Click **Activate Cloud Shell**
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="left")
     
@@ -130,14 +130,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-02-20ee5447c7
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-2. (Optional) You can list the active account name with this command:
+2.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-3. Click **Authorize**.
+3.  Click **Authorize**.
     
 
 **Output:**
@@ -150,7 +150,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-4. (Optional) You can list the project ID with this command:
+4.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -168,7 +168,7 @@ project = qwiklabs-gcp-02-20ee5447c766
 
 ## **Task 1. Set variables**
 
-* Declare the environment variables that will be used by various commands:
+*   Declare the environment variables that will be used by various commands:
     
 
 ```apache
@@ -183,14 +183,14 @@ In this task you will create the three GKE clusters that will be targets for the
 
 Three GKE clusters will be created, denoting the three targets for the delivery pipeline:
 
-* **test**
+*   **test**
     
-* **staging**
+*   **staging**
     
-* **prod**
+*   **prod**
     
 
-1. Enable the Google Kubernetes Engine API:
+1.  Enable the Google Kubernetes Engine API:
     
 
 ```apache
@@ -199,7 +199,7 @@ container.googleapis.com \
 clouddeploy.googleapis.com
 ```
 
-2. Create the three GKE clusters:
+2.  Create the three GKE clusters:
     
 
 ```apache
@@ -208,7 +208,7 @@ gcloud container clusters create staging --node-locations=us-east4-c --num-nodes
 gcloud container clusters create prod --node-locations=us-east4-c --num-nodes=1  --async
 ```
 
-3. Check the status of the three clusters:
+3.  Check the status of the three clusters:
     
 
 ```apache
@@ -236,14 +236,14 @@ Create three GKE clusters
 
 In this task you'll create a repository in Artifact Registry to hold the web application's container images.
 
-1. Enable the Artifact Registry API:
+1.  Enable the Artifact Registry API:
     
 
 ```apache
 gcloud services enable artifactregistry.googleapis.com
 ```
 
-2. Create the web-app repository for holding container images:
+2.  Create the web-app repository for holding container images:
     
 
 ```apache
@@ -265,7 +265,7 @@ In this task you will clone the git repository containing the web application an
 
 ### Prepare the application configuration
 
-1. Clone the repository for the lab into your home directory:
+1.  Clone the repository for the lab into your home directory:
     
 
 ```apache
@@ -276,7 +276,7 @@ git checkout c3cae80 --quiet
 cd tutorials/base
 ```
 
-2. Create the `skaffold.yaml` configuration:
+2.  Create the `skaffold.yaml` configuration:
     
 
 ```apache
@@ -288,9 +288,9 @@ The web directory now contains the `skaffold.yaml` configuration file, which pro
 
 The build section configures:
 
-* The two container images that will be built (artifacts)
+*   The two container images that will be built (artifacts)
     
-* The Google Cloud Build project used to build the images
+*   The Google Cloud Build project used to build the images
     
 
 The `deploy` section configures the Kubernetes manifests needed in deploying the workload to a cluster.
@@ -328,14 +328,14 @@ portForward:
 
 The skaffold tool will handle submission of the codebase to Cloud Build.
 
-1. Enable the Cloud Build API:
+1.  Enable the Cloud Build API:
     
 
 ```apache
 gcloud services enable cloudbuild.googleapis.com
 ```
 
-2. Run the skaffold command to build the application and deploy the container image to the Artifact Registry repository previously created:
+2.  Run the skaffold command to build the application and deploy the container image to the Artifact Registry repository previously created:
     
 
 ```apache
@@ -346,7 +346,7 @@ skaffold build --interactive=false \
 cd ..
 ```
 
-3. Once the skaffold build has completed, check for the container images in Artifact Registry:
+3.  Once the skaffold build has completed, check for the container images in Artifact Registry:
     
 
 ```apache
@@ -409,14 +409,14 @@ Build and deploy the container images to the Artifact Registry
 
 In this task you will set up the delivery pipeline.
 
-1. Enable the Google Cloud Deploy API:
+1.  Enable the Google Cloud Deploy API:
     
 
 ```apache
 gcloud services enable clouddeploy.googleapis.com
 ```
 
-2. Create the delivery-pipeline resource using the `delivery-pipeline.yaml` file:
+2.  Create the delivery-pipeline resource using the `delivery-pipeline.yaml` file:
     
 
 ```apache
@@ -425,7 +425,7 @@ cp clouddeploy-config/delivery-pipeline.yaml.template clouddeploy-config/deliver
 gcloud beta deploy apply --file=clouddeploy-config/delivery-pipeline.yaml
 ```
 
-3. Verify the delivery pipeline was created:
+3.  Verify the delivery pipeline was created:
     
 
 ```apache
@@ -471,7 +471,7 @@ Three delivery pipeline targets will be created - one for each of the GKE cluste
 
 The three GKE clusters should now be running, but it's useful to verify this.
 
-* Run the following to get the status of the clusters:
+*   Run the following to get the status of the clusters:
     
 
 ```apache
@@ -519,7 +519,7 @@ The application will be deployed to the (web-app) namespace.
 
 ### Create the delivery pipeline targets
 
-1. Submit a target definition for each of the targets:
+1.  Submit a target definition for each of the targets:
     
 
 ```apache
@@ -532,7 +532,7 @@ done
 
 The targets are described in a yaml file. Each target configures the relevant cluster information for the target. The test and staging target configurations are mostly the same.
 
-2. Display the details for the test Target:
+2.  Display the details for the test Target:
     
 
 ```apache
@@ -553,7 +553,7 @@ gke:
 
 The prod target is slightly different as it requires approval (see the `requireApproval` setting in the output) before a release can be promoted to the cluster.
 
-3. Display the details for the prod Target:
+3.  Display the details for the prod Target:
     
 
 ```apache
@@ -573,7 +573,7 @@ gke:
   cluster: projects/{{project-id}}/locations/us-central1/clusters/prod
 ```
 
-4. Verify the three targets (test, staging, prod) have been created:
+4.  Verify the three targets (test, staging, prod) have been created:
     
 
 ```apache
@@ -596,7 +596,7 @@ A Google Cloud Deploy release is a specific version of one or more container ima
 
 Since this is the first release of your application, you'll name it `web-app-001`.
 
-1. Run the following command to create the release:
+1.  Run the following command to create the release:
     
 
 ```apache
@@ -610,7 +610,7 @@ The `--build-artifacts` parameter references the `artifacts.json` file created b
 
 When a release is created, it will also be automatically rolled out to the first target in the pipeline (unless approval is required, which will be covered in a later step of this lab).
 
-2. To confirm the test target has your application deployed, run the following command:
+2.  To confirm the test target has your application deployed, run the following command:
     
 
 ```apache
@@ -640,7 +640,7 @@ The first rollout of a release will take several minutes because Google Cloud De
 
 If you do not see `state: SUCCESS` in the output from the previous command, please wait and periodically re-run the command until the rollout completes.
 
-3. Confirm your application was deployed to the test GKE cluster by running the following commands:
+3.  Confirm your application was deployed to the test GKE cluster by running the following commands:
     
 
 ```apache
@@ -674,7 +674,7 @@ Create a release
 
 In this task you will promote the application from test and into the staging target.
 
-1. Promote the application to the staging target:
+1.  Promote the application to the staging target:
     
 
 ```apache
@@ -685,10 +685,10 @@ gcloud beta deploy releases promote \
 
 You will be prompted to continue before the promotion commences.
 
-* Press ENTER to accept the default (Y = yes).
+*   Press ENTER to accept the default (Y = yes).
     
 
-2. To confirm the staging Target has your application deployed, run the following command:
+2.  To confirm the staging Target has your application deployed, run the following command:
     
 
 ```apache
@@ -727,7 +727,7 @@ Promote the application to staging
 
 In this task you will again promote the application but will also provide approval.
 
-1. Promote the application to the prod target:
+1.  Promote the application to the prod target:
     
 
 ```apache
@@ -738,10 +738,10 @@ gcloud beta deploy releases promote \
 
 You will be prompted to continue before the promotion commences.
 
-* Press ENTER to accept the default (Y = yes).
+*   Press ENTER to accept the default (Y = yes).
     
 
-2. To review the status of the prod target, run the following command:
+2.  To review the status of the prod target, run the following command:
     
 
 ```apache
@@ -765,7 +765,7 @@ targetId: prod
 uid: a5c7d6007fee4d80904d49142581aaa7
 ```
 
-3. Approve the rollout with the following:
+3.  Approve the rollout with the following:
     
 
 ```apache
@@ -776,10 +776,10 @@ gcloud beta deploy rollouts approve web-app-001-to-prod-0001 \
 
 You will be prompted to approve the rollout before the promotion commences.
 
-* Press ENTER to accept the default (Y = yes).
+*   Press ENTER to accept the default (Y = yes).
     
 
-4. To confirm the prod target has your application deployed, run the following command:
+4.  To confirm the prod target has your application deployed, run the following command:
     
 
 ```apache
@@ -790,7 +790,7 @@ gcloud beta deploy rollouts list \
 
 As for previous rollouts, locate the entry for the target (`targetId: prod`) and check that the rollout has completed (`state: SUCCEEDED`). Periodically re-run the command until the rollout completes.
 
-5. Use `kubectl` to check on the status of the deployed application:
+5.  Use `kubectl` to check on the status of the deployed application:
     
 
 ```apache
@@ -800,7 +800,7 @@ kubectl get all -n web-app
 
 Click **Check my progress** to verify the objective.
 
----
+* * *
 
 ## Solution of Lab
 
