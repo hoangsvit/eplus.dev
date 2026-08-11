@@ -5,8 +5,8 @@ seoDescription: "Learn how to debug applications on Google Kubernetes Engine usi
 datePublished: 2025-09-13T17:20:43.609Z
 cuid: cmfij8ggp000402kz328kau1h
 slug: debug-apps-on-google-kubernetes-engine-gsp736
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757783975714/5f49f613-e045-4219-a904-0031f4ccc50c.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757784022141/2a8fa31c-3d61-405b-a6af-d95e174420be.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/bc9efbe6-a2a4-493c-b258-f7a036c55498.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/53aed9ca-1fa8-4f41-a8cf-3b5104e58a7c.png
 tags: kubernetes, google-kubernetes-engine, google-kubernetes, debug-apps-on-google-kubernetes-engine-gsp736, debug-apps-on-google-kubernetes-engine, gsp736
 
 ---
@@ -19,9 +19,9 @@ Cloud Logging, and its companion tool, Cloud Monitoring, are full featured produ
 
 In this lab, you learn how to perform the following tasks:
 
-* Use Cloud Monitoring to detect issues.
+*   Use Cloud Monitoring to detect issues.
     
-* Use Cloud Logging to troubleshoot an application running on GKE.
+*   Use Cloud Logging to troubleshoot an application running on GKE.
     
 
 ### The demo application used in the lab
@@ -40,29 +40,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -70,7 +70,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-02-9f9b35e6d3cb@qwiklabs.net
@@ -78,9 +78,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     hpgCLRdg0rtZ
@@ -88,19 +88,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -113,13 +113,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-00-6cc5b1fcaf73`. The output contains a line that declares the **Project\_ID** for this session:
@@ -130,14 +130,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-00-6cc5b1fcaf
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -150,7 +150,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -170,7 +170,7 @@ project = qwiklabs-gcp-00-6cc5b1fcaf73
 
 Connect to a Google Kubernetes Engine cluster and validate that it's been created correctly.
 
-1. Use the following command to see the cluster's status:
+1.  Use the following command to see the cluster's status:
     
 
 ```apache
@@ -179,14 +179,14 @@ gcloud container clusters list
 
 The cluster status will say PROVISIONING.
 
-2. Wait a moment and run the above command again until the status is RUNNING. This could take several minutes.
+2.  Wait a moment and run the above command again until the status is RUNNING. This could take several minutes.
     
-3. Verify that the cluster named `central` has been created.
+3.  Verify that the cluster named `central` has been created.
     
 
-You can also monitor the progress in the Cloud console by navigating to **Navigation menu** &gt; **Kubernetes Engine** &gt; **Clusters**.
+You can also monitor the progress in the Cloud console by navigating to **Navigation menu** > **Kubernetes Engine** > **Clusters**.
 
-4. Once your cluster has a RUNNING status, run the following command to get the cluster credentials:
+4.  Once your cluster has a RUNNING status, run the following command to get the cluster credentials:
     
 
 ```apache
@@ -200,7 +200,7 @@ Fetching cluster endpoint and auth data.
 kubeconfig entry generated for central.
 ```
 
-5. Run the following command to verify that the nodes have been created:
+5.  Run the following command to verify that the nodes have been created:
     
 
 ```apache
@@ -224,59 +224,59 @@ gke-central-default--pool-5ff4130f-zfmn   Ready    <none>   24d   v1.27.2-gke.12
 
 You can use Gemini Code Assist in an integrated development environment (IDE) such as Cloud Shell to receive guidance on code or solve problems with your code. Before you can start using Gemini Code Assist, however, you need to enable it.
 
-1. In Cloud Shell, enable the **Gemini for Google Cloud** API with the following command:
+1.  In Cloud Shell, enable the **Gemini for Google Cloud** API with the following command:
     
 
 ```apache
 gcloud services enable cloudaicompanion.googleapis.com
 ```
 
-2. Click **Open Editor** on the Cloud Shell toolbar.
+2.  Click **Open Editor** on the Cloud Shell toolbar.
     
 
 **Note:** To open the Cloud Shell Editor, click **Open Editor** on the Cloud Shell toolbar. You can switch between Cloud Shell and the code Editor by clicking **Open Editor** or **Open Terminal**, as required.
 
-3. In the Cloud Shell Editor, navigate to **Cloud Code &gt; Help and Feedback &gt; Change Settings**.
+3.  In the Cloud Shell Editor, navigate to **Cloud Code > Help and Feedback > Change Settings**.
     
-4. In the **Settings**, search for **Gemini Code Assist**.
+4.  In the **Settings**, search for **Gemini Code Assist**.
     
-5. Locate and ensure that the checkbox is selected for **Geminicodeassist: Enable**, and close the **Settings**.
+5.  Locate and ensure that the checkbox is selected for **Geminicodeassist: Enable**, and close the **Settings**.
     
-6. Click **Cloud Code - No Project** in the status bar at the bottom of the screen.
+6.  Click **Cloud Code - No Project** in the status bar at the bottom of the screen.
     
-7. Authorize the plugin as instructed. If a project is not automatically selected, click **Select a Google Cloud Project**, and choose `qwiklabs-gcp-00-6cc5b1fcaf73`.
+7.  Authorize the plugin as instructed. If a project is not automatically selected, click **Select a Google Cloud Project**, and choose `qwiklabs-gcp-00-6cc5b1fcaf73`.
     
-8. Verify that your Google Cloud project (`qwiklabs-gcp-00-6cc5b1fcaf73`) displays in the Cloud Code status message in the status bar.
+8.  Verify that your Google Cloud project (`qwiklabs-gcp-00-6cc5b1fcaf73`) displays in the Cloud Code status message in the status bar.
     
 
 ## Task 2. Deploy an application
 
 Next, deploy a microservices application called Hipster Shop to your cluster to create a workload you can monitor.
 
-1. Run the following command to clone the repo:
+1.  Run the following command to clone the repo:
     
 
 ```apache
 git clone https://github.com/xiangshen-dk/microservices-demo.git
 ```
 
-2. Change to the `microservices-demo` directory with the following command:
+2.  Change to the `microservices-demo` directory with the following command:
     
 
 ```apache
 cd microservices-demo
 ```
 
-3. In the Cloud Shell Editor's file Explorer, navigate to **microservices-demo** &gt; **release** &gt; **kubernetes-manifests.yaml**.
+3.  In the Cloud Shell Editor's file Explorer, navigate to **microservices-demo** > **release** > **kubernetes-manifests.yaml**.
     
 
 You can use the AI-powered features of Gemini Code Assist to make changes to your code directly in your code editor. In this instance, you decide to let Gemini Code Assist help explain the **kubernetes-manifests.yaml** file to support the onboarding of a new member in your team.
 
-4. Open the `kubernetes-manifests.yaml` file. This action enables Gemini Code Assist, as indicated by the presence of the icon in the upper-right corner of the editor.
+4.  Open the `kubernetes-manifests.yaml` file. This action enables Gemini Code Assist, as indicated by the presence of the icon in the upper-right corner of the editor.
     
-5. Click the **Gemini Code Assist: Smart Actions** icon and select **Explain this**.
+5.  Click the **Gemini Code Assist: Smart Actions** icon and select **Explain this**.
     
-6. Gemini Code Assist opens a chat pane with the prefilled prompt of `Explain this`. In the inline text box of the Code Assist chat, replace the prefilled prompt with the following, and click **Send**:
+6.  Gemini Code Assist opens a chat pane with the prefilled prompt of `Explain this`. In the inline text box of the Code Assist chat, replace the prefilled prompt with the following, and click **Send**:
     
 
 ```apache
@@ -294,14 +294,14 @@ For the suggested improvements, don't update this file.
 
 The explanation for the code in the `kubernetes-manifests.yaml` file appears in the **Gemini Code Assist** chat.
 
-7. Run the following command to install the app using `kubectl`:
+7.  Run the following command to install the app using `kubectl`:
     
 
 ```apache
 kubectl apply -f release/kubernetes-manifests.yaml
 ```
 
-8. Run the following command to confirm everything is running correctly:
+8.  Run the following command to confirm everything is running correctly:
     
 
 ```apache
@@ -328,22 +328,22 @@ redis-cart-9b864d47f-c9xc6               1/1       Running     0            20m
 shippingservice-5948f9fb5c-vndcp         1/1       Running     0            20m
 ```
 
-9. Rerun the command until all pods are reporting a **Running** status before proceeding to the next step.
+9.  Rerun the command until all pods are reporting a **Running** status before proceeding to the next step.
     
 
 Click **Check my progress** to verify the objective.
 
 Deploy an application
 
-10. Run the following command to get the **external IP** of the application. This command only returns an IP address once the service has been deployed, so you may need to repeat the command until there's an external IP address assigned:
-    
+10.  Run the following command to get the **external IP** of the application. This command only returns an IP address once the service has been deployed, so you may need to repeat the command until there's an external IP address assigned:
+     
 
 ```apache
 export EXTERNAL_IP=$(kubectl get service frontend-external | awk 'BEGIN { cnt=0; } { cnt+=1; if (cnt > 1) print $4; }')
 ```
 
-11. Finally, execute the following command to confirm that the app is up and running:
-    
+11.  Finally, execute the following command to confirm that the app is up and running:
+     
 
 ```apache
 curl -o /dev/null -s -w "%{http_code}\n"  http://$EXTERNAL_IP
@@ -359,16 +359,16 @@ Your confirmation should resemble the following output.
 
 After the application is deployed, you can also go to the Cloud console and view the status.
 
-In the **Kubernetes Engine &gt; Workloads** page, you'll see that all of the pods are OK.
+In the **Kubernetes Engine > Workloads** page, you'll see that all of the pods are OK.
 
 ![The Workloads page](https://cdn.qwiklabs.com/dCTTlAg8y%2BMvkLYOfsHV79gWaP8BVe128PjUchzgUIY%3D align="left")
 
-12. Now, select **Gateways, Services & Ingress**, and then click on the **Services** tab to verify all services are OK. Stay on this screen to set up monitoring for the application.
-    
+12.  Now, select **Gateways, Services & Ingress**, and then click on the **Services** tab to verify all services are OK. Stay on this screen to set up monitoring for the application.
+     
 
 ## Task 3. Open the application
 
-* Scroll down to **frontend-external** and click the Endpoints IP of the service.
+*   Scroll down to **frontend-external** and click the Endpoints IP of the service.
     
 
 ![The Services and Ingress page displaying the highlighted frontend-external IP address](https://cdn.qwiklabs.com/CnDr%2Fjy1XOpf%2BxtzxDsBgMhN4isBLGZYUkiIp2cbblc%3D align="left")
@@ -383,12 +383,12 @@ In this task, you configure Cloud Logging to create a [logs-based metric](https:
 
 In this case, you use the logs-based metric to count the number of errors in your frontend service. You can then use the metric in both dashboards and alerting.
 
-1. Return to the Cloud console, and from the **Navigation menu**, open **Logging**, then click **Logs Explorer**.
+1.  Return to the Cloud console, and from the **Navigation menu**, open **Logging**, then click **Logs Explorer**.
     
 
 ![The Logs Explorer page](https://cdn.qwiklabs.com/pnNTGP0vqkBcVcznTiUjudjCFDIGSjseLyc%2B8kKG0o8%3D align="left")
 
-2. Enable **Show query** and in the **Query builder** box, add the following query:
+2.  Enable **Show query** and in the **Query builder** box, add the following query:
     
 
 ```apache
@@ -399,17 +399,17 @@ labels."k8s-pod/app": "recommendationservice"
 
 ![The Query builder page displaying the three lines in the query above](https://cdn.qwiklabs.com/W5zrpKxGUw2fJJzO1PKVxvFnhxcShsohuvdCHKBkyE4%3D align="left")
 
-3. Click **Run Query**.
+3.  Click **Run Query**.
     
 
 The query you are using lets you find all errors from the frontend pod. However, you shouldn't see any results now since there are no errors yet.
 
-4. To create the logs-based metric, click the **Actions** dropdown, and select **Create Metric**.
+4.  To create the logs-based metric, click the **Actions** dropdown, and select **Create Metric**.
     
 
 ![The Create metric button displayed on the UI](https://cdn.qwiklabs.com/oVIsq3cZftNyAAThO6y0aqKRvssE8Qml8RE9EQ2Mqf4%3D align="left")
 
-5. Name the metric **Error\_Rate\_SLI,** and click **Create Metric** to save the log-based metric:
+5.  Name the metric **Error\_Rate\_SLI,** and click **Create Metric** to save the log-based metric:
     
 
 ![The Create logs metric dialog displaying the populated Log metric name field](https://cdn.qwiklabs.com/pT%2FCCIZQWU28sAXyNoHhRNeeuhwN7ZZ6eMtfA8E7XLM%3D align="left")
@@ -426,41 +426,41 @@ Alerting gives timely awareness to problems in your cloud applications so you ca
 
 In this task, you use Cloud Monitoring to monitor your frontend service availability by creating an alerting policy based on the frontend errors logs-based metric that you created previously. When the condition of the alerting policy is met, Cloud Monitoring creates and displays an incident in the Cloud console.
 
-1. In the **Navigation menu**, open **Monitoring,** then click **Alerting**.
+1.  In the **Navigation menu**, open **Monitoring,** then click **Alerting**.
     
-2. After the workspace is created, click **Create Policy** at the top.
+2.  After the workspace is created, click **Create Policy** at the top.
     
 
 **Note:** If required, click **Try It!** to use the updated alert creation flow.
 
-3. Click on the **Select a metric** dropdown. Deselect the **Active** checkbox.
+3.  Click on the **Select a metric** dropdown. Deselect the **Active** checkbox.
     
-4. In the **filter by resource and metric name** field, type **Error\_Rate**.
+4.  In the **filter by resource and metric name** field, type **Error\_Rate**.
     
-5. Click on **Kubernetes Container &gt; Logs-Based Metric**. Select **logging/user/Error\_Rate\_SLI** and click **Apply**.
+5.  Click on **Kubernetes Container > Logs-Based Metric**. Select **logging/user/Error\_Rate\_SLI** and click **Apply**.
     
 
 Your screen should look like this:
 
 ![The Select a metric page](https://cdn.qwiklabs.com/Gz8WQoQoHiiLKOdQZ65Jj4h%2FNyl0Eoy8chIpJoXxou0%3D align="left")
 
-6. Set **Rolling windows function** to `Rate`.
+6.  Set **Rolling windows function** to `Rate`.
     
-7. Click **Next**.
+7.  Click **Next**.
     
-8. Set **0.5** as your **Threshold value**.
+8.  Set **0.5** as your **Threshold value**.
     
 
 As expected, there are no failures, and your application is meeting its availability Service Level Objective (SLO).
 
-9. Click **Next** again.
+9.  Click **Next** again.
     
-10. Disable **Use notification channel**.
-    
-11. Provide an alert name such as `Error Rate SLI` then click **Next**.
-    
-12. Review the alert and click **Create Policy**.
-    
+10.  Disable **Use notification channel**.
+     
+11.  Provide an alert name such as `Error Rate SLI` then click **Next**.
+     
+12.  Review the alert and click **Create Policy**.
+     
 
 **Note:** You will not create a notification channel for this lab but you should do it for your applications running in production, which allows you to send notifications in ways such as email, mobile app, SMS, Pub/Sub, and webhooks.
 
@@ -472,14 +472,14 @@ Create an alerting policy
 
 In this section, you use a load generator to create some traffic for your web application. Since there is a bug that has been intentionally introduced into this version of the application, a certain amount of traffic volume triggers errors. You work through the steps to identify and fix the bug.
 
-1. From the **Navigation menu**, select **Kubernetes Engine**, then **Gateways, Services & Ingress**, and click the **Services** tab.
+1.  From the **Navigation menu**, select **Kubernetes Engine**, then **Gateways, Services & Ingress**, and click the **Services** tab.
     
-2. Find the `loadgenerator-external` service, then click on the `endpoints` link.
+2.  Find the `loadgenerator-external` service, then click on the `endpoints` link.
     
 
 ![The Services and Ingress page open on the Services tabbed page, which displays the highlighted loadgenerator-external service and endpoints link.](https://cdn.qwiklabs.com/Jc%2Fvot4z%2FZOb54nIYnjYmyppC3LLm903uTiiJfCgKME%3D align="left")
 
-Alternatively, you can open a new browser tab or window, copy/paste the IP to the URL field, for example: [`http://\[loadgenerator-external-ip\]`](http://\[loadgenerator-external-ip\]).
+Alternatively, you can open a new browser tab or window, copy/paste the IP to the URL field, for example: [`http://\[loadgenerator-external-ip\]`](http://loadgenerator-external-ip).
 
 You should now be on the Locust load generator page:
 
@@ -487,19 +487,19 @@ You should now be on the Locust load generator page:
 
 Locust is an open-source load generator, which allows you to load test a web app. It can simulate a number of users simultaneously hitting your application endpoints at a certain rate.
 
-3. Simulate **300** users hitting the app with a hatch rate of **30**. Locust adds 30 users per second until it reaches 300 users.
+3.  Simulate **300** users hitting the app with a hatch rate of **30**. Locust adds 30 users per second until it reaches 300 users.
     
-4. For the host field, you use the `frontend-external`. Copy the URL from the Gateways, Services & Ingress page; be sure to exclude the port. For example:
+4.  For the host field, you use the `frontend-external`. Copy the URL from the Gateways, Services & Ingress page; be sure to exclude the port. For example:
     
 
 ![The Start new Locust swarm page displaying the Start swarming button](https://cdn.qwiklabs.com/VfHVzfR14oTKeil2PkbOl0ozSJqcFfvJWp%2BqRSLVhhA%3D align="left")
 
-5. Click the **Start swarming** button. You should have about 300 users to hit the predefined URLs in a few seconds.
+5.  Click the **Start swarming** button. You should have about 300 users to hit the predefined URLs in a few seconds.
     
 
 ![The Statistics page displaying the list of 300 users](https://cdn.qwiklabs.com/Ncjbt1KMUPopuYiMIT%2BJWqpMSY%2BNXhvhwuw2vNCKks8%3D align="left")
 
-6. Click on the **Failures** tab to see that there are failures starting to occur. You can see there are a large number of 500-errors.
+6.  Click on the **Failures** tab to see that there are failures starting to occur. You can see there are a large number of 500-errors.
     
 
 ![The Failures tabbed page](https://cdn.qwiklabs.com/fxsEwlryECSVQKjvHeugf%2FXpxz5sy3TvMI02PEi1q4o%3D align="left")
@@ -510,21 +510,21 @@ Meanwhile, if you click any product on the home page, it's either noticeably slo
 
 ### Confirm the alert and application errors
 
-1. In the console, from the **Navigation menu**, click **Monitoring**, then **Alerting**. You should see an incident soon regarding **logging/user/Error\_Rate\_SLI**. If you don't see an incident right away, wait a minute or two and refresh your page. It can take up to 5 minutes for the alert to fire.
+1.  In the console, from the **Navigation menu**, click **Monitoring**, then **Alerting**. You should see an incident soon regarding **logging/user/Error\_Rate\_SLI**. If you don't see an incident right away, wait a minute or two and refresh your page. It can take up to 5 minutes for the alert to fire.
     
-2. Click the link of the incident:
+2.  Click the link of the incident:
     
 
 ![The Alerting page displaying the incident link in the Incidents section](https://cdn.qwiklabs.com/hkaOqEoWcdyQ2JMEK3aGGBm9BUg7hhoWGojs0m%2BLhUc%3D align="left")
 
 It brings you to the details page.
 
-3. In the Logs section, click **View in Logs Explorer** and select the project ID from the dropdown to view pod logs.
+3.  In the Logs section, click **View in Logs Explorer** and select the project ID from the dropdown to view pod logs.
     
 
 ![The Incident metrics page displaying the highlighted View logs button](https://cdn.qwiklabs.com/K1%2Bi980EqiwKC8Fa4qYlYArDbR8hVPuppIpiRj5dtzU%3D align="left")
 
-4. You can also click the **Error** label in the Logs field explorer panel to only query the errors.
+4.  You can also click the **Error** label in the Logs field explorer panel to only query the errors.
     
 
 Alternatively, you can click into the Query preview field to show the query builder, then click the **Severity** dropdown, add **Error** to the query. Click the **Add** button, then click **Run Query**. The dropdown menu allows adding multiple severity values.
@@ -533,14 +533,14 @@ The result either way is adding `severity=ERROR` to your query. Once you do that
 
 ![The Logs Explorer page open on the Query builder tabbed page, displaying a list of errors in the Query results section](https://cdn.qwiklabs.com/QxSHyLaFhbUtyuH4ePMvmkbYePm93WwYCfpws1nKK3M%3D align="left")
 
-5. View the error details by expanding an error event. For example:
+5.  View the error details by expanding an error event. For example:
     
 
 ![The expanded Connect Failed query result](https://cdn.qwiklabs.com/63L7h%2BSQpBUtwOHTcoutblm06iIzLmYqIoPpTOKVOCU%3D align="left")
 
-6. Expand the `textPayload`.
+6.  Expand the `textPayload`.
     
-7. Click the error message and select **Add field to summary line** to have the error messages appearing as a summary field:
+7.  Click the error message and select **Add field to summary line** to have the error messages appearing as a summary field:
     
 
 ![The Add field to summary line option hihglighted in the expanded error message menu](https://cdn.qwiklabs.com/lPF4%2F%2Fx3CQgcX%2F4e8kHQNkhwh0qdcKEBMgVNtpYWGn0%3D align="left")
@@ -555,11 +555,11 @@ For the next step, you will look at the metrics of the main suspect, the **Produ
 
 ### Troubleshoot using the Kubernetes dashboard & logs
 
-1. One of the first places that you can look at the metrics is the [Kubernetes Engine](https://console.cloud.google.com/monitoring/dashboards/resourceList/kubernetes) section of the Monitoring console (**Navigation menu** &gt; **Monitoring**&gt; **Dashboards** &gt; **GKE**).
+1.  One of the first places that you can look at the metrics is the [Kubernetes Engine](https://console.cloud.google.com/monitoring/dashboards/resourceList/kubernetes) section of the Monitoring console (**Navigation menu** > **Monitoring**\> **Dashboards** > **GKE**).
     
-2. View the **Workloads** section.
+2.  View the **Workloads** section.
     
-3. Navigate to **Kubernetes Engine** &gt; **Workloads** &gt; **productcatalogservice**. You can see the pod for the service is constantly crashing and restarting.
+3.  Navigate to **Kubernetes Engine** > **Workloads** > **productcatalogservice**. You can see the pod for the service is constantly crashing and restarting.
     
 
 ![The Active Revisions section highlighted on the Deployment details page](https://cdn.qwiklabs.com/DbPgW3yWG7Glzn20yrv9WnapPgYWATHJGY3BAG%2F9P3E%3D align="left")
@@ -568,12 +568,12 @@ Next, see if there is anything interesting in the logs.
 
 There are 2 ways to easily get to your container logs:
 
-4. Click on the **Logs** tab to get a quick view of the most recent logs. Next, click the external link button in the upper right corner of the logs panel to go back to the Logs Explorer.
+4.  Click on the **Logs** tab to get a quick view of the most recent logs. Next, click the external link button in the upper right corner of the logs panel to go back to the Logs Explorer.
     
 
 ![The Logs tabbed page](https://cdn.qwiklabs.com/QuZmp7BZMi0nqkkOFEiSRomB%2FsZmXlZZx9krmzy2Zzg%3D align="left")
 
-5. In the overview page, click the **Container logs** link on the Deployment Details page.
+5.  In the overview page, click the **Container logs** link on the Deployment Details page.
     
 
 ![The Container logs link highlighted on the Deployment Details page](https://cdn.qwiklabs.com/hM4hJkKbJiAF58IL8XywgUXL1q4qpXYInJQtoQ4EtIw%3D align="left")
@@ -593,7 +593,7 @@ This could actually be causing the pod to crash.
 
 To better understand the reason, search the log message in the code.
 
-6. In Cloud Shell terminal, run the following command:
+6.  In Cloud Shell terminal, run the following command:
     
 
 ```apache
@@ -608,12 +608,12 @@ Your output should look like the following, which has the source file name with 
 src/productcatalogservice/server.go:237:        log.Info("successfully parsed product catalog json")
 ```
 
-7. To view the source file, by clicking the **Open Editor** button in the Cloud Shell menu, then **Open in New Window** (if you see the Unable to load code editor because third-party cookies are disabled error, click the eye at the top of the Chrome page).
+7.  To view the source file, by clicking the **Open Editor** button in the Cloud Shell menu, then **Open in New Window** (if you see the Unable to load code editor because third-party cookies are disabled error, click the eye at the top of the Chrome page).
     
 
 ![The Open Editor button highlighted in the UI](https://cdn.qwiklabs.com/FSDqao0b0m16GSMgPkmvkhS%2FNTcCfljPx5XojXOUy1c%3D align="left")
 
-8. Click the file `microservices-demo/src/productcatalogservice/server.go`, scroll down to line 237, and you will find the **readCatalogFile** method logs this message:
+8.  Click the file `microservices-demo/src/productcatalogservice/server.go`, scroll down to line 237, and you will find the **readCatalogFile** method logs this message:
     
 
 ![The message: log.Info("successfully parsed product catalog json") return nil](https://cdn.qwiklabs.com/PyVxVoCEbE%2FHZSCWsvXg2CC8SC24ZDrJjOxzC%2Fc%2B%2F4Y%3D align="left")
@@ -624,7 +624,7 @@ If you search the **reloadCatalog** variable in the code, you can see it's contr
 
 ![The log message for the reloadCatalog state](https://cdn.qwiklabs.com/qy2ap9hP7UlWCISKeIZKChXQPToqad7EljCe%2Bww4I5Q%3D align="left")
 
-9. With the `server.go` file open and Gemini Code Assist enabled in the IDE, notice the presence of the
+9.  With the `server.go` file open and Gemini Code Assist enabled in the IDE, notice the presence of the
     
     ![Gemini Code Assist: Smart Actions](https://cdn.qwiklabs.com/gOZl64uNZDcpgv888NgM95e8hoizE%2B8%2BMczF%2FmWfw3Y%3D align="left")
     
@@ -633,10 +633,10 @@ If you search the **reloadCatalog** variable in the code, you can see it's contr
 
 In this instance, you decide to ask Gemini Code Assist for help explaining the server implementation to your new team member.
 
-10. Click the **Gemini Code Assist: Smart Actions** icon and select **Explain this**.
-    
-11. Gemini Code Assist opens a chat pane with the prefilled prompt of `Explain this`. In the inline text box of the Code Assist chat, replace the prefilled prompt with the following, and click **Send**:
-    
+10.  Click the **Gemini Code Assist: Smart Actions** icon and select **Explain this**.
+     
+11.  Gemini Code Assist opens a chat pane with the prefilled prompt of `Explain this`. In the inline text box of the Code Assist chat, replace the prefilled prompt with the following, and click **Send**:
+     
 
 ```apache
 You are a Kubernetes Architect at Cymbal AI. A new team member is unfamiliar with this server implementation. Explain this server.go file in detail, breaking down its key components used in the code. 
@@ -648,8 +648,8 @@ The explanation for the code in the `server.go` file appears in the **Gemini Cod
 
 Check the logs again by adding a message to your query and determine if there are any entries that exist.
 
-12. Return to the tab where Logs Explorer is open and add the following line to the query:
-    
+12.  Return to the tab where Logs Explorer is open and add the following line to the query:
+     
 
 ```apache
 jsonPayload.message:"catalog reloading"
@@ -666,8 +666,8 @@ labels.k8s-pod/app="productcatalogservice"
 jsonPayload.message:"catalog reloading"
 ```
 
-13. Click **Run Query** again and find an "Enable catalog reloading" message in the container log. This confirms that the catalog reloading feature is enabled.
-    
+13.  Click **Run Query** again and find an "Enable catalog reloading" message in the container log. This confirms that the catalog reloading feature is enabled.
+     
 
 ![The Enable catalog reloading message in the container log](https://cdn.qwiklabs.com/LBrGJqsrcmIPJoHylZOKruIcjzWWWciLwAFPZvCKyt0%3D align="left")
 
@@ -679,9 +679,9 @@ Based on the code and what you're seeing in the logs, you can try to fix the iss
 
 In this task, you remove the `ENABLE_RELOAD` environment variable for the product catalog service. Once you make the variable changes, you redeploy the application and verify that the changes have addressed the observed issue.
 
-1. Click the **Open Terminal** button to return to the Cloud Shell terminal if it has closed.
+1.  Click the **Open Terminal** button to return to the Cloud Shell terminal if it has closed.
     
-2. Run the following command:
+2.  Run the following command:
     
 
 ```apache
@@ -697,14 +697,14 @@ The output shows the line number of the environment variable in the manifest fil
 374-          value: "1"
 ```
 
-3. Delete those two lines to disable the reloading by running the following command:
+3.  Delete those two lines to disable the reloading by running the following command:
     
 
 ```apache
 sed -i -e '373,374d' release/kubernetes-manifests.yaml
 ```
 
-4. Then run the following command to reapply the manifest file:
+4.  Then run the following command to reapply the manifest file:
     
 
 ```apache
@@ -713,26 +713,26 @@ kubectl apply -f release/kubernetes-manifests.yaml
 
 You should notice that only the **productcatalogservice** is configured. The other services are unchanged.
 
-5. Return to the Deployment detail page (**Navigation menu** &gt; **Kubernetes Engine** &gt; **Workloads** &gt; **productcatalogservice**), and wait until the pod runs successfully. Wait 2-3 minutes or until you can confirm it stops crashing.
+5.  Return to the Deployment detail page (**Navigation menu** > **Kubernetes Engine** > **Workloads** > **productcatalogservice**), and wait until the pod runs successfully. Wait 2-3 minutes or until you can confirm it stops crashing.
     
 
 ![The Deployment details page displaying the highlighted Active revisions section](https://cdn.qwiklabs.com/lVA7aZKviZQLRRohVWGYfoxpeHqNKWmUfCtsw7q4mRU%3D align="left")
 
-6. If you click the **Container logs** link again, note that the repeating `successfully parsing the catalog json` messages are gone:
+6.  If you click the **Container logs** link again, note that the repeating `successfully parsing the catalog json` messages are gone:
     
 
 ![The Query builder page](https://cdn.qwiklabs.com/7q2qoOrROw5OhuDhgQPEHGHZ%2FXeSw2E11oyAEXdUgVs%3D align="left")
 
-7. If you go back to the webapp URL and click the products on the home page, it's also much more responsive and you shouldn't encounter any HTTP errors.
+7.  If you go back to the webapp URL and click the products on the home page, it's also much more responsive and you shouldn't encounter any HTTP errors.
     
-8. Go back to the load generator, click the **Reset Stats** button in the top right. The failure percentage is reset and you should not see it increasing anymore.
+8.  Go back to the load generator, click the **Reset Stats** button in the top right. The failure percentage is reset and you should not see it increasing anymore.
     
 
 ![The failure percentage displaying 0 percent](https://cdn.qwiklabs.com/BGsaWaM%2BnKrfmTi2SqszNDlvOrWhXjLOfXcVM0hRfBQ%3D align="left")
 
 All these checks indicate that the issue is fixed. If you are still seeing the 500-error, wait another couple of minutes and try clicking on a product again.
 
----
+* * *
 
 ## Solution of Lab
 
@@ -743,7 +743,7 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP736
 source lab.sh
 ```
 
----
+* * *
 
 ### Manual
 
