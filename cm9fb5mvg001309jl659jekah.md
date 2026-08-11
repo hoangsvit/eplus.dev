@@ -377,6 +377,20 @@ source lab.sh
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5d069502-83b7-4e5a-a0be-fc299dd593d0.png align="center")
 
+Login **Customer A**
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/e6274271-178e-49f1-90ad-dbc8fe4b51f9.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c779f463-0fb6-40dd-add2-d7c6527414ad.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/fe7e8bcc-b472-4b12-a4df-f4adeb24d8f6.png align="center")
+
+Log in as **Customer B**: perform the same steps as logging in as **Customer A**.
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/7ad71890-f1c4-413f-bacb-c4113f00e117.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9cf29542-d24f-4cb9-86e4-0a3861b57fca.png align="center")
+
 * * *
 
 ### Other Solution
