@@ -574,7 +574,7 @@ Log in as **Customer B**: perform the same steps as logging in as **Customer A**
     
 3.  Create a Blank Report.
     
-4.  Add BigQuery data: Project : \`qwiklabs-gcp-02-599d29d14457\`  
+4.  Add BigQuery data: Project : `qwiklabs-gcp-02-599d29d14457`  
     Dataset : **customer\_b\_dataset**  
     Table : **customer\_b\_table**
     
