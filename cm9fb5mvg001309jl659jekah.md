@@ -364,6 +364,23 @@ Verify shared authorized views in customer projects
 
 ### Quick
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/76563e0f-2bd5-4fc9-96ff-e811177f91cc.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/334a4c9f-533c-42af-87a9-e7c1b250ee5c.png align="center")
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1041/lab.sh
+source lab.sh
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/38b0b4d5-939e-4fdd-b3b0-485f8490e749.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/5d069502-83b7-4e5a-a0be-fc299dd593d0.png align="center")
+
+* * *
+
+### Other Solution
+
 %[https://www.youtube.com/watch?v=40cfZfOTAro] 
 
 * * *
