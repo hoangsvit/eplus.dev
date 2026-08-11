@@ -150,6 +150,10 @@ Value: `payment_type`
 
 **Task 4**
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ee9fb668-4dc3-43b2-a742-8cd7600b02d4.png align="center")
+
+**pickup\_datetime**, **dropoff\_datetime**, **trip\_distance**, and **fare\_amount**
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726114911682/7e571171-f258-4b0a-97b7-ea89a29a35dd.png align="center")
 
 **Task 5**
