@@ -140,6 +140,12 @@ Calculate columns in Connected Sheets
 
 **Task 3**
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/542622b7-79a1-4297-9f42-46abc2c0f705.png align="center")
+
+Label: `fare_amount`
+
+Value: `payment_type`
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1726114895167/80dda453-8d2e-4393-8fa8-202e46ca13da.png align="center")
 
 **Task 4**
