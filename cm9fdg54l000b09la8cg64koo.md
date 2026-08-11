@@ -228,6 +228,41 @@ The visualization should resemble the following:
 
 ## Solution of Lab
 
+### Quick
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/76563e0f-2bd5-4fc9-96ff-e811177f91cc.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/334a4c9f-533c-42af-87a9-e7c1b250ee5c.png align="center")
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP375/lab.sh
+source lab.sh
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/003d6eee-775e-4413-a672-cbf8037d0b25.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4940a6ab-8def-4a82-9dd8-80a6998dd696.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/7602934b-7bc6-4f90-b7dd-77ef40c72505.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/59ac7722-4344-463b-b594-9d538df66944.png align="center")
+
+Login **Customer Username**  
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/7b944cf6-8ec0-454a-827f-5d9018d73cfa.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/396753c0-af84-476d-ba42-6b4a281ed465.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b7b1119c-29bf-4527-8172-18ca1c41f561.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/fb91ea1b-21a2-4d2c-95dd-cb0e160fc75e.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/092d9249-85ce-4ba0-94ee-0996c6297926.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/7aea034d-1be9-4532-92e9-b4ac1dfee10d.png align="center")
+
+* * *
+
 ### Manual
 
 %[https://www.youtube.com/watch?v=It_atH4LTMU] 
