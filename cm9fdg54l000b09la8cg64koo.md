@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2025-04-13T08:17:11.925Z
 cuid: cm9fdg54l000b09la8cg64koo
 slug: share-data-using-google-data-cloud-challenge-lab-gsp375
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744530257626/34980ecc-8975-4497-bd28-429f71c4f84b.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744532215124/63d2b2b6-6e3b-441a-b29d-796e1a2ec0c6.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a7e4ee2f-5648-4883-b7fc-1400b4ec0cb4.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/9294a4f7-1f78-4925-acc9-fb9c9f624aa1.png
 tags: share-data-using-google-data-cloud-challenge-lab-gsp375, share-data-using-google-data-cloud-challenge-lab, gsp375
 
 ---
@@ -23,13 +23,13 @@ This lab is recommended for students who have enrolled in the [Share Data Using 
 
 ### Topics tested:
 
-* Share BigQuery datasets across Google Cloud projects
+*   Share BigQuery datasets across Google Cloud projects
     
-* Enrich datasets based on a curated data
+*   Enrich datasets based on a curated data
     
-* Enable bi-directional data exchange
+*   Enable bi-directional data exchange
     
-* Create a visualization in Looker Studio
+*   Create a visualization in Looker Studio
     
 
 ### Setup and requirements
@@ -42,12 +42,12 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
@@ -66,7 +66,7 @@ Your first task as a Data Sharing Partner is to copy a BigQuery public dataset i
 
 For this task, you will need to be logged into the **Data Sharing Partner Project Console** with the associated credentials.
 
-1. Create an authorized view named `authorized_view_sx7w` based off of the following query. Save it inside `demo_dataset`.
+1.  Create an authorized view named `authorized_view_sx7w` based off of the following query. Save it inside `demo_dataset`.
     
 
 ```apache
@@ -88,18 +88,18 @@ Create the partner authorized view
 
 Next, you will need to assign IAM permissions by authorizing the view in the dataset.
 
-1. Authorize the `authorized_view_sx7w` view you just created.
+1.  Authorize the `authorized_view_sx7w` view you just created.
     
 
 ### Assign IAM permissions for the customer user
 
 Next, you will need to grant the *Customer* user the **BigQuery Data Viewer** role on the authorized view you created.
 
-1. Grant the customer user access to the `authorized_view_sx7w` view.
+1.  Grant the customer user access to the `authorized_view_sx7w` view.
     
-    * Their username is: `student-00-182bd4e88f65@qwiklabs.net`
+    *   Their username is: `student-00-182bd4e88f65@qwiklabs.net`
         
-    * Grant them the **BigQuery Data Viewer** role
+    *   Grant them the **BigQuery Data Viewer** role
         
 
 Click Check my progress to verify the objective.
@@ -114,7 +114,7 @@ In this task, you will be acting as the customer. Your next step is to run a que
 
 For this task, you will need to be logged into the **Customer Project Console** with the associated credentials.
 
-1. Execute the query below to update the county value in the customer table.
+1.  Execute the query below to update the county value in the customer table.
     
 
 ```apache
@@ -142,7 +142,7 @@ In this section, you will need to create a customer authorized view and grant ac
 
 For this task, you will need to be logged into the **Customer Project Console** with the associated credentials.
 
-1. Create an authorized view named `customer_authorized_view_u82d` based off of the following query that lists the counties and number of customers in the listed counties. Save it inside `customer_dataset`.
+1.  Create an authorized view named `customer_authorized_view_u82d` based off of the following query that lists the counties and number of customers in the listed counties. Save it inside `customer_dataset`.
     
 
 ```apache
@@ -168,18 +168,18 @@ Create the customer authorized view
 
 Next, you will need to assign IAM permissions by authorizing the customer view in the dataset.
 
-1. Authorize the`customer_authorized_view_u82d` view you just created.
+1.  Authorize the`customer_authorized_view_u82d` view you just created.
     
 
 ### Assign IAM permissions for the partner user
 
 Next, you will need to grant the *Data Sharing Partner* user the **BigQuery Data Viewer** role on the customer authorized view you created.
 
-1. Grant the Data Sharing Partner user access to the`customer_authorized_view_u82d` view.
+1.  Grant the Data Sharing Partner user access to the`customer_authorized_view_u82d` view.
     
-    * Their username is: `student-02-007aa3bf4469@qwiklabs.net`
+    *   Their username is: `student-02-007aa3bf4469@qwiklabs.net`
         
-    * Grant them the **BigQuery Data Viewer** role
+    *   Grant them the **BigQuery Data Viewer** role
         
 
 Click Check my progress to verify the objective.
@@ -196,11 +196,11 @@ For this task, you will need to be logged into the **Data Sharing Partner Projec
 
 ### Connect BigQuery to Looker Studio
 
-1. Open [Google Looker Studio](https://datastudio.google.com/) and create a **Blank Report**.
+1.  Open [Google Looker Studio](https://datastudio.google.com/) and create a **Blank Report**.
     
-2. Connect **BigQuery** and authorize to Looker Studio.
+2.  Connect **BigQuery** and authorize to Looker Studio.
     
-3. From **My Projects** on the left pane, navigate to the customer project and select `customer_authorized_view_u82d`. Add the table to the blank report.
+3.  From **My Projects** on the left pane, navigate to the customer project and select `customer_authorized_view_u82d`. Add the table to the blank report.
     
 
 Click Check my progress to verify the objective.
@@ -211,20 +211,20 @@ Connect BigQuery to Looker Studio
 
 ### Create a visualization in Looker Studio
 
-1. Create a visualization with the following requirements:
+1.  Create a visualization with the following requirements:
     
-    * Report name: `Data Sharing Partner Vizualization`
+    *   Report name: `Data Sharing Partner Vizualization`
         
-    * For the visualization, insert a **Column Chart**
+    *   For the visualization, insert a **Column Chart**
         
-    * For the Column Chart, set `county` as the **Dimension** and `Count` as the **Breakdown Dimension** and **Metric**.
+    *   For the Column Chart, set `county` as the **Dimension** and `Count` as the **Breakdown Dimension** and **Metric**.
         
 
 The visualization should resemble the following:
 
 ![visualization of report](https://cdn.qwiklabs.com/o%2BDUSbgiGGVEa2nEYuN6GT6MzcJdMBQcKCiKpBrrpYw%3D align="left")
 
----
+* * *
 
 ## Solution of Lab
 
@@ -234,9 +234,9 @@ The visualization should resemble the following:
 
 🔑 **Work in the Data Sharing Partner Project Console**
 
-1. Open **BigQuery Console** → make sure you are in the **Data Sharing Partner project**.
+1.  Open **BigQuery Console** → make sure you are in the **Data Sharing Partner project**.
     
-2. Create the authorized view inside `demo_dataset`:
+2.  Create the authorized view inside `demo_dataset`:
     
 
 ```apache
@@ -249,29 +249,29 @@ FROM
 
 ✅ **Authorize the view:**
 
-* Go to `demo_dataset` → **SHARE DATASET** → **Authorized Views**
+*   Go to `demo_dataset` → **SHARE DATASET** → **Authorized Views**
     
-* Add the view: `demo_dataset.authorized_view_b9g4`
+*   Add the view: `demo_dataset.authorized_view_b9g4`
     
 
 ✅ **Grant IAM permissions to the customer user:**
 
-* Go to **IAM** → **Grant Access**
+*   Go to **IAM** → **Grant Access**
     
-* Add email: `student-01-a8002e448ea7@qwiklabs.net`
+*   Add email: `student-01-a8002e448ea7@qwiklabs.net`
     
-* Role: **BigQuery Data Viewer**
+*   Role: **BigQuery Data Viewer**
     
 
----
+* * *
 
 ### 🥈 Task 2: Update the Customer Data Table
 
 🔑 **Work in the Customer Project Console**
 
-1. Open **BigQuery Console** → switch to the **Customer project**.
+1.  Open **BigQuery Console** → switch to the **Customer project**.
     
-2. Run the following query to update the `county` field:
+2.  Run the following query to update the `county` field:
     
 
 ```apache
@@ -288,13 +288,13 @@ WHERE
 👉 You should see this result:  
 `This statement modified 14 rows in customer_info.`
 
----
+* * *
 
 ### 🥉 Task 3: Create the Customer Authorized View
 
 🔑 **Still in the Customer Project Console**
 
-1. Create the authorized view inside `customer_dataset`:
+1.  Create the authorized view inside `customer_dataset`:
     
 
 ```apache
@@ -312,43 +312,43 @@ HAVING
 
 ✅ **Authorize the view:**
 
-* Go to `customer_dataset` → **SHARE DATASET** → **Authorized Views**
+*   Go to `customer_dataset` → **SHARE DATASET** → **Authorized Views**
     
-* Add: `customer_dataset.customer_authorized_view_mz9o`
+*   Add: `customer_dataset.customer_authorized_view_mz9o`
     
 
 ✅ **Grant IAM permissions to the partner user:**
 
-* Go to **IAM** → **Grant Access**
+*   Go to **IAM** → **Grant Access**
     
-* Add email: `student-01-52643675794b@qwiklabs.net`
+*   Add email: `student-01-52643675794b@qwiklabs.net`
     
-* Role: **BigQuery Data Viewer**
+*   Role: **BigQuery Data Viewer**
     
 
----
+* * *
 
 ### 🏆 Task 4: Create a Visualization with Looker Studio
 
 🔑 **Switch back to the Data Sharing Partner Project**
 
-1. Open Looker Studio → create a **Blank Report**.
+1.  Open Looker Studio → create a **Blank Report**.
     
-2. Connect to **BigQuery** → go to **My Projects** → navigate to the **Customer project** → select:
+2.  Connect to **BigQuery** → go to **My Projects** → navigate to the **Customer project** → select:
     
     ```apache
     customer_dataset.customer_authorized_view_mz9o
     ```
     
-3. Build the visualization:
+3.  Build the visualization:
     
-    * **Report name:** `Data Sharing Partner Visualization`
+    *   **Report name:** `Data Sharing Partner Visualization`
         
-    * Insert a **Vertical Bar Chart**
+    *   Insert a **Vertical Bar Chart**
         
-    * **Dimension:** `county`
+    *   **Dimension:** `county`
         
-    * **Metric:** `Count`
+    *   **Metric:** `Count`
         
 
 ✅ The chart should display the number of customers by county.
