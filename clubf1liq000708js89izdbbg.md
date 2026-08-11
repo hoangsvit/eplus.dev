@@ -29,12 +29,12 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
@@ -55,24 +55,24 @@ As part of the sandbox environment, your developers have created an Artifact Reg
 
 Your tasks will include the following:
 
-* Creating a GKE cluster based on a set of configurations provided.
+*   Creating a GKE cluster based on a set of configurations provided.
     
-* Enabling Managed Prometheus on the cluster for metrics monitoring.
+*   Enabling Managed Prometheus on the cluster for metrics monitoring.
     
-* Deploying a Kubernetes manifest onto the cluster, and debugging the errors.
+*   Deploying a Kubernetes manifest onto the cluster, and debugging the errors.
     
-* Creating a logs-based metric and alerting policy for the errors on the Kubernetes cluster.
+*   Creating a logs-based metric and alerting policy for the errors on the Kubernetes cluster.
     
-* Fixing the manifest errors, containerizing your application code and pushing it to Artifact Registry using Docker.
+*   Fixing the manifest errors, containerizing your application code and pushing it to Artifact Registry using Docker.
     
-* Exposing a service for your application on the cluster and verifying your updates.
+*   Exposing a service for your application on the cluster and verifying your updates.
     
 
 ## Task 1. Create a GKE cluster
 
 The new Cymbal Shops e-commerce website will run natively on GKE and the team would like to see your experience working and setting up clusters. In this section, you will need to create a Kubernetes cluster based on a set of configurations provided to run your demo applications on.
 
-1. Create a GKE cluster named `hello-world-k9el` with the following configuration:
+1.  Create a GKE cluster named `hello-world-k9el` with the following configuration:
     
 
 | **Setting** | **Value** |
@@ -93,11 +93,11 @@ Create a GKE cluster
 
 As part of the e-commerce website strategy, Cymbal Shops would like to start using Managed Prometheus for metrics and monitoring on the cluster to ensure a good experience for their customers. In this section, you will enable Managed Prometheus on the cluster for metric monitoring and create a namespace to deploy a sample Prometheus application and pod monitoring on.
 
-1. Enable the Prometheus managed collection on the GKE cluster.
+1.  Enable the Prometheus managed collection on the GKE cluster.
     
-2. Create a namespace on the cluster named `gmp-d252`.
+2.  Create a namespace on the cluster named `gmp-d252`.
     
-3. Download a sample Prometheus app:
+3.  Download a sample Prometheus app:
     
 
 ```apache
@@ -106,17 +106,17 @@ gsutil cp gs://spls/gsp510/prometheus-app.yaml .
 
 Copied!
 
-4. Update the `<todo>` sections (lines 35-38) with the following configuration.
+4.  Update the `<todo>` sections (lines 35-38) with the following configuration.
     
-    * **containers.image**: `nilebox/prometheus-example-app:latest`
+    *   **containers.image**: `nilebox/prometheus-example-app:latest`
         
-    * **containers.name:** `prometheus-test`
+    *   **containers.name:** `prometheus-test`
         
-    * **ports.name**: `metrics`
+    *   **ports.name**: `metrics`
         
-5. Deploy the application onto the `gmp-d252` namespace on your GKE cluster.
+5.  Deploy the application onto the `gmp-d252` namespace on your GKE cluster.
     
-6. Download the `pod-monitoring.yaml` file:
+6.  Download the `pod-monitoring.yaml` file:
     
 
 ```apache
@@ -125,17 +125,17 @@ gsutil cp gs://spls/gsp510/pod-monitoring.yaml .
 
 Copied!
 
-7. Update the `<todo>` sections (lines 18-24) with the following configuration:
+7.  Update the `<todo>` sections (lines 18-24) with the following configuration:
     
-    * **metadata.name**: `prometheus-test`
+    *   **metadata.name**: `prometheus-test`
         
-    * **labels.app.kubernetes.io/name**: `prometheus-test`
+    *   **labels.app.kubernetes.io/name**: `prometheus-test`
         
-    * **matchLabels.app**: `prometheus-test`
+    *   **matchLabels.app**: `prometheus-test`
         
-    * **endpoints.interval**: `30s`
+    *   **endpoints.interval**: `30s`
         
-8. Apply the pod monitoring resource onto the `gmp-d252` namespace on your GKE cluster.
+8.  Apply the pod monitoring resource onto the `gmp-d252` namespace on your GKE cluster.
     
 
 Click **Check my progress** to verify the objective.
@@ -146,7 +146,7 @@ Enable Managed Prometheus on the GKE cluster
 
 The development team at Cymbal Shops will be consistently releasing new application code to the cluster that you will have to successfully deploy into production. In this section, you will deploy a Kubernetes manifest onto the cluster and inspect the issue.
 
-1. Download the demo deployment manifest files:
+1.  Download the demo deployment manifest files:
     
 
 ```apache
@@ -155,9 +155,9 @@ gsutil cp -r gs://spls/gsp510/hello-app/ .
 
 Copied!
 
-2. Create a deployment onto the `gmp-d252` namespace on your GKE cluster from the `helloweb-deployment.yaml` manifest file. It is located in the `hello-app/manifests` folder.
+2.  Create a deployment onto the `gmp-d252` namespace on your GKE cluster from the `helloweb-deployment.yaml` manifest file. It is located in the `hello-app/manifests` folder.
     
-3. Verify you have created the deployment, and navigate to the **helloweb** deployment details page. You should see the following error:
+3.  Verify you have created the deployment, and navigate to the **helloweb** deployment details page. You should see the following error:
     
 
 ![invalid image name error](https://cdn.qwiklabs.com/OONay%2Feg%2FuH6FbRql2BVYFxbv%2FrWV1ER97BP1RRyjbY%3D align="left")
@@ -174,7 +174,7 @@ Cymbal Shops would like to set up some logs based metrics and alerting policies 
 
 ### Create a logs-based metric
 
-1. In the Logs Explorer, create a query that exposes warnings/errors you saw in the previous section on the cluster.
+1.  In the Logs Explorer, create a query that exposes warnings/errors you saw in the previous section on the cluster.
     
 
 **Hint:** your query should have just one *Resource Type* and one *Severity* selected.
@@ -186,30 +186,30 @@ Error: InvalidImageName
 Failed to apply default image tag "<todo>": couldn't parse image reference "<todo>": invalid reference format
 ```
 
-2. Create a logs-based metric from this query. For **Metric type**, use **Counter** and for the **Log Metric Name** use `pod-image-errors`.
+2.  Create a logs-based metric from this query. For **Metric type**, use **Counter** and for the **Log Metric Name** use `pod-image-errors`.
     
 
 ### Create an alerting policy
 
-1. Create an Alerting Policy based on the logs-based metric you just created. Use the following details to configure your policy:
+1.  Create an Alerting Policy based on the logs-based metric you just created. Use the following details to configure your policy:
     
-    * **Rolling Window**: `10 min`
+    *   **Rolling Window**: `10 min`
         
-    * **Rolling window function**: `Count`
+    *   **Rolling window function**: `Count`
         
-    * **Time series aggregation**: `Sum`
+    *   **Time series aggregation**: `Sum`
         
-    * **Condition type**: `Threshold`
+    *   **Condition type**: `Threshold`
         
-    * **Alert trigger**: `Any time series violates`
+    *   **Alert trigger**: `Any time series violates`
         
-    * **Threshold position**: `Above threshold`
+    *   **Threshold position**: `Above threshold`
         
-    * **Threshold value**: `0`
+    *   **Threshold value**: `0`
         
-    * **Use notification channel**: ***Disable***
+    *   **Use notification channel**: ***Disable***
         
-    * **Alert policy name**: `Pod Error Alert`
+    *   **Alert policy name**: `Pod Error Alert`
         
 
 Click **Check my progress** to verify the objective.
@@ -220,13 +220,13 @@ Create a logs-based metric and alerting policy
 
 The development team would like to see you demonstrate your knowledge on deleting and updating deployments on the cluster in case of an error. In this section, you will update a Kubernetes manifest with a correct image reference, delete a deployment, and deploy the updated application onto the cluster.
 
-1. Replace the `<todo>` in the image section in the `helloweb-deployment.yaml` deployment manifest with the following image:
+1.  Replace the `<todo>` in the image section in the `helloweb-deployment.yaml` deployment manifest with the following image:
     
-    * `us-docker.pkg.dev/google-samples/containers/gke/hello-app:1.0`
+    *   `us-docker.pkg.dev/google-samples/containers/gke/hello-app:1.0`
         
-2. **Delete** the **helloweb** deployment from your cluster.
+2.  **Delete** the **helloweb** deployment from your cluster.
     
-3. Deploy the updated `helloweb-deployment.yaml` manifest onto your cluster on the `gmp-d252` namespace.
+3.  Deploy the updated `helloweb-deployment.yaml` manifest onto your cluster on the `gmp-d252` namespace.
     
 
 You should verify that it has deployed correctly with no errors. Your Kubernetes Workloads page should resemble the following:
@@ -243,20 +243,20 @@ Lastly, as part of the Cymbal Shops e-commerce strategy, the application team wi
 
 In this section, you will containerize your application code, update an image in Artifact Registry, and set that to the image on your cluster. Your team has a repository in Artifact Registry named `demo-repo` that contains a containerized version of the `hello-app` sample app in Docker. You will update the code for the build locally, then push a new version to the repository.
 
-1. In the `hello-app` directory, update the **main.go** file to use `Version: 2.0.0` on line 49.
+1.  In the `hello-app` directory, update the **main.go** file to use `Version: 2.0.0` on line 49.
     
-2. Use the `hello-app/Dockerfile` to create a Docker image with the `v2` tag.
+2.  Use the `hello-app/Dockerfile` to create a Docker image with the `v2` tag.
     
 
 **Note:** you should follow the Artifact Registry naming conventions as detailed [here](https://cloud.google.com/artifact-registry/docs/docker/names#containers).
 
-3. Push the newly built Docker image to your repository in Artifact Registry using the `v2` tag.
+3.  Push the newly built Docker image to your repository in Artifact Registry using the `v2` tag.
     
-4. Set the image on your **helloweb** deployment to reflect the `v2` image you pushed to Artifact Registry.
+4.  Set the image on your **helloweb** deployment to reflect the `v2` image you pushed to Artifact Registry.
     
-5. Expose the **helloweb** deployment to a LoadBalancer service named `helloweb-service-5lt3` on port 8080, and set the target port of the container to the one specified in the Dockerfile.
+5.  Expose the **helloweb** deployment to a LoadBalancer service named `helloweb-service-5lt3` on port 8080, and set the target port of the container to the one specified in the Dockerfile.
     
-6. Navigate to the external load balancer IP address of the `helloweb-service-5lt3` service, and you should see the following text returned by the service:
+6.  Navigate to the external load balancer IP address of the `helloweb-service-5lt3` service, and you should see the following text returned by the service:
     
 
 ```apache
@@ -271,25 +271,11 @@ Click **Check my progress** to verify the objective.
 
 Containerize your code and deploy it onto the cluster
 
----
+* * *
 
 ## Solution of Lab
 
 ### Quick
-
-1. Create metric: [https://console.cloud.google.com/logs/metrics/edit](https://console.cloud.google.com/logs/metrics/edit)
-    
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757781532932/c286ae2f-cbf6-4211-a5b4-eb7300f20de7.png align="center")
-    
-    ```apache
-    pod-image-errors
-    ```
-    
-    ```apache
-    resource.type="k8s_pod"
-    severity=WARNING
-    ```
-    
 
 **Run the following Commands in CloudShell**
 
@@ -298,17 +284,11 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP510
 source lab.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757778863011/2eb48906-64b2-4c31-9b38-f9dc77ef3b08.png align="center")
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c2cdff39-e905-4d82-811e-92b9a78497c1.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757782221010/a501f430-28a8-40bf-b89c-9b7e816c47bc.png align="center")
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/d29d2963-69a5-414e-9935-bc6be060834f.png align="center")
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757778868823/c85a6b3d-169f-4cf4-bccf-14dbbc9d275e.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757778876855/a8302060-a541-4b54-8928-1dab400d1eaf.png align="center")
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757778880588/3e760984-4ced-4a9b-97a0-a422508576dd.png align="center")
-
----
+* * *
 
 ### New Solution
 
@@ -348,7 +328,7 @@ sudo chmod +x quicklabgsp510.sh
 ./quicklabgsp510.sh
 ```
 
----
+* * *
 
 ### Old Solution
 
@@ -386,7 +366,7 @@ sudo chmod +x quicklabgsp510.sh
 ./quicklabgsp510.sh
 ```
 
----
+* * *
 
 ```powershell
 gcloud config set compute/zone $ZONE
