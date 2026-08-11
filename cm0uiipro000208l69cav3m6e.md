@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-09-09T04:38:21.684Z
 cuid: cm0uiipro000208l69cav3m6e
 slug: implement-ci-cd-pipelines-on-google-cloud-challenge-lab-gsp393
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725856043036/b395586f-d771-4f5a-81fd-d6b5bf61dee3.jpeg
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725856679812/4ffc8b20-a3a1-429e-ab44-9e2c226133a2.jpeg
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1dd44498-3ef7-4583-b2e0-52aa9685387d.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/6de70b72-bde8-4293-b125-f99f79385bd4.png
 tags: implement-cicd-pipelines-on-google-cloud-challenge-lab-gsp393, gsp393, implement-cicd-pipelines-on-google-cloud-challenge-lab
 
 ---
@@ -23,13 +23,13 @@ This lab is recommended for students enrolled in the [Implement CI/CD Pipelines 
 
 ### Topics tested
 
-* Using Cloud Build and Artifact Registry for containers.
+*   Using Cloud Build and Artifact Registry for containers.
     
-* Setting up Cloud Deploy pipelines using Skaffold.
+*   Setting up Cloud Deploy pipelines using Skaffold.
     
-* Deploying to multiple environments with promotion approvals.
+*   Deploying to multiple environments with promotion approvals.
     
-* Rolling back deployments.
+*   Rolling back deployments.
     
 
 ## **Setup**
@@ -42,12 +42,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -60,15 +60,15 @@ You have started a new role as a Cloud Engineer for Jooli Inc. New management ha
 
 By the end of the day, management would like to see a proof of concept that can address all of the following:
 
-* Container images stored in a secure and reliable registry.
+*   Container images stored in a secure and reliable registry.
     
-* Automatic container image scanning with detailed reports on security vulnerabilities.
+*   Automatic container image scanning with detailed reports on security vulnerabilities.
     
-* A test web application running on managed infrastructure.
+*   A test web application running on managed infrastructure.
     
-* A CI/CD pipeline defined as code in order to eliminate manual errors.
+*   A CI/CD pipeline defined as code in order to eliminate manual errors.
     
-* A reliable, easy, and quick way to deploy code and promote to a production-like environment or rollback if necessary.
+*   A reliable, easy, and quick way to deploy code and promote to a production-like environment or rollback if necessary.
     
 
 You're expected to help manage the Cloud infrastructure and deployment tools at Jooli. Common tasks include provisioning resources for projects and implementing new products and services to ensure Jooli Inc. is modernizing effectively and following best practices.
@@ -77,35 +77,35 @@ You are expected to have the skills and knowledge for these tasks, so step-by-st
 
 Some Jooli Inc. standards you should follow:
 
-* Create all resources in the `us-west1` region, unless otherwise directed.
+*   Create all resources in the `us-west1` region, unless otherwise directed.
     
-* Use the project default VPC.
+*   Use the project default VPC.
     
-* Allocate cost effective resource sizes. Projects are monitored and excessive resource use will result in the containing project's termination (and possibly yours), so beware. This is the guidance the monitoring team is willing to share; unless directed, use the default machine types.
+*   Allocate cost effective resource sizes. Projects are monitored and excessive resource use will result in the containing project's termination (and possibly yours), so beware. This is the guidance the monitoring team is willing to share; unless directed, use the default machine types.
     
 
 ### Your challenge
 
 As soon as you sit down at your desk and open your new laptop, you receive the following request to complete a set of tasks. Good luck!
 
-1. PRE-WORK - Enable APIs, Create GKE clusters and create an docker repository in Artifact Registry.
+1.  PRE-WORK - Enable APIs, Create GKE clusters and create an docker repository in Artifact Registry.
     
-2. Clone source code, build image, and push to artifact registry.
+2.  Clone source code, build image, and push to artifact registry.
     
-3. Create delivery pipeline, targets, and release.
+3.  Create delivery pipeline, targets, and release.
     
-4. Rebuild and push image, tag with latest.
+4.  Rebuild and push image, tag with latest.
     
-5. Create new release with latest version.
+5.  Create new release with latest version.
     
-6. Promote the latest release to second cluster.
+6.  Promote the latest release to second cluster.
     
-7. Rollback changes to second cluster, modify, and re-release.
+7.  Rollback changes to second cluster, modify, and re-release.
     
 
 ## **Task 1. Prework - Set up environment, enable APIs and create clusters**
 
-1. Set up environment variables for your Project ID (this is important as it is used in several of the configuration files below). You can use the commands below:
+1.  Set up environment variables for your Project ID (this is important as it is used in several of the configuration files below). You can use the commands below:
     
 
 ```apache
@@ -115,16 +115,16 @@ export REGION=us-west1
 gcloud config set compute/region $REGION
 ```
 
-2. Enable the following services in your Google Cloud project using the following commands:
+2.  Enable the following services in your Google Cloud project using the following commands:
     
 
-* container.googleapis.com
+*   container.googleapis.com
     
-* clouddeploy.googleapis.com
+*   clouddeploy.googleapis.com
     
-* artifactregistry.googleapis.com
+*   artifactregistry.googleapis.com
     
-* cloudbuild.googleapis.com
+*   cloudbuild.googleapis.com
     
 
 ```apache
@@ -135,7 +135,7 @@ artifactregistry.googleapis.com \
 cloudbuild.googleapis.com
 ```
 
-3. Enable permissions for both Kubernetes and Cloud Deploy using the following commands:
+3.  Enable permissions for both Kubernetes and Cloud Deploy using the following commands:
     
 
 ```apache
@@ -150,7 +150,7 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
 --role="roles/container.developer"
 ```
 
-4. Create an Artifact Repository
+4.  Create an Artifact Repository
     
 
 Create a repository for storing your Docker containers.
@@ -164,7 +164,7 @@ gcloud artifacts repositories create cicd-challenge \
 --location=$REGION
 ```
 
-5. Create the Google Kubernetes Engine clusters
+5.  Create the Google Kubernetes Engine clusters
     
 
 Create two GKE clusters for Staging and Production named `cd-staging` and `cd-production`. Clusters should be single zone and single node.
@@ -176,7 +176,7 @@ gcloud container clusters create cd-production --node-locations=us-west1-a --num
 
 ## **Task 2. Build the images and upload to the repository**
 
-1. Clone the repository for the lab into your home directory using the commands below:
+1.  Clone the repository for the lab into your home directory using the commands below:
     
 
 ```apache
@@ -187,7 +187,7 @@ git checkout c3cae80 --quiet
 cd tutorials/base
 ```
 
-2. Create the skaffold.yaml configuration using the command below:
+2.  Create the skaffold.yaml configuration using the command below:
     
 
 ```apache
@@ -197,7 +197,7 @@ cat web/skaffold.yaml
 
 The web directory now contains the skaffold.yaml configuration file, which provides instructions for Skaffold to build a container image for your application.
 
-3. Run the skaffold command to build the application and deploy the container image to the Artifact Registry repository previously created:
+3.  Run the skaffold command to build the application and deploy the container image to the Artifact Registry repository previously created:
     
 
 **HINT: use the full path to the repository you created earlier**
@@ -218,7 +218,7 @@ Validate that the container was created and added to the repository
 
 Run the following commands to copy the pipeline template file:
 
-1. Create the delivery-pipeline resource using the delivery-pipeline.yaml file:
+1.  Create the delivery-pipeline resource using the delivery-pipeline.yaml file:
     
 
 ```apache
@@ -228,11 +228,11 @@ sed -i "s/targetId: prod/targetId: cd-production/" clouddeploy-config/delivery-p
 sed -i "/targetId: test/d" clouddeploy-config/delivery-pipeline.yaml
 ```
 
-2. **Set the deployment region using the** `deploy/region` configuration parameter.
+2.  **Set the deployment region using the** `deploy/region` configuration parameter.
     
-3. **Apply the pipeline configuration you created above using thef** `gcloud beta deploy` command
+3.  **Apply the pipeline configuration you created above using thef** `gcloud beta deploy` command
     
-4. Verify the delivery pipeline was created using the command below:
+4.  Verify the delivery pipeline was created using the command below:
     
 
 ```apache
@@ -247,7 +247,7 @@ Two delivery pipeline targets will be created - one for each of the GKE clusters
 
 The two GKE clusters should now be running but it's useful to verify this.
 
-* Get the status of the clusters:
+*   Get the status of the clusters:
     
 
 ```apache
@@ -258,7 +258,7 @@ All clusters should be in the RUNNING state, as indicated in the output below. I
 
 #### **Create a context for each cluster**
 
-* Use the commands below to get the credentials for each cluster and create an easy-to-use kubectl context for referencing the clusters later:
+*   Use the commands below to get the credentials for each cluster and create an easy-to-use kubectl context for referencing the clusters later:
     
 
 ```apache
@@ -272,7 +272,7 @@ done
 
 #### **Create a namespace in each cluster**
 
-* Use the commands below to create a Kubernetes namespace (web-app) in each of the clusters:
+*   Use the commands below to create a Kubernetes namespace (web-app) in each of the clusters:
     
 
 ```apache
@@ -284,7 +284,7 @@ done
 
 #### **Create the delivery pipeline targets**
 
-1. Create a target definition file for each of the targets using the commands below (no changes needed):
+1.  Create a target definition file for each of the targets using the commands below (no changes needed):
     
 
 ```apache
@@ -295,7 +295,7 @@ sed -i "s/staging/cd-staging/" clouddeploy-config/target-cd-staging.yaml
 sed -i "s/prod/cd-production/" clouddeploy-config/target-cd-production.yaml
 ```
 
-2. **Apply the target files to Cloud Deploy.**
+2.  **Apply the target files to Cloud Deploy.**
     
 
 The targets are described in a yaml file. Each target configures the relevant cluster information for the target.
@@ -312,15 +312,15 @@ Verify that the Cloud Deploy targets have been created.
 
 ## **Task 4. Create a Release**
 
-1. Create a release using the `gcloud beta deploy releases` command and the skaffold and artifacts.json files you created earlier.
+1.  Create a release using the `gcloud beta deploy releases` command and the skaffold and artifacts.json files you created earlier.
     
 
-* Name the release `web-app-001` and use the delivery-pipeline `web-app`.
+*   Name the release `web-app-001` and use the delivery-pipeline `web-app`.
     
 
 **HINT: your source directory should be web/**
 
-* Verify that your application has been deployed to the staging environment (**cd-staging**) via the command below or in the console.
+*   Verify that your application has been deployed to the staging environment (**cd-staging**) via the command below or in the console.
     
 
 ```apache
@@ -337,7 +337,7 @@ Verify the release to the Staging environment
 
 ## **Task 5. Promote your application to production**
 
-* Promote your application from the Staging (**cd-staging**) environment to the Production (**cd-production**) environment.
+*   Promote your application from the Staging (**cd-staging**) environment to the Production (**cd-production**) environment.
     
 
 **HINT: Don't forget to approve the deployment!**
@@ -348,13 +348,13 @@ Verify the release to the Production environment
 
 ## **Task 6. Make a change to the application and redeploy it**
 
-1. Using the editor, open the `cloud-deploy-tutorials/tutorials/base/web/leeroy-app/` directory and modify the `app.go` file. Change line 24 to say: `fmt.Fprintf(w, "leeroooooy app v2!!\n")`
+1.  Using the editor, open the `cloud-deploy-tutorials/tutorials/base/web/leeroy-app/` directory and modify the `app.go` file. Change line 24 to say: `fmt.Fprintf(w, "leeroooooy app v2!!\n")`
     
-2. **Build the application and push to the Artifact Registry.**
+2.  **Build the application and push to the Artifact Registry.**
     
-3. **Create a new release on your pipeline you created earlier. Name the release** `web-app-002`
+3.  **Create a new release on your pipeline you created earlier. Name the release** `web-app-002`
     
-4. Verify the new version has been deployed to the staging environment.
+4.  Verify the new version has been deployed to the staging environment.
     
 
 ```apache
@@ -367,27 +367,36 @@ gcloud beta deploy rollouts list \
 
 Oh No! Your QA Engineers have found a bug in your release to staging so you will need to rollback to the previous version.
 
-1. **Use Cloud Deploy to rollback to the original version of the application -** `web-app-001`
+1.  **Use Cloud Deploy to rollback to the original version of the application -** `web-app-001`
     
-2. Verify that the original version is running.
+2.  Verify that the original version is running.
     
 
 Verify the rollback ran successfully
 
----
+* * *
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=H3woxiBCqPM&ab_channel=Techcps] 
+### Quick
 
-```apache
-export ZONE=
+%[https://www.youtube.com/watch?v=dhX1-KyFuNA] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP393/lab.sh
+source lab.sh
 ```
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1725856260034/8ab8be2f-9b57-4725-86c8-4e1a805d2cbc.png align="center")
+**Script Alternative**
 
-```apache
-curl -LO raw.githubusercontent.com/Techcps/GSP-Short-Trick/master/Implement%20CICD%20Pipelines%20on%20Google%20Cloud%3A%20Challenge%20Lab/techcps393.sh
-sudo chmod +x techcps393.sh
-./techcps393.sh
+```plaintext
+curl -LO https://raw.githubusercontent.com/manavyugai/Cloud-Monitoring/main/Implement%20CI-CD%20Pipelines%20on%20Google%20Cloud/Yogi.sh
+sudo chmod +x Yogi.sh
+./Yogi.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=uYvxwqBS3Xc]
