@@ -177,9 +177,9 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP351
 source lab.sh
 ```
 
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1450db34-eece-44af-8824-e711c0cc2013.png align="center")
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/3f75a07d-994d-466a-919a-030e138e51db.png align="center")
 
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/f6b0381b-de94-49bb-8481-47b776f39a60.png align="center")
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a3153e97-6bcd-4433-a459-6af91bb365e1.png align="center")
 
 * * *
 
