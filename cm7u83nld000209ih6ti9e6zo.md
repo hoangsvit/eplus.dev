@@ -172,7 +172,28 @@ Check my progress
 
 ### Quick
 
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP351/lab.sh
+source lab.sh
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1450db34-eece-44af-8824-e711c0cc2013.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/f6b0381b-de94-49bb-8481-47b776f39a60.png align="center")
+
+* * *
+
+### Old Solution
+
 %[https://www.youtube.com/watch?v=xtK2Zot-L9A] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP351/oldcurl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP351/lab.sh
+source lab.sh.sh
+source old.sh
+```
+
+**Script Alternative**
 
 ```plaintext
 curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Migrate%20MySQL%20Data%20to%20Cloud%20SQL%20using%20Database%20Migration%20Service%3A%20Challenge%20Lab/TechCode.sh
@@ -180,14 +201,13 @@ sudo chmod +x TechCode.sh
 ./TechCode.sh
 ```
 
-*   [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
-    
+[https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/e3470d11-6074-4891-abd6-29c100ff6a24.png align="center")
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/0f61a745-0ba6-4c6c-a566-ffdae0ed154f.png align="center")
 
-**For Database Migration: Click** [**Here**](https://console.cloud.google.com/dbmigration/migrations?)  
+**For Database Migration: Click** [**Here**](https://console.cloud.google.com/dbmigration/migrations?)
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c7606032-d4c5-4e7e-bd47-c47bffa3e317.png align="center")
 
