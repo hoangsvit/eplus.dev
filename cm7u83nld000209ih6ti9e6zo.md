@@ -339,4 +339,6 @@ Once connected to the MySQL console:
 
 ### Manual
 
-%[https://www.youtube.com/watch?v=nfWpoPPBu24]
+%[https://www.youtube.com/watch?v=nfWpoPPBu24] 
+
+%[https://www.youtube.com/watch?v=tKsYBSgewt8]
