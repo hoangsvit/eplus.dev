@@ -832,7 +832,7 @@ Because the service account has permissions, you can see the instances listed.
 
 * * *
 
-## Solution of the lab
+## Solution of lab
 
 ### Quick
 
