@@ -643,7 +643,7 @@ sudo chmod +x *.sh
 
 ### Manual
 
-%[https://www.youtube.com/watch?v=BMKPS7EeD0A] 
+%[https://www.youtube.com/watch?v=3ToSE0ucbmI] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP499/solution.sh
