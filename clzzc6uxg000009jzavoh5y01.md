@@ -706,6 +706,8 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP190
 source lab.sh
 ```
 
+* * *
+
 ### Old Solution
 
 %[https://www.youtube.com/watch?v=TgBqhF_O_7Q] 
@@ -729,3 +731,9 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/I
 sudo chmod +x gsp190.sh
 ./gsp190.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=DBx-U05oEWE]
