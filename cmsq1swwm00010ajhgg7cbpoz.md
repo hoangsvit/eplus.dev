@@ -81,16 +81,15 @@ To complete this lab, you need:
     
 6.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
-
-1.  You can also find the Password in the **Lab setup and access** panel.
+7.  You can also find the Password in the **Lab setup and access** panel.
     
-2.  Click **Next**.
+8.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-3.  Click through the subsequent pages:
+9.  Click through the subsequent pages:
     
     *   Accept the terms and conditions.
         
@@ -204,6 +203,11 @@ Click **Check my progress** to verify the objective.
 
 ### Quick
 
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP526/lab.sh
+source lab.sh
+```
+
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/22736d91-1b57-4ff3-825f-5bc0dd043e0c.png align="center")
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/d23dca91-d2c8-47a5-a01e-fb9589119271.png align="center")
@@ -213,3 +217,11 @@ Click **Check my progress** to verify the objective.
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a3749494-8a20-4e85-a6f2-42d67b9a87d0.png align="center")
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/d130bbfc-426e-4ee0-9ccc-75fae7ee78c9.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4d460f88-2da0-4370-bcb4-2a290d9ba257.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/e0676c46-f03f-47a4-8e5b-71144edecdb2.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/269144c4-5c80-4794-b261-4e893c4797b2.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/f12b7f69-8704-456e-b03e-966d2dd9a587.png align="center")
