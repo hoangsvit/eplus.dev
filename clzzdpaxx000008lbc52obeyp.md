@@ -5,8 +5,8 @@ seoDescription: "In this lab, you build a minimal web application with Google Ap
 datePublished: 2024-08-18T09:42:39.525Z
 cuid: clzzdpaxx000008lbc52obeyp
 slug: user-authentication-identity-aware-proxy-gsp499
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747467501163/1dd722a3-3427-4100-8e8c-374f4b1e4b4b.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747467641433/a312b401-fc86-48ae-8611-21cd6ccee684.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/3aa72e4b-042f-41a0-881d-cd807199ebcd.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/beab7843-8ccf-4ef6-8153-1bc4b93d8446.png
 tags: user-authentication-identity-aware-proxy-gsp499, gsp499, user-authentication-identity-aware-proxy
 
 ---
