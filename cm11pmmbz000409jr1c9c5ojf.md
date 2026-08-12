@@ -7,8 +7,8 @@ the use of multiple gcloud c"
 datePublished: 2024-09-14T05:31:44.399Z
 cuid: cm11pmmbz000409jr1c9c5ojf
 slug: configuring-iam-permissions-with-gcloud-gsp647
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1761277667777/7904c2c4-74da-4c81-9d34-f51c257e7831.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1761277234900/753640c5-ace4-4be8-9d74-0e5dab5fe303.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a6390156-8330-46ac-b486-ecd1422f133b.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/96c4cace-b686-4da1-80c7-8177eaf65ca0.png
 tags: configuring-iam-permissions-with-gcloud-gsp647, gsp647, configuring-iam-permissions-with-gcloud
 
 ---
