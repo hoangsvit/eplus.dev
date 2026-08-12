@@ -5,8 +5,8 @@ seoDescription: "Cloud IAM provides the right tools to manage resource permissio
 datePublished: 2024-08-18T09:00:19.348Z
 cuid: clzzc6uxg000009jzavoh5y01
 slug: iam-custom-roles-gsp190
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762329239557/e7924a3b-a305-47a2-84de-ba5c9b2d5531.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1762329445017/0d42f3f1-1410-4553-a4b1-ad60fda4be3d.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b72ba4e2-42b4-4fce-9d73-bb9840d64b3a.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/9c11fe37-d45d-49d6-8680-c947d4fd6d9b.png
 tags: iam-custom-roles-gsp190, gsp103, iam-custom-roles
 
 ---
@@ -17,9 +17,9 @@ Cloud IAM provides the right tools to manage resource permissions with minimum f
 
 There are two kinds of roles in Cloud IAM:
 
-* Predefined Roles
+*   Predefined Roles
     
-* Custom Roles
+*   Custom Roles
     
 
 **Predefined roles** are created and maintained by Google. Their permissions are automatically updated as necessary, such as when new features or services are added to Google Cloud.
@@ -44,29 +44,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -74,7 +74,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-a4f32af597b1@qwiklabs.net
@@ -82,9 +82,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     39SMckvSBKQ4
@@ -92,19 +92,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -117,7 +117,7 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell**
+1.  Click **Activate Cloud Shell**
     
     ![Activate Cloud Shell icon](https://cdn.qwiklabs.com/ep8HmqYGdD%2FkUncAAYpV47OYoHwC8%2Bg0WK%2F8sidHquE%3D align="left")
     
@@ -132,14 +132,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-01-57712e416b
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-2. (Optional) You can list the active account name with this command:
+2.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-3. Click **Authorize**.
+3.  Click **Authorize**.
     
 
 **Output:**
@@ -152,7 +152,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-4. (Optional) You can list the project ID with this command:
+4.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -210,18 +210,18 @@ The custom roles user interface is in the Cloud Console under IAM Roles. It is o
 
 Before you create a custom role, you might want to know:
 
-* What permissions can be applied to a resource
+*   What permissions can be applied to a resource
     
-* What roles are grantable on a resource
+*   What roles are grantable on a resource
     
-* What a role's metadata is
+*   What a role's metadata is
     
 
 ## **Task 1. View the available permissions for a resource**
 
 Before you create a custom role, you might want to know what permissions can be applied to a resource. You can get all permissions that can be applied to a resource, and the resources below that in the hierarchy, using the gcloud command-line tool, the Cloud Console, or the IAM API. For example, you can get all permissions that you can apply on an organization and on projects in that organization.
 
-* Run the following to get the list of permissions available for your project.:
+*   Run the following to get the list of permissions available for your project.:
     
 
 ```apache
@@ -263,7 +263,7 @@ stage: BETA
 
 Before you create a custom role, you might want to get the metadata for both predefined and custom roles. Role metadata includes the role ID and permissions contained in the role. You can view the metadata using the Cloud Console or the IAM API.
 
-* To view the role metadata, use command below, replacing `[ROLE_NAME]` with the role. For example: `roles/viewer` or `roles/editor`:
+*   To view the role metadata, use command below, replacing `[ROLE_NAME]` with the role. For example: `roles/viewer` or `roles/editor`:
     
 
 ```apache
@@ -291,7 +291,7 @@ title: Viewer
 
 Use the `gcloud iam list-grantable-roles` command to return a list of all roles that can be applied to a given resource.
 
-* Execute the following `gcloud` command to list grantable roles from your project:
+*   Execute the following `gcloud` command to list grantable roles from your project:
     
 
 ```apache
@@ -326,9 +326,9 @@ Users who are not owners, including organization admins, must be assigned either
 
 Use the `gcloud iam roles create` command to create new custom roles in two ways:
 
-* Provide a YAML file that contains the role definition
+*   Provide a YAML file that contains the role definition
     
-* Specify the role definition using flags
+*   Specify the role definition using flags
     
 
 When creating a custom role, you must specify whether it applies to the organization level or project level by using the `--organization [ORGANIZATION_ID]` or `--project [PROJECT_ID]` flags. Each example below creates a custom role at the project level.
@@ -350,23 +350,23 @@ includedPermissions:
 
 Each of the placeholder values is described below:
 
-* `[ROLE_TITLE]` is a friendly title for the role, such as **Role Viewer**.
+*   `[ROLE_TITLE]` is a friendly title for the role, such as **Role Viewer**.
     
-* `[ROLE_DESCRIPTION]` is a short description about the role, such as **My custom role description**.
+*   `[ROLE_DESCRIPTION]` is a short description about the role, such as **My custom role description**.
     
-* `[LAUNCH_STAGE]` indicates the stage of a role in the launch lifecycle, such as ALPHA, BETA, or GA.
+*   `[LAUNCH_STAGE]` indicates the stage of a role in the launch lifecycle, such as ALPHA, BETA, or GA.
     
-* `includedPermissions` specifies the list of one or more permissions to include in the custom role, such as **iam.roles.get**.
+*   `includedPermissions` specifies the list of one or more permissions to include in the custom role, such as **iam.roles.get**.
     
 
-1. Time to get started! Create your role definition YAML file by running:
+1.  Time to get started! Create your role definition YAML file by running:
     
 
 ```apache
 nano role-definition.yaml
 ```
 
-2. Add this custom role definition to the YAML file:
+2.  Add this custom role definition to the YAML file:
     
 
 ```apache
@@ -378,9 +378,9 @@ includedPermissions:
 - appengine.versions.delete
 ```
 
-3. Then save and close the file by pressing **CTRL+X**, **Y** and then **ENTER**.
+3.  Then save and close the file by pressing **CTRL+X**, **Y** and then **ENTER**.
     
-4. Execute the following `gcloud` command:
+4.  Execute the following `gcloud` command:
     
 
 ```apache
@@ -412,7 +412,7 @@ Create a custom role using a YAML file
 
 Now you'll use the flag method to create a new custom role. The flags take a similar form to the YAML file, so you’ll recognize how the command is being built.
 
-* Execute the following `gcloud` command to create a new role using flags:
+*   Execute the following `gcloud` command to create a new role using flags:
     
 
 ```apache
@@ -443,7 +443,7 @@ Create a custom role using flags
 
 ## **Task 5. List the custom roles**
 
-1. Execute the following `gcloud` command to list custom roles, specifying either project-level or organization-level custom roles:
+1.  Execute the following `gcloud` command to list custom roles, specifying either project-level or organization-level custom roles:
     
 
 ```apache
@@ -467,7 +467,7 @@ title: Role Viewer
 
 To list deleted roles, you can also specify the `--show-deleted` flag.
 
-2. Execute the following `gcloud` command to list predefined roles:
+2.  Execute the following `gcloud` command to list predefined roles:
     
 
 ```apache
@@ -484,9 +484,9 @@ Cloud IAM solves this problem using an `etag` property in custom roles. This pro
 
 Use the `gcloud iam roles update` command to update custom roles in one of two ways:
 
-* A YAML file that contains the updated role definition
+*   A YAML file that contains the updated role definition
     
-* Flags that specify the updated role definition
+*   Flags that specify the updated role definition
     
 
 When updating a custom role, you must specify whether it applies to the organization level or project level by using the `--organization [ORGANIZATION_ID]` or `--project [PROJECT_ID]` flags. Each example below creates a custom role at the project level.
@@ -495,7 +495,7 @@ The `describe` command returns the role's definition and includes an etag value 
 
 ### Update a custom role using a YAML file
 
-1. Get the current definition for the role by executing the following `gcloud` command, replacing `[ROLE_ID]` with **editor**.
+1.  Get the current definition for the role by executing the following `gcloud` command, replacing `[ROLE_ID]` with **editor**.
     
 
 ```apache
@@ -515,16 +515,16 @@ stage: [LAUNCH_STAGE]
 title: [ROLE_TITLE]
 ```
 
-2. Copy the output to use to create a new YAML file in the next steps.
+2.  Copy the output to use to create a new YAML file in the next steps.
     
-3. Create a `new-role-definition.yaml` file with your editor:
+3.  Create a `new-role-definition.yaml` file with your editor:
     
 
 ```apache
 nano new-role-definition.yaml
 ```
 
-4. Paste in the output from the last command and add these two permissions under `includedPermissions`:
+4.  Paste in the output from the last command and add these two permissions under `includedPermissions`:
     
 
 ```apache
@@ -547,9 +547,9 @@ stage: ALPHA
 title: Role Editor
 ```
 
-5. Save and close the file **CTRL+X**, **Y** and then **ENTER**.
+5.  Save and close the file **CTRL+X**, **Y** and then **ENTER**.
     
-6. Now you’ll use the `update` command to update the role. Execute the following `gcloud` command, replacing `[ROLE_ID]` with **editor**:
+6.  Now you’ll use the `update` command to update the role. Execute the following `gcloud` command, replacing `[ROLE_ID]` with **editor**:
     
 
 ```apache
@@ -584,14 +584,14 @@ Each part of a role definition can be updated using a corresponding flag. For a 
 
 Use the following flags to add or remove permissions:
 
-* `--add-permissions`: Adds one or more comma-separated permissions to the role.
+*   `--add-permissions`: Adds one or more comma-separated permissions to the role.
     
-* `--remove-permissions`: Removes one or more comma-separated permissions from the role.
+*   `--remove-permissions`: Removes one or more comma-separated permissions from the role.
     
 
 Alternatively, you can simply specify the new permissions using the `--permissions [PERMISSIONS]` flag and providing a comma-separated list of permissions to replace the existing permissions list.
 
-* Execute the following `gcloud` command to add permissions to the **viewer** role using flags:
+*   Execute the following `gcloud` command to add permissions to the **viewer** role using flags:
     
 
 ```apache
@@ -626,7 +626,7 @@ When a role is disabled, any policy bindings related to the role are inactivated
 
 The easiest way to disable an existing custom role is to use the `--stage` flag and set it to DISABLED.
 
-* Execute the following `gcloud` command to disable the **viewer** role:
+*   Execute the following `gcloud` command to disable the **viewer** role:
     
 
 ```apache
@@ -657,7 +657,7 @@ Disabling a custom role
 
 ## **Task 8. Delete a custom role**
 
-* Use the `gcloud iam roles delete` command to delete a custom role. Once deleted the role is inactive and cannot be used to create new IAM policy bindings:
+*   Use the `gcloud iam roles delete` command to delete a custom role. Once deleted the role is inactive and cannot be used to create new IAM policy bindings:
     
 
 ```apache
@@ -686,7 +686,7 @@ After the role has been deleted, existing bindings remain, but are inactive. The
 
 ## **Task 9. Restore a custom role**
 
-* Within the 7 days window you can restore a role. Deleted roles are in a **DISABLED** state. To make it available again, update the `--stage` flag:
+*   Within the 7 days window you can restore a role. Deleted roles are in a **DISABLED** state. To make it available again, update the `--stage` flag:
     
 
 ```apache
@@ -695,7 +695,7 @@ gcloud iam roles undelete viewer --project $DEVSHELL_PROJECT_ID
 
 Click **Check my progress** to verify the objective.
 
----
+* * *
 
 ## Solution of Lab
 
