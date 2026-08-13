@@ -534,6 +534,13 @@ gcloud dns managed-zones delete cloudsql-dns \
 
 ## Solution of Lab
 
+### Quick
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1317/lab.sh
+source lab.sh
+```
+
 ### Manual
 
 %[https://www.youtube.com/watch?v=kO-71QhxSMA] 
