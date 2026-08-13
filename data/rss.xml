@@ -5,10 +5,16 @@
     <link>https://eplus.dev</link>
     <description>Latest posts from ePlus DEV</description>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 08:28:50 GMT</lastBuildDate>
-    <pubDate>Thu, 13 Aug 2026 08:22:17 GMT</pubDate>
+    <lastBuildDate>Thu, 13 Aug 2026 08:40:47 GMT</lastBuildDate>
+    <pubDate>Thu, 13 Aug 2026 08:40:34 GMT</pubDate>
     <generator>GitHub Actions</generator>
 
+    <item>
+      <title>Connecting Cloud Networks with NCC: Challenge Lab - GSP528</title>
+      <link>https://eplus.dev/connecting-cloud-networks-with-ncc-challenge-lab-gsp528</link>
+      <guid isPermaLink="true">https://eplus.dev/connecting-cloud-networks-with-ncc-challenge-lab-gsp528</guid>
+      <pubDate>Thu, 13 Aug 2026 08:40:34 GMT</pubDate>
+    </item>
     <item>
       <title>Establish VPC to VPC Connectivity using NCC - GSP1317</title>
       <link>https://eplus.dev/establish-vpc-to-vpc-connectivity-using-ncc-gsp1317</link>
