@@ -88,7 +88,21 @@ Click **Check my progress** to verify the objective.
 
 ### Quick
 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP528/lab.sh
+source lab.sh
+```
+
+### Other Alternative
+
 %[https://www.youtube.com/watch?v=M69wXyshfLw] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP528/other.sh
+source other.sh
+```
+
+**Script Alternative**
 
 ```plaintext
 curl -LO https://raw.githubusercontent.com/manavyugai/Cloud-Monitoring/main/Connecting%20Cloud%20Networks%20with%20NCC%3A%20Challenge%20Lab/Prince.sh
