@@ -189,6 +189,8 @@ In this task, you build the necessary tools to prepare data for a character-base
 
 %[https://www.youtube.com/watch?v=GAq0cDYBwQw] 
 
+Open [https://console.cloud.google.com/agent-platform/colab](https://console.cloud.google.com/agent-platform/colab)
+
 **<mark class="bg-yellow-200 dark:bg-yellow-500/30">Download file</mark>** [gdm\_challenge\_lab.ipynb](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP531/gdm_challenge_lab.ipynb) or [backup](https://github.com/abhishekmsm51w-star/gcpbyabhi/blob/main/Ab12/Google%20DeepMind%20Train%20a%20Small%20Language%20Model%20Challenge%20Lab/gdm_challenge_lab.ipynb)
 
 * * *
