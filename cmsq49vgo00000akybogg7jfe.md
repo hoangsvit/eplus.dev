@@ -193,6 +193,20 @@ Open [https://console.cloud.google.com/agent-platform/colab](https://console.clo
 
 **<mark class="bg-yellow-200 dark:bg-yellow-500/30">Download file</mark>** [gdm\_challenge\_lab.ipynb](https://github.com/ePlus-DEV/storage/blob/main/labs/GSP531/gdm_challenge_lab.ipynb) or [backup](https://github.com/abhishekmsm51w-star/gcpbyabhi/blob/main/Ab12/Google%20DeepMind%20Train%20a%20Small%20Language%20Model%20Challenge%20Lab/gdm_challenge_lab.ipynb)
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/d7aaff63-d10a-4dd4-8fc5-8d2442c85a38.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8073063e-6722-41fb-9ffc-964467ba969e.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/cd327e1d-7a7c-4c35-95fb-4298ad712111.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/e2c75819-ac78-43f3-b60a-f5d91c5d38f0.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/28de645d-d733-4fc8-b381-19bc06a6f1cd.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9c8a13bf-d08e-4eba-86a7-a7d6b1e4c4b2.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/55654298-3c7d-47f3-bfeb-349040d032e4.png align="center")
+
 * * *
 
 ### Manual
