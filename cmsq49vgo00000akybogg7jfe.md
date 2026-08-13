@@ -135,7 +135,6 @@ Click **Check my progress** to verify the objective.
 
 ### Build the 'generate\_text\_from\_ngram\_model' function
 
-  
 Your code is required within the **\[TODO - Add your code here\]** sections. Carefully read the notebook's instructions and complete the `generate_text_from_ngram_model` function to do the following:
 
 1.  Support either **random** or **greedy** sampling, based on the **sampling\_mode** argument.
@@ -187,3 +186,15 @@ In this task, you build the necessary tools to prepare data for a character-base
 ## Solution of Lab
 
 ### Quick
+
+%[https://www.youtube.com/watch?v=GAq0cDYBwQw] 
+
+Download file [gdm\_challenge\_lab.ipynb](https://github.com/abhishekmsm51w-star/gcpbyabhi/blob/main/Ab12/Google%20DeepMind%20Train%20a%20Small%20Language%20Model%20Challenge%20Lab/gdm_challenge_lab.ipynb)
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=WMNsvvUGfn0] 
+
+%[https://www.youtube.com/watch?v=HVq3_geLMD8]
