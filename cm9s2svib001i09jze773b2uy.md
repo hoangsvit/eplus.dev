@@ -5,8 +5,8 @@ seoDescription: "Cloud Spanner is Google’s fully managed, horizontally scalabl
 datePublished: 2025-04-22T05:40:10.499Z
 cuid: cm9s2svib001i09jze773b2uy
 slug: cloud-spanner-defining-schemas-and-understanding-query-plans-gsp1050
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745300241228/e5d1e22c-fae5-4040-a174-2f68954c05ac.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1745300399340/9e266a24-8a6a-4d4f-85a1-0157e4cceb59.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/edd80d06-2b1e-402a-a200-0a299d1492cb.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/30510d8b-4dae-43b8-9635-abe09ae86eea.png
 tags: cloud-spanner-defining-schemas-and-understanding-query-plans-gsp1050, cloud-spanner-defining-schemas-and-understanding-query-plans, gsp1050
 
 ---
@@ -21,17 +21,17 @@ In this lab, you review schema related features of Cloud Spanner and apply those
 
 In this lab, you learn to modify schema related attributes of a Cloud Spanner instance.
 
-* Load data into tables
+*   Load data into tables
     
-* Use pre-defined Python client library code to load data
+*   Use pre-defined Python client library code to load data
     
-* Query data with client libraries
+*   Query data with client libraries
     
-* Make updates to the database schema
+*   Make updates to the database schema
     
-* Add a Secondary Index
+*   Add a Secondary Index
     
-* Examine Query plans
+*   Examine Query plans
     
 
 ## Setup and requirements
@@ -44,29 +44,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -74,7 +74,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-03-1f651e6d772c@qwiklabs.net
@@ -82,9 +82,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     oKQ5Q2gjyqmW
@@ -92,19 +92,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -117,13 +117,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-03-a89bf872cec9`. The output contains a line that declares the **Project\_ID** for this session:
@@ -134,14 +134,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-03-a89bf872ce
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -154,7 +154,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -189,15 +189,15 @@ Here are some details for your reference:
 
 The **banking-ops-db** was created with empty tables. Follow the steps below to load data into three of the tables (**Portfolio**, **Category**, and **Product**).
 
-1. From the Cloud Console, open the navigation menu () &gt; **View All Products**, under **Databases** click **Spanner**.
+1.  From the Cloud Console, open the navigation menu () > **View All Products**, under **Databases** click **Spanner**.
     
-2. The instance name is **banking-ops-instance**, click on the name to explore the databases.
+2.  The instance name is **banking-ops-instance**, click on the name to explore the databases.
     
-3. The associated database is named **banking-ops-db**. Click on the name, scroll down to **Tables**, and you will see there are four tables already in place.
+3.  The associated database is named **banking-ops-db**. Click on the name, scroll down to **Tables**, and you will see there are four tables already in place.
     
-4. On the left pane of the Console, click **Spanner Studio**. Then click the **\+ New SQL Editor Tab** button in the right frame.
+4.  On the left pane of the Console, click **Spanner Studio**. Then click the **\+ New SQL Editor Tab** button in the right frame.
     
-5. This takes you to the **Query** page. Paste the insert statements below as a single block to load the **Portfolio** table. Spanner will execute each in succession. Click **Run**:
+5.  This takes you to the **Query** page. Paste the insert statements below as a single block to load the **Portfolio** table. Spanner will execute each in succession. Click **Run**:
     
 
 ```apache
@@ -206,11 +206,11 @@ insert into Portfolio (PortfolioId, Name, ShortName, PortfolioInfo) values (2, "
 insert into Portfolio (PortfolioId, Name, ShortName, PortfolioInfo) values (3, "Insurance", "Ins", "All Insurance Focused Products");
 ```
 
-6. The lower page of the screen shows the results of inserting the data one row at a time. A green checkmark also appears on each row of inserted data. The **Portfolio** table now has three rows.
+6.  The lower page of the screen shows the results of inserting the data one row at a time. A green checkmark also appears on each row of inserted data. The **Portfolio** table now has three rows.
     
-7. Click **Clear** in the top portion of the page.
+7.  Click **Clear** in the top portion of the page.
     
-8. Paste the insert statements below as a single block to load the **Category** table. Click **Run**:
+8.  Paste the insert statements below as a single block to load the **Category** table. Click **Run**:
     
 
 ```apache
@@ -220,12 +220,12 @@ insert into Category (CategoryId,PortfolioId,CategoryName) values (3,2,"Annuitie
 insert into Category (CategoryId,PortfolioId,CategoryName) values (4,3,"Life Insurance");
 ```
 
-9. The lower page of the screen shows the results of inserting the data one row at a time. A green checkmark also appears on each row of inserted data. The **Category** table now has four rows.
+9.  The lower page of the screen shows the results of inserting the data one row at a time. A green checkmark also appears on each row of inserted data. The **Category** table now has four rows.
     
-10. Click **Clear** in the top portion of the page.
-    
-11. Paste the insert statements below as a single block to load the **Product** table. Click **Run**:
-    
+10.  Click **Clear** in the top portion of the page.
+     
+11.  Paste the insert statements below as a single block to load the **Product** table. Click **Run**:
+     
 
 ```apache
 insert into Product (ProductId,CategoryId,PortfolioId,ProductName,ProductAssetCode,ProductClass) values (1,1,1,"Checking Account","ChkAcct","Banking LOB");
@@ -239,10 +239,10 @@ insert into Product (ProductId,CategoryId,PortfolioId,ProductName,ProductAssetCo
 insert into Product (ProductId,CategoryId,PortfolioId,ProductName,ProductAssetCode,ProductClass) values (9,2,2,"US Savings Bonds","USSavBond","Investment LOB");
 ```
 
-12. The lower page of the screen shows the results of inserting the data one row at a time. A green checkmark also appears on each row of inserted data. The **Product** table now has nine rows.
-    
-13. Click **Check my progress** to verify the objective.
-    
+12.  The lower page of the screen shows the results of inserting the data one row at a time. A green checkmark also appears on each row of inserted data. The **Product** table now has nine rows.
+     
+13.  Click **Check my progress** to verify the objective.
+     
 
 Load Data into Portfolio, Category, and Product Tables
 
@@ -252,7 +252,7 @@ Load Data into Portfolio, Category, and Product Tables
 
 You will be using the client libraries written in Python for the next several steps.
 
-1. Open the **Cloud Shell** and paste the commands below to create and change into a new directory to hold the required files.
+1.  Open the **Cloud Shell** and paste the commands below to create and change into a new directory to hold the required files.
     
 
 ```apache
@@ -260,7 +260,7 @@ mkdir python-helper
 cd python-helper
 ```
 
-2. Next download two files. One is used to setup the environment. The other is the lab code.
+2.  Next download two files. One is used to setup the environment. The other is the lab code.
     
 
 ```apache
@@ -268,7 +268,7 @@ wget https://storage.googleapis.com/cloud-training/OCBL373/requirements.txt
 wget https://storage.googleapis.com/cloud-training/OCBL373/snippets.py
 ```
 
-3. Create an isolated Python environment and install dependencies for the Cloud Spanner client.
+3.  Create an isolated Python environment and install dependencies for the Cloud Spanner client.
     
 
 ```apache
@@ -276,14 +276,14 @@ pip install -r requirements.txt
 pip install setuptools
 ```
 
-4. The **snippets.py** is a consolidated file with multiple Cloud Spanner DDL, DML, and DCL functions that you are going to use as a helper during this lab. Execute **snippets.py** using the **insert\_data** argument to populate the **Campaigns** table.
+4.  The **snippets.py** is a consolidated file with multiple Cloud Spanner DDL, DML, and DCL functions that you are going to use as a helper during this lab. Execute **snippets.py** using the **insert\_data** argument to populate the **Campaigns** table.
     
 
 ```apache
 python snippets.py banking-ops-instance --database-id  banking-ops-db insert_data
 ```
 
-5. Click **Check my progress** to verify the objective.
+5.  Click **Check my progress** to verify the objective.
     
 
 Load Data into Campaigns Table
@@ -310,7 +310,7 @@ def query_data(instance_id, database_id):
             print(u"CampaignId: {}, PortfolioId: {}, CampaignStartDate: {}, CampaignEndDate: {}, CampaignName: {}, CampaignBudget: {}".format(*row))
 ```
 
-1. Execute **snippets.py** using the **query\_data** argument to query the **Campaigns** table.
+1.  Execute **snippets.py** using the **query\_data** argument to query the **Campaigns** table.
     
 
 ```apache
@@ -353,14 +353,14 @@ def add_column(instance_id, database_id):
     print("Added the MarketingBudget column.")
 ```
 
-1. Execute **snippets.py** using the **add\_column** argument.
+1.  Execute **snippets.py** using the **add\_column** argument.
     
 
 ```apache
 python snippets.py banking-ops-instance --database-id  banking-ops-db add_column
 ```
 
-2. Click **Check my progress** to verify the objective.
+2.  Click **Check my progress** to verify the objective.
     
 
 Add column to Category table
@@ -383,13 +383,13 @@ gcloud spanner databases ddl update banking-ops-db --instance=banking-ops-instan
 
 **Note:** This option is shown as an alternate example. **Do not perform this action.**
 
-1. Click the table name in the Database listing.
+1.  Click the table name in the Database listing.
     
-2. Click **Write DDL** in the top right corner of the page.
+2.  Click **Write DDL** in the top right corner of the page.
     
-3. Paste the appropriate DDL in the **DDL Templates** box.
+3.  Paste the appropriate DDL in the **DDL Templates** box.
     
-4. Click **Submit**.
+4.  Click **Submit**.
     
 
 ![AddColumnUI.png](https://cdn.qwiklabs.com/Dzg51UTSEHJBD9bsoPilSbU%2BjCpauT9adVyMHxSLBP0%3D align="left")
@@ -421,14 +421,14 @@ def update_data(instance_id, database_id):
     print("Updated data.")
 ```
 
-1. Execute **snippets.py** using the **update\_data** argument.
+1.  Execute **snippets.py** using the **update\_data** argument.
     
 
 ```apache
 python snippets.py banking-ops-instance --database-id  banking-ops-db update_data
 ```
 
-2. Query the table again to see the update. Execute **snippets.py** using the **query\_data\_with\_new\_column** argument.
+2.  Query the table again to see the update. Execute **snippets.py** using the **query\_data\_with\_new\_column** argument.
     
 
 ```apache
@@ -471,14 +471,14 @@ def add_index(instance_id, database_id):
     print("Added the CategoryByCategoryName index.")
 ```
 
-1. Execute **snippets.py** using the **add\_index** argument.
+1.  Execute **snippets.py** using the **add\_index** argument.
     
 
 ```apache
 python snippets.py banking-ops-instance --database-id  banking-ops-db add_index
 ```
 
-2. Click **Check my progress** to verify the objective.
+2.  Click **Check my progress** to verify the objective.
     
 
 Add secondary index to Category table
@@ -511,7 +511,7 @@ def read_data_with_index(instance_id, database_id):
             print("CategoryId: {}, CategoryName: {}".format(*row))
 ```
 
-1. Execute **snippets.py** using the **read\_data\_with\_index** argument.
+1.  Execute **snippets.py** using the **read\_data\_with\_index** argument.
     
 
 ```apache
@@ -555,7 +555,7 @@ def add_storing_index(instance_id, database_id):
     print("Added the CategoryByCategoryName2 index.")
 ```
 
-1. Execute **snippets.py** using the **add\_storing\_index** argument.
+1.  Execute **snippets.py** using the **add\_storing\_index** argument.
     
 
 ```apache
@@ -587,7 +587,7 @@ def read_data_with_storing_index(instance_id, database_id):
             print(u"CategoryNameId: {}, CategoryName: {}, " "MarketingBudget: {}".format(*row))
 ```
 
-2. Execute **snippets.py** using the **read\_data\_with\_storing\_index** argument.
+2.  Execute **snippets.py** using the **read\_data\_with\_storing\_index** argument.
     
 
 ```apache
@@ -607,7 +607,7 @@ CategoryNameId: 4, CategoryName: Life Insurance, MarketingBudget: None
 
 In this section, you will explore Cloud Spanner **Query Plans**.
 
-1. Return to the **Cloud Console**, it should still be on the **Query** tab of **Spanner Studio**. Clear any existing query, paste, and **Run** the following query:
+1.  Return to the **Cloud Console**, it should still be on the **Query** tab of **Spanner Studio**. Clear any existing query, paste, and **Run** the following query:
     
 
 ```apache
@@ -617,7 +617,7 @@ INNER JOIN Category
 ON Portfolio.PortfolioId = Category.PortfolioId;
 ```
 
-2. The result should look like this:
+2.  The result should look like this:
     
 
 ![PlanQuery.png](https://cdn.qwiklabs.com/QosB%2FiaYpgbhNDn64OIco55bOqdU1oJ4KhWu6bXBLgw%3D align="left")
@@ -626,13 +626,13 @@ ON Portfolio.PortfolioId = Category.PortfolioId;
 
 A SQL query in Cloud Spanner is first compiled into an execution plan, then it is sent to an initial root server for execution. The root server is chosen so as to minimize the number of hops to reach the data being queried. The root server then:
 
-* Initiates remote execution of subplans (if necessary)
+*   Initiates remote execution of subplans (if necessary)
     
-* Waits for results from the remote executions
+*   Waits for results from the remote executions
     
-* Handles any remaining local execution steps such as aggregating results
+*   Handles any remaining local execution steps such as aggregating results
     
-* Returns results for the query
+*   Returns results for the query
     
 
 Remote servers that receive a subplan act as the "root" server for their subplan, following the same model as the top-most root server. The result is a tree of remote executions. Conceptually, query execution flows from top to bottom, and query results are returned from bottom to top. The following diagram shows this pattern:
@@ -643,7 +643,7 @@ Remote servers that receive a subplan act as the "root" server for their subplan
 
 Now take look at the query plan for an aggregated query.
 
-1. On the **Query** tab of **Spanner Studio**, clear the existing query, paste, and **Run** the following query.
+1.  On the **Query** tab of **Spanner Studio**, clear the existing query, paste, and **Run** the following query.
     
 
 ```apache
@@ -653,12 +653,12 @@ WHERE pr.ProductId < 100
 GROUP BY pr.ProductId;
 ```
 
-2. Once the query completes click on the **Explanation** tab below the query body to examine the query plan.
+2.  Once the query completes click on the **Explanation** tab below the query body to examine the query plan.
     
 
 Cloud Spanner sends the execution plan to a root server that coordinates the query execution and performs the remote distribution of subplans.
 
-This execution plan starts with a serialization which orders all values returned. Then the plan completes an initial hash aggregate operator to preliminarily calculate results. Then a distributed union is executed which distributes subplans to remote servers whose splits satisfy **ProductId &lt; 100**. The distributed union sends results to a final hash aggregate operator. The aggregate operator performs the COUNT aggregation by **ProductId** and returns results to a serialize result operator. Finally a scan is conducted to order the results to be returned.
+This execution plan starts with a serialization which orders all values returned. Then the plan completes an initial hash aggregate operator to preliminarily calculate results. Then a distributed union is executed which distributes subplans to remote servers whose splits satisfy **ProductId < 100**. The distributed union sends results to a final hash aggregate operator. The aggregate operator performs the COUNT aggregation by **ProductId** and returns results to a serialize result operator. Finally a scan is conducted to order the results to be returned.
 
 The result should look like this:
 
@@ -672,7 +672,7 @@ The result should look like this:
 
 Interleaved tables are physically stored with their rows of related tables co-located. A join between interleaved tables is known as a co-located join. Co-located joins can offer performance benefits over joins that require indexes or back joins.
 
-1. On the **Query** tab of **Spanner Studio**, clear the existing query, paste, and **Run** the following query.
+1.  On the **Query** tab of **Spanner Studio**, clear the existing query, paste, and **Run** the following query.
     
 
 ```apache
@@ -681,7 +681,7 @@ FROM Category AS c, Product AS pr
 WHERE c.PortfolioId = pr.PortfolioId AND c.CategoryId = pr.CategoryId;
 ```
 
-2. Once the query completes click on the **Explanation** tab below the query body to examine the query plan.
+2.  Once the query completes click on the **Explanation** tab below the query body to examine the query plan.
     
 
 This execution plan starts with a distributed union, which distributes subplans to remote servers that have splits of the table **Category**. Because **Product** is an interleaved table of **Category**, each remote server is able to execute the entire subplan on each remote server without requiring a join to a different server.
@@ -690,7 +690,7 @@ The subplans contain a cross apply. Each cross apply performs a table scan on ta
 
 ![SPNColocated.png](https://cdn.qwiklabs.com/QlT%2FIeqGNbUh5hTDkWbVrAcoxKb4mWuTmm1RxAtuJyo%3D align="left")
 
----
+* * *
 
 ## Solution of Lab
 
