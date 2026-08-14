@@ -483,6 +483,8 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GENAI1
 source lab.sh
 ```
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ac77eca9-967e-43f9-a88f-0851ea944edb.png align="center")
+
 * * *
 
 ### Manual
