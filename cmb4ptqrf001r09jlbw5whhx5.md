@@ -541,3 +541,9 @@ source old-lab.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757988632394/4250e827-e2e9-421d-a47e-223169a8fff8.png align="center")
 
 * * *
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=zh6hi9pDQSk]
