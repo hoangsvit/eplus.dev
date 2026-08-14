@@ -439,6 +439,8 @@ Your root\_agent imports and uses a set\_session\_value tool from adk\_challenge
 
 ### Quick
 
+**Task 1:**
+
 Go to Agent Platform → Agents → Search and create the following values ​​exactly:
 
 | **Field** | Value |
@@ -473,6 +475,13 @@ Go to Agent Platform → Agents → Search and create the following values ​�
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/64f4926f-cd2f-4d0a-bf99-475000eab52d.png align="center")
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1675a81b-cc14-43ba-aff4-cc7b30d183a9.png align="center")
+
+**Task 2 ->Task 6:**
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GENAI129/lab.sh
+source lab.sh
+```
 
 * * *
 
