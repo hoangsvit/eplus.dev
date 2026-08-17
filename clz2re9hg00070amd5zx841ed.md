@@ -435,8 +435,8 @@ Click **Check my progress** to verify the objective.
 %[https://www.youtube.com/watch?v=c7Dh7RX02oU] 
 
 ```plaintext
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP872/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP872/alternative.sh
+source alternative.sh
 ```
 
 **Script Alternative**
