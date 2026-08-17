@@ -432,6 +432,29 @@ Click **Check my progress** to verify the objective.
 
 ### Quick
 
+%[https://www.youtube.com/watch?v=M7raW9a7kOM] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP872/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+export REGION=
+```
+
+```plaintext
+curl -LO https://raw.githubusercontent.com/manavyugai/Cloud-Monitoring/main/API%20Gateway/Prince.sh
+sudo chmod +x Prince.sh
+./Prince.sh
+```
+
+* * *
+
+### **Other Alternative**
+
 %[https://www.youtube.com/watch?v=c7Dh7RX02oU] 
 
 ```plaintext
