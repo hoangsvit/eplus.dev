@@ -432,11 +432,30 @@ Click **Check my progress** to verify the objective.
 
 ### Quick
 
+%[https://www.youtube.com/watch?v=c7Dh7RX02oU] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP872/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/API%20Gateway%3A%20Qwik%20Start/abhishekGSP872.sh
+sudo chmod +x abhishekGSP872.sh
+./abhishekGSP872.sh
+```
+
+* * *
+
+### Other Solution
+
 %[https://youtu.be/5Ae2ftnjJfM] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP872/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP872/other.sh
+source other.sh
 ```
 
 **Script Alternative**
