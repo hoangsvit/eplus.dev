@@ -5,7 +5,8 @@ seoDescription: "API Gateway enables you to provide secure access to your servic
 datePublished: 2024-07-26T13:49:35.236Z
 cuid: clz2re9hg00070amd5zx841ed
 slug: api-gateway-qwik-start-gsp872
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744951608343/ea9fabc2-0cb9-4e6a-9d4c-f86fdc056d37.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b2f06fba-cfdb-4cd2-98f2-1c181db5b9ca.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/8f03e7e0-26ce-4d22-a7b6-4dcae4f26c38.png
 tags: api-gateway-qwik-start-gsp872, gsp872, api-gateway-qwik-start
 
 ---
@@ -429,6 +430,8 @@ Click **Check my progress** to verify the objective.
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/5Ae2ftnjJfM] 
 
 ```apache
@@ -449,3 +452,11 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/A
 sudo chmod +x gsp872.sh
 ./gsp872.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=ypwF0RdN0qU] 
+
+%[https://www.youtube.com/watch?v=BcTfXsk1EDs]
