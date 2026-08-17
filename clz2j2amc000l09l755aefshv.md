@@ -5,8 +5,8 @@ seoDescription: "Pub/Sub is a messaging service for exchanging event data among 
 datePublished: 2024-07-26T09:56:19.908Z
 cuid: clz2j2amc000l09l755aefshv
 slug: pub-sub-qwik-start-console-gsp096
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746861292676/b5d1a14b-9e69-4280-8bed-85d82e4e9ee1.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1746861316778/be0c8284-8791-43ef-929b-04c435730de6.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/91526e4a-e0d2-4426-8730-2eeea1f21305.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/5da4c476-c0b6-4305-9cea-db5aee63b678.png
 tags: console, pubsub-qwik-start-console-gsp096, gsp096, pubsub-qwik-start-console
 
 ---
@@ -17,39 +17,39 @@ Pub/Sub is a messaging service for exchanging event data among applications and 
 
 ### What you'll learn
 
-* Set up a topic to hold data.
+*   Set up a topic to hold data.
     
-* Subscribe to a topic to access the data.
+*   Subscribe to a topic to access the data.
     
-* Publish and then consume messages with a pull subscriber.
+*   Publish and then consume messages with a pull subscriber.
     
 
 ## **Task 1. Setting up Pub/Sub**
 
 To use Pub/Sub, you create a topic to hold data and a subscription to access data published to the topic.
 
-1. From the **Navigation menu** (
+1.  From the **Navigation menu** (
     
     ![Navigation menu icon](https://cdn.qwiklabs.com/tkgw1TDgj4Q%2BYKQUW4jUFd0O5OEKlUMBRYbhlCrF0WY%3D align="left")
     
-    ) go to **Pub/Sub** &gt; **Topics**.
+    ) go to **Pub/Sub** > **Topics**.
     
 
 ![Navigation menu](https://cdn.qwiklabs.com/05QvzKmMdHjrkOQWl%2BQkVUnk6F%2BHcRyjrAEwb22cFVg%3D align="left")
 
-2. Click **Create topic**.
+2.  Click **Create topic**.
     
 
 ![Create topic button](https://cdn.qwiklabs.com/%2B5DjzluijKP1xciKT%2BmsugTk9wWkuM9Tf87XVq4Cc9s%3D align="left")
 
-3. The topic must have a unique name. For this lab, name your topic `MyTopic`. In the **Create a topic** dialog:
+3.  The topic must have a unique name. For this lab, name your topic `MyTopic`. In the **Create a topic** dialog:
     
 
-* For **Topic ID**, type `MyTopic`.
+*   For **Topic ID**, type `MyTopic`.
     
-* Leave other fields at their default value.
+*   Leave other fields at their default value.
     
-* Click **CREATE**.
+*   Click **CREATE**.
     
 
 ![Create a topic dialog box](https://cdn.qwiklabs.com/GQ4LSNE3EzT2b3PjQfbMm4THZqmN7ZUZv62d%2BeC%2Frxw%3D align="left")
@@ -66,24 +66,24 @@ Create a Pub/Sub topic.
 
 Now you'll make a subscription to access the topic.
 
-1. Click **Topics** in the left panel to return to the **Topics** page. For the topic you just made click the three dot icon &gt; **Create subscription**.
+1.  Click **Topics** in the left panel to return to the **Topics** page. For the topic you just made click the three dot icon > **Create subscription**.
     
 
 ![Topics page](https://cdn.qwiklabs.com/M7kafaoF4hMtk4uftSZ9QYgMZfw0O3a5RXZyZ3s02m0%3D align="left")
 
-2. In the **Add subscription to topic** dialog:
+2.  In the **Add subscription to topic** dialog:
     
 
-* Type a name for the subscription, such as `MySub`
+*   Type a name for the subscription, such as `MySub`
     
-* Set the Delivery Type to **Pull**.
+*   Set the Delivery Type to **Pull**.
     
-* Leave all other options at the default values.
+*   Leave all other options at the default values.
     
 
 ![Add subscription to topic dialog box](https://cdn.qwiklabs.com/hW3IVEU2yyh7fkvEBN3vZQbli9GE%2B9o6qwtdnV3zcSA%3D align="left")
 
-* Click **Create**.
+*   Click **Create**.
     
 
 Your subscription is listed in the Subscription list.
@@ -100,29 +100,29 @@ Below are multiple choice questions to reinforce your understanding of this lab'
 
 **A publisher application creates and sends messages to a \_\_\_\_. Subscriber applications create a \_\_\_\_ to a topic to receive messages from it.**
 
-* subscription, subscription
+*   subscription, subscription
     
-* topic, topic
+*   topic, topic
     
-* topic, subscription
+*   topic, subscription
     
-* subscription, topic
+*   subscription, topic
     
 
 **Cloud Pub/Sub is an asynchronous messaging service designed to be highly reliable and scalable.**
 
-* true
+*   true
     
-* false
+*   false
     
 
 ## **Task 4. Publish a message to the topic**
 
-1. Navigate back to **pub/sub** &gt; **Topics** and open **MyTopics** page.
+1.  Navigate back to **pub/sub** > **Topics** and open **MyTopics** page.
     
-2. In the Topics details page, click **Messages** tab and then click **Publish Message**.
+2.  In the Topics details page, click **Messages** tab and then click **Publish Message**.
     
-3. Enter `Hello World` in the **Message** field and click **Publish**.
+3.  Enter `Hello World` in the **Message** field and click **Publish**.
     
 
 ![Hello World in the Message field](https://cdn.qwiklabs.com/0%2BhHA1%2FVpDM1qNJRIDJOQYhpk9RVHs%2BG0kv4ZKTqsl4%3D align="left")
@@ -131,7 +131,7 @@ Below are multiple choice questions to reinforce your understanding of this lab'
 
 To view the message, use the subscription (`MySub`) to pull the message (`Hello World`) from the topic (`MyTopic`).
 
-* Enter the following command in Cloud Shell:
+*   Enter the following command in Cloud Shell:
     
 
 ```powershell
@@ -146,7 +146,7 @@ The message appears in the DATA field of the command output.
 
 You created a Pub/Sub topic, published to the topic, created a subscription, then used the subscription to pull data from the topic.
 
----
+* * *
 
 ## Solution of Lab
 
