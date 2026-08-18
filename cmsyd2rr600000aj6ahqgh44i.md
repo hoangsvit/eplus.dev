@@ -144,6 +144,15 @@ Describe Video Contents
 
 ### Quick
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/dced776e-ad9d-4104-b0c5-ee20352aae07.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/59bbf980-ae25-4a71-a5f3-8d6a565f7f3e.png align="center")
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP515/lab.sh
+source lab.sh
+```
+
 * * *
 
 ### Manual
