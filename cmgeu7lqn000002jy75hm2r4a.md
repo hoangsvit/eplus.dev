@@ -5,6 +5,7 @@ seoDescription: "Challenge your Google Cloud skills by leveraging Gemini API in 
 datePublished: 2025-10-06T07:56:37.199Z
 cuid: cmgeu7lqn000002jy75hm2r4a
 slug: explore-generative-ai-with-the-gemini-api-in-vertex-ai-challenge-lab-gsp515
+canonical: https://eplus.dev/explore-generative-ai-with-the-gemini-api-in-agent-platform-challenge-lab-gsp515
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759736004319/83e68110-570a-44ad-b1f4-fa25fcf42064.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1759736453673/b1eaac23-b385-4684-ad92-ccb75a5ef8fe.png
 tags: explore-generative-ai-with-the-gemini-api-in-vertex-ai-challenge-lab-gsp515, explore-generative-ai-with-the-gemini-api-in-vertex-ai-challenge-lab, gsp515
@@ -23,11 +24,11 @@ This lab is recommended for students who have enrolled in the [Explore Generativ
 
 ### Topics tested
 
-* Generate text using Gemini
+*   Generate text using Gemini
     
-* Create a function call using Gemini
+*   Create a function call using Gemini
     
-* Describe video contents using Gemini
+*   Describe video contents using Gemini
     
 
 ## Setup and requirements
@@ -40,12 +41,12 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
@@ -62,7 +63,7 @@ Your success in this challenge will not only advance the platform's functionalit
 
 In this section, you are tasked with calling the Gemini API via Cloud Shell to confirm your understanding of how to make API calls.
 
-1. Run the following command to set environment variables required.
+1.  Run the following command to set environment variables required.
     
 
 ```apache
@@ -72,12 +73,12 @@ API_ENDPOINT=${LOCATION}-aiplatform.googleapis.com
 MODEL_ID="gemini-2.0-flash-001"
 ```
 
-2. Enable the APIs required to call Gemini APIs via cloud console.
+2.  Enable the APIs required to call Gemini APIs via cloud console.
     
 
 **Hint:** You can perform this step in Cloud Console in the Vertex AI section of the UI.
 
-3. Call the `gemini-2.0-flash-001` model via `curl` in **Cloud Shell**. Use the following documentation to assist you properly write the curl command: [Send Chat Prompts to Gemini](https://cloud.google.com/vertex-ai/docs/generative-ai/multimodal/send-chat-prompts-gemini#send_chat_prompts). Ask the following question:
+3.  Call the `gemini-2.0-flash-001` model via `curl` in **Cloud Shell**. Use the following documentation to assist you properly write the curl command: [Send Chat Prompts to Gemini](https://cloud.google.com/vertex-ai/docs/generative-ai/multimodal/send-chat-prompts-gemini#send_chat_prompts). Ask the following question:
     
 
 ```apache
@@ -90,9 +91,9 @@ Enable the required API
 
 ## Task 2. Open the notebook in Vertex AI Workbench
 
-1. In the Google Cloud console, on the **Navigation menu** (), click **Vertex AI &gt; Workbench**.
+1.  In the Google Cloud console, on the **Navigation menu** (), click **Vertex AI > Workbench**.
     
-2. Find the `generative-ai-jupyterlab` instance and click on the **Open JupyterLab** button.
+2.  Find the `generative-ai-jupyterlab` instance and click on the **Open JupyterLab** button.
     
 
 The JupyterLab interface for your Workbench instance opens in a new browser tab.
@@ -107,18 +108,18 @@ The JupyterLab interface for your Workbench instance opens in a new browser tab.
 
 ## Task 3. Create a function call using Gemini
 
-1. Open the `gemini-explorer-challenge` file.
+1.  Open the `gemini-explorer-challenge` file.
     
-2. In the **Select Kernel** dialog, choose **Python 3** from the list of available kernels.
+2.  In the **Select Kernel** dialog, choose **Python 3** from the list of available kernels.
     
-3. Run through the **Getting Started** and the **Import libraries** sections of the notebook.
+3.  Run through the **Getting Started** and the **Import libraries** sections of the notebook.
     
-    * For **Project ID**, use `qwiklabs-gcp-03-e2e9ae3a4776`, and for **Location**, use `us-east1`.
+    *   For **Project ID**, use `qwiklabs-gcp-03-e2e9ae3a4776`, and for **Location**, use `us-east1`.
         
 
 **Note:** You can skip any notebook cells that are noted *Colab only*. If you experience a 429 response from any of the notebook cell executions, wait 1 minute before running the cell again to proceed.
 
-4. Complete the missing parts of each cell to progress to the next section. These will be denoted with `INSERT` and an instruction to complete.
+4.  Complete the missing parts of each cell to progress to the next section. These will be denoted with `INSERT` and an instruction to complete.
     
 
 **Note:** Ensure you can see the weather related data in the response that is printed.
@@ -131,16 +132,16 @@ Create a function call with Gemini
 
 In this section, you are tasked with completing the python code in cells of a Jupyter notebook which leverage the `Gemini 2.0 Flash 001` model to describe contents of a video.
 
-1. Remain in Vertex AI Workbench and proceed to the cell with the comment `# Task 4`.
+1.  Remain in Vertex AI Workbench and proceed to the cell with the comment `# Task 4`.
     
-2. Complete the required sections of the notebook `gemini-explorer-challenge` under Task 4.
+2.  Complete the required sections of the notebook `gemini-explorer-challenge` under Task 4.
     
 
 Click **Check my progress** to verify the objective.
 
 Describe Video Contents
 
----
+* * *
 
 ## Solution of Lab
 
