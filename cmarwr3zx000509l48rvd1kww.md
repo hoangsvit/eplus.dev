@@ -5,8 +5,8 @@ seoDescription: "Running websites can be difficult with creating and managing VM
 datePublished: 2025-05-17T07:30:32.829Z
 cuid: cmarwr3zx000509l48rvd1kww
 slug: deploy-your-website-on-cloud-run-gsp659
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1747466858661/0d6b2c97-be5d-4689-8618-4b76a6636e23.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1747467016019/bc25fb43-1ad7-480f-86d2-326347168458.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/69e16809-4db2-44e8-a232-375a902630b5.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/cd88f251-9944-42ba-a9c9-d18f1df52e0a.png
 tags: deploy-your-website-on-cloud-run-gsp659, deploy-your-website-on-cloud-run, gsp659
 
 ---
