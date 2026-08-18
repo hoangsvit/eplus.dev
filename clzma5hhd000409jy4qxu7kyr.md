@@ -302,3 +302,7 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20Stor
 sudo chmod +x quicklabgsp073.sh
 ./quicklabgsp073.sh
 ```
+
+* * *
+
+%[https://eplus.dev/cloud-storage-qwik-start-google-cloud-console-gsp073]
