@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-08-18T12:36:59.627Z
 cuid: clzzjxi0b000q09jz9nsn4fo4
 slug: deploy-a-compute-instance-with-a-remote-startup-script-challenge-lab-gsp301
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744947119922/7d612a41-dfab-42a1-94a9-86ffa8ca05c3.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744947144059/819e95e3-b4ba-4019-8ded-f6d2711ed6c7.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/94c6a929-68fc-48db-bee8-1de450ca9b20.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/57ebda71-0a20-44eb-930c-072fd5de968c.png
 tags: deploy-a-compute-instance-with-a-remote-startup-script-challenge-lab-gsp301, gsp301, deploy-a-compute-instance-with-a-remote-startup-script-challenge-lab
 
 ---
@@ -59,18 +59,18 @@ Test that the VM is serving web content
 
 ### Tips and Tricks
 
-* **Configure Instance Metadata.** The [Running Startup Scripts](https://cloud.google.com/compute/docs/startupscript) documentation page explains how Compute Engine instance metadata can be used to configure startup scripts.
+*   **Configure Instance Metadata.** The [Running Startup Scripts](https://cloud.google.com/compute/docs/startupscript) documentation page explains how Compute Engine instance metadata can be used to configure startup scripts.
     
-* **Check if your Compute Engine instance is executing the startup script**. Use the Serial Console for the running virtual machine to look at the startup events to make sure that the startup script is being executed.
+*   **Check if your Compute Engine instance is executing the startup script**. Use the Serial Console for the running virtual machine to look at the startup events to make sure that the startup script is being executed.
     
-* **Check permissions.** Your Compute Engine instance might not have the correct permissions required to read the startup script from the storage bucket. The virtual machine needs to be given permissions that align with the storage permissions.
+*   **Check permissions.** Your Compute Engine instance might not have the correct permissions required to read the startup script from the storage bucket. The virtual machine needs to be given permissions that align with the storage permissions.
     
-* **Check firewalls.** If the startup script has installed the software you may be unable to connect if a firewall has not been correctly configured.
+*   **Check firewalls.** If the startup script has installed the software you may be unable to connect if a firewall has not been correctly configured.
     
-* **Check the URL and address.** You will be unable to connect to the Apache web server if you are trying to access the Compute Engine instance using an HTTPS address rather than HTTP; or you are using the incorrect IP address. Check that your URL is `http://[EXTERNAL_IP]` rather than `https://[EXTERNAL_IP]` or `http://[INTERNAL_IP]`
+*   **Check the URL and address.** You will be unable to connect to the Apache web server if you are trying to access the Compute Engine instance using an HTTPS address rather than HTTP; or you are using the incorrect IP address. Check that your URL is `http://[EXTERNAL_IP]` rather than `https://[EXTERNAL_IP]` or `http://[INTERNAL_IP]`
     
 
----
+* * *
 
 ## Solution of Lab
 
