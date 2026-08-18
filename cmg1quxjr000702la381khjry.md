@@ -301,4 +301,8 @@ Open file
 
 ### Manual
 
-%[https://youtu.be/Jaqlrv-_YFU]
+%[https://youtu.be/Jaqlrv-_YFU] 
+
+* * *
+
+%[https://eplus.dev/prompt-design-in-agent-platform-challenge-lab-gsp519]
