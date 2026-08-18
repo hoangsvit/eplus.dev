@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-08-18T13:29:50.204Z
 cuid: clzzltgfw00010amg9o02d95b
 slug: configure-secure-rdp-using-a-windows-bastion-host-challenge-lab-gsp303
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723984743027/1069af7c-71f0-4b98-9410-d94f8d1c9c5a.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723987776505/7863a6fa-aac1-4472-9eb2-b25e516da660.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/13045852-4a84-4dd9-8eb9-5209af2213fd.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/8f2498db-496d-48c0-8b89-f7e24cff8fb7.png
 tags: configure-secure-rdp-using-a-windows-bastion-host-challenge-lab-gsp303
 
 ---
@@ -33,29 +33,29 @@ Your company also has a monitoring system running from the default VPC network, 
 
 Deploy the secure Windows machine that is not configured for external communication inside a new VPC subnet, then deploy the Microsoft Internet Information Server on that secure machine. For the purposes of this lab, all resources should be provisioned in the following region and zone:
 
-* **Region**: `us-east4`
+*   **Region**: `us-east4`
     
-* **Zone**: `us-east4-c`
+*   **Zone**: `us-east4-c`
     
 
 ### Tasks
 
 The key tasks are listed below. Good luck!
 
-* Create a new VPC network with a single subnet.
+*   Create a new VPC network with a single subnet.
     
-* Create a firewall rule that allows external RDP traffic to the bastion host system.
+*   Create a firewall rule that allows external RDP traffic to the bastion host system.
     
-* Deploy two Windows servers that are connected to both the VPC network and the default network.
+*   Deploy two Windows servers that are connected to both the VPC network and the default network.
     
-* Create a virtual machine that points to the startup script.
+*   Create a virtual machine that points to the startup script.
     
-* Configure a firewall rule to allow HTTP access to the virtual machine.
+*   Configure a firewall rule to allow HTTP access to the virtual machine.
     
 
 ## **Task 1. Create the VPC network**
 
-1. Create a new VPC network called `securenetwork`.
+1.  Create a new VPC network called `securenetwork`.
     
 
 Click **Check my progress** to verify the objective.
@@ -64,7 +64,7 @@ Create the VPC network.
 
 **Check my progress**
 
-2. Create a new VPC subnet inside `securenetwork` in the `us-east4` region.
+2.  Create a new VPC subnet inside `securenetwork` in the `us-east4` region.
     
 
 Click **Check my progress** to verify the objective.
@@ -73,7 +73,7 @@ Create the VPC subnet.
 
 **Check my progress**
 
-3. Once the network and subnet have been configured, configure a firewall rule that allows inbound RDP traffic (TCP port 3389) from the internet to the bastion host. This rule should be applied to the appropriate host using network tags.
+3.  Once the network and subnet have been configured, configure a firewall rule that allows inbound RDP traffic (TCP port 3389) from the internet to the bastion host. This rule should be applied to the appropriate host using network tags.
     
 
 Click **Check my progress** to verify the objective.
@@ -84,11 +84,11 @@ Create the firewall rule.
 
 ## **Task 2. Deploy your Windows instances and configure user passwords**
 
-1. Deploy a Windows 2016 server (Server with Desktop Experience) instance called `vm-securehost` with two network interfaces in the `us-east4-c` zone.
+1.  Deploy a Windows 2016 server (Server with Desktop Experience) instance called `vm-securehost` with two network interfaces in the `us-east4-c` zone.
     
-    * Configure the first network interface with an internal only connection to the newly created VPC subnet.
+    *   Configure the first network interface with an internal only connection to the newly created VPC subnet.
         
-    * The second network interface with an internal only connection to the default VPC network. This is the secure server.
+    *   The second network interface with an internal only connection to the default VPC network. This is the secure server.
         
 
 Click **Check my progress** to verify the objective.
@@ -97,11 +97,11 @@ Create the `vm-securehost` instance.
 
 **Check my progress**
 
-2. Deploy a second Windows 2016 server (Server with Desktop Experience) instance called `vm-bastionhost` with two network interfaces in the `us-east4-c` zone.
+2.  Deploy a second Windows 2016 server (Server with Desktop Experience) instance called `vm-bastionhost` with two network interfaces in the `us-east4-c` zone.
     
-    * Configure the first network interface to connect to the newly created VPC subnet with an ephemeral public (external NAT) address.
+    *   Configure the first network interface to connect to the newly created VPC subnet with an ephemeral public (external NAT) address.
         
-    * The second network interface with an internal only connection to the default VPC network. This is the jump box or bastion host.
+    *   The second network interface with an internal only connection to the default VPC network. This is the jump box or bastion host.
         
 
 Click **Check my progress** to verify the objective.
@@ -112,12 +112,12 @@ Create the `vm-bastionhost` instance.
 
 ### Configure user passwords
 
-1. After your Windows instances have been created, create a user account and reset the Windows passwords in order to connect to each instance.
+1.  After your Windows instances have been created, create a user account and reset the Windows passwords in order to connect to each instance.
     
 
 **NOTE:** Copy the User name and Password of both instances for later use.
 
-2. The following `gcloud` command creates a new user called `app-admin` and resets the password for a host called `vm-bastionhost` located in the `us-east4-c` zone:
+2.  The following `gcloud` command creates a new user called `app-admin` and resets the password for a host called `vm-bastionhost` located in the `us-east4-c` zone:
     
 
 ```apache
@@ -126,7 +126,7 @@ gcloud compute reset-windows-password vm-bastionhost --user app_admin --zone us-
 
 Copied!content\_copy
 
-3. The following `gcloud` command creates a new user called `app-admin` and resets the password for a host called `vm-securehost` located in the `us-east4-c` zone:
+3.  The following `gcloud` command creates a new user called `app-admin` and resets the password for a host called `vm-securehost` located in the `us-east4-c` zone:
     
 
 ```apache
@@ -135,23 +135,23 @@ gcloud compute reset-windows-password vm-securehost --user app_admin --zone us-e
 
 Copied!content\_copy
 
-* Alternatively, you can force a password reset from the Compute Engine console. You will have to repeat this for the second host as the login credentials for that instance will be different.
+*   Alternatively, you can force a password reset from the Compute Engine console. You will have to repeat this for the second host as the login credentials for that instance will be different.
     
 
 ## **Task 3. Connect to the secure host and configure Internet Information Server**
 
-1. To connect to the secure host, you have to RDP into the `bastion host` first. A Windows Compute Instance with an external address can be connected to via RDP using the RDP button that appears next to Windows Compute instances in the Compute Instance summary page.
+1.  To connect to the secure host, you have to RDP into the `bastion host` first. A Windows Compute Instance with an external address can be connected to via RDP using the RDP button that appears next to Windows Compute instances in the Compute Instance summary page.
     
-2. Once you are connected to the bastion host using RDP session then open a new RDP session inside the `bastion host` to connect to the internal private network address of the `secure host`.
+2.  Once you are connected to the bastion host using RDP session then open a new RDP session inside the `bastion host` to connect to the internal private network address of the `secure host`.
     
-3. When connected to a Windows server, you can launch the Microsoft RDP client using the command `mstsc.exe`, or you can search for `Remote Desktop Manager` from the Start menu. This will allow you to connect from the bastion host to other compute instances on the same VPC even if those instances do not have a direct internet connection themselves.
+3.  When connected to a Windows server, you can launch the Microsoft RDP client using the command `mstsc.exe`, or you can search for `Remote Desktop Manager` from the Start menu. This will allow you to connect from the bastion host to other compute instances on the same VPC even if those instances do not have a direct internet connection themselves.
     
 
 Once you connect to the `vm-securehost` machine through RDP then configure Internet Information Server.
 
-4. Once you log in to the vm-securehost machine, Open the Server Management window. And `Configure the local server` to Add **roles and features**.
+4.  Once you log in to the vm-securehost machine, Open the Server Management window. And `Configure the local server` to Add **roles and features**.
     
-5. Use the `Role-based or feature-based installation` to add the `Web Server (IIS)` role.
+5.  Use the `Role-based or feature-based installation` to add the `Web Server (IIS)` role.
     
 
 Click **Check my progress** to verify the objective.
@@ -162,12 +162,12 @@ Configure the IIS web server software.
 
 ## **Troubleshooting**
 
-* **Unable to connect to the Bastion host:** Make sure you are attempting to connect to the external address of the bastion host. If the address is correct you may not be able to connect to the bastion host if the firewall rule is not correctly configured to allow TCP port 3389 (RDP) traffic from the internet, or your own system's public IP-address, to the network interface on the bastion host that has an external address. Finally, you might have issues connecting via RDP if your own network does not allow access to internet addresses via RDP. If everything else is definitely OK, you will need to talk to the owner of the network you are connected to the internet with to open up port 3389 or connect using a different network.
+*   **Unable to connect to the Bastion host:** Make sure you are attempting to connect to the external address of the bastion host. If the address is correct you may not be able to connect to the bastion host if the firewall rule is not correctly configured to allow TCP port 3389 (RDP) traffic from the internet, or your own system's public IP-address, to the network interface on the bastion host that has an external address. Finally, you might have issues connecting via RDP if your own network does not allow access to internet addresses via RDP. If everything else is definitely OK, you will need to talk to the owner of the network you are connected to the internet with to open up port 3389 or connect using a different network.
     
-* **Unable to connect to the Secure Host from the Bastion host:** If you can successfully connect to the bastion host but are unable to make the internal RDP connection using Microsoft Remote Desktop Connection application, check that both instances are connected to the same VPC network.
+*   **Unable to connect to the Secure Host from the Bastion host:** If you can successfully connect to the bastion host but are unable to make the internal RDP connection using Microsoft Remote Desktop Connection application, check that both instances are connected to the same VPC network.
     
 
----
+* * *
 
 ## Solution of Lab
 
