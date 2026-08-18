@@ -155,6 +155,38 @@ source lab.sh
 
 * * *
 
+### Other Solution
+
+%[https://www.youtube.com/watch?v=lkni6FTAVYI] 
+
+**Task 1**
+
+```apache
+pip3 install --upgrade --user google-cloud-aiplatform && gcloud auth list && gcloud services enable compute.googleapis.com iam.googleapis.com iamcredentials.googleapis.com monitoring.googleapis.com logging.googleapis.com notebooks.googleapis.com aiplatform.googleapis.com bigquery.googleapis.com artifactregistry.googleapis.com cloudbuild.googleapis.com container.googleapis.com
+```
+
+**Task 2**
+
+```apache
+rm gemini-explorer-challenge-v2.0.0.ipynb
+
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP515/gemini-explorer-challenge-v2.0.0.ipynb
+
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP515/techcps.ipynb
+```
+
+**Script Alternative**
+
+```apache
+rm gemini-explorer-challenge-v2.0.0.ipynb
+
+curl -LO raw.githubusercontent.com/Techcps/GSP/master/Explore%20Generative%20AI%20with%20the%20Vertex%20AI%20Gemini%20API%20Challenge%20Lab/gemini-explorer-challenge-v2.0.0.ipynb
+
+curl -LO raw.githubusercontent.com/Techcps/GSP/master/Explore%20Generative%20AI%20with%20the%20Vertex%20AI%20Gemini%20API%20Challenge%20Lab/techcps.ipynb
+```
+
+* * *
+
 ### Manual
 
 %[https://www.youtube.com/watch?v=c9p669U8a0w]
