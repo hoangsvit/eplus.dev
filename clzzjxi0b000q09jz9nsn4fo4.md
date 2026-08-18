@@ -85,14 +85,10 @@ source lab.sh
 
 ### Old Solution
 
-```apache
-export ZONE=
-```
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744947083138/f3e5e8a8-5b38-42c6-a004-891a26d81a37.png align="center")
+%[https://www.youtube.com/watch?v=pmHfz2Eaos0] 
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Deploy%20a%20Compute%20Instance%20with%20a%20Remote%20Startup%20Script%3A%20Challenge%20Lab/techcps301.sh
-sudo chmod +x techcps301.sh
-./techcps301.sh
+curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Deploy%20a%20Compute%20Instance%20with%20a%20Remote%20Startup%20Script%3A%20Challenge%20Lab/TechCode.sh
+sudo chmod +x TechCode.sh 
+./TechCode.sh
 ```
