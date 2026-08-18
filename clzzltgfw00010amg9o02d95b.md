@@ -171,6 +171,17 @@ Configure the IIS web server software.
 
 ## Solution of Lab
 
+### Quick
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP303/lab.sh
+source lab.sh
+```
+
+* * *
+
+### Other Solution
+
 %[https://www.youtube.com/watch?v=r-AAmfh-eVw] 
 
 Click Activate Cloud **Shell Activate Cloud Shell** icon at the top of the Google Cloud console.
