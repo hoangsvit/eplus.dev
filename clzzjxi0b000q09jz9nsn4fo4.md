@@ -74,7 +74,16 @@ Test that the VM is serving web content
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=qvZpI3hw2g8] 
+### Quick
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP301/lab.sh
+source lab.sh
+```
+
+* * *
+
+### Old Solution
 
 ```apache
 export ZONE=
