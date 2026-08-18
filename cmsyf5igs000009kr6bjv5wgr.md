@@ -242,6 +242,25 @@ Experiment with tagline generation code.
 
 ### Quick
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/0409cdf3-60f7-42f0-9bbe-124540e9d23b.png align="center")
+
+Open [https://console.cloud.google.com/agent-platform/workbench/instances](https://console.cloud.google.com/agent-platform/workbench/instances)
+
+**Workbench →** `workbench-notebook` **→ Open JupyterLab → File → New → Terminal**
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/a84a6219-c375-436d-ade3-8efd4df51e58.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4afb577e-82ab-4cdd-98be-060895635a76.png align="center")
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP519/new.sh
+source new.sh
+```
+
+* * *
+
+### Other Solution
+
 **Task 1 & Task 2:**
 
 Enable Vertex AI API [Click Here](https://console.cloud.google.com/marketplace/product/google/aiplatform.googleapis.com?q=search&referrer=search&project=)
