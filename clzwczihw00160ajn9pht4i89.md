@@ -128,10 +128,15 @@ Click **Check my progress** to verify the objective.
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=zu1a0ad6GEk] 
+### Quick
 
-```apache
-curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/AUGUST%20Create%20ML%20Models%20with%20BigQuery%20ML%20Challenge%20Lab/newquicklabgsp341.sh
-sudo chmod +x newquicklabgsp341.sh
-./newquicklabgsp341.sh
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP341/lab.sh
+source lab.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=_Ggb98sSNOM]
