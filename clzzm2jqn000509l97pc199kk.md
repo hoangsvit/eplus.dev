@@ -89,7 +89,17 @@ Test that a service exists that responds to requests like Echo-app
 
 ## Solution of Lab
 
+### Quick
+
 %[https://www.youtube.com/watch?v=YgjX8YOO-T4] 
+
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP304/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 export ZONE=
