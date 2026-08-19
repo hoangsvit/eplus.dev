@@ -22,12 +22,6 @@ Welcome to **Arcade Base Camp August 2026**, where you’ll develop key **Google
 
 ## 🎯 Levels & Learning Zones
 
-| **Section** | **Game Link** | **Code** | **Deadline** |
-| --- | --- | --- | --- |
-| **The Arcade Base Camp August 2026** | [Games 7394](https://www.skills.google/games/7394) | <mark class="bg-yellow-200 dark:bg-yellow-500/30">1q-basecamp-10219</mark> | 31/08/26, 11:59 PM |
-| **Safe Spaces** | [Games 7399](https://www.skills.google/games/7399) | <mark class="bg-yellow-200 dark:bg-yellow-500/30">1q-schema-27083</mark> | 31/08/26, 11:59 PM |
-| **Arcade Simulator: Network Security Engineer** | [Games 7397](https://www.skills.google/games/7397) | <mark class="bg-yellow-200 dark:bg-yellow-500/30">1q-network-51470</mark>là tính đ | 31/08/26, 11:59 PM |
-
 * * *
 
 ## ⛰️ Base Camp Levels
@@ -37,6 +31,7 @@ Welcome to **Arcade Base Camp August 2026**, where you’ll develop key **Google
 | **Arcade Voyage: Google Sheets** | [Games 7398](https://www.skills.google/games/7398) | <mark class="bg-yellow-200 dark:bg-yellow-500/30">1q-sheets-29185</mark> | 31/08/26, 11:59 PM |
 | **Arcade Adventure: Data Vault** | [Games 7395](https://www.skills.google/games/7395) | <mark class="bg-yellow-200 dark:bg-yellow-500/30">1q-datamgt-92372</mark> | 31/08/26, 11:59 PM |
 | **Arcade Trail: Cloud Delivery Systems** | [Games 7396](https://www.skills.google/games/7396) | <mark class="bg-yellow-200 dark:bg-yellow-500/30">1q-delivery-31058</mark> | 31/08/26, 11:59 PM |
+| **Arcade Re-Trail: Vaults & Vectors** | [Games 7426](https://www.skills.google/games/7426) | <mark class="bg-yellow-200 dark:bg-yellow-500/30">1q-vaults-39213</mark> | 31/08/26, 11:59 PM |
 
 * * *
 
