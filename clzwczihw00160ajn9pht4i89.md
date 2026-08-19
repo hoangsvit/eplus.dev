@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-08-16T06:59:17.732Z
 cuid: clzwczihw00160ajn9pht4i89
 slug: create-ml-models-with-bigquery-ml-challenge-lab-gsp341
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723790933613/dd73ea7e-0e33-4cf7-aaad-c234742e7033.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723791540383/1a0d523e-8065-425c-bccf-02a62cd40337.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1e224941-b004-4e1a-a58a-3550ad1d725e.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/0547e55d-11fd-4bad-940d-ff406309a321.png
 tags: create-ml-models-with-bigquery-ml-challenge-lab-gsp341
 
 ---
@@ -33,12 +33,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -73,14 +73,14 @@ You are working on one project that needs to provide analysis based on real worl
 
 You can access the public data for the Austin bike share scheme in your project by opening [this link to the Austin bike share dataset](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=austin_bikeshare&page=dataset) in the browser tab for your lab.
 
-* So, create the machine learning model named **austin\_location\_model** in the precreated dataset **austin** to predict the trip duration for bike trips.
+*   So, create the machine learning model named **austin\_location\_model** in the precreated dataset **austin** to predict the trip duration for bike trips.
     
 
 The features of this model must incorporate the starting station name, the hour the trip started, the weekday of the trip, and the address of the start station labelled as location. You must use **2019** Year data only to train this model.
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong><em>Note: </em></strong><em>In case you're unable to view pre-created resources in bigquery as per the task description,"your Google Cloud resources are still being provisioned, please refresh the page and try again in a few minutes." If you do, just wait a short time and reload your page.</em></p></td></tr></tbody></table>
+<table style="min-width: 25px;"><colgroup><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong><em>Note: </em></strong><em>In case you're unable to view pre-created resources in bigquery as per the task description,"your Google Cloud resources are still being provisioned, please refresh the page and try again in a few minutes." If you do, just wait a short time and reload your page.</em></p></td></tr></tbody></table>
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong><em>Tips and tricks: </em></strong><em>You will need to combine the information from both Austin bike share tables in the public dataset to create your model by means of a JOIN statement.</em></p></td></tr></tbody></table>
+<table style="min-width: 25px;"><colgroup><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong><em>Tips and tricks: </em></strong><em>You will need to combine the information from both Austin bike share tables in the public dataset to create your model by means of a JOIN statement.</em></p></td></tr></tbody></table>
 
 Click **Check my progress** to verify the objective.
 
@@ -100,9 +100,9 @@ Evaluate each of the precreated machine learning models in the dataset **austin*
 
 Your queries must report both the Mean Absolute Error and the Root Mean Square Error.
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong><em>Note: </em></strong><em>In case you're unable to view pre-created resources in bigquery as per the task description,"your Google Cloud resources are still being provisioned, please refresh the page and try again in a few minutes." If you do, just wait a short time and reload your page.</em></p></td></tr></tbody></table>
+<table style="min-width: 25px;"><colgroup><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong><em>Note: </em></strong><em>In case you're unable to view pre-created resources in bigquery as per the task description,"your Google Cloud resources are still being provisioned, please refresh the page and try again in a few minutes." If you do, just wait a short time and reload your page.</em></p></td></tr></tbody></table>
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong><em>Tips and tricks: </em></strong><em>While evaluating the models you should use SELECT SQRT(mean_squared_error) AS rmse, mean_absolute_error FROM ML.EVALUATE(...) to return the specific model performance metrics the data scientists want to use. Also you must choose a model type that is suitable for forecasting label values.</em></p></td></tr></tbody></table>
+<table style="min-width: 25px;"><colgroup><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong><em>Tips and tricks: </em></strong><em>While evaluating the models you should use SELECT SQRT(mean_squared_error) AS rmse, mean_absolute_error FROM ML.EVALUATE(...) to return the specific model performance metrics the data scientists want to use. Also you must choose a model type that is suitable for forecasting label values.</em></p></td></tr></tbody></table>
 
 Click **Check my progress** to verify the objective.
 
@@ -118,13 +118,13 @@ In this step you must create and run a query that uses the model that includes s
 
 We have models precreated and evaluated, in the dataset **austin** use the model, that uses subscriber\_type as a feature, to predict average trip length for trips from the busiest bike sharing station in **2019** where the subscriber type is Single Trip.
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong><em>Note: </em></strong><em>In case you're unable to view pre-created resources in bigquery as per the task description,"your Google Cloud resources are still being provisioned, please refresh the page and try again in a few minutes." If you do, just wait a short time and reload your page.</em></p></td></tr></tbody></table>
+<table style="min-width: 25px;"><colgroup><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong><em>Note: </em></strong><em>In case you're unable to view pre-created resources in bigquery as per the task description,"your Google Cloud resources are still being provisioned, please refresh the page and try again in a few minutes." If you do, just wait a short time and reload your page.</em></p></td></tr></tbody></table>
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong><em>Tips and tricks: </em></strong><em>Your prediction queries must return the average of the predicted value output by the model for the trip duration and not just the average of the actual trip duration.</em></p></td></tr></tbody></table>
+<table style="min-width: 25px;"><colgroup><col style="min-width: 25px;"></colgroup><tbody><tr><td colspan="1" rowspan="1"><p><strong><em>Tips and tricks: </em></strong><em>Your prediction queries must return the average of the predicted value output by the model for the trip duration and not just the average of the actual trip duration.</em></p></td></tr></tbody></table>
 
 Click **Check my progress** to verify the objective.
 
----
+* * *
 
 ## Solution of Lab
 
