@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-08-18T14:00:57.051Z
 cuid: clzzmxgwq000c0aku5fmran2s
 slug: migrate-a-mysql-database-to-google-cloud-sql-challenge-lab-gsp306
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723989109379/ba45a49c-a2da-4e5b-8357-ab57b6bb5c15.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723989636504/c2aa24d6-2b54-4c7c-a7a7-614e5ba6f107.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/7fdf45b8-5f92-49cb-93dc-b191185045f5.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/9ecab1ab-6229-4cff-a238-1a2d8c803a72.png
 tags: migrate-a-mysql-database-to-google-cloud-sql-challenge-lab-gsp306
 
 ---
@@ -31,12 +31,12 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
@@ -51,11 +51,11 @@ The existing database for the blog is provided by MySQL running on the same serv
 
 ### Your challenge
 
-1. You need to create a new Cloud SQL instance to host the migrated database.
+1.  You need to create a new Cloud SQL instance to host the migrated database.
     
-2. Once you have created the new database and configured it, you can then create a database dump of the existing database and import it into Cloud SQL.
+2.  Once you have created the new database and configured it, you can then create a database dump of the existing database and import it into Cloud SQL.
     
-3. When the data has been migrated, you will then reconfigure the blog software to use the migrated database.
+3.  When the data has been migrated, you will then reconfigure the blog software to use the migrated database.
     
 
 For this lab, the WordPress site configuration file is located here: `/var/www/html/wordpress/wp-config.php`.
@@ -122,7 +122,7 @@ Click **Check my progress** to verify the objective.
 
 Check that the blog still responds to requests.
 
----
+* * *
 
 ## Solution of Lab
 
@@ -145,7 +145,7 @@ sudo apt-get update
 sudo apt-get install -y mysql-client
 ```
 
----
+* * *
 
 ```apache
 gcloud auth login --no-launch-browser --quiet
