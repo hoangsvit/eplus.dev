@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-08-18T13:49:13.520Z
 cuid: clzzmie2800070aku3lywfe1h
 slug: scale-out-and-update-a-containerized-application-on-a-kubernetes-cluster-challenge-lab-gsp305
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723988733786/5d646594-df07-4ba3-90b8-f6c6af9398aa.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1723988940719/a7d9a402-e47d-4e94-b0a2-f22a7655df2b.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/302a81a8-df7e-48fe-af43-ea19f41eee09.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/4cf7865b-5984-4272-ae89-7c0529283682.png
 tags: scale-out-and-update-a-containerized-application-on-a-kubernetes-cluster-challenge-lab-gsp305
 
 ---
@@ -25,23 +25,23 @@ This lab is recommended for students preparing for the [Google Cloud Certified P
 
 You are taking over ownership of a test environment and have been given an updated version of a containerized test application to deploy. Your systems' architecture team has started adopting a containerized microservice architecture. You are responsible for managing the containerized test web applications. You will first deploy the initial version of a test application, called `echo-app` to a Kubernetes cluster called `echo-cluster` in a deployment called `echo-web`. The cluster will be deployed in the `us-east4-b` zone.
 
-1. Before you get started, in the **Navigation menu**, select **Cloud Storage**.
+1.  Before you get started, in the **Navigation menu**, select **Cloud Storage**.
     
-2. Verify the `echo-web-v2.tar.gz` file is in the `gs://qwiklabs-gcp-02-910c0269608a` bucket.
+2.  Verify the `echo-web-v2.tar.gz` file is in the `gs://qwiklabs-gcp-02-910c0269608a` bucket.
     
 
 ![Storage browser containing the relevant bucket](https://cdn.qwiklabs.com/6LFiu9lfhzr7qtTo4e1BifM0q0cRiNDzEHnvYmfvrjc%3D align="left")
 
 Next, you will check to make sure your GKE cluster has been created before continuing.
 
-3. In the **Navigation menu**, select select **Kuberntes Engine** &gt; **Clusters**.
+3.  In the **Navigation menu**, select select **Kuberntes Engine** > **Clusters**.
     
 
 Continue when you see a green checkmark next to `echo-cluster`:
 
 ![echo-cluster with green checkmark on the Kubernetes clusters page](https://cdn.qwiklabs.com/QouWWaKBDJ2Dug%2B1QP3Zw4jqG5NTXpXmRhrfTXvdF08%3D align="left")
 
-4. To deploy your first version of the application, run the following commands in Cloud Shell to get up and running:
+4.  To deploy your first version of the application, run the following commands in Cloud Shell to get up and running:
     
 
 ```apache
@@ -108,14 +108,33 @@ Verify your deployed application service is responding correctly.
 
 **Receiving a 504, Gateway timeout error:** This might just indicate that the application hasn't quite initialized yet, but it could also be caused by a mismatch between the default port that is set in the Dockerfile (TCP port 8000) and:
 
-* The choice of application port you configured when deploying the application image, or
+*   The choice of application port you configured when deploying the application image, or
     
-* When you configured external access.
+*   When you configured external access.
     
 
----
+* * *
 
 ## Solution of Lab
+
+### Quick
+
+%[https://youtu.be/KNuwPOZ1-Tc] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP305/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Scale%20Out%20and%20Update%20a%20Containerized%20Application%20on%20a%20Kubernetes%20Cluster%3A%20Challenge%20Lab/TechCode.sh
+sudo chmod +x TechCode.sh 
+./TechCode.sh
+```
+
+### Other Solution
 
 %[https://www.youtube.com/watch?v=wg6b3BdQ-lI] 
 
@@ -130,3 +149,9 @@ curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/S
 sudo chmod +x gsp305.sh
 ./gsp305.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=VHD75dXGk5w]
