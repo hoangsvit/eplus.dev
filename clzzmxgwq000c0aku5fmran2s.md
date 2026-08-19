@@ -128,6 +128,13 @@ Check that the blog still responds to requests.
 
 ### Quick
 
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP306/lab.sh
+source lab.sh
+```
+
+* * *
+
 ### Other Solution
 
 %[https://www.youtube.com/watch?v=EaJG_HmFUfI] 
