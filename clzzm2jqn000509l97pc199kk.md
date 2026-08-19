@@ -93,7 +93,6 @@ Test that a service exists that responds to requests like Echo-app
 
 %[https://www.youtube.com/watch?v=YgjX8YOO-T4] 
 
-
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP304/lab.sh
 source lab.sh
@@ -112,3 +111,9 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Build%20and%
 sudo chmod +x quicklabgsp304.sh
 ./quicklabgsp304.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=nyO6_0_9nDc]
