@@ -126,6 +126,10 @@ Check that the blog still responds to requests.
 
 ## Solution of Lab
 
+### Quick
+
+### Other Solution
+
 %[https://www.youtube.com/watch?v=EaJG_HmFUfI] 
 
 ```apache
@@ -166,3 +170,9 @@ EXTERNAL_IP=$(gcloud sql instances describe wordpress --format="value(ipAddresse
 CONFIG_FILE="wp-config.php"
 sudo sed -i "s/define('DB_HOST', 'localhost')/define('DB_HOST', '$EXTERNAL_IP')/" $CONFIG_FILE
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=WFUQzxZLA2I]
