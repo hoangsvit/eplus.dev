@@ -173,12 +173,20 @@ Configure the IIS web server software.
 
 ### Quick
 
+%[https://www.youtube.com/watch?v=1JN-r7_LOzE] 
+
 ```plaintext
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP303/lab.sh
 source lab.sh
 ```
 
-* * *
+**Script Alternative**
+
+```plaintext
+curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Configure%20Secure%20RDP%20using%20a%20Windows%20Bastion%20Host%3A%20Challenge%20Lab/TechCode.sh
+sudo chmod +x TechCode.sh 
+./TechCode.sh
+```
 
 ### Other Solution
 
