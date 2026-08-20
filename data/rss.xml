@@ -5,10 +5,16 @@
     <link>https://eplus.dev</link>
     <description>Latest posts from ePlus DEV</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 10:46:44 GMT</lastBuildDate>
-    <pubDate>Wed, 19 Aug 2026 09:28:20 GMT</pubDate>
+    <lastBuildDate>Thu, 20 Aug 2026 04:41:06 GMT</lastBuildDate>
+    <pubDate>Thu, 20 Aug 2026 04:40:50 GMT</pubDate>
     <generator>GitHub Actions</generator>
 
+    <item>
+      <title>Daily Tech Brief — 20/08/2026</title>
+      <link>https://eplus.dev/daily-tech-brief-20-08-2026</link>
+      <guid isPermaLink="true">https://eplus.dev/daily-tech-brief-20-08-2026</guid>
+      <pubDate>Thu, 20 Aug 2026 04:40:50 GMT</pubDate>
+    </item>
     <item>
       <title>Integrate BigQuery Data and Google Workspace using Apps Script: Challenge Lab - ARC133</title>
       <link>https://eplus.dev/integrate-bigquery-data-and-google-workspace-using-apps-script-challenge-lab-arc133</link>
