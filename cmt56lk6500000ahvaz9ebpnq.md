@@ -1,9 +1,13 @@
 ---
 title: "Daily Tech Brief — 23/08/2026"
+seoTitle: "Daily Tech Brief — 23/08/2026"
+seoDescription: "Visual Studio dùng Copilot để modernize .NET theo checkpoint, Google cảnh báo OAuth/app-password phishing, JetBrains chuẩn hóa Spring Boot configuration và Microsoft cập nhật Go runtime"
 datePublished: 2026-08-23T02:21:52.396Z
 cuid: cmt56lk6500000ahvaz9ebpnq
 slug: daily-tech-brief-23-08-2026
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/92cfb4b5-73ef-4764-9f77-5a0980c0d673.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/30dff2c8-5b71-490a-869b-8560e2782751.png
+tags: daily-tech-brief, daily-tech-brief-23-08-2026
 
 ---
 
