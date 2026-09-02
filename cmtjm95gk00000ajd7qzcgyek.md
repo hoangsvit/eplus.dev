@@ -5,7 +5,7 @@ seoDescription: "OpenAI xác nhận Astra đạt Critical cyber capability, Anth
 datePublished: 2026-09-02T04:48:53.779Z
 cuid: cmtjm95gk00000ajd7qzcgyek
 slug: daily-tech-brief-02-09-2026
-cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/cb1ef7bd-4a7b-408a-95db-c0d8528bbc6d.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/fe213924-87df-464a-9269-739ef1a446da.png
 ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/591285ab-19e1-4fbc-b30d-de1a6ffdb120.png
 tags: daily-tech-brief, daily-tech-brief-02-09-2026
 
