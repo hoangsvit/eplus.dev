@@ -572,11 +572,20 @@ In the output, you should be able to see responses from **instance-group-1** in 
 
 ### Quick
 
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP216/lab.sh
+source lab.sh
+```
+
+* * *
+
+### Other Solution
+
 %[https://www.youtube.com/watch?v=zK1Fa63OKDw] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP216/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP216/old.sh
+source old.sh
 ```
 
 **Script Alternative**
