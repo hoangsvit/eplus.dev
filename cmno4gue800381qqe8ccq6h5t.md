@@ -587,7 +587,9 @@ sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 ```
 
-![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/50c04d44-1702-4ae0-a6a5-267609df700a.png align="center")
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c043fa39-3a9f-4aaf-9f74-214a46507811.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/16fb4357-79ac-4f2d-a9ce-5e0c55f053d4.png align="center")
 
 * * *
 
