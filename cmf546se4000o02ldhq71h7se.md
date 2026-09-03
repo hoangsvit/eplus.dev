@@ -5,8 +5,8 @@ seoDescription: "Learn to set up a network load balancer on Google Cloud. Config
 datePublished: 2025-09-04T07:58:31.228Z
 cuid: cmf546se4000o02ldhq71h7se
 slug: set-up-network-load-balancers-gsp007
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756972620870/38d6fe66-64ac-4e70-b57b-4ef477abf657.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756972655124/6c04dd8b-8d5c-47bd-86ef-66505c97403d.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4fe0a19b-2227-41c2-a608-dbb9a876ceeb.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/e2511732-02b3-4e40-9b30-3a69631b42ea.png
 tags: load-balancers, gsp097, set-up-network-load-balancers-gsp007, set-up-network-load-balancers
 
 ---
