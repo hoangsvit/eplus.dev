@@ -853,7 +853,9 @@ default via 172.16.0.1 dev eth0
 
 ## Solution of Lab
 
-%[https://youtu.be/Pi7wRdFwnkA] 
+### Quick
+
+%[https://www.youtube.com/watch?v=Kgg6eLl_kao] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP211/lab.sh
@@ -873,3 +875,9 @@ sudo chmod +x abhishek.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757153643808/29cccfab-f5ee-4e55-8d17-69370a24308c.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757153653011/60d48dc9-131b-4928-bc77-edbc02fea0b6.png align="center")
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=e8OCA8ykuUk]
