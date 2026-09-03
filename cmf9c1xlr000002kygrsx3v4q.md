@@ -134,6 +134,27 @@ sudo chmod +x Meow.sh
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757227555456/28312ea8-e382-4cf4-af97-eeccdb615e85.png align="center")
 
+**Task 6:** [Compute Engine → VM instances](https://console.cloud.google.com/compute/instances)
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/05d93f21-eec8-495e-aafe-22ec67880d88.png align="center")
+
+```plaintext
+PROJECT_ID=$(gcloud config get-value project 2>/dev/null)
+
+JUICE_ZONE=$(gcloud compute instances list \
+  --project="$PROJECT_ID" \
+  --filter="name=juice-shop" \
+  --format="value(zone)" \
+  | head -n1)
+
+gcloud compute ssh juice-shop \
+  --project="$PROJECT_ID" \
+  --zone="$JUICE_ZONE" \
+  --internal-ip
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/6a599bdb-447f-4da0-88ee-cd201a3b14a7.png align="center")
+
 * * *
 
 ### Manual
