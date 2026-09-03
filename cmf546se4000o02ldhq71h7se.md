@@ -391,3 +391,9 @@ curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/he
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=H2a2KEW2lto]
