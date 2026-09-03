@@ -5,8 +5,8 @@ seoDescription: "Google Cloud's Internal Load Balancing (ILB) is a crucial servi
 datePublished: 2026-04-07T04:31:36.426Z
 cuid: cmno4gue800381qqe8ccq6h5t
 slug: enhance-application-reliability-and-scalability-with-internal-load-balancing-gsp216
-cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/d05aadbb-b0f5-4b47-9230-9b4e63960e8f.png
-ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/0cf102f0-e3ff-40bf-bf99-bc5288f377c2.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/909a6616-17b8-453e-8c38-a19b141a6f19.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/fcd29b2d-82e0-4f77-8287-82c13bc3fb55.png
 tags: gsp216, enhance-application-reliability-and-scalability-with-internal-load-balancing-gsp216, enhance-application-reliability-and-scalability-with-internal-load-balancing
 
 ---
