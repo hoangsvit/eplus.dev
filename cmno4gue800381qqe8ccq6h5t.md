@@ -594,3 +594,5 @@ sudo chmod +x drabhishek.sh
 * * *
 
 ### Manual
+
+%[https://www.youtube.com/watch?v=DVudEMwfMk4]
