@@ -115,7 +115,7 @@ SSH to bastion host via IAP and juice-shop via bastion
 
 ### Quick
 
-%[https://www.youtube.com/watch?v=wROa-Qcp9fA] 
+%[https://www.youtube.com/watch?v=AfFUhCfKjTU] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP322/lab.sh
@@ -125,11 +125,19 @@ source lab.sh
 **Script Alternative**
 
 ```apache
-curl -LO raw.githubusercontent.com/Techcps/Google-Cloud-Skills-Boost/master/Build%20a%20Secure%20Google%20Cloud%20Network%3A%20Challenge%20Lab/techcps322.sh
-sudo chmod +x techcps322.sh
-./techcps322.sh
+curl -LO https://raw.githubusercontent.com/manavyugaitech/Welcome/main/Build%20a%20Secure%20Google%20Cloud%20Network%3A%20Challenge%20Lab/Meow.sh
+sudo chmod +x Meow.sh
+./Meow.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757227550572/9c5432eb-754e-4223-b0cd-be9b33f86ed6.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1757227555456/28312ea8-e382-4cf4-af97-eeccdb615e85.png align="center")
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=CS_6ujTa4vk] 
+
+%[https://www.youtube.com/watch?v=K9Eoel_BCK8]
