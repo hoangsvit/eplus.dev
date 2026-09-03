@@ -570,7 +570,9 @@ In the output, you should be able to see responses from **instance-group-1** in 
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=CJDVlzKurBg] 
+### Quick
+
+%[https://www.youtube.com/watch?v=zK1Fa63OKDw] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP216/lab.sh
@@ -580,9 +582,13 @@ source lab.sh
 **Script Alternative**
 
 ```plaintext
-curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/Enhance%20Application%20Reliability%20and%20Scalability%20with%20Internal%20Load%20Balancing/TechCode.sh
-sudo chmod +x TechCode.sh 
-./TechCode.sh
+curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Enhance%20Application%20Reliability%20and%20Scalability%20with%20Internal%20Load%20Balancing/drabhishek.sh
+sudo chmod +x drabhishek.sh
+./drabhishek.sh
 ```
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/50c04d44-1702-4ae0-a6a5-267609df700a.png align="center")
+
+* * *
+
+### Manual
