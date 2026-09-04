@@ -17,18 +17,18 @@ BigQuery can be used to perform more sophisticated data analysis. In this lab, y
 
 The data used in this lab comes from the following sources:
 
-* Pappalardo et al., (2019) **A public data set of spatio-temporal match events in soccer competitions**, Nature Scientific Data 6:236, [https://www.nature.com/articles/s41597-019-0247-7](https://www.nature.com/articles/s41597-019-0247-7)
+*   Pappalardo et al., (2019) **A public data set of spatio-temporal match events in soccer competitions**, Nature Scientific Data 6:236, [https://www.nature.com/articles/s41597-019-0247-7](https://www.nature.com/articles/s41597-019-0247-7)
     
-* Pappalardo et al. (2019) **PlayerRank: Data-driven Performance Evaluation and Player Ranking in Soccer via a Machine Learning Approach**. ACM Transactions on Intelligent Systems and Technologies (TIST) 10, 5, Article 59 (September 2019), 27 pages. DOI: [https://doi.org/10.1145/3343172](https://doi.org/10.1145/3343172)
+*   Pappalardo et al. (2019) **PlayerRank: Data-driven Performance Evaluation and Player Ranking in Soccer via a Machine Learning Approach**. ACM Transactions on Intelligent Systems and Technologies (TIST) 10, 5, Article 59 (September 2019), 27 pages. DOI: [https://doi.org/10.1145/3343172](https://doi.org/10.1145/3343172)
     
 
 ## **Objectives**
 
 In this lab, you will learn how to:
 
-* Analyze soccer event data using various BigQuery features
+*   Analyze soccer event data using various BigQuery features
     
-* Write and execute queries that work with nested data in BigQuery tables
+*   Write and execute queries that work with nested data in BigQuery tables
     
 
 ## **Setup and requirements**
@@ -41,29 +41,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -71,7 +71,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-02-fe0f402a10eb@qwiklabs.net
@@ -79,9 +79,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     5GT7KBLMOYyM
@@ -89,19 +89,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -114,14 +114,14 @@ After a few moments, the Google Cloud console opens in this tab.
 
 The BigQuery console provides an interface to query tables, including [public datasets](https://cloud.google.com/bigquery/public-data) offered by BigQuery.
 
-1. In the Cloud Console, from the **Navigation menu** select **BigQuery**:
+1.  In the Cloud Console, from the **Navigation menu** select **BigQuery**:
     
 
 ![BigQuery menu option selected](https://cdn.qwiklabs.com/P5e2YEtseg2Gqwhv66%2FLvId0e2%2F16Cux4Mu8TgoNMsg%3D align="left")
 
 The **Welcome to BigQuery in the Cloud Console** message box opens. This message box provides a link to the quickstart guide and the release notes.
 
-2. Click **Done**.
+2.  Click **Done**.
     
 
 The BigQuery console opens.
@@ -142,9 +142,9 @@ In the next section learn more about creating more complex queries.
 
 In this section, you will run some queries that use JOINs with BigQuery's [array functionality](https://cloud.google.com/bigquery/docs/reference/standard-sql/arrays) to enable better control over the soccer event data.
 
-1. In the Query editor, click **Create SQL query**.
+1.  In the Query editor, click **Create SQL query**.
     
-2. Copy and paste the following query into the query **Editor**:
+2.  Copy and paste the following query into the query **Editor**:
     
 
 ```sql
@@ -176,7 +176,7 @@ Assists aren't marked as a separate scalar field in the **events** table, so you
 
 This is done by using a [correlated cross join](https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax#cross_join) between the **events** table and the **tags** field (with the "," in the FROM clause to represent an implicit join) to create 1 row per tag per event (rather than 1 row per event). The tag ID that corresponds to assists is found from the **tags2name** table, the number of occurrences of that tag is counted by player, and the **players** table gets player names from their IDs.
 
-3. Click **Run**. The results are displayed below the query window.
+3.  Click **Run**. The results are displayed below the query window.
     
 
 ![Query results page displaying five rows of data below the four column headings: Row, playerID, playername, and numAssists.](https://cdn.qwiklabs.com/IW4A06jLkDkBrMQbVV5Gs9G7oA1F74lS5XfvxgPiunw%3D align="left")
@@ -205,9 +205,9 @@ The screenshot below illustrates the positions corresponding to a few different 
 
 From the data you can note that passes have 2 attributes (x, y) pairs representing the start and end position. Therefore pass distance can be calculated by calculating x- and y-coordinate differences, then converting to estimated meters using the average dimensions of a soccer field (105 x 68, per [Wikipedia;](https://en.wikipedia.org/wiki/Football_pitch#/media/File:Football_pitch_metric_and_imperial.svg) there is no standard field size) and [the 2-dimensional distance formula](https://g.co/kgs/1PHzjf).
 
-1. In the Query editor, click **Create SQL query**.
+1.  In the Query editor, click **Create SQL query**.
     
-2. Add the following query into the query **Editor**:
+2.  Add the following query into the query **Editor**:
     
 
 ```sql
@@ -274,7 +274,7 @@ The code in the initial WITH clause filters the **events** table to passes only 
 
 The pass distance is calculated by extracting the initial and final (x, y) coordinates using [ORDINAL](https://cloud.google.com/bigquery/docs/reference/standard-sql/operators#array_subscript_operator) and applying the concepts and formula mentioned above. The final SELECT statement aggregates the passes data to the team level (filtering to only club teams), including average pass distance on all passes and accurate passes only.
 
-3. Click **Run**. The results are displayed below the query window.
+3.  Click **Run**. The results are displayed below the query window.
     
 
 ![Results: 10 rows of data below the headings: Row, teamId, team, teamArea, numPasses, avgPassDistance, and avgAccuratePassDistance width=](https://cdn.qwiklabs.com/0WX9m4sWuTLUmeVsdRmkBn%2Fh3n2oT3TgVQhPx7r%2BdoY%3D align="left")
@@ -303,9 +303,9 @@ To answer this question use a process similar to the previous section. For shots
 
 **Note:** As per the previous query, the approximate dimensions of a soccer field are used with the x-coordinate and y-coordinate distances as inputs to the distance formula.
 
-1. In the Query editor, click **Create SQL query**.
+1.  In the Query editor, click **Create SQL query**.
     
-2. Copy and paste the following query into the query **Editor**:
+2.  Copy and paste the following query into the query **Editor**:
     
 
 ```sql
@@ -362,7 +362,7 @@ The initial WITH clause filters the **events** table to shots only, adds an **is
 
 The final SELECT statement aggregates the number of shots, number of goals, and percentage of goals from shots by distance rounded to the nearest meter.
 
-3. Click **Run**. The results are displayed below the query window.
+3.  Click **Run**. The results are displayed below the query window.
     
 
 ![Query results page displaying 25 rows of data below the column headings: Row, ShotDistRound, numShots, numGoals, and goalPCT](https://cdn.qwiklabs.com/Ksgr5MTzxZquMbiYPBnf%2Bo4vJav14UiQgJ%2B2XHgHluE%3D align="left")
@@ -373,11 +373,11 @@ As expected, shots at close distance have much higher goal rates, going from nea
 
 Visualizing the data can make it easier to understand and see trends.
 
-1. Click on the **CHART** in the Query results section.
+1.  Click on the **CHART** in the Query results section.
     
-2. Select **Scatter** for the **Chart type**.
+2.  Select **Scatter** for the **Chart type**.
     
-3. Use the scatter chart creation features in Sheets to create a chart like the one below:
+3.  Use the scatter chart creation features in Sheets to create a chart like the one below:
     
 
 ![Scatter chart plotting the proportion of shots that are goals on the Y axis, and the shot distance (nearest meter) on the X axis](https://cdn.qwiklabs.com/yclVRkA5pj7wQkLD5r6%2BgWQT2lwvpLZS1gChxQ6jxeI%3D align="left")
@@ -404,9 +404,9 @@ In this case, the angle calculated is the one made by the location of the shot a
 
 Larger angles arise from being close to the goal and in the center, so this is somewhat correlated with the distance calculation performed above. The shot angle calculations involve using [BigQuery's trigonometric functions](https://cloud.google.com/bigquery/docs/reference/standard-sql/mathematical_functions#acos) on the (x, y) data.
 
-1. In the Query editor, click **Create SQL query**.
+1.  In the Query editor, click **Create SQL query**.
     
-2. Add the following query into the query **Editor**:
+2.  Add the following query into the query **Editor**:
     
 
 ```sql
@@ -486,7 +486,7 @@ This query is similar to the shot distance one above except for an initial **WIT
 
 The final SELECT statement aggregates by shot angle rounded to the nearest degree.
 
-3. Click **Run**. The results are displayed below the query window.
+3.  Click **Run**. The results are displayed below the query window.
     
 
 ![Query results page displaying 25 rows of data below the column headings: Row, ShotAngleRound10, numShots, numGoals, and goalPCT](https://cdn.qwiklabs.com/mDWDebPwkrjJ1jLSnRQ6BYYQkchbk%2BscdpzrnrKHM6E%3D align="left")
@@ -513,36 +513,43 @@ Test your understanding of BigQuery by completing the short quiz on the topics c
 
 **How many club teams have an average pass distance less than 20 meters?**
 
-* 18
+*   18
     
-* 33
+*   33
     
-* 10
+*   10
     
 
 **How does the distance of a shot affect its likelihood of becoming a goal?**
 
-* Shot distance seems to be generally positively correlated with goal success rate.
+*   Shot distance seems to be generally positively correlated with goal success rate.
     
-* Shot distance seems to be generally negatively correlated with goal success rate.
+*   Shot distance seems to be generally negatively correlated with goal success rate.
     
-* There is not any correlation between shot distance and goal success rate.
+*   There is not any correlation between shot distance and goal success rate.
     
 
 **In this data set, at what angle (rounded to the nearest degree) have the most shots been taken?**
 
-* 15°
+*   15°
     
-* 45°
+*   45°
     
-* 30°
+*   30°
     
 
----
+* * *
 
 ## Solution of Lab
 
 %[https://www.youtube.com/watch?v=ZUERQ5i5viI] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP850/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/BigQuery%20Soccer%20Data%20Analytical%20Insight/quicklabsgsp850.sh
