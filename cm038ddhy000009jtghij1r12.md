@@ -5,7 +5,7 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2024-08-21T02:24:29.590Z
 cuid: cm038ddhy000009jtghij1r12
 slug: perform-predictive-data-analysis-in-bigquery-challenge-lab-gsp374
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759298055184/c868d288-b90b-4a56-911e-ecefc268f4fd.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1ec176a7-3cd3-40d3-905c-720b09716dd9.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1759298067443/2c32b567-2c53-49fe-ad91-f13392374c8d.png
 tags: perform-predictive-data-analysis-in-bigquery-challenge-lab-gsp374, gsp374, perform-predictive-data-analysis-in-bigquery-challenge-lab
 
@@ -23,17 +23,17 @@ This lab is recommended for students who have enrolled in the [Perform Predictiv
 
 Topics tested:
 
-* Upload files from Cloud Storage into BigQuery tables using the console
+*   Upload files from Cloud Storage into BigQuery tables using the console
     
-* Write and execute queries that join information from multiple tables
+*   Write and execute queries that join information from multiple tables
     
-* Analyze soccer event data using various BigQuery features
+*   Analyze soccer event data using various BigQuery features
     
-* Write functions in BigQuery to help with calculations to be performed on soccer shot data
+*   Write functions in BigQuery to help with calculations to be performed on soccer shot data
     
-* Create and evaluate an expected goals model using BigQuery ML
+*   Create and evaluate an expected goals model using BigQuery ML
     
-* Apply an expected goals model to make a prediction from new data using BigQuery ML
+*   Apply an expected goals model to make a prediction from new data using BigQuery ML
     
 
 ## **Setup and requirements**
@@ -46,29 +46,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -76,7 +76,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-02-757f969aadcd@qwiklabs.net
@@ -84,9 +84,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     c9nfoKuvG1Jm
@@ -94,19 +94,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -121,7 +121,7 @@ Use BigQuery to load the data from the Cloud Storage bucket, write and execute q
 
 ## **Task 1. Data ingestion**
 
-1. Load the tables created with JavaScript Object Notation (JSON) and CSV data format into the dataset using the following information:
+1.  Load the tables created with JavaScript Object Notation (JSON) and CSV data format into the dataset using the following information:
     
 
 | **Field** | **Value** |
@@ -132,7 +132,7 @@ Use BigQuery to load the data from the Cloud Storage bucket, write and execute q
 | Table name | `events545` |
 | Schema | Check the box marked Schema `Auto detect` |
 
-2. Load another table of soccer data format CSV into the dataset using the following information below:
+2.  Load another table of soccer data format CSV into the dataset using the following information below:
     
 
 | **Field** | **Value** |
@@ -151,20 +151,20 @@ Check tables are created
 
 ## **Task 2. Analyze soccer data**
 
-* Build a query that shows the success rate on penalty kicks by each player.
+*   Build a query that shows the success rate on penalty kicks by each player.
     
 
 Points to consider:
 
-* Join the `events545` table with the `players` table to get player names from their IDs
+*   Join the `events545` table with the `players` table to get player names from their IDs
     
-* Filter on penalty kicks
+*   Filter on penalty kicks
     
-* Group by player ID and player name
+*   Group by player ID and player name
     
-* Player should attempt at least 5 penalty kicks
+*   Player should attempt at least 5 penalty kicks
     
-* Order by penalty kick success rate
+*   Order by penalty kick success rate
     
 
 **Note:** Tag 101 represents a goal using the `tags3name` table.
@@ -177,22 +177,22 @@ Check penalty kick success rate
 
 ## **Task 3. Gain insight by analyzing soccer data**
 
-* Create a new query to analyze shot distance. For shots, use (x, y) values from the `positions` field in the `events545` table.
+*   Create a new query to analyze shot distance. For shots, use (x, y) values from the `positions` field in the `events545` table.
     
 
 Points to consider:
 
-* Calculate shot distance using the midpoint of the goal mouth (`90`, `55`) as the ending location.
+*   Calculate shot distance using the midpoint of the goal mouth (`90`, `55`) as the ending location.
     
-* Calculate pass distance by x-coordinate and y-coordinate differences, then convert to estimated meters using the average dimensions of a soccer field (`116` x `66`).
+*   Calculate pass distance by x-coordinate and y-coordinate differences, then convert to estimated meters using the average dimensions of a soccer field (`116` x `66`).
     
-* Add an `isGoal` field by looking "inside" the tags field.
+*   Add an `isGoal` field by looking "inside" the tags field.
     
-* Filter the `events545` table to shots only.
+*   Filter the `events545` table to shots only.
     
-* Shot distance must be less than 50.
+*   Shot distance must be less than 50.
     
-* The final `SELECT` statement aggregates the number of shots, the number of goals and the percentage of goals from shots by distance rounded to the nearest meter.
+*   The final `SELECT` statement aggregates the number of shots, the number of goals and the percentage of goals from shots by distance rounded to the nearest meter.
     
 
 **Note:** The approximate dimensions of a soccer field are used with the x-coordinate and y-coordinate distances as inputs to the distance formula.
@@ -209,7 +209,7 @@ Create some user-defined functions in BigQuery that help with shot distance and 
 
 ### Calculate shot distance from (x,y) coordinates
 
-* Define a function `soccer.GetShotDistanceToGoal545` for calculating the shot distance from (x,y) coordinates in the `soccer` dataset using the following code-blocks:
+*   Define a function `soccer.GetShotDistanceToGoal545` for calculating the shot distance from (x,y) coordinates in the `soccer` dataset using the following code-blocks:
     
 
 ```sql
@@ -233,7 +233,7 @@ Calculate shot distance
 
 ### Calculate shot angle from (x,y) coordinates
 
-* Define a function `soccer.GetShotAngleToGoal545` for calculating the shot angle from (x,y) coordinates in the `soccer` dataset using the following code-blocks:
+*   Define a function `soccer.GetShotAngleToGoal545` for calculating the shot angle from (x,y) coordinates in the `soccer` dataset using the following code-blocks:
     
 
 ```sql
@@ -272,7 +272,7 @@ Calculate shot angle
 
 ### Create an expected goals model using BigQuery ML
 
-1. Use BigQuery ML to create and execute a machine learning model `soccer.xg_logistic_reg_model_545` in BigQuery using standard SQL queries.
+1.  Use BigQuery ML to create and execute a machine learning model `soccer.xg_logistic_reg_model_545` in BigQuery using standard SQL queries.
     
 
 In this case, you build an expected goals model from the soccer **event** data to predict the likelihood of a shot going in for a goal given its type, distance, and angle.
@@ -281,15 +281,15 @@ Expected goals models are commonly used in soccer analytics to measure the quali
 
 Points to consider:
 
-* The top section will be the actual model creation code, specify the type of model and label for the outcome variable.
+*   The top section will be the actual model creation code, specify the type of model and label for the outcome variable.
     
-* 101 is a known Tag for 'goals' from the goals table.
+*   101 is a known Tag for 'goals' from the goals table.
     
-* The `SELECT` statement aggregates **isGoal** outcome variable along with features of interest from the event data, shot distance, and angle calculated using the user-defined functions defined in the previous step.
+*   The `SELECT` statement aggregates **isGoal** outcome variable along with features of interest from the event data, shot distance, and angle calculated using the user-defined functions defined in the previous step.
     
-* Join enables the determination of which competition each shot came from.
+*   Join enables the determination of which competition each shot came from.
     
-* Filter out `World Cup` matches for model fitting purposes and include both "open play" & free kick shots (including penalties).
+*   Filter out `World Cup` matches for model fitting purposes and include both "open play" & free kick shots (including penalties).
     
 
 Click Check my progress to verify the objective
@@ -298,12 +298,12 @@ Create BigQuery logistic regression model
 
 **Check my progress**
 
-2. Once the model is done training - look for a "Query complete" notification in the **Query results** section - click **Go to model** at the far right next to the message about model creation.
+2.  Once the model is done training - look for a "Query complete" notification in the **Query results** section - click **Go to model** at the far right next to the message about model creation.
     
 
 This opens up a new tab that has information about the model that was just trained.
 
-3. Click to **EVALUATION** tab and look at the metrics, particularly **Log loss** and **ROC AUC** under **Aggregate Metrics**.
+3.  Click to **EVALUATION** tab and look at the metrics, particularly **Log loss** and **ROC AUC** under **Aggregate Metrics**.
     
 
 ## **Task 5. Make predictions from new data with the BigQuery model**
@@ -314,29 +314,46 @@ The logistic regression model `soccer.xg_logistic_reg_model_545` created in the 
 
 ### Get probabilities for all shots in the 2018 World Cup
 
-* Use BigQuery ML's prediction functionality with the logistic regression model fit in the previous step to look at the probability of each shot scoring in the World Cup.
+*   Use BigQuery ML's prediction functionality with the logistic regression model fit in the previous step to look at the probability of each shot scoring in the World Cup.
     
 
 Points to consider:
 
-* The top section is the actual model prediction code, specifying the type of model.
+*   The top section is the actual model prediction code, specifying the type of model.
     
-* The `SELECT` statement aggregates **isGoal** outcome variable along with features of interest from the event data, shot distance, and angle calculated using the user-defined functions defined in the previous step.
+*   The `SELECT` statement aggregates **isGoal** outcome variable along with features of interest from the event data, shot distance, and angle calculated using the user-defined functions defined in the previous step.
     
-* Join enables the determination of which competition each shot came from.
+*   Join enables the determination of which competition each shot came from.
     
-* Look only at `World Cup` matches for model predictions and include both "open play" and free kick shots (including penalties).
+*   Look only at `World Cup` matches for model predictions and include both "open play" and free kick shots (including penalties).
     
 
 Click **Check my progress** to verify the objective
 
 Make predictions from the model
 
----
+* * *
 
 ## Solution of Lab
 
-## New solution
+### Quick
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP374/lab.sh
+source lab.sh
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9c637e56-75be-42d0-8cad-1797613e1b68.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9eee7fbd-7a15-4181-a3f2-e59f6e2489ae.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/27240a35-4940-472e-9d8f-39a683bca979.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/50c2fd91-c564-481c-9dfb-ab960af4eca7.png align="center")
+
+* * *
+
+### New solution
 
 %[https://youtu.be/gyZCr-1I0m4] 
 
@@ -368,7 +385,7 @@ sudo chmod +x gsp374.sh
 
 Open [Big Query](https://console.cloud.google.com/bigquery)
 
----
+* * *
 
 ## Old solution
 
