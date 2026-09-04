@@ -5,9 +5,9 @@ seoDescription: "Information access uses multiple formats, and BigQuery makes wo
 datePublished: 2024-08-20T15:01:13.501Z
 cuid: cm02jyopp000209l4dtad4lcs
 slug: bigquery-soccer-data-ingestion-gsp848
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724165920495/5decc0e0-e94e-4a52-b940-65159c13693c.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1724166059696/c159465f-4b44-462b-9782-b33ee921401b.png
-tags: bigquery-soccer-data-ingestion-gsp848
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c338347f-09d6-40c8-8b79-23b9d79c72bc.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/c50b1d2a-7433-48e9-95b5-3b51cc388f43.png
+tags: bigquery-soccer-data-ingestion-gsp848, gsp848, bigquery-soccer-data-ingestion
 
 ---
 
@@ -17,20 +17,20 @@ Information access uses multiple formats, and BigQuery makes working with multip
 
 The data used in this lab originates from the following sources:
 
-* Pappalardo et al., (2019) **A public data set of spatio-temporal match events in soccer competitions**, Nature Scientific Data 6:236, [https://www.nature.com/articles/s41597-019-0247-7](https://www.nature.com/articles/s41597-019-0247-7)
+*   Pappalardo et al., (2019) **A public data set of spatio-temporal match events in soccer competitions**, Nature Scientific Data 6:236, [https://www.nature.com/articles/s41597-019-0247-7](https://www.nature.com/articles/s41597-019-0247-7)
     
-* Pappalardo et al. (2019) **PlayerRank: Data-driven Performance Evaluation and Player Ranking in Soccer via a Machine Learning Approach**. ACM Transactions on Intelligent Systems and Technologies (TIST) 10, 5, Article 59 (September 2019), 27 pages. DOI: [https://doi.org/10.1145/3343172](https://doi.org/10.1145/3343172)
+*   Pappalardo et al. (2019) **PlayerRank: Data-driven Performance Evaluation and Player Ranking in Soccer via a Machine Learning Approach**. ACM Transactions on Intelligent Systems and Technologies (TIST) 10, 5, Article 59 (September 2019), 27 pages. DOI: [https://doi.org/10.1145/3343172](https://doi.org/10.1145/3343172)
     
 
 ## **Objectives**
 
 In this lab, you will learn how to:
 
-* Upload files from Google Cloud Storage (GCS) into BigQuery tables using the Cloud Console.
+*   Upload files from Google Cloud Storage (GCS) into BigQuery tables using the Cloud Console.
     
-* Use the Cloud Console to access information derived from BigQuery tables.
+*   Use the Cloud Console to access information derived from BigQuery tables.
     
-* Understand how to write queries on the uploaded tables.
+*   Understand how to write queries on the uploaded tables.
     
 
 ## **Setup and requirements**
@@ -43,29 +43,29 @@ This hands-on lab lets you do the lab activities yourself in a real cloud enviro
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito or private browser window to run this lab. This prevents any conflicts between your personal account and the Student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab---remember, once you start, you cannot pause a lab.
+*   Time to complete the lab---remember, once you start, you cannot pause a lab.
     
 
 **Note:** If you already have your own personal Google Cloud account or project, do not use it for this lab to avoid extra charges to your account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a pop-up opens for you to select your payment method. On the left is the **Lab Details** panel with the following:
     
-    * The **Open Google Cloud console** button
+    *   The **Open Google Cloud console** button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the **Sign in** page.
     
@@ -73,7 +73,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-c53c39caeba6@qwiklabs.net
@@ -81,9 +81,9 @@ To complete this lab, you need:
     
     You can also find the **Username** in the **Lab Details** panel.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     bGDAuTj83DU3
@@ -91,19 +91,19 @@ To complete this lab, you need:
     
     You can also find the **Password** in the **Lab Details** panel.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -116,16 +116,16 @@ After a few moments, the Google Cloud console opens in this tab.
 
 The BigQuery console provides an interface to query tables, including [public datasets](https://cloud.google.com/bigquery/public-data) offered by BigQuery.
 
-1. In the Cloud Console, from the **Navigation menu** select **BigQuery**:
+1.  In the Cloud Console, from the **Navigation menu** select **BigQuery**:
     
 
 ![Navigation menu](https://cdn.qwiklabs.com/P5e2YEtseg2Gqwhv66%2FLvId0e2%2F16Cux4Mu8TgoNMsg%3D align="left")
 
-2. The **Welcome to BigQuery in the Cloud Console** message box opens. This message box provides a link to the quickstart guide and the release notes.
+2.  The **Welcome to BigQuery in the Cloud Console** message box opens. This message box provides a link to the quickstart guide and the release notes.
     
-3. Click **Done**.
+3.  Click **Done**.
     
-4. The BigQuery console opens.
+4.  The BigQuery console opens.
     
 
 ![BigQuery console with the Editor tab opening a blank page.](https://cdn.qwiklabs.com/N8PNVBDaQw13jjcsXXm9GNowCSA7DXmLcco%2BZex8nDU%3D align="left")
@@ -138,16 +138,16 @@ In the next section learn more about BigQuery and how to create custom tables.
 
 In this section, you will create a dataset. The dataset is used to add data to the project. Datasets utilize **tables** and **views** to help control access to data within a project.
 
-1. In the BigQuery console, observe the **Explorer** section.
+1.  In the BigQuery console, observe the **Explorer** section.
     
-2. Click on the **View actions** icon next to your project ID and select **Create dataset**.
+2.  Click on the **View actions** icon next to your project ID and select **Create dataset**.
     
 
 ![Create dataset option highlighted](https://cdn.qwiklabs.com/SXQX9UvusFy1Vqy2T5Pxyu1Qo65VyPeS06j41YKS6N4%3D align="left")
 
 **Note:** A dataset is contained within a specific project. Datasets are top-level containers that are used to organize and control access to your *tables* and *views*. A table or view must belong to a dataset, so you need to create at least one dataset before loading data into BigQuery. Reference: [BigQuery datasets introduction](https://cloud.google.com/bigquery/docs/datasets-intro).
 
-3. On the **Create dataset** page fill in the following:
+3.  On the **Create dataset** page fill in the following:
     
 
 | **Field** | **Value** |
@@ -156,14 +156,14 @@ In this section, you will create a dataset. The dataset is used to add data to t
 | Data location | us (multiple regions in United States) |
 | Default table expiration | *Default* |
 
-4. The BigQuery **Create dataset** screen will display information similar to below:
+4.  The BigQuery **Create dataset** screen will display information similar to below:
     
 
 ![Create dataset screen with the dataset details and a highlighted Create Dataset button.](https://cdn.qwiklabs.com/hyAojpLLGjS46gtFPieDpCh04p81ZegaMv8a5nirkdE%3D align="left")
 
 **Note:** Currently, the public datasets are stored in the US multi-region [data locations](https://cloud.google.com/bigquery/docs/dataset-locations). For simplicity, place your dataset in the same location.
 
-5. Click **Create dataset** at the bottom of the panel.
+5.  Click **Create dataset** at the bottom of the panel.
     
 
 Click Check my progress to verify the objective
@@ -181,14 +181,14 @@ In the next section learn how to populate the created dataset with JavaScript Ob
 Now you will load the tables created previously with soccer data into the dataset.  
 [BigQuery provides support for a number of import formats](https://cloud.google.com/bigquery/docs/loading-data). In this lab use [JSON](https://www.json.org/json-en.html) with the dataset created in the previous section.
 
-1. Create a table by clicking on the **View actions** icon next to your `soccer` dataset in the Explorer section.
+1.  Create a table by clicking on the **View actions** icon next to your `soccer` dataset in the Explorer section.
     
-2. Select **Create table**.
+2.  Select **Create table**.
     
 
 In the following section use the default values for all settings unless otherwise indicated. The data is stored in a public Google Cloud Storage (GCS) bucket.
 
-3. On the **Create table** page add the following information:
+3.  On the **Create table** page add the following information:
     
 
 | **Field** | **Value** |
@@ -201,20 +201,20 @@ In the following section use the default values for all settings unless otherwis
 
 **Note:** When using Cloud Storage buckets with BigQuery, it does not require the prefix of `gs://` to be applied.
 
-4. The BigQuery **Create table** screen will display information similar to below:
+4.  The BigQuery **Create table** screen will display information similar to below:
     
 
 ![Create dataset screen with Source, Destination, and Schema sections.](https://cdn.qwiklabs.com/M5tK5HHy8Z1dCU8fBZxpFwfATxyphUClVyk3o97KaCQ%3D align="left")
 
-5. Click **Create table**.
+5.  Click **Create table**.
     
-6. Wait for BigQuery to create the table and load the data.
+6.  Wait for BigQuery to create the table and load the data.
     
-7. A pop up notification message saying **"competitions" created** is displayed.
+7.  A pop up notification message saying **"competitions" created** is displayed.
     
-8. **The table** will show up after the data is loaded.
+8.  **The table** will show up after the data is loaded.
     
-9. Repeat the steps above for the other JSON data to be ingested.
+9.  Repeat the steps above for the other JSON data to be ingested.
     
 
 | **GCS bucket file** | **Table name** |
@@ -226,8 +226,8 @@ In the following section use the default values for all settings unless otherwis
 
 **Note:** Use the exact Cloud Storage bucket files and table names shown.
 
-10. Once the tables are created the display will be similar to below:
-    
+10.  Once the tables are created the display will be similar to below:
+     
 
 ![Tables listed below the soccer dataset in the Explorer menu](https://cdn.qwiklabs.com/qNRe%2Fz2TSF4pWwRW4Vy5XQgTgCbPwV7jIbcj8ISHBLk%3D align="left")
 
@@ -245,12 +245,12 @@ In the next section learn how to populate the created dataset with a comma-separ
 
 In this section, load another table of soccer data into the dataset. The load process will this time be sourced from a comma-separated values (CSV) file stored in Cloud Storage.
 
-1. Create a table by clicking on the **View actions** icon next to your `soccer` dataset in the Explorer section, and select **Create table**.
+1.  Create a table by clicking on the **View actions** icon next to your `soccer` dataset in the Explorer section, and select **Create table**.
     
 
 Use the default values for all settings unless otherwise indicated.
 
-2. On the **Create table** page add the following information:
+2.  On the **Create table** page add the following information:
     
 
 | **Field** | **Value** |
@@ -261,19 +261,19 @@ Use the default values for all settings unless otherwise indicated.
 | Table name | tags2name |
 | Schema | Check the box marked *Auto detect* |
 
-3. The BigQuery **Create table** screen will display information similar to below:
+3.  The BigQuery **Create table** screen will display information similar to below:
     
 
 ![Create table screen with Source, Destination, and Schema sections.](https://cdn.qwiklabs.com/TIxjs6XUXu2TDdzOv%2B9FcuWnnDS%2BaI0SGTGZdDQIxNQ%3D align="left")
 
-4. Click **Create table** (at the bottom of the window).
+4.  Click **Create table** (at the bottom of the window).
     
-5. Wait for BigQuery to create the table and load the data.
+5.  Wait for BigQuery to create the table and load the data.
     
 
 A pop up message will appear saying "tags2name" created.
 
-6. **The table** will show up after the data is loaded.
+6.  **The table** will show up after the data is loaded.
     
 
 Click Check my progress to verify the objective
@@ -286,16 +286,16 @@ In this section a new table was created using BigQuery. During this process, Big
 
 ## **Task 5. Preview tables**
 
-1. In the left pane, select **soccer** &gt; **competitions** in the navigation panel.
+1.  In the left pane, select **soccer** > **competitions** in the navigation panel.
     
-2. In the Details panel, click the **Preview** tab.
+2.  In the Details panel, click the **Preview** tab.
     
 
 ![Preview of competitions table](https://cdn.qwiklabs.com/f5k5loNAnnY18NuIMfagRE52O2U3wNrQLUZZijOSX%2Fw%3D align="left")
 
-3. Click through the other uploaded tables from the navigation panel.
+3.  Click through the other uploaded tables from the navigation panel.
     
-4. Check the **Schema**, **Details**, **Preview**, **Lineage**, **Data Profile** and **Data Quality** tabs to learn more about the data in each table.
+4.  Check the **Schema**, **Details**, **Preview**, **Lineage**, **Data Profile** and **Data Quality** tabs to learn more about the data in each table.
     
 
 BigQuery provides a convenient way to store data previously held in a variety of formats. To learn more about data ingestion techniques for BigQuery read [Choosing a data ingestion method](https://cloud.google.com/bigquery/docs/loading-data#choosing_a_data_ingestion_method).
@@ -306,9 +306,9 @@ In the next couple of sections learn how to query the datasets created in BigQue
 
 Now that you've loaded data into your tables, you can run queries against it. Next, create a query that retrieves the top 10 tallest defenders (for whom height is available) in the players table.
 
-1. In the query Editor, click "**+**" (Create SQL query) icon.
+1.  In the query Editor, click "**+**" (Create SQL query) icon.
     
-2. Copy and paste the following query into the query Editor:
+2.  Copy and paste the following query into the query Editor:
     
 
 ```sql
@@ -327,7 +327,7 @@ LIMIT 5
 
 **Note:** In the above query, use BigQuery to retrieve information relating to soccer players. Specifically query for a specific player role to understand the general characteristics of a defender.
 
-3. Click **Run**. The results are displayed below the query window.
+3.  Click **Run**. The results are displayed below the query window.
     
 
 ![Query results within the Results tabbed page.](https://cdn.qwiklabs.com/zR0pE3gsmzBeaa5NBzp123znYsOXtaL9tGrSIp5v%2BP0%3D align="left")
@@ -344,7 +344,7 @@ Understanding how to perform queries in BigQuery is essential. Running queries i
 
 Create a query to retrieve counts of all event types that are found in the **events** table.
 
-1. Copy and paste the following query into the query Editor:
+1.  Copy and paste the following query into the query Editor:
     
 
 ```sql
@@ -360,7 +360,7 @@ ORDER BY
   numEvents DESC
 ```
 
-2. Click **Run**. The results are displayed below the query window.
+2.  Click **Run**. The results are displayed below the query window.
     
 
 ![Query results](https://cdn.qwiklabs.com/ilf15KgrYzQW3CiUH1%2BeXSqLUe3JUNzAt9e0zSZOjqc%3D align="left")
@@ -385,27 +385,44 @@ How many domestic leagues appear in the **competitions** table?275
 
 How many rows are in the **events** table?
 
-* 4,59
+*   4,59
     
-* 8,693
+*   8,693
     
-* 3,25
+*   3,25
     
-* 1,294
+*   1,294
     
-* 1,941
+*   1,941
     
 
 Which table contains tags (numerical IDs) that can be matched to text labels and descriptions in the **tags2name** table?eventsplayerscompetitions
 
----
+* * *
 
 ## Solution of Lab
 
+### Quick
+
 %[https://www.youtube.com/watch?v=d6AJl5wM2YM] 
+
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP848/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/BigQuery%20Soccer%20Data%20Ingestion/quicklabgsp848.sh
 sudo chmod +x quicklabgsp848.sh
 ./quicklabgsp848.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=mzoaMi_2fLw] 
+
+%[https://www.youtube.com/watch?v=QpJ6FYYufcQ]
