@@ -582,11 +582,22 @@ Remove the babynames dataset
 
 ## Solution of Lab
 
+### Quick
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP071/lab.sh
+source lab.sh
+```
+
+* * *
+
+### Old Solution
+
 %[https://youtu.be/Hz3ASf2GcLM] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP071/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP071/old.sh
+source old.sh
 ```
 
 **Script Alternative**
@@ -596,3 +607,7 @@ curl -LO raw.githubusercontent.com/Arcade-With-Us/Google-Cloud-Labs/refs/heads/m
 sudo chmod +x GSP071.sh
 ./GSP071.sh
 ```
+
+* * *
+
+### Manual
