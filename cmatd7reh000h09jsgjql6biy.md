@@ -589,6 +589,12 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP071
 source lab.sh
 ```
 
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/58afdb0d-3b70-40cc-801f-f016a3a51b45.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/541d495e-3d14-437f-b145-72f6f9e33dd3.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ccdf95b8-14bd-4d96-8990-a26443b92563.png align="center")
+
 * * *
 
 ### Old Solution
