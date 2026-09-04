@@ -437,6 +437,19 @@ You have now activated the MySQL interactive console.
 
 ## Solution of Lab
 
+### Quick
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP859/lab.sh
+source lab.sh
+```
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/dc7c4b8e-585b-401e-8eee-16e2e0e49737.png align="center")
+
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b28cdd51-a1c6-4454-a2f4-7a9a5801a8ca.png align="center")
+
+* * *
+
 ### Manual
 
 %[https://www.youtube.com/watch?v=_J_vc87rrXE] 
