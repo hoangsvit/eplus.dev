@@ -6,7 +6,7 @@ datePublished: 2024-08-21T02:24:29.590Z
 cuid: cm038ddhy000009jtghij1r12
 slug: perform-predictive-data-analysis-in-bigquery-challenge-lab-gsp374
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1ec176a7-3cd3-40d3-905c-720b09716dd9.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1759298067443/2c32b567-2c53-49fe-ad91-f13392374c8d.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/d3b7aa61-a719-46cd-a869-bc97e8b3ad2e.png
 tags: perform-predictive-data-analysis-in-bigquery-challenge-lab-gsp374, gsp374, perform-predictive-data-analysis-in-bigquery-challenge-lab
 
 ---
