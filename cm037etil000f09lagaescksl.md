@@ -5,8 +5,8 @@ seoDescription: "BigQuery can be used to perform more sophisticated data analysi
 datePublished: 2024-08-21T01:57:37.389Z
 cuid: cm037etil000f09lagaescksl
 slug: bigquery-soccer-data-analytical-insight-gsp850
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1746868589606/f14390d8-765d-4424-a4f2-f646bd2e78e6.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1746868600762/8c8cd23e-460d-4c28-929b-3cfd8b05c7f4.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/7516ede4-ac51-4ee0-a8c5-12cf6cf109fb.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/b7c201bf-6216-44ff-be63-826566d9d015.png
 tags: bigquery-soccer-data-analytical-insight-gsp850, bigquery-soccer-data-analytical-insight, gsp250
 
 ---
