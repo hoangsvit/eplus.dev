@@ -5,8 +5,8 @@ seoDescription: "In this lab, you learn how to create and connect to a Cloud SQL
 datePublished: 2024-08-07T02:08:27.316Z
 cuid: clzj7mto400070ak01dok67ar
 slug: cloud-sql-for-mysql-qwik-start-gsp151
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758001678478/22d9c733-31cb-491a-b3c8-658546b6ab5e.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1758001703754/52524eb4-69a7-4c84-8bfe-57f7d36356cf.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/262b2613-2ca1-49f5-8cae-6887a54a469e.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/31a35fa3-829b-473e-8752-a323c4e289c0.png
 tags: cloud-sql-for-mysql-qwik-start-gsp151, gsp151, cloud-sql-for-mysql
 
 ---
@@ -17,45 +17,45 @@ In this lab, you learn how to create and connect to a Cloud SQL for MySQL instan
 
 ### What you'll do
 
-* Create a Cloud SQL instance
+*   Create a Cloud SQL instance
     
-* Connect to the instance in Cloud Shell
+*   Connect to the instance in Cloud Shell
     
-* Create a database and upload data
+*   Create a database and upload data
     
 
 ### **Task 1. Create a Cloud SQL instance**
 
-1. From the **Navigation menu** () click on **SQL**.
+1.  From the **Navigation menu** () click on **SQL**.
     
-2. Click **Create Instance**.
+2.  Click **Create Instance**.
     
-3. Choose **MySQL** database engine.
+3.  Choose **MySQL** database engine.
     
-4. Enter Instance ID as `myinstance`.
+4.  Enter Instance ID as `myinstance`.
     
-5. In the password field click on the **Generate** link and the eye icon to see the password. **Save** the password to use in the next section.
+5.  In the password field click on the **Generate** link and the eye icon to see the password. **Save** the password to use in the next section.
     
-6. Select the database version as **MySQL 8**.
+6.  Select the database version as **MySQL 8**.
     
-7. For **Choose a Cloud SQL edition**, select **Enterprise** edition.
+7.  For **Choose a Cloud SQL edition**, select **Enterprise** edition.
     
-8. For **Preset** choose **Development** (4 vCPU, 16 GB RAM, 100 GB Storage, Single zone).
+8.  For **Preset** choose **Development** (4 vCPU, 16 GB RAM, 100 GB Storage, Single zone).
     
 
 **Warning:** if you choose a preset larger than Development, your project will be flagged and your lab will be terminated.
 
-9. Set **Region** as `<REGION>`.
+9.  Set **Region** as `<REGION>`.
     
-10. Set the **Multi zones (Highly available)** &gt; **Primary Zone** field as `<ZONE>`.
-    
-11. Click **CREATE INSTANCE**.
-    
+10.  Set the **Multi zones (Highly available)** > **Primary Zone** field as `<ZONE>`.
+     
+11.  Click **CREATE INSTANCE**.
+     
 
 It might take a few minutes for the instance to be created. Once it is, you will see a green checkmark next to the instance name.
 
-12. Click on the Cloud SQL instance. The **SQL Overview** page opens.
-    
+12.  Click on the Cloud SQL instance. The **SQL Overview** page opens.
+     
 
 **Test Completed Task**
 
@@ -73,12 +73,11 @@ Instance ID is used to uniquely identify your instance within the project.TrueFa
 
 ### **Task 2. Connect to your instance using the mysql client in Cloud Shell**
 
-1. In the Cloud Console, click the **Cloud Shell** icon in the upper right corner.
+1.  In the Cloud Console, click the **Cloud Shell** icon in the upper right corner.
     
-
-2. Click **Continue**.
+2.  Click **Continue**.
     
-3. At the Cloud Shell prompt, connect to your Cloud SQL instance by running the following:
+3.  At the Cloud Shell prompt, connect to your Cloud SQL instance by running the following:
     
 
 ```apache
@@ -87,16 +86,16 @@ gcloud sql connect myinstance --user=root
 
 Click **Authorize**.
 
-4. Enter your root password when prompted. **Note:** The cursor will not move.
+4.  Enter your root password when prompted. **Note:** The cursor will not move.
     
-5. Press the **Enter** key when you're done typing.
+5.  Press the **Enter** key when you're done typing.
     
 
 You should now see the `mysql` prompt.
 
 ### **Task 3. Create a database and upload data**
 
-1. Create a SQL database called `guestbook` on your Cloud SQL instance:
+1.  Create a SQL database called `guestbook` on your Cloud SQL instance:
     
 
 ```sql
@@ -111,7 +110,7 @@ Create a database.
 
 **Check my progress**
 
-2. Insert the following sample data into the guestbook database:
+2.  Insert the following sample data into the guestbook database:
     
 
 ```apache
@@ -122,7 +121,7 @@ CREATE TABLE entries (guestName VARCHAR(255), content VARCHAR(255),
 INSERT INTO entries (guestName, content) values ("second guest", "Me too!");
 ```
 
-3. Now retrieve the data:
+3.  Now retrieve the data:
     
 
 ```sql
@@ -142,7 +141,7 @@ You should see:
 mysql>
 ```
 
----
+* * *
 
 ## Solution of Lab
 
