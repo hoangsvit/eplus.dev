@@ -167,3 +167,13 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Cloud%20SQL%
 sudo chmod +x quicklabgsp151.sh
 ./quicklabgsp151.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=Mma9zr9yzTM] 
+
+%[https://www.youtube.com/watch?v=ZrHpL9Daje4] 
+
+%[https://www.youtube.com/watch?v=o2Hh1u5r3M4]
