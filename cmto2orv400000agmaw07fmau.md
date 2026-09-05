@@ -657,6 +657,13 @@ curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP860
 source lab.sh
 ```
 
+**If task 3 is not completed**
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP860/fix.sh
+source fix.sh
+```
+
 * * *
 
 ### Other Solution
