@@ -652,6 +652,15 @@ Promote Cloud SQL for MySQL to be a standalone instance for reading and writing 
 
 ### Quick
 
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP860/lab.sh
+source lab.sh
+```
+
+* * *
+
+### Other Solution
+
 %[https://www.youtube.com/watch?v=ZjCk3aBlCn8] 
 
 ```plaintext
