@@ -674,7 +674,7 @@ sudo chmod +x TechCode.sh
 ./TechCode.sh
 ```
 
-**For Database Migration: Click** [**Here**](https://console.cloud.google.com/dbmigration/migrations?)
+**For Database Migration: Click** [here](https://console.cloud.google.com/dbmigration/migrations?)
 
 * * *
 
