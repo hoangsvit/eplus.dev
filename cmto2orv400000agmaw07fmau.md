@@ -664,3 +664,11 @@ curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs
 sudo chmod +x TechCode.sh 
 ./TechCode.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=_RUZu7WLUKM] 
+
+%[https://www.youtube.com/watch?v=GTmNd7pegPY]
