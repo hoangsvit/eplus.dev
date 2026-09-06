@@ -5,10 +5,16 @@
     <link>https://eplus.dev</link>
     <description>Latest posts from ePlus DEV</description>
     <language>en</language>
-    <lastBuildDate>Sat, 05 Sep 2026 10:02:14 GMT</lastBuildDate>
-    <pubDate>Sat, 05 Sep 2026 07:40:01 GMT</pubDate>
+    <lastBuildDate>Sun, 06 Sep 2026 06:48:58 GMT</lastBuildDate>
+    <pubDate>Sun, 06 Sep 2026 06:48:44 GMT</pubDate>
     <generator>GitHub Actions</generator>
 
+    <item>
+      <title>Daily Tech Brief — 06/09/2026</title>
+      <link>https://eplus.dev/daily-tech-brief-06-09-2026</link>
+      <guid isPermaLink="true">https://eplus.dev/daily-tech-brief-06-09-2026</guid>
+      <pubDate>Sun, 06 Sep 2026 06:48:44 GMT</pubDate>
+    </item>
     <item>
       <title>Migrating On-premises MySQL Using a Continuous Database Migration Service Job - GSP860</title>
       <link>https://eplus.dev/migrating-on-premises-mysql-using-a-continuous-database-migration-service-job-gsp860</link>
