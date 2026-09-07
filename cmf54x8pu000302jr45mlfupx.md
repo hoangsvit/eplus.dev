@@ -5,8 +5,8 @@ seoDescription: "Learn to set up an internal Application Load Balancer to secure
 datePublished: 2025-09-04T08:19:05.442Z
 cuid: cmf54x8pu000302jr45mlfupx
 slug: use-an-internal-application-load-balancer-gsp041
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756973854666/19451837-4ea6-48cd-8da6-f3e8d3a2507b.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756973882881/a3b6a4cd-3668-4d8a-9519-abb3e67695e7.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/355f4147-1c80-43a1-b6be-ed7811d077a5.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/7a753867-185b-4de6-861e-884b50b0f2be.png
 tags: load-balancer, gsp001, use-an-internal-application-load-balancer-gsp041, use-an-internal-application-load-balancer
 
 ---
@@ -643,7 +643,7 @@ Create a public-facing web server
 
 ## Solution of Lab
 
-%[https://youtu.be/FuA1GE92VNk] 
+### Quick
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP041/lab.sh
@@ -661,3 +661,22 @@ sudo chmod +x drabhishek.sh
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756973820527/6bb75290-c7d4-4652-a74a-d6a7f37d0096.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756973826303/c7364bba-ad18-42ff-9a12-f76ed5034f77.png align="center")
+
+* * *
+
+### Other Solution
+
+%[https://www.youtube.com/watch?v=d0RzyF3NdVM] 
+
+```plaintext
+
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Using%20an%20Internal%20Application%20Load%20Balancer/quicklabgsp041.sh
+sudo chmod +x quicklabgsp041.sh
+./quicklabgsp041.sh
+```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=j3rQpwFuuOk]
