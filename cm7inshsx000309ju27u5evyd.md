@@ -232,6 +232,26 @@ sudo chmod +x abhishek.sh
 
 * * *
 
+### Other Solution
+
+%[https://www.youtube.com/watch?v=emwDpQEJE8Q] 
+
+```plaintext
+export INSTANCE=
+export FIREWALL=
+export ZONE=
+```
+
+```plaintext
+curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Implement%20Load%20Balancing%20on%20Compute%20Engine%20Challenge%20Lab/gsp313.sh
+
+sudo chmod +x gsp313.sh
+
+./gsp313.sh
+```
+
+* * *
+
 ### Manual
 
 %[https://www.youtube.com/watch?v=C1Vw5vZpmqs]
