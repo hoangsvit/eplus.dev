@@ -5,8 +5,8 @@ seoDescription: "Learn to set up an L7 application load balancer on Google Cloud
 datePublished: 2025-09-06T06:45:08.609Z
 cuid: cmf7wg4n5000b02jmhu4e9cfy
 slug: set-up-application-load-balancers-gsp155
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757139744746/ef0935d7-e65e-4430-a439-a3bf1c9317ff.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1757141063828/47dd4c8b-0d64-48b1-948c-69baab89ab42.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/d0cf3f3e-12bb-4eae-b71f-f3eb328c0f53.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/95a267a3-2d18-4bd2-b062-2e609914faf9.png
 tags: load-balancers, set-up-application-load-balancers, gsp155
 
 ---
@@ -434,13 +434,22 @@ Test the load balancer using a web browser
 
 ## Solution of Lab
 
-### Quick
+### New Solution
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP155/lab.sh
+source lab.sh
+```
+
+* * *
+
+### Old Solution
 
 %[https://www.youtube.com/watch?v=1n5uU7vqapk] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP155/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP155/old.sh
+source old.sh
 ```
 
 <div data-node-type="callout">
@@ -463,4 +472,4 @@ sudo chmod +x TechCode.sh
 
 ### Manual
 
-%[https://www.youtube.com/watch?v=AYXp8y0U_Ws]
+%[https://www.youtube.com/watch?v=UmrYbYy_45o]
