@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2025-02-24T06:10:38.241Z
 cuid: cm7inshsx000309ju27u5evyd
 slug: implement-load-balancing-on-compute-engine-challenge-lab-gsp313
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756970930510/8bbb14c5-eebb-458a-9f7f-98f37cd67072.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756970940597/754e40ce-3862-4c86-9503-ed5f7e1d31db.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/7b7e9e2a-75aa-4f96-82bd-00f43a30de48.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/b627a2b1-3918-4ff1-bd43-a4cb66a9fc92.png
 tags: implement-load-balancing-on-compute-engine-challenge-lab-gsp313, implement-load-balancing-on-compute-engine-challenge-lab, gsp313
 
 ---
@@ -215,8 +215,6 @@ sudo chmod +x abhishek.sh
 
 ### Old solution
 
-%[https://www.youtube.com/watch?v=jgraLGokKFo&ab_channel=Techcps] 
-
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP313/old-lab.sh
 source old-lab.sh
@@ -236,4 +234,4 @@ sudo chmod +x abhishek.sh
 
 ### Manual
 
-%[https://www.youtube.com/watch?v=wNyglIyJl_I]
+%[https://www.youtube.com/watch?v=C1Vw5vZpmqs]
