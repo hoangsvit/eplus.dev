@@ -669,7 +669,6 @@ sudo chmod +x drabhishek.sh
 %[https://www.youtube.com/watch?v=d0RzyF3NdVM] 
 
 ```plaintext
-
 curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/refs/heads/master/Using%20an%20Internal%20Application%20Load%20Balancer/quicklabgsp041.sh
 sudo chmod +x quicklabgsp041.sh
 ./quicklabgsp041.sh
