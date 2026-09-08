@@ -144,3 +144,13 @@ sudo chmod +x abhishek.sh
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/d275ade1-f9b2-48d8-8484-849c0b03e5b4.png align="center")
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/fb9e4a56-8973-461d-a896-70c5cf7c61ee.png align="center")
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=P7aXEJFvFFA] 
+
+%[https://www.youtube.com/watch?v=zYJCdZsigpo] 
+
+%[https://www.youtube.com/watch?v=LGDsR9QJ5ng]
