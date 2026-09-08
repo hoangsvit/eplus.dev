@@ -5,8 +5,8 @@ seoDescription: "App Engine allows developers to focus on doing what they do bes
 datePublished: 2025-01-14T09:28:44.320Z
 cuid: cm5w9tbts001p09mdev7u9hnz
 slug: app-engine-qwik-start-go-gsp070
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1736846870908/af27ee98-6959-4a70-a407-2dce5062a914.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1736846904478/8de58f89-7a89-4170-97c4-dabd2c2857d4.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ced15b94-f8bc-4b34-9baf-7fcbc0bed0d9.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/9d1e353e-457f-4cca-a66c-b87c5a94d4b3.png
 tags: app-engine-qwik-start-go, gsp070, app-engine-qwik-start-go-gsp070
 
 ---
