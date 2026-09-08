@@ -361,6 +361,8 @@ The App Engine standard environment makes it easy to build and deploy an applica
 
 ## Solution of Lab
 
+### Quick
+
 %[https://youtu.be/sxlXdG7sLy4] 
 
 ```apache
@@ -381,3 +383,13 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/App%20Engine
 sudo chmod +x quicklabgsp069.sh
 ./quicklabgsp069.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=U7SpwjJ8rQo] 
+
+%[https://www.youtube.com/watch?v=wcebR4hJK7A] 
+
+%[https://www.youtube.com/watch?v=Jq2dNDM8dxM]
