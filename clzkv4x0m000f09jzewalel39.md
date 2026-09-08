@@ -5,8 +5,8 @@ seoDescription: "App Engine allows developers to focus on doing what they do bes
 datePublished: 2024-08-08T05:54:08.806Z
 cuid: clzkv4x0m000f09jzewalel39
 slug: app-engine-qwik-start-python-gsp067
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750395030234/a998e196-41b7-4741-8068-722ed309e210.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1750395048422/98f40a29-9d12-4e02-8b53-609d49baf206.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/b6ee5a39-7113-4a9c-8ca0-8e74835ab6b6.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/6c6ee0ed-e05d-4374-86f2-45bc3a72ef0b.png
 tags: python, app-engine-qwik-start-python-gsp067, gsp067, app-engine-qwik-start-python
 
 ---
@@ -19,26 +19,26 @@ The App Engine standard environment provides application-hosting services suppor
 
 App Engine is Google Cloud's original serverless runtime, and since its original launch in 2008, has been joined by:
 
-* [Cloud Functions](https://cloud.google.com/functions), great for situations where you don't have an entire app, have broken up a larger, monolithic app into multiple microservices, or have short event-driven tasks that execute based on user activity.
+*   [Cloud Functions](https://cloud.google.com/functions), great for situations where you don't have an entire app, have broken up a larger, monolithic app into multiple microservices, or have short event-driven tasks that execute based on user activity.
     
-* [Cloud Run](http://cloud.run/), the serverless container-hosting service similar to App Engine but more accurately reflects the state of software development today.
+*   [Cloud Run](http://cloud.run/), the serverless container-hosting service similar to App Engine but more accurately reflects the state of software development today.
     
 
 In this lab, you'll learn how to deploy a basic app to App Engine, but we invite you to also explore Cloud Functions and Cloud Run. App Engine makes it easy to build and deploy an application that runs reliably even under heavy load and with large amounts of data. (Cloud Functions and Cloud Run do the same.)
 
 App Engine apps can access numerous additional Cloud or other Google services for use in their applications:
 
-* **NoSQL database:** [Cloud Datastore](https://cloud.google.com/datastore), [Cloud Firestore](https://cloud.google.com/firestore), [Cloud BigTable](https://cloud.google.com/bigtable)
+*   **NoSQL database:** [Cloud Datastore](https://cloud.google.com/datastore), [Cloud Firestore](https://cloud.google.com/firestore), [Cloud BigTable](https://cloud.google.com/bigtable)
     
-* **Relational database:** [Cloud SQL](https://cloud.google.com/sql) or [Cloud AlloyDB](https://cloud.google.com/alloydb), [Cloud Spanner](https://cloud.google.com/spanner)
+*   **Relational database:** [Cloud SQL](https://cloud.google.com/sql) or [Cloud AlloyDB](https://cloud.google.com/alloydb), [Cloud Spanner](https://cloud.google.com/spanner)
     
-* **File/object storage:** [Cloud Storage](https://cloud.google.com/storage), [Cloud Filestore](https://cloud.google.com/filestore), [Google Drive](https://developers.google.com/drive)
+*   **File/object storage:** [Cloud Storage](https://cloud.google.com/storage), [Cloud Filestore](https://cloud.google.com/filestore), [Google Drive](https://developers.google.com/drive)
     
-* **Caching:** [Cloud Memorystore](https://cloud.google.com/memorystore) (Redis or `memcached`)
+*   **Caching:** [Cloud Memorystore](https://cloud.google.com/memorystore) (Redis or `memcached`)
     
-* **Task execution:** [Cloud Tasks](https://cloud.google.com/tasks), [Cloud Pub/Sub](https://cloud.google.com/pubsub), [Cloud Scheduler](https://cloud.google.com/scheduler), [Cloud Workflows](https://cloud.google.com/workflows)
+*   **Task execution:** [Cloud Tasks](https://cloud.google.com/tasks), [Cloud Pub/Sub](https://cloud.google.com/pubsub), [Cloud Scheduler](https://cloud.google.com/scheduler), [Cloud Workflows](https://cloud.google.com/workflows)
     
-* **User authentication:** [Cloud Identity Platform](https://cloud.google.com/identity-platform), [Firebase Auth](https://firebase.google.com/docs/auth), [Google Identity Services](https://developers.google.com/identity)
+*   **User authentication:** [Cloud Identity Platform](https://cloud.google.com/identity-platform), [Firebase Auth](https://firebase.google.com/docs/auth), [Google Identity Services](https://developers.google.com/identity)
     
 
 Applications run in a secure, sandboxed environment, allowing App Engine standard environment to distribute requests across multiple servers, and scaling servers to meet traffic demands. Your application runs within its own secure, reliable environment that is independent of the hardware, operating system, or physical location of the server.
@@ -49,51 +49,51 @@ This hands-on lab shows you how to create a small App Engine application that di
 
 In this lab you'll do the following with a Python app:
 
-* Clone/download
+*   Clone/download
     
-* Test
+*   Test
     
-* Update
+*   Update
     
-* Test
+*   Test
     
-* Deploy
+*   Deploy
     
 
----
+* * *
 
 ## **Task 1. Enable Google App Engine Admin API**
 
 The App Engine Admin API enables developers to provision and manage their App Engine Applications.
 
-1. In the left **Navigation menu**, click **APIs & Services** &gt; **Library**.
+1.  In the left **Navigation menu**, click **APIs & Services** > **Library**.
     
-2. Type "App Engine Admin API" in the search box.
+2.  Type "App Engine Admin API" in the search box.
     
-3. Click the **App Engine Admin API** card.
+3.  Click the **App Engine Admin API** card.
     
-4. Click **Enable**. If there is no prompt to enable the API, then it is already enabled and no action is needed.
+4.  Click **Enable**. If there is no prompt to enable the API, then it is already enabled and no action is needed.
     
 
 ## **Task 2. Download the Hello World app**
 
 There is a simple Hello World app for Python you can use to quickly get a feel for deploying an app to Google Cloud. Follow these steps to download Hello World to your Google Cloud instance.
 
-1. Enter the following command to copy the Hello World sample app repository to your Google Cloud instance:
+1.  Enter the following command to copy the Hello World sample app repository to your Google Cloud instance:
     
 
 ```apache
 git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git
 ```
 
-2. Go to the directory that contains the sample code:
+2.  Go to the directory that contains the sample code:
     
 
 ```apache
 cd python-docs-samples/appengine/standard_python3/hello_world
 ```
 
-3. Setup python environment:
+3.  Setup python environment:
     
 
 ```apache
@@ -107,7 +107,7 @@ source myvenv/bin/activate
 
 Test the application using the Google Cloud development server (`dev_appserver.py`), which is included with the preinstalled App Engine SDK.
 
-1. From within your helloworld directory where the app's [app.yaml](https://cloud.google.com/appengine/docs/standard/python/config/appref) configuration file is located, start the Google Cloud development server with the following command:
+1.  From within your helloworld directory where the app's [app.yaml](https://cloud.google.com/appengine/docs/standard/python/config/appref) configuration file is located, start the Google Cloud development server with the following command:
     
 
 ```apache
@@ -116,7 +116,7 @@ dev_appserver.py app.yaml
 
 The development server is now running and listening for requests on port 8080.
 
-2. View the results by clicking the **Web preview** () &gt; **Preview on port 8080**.
+2.  View the results by clicking the **Web preview** () > **Preview on port 8080**.
     
     You'll see this in a new browser window:
     
@@ -129,45 +129,45 @@ You can leave the development server running while you develop your application.
 
 Let's try it. Leave the development server running. We'll open another command line window, then edit `main.py` to change "Hello World!" to "Hello, Cruel World!".
 
-1. Click the (**+**) next to your Cloud Shell tab to open a new command line session.
+1.  Click the (**+**) next to your Cloud Shell tab to open a new command line session.
     
     ![+ button](https://cdn.qwiklabs.com/mDTDfc9iJWNUoUBakp5ocggWNwmpChiG7gDHnUCrACM%3D align="left")
     
-2. Enter this command to go to the directory that contains the sample code:
+2.  Enter this command to go to the directory that contains the sample code:
     
 
 ```apache
 cd python-docs-samples/appengine/standard_python3/hello_world
 ```
 
-3. Enter the following to open main.py in nano to edit the content:
+3.  Enter the following to open main.py in nano to edit the content:
     
 
 ```apache
 nano main.py
 ```
 
-4. Change "Hello World!" to "Hello, Cruel World!".
+4.  Change "Hello World!" to "Hello, Cruel World!".
     
-5. Save the file with CTRL-S and exit with CTRL-X.
+5.  Save the file with CTRL-S and exit with CTRL-X.
     
-6. Reload the Hello World! Browser or click the **Web Preview** () &gt; **Preview on port 8080** to see the results.
+6.  Reload the Hello World! Browser or click the **Web Preview** () > **Preview on port 8080** to see the results.
     
     ![Browser window with Hello, Cruel World! on the page](https://cdn.qwiklabs.com/znqxKObHIzucdgmme4nJP485ReBUAMdG%2BOKJP9XLzes%3D align="left")
     
 
 ## **Task 5. Deploy your app**
 
-1. To deploy your app to App Engine, run the following command from within the root directory of your application where the app.yaml file is located:
+1.  To deploy your app to App Engine, run the following command from within the root directory of your application where the app.yaml file is located:
     
 
 ```apache
 gcloud app deploy
 ```
 
-2. Enter the number that represents your region: `us-east4`
+2.  Enter the number that represents your region: `us-east4`
     
-3. The App Engine application will then be created.
+3.  The App Engine application will then be created.
     
 
 Example output:
@@ -186,7 +186,7 @@ target url:      [https://qwiklabs-gcp-233dca09c0ab577b.appspot.com]
 Do you want to continue (Y/n)?
 ```
 
-4. Enter **Y** when prompted to confirm the details and begin the deployment of service.
+4.  Enter **Y** when prompted to confirm the details and begin the deployment of service.
     
 
 Example output:
@@ -215,7 +215,7 @@ To view your application in the web browser run:
 
 ## **Task 6. View your application**
 
-* To launch your browser enter the following command, then click on the link it provides:
+*   To launch your browser enter the following command, then click on the link it provides:
     
 
 ```apache
@@ -245,48 +245,48 @@ Test your knowledge about Google Cloud Platform by taking this quiz. (Select mul
 
 **With Google App Engine, what do developers need to focus on?**
 
-* Virtual machines
+*   Virtual machines
     
-* System administration
+*   System administration
     
-* Application code
+*   Application code
     
-* All of themWeb servers
+*   All of themWeb servers
     
-* Operating systems
+*   Operating systems
     
 
 **What modern language runtimes are supported by App Engine?**
 
-* Go
+*   Go
     
-* PHP
+*   PHP
     
-* Node.js (JavaScript)
+*   Node.js (JavaScript)
     
-* Ruby
+*   Ruby
     
-* Java
+*   Java
     
-* Python
+*   Python
     
 
 **What are other serverless platforms from Google Cloud that are similar to App Engine?**
 
-* All of them
+*   All of them
     
-* Compute Engine
+*   Compute Engine
     
-* GKE/Kubernetes Engine
+*   GKE/Kubernetes Engine
     
-* BigQuery
+*   BigQuery
     
-* Cloud Run
+*   Cloud Run
     
-* Cloud Functions
+*   Cloud Functions
     
 
----
+* * *
 
 ## Solution of Lab
 
@@ -322,8 +322,10 @@ sudo chmod +x quicklabgsp067.sh
 ./quicklabgsp067.sh
 ```
 
----
+* * *
 
 ### Manual
 
-%[https://youtu.be/BgKs6mngdxA]
+%[https://www.youtube.com/watch?v=hnLT3p1nSSE] 
+
+%[https://www.youtube.com/watch?v=eNKges6D728]
