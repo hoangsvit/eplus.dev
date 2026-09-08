@@ -307,13 +307,32 @@ Which of the following runtimes for GO are supported in App Engine standard envi
 
 ## Solution of Lab
 
+### Quick
+
+%[https://www.youtube.com/watch?v=HrR9LwK85OM] 
+
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP070/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
+
+```plaintext
+curl -LO raw.githubusercontent.com/prateekrajput08/Arcade-Google-Cloud-Labs/refs/heads/main/App%20Engine%3A%20Qwik%20Start%20-%20Go/TechCode.sh
+sudo chmod +x TechCode.sh 
+./TechCode.sh
+```
+
+* * *
+
 ### New Solution
 
 %[https://youtu.be/NbWpD-z51bI] 
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP070/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP070/other.sh
+source other.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1768963909079/aa9cc7fd-1cdd-406e-9989-6ba5897949a5.png align="center")
