@@ -5,8 +5,8 @@ seoDescription: "App Engine allows developers to focus on doing what they do bes
 datePublished: 2025-04-22T05:29:03.590Z
 cuid: cm9s2ekx2001209jzaiy07xib
 slug: app-engine-qwik-start-php-gsp069
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745299455923/8c4ad8d0-6252-460f-9fb9-38d2cfc6d164.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1745299725279/33075f9a-870c-42e6-8b44-5450853fae0d.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/8712c9b1-4439-44b7-904f-8d039a8b796c.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/fe8d2eba-0245-46cf-953e-7cb7b1f53d9a.png
 tags: php, app-engine-qwik-start-php-gsp069, app-engine-qwik-start-php, gsp069
 
 ---
@@ -17,15 +17,15 @@ App Engine allows developers to focus on doing what they do best—write code. T
 
 The App Engine standard environment makes it easy to build and deploy an application that runs reliably even under heavy load and with large amounts of data. It includes the following features:
 
-* Persistent storage with queries, sorting, and transactions.
+*   Persistent storage with queries, sorting, and transactions.
     
-* Automatic scaling and load balancing.
+*   Automatic scaling and load balancing.
     
-* Asynchronous task queues for performing work outside the scope of a request.
+*   Asynchronous task queues for performing work outside the scope of a request.
     
-* Scheduled tasks for triggering events at specified times or regular intervals.
+*   Scheduled tasks for triggering events at specified times or regular intervals.
     
-* Integration with other [Google Cloud services and APIs](https://cloud.google.com/products/).
+*   Integration with other [Google Cloud services and APIs](https://cloud.google.com/products/).
     
 
 Applications run in a secure, sandboxed environment, allowing App Engine standard environment to distribute requests across multiple servers, and scaling servers to meet traffic demands. Your application runs within its own secure, reliable environment that is independent of the hardware, operating system, or physical location of the server.
@@ -34,11 +34,11 @@ This hands-on lab shows you how to create a small App Engine application that di
 
 ### What you'll do
 
-* Download an application
+*   Download an application
     
-* Test the application
+*   Test the application
     
-* Deploy the application
+*   Deploy the application
     
 
 ## Setup and requirements
@@ -51,29 +51,29 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
+*   Access to a standard internet browser (Chrome browser recommended).
     
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
+*   Time to complete the lab—remember, once you start, you cannot pause a lab.
     
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
-1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
+1.  Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
     
-    * The Open Google Cloud console button
+    *   The Open Google Cloud console button
         
-    * Time remaining
+    *   Time remaining
         
-    * The temporary credentials that you must use for this lab
+    *   The temporary credentials that you must use for this lab
         
-    * Other information, if needed, to step through this lab
+    *   Other information, if needed, to step through this lab
         
-2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
+2.  Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
     
     The lab spins up resources, and then opens another tab that shows the Sign in page.
     
@@ -81,7 +81,7 @@ To complete this lab, you need:
     
     **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
     
-3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
+3.  If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
     
     ```apache
     student-04-f27b113ff416@qwiklabs.net
@@ -89,9 +89,9 @@ To complete this lab, you need:
     
     You can also find the Username in the Lab Details pane.
     
-4. Click **Next**.
+4.  Click **Next**.
     
-5. Copy the **Password** below and paste it into the **Welcome** dialog.
+5.  Copy the **Password** below and paste it into the **Welcome** dialog.
     
     ```apache
     qsNPm6xWhm3z
@@ -99,19 +99,19 @@ To complete this lab, you need:
     
     You can also find the Password in the Lab Details pane.
     
-6. Click **Next**.
+6.  Click **Next**.
     
     **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
     
     **Note:** Using your own Google Cloud account for this lab may incur extra charges.
     
-7. Click through the subsequent pages:
+7.  Click through the subsequent pages:
     
-    * Accept the terms and conditions.
+    *   Accept the terms and conditions.
         
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
+    *   Do not add recovery options or two-factor authentication (because this is a temporary account).
         
-    * Do not sign up for free trials.
+    *   Do not sign up for free trials.
         
 
 After a few moments, the Google Cloud console opens in this tab.
@@ -124,13 +124,13 @@ After a few moments, the Google Cloud console opens in this tab.
 
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
-1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
+1.  Click **Activate Cloud Shell** at the top of the Google Cloud console.
     
-2. Click through the following windows:
+2.  Click through the following windows:
     
-    * Continue through the Cloud Shell information window.
+    *   Continue through the Cloud Shell information window.
         
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
+    *   Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
         
 
 When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-00-cd9036430e06`. The output contains a line that declares the **Project\_ID** for this session:
@@ -141,14 +141,14 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-00-cd9036430e
 
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
-3. (Optional) You can list the active account name with this command:
+3.  (Optional) You can list the active account name with this command:
     
 
 ```apache
 gcloud auth list
 ```
 
-4. Click **Authorize**.
+4.  Click **Authorize**.
     
 
 **Output:**
@@ -161,7 +161,7 @@ To set the active account, run:
     $ gcloud config set account `ACCOUNT`
 ```
 
-5. (Optional) You can list the project ID with this command:
+5.  (Optional) You can list the project ID with this command:
     
 
 ```apache
@@ -187,19 +187,19 @@ gcloud config set compute/region us-central1
 
 The App Engine Admin API enables developers to provision and manage their App Engine Applications.
 
-1. In the left menu, click **APIs & Services** &gt; **Library**.
+1.  In the left menu, click **APIs & Services** > **Library**.
     
 
 ![The navigation path to the Library option.](https://cdn.qwiklabs.com/HArVguiohtDtUhiPIWzqNnBfeRlqtNk7dDsZ%2F6EO13E%3D align="left")
 
-2. Type "App Engine Admin API" in search box.
+2.  Type "App Engine Admin API" in search box.
     
-3. Click **App Engine Admin API**.
+3.  Click **App Engine Admin API**.
     
 
 ![The search result for App Engine Admin API.](https://cdn.qwiklabs.com/Z4PwF8PiQv%2BX%2FyqcbbT60QzaQzfwoKtsW3BgOBeuENs%3D align="left")
 
-4. Click **Enable**.
+4.  Click **Enable**.
     
 
 ![The Enable button highlighted in the UI.](https://cdn.qwiklabs.com/el15KNfycJRm8XLGBymxvep2QQ4okMT706X8TWMKF5k%3D align="left")
@@ -208,7 +208,7 @@ The App Engine Admin API enables developers to provision and manage their App En
 
 A simple Hello World app for PHP has been created so you can quickly get a feel for deploying an app to Google Cloud. Follow these steps to download Hello World to your Google Cloud instance.
 
-1. Enter the following command to clone the Hello World sample app repository to your Google Cloud instance:
+1.  Enter the following command to clone the Hello World sample app repository to your Google Cloud instance:
     
 
 ```apache
@@ -227,7 +227,7 @@ Receiving objects: 100% (13607/13607), 12.22 MiB | 23.45 MiB/s, done.
 Resolving deltas: 100% (8848/8848), done.
 ```
 
-2. Go to the directory that contains the sample code:
+2.  Go to the directory that contains the sample code:
     
 
 ```apache
@@ -236,14 +236,14 @@ cd php-docs-samples/appengine/standard/helloworld
 
 ## Task 3. Deploy your app
 
-1. To deploy your app to App Engine, run the following command from within the root directory of your application where the `app.yaml` file is located:
+1.  To deploy your app to App Engine, run the following command from within the root directory of your application where the `app.yaml` file is located:
     
 
 ```apache
 gcloud app deploy
 ```
 
-2. Enter the number that represents your region: `us-central`
+2.  Enter the number that represents your region: `us-central`
     
 
 **Output:**
@@ -259,7 +259,7 @@ target url:      [https://qwiklabs-gcp-e6160e374e92ffbf.appspot.com]
 Do you want to continue (Y/n)?
 ```
 
-3. Enter **Y** when prompted to confirm the deployment of service.
+3.  Enter **Y** when prompted to confirm the deployment of service.
     
 
 **Sample output:**
@@ -287,7 +287,7 @@ To view your application in the web browser run:
 
 ## Task 4. View your application
 
-1. To launch your browser, enter the following command:
+1.  To launch your browser, enter the following command:
     
 
 ```apache
@@ -301,7 +301,7 @@ Did not detect your browser. Go to this link to view your app:
 https://qwiklabs-gcp-e6160e374e92ffbf.appspot.com
 ```
 
-2. Click on the link to view your application.
+2.  Click on the link to view your application.
     
 
 ![A web page displaying the text "hello world!".](https://cdn.qwiklabs.com/ZqMB5wyDt4KLHW6HcJtlsaSVFXxQL2QrTtyXsSrzgs8%3D align="left")
@@ -318,25 +318,25 @@ Deploy your app.
 
 Now make a change to your sample app.
 
-1. Open the `index.php` file with the nano editor:
+1.  Open the `index.php` file with the nano editor:
     
 
 ```apache
 nano index.php
 ```
 
-2. Now change "hello world!" to "goodbye world!".
+2.  Now change "hello world!" to "goodbye world!".
     
-3. Press **CTRL** + **X** &gt; **Y** &gt; **Enter** to exit and save the file.
+3.  Press **CTRL** + **X** > **Y** > **Enter** to exit and save the file.
     
-4. In Cloud Shell, run the following command to redeploy your application:
+4.  In Cloud Shell, run the following command to redeploy your application:
     
 
 ```apache
 gcloud app deploy
 ```
 
-5. Enter **Y** when prompted to confirm the deployment of service.
+5.  Enter **Y** when prompted to confirm the deployment of service.
     
 
 **Soon after you should receive the following output:**
@@ -346,7 +346,7 @@ To view your application in the web browser run:
   $ gcloud app browse
 ```
 
-6. Refresh the browser tab with your App Engine deployment. You should see the following:
+6.  Refresh the browser tab with your App Engine deployment. You should see the following:
     
     ![A web page displaying the text "goodbye world!".](https://cdn.qwiklabs.com/WzF1kD58gLMHl%2Fpp0vSsbpC2Y8xL%2BbM%2B%2FrJkX108B5A%3D align="left")
     
@@ -357,7 +357,7 @@ Test your knowledge about Google cloud Platform by taking our quiz.
 
 The App Engine standard environment makes it easy to build and deploy an application that runs reliably under heavy load and with large amounts of data.TrueFalse
 
----
+* * *
 
 ## Solution of Lab
 
