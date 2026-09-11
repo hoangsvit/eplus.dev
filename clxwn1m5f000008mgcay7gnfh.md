@@ -31,7 +31,7 @@ Vừa rồi mình có đợt phỏng vấn tại đây, vị trí **Team Leader 
 
 Câu 1:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719455490550/9a346194-e6fa-4407-9803-ca3cd3843278.jpeg align="center")
+![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/dc69978a-fbe9-444c-8d7f-639837e857c7.png align="center")
 
 Câu 2:
 
@@ -61,33 +61,23 @@ Câu 4:
 
 ■Position : Backend Developer Leader
 
-■Job Description : <Responsibility>
+■Job Description :
 
 \- You will be in charge of Leader for Web develomemnt project.  
-<Job detail>  
+  
 \- Take part of the core development team, designing, developing, and maintaining backend and  
 frontend systems for our applications.  
 \- Writing clean, efficient, and maintainable code.  
 \- Optimizing application performance and scalability.  
 \- Troubleshooting and debugging production issues.  
 \- Other task will be assinged by manager  
-<Attractive points>  
+  
 \- Every member are friendly and working environment is very nice.  
 \- You can inprove your skill because have good leader for you.
 
 ■Requirement :
 
-<Must>  
-\- At least 3 years of professional experience as a Backend Developer.  
-\- Experienced in PHP and Node.js development.  
-\- Experience in React.js / Next.js.  
-\- Experience with database systems such as MySQL, PostgreSQL, or DynamoDB.  
-\- Understanding of RESTful APIs and writing efficient and optimized SQL queries.  
-\- Familiarity with cloud platforms like AWS.  
-\- Have problem-solving and analytical skills.  
-\- Strong learning ability, willing to learn new technologies and adapt  
-\- Ability to work independently and in a team environment.  
-\- English: good at reading and writing
+\\- At least 3 years of professional experience as a Backend Developer. \\- Experienced in PHP and Node.js development. \\- Experience in React.js / Next.js. \\- Experience with database systems such as MySQL, PostgreSQL, or DynamoDB. \\- Understanding of RESTful APIs and writing efficient and optimized SQL queries. \\- Familiarity with cloud platforms like AWS. \\- Have problem-solving and analytical skills. \\- Strong learning ability, willing to learn new technologies and adapt \\- Ability to work independently and in a team environment. \\- English: good at reading and writing
 
 **<mark class="bg-yellow-200 dark:bg-yellow-500/30">Tải JD: </mark>** [<mark class="bg-yellow-200 dark:bg-yellow-500/30">tại đây</mark>](https://github.com/ePlus-DEV/storage/blob/main/job/company/gonosen/Backend%20Developer%20Leader%20-%2024407.pdf)
 
