@@ -15,7 +15,7 @@ Vừa rồi mình có đợt phỏng vấn tại đây, vị trí **Team Leader 
 
 ### Thông tin công ty
 
-Đầu tiên khi mình research thông tin công ty -&gt; <mark>quá ít thông tin</mark>, hầu như là trên các trên <mark>review không có tên</mark> công ty (chỉ thấy trên **Linkedin** của một số bạn đang hoặc đã từng làm ở đây).
+Đầu tiên khi mình research thông tin công ty -> <mark class="bg-yellow-200 dark:bg-yellow-500/30">quá ít thông tin</mark>, hầu như là trên các trên <mark class="bg-yellow-200 dark:bg-yellow-500/30">review không có tên</mark> công ty (chỉ thấy trên **Linkedin** của một số bạn đang hoặc đã từng làm ở đây).
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719456160754/72ca19f3-1597-4be3-8d28-882ca39fa9d0.png align="center")
 
@@ -47,38 +47,37 @@ Câu 4:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719455540810/d79f6c36-63d6-48da-a07f-fd17ee98d809.jpeg align="center")
 
----
+* * *
 
-### Kết quả phỏng vấn: <mark>tạch</mark>
+### Kết quả phỏng vấn: <mark class="bg-yellow-200 dark:bg-yellow-500/30">tạch</mark>
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1719455658719/bf2355b3-9f4d-41d6-9fa8-d9a88639d178.png align="center")
 
-**Nguyên nhân** có thể do mình <mark>deal cao</mark> quá
+**Nguyên nhân** có thể do mình <mark class="bg-yellow-200 dark:bg-yellow-500/30">deal cao</mark> quá
 
----
+* * *
 
 ### Job Details:
 
 ■Position : Backend Developer Leader
 
-■Job Description : &lt;Responsibility&gt;
+■Job Description : <Responsibility>
 
-  
 \- You will be in charge of Leader for Web develomemnt project.  
-&lt;Job detail&gt;  
+<Job detail>  
 \- Take part of the core development team, designing, developing, and maintaining backend and  
 frontend systems for our applications.  
 \- Writing clean, efficient, and maintainable code.  
 \- Optimizing application performance and scalability.  
 \- Troubleshooting and debugging production issues.  
 \- Other task will be assinged by manager  
-&lt;Attractive points&gt;  
+<Attractive points>  
 \- Every member are friendly and working environment is very nice.  
 \- You can inprove your skill because have good leader for you.
 
 ■Requirement :
 
-&lt;Must&gt;  
+<Must>  
 \- At least 3 years of professional experience as a Backend Developer.  
 \- Experienced in PHP and Node.js development.  
 \- Experience in React.js / Next.js.  
@@ -90,11 +89,11 @@ frontend systems for our applications.
 \- Ability to work independently and in a team environment.  
 \- English: good at reading and writing
 
-**<mark>Tải JD: </mark>** [<mark>tại đây</mark>](https://github.com/ePlus-DEV/storage/blob/main/job/company/gonosen/Backend%20Developer%20Leader%20-%2024407.pdf)
+**<mark class="bg-yellow-200 dark:bg-yellow-500/30">Tải JD: </mark>** [<mark class="bg-yellow-200 dark:bg-yellow-500/30">tại đây</mark>](https://github.com/ePlus-DEV/storage/blob/main/job/company/gonosen/Backend%20Developer%20Leader%20-%2024407.pdf)
 
----
+* * *
 
-Homepage : [https://gonosen.asia/](https://gonosen.asia/%EF%BF%BC%E2%96%A0Business)
+Homepage : [https://gonosen.asia/](https://gonosen.asia/)
 
 ■Business　　 :  
 ＜私たちの強み＞　【技術・経験・スピード】  
