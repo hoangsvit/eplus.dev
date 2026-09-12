@@ -5,6 +5,7 @@ seoDescription: "Google Cloud đóng gói skills và MCP thành plugin cho codin
 datePublished: 2026-09-12T12:00:53.685Z
 cuid: cmtyc381l00000agm7gmnedks
 slug: daily-tech-brief-12-09-2026
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/850ad6ab-514c-4f23-a9b4-5cbfdc1e68b8.png
 ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/f9220eb4-d3a8-43c5-897f-5d80919b9db7.png
 tags: daily-tech-brief, daily-tech-brief-12-09-2026
 
