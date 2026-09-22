@@ -41,6 +41,8 @@ TypeSafe describes Jev with a simple idea:
 
 ![](https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/9761c55a-f9fe-4c13-8147-6776c08e6b8d.png align="center")
 
+%[https://x.com/CompleteSkeptic/status/2099925682726002904?s=20] 
+
 Traditional LLMs usually work like this:
 
 ```text
