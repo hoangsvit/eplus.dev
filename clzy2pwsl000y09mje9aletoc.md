@@ -537,8 +537,6 @@ Click **Check my progress** to verify your performed task. The assessment score 
 
 ## Solution of Lab
 
-%[https://www.youtube.com/watch?v=RibVUDvSeRY] 
-
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP294/lab.sh
 source lab.sh
@@ -556,4 +554,6 @@ sudo chmod +x gsp294.sh
 
 ### Manual
 
-%[https://www.youtube.com/watch?v=XpWivY7lk5s]
+%[https://www.youtube.com/watch?v=Mf1vk-KW9cQ] 
+
+%[https://www.youtube.com/watch?v=qBz7xCOvW7Y]
