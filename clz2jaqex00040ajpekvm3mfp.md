@@ -5,8 +5,8 @@ seoDescription: "Cloud Scheduler lets you set up scheduled units of work to be e
 datePublished: 2024-07-26T10:02:53.625Z
 cuid: clz2jaqex00040ajpekvm3mfp
 slug: cloud-scheduler-qwik-start-gsp401
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744776418676/4135121e-da44-405e-8eca-122a6dd471da.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1744776394872/33ce2b30-caed-48b6-b343-be8a81696f67.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/d29ae93e-d09d-47dd-b496-0035c9693dd6.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/af70d420-4507-478f-bfa2-8daf2d6b8db5.png
 tags: cloud-scheduler-qwik-start-gsp401, gsp401, cloud-scheduler-qwik-start
 
 ---
@@ -17,41 +17,41 @@ Cloud Scheduler lets you set up scheduled units of work to be executed at define
 
 Each cron job created using Cloud Scheduler is sent to a *target*, where the work for the task is accomplished. The target must be one of the following types:
 
-* Publicly available HTTP/S endpoints
+*   Publicly available HTTP/S endpoints
     
-* Pub/Sub topics
+*   Pub/Sub topics
     
-* App Engine HTTP/S applications
+*   App Engine HTTP/S applications
     
 
 In this lab you will learn how to:
 
-* Create a Cloud Scheduler job.
+*   Create a Cloud Scheduler job.
     
-* Set a recurring schedule for a job.
+*   Set a recurring schedule for a job.
     
-* Specify a Cloud Pub/Sub topic as the job target.
+*   Specify a Cloud Pub/Sub topic as the job target.
     
-* Run a job.
+*   Run a job.
     
-* Verify success.
+*   Verify success.
     
 
 ## **Task 1. Enable Cloud Scheduler API**
 
-1. Click on **APIs & services** &gt; **Library**:
+1.  Click on **APIs & services** > **Library**:
     
 
 ![The highlighted navigation path to the library option](https://cdn.qwiklabs.com/%2Fm%2FgnO7%2B%2FmxupPbVbP3Wqagt%2B1plFPD66tROxyugnHg%3D align="left")
 
-2. In the search bar, type in "scheduler", then click on the Cloud Scheduler API tile.
+2.  In the search bar, type in "scheduler", then click on the Cloud Scheduler API tile.
     
-3. Click **Enable**.
+3.  Click **Enable**.
     
 
 ## **Task 2. Set up Cloud Pub/Sub**
 
-1. Create a Pub/Sub topic to use as a target for your cron job:
+1.  Create a Pub/Sub topic to use as a target for your cron job:
     
 
 ```powershell
@@ -62,9 +62,9 @@ Copied!content\_copy
 
 This command creates a topic called `cron-topic`.
 
-2. Make a note of the name, you will use it later.
+2.  Make a note of the name, you will use it later.
     
-3. Create a Cloud Pub/Sub subscription:
+3.  Create a Cloud Pub/Sub subscription:
     
 
 ```powershell
@@ -83,16 +83,16 @@ Set up Cloud Pub/Sub
 
 ## **Task 3. Create a job**
 
-1. Visit the **Cloud Scheduler** page in the console - you can use the **Navigation menu** or the search bar:
+1.  Visit the **Cloud Scheduler** page in the console - you can use the **Navigation menu** or the search bar:
     
 
 ![The Cloud Scheduler option selected in the Integration services section of the navigation menu](https://cdn.qwiklabs.com/DTugJbmEAJsm%2BqsLUJfUuXb5MSZj3pH5cQ4qM1Uhm8Y%3D align="left")
 
-2. Click the **Create job** button.
+2.  Click the **Create job** button.
     
-3. Give your job a name and optionally add a description.
+3.  Give your job a name and optionally add a description.
     
-4. Specify the **frequency** for your job, using the [unix-cron](http://man7.org/linux/man-pages/man5/crontab.5.html) format for "every minute":
+4.  Specify the **frequency** for your job, using the [unix-cron](http://man7.org/linux/man-pages/man5/crontab.5.html) format for "every minute":
     
 
 ```powershell
@@ -101,25 +101,25 @@ Set up Cloud Pub/Sub
 
 Copied!content\_copy
 
-5. Select your Timezone. Click **Continue**.
+5.  Select your Timezone. Click **Continue**.
     
-6. In the **Target type** field, select **Pub/Sub** topic from the dropdown menu.
+6.  In the **Target type** field, select **Pub/Sub** topic from the dropdown menu.
     
-7. Under **Select a Cloud Pub/Sub topic** dropdown select the topic you created earlier (`cron-topic`).
+7.  Under **Select a Cloud Pub/Sub topic** dropdown select the topic you created earlier (`cron-topic`).
     
-8. Add a **Message body** string to be sent to your Cloud Pub/Sub target:
+8.  Add a **Message body** string to be sent to your Cloud Pub/Sub target:
     
 
 ![The Message body field populated with the following text: hello cron!](https://cdn.qwiklabs.com/vLITlyS4A0P15avC9xy%2BILfsADs2IqbEeqxWnKzge7s%3D align="left")
 
-9. Click **Create**.
+9.  Click **Create**.
     
 
 You now have a job that sends a message to your Cloud Pub/Sub topic every minute. Wait a minute or 2 for the job to get succeeded.
 
 ## **Task 4. Verify the results in Cloud Pub/Sub**
 
-1. To verify that your Cloud Pub/Sub topic is receiving messages from your job, invoke the following command:
+1.  To verify that your Cloud Pub/Sub topic is receiving messages from your job, invoke the following command:
     
 
 ```powershell
@@ -128,14 +128,14 @@ You now have a job that sends a message to your Cloud Pub/Sub topic every minute
 
 Copied!content\_copy
 
-2. View the results.
+2.  View the results.
     
 
 You should see output that looks similar to the following:
 
 ![Five rows of data in the output](https://cdn.qwiklabs.com/fCndvQH35j7hGyOaHUdhqZRzPxF4iAc9Dv6uD%2FFvP8A%3D align="left")
 
-3. If you don't see 5 responses, run the command again until you do.
+3.  If you don't see 5 responses, run the command again until you do.
     
 
 ## **Task 5. Test your knowledge**
@@ -144,7 +144,7 @@ Test your knowledge about Google Cloud Platform by answering this question:
 
 You can trigger an App Engine app, send a message via Cloud Pub/Sub, or hit an arbitrary HTTP endpoint running on Compute Engine, Google Kubernetes Engine, or on-premises with your Cloud Scheduler job.TrueFalse
 
----
+* * *
 
 ## Solution of Lab
 
