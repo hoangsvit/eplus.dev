@@ -148,9 +148,19 @@ You can trigger an App Engine app, send a message via Cloud Pub/Sub, or hit an a
 
 ## Solution of Lab
 
+### Quick
+
 %[https://www.youtube.com/watch?v=amb3jDRlYZs&ab_channel=QuickLab%E2%98%81%EF%B8%8F] 
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP401/lab.sh
 source lab.sh
 ```
+
+* * *
+
+### Manual
+
+%[https://www.youtube.com/watch?v=2sSGHZdUQ_E] 
+
+%[https://www.youtube.com/watch?v=bcD5Uj2Z68k]
