@@ -5,8 +5,8 @@ seoDescription: "In this lab, you learn how to create a streaming pipeline using
 datePublished: 2025-04-24T08:59:25.146Z
 cuid: cm9v4st3u000p09jv4oou0qy5
 slug: dataflow-qwik-start-templates-gsp192
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745484981616/26c62f72-a4b5-4b20-b0cc-2f901d71706b.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1745485150477/0eaf15be-e923-47d6-acd8-e0100da7a375.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/6ac97ec8-cbf2-4a15-9946-094e9d667a27.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/83bcd9b2-78dd-43a9-837c-148a5d1ba72b.png
 tags: dataflow-qwik-start-templates-gsp192, dataflow-qwik-start-templates, gsp192
 
 ---
@@ -444,4 +444,6 @@ source lab.sh
 
 ### Manual
 
-%[https://www.youtube.com/watch?v=8qCUX_RVYnI]
+%[https://www.youtube.com/watch?v=zpEfHw4e_JM] 
+
+%[https://www.youtube.com/watch?v=42y46Wh9G4w]
