@@ -5,6 +5,7 @@ seoDescription: "Anthropic đầu tư $100M đào tạo 10.000 Frontier Deployed
 datePublished: 2026-10-04T09:08:19.656Z
 cuid: cmutlm1im000206lbfqvxe7oc
 slug: daily-tech-brief-04-10-2026
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/cf17ea49-6b6a-45d4-a0ee-3dc7030fc0a5.png
 ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/6c8a6050-96e5-4d7d-aa77-deb6616111f2.png
 tags: claude, ai-engineering, anthropic, daily-tech-brief, daily-tech-brief-04-10-2026, claude-frontier-academy, frontier-deployed-engineer
 
