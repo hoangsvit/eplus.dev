@@ -331,15 +331,22 @@ You've sent your first request to the Cloud Natural Language API.
 
 ### Quick
 
-%[https://www.youtube.com/watch?v=cnmag49ro24&ab_channel=QUICKGCPLAB] 
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP097/lab.sh
+source lab.sh
+```
+
+* * *
+
+### Old Solution
 
 **Open link:** [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1744955980181/3f93e2b9-c966-48b0-8ac8-59ee929dcc45.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP097/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP097/old.sh
+source old.sh
 ```
 
 **Script Alternative**
