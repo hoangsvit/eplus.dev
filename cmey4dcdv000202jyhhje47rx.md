@@ -160,13 +160,22 @@ Analyze sentiment with the Natural Language API
 
 ### Quick
 
+```plaintext
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC114/lab.sh
+source lab.sh
+```
+
+* * *
+
+### Other Solution
+
 Open VM: [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756549555197/62349756-e60c-4b80-a0ec-0ac430c35890.png align="center")
 
 ```apache
-curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC114/lab.sh
-source lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/ARC114/old.sh
+source old.sh
 ```
 
 **Script Alternative**
