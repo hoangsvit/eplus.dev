@@ -361,4 +361,6 @@ sudo chmod +x gsp097.sh
 
 ### Manual
 
+%[https://www.youtube.com/watch?v=RkjPM1AcM_o] 
+
 %[https://www.youtube.com/watch?v=I0Ybwae59ts]
