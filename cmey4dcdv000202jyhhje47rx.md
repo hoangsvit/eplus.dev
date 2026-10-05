@@ -5,8 +5,8 @@ seoDescription: "Participate in a hands-on lab to analyze speech and text with G
 datePublished: 2025-08-30T10:29:13.843Z
 cuid: cmey4dcdv000202jyhhje47rx
 slug: analyze-speech-and-language-with-google-apis-challenge-lab-arc114
-cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/fed2f503-13f3-437d-ac61-4c3c6d4eed92.png
-ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/c7c03059-0ea5-4e9c-a8ed-1317b04907cf.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/ac751499-0df6-42e7-bd97-73a67d8b1b40.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/f554fdf7-5e5e-4f1c-b664-021f56210089.png
 tags: google-cloud-apis, analyze-speech-and-language-with-google-apis-challenge-lab-arc114, analyze-speech-and-language-with-google-apis-challenge-lab, arc114
 
 ---
@@ -160,8 +160,6 @@ Analyze sentiment with the Natural Language API
 
 ### Quick
 
-%[https://youtu.be/qUb4yzQIwjs] 
-
 Open VM: [https://console.cloud.google.com/compute/instances](https://console.cloud.google.com/compute/instances)
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1756549555197/62349756-e60c-4b80-a0ec-0ac430c35890.png align="center")
@@ -194,4 +192,4 @@ Cloud Speech-to-Text API
 
 ### Manual
 
-%[https://www.youtube.com/watch?v=KSStnnG5Go4]
+%[https://www.youtube.com/watch?v=jr93X-v0_2o]
