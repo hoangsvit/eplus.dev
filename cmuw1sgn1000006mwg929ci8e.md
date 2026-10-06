@@ -7,7 +7,7 @@ cuid: cmuw1sgn1000006mwg929ci8e
 slug: daily-tech-brief-06-10-2026
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/e9b4b275-e1c0-44a3-a436-8b6b6c04d439.png
 ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/5ba83f27-931a-4f10-872f-e855bf258f04.png
-tags: github, google-cloud, openai, ai-code-review, ai-watermarking, daily-tech-brief, aiprovenance, daily-tech-brief-06-10-2026, textgrain, reviewbench
+tags: github, google-cloud, gke, openai, ai-code-review, ai-watermarking, daily-tech-brief, aiprovenance, daily-tech-brief-06-10-2026, textgrain, reviewbench
 
 ---
 
