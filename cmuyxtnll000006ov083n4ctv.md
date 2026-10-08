@@ -3,7 +3,7 @@ title: "Daily Tech Brief — 07/10/2026"
 seoTitle: "Daily Tech Brief — 07/10/2026"
 seoDescription: "Google ra mắt EmbeddingGemma 2 cho multimodal AI chạy trên edge; GitHub tái kiến trúc Git cho agent-scale development; OpenAI dùng workflow Ironclad để train và evaluate computer-use agents.
 "
-datePublished: 2026-10-08T02:49:01.129Z
+datePublished: 2026-10-07T02:00:00.000Z
 cuid: cmuyxtnll000006ov083n4ctv
 slug: daily-tech-brief-07-10-2026
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/6a5ada5b-a9b2-4cc8-b5c3-077391e902e0.png
