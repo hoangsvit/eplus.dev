@@ -3,7 +3,7 @@
 ### #Blog posts
 
 <!-- BLOG-POST-LIST:START -->
- - 🧰 [Daily Tech Brief — 07/10/2026](https://eplus.dev/daily-tech-brief-07-10-2026) - 2026-10-08
+ - 🧰 [Daily Tech Brief — 07/10/2026](https://eplus.dev/daily-tech-brief-07-10-2026) - 2026-10-07
  - 😺 [Daily Tech Brief — 06/10/2026](https://eplus.dev/daily-tech-brief-06-10-2026) - 2026-10-06
  - 🗽 [Managed Service for Apache Spark: Qwik Start - Command Line - GSP104](https://eplus.dev/managed-service-for-apache-spark-qwik-start-command-line-gsp104) - 2026-10-05
  - 🌜 [Daily Tech Brief — 05/10/2026](https://eplus.dev/daily-tech-brief-05-10-2026) - 2026-10-05
