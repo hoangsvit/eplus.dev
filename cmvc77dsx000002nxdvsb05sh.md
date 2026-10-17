@@ -6,7 +6,7 @@ datePublished: 2026-10-17T09:32:38.476Z
 cuid: cmvc77dsx000002nxdvsb05sh
 slug: daily-tech-brief-17-10-2026
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/51deb3dc-f430-42ae-b425-43c48174b30c.png
-ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/246a97d2-5844-4a44-8745-ce523ebf3ad2.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/833ddcd2-8e1f-4571-818d-bce32ed8ab55.png
 tags: beam, devsecops, vercel, ai-agents, open-weight-ai, daily-tech-brief, daily-tech-brief-17-10-2026
 
 ---
@@ -1488,7 +1488,7 @@ Vì vậy, bản tin ghi nhận 14 cập nhật có ngày công bố 16/10, khô
 
 **Kiểm tra trùng lặp:**
 
-Đã đối chiếu với nội dung Daily Tech Brief ngày [15–16/10/2026](tel:15–16/10/2026) có thể truy cập.
+Đã đối chiếu với nội dung Daily Tech Brief ngày [15–16/10/2026](tel:15%E2%80%9316/10/2026) có thể truy cập.
 
 Không lặp lại các tin đã được đưa trước đó như:
 
