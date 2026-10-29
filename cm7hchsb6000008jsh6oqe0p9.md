@@ -418,3 +418,9 @@ curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```
+
+---
+
+### Manual
+
+%[https://www.youtube.com/watch?v=LYOO0g4s9FQ]
