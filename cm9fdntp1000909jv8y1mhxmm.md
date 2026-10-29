@@ -22,11 +22,8 @@ In this lab, you will explore how to use Managed Service for Prometheus in a sel
 In this lab, you will learn how to:
 
 1. Deploy the Managed Service for Prometheus
-    
 2. Create a self-managed data collection for scraping metrics
-    
 3. Use Grafana to query Prometheus metrics data
-    
 
 ## Setup and requirements
 
@@ -38,68 +35,52 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
-    
+- Access to a standard internet browser (Chrome browser recommended).
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
-    
+- Time to complete the lab—remember, once you start, you cannot pause a lab.
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
 1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
-    
-    * The Open Google Cloud console button
-        
-    * Time remaining
-        
-    * The temporary credentials that you must use for this lab
-        
-    * Other information, if needed, to step through this lab
-        
+   - The Open Google Cloud console button
+   - Time remaining
+   - The temporary credentials that you must use for this lab
+   - Other information, if needed, to step through this lab
 2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
-    
-    The lab spins up resources, and then opens another tab that shows the Sign in page.
-    
-    ***Tip:*** Arrange the tabs in separate windows, side-by-side.
-    
-    **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
-    
+
+   The lab spins up resources, and then opens another tab that shows the Sign in page.
+
+   ***Tip:*** Arrange the tabs in separate windows, side-by-side.
+
+   **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
 3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
-    
-    ```apache
-    student-04-41125e65cd18@qwiklabs.net
-    ```
-    
-    You can also find the Username in the Lab Details pane.
-    
+
+   ```apache
+   student-04-41125e65cd18@qwiklabs.net
+   ```
+
+   You can also find the Username in the Lab Details pane.
 4. Click **Next**.
-    
 5. Copy the **Password** below and paste it into the **Welcome** dialog.
-    
-    ```apache
-    C0XU62JDRHBM
-    ```
-    
-    You can also find the Password in the Lab Details pane.
-    
+
+   ```apache
+   C0XU62JDRHBM
+   ```
+
+   You can also find the Password in the Lab Details pane.
 6. Click **Next**.
-    
-    **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
-    
-    **Note:** Using your own Google Cloud account for this lab may incur extra charges.
-    
+
+   **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
+
+   **Note:** Using your own Google Cloud account for this lab may incur extra charges.
 7. Click through the subsequent pages:
-    
-    * Accept the terms and conditions.
-        
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
-        
-    * Do not sign up for free trials.
-        
+   - Accept the terms and conditions.
+   - Do not add recovery options or two-factor authentication (because this is a temporary account).
+   - Do not sign up for free trials.
 
 After a few moments, the Google Cloud console opens in this tab.
 
@@ -112,15 +93,11 @@ After a few moments, the Google Cloud console opens in this tab.
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
 1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
-    
 2. Click through the following windows:
-    
-    * Continue through the Cloud Shell information window.
-        
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
-        
+   - Continue through the Cloud Shell information window.
+   - Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
 
-When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-00-66ce94ba3f58`. The output contains a line that declares the **Project\_ID** for this session:
+When you are connected, you are already authenticated, and the project is set to your **Project_ID**, `qwiklabs-gcp-00-66ce94ba3f58`. The output contains a line that declares the **Project_ID** for this session:
 
 ```apache
 Your Cloud Platform project in this session is set to qwiklabs-gcp-00-66ce94ba3f58
@@ -129,14 +106,12 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-00-66ce94ba3f
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
 3. (Optional) You can list the active account name with this command:
-    
 
 ```apache
 gcloud auth list
 ```
 
 4. Click **Authorize**.
-    
 
 **Output:**
 
@@ -149,7 +124,6 @@ To set the active account, run:
 ```
 
 5. (Optional) You can list the project ID with this command:
-    
 
 ```apache
 gcloud config list project
@@ -167,7 +141,6 @@ project = qwiklabs-gcp-00-66ce94ba3f58
 ## Task 1. Deploy GKE cluster
 
 1. Deploy a basic GKE cluster to setup lab:
-    
 
 ```apache
 gcloud container clusters create gmp-cluster --num-nodes=3 --zone=us-central1-f
@@ -193,8 +166,7 @@ kubectl -n gmp-test apply -f https://raw.githubusercontent.com/GoogleCloudPlatfo
 
 ## Task 3. Deploy Prometheus
 
-* Run the following command to ingest a metric:
-    
+- Run the following command to ingest a metric:
 
 ```apache
 kubectl -n gmp-test apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/prometheus-engine/v0.4.3-gke.0/examples/prometheus.yaml
@@ -219,14 +191,12 @@ prometheus-test-0               2/2     Running   1          3m
 Run the following commands to verify that you can see metrics by using the Prometheus metrics API.
 
 1. Set environment variable:
-    
 
 ```apache
 export PROJECT_ID=$(gcloud config get-value project)
 ```
 
 2. Use the following curl command:
-    
 
 ```apache
 curl https://raw.githubusercontent.com/GoogleCloudPlatform/prometheus-engine/v0.4.3-gke.0/examples/frontend.yaml |
@@ -234,14 +204,12 @@ sed "s/\$PROJECT_ID/$PROJECT_ID/" | kubectl apply -n gmp-test -f -
 ```
 
 3. Forward the port to see the Prometheus metrics UI:
-    
 
 ```apache
 kubectl -n gmp-test port-forward svc/frontend 9090
 ```
 
 4. In cloud shell editor use the web preview icon to change the port to 9090 then view the metrics.
-    
 
 Check if Prometheus is deployed
 
@@ -256,68 +224,55 @@ Check if metric appears
 **Note:** Open a new Cloud Shell tab (+) to run the below commands.
 
 1. Clone kube-prometheus repo:
-    
 
 ```apache
 git clone https://github.com/prometheus-operator/kube-prometheus.git
 ```
 
 2. Change directory to the kube-prometheus:
-    
 
 ```apache
 cd kube-prometheus
 ```
 
 3. Run the following commands to deploy an ephemeral Grafana deployment:
-    
 
 ```apache
 kubectl -n gmp-test apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/prometheus-engine/v0.4.3-gke.0/examples/grafana.yaml
 ```
 
 4. Forward the port to see the Grafana UI:
-    
 
 ```apache
 kubectl -n gmp-test port-forward svc/grafana 3001:3000
 ```
 
 5. In cloud shell editor use the web preview icon to change the port to 3001 then view the Grafana dashboard.
-    
 
 ## Task 6. Grafana
 
 1. Log in to Grafana using the username **admin** and password **admin**.
-    
 2. Click **Skip** when asked to enter new password.
-    
 
 ## Task 7. Configure data source
 
 To query Managed Service for Prometheus in Grafana by using the Prometheus UI as the authentication proxy, you must add new data source to Grafana. To add a data source for the managed service, do the following:
 
 1. Go to your Grafana deployment, for example, by browsing to the URL `http://localhost:3000` to reach the Grafana welcome page.
-    
 2. Select **Configuration** from the main Grafana menu, then select **Data Sources**.
-    
 
 ![Grafana welcome page displaying the selected Data Sources option in the Configuration menu](https://cdn.qwiklabs.com/9eShb7YrbDcxtS6a661dc68qDa9hADNBh5gyeAuTXhU%3D align="left")
 
 3. Select **Add data source**, and select **Prometheus** as the time series database.
-    
 
 ![The Add data source page](https://cdn.qwiklabs.com/Al3wUlLFYXQuGx8jebRI5Y%2FRwGSw1nGbRPvT%2Fd2Ei18%3D align="left")
 
 4. In the URL field of the HTTP pane, enter the URL of the Managed Service for Prometheus frontend service. If you configured the Prometheus UI to run on port 9090, then the service URL for this field is `http://frontend.gmp-test.svc:9090`.
-    
 5. In the **HTTP Method** field, select **GET**.
-    
 
 ![The Data Sources/Managed Service for Prometheus page](https://cdn.qwiklabs.com/S3wbbR9VUqmOg0vmGXqXhU%2BNL%2BKYiAEnPfEGSLV700k%3D align="left")
 
 6. Click **Save & Test**, and look for the message "Data source is working".
-    
 
 ![The aforementioned message displayed in the UI](https://cdn.qwiklabs.com/cEwe8WuF0%2Byp5AVkshQzXJQ%2FtZaxvXyp5Kj94M2pYHg%3D align="left")
 
@@ -335,7 +290,12 @@ Check if metric appears
 
 ### Quick
 
-%[https://youtu.be/TWv3hnr8bQM] 
+```apache
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1025/lab.sh
+source lab.sh
+```
+
+**Script Alternative**
 
 ```apache
 curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/refs/heads/main/Migrate%20Existing%20Prometheus%20Monitoring%20Workloads%20to%20Google%20Cloud/gsp1025.sh
