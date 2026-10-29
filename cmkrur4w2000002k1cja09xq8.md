@@ -5,8 +5,8 @@ seoDescription: "Learn how to manage Google AlloyDB instances, create tables, in
 datePublished: 2026-01-24T05:11:38.114Z
 cuid: cmkrur4w2000002k1cja09xq8
 slug: alloydb-database-fundamentals-gsp1083
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769231433636/17d385d6-a1f6-4d58-9690-9a9893cab518.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1769231445144/da556f5b-09ef-4dc3-a498-18870966b017.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/56a4eaa8-917f-4d51-83ae-af21fcea3a02.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/5f685cfa-7a1a-4768-b2c8-6549bea37fdc.png
 tags: alloydb, database-fundamentals, alloydb-database-fundamentals-gsp1083, gsp1083
 
 ---
