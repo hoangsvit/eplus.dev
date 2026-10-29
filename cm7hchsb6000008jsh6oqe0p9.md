@@ -5,8 +5,8 @@ seoDescription: "The Google Cloud Managed Service for Prometheus charges for the
 datePublished: 2025-02-23T08:06:36.690Z
 cuid: cm7hchsb6000008jsh6oqe0p9
 slug: reduce-costs-for-the-managed-service-for-prometheus-gsp1027
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740297740723/77bb07fd-6feb-4841-a253-dc45bb9501e2.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1740297985004/ca0e4b58-0365-4dd5-8f57-b07de1819c8b.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/c5265256-a38a-4241-93a4-12c58f5a9e26.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/b7db1a39-73cb-4259-a5de-d5e4dbda1f03.png
 tags: reduce-costs-for-the-managed-service-for-prometheus-gsp1027, reduce-costs-for-the-managed-service-for-prometheus, gsp1027
 
 ---
@@ -21,12 +21,9 @@ In this lab, you will explore cost control mechanisms when utilizing the Managed
 
 In this lab, you will learn how to:
 
-* Deploy Google Managed Prometheus (GMP) in a Google Kubernetes Engine (GKE) cluster as well as a python application
-    
-* Reduce the number of time series metrics you send to the managed service by filtering the metric data generated
-    
-* Reduce the number of samples collected by changing the scraping interval
-    
+- Deploy Google Managed Prometheus (GMP) in a Google Kubernetes Engine (GKE) cluster as well as a python application
+- Reduce the number of time series metrics you send to the managed service by filtering the metric data generated
+- Reduce the number of samples collected by changing the scraping interval
 
 ## **Setup and requirements**
 
@@ -38,68 +35,52 @@ This hands-on lab lets you do the lab activities in a real cloud environment, no
 
 To complete this lab, you need:
 
-* Access to a standard internet browser (Chrome browser recommended).
-    
+- Access to a standard internet browser (Chrome browser recommended).
 
 **Note:** Use an Incognito (recommended) or private browser window to run this lab. This prevents conflicts between your personal account and the student account, which may cause extra charges incurred to your personal account.
 
-* Time to complete the lab—remember, once you start, you cannot pause a lab.
-    
+- Time to complete the lab—remember, once you start, you cannot pause a lab.
 
 **Note:** Use only the student account for this lab. If you use a different Google Cloud account, you may incur charges to that account.
 
 ### How to start your lab and sign in to the Google Cloud console
 
 1. Click the **Start Lab** button. If you need to pay for the lab, a dialog opens for you to select your payment method. On the left is the Lab Details pane with the following:
-    
-    * The Open Google Cloud console button
-        
-    * Time remaining
-        
-    * The temporary credentials that you must use for this lab
-        
-    * Other information, if needed, to step through this lab
-        
+   - The Open Google Cloud console button
+   - Time remaining
+   - The temporary credentials that you must use for this lab
+   - Other information, if needed, to step through this lab
 2. Click **Open Google Cloud console** (or right-click and select **Open Link in Incognito Window** if you are running the Chrome browser).
-    
-    The lab spins up resources, and then opens another tab that shows the Sign in page.
-    
-    ***Tip:*** Arrange the tabs in separate windows, side-by-side.
-    
-    **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
-    
+
+   The lab spins up resources, and then opens another tab that shows the Sign in page.
+
+   ***Tip:*** Arrange the tabs in separate windows, side-by-side.
+
+   **Note:** If you see the **Choose an account** dialog, click **Use Another Account**.
 3. If necessary, copy the **Username** below and paste it into the **Sign in** dialog.
-    
-    ```apache
-    student-04-fd3afa752120@qwiklabs.net
-    ```
-    
-    You can also find the Username in the Lab Details pane.
-    
+
+   ```apache
+   student-04-fd3afa752120@qwiklabs.net
+   ```
+
+   You can also find the Username in the Lab Details pane.
 4. Click **Next**.
-    
 5. Copy the **Password** below and paste it into the **Welcome** dialog.
-    
-    ```apache
-    BFfVYXoaTzlx
-    ```
-    
-    You can also find the Password in the Lab Details pane.
-    
+
+   ```apache
+   BFfVYXoaTzlx
+   ```
+
+   You can also find the Password in the Lab Details pane.
 6. Click **Next**.
-    
-    **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
-    
-    **Note:** Using your own Google Cloud account for this lab may incur extra charges.
-    
+
+   **Important:** You must use the credentials the lab provides you. Do not use your Google Cloud account credentials.
+
+   **Note:** Using your own Google Cloud account for this lab may incur extra charges.
 7. Click through the subsequent pages:
-    
-    * Accept the terms and conditions.
-        
-    * Do not add recovery options or two-factor authentication (because this is a temporary account).
-        
-    * Do not sign up for free trials.
-        
+   - Accept the terms and conditions.
+   - Do not add recovery options or two-factor authentication (because this is a temporary account).
+   - Do not sign up for free trials.
 
 After a few moments, the Google Cloud console opens in this tab.
 
@@ -112,15 +93,11 @@ After a few moments, the Google Cloud console opens in this tab.
 Cloud Shell is a virtual machine that is loaded with development tools. It offers a persistent 5GB home directory and runs on the Google Cloud. Cloud Shell provides command-line access to your Google Cloud resources.
 
 1. Click **Activate Cloud Shell** at the top of the Google Cloud console.
-    
 2. Click through the following windows:
-    
-    * Continue through the Cloud Shell information window.
-        
-    * Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
-        
+   - Continue through the Cloud Shell information window.
+   - Authorize Cloud Shell to use your credentials to make Google Cloud API calls.
 
-When you are connected, you are already authenticated, and the project is set to your **Project\_ID**, `qwiklabs-gcp-02-a2adadf53955`. The output contains a line that declares the **Project\_ID** for this session:
+When you are connected, you are already authenticated, and the project is set to your **Project_ID**, `qwiklabs-gcp-02-a2adadf53955`. The output contains a line that declares the **Project_ID** for this session:
 
 ```apache
 Your Cloud Platform project in this session is set to qwiklabs-gcp-02-a2adadf53955
@@ -129,14 +106,12 @@ Your Cloud Platform project in this session is set to qwiklabs-gcp-02-a2adadf539
 `gcloud` is the command-line tool for Google Cloud. It comes pre-installed on Cloud Shell and supports tab-completion.
 
 3. (Optional) You can list the active account name with this command:
-    
 
 ```apache
 gcloud auth list
 ```
 
 4. Click **Authorize**.
-    
 
 **Output:**
 
@@ -149,7 +124,6 @@ To set the active account, run:
 ```
 
 5. (Optional) You can list the project ID with this command:
-    
 
 ```apache
 gcloud config list project
@@ -166,8 +140,7 @@ project = qwiklabs-gcp-02-a2adadf53955
 
 ## **Task 1. Deploy GKE cluster**
 
-* Deploy a basic GKE cluster to setup lab:
-    
+- Deploy a basic GKE cluster to setup lab:
 
 ```apache
 gcloud beta container clusters create gmp-cluster --num-nodes=1 --zone us-west1-b --enable-managed-prometheus
@@ -203,8 +176,7 @@ spec:
     interval: 10s
 ```
 
-* To apply this resource, run the following command:
-    
+- To apply this resource, run the following command:
 
 ```apache
 kubectl -n gmp-system apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/prometheus-engine/main/examples/self-pod-monitoring.yaml
@@ -216,8 +188,7 @@ Your managed collector is now scraping the matching pods.
 
 The managed service provides a manifest for an example application that emits Prometheus metrics on its metrics port. The application uses three replicas.
 
-* To deploy the example application, run the following command:
-    
+- To deploy the example application, run the following command:
 
 ```apache
 kubectl -n gmp-system apply -f https://raw.githubusercontent.com/GoogleCloudPlatform/prometheus-engine/main/examples/example-app.yaml
@@ -232,34 +203,28 @@ Check my progress
 To view your Managed Service for Prometheus data as Cloud Monitoring time series, use Metrics Explorer. To configure Metrics Explorer to display metrics, do the following:
 
 1. From the Cloud console, go to [**Monitoring**](https://console.cloud.google.com/monitoring?_ga=2.255227912.1612871264.1645420386-1509336292.1645420386).
-    
 2. In the Monitoring navigation pane, click
-    
-    ![Metrics Explorer icon](https://cdn.qwiklabs.com/Rd3QMg5clsBgSodXWSOpGVRtOQGoEgukd4ielzJjEz0%3D align="left")
-    
-    **Metrics Explorer**.
-    
+
+   ![Metrics Explorer icon](https://cdn.qwiklabs.com/Rd3QMg5clsBgSodXWSOpGVRtOQGoEgukd4ielzJjEz0%3D align="left")
+
+   **Metrics Explorer**.
 3. Specify the data to appear on the chart. You can use the **MQL** editor to do so.
-    
-    * To use the MQL tab, do the following:
-        
-        a. Click **PromQL** from the top right and select the **MQL** radio option in a new **Query**.
-        
-        b. Enter the following query:
-        
-        ```apache
-        fetch prometheus_target::prometheus.googleapis.com/up/gauge
-        ```
-        
-        c. Click **Run Query**.
-        
+   - To use the MQL tab, do the following:
+
+     a. Click **PromQL** from the top right and select the **MQL** radio option in a new **Query**.
+
+     b. Enter the following query:
+
+     ```apache
+     fetch prometheus_target::prometheus.googleapis.com/up/gauge
+     ```
+
+     c. Click **Run Query**.
 
 ## **Task 4. Populate a Graph**
 
-* Go to **Monitoring &gt; Metrics Explorer** and create another **Query**.
-    
-* Select the **PromQL** radio option and run the query below by clicking **Run Query** to see metrics:
-    
+- Go to **Monitoring > Metrics Explorer** and create another **Query**.
+- Select the **PromQL** radio option and run the query below by clicking **Run Query** to see metrics:
 
 ```apache
 go_memstats_heap_alloc_bytes
@@ -276,14 +241,12 @@ If you collect a lot of data, you might want to prevent some time series from be
 To filter exported metrics, you can configure a set of [PromQL series selectors](https://prometheus.io/docs/prometheus/latest/querying/basics/#time-series-selectors) in the [OperatorConfig resource](https://github.com/GoogleCloudPlatform/prometheus-engine/blob/v0.2.3/doc/api.md#operatorconfig). A time series is exported to Managed Service for Prometheus if it satisfies at least one of the selectors.
 
 1. Open the `OperatorConfig` resource for editing:
-    
 
 ```apache
 kubectl -n gmp-public edit operatorconfig config
 ```
 
 2. After the apiVersion line, press "**i**" to go into insert mode. Go to the final line and press **enter** to go to a new line. Ensure there are no indents at the beginning of the line. Then paste the following:
-    
 
 ```apache
 collection:
@@ -298,21 +261,18 @@ The file should look like the following:
 ![Operator config code](https://cdn.qwiklabs.com/zNkMWtC5t6Spw72Ecih%2FAteXwse0fVqVos9pq%2F5RBKg%3D align="left")
 
 3. To save the file and exit press "**Esc**" then type "**:wq**" then **enter**.
-    
 
 This addition causes only metrics for the "prometheus" job as well as metrics produced by recording rules that aggregate to the job level—when following naming [best practices](https://prometheus.io/docs/practices/rules/#naming-and-aggregation)—to be exported. Samples for all other time series are filtered out. By default, no selectors are specified and all time series are exported.
 
 The `filter.matchOneOf` configuration section has the same semantics as the match\[\] parameters for Prometheus federation.
 
 4. Create a `op-config.yaml` file:
-    
 
 ```apache
 vi op-config.yaml
 ```
 
 5. Copy the following into the `op-config.yaml` file:
-    
 
 ```apache
 apiVersion: monitoring.googleapis.com/v1alpha1
@@ -338,7 +298,6 @@ metadata:
 ```
 
 6. Upload the config file you created to verify:
-    
 
 ```apache
 export PROJECT=$(gcloud config get-value project)
@@ -363,21 +322,17 @@ Check my progress
 ## **Task 6. Run the query**
 
 1. Click **\+ Add query** to create a new **Query** and type `up/gauge` into the **Select a metric** input filter.
-    
 2. Select the resulting prometheus metric and select **Apply**.
-    
 
 ## **Task 7. Monitor the app**
 
 1. Create a prom-example-config.yaml file you created to verify:
-    
 
 ```apache
 vi prom-example-config.yaml
 ```
 
 2. Copy the following into the file:
-    
 
 ```bash
 apiVersion: monitoring.googleapis.com/v1alpha1
@@ -411,7 +366,6 @@ status:
 ```
 
 3. Run the below commands in the cloud shell.
-    
 
 ```apache
 export PROJECT=$(gcloud config get-value project)
@@ -433,8 +387,6 @@ Check if scrape interval has been changed
 
 ### **Solution 1:**
 
-%[https://youtu.be/bm8BpN1dUSk] 
-
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1027/lab.sh
 source lab.sh
@@ -452,7 +404,7 @@ sudo chmod +x gsp1027.sh
 
 ### Solution 2:
 
-%[https://youtu.be/0q6wvdfXcJc] 
+%[https://youtu.be/0q6wvdfXcJc]
 
 ```apache
 curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1027/solution-2.sh
