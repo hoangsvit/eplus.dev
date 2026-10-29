@@ -25,12 +25,9 @@ This lab is recommended for students enrolled in the [Monitor Environments with 
 
 In this lab, you will learn how to:
 
-* Deploy the Managed Service for Prometheus
-    
-* Create a self managed data collection for scraping metrics
-    
-* Deploy an application to query metrics
-    
+- Deploy the Managed Service for Prometheus
+- Create a self managed data collection for scraping metrics
+- Deploy an application to query metrics
 
 ## **Task 1. Deploy a GKE cluster in** `us-west1-a`
 
@@ -51,7 +48,6 @@ Check my progress
 ## **Task 4. Filter exported metrics**
 
 1. Add the following to operator config to filter metrics
-    
 
 ```apache
 collection:
@@ -62,16 +58,13 @@ collection:
 ```
 
 2. Create a config.yaml file
-    
 
 ```apache
 vi op-config.yaml
 ```
 
 3. Copy the contents of operatorconfig inside the config.yaml file
-    
 4. Upload the config file you created to verify.
-    
 
 ```apache
 export PROJECT=$(gcloud config get-value project)
@@ -95,10 +88,16 @@ Check if metrics filter has been applied
 
 ## Solution of Lab
 
-%[https://youtu.be/AA0KSf71iLQ] 
+### Quick
 
 ```apache
 curl -LO raw.githubusercontent.com/QUICK-GCP-LAB/2-Minutes-Labs-Solutions/main/Monitor%20Environments%20with%20Google%20Cloud%20Managed%20Service%20for%20Prometheus%20Challenge%20Lab/gsp364.sh
 sudo chmod +x gsp364.sh
 ./gsp364.sh
 ```
+
+---
+
+### Manual
+
+%[https://www.youtube.com/watch?v=JewYkO376B8]
