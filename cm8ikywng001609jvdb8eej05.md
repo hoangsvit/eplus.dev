@@ -5,8 +5,8 @@ seoDescription: "In a challenge lab you’re given a scenario and a set of tasks
 datePublished: 2025-03-21T09:31:20.908Z
 cuid: cm8ikywng001609jvdb8eej05
 slug: monitor-environments-with-google-cloud-managed-service-for-prometheus-challenge-lab-gsp364
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1742549336200/e013cab3-d8a0-4afd-a179-f8b8e3b02ce6.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1742549465967/c8a42d84-1002-49a4-8c69-25889782f1a1.png
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/1d59e72f-cfa8-45e3-b87d-c7f115893dac.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/b5bad896-ff67-45b2-916c-51e0ecf0c3bb.png
 tags: monitor-environments-with-google-cloud-managed-service-for-prometheus-challenge-lab-gsp364, monitor-environments-with-google-cloud-managed-service-for-prometheus-challenge-lab, gsp364
 
 ---
