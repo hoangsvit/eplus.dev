@@ -3,21 +3,21 @@
 ### #Blog posts
 
 <!-- BLOG-POST-LIST:START -->
- - 🧰 [Daily Tech Brief — 30/10/2026](https://eplus.dev/daily-tech-brief-30-10-2026) - 2026-10-30
- - 😺 [Migrate to AlloyDB from PostgreSQL Using Database Migration Service - GSP1084](https://eplus.dev/migrate-to-alloydb-from-postgresql-using-database-migration-service-gsp1084) - 2026-10-30
- - 🗽 [Daily Tech Brief — 29/10/2026](https://eplus.dev/daily-tech-brief-29-10-2026) - 2026-10-29
- - 🌜 [Daily Tech Brief — 28/10/2026](https://eplus.dev/daily-tech-brief-28-10-2026) - 2026-10-28
- - 📝 [Daily Tech Brief — 27/10/2026](https://eplus.dev/daily-tech-brief-27-10-2026) - 2026-10-27
- - 🚀 [Daily Tech Brief — 18/10/2026](https://eplus.dev/daily-tech-brief-18-10-2026) - 2026-10-27
- - 💼 [Daily Tech Brief — 19/10/2026](https://eplus.dev/daily-tech-brief-19-10-2026) - 2026-10-19
- - 🦣 [Daily Tech Brief — 17/10/2026](https://eplus.dev/daily-tech-brief-17-10-2026) - 2026-10-17
- - 👨‍🏫 [Daily Tech Brief — 16/10/2026](https://eplus.dev/daily-tech-brief-16-10-2026) - 2026-10-16
- - 🔭 [Daily Tech Brief — 15/10/2026](https://eplus.dev/daily-tech-brief-15-10-2026) - 2026-10-15
- - 🤡 [Daily Tech Brief — 14/10/2026](https://eplus.dev/daily-tech-brief-14-10-2026) - 2026-10-14
- - 💡 [Daily Tech Brief — 13/10/2026](https://eplus.dev/daily-tech-brief-13-10-2026) - 2026-10-13
- - 🦣 [Daily Tech Brief — 12/10/2026](https://eplus.dev/daily-tech-brief-12-10-2026) - 2026-10-12
- - 💪 [Daily Tech Brief — 11/10/2026](https://eplus.dev/daily-tech-brief-11-10-2026) - 2026-10-11
- - 🤡 [Daily Tech Brief — 10/10/2026](https://eplus.dev/daily-tech-brief-10-10-2026) - 2026-10-10<!-- BLOG-POST-LIST:END -->
+ - 🧰 [Accelerating Analytical Queries using the AlloyDB Columnar Engine - GSP1087](https://eplus.dev/accelerating-analytical-queries-using-the-alloydb-columnar-engine-gsp1087) - 2026-10-30
+ - 😺 [Daily Tech Brief — 30/10/2026](https://eplus.dev/daily-tech-brief-30-10-2026) - 2026-10-30
+ - 🗽 [Migrate to AlloyDB from PostgreSQL Using Database Migration Service - GSP1084](https://eplus.dev/migrate-to-alloydb-from-postgresql-using-database-migration-service-gsp1084) - 2026-10-30
+ - 🌜 [Daily Tech Brief — 29/10/2026](https://eplus.dev/daily-tech-brief-29-10-2026) - 2026-10-29
+ - 📝 [Daily Tech Brief — 28/10/2026](https://eplus.dev/daily-tech-brief-28-10-2026) - 2026-10-28
+ - 🚀 [Daily Tech Brief — 27/10/2026](https://eplus.dev/daily-tech-brief-27-10-2026) - 2026-10-27
+ - 💼 [Daily Tech Brief — 18/10/2026](https://eplus.dev/daily-tech-brief-18-10-2026) - 2026-10-27
+ - 🦣 [Daily Tech Brief — 19/10/2026](https://eplus.dev/daily-tech-brief-19-10-2026) - 2026-10-19
+ - 👨‍🏫 [Daily Tech Brief — 17/10/2026](https://eplus.dev/daily-tech-brief-17-10-2026) - 2026-10-17
+ - 🔭 [Daily Tech Brief — 16/10/2026](https://eplus.dev/daily-tech-brief-16-10-2026) - 2026-10-16
+ - 🤡 [Daily Tech Brief — 15/10/2026](https://eplus.dev/daily-tech-brief-15-10-2026) - 2026-10-15
+ - 💡 [Daily Tech Brief — 14/10/2026](https://eplus.dev/daily-tech-brief-14-10-2026) - 2026-10-14
+ - 🦣 [Daily Tech Brief — 13/10/2026](https://eplus.dev/daily-tech-brief-13-10-2026) - 2026-10-13
+ - 💪 [Daily Tech Brief — 12/10/2026](https://eplus.dev/daily-tech-brief-12-10-2026) - 2026-10-12
+ - 🤡 [Daily Tech Brief — 11/10/2026](https://eplus.dev/daily-tech-brief-11-10-2026) - 2026-10-11<!-- BLOG-POST-LIST:END -->
 
 <div align="right">
   Update by <a target="_blank"
