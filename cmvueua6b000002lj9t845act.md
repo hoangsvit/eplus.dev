@@ -282,7 +282,6 @@ source lab.sh
 
 - [Original Google Skills GSP1084 lab](https://www.skills.google/focuses/100854) — four-task edition, *Manual Last Updated August 10, 2026*.
 - [Google Cloud documentation: Migrate to AlloyDB for PostgreSQL using DMS](https://docs.cloud.google.com/alloydb/docs/migrate-with-dms)
-- [PR #11 — GSP1084 automation](https://github.com/ePlus-DEV/storage/pull/11)
 
 **Documentation note:** Task order, wizard fields, two checkpoints, example counts, and the two linked Google Skills interface images are matched to the August 2026 four-task edition. Text is paraphrased rather than copied verbatim. The image links reference Google's original CDN and remain subject to their availability and reuse terms. **Runtime/grader unverified in this session.**
 
