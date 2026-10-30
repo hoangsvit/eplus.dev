@@ -155,7 +155,9 @@ source lab.sh
 
 ### Manual
 
-Follow **Task 1–5** above to run and verify the lab manually. For a pre-merge script test, use the commit-SHA-based command in the PR description instead of the `main` Quick.
+%[https://www.youtube.com/watch?v=6riqNid8TQE]
+
+%[https://www.youtube.com/watch?v=rJMTPCFVhJg]
 
 ### Other Solution
 
