@@ -11,7 +11,7 @@ tags: migrate-to-alloydb-from-postgresql-using-database-migration-service-gsp108
 
 ---
 
-> Original task-by-task guide based on the **four-task Google Skills edition updated August 10, 2026**. This is an independently written practical walkthrough; see the [official lab](https://www.skills.google/focuses/100854) for the full original text and interface images.
+> Original task-by-task guide based on the **four-task Google Skills edition updated August 10, 2026**. This is an independently written practical walkthrough; see the [official lab](https://www.skills.google/games/7501/labs/45912) for the full original text and interface images.
 
 ## Overview
 
