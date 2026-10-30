@@ -266,7 +266,7 @@ You have configured a source profile, run a PostgreSQL-to-AlloyDB continuous mig
 ### Quick
 
 ```bash
-curl -LO https://raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/feat/gsp1084-postgres-to-alloydb-dms/labs/GSP1084/lab.sh
+curl -LO raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/main/labs/GSP1084/lab.sh
 source lab.sh
 ```
 
