@@ -270,7 +270,7 @@ curl -LO https://raw.githubusercontent.com/ePlus-DEV/storage/refs/heads/feat/gsp
 source lab.sh
 ```
 
-After merge, use the `main` branch URL instead. The script performs operations on lab resources; review it before execution.
+---
 
 ### Manual
 
