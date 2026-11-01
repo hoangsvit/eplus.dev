@@ -6,6 +6,7 @@ datePublished: 2026-11-01T16:46:01.972Z
 cuid: cmvy2aibr000002qb0u2m29d9
 slug: daily-tech-brief-01-11-2026
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/f308aa84-203f-43d6-8822-bd607b8d3284.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/a5942674-27b1-42f5-8614-4fc33a2cbe70.png
 tags: snowflake, postgresql, google-cloud, anthropic, daily-tech-brief, daily-tech-brief-01-11-2026, gpt-6-rosalind
 
 ---
