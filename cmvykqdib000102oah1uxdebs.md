@@ -7,7 +7,7 @@ cuid: cmvykqdib000102oah1uxdebs
 slug: daily-tech-brief-02-11-2026
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/73b24f42-77d3-4123-a86d-c92e8349d104.png
 ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/9bd33b9b-349a-4b5a-ac7d-d72ca2bfc7ba.png
-tags: daily-tech-brief, daily-tech-brief-02-11-2026
+tags: postgresql, python, nodejs, devops, heroku, serverless, github-actions, ci-cd, cloud-security, daily-tech-brief, daily-tech-brief-02-11-2026, runtime-lifecycle
 
 ---
 
