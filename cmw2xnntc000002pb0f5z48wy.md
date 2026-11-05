@@ -6,6 +6,7 @@ datePublished: 2026-11-05T02:35:08.428Z
 cuid: cmw2xnntc000002pb0f5z48wy
 slug: daily-tech-brief-05-11-2026
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/4ba3e8b1-e402-4048-8c23-468868baf298.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/5ddc2feb-9379-4be9-bf9a-f2833ca5f018.png
 tags: xcode, postgresql, google-cloud, devops, bigquery, cloud-storage, github-copilot, cloud-security, alloydb, codeql, ai-coding, daily-tech-brief, daily-tech-brief-05-11-2026
 
 ---
