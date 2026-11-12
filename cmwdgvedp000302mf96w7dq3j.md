@@ -1,12 +1,14 @@
 ---
-title: "Anthropic Tightens Claude Access Restrictions for China and Russia: What Changes on November 12, 2026?"
+title: "Anthropic Tightens Claude Access Restrictions for China and Russia"
 seoTitle: "Anthropic Tightens Claude Access Restrictions for China and Russia"
 seoDescription: "Anthropic clarifies Claude access restrictions affecting China and Russia. Explore the November 2026 policy update and its impact on global developers."
 datePublished: 2026-11-12T11:30:43.969Z
 cuid: cmwdgvedp000302mf96w7dq3j
-slug: anthropic-tightens-claude-access-restrictions-for-china-and-russia-what-changes-on-november-12-2026
+slug: anthropic-tightens-claude-access-restrictions-for-china-and-russia
 
 ---
+
+## Anthropic Tightens Claude Access Restrictions for China and Russia: What Changes on November 12, 2026?
 
 **Anthropic's updated policies, effective November 12, 2026, clarify restrictions on Claude access for individuals and businesses connected to unsupported regions, including China and Russia. The rules extend beyond geographic location, potentially affecting overseas subsidiaries, multinational companies, and developers using Claude's API.**
 
