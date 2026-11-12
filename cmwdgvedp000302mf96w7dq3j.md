@@ -5,6 +5,7 @@ seoDescription: "Anthropic clarifies Claude access restrictions affecting China 
 datePublished: 2026-11-12T11:30:43.969Z
 cuid: cmwdgvedp000302mf96w7dq3j
 slug: anthropic-tightens-claude-access-restrictions-for-china-and-russia
+ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/6abaf9a1-cca1-4ec9-a561-6132fe7146cb.png
 
 ---
 
