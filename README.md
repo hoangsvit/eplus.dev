@@ -3,7 +3,7 @@
 ### #Blog posts
 
 <!-- BLOG-POST-LIST:START -->
- - 🧰 [Anthropic Tightens Claude Access Restrictions for China and Russia: What Changes on November 12, 2026?](https://eplus.dev/anthropic-tightens-claude-access-restrictions-for-china-and-russia-what-changes-on-november-12-2026) - 2026-11-12
+ - 🧰 [Anthropic Tightens Claude Access Restrictions for China and Russia](https://eplus.dev/anthropic-tightens-claude-access-restrictions-for-china-and-russia) - 2026-11-12
  - 😺 [I Built Muse Invite Hub: An Open-Source Community for Sharing Muse AI Invite Codes](https://eplus.dev/i-built-muse-invite-hub-an-open-source-community-for-sharing-muse-ai-invite-codes) - 2026-11-12
  - 🗽 [Daily Tech Brief — 12/11/2026](https://eplus.dev/daily-tech-brief-12-11-2026) - 2026-11-12
  - 🌜 [Daily Tech Brief — 11/11/2026](https://eplus.dev/daily-tech-brief-11-11-2026) - 2026-11-11
