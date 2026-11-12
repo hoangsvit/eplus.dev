@@ -1,11 +1,13 @@
 ---
 title: "ASUS Tặng 3 Tháng Google AI Pro Miễn Phí Kèm 5TB: Hướng Dẫn Nhận Qua MyASUS"
+seoTitle: "ASUS tặng 3 tháng Google AI Pro miễn phí kèm 5TB lưu trữ: Hướng dẫn nhận qua MyASUS"
 seoDescription: "ASUS tặng 3 tháng Google AI Pro miễn phí kèm 5TB lưu trữ cho laptop đủ điều kiện. Hướng dẫn kiểm tra model và kích hoạt qua MyASUS."
 datePublished: 2026-11-12T16:03:59.782Z
 cuid: cmwdqmth3000108kx5eo8aiqm
 slug: asus-google-ai-pro-5tb-free-3-months-2026
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/3745d1a7-89ef-408f-851d-c8968a650d7d.png
 ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/ec7722d3-e84f-444a-ac84-d3605e4d8bec.png
+tags: asus, google-one, google-ai, gemini, freebies
 
 ---
 
