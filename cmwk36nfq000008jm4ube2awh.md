@@ -11,8 +11,6 @@ tags: github, google-cloud, devsecops, ci-cd, github-copilot, cloud-security, bi
 
 ---
 
-![Daily Tech Brief 17/11/2026](URL_ANH_DAI_DIEN align="center")
-
 > GitHub mở rộng AI Scan cho phép quét hàng loạt repositories, chính thức loại bỏ ba model Copilot và tăng khả năng quản trị bảo mật. Google Cloud cập nhật CodeMender v0.22.0, giới thiệu AI-assisted Bigtable migration, mở rộng post-quantum TLS và cải thiện database metadata synchronization. Những thay đổi này cho thấy developer tooling đang tiến từ AI assistance sang vận hành, bảo mật và quản trị hệ thống có kiểm chứng.
 
 **Ngày xuất bản:** 17/11/2026\
