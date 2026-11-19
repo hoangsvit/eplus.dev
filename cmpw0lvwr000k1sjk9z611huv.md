@@ -50,7 +50,7 @@ There are a lot of things in store for you. We want to make sure that by the end
 
 For the badges and milestones that you complete in the Facilitator program, you will earn several **"Arcade  + Bonus Points"** that you can **REDEEM** **for prizes and Google Cloud goodies** at the Google Skills Arcade prize counter.
 
-See what's the criteria of earning these points below. You can also checkout the official [Google Skills Arcade website here](https://go.cloudskillsboost.google/arcade?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) for more details on the points system.
+See what's the criteria of earning these points below. You can also checkout the official [Google Skills Arcade website here](https://go.skills.google/arcade?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) for more details on the points system.
 
 Here's what you need to know about the points system:
 
