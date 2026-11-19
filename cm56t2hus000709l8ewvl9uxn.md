@@ -32,7 +32,7 @@ The goodies are been distributed on based of your arcade points.
 
 Kindly go through this website
 
-[https://go.cloudskillsboost.google/arcade?utm\_source=gcaf-site&utm\_medium=website&utm\_campaign=arcade-facilitator24](https://go.cloudskillsboost.google/arcade?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
+[https://go.skills.google/arcade?utm\_source=gcaf-site&utm\_medium=website&utm\_campaign=arcade-facilitator24](https://go.skills.google/arcade?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator24)
 
 and check your eligible milestone through your achieved points
 
