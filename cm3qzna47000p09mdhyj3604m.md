@@ -32,7 +32,7 @@ Remember, the more you learn, the more you earn—so make every lesson count.
 
 We’re excited to see how far you go!
 
-[**See you in the Arcade Classroom!**](https://go.cloudskillsboost.google/arcade?utm_source=gcc&utm_medium=post&utm_campaign=arcade-nov24-the-arcade-lessons)
+[**See you in the Arcade Classroom!**](https://go.skills.google/arcade?utm_source=gcc&utm_medium=post&utm_campaign=arcade-nov24-the-arcade-lessons)
 
 * [Webhook Fundamentals.](https://www.cloudskillsboost.google/paths/371/course_templates/1107?utm_source=qwiklabs&utm_medium=lp&utm_campaign=arcade24)
     
