@@ -13,7 +13,7 @@ tags: syllabus-for-the-program, google-cloud-arcade-facilitator-25, google-cloud
 
 ## **Syllabus for the program**
 
-While you can find all the active games and trivias on the [Skills Boost Arcade website](https://go.cloudskillsboost.google/arcade?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) directly, we are maintaining a copy of the same here so that it becomes easier for you to find badges and complete them so that you can earn **"Arcade Points"**. *(See* [*points system*](https://rsvp.withgoogle.com/events/arcade-facilitator/points-system) *for more details)*
+While you can find all the active games and trivias on the [Skills Boost Arcade website](https://go.skills.google/arcade?utm_source=gcaf-site&utm_medium=website&utm_campaign=arcade-facilitator25) directly, we are maintaining a copy of the same here so that it becomes easier for you to find badges and complete them so that you can earn **"Arcade Points"**. *(See* [*points system*](https://rsvp.withgoogle.com/events/arcade-facilitator/points-system) *for more details)*
 
 **Recommended** - Its better to complete the games and trivias first since they have a deadline in a given month. Complete as many skill badges as you can later to earn more "Arcade Points".
 
