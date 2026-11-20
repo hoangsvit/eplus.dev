@@ -1,386 +1,334 @@
 ---
-title: "Daily Tech Brief — 18/11/2026"
-seoTitle: "Daily Tech Brief — 18/11/2026"
+title: "Daily Tech Brief — 20/11/2026"
+seoTitle: "Daily Tech Brief — 20/11/2026"
 seoDescription: "Cloudflare mở Public Beta cho TCP/gRPC trên Workers, nâng cấp WAF PHP/Ruby và Browser Run. GitHub bổ sung RHEL runners GA cùng enterprise migration."
 datePublished: 2026-11-20T07:55:12.579Z
 cuid: cmwoop1sp000102kv4t7u6buo
-slug: daily-tech-brief-18-11-2026-mwoop1sb
+slug: daily-tech-brief-20-11-2026
 cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/eb92fe95-1435-4d56-adc5-1262124c1a0c.png
 ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/ad492f76-761a-475f-828f-9f8517d17c8a.png
-tags: cloudflare-workers, daily-tech-brief, daily-tech-brief-18-11-2026
+tags: cloudflare-workers, daily-tech-brief, daily-tech-brief-20-11-2026
 
 ---
 
-> GitHub mở rộng hệ sinh thái Copilot với GPT-6.2 Astra, GPT-6.2 Sol, bộ công cụ đánh giá AI agents, code review thông minh hơn và Event Streams dành cho automation. Những cập nhật ngày 17/11 cho thấy AI coding đang chuyển từ việc tạo mã sang một quy trình kỹ thuật có thể kiểm thử, giám sát và tích hợp sâu vào vòng đời phát triển phần mềm.
+> Cloudflare đưa inbound TCP và bidirectional gRPC vào Public Beta, tăng cường WAF cho PHP/Ruby và mở rộng Browser Run. GitHub bổ sung RHEL runners, cải tiến pull request overview và đưa Enterprise Live Migrations từ Azure DevOps lên GA. Những cập nhật mới cho thấy developer infrastructure đang tập trung vào khả năng kết nối, bảo mật và độ tin cậy khi vận hành.
 
-**Ngày xuất bản:** 18/11/2026\
+**Ngày xuất bản:** 20/11/2026\
 **Múi giờ:** Asia/Ho_Chi_Minh\
-**Chủ đề:** GitHub Copilot, GPT-6.2, AI Agents, Copilot Evals, Code Review, DevSecOps, Event Streams, Browser Automation, Microsoft Entra, CI/CD.
+**Chủ đề:** Cloudflare Workers, gRPC, TCP, DevSecOps, GitHub Actions, RHEL, Browser Automation, Durable Objects, PHP, Ruby, GitHub Enterprise.
 
 ---
 
 ## Executive Summary
 
-Daily Tech Brief ngày 18/11/2026 tập trung vào làn sóng cập nhật GitHub Copilot và developer tooling công bố ngày 17/11.
+Daily Tech Brief ngày 20/11/2026 tập trung vào những thay đổi hạ tầng và công cụ phát triển được GitHub và Cloudflare công bố ngày 19/11.
 
-Điểm nổi bật đầu tiên là GPT-6.2 Astra và GPT-6.2 Sol chính thức khả dụng trong GitHub Copilot.
+Điểm nổi bật nhất là Cloudflare đưa inbound TCP connections cho Workers và bidirectional gRPC trong Containers vào Public Beta.
 
-GitHub định vị Astra cho agentic coding và terminal workflows, trong khi Sol hướng đến những tác vụ phức tạp và code review chuyên sâu.
+Đây là thay đổi quan trọng đối với những ứng dụng cần giao tiếp bằng TCP hoặc streaming RPC thay vì chỉ sử dụng HTTP request-response truyền thống.
 
-Cả hai đều được công bố ở trạng thái Generally Available trong GitHub Copilot, nhưng rollout theo từng giai đoạn và quyền truy cập phụ thuộc gói sử dụng.
+Cloudflare sử dụng Spectrum để tiếp nhận kết nối TCP, Workers và Durable Objects để điều phối, sau đó chuyển dữ liệu đến Containers có thể chạy gRPC server.
 
-Cùng ngày, GitHub giới thiệu Copilot Evals ở Public Preview. Developer có thể xây dựng các bài kiểm thử lặp lại để đánh giá skills, custom agents và MCP tools.
+Khả năng này mở ra thêm lựa chọn triển khai các ứng dụng realtime, streaming và những dịch vụ có giao thức tùy chỉnh trên Cloudflare.
 
-Đây là một bước tiến quan trọng vì hiệu quả của AI agents không thể được đánh giá chỉ qua một lần chạy thành công.
+Ở mảng bảo mật, Cloudflare công bố WAF Emergency Release ngày 19/11 với các rule mới hoặc được cập nhật liên quan đến PHP Remote Code Execution, PHP-FPM, PHP SOAP, Ruby heap overflow, integer overflow và authentication bypass.
 
-Khi prompt, model hoặc công cụ thay đổi, developer cần kiểm tra xem hành vi của agent có bị suy giảm hay không.
+Điểm cần lưu ý là một số PHP rules mới đang hoạt động ở chế độ Log, không phải Block. Developer cần kiểm tra cấu hình thực tế thay vì mặc định cho rằng mọi request nguy hiểm đã bị chặn.
 
-GitHub cũng nâng cấp Copilot code review với Adaptive effort, cross-repository context và khả năng phát hiện secrets.
+Cloudflare Browser Run cũng mở rộng `/snapshot` để hỗ trợ PDF, links, scraped elements và extracted JSON. Một lần tải trang có thể phục vụ nhiều dạng đầu ra, giúp giảm thao tác lặp trong browser automation.
 
-Adaptive có thể lựa chọn Lite, Balanced hoặc Max dựa trên độ phức tạp và rủi ro của pull request, trong giới hạn cấu hình quản trị.
+Với GitHub, Red Hat Enterprise Linux runner images đã đạt GA, mở rộng lựa chọn môi trường CI/CD cho những tổ chức sử dụng RHEL.
 
-Ở mảng automation, GitHub Event Streams bước vào Preview, cung cấp cơ chế nhận sự kiện pull request qua kết nối duy trì liên tục mà không yêu cầu webhook endpoint công khai.
+GitHub đồng thời công bố Enterprise Live Migrations từ Azure DevOps đạt GA, cải tiến pull request overview ở Public Preview và mở rộng S3 audit log streaming sử dụng OpenID Connect cho [GHE.com](http://GHE.com).
 
-Điều này đặc biệt đáng chú ý với các coding agents thường xuyên kiểm tra trạng thái review, CI hoặc merge.
+Ở lớp vận hành, Cloudflare cải thiện độ tin cậy của Durable Objects khi runtime được cập nhật, đồng thời bổ sung cảnh báo B-frame không tương thích với Low-Latency HLS.
 
-Ngoài ra, GitHub mở rộng browser use cho Copilot CLI, ứng dụng Copilot, VS Code và JetBrains; bổ sung Microsoft Entra authentication cho Copilot CLI; giới thiệu hai model MAI Code 2 và MAI Code 2 Flash.
+**Ba xu hướng đáng chú ý:**
 
-Ba xu hướng chính:
-
-1. AI coding chuyển sang đánh giá bằng kết quả có thể kiểm chứng.
-2. Coding agents ngày càng có khả năng phối hợp với browser, repository events và security tools.
-3. Model selection, access control và chi phí trở thành những phần quan trọng của developer workflow.
+1. Edge infrastructure đang hỗ trợ nhiều giao thức và mô hình ứng dụng hơn.
+2. DevSecOps tiếp tục dịch chuyển sang những cơ chế bảo vệ và kiểm toán cụ thể.
+3. Reliability, CI/CD portability và khả năng quan sát hệ thống đang được ưu tiên hơn những thay đổi mang tính trình diễn.
 
 ---
 
 ## Hôm nay có gì nổi bật?
 
-### 1\. AI coding không còn là cuộc đua model đơn thuần
+### 1\. Edge computing mở rộng khỏi HTTP truyền thống
 
-GPT-6.2 Astra, GPT-6.2 Sol và MAI Code 2 cho thấy developer có thêm nhiều lựa chọn model trong cùng một nền tảng.
+Cloudflare Workers vốn thường được sử dụng cho HTTP APIs, middleware và edge processing.
 
-Tuy nhiên, model mới không đồng nghĩa với việc mọi workload đều được cải thiện.
+Khả năng nhận inbound TCP kết hợp với Containers giúp nền tảng phù hợp hơn với những ứng dụng cần giao tiếp hai chiều và duy trì kết nối.
 
-Một model có thể tốt hơn trong code review nhưng không phải lựa chọn tối ưu cho những chỉnh sửa nhỏ, đơn giản.
+Tuy nhiên, đây vẫn là Public Beta và có giới hạn theo gói sử dụng.
 
-Việc lựa chọn cần dựa trên chất lượng đầu ra, tốc độ, chi phí và độ ổn định.
+### 2\. Bảo mật phải được kiểm tra theo hành động thực tế của rule
 
-### 2\. AI Evals trở thành thành phần quan trọng của CI
+Cloudflare WAF bổ sung nhiều detections mới nhưng không phải tất cả đều ở chế độ Block.
 
-Copilot Evals giúp developer kiểm tra hành vi của AI agents và công cụ tùy chỉnh.
+Điều này nhắc developer rằng có detection không đồng nghĩa với việc request đã bị ngăn chặn.
 
-Đây là hướng tiếp cận phù hợp với những hệ thống có nhiều skills, MCP servers và custom agents.
+Quy trình kiểm tra WAF nên bao gồm logs, rule actions, false positives và mức độ ảnh hưởng đến ứng dụng.
 
-Thay vì chỉ đánh giá cảm tính, developer có thể thiết lập test cases và so sánh kết quả trước, sau khi thay đổi cấu hình.
+### 3\. Browser automation trở thành công cụ thu thập dữ liệu có cấu trúc
 
-### 3\. Code review chuyển sang phân tích rủi ro
+Browser Run `/snapshot` có thể trả nhiều loại dữ liệu từ cùng một lần tải trang.
 
-Adaptive effort giúp lựa chọn mức độ review phù hợp với từng pull request.
+Đây là thay đổi hữu ích cho AI agents, crawlers và hệ thống kiểm thử web.
 
-Một thay đổi tài liệu có thể không cần mức kiểm tra tương tự thay đổi authentication logic.
+Developer vẫn cần xử lý dữ liệu không đáng tin cậy, giới hạn chi phí và kiểm soát thời gian thực thi.
 
-Tuy nhiên, việc phân loại tự động vẫn cần được giám sát để tránh bỏ sót những thay đổi có tác động lớn.
+### 4\. CI/CD tiếp tục mở rộng khả năng tương thích doanh nghiệp
 
-### 4\. Event-driven agents có thể thay thế nhiều vòng polling
+RHEL runners và Enterprise Live Migrations giúp GitHub đáp ứng tốt hơn các môi trường doanh nghiệp có yêu cầu về hệ điều hành và quy trình di chuyển hệ thống.
 
-GitHub Event Streams cho phép agents nhận cập nhật khi pull request có review mới, commit mới hoặc thay đổi CI.
-
-Điều này có thể giảm số lần gọi API không cần thiết và giúp phản hồi nhanh hơn.
-
-Đây là thay đổi đáng quan tâm đối với những hệ thống tự động xử lý GitHub Issues và pull requests.
+Điểm quan trọng không chỉ là có thêm tính năng, mà là giảm rủi ro khi đưa những workloads hiện có lên nền tảng mới.
 
 ---
 
 # Tin nổi bật
 
-## I. AI Models & Coding Intelligence
+## I. Cloudflare Workers & Edge Infrastructure
 
-### 1\. GPT-6.2 Astra và GPT-6.2 Sol đạt GA trong GitHub Copilot
+### 1\. Inbound TCP và bidirectional gRPC đạt Public Beta
 
-**Ngày công bố:** 17/11/2026\
-**Trạng thái:** Generally Available trong GitHub Copilot.
+**Ngày công bố:** 19/11/2026\
+**Trạng thái:** Public Beta.
 
-GitHub bổ sung hai model OpenAI mới vào hệ sinh thái Copilot.
+Cloudflare bổ sung khả năng tiếp nhận kết nối TCP vào Workers và triển khai bidirectional gRPC trong Containers.
 
-GPT-6.2 Astra hướng đến agentic coding và terminal work.
+Kiến trúc ví dụ sử dụng Spectrum, Worker, Durable Object và Container.
 
-GPT-6.2 Sol tập trung vào agentic coding phức tạp và code review chuyên sâu.
+Spectrum chuyển kết nối TCP đến Worker thông qua `connect()` handler. Worker có thể chuyển tiếp socket đến Durable Object, sau đó Durable Object kết nối với gRPC server bên trong Container.
 
-Theo GitHub, các thử nghiệm ban đầu ghi nhận khả năng phát hiện nhiều vấn đề thực tế hơn so với những model GPT-6 trước đó, đồng thời sử dụng token hiệu quả hơn ở một số tác vụ.
+Trong ví dụ chính thức, Container xử lý TLS và HTTP/2, còn Worker và Durable Object chuyển tiếp dữ liệu.
 
-Đây là kết quả do nhà cung cấp công bố, không phải benchmark độc lập.
+Worker-origin Spectrum applications được hỗ trợ trên Pro và Business zones, cùng Enterprise zones có Spectrum Enterprise.
 
-Các model được cung cấp cho Copilot Pro+, Max, Business và Enterprise, với usage-based billing theo bảng giá nhà cung cấp.
+Nếu không có Spectrum Enterprise, Pro và Business bị giới hạn một Worker-origin application trên mỗi zone, sử dụng một TCP port.
 
-Rollout được thực hiện dần trên các môi trường như VS Code, Visual Studio, Copilot CLI, GitHub Copilot app, [github.com](http://github.com) và các IDE được hỗ trợ.
+**Tác động với developer:** Có thêm lựa chọn triển khai TCP services, realtime applications và gRPC streaming trên Cloudflare.
 
-#### Tác động với developer
+**Developer nên làm gì?** Thử nghiệm trên staging, kiểm tra TCP lifecycle, TLS termination, timeout, reconnect và chi phí. Không mặc định tính năng Public Beta phù hợp ngay với production-critical workloads.
 
-Developer có thêm lựa chọn model cho code review, refactoring và agentic coding.
+**Nguồn:** [Cloudflare — Inbound TCP and gRPC Public Beta](https://developers.cloudflare.com/changelog/post/2026-11-19-inbound-tcp/)
 
-Các tổ chức cần kiểm tra model policies trước khi triển khai.
+### 2\. Durable Objects cải thiện độ tin cậy khi runtime updates
 
-#### Developer nên làm gì?
+**Ngày công bố:** 19/11/2026\
+**Trạng thái:** Đã triển khai toàn bộ regions.
 
-- Thử nghiệm trên cùng một bộ tác vụ coding.
-- So sánh số lỗi thực tế được phát hiện.
-- Đo token usage và chi phí.
-- Kiểm tra khả năng truy cập theo gói và chính sách organization.
-- Không thay đổi toàn bộ workflows chỉ dựa trên benchmark do nhà cung cấp công bố.
+Cloudflare cải thiện cách Durable Object storage xử lý việc các máy trong nhóm lưu trữ khởi động lại khi runtime được cập nhật.
 
-**Nguồn:** [GitHub — GPT-6.2 Astra and Sol](https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available/)
+Trước đây, quá trình thay thế máy có thể kéo dài vài phút, khiến một số write operations không đạt được xác nhận đa số và Durable Object bị reset.
 
-### 2\. MAI Code 2 và MAI Code 2 Flash xuất hiện trong GitHub Copilot
+Cơ chế mới chủ động loại máy chuẩn bị restart khỏi nhóm để có thể thay thế sớm hơn.
 
-**Ngày công bố:** 17/11/2026.
+Cloudflare cho biết thay đổi này có thể giảm số lần reset ở SQLite-backed Durable Objects, đặc biệt với workloads ghi dữ liệu không thường xuyên và sử dụng WebSocket hibernation.
 
-Microsoft giới thiệu hai model coding thuộc dòng MAI.
+**Tác động với developer:** Có thể giảm một số lỗi storage reset và WebSocket disconnect trong runtime updates.
 
-MAI Code 2 được định vị cho debugging, refactoring, triển khai nhiều tệp và reasoning ở cấp repository.
+**Developer nên làm gì?** Tiếp tục triển khai reconnect logic, theo dõi lỗi và kiểm tra tính idempotent của operations. Không xem cập nhật này là cam kết loại bỏ hoàn toàn disconnects.
 
-MAI Code 2 Flash hướng đến những tác vụ nhẹ hơn như giải thích mã, chỉnh sửa có phạm vi nhỏ và sửa lỗi thường ngày.
-
-Theo thông báo, MAI Code 2 hỗ trợ các gói Pro, Pro+, Max, Business và Enterprise.
-
-MAI Code 2 Flash còn hỗ trợ Free và Student.
-
-Thông báo cũng nêu điều kiện dành cho những thuê bao đủ điều kiện theo gói năm, vì vậy developer cần kiểm tra quyền truy cập thực tế.
-
-#### Tác động với developer
-
-Có thể phân chia workloads giữa model mạnh và model nhẹ để tối ưu chi phí.
-
-#### Developer nên làm gì?
-
-Thử các tác vụ đơn giản bằng Flash, dùng model mạnh hơn cho những thay đổi phức tạp và so sánh chất lượng bằng test cases cố định.
-
-**Nguồn:** [GitHub — MAI Code 2 and Flash](https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/)
+**Nguồn:** [Cloudflare — Durable Object Reliability](https://developers.cloudflare.com/changelog/post/2026-11-19-durable-objects-runtime-update-reliability/)
 
 ---
 
-## II. AI Evaluation & Code Quality
+## II. Browser Automation & Developer Tools
 
-### 3\. GitHub Copilot Evals bước vào Public Preview
+### 3\. Browser Run /snapshot hỗ trợ thêm bốn định dạng
 
-**Ngày công bố:** 17/11/2026\
-**Trạng thái:** Public Preview.
+**Ngày công bố:** 19/11/2026.
 
-GitHub Copilot Evals cho phép developer xây dựng những bài kiểm thử có thể chạy lặp lại để đánh giá skills, agents và MCP tools.
+Cloudflare Browser Run mở rộng `/snapshot` với bốn định dạng mới:
 
-Developer có thể mô tả một tác vụ, định nghĩa kết quả mong đợi và kiểm tra cả đầu ra lẫn quá trình agent thực hiện.
+- `pdf`: Xuất trang thành PDF.
+- `links`: Thu thập liên kết.
+- `scrape`: Trích xuất phần tử theo selector.
+- `json`: Trích xuất dữ liệu có cấu trúc bằng Workers AI.
 
-Copilot Evals sử dụng Vally làm evaluation engine.
+Các định dạng này bổ sung cho HTML, screenshots, Markdown và accessibility tree đã có trước đó.
 
-Các thao tác chính gồm tạo eval, chạy kiểm thử, phân tích kết quả pass/fail và so sánh những lần chạy trước, sau khi thay đổi cấu hình.
+Developer có thể yêu cầu nhiều định dạng trong một lần tải trang thông qua `formats`.
 
-Công cụ được cung cấp thông qua VS Code extension, Copilot CLI plugin và Copilot app.
+Tuy nhiên, phải yêu cầu ít nhất hai định dạng khác nhau. Nếu chỉ cần một định dạng, nên sử dụng endpoint chuyên biệt.
 
-#### Tác động với developer
+JSON extraction có thể phát sinh Workers AI usage. Mặc định action timeout là 60 giây và tối đa 120 giây.
 
-AI agent customization có thêm một lớp kiểm thử, giúp phát hiện regression khi thay model, prompt hoặc tools.
+**Tác động với developer:** Giảm số lần tải lại cùng một trang trong những workflows cần nhiều loại dữ liệu.
 
-#### Developer nên làm gì?
+**Developer nên làm gì?** Thử kết hợp links và scrape, kiểm tra chi phí JSON extraction và thiết lập timeout. Cần lưu ý nếu một định dạng thất bại thì toàn bộ snapshot request có thể thất bại.
 
-- Xây dựng 5–10 tác vụ đại diện cho workflow thực tế.
-- Định nghĩa điều kiện thành công rõ ràng.
-- Kiểm tra hành vi của agent, không chỉ nội dung cuối cùng.
-- Chạy lại eval sau mỗi thay đổi lớn.
-- Theo dõi những trường hợp kết quả không ổn định.
+**Nguồn:** [Cloudflare — Snapshot All Formats](https://developers.cloudflare.com/changelog/post/2026-11-19-snapshot-all-formats/)
 
-**Nguồn:** [GitHub — Copilot Evals Public Preview](https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview/)
+### 4\. Cloudflare Radar bổ sung phân loại Autonomous Systems
 
-### 4\. Copilot Code Review bổ sung Adaptive Effort
+**Ngày công bố:** 19/11/2026.
 
-**Ngày công bố:** 17/11/2026\
-**Trạng thái:** Public Preview cho Adaptive.
+Cloudflare Radar bổ sung phân loại Autonomous Systems thành Access ISP, Hosting/Cloud/Content và Organization.
 
-Adaptive tự lựa chọn mức review Lite, Balanced hoặc Max dựa trên độ phức tạp và rủi ro của pull request.
+Các loại này xuất hiện trên AS pages, Data Explorer và API.
 
-Giới hạn review tối đa do organization hoặc enterprise thiết lập vẫn được áp dụng.
+API hỗ trợ trường `category`, bộ lọc `asCategory` và chiều phân tích `AS_CATEGORY`.
 
-GitHub cũng bổ sung cross-repository context ở Public Preview cho public repositories, giúp review tham chiếu mã và tài liệu từ các repository liên quan.
+Dữ liệu phân loại được suy luận tự động nên vẫn có khả năng phân loại sai.
 
-Một thay đổi khác là khả năng phát hiện secrets trong pull request review.
+**Tác động với developer:** Có thêm dữ liệu để phân tích traffic, nguồn truy cập và các mẫu tấn công theo loại mạng.
 
-Ngoài ra, Copilot code review dành cho Azure Repos đã đạt GA.
+**Developer nên làm gì?** Sử dụng loại AS như một tín hiệu phân tích bổ sung, không phải căn cứ duy nhất để chặn traffic.
 
-#### Tác động với developer
-
-Code review có thể phù hợp hơn với mức độ rủi ro của từng thay đổi, đồng thời phát hiện thêm vấn đề liên quan đến dependencies giữa repositories.
-
-#### Developer nên làm gì?
-
-Thử Adaptive trên các pull requests có mức độ phức tạp khác nhau, đánh giá findings và tiếp tục yêu cầu human review cho những thay đổi quan trọng.
-
-**Nguồn:** [GitHub — Adaptive Code Review](https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more/)
-
-### 5\. Repository Insights đo hiệu quả Copilot Code Review
-
-**Ngày công bố:** 17/11/2026.
-
-GitHub bổ sung các chỉ số về kết quả Copilot code review vào Repository insights.
-
-Các chỉ số gồm tỷ lệ comments được xử lý, high-severity comments được xử lý, pull requests không nhận thêm yêu cầu chỉnh sửa từ human reviewers và merged pull requests chưa được Copilot review.
-
-Một số metrics cũng khả dụng qua Copilot usage metrics API.
-
-#### Tác động với developer
-
-Đội phát triển có thể đánh giá việc sử dụng Copilot code review bằng kết quả thực tế thay vì chỉ đếm số lượt review.
-
-#### Developer nên làm gì?
-
-Kiểm tra tỷ lệ findings được xử lý, phân loại cảnh báo hữu ích và đánh giá coverage gaps. Không xem tỷ lệ comment được xử lý là thước đo duy nhất của chất lượng.
-
-**Nguồn:** [GitHub — Repository Insights](https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights/)
+**Nguồn:** [Cloudflare — Radar Changelog](https://developers.cloudflare.com/changelog/)
 
 ---
 
-## III. DevSecOps & Agent Security
+## III. Security & DevSecOps
 
-### 6\. Secret Scanning On Demand dành cho Developer và Agents
+### 5\. Cloudflare WAF Emergency Release cho PHP và Ruby
 
-**Ngày công bố:** 17/11/2026\
-**Trạng thái:** Public Preview.
+**Ngày công bố:** 19/11/2026.
 
-GitHub bổ sung khả năng chạy secret scanning detectors trong Copilot security review specialist.
+Cloudflare công bố bản cập nhật WAF liên quan đến PHP Remote Code Execution và nhiều lỗ hổng PHP, Ruby.
 
-Tính năng có thể được sử dụng qua Copilot CLI, Copilot app, Copilot SDK integrations và Copilot code review.
+Các detections mới hoặc được cập nhật bao gồm:
 
-GitHub kết hợp các detector dựa trên mẫu xác định với mô hình phát hiện secrets không có định dạng cố định.
+- PHP Remote Code Execution.
+- Ruby heap overflow, CVE-2026-13282.
+- Ruby integer overflow, GHSA-87fm-7w84-j2px.
+- PHP-FPM, CVE-2026-129289.
+- PHP SOAP, CVE-2026-15353 và CVE-2026-129506.
+- Generic authentication bypass.
+- Embedded application request anomaly.
 
-Phạm vi kiểm tra là những thay đổi mã hiện tại, không phải toàn bộ repository history.
+Một số rule mới dành cho PHP-FPM và PHP SOAP ở chế độ Log mặc định, trong khi những rule khác ở chế độ Block.
 
-Secret scanning bổ sung này mặc định tắt và cần được bật trước khi sử dụng.
+**Tác động với developer:** Các ứng dụng PHP và Ruby có thêm khả năng phát hiện và ngăn chặn một số mẫu khai thác.
 
-#### Tác động với developer
+**Developer nên làm gì?** Rà soát WAF rules và logs, kiểm tra phiên bản phần mềm bị ảnh hưởng, cập nhật bản vá từ upstream và đánh giá false positives trước khi thay đổi rule actions.
 
-Coding agents có thể kiểm tra nguy cơ lộ credentials trước khi hoàn tất thay đổi hoặc merge pull request.
+**Nguồn:** [Cloudflare — WAF Emergency Release 19/11](https://developers.cloudflare.com/changelog/post/2026-11-19-emergency-waf-release/)
 
-#### Developer nên làm gì?
+### 6\. GitHub mở rộng S3 Audit Log Streaming bằng OIDC
 
-Bật tính năng trên môi trường phù hợp, thử nghiệm bằng credentials giả, kiểm tra false positives và duy trì push protection cùng các lớp secret scanning khác.
+**Ngày công bố:** 19/11/2026.
 
-**Nguồn:** [GitHub — Secret Scanning On Demand](https://github.blog/changelog/2026-11-17-secret-scanning-on-demand-for-developers-and-agents/)
+GitHub mở rộng khả năng sử dụng OpenID Connect cho S3 audit log streaming trên [GHE.com](http://GHE.com).
 
----
+OIDC cung cấp mô hình xác thực dựa trên danh tính và token ngắn hạn, giúp giảm nhu cầu sử dụng credentials tĩnh trong những tích hợp được hỗ trợ.
 
-## IV. Agent Automation & Developer Experience
+**Tác động với developer:** Các nhóm vận hành enterprise có thêm lựa chọn xác thực khi xuất audit logs sang Amazon S3.
 
-### 7\. GitHub Event Streams bước vào Preview
+**Developer nên làm gì?** Kiểm tra quyền IAM, trust policy, bucket permissions và khả năng ghi nhận audit logs sau khi cấu hình.
 
-**Ngày công bố:** 17/11/2026\
-**Trạng thái:** Preview, yêu cầu đăng ký waitlist.
-
-GitHub giới thiệu Event Streams để các ứng dụng và agents nhận sự kiện pull request qua kết nối duy trì liên tục.
-
-Các sự kiện được hỗ trợ bao gồm:
-
-- Review mới.
-- Commit mới.
-- Merge conflict.
-- Pull request được merge hoặc đóng.
-- Thay đổi check suites.
-
-Không cần public webhook endpoint.
-
-Đây là lựa chọn đáng chú ý cho những agents chạy trên máy cá nhân hoặc môi trường không có webhook receiver.
-
-#### Tác động với developer
-
-Giảm nhu cầu polling liên tục để kiểm tra trạng thái pull request, đồng thời cải thiện khả năng phản hồi khi có thay đổi.
-
-#### Developer nên làm gì?
-
-Đánh giá mô hình event-driven, thiết kế reconnect và xử lý sự kiện trùng lặp. Chưa thay thế polling hiện tại trước khi được cấp quyền Preview và kiểm chứng độ tin cậy.
-
-**Nguồn:** [GitHub — Event Streams Preview](https://github.blog/changelog/2026-11-17-github-event-streams-is-now-in-preview/)
-
-### 8\. GitHub Copilot mở rộng Browser Use
-
-**Ngày công bố:** 17/11/2026\
-**Trạng thái:** Public Preview.
-
-GitHub Copilot có thể tương tác với browser thông qua GitHub Copilot Chrome extension.
-
-Tính năng hỗ trợ Copilot CLI, Copilot app, VS Code và JetBrains.
-
-Developer có thể yêu cầu Copilot điều khiển trình duyệt, hỗ trợ debug ứng dụng web và thực hiện những tác vụ browser automation.
-
-#### Tác động với developer
-
-Coding agents có thêm khả năng kiểm tra hành vi ứng dụng trực tiếp trong browser thay vì chỉ dựa trên mã nguồn.
-
-#### Developer nên làm gì?
-
-Thử nghiệm trên staging, kiểm soát quyền browser extension và tránh cho agents truy cập những phiên đăng nhập nhạy cảm khi chưa đánh giá rủi ro.
-
-**Nguồn:** [GitHub — Browser Use](https://github.blog/changelog/2026-11-17-let-github-copilot-interact-with-your-browser/)
-
-### 9\. GitHub Copilot CLI hỗ trợ Microsoft Entra Authentication
-
-**Ngày công bố:** 17/11/2026\
-**Trạng thái:** Public Preview.
-
-Copilot CLI bổ sung khả năng xác thực bằng Microsoft Entra.
-
-Tính năng hỗ trợ những kịch bản Enterprise Managed Users sử dụng OIDC và các tổ chức đủ điều kiện sử dụng Microsoft 365 Copilot.
-
-Tùy trường hợp, hệ thống sử dụng GitHub inference hoặc Microsoft 365 inference.
-
-Phiên bản Copilot CLI tối thiểu được yêu cầu là 1.0.113.
-
-Preview hiện hỗ trợ Windows và macOS; Linux sẽ được bổ sung sau.
-
-#### Tác động với developer
-
-Các tổ chức sử dụng Microsoft identity có thêm lựa chọn SSO cho terminal-based AI workflows.
-
-#### Developer nên làm gì?
-
-Kiểm tra license, enterprise policies, loại inference được sử dụng và giới hạn nền tảng trước khi triển khai.
-
-**Nguồn:** [GitHub — Microsoft Entra Sign-In](https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview/)
+**Nguồn:** [GitHub — S3 Audit Log Streaming with OIDC](https://github.blog/changelog/2026-11-19-s3-audit-log-streaming-with-openid-connect-expands-to-ghe-com/)
 
 ---
 
-## V. AI Governance & Enterprise
+## IV. GitHub Actions & Enterprise Development
 
-### 10\. GitHub Copilot Fusion mở rộng khả năng lựa chọn Model
+### 7\. Red Hat Enterprise Linux Runner Images đạt GA
 
-**Ngày công bố:** 17/11/2026.
+**Ngày công bố:** 19/11/2026\
+**Trạng thái:** Generally Available.
 
-GitHub công bố thêm các cập nhật về Copilot Fusion, bao gồm phạm vi khả dụng, benchmarks và model options.
+GitHub công bố Red Hat Enterprise Linux runner images đã đạt GA.
 
-Điểm đáng quan tâm là khả năng điều phối lựa chọn model ngày càng trở thành một phần của nền tảng thay vì chỉ là thiết lập thủ công của developer.
+Đây là lựa chọn bổ sung cho các nhóm cần xây dựng và kiểm thử phần mềm trong môi trường RHEL.
 
-#### Tác động với developer
+**Tác động với developer:** Có thể giảm sự khác biệt giữa môi trường CI và production đối với những hệ thống sử dụng Red Hat Enterprise Linux.
 
-Các nhóm có thể nghiên cứu cách lựa chọn model theo workload, nhưng cần kiểm tra quyền truy cập, chi phí và điều kiện rollout thực tế.
+**Developer nên làm gì?** Kiểm tra image labels, điều kiện sử dụng và billing trong tài liệu chính thức. Chạy lại bộ kiểm thử dependencies, packages và native libraries trước khi chuyển workflows.
 
-#### Developer nên làm gì?
+**Nguồn:** [GitHub — RHEL Runner Images GA](https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available/)
 
-Đọc changelog, kiểm tra tính năng được bật cho organization và so sánh kết quả với cấu hình model cố định hiện tại.
+### 8\. Enterprise Live Migrations từ Azure DevOps đạt GA
 
-**Nguồn:** [GitHub — Copilot Fusion Updates](https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models/)
+**Ngày công bố:** 19/11/2026\
+**Trạng thái:** Generally Available.
 
-### 11\. GitHub Copilot Benchmarks bổ sung Harness Comparisons
+GitHub công bố Enterprise Live Migrations từ Azure DevOps đã đạt GA.
 
-**Ngày công bố:** 17/11/2026.
+Cập nhật hướng đến những tổ chức muốn chuyển repository và quy trình phát triển từ Azure DevOps sang GitHub với cách tiếp cận migration dành cho doanh nghiệp.
 
-GitHub cập nhật trang Copilot benchmarks với khả năng so sánh harness.
+**Tác động với developer:** Có thêm phương án migration chính thức cho những tổ chức đang vận hành trên Azure DevOps.
 
-Đây là một bổ sung đáng quan tâm khi developer đánh giá AI coding systems, bởi kết quả không chỉ phụ thuộc vào model mà còn chịu ảnh hưởng của môi trường thực thi, tools và cách tổ chức agent workflow.
+**Developer nên làm gì?** Lập inventory repositories, permissions, pull requests và CI/CD dependencies. Thực hiện pilot migration trước khi chuyển toàn bộ tổ chức.
 
-#### Tác động với developer
+**Nguồn:** [GitHub — Enterprise Live Migrations GA](https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available/)
 
-Có thêm góc nhìn khi phân tích benchmark của các hệ thống AI coding.
+### 9\. GitHub cải tiến Pull Request Overview
 
-#### Developer nên làm gì?
+**Ngày công bố:** 19/11/2026\
+**Trạng thái:** Public Preview.
 
-Đọc phương pháp benchmark, phân biệt model performance với harness performance và xây dựng bộ kiểm thử riêng phù hợp với repository thực tế.
+GitHub công bố những cải tiến mới cho pull request overview.
 
-**Nguồn:** [GitHub — Copilot Changelog](https://github.blog/changelog/)
+Đây là cập nhật về trải nghiệm làm việc với pull requests, không phải một thay đổi về GitHub Actions hoặc Copilot models.
+
+**Tác động với developer:** Có thêm lựa chọn trải nghiệm khi theo dõi và xem xét pull requests.
+
+**Developer nên làm gì?** Kiểm tra tính năng trong môi trường được hỗ trợ và đánh giá mức độ phù hợp với quy trình review của nhóm trước khi chuẩn hóa hướng dẫn nội bộ.
+
+**Nguồn:** [GitHub — Pull Request Overview Preview](https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview/)
+
+---
+
+## V. Streaming & Network Operations
+
+### 10\. Cloudflare Stream phát hiện B-frame không tương thích LL-HLS
+
+**Ngày công bố:** 19/11/2026.
+
+Cloudflare Stream bổ sung cảnh báo khi phát hiện B-frames trong live broadcasts sử dụng Low-Latency HLS.
+
+B-frames có thể tham chiếu dữ liệu chưa được truyền đến, gây khó khăn cho việc chuẩn bị và phát các phân đoạn có độ trễ thấp.
+
+Cloudflare phát cảnh báo `ERR_LIVE_INPUT_LLHLS_INCOMPATIBLE` một lần cho mỗi live session khi phát hiện điều kiện không tương thích.
+
+Cảnh báo xuất hiện trong Logs, live webhooks và GraphQL input events.
+
+**Tác động với developer:** Giúp xác định nguyên nhân gây giật hoặc đứng hình trong các ứng dụng livestream LL-HLS.
+
+**Developer nên làm gì?** Tắt B-frames trong encoder nếu sử dụng LL-HLS. Nếu không thể, cân nhắc tắt LL-HLS nhưng phải chấp nhận độ trễ cao hơn.
+
+**Nguồn:** [Cloudflare — LL-HLS B-frame Warning](https://developers.cloudflare.com/changelog/post/2026-11-19-ll-hls-b-frame-warning/)
+
+### 11\. Cloudflare Spectrum thiết kế lại Dashboard
+
+**Ngày công bố:** 19/11/2026.
+
+Cloudflare cải tiến giao diện quản lý Spectrum applications.
+
+Trang Applications mới hiển thị application type, edge port, origin, edge IP type và số liệu connections, ingress, egress.
+
+Việc tạo và chỉnh sửa ứng dụng chuyển sang giao diện toàn trang.
+
+Dashboard cũng hỗ trợ tạo và chỉnh sửa applications sử dụng static IPs hoặc BYOIP.
+
+**Tác động với developer:** Dễ quan sát và quản lý những ứng dụng TCP/UDP được triển khai qua Spectrum.
+
+**Developer nên làm gì?** Kiểm tra cấu hình IP Access Rules khi tạo ứng dụng mới. Các ứng dụng TCP/UDP mới có IP Access Rules tắt mặc định, trong khi ứng dụng hiện có giữ nguyên thiết lập.
+
+**Nguồn:** [Cloudflare — Redesigned Spectrum Dashboard](https://developers.cloudflare.com/changelog/post/2026-11-19-redesigned-dashboard/)
+
+---
+
+## VI. Cloud Analytics
+
+### 12\. Cloudflare Images bổ sung Delivery Analytics
+
+**Ngày công bố:** 20/11/2026\
+**Ghi chú:** Cập nhật trong ngày, không xác nhận thuộc cửa sổ 24 giờ trước 07:30.
+
+Cloudflare Images bổ sung dashboard phân tích lưu lượng phân phối ảnh hosted images.
+
+Dashboard cung cấp dữ liệu tối đa 30 ngày, hỗ trợ phân tích theo quốc gia, ASN, referrer, HTTP status, browser, operating system và image variants.
+
+Developer cũng có thể truy vấn dữ liệu thông qua Cloudflare CLI và SQL API.
+
+**Tác động với developer:** Có thêm công cụ để phát hiện lỗi phân phối ảnh và đánh giá những image variants được sử dụng nhiều nhất.
+
+**Developer nên làm gì?** Kiểm tra status codes, nguồn lưu lượng và chi phí liên quan đến image transformations. Đối chiếu số liệu trước khi thay đổi chiến lược tối ưu ảnh.
+
+**Nguồn:** [Cloudflare — Images Changelog](https://developers.cloudflare.com/changelog/)
 
 ---
 
@@ -388,83 +336,83 @@ Có thêm góc nhìn khi phân tích benchmark của các hệ thống AI coding
 
 | Hạng | Cập nhật | Trạng thái | Giá trị với developer |
 | --: | --- | --- | --- |
-| 1 | GPT-6.2 Astra & Sol trong Copilot | GA | Model mới cho agentic coding |
-| 2 | GitHub Copilot Evals | Public Preview | Kiểm thử và so sánh AI agents |
-| 3 | Adaptive Code Review | Public Preview | Review theo độ phức tạp và rủi ro |
-| 4 | GitHub Event Streams | Preview | Automation theo sự kiện, giảm polling |
-| 5 | Secret Scanning On Demand | Public Preview | Phát hiện credentials trong thay đổi mã |
+| 1 | Cloudflare Inbound TCP & gRPC | Public Beta | Triển khai dịch vụ realtime trên edge |
+| 2 | Cloudflare WAF PHP/Ruby | Security update | Phát hiện và chặn thêm mẫu khai thác |
+| 3 | Browser Run /snapshot | Cập nhật tính năng | Thu thập dữ liệu web nhiều định dạng |
+| 4 | GitHub RHEL Runners | GA | CI/CD phù hợp môi trường RHEL |
+| 5 | Durable Objects Reliability | Đã triển khai | Giảm một số storage resets |
 
 ---
 
 # Công cụ đáng thử
 
-### GitHub Copilot Evals
+## Cloudflare Browser Run
 
-Phù hợp để kiểm thử custom agents, skills và MCP tools sau mỗi lần thay đổi cấu hình.
+Phù hợp với những workflows cần lấy PDF, links, scraped elements và structured JSON từ cùng một trang web.
 
-[Copilot Evals](https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview/)
+[Browser Run Snapshot](https://developers.cloudflare.com/changelog/post/2026-11-19-snapshot-all-formats/)
 
-### GitHub Copilot Browser Use
+## Cloudflare Workers & Containers
 
-Hỗ trợ debug và kiểm thử ứng dụng web thông qua browser.
+Thử nghiệm inbound TCP và gRPC streaming trong môi trường edge.
 
-[Browser Use](https://github.blog/changelog/2026-11-17-let-github-copilot-interact-with-your-browser/)
+[Workers TCP Public Beta](https://developers.cloudflare.com/changelog/post/2026-11-19-inbound-tcp/)
 
-### GitHub Event Streams
+## GitHub Actions
 
-Đáng nghiên cứu nếu đang xây dựng agents theo dõi pull requests hoặc CI.
+Đánh giá RHEL runner images cho những ứng dụng có dependencies phụ thuộc hệ điều hành.
 
-[Event Streams](https://github.blog/changelog/2026-11-17-github-event-streams-is-now-in-preview/)
+[GitHub RHEL Runners](https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available/)
 
-### Copilot Security Review
+## Cloudflare Radar
 
-Có thể tích hợp secret scanning vào quy trình AI-assisted code review.
+Sử dụng phân loại Autonomous Systems để phân tích nguồn traffic và network behavior.
 
-[Security Review](https://github.blog/changelog/2026-11-17-secret-scanning-on-demand-for-developers-and-agents/)
+[Cloudflare Radar](https://radar.cloudflare.com/)
 
 ---
 
 # Bài viết nên đọc
 
-### GPT-6.2 Astra and Sol Now Available
+### Inbound TCP and gRPC for Workers and Containers
 
-Tìm hiểu phạm vi khả dụng, model policies và định vị hai model mới.
+Tài liệu quan trọng nhất hôm nay về cách kết nối Spectrum, Workers, Durable Objects và Containers.
 
-[Đọc trên GitHub](https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available/)
+[Đọc trên Cloudflare](https://developers.cloudflare.com/changelog/post/2026-11-19-inbound-tcp/)
 
-### GitHub Copilot Evals Public Preview
+### WAF Emergency Release — 19 November
 
-Tìm hiểu cách thiết kế bài kiểm thử lặp lại cho AI agents.
+Phân tích các rule mới, những CVE được đề cập và hành động mặc định của từng detection.
 
-[Đọc trên GitHub](https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview/)
+[Đọc trên Cloudflare](https://developers.cloudflare.com/changelog/post/2026-11-19-emergency-waf-release/)
 
-### Copilot Code Review Improvements
+### Browser Run Snapshot Formats
 
-Phân tích Adaptive effort, cross-repository context và secret detection.
+Tìm hiểu cách trích xuất nhiều dạng dữ liệu web trong một lần tải trang.
 
-[Đọc trên GitHub](https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more/)
+[Đọc trên Cloudflare](https://developers.cloudflare.com/changelog/post/2026-11-19-snapshot-all-formats/)
 
-### GitHub Event Streams Preview
+### Durable Objects Runtime Reliability
 
-Tìm hiểu kiến trúc nhận sự kiện pull request mà không cần polling liên tục.
+Tìm hiểu cơ chế thay đổi nhóm lưu trữ khi runtime updates.
 
-[Đọc trên GitHub](https://github.blog/changelog/2026-11-17-github-event-streams-is-now-in-preview/)
+[Đọc trên Cloudflare](https://developers.cloudflare.com/changelog/post/2026-11-19-durable-objects-runtime-update-reliability/)
 
 ---
 
 # GitHub Repository nổi bật
 
-## github/copilot-cli
+## cloudflare/workers-sdk
 
-**Repository:** [github.com/github/copilot-cli](https://github.com/github/copilot-cli)
+**Repository:** [github.com/cloudflare/workers-sdk](https://github.com/cloudflare/workers-sdk)
 
-**Lĩnh vực:** AI Coding, Terminal Agents, Developer Automation.
+**Lĩnh vực:** Edge Computing, Workers, Developer Tooling, TypeScript.
 
-Repository được chọn vì liên quan trực tiếp đến Copilot CLI, một trong những môi trường nhận các cập nhật browser use, Microsoft Entra sign-in và Copilot Evals.
+Repository chứa những thành phần công cụ phát triển liên quan đến Cloudflare Workers, bao gồm Wrangler và các packages trong hệ sinh thái Workers SDK.
 
-Developer có thể tìm hiểu tài liệu sử dụng, cấu hình và những thành phần mở rộng được hỗ trợ.
+Đây là repository phù hợp để tìm hiểu khi thử nghiệm Workers, Durable Objects và những tính năng edge mới.
 
-Việc chọn repository không đồng nghĩa với việc xác nhận có release mới trong ngày.
+Lý do lựa chọn là tính liên quan trực tiếp đến chủ đề của bản tin, không phải một release repository được xác nhận trong ngày.
 
 Không sử dụng số GitHub stars chưa được xác minh.
 
@@ -472,108 +420,99 @@ Không sử dụng số GitHub stars chưa được xác minh.
 
 # Góc nhìn của mình
 
-## 1\. AI coding cần có regression testing
+## 1\. Edge computing đang trở thành một nền tảng ứng dụng đa giao thức
 
-Copilot Evals là một trong những cập nhật đáng quan tâm nhất hôm nay.
+Inbound TCP và gRPC là cập nhật đáng chú ý nhất hôm nay.
 
-Khi coding agent sử dụng nhiều skills và MCP tools, chỉ cần một thay đổi nhỏ trong prompt hoặc model cũng có thể ảnh hưởng đến kết quả.
+Trước đây, nhiều ứng dụng cần TCP sockets hoặc gRPC streaming thường được triển khai trên VPS, Kubernetes hoặc container platforms.
 
-Theo mình, AI agents nên được kiểm thử tương tự những thành phần phần mềm quan trọng khác.
+Việc Cloudflare mở rộng Workers và Containers cho những workloads này tạo thêm lựa chọn kiến trúc.
 
-Một agent hoạt động tốt hôm qua không đảm bảo tiếp tục hoạt động tốt sau khi đổi model.
+Tuy nhiên, developer cần đánh giá giới hạn kết nối, chi phí, độ trễ và khả năng khôi phục trước khi chuyển production.
 
-## 2\. Review tự động không thay thế trách nhiệm kỹ thuật
+## 2\. WAF là một lớp phòng vệ, không phải bản vá phần mềm
 
-Adaptive code review có thể giúp giảm công việc thủ công.
+Các rule mới cho PHP và Ruby có thể giảm nguy cơ khai thác.
 
-Tuy nhiên, developer vẫn cần xác nhận những thay đổi liên quan đến authentication, payment, permissions và database migrations.
+Nhưng nếu ứng dụng sử dụng phiên bản bị ảnh hưởng, WAF không thay thế việc cập nhật dependencies và runtime.
 
-AI findings nên được xem là tín hiệu hỗ trợ quyết định, không phải bằng chứng tuyệt đối rằng mã nguồn đã an toàn.
+Đặc biệt, các rule ở chế độ Log chỉ hỗ trợ phát hiện, không tự động chặn request.
 
-## 3\. Event-driven automation là hướng đi đáng theo dõi
+## 3\. Browser automation cần được thiết kế theo kết quả mong muốn
 
-Nhiều coding agents hiện hoạt động bằng cách định kỳ kiểm tra GitHub API.
+Một agent cần PDF, links và structured data không nên phải mở lại cùng một trang nhiều lần nếu có thể thu thập dữ liệu trong một workflow.
 
-Cách làm này đơn giản nhưng có thể tạo ra nhiều requests không cần thiết.
+Cập nhật `/snapshot` của Cloudflare phù hợp với hướng tối ưu này.
 
-Event Streams mở ra khả năng xây dựng agents phản ứng trực tiếp với thay đổi của pull request.
+Tuy nhiên, khi thêm AI extraction, developer cần tính đến chi phí, độ chính xác và khả năng prompt injection từ nội dung web.
 
-Theo mình, mô hình này phù hợp với những workflows cần chờ CI, review hoặc merge.
+## 4\. Reliability cần được xây dựng từ nhiều lớp
 
-Tuy nhiên, hệ thống vẫn phải xử lý mất kết nối, sự kiện trùng lặp và trạng thái bị bỏ lỡ.
+Cloudflare cải thiện Durable Objects là tín hiệu tích cực.
 
-## 4\. Browser automation mở rộng khả năng nhưng cũng tăng rủi ro
+Nhưng không có hệ thống phân tán nào nên giả định kết nối luôn tồn tại.
 
-Khi coding agents có quyền điều khiển browser, chúng có thể kiểm tra ứng dụng thực tế tốt hơn.
+Reconnect, retry, idempotency và observability vẫn là những thành phần bắt buộc của một kiến trúc đáng tin cậy.
 
-Đổi lại, phạm vi tác động của agent cũng lớn hơn.
+## 5\. CI/CD portability là một lợi thế lâu dài
 
-Các môi trường staging, tài khoản thử nghiệm và permission boundaries cần được thiết kế rõ ràng.
+RHEL runners và Enterprise Live Migrations cho thấy GitHub tiếp tục chú trọng nhu cầu doanh nghiệp.
 
-## 5\. Chất lượng AI không chỉ nằm ở model
+Với những tổ chức có nhiều môi trường, việc giảm khác biệt giữa CI và production có thể giúp hạn chế những lỗi khó tái hiện.
 
-Những cập nhật về Evals, code review và benchmarks cho thấy một xu hướng quan trọng.
-
-Chất lượng của AI coding system phụ thuộc vào model, tools, context, harness và quy trình kiểm chứng.
-
-Theo mình, thay vì liên tục đổi sang model mới nhất, developer nên xây dựng bộ đánh giá đủ tốt để biết khi nào một thay đổi thực sự mang lại lợi ích.
+Theo mình, lựa chọn runner nên dựa trên yêu cầu kỹ thuật thực tế, không chỉ dựa trên hệ điều hành phổ biến nhất.
 
 ---
 
 # Kết luận
 
-Daily Tech Brief ngày 18/11/2026 ghi nhận một bước tiến đáng chú ý của hệ sinh thái GitHub Copilot.
+Daily Tech Brief ngày 20/11/2026 ghi nhận một ngày tập trung vào hạ tầng thực tế.
 
-GPT-6.2 Astra và Sol mở rộng lựa chọn model.
+Cloudflare mở rộng Workers cho TCP và gRPC, cải thiện Durable Objects, bổ sung khả năng browser extraction và tăng cường WAF.
 
-Copilot Evals giúp kiểm tra AI agents bằng những bài thử có thể lặp lại.
-
-Adaptive code review và secret scanning tăng khả năng phát hiện vấn đề trong quá trình phát triển.
-
-Event Streams và browser use mở rộng cách coding agents tương tác với môi trường thực tế.
+GitHub mở rộng CI/CD với RHEL runners, cải tiến trải nghiệm pull request và hỗ trợ những nhu cầu enterprise migration.
 
 Ba việc developer nên ưu tiên:
 
-1. Xây dựng bộ eval nhỏ cho những coding agents đang sử dụng.
-2. Thử Adaptive code review và kiểm tra chất lượng findings.
-3. Đánh giá kiến trúc event-driven cho những workflows đang polling GitHub API.
+1. Đánh giá inbound TCP/gRPC nếu đang xây dựng ứng dụng realtime hoặc streaming.
+2. Kiểm tra WAF rules, đặc biệt những rule mới ở chế độ Log.
+3. Rà soát reconnect và retry logic của các hệ thống dùng WebSockets hoặc Durable Objects.
 
-**Thông điệp chính: Giá trị của AI coding không chỉ nằm ở khả năng tạo mã nhanh hơn, mà còn ở khả năng kiểm chứng kết quả, kiểm soát rủi ro và vận hành tự động một cách đáng tin cậy.**
+**Thông điệp chính: Nền tảng developer hiện đại không chỉ cần triển khai nhanh, mà còn phải hỗ trợ đúng giao thức, bảo vệ đúng rủi ro và duy trì hoạt động ổn định khi hạ tầng thay đổi.**
 
 ---
 
 # Nguồn tham khảo
 
-1. [GitHub — GPT-6.2 Astra and Sol](https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available/)
-2. [GitHub — MAI Code 2](https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/)
-3. [GitHub — Copilot Evals](https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview/)
-4. [GitHub — Adaptive Code Review](https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more/)
-5. [GitHub — Repository Insights](https://github.blog/changelog/2026-11-17-track-copilot-code-review-outcomes-in-repository-insights/)
-6. [GitHub — Secret Scanning On Demand](https://github.blog/changelog/2026-11-17-secret-scanning-on-demand-for-developers-and-agents/)
-7. [GitHub — Event Streams](https://github.blog/changelog/2026-11-17-github-event-streams-is-now-in-preview/)
-8. [GitHub — Browser Use](https://github.blog/changelog/2026-11-17-let-github-copilot-interact-with-your-browser/)
-9. [GitHub — Microsoft Entra Sign-In](https://github.blog/changelog/2026-11-17-github-copilot-cli-adds-microsoft-entra-sign-in-as-a-preview/)
-10. [GitHub — Changelog](https://github.blog/changelog/)
-11. [GitHub — Copilot CLI Repository](https://github.com/github/copilot-cli)
+1. [Cloudflare — Inbound TCP and gRPC](https://developers.cloudflare.com/changelog/post/2026-11-19-inbound-tcp/)
+2. [Cloudflare — WAF Emergency Release](https://developers.cloudflare.com/changelog/post/2026-11-19-emergency-waf-release/)
+3. [Cloudflare — Browser Run Snapshot](https://developers.cloudflare.com/changelog/post/2026-11-19-snapshot-all-formats/)
+4. [Cloudflare — Durable Objects Reliability](https://developers.cloudflare.com/changelog/post/2026-11-19-durable-objects-runtime-update-reliability/)
+5. [Cloudflare — LL-HLS B-frame Detection](https://developers.cloudflare.com/changelog/post/2026-11-19-ll-hls-b-frame-warning/)
+6. [Cloudflare — Spectrum Dashboard](https://developers.cloudflare.com/changelog/post/2026-11-19-redesigned-dashboard/)
+7. [Cloudflare — Changelog](https://developers.cloudflare.com/changelog/)
+8. [GitHub — RHEL Runners GA](https://github.blog/changelog/2026-11-19-red-hat-enterprise-linux-runner-images-now-generally-available/)
+9. [GitHub — Enterprise Live Migrations](https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available/)
+10. [GitHub — Pull Request Overview](https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview/)
+11. [GitHub — S3 Audit Log Streaming](https://github.blog/changelog/2026-11-19-s3-audit-log-streaming-with-openid-connect-expands-to-ghe-com/)
+12. [Cloudflare Workers SDK Repository](https://github.com/cloudflare/workers-sdk)
 
 ---
 
 # Thống kê độ mới
 
-**Ngày bản tin:** 18/11/2026.
+**Tổng số cập nhật biên tập:** 12.
 
-**Tổng số cập nhật độc lập được biên tập:** 11.
+**Cập nhật có ngày công bố 19/11/2026:** 11.
 
-**Cập nhật có ngày công bố 17/11/2026:** 11.
+**Cập nhật có ngày công bố 20/11/2026:** 1 (Cloudflare Images Analytics).
 
-**Số tin có timestamp xác minh chính xác thuộc 24 giờ gần nhất:** Chưa xác định.
+**Số tin xác minh chính xác thuộc cửa sổ 24 giờ trước 07:30:** Chưa xác định do thiếu timestamp theo giờ.
 
-**Tin mở rộng 24–72 giờ:** Không đưa vào bài.
+**Tin mở rộng 24–72 giờ:** Không có.
 
-Tất cả cập nhật đều được nguồn chính thức ghi ngày 17/11/2026, nhưng không có đủ timestamp theo giờ để xác nhận từng tin nằm trong cửa sổ 24 giờ tính đến 07:30 Việt Nam.
+Không lặp lại các tin ngày 18/11 về Gemini 4 Neon, GitHub MCP Connectors, GitHub CLI Event Streams hay Workers VPC mTLS.
 
-Không lặp lại tin ngày 16/11 nếu không có thay đổi mới.
+Không bịa GitHub stars, số liệu benchmark hoặc trạng thái GA/Beta.
 
-Không bịa GitHub stars, benchmark hoặc trạng thái phát hành.
-
-Không tạo cover hoặc tệp Markdown.
+Không tạo ảnh cover hoặc tệp Markdown.
