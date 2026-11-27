@@ -7,6 +7,7 @@ deprecated và Cloudflare cải thiện data pipelines."
 datePublished: 2026-11-27T03:28:17.021Z
 cuid: cmwyf8qsr000007ic87ps5ig7
 slug: daily-tech-brief-27-11-2026
+cover: https://cdn.hashnode.com/uploads/covers/5f802df9bbabf10ec84d9fe8/50d4440a-5163-4cb0-bf81-c00d53453921.png
 ogImage: https://cdn.hashnode.com/uploads/og-images/5f802df9bbabf10ec84d9fe8/ff77440c-8b37-444b-a1a1-5f8d60e69256.png
 tags: cloudflare, google-cloud, devops, bigquery, multi-cloud, data-engineering, apache-airflow, cloud-infrastructure, ai-agents, api-migration, daily-tech-brief, daily-tech-brief-27-11-2026
 
